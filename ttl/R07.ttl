@@ -1,0 +1,276 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/R07/current/QC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R07::QC";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R07::QC";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R07/current/QC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "QC";
+        skos:definition        "Quality control performed."@en;
+        skos:notation          "SDN:R07::QC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Quality control"@en .
+
+<http://vocab.nerc.ac.uk/collection/R07/current/IP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R07::IP";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R07::IP";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R07/current/IP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "IP";
+        skos:definition        "This history group operates on the complete input record."@en;
+        skos:notation          "SDN:R07::IP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "History group for complete input record"@en .
+
+<http://vocab.nerc.ac.uk/collection/R07/current/DC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R07::DC";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R07::DC";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R07/current/DC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "DC";
+        skos:definition        "The station was checked using duplicate checking software."@en;
+        skos:notation          "SDN:R07::DC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Station check with duplicate checking software"@en .
+
+<http://vocab.nerc.ac.uk/collection/R07/current/SV/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R07::SV";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R07::SV";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R07/current/SV/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SV";
+        skos:definition        "Set a value."@en;
+        skos:notation          "SDN:R07::SV";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Value set"@en .
+
+<http://vocab.nerc.ac.uk/collection/R07/current/UP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R07::UP";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R07::UP";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R07/current/UP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "UP";
+        skos:definition        "The station passed through the update program."@en;
+        skos:notation          "SDN:R07::UP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Station passed through the update program"@en .
+
+<http://vocab.nerc.ac.uk/collection/R07/current/CF/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R07::CF";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R07::CF";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R07/current/CF/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "CF";
+        skos:definition        "A quality flag was changed."@en;
+        skos:notation          "SDN:R07::CF";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Quality flag change"@en .
+
+<http://vocab.nerc.ac.uk/collection/R07/current/PE/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R07::PE";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R07::PE";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R07/current/PE/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "PE";
+        skos:definition        "Profile position has been erroneously encoded, and has been corrected where possible."@en;
+        skos:notation          "SDN:R07::PE";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Position error"@en .
+
+<http://vocab.nerc.ac.uk/collection/R07/current/NG/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R07::NG";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R07::NG";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R07/current/NG/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "NG";
+        skos:definition        "No good trace."@en;
+        skos:notation          "SDN:R07::NG";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "No good trace"@en .
+
+<http://vocab.nerc.ac.uk/collection/R07/current/ED/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R07::ED";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R07::ED";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R07/current/ED/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ED";
+        skos:definition        "A parameter value was edited."@en;
+        skos:notation          "SDN:R07::ED";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Parameter value edit"@en .
+
+<http://vocab.nerc.ac.uk/collection/R07/current/CR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R07::CR";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R07::CR";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R07/current/CR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "CR";
+        skos:definition        "A new record was created."@en;
+        skos:notation          "SDN:R07::CR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Record creation"@en .
+
+<http://vocab.nerc.ac.uk/collection/R07/current/TE/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R07::TE";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R07::TE";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R07/current/TE/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "TE";
+        skos:definition        "Profile date and/or time have been erroneously encoded, and have been corrected where possible."@en;
+        skos:notation          "SDN:R07::TE";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Time error"@en .
+
+<http://vocab.nerc.ac.uk/collection/R07/current/CV/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R07::CV";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R07::CV";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R07/current/CV/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "CV";
+        skos:definition        "A value was changed."@en;
+        skos:notation          "SDN:R07::CV";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Value change"@en .
+
+<http://vocab.nerc.ac.uk/collection/R07/current/QCP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R07::QCP";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R07::QCP";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R07/current/QCP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "QCP$";
+        skos:definition        "Tests performed."@en;
+        skos:notation          "SDN:R07::QCP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Tests performed"@en .
+
+<http://vocab.nerc.ac.uk/collection/R07/current/QCF/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R07::QCF";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R07::QCF";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R07/current/QCF/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "QCF$";
+        skos:definition        "Tests failed."@en;
+        skos:notation          "SDN:R07::QCF";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Tests failed"@en .
+
+<http://vocab.nerc.ac.uk/collection/R07/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the Argo data system, published and maintained by the Argo Data Management Team (ADMT) and hosted on the NERC Vocabulary Server.";
+        rdfs:seeAlso            <https://github.com/OneArgo/ArgoVocabs>;
+        dc:alternative          "HISTORY_ACTION";
+        dc:creator              "Argo Data Management Team";
+        dc:date                 "2020-04-08 03:00:04.0";
+        dc:description          "Coded history information for each action performed on each profile by a data centre. Argo netCDF variable HISTORY_ACTION is populated by R07 altLabel.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Argo history action codes";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Argo Data Management Team";
+        owl:versionInfo         "1";
+        skos:altLabel           "HISTORY_ACTION";
+        skos:member             <http://vocab.nerc.ac.uk/collection/R07/current/QC/> , <http://vocab.nerc.ac.uk/collection/R07/current/IP/> , <http://vocab.nerc.ac.uk/collection/R07/current/DC/> , <http://vocab.nerc.ac.uk/collection/R07/current/SV/> , <http://vocab.nerc.ac.uk/collection/R07/current/UP/> , <http://vocab.nerc.ac.uk/collection/R07/current/CF/> , <http://vocab.nerc.ac.uk/collection/R07/current/PE/> , <http://vocab.nerc.ac.uk/collection/R07/current/NG/> , <http://vocab.nerc.ac.uk/collection/R07/current/ED/> , <http://vocab.nerc.ac.uk/collection/R07/current/CR/> , <http://vocab.nerc.ac.uk/collection/R07/current/TE/> , <http://vocab.nerc.ac.uk/collection/R07/current/CV/> , <http://vocab.nerc.ac.uk/collection/R07/current/QCF/> , <http://vocab.nerc.ac.uk/collection/R07/current/QCP/>;
+        skos:prefLabel          "Argo history action codes" .

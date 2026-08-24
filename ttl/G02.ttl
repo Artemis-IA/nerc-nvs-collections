@@ -1,0 +1,193 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/G02/current/002/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G02::002";
+        dc:date                "2012-07-04 10:55:22.0";
+        dc:identifier          "SDN:G02::002";
+        pav:authoredOn         "2012-07-04 10:55:22.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G02/current/002/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Online information about the resource"@en;
+        skos:notation          "SDN:G02::002";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "information"@en .
+
+<http://vocab.nerc.ac.uk/collection/G02/current/005/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G02::005";
+        dc:date                "2012-07-04 10:55:22.0";
+        dc:identifier          "SDN:G02::005";
+        pav:authoredOn         "2012-07-04 10:55:22.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G02/current/005/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Online search interface for seeking out information about the resource"@en;
+        skos:notation          "SDN:G02::005";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "search"@en .
+
+<http://vocab.nerc.ac.uk/collection/G02/current/006/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G02::006";
+        dc:date                "2012-07-04 10:55:22.0";
+        dc:identifier          "SDN:G02::006";
+        pav:authoredOn         "2012-07-04 10:55:22.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G02/current/006/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Manual interaction with an on-line system by registered users following successful authentication and authorisation"@en;
+        skos:notation          "SDN:G02::006";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "downloadRegistration"@en .
+
+<http://vocab.nerc.ac.uk/collection/G02/current/003/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G02::003";
+        dc:date                "2012-07-04 10:55:22.0";
+        dc:identifier          "SDN:G02::003";
+        pav:authoredOn         "2012-07-04 10:55:22.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G02/current/003/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Online instructions for requesting the resource from the provider"@en;
+        skos:notation          "SDN:G02::003";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "offlineAccess"@en .
+
+<http://vocab.nerc.ac.uk/collection/G02/current/008/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G02::008";
+        dc:date                "2013-05-20 16:01:27.0";
+        dc:identifier          "SDN:G02::008";
+        pav:authoredOn         "2013-05-20 16:01:27.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G02/current/008/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/G02/current/008/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "Online resource locator for transferring data from one storage device or system to another"@en;
+        skos:notation          "SDN:G02::008";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "directDownload"@en .
+
+<http://vocab.nerc.ac.uk/collection/G02/current/004/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G02::004";
+        dc:date                "2012-07-04 10:55:22.0";
+        dc:identifier          "SDN:G02::004";
+        pav:authoredOn         "2012-07-04 10:55:22.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G02/current/004/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Online order process for obtaining the resource"@en;
+        skos:notation          "SDN:G02::004";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "order"@en .
+
+<http://vocab.nerc.ac.uk/collection/G02/current/009/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G02::009";
+        dc:date                "2013-05-16 15:01:58.0";
+        dc:identifier          "SDN:G02::009";
+        pav:authoredOn         "2013-05-16 15:01:58.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G02/current/009/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/G02/current/009/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "Online system for visualisation of high resolution seismic data by registered users following successful authentication and authorisation"@en;
+        skos:notation          "SDN:G02::009";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "hrsvsRegistration"@en .
+
+<http://vocab.nerc.ac.uk/collection/G02/current/001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G02::001";
+        dc:date                "2012-07-04 10:55:22.0";
+        dc:identifier          "SDN:G02::001";
+        pav:authoredOn         "2012-07-04 10:55:22.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G02/current/001/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Online instructions for transferring data from one storage device or system to another"@en;
+        skos:notation          "SDN:G02::001";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "download"@en .
+
+<http://vocab.nerc.ac.uk/collection/G02/current/007/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G02::007";
+        dc:date                "2013-05-20 16:00:51.0";
+        dc:identifier          "SDN:G02::007";
+        pav:authoredOn         "2013-05-20 16:00:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G02/current/007/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/G02/current/007/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "online resource locator for accessing data using a specific web protocol"@en;
+        skos:notation          "SDN:G02::007";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "URL"@en .
+
+<http://vocab.nerc.ac.uk/collection/G02/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "International governance for standards covering many domains within science and beyond.";
+        dc:alternative          "CI_OnlineFunctionCode";
+        dc:creator              "International Organization for Standardization";
+        dc:date                 "2013-05-21 02:00:03.0";
+        dc:description          "Function performed by the resource";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "CI_OnlineFunctionCode";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "International Organization for Standardization";
+        owl:versionInfo         "3";
+        skos:altLabel           "CI_OnlineFunctionCode";
+        skos:member             <http://vocab.nerc.ac.uk/collection/G02/current/002/> , <http://vocab.nerc.ac.uk/collection/G02/current/005/> , <http://vocab.nerc.ac.uk/collection/G02/current/006/> , <http://vocab.nerc.ac.uk/collection/G02/current/003/> , <http://vocab.nerc.ac.uk/collection/G02/current/008/> , <http://vocab.nerc.ac.uk/collection/G02/current/004/> , <http://vocab.nerc.ac.uk/collection/G02/current/007/> , <http://vocab.nerc.ac.uk/collection/G02/current/001/> , <http://vocab.nerc.ac.uk/collection/G02/current/009/>;
+        skos:prefLabel          "CI_OnlineFunctionCode" .

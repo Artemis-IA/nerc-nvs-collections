@@ -1,0 +1,266 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/L20/current/9/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L20::9";
+        dc:date                "2019-05-09 18:08:07.0";
+        dc:identifier          "SDN:L20::9";
+        pav:authoredOn         "2019-05-09 18:08:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L20/current/9/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L20/current/9/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "missing";
+        skos:definition        "The data value is missing. There should be no accompanying value in ODV format files. The accompanying value in SeaDataNet NetCDF data must be the absent data representation specified by the _FillValue parameter attribute and lie outside the range of data not flagged bad (4) or probably bad (3)."@en;
+        skos:notation          "SDN:L20::9";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "missing value"@en .
+
+<http://vocab.nerc.ac.uk/collection/L20/current/0/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L20::0";
+        dc:date                "2007-05-17 10:47:30.0";
+        dc:identifier          "SDN:L20::0";
+        pav:authoredOn         "2007-05-17 10:47:30.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L20/current/0/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "none";
+        skos:definition        "No quality control procedures have been applied to the data value. This is the initial status for all data values entering the working archive."@en;
+        skos:notation          "SDN:L20::0";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "no quality control"@en .
+
+<http://vocab.nerc.ac.uk/collection/L20/current/6/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L20::6";
+        dc:date                "2018-04-04 16:35:21.0";
+        dc:identifier          "SDN:L20::6";
+        pav:authoredOn         "2018-04-04 16:35:21.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L20/current/6/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L20/current/6/3/> , <http://vocab.nerc.ac.uk/collection/L20/current/6/1/> , <http://vocab.nerc.ac.uk/collection/L20/current/6/2/>;
+        pav:version            "4";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "4";
+        skos:altLabel          "BD";
+        skos:definition        "The level of the measured phenomenon was less than the limit of detection (LoD) for the method employed to measure it. The accompanying value is the detection limit for the technique or zero if that value is unknown."@en;
+        skos:notation          "SDN:L20::6";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "value below detection"@en .
+
+<http://vocab.nerc.ac.uk/collection/L20/current/7/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L20::7";
+        dc:date                "2009-05-12 09:15:02.0";
+        dc:identifier          "SDN:L20::7";
+        pav:authoredOn         "2009-05-12 09:15:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L20/current/7/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L20/current/7/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "excess";
+        skos:definition        "The level of the measured phenomenon was too large to be quantified by the technique employed to measure it.  The accompanying value is the measurement limit for the technique."@en;
+        skos:notation          "SDN:L20::7";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "value in excess"@en .
+
+<http://vocab.nerc.ac.uk/collection/L20/current/B/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L20::B";
+        dc:date                "2022-05-13 08:18:02.0";
+        dc:identifier          "SDN:L20::B";
+        pav:authoredOn         "2022-05-13 08:18:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L20/current/B/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L20/current/B/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "nominal";
+        skos:definition        "The data value is a numerical data value that was the intended or targeted value rather than the measured value (e.g. instrument target depth)."@en;
+        skos:notation          "SDN:L20::B";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "nominal value"@en .
+
+<http://vocab.nerc.ac.uk/collection/L20/current/8/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L20::8";
+        dc:date                "2007-05-17 10:47:30.0";
+        dc:identifier          "SDN:L20::8";
+        pav:authoredOn         "2007-05-17 10:47:30.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L20/current/8/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "interpolated";
+        skos:definition        "This value has been derived by interpolation from other values in the data object."@en;
+        skos:notation          "SDN:L20::8";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "interpolated value"@en .
+
+<http://vocab.nerc.ac.uk/collection/L20/current/1/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L20::1";
+        dc:date                "2009-05-12 09:11:55.0";
+        dc:identifier          "SDN:L20::1";
+        pav:authoredOn         "2009-05-12 09:11:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L20/current/1/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L20/current/1/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "good";
+        skos:definition        "Good quality data value that is not part of any identified malfunction and has been verified as consistent with real phenomena during the quality control process."@en;
+        skos:notation          "SDN:L20::1";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "good value"@en .
+
+<http://vocab.nerc.ac.uk/collection/L20/current/3/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L20::3";
+        dc:date                "2007-05-17 10:47:30.0";
+        dc:identifier          "SDN:L20::3";
+        pav:authoredOn         "2007-05-17 10:47:30.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L20/current/3/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "probably_bad";
+        skos:definition        "Data value recognised as unusual during quality control that forms part of a feature that is probably inconsistent with real phenomena."@en;
+        skos:notation          "SDN:L20::3";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "probably bad value"@en .
+
+<http://vocab.nerc.ac.uk/collection/L20/current/5/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L20::5";
+        dc:date                "2007-05-17 10:47:30.0";
+        dc:identifier          "SDN:L20::5";
+        pav:authoredOn         "2007-05-17 10:47:30.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L20/current/5/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "changed";
+        skos:definition        "Data value adjusted during quality control.  Best practice strongly recommends that the value before the change be preserved in the data or its accompanying metadata."@en;
+        skos:notation          "SDN:L20::5";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "changed value"@en .
+
+<http://vocab.nerc.ac.uk/collection/L20/current/Q/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L20::Q";
+        dc:date                "2020-06-16 16:41:43.0";
+        dc:identifier          "SDN:L20::Q";
+        pav:authoredOn         "2020-06-16 16:41:43.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L20/current/Q/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L20/current/Q/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "BelowLOQ";
+        skos:definition        "The level of the measured phenomenon was less than the limit of quantification (LoQ). The accompanying value is the limit of quantification for the analytical method."@en;
+        skos:notation          "SDN:L20::Q";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "value below limit of quantification"@en .
+
+<http://vocab.nerc.ac.uk/collection/L20/current/2/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L20::2";
+        dc:date                "2007-05-17 10:47:30.0";
+        dc:identifier          "SDN:L20::2";
+        pav:authoredOn         "2007-05-17 10:47:30.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L20/current/2/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "probably_good";
+        skos:definition        "Data value that is probably consistent with real phenomena but this is unconfirmed or data value forming part of a malfunction that is considered too small to affect the overall quality of the data object of which it is a part."@en;
+        skos:notation          "SDN:L20::2";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "probably good value"@en .
+
+<http://vocab.nerc.ac.uk/collection/L20/current/4/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L20::4";
+        dc:date                "2007-05-17 10:47:30.0";
+        dc:identifier          "SDN:L20::4";
+        pav:authoredOn         "2007-05-17 10:47:30.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L20/current/4/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "bad";
+        skos:definition        "An obviously erroneous data value."@en;
+        skos:notation          "SDN:L20::4";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "bad value"@en .
+
+<http://vocab.nerc.ac.uk/collection/L20/current/A/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L20::A";
+        dc:date                "2007-05-17 10:47:30.0";
+        dc:identifier          "SDN:L20::A";
+        pav:authoredOn         "2007-05-17 10:47:30.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L20/current/A/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ID_uncertain";
+        skos:definition        "There is uncertainty in the description of the measured phenomenon associated with the value such as chemical species or biological entity."@en;
+        skos:notation          "SDN:L20::A";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "value phenomenon uncertain"@en .
+
+<http://vocab.nerc.ac.uk/collection/L20/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the EU SeaDataNet project implemented as consultation between BODC and the members of the SeaDataNet Technical Task Team";
+        rdfs:seeAlso            <https://github.com/nvs-vocabs/L20>;
+        dc:alternative          "SeaDataNet flags";
+        dc:creator              "SeaDataNet";
+        dc:date                 "2022-05-14 03:00:05.0";
+        dc:description          "Flags used to provide additional information, usually referring to data quality, about data values in SeaDataNet data files.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "SeaDataNet measurand qualifier flags";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "SeaDataNet";
+        owl:versionInfo         "8";
+        skos:altLabel           "SeaDataNet flags";
+        skos:member             <http://vocab.nerc.ac.uk/collection/L20/current/9/> , <http://vocab.nerc.ac.uk/collection/L20/current/0/> , <http://vocab.nerc.ac.uk/collection/L20/current/6/> , <http://vocab.nerc.ac.uk/collection/L20/current/7/> , <http://vocab.nerc.ac.uk/collection/L20/current/B/> , <http://vocab.nerc.ac.uk/collection/L20/current/8/> , <http://vocab.nerc.ac.uk/collection/L20/current/1/> , <http://vocab.nerc.ac.uk/collection/L20/current/3/> , <http://vocab.nerc.ac.uk/collection/L20/current/5/> , <http://vocab.nerc.ac.uk/collection/L20/current/Q/> , <http://vocab.nerc.ac.uk/collection/L20/current/2/> , <http://vocab.nerc.ac.uk/collection/L20/current/4/> , <http://vocab.nerc.ac.uk/collection/L20/current/A/>;
+        skos:prefLabel          "SeaDataNet measurand qualifier flags" .

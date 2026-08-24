@@ -1,0 +1,241 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/N03/current/RSectF/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N03::RSectF";
+        dc:date                "2007-01-10 09:08:00.0";
+        dc:identifier          "SDN:N03::RSectF";
+        pav:authoredOn         "2007-01-10 09:08:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N03/current/RSectF/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "RaggedSectionFt";
+        skos:definition        "A series of unequal-length profile measurements taken vertically from a location moving along a path in time and space."@en;
+        skos:notation          "SDN:N03::RSectF";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "RaggedSectionFeature"@en .
+
+<http://vocab.nerc.ac.uk/collection/N03/current/RProfSF/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N03::RProfSF";
+        dc:date                "2007-01-10 09:08:00.0";
+        dc:identifier          "SDN:N03::RProfSF";
+        pav:authoredOn         "2007-01-10 09:08:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N03/current/RProfSF/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "RaggedProfileSeriesFt";
+        skos:definition        "A time series of unequal-length profiles measurements along a fixed vertical line in space."@en;
+        skos:notation          "SDN:N03::RProfSF";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "RaggedProfileSeriesFeature"@en .
+
+<http://vocab.nerc.ac.uk/collection/N03/current/PointSF/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N03::PointSF";
+        dc:date                "2007-01-10 09:08:00.0";
+        dc:identifier          "SDN:N03::PointSF";
+        pav:authoredOn         "2007-01-10 09:08:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N03/current/PointSF/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "PointSeriesFt";
+        skos:definition        "A time series of point measurements of some phenomenon at a single location in space."@en;
+        skos:notation          "SDN:N03::PointSF";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "PointSeriesFeature"@en .
+
+<http://vocab.nerc.ac.uk/collection/N03/current/TrajF/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N03::TrajF";
+        dc:date                "2007-01-10 09:08:00.0";
+        dc:identifier          "SDN:N03::TrajF";
+        pav:authoredOn         "2007-01-10 09:08:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N03/current/TrajF/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "TrajectoryFt";
+        skos:definition        "A measurement of some phenomenon along a path in time and space"@en;
+        skos:notation          "SDN:N03::TrajF";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "TrajectoryFeature"@en .
+
+<http://vocab.nerc.ac.uk/collection/N03/current/PointF/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N03::PointF";
+        dc:date                "2007-01-10 09:08:00.0";
+        dc:identifier          "SDN:N03::PointF";
+        pav:authoredOn         "2007-01-10 09:08:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N03/current/PointF/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "PointFt";
+        skos:definition        "A single point measurement of some phenomenon at a single location in space and time."@en;
+        skos:notation          "SDN:N03::PointF";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "PointFeature"@en .
+
+<http://vocab.nerc.ac.uk/collection/N03/current/ProfSF/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N03::ProfSF";
+        dc:date                "2007-01-10 09:08:00.0";
+        dc:identifier          "SDN:N03::ProfSF";
+        pav:authoredOn         "2007-01-10 09:08:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N03/current/ProfSF/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ProfileSeriesFt";
+        skos:definition        "A time series of equal-length profiles measured along a fixed vertical line in space."@en;
+        skos:notation          "SDN:N03::ProfSF";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ProfileSeriesFeature"@en .
+
+<http://vocab.nerc.ac.uk/collection/N03/current/SRadarF/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N03::SRadarF";
+        dc:date                "2007-01-10 09:08:00.0";
+        dc:identifier          "SDN:N03::SRadarF";
+        pav:authoredOn         "2007-01-10 09:08:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N03/current/SRadarF/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ScanningRadarFt";
+        skos:definition        "The measurement of some phenomenon by a scanning radar."@en;
+        skos:notation          "SDN:N03::SRadarF";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ScanningRadarFeature"@en .
+
+<http://vocab.nerc.ac.uk/collection/N03/current/GridF/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N03::GridF";
+        dc:date                "2007-01-10 09:08:00.0";
+        dc:identifier          "SDN:N03::GridF";
+        pav:authoredOn         "2007-01-10 09:08:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N03/current/GridF/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "GridFt";
+        skos:definition        "A single time-snapshot of a gridded parameter field."@en;
+        skos:notation          "SDN:N03::GridF";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GridFeature"@en .
+
+<http://vocab.nerc.ac.uk/collection/N03/current/GridSF/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N03::GridSF";
+        dc:date                "2007-01-10 09:08:00.0";
+        dc:identifier          "SDN:N03::GridSF";
+        pav:authoredOn         "2007-01-10 09:08:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N03/current/GridSF/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "GridSeriesFt";
+        skos:definition        "A timeseries of gridded parameter fields."@en;
+        skos:notation          "SDN:N03::GridSF";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GridSeriesFeature"@en .
+
+<http://vocab.nerc.ac.uk/collection/N03/current/SectF/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N03::SectF";
+        dc:date                "2007-01-10 09:08:00.0";
+        dc:identifier          "SDN:N03::SectF";
+        pav:authoredOn         "2007-01-10 09:08:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N03/current/SectF/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SectionFt";
+        skos:definition        "A series of equal-length profile measurements taken vertically from a location moving along a path in time and space."@en;
+        skos:notation          "SDN:N03::SectF";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "SectionFeature"@en .
+
+<http://vocab.nerc.ac.uk/collection/N03/current/ProfileF/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N03::ProfileF";
+        dc:date                "2007-01-10 09:08:00.0";
+        dc:identifier          "SDN:N03::ProfileF";
+        pav:authoredOn         "2007-01-10 09:08:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N03/current/ProfileF/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ProfileFt";
+        skos:definition        "Multiple measurements of some phenomenon along a directed vertical line in space."@en;
+        skos:notation          "SDN:N03::ProfileF";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ProfileFeature"@en .
+
+<http://vocab.nerc.ac.uk/collection/N03/current/SwathF/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N03::SwathF";
+        dc:date                "2007-01-10 09:08:00.0";
+        dc:identifier          "SDN:N03::SwathF";
+        pav:authoredOn         "2007-01-10 09:08:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N03/current/SwathF/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SwathFt";
+        skos:definition        "A single satellite swath describing some measured phenomenon."@en;
+        skos:notation          "SDN:N03::SwathF";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "SwathFeature"@en .
+
+<http://vocab.nerc.ac.uk/collection/N03/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used for cross-centre information infrastructure in NERC. Current (2011) manifestation is the NERC SIS metadata subgroup";
+        dc:alternative          "CSML feature types";
+        dc:creator              "Natural Environment Research Council";
+        dc:date                 "2007-01-10 09:39:32.0";
+        dc:description          "Terms used to specify the feature types available for coverages in the Climate Science Modelling Language (CSML).";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Climate Science Modelling Language supported feature types";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Natural Environment Research Council";
+        owl:versionInfo         "1";
+        skos:altLabel           "CSML feature types";
+        skos:member             <http://vocab.nerc.ac.uk/collection/N03/current/RSectF/> , <http://vocab.nerc.ac.uk/collection/N03/current/RProfSF/> , <http://vocab.nerc.ac.uk/collection/N03/current/PointSF/> , <http://vocab.nerc.ac.uk/collection/N03/current/TrajF/> , <http://vocab.nerc.ac.uk/collection/N03/current/PointF/> , <http://vocab.nerc.ac.uk/collection/N03/current/ProfSF/> , <http://vocab.nerc.ac.uk/collection/N03/current/SRadarF/> , <http://vocab.nerc.ac.uk/collection/N03/current/GridF/> , <http://vocab.nerc.ac.uk/collection/N03/current/GridSF/> , <http://vocab.nerc.ac.uk/collection/N03/current/SwathF/> , <http://vocab.nerc.ac.uk/collection/N03/current/ProfileF/> , <http://vocab.nerc.ac.uk/collection/N03/current/SectF/>;
+        skos:prefLabel          "Climate Science Modelling Language supported feature types" .

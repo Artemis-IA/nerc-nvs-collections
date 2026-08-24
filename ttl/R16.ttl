@@ -1,0 +1,293 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/R16/current/NSMIXUP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R16::NSMIXUP";
+        dc:date                "2020-05-03 20:29:08.0";
+        dc:identifier          "SDN:R16::NSMIXUP";
+        pav:authoredOn         "2020-05-03 20:29:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R16/current/NSMIXUP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "NSMIXUP";
+        skos:definition        "Near-surface sampling scheme for which the 'mixed' sampling method was used, and measurements obtained from an unpumped CTD stream. The near-surface sampling profile has N_PROF>1. It is composed of measurements focusing on the top 5 dbar of the water column, which may extend deeper so as to overlap with the primary sampling profile for the purpose of cross-calibration. These measurements are taken at pressure levels different from the primary sampling profile, or obtained by a sampling method different from that of the primary sampling profile. The 'mixed' sampling method refers to profiles composed of data points obtained by both the 'averaged' and 'discrete' sampling methods. Primary sampling profiles measuring above 5 dbar should not be labelled with this sampling scheme."@en;
+        skos:notation          "SDN:R16::NSMIXUP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Near-surface sampling: mixed, unpumped"@en .
+
+<http://vocab.nerc.ac.uk/collection/R16/current/SECDIS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R16::SECDIS";
+        dc:date                "2020-05-03 20:29:08.0";
+        dc:identifier          "SDN:R16::SECDIS";
+        pav:authoredOn         "2020-05-03 20:29:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R16/current/SECDIS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SECDIS";
+        skos:definition        "Secondary sampling scheme for which the 'discrete' sampling method was used. The secondary sampling profile has N_PROF>1, and is composed of measurements that are taken at pressure levels different from the primary sampling profile, or obtained by a sampling method different from that of the primary sampling profile. The 'discrete' sampling method refers to profiles where each data point was obtained from a single measurement (polling) from a sensor. Measurements can be taken by the Primary CTD or by auxiliary sensors."@en;
+        skos:notation          "SDN:R16::SECDIS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Secondary sampling: discrete"@en .
+
+<http://vocab.nerc.ac.uk/collection/R16/current/NSAVGP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R16::NSAVGP";
+        dc:date                "2020-05-03 20:29:08.0";
+        dc:identifier          "SDN:R16::NSAVGP";
+        pav:authoredOn         "2020-05-03 20:29:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R16/current/NSAVGP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "NSAVGP";
+        skos:definition        "Near-surface sampling scheme for which the 'averaged' sampling method was used, and measurements obtained from a pumped CTD stream. The near-surface sampling profile has N_PROF>1. It is composed of measurements focusing on the top 5 dbar of the water column, which may extend deeper so as to overlap with the primary sampling profile for the purpose of cross-calibration. These measurements are taken at pressure levels different from the primary sampling profile, or obtained by a sampling method different from that of the primary sampling profile. The 'averaged' sampling method refers to profiles where each data point was obtained from binned averages of multiple data measurements (pollings) from a sensor. Primary sampling profiles measuring above 5 dbar should not be labelled with this sampling scheme."@en;
+        skos:notation          "SDN:R16::NSAVGP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Near-surface sampling: averaged, pumped"@en .
+
+<http://vocab.nerc.ac.uk/collection/R16/current/NSMIXP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R16::NSMIXP";
+        dc:date                "2020-05-03 20:29:08.0";
+        dc:identifier          "SDN:R16::NSMIXP";
+        pav:authoredOn         "2020-05-03 20:29:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R16/current/NSMIXP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "NSMIXP";
+        skos:definition        "Near-surface sampling scheme for which the 'mixed' sampling method was used, and measurements obtained from a pumped CTD stream. The near-surface sampling profile has N_PROF>1. It is composed of measurements focusing on the top 5 dbar of the water column, which may extend deeper so as to overlap with the primary sampling profile for the purpose of cross-calibration. These measurements are taken at pressure levels different from the primary sampling profile, or obtained by a sampling method different from that of the primary sampling profile. The 'mixed' sampling method refers to profiles composed of data points obtained by both the 'averaged' and 'discrete' sampling methods. Primary sampling profiles measuring above 5 dbar should not be labelled with this sampling scheme."@en;
+        skos:notation          "SDN:R16::NSMIXP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Near-surface sampling: mixed, pumped"@en .
+
+<http://vocab.nerc.ac.uk/collection/R16/current/BOAVE/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R16::BOAVE";
+        dc:date                "2020-05-03 20:29:08.0";
+        dc:identifier          "SDN:R16::BOAVE";
+        pav:authoredOn         "2020-05-03 20:29:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R16/current/BOAVE/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "BOAVE";
+        skos:definition        "Bounce sampling scheme for which the 'averaged' sampling method was used. The bounce sampling scheme is composed of profiles with N_PROF>1 collected on multiple rises and falls during a single cycle. The profiles are temporally offset from each other and/or the primary sampling profile. The 'averaged' sampling method refers to profiles where each data point was obtained from binned averages of multiple data measurements (pollings) from a sensor. Bounce sampling scheme profiles can be sampled with the Primary CTD or with auxiliary sensors."@en;
+        skos:notation          "SDN:R16::BOAVE";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Bounce sampling: averaged"@en .
+
+<http://vocab.nerc.ac.uk/collection/R16/current/BODIS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R16::BODIS";
+        dc:date                "2020-05-03 20:29:08.0";
+        dc:identifier          "SDN:R16::BODIS";
+        pav:authoredOn         "2020-05-03 20:29:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R16/current/BODIS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "BODIS";
+        skos:definition        "Bounce sampling scheme for which the 'discrete' sampling method was used. The bounce sampling scheme is composed of profiles with N_PROF>1 collected on multiple rises and falls during a single cycle. The profiles are temporally offset from each other and/or the primary sampling profile. The 'discrete' sampling method refers to profiles where each data point was obtained from a single measurement (polling) from a sensor. Bounce sampling scheme profiles can be sampled with the Primary CTD or with auxiliary sensors."@en;
+        skos:notation          "SDN:R16::BODIS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Bounce sampling: discrete"@en .
+
+<http://vocab.nerc.ac.uk/collection/R16/current/NSAVGUP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R16::NSAVGUP";
+        dc:date                "2020-05-03 20:29:08.0";
+        dc:identifier          "SDN:R16::NSAVGUP";
+        pav:authoredOn         "2020-05-03 20:29:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R16/current/NSAVGUP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "NSAVGUP";
+        skos:definition        "Near-surface sampling scheme for which the 'averaged' sampling method was used, and measurements obtained from an unpumped CTD stream. The near-surface sampling profile has N_PROF>1. It is composed of measurements focusing on the top 5 dbar of the water column, which may extend deeper so as to overlap with the primary sampling profile for the purpose of cross-calibration. These measurements are taken at pressure levels different from the primary sampling profile, or obtained by a sampling method different from that of the primary sampling profile. The 'averaged' sampling method refers to profiles where each data point was obtained from binned averages of multiple data measurements (pollings) from a sensor. Primary sampling profiles measuring above 5 dbar should not be labelled with this sampling scheme."@en;
+        skos:notation          "SDN:R16::NSAVGUP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Near-surface sampling: averaged, unpumped"@en .
+
+<http://vocab.nerc.ac.uk/collection/R16/current/NSDISUP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R16::NSDISUP";
+        dc:date                "2020-05-03 20:29:08.0";
+        dc:identifier          "SDN:R16::NSDISUP";
+        pav:authoredOn         "2020-05-03 20:29:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R16/current/NSDISUP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "NSDISUP";
+        skos:definition        "Near-surface sampling scheme for which the 'discrete' sampling method was used, and measurements obtained from an unpumped CTD stream. The near-surface sampling profile has N_PROF>1. It is composed of measurements focusing on the top 5 dbar of the water column, which may extend deeper so as to overlap with the primary sampling profile for the purpose of cross-calibration. These measurements are taken at pressure levels different from the primary sampling profile, or obtained by a sampling method different from that of the primary sampling profile. The 'discrete' sampling method refers to profiles where each data point was obtained from a single measurement (polling) from a sensor. Primary sampling profiles measuring above 5 dbar should not be labelled with this sampling scheme."@en;
+        skos:notation          "SDN:R16::NSDISUP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Near-surface sampling: discrete, unpumped"@en .
+
+<http://vocab.nerc.ac.uk/collection/R16/current/SECAVG/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R16::SECAVG";
+        dc:date                "2020-05-03 20:29:08.0";
+        dc:identifier          "SDN:R16::SECAVG";
+        pav:authoredOn         "2020-05-03 20:29:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R16/current/SECAVG/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SECAVG";
+        skos:definition        "Secondary sampling scheme for which the 'averaged' sampling method was used. The secondary sampling profile has N_PROF>1, and is composed of measurements that are taken at pressure levels different from the primary sampling profile, or obtained by a sampling method different from that of the primary sampling profile. The 'averaged' sampling method refers to profiles where each data point was obtained from binned averages of multiple data measurements (pollings) from a sensor. Measurements can be taken by the Primary CTD or by auxiliary sensors."@en;
+        skos:notation          "SDN:R16::SECAVG";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Secondary sampling: averaged"@en .
+
+<http://vocab.nerc.ac.uk/collection/R16/current/NSDISP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R16::NSDISP";
+        dc:date                "2020-05-03 20:29:08.0";
+        dc:identifier          "SDN:R16::NSDISP";
+        pav:authoredOn         "2020-05-03 20:29:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R16/current/NSDISP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "NSDISP";
+        skos:definition        "Near-surface sampling scheme for which the 'discrete' sampling method was used, and measurements obtained from a pumped CTD stream. The near-surface sampling profile has N_PROF>1. It is composed of measurements focusing on the top 5 dbar of the water column, which may extend deeper so as to overlap with the primary sampling profile for the purpose of cross-calibration. These measurements are taken at pressure levels different from the primary sampling profile, or obtained by a sampling method different from that of the primary sampling profile. The 'discrete' sampling method refers to profiles where each data point was obtained from a single measurement (polling) from a sensor. Primary sampling profiles measuring above 5 dbar should not be labelled with this sampling scheme."@en;
+        skos:notation          "SDN:R16::NSDISP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Near-surface sampling: discrete, pumped"@en .
+
+<http://vocab.nerc.ac.uk/collection/R16/current/PRAVG/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R16::PRAVG";
+        dc:date                "2020-05-03 20:29:08.0";
+        dc:identifier          "SDN:R16::PRAVG";
+        pav:authoredOn         "2020-05-03 20:29:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R16/current/PRAVG/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "PRAVG";
+        skos:definition        "Primary sampling scheme for which the 'averaged' sampling method was used. The primary sampling profile has N_PROF=1, and is composed of primary CTD measurements. The 'averaged' sampling method refers to profiles where each data point was obtained from binned averages of multiple data measurements (pollings) from a sensor. This sampling scheme can also be applied to measurements from auxiliary sensors obtained by the 'averaged' sampling method and taken at the same pressure levels as the Primary CTD profile. For auxiliary sensor measurements it is not required that all pressure levels contain data."@en;
+        skos:notation          "SDN:R16::PRAVG";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Primary sampling: averaged"@en .
+
+<http://vocab.nerc.ac.uk/collection/R16/current/PRDIS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R16::PRDIS";
+        dc:date                "2020-05-03 20:29:08.0";
+        dc:identifier          "SDN:R16::PRDIS";
+        pav:authoredOn         "2020-05-03 20:29:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R16/current/PRDIS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "PRDIS";
+        skos:definition        "Primary sampling scheme for which the 'discrete' sampling method was used. The primary sampling profile has N_PROF=1, and is composed of primary CTD measurements. The 'discrete' sampling method refers to profiles where each data point was obtained from a single measurement (polling) from a sensor. This sampling scheme can also be applied to measurements from auxiliary sensors obtained by the 'discrete' sampling method and taken at the same pressure levels as the Primary CTD profile. For auxiliary sensor measurements it is not required that all pressure levels contain data."@en;
+        skos:notation          "SDN:R16::PRDIS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Primary sampling: discrete"@en .
+
+<http://vocab.nerc.ac.uk/collection/R16/current/SECMIX/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R16::SECMIX";
+        dc:date                "2020-05-03 20:29:08.0";
+        dc:identifier          "SDN:R16::SECMIX";
+        pav:authoredOn         "2020-05-03 20:29:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R16/current/SECMIX/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SECMIX";
+        skos:definition        "Secondary sampling scheme for which the 'mixed' sampling method was used. The secondary sampling profile has N_PROF>1, and is composed of measurements that are taken at pressure levels different from the primary sampling profile, or obtained by a sampling method different from that of the primary sampling profile. The 'mixed' sampling method refers to profiles composed of data points obtained by both the 'averaged' and 'discrete' sampling methods. Measurements can be taken by the Primary CTD or by auxiliary sensors."@en;
+        skos:notation          "SDN:R16::SECMIX";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Secondary sampling: mixed"@en .
+
+<http://vocab.nerc.ac.uk/collection/R16/current/PRMIX/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R16::PRMIX";
+        dc:date                "2020-05-03 20:29:08.0";
+        dc:identifier          "SDN:R16::PRMIX";
+        pav:authoredOn         "2020-05-03 20:29:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R16/current/PRMIX/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "PRMIX";
+        skos:definition        "Primary sampling scheme for which the 'mixed' sampling method was used. The primary sampling profile has N_PROF=1, and is composed of primary CTD measurements. The 'mixed' sampling method refers to profiles composed of data points obtained by both the 'averaged' and 'discrete' sampling methods. This sampling scheme can also be applied to measurements from auxiliary sensors obtained by the 'mixed' sampling method and taken at the same pressure levels as the Primary CTD profile. For auxiliary sensor measurements it is not required that all pressure levels contain data."@en;
+        skos:notation          "SDN:R16::PRMIX";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Primary sampling: mixed"@en .
+
+<http://vocab.nerc.ac.uk/collection/R16/current/BOMIX/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R16::BOMIX";
+        dc:date                "2020-05-03 20:29:08.0";
+        dc:identifier          "SDN:R16::BOMIX";
+        pav:authoredOn         "2020-05-03 20:29:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R16/current/BOMIX/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "BOMIX";
+        skos:definition        "Bounce sampling scheme for which the 'mixed' sampling method was used. The bounce sampling scheme is composed of profiles with N_PROF>1 collected on multiple rises and falls during a single cycle. The profiles are temporally offset from each other and/or the primary sampling profile. The 'mixed' sampling method refers to profiles composed of data points obtained by both the 'averaged' and 'discrete' sampling methods. Bounce sampling scheme profiles can be sampled with the Primary CTD or with auxiliary sensors."@en;
+        skos:notation          "SDN:R16::BOMIX";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Bounce sampling: mixed"@en .
+
+<http://vocab.nerc.ac.uk/collection/R16/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the Argo data system, published and maintained by the Argo Data Management Team (ADMT) and hosted on the NERC Vocabulary Server.";
+        rdfs:seeAlso            <https://github.com/OneArgo/ArgoVocabs>;
+        dc:alternative          "VERTICAL_SAMPLING_SCHEME";
+        dc:creator              "Argo Data Management Team";
+        dc:date                 "2020-05-04 03:00:04.0";
+        dc:description          "Profile sampling schemes and sampling methods. Argo netCDF variable VERTICAL_SAMPLING_SCHEME is populated by R16 prefLabel, optionally appended by free text in brackets: e.g. \"Primary sampling: averaged [nominal 2 dbar binned data sampled at 0.5 Hz from a SBE41CP]\".";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Argo vertical sampling schemes";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Argo Data Management Team";
+        owl:versionInfo         "1";
+        skos:altLabel           "VERTICAL_SAMPLING_SCHEME";
+        skos:member             <http://vocab.nerc.ac.uk/collection/R16/current/NSMIXUP/> , <http://vocab.nerc.ac.uk/collection/R16/current/SECDIS/> , <http://vocab.nerc.ac.uk/collection/R16/current/NSAVGP/> , <http://vocab.nerc.ac.uk/collection/R16/current/NSMIXP/> , <http://vocab.nerc.ac.uk/collection/R16/current/BOAVE/> , <http://vocab.nerc.ac.uk/collection/R16/current/BODIS/> , <http://vocab.nerc.ac.uk/collection/R16/current/NSAVGUP/> , <http://vocab.nerc.ac.uk/collection/R16/current/NSDISUP/> , <http://vocab.nerc.ac.uk/collection/R16/current/SECAVG/> , <http://vocab.nerc.ac.uk/collection/R16/current/NSDISP/> , <http://vocab.nerc.ac.uk/collection/R16/current/PRAVG/> , <http://vocab.nerc.ac.uk/collection/R16/current/PRDIS/> , <http://vocab.nerc.ac.uk/collection/R16/current/SECMIX/> , <http://vocab.nerc.ac.uk/collection/R16/current/BOMIX/> , <http://vocab.nerc.ac.uk/collection/R16/current/PRMIX/>;
+        skos:prefLabel          "Argo vertical sampling schemes" .

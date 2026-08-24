@@ -1,0 +1,139 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/GSB/current/368/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GSB::368";
+        dc:date                "2011-01-28 12:26:26.0";
+        dc:identifier          "SDN:GSB::368";
+        pav:authoredOn         "2011-01-28 12:26:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GSB/current/368/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Seismometers";
+        skos:definition        "Devices placed on the ground or seabed to measure physical movement of that substrate."@en;
+        skos:notation          "SDN:GSB::368";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Seismometers"@en .
+
+<http://vocab.nerc.ac.uk/collection/GSB/current/900/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GSB::900";
+        dc:date                "2011-01-28 12:26:26.0";
+        dc:identifier          "SDN:GSB::900";
+        pav:authoredOn         "2011-01-28 12:26:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GSB/current/900/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Streamers";
+        skos:definition        "Individual marine cables incorporating regularly separated hydrophones, designed for continuous towing through the water. A streamer is neutrally buoyant and depth controllers are attached to depress the streamer to the proper towing depth."@en;
+        skos:notation          "SDN:GSB::900";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Streamers"@en .
+
+<http://vocab.nerc.ac.uk/collection/GSB/current/902/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GSB::902";
+        dc:date                "2011-01-28 12:26:26.0";
+        dc:identifier          "SDN:GSB::902";
+        pav:authoredOn         "2011-01-28 12:26:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GSB/current/902/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "3Cseismometers";
+        skos:definition        "Devices placed on the ground or seabed to measure physical movement of that substrate. 3C seismometers are built of multiple motion sensors oriented in a tri-axial mode. Allows for recording of compressional and shear waves."@en;
+        skos:notation          "SDN:GSB::902";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "3C seismometers"@en .
+
+<http://vocab.nerc.ac.uk/collection/GSB/current/369/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GSB::369";
+        dc:date                "2011-01-28 12:26:26.0";
+        dc:identifier          "SDN:GSB::369";
+        pav:authoredOn         "2011-01-28 12:26:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GSB/current/369/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Hydrophones";
+        skos:definition        "Devices containing transducers that convert underwater sound waves into electrical signals."@en;
+        skos:notation          "SDN:GSB::369";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Hydrophones"@en .
+
+<http://vocab.nerc.ac.uk/collection/GSB/current/903/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GSB::903";
+        dc:date                "2011-01-28 12:26:26.0";
+        dc:identifier          "SDN:GSB::903";
+        pav:authoredOn         "2011-01-28 12:26:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GSB/current/903/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "3CseismometerHydrophones";
+        skos:definition        "Devices placed on the ground or seabed to measure physical movement of that substrate whilst simultanously measuring underwater acoutic signals. These are built of multiple motion sensors oriented in a tri-axial mode plus a hydrophone."@en;
+        skos:notation          "SDN:GSB::903";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "3C seismometers with hydrophone"@en .
+
+<http://vocab.nerc.ac.uk/collection/GSB/current/901/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GSB::901";
+        dc:date                "2011-01-28 12:26:26.0";
+        dc:identifier          "SDN:GSB::901";
+        pav:authoredOn         "2011-01-28 12:26:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GSB/current/901/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "MultipleStreamer";
+        skos:definition        "An array of regularly spaced streamers towed behind a vessel listening the same source."@en;
+        skos:notation          "SDN:GSB::901";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Multiple streamers"@en .
+
+<http://vocab.nerc.ac.uk/collection/GSB/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the EU Geo-Seas project implemented as consultation between BODC and a designated group of Geo-Seas project paticipants";
+        dc:alternative          "Seismic Receivers";
+        dc:creator              "Geo-Seas";
+        dc:date                 "2011-01-29 02:00:05.0";
+        dc:description          "Concepts that describe instrument types used to measure reflected and refracted acoustic signals in the geophysical discipline of seismics";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Geo-Seas Seismic Receiver Types";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Geo-Seas";
+        owl:versionInfo         "1";
+        skos:altLabel           "Seismic Receivers";
+        skos:member             <http://vocab.nerc.ac.uk/collection/GSB/current/368/> , <http://vocab.nerc.ac.uk/collection/GSB/current/900/> , <http://vocab.nerc.ac.uk/collection/GSB/current/902/> , <http://vocab.nerc.ac.uk/collection/GSB/current/901/> , <http://vocab.nerc.ac.uk/collection/GSB/current/903/> , <http://vocab.nerc.ac.uk/collection/GSB/current/369/>;
+        skos:prefLabel          "Geo-Seas Seismic Receiver Types" .

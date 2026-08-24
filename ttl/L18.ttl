@@ -1,0 +1,498 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/L18/current/CSRU004/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L18::CSRU004";
+        dc:date                "2007-11-12 16:13:42.0";
+        dc:identifier          "SDN:L18::CSRU004";
+        pav:authoredOn         "2007-11-12 16:13:42.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L18/current/CSRU004/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L18/current/CSRU004/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "kilometres";
+        skos:definition        "The distance in kilometres covered by the platform during which the measurement or sampling is continuously taking place."@en;
+        skos:notation          "SDN:L18::CSRU004";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "track kilometres"@en .
+
+<http://vocab.nerc.ac.uk/collection/L18/current/CSRU018/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L18::CSRU018";
+        dc:date                "2007-11-12 14:26:28.0";
+        dc:identifier          "SDN:L18::CSRU018";
+        pav:authoredOn         "2007-11-12 14:26:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L18/current/CSRU018/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "image series";
+        skos:definition        "The count of image collections such as films, video tapes and digital video files."@en;
+        skos:notation          "SDN:L18::CSRU018";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "number of image series"@en .
+
+<http://vocab.nerc.ac.uk/collection/L18/current/CSRU019/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L18::CSRU019";
+        dc:date                "2007-11-12 14:26:28.0";
+        dc:identifier          "SDN:L18::CSRU019";
+        pav:authoredOn         "2007-11-12 14:26:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L18/current/CSRU019/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "images";
+        skos:definition        "The count of discrete images such as photographs or digital image files."@en;
+        skos:notation          "SDN:L18::CSRU019";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "number of images"@en .
+
+<http://vocab.nerc.ac.uk/collection/L18/current/CSRU006/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L18::CSRU006";
+        dc:date                "2007-11-12 14:26:28.0";
+        dc:identifier          "SDN:L18::CSRU006";
+        pav:authoredOn         "2007-11-12 14:26:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L18/current/CSRU006/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "samples";
+        skos:definition        "The count of discrete material collections of air, water, sediment, rock or biota obtained for subsequent measurement."@en;
+        skos:notation          "SDN:L18::CSRU006";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "number of samples"@en .
+
+<http://vocab.nerc.ac.uk/collection/L18/current/CSRU027/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L18::CSRU027";
+        dc:date                "2007-11-12 14:26:28.0";
+        dc:identifier          "SDN:L18::CSRU027";
+        pav:authoredOn         "2007-11-12 14:26:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L18/current/CSRU027/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "flights";
+        skos:definition        "The count of aircraft activities such as overflights associated with a cruise."@en;
+        skos:notation          "SDN:L18::CSRU027";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "number of flights"@en .
+
+<http://vocab.nerc.ac.uk/collection/L18/current/CSRU016/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L18::CSRU016";
+        dc:date                "2007-11-12 14:26:28.0";
+        dc:identifier          "SDN:L18::CSRU016";
+        pav:authoredOn         "2007-11-12 14:26:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L18/current/CSRU016/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "litres";
+        skos:definition        "The volume expressed in litres of samples obtained."@en;
+        skos:notation          "SDN:L18::CSRU016";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "sample litres"@en .
+
+<http://vocab.nerc.ac.uk/collection/L18/current/CSRU007/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L18::CSRU007";
+        dc:date                "2007-11-12 14:26:28.0";
+        dc:identifier          "SDN:L18::CSRU007";
+        pav:authoredOn         "2007-11-12 14:26:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L18/current/CSRU007/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "profiles";
+        skos:definition        "Sets of vertically distributed measurements or sample collections at a fixed location."@en;
+        skos:notation          "SDN:L18::CSRU007";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "number of profiles"@en .
+
+<http://vocab.nerc.ac.uk/collection/L18/current/CSRU017/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L18::CSRU017";
+        dc:date                "2007-11-12 14:26:28.0";
+        dc:identifier          "SDN:L18::CSRU017";
+        pav:authoredOn         "2007-11-12 14:26:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L18/current/CSRU017/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "gigabytes";
+        skos:definition        "The volume of information accumulated on a computer resulting from the measurement expressed in gigabytes (1048576 8-bit bytes)."@en;
+        skos:notation          "SDN:L18::CSRU017";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "data volume in gigabytes"@en .
+
+<http://vocab.nerc.ac.uk/collection/L18/current/CSRU005/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L18::CSRU005";
+        dc:date                "2007-11-12 14:26:28.0";
+        dc:identifier          "SDN:L18::CSRU005";
+        pav:authoredOn         "2007-11-12 14:26:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L18/current/CSRU005/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "hauls";
+        skos:definition        "The count of the deployments of sampling devices that collect biological samples including plankton nets, trawls, sledges and dredges."@en;
+        skos:notation          "SDN:L18::CSRU005";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "number of hauls"@en .
+
+<http://vocab.nerc.ac.uk/collection/L18/current/CSRU008/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L18::CSRU008";
+        dc:date                "2007-11-12 14:26:28.0";
+        dc:identifier          "SDN:L18::CSRU008";
+        pav:authoredOn         "2007-11-12 14:26:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L18/current/CSRU008/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "cores";
+        skos:definition        "The count of whole cylindrical samples of rocks or mud collected that contain material from varying depths below the seabed."@en;
+        skos:notation          "SDN:L18::CSRU008";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "number of cores"@en .
+
+<http://vocab.nerc.ac.uk/collection/L18/current/CSRU002/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L18::CSRU002";
+        dc:date                "2007-11-12 14:26:28.0";
+        dc:identifier          "SDN:L18::CSRU002";
+        pav:authoredOn         "2007-11-12 14:26:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L18/current/CSRU002/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "days";
+        skos:definition        "The period of time expressed in calendar days (86400 seconds) during which the measurement or sampling is continuously taking place."@en;
+        skos:notation          "SDN:L18::CSRU002";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "activity duration in days"@en .
+
+<http://vocab.nerc.ac.uk/collection/L18/current/CSRU024/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L18::CSRU024";
+        dc:date                "2007-11-12 14:26:28.0";
+        dc:identifier          "SDN:L18::CSRU024";
+        pav:authoredOn         "2007-11-12 14:26:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L18/current/CSRU024/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "surveys";
+        skos:definition        "The count of discrete areas of seabed or discrete volumes of the water column in which measurements or observations were made."@en;
+        skos:notation          "SDN:L18::CSRU024";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "number of surveys"@en .
+
+<http://vocab.nerc.ac.uk/collection/L18/current/CSRU012/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L18::CSRU012";
+        dc:date                "2007-11-12 14:26:28.0";
+        dc:identifier          "SDN:L18::CSRU012";
+        pav:authoredOn         "2007-11-12 14:26:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L18/current/CSRU012/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "dives";
+        skos:definition        "The count of journeys from surface to depth and back again by subsurface platforms deployed from the cruise, including ROVs, AUVs and human divers."@en;
+        skos:notation          "SDN:L18::CSRU012";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "number of dives"@en .
+
+<http://vocab.nerc.ac.uk/collection/L18/current/CSRU013/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L18::CSRU013";
+        dc:date                "2007-11-12 14:26:28.0";
+        dc:identifier          "SDN:L18::CSRU013";
+        pav:authoredOn         "2007-11-12 14:26:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L18/current/CSRU013/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "experiments";
+        skos:definition        "The count of sample processing and measurement procedures undertaken, such as incubation or settling velocity experiments."@en;
+        skos:notation          "SDN:L18::CSRU013";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "number of experiments"@en .
+
+<http://vocab.nerc.ac.uk/collection/L18/current/CSRU010/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L18::CSRU010";
+        dc:date                "2007-11-12 14:26:28.0";
+        dc:identifier          "SDN:L18::CSRU010";
+        pav:authoredOn         "2007-11-12 14:26:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L18/current/CSRU010/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "months";
+        skos:definition        "The period of time expressed in calendar months during which the measurement or sampling is continuously taking place."@en;
+        skos:notation          "SDN:L18::CSRU010";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "activity months"@en .
+
+<http://vocab.nerc.ac.uk/collection/L18/current/CSRU025/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L18::CSRU025";
+        dc:date                "2007-11-12 14:26:28.0";
+        dc:identifier          "SDN:L18::CSRU025";
+        pav:authoredOn         "2007-11-12 14:26:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L18/current/CSRU025/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "deployments";
+        skos:definition        "The count of the times a piece of equipment was deposited into the sea or atmosphere for recovery during the cruise, by a subsequent cruise or possibly never."@en;
+        skos:notation          "SDN:L18::CSRU025";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "number of deployments"@en .
+
+<http://vocab.nerc.ac.uk/collection/L18/current/CSRU026/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L18::CSRU026";
+        dc:date                "2007-11-12 14:26:28.0";
+        dc:identifier          "SDN:L18::CSRU026";
+        pav:authoredOn         "2007-11-12 14:26:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L18/current/CSRU026/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "recoveries";
+        skos:definition        "The count of the times a piece of equipment deposited into the sea or atmosphere by a previous cruise was recovered."@en;
+        skos:notation          "SDN:L18::CSRU026";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "number of recoveries"@en .
+
+<http://vocab.nerc.ac.uk/collection/L18/current/CSRU009/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L18::CSRU009";
+        dc:date                "2007-11-12 14:26:28.0";
+        dc:identifier          "SDN:L18::CSRU009";
+        pav:authoredOn         "2007-11-12 14:26:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L18/current/CSRU009/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "measurements";
+        skos:definition        "The count of determinations of the size or magnitude of something."@en;
+        skos:notation          "SDN:L18::CSRU009";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "number of measurements"@en .
+
+<http://vocab.nerc.ac.uk/collection/L18/current/CSRU020/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L18::CSRU020";
+        dc:date                "2007-11-12 14:26:28.0";
+        dc:identifier          "SDN:L18::CSRU020";
+        pav:authoredOn         "2007-11-12 14:26:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L18/current/CSRU020/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "specimens";
+        skos:definition        "The count of individual organisms obtained."@en;
+        skos:notation          "SDN:L18::CSRU020";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "number of specimens"@en .
+
+<http://vocab.nerc.ac.uk/collection/L18/current/CSRU022/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L18::CSRU022";
+        dc:date                "2007-11-12 14:26:28.0";
+        dc:identifier          "SDN:L18::CSRU022";
+        pav:authoredOn         "2007-11-12 14:26:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L18/current/CSRU022/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "lines";
+        skos:definition        "The count of discrete subsets of the platform path during which a specified set of measurements or observations were made"@en;
+        skos:notation          "SDN:L18::CSRU022";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "number of track lines"@en .
+
+<http://vocab.nerc.ac.uk/collection/L18/current/CSRU001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L18::CSRU001";
+        dc:date                "2007-11-12 14:26:28.0";
+        dc:identifier          "SDN:L18::CSRU001";
+        pav:authoredOn         "2007-11-12 14:26:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L18/current/CSRU001/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "stations";
+        skos:definition        "The count of point locations at which measurements or samples were taken."@en;
+        skos:notation          "SDN:L18::CSRU001";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "number of stations"@en .
+
+<http://vocab.nerc.ac.uk/collection/L18/current/CSRU003/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L18::CSRU003";
+        dc:date                "2007-11-12 14:26:28.0";
+        dc:identifier          "SDN:L18::CSRU003";
+        pav:authoredOn         "2007-11-12 14:26:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L18/current/CSRU003/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "hours";
+        skos:definition        "The period of time expressed in hours (3600 seconds) during which the measurement or sampling is continuously taking place."@en;
+        skos:notation          "SDN:L18::CSRU003";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "activity duration in hours"@en .
+
+<http://vocab.nerc.ac.uk/collection/L18/current/CSRU011/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L18::CSRU011";
+        dc:date                "2007-11-12 14:26:28.0";
+        dc:identifier          "SDN:L18::CSRU011";
+        pav:authoredOn         "2007-11-12 14:26:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L18/current/CSRU011/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "observations";
+        skos:definition        "The count of discrete periods of time during which something is measured or watched."@en;
+        skos:notation          "SDN:L18::CSRU011";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "number of observations"@en .
+
+<http://vocab.nerc.ac.uk/collection/L18/current/CSRU014/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L18::CSRU014";
+        dc:date                "2007-11-12 14:26:28.0";
+        dc:identifier          "SDN:L18::CSRU014";
+        pav:authoredOn         "2007-11-12 14:26:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L18/current/CSRU014/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "baskets";
+        skos:definition        "The count of standard containers filled with fish.  Each basket is roughly equal to a 45kg sample weight."@en;
+        skos:notation          "SDN:L18::CSRU014";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "sample baskets"@en .
+
+<http://vocab.nerc.ac.uk/collection/L18/current/CSRU021/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L18::CSRU021";
+        dc:date                "2007-11-12 14:26:28.0";
+        dc:identifier          "SDN:L18::CSRU021";
+        pav:authoredOn         "2007-11-12 14:26:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L18/current/CSRU021/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "species";
+        skos:definition        "The count of different taxonomic groups capable of interbreeding obtained."@en;
+        skos:notation          "SDN:L18::CSRU021";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "number of species"@en .
+
+<http://vocab.nerc.ac.uk/collection/L18/current/CSRU023/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L18::CSRU023";
+        dc:date                "2007-11-12 14:26:28.0";
+        dc:identifier          "SDN:L18::CSRU023";
+        pav:authoredOn         "2007-11-12 14:26:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L18/current/CSRU023/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "square_kilometres";
+        skos:definition        "The area, usually of seabed, surveyed during the cruise expressed in square kilometres."@en;
+        skos:notation          "SDN:L18::CSRU023";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "survey square kilometres"@en .
+
+<http://vocab.nerc.ac.uk/collection/L18/current/CSRU015/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L18::CSRU015";
+        dc:date                "2007-11-12 14:26:28.0";
+        dc:identifier          "SDN:L18::CSRU015";
+        pav:authoredOn         "2007-11-12 14:26:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L18/current/CSRU015/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "kilograms";
+        skos:definition        "The mass expressed in kilograms of samples obtained."@en;
+        skos:notation          "SDN:L18::CSRU015";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "sample kilograms"@en .
+
+<http://vocab.nerc.ac.uk/collection/L18/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the EU SeaDataNet project implemented as consultation between BODC and the members of the SeaDataNet Technical Task Team";
+        dc:alternative          "CSR units";
+        dc:creator              "SeaDataNet";
+        dc:date                 "2007-11-14 18:33:35.0";
+        dc:description          "Terms used as units in the quantification of what was collected or measured in a Cruise Summary Report (ROSCOP) record.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "SeaDataNet Cruise Summary Report quantification units";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "SeaDataNet";
+        owl:versionInfo         "1";
+        skos:altLabel           "CSR units";
+        skos:member             <http://vocab.nerc.ac.uk/collection/L18/current/CSRU004/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU018/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU019/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU006/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU027/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU016/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU007/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU017/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU005/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU008/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU002/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU024/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU012/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU013/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU010/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU025/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU026/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU009/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU020/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU022/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU001/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU003/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU011/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU014/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU021/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU015/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU023/>;
+        skos:prefLabel          "SeaDataNet Cruise Summary Report quantification units" .

@@ -1,0 +1,142 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/G26/current/001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G26::001";
+        dc:date                "2012-07-04 11:38:07.0";
+        dc:identifier          "SDN:G26::001";
+        pav:authoredOn         "2012-07-04 11:38:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G26/current/001/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Vector data are used to represent geographic data"@en;
+        skos:notation          "SDN:G26::001";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "vector"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L24/current/UKOAP190/> , <http://vocab.nerc.ac.uk/collection/L24/current/SHP/> .
+
+<http://vocab.nerc.ac.uk/collection/G26/current/003/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G26::003";
+        dc:date                "2012-07-04 11:38:07.0";
+        dc:identifier          "SDN:G26::003";
+        pav:authoredOn         "2012-07-04 11:38:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G26/current/003/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Textual or tabular data are used to represent geographic data"@en;
+        skos:notation          "SDN:G26::003";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "textTable"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L24/current/CFPOINT/> , <http://vocab.nerc.ac.uk/collection/L24/current/ESFL/> , <http://vocab.nerc.ac.uk/collection/L24/current/MEDATLAS/> , <http://vocab.nerc.ac.uk/collection/L24/current/ODV/> , <http://vocab.nerc.ac.uk/collection/L24/current/BODV/> , <http://vocab.nerc.ac.uk/collection/L24/current/EBL/> , <http://vocab.nerc.ac.uk/collection/L24/current/MODV/> , <http://vocab.nerc.ac.uk/collection/L24/current/SODV/> .
+
+<http://vocab.nerc.ac.uk/collection/G26/current/006/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G26::006";
+        dc:date                "2012-07-04 11:38:07.0";
+        dc:identifier          "SDN:G26::006";
+        pav:authoredOn         "2012-07-04 11:38:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G26/current/006/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Scene from a video recording"@en;
+        skos:notation          "SDN:G26::006";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "video"@en .
+
+<http://vocab.nerc.ac.uk/collection/G26/current/002/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G26::002";
+        dc:date                "2012-07-04 11:38:07.0";
+        dc:identifier          "SDN:G26::002";
+        pav:authoredOn         "2012-07-04 11:38:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G26/current/002/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Grid data are used to represent geographic data"@en;
+        skos:notation          "SDN:G26::002";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "grid"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L24/current/GEOTIFF/> , <http://vocab.nerc.ac.uk/collection/L24/current/PNG/> , <http://vocab.nerc.ac.uk/collection/L24/current/XYZ/> , <http://vocab.nerc.ac.uk/collection/L24/current/BAG/> , <http://vocab.nerc.ac.uk/collection/L24/current/TIFF/> , <http://vocab.nerc.ac.uk/collection/L24/current/SEGY/> , <http://vocab.nerc.ac.uk/collection/L24/current/XTF/> , <http://vocab.nerc.ac.uk/collection/L24/current/CF/> .
+
+<http://vocab.nerc.ac.uk/collection/G26/current/004/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G26::004";
+        dc:date                "2012-07-04 11:38:07.0";
+        dc:identifier          "SDN:G26::004";
+        pav:authoredOn         "2012-07-04 11:38:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G26/current/004/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Triangulated irregular network"@en;
+        skos:notation          "SDN:G26::004";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "tin"@en .
+
+<http://vocab.nerc.ac.uk/collection/G26/current/005/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G26::005";
+        dc:date                "2012-07-04 11:38:07.0";
+        dc:identifier          "SDN:G26::005";
+        pav:authoredOn         "2012-07-04 11:38:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G26/current/005/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Three-dimensional view formed by the intersecting homologous rays of an overlapping pair of images"@en;
+        skos:notation          "SDN:G26::005";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "stereoModel"@en .
+
+<http://vocab.nerc.ac.uk/collection/G26/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "International governance for standards covering many domains within science and beyond.";
+        dc:alternative          "MD_SpatialRepresentationTypeCode";
+        dc:creator              "International Organization for Standardization";
+        dc:date                 "2012-07-05 02:00:09.0";
+        dc:description          "Terms used to represent geographic information in a dataset; \nISO codelist extracted from 'Codelists for description of metadata datasets compliant with ISO/TC 211 19115:2003 and 19139' at http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml; last checked on 24Sep2018.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "MD_SpatialRepresentationTypeCode";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "International Organization for Standardization";
+        owl:versionInfo         "1";
+        skos:altLabel           "MD_SpatialRepresentationTypeCode";
+        skos:member             <http://vocab.nerc.ac.uk/collection/G26/current/001/> , <http://vocab.nerc.ac.uk/collection/G26/current/003/> , <http://vocab.nerc.ac.uk/collection/G26/current/006/> , <http://vocab.nerc.ac.uk/collection/G26/current/005/> , <http://vocab.nerc.ac.uk/collection/G26/current/004/> , <http://vocab.nerc.ac.uk/collection/G26/current/002/>;
+        skos:prefLabel          "MD_SpatialRepresentationTypeCode" .

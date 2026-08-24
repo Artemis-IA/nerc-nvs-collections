@@ -1,0 +1,1519 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/P26/current/407/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::407";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::407";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/407/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "spatialSensorGeometryModelAdjustmentService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
+        skos:definition        "Service that adjusts sensor geometry models to improve the match of the image with other images and/or known ground positions."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::407";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sensor geometry model adjustment service (spatialSensorGeometryModelAdjustmentService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/413/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::413";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::413";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/413/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "spatialFeatureManipulationService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
+        skos:definition        "Register one feature to another, an image, or another data set or coordinate set; correcting for relative translation shifts, rotational differences, scale differences, and perspective differences. Verify that all features in the Feature Collection are topologically consistent according to the topology rules of the Feature Collection, and identifies and/or corrects any inconsistencies that are discovered."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::413";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Feature manipulation services (spatialFeatureManipulationService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/801/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::801";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::801";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/801/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "comEncodingService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/800/>;
+        skos:definition        "Service that provides implementation of an encoding rule and provides an interface to encoding and decoding functionality."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::801";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Encoding service (comEncodingService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/406/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::406";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::406";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/406/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "spatialOrthorectificationService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
+        skos:definition        "A rectification service that removes image tilt and displacement due to terrain elevation."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::406";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Orthorectification service (spatialOrthorectificationService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/412/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::412";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::412";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/412/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "spatialDimensionMeasurementService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
+        skos:definition        "Service to compute dimensions of objects visible in an image or other geodata."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::412";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Dimension measurement service (spatialDimensionMeasurementService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/806/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::806";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::806";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/806/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "comRemoteFileAndExecutableManagement";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/800/>;
+        skos:definition        "Service that provides access to secondary storage of geographic features as if it were local to the client."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::806";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Remote file and executable management (comRemoteFileAndExecutableManagement)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/507/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::507";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::507";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/507/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "thematicGeographicInformationExtractionService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/500/>;
+        skos:definition        "Services supporting the extraction of feature and terrain information from remotely sensed and scanned images."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::507";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Geographic information extraction services (thematicGeographicInformationExtractionService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/508/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::508";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::508";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/508/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "thematicImageProcessingService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/500/>;
+        skos:definition        "Service to change the values of thematic attributes of an image using a mathematical function."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::508";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Image processing service (thematicImageProcessingService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/514/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::514";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::514";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/514/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "thematicObjectDetectionService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/500/>;
+        skos:definition        "Service to detect real-world objects in an image."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::514";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Object detection service (thematicObjectDetectionService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/501/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::501";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::501";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/501/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "thematicGoparameterCalculationService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/500/>;
+        skos:definition        "Service to derive application-oriented quantitative results that are not available from the raw data itself."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::501";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Geoparameter calculation service (thematicGoparameterCalculationService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/513/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::513";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::513";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/513/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "thematicMultibandImageManipulationService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/500/>;
+        skos:definition        "Services that modify an image using the multiple bands of the image."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::513";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Multiband image manipulation (thematicMultibandImageManipulationService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/418/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::418";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::418";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/418/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "spatialProximityAnalysisService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
+        skos:definition        "Given a position or geographic feature, finds all objects with a given set of attributes that are located within a user-specified distance of the position or feature."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::418";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Proximity analysis service (spatialProximityAnalysisService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/405/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::405";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::405";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/405/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "spatialRectificationService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
+        skos:definition        "Service for transforming an image into a perpendicular parallel projection and therefore a constant scale."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::405";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Rectification service (spatialRectificationService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/411/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::411";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::411";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/411/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "spatialTilingChangeService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
+        skos:definition        "Service that changes the tiling of geographic data."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::411";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Tiling change service (spatialTilingChangeService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/506/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::506";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::506";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/506/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "thematicChangeDetectionService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/500/>;
+        skos:definition        "Service to find differences between two data sets that represent the same geographical area at different times."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::506";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Change detection service (thematicChangeDetectionService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/107/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::107";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::107";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/107/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "humanGeographicFeatureEditor";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/100/>;
+        skos:definition        "Geographic viewer that allows a user to interact with feature data."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::107";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Geographic feature editor (humanGeographicFeatureEditor)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/108/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::108";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::108";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/108/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "humanGeographicSymbolEditor";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/100/>;
+        skos:definition        "Client service that allows a human to select and manage symbol libraries."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::108";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Geographic symbol editor (humanGeographicSymbolEditor)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/101/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::101";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::101";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/101/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "humanCatalogueViewer";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/100/>;
+        skos:definition        "Client service that allows a user to interact with a catalogue to locate, browse, and manage metadata about geographic data or geographic services."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::101";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Catalogue viewer (humanCatalogueViewer)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/109/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::109";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::109";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/109/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "humanFeatureGeneralizationEditor";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/100/>;
+        skos:definition        "Client service that allows a user to modify the cartographic characteristics of a feature or feature collection by simplifying its visualisation, while maintaining its salient elements - the spatial equivalent of simplification."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::109";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Feature generalisation editor (humanFeatureGeneralizationEditor)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/102/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::102";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::102";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/102/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "humanGeographicViewer";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/100/>;
+        skos:definition        "Client service that allows a user to view one or more feature collections or coverages."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::102";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Geographic viewer (humanGeographicViewer)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/512/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::512";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::512";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/512/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "thematicImageSynthesisService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/500/>;
+        skos:definition        "Services for creating or transforming images using computer-based spatial models, perspective transformations, and manipulations of image characteristics to improve visibility, sharpen resolution, and/or reduce the effects of cloud cover or haze."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::512";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Image synthesis services (thematicImageSynthesisService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/805/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::805";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::805";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/805/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "comMessagingService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/800/>;
+        skos:definition        "Service that allows multiple users to simultaneously view, comment about, and request edits of feature collections."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::805";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Messaging service (comMessagingService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/417/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::417";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::417";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/417/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "spatialPositioningService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
+        skos:definition        "Service provided by a position-providing device to use, obtain and unambiguously interpret position information, and determines whether the results meet the requirements of the use."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::417";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Positioning service (spatialPositioningService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/404/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::404";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::404";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/404/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "spatialImageCoordinateConversionService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
+        skos:definition        "A coordinate transformation or coordinate conversion service to change the coordinate reference system for an image."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::404";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Image coordinate conversion service (spatialImageCoordinateConversionService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/410/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::410";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::410";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/410/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "spatialSamplingService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
+        skos:definition        "Service that extracts data from an input using a consistent sampling scheme either by geographic location or by grid coordinates."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::410";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sampling service (spatialSamplingService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/601/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::601";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::601";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/601/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "temporalReferenceSystemTransformationService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/600/>;
+        skos:definition        "Service to change the values of temporal instances from one temporal reference system to another temporal reference system."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::601";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Temporal reference system transformation service (temporalReferenceSystemTransformationService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/602/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::602";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::602";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/602/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "temporalSubsettingService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/600/>;
+        skos:definition        "Service that extracts data from an input in a continuous interval based on temporal position values."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::602";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Subsetting service (temporalSubsettingService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/603/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::603";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::603";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/603/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "temporalSamplingService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/600/>;
+        skos:definition        "Service that extracts data from an input using a consistent sampling scheme based on temporal position values."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::603";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sampling service (temporalSamplingService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/106/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::106";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::106";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/106/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "humanWorkflowEnactmentManager";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/100/>;
+        skos:definition        "Provides user interaction with a workflow enactment service."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::106";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Workflow enactment manager (humanWorkflowEnactmentManager)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/505/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::505";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::505";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/505/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "thematicSpatialCountingService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/500/>;
+        skos:definition        "Service that counts geographic features."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::505";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Spatial counting service (thematicSpatialCountingService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/511/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::511";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::511";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/511/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "thematicImageUnderstandingService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/500/>;
+        skos:definition        "Services that provide automated image change detection, registered image differencing, significance-ofdifference analysis and display, and area-based and model-based differencing."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::511";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Image understanding services (thematicImageUnderstandingService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/804/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::804";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::804";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/804/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "comGeographicFormatConversionService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/800/>;
+        skos:definition        "Service that converts from one geographic data format to another."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::804";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Geographic format conversion service (comGeographicFormatConversionService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/416/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::416";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::416";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/416/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "spatialRouteDeterminationService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
+        skos:definition        "Service to determine the optimal path between two specified points based on the input parameters and properties contained in the Feature Collection."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::416";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Route determination service (spatialRouteDeterminationService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/403/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::403";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::403";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/403/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "spatialCoverageVectorConversionService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
+        skos:definition        "Service to change the spatial representation from a coverage schema to a vector schema, or vice versa."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::403";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Coverage/vector conversion service (spatialCoverageVectorConversionService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/209/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::209";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::209";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/209/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "infoGazetteerService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/200/>;
+        skos:definition        "Service that provides access to a directory of instances of a class or classes of real-world phenomena containing some information regarding position."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::209";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Gazetteer service (infoGazetteerService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/201/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::201";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::201";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/201/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "infoFeatureAccessService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/200/>;
+        skos:definition        "Service that provides a client access to and management of a feature store."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::201";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Feature access service (infoFeatureAccessService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/204/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::204";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::204";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/204/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "infoSensorDescriptionService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/200/>;
+        skos:definition        "Service that provides the description of a coverage sensor, including sensor location and orientation, as well as the sensor's geometric, dynamic, and radiometric characteristics for geo-processing purposes."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::204";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sensor description service (infoSensorDescriptionService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/207/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::207";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::207";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/207/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "infoCatalogueService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/200/>;
+        skos:definition        "Service that provides discovery and management services on a store of metadata about instances."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::207";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Catalogue service (infoCatalogueService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/208/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::208";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::208";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/208/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "infoRegistryService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/200/>;
+        skos:definition        "Service that provides access to store of metadata about types."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::208";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Registry Service (infoRegistryService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/210/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::210";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::210";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/210/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "infoOrderHandlingService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/200/>;
+        skos:definition        "Service that provides a client with the ability to order products from a provider."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::210";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Order handling service (infoOrderHandlingService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/202/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::202";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::202";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/202/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "infoMapAccessService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/200/>;
+        skos:definition        "Service that provides a client access to a geographic graphics, i.e. pictures of geographic data."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::202";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Map access service (infoMapAccessService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/203/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::203";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::203";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/203/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "infoCoverageAccessService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/200/>;
+        skos:definition        "Service that provides a client access to and management of a coverage store."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::203";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Coverage access service (infoCoverageAccessService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/105/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::105";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::105";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/105/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "humanChainDefinitionEditor";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/100/>;
+        skos:definition        "Provides user interaction with a chain definition service."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::105";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Chain definition editor (humanChainDefinitionEditor)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/504/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::504";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::504";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/504/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "thematicSubsettingService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/500/>;
+        skos:definition        "Service that extracts data from an input based on parameter values."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::504";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Subsetting service (thematicSubsettingService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/510/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::510";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::510";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/510/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "thematicImageManipulationService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/500/>;
+        skos:definition        "Services for manipulating data values in images: changing colour and contrast values, applying various filters, manipulating image resolution, noise removal, 'striping', systematic-radiometric corrections, atmospheric attenuation, changes in scene illumination, etc."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::510";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Image Manipulation Services (thematicImageManipulationService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/803/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::803";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::803";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/803/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "comGeographicCompressionService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/800/>;
+        skos:definition        "Service that converts spatial portions of a feature collection to and from compressed form."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::803";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Geographic compression service (comGeographicCompressionService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/409/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::409";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::409";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/409/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "spatialSubsettingService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
+        skos:definition        "Service that extracts data from an input in a continuous spatial region either by geographic location or by grid coordinates."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::409";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Subsetting service (spatialSubsettingService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/206/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::206";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::206";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/206/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "infoFeatureTypeService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/200/>;
+        skos:definition        "Service that provides a client to access to and management of a store of feature type definitions."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::206";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Feature type service (infoFeatureTypeService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/415/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::415";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::415";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/415/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "spatialFeatureGeneralizationService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
+        skos:definition        "Service that reduces spatial variation in a feature collection to increase the effectiveness of communication by counteracting the undesirable effects of data reduction."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::415";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Feature generalisation service (spatialFeatureGeneralizationService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/402/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::402";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::402";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/402/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "spatialCoordinateTransformationService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
+        skos:definition        "Service to change coordinates from a coordinate reference system based on one datum to a coordinate reference system based on a second datum."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::402";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Coordinate transformation service (spatialCoordinateTransformationService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/104/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::104";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::104";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/104/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "humanServiceEditor";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/100/>;
+        skos:definition        "Client service that allows a user to control geographic processing services."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::104";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Service editor (humanServiceEditor)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/516/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::516";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::516";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/516/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "thematicGeocodingService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/500/>;
+        skos:definition        "Service to augment location-based text references with geographic coordinates (or some other spatial reference)."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::516";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Geocoding service (thematicGeocodingService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/110/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::110";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::110";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/110/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "humanGeographicDataStructureViewer";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/100/>;
+        skos:definition        "Client service that allows a user to access part of data set to see its internal structure."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::110";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Geographic data-structure viewer (humanGeographicDataStructureViewer)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/503/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::503";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::503";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/503/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "thematicFeatureGeneralizationService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/500/>;
+        skos:definition        "Service that generalises feature types in a feature collection to increase the effectiveness of communication by counteracting the undesirable effects of data reduction."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::503";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Feature generalisation service (thematicFeatureGeneralizationService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/301/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::301";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::301";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/301/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "chainDefinitionService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/300/>;
+        skos:definition        "Service to define a chain and to enable it to be executed by the workflow enactment service."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::301";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Chain definition service (chainDefinitionService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/303/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::303";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::303";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/303/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "subscriptionService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/300/>;
+        skos:definition        "Service to allow clients to register for notification about events."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::303";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Subscription service (subscriptionService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/302/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::302";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::302";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/302/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "workflowEnactmentService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/300/>;
+        skos:definition        "The workflow enactment service interprets a chain and controls the instantiation of services and sequencing of activities."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::302";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Workflow enactment service (workflowEnactmentService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/300/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::300";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::300";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/300/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "taskManagementService";
+        skos:definition        "Unspecified"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P26/current/302/> , <http://vocab.nerc.ac.uk/collection/P26/current/303/> , <http://vocab.nerc.ac.uk/collection/P26/current/301/>;
+        skos:notation          "SDN:P26::300";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Geographic workflow/task management services (taskManagementService)"@en;
+        skos:topConceptOf      <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/> .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/800/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::800";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::800";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/800/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "comService";
+        skos:definition        "Unspecified"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P26/current/802/> , <http://vocab.nerc.ac.uk/collection/P26/current/803/> , <http://vocab.nerc.ac.uk/collection/P26/current/804/> , <http://vocab.nerc.ac.uk/collection/P26/current/805/> , <http://vocab.nerc.ac.uk/collection/P26/current/806/> , <http://vocab.nerc.ac.uk/collection/P26/current/801/>;
+        skos:notation          "SDN:P26::800";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Geographic communication services (comService)"@en;
+        skos:topConceptOf      <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/> .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/802/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::802";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::802";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/802/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "comTransferService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/800/>;
+        skos:definition        "Service that provides implementation of one or more transfer protocols, which allows data transfer between distributed information systems over offline or online communication media."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::802";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Transfer service (comTransferService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/408/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::408";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::408";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/408/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "spatialImageGeometryModelConversionService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
+        skos:definition        "Service that converts sensor geometry models into a different but equivalent sensor geometry model."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::408";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Image geometry model conversion service (spatialImageGeometryModelConversionService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/205/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::205";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::205";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/205/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "infoProductAccessService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/200/>;
+        skos:definition        "Service that provides access to and management of a geographic product store."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::205";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Product access service (infoProductAccessService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/414/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::414";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::414";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/414/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "spatialFeatureMatchingService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
+        skos:definition        "Service that determines which features and portions of features represent the same real world entity from multiple data sources, e.g., edge matching and limited conflation."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::414";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Feature matching service (spatialFeatureMatchingService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/200/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::200";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::200";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/200/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "infoManagementService";
+        skos:definition        "Unspecified"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P26/current/209/> , <http://vocab.nerc.ac.uk/collection/P26/current/201/> , <http://vocab.nerc.ac.uk/collection/P26/current/204/> , <http://vocab.nerc.ac.uk/collection/P26/current/211/> , <http://vocab.nerc.ac.uk/collection/P26/current/205/> , <http://vocab.nerc.ac.uk/collection/P26/current/206/> , <http://vocab.nerc.ac.uk/collection/P26/current/203/> , <http://vocab.nerc.ac.uk/collection/P26/current/202/> , <http://vocab.nerc.ac.uk/collection/P26/current/210/> , <http://vocab.nerc.ac.uk/collection/P26/current/208/> , <http://vocab.nerc.ac.uk/collection/P26/current/207/>;
+        skos:notation          "SDN:P26::200";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Geographic model/information management service (infoManagementService)"@en;
+        skos:topConceptOf      <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/> .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/211/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::211";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::211";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/211/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "infoStandingOrderService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/200/>;
+        skos:definition        "Order handling service that allows a user to request that a product over a geographic area be disseminated when it becomes available."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::211";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Standing order service (infoStandingOrderService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/600/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::600";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::600";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/600/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "temporalProcessingService";
+        skos:definition        "Unspecified"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P26/current/604/> , <http://vocab.nerc.ac.uk/collection/P26/current/603/> , <http://vocab.nerc.ac.uk/collection/P26/current/602/> , <http://vocab.nerc.ac.uk/collection/P26/current/601/>;
+        skos:notation          "SDN:P26::600";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Geographic processing services - temporal (temporalProcessingService)"@en;
+        skos:topConceptOf      <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/> .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/604/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::604";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::604";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/604/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "temporalProximityAnalysisService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/600/>;
+        skos:definition        "Given a temporal interval or event, find all objects with a given set of attributes that are located within a userspecified interval from the interval or event."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::604";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Temporal proximity analysis service (temporalProximityAnalysisService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/400/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::400";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::400";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/400/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "spatialProcessingService";
+        skos:definition        "Unspecified"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P26/current/407/> , <http://vocab.nerc.ac.uk/collection/P26/current/413/> , <http://vocab.nerc.ac.uk/collection/P26/current/406/> , <http://vocab.nerc.ac.uk/collection/P26/current/412/> , <http://vocab.nerc.ac.uk/collection/P26/current/418/> , <http://vocab.nerc.ac.uk/collection/P26/current/405/> , <http://vocab.nerc.ac.uk/collection/P26/current/411/> , <http://vocab.nerc.ac.uk/collection/P26/current/417/> , <http://vocab.nerc.ac.uk/collection/P26/current/404/> , <http://vocab.nerc.ac.uk/collection/P26/current/410/> , <http://vocab.nerc.ac.uk/collection/P26/current/401/> , <http://vocab.nerc.ac.uk/collection/P26/current/414/> , <http://vocab.nerc.ac.uk/collection/P26/current/408/> , <http://vocab.nerc.ac.uk/collection/P26/current/402/> , <http://vocab.nerc.ac.uk/collection/P26/current/415/> , <http://vocab.nerc.ac.uk/collection/P26/current/409/> , <http://vocab.nerc.ac.uk/collection/P26/current/403/> , <http://vocab.nerc.ac.uk/collection/P26/current/416/>;
+        skos:notation          "SDN:P26::400";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Geographic processing services - spatial (spatialProcessingService)"@en;
+        skos:topConceptOf      <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/> .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/401/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::401";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::401";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/401/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "spatialCoordinateConversionService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
+        skos:definition        "Service to change coordinates from one coordinate system to another coordinate system that is related to the same datum."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::401";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Coordinate conversion service (spatialCoordinateConversionService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/702/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::702";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::702";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/702/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "metadataGeographicAnnotationService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/700/>;
+        skos:definition        "Services to add ancillary information to an image or a feature in a feature collection."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::702";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Geographic annotation services (metadataGeographicAnnotationService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/701/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::701";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::701";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/701/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "metadataStatisticalCalculationService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/700/>;
+        skos:definition        "Service to calculate the statistics of a data set."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::701";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Statistical calculation service (metadataStatisticalCalculationService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/700/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::700";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::700";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/700/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "metadataProcessingService";
+        skos:definition        "Unspecified"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P26/current/701/> , <http://vocab.nerc.ac.uk/collection/P26/current/702/>;
+        skos:notation          "SDN:P26::700";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Geographic processing services - metadata (metadataProcessingService)"@en;
+        skos:topConceptOf      <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/> .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/509/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::509";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::509";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/509/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "thematicReducedResolutionGenerationService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/500/>;
+        skos:definition        "Service that reduces the resolution of an image."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::509";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Reduced resolution generation service (thematicReducedResolutionGenerationService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/100/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::100";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::100";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/100/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "humanInteractionService";
+        skos:definition        "Unspecified"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P26/current/107/> , <http://vocab.nerc.ac.uk/collection/P26/current/108/> , <http://vocab.nerc.ac.uk/collection/P26/current/103/> , <http://vocab.nerc.ac.uk/collection/P26/current/110/> , <http://vocab.nerc.ac.uk/collection/P26/current/104/> , <http://vocab.nerc.ac.uk/collection/P26/current/105/> , <http://vocab.nerc.ac.uk/collection/P26/current/106/> , <http://vocab.nerc.ac.uk/collection/P26/current/102/> , <http://vocab.nerc.ac.uk/collection/P26/current/109/> , <http://vocab.nerc.ac.uk/collection/P26/current/101/>;
+        skos:notation          "SDN:P26::100";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Geographic human interaction services (humanInteractionService)"@en;
+        skos:topConceptOf      <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/> .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/103/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::103";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::103";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/103/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "humanGeographicSpreadsheetViewer";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/100/>;
+        skos:definition        "Client service that allows a user to interact with multiple data objects and to request calculations similar to an arithmetic spreadsheet but extended to geographic data."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::103";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Geographic spreadsheet viewer (humanGeographicSpreadsheetViewer)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/515/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::515";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::515";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/515/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "thematicGeoparsingService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/500/>;
+        skos:definition        "Service to scan text documents for location-based references, such as a place names, addresses, postal codes, etc., in preparation for passage to a geocoding service."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::515";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Geoparsing service (thematicGeoparsingService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/500/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::500";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::500";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/500/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "thematicProcessingService";
+        skos:definition        "Unspecified"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P26/current/507/> , <http://vocab.nerc.ac.uk/collection/P26/current/508/> , <http://vocab.nerc.ac.uk/collection/P26/current/514/> , <http://vocab.nerc.ac.uk/collection/P26/current/501/> , <http://vocab.nerc.ac.uk/collection/P26/current/513/> , <http://vocab.nerc.ac.uk/collection/P26/current/506/> , <http://vocab.nerc.ac.uk/collection/P26/current/512/> , <http://vocab.nerc.ac.uk/collection/P26/current/505/> , <http://vocab.nerc.ac.uk/collection/P26/current/502/> , <http://vocab.nerc.ac.uk/collection/P26/current/515/> , <http://vocab.nerc.ac.uk/collection/P26/current/509/> , <http://vocab.nerc.ac.uk/collection/P26/current/503/> , <http://vocab.nerc.ac.uk/collection/P26/current/516/> , <http://vocab.nerc.ac.uk/collection/P26/current/510/> , <http://vocab.nerc.ac.uk/collection/P26/current/504/> , <http://vocab.nerc.ac.uk/collection/P26/current/511/>;
+        skos:notation          "SDN:P26::500";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Geographic processing services - thematic (thematicProcessingService)"@en;
+        skos:topConceptOf      <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/> .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/502/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P26::502";
+        dc:date                "2012-05-30 11:52:13.0";
+        dc:identifier          "SDN:P26::502";
+        pav:authoredOn         "2012-05-30 11:52:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P26/current/502/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "thematicClassificationService";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/500/>;
+        skos:definition        "Service to classify regions of geographic data based on thematic attributes."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
+        skos:notation          "SDN:P26::502";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Thematic classification service (thematicClassificationService)"@en .
+
+<http://vocab.nerc.ac.uk/collection/P26/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "International governance for standards covering many domains within science and beyond.";
+        dc:alternative          "ISO19119 services taxonomy";
+        dc:creator              "International Organization for Standardization";
+        dc:date                 "2012-05-31 02:00:02.0";
+        dc:description          "A collection of categories and sub-categories developed by ISO to classify services that display or process spatial data";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "ISO19119 geographic services taxonomy";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "International Organization for Standardization";
+        owl:versionInfo         "1";
+        skos:altLabel           "ISO19119 services taxonomy";
+        skos:member             <http://vocab.nerc.ac.uk/collection/P26/current/407/> , <http://vocab.nerc.ac.uk/collection/P26/current/413/> , <http://vocab.nerc.ac.uk/collection/P26/current/801/> , <http://vocab.nerc.ac.uk/collection/P26/current/406/> , <http://vocab.nerc.ac.uk/collection/P26/current/412/> , <http://vocab.nerc.ac.uk/collection/P26/current/806/> , <http://vocab.nerc.ac.uk/collection/P26/current/507/> , <http://vocab.nerc.ac.uk/collection/P26/current/508/> , <http://vocab.nerc.ac.uk/collection/P26/current/514/> , <http://vocab.nerc.ac.uk/collection/P26/current/501/> , <http://vocab.nerc.ac.uk/collection/P26/current/513/> , <http://vocab.nerc.ac.uk/collection/P26/current/418/> , <http://vocab.nerc.ac.uk/collection/P26/current/405/> , <http://vocab.nerc.ac.uk/collection/P26/current/411/> , <http://vocab.nerc.ac.uk/collection/P26/current/506/> , <http://vocab.nerc.ac.uk/collection/P26/current/107/> , <http://vocab.nerc.ac.uk/collection/P26/current/108/> , <http://vocab.nerc.ac.uk/collection/P26/current/101/> , <http://vocab.nerc.ac.uk/collection/P26/current/109/> , <http://vocab.nerc.ac.uk/collection/P26/current/102/> , <http://vocab.nerc.ac.uk/collection/P26/current/512/> , <http://vocab.nerc.ac.uk/collection/P26/current/805/> , <http://vocab.nerc.ac.uk/collection/P26/current/417/> , <http://vocab.nerc.ac.uk/collection/P26/current/404/> , <http://vocab.nerc.ac.uk/collection/P26/current/410/> , <http://vocab.nerc.ac.uk/collection/P26/current/601/> , <http://vocab.nerc.ac.uk/collection/P26/current/602/> , <http://vocab.nerc.ac.uk/collection/P26/current/603/> , <http://vocab.nerc.ac.uk/collection/P26/current/106/> , <http://vocab.nerc.ac.uk/collection/P26/current/505/> , <http://vocab.nerc.ac.uk/collection/P26/current/511/> , <http://vocab.nerc.ac.uk/collection/P26/current/804/> , <http://vocab.nerc.ac.uk/collection/P26/current/416/> , <http://vocab.nerc.ac.uk/collection/P26/current/403/> , <http://vocab.nerc.ac.uk/collection/P26/current/209/> , <http://vocab.nerc.ac.uk/collection/P26/current/201/> , <http://vocab.nerc.ac.uk/collection/P26/current/204/> , <http://vocab.nerc.ac.uk/collection/P26/current/207/> , <http://vocab.nerc.ac.uk/collection/P26/current/208/> , <http://vocab.nerc.ac.uk/collection/P26/current/210/> , <http://vocab.nerc.ac.uk/collection/P26/current/202/> , <http://vocab.nerc.ac.uk/collection/P26/current/203/> , <http://vocab.nerc.ac.uk/collection/P26/current/105/> , <http://vocab.nerc.ac.uk/collection/P26/current/504/> , <http://vocab.nerc.ac.uk/collection/P26/current/510/> , <http://vocab.nerc.ac.uk/collection/P26/current/803/> , <http://vocab.nerc.ac.uk/collection/P26/current/409/> , <http://vocab.nerc.ac.uk/collection/P26/current/206/> , <http://vocab.nerc.ac.uk/collection/P26/current/415/> , <http://vocab.nerc.ac.uk/collection/P26/current/402/> , <http://vocab.nerc.ac.uk/collection/P26/current/104/> , <http://vocab.nerc.ac.uk/collection/P26/current/516/> , <http://vocab.nerc.ac.uk/collection/P26/current/110/> , <http://vocab.nerc.ac.uk/collection/P26/current/503/> , <http://vocab.nerc.ac.uk/collection/P26/current/301/> , <http://vocab.nerc.ac.uk/collection/P26/current/303/> , <http://vocab.nerc.ac.uk/collection/P26/current/302/> , <http://vocab.nerc.ac.uk/collection/P26/current/300/> , <http://vocab.nerc.ac.uk/collection/P26/current/800/> , <http://vocab.nerc.ac.uk/collection/P26/current/802/> , <http://vocab.nerc.ac.uk/collection/P26/current/408/> , <http://vocab.nerc.ac.uk/collection/P26/current/205/> , <http://vocab.nerc.ac.uk/collection/P26/current/414/> , <http://vocab.nerc.ac.uk/collection/P26/current/200/> , <http://vocab.nerc.ac.uk/collection/P26/current/211/> , <http://vocab.nerc.ac.uk/collection/P26/current/600/> , <http://vocab.nerc.ac.uk/collection/P26/current/604/> , <http://vocab.nerc.ac.uk/collection/P26/current/400/> , <http://vocab.nerc.ac.uk/collection/P26/current/401/> , <http://vocab.nerc.ac.uk/collection/P26/current/702/> , <http://vocab.nerc.ac.uk/collection/P26/current/701/> , <http://vocab.nerc.ac.uk/collection/P26/current/700/> , <http://vocab.nerc.ac.uk/collection/P26/current/509/> , <http://vocab.nerc.ac.uk/collection/P26/current/100/> , <http://vocab.nerc.ac.uk/collection/P26/current/103/> , <http://vocab.nerc.ac.uk/collection/P26/current/502/> , <http://vocab.nerc.ac.uk/collection/P26/current/500/> , <http://vocab.nerc.ac.uk/collection/P26/current/515/>;
+        skos:prefLabel          "ISO19119 geographic services taxonomy" .

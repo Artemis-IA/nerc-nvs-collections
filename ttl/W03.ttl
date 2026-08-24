@@ -1,0 +1,332 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/W03/current/W030005/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W03::W030005";
+        dc:date                "2016-06-23 16:42:04.0";
+        dc:identifier          "SDN:W03::W030005";
+        pav:authoredOn         "2016-06-23 16:42:04.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W03/current/W030005/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Instrument or platform is supplied to a third-party for a limited period of time."@en;
+        skos:notation          "SDN:W03::W030005";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "LoanStart"@en .
+
+<http://vocab.nerc.ac.uk/collection/W03/current/W030008/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W03::W030008";
+        dc:date                "2016-06-23 16:42:04.0";
+        dc:identifier          "SDN:W03::W030008";
+        pav:authoredOn         "2016-06-23 16:42:04.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W03/current/W030008/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Instrument or platform is returned to service following correction of a malfunction."@en;
+        skos:notation          "SDN:W03::W030008";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "RepairEnd"@en .
+
+<http://vocab.nerc.ac.uk/collection/W03/current/W030014/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W03::W030014";
+        dc:date                "2016-06-23 16:42:04.0";
+        dc:identifier          "SDN:W03::W030014";
+        pav:authoredOn         "2016-06-23 16:42:04.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W03/current/W030014/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Instrument or platform is raised to a higher standard by specific improvements such as adding or replacing components."@en;
+        skos:notation          "SDN:W03::W030014";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Upgrade"@en .
+
+<http://vocab.nerc.ac.uk/collection/W03/current/W030001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W03::W030001";
+        dc:date                "2016-06-23 16:42:04.0";
+        dc:identifier          "SDN:W03::W030001";
+        pav:authoredOn         "2016-06-23 16:42:04.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W03/current/W030001/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Instrument or platform is delivered to the owner."@en;
+        skos:notation          "SDN:W03::W030001";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Delivery"@en .
+
+<http://vocab.nerc.ac.uk/collection/W03/current/W030006/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W03::W030006";
+        dc:date                "2016-06-23 16:42:04.0";
+        dc:identifier          "SDN:W03::W030006";
+        pav:authoredOn         "2016-06-23 16:42:04.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W03/current/W030006/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Instrument or platform is returned by a third party."@en;
+        skos:notation          "SDN:W03::W030006";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "LoanEnd"@en .
+
+<http://vocab.nerc.ac.uk/collection/W03/current/W030010/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W03::W030010";
+        dc:date                "2016-06-23 16:42:04.0";
+        dc:identifier          "SDN:W03::W030010";
+        pav:authoredOn         "2016-06-23 16:42:04.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W03/current/W030010/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Instrument or platform is under maintainance."@en;
+        skos:notation          "SDN:W03::W030010";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Maintenance"@en .
+
+<http://vocab.nerc.ac.uk/collection/W03/current/W030002/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W03::W030002";
+        dc:date                "2016-06-23 16:42:04.0";
+        dc:identifier          "SDN:W03::W030002";
+        pav:authoredOn         "2016-06-23 16:42:04.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W03/current/W030002/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Placement of an instrument or platform to where it will make measurements."@en;
+        skos:notation          "SDN:W03::W030002";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Deployment"@en .
+
+<http://vocab.nerc.ac.uk/collection/W03/current/W030011/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W03::W030011";
+        dc:date                "2016-06-23 16:42:04.0";
+        dc:identifier          "SDN:W03::W030011";
+        pav:authoredOn         "2016-06-23 16:42:04.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W03/current/W030011/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Instrument or platform is lost."@en;
+        skos:notation          "SDN:W03::W030011";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Loss"@en .
+
+<http://vocab.nerc.ac.uk/collection/W03/current/W030015/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W03::W030015";
+        dc:date                "2020-11-11 10:00:38.0";
+        dc:identifier          "SDN:W03::W030015";
+        pav:authoredOn         "2020-11-11 10:00:38.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W03/current/W030015/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/W03/current/W030003/>;
+        skos:definition        "A calibration performed by the manufacturer of the device or system."@en;
+        skos:notation          "SDN:W03::W030015";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Manufacturer's calibration"@en .
+
+<http://vocab.nerc.ac.uk/collection/W03/current/W030017/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W03::W030017";
+        dc:date                "2020-11-11 10:00:38.0";
+        dc:identifier          "SDN:W03::W030017";
+        pav:authoredOn         "2020-11-11 10:00:38.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W03/current/W030017/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/W03/current/W030003/>;
+        skos:definition        "A calibration performed by an accredited authority or laboratory, normally for compliance with national or international quality standards, procedures or guidelines."@en;
+        skos:notation          "SDN:W03::W030017";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Accredited authority or laboratory calibration"@en .
+
+<http://vocab.nerc.ac.uk/collection/W03/current/W030016/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W03::W030016";
+        dc:date                "2020-11-11 10:00:38.0";
+        dc:identifier          "SDN:W03::W030016";
+        pav:authoredOn         "2020-11-11 10:00:38.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W03/current/W030016/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/W03/current/W030003/>;
+        skos:definition        "A calibration performed against discrete in-situ measurements, such as from water-bottle samples."@en;
+        skos:notation          "SDN:W03::W030016";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "In-situ calibration"@en .
+
+<http://vocab.nerc.ac.uk/collection/W03/current/W030003/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W03::W030003";
+        dc:date                "2016-06-23 16:42:04.0";
+        dc:identifier          "SDN:W03::W030003";
+        pav:authoredOn         "2016-06-23 16:42:04.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W03/current/W030003/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://sensorml.com/ont/swe/property/Calibration>;
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "An event in the life of a sensor or instrument in which the coefficients used to convert its outputs into engineering units, or improve its accuracy, are determined and applied."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/W03/current/W030016/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030017/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030015/>;
+        skos:notation          "SDN:W03::W030003";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Calibration"@en .
+
+<http://vocab.nerc.ac.uk/collection/W03/current/W030012/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W03::W030012";
+        dc:date                "2016-06-23 16:42:04.0";
+        dc:identifier          "SDN:W03::W030012";
+        pav:authoredOn         "2016-06-23 16:42:04.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W03/current/W030012/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Instrument or platform is withdrawn from service."@en;
+        skos:notation          "SDN:W03::W030012";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Decommissioning"@en .
+
+<http://vocab.nerc.ac.uk/collection/W03/current/W030009/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W03::W030009";
+        dc:date                "2016-06-23 16:42:04.0";
+        dc:identifier          "SDN:W03::W030009";
+        pav:authoredOn         "2016-06-23 16:42:04.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W03/current/W030009/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Unexpected malfunction of instrument or platform."@en;
+        skos:notation          "SDN:W03::W030009";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Failure"@en .
+
+<http://vocab.nerc.ac.uk/collection/W03/current/W030004/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W03::W030004";
+        dc:date                "2016-06-23 16:42:04.0";
+        dc:identifier          "SDN:W03::W030004";
+        pav:authoredOn         "2016-06-23 16:42:04.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W03/current/W030004/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Return of an instrument or platform from where it has made measurements."@en;
+        skos:notation          "SDN:W03::W030004";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Recovery"@en .
+
+<http://vocab.nerc.ac.uk/collection/W03/current/W030007/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W03::W030007";
+        dc:date                "2016-06-23 16:42:04.0";
+        dc:identifier          "SDN:W03::W030007";
+        pav:authoredOn         "2016-06-23 16:42:04.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W03/current/W030007/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Instrument or platform is taken out of service for correction of a malfunction."@en;
+        skos:notation          "SDN:W03::W030007";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "RepairStart"@en .
+
+<http://vocab.nerc.ac.uk/collection/W03/current/W030013/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W03::W030013";
+        dc:date                "2016-06-23 16:42:04.0";
+        dc:identifier          "SDN:W03::W030013";
+        pav:authoredOn         "2016-06-23 16:42:04.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W03/current/W030013/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Instrument or platform is under repair."@en;
+        skos:notation          "SDN:W03::W030013";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Repair"@en .
+
+<http://vocab.nerc.ac.uk/collection/W03/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies created for use in SWE Marine Profiles.";
+        rdfs:seeAlso            <https://github.com/nvs-vocabs/W03>;
+        dc:alternative          "SensorML Event Types";
+        dc:creator              "Sensor Web Enablement Marine Profiles";
+        dc:date                 "2020-11-11 14:00:01.0";
+        dc:description          "Terms used to describe events or operations that have taken place during the life of an observation system (e.g. a sensor, a platform, an instrument, a network).";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "SensorML History Event Types";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Sensor Web Enablement Marine Profiles";
+        owl:versionInfo         "2";
+        skos:altLabel           "SensorML Event Types";
+        skos:member             <http://vocab.nerc.ac.uk/collection/W03/current/W030005/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030008/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030014/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030001/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030006/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030010/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030002/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030011/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030015/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030017/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030016/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030003/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030012/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030009/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030004/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030013/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030007/>;
+        skos:prefLabel          "SensorML History Event Types" .

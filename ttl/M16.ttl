@@ -1,0 +1,190 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/M16/current/INVEST_CPTBORE/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M16::INVEST_CPTBORE";
+        dc:date                "2016-05-31 12:37:01.0";
+        dc:identifier          "SDN:M16::INVEST_CPTBORE";
+        pav:authoredOn         "2016-05-31 12:37:01.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_CPTBORE/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "CPT borehole";
+        skos:definition        "A geotechnical site investigation where a narrow shaft is drilled into a substrate to a pre-selected depth and then, at that depth, an instrumented cone with tip facing down is pushed into the base of the borehole at a controlled rate (also known as borehole cone penetration testing)."@en;
+        skos:notation          "SDN:M16::INVEST_CPTBORE";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Cone penetration test borehole investigation"@en .
+
+<http://vocab.nerc.ac.uk/collection/M16/current/INVEST_PISTON/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M16::INVEST_PISTON";
+        dc:date                "2016-05-31 12:37:01.0";
+        dc:identifier          "SDN:M16::INVEST_PISTON";
+        pav:authoredOn         "2016-05-31 12:37:01.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_PISTON/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Piston core";
+        skos:definition        "A geotechnical site investigation carried out with the intention of recovering samples from seafloor substrate using a sampling technique which consists of a heavy weight, above a long metal tube and secured by a trigger arm. When the metal tube impacts the seabed, the trigger arm is released and the heavy weight falls, strikes the metal tube and drives it deep into the seafloor"@en;
+        skos:notation          "SDN:M16::INVEST_PISTON";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Piston core investigation"@en .
+
+<http://vocab.nerc.ac.uk/collection/M16/current/INVEST_BEDCPT/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M16::INVEST_BEDCPT";
+        dc:date                "2016-05-31 12:37:01.0";
+        dc:identifier          "SDN:M16::INVEST_BEDCPT";
+        pav:authoredOn         "2016-05-31 12:37:01.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_BEDCPT/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Seabed CPT";
+        skos:definition        "A geotechnical site investigation where a rig is lowered to the seafloor which contains a mechanical system that forces an instrumented cone with tip down into the seabed at a controlled rate."@en;
+        skos:notation          "SDN:M16::INVEST_BEDCPT";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Seabed cone penetration test investigation"@en .
+
+<http://vocab.nerc.ac.uk/collection/M16/current/INVEST_BOX/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M16::INVEST_BOX";
+        dc:date                "2016-05-31 12:37:01.0";
+        dc:identifier          "SDN:M16::INVEST_BOX";
+        pav:authoredOn         "2016-05-31 12:37:01.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_BOX/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Box core";
+        skos:definition        "A geotechnical site investigation carried out with the intention of recovering soft sediment samples from the seafloor using a sampling technique consisting of a weighted box which penetrates into the seabed to a depth which depends on its descent rate, and has a blade which closes the base of the box after penetration, thus collecting the sample."@en;
+        skos:notation          "SDN:M16::INVEST_BOX";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Box core investigation"@en .
+
+<http://vocab.nerc.ac.uk/collection/M16/current/INVEST_VIBR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M16::INVEST_VIBR";
+        dc:date                "2016-05-31 12:37:01.0";
+        dc:identifier          "SDN:M16::INVEST_VIBR";
+        pav:authoredOn         "2016-05-31 12:37:01.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_VIBR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Vibrocore";
+        skos:definition        "A geotechnical site investigation carried out with the intention of recovering samples from the seabed using a sampling technique in which a large diameter tube is vibrated into substrate while oscillating."@en;
+        skos:notation          "SDN:M16::INVEST_VIBR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Vibrocore  investigation"@en .
+
+<http://vocab.nerc.ac.uk/collection/M16/current/INVEST_GRAB/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M16::INVEST_GRAB";
+        dc:date                "2016-05-31 12:37:01.0";
+        dc:identifier          "SDN:M16::INVEST_GRAB";
+        pav:authoredOn         "2016-05-31 12:37:01.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_GRAB/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Grab investigation";
+        skos:definition        "A geotechnical site investigation carried out with the intention of recovering sediment samples from the seabed using a device which consists of a bucket or pair of buckets or similar containers which rotate on impact with the seabed, either through a spring trigger or through human intervention and scoop out a sample of sediment."@en;
+        skos:notation          "SDN:M16::INVEST_GRAB";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Grab investigation"@en .
+
+<http://vocab.nerc.ac.uk/collection/M16/current/INVEST_COMPBORE/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M16::INVEST_COMPBORE";
+        dc:date                "2016-05-31 12:37:01.0";
+        dc:identifier          "SDN:M16::INVEST_COMPBORE";
+        pav:authoredOn         "2016-05-31 12:37:01.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_COMPBORE/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Composite borehole";
+        skos:definition        "A geotechnical site investigation where a narrow shaft is drilled into a substrate with the intention of performing both sampling of soil or rock and in-situ testing such as insertion of instrumented cones into the substrate."@en;
+        skos:notation          "SDN:M16::INVEST_COMPBORE";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Composite borehole investigation"@en .
+
+<http://vocab.nerc.ac.uk/collection/M16/current/INVEST_SPECBORE/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M16::INVEST_SPECBORE";
+        dc:date                "2016-05-31 12:37:01.0";
+        dc:identifier          "SDN:M16::INVEST_SPECBORE";
+        pav:authoredOn         "2016-05-31 12:37:01.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_SPECBORE/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Specialist borehole";
+        skos:definition        "A geotechnical site investigation where anarrow shaft is drilled into a substrate for specialist in-situ testing which excludes penetration tests by instrumented cones."@en;
+        skos:notation          "SDN:M16::INVEST_SPECBORE";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Specialist borehole investigation"@en .
+
+<http://vocab.nerc.ac.uk/collection/M16/current/INVEST_SAMPBORE/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M16::INVEST_SAMPBORE";
+        dc:date                "2016-05-31 12:37:01.0";
+        dc:identifier          "SDN:M16::INVEST_SAMPBORE";
+        pav:authoredOn         "2016-05-31 12:37:01.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_SAMPBORE/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Sample borehole";
+        skos:definition        "A geotechnical site investigation consisting of a narrow shaft drilled into a substrate solely to obtain soil or rock samples"@en;
+        skos:notation          "SDN:M16::INVEST_SAMPBORE";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sample borehole investigation"@en .
+
+<http://vocab.nerc.ac.uk/collection/M16/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in MEDIN data and metadata documents";
+        dc:alternative          "Geotech site investigation type";
+        dc:creator              "MEDIN Standards Group";
+        dc:date                 "2016-06-01 02:00:04.0";
+        dc:description          "Terms used to describe techniques used by marine engineers to investigate marine earth materials. Used in the MEDIN Geotechnical Data Guideline to categorise what type of investigations are carried out at a particular location of interest.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Type of geotechnical investigation carried out at a site";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "MEDIN Standards Group";
+        owl:versionInfo         "1";
+        skos:altLabel           "Geotech site investigation type";
+        skos:member             <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_CPTBORE/> , <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_PISTON/> , <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_BEDCPT/> , <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_BOX/> , <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_VIBR/> , <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_GRAB/> , <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_SAMPBORE/> , <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_SPECBORE/> , <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_COMPBORE/>;
+        skos:prefLabel          "Type of geotechnical investigation carried out at a site" .

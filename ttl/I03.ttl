@@ -1,0 +1,294 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/I03/current/Bedrock_Coast/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I03::Bedrock_Coast";
+        dc:date                "2013-06-18 09:32:07.0";
+        dc:identifier          "SDN:I03::Bedrock_Coast";
+        pav:authoredOn         "2013-06-18 09:32:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I03/current/Bedrock_Coast/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Bedrock Shore";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A04/current/Bedrock/> , <http://vocab.nerc.ac.uk/collection/A02/current/RockyShore/> , <http://vocab.nerc.ac.uk/collection/I03/current/Shore_Geomorphology/>;
+        skos:definition        "Tipo de costa compuesta por roca madre expuesta. "@es , "Cote ou predominet l'erosion et ou apparait le substrat"@fr , "A shore type consisting of exposed bedrock"@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/WCATHES/current/>;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/A02/current/RockyShore/>;
+        skos:notation          "SDN:I03::Bedrock_Coast";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Cote Rocheuse"@fr , "Costa de Roca Madre"@es , "Bedrock Coast"@en .
+
+<http://vocab.nerc.ac.uk/collection/I03/current/Low_Bank/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I03::Low_Bank";
+        dc:date                "2013-06-18 09:32:07.0";
+        dc:identifier          "SDN:I03::Low_Bank";
+        pav:authoredOn         "2013-06-18 09:32:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I03/current/Low_Bank/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/I03/current/Shore_Geomorphology/>;
+        skos:definition        "Une petite rive ou falaise le long de la cote, avec une hauteur de moins de 10 pieds (3 metres)."@fr , "A small bank or cliff along a shore with a height of less than 10 feet (3.05 metres)"@en , "Una orilla o acantilado bajo a lo largo de la costa con una altura no superior a 3 metros"@es;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/WCATHES/current/>;
+        skos:notation          "SDN:I03::Low_Bank";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Rive Basse"@fr , "Costa Baja"@es , "Low Bank"@en .
+
+<http://vocab.nerc.ac.uk/collection/I03/current/Beach/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I03::Beach";
+        dc:date                "2013-06-18 09:32:07.0";
+        dc:identifier          "SDN:I03::Beach";
+        pav:authoredOn         "2013-06-18 09:32:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I03/current/Beach/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/A03/current/Beach/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/I03/current/Shore_Geomorphology/>;
+        skos:definition        "Una costa compuesta por playa en toda su longitud."@es , "A shore type consisting of beach along the coast"@en , "Type de cote consistant en une etendue de sable ou de galets longeant la mer "@fr;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/WCATHES/current/>;
+        skos:notation          "SDN:I03::Beach";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Playa"@es , "Plage"@fr , "Beach"@en .
+
+<http://vocab.nerc.ac.uk/collection/I03/current/Unclassified/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I03::Unclassified";
+        dc:date                "2013-06-18 09:32:07.0";
+        dc:identifier          "SDN:I03::Unclassified";
+        pav:authoredOn         "2013-06-18 09:32:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I03/current/Unclassified/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/I03/current/Shore_Geomorphology/>;
+        skos:definition        "Cte don't la geomorphologie n'est pas classe."@fr , "Shoreline where the shore geomorphology can not be classified"@en , "Linea costera donde la geomorfologia no puede ser clasificada."@es;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/WCATHES/current/>;
+        skos:notation          "SDN:I03::Unclassified";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Inclasificado"@es , "Non Classe"@fr , "Unclassified"@en .
+
+<http://vocab.nerc.ac.uk/collection/I03/current/Coastal_Flooding/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I03::Coastal_Flooding";
+        dc:date                "2013-06-18 09:32:07.0";
+        dc:identifier          "SDN:I03::Coastal_Flooding";
+        pav:authoredOn         "2013-06-18 09:32:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I03/current/Coastal_Flooding/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Coastal Flood";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A02/current/Flood/> , <http://vocab.nerc.ac.uk/collection/I03/current/Coastal_Hazard/> , <http://vocab.nerc.ac.uk/collection/A04/current/Flooding/> , <http://vocab.nerc.ac.uk/collection/A01/current/Shoreline_Erosion_Flooding_and_Submergence/>;
+        skos:definition        "Elevation du niveau d'eau dans les zones cotieres due a des flux forts et prolonges de vent, d'eau ou de vagues."@fr , "Prolonged strong onshore flow of wind, water, or waves causing a rise in water level that floods coastal areas"@en , "Un prolongado viento fuerte desde el interior, mayor aportacion de agua o un oleaje alto causan un aumento en el nivel del agua que puede inundar las zonas costeras.  "@es;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/WCATHES/current/>;
+        skos:notation          "SDN:I03::Coastal_Flooding";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Inondation Cotiere"@fr , "Inundacion Costera"@es , "Coastal Flooding"@en .
+
+<http://vocab.nerc.ac.uk/collection/I03/current/Coastal_Erosion/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I03::Coastal_Erosion";
+        dc:date                "2013-06-18 09:32:07.0";
+        dc:identifier          "SDN:I03::Coastal_Erosion";
+        pav:authoredOn         "2013-06-18 09:32:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I03/current/Coastal_Erosion/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A02/current/Erosion/> , <http://vocab.nerc.ac.uk/collection/A04/current/CoastalErosion/> , <http://vocab.nerc.ac.uk/collection/I03/current/Coastal_Hazard/> , <http://vocab.nerc.ac.uk/collection/A01/current/Shoreline_Erosion_Flooding_and_Submergence/>;
+        skos:definition        "La erosion costera es la perdida de superficie, playa o sedimentos de dunas por la accion del oleaje, de las mareas, de las corrientes o el drenaje."@es , "Coastal erosion is the wearing away of land or the removal of beach or dune sediments by wave action, tidal currents, wave currents, or drainage"@en , "L'erosion cotiere est l'enlevement ou deplacement des sediments des plages ou des dunes, cause par l'action combinee de la mer et des facteurs climatiques tels que les niveaux d'eau, les glaces, les tempetes les precipitations et le gel-degel."@fr;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/WCATHES/current/>;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/A04/current/CoastalErosion/>;
+        skos:notation          "SDN:I03::Coastal_Erosion";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Erosion Costera"@es , "Coastal Erosion"@en , "Erosion Cotiere"@fr .
+
+<http://vocab.nerc.ac.uk/collection/I03/current/Coastal_Hazard/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I03::Coastal_Hazard";
+        dc:date                "2013-06-18 09:32:07.0";
+        dc:identifier          "SDN:I03::Coastal_Hazard";
+        pav:authoredOn         "2013-06-18 09:32:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I03/current/Coastal_Hazard/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Effects_of_Coastal_Change/> , <http://vocab.nerc.ac.uk/collection/A03/current/Issues/>;
+        skos:definition        "En las amenazas costeras estan incluidas tanto las naturales como las provocadas por la mano del hombre (cronica y esporadica), que amenacen la salud costera de los ecosistemas y sus comunidades."@es , "Les risques cotiers sont des evenements naturels ou artificiels qui menacent les ecosystemes et les communautes cotieres."@fr , "Coastal hazards include both natural and man-made events (chronic and episodic) that threaten the health of coastal ecosystems and communities"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/I03/current/Coastal_Erosion/> , <http://vocab.nerc.ac.uk/collection/I03/current/Coastal_Flooding/>;
+        skos:notation          "SDN:I03::Coastal_Hazard";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Amenaza Costera"@es , "Coastal Hazard"@en , "Risque Cotier"@fr;
+        skos:topConceptOf      <http://vocab.nerc.ac.uk/scheme/WCATHES/current/> .
+
+<http://vocab.nerc.ac.uk/collection/I03/current/Artificial_Structure/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I03::Artificial_Structure";
+        dc:date                "2013-06-18 09:32:07.0";
+        dc:identifier          "SDN:I03::Artificial_Structure";
+        pav:authoredOn         "2013-06-18 09:32:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I03/current/Artificial_Structure/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/I03/current/Shore_Geomorphology/> , <http://vocab.nerc.ac.uk/collection/A01/current/Human_Activity/>;
+        skos:definition        "Human built structures along the coast"@en , "Estructuras construidas por el hombre a lo largo de la costa. "@es , "Toute structure humaine construite le long de la cote."@fr;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/WCATHES/current/>;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/A04/current/CommercialFerryPorts/> , <http://vocab.nerc.ac.uk/collection/A04/current/Marinas/> , <http://vocab.nerc.ac.uk/collection/A04/current/Moorings/> , <http://vocab.nerc.ac.uk/collection/A02/current/Seawalls/> , <http://vocab.nerc.ac.uk/collection/A02/current/Sewage/> , <http://vocab.nerc.ac.uk/collection/A03/current/Infrastructure/> , <http://vocab.nerc.ac.uk/collection/A02/current/Jetties/> , <http://vocab.nerc.ac.uk/collection/A02/current/RipRap/>;
+        skos:notation          "SDN:I03::Artificial_Structure";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Estructura Artificial"@es , "Artificial Structure"@en , "Structure Artificielle"@fr;
+        skos:related           <http://vocab.nerc.ac.uk/collection/A04/current/Infrastructure/> .
+
+<http://vocab.nerc.ac.uk/collection/I03/current/Wetland/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I03::Wetland";
+        dc:date                "2013-06-18 09:32:07.0";
+        dc:identifier          "SDN:I03::Wetland";
+        pav:authoredOn         "2013-06-18 09:32:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I03/current/Wetland/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/I03/current/Shore_Geomorphology/> , <http://vocab.nerc.ac.uk/collection/A04/current/NaturalCoastalFeatures/>;
+        skos:definition        "Una costa compuesta por humedales."@es , "A shore type consisting of wetlands along the coast"@en , "Denomination derivant du terme anglais wetland. Zone littorale ou l'eau est stagnante ou courante, douce, saumatre ou salee, y compris des etendues d'eau marine dont la profondeur a maree basse n'excede pas six metres"@fr;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/WCATHES/current/>;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/A02/current/IntertidalWetlands/>;
+        skos:notation          "SDN:I03::Wetland";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Humedal "@es , "Wetland"@en , "Zone Humide"@fr .
+
+<http://vocab.nerc.ac.uk/collection/I03/current/Shore_Geomorphology/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I03::Shore_Geomorphology";
+        dc:date                "2013-06-18 09:32:07.0";
+        dc:identifier          "SDN:I03::Shore_Geomorphology";
+        pav:authoredOn         "2013-06-18 09:32:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I03/current/Shore_Geomorphology/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Shoreline Geomorphology";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A04/current/CoastalGeomorphology/> , <http://vocab.nerc.ac.uk/collection/A03/current/ShorelineGeomorphology/> , <http://vocab.nerc.ac.uk/collection/A01/current/Natural_Processes/>;
+        skos:definition        "The study of the morphological development and evolution of the shore of a coast as it acts under the influence of winds, waves, currents, and water level changes"@en , "Etude du developpement et de l'evolution morphologique (forme, relief) de la ligne de cote sous l'effet du vent, des vagues, des courents et de changements du niveau d'eau."@fr , "El estudio del desarrollo morfologico y la evolucion de la costa bajo la influencia del viento, olas, corrientes, y nivel del agua."@es;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/I03/current/Bedrock_Coast/> , <http://vocab.nerc.ac.uk/collection/I03/current/Low_Bank/> , <http://vocab.nerc.ac.uk/collection/I03/current/Beach/> , <http://vocab.nerc.ac.uk/collection/I03/current/Unclassified/> , <http://vocab.nerc.ac.uk/collection/A04/current/CoastalGeomorphology/> , <http://vocab.nerc.ac.uk/collection/I03/current/Bluff/> , <http://vocab.nerc.ac.uk/collection/I03/current/Wetland/> , <http://vocab.nerc.ac.uk/collection/A03/current/ShorelineGeomorphology/> , <http://vocab.nerc.ac.uk/collection/I03/current/Artificial_Structure/>;
+        skos:notation          "SDN:I03::Shore_Geomorphology";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Geomorphologie de la cote"@fr , "Shore Geomorphology"@en , "Geomorfologia Costera"@es;
+        skos:topConceptOf      <http://vocab.nerc.ac.uk/scheme/WCATHES/current/> .
+
+<http://vocab.nerc.ac.uk/collection/I03/current/Bluff_Top/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I03::Bluff_Top";
+        dc:date                "2013-06-18 09:32:07.0";
+        dc:identifier          "SDN:I03::Bluff_Top";
+        pav:authoredOn         "2013-06-18 09:32:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I03/current/Bluff_Top/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/I03/current/Bluff/>;
+        skos:definition        "La cima de un despenadero o acantilado."@es , "La partie haute d'un promontoire"@fr , "The top of a high steep bank or cliff"@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/WCATHES/current/>;
+        skos:notation          "SDN:I03::Bluff_Top";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Alto del Acantilado"@es , "Bluff Top"@en , "Pointe de promontoire"@fr .
+
+<http://vocab.nerc.ac.uk/collection/I03/current/Bluff_Toe/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I03::Bluff_Toe";
+        dc:date                "2013-06-18 09:32:07.0";
+        dc:identifier          "SDN:I03::Bluff_Toe";
+        pav:authoredOn         "2013-06-18 09:32:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I03/current/Bluff_Toe/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/I03/current/Bluff/>;
+        skos:definition        "El punto o la linea de un cambio abrupto de la pendiente en la parte inferior del acantilado; la base del despenadero"@es , "The point or line of abrupt change in slope at the bottom of the bluff - i.e. the bluff base"@en , "Le point ou la ligne de changement brusque de pente au bas de la  promontoire."@fr;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/WCATHES/current/>;
+        skos:notation          "SDN:I03::Bluff_Toe";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Haut de Promontoire"@fr , "Bluff Toe"@en , "Base del Acantilado"@es .
+
+<http://vocab.nerc.ac.uk/collection/I03/current/Bluff/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I03::Bluff";
+        dc:date                "2013-06-18 09:32:07.0";
+        dc:identifier          "SDN:I03::Bluff";
+        pav:authoredOn         "2013-06-18 09:32:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I03/current/Bluff/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/A02/current/Bluff/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "Promontory";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/I03/current/Shore_Geomorphology/>;
+        skos:definition        "A high steep bank or cliff"@en , "Pointe de terre, de relief eleve, qui s'avance dans la mer."@fr , "Un despenadero alto o acantilado."@es;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/WCATHES/current/>;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/I03/current/Bluff_Toe/> , <http://vocab.nerc.ac.uk/collection/I03/current/Bluff_Top/>;
+        skos:notation          "SDN:I03::Bluff";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Acantilado"@es , "Bluff"@en , "Promontoire"@fr .
+
+<http://vocab.nerc.ac.uk/collection/I03/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "University institute responsible for the management of the Wisconsin Coastal Atlas";
+        dc:alternative          "Wisconsin Coastal Atlas Vocabulary";
+        dc:creator              "University of Wisconsin Sea Grant Institute";
+        dc:date                 "2013-06-19 02:00:04.0";
+        dc:description          "Controlled vocabulary terms used within the Wisconsin Coastal Atlas.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Wisconsin Coastal Atlas Vocabulary";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "University of Wisconsin Sea Grant Institute";
+        owl:versionInfo         "1";
+        skos:altLabel           "Wisconsin Coastal Atlas Vocabulary";
+        skos:member             <http://vocab.nerc.ac.uk/collection/I03/current/Bedrock_Coast/> , <http://vocab.nerc.ac.uk/collection/I03/current/Low_Bank/> , <http://vocab.nerc.ac.uk/collection/I03/current/Beach/> , <http://vocab.nerc.ac.uk/collection/I03/current/Unclassified/> , <http://vocab.nerc.ac.uk/collection/I03/current/Coastal_Flooding/> , <http://vocab.nerc.ac.uk/collection/I03/current/Coastal_Erosion/> , <http://vocab.nerc.ac.uk/collection/I03/current/Coastal_Hazard/> , <http://vocab.nerc.ac.uk/collection/I03/current/Artificial_Structure/> , <http://vocab.nerc.ac.uk/collection/I03/current/Wetland/> , <http://vocab.nerc.ac.uk/collection/I03/current/Shore_Geomorphology/> , <http://vocab.nerc.ac.uk/collection/I03/current/Bluff/> , <http://vocab.nerc.ac.uk/collection/I03/current/Bluff_Toe/> , <http://vocab.nerc.ac.uk/collection/I03/current/Bluff_Top/>;
+        skos:prefLabel          "Wisconsin Coastal Atlas Vocabulary" .

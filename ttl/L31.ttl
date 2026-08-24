@@ -1,0 +1,122 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/L31/current/4/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L31::4";
+        dc:date                "2010-09-21 10:29:30.0";
+        dc:identifier          "SDN:L31::4";
+        pav:authoredOn         "2010-09-21 10:29:30.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L31/current/4/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "bad";
+        skos:definition        "The data object (such as a seismic section) quality is so poor that it cannot be exploited"@en;
+        skos:notation          "SDN:L31::4";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Not usable"@en .
+
+<http://vocab.nerc.ac.uk/collection/L31/current/1/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L31::1";
+        dc:date                "2010-09-21 10:29:30.0";
+        dc:identifier          "SDN:L31::1";
+        pav:authoredOn         "2010-09-21 10:29:30.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L31/current/1/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "good";
+        skos:definition        "The data object (such as a seismic section) shows many signals and almost no noises"@en;
+        skos:notation          "SDN:L31::1";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Good seismic section"@en .
+
+<http://vocab.nerc.ac.uk/collection/L31/current/2/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L31::2";
+        dc:date                "2010-09-21 10:29:30.0";
+        dc:identifier          "SDN:L31::2";
+        pav:authoredOn         "2010-09-21 10:29:30.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L31/current/2/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "fair";
+        skos:definition        "The data object (such as a seismic section)is noisy but the noise does not obliterate signals so they can be followed"@en;
+        skos:notation          "SDN:L31::2";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Fair seismic section"@en .
+
+<http://vocab.nerc.ac.uk/collection/L31/current/3/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L31::3";
+        dc:date                "2010-09-21 10:29:30.0";
+        dc:identifier          "SDN:L31::3";
+        pav:authoredOn         "2010-09-21 10:29:30.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L31/current/3/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "poor";
+        skos:definition        "Problems with acquisition parameter settings, or noise , or geological settings do not allow signals in the data object (such as a seismic section) to be highlighted"@en;
+        skos:notation          "SDN:L31::3";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Poor seismic section"@en .
+
+<http://vocab.nerc.ac.uk/collection/L31/current/0/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L31::0";
+        dc:date                "2010-09-21 10:29:30.0";
+        dc:identifier          "SDN:L31::0";
+        pav:authoredOn         "2010-09-21 10:29:30.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L31/current/0/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "unknown";
+        skos:definition        "No quality control procedures have been applied to the data object (such as a seismic section). This is the initial status for all data objects entering the working archive."@en;
+        skos:notation          "SDN:L31::0";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "No quality control"@en .
+
+<http://vocab.nerc.ac.uk/collection/L31/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the EU Geo-Seas project implemented as consultation between BODC and a designated group of Geo-Seas project paticipants";
+        dc:alternative          "Geo-Seas object flags";
+        dc:creator              "Geo-Seas";
+        dc:date                 "2010-09-22 02:00:05.0";
+        dc:description          "Flags representing concepts used to specify quality of Geo-Seas data objects. These are a subset of SeaDataNet measurand qualifier flags.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Geo-Seas data object quality flags";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Geo-Seas";
+        owl:versionInfo         "1";
+        skos:altLabel           "Geo-Seas object flags";
+        skos:member             <http://vocab.nerc.ac.uk/collection/L31/current/4/> , <http://vocab.nerc.ac.uk/collection/L31/current/1/> , <http://vocab.nerc.ac.uk/collection/L31/current/0/> , <http://vocab.nerc.ac.uk/collection/L31/current/3/> , <http://vocab.nerc.ac.uk/collection/L31/current/2/>;
+        skos:prefLabel          "Geo-Seas data object quality flags" .

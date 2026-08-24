@@ -1,0 +1,506 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/H05/current/H0500029/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H05::H0500029";
+        dc:date                "2026-03-20 09:30:16.0";
+        dc:identifier          "SDN:H05::H0500029";
+        pav:authoredOn         "2026-03-20 09:30:16.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H05/current/H0500029/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "PVC";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/H05/current/H0500009/>;
+        skos:definition        "The litter material is made of polyvinyl chloride, a widely used synthetic thermoplastic polymer derived from chlorine (salt) and carbon (from oil or gas) that exists in rigid and flexible forms (with the addition of plasticizers). It is used in a wide range of applications."@en;
+        skos:notation          "SDN:H05::H0500029";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "polyvinyl chloride"@en .
+
+<http://vocab.nerc.ac.uk/collection/H05/current/H0500001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H05::H0500001";
+        dc:date                "2022-04-13 11:47:35.0";
+        dc:identifier          "SDN:H05::H0500001";
+        pav:authoredOn         "2022-04-13 11:47:35.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H05/current/H0500001/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/H05/current/H0500001/2/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500001/1/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "PE";
+        skos:definition        "Includes high-density polyethylene (HDPE), low-density polyethylene (LDPE), and copolymers with a major polyethylene fraction."@en;
+        skos:notation          "SDN:H05::H0500001";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "polyethylene"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H05/current/H0500013/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H05::H0500013";
+        dc:date                "2022-04-13 11:40:20.0";
+        dc:identifier          "SDN:H05::H0500013";
+        pav:authoredOn         "2022-04-13 11:40:20.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H05/current/H0500013/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/H05/current/H0500013/2/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500013/1/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "PU";
+        skos:definition        "All types of polyurethane."@en;
+        skos:notation          "SDN:H05::H0500013";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "polyurethane"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H05/current/H0500005/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H05::H0500005";
+        dc:date                "2022-04-13 11:41:41.0";
+        dc:identifier          "SDN:H05::H0500005";
+        pav:authoredOn         "2022-04-13 11:41:41.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H05/current/H0500005/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/H05/current/H0500005/2/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500005/1/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "PES";
+        skos:definition        "All types of polyesters including PET."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/H05/current/H0500011/>;
+        skos:notation          "SDN:H05::H0500005";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "polyester"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H05/current/H0500023/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H05::H0500023";
+        dc:date                "2022-10-25 12:27:48.0";
+        dc:identifier          "SDN:H05::H0500023";
+        pav:authoredOn         "2022-10-25 12:27:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H05/current/H0500023/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The litter material consists of hard, transparent material made from the melting of sand (silica), soda ash (sodium carbonate) and limestone (calcium carbonate)."@en;
+        skos:notation          "SDN:H05::H0500023";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "glass"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H05/current/H0500024/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H05::H0500024";
+        dc:date                "2022-10-25 12:29:41.0";
+        dc:identifier          "SDN:H05::H0500024";
+        pav:authoredOn         "2022-10-25 12:29:41.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H05/current/H0500024/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The litter material is metallic, i.e. a matter that, when freshly prepared, polished, or fractured, shows a lustrous appearance, and conducts electricity and heat relatively well. Adapted from Wikipedia entry retrieved 19 October 2022."@en;
+        skos:notation          "SDN:H05::H0500024";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "metal"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H05/current/H0500008/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H05::H0500008";
+        dc:date                "2026-03-18 11:58:08.0";
+        dc:identifier          "SDN:H05::H0500008";
+        pav:authoredOn         "2026-03-18 11:58:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H05/current/H0500008/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/H05/current/H0500008/2/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500008/1/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "PVAL";
+        skos:definition        "The litter item is made of polyvinyl alcohol,a water-soluble biocompatible synthetic polymer used in medical applications and the manufacturing of e.g. contact lenses, laundry detergent pods, Vinylon fiber, photographic film, etc."@en;
+        skos:notation          "SDN:H05::H0500008";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "polyvinyl alcohol"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H05/current/H0500007/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H05::H0500007";
+        dc:date                "2026-03-18 11:51:57.0";
+        dc:identifier          "SDN:H05::H0500007";
+        pav:authoredOn         "2026-03-18 11:51:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H05/current/H0500007/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/H05/current/H0500007/1/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500007/2/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "POM";
+        skos:definition        "The litter item is made of polyoxymethylene (also known as acetal, polyacetal and polyformaldehyde), a hard and strong thermoplastic used in high-performance components such as small gear wheels, eyeglass frames, ball bearings, fasteners, etc. The material is widely used in the automotive and consumer electronics industry."@en;
+        skos:notation          "SDN:H05::H0500007";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "polyoxymethylene"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H05/current/H0500002/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H05::H0500002";
+        dc:date                "2022-04-13 11:45:43.0";
+        dc:identifier          "SDN:H05::H0500002";
+        pav:authoredOn         "2022-04-13 11:45:43.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H05/current/H0500002/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/H05/current/H0500002/2/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500002/1/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "PP";
+        skos:definition        "Polypropylene (PP) copolymers with a major PP fraction."@en;
+        skos:notation          "SDN:H05::H0500002";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "polypropylene"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H05/current/H0500025/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H05::H0500025";
+        dc:date                "2022-10-25 12:30:47.0";
+        dc:identifier          "SDN:H05::H0500025";
+        pav:authoredOn         "2022-10-25 12:30:47.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H05/current/H0500025/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The litter material was classified as plastic but its precise nature was not recorded."@en;
+        skos:notation          "SDN:H05::H0500025";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "undefined plastic"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H05/current/H0500011/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H05::H0500011";
+        dc:date                "2026-03-18 13:46:55.0";
+        dc:identifier          "SDN:H05::H0500011";
+        pav:authoredOn         "2026-03-18 13:46:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H05/current/H0500011/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/H05/current/H0500011/1/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500011/3/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500011/2/>;
+        pav:version            "4";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "4";
+        skos:altLabel          "PET";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/H05/current/H0500005/>;
+        skos:definition        "The litter item is made of polyethylene terephthalate, a thermoplastic polymer resin of the polyester family used in fibres for clothing and containers for liquids and foods. It is used in thermoforming in manufacturing, and can be combined with glass fibre for engineering resins."@en;
+        skos:notation          "SDN:H05::H0500011";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "polyethylene terephthalate"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H05/current/H0500020/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H05::H0500020";
+        dc:date                "2022-10-25 12:24:48.0";
+        dc:identifier          "SDN:H05::H0500020";
+        pav:authoredOn         "2022-10-25 12:24:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H05/current/H0500020/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The litter material consists of weathered oil conglomerations originating from natural or anthropogenic oil released in the environment."@en;
+        skos:notation          "SDN:H05::H0500020";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "tar residue"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H05/current/H0500021/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H05::H0500021";
+        dc:date                "2022-10-25 12:25:36.0";
+        dc:identifier          "SDN:H05::H0500021";
+        pav:authoredOn         "2022-10-25 12:25:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H05/current/H0500021/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The litter material consists of rubber from natural sources of polymers of the organic compound isoprene, with minor impurities of other organic compound; also called India rubber, latex, Amazonian rubber, caucho, or caoutchouc. Adapted from Wikipedia entry retrieved 18 October 2022."@en;
+        skos:notation          "SDN:H05::H0500021";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "natural rubber"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H05/current/H0500009/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H05::H0500009";
+        dc:date                "2025-11-20 17:51:51.0";
+        dc:identifier          "SDN:H05::H0500009";
+        pav:authoredOn         "2025-11-20 17:51:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H05/current/H0500009/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/H05/current/H0500009/1/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500009/3/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500009/2/>;
+        pav:version            "4";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "4";
+        skos:altLabel          "PCP";
+        skos:definition        "All polychlorinated polymers including polyvinylchloride (PVC)."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/H05/current/H0500029/>;
+        skos:notation          "SDN:H05::H0500009";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "polychlorinated polymer"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H05/current/H0500026/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H05::H0500026";
+        dc:date                "2022-10-25 12:31:24.0";
+        dc:identifier          "SDN:H05::H0500026";
+        pav:authoredOn         "2022-10-25 12:31:24.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H05/current/H0500026/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The litter material was classified as non-plastic but its precise nature was not recorded."@en;
+        skos:notation          "SDN:H05::H0500026";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "undefined non-plastic"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H05/current/H0500004/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H05::H0500004";
+        dc:date                "2022-04-13 11:43:42.0";
+        dc:identifier          "SDN:H05::H0500004";
+        pav:authoredOn         "2022-04-13 11:43:42.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H05/current/H0500004/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/H05/current/H0500004/2/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500004/1/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "PA";
+        skos:definition        "All types of polyamide (PA) like the various nylons."@en;
+        skos:notation          "SDN:H05::H0500004";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "polyamide (nylon)"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H05/current/H0500027/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H05::H0500027";
+        dc:date                "2025-01-24 13:59:40.0";
+        dc:identifier          "SDN:H05::H0500027";
+        pav:authoredOn         "2025-01-24 13:59:40.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H05/current/H0500027/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "PC";
+        skos:definition        "The litter material is made of polycarbonate, a polymer in which the repeated structural unit in the chain is of the carbonate type [https://www.iso.org/obp/ui#iso:std:iso:472:ed-4:v1:en]."@en;
+        skos:notation          "SDN:H05::H0500027";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "polycarbonate"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H05/current/H0500010/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H05::H0500010";
+        dc:date                "2022-04-13 11:40:59.0";
+        dc:identifier          "SDN:H05::H0500010";
+        pav:authoredOn         "2022-04-13 11:40:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H05/current/H0500010/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/H05/current/H0500010/1/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500010/2/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "PMA";
+        skos:definition        "All types of polymethylacrylate."@en;
+        skos:notation          "SDN:H05::H0500010";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "polymethylacrylate"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H05/current/H0500014/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H05::H0500014";
+        dc:date                "2026-03-18 11:39:56.0";
+        dc:identifier          "SDN:H05::H0500014";
+        pav:authoredOn         "2026-03-18 11:39:56.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H05/current/H0500014/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/H05/current/H0500014/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "ABS";
+        skos:definition        "The litter item is made of acrylonitrile butadiene styrene (ABS), a rigid thermoplastic polymer commonly used in manufacturing and 3-D printing."@en;
+        skos:notation          "SDN:H05::H0500014";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "acrylonitrile butadiene styrene"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H05/current/H0500022/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H05::H0500022";
+        dc:date                "2022-10-25 12:27:00.0";
+        dc:identifier          "SDN:H05::H0500022";
+        pav:authoredOn         "2022-10-25 12:27:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H05/current/H0500022/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The litter material consists of natural fibres which are threads or filaments produced by natural processes."@en;
+        skos:notation          "SDN:H05::H0500022";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "natural fibres"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H05/current/H0500003/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H05::H0500003";
+        dc:date                "2022-04-13 11:45:15.0";
+        dc:identifier          "SDN:H05::H0500003";
+        pav:authoredOn         "2022-04-13 11:45:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H05/current/H0500003/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/H05/current/H0500003/1/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500003/2/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500003/3/>;
+        pav:version            "4";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "4";
+        skos:altLabel          "PS";
+        skos:definition        "Polystyrene (PS) copolymers with a major PS fraction."@en;
+        skos:notation          "SDN:H05::H0500003";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "polystyrene"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H05/current/H0500028/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H05::H0500028";
+        dc:date                "2025-11-20 18:02:16.0";
+        dc:identifier          "SDN:H05::H0500028";
+        pav:authoredOn         "2025-11-20 18:02:16.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H05/current/H0500028/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "TWP";
+        skos:definition        "Material identified as sourced from tyre and road wear often referred to as Tyre Wear Particles (TWP), or Tyre and Road Wear Particles (TRWP)."@en;
+        skos:notation          "SDN:H05::H0500028";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "tyre wear"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H05/current/H0500006/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H05::H0500006";
+        dc:date                "2022-04-13 11:42:29.0";
+        dc:identifier          "SDN:H05::H0500006";
+        pav:authoredOn         "2022-04-13 11:42:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H05/current/H0500006/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/H05/current/H0500006/1/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500006/2/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "PAN";
+        skos:definition        "Polyacrylonitrile."@en;
+        skos:notation          "SDN:H05::H0500006";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "acrylic"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H05/current/H0500015/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H05::H0500015";
+        dc:date                "2022-04-13 11:49:34.0";
+        dc:identifier          "SDN:H05::H0500015";
+        pav:authoredOn         "2022-04-13 11:49:34.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H05/current/H0500015/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SBR";
+        skos:definition        "Synthetic rubber formed from a copolymer of styrene and butadiene."@en;
+        skos:notation          "SDN:H05::H0500015";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "styrene-butadiene rubber"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H05/current/H0500012/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H05::H0500012";
+        dc:date                "2026-03-18 11:31:51.0";
+        dc:identifier          "SDN:H05::H0500012";
+        pav:authoredOn         "2026-03-18 11:31:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H05/current/H0500012/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/H05/current/H0500012/1/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500012/2/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "AK";
+        skos:definition        "The litter item is made of alkyd, a modified polyester resin used in paints, varnishes and casting moulds."@en;
+        skos:notation          "SDN:H05::H0500012";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "alkyd"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITPOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H05/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "A European project consortium aimed at the creation of data products using chemical data amassed through SeaDataNet. The governance is loosely defined as the scientific expertise within the consortium with no formal processes defined.";
+        rdfs:seeAlso            <https://github.com/nvs-vocabs/H05>;
+        dc:alternative          "Microlitter_material+polymer";
+        dc:creator              "EMODnet Chemistry Lot";
+        dc:date                 "2026-03-21 02:00:00.0";
+        dc:description          "Controlled vocabulary defining the terms that may be used for micro-litter particle characterisation according to the type of non-plastic material or the type of plastic polymer in the EMODnet Chemistry data reporting system.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "EMODnet micro-litter material or polymer type";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "EMODnet Chemistry Lot";
+        owl:versionInfo         "8";
+        skos:altLabel           "Microlitter_material+polymer";
+        skos:member             <http://vocab.nerc.ac.uk/collection/H05/current/H0500029/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500001/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500013/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500005/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500023/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500024/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500008/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500007/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500002/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500025/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500011/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500020/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500021/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500009/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500026/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500004/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500027/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500010/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500014/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500022/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500003/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500028/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500006/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500015/> , <http://vocab.nerc.ac.uk/collection/H05/current/H0500012/>;
+        skos:prefLabel          "EMODnet micro-litter material or polymer type" .

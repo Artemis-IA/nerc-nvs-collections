@@ -1,0 +1,292 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/G12/current/004/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G12::004";
+        dc:date                "2012-07-04 11:02:24.0";
+        dc:identifier          "SDN:G12::004";
+        pav:authoredOn         "2012-07-04 11:02:24.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G12/current/004/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Permissible value for a codelist or enumeration"@en;
+        skos:notation          "SDN:G12::004";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "codelistElement"@en .
+
+<http://vocab.nerc.ac.uk/collection/G12/current/003/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G12::003";
+        dc:date                "2012-07-04 11:02:24.0";
+        dc:identifier          "SDN:G12::003";
+        pav:authoredOn         "2012-07-04 11:02:24.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G12/current/003/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Data type whose instances form a list of named literal values, not extendable"@en;
+        skos:notation          "SDN:G12::003";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "enumeration"@en .
+
+<http://vocab.nerc.ac.uk/collection/G12/current/001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G12::001";
+        dc:date                "2012-07-04 11:02:24.0";
+        dc:identifier          "SDN:G12::001";
+        pav:authoredOn         "2012-07-04 11:02:24.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G12/current/001/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Descriptor of a set of objects that share the same attributes, operations, methods, relationships, and behavior"@en;
+        skos:notation          "SDN:G12::001";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "class"@en .
+
+<http://vocab.nerc.ac.uk/collection/G12/current/015/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G12::015";
+        dc:date                "2012-07-04 11:02:24.0";
+        dc:identifier          "SDN:G12::015";
+        pav:authoredOn         "2012-07-04 11:02:24.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G12/current/015/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Semantic relationship between two classes that involves connections among their instances"@en;
+        skos:notation          "SDN:G12::015";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "association"@en .
+
+<http://vocab.nerc.ac.uk/collection/G12/current/010/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G12::010";
+        dc:date                "2012-07-04 11:02:24.0";
+        dc:identifier          "SDN:G12::010";
+        pav:authoredOn         "2012-07-04 11:02:24.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G12/current/010/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Class describing a selection of one of the specified types"@en;
+        skos:notation          "SDN:G12::010";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "unionClass"@en .
+
+<http://vocab.nerc.ac.uk/collection/G12/current/006/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G12::006";
+        dc:date                "2012-07-04 11:02:24.0";
+        dc:identifier          "SDN:G12::006";
+        pav:authoredOn         "2012-07-04 11:02:24.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G12/current/006/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Class that is composed of classes it is connected to by an aggregate relationship"@en;
+        skos:notation          "SDN:G12::006";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "aggregateClass"@en .
+
+<http://vocab.nerc.ac.uk/collection/G12/current/005/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G12::005";
+        dc:date                "2012-07-04 11:02:24.0";
+        dc:identifier          "SDN:G12::005";
+        pav:authoredOn         "2012-07-04 11:02:24.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G12/current/005/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Class that cannot be directly instantiated"@en;
+        skos:notation          "SDN:G12::005";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "abstractClass"@en .
+
+<http://vocab.nerc.ac.uk/collection/G12/current/012/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G12::012";
+        dc:date                "2012-07-04 11:02:24.0";
+        dc:identifier          "SDN:G12::012";
+        pav:authoredOn         "2012-07-04 11:02:24.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G12/current/012/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Class used for specification of a domain of instances (objects), together with the operations applicable to the objects. A type may have attributes and associations"@en;
+        skos:notation          "SDN:G12::012";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "typeClass"@en .
+
+<http://vocab.nerc.ac.uk/collection/G12/current/013/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G12::013";
+        dc:date                "2012-07-04 11:02:24.0";
+        dc:identifier          "SDN:G12::013";
+        pav:authoredOn         "2012-07-04 11:02:24.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G12/current/013/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Free text field"@en;
+        skos:notation          "SDN:G12::013";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "characterString"@en .
+
+<http://vocab.nerc.ac.uk/collection/G12/current/007/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G12::007";
+        dc:date                "2012-07-04 11:02:24.0";
+        dc:identifier          "SDN:G12::007";
+        pav:authoredOn         "2012-07-04 11:02:24.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G12/current/007/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Subclass that may be substituted for its superclass"@en;
+        skos:notation          "SDN:G12::007";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "specifiedClass"@en .
+
+<http://vocab.nerc.ac.uk/collection/G12/current/002/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G12::002";
+        dc:date                "2012-07-04 11:02:24.0";
+        dc:identifier          "SDN:G12::002";
+        pav:authoredOn         "2012-07-04 11:02:24.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G12/current/002/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Flexible enumeration useful for expressing a long list of values, can be extended"@en;
+        skos:notation          "SDN:G12::002";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "codelist"@en .
+
+<http://vocab.nerc.ac.uk/collection/G12/current/014/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G12::014";
+        dc:date                "2012-07-04 11:02:24.0";
+        dc:identifier          "SDN:G12::014";
+        pav:authoredOn         "2012-07-04 11:02:24.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G12/current/014/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Numerical field"@en;
+        skos:notation          "SDN:G12::014";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "integer"@en .
+
+<http://vocab.nerc.ac.uk/collection/G12/current/008/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G12::008";
+        dc:date                "2012-07-04 11:02:24.0";
+        dc:identifier          "SDN:G12::008";
+        pav:authoredOn         "2012-07-04 11:02:24.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G12/current/008/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Class with few or no operations whose primary purpose is to hold the abstract state of another class for transmittal, storage, encoding or persistent storage"@en;
+        skos:notation          "SDN:G12::008";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "datatypeClass"@en .
+
+<http://vocab.nerc.ac.uk/collection/G12/current/011/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G12::011";
+        dc:date                "2012-07-04 11:02:24.0";
+        dc:identifier          "SDN:G12::011";
+        pav:authoredOn         "2012-07-04 11:02:24.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G12/current/011/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Class whose instances are classes"@en;
+        skos:notation          "SDN:G12::011";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "metaClass"@en .
+
+<http://vocab.nerc.ac.uk/collection/G12/current/009/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G12::009";
+        dc:date                "2012-07-04 11:02:24.0";
+        dc:identifier          "SDN:G12::009";
+        pav:authoredOn         "2012-07-04 11:02:24.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G12/current/009/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Named set of operations that characterize the behavior of an element"@en;
+        skos:notation          "SDN:G12::009";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "interfaceClass"@en .
+
+<http://vocab.nerc.ac.uk/collection/G12/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "International governance for standards covering many domains within science and beyond.";
+        dc:alternative          "MD_DatatypeCode";
+        dc:creator              "International Organization for Standardization";
+        dc:date                 "2012-07-05 02:00:09.0";
+        dc:description          "Datatype of element or entity";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "MD_DatatypeCode";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "International Organization for Standardization";
+        owl:versionInfo         "1";
+        skos:altLabel           "MD_DatatypeCode";
+        skos:member             <http://vocab.nerc.ac.uk/collection/G12/current/004/> , <http://vocab.nerc.ac.uk/collection/G12/current/003/> , <http://vocab.nerc.ac.uk/collection/G12/current/001/> , <http://vocab.nerc.ac.uk/collection/G12/current/015/> , <http://vocab.nerc.ac.uk/collection/G12/current/010/> , <http://vocab.nerc.ac.uk/collection/G12/current/006/> , <http://vocab.nerc.ac.uk/collection/G12/current/005/> , <http://vocab.nerc.ac.uk/collection/G12/current/012/> , <http://vocab.nerc.ac.uk/collection/G12/current/013/> , <http://vocab.nerc.ac.uk/collection/G12/current/007/> , <http://vocab.nerc.ac.uk/collection/G12/current/002/> , <http://vocab.nerc.ac.uk/collection/G12/current/014/> , <http://vocab.nerc.ac.uk/collection/G12/current/009/> , <http://vocab.nerc.ac.uk/collection/G12/current/011/> , <http://vocab.nerc.ac.uk/collection/G12/current/008/>;
+        skos:prefLabel          "MD_DatatypeCode" .

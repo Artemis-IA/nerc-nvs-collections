@@ -1,0 +1,192 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/EPL/current/L5A/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EPL::L5A";
+        dc:date                "2025-10-13 13:21:26.0";
+        dc:identifier          "SDN:EPL::L5A";
+        pav:authoredOn         "2025-10-13 13:21:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EPL/current/L5A/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "One-dimensional distribution of a specific parameter, without variations on the temporal or depth dimensions resulting from model or analysis output that uses data of Level 2 and/or 3 as input. Data products of this level represent the distribution of a single parameter derived from multiple measurements. Data are aggregated and undergo some level of geo-processing and spatial or temporal interpolation to cover data gaps and/or solve data discrepancies."@en;
+        skos:notation          "SDN:EPL::L5A";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Level 5A"@en .
+
+<http://vocab.nerc.ac.uk/collection/EPL/current/L1/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EPL::L1";
+        dc:date                "2025-10-13 13:21:26.0";
+        dc:identifier          "SDN:EPL::L1";
+        pav:authoredOn         "2025-10-13 13:21:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EPL/current/L1/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Full resolution data reconstructed with calibration coefficients, geo and time-referenced."@en;
+        skos:notation          "SDN:EPL::L1";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Level 1"@en .
+
+<http://vocab.nerc.ac.uk/collection/EPL/current/L5B/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EPL::L5B";
+        dc:date                "2025-10-13 13:21:26.0";
+        dc:identifier          "SDN:EPL::L5B";
+        pav:authoredOn         "2025-10-13 13:21:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EPL/current/L5B/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Two-dimensional distribution of a specific parameter, with variations on the spatial or temporal/depth dimensions resulting from model or analysis output that uses data of Level 2 and/or 3 as input. Data products of this level represent the distribution of a single parameter derived from multiple measurements. Data are aggregated and undergo some level of geo-processing and spatial or temporal interpolation to cover data gaps and/or solve data discrepancies."@en;
+        skos:notation          "SDN:EPL::L5B";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Level 5B"@en .
+
+<http://vocab.nerc.ac.uk/collection/EPL/current/L2/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EPL::L2";
+        dc:date                "2025-10-13 13:21:26.0";
+        dc:identifier          "SDN:EPL::L2";
+        pav:authoredOn         "2025-10-13 13:21:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EPL/current/L2/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Geo- and time-referenced processed (derived) data with a minimum QC. Near-real time (NRT) with full spatial and/or temporal resolution."@en;
+        skos:notation          "SDN:EPL::L2";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Level 2"@en .
+
+<http://vocab.nerc.ac.uk/collection/EPL/current/L5C/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EPL::L5C";
+        dc:date                "2025-10-13 13:21:26.0";
+        dc:identifier          "SDN:EPL::L5C";
+        pav:authoredOn         "2025-10-13 13:21:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EPL/current/L5C/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Three-dimensional distribution of a specific parameter resulting from model or analysis output that uses data of Level 2 and/or 3 as input. Data products of this level represent the distribution of a single parameter derived from multiple measurements. Data are aggregated and undergo some level of geo-processing and spatial or temporal interpolation to cover data gaps and/or solve data discrepancies."@en;
+        skos:notation          "SDN:EPL::L5C";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Level 5C"@en .
+
+<http://vocab.nerc.ac.uk/collection/EPL/current/L0/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EPL::L0";
+        dc:date                "2025-10-13 13:21:26.0";
+        dc:identifier          "SDN:EPL::L0";
+        pav:authoredOn         "2025-10-13 13:21:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EPL/current/L0/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Raw data. Unprocessed instrument data at full resolution, including synchronisation methods (e.g. elimination of CTD up-down duplicates) and excluding communication artefacts."@en;
+        skos:notation          "SDN:EPL::L0";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Level 0"@en .
+
+<http://vocab.nerc.ac.uk/collection/EPL/current/L4/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EPL::L4";
+        dc:date                "2025-10-13 13:21:26.0";
+        dc:identifier          "SDN:EPL::L4";
+        pav:authoredOn         "2025-10-13 13:21:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EPL/current/L4/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Collated data from different measurements, samples and/or sources that have been integrated in a data system by means of standardisation and/or categorisation, and subset or otherwise selected or derived to fulfil a specific requirement. Data can represent numerical values and presence/absence of a category or entity. Integration of datasets at this level enables further QC based on parameter to parameter relationships (e.g. TS diagrams)."@en;
+        skos:notation          "SDN:EPL::L4";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Level 4"@en .
+
+<http://vocab.nerc.ac.uk/collection/EPL/current/L6/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EPL::L6";
+        dc:date                "2025-10-13 13:21:26.0";
+        dc:identifier          "SDN:EPL::L6";
+        pav:authoredOn         "2025-10-13 13:21:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EPL/current/L6/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Derived information from multi-variable model or analysis that has Level 5 data products and/or Level 2-3 data as input. These input data and data products might have been gathered or developed by the thematic lot itself, by other thematic lots or third parties."@en;
+        skos:notation          "SDN:EPL::L6";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Level 6"@en .
+
+<http://vocab.nerc.ac.uk/collection/EPL/current/L3/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EPL::L3";
+        dc:date                "2025-10-13 13:21:26.0";
+        dc:identifier          "SDN:EPL::L3";
+        pav:authoredOn         "2025-10-13 13:21:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EPL/current/L3/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Delayed mode data with further QC, usually with some completeness, consistency and space/time uniformity. Data QC checks may include comparison with historical data and/or Level 5 products such as climatologies or gridded data."@en;
+        skos:notation          "SDN:EPL::L3";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Level 3"@en .
+
+<http://vocab.nerc.ac.uk/collection/EPL/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in MEDIN data and metadata documents";
+        rdfs:seeAlso            <https://github.com/nvs-vocabs/EPL>;
+        dc:alternative          "EMODnet Processing Levels";
+        dc:creator              "MEDIN Standards Group";
+        dc:date                 "2025-10-14 03:00:00.0";
+        dc:description          "Categories used to define data and data products based on the amount and broad type of processing or analysis that has taken place to come to a particular level. Developed by the EMODnet Technical Group (EMODnet Data and Data Product Portfolio), it is maintained by the MEDIN Standard Group on behalf of EMODnet. Examples have been provided by EMODnet Biology partners (https://doi.org/10.1016/j.marpol.2020.103958). Intended to be adopted across all the EMODnet thematic lots.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Processing Levels for EMODnet Data and Data Products";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "MEDIN Standards Group";
+        owl:versionInfo         "1";
+        skos:altLabel           "EMODnet Processing Levels";
+        skos:member             <http://vocab.nerc.ac.uk/collection/EPL/current/L5A/> , <http://vocab.nerc.ac.uk/collection/EPL/current/L1/> , <http://vocab.nerc.ac.uk/collection/EPL/current/L5B/> , <http://vocab.nerc.ac.uk/collection/EPL/current/L2/> , <http://vocab.nerc.ac.uk/collection/EPL/current/L5C/> , <http://vocab.nerc.ac.uk/collection/EPL/current/L0/> , <http://vocab.nerc.ac.uk/collection/EPL/current/L4/> , <http://vocab.nerc.ac.uk/collection/EPL/current/L6/> , <http://vocab.nerc.ac.uk/collection/EPL/current/L3/>;
+        skos:prefLabel          "Processing Levels for EMODnet Data and Data Products" .

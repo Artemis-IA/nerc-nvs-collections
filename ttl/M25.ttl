@@ -1,0 +1,129 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/M25/current/ISO19115/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M25::ISO19115";
+        dc:date                "2020-04-19 10:43:49.0";
+        dc:identifier          "SDN:M25::ISO19115";
+        dc:isReplacedBy        <http://vocab.nerc.ac.uk/collection/M25/current/19115/>;
+        pav:authoredOn         "2020-04-19 10:43:49.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M25/current/ISO19115/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/M25/current/ISO19115/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "Standard published by the International Organisation for Standardisation (ISO) to provide a structure for describing digital geographic data. ISO 19115 was published in May 2003. This concept also accounts for all subsequent iterations of this standard."@en;
+        skos:notation          "SDN:M25::ISO19115";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "ISO 19115"@en .
+
+<http://vocab.nerc.ac.uk/collection/M25/current/19115/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M25::19115";
+        dc:date                "2022-04-27 17:03:28.0";
+        dc:identifier          "SDN:M25::19115";
+        dc:replaces            <http://vocab.nerc.ac.uk/collection/M25/current/ISO19115/>;
+        pav:authoredOn         "2022-04-27 17:03:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M25/current/19115/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/M25/current/19115/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "{\"metadataProfile\":\"Standard published by the International Organisation for Standardisation (ISO) to provide a structure for describing digital geographic data. ISO 19115 was published in May 2003. This concept also accounts for ISO 19115:2003 with corrigenda added in 2006.\",\"profileCurrentVersion\":\"ISO 19115:2003\"}"@en;
+        skos:notation          "SDN:M25::19115";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ISO 19115:2003"@en .
+
+<http://vocab.nerc.ac.uk/collection/M25/current/EAMP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M25::EAMP";
+        dc:date                "2020-04-19 10:43:49.0";
+        dc:identifier          "SDN:M25::EAMP";
+        pav:authoredOn         "2020-04-19 10:43:49.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M25/current/EAMP/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/M25/current/EAMP/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "{\"metadataProfile\": \"The Environment Agency (EA) Metadata Profile (EAMP) extends UK GEMINI for the Environment Agency, including two additional elements: Approval for Access(AfA) status, which is an additional access constraint element using a controlled vocabulary to define the outcome of an EA legal process decision as to whether data and information within the data source are legally safe to share; and Approval for Access(AfA) code, which is an additional element required alongside AfA Status to indicate the process derived unique identifier associated with the data source. Version information on the EAMP is available at https: //github.com/AstunTechnology/iso19139.eamp/wiki/Version-History and more details on the most recent version can be seen at https: //github.com/AstunTechnology/iso19139.eamp\",\"profileCurrentVersion\": \"1.1 \"}"@en;
+        skos:notation          "SDN:M25::EAMP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "EAMP"@en .
+
+<http://vocab.nerc.ac.uk/collection/M25/current/MEDIN/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M25::MEDIN";
+        dc:date                "2022-04-27 17:03:52.0";
+        dc:identifier          "SDN:M25::MEDIN";
+        pav:authoredOn         "2022-04-27 17:03:52.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M25/current/MEDIN/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/M25/current/MEDIN/1/> , <http://vocab.nerc.ac.uk/collection/M25/current/MEDIN/3/> , <http://vocab.nerc.ac.uk/collection/M25/current/MEDIN/2/>;
+        pav:version            "4";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "4";
+        skos:altLabel          "";
+        skos:definition        "{\"metadataProfile\":\"The UK Marine Environmental Data and Information Network (MEDIN) maintain a discovery metadata standard for marine geospatial data. This is a marine-specific profile of UK GEMINI with elements restricted by marine-oriented controlled vocabularies. Further information on MEDIN and the MEDIN profile is available at www.medin.org.uk\",\"profileCurrentVersion\":\"3.0\"}"@en;
+        skos:notation          "SDN:M25::MEDIN";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "MEDIN"@en .
+
+<http://vocab.nerc.ac.uk/collection/M25/current/GEMINI/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M25::GEMINI";
+        dc:date                "2022-04-27 17:03:52.0";
+        dc:identifier          "SDN:M25::GEMINI";
+        pav:authoredOn         "2022-04-27 17:03:52.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M25/current/GEMINI/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/M25/current/GEMINI/2/> , <http://vocab.nerc.ac.uk/collection/M25/current/GEMINI/3/> , <http://vocab.nerc.ac.uk/collection/M25/current/GEMINI/1/>;
+        pav:version            "4";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "4";
+        skos:altLabel          "GEMINI";
+        skos:definition        "{\"metadataProfile\": \"UK GEMINI (GEo-spatial Metadata Interoperability iNItiative) is a United Kingdom specification for a set of discovery metadata elements for describing geospatial data resources. It uses the EU INSPIRE subset of ISO 19115. The intellectual property of UK GEMINI is owned by the Association for Geographic Information (AGI) and further information is available at https://www.agi.org.uk/gemini\",\"profileCurrentVersion\": \"2.3 \"}"@en;
+        skos:notation          "SDN:M25::GEMINI";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "UK GEMINI"@en .
+
+<http://vocab.nerc.ac.uk/collection/M25/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in MEDIN data and metadata documents";
+        dc:alternative          "MEDIN discovery metadata standards";
+        dc:creator              "MEDIN Standards Group";
+        dc:date                 "2022-04-28 03:00:03.0";
+        dc:description          "Terms that define standards recognised by MEDIN as being used to generate metadata records with the aim of enabling the discovery of geospatial data through online resources such as portals. Standard in this definition also covers specifications and profiles. Terms include both international and UK standards.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Geospatial discovery metadata standards, specifications and profiles recognised by MEDIN";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "MEDIN Standards Group";
+        owl:versionInfo         "4";
+        skos:altLabel           "MEDIN discovery metadata standards";
+        skos:member             <http://vocab.nerc.ac.uk/collection/M25/current/ISO19115/> , <http://vocab.nerc.ac.uk/collection/M25/current/19115/> , <http://vocab.nerc.ac.uk/collection/M25/current/GEMINI/> , <http://vocab.nerc.ac.uk/collection/M25/current/MEDIN/> , <http://vocab.nerc.ac.uk/collection/M25/current/EAMP/>;
+        skos:prefLabel          "Geospatial discovery metadata standards, specifications and profiles recognised by MEDIN" .

@@ -1,0 +1,513 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/P38/current/sea_floor/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P38::sea_floor";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P38::sea_floor";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P38/current/sea_floor/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The lower boundary of the ocean."@en;
+        skos:notation          "SDN:P38::sea_floor";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "sea_floor"@en .
+
+<http://vocab.nerc.ac.uk/collection/P38/current/ocean_layer/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P38::ocean_layer";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P38::ocean_layer";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P38/current/ocean_layer/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Layer\"\" means any layer with upper and lower boundaries that have constant values in some vertical coordinate. There must be a vertical coordinate variable indicating the extent of the layer(s). If the layers are model layers, the vertical coordinate can be model_level_number, but it is recommended to specify a physical coordinate (in a scalar or auxiliary coordinate variable) as well."@en;
+        skos:notation          "SDN:P38::ocean_layer";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ocean_layer"@en .
+
+<http://vocab.nerc.ac.uk/collection/P38/current/convective_cloud_top/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P38::convective_cloud_top";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P38::convective_cloud_top";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P38/current/convective_cloud_top/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The top of the highest convective cloud."@en;
+        skos:notation          "SDN:P38::convective_cloud_top";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "convective_cloud_top"@en .
+
+<http://vocab.nerc.ac.uk/collection/P38/current/reference_ellipsoid/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P38::reference_ellipsoid";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P38::reference_ellipsoid";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P38/current/reference_ellipsoid/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A reference ellipsoid is a regular mathematical figure that approximates the irregular shape of the geoid. A number of reference ellipsoids are defined for use in the field of geodesy."@en;
+        skos:notation          "SDN:P38::reference_ellipsoid";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "reference_ellipsoid"@en .
+
+<http://vocab.nerc.ac.uk/collection/P38/current/atmosphere_boundary_layer/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P38::atmosphere_boundary_layer";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P38::atmosphere_boundary_layer";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P38/current/atmosphere_boundary_layer/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The (atmosphere) planetary boundary layer."@en;
+        skos:notation          "SDN:P38::atmosphere_boundary_layer";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "atmosphere_boundary_layer"@en .
+
+<http://vocab.nerc.ac.uk/collection/P38/current/bedrock/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P38::bedrock";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P38::bedrock";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P38/current/bedrock/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Bedrock is the solid Earth surface beneath land ice or ocean water."@en;
+        skos:notation          "SDN:P38::bedrock";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "bedrock"@en .
+
+<http://vocab.nerc.ac.uk/collection/P38/current/convective_cloud_base/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P38::convective_cloud_base";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P38::convective_cloud_base";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P38/current/convective_cloud_base/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The base of the lowest convective cloud."@en;
+        skos:notation          "SDN:P38::convective_cloud_base";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "convective_cloud_base"@en .
+
+<http://vocab.nerc.ac.uk/collection/P38/current/sea_level/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P38::sea_level";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P38::sea_level";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P38/current/sea_level/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "sea_level means mean sea level, which is close to the geoid in sea areas."@en;
+        skos:notation          "SDN:P38::sea_level";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "sea_level"@en .
+
+<http://vocab.nerc.ac.uk/collection/P38/current/ocean_rigid_lid/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P38::ocean_rigid_lid";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P38::ocean_rigid_lid";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P38/current/ocean_rigid_lid/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The upper surface of an ocean model, assuming that it is bounded above by a rigid lid."@en;
+        skos:notation          "SDN:P38::ocean_rigid_lid";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ocean_rigid_lid"@en .
+
+<http://vocab.nerc.ac.uk/collection/P38/current/ocean_mixed_layer/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P38::ocean_mixed_layer";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P38::ocean_mixed_layer";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P38/current/ocean_mixed_layer/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The ocean mixed layer is the upper part of the ocean, regarded as being well-mixed."@en;
+        skos:notation          "SDN:P38::ocean_mixed_layer";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ocean_mixed_layer"@en .
+
+<http://vocab.nerc.ac.uk/collection/P38/current/toa/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P38::toa";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P38::toa";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P38/current/toa/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Abbreviation for top of atmosphere."@en;
+        skos:notation          "SDN:P38::toa";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "toa"@en .
+
+<http://vocab.nerc.ac.uk/collection/P38/current/ocean/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P38::ocean";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P38::ocean";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P38/current/ocean/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The vertical region between the sea surface and the sea floor."@en;
+        skos:notation          "SDN:P38::ocean";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ocean"@en .
+
+<http://vocab.nerc.ac.uk/collection/P38/current/freezing_level/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P38::freezing_level";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P38::freezing_level";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P38/current/freezing_level/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The vertical location of the zero degrees Celsius isotherm."@en;
+        skos:notation          "SDN:P38::freezing_level";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "freezing_level"@en .
+
+<http://vocab.nerc.ac.uk/collection/P38/current/canopy/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P38::canopy";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P38::canopy";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P38/current/canopy/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Canopy means the plant or vegetation canopy."@en;
+        skos:notation          "SDN:P38::canopy";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "canopy"@en .
+
+<http://vocab.nerc.ac.uk/collection/P38/current/atmosphere_layer/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P38::atmosphere_layer";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P38::atmosphere_layer";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P38/current/atmosphere_layer/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Layer means any layer with upper and lower boundaries that have constant values in some vertical coordinate. There must be a vertical coordinate variable indicating the extent of the layer(s). If the layers are model layers, the vertical coordinate can be model_level_number, but it is recommended to specify a physical coordinate (in a scalar or auxiliary coordinate variable) as well."@en;
+        skos:notation          "SDN:P38::atmosphere_layer";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "atmosphere_layer"@en .
+
+<http://vocab.nerc.ac.uk/collection/P38/current/cloud_base/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P38::cloud_base";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P38::cloud_base";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P38/current/cloud_base/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The base of the lowest cloud."@en;
+        skos:notation          "SDN:P38::cloud_base";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "cloud_base"@en .
+
+<http://vocab.nerc.ac.uk/collection/P38/current/cloud_top/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P38::cloud_top";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P38::cloud_top";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P38/current/cloud_top/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The top of the highest cloud."@en;
+        skos:notation          "SDN:P38::cloud_top";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "cloud_top"@en .
+
+<http://vocab.nerc.ac.uk/collection/P38/current/permafrost_layer/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P38::permafrost_layer";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P38::permafrost_layer";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P38/current/permafrost_layer/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Permafrost is soil or rock that has remained at a temperature at or below zero degrees Celsius throughout the seasonal cycle for two or more years."@en;
+        skos:notation          "SDN:P38::permafrost_layer";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "permafrost_layer"@en .
+
+<http://vocab.nerc.ac.uk/collection/P38/current/soil_layer/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P38::soil_layer";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P38::soil_layer";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P38/current/soil_layer/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Layer means any layer with upper and lower boundaries that have constant values in some vertical coordinate. There must be a vertical coordinate variable indicating the extent of the layer(s). If the layers are model layers, the vertical coordinate can be model_level_number, but it is recommended to specify a physical coordinate (in a scalar or auxiliary coordinate variable) as well. Quantities defined for a soil layer must have a vertical coordinate variable with boundaries indicating the extent of the layer(s)."@en;
+        skos:notation          "SDN:P38::soil_layer";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "soil_layer"@en .
+
+<http://vocab.nerc.ac.uk/collection/P38/current/tropopause/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P38::tropopause";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P38::tropopause";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P38/current/tropopause/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The upper boundary of the troposphere."@en;
+        skos:notation          "SDN:P38::tropopause";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "tropopause"@en .
+
+<http://vocab.nerc.ac.uk/collection/P38/current/equilibrium_line/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P38::equilibrium_line";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P38::equilibrium_line";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P38/current/equilibrium_line/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The equilibrium line is the locus of points on a land ice surface at which ice accumulation balances ice ablation over the year."@en;
+        skos:notation          "SDN:P38::equilibrium_line";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "equilibrium_line"@en .
+
+<http://vocab.nerc.ac.uk/collection/P38/current/ionosphere/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P38::ionosphere";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P38::ionosphere";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P38/current/ionosphere/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The vertical region of the atmosphere that is ionized by solar and cosmic radiation, usually at an altitude of between 75 and 1000 km above the surface of the Earth."@en;
+        skos:notation          "SDN:P38::ionosphere";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ionosphere"@en .
+
+<http://vocab.nerc.ac.uk/collection/P38/current/middle_atmosphere/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P38::middle_atmosphere";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P38::middle_atmosphere";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P38/current/middle_atmosphere/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The vertical region comprising the troposphere and the stratosphere together."@en;
+        skos:notation          "SDN:P38::middle_atmosphere";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "middle_atmosphere"@en .
+
+<http://vocab.nerc.ac.uk/collection/P38/current/geoid/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P38::geoid";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P38::geoid";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P38/current/geoid/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The geoid is a surface of constant geopotential with which mean sea level would coincide if the ocean were at rest."@en;
+        skos:notation          "SDN:P38::geoid";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "geoid"@en .
+
+<http://vocab.nerc.ac.uk/collection/P38/current/atmosphere/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P38::atmosphere";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P38::atmosphere";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P38/current/atmosphere/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The vertical region between the surface of the Earth and the top of the atmosphere."@en;
+        skos:notation          "SDN:P38::atmosphere";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "atmosphere"@en .
+
+<http://vocab.nerc.ac.uk/collection/P38/current/troposphere/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P38::troposphere";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P38::troposphere";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P38/current/troposphere/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The vertical region between the surface of the Earth and the tropopause."@en;
+        skos:notation          "SDN:P38::troposphere";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "troposphere"@en .
+
+<http://vocab.nerc.ac.uk/collection/P38/current/stratosphere/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P38::stratosphere";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P38::stratosphere";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P38/current/stratosphere/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The vertical region between the tropopause and the stratopause."@en;
+        skos:notation          "SDN:P38::stratosphere";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "stratosphere"@en .
+
+<http://vocab.nerc.ac.uk/collection/P38/current/surface/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P38::surface";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P38::surface";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P38/current/surface/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The lower boundary of the atmosphere."@en;
+        skos:notation          "SDN:P38::surface";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "surface"@en .
+
+<http://vocab.nerc.ac.uk/collection/P38/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Formal vocabulary specialist group within the governance of the Climate and Forecast Community Metadata Standard.";
+        dc:alternative          "CF Vertical Coverages";
+        dc:creator              "Climate and Forecast Standard Names Committee";
+        dc:date                 "2015-02-19 02:00:03.0";
+        dc:description          "Terms used by the CF community to describe the data coverage over the vertical (z) co-ordinate. This is used to describe the Earth Realm in the CF Standard Name semantic model.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Climate and Forecast Vertical Co-ordinate Coverages";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Climate and Forecast Standard Names Committee";
+        owl:versionInfo         "1";
+        skos:altLabel           "CF Vertical Coverages";
+        skos:member             <http://vocab.nerc.ac.uk/collection/P38/current/sea_floor/> , <http://vocab.nerc.ac.uk/collection/P38/current/ocean_layer/> , <http://vocab.nerc.ac.uk/collection/P38/current/convective_cloud_top/> , <http://vocab.nerc.ac.uk/collection/P38/current/reference_ellipsoid/> , <http://vocab.nerc.ac.uk/collection/P38/current/atmosphere_boundary_layer/> , <http://vocab.nerc.ac.uk/collection/P38/current/bedrock/> , <http://vocab.nerc.ac.uk/collection/P38/current/convective_cloud_base/> , <http://vocab.nerc.ac.uk/collection/P38/current/sea_level/> , <http://vocab.nerc.ac.uk/collection/P38/current/ocean_rigid_lid/> , <http://vocab.nerc.ac.uk/collection/P38/current/ocean_mixed_layer/> , <http://vocab.nerc.ac.uk/collection/P38/current/toa/> , <http://vocab.nerc.ac.uk/collection/P38/current/ocean/> , <http://vocab.nerc.ac.uk/collection/P38/current/freezing_level/> , <http://vocab.nerc.ac.uk/collection/P38/current/canopy/> , <http://vocab.nerc.ac.uk/collection/P38/current/atmosphere_layer/> , <http://vocab.nerc.ac.uk/collection/P38/current/cloud_base/> , <http://vocab.nerc.ac.uk/collection/P38/current/cloud_top/> , <http://vocab.nerc.ac.uk/collection/P38/current/permafrost_layer/> , <http://vocab.nerc.ac.uk/collection/P38/current/soil_layer/> , <http://vocab.nerc.ac.uk/collection/P38/current/tropopause/> , <http://vocab.nerc.ac.uk/collection/P38/current/equilibrium_line/> , <http://vocab.nerc.ac.uk/collection/P38/current/ionosphere/> , <http://vocab.nerc.ac.uk/collection/P38/current/middle_atmosphere/> , <http://vocab.nerc.ac.uk/collection/P38/current/geoid/> , <http://vocab.nerc.ac.uk/collection/P38/current/atmosphere/> , <http://vocab.nerc.ac.uk/collection/P38/current/surface/> , <http://vocab.nerc.ac.uk/collection/P38/current/stratosphere/> , <http://vocab.nerc.ac.uk/collection/P38/current/troposphere/>;
+        skos:prefLabel          "Climate and Forecast Vertical Co-ordinate Coverages" .

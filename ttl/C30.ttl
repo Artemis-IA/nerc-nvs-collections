@@ -1,0 +1,864 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/C30/current/NETMAR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::NETMAR";
+        dc:date                "2011-11-11 09:53:31.0";
+        dc:identifier          "SDN:C30::NETMAR";
+        pav:authoredOn         "2011-11-11 09:53:31.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/NETMAR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "NETMAR";
+        skos:definition        "A body established by the European Union Framework 7 NETMAR project for content management of semantic resources used in the project."@en;
+        skos:notation          "SDN:C30::NETMAR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "NETMAR Ontology Governance Group"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/ODATIS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::ODATIS";
+        dc:date                "2021-12-12 21:18:40.0";
+        dc:identifier          "SDN:C30::ODATIS";
+        pav:authoredOn         "2021-12-12 21:18:40.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/ODATIS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ODATIS";
+        skos:definition        "Governance for vocabularies used in the ODATIS Ocean Data and Services Cluster of the French Data Terra Research Infrastructure and hosted on the NVS."@en;
+        skos:notation          "SDN:C30::ODATIS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ODATIS vocabulary governance"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/CMRC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::CMRC";
+        dc:date                "2015-06-01 13:52:52.0";
+        dc:identifier          "SDN:C30::CMRC";
+        pav:authoredOn         "2015-06-01 13:52:52.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/CMRC/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C30/current/CMRC/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "CMRC";
+        skos:definition        "Unit within University College Cork in Ireland involved in several geospatially-related projects and responsible for several products, including the Marine Irish Data Atlas (MIDA)"@en;
+        skos:notation          "SDN:C30::CMRC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Coastal and Marine resources Centre"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/EC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::EC";
+        dc:date                "2009-07-29 11:45:57.0";
+        dc:identifier          "SDN:C30::EC";
+        pav:authoredOn         "2009-07-29 11:45:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/EC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "EC";
+        skos:definition        "Governance for vocabularies used in INSPIRE spatial data infrastructure metadata"@en;
+        skos:notation          "SDN:C30::EC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "European Commission"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/HELCOM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::HELCOM";
+        dc:date                "2018-11-20 14:37:42.0";
+        dc:identifier          "SDN:C30::HELCOM";
+        pav:authoredOn         "2018-11-20 14:37:42.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/HELCOM/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "HELCOM";
+        skos:definition        "Governance for vocabularies and list of terms published and maintained by HELCOM (Baltic Marine Environment Protection Commission - Helsinki Commission) and hosted on the NERC Vocabulary Server. HELCOM is the governing body of the Convention on the Protection of the Marine Environment of the Baltic Sea Area, known as the Helsinki Convention. The Contracting Parties are Denmark, Estonia, the European Union, Finland, Germany, Latvia, Lithuania, Poland, Russia and Sweden."@en;
+        skos:notation          "SDN:C30::HELCOM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Baltic Marine Environment Protection Commission"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/SIS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::SIS";
+        dc:date                "2014-03-25 12:17:33.0";
+        dc:identifier          "SDN:C30::SIS";
+        pav:authoredOn         "2014-03-25 12:17:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/SIS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SISMER";
+        skos:definition        "The French national oceanographic data centre responsible for vocabularies used within IFREMER"@en;
+        skos:notation          "SDN:C30::SIS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Systèmes d'Informations Scientifiques pour la Mer"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/OCMP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::OCMP";
+        dc:date                "2011-08-15 08:18:28.0";
+        dc:identifier          "SDN:C30::OCMP";
+        pav:authoredOn         "2011-08-15 08:18:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/OCMP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "OCMP";
+        skos:definition        "State government authority for the Oregon Coastal Atlas."@en;
+        skos:notation          "SDN:C30::OCMP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Oregon State Coastal Management Program"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/EMODPHYS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::EMODPHYS";
+        dc:date                "2024-01-08 18:29:18.0";
+        dc:identifier          "SDN:C30::EMODPHYS";
+        pav:authoredOn         "2024-01-08 18:29:18.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/EMODPHYS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Governance for vocabularies created for the European Marine Observation and Data Network (EMODnet) Physics infrastructure. EMODnet Physics is an upstream ocean data integrating service providing a single point of access to in situ ocean physics time-series data and vertical profiles, data products and metadata built with common standards, free of charge and no restrictions. The governance is loosely defined as the scientific expertise within the consortium with no formal processes defined."@en;
+        skos:notation          "SDN:C30::EMODPHYS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "EMODnet Physics"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/BODC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::BODC";
+        dc:date                "2015-06-01 13:55:53.0";
+        dc:identifier          "SDN:C30::BODC";
+        pav:authoredOn         "2015-06-01 13:55:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/BODC/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C30/current/BODC/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "BODC";
+        skos:definition        "Governance for vocabularies used within the data centre"@en;
+        skos:notation          "SDN:C30::BODC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "British Oceanographic Data Centre"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/POGO/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::POGO";
+        dc:date                "2010-08-10 14:03:04.0";
+        dc:identifier          "SDN:C30::POGO";
+        pav:authoredOn         "2010-08-10 14:03:04.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/POGO/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "POGO";
+        skos:definition        "International collaboration of the senior management of oceanographic research organisations worldwide."@en;
+        skos:notation          "SDN:C30::POGO";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Partnership for Observation of the Global Oceans"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/GEOSEA/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::GEOSEA";
+        dc:date                "2010-09-16 09:57:31.0";
+        dc:identifier          "SDN:C30::GEOSEA";
+        pav:authoredOn         "2010-09-16 09:57:31.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/GEOSEA/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Geo-Seas";
+        skos:definition        "Governance for vocabularies used in the EU Geo-Seas project implemented as consultation between BODC and a designated group of Geo-Seas project paticipants"@en;
+        skos:notation          "SDN:C30::GEOSEA";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Geo-Seas"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/WCA/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::WCA";
+        dc:date                "2013-06-18 08:48:59.0";
+        dc:identifier          "SDN:C30::WCA";
+        pav:authoredOn         "2013-06-18 08:48:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/WCA/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Wisconsin SGI";
+        skos:definition        "University institute responsible for the management of the Wisconsin Coastal Atlas"@en;
+        skos:notation          "SDN:C30::WCA";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "University of Wisconsin Sea Grant Institute"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/IEEE/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::IEEE";
+        dc:date                "2026-06-16 22:55:05.0";
+        dc:identifier          "SDN:C30::IEEE";
+        pav:authoredOn         "2026-06-16 22:55:05.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/IEEE/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "IEEE";
+        skos:definition        "Governance for vocabularies used in the Ocean Practices Maturity Model (OPMM) and maturity assessments."@en;
+        skos:notation          "SDN:C30::IEEE";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Institute of Electrical and Electronics Engineers"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/NERC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::NERC";
+        dc:date                "2011-04-12 11:09:09.0";
+        dc:identifier          "SDN:C30::NERC";
+        pav:authoredOn         "2011-04-12 11:09:09.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/NERC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "NERC";
+        skos:definition        "Governance for vocabularies used for cross-centre information infrastructure in NERC. Current (2011) manifestation is the NERC SIS metadata subgroup"@en;
+        skos:notation          "SDN:C30::NERC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Natural Environment Research Council"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/NASA/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::NASA";
+        dc:date                "2016-01-06 13:56:35.0";
+        dc:identifier          "SDN:C30::NASA";
+        pav:authoredOn         "2016-01-06 13:56:35.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/NASA/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "NASA";
+        skos:definition        "The United States government agency responsible for science and technology related to air and space. See www.nasa.gov for further details."@en;
+        skos:notation          "SDN:C30::NASA";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "National Aeronautics and Space Administration"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/WMO/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::WMO";
+        dc:date                "2009-09-28 15:11:57.0";
+        dc:identifier          "SDN:C30::WMO";
+        pav:authoredOn         "2009-09-28 15:11:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/WMO/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "WMO";
+        skos:definition        "Governance for vocabularies used in the international exchange of meteorological and metocean data between national meteorological organisations"@en;
+        skos:notation          "SDN:C30::WMO";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "World Meteorological Organisation"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/CF/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::CF";
+        dc:date                "2010-08-10 14:40:40.0";
+        dc:identifier          "SDN:C30::CF";
+        pav:authoredOn         "2010-08-10 14:40:40.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/CF/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "CF Standard Names";
+        skos:definition        "Formal vocabulary specialist group within the governance of the Climate and Forecast Community Metadata Standard."@en;
+        skos:notation          "SDN:C30::CF";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Climate and Forecast Standard Names Committee"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/GCMD/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::GCMD";
+        dc:date                "2010-08-10 14:43:31.0";
+        dc:identifier          "SDN:C30::GCMD";
+        pav:authoredOn         "2010-08-10 14:43:31.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/GCMD/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "GCMD";
+        skos:definition        "NASA environmental discovery metadata development and portal management group."@en;
+        skos:notation          "SDN:C30::GCMD";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Global Change Master Directory"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/SWE/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::SWE";
+        dc:date                "2016-07-20 15:08:30.0";
+        dc:identifier          "SDN:C30::SWE";
+        pav:authoredOn         "2016-07-20 15:08:30.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/SWE/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C30/current/SWE/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "SWE";
+        skos:definition        "Governance for vocabularies created for use in SWE Marine Profiles."@en;
+        skos:notation          "SDN:C30::SWE";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sensor Web Enablement Marine Profiles"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/EMODBATH/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::EMODBATH";
+        dc:date                "2023-07-13 13:21:49.0";
+        dc:identifier          "SDN:C30::EMODBATH";
+        pav:authoredOn         "2023-07-13 13:21:49.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/EMODBATH/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "EMODnet Bathy";
+        skos:definition        "A European project consortium aimed at the creation of data products using bathymetry data amassed through SeaDataNet. The governance is loosely defined as the scientific expertise within the consortium with no formal processes defined."@en;
+        skos:notation          "SDN:C30::EMODBATH";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "EMODnet Bathymetry Lot"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/OGDMTT/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::OGDMTT";
+        dc:date                "2022-10-12 16:47:28.0";
+        dc:identifier          "SDN:C30::OGDMTT";
+        pav:authoredOn         "2022-10-12 16:47:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/OGDMTT/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C30/current/OGDMTT/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "OGDMTT";
+        skos:definition        "An international team set up to co-ordinate and harmonise glider data management on a global scale."@en;
+        skos:notation          "SDN:C30::OGDMTT";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "OceanGliders Data Management Task Team"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/OCEANOPS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::OCEANOPS";
+        dc:date                "2026-03-18 15:30:01.0";
+        dc:identifier          "SDN:C30::OCEANOPS";
+        pav:authoredOn         "2026-03-18 15:30:01.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/OCEANOPS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "GOOS/OceanOPS";
+        skos:definition        "Governance for vocabularies managed by the Global Ocean Observing System (GOOS) under OceanOPS (https://www.ocean-ops.org) and hosted on the NERC Vocabulary Server (NVS)."@en;
+        skos:notation          "SDN:C30::OCEANOPS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GOOS/OceanOPS Vocabulary Governance"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/EMODCHEM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::EMODCHEM";
+        dc:date                "2026-06-02 09:28:32.0";
+        dc:identifier          "SDN:C30::EMODCHEM";
+        pav:authoredOn         "2026-06-02 09:28:32.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/EMODCHEM/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C30/current/EMODCHEM/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "EMODnet Chem";
+        skos:definition        "A European project consortium aimed at the creation of data products using chemical data amassed through SeaDataNet. The governance is loosely defined as the scientific expertise within the consortium with no formal processes defined."@en;
+        skos:notation          "SDN:C30::EMODCHEM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "EMODnet Chemistry Lot"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/CEDRE/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::CEDRE";
+        dc:date                "2012-07-20 09:34:13.0";
+        dc:identifier          "SDN:C30::CEDRE";
+        pav:authoredOn         "2012-07-20 09:34:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/CEDRE/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Cedre";
+        skos:definition        "French national organisation for documentation, research and experimentation on pollutants, their effects and the response means and tools that can be used to combat them. It is charged with providing advice and expertise to the authorities responsible for responding to accidental pollution."@en;
+        skos:notation          "SDN:C30::CEDRE";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Centre de documentation de recherche et d'expérimentations sur les pollutions accidentelles des eaux"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/FCMVOC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::FCMVOC";
+        dc:date                "2022-11-07 15:38:21.0";
+        dc:identifier          "SDN:C30::FCMVOC";
+        pav:authoredOn         "2022-11-07 15:38:21.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/FCMVOC/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C30/current/FCMVOC/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "An international group of flow cytometry experts managing the governance of terms used to harmonise flow cytometry data in the marine domain."@en;
+        skos:notation          "SDN:C30::FCMVOC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Marine Flow Cytometry Vocabulary Governance"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/OBIS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::OBIS";
+        dc:date                "2016-09-14 21:40:48.0";
+        dc:identifier          "SDN:C30::OBIS";
+        pav:authoredOn         "2016-09-14 21:40:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/OBIS/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C30/current/OBIS/1/> , <http://vocab.nerc.ac.uk/collection/C30/current/OBIS/2/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "OBIS";
+        skos:definition        "Governance for vocabularies created and maintained by the Ocean Biogeographic Information System."@en;
+        skos:notation          "SDN:C30::OBIS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Ocean Biogeographic Information System"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/IOC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::IOC";
+        dc:date                "2016-02-23 09:27:25.0";
+        dc:identifier          "SDN:C30::IOC";
+        pav:authoredOn         "2016-02-23 09:27:25.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/IOC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "IOC";
+        skos:definition        "Governance for vocabularies used by the International Oceanographic Commission of UNESCO for the international exchange of oceanographic and ocean biodiversity data and information."@en;
+        skos:notation          "SDN:C30::IOC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "International Oceanographic Commission"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/ISO/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::ISO";
+        dc:date                "2010-08-10 14:07:13.0";
+        dc:identifier          "SDN:C30::ISO";
+        pav:authoredOn         "2010-08-10 14:07:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/ISO/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ISO";
+        skos:definition        "International governance for standards covering many domains within science and beyond."@en;
+        skos:notation          "SDN:C30::ISO";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "International Organization for Standardization"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/EMODSBHB/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::EMODSBHB";
+        dc:date                "2023-09-05 11:44:55.0";
+        dc:identifier          "SDN:C30::EMODSBHB";
+        pav:authoredOn         "2023-09-05 11:44:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/EMODSBHB/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "EMODnet SeaHab";
+        skos:definition        "A European project consortium aimed at the creation of broad-scale seabed habitat data products (EUSeaMap) using data amassed through SeaDataNet from surveys across Europe. The governance is loosely defined as the scientific expertise within the consortium with no formal processes defined."@en;
+        skos:notation          "SDN:C30::EMODSBHB";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "EMODnet Seabed Habitats Lot"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/JNCC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::JNCC";
+        dc:date                "2018-01-15 14:11:52.0";
+        dc:identifier          "SDN:C30::JNCC";
+        pav:authoredOn         "2018-01-15 14:11:52.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/JNCC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "JNCC";
+        skos:definition        "A public body that advises the UK Government and devolved administrations on UK-wide and international nature conservation."@en;
+        skos:notation          "SDN:C30::JNCC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Joint Nature Conservation Committee"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/MFR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::MFR";
+        dc:date                "2012-07-20 09:13:15.0";
+        dc:identifier          "SDN:C30::MFR";
+        pav:authoredOn         "2012-07-20 09:13:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/MFR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "METEO FRANCE";
+        skos:definition        "Governance for vocabularies used in services and products provided by the French national weather forecasting and meteorology organisation."@en;
+        skos:notation          "SDN:C30::MFR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "METEO FRANCE"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/SB2030/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::SB2030";
+        dc:date                "2019-10-31 17:20:28.0";
+        dc:identifier          "SDN:C30::SB2030";
+        pav:authoredOn         "2019-10-31 17:20:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/SB2030/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Seabed 2030";
+        skos:definition        "Governance for the definition of terms used to define the GEBCO source Data Type Identifier (TID) codes."@en;
+        skos:notation          "SDN:C30::SB2030";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Nippon Foundation-GEBCO Seabed 2030 Project Team"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/RAMSAR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::RAMSAR";
+        dc:date                "2022-08-15 14:27:51.0";
+        dc:identifier          "SDN:C30::RAMSAR";
+        pav:authoredOn         "2022-08-15 14:27:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/RAMSAR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Ramsar";
+        skos:definition        "Governance for vocabularies associated with the Ramsar Classification System for Wetland Type."@en;
+        skos:notation          "SDN:C30::RAMSAR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Ramsar Convention on Wetlands vocabulary governance"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/IHO/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::IHO";
+        dc:date                "2010-08-10 12:40:32.0";
+        dc:identifier          "SDN:C30::IHO";
+        pav:authoredOn         "2010-08-10 12:40:32.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/IHO/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "IHO";
+        skos:definition        "Intergovernmental organisation formed to advance navigational safety and the protection of the marine environment. Its secretariat is the International Hydrographic Bureau (IHB) based in Monaco."@en;
+        skos:notation          "SDN:C30::IHO";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "International Hydrographic Organisation"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/BA/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::BA";
+        dc:date                "2009-09-28 15:20:28.0";
+        dc:identifier          "SDN:C30::BA";
+        pav:authoredOn         "2009-09-28 15:20:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/BA/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Bonn Agreement";
+        skos:definition        "A group of European countries plus the European Commission who work together to monitor pollution incidents at sea and combat marine pollution incidents."@en;
+        skos:notation          "SDN:C30::BA";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Bonn Agreement"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/MPG/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::MPG";
+        dc:date                "2019-10-03 13:18:28.0";
+        dc:identifier          "SDN:C30::MPG";
+        pav:authoredOn         "2019-10-03 13:18:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/MPG/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C30/current/MPG/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "MPIO";
+        skos:definition        "Governance for vocabularies used in the Movebank database (movebank.org) and hosted on the NERC Vocabulary Server."@en;
+        skos:notation          "SDN:C30::MPG";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Max Planck Institute of Animal Behavior"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/EEA/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::EEA";
+        dc:date                "2010-02-18 14:54:37.0";
+        dc:identifier          "SDN:C30::EEA";
+        pav:authoredOn         "2010-02-18 14:54:37.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/EEA/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "EEA";
+        skos:definition        "Governance for vocabularies used in EEA data"@en;
+        skos:notation          "SDN:C30::EEA";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "European Environment Agency"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/ADMT/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::ADMT";
+        dc:date                "2019-10-03 13:56:50.0";
+        dc:identifier          "SDN:C30::ADMT";
+        pav:authoredOn         "2019-10-03 13:56:50.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/ADMT/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C30/current/ADMT/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "ADMT";
+        skos:definition        "Governance for vocabularies used in the Argo data system, published and maintained by the Argo Data Management Team (ADMT) and hosted on the NERC Vocabulary Server."@en;
+        skos:notation          "SDN:C30::ADMT";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Argo Data Management Team"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/SVX/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::SVX";
+        dc:date                "2010-08-10 13:12:30.0";
+        dc:identifier          "SDN:C30::SVX";
+        pav:authoredOn         "2010-08-10 13:12:30.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/SVX/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SeaVoX";
+        skos:definition        "Group set up under the joint auspices of the SeaDataNet project and the Intergovernmental Oceanographic Commission MarineXML Steering Group for controlled vocabulary governance in the marine domain"@en;
+        skos:notation          "SDN:C30::SVX";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "SeaDataNet and MarineXML Vocabulary Content Governance Group"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/OSPAR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::OSPAR";
+        dc:date                "2018-07-12 12:45:34.0";
+        dc:identifier          "SDN:C30::OSPAR";
+        pav:authoredOn         "2018-07-12 12:45:34.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/OSPAR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "OSPAR";
+        skos:definition        "Governance for vocabularies and list of terms published and maintained by the OSPAR Commission, an intergovernmental organisation of 15 governments and the European Union who have agreed to cooperate to protect the marine environment of the North-East Atlantic."@en;
+        skos:notation          "SDN:C30::OSPAR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "OSPAR Commission"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/PDC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::PDC";
+        dc:date                "2020-04-23 17:45:08.0";
+        dc:identifier          "SDN:C30::PDC";
+        pav:authoredOn         "2020-04-23 17:45:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/PDC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "PDC";
+        skos:definition        "Governance for vocabularies used within British Antarctic Survey and in UK Polar Data Centre metadata catalogue."@en;
+        skos:notation          "SDN:C30::PDC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "UK Polar Data Centre"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/ICAN/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::ICAN";
+        dc:date                "2012-02-01 16:05:11.0";
+        dc:identifier          "SDN:C30::ICAN";
+        pav:authoredOn         "2012-02-01 16:05:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/ICAN/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C30/current/ICAN/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "ICAN";
+        skos:definition        "International federation of coastal web atlases.  Governance implemented through the Technical team."@en;
+        skos:notation          "SDN:C30::ICAN";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "International Coastal Atlas Network"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/MSG/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::MSG";
+        dc:date                "2009-07-29 11:41:33.0";
+        dc:identifier          "SDN:C30::MSG";
+        pav:authoredOn         "2009-07-29 11:41:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/MSG/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "MSG";
+        skos:definition        "Governance for vocabularies used in MEDIN data and metadata documents"@en;
+        skos:notation          "SDN:C30::MSG";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "MEDIN Standards Group"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/EDS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::EDS";
+        dc:date                "2026-04-01 17:34:08.0";
+        dc:identifier          "SDN:C30::EDS";
+        pav:authoredOn         "2026-04-01 17:34:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/EDS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "EDS";
+        skos:definition        "Governance for vocabularies used for cross-data centre information infrastructure in the UKRI-NERC's Environmental Data Service."@en;
+        skos:notation          "SDN:C30::EDS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Environmental Data Service Vocabulary Governance"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/ICES/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::ICES";
+        dc:date                "2010-08-10 12:52:37.0";
+        dc:identifier          "SDN:C30::ICES";
+        pav:authoredOn         "2010-08-10 12:52:37.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/ICES/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ICES";
+        skos:definition        "International organisation with a mission to advance the scientific capacity to give advice on human activities affecting, and affected by, marine ecosystems. Secretariat is located in Copenhagen."@en;
+        skos:notation          "SDN:C30::ICES";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "International Council for the Exploration of the Sea"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/TCE/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::TCE";
+        dc:date                "2012-02-14 12:41:20.0";
+        dc:identifier          "SDN:C30::TCE";
+        pav:authoredOn         "2012-02-14 12:41:20.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/TCE/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "TCE";
+        skos:definition        "Authority for controlled vocabularies used in relation to the property portfolio owned by the Crown.  Authority delegated under the auspices of The Crown Estate Commissioners"@en;
+        skos:notation          "SDN:C30::TCE";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "The Crown Estate"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/PURE/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::PURE";
+        dc:date                "2015-08-19 16:48:55.0";
+        dc:identifier          "SDN:C30::PURE";
+        pav:authoredOn         "2015-08-19 16:48:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/PURE/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "BGS PURE project management";
+        skos:definition        "Governance for vocabularies used to support drop-down lists in the BGS PURE portal and its metadata input tools."@en;
+        skos:notation          "SDN:C30::PURE";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "BGS Probability, Uncertainty and Risk in the Environment project management"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/SDN/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C30::SDN";
+        dc:date                "2010-02-18 11:14:15.0";
+        dc:identifier          "SDN:C30::SDN";
+        pav:authoredOn         "2010-02-18 11:14:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C30/current/SDN/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SeaDataNet";
+        skos:definition        "Governance for vocabularies used in the EU SeaDataNet project implemented as consultation between BODC and the members of the SeaDataNet Technical Task Team"@en;
+        skos:notation          "SDN:C30::SDN";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "SeaDataNet"@en .
+
+<http://vocab.nerc.ac.uk/collection/C30/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used within the data centre";
+        dc:alternative          "Vocabulary governance";
+        dc:creator              "British Oceanographic Data Centre";
+        dc:date                 "2026-06-17 03:00:01.0";
+        dc:description          "Bodies responsible for the intellectual control of vocabularies served by the NDG/SeaDataNet vocabulary server.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Active vocabulary content governance authorities";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "British Oceanographic Data Centre";
+        owl:versionInfo         "43";
+        skos:altLabel           "Vocabulary governance";
+        skos:member             <http://vocab.nerc.ac.uk/collection/C30/current/NETMAR/> , <http://vocab.nerc.ac.uk/collection/C30/current/ODATIS/> , <http://vocab.nerc.ac.uk/collection/C30/current/CMRC/> , <http://vocab.nerc.ac.uk/collection/C30/current/EC/> , <http://vocab.nerc.ac.uk/collection/C30/current/HELCOM/> , <http://vocab.nerc.ac.uk/collection/C30/current/SIS/> , <http://vocab.nerc.ac.uk/collection/C30/current/OCMP/> , <http://vocab.nerc.ac.uk/collection/C30/current/EMODPHYS/> , <http://vocab.nerc.ac.uk/collection/C30/current/BODC/> , <http://vocab.nerc.ac.uk/collection/C30/current/POGO/> , <http://vocab.nerc.ac.uk/collection/C30/current/GEOSEA/> , <http://vocab.nerc.ac.uk/collection/C30/current/WCA/> , <http://vocab.nerc.ac.uk/collection/C30/current/IEEE/> , <http://vocab.nerc.ac.uk/collection/C30/current/NERC/> , <http://vocab.nerc.ac.uk/collection/C30/current/NASA/> , <http://vocab.nerc.ac.uk/collection/C30/current/WMO/> , <http://vocab.nerc.ac.uk/collection/C30/current/CF/> , <http://vocab.nerc.ac.uk/collection/C30/current/GCMD/> , <http://vocab.nerc.ac.uk/collection/C30/current/SWE/> , <http://vocab.nerc.ac.uk/collection/C30/current/EMODBATH/> , <http://vocab.nerc.ac.uk/collection/C30/current/OGDMTT/> , <http://vocab.nerc.ac.uk/collection/C30/current/OCEANOPS/> , <http://vocab.nerc.ac.uk/collection/C30/current/EMODCHEM/> , <http://vocab.nerc.ac.uk/collection/C30/current/CEDRE/> , <http://vocab.nerc.ac.uk/collection/C30/current/FCMVOC/> , <http://vocab.nerc.ac.uk/collection/C30/current/OBIS/> , <http://vocab.nerc.ac.uk/collection/C30/current/IOC/> , <http://vocab.nerc.ac.uk/collection/C30/current/ISO/> , <http://vocab.nerc.ac.uk/collection/C30/current/EMODSBHB/> , <http://vocab.nerc.ac.uk/collection/C30/current/JNCC/> , <http://vocab.nerc.ac.uk/collection/C30/current/MFR/> , <http://vocab.nerc.ac.uk/collection/C30/current/SB2030/> , <http://vocab.nerc.ac.uk/collection/C30/current/RAMSAR/> , <http://vocab.nerc.ac.uk/collection/C30/current/IHO/> , <http://vocab.nerc.ac.uk/collection/C30/current/BA/> , <http://vocab.nerc.ac.uk/collection/C30/current/MPG/> , <http://vocab.nerc.ac.uk/collection/C30/current/EEA/> , <http://vocab.nerc.ac.uk/collection/C30/current/ADMT/> , <http://vocab.nerc.ac.uk/collection/C30/current/SVX/> , <http://vocab.nerc.ac.uk/collection/C30/current/OSPAR/> , <http://vocab.nerc.ac.uk/collection/C30/current/PDC/> , <http://vocab.nerc.ac.uk/collection/C30/current/ICAN/> , <http://vocab.nerc.ac.uk/collection/C30/current/MSG/> , <http://vocab.nerc.ac.uk/collection/C30/current/EDS/> , <http://vocab.nerc.ac.uk/collection/C30/current/ICES/> , <http://vocab.nerc.ac.uk/collection/C30/current/TCE/> , <http://vocab.nerc.ac.uk/collection/C30/current/SDN/> , <http://vocab.nerc.ac.uk/collection/C30/current/PURE/>;
+        skos:prefLabel          "Active vocabulary content governance authorities" .

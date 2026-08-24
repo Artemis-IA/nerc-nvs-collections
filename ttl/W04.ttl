@@ -1,0 +1,277 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/W04/current/CAPB0011/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W04::CAPB0011";
+        dc:date                "2016-07-20 15:00:07.0";
+        dc:identifier          "SDN:W04::CAPB0011";
+        pav:authoredOn         "2016-07-20 15:00:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0011/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The smallest quantity of an input parameter that can be detected by a system or device."@en;
+        skos:notation          "SDN:W04::CAPB0011";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Detection limit"@en .
+
+<http://vocab.nerc.ac.uk/collection/W04/current/CAPB0006/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W04::CAPB0006";
+        dc:date                "2016-07-20 15:00:01.0";
+        dc:identifier          "SDN:W04::CAPB0006";
+        pav:authoredOn         "2016-07-20 15:00:01.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0006/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The maximum and minimum values of a parameter that can be measured by a system or device."@en;
+        skos:notation          "SDN:W04::CAPB0006";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Measurement range"@en .
+
+<http://vocab.nerc.ac.uk/collection/W04/current/CAPB0014/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W04::CAPB0014";
+        dc:date                "2017-12-08 11:35:26.0";
+        dc:identifier          "SDN:W04::CAPB0014";
+        pav:authoredOn         "2017-12-08 11:35:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0014/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "OPTemp";
+        skos:definition        "The temperature at which a system or device will operate effectively."@en;
+        skos:notation          "SDN:W04::CAPB0014";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Operating temperature range"@en .
+
+<http://vocab.nerc.ac.uk/collection/W04/current/CAPB0004/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W04::CAPB0004";
+        dc:date                "2016-07-20 14:59:59.0";
+        dc:identifier          "SDN:W04::CAPB0004";
+        pav:authoredOn         "2016-07-20 14:59:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0004/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The time taken for a device or system after receiving an input signal to change its output signal from its previous state to a final settled value."@en;
+        skos:notation          "SDN:W04::CAPB0004";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Latency"@en .
+
+<http://vocab.nerc.ac.uk/collection/W04/current/CAPB0002/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W04::CAPB0002";
+        dc:date                "2016-07-20 14:59:55.0";
+        dc:identifier          "SDN:W04::CAPB0002";
+        pav:authoredOn         "2016-07-20 14:59:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0002/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Dimensionless measure describing how oscillations in a system decay after a disturbance. Many systems exhibit oscillatory behavior when they are disturbed from their position of static equilibrium."@en;
+        skos:notation          "SDN:W04::CAPB0002";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Damping ratio"@en .
+
+<http://vocab.nerc.ac.uk/collection/W04/current/CAPB0012/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W04::CAPB0012";
+        dc:date                "2016-07-20 15:00:08.0";
+        dc:identifier          "SDN:W04::CAPB0012";
+        pav:authoredOn         "2016-07-20 15:00:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0012/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The depth below seawater to which a system or device will operate effectively."@en;
+        skos:notation          "SDN:W04::CAPB0012";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Operating depth"@en .
+
+<http://vocab.nerc.ac.uk/collection/W04/current/CAPB0005/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W04::CAPB0005";
+        dc:date                "2016-07-20 15:00:00.0";
+        dc:identifier          "SDN:W04::CAPB0005";
+        pav:authoredOn         "2016-07-20 15:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0005/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The degree of reproducibility of a measurement."@en;
+        skos:notation          "SDN:W04::CAPB0005";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Precision"@en .
+
+<http://vocab.nerc.ac.uk/collection/W04/current/CAPB0003/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W04::CAPB0003";
+        dc:date                "2016-07-20 14:59:57.0";
+        dc:identifier          "SDN:W04::CAPB0003";
+        pav:authoredOn         "2016-07-20 14:59:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0003/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://sensorml.com/ont/swe/property/Frequency>;
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The number of cycles or events of a waveform."@en;
+        skos:notation          "SDN:W04::CAPB0003";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Frequency"@en .
+
+<http://vocab.nerc.ac.uk/collection/W04/current/CAPB0013/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W04::CAPB0013";
+        dc:date                "2016-07-20 15:00:09.0";
+        dc:identifier          "SDN:W04::CAPB0013";
+        pav:authoredOn         "2016-07-20 15:00:09.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0013/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The depth below seawater to which the integrity of a system or device is not compromised."@en;
+        skos:notation          "SDN:W04::CAPB0013";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Survival depth"@en .
+
+<http://vocab.nerc.ac.uk/collection/W04/current/CAPB0008/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W04::CAPB0008";
+        dc:date                "2016-07-20 15:00:04.0";
+        dc:identifier          "SDN:W04::CAPB0008";
+        pav:authoredOn         "2016-07-20 15:00:04.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0008/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The time taken for a device or system after receiving an input signal to change its output signal from its previous state."@en;
+        skos:notation          "SDN:W04::CAPB0008";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Response time"@en .
+
+<http://vocab.nerc.ac.uk/collection/W04/current/CAPB0010/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W04::CAPB0010";
+        dc:date                "2016-07-20 15:00:06.0";
+        dc:identifier          "SDN:W04::CAPB0010";
+        pav:authoredOn         "2016-07-20 15:00:06.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0010/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The ability to measure a group of parameters or only one parameter in the presence of other interfering parameters."@en;
+        skos:notation          "SDN:W04::CAPB0010";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Selectivity"@en .
+
+<http://vocab.nerc.ac.uk/collection/W04/current/CAPB0001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W04::CAPB0001";
+        dc:date                "2016-07-20 14:59:52.0";
+        dc:identifier          "SDN:W04::CAPB0001";
+        pav:authoredOn         "2016-07-20 14:59:52.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0001/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/W01/current/007/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The maximum difference that exists between an actual value and an indicated value output from a sensor. The actual value is usually measured by a reference standard."@en;
+        skos:notation          "SDN:W04::CAPB0001";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Accuracy"@en .
+
+<http://vocab.nerc.ac.uk/collection/W04/current/CAPB0007/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W04::CAPB0007";
+        dc:date                "2016-07-20 15:00:02.0";
+        dc:identifier          "SDN:W04::CAPB0007";
+        pav:authoredOn         "2016-07-20 15:00:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0007/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The smallest detectable incremental change of an input parameter that can be detected in the output signal of a system or device."@en;
+        skos:notation          "SDN:W04::CAPB0007";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Resolution"@en .
+
+<http://vocab.nerc.ac.uk/collection/W04/current/CAPB0009/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W04::CAPB0009";
+        dc:date                "2016-07-20 15:00:05.0";
+        dc:identifier          "SDN:W04::CAPB0009";
+        pav:authoredOn         "2016-07-20 15:00:05.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0009/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The change in output per unit change in the parameter being measured by a system or device."@en;
+        skos:notation          "SDN:W04::CAPB0009";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sensitivity"@en .
+
+<http://vocab.nerc.ac.uk/collection/W04/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies created for use in SWE Marine Profiles.";
+        dc:alternative          "SensorML Capabilities";
+        dc:creator              "Sensor Web Enablement Marine Profiles";
+        dc:date                 "2017-12-09 02:00:02.0";
+        dc:description          "Terms used in SensorML to describe properties of an observation system that further qualify or quantify its output values.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "SensorML Capability Section Terms";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Sensor Web Enablement Marine Profiles";
+        owl:versionInfo         "2";
+        skos:altLabel           "SensorML Capabilities";
+        skos:member             <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0011/> , <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0006/> , <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0014/> , <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0004/> , <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0002/> , <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0012/> , <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0005/> , <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0003/> , <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0013/> , <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0008/> , <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0010/> , <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0009/> , <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0007/> , <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0001/>;
+        skos:prefLabel          "SensorML Capability Section Terms" .

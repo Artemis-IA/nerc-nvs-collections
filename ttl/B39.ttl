@@ -1,0 +1,457 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/B39/current/ptir/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B39::ptir";
+        dc:date                "2016-01-13 22:20:42.0";
+        dc:identifier          "SDN:B39::ptir";
+        pav:authoredOn         "2016-01-13 22:20:42.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B39/current/ptir/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/CVLTRP01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "total_irradiance";
+        skos:definition        "";
+        skos:notation          "SDN:B39::ptir";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "port total irradiance"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UVP5/> .
+
+<http://vocab.nerc.ac.uk/collection/B39/current/stir/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B39::stir";
+        dc:date                "2016-01-13 22:20:42.0";
+        dc:identifier          "SDN:B39::stir";
+        pav:authoredOn         "2016-01-13 22:20:42.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B39/current/stir/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/CVLTRS01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:B39::stir";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "starboard total irradiance"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UVP5/> .
+
+<http://vocab.nerc.ac.uk/collection/B39/current/fluorescence/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B39::fluorescence";
+        dc:date                "2016-01-13 22:20:42.0";
+        dc:identifier          "SDN:B39::fluorescence";
+        pav:authoredOn         "2016-01-13 22:20:42.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B39/current/fluorescence/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/FVLTWS01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "fluorescence_in_sea_water";
+        skos:definition        "";
+        skos:notation          "SDN:B39::fluorescence";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "fluorescence"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UVLT/> .
+
+<http://vocab.nerc.ac.uk/collection/B39/current/spar/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B39::spar";
+        dc:date                "2016-01-13 22:20:42.0";
+        dc:identifier          "SDN:B39::spar";
+        pav:authoredOn         "2016-01-13 22:20:42.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B39/current/spar/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/DVLTRSSD/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:B39::spar";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "starboard photosynthetically active radiation"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UVP5/> .
+
+<http://vocab.nerc.ac.uk/collection/B39/current/ppar/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B39::ppar";
+        dc:date                "2016-01-13 22:20:42.0";
+        dc:identifier          "SDN:B39::ppar";
+        pav:authoredOn         "2016-01-13 22:20:42.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B39/current/ppar/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/DVLTRPSD/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "photosynthetically_active_radiation";
+        skos:definition        "";
+        skos:notation          "SDN:B39::ppar";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "port photosynthetically active radiation"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UVP5/> .
+
+<http://vocab.nerc.ac.uk/collection/B39/current/relwindspeed/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B39::relwindspeed";
+        dc:date                "2016-01-13 22:20:42.0";
+        dc:identifier          "SDN:B39::relwindspeed";
+        pav:authoredOn         "2016-01-13 22:20:42.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B39/current/relwindspeed/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/ERWSSS01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "wind_speed";
+        skos:definition        "";
+        skos:notation          "SDN:B39::relwindspeed";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ship relative wind speed"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UKNT/> .
+
+<http://vocab.nerc.ac.uk/collection/B39/current/time/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B39::time";
+        dc:date                "2016-03-16 15:01:49.0";
+        dc:identifier          "SDN:B39::time";
+        pav:authoredOn         "2016-03-16 15:01:49.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B39/current/time/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/B39/current/time/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/AADYAA01/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:B39::time";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "time as days since 1899-12-30T00:00:00Z"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UTAA/> .
+
+<http://vocab.nerc.ac.uk/collection/B39/current/logfa/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B39::logfa";
+        dc:date                "2016-01-13 22:20:42.0";
+        dc:identifier          "SDN:B39::logfa";
+        pav:authoredOn         "2016-01-13 22:20:42.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B39/current/logfa/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/APSAWW01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:B39::logfa";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "speed through water"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UKNT/> .
+
+<http://vocab.nerc.ac.uk/collection/B39/current/relwinddir/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B39::relwinddir";
+        dc:date                "2016-01-13 22:20:42.0";
+        dc:identifier          "SDN:B39::relwinddir";
+        pav:authoredOn         "2016-01-13 22:20:42.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B39/current/relwinddir/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/ERWDSS01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "wind_from_direction";
+        skos:definition        "";
+        skos:notation          "SDN:B39::relwinddir";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ship relative wind direction"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UAAA/> .
+
+<http://vocab.nerc.ac.uk/collection/B39/current/conduct/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B39::conduct";
+        dc:date                "2016-01-13 22:20:42.0";
+        dc:identifier          "SDN:B39::conduct";
+        pav:authoredOn         "2016-01-13 22:20:42.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B39/current/conduct/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0394/> , <http://vocab.nerc.ac.uk/collection/P01/current/CNDCSG01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "sea_water_electrical_conductivity";
+        skos:definition        "";
+        skos:notation          "SDN:B39::conduct";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "sea surface conductivity"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UECA/> .
+
+<http://vocab.nerc.ac.uk/collection/B39/current/longitude/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B39::longitude";
+        dc:date                "2016-01-13 22:20:42.0";
+        dc:identifier          "SDN:B39::longitude";
+        pav:authoredOn         "2016-01-13 22:20:42.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B39/current/longitude/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0554/> , <http://vocab.nerc.ac.uk/collection/P01/current/ALONGP01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "longitude";
+        skos:definition        "";
+        skos:notation          "SDN:B39::longitude";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "longitude"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/DEGE/> .
+
+<http://vocab.nerc.ac.uk/collection/B39/current/gndspeed/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B39::gndspeed";
+        dc:date                "2016-01-13 22:20:42.0";
+        dc:identifier          "SDN:B39::gndspeed";
+        pav:authoredOn         "2016-01-13 22:20:42.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B39/current/gndspeed/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0445/> , <http://vocab.nerc.ac.uk/collection/P01/current/APSAGP01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "platform_speed_wrt_ground";
+        skos:definition        "";
+        skos:notation          "SDN:B39::gndspeed";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "speed over the ground"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UKNT/> .
+
+<http://vocab.nerc.ac.uk/collection/B39/current/truewindspeed/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B39::truewindspeed";
+        dc:date                "2016-01-13 22:20:42.0";
+        dc:identifier          "SDN:B39::truewindspeed";
+        pav:authoredOn         "2016-01-13 22:20:42.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B39/current/truewindspeed/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0038/> , <http://vocab.nerc.ac.uk/collection/P01/current/EWSBSS01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:B39::truewindspeed";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "earth relative wind speed"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UKNT/> .
+
+<http://vocab.nerc.ac.uk/collection/B39/current/seatemp/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B39::seatemp";
+        dc:date                "2016-01-13 22:20:42.0";
+        dc:identifier          "SDN:B39::seatemp";
+        pav:authoredOn         "2016-01-13 22:20:42.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B39/current/seatemp/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0381/> , <http://vocab.nerc.ac.uk/collection/P01/current/TEMPSU01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "sea_surface_temperature";
+        skos:definition        "";
+        skos:notation          "SDN:B39::seatemp";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "sea surface temperature"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> .
+
+<http://vocab.nerc.ac.uk/collection/B39/current/heading/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B39::heading";
+        dc:date                "2016-01-13 22:20:42.0";
+        dc:identifier          "SDN:B39::heading";
+        pav:authoredOn         "2016-01-13 22:20:42.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B39/current/heading/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0439/> , <http://vocab.nerc.ac.uk/collection/P01/current/HEADCM01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "platform_orientation";
+        skos:definition        "";
+        skos:notation          "SDN:B39::heading";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ships heading"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UABB/> .
+
+<http://vocab.nerc.ac.uk/collection/B39/current/latitude/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B39::latitude";
+        dc:date                "2016-01-13 22:20:42.0";
+        dc:identifier          "SDN:B39::latitude";
+        pav:authoredOn         "2016-01-13 22:20:42.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B39/current/latitude/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0600/> , <http://vocab.nerc.ac.uk/collection/P01/current/ALATGP01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "latitude";
+        skos:definition        "";
+        skos:notation          "SDN:B39::latitude";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "latitude"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/DEGN/> .
+
+<http://vocab.nerc.ac.uk/collection/B39/current/airtemp/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B39::airtemp";
+        dc:date                "2016-01-13 22:20:42.0";
+        dc:identifier          "SDN:B39::airtemp";
+        pav:authoredOn         "2016-01-13 22:20:42.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B39/current/airtemp/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0023/> , <http://vocab.nerc.ac.uk/collection/P01/current/CDTAZZ01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "air_temperature";
+        skos:definition        "";
+        skos:notation          "SDN:B39::airtemp";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "air temperature"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> .
+
+<http://vocab.nerc.ac.uk/collection/B39/current/truewinddir/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B39::truewinddir";
+        dc:date                "2016-01-13 22:20:42.0";
+        dc:identifier          "SDN:B39::truewinddir";
+        pav:authoredOn         "2016-01-13 22:20:42.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B39/current/truewinddir/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0036/> , <http://vocab.nerc.ac.uk/collection/P01/current/EWDASS01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:B39::truewinddir";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "earthrelativewinddirection"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UABB/> .
+
+<http://vocab.nerc.ac.uk/collection/B39/current/pressure/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B39::pressure";
+        dc:date                "2016-01-13 22:20:42.0";
+        dc:identifier          "SDN:B39::pressure";
+        pav:authoredOn         "2016-01-13 22:20:42.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B39/current/pressure/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0015/> , <http://vocab.nerc.ac.uk/collection/P01/current/CAPHTU01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "air_pressure";
+        skos:definition        "";
+        skos:notation          "SDN:B39::pressure";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "air pressure"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/HPAX/> .
+
+<http://vocab.nerc.ac.uk/collection/B39/current/salin/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B39::salin";
+        dc:date                "2016-01-13 22:20:42.0";
+        dc:identifier          "SDN:B39::salin";
+        pav:authoredOn         "2016-01-13 22:20:42.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B39/current/salin/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0376/> , <http://vocab.nerc.ac.uk/collection/P01/current/PSALSU01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "sea_surface_salinity";
+        skos:definition        "";
+        skos:notation          "SDN:B39::salin";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "sea surface salinity"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
+
+<http://vocab.nerc.ac.uk/collection/B39/current/humidity/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B39::humidity";
+        dc:date                "2016-01-13 22:20:42.0";
+        dc:identifier          "SDN:B39::humidity";
+        pav:authoredOn         "2016-01-13 22:20:42.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B39/current/humidity/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0413/> , <http://vocab.nerc.ac.uk/collection/P01/current/CRELZZ01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "relative_humidity";
+        skos:definition        "";
+        skos:notation          "SDN:B39::humidity";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "relative humidity"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPCT/> .
+
+<http://vocab.nerc.ac.uk/collection/B39/current/gndcourse/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B39::gndcourse";
+        dc:date                "2016-01-13 22:20:42.0";
+        dc:identifier          "SDN:B39::gndcourse";
+        pav:authoredOn         "2016-01-13 22:20:42.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B39/current/gndcourse/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0481/> , <http://vocab.nerc.ac.uk/collection/P01/current/APDAGP01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "platform_course";
+        skos:definition        "";
+        skos:notation          "SDN:B39::gndcourse";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "course over the ground"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UABB/> .
+
+<http://vocab.nerc.ac.uk/collection/B39/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used within the data centre";
+        dc:alternative          "NMF-SS underway NetCDF variable names";
+        dc:creator              "British Oceanographic Data Centre";
+        dc:date                 "2016-03-17 02:00:04.0";
+        dc:description          "Names of variables recorded into NetCDF files by the underway monitoring system on National Marine Facilities Sea Systems (NMF-SS) research vessels such as the RRS James Cook and RRS Discovery. Variables are from meteorological, hydrographic and navigational instruments.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "NMF-SS Research Vessel underway variable NetCDF vocabulary";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "British Oceanographic Data Centre";
+        owl:versionInfo         "3";
+        skos:altLabel           "NMF-SS underway NetCDF variable names";
+        skos:member             <http://vocab.nerc.ac.uk/collection/B39/current/ptir/> , <http://vocab.nerc.ac.uk/collection/B39/current/stir/> , <http://vocab.nerc.ac.uk/collection/B39/current/fluorescence/> , <http://vocab.nerc.ac.uk/collection/B39/current/spar/> , <http://vocab.nerc.ac.uk/collection/B39/current/ppar/> , <http://vocab.nerc.ac.uk/collection/B39/current/relwindspeed/> , <http://vocab.nerc.ac.uk/collection/B39/current/time/> , <http://vocab.nerc.ac.uk/collection/B39/current/logfa/> , <http://vocab.nerc.ac.uk/collection/B39/current/relwinddir/> , <http://vocab.nerc.ac.uk/collection/B39/current/conduct/> , <http://vocab.nerc.ac.uk/collection/B39/current/longitude/> , <http://vocab.nerc.ac.uk/collection/B39/current/gndspeed/> , <http://vocab.nerc.ac.uk/collection/B39/current/truewindspeed/> , <http://vocab.nerc.ac.uk/collection/B39/current/seatemp/> , <http://vocab.nerc.ac.uk/collection/B39/current/heading/> , <http://vocab.nerc.ac.uk/collection/B39/current/latitude/> , <http://vocab.nerc.ac.uk/collection/B39/current/airtemp/> , <http://vocab.nerc.ac.uk/collection/B39/current/truewinddir/> , <http://vocab.nerc.ac.uk/collection/B39/current/pressure/> , <http://vocab.nerc.ac.uk/collection/B39/current/salin/> , <http://vocab.nerc.ac.uk/collection/B39/current/gndcourse/> , <http://vocab.nerc.ac.uk/collection/B39/current/humidity/>;
+        skos:prefLabel          "NMF-SS Research Vessel underway variable NetCDF vocabulary" .

@@ -1,0 +1,88 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/GS6/current/leptokur/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GS6::leptokur";
+        dc:date                "2010-10-14 10:12:15.0";
+        dc:identifier          "SDN:GS6::leptokur";
+        pav:authoredOn         "2010-10-14 10:12:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GS6/current/leptokur/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "leptokurtic";
+        skos:definition        "Sharp-peaked sediment grain-size distribution with a positive Folk and Ward or Krumbein sediment grain-size kurtosis coefficient"@en;
+        skos:notation          "SDN:GS6::leptokur";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "leptokurtic"@en .
+
+<http://vocab.nerc.ac.uk/collection/GS6/current/mesokur/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GS6::mesokur";
+        dc:date                "2010-10-14 10:12:15.0";
+        dc:identifier          "SDN:GS6::mesokur";
+        pav:authoredOn         "2010-10-14 10:12:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GS6/current/mesokur/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "mesokurtic";
+        skos:definition        "Normal-peaked sediment grain-size distribution with a zero Folk and Ward or Krumbein sediment grain-size kurtosis coefficient"@en;
+        skos:notation          "SDN:GS6::mesokur";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "mesokurtic"@en .
+
+<http://vocab.nerc.ac.uk/collection/GS6/current/platykur/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GS6::platykur";
+        dc:date                "2010-10-14 10:12:15.0";
+        dc:identifier          "SDN:GS6::platykur";
+        pav:authoredOn         "2010-10-14 10:12:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GS6/current/platykur/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "platykurtic";
+        skos:definition        "Flat-peaked sediment grain-size distribution with a negative Folk and Ward or Krumbein sediment grain-size kurtosis coefficient"@en;
+        skos:notation          "SDN:GS6::platykur";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "platykurtic"@en .
+
+<http://vocab.nerc.ac.uk/collection/GS6/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the EU Geo-Seas project implemented as consultation between BODC and a designated group of Geo-Seas project paticipants";
+        dc:alternative          "Geo-Seas kurtosis descriptors";
+        dc:creator              "Geo-Seas";
+        dc:date                 "2010-10-15 02:00:11.0";
+        dc:description          "Terms used to describe sediment grain-size kurtosis coefficients in the Geo-Seas project.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Geo-Seas sediment grain-size kurtosis descriptors";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Geo-Seas";
+        owl:versionInfo         "1";
+        skos:altLabel           "Geo-Seas kurtosis descriptors";
+        skos:member             <http://vocab.nerc.ac.uk/collection/GS6/current/platykur/> , <http://vocab.nerc.ac.uk/collection/GS6/current/mesokur/> , <http://vocab.nerc.ac.uk/collection/GS6/current/leptokur/>;
+        skos:prefLabel          "Geo-Seas sediment grain-size kurtosis descriptors" .

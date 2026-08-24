@@ -1,0 +1,416 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/GGT/current/TIN45/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGT::TIN45";
+        dc:date                "2019-11-14 15:29:59.0";
+        dc:identifier          "SDN:GGT::TIN45";
+        pav:authoredOn         "2019-11-14 15:29:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGT/current/TIN45/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
+        skos:definition        "Predicted based on helicopter/flight-derived gravity data"@en;
+        skos:notation          "SDN:GGT::TIN45";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_type_identifier_45"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGT/current/TIN11/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGT::TIN11";
+        dc:date                "2019-11-14 15:29:59.0";
+        dc:identifier          "SDN:GGT::TIN11";
+        pav:authoredOn         "2019-11-14 15:29:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGT/current/TIN11/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
+        skos:definition        "Multibeam - depth value collected by a multibeam echo-sounder"@en;
+        skos:notation          "SDN:GGT::TIN11";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_type_identifier_11"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGT/current/TIN44/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGT::TIN44";
+        dc:date                "2025-10-20 16:30:12.0";
+        dc:identifier          "SDN:GGT::TIN44";
+        pav:authoredOn         "2025-10-20 16:30:12.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGT/current/TIN44/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/GGT/current/TIN44/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
+        skos:definition        "Depth value at this location is based on bathymetric depths from multiple sources, including measured and derived data, and included within a gridded data set where interpolation between sounding points is guided by satellite-derived gravity data"@en;
+        skos:notation          "SDN:GGT::TIN44";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_type_identifier_44"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGT/current/TIN14/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGT::TIN14";
+        dc:date                "2019-11-14 15:29:59.0";
+        dc:identifier          "SDN:GGT::TIN14";
+        pav:authoredOn         "2019-11-14 15:29:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGT/current/TIN14/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
+        skos:definition        "ENC sounding - depth value extracted from an Electronic Navigation Chart (ENC)"@en;
+        skos:notation          "SDN:GGT::TIN14";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_type_identifier_14"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGT/current/TIN47/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGT::TIN47";
+        dc:date                "2025-10-16 16:30:25.0";
+        dc:identifier          "SDN:GGT::TIN47";
+        pav:authoredOn         "2025-10-16 16:30:25.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGT/current/TIN47/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
+        skos:definition        "Depth derived from grounded Argo float data"@en;
+        skos:notation          "SDN:GGT::TIN47";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_type_identifier_47"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGT/current/TIN13/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGT::TIN13";
+        dc:date                "2019-11-14 15:29:59.0";
+        dc:identifier          "SDN:GGT::TIN13";
+        pav:authoredOn         "2019-11-14 15:29:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGT/current/TIN13/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
+        skos:definition        "Isolated sounding - depth value that is not part of a regular survey or trackline"@en;
+        skos:notation          "SDN:GGT::TIN13";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_type_identifier_13"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGT/current/TIN16/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGT::TIN16";
+        dc:date                "2019-11-14 15:29:59.0";
+        dc:identifier          "SDN:GGT::TIN16";
+        pav:authoredOn         "2019-11-14 15:29:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGT/current/TIN16/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
+        skos:definition        "Depth measured by optical light sensor"@en;
+        skos:notation          "SDN:GGT::TIN16";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_type_identifier_16"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGT/current/TIN71/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGT::TIN71";
+        dc:date                "2019-11-14 15:29:59.0";
+        dc:identifier          "SDN:GGT::TIN71";
+        pav:authoredOn         "2019-11-14 15:29:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGT/current/TIN71/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
+        skos:definition        "Unknown source - depth value from an unknown source"@en;
+        skos:notation          "SDN:GGT::TIN71";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_type_identifier_71"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGT/current/TIN41/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGT::TIN41";
+        dc:date                "2019-11-14 15:29:59.0";
+        dc:identifier          "SDN:GGT::TIN41";
+        pav:authoredOn         "2019-11-14 15:29:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGT/current/TIN41/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
+        skos:definition        "Interpolated based on a computer algorithm - depth value is an interpolated value based on a computer algorithm (e.g. Generic Mapping Tools)"@en;
+        skos:notation          "SDN:GGT::TIN41";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_type_identifier_41"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGT/current/TIN0/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGT::TIN0";
+        dc:date                "2019-11-14 15:29:59.0";
+        dc:identifier          "SDN:GGT::TIN0";
+        pav:authoredOn         "2019-11-14 15:29:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGT/current/TIN0/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
+        skos:definition        "Land"@en;
+        skos:notation          "SDN:GGT::TIN0";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_type_identifier_0"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGT/current/TIN43/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGT::TIN43";
+        dc:date                "2019-11-14 15:29:59.0";
+        dc:identifier          "SDN:GGT::TIN43";
+        pav:authoredOn         "2019-11-14 15:29:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGT/current/TIN43/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
+        skos:definition        "Digital bathymetric contours from ENCs - depth value taken from bathymetric contours from an Electronic Navigation Chart (ENC)"@en;
+        skos:notation          "SDN:GGT::TIN43";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_type_identifier_43"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGT/current/TIN17/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGT::TIN17";
+        dc:date                "2019-11-14 15:29:59.0";
+        dc:identifier          "SDN:GGT::TIN17";
+        pav:authoredOn         "2019-11-14 15:29:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGT/current/TIN17/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
+        skos:definition        "Combination of direct measurement methods"@en;
+        skos:notation          "SDN:GGT::TIN17";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_type_identifier_17"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGT/current/TIN46/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGT::TIN46";
+        dc:date                "2025-10-16 16:30:11.0";
+        dc:identifier          "SDN:GGT::TIN46";
+        pav:authoredOn         "2025-10-16 16:30:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGT/current/TIN46/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
+        skos:definition        "Depth estimated by calculating the draft of a grounded iceberg using satellite-derived freeboard measurement"@en;
+        skos:notation          "SDN:GGT::TIN46";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_type_identifier_46"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGT/current/TIN15/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGT::TIN15";
+        dc:date                "2019-11-14 15:29:59.0";
+        dc:identifier          "SDN:GGT::TIN15";
+        pav:authoredOn         "2019-11-14 15:29:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGT/current/TIN15/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
+        skos:definition        "Lidar - depth derived from a bathymetric lidar sensor"@en;
+        skos:notation          "SDN:GGT::TIN15";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_type_identifier_15"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGT/current/TIN48/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGT::TIN48";
+        dc:date                "2026-05-29 14:42:16.0";
+        dc:identifier          "SDN:GGT::TIN48";
+        pav:authoredOn         "2026-05-29 14:42:16.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGT/current/TIN48/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
+        skos:definition        "Depth measured by animal-borne data loggers"@en;
+        skos:notation          "SDN:GGT::TIN48";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_type_identifier_48"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGT/current/TIN10/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGT::TIN10";
+        dc:date                "2019-11-14 15:29:59.0";
+        dc:identifier          "SDN:GGT::TIN10";
+        pav:authoredOn         "2019-11-14 15:29:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGT/current/TIN10/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
+        skos:definition        "Singlebeam - depth value collected by a single beam echo-sounder"@en;
+        skos:notation          "SDN:GGT::TIN10";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_type_identifier_10"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGT/current/TIN40/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGT::TIN40";
+        dc:date                "2019-11-14 15:29:59.0";
+        dc:identifier          "SDN:GGT::TIN40";
+        pav:authoredOn         "2019-11-14 15:29:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGT/current/TIN40/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
+        skos:definition        "Predicted based on satellite-derived gravity data - depth value is an interpolated value guided by satellite-derived gravity data"@en;
+        skos:notation          "SDN:GGT::TIN40";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_type_identifier_40"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGT/current/TIN72/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGT::TIN72";
+        dc:date                "2019-11-14 15:29:59.0";
+        dc:identifier          "SDN:GGT::TIN72";
+        pav:authoredOn         "2019-11-14 15:29:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGT/current/TIN72/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
+        skos:definition        "Steering points - depth value used to constrain the grid in areas of poor data coverage"@en;
+        skos:notation          "SDN:GGT::TIN72";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_type_identifier_72"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGT/current/TIN12/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGT::TIN12";
+        dc:date                "2019-11-14 15:29:59.0";
+        dc:identifier          "SDN:GGT::TIN12";
+        pav:authoredOn         "2019-11-14 15:29:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGT/current/TIN12/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
+        skos:definition        "Seismic - depth value collected by seismic methods"@en;
+        skos:notation          "SDN:GGT::TIN12";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_type_identifier_12"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGT/current/TIN42/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGT::TIN42";
+        dc:date                "2019-11-14 15:29:59.0";
+        dc:identifier          "SDN:GGT::TIN42";
+        pav:authoredOn         "2019-11-14 15:29:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGT/current/TIN42/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
+        skos:definition        "Digital bathymetric contours from charts - depth value taken from a bathymetric contour data set"@en;
+        skos:notation          "SDN:GGT::TIN42";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_type_identifier_42"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGT/current/TIN70/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGT::TIN70";
+        dc:date                "2019-11-14 15:29:59.0";
+        dc:identifier          "SDN:GGT::TIN70";
+        pav:authoredOn         "2019-11-14 15:29:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGT/current/TIN70/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
+        skos:definition        "Pre-generated grid - depth value is taken from a pre-generated grid that is based on mixed source data types, e.g. single beam, multibeam, interpolation etc."@en;
+        skos:notation          "SDN:GGT::TIN70";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_type_identifier_70"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGT/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for the definition of terms used to define the GEBCO source Data Type Identifier (TID) codes.";
+        dc:alternative          "GEBCO TID";
+        dc:creator              "Nippon Foundation-GEBCO Seabed 2030 Project Team";
+        dc:date                 "2026-05-30 03:00:01.0";
+        dc:description          "Source data type information for the data sets used in the generation of the GEBCO Global Grid.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "GEBCO Grid Source Data Type Identifier";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Nippon Foundation-GEBCO Seabed 2030 Project Team";
+        owl:versionInfo         "4";
+        skos:altLabel           "GEBCO TID";
+        skos:member             <http://vocab.nerc.ac.uk/collection/GGT/current/TIN45/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN11/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN44/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN14/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN47/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN13/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN16/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN71/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN41/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN0/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN43/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN17/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN46/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN15/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN48/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN10/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN40/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN72/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN70/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN42/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN12/>;
+        skos:prefLabel          "GEBCO Grid Source Data Type Identifier" .

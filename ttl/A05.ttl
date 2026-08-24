@@ -1,0 +1,518 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/A05/current/EV_SEALVL/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A05::EV_SEALVL";
+        dc:date                "2016-06-23 15:58:53.0";
+        dc:identifier          "SDN:A05::EV_SEALVL";
+        pav:authoredOn         "2016-06-23 15:58:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A05/current/EV_SEALVL/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/OD1/current/SEALVL/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "Sea level";
+        skos:definition        "The displacement of the water column surface from a fixed, stable reference, expressed as metres or pressure."@en;
+        skos:notation          "SDN:A05::EV_SEALVL";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sea Level"@en .
+
+<http://vocab.nerc.ac.uk/collection/A05/current/EV_13C/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A05::EV_13C";
+        dc:date                "2016-06-23 15:58:53.0";
+        dc:identifier          "SDN:A05::EV_13C";
+        pav:authoredOn         "2016-06-23 15:58:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A05/current/EV_13C/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Stable carbon isotopes";
+        skos:definition        "The amount of carbon stable isotope 13C in seawater using water column measurements."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/D13CMIXX/>;
+        skos:notation          "SDN:A05::EV_13C";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Carbon isotope 13C"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPPT/> .
+
+<http://vocab.nerc.ac.uk/collection/A05/current/EV_PHYT/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A05::EV_PHYT";
+        dc:date                "2019-03-28 17:07:38.0";
+        dc:identifier          "SDN:A05::EV_PHYT";
+        pav:authoredOn         "2019-03-28 17:07:38.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A05/current/EV_PHYT/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Phytoplankton";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/OD1/current/PHYTO/>;
+        skos:definition        "";
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL09/> , <http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL04/> , <http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/>;
+        skos:notation          "SDN:A05::EV_PHYT";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Phytoplankton biomass and diversity"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPMM/> , <http://vocab.nerc.ac.uk/collection/P06/current/UMMC/> .
+
+<http://vocab.nerc.ac.uk/collection/A05/current/EV_ZOO/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A05::EV_ZOO";
+        dc:date                "2019-03-28 17:06:43.0";
+        dc:identifier          "SDN:A05::EV_ZOO";
+        pav:authoredOn         "2019-03-28 17:06:43.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A05/current/EV_ZOO/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Zooplankton";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/OD1/current/ZOO/>;
+        skos:definition        "";
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL09/> , <http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL04/> , <http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/> , <http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL13/> , <http://vocab.nerc.ac.uk/collection/P01/current/CVOLUKNB/>;
+        skos:notation          "SDN:A05::EV_ZOO";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Zooplankton biomass and diversity"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPMM/> , <http://vocab.nerc.ac.uk/collection/P06/current/UMMC/> , <http://vocab.nerc.ac.uk/collection/P06/current/UCUM/> .
+
+<http://vocab.nerc.ac.uk/collection/A05/current/EV_N2O/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A05::EV_N2O";
+        dc:date                "2016-06-23 15:58:53.0";
+        dc:identifier          "SDN:A05::EV_N2O";
+        pav:authoredOn         "2016-06-23 15:58:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A05/current/EV_N2O/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/OD1/current/N2O/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "N2O";
+        skos:definition        "The amount of nitrous oxide (N2O) in seawater using water column and atmospheric measurements."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P07/current/CFV8N44/> , <http://vocab.nerc.ac.uk/collection/P01/current/DN2OZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/AN2OZZ01/>;
+        skos:notation          "SDN:A05::EV_N2O";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Nitrous oxide"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/KGNM/> , <http://vocab.nerc.ac.uk/collection/P06/current/UBLV/> .
+
+<http://vocab.nerc.ac.uk/collection/A05/current/EV_POM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A05::EV_POM";
+        dc:date                "2016-06-23 15:58:53.0";
+        dc:identifier          "SDN:A05::EV_POM";
+        pav:authoredOn         "2016-06-23 15:58:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A05/current/EV_POM/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "POM";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/OD1/current/TURBID/> , <http://vocab.nerc.ac.uk/collection/OD1/current/SUSPMA/>;
+        skos:definition        "The amount of particulate organic matter (turbidity) in seawater using water column measurements."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P07/current/7B3X6L2J/> , <http://vocab.nerc.ac.uk/collection/P01/current/TURBXXXX/>;
+        skos:notation          "SDN:A05::EV_POM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Suspended particulates"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/USTU/> .
+
+<http://vocab.nerc.ac.uk/collection/A05/current/EV_WSPD/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A05::EV_WSPD";
+        dc:date                "2016-06-23 15:58:53.0";
+        dc:identifier          "SDN:A05::EV_WSPD";
+        pav:authoredOn         "2016-06-23 15:58:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A05/current/EV_WSPD/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Wspd";
+        skos:definition        "The speed of the air (absolute) in the atmosphere."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0038/> , <http://vocab.nerc.ac.uk/collection/P01/current/EWSBZZ01/>;
+        skos:notation          "SDN:A05::EV_WSPD";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Wind speed"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UVAA/> .
+
+<http://vocab.nerc.ac.uk/collection/A05/current/EV_SEATEMP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A05::EV_SEATEMP";
+        dc:date                "2016-06-23 15:58:53.0";
+        dc:identifier          "SDN:A05::EV_SEATEMP";
+        pav:authoredOn         "2016-06-23 15:58:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A05/current/EV_SEATEMP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/OD1/current/SEATEMP/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "Sea temperature";
+        skos:definition        "The temperature of seawater expressed against the International Temperature Scale 1990 (ITS-90) standard."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/TEMPTC05/> , <http://vocab.nerc.ac.uk/collection/P01/current/TEMPTC14/> , <http://vocab.nerc.ac.uk/collection/P01/current/TEMPTC03/> , <http://vocab.nerc.ac.uk/collection/P01/current/TEMPTC06/> , <http://vocab.nerc.ac.uk/collection/P01/current/TEMPTC10/> , <http://vocab.nerc.ac.uk/collection/P01/current/TEMPTC11/> , <http://vocab.nerc.ac.uk/collection/P01/current/TEMPTC13/> , <http://vocab.nerc.ac.uk/collection/P01/current/TEMPTC15/> , <http://vocab.nerc.ac.uk/collection/P01/current/TEMPTC02/> , <http://vocab.nerc.ac.uk/collection/P01/current/TEMPST02/> , <http://vocab.nerc.ac.uk/collection/P01/current/TEMPTC12/> , <http://vocab.nerc.ac.uk/collection/P01/current/TEMPTC01/> , <http://vocab.nerc.ac.uk/collection/P01/current/TEMPTC08/> , <http://vocab.nerc.ac.uk/collection/P01/current/TEMPTC07/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0381/> , <http://vocab.nerc.ac.uk/collection/P01/current/TEMPST01/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0335/> , <http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/> , <http://vocab.nerc.ac.uk/collection/P01/current/TEMPTC09/> , <http://vocab.nerc.ac.uk/collection/P01/current/TEMPTC04/>;
+        skos:notation          "SDN:A05::EV_SEATEMP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Temperature"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPKA/> , <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> .
+
+<http://vocab.nerc.ac.uk/collection/A05/current/EV_TTRACE/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A05::EV_TTRACE";
+        dc:date                "2017-01-13 17:15:10.0";
+        dc:identifier          "SDN:A05::EV_TTRACE";
+        pav:authoredOn         "2017-01-13 17:15:10.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A05/current/EV_TTRACE/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/A05/current/EV_TTRACE/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/OD1/current/TRANST/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "T tracers";
+        skos:definition        "The amount of transient tracers (CFC-12, CFC-11, SF6, tritium, 3He, 14C) in seawater using water column measurements."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/DSF6KGXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/DSF6KGTX/> , <http://vocab.nerc.ac.uk/collection/P01/current/MDMAP001/> , <http://vocab.nerc.ac.uk/collection/P01/current/FR12GCKG/> , <http://vocab.nerc.ac.uk/collection/P01/current/MDMAP002/> , <http://vocab.nerc.ac.uk/collection/P01/current/FR11GCKG/> , <http://vocab.nerc.ac.uk/collection/P01/current/MXTX3HER/> , <http://vocab.nerc.ac.uk/collection/P01/current/MXTX3H1H/> , <http://vocab.nerc.ac.uk/collection/P01/current/DHE3XXER/> , <http://vocab.nerc.ac.uk/collection/P01/current/D3HEMXDG/> , <http://vocab.nerc.ac.uk/collection/P01/current/DHE3XX01/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFV13A4/> , <http://vocab.nerc.ac.uk/collection/P01/current/D14CMIER/> , <http://vocab.nerc.ac.uk/collection/P01/current/D14CMIXX/>;
+        skos:notation          "SDN:A05::EV_TTRACE";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Transient tracers"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPCT/> , <http://vocab.nerc.ac.uk/collection/P06/current/UPPT/> , <http://vocab.nerc.ac.uk/collection/P06/current/KGPM/> , <http://vocab.nerc.ac.uk/collection/P06/current/FMKG/> , <http://vocab.nerc.ac.uk/collection/P06/current/UUTU/> .
+
+<http://vocab.nerc.ac.uk/collection/A05/current/EV_DOM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A05::EV_DOM";
+        dc:date                "2016-06-23 15:58:53.0";
+        dc:identifier          "SDN:A05::EV_DOM";
+        pav:authoredOn         "2016-06-23 15:58:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A05/current/EV_DOM/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/OD1/current/DOM/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "DOM";
+        skos:definition        "The amount of dissolved organic matter (DOC, DON and CDOM) in seawater using water column measurements."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/QSCDOMXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/MDMAP015/> , <http://vocab.nerc.ac.uk/collection/P01/current/MDMAZZKG/> , <http://vocab.nerc.ac.uk/collection/P01/current/MDMAP008/> , <http://vocab.nerc.ac.uk/collection/P01/current/CDOMZZ01/> , <http://vocab.nerc.ac.uk/collection/P07/current/6OP5LKSX/> , <http://vocab.nerc.ac.uk/collection/P01/current/COCOKGD1/> , <http://vocab.nerc.ac.uk/collection/P01/current/COCOKGTX/> , <http://vocab.nerc.ac.uk/collection/P01/current/CORGZZKG/> , <http://vocab.nerc.ac.uk/collection/P01/current/COCOKGXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/COCOKG01/>;
+        skos:notation          "SDN:A05::EV_DOM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Dissolved organic matter"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/KGUM/> , <http://vocab.nerc.ac.uk/collection/P06/current/UPPB/> .
+
+<http://vocab.nerc.ac.uk/collection/A05/current/EV_BATHY/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A05::EV_BATHY";
+        dc:date                "2016-06-23 15:58:53.0";
+        dc:identifier          "SDN:A05::EV_BATHY";
+        pav:authoredOn         "2016-06-23 15:58:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A05/current/EV_BATHY/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Bathymetry";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/OD1/current/BATHY/>;
+        skos:definition        "The depth of the sea floor or bed relative to a reference datum."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0421/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFV13N17/> , <http://vocab.nerc.ac.uk/collection/P01/current/BATHDPTH/> , <http://vocab.nerc.ac.uk/collection/P01/current/MBANZZZZ/>;
+        skos:notation          "SDN:A05::EV_BATHY";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Bottom depth"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/ULAA/> .
+
+<http://vocab.nerc.ac.uk/collection/A05/current/EV_CO2/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A05::EV_CO2";
+        dc:date                "2016-06-23 15:58:53.0";
+        dc:identifier          "SDN:A05::EV_CO2";
+        pav:authoredOn         "2016-06-23 15:58:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A05/current/EV_CO2/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/OD1/current/C02/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "CO2";
+        skos:definition        "The chemistry of carbon dioxide (DIC, TA, pCO2 and pH) in seawater where pH is expressed against Total, Seawater or Free scales. Includes water column and atmospheric measurements."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/PCO2IG02/> , <http://vocab.nerc.ac.uk/collection/P01/current/TCO2KG01/> , <http://vocab.nerc.ac.uk/collection/P01/current/TCO2WCAL/> , <http://vocab.nerc.ac.uk/collection/P01/current/TCO2MSXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/PHMASSXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/PHTLSX25/> , <http://vocab.nerc.ac.uk/collection/P01/current/PHSWSXXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/MDMAP014/> , <http://vocab.nerc.ac.uk/collection/P01/current/PHFRSXXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/PHTLWCAL/> , <http://vocab.nerc.ac.uk/collection/P01/current/ACO2XXXX/> , <http://vocab.nerc.ac.uk/collection/P07/current/CF14N55/> , <http://vocab.nerc.ac.uk/collection/P07/current/CF14N56/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0244/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0243/> , <http://vocab.nerc.ac.uk/collection/P01/current/PCO2XXXX/>;
+        skos:notation          "SDN:A05::EV_CO2";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Carbonate system"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/KGUM/> , <http://vocab.nerc.ac.uk/collection/P06/current/UUPH/> , <http://vocab.nerc.ac.uk/collection/P06/current/UATM/> .
+
+<http://vocab.nerc.ac.uk/collection/A05/current/EV_AIRTEMP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A05::EV_AIRTEMP";
+        dc:date                "2016-06-23 15:58:53.0";
+        dc:identifier          "SDN:A05::EV_AIRTEMP";
+        pav:authoredOn         "2016-06-23 15:58:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A05/current/EV_AIRTEMP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/OD1/current/AIRTEMP/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "Atmospheric temperature";
+        skos:definition        "The temperature of the atmosphere expressed against the International Temperature Scale 1990 (ITS-90) standard."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0023/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTMPZZ01/>;
+        skos:notation          "SDN:A05::EV_AIRTEMP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Air temperature"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPKA/> , <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> .
+
+<http://vocab.nerc.ac.uk/collection/A05/current/EV_CHLA/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A05::EV_CHLA";
+        dc:date                "2016-11-07 12:38:56.0";
+        dc:identifier          "SDN:A05::EV_CHLA";
+        pav:authoredOn         "2016-11-07 12:38:56.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A05/current/EV_CHLA/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Chla";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/OD1/current/PIGM/>;
+        skos:definition        "The amount of chlorophyll-a and chlorophyll fluorescence in seawater using water column measurements."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P07/current/ORZ7DVDT/> , <http://vocab.nerc.ac.uk/collection/P07/current/CF14N7/> , <http://vocab.nerc.ac.uk/collection/P01/current/CPHLPR01/> , <http://vocab.nerc.ac.uk/collection/P01/current/CPHLZZXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/CPHLPRKG/> , <http://vocab.nerc.ac.uk/collection/P01/current/CPHLXXKG/>;
+        skos:notation          "SDN:A05::EV_CHLA";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Chlorophyll-a and fluorescence"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUKG/> , <http://vocab.nerc.ac.uk/collection/P06/current/UMMC/> .
+
+<http://vocab.nerc.ac.uk/collection/A05/current/EV_RADFLX/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A05::EV_RADFLX";
+        dc:date                "2016-06-23 15:58:53.0";
+        dc:identifier          "SDN:A05::EV_RADFLX";
+        pav:authoredOn         "2016-06-23 15:58:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A05/current/EV_RADFLX/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/OD1/current/RADFLX/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "Rad flux";
+        skos:definition        "The fluxes of radiation (downwelling and upwelling irradiance) in the atmosphere to and from the sea surface."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/CSLRZZXX/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0216/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0235/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0279/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0275/> , <http://vocab.nerc.ac.uk/collection/P01/current/LWRDXX01/> , <http://vocab.nerc.ac.uk/collection/P01/current/LWRDZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/RXUUZZZE/>;
+        skos:notation          "SDN:A05::EV_RADFLX";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Radiative fluxes"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UFAA/> .
+
+<http://vocab.nerc.ac.uk/collection/A05/current/EV_WDIR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A05::EV_WDIR";
+        dc:date                "2016-06-23 15:58:53.0";
+        dc:identifier          "SDN:A05::EV_WDIR";
+        pav:authoredOn         "2016-06-23 15:58:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A05/current/EV_WDIR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Wdir";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/OD1/current/WIND/>;
+        skos:definition        "The direction of the air (absolute) in the atmosphere (from direction)."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0036/> , <http://vocab.nerc.ac.uk/collection/P01/current/EWDAZZ01/>;
+        skos:notation          "SDN:A05::EV_WDIR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Wind direction"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UABB/> .
+
+<http://vocab.nerc.ac.uk/collection/A05/current/EV_SALIN/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A05::EV_SALIN";
+        dc:date                "2016-06-23 15:58:53.0";
+        dc:identifier          "SDN:A05::EV_SALIN";
+        pav:authoredOn         "2016-06-23 15:58:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A05/current/EV_SALIN/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/OD1/current/SAL/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "Sea salinity";
+        skos:definition        "The salinity of seawater expressed against the Practical Salinity Scale 1978 (PSS-78) standard."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/PSLTZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/PSALTC06/> , <http://vocab.nerc.ac.uk/collection/P01/current/PSALTC05/> , <http://vocab.nerc.ac.uk/collection/P01/current/PSALST02/> , <http://vocab.nerc.ac.uk/collection/P01/current/PSALTC04/> , <http://vocab.nerc.ac.uk/collection/P01/current/PSALTC03/> , <http://vocab.nerc.ac.uk/collection/P01/current/PSALTC02/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0376/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0331/> , <http://vocab.nerc.ac.uk/collection/P07/current/IADIHDIJ/> , <http://vocab.nerc.ac.uk/collection/P01/current/PSALST01/> , <http://vocab.nerc.ac.uk/collection/P01/current/PSALBSTX/> , <http://vocab.nerc.ac.uk/collection/P01/current/PSALZZXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/PSALTC01/>;
+        skos:notation          "SDN:A05::EV_SALIN";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Salinity"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
+
+<http://vocab.nerc.ac.uk/collection/A05/current/EV_OXY/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A05::EV_OXY";
+        dc:date                "2016-06-23 15:58:53.0";
+        dc:identifier          "SDN:A05::EV_OXY";
+        pav:authoredOn         "2016-06-23 15:58:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A05/current/EV_OXY/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/OD1/current/DOXY/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "Dissolved O2";
+        skos:definition        "The amount of dissolved oxygen in seawater using water column measurements."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0517/> , <http://vocab.nerc.ac.uk/collection/P01/current/DOXYAAOP/> , <http://vocab.nerc.ac.uk/collection/P01/current/DOXYOP01/> , <http://vocab.nerc.ac.uk/collection/P01/current/DOKGWITX/> , <http://vocab.nerc.ac.uk/collection/P01/current/DOXYSCKG/>;
+        skos:notation          "SDN:A05::EV_OXY";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Oxygen"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/KGUM/> .
+
+<http://vocab.nerc.ac.uk/collection/A05/current/EV_AIRHUM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A05::EV_AIRHUM";
+        dc:date                "2016-06-23 15:58:53.0";
+        dc:identifier          "SDN:A05::EV_AIRHUM";
+        pav:authoredOn         "2016-06-23 15:58:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A05/current/EV_AIRHUM/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/OD1/current/HUMI/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "Atmospheric humidity";
+        skos:definition        "The amount of water vapour (relative humidity, dew point temperature) in the atmosphere."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0413/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0723/> , <http://vocab.nerc.ac.uk/collection/P01/current/CRELZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/CDEWZZ01/>;
+        skos:notation          "SDN:A05::EV_AIRHUM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Air humidity"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> , <http://vocab.nerc.ac.uk/collection/P06/current/UPCT/> .
+
+<http://vocab.nerc.ac.uk/collection/A05/current/EV_CURR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A05::EV_CURR";
+        dc:date                "2017-01-13 17:13:18.0";
+        dc:identifier          "SDN:A05::EV_CURR";
+        pav:authoredOn         "2017-01-13 17:13:18.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A05/current/EV_CURR/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/A05/current/EV_CURR/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/OD1/current/CURR/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "Sea currents";
+        skos:definition        "The velocity (Eulerian, upward and Stokes Drift) of sea water (includes scalar speeds and directions)."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/LRZAZZZZ/> , <http://vocab.nerc.ac.uk/collection/P01/current/LCSAZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/LCDAZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/LCNSZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/LCEWZZ01/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0242/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0727/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0334/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0650/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0080/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0266/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0494/>;
+        skos:notation          "SDN:A05::EV_CURR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Currents"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UABB/> , <http://vocab.nerc.ac.uk/collection/P06/current/UVBB/> .
+
+<http://vocab.nerc.ac.uk/collection/A05/current/EV_NUTS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A05::EV_NUTS";
+        dc:date                "2016-06-23 15:58:53.0";
+        dc:identifier          "SDN:A05::EV_NUTS";
+        pav:authoredOn         "2016-06-23 15:58:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A05/current/EV_NUTS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/OD1/current/NUTS/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "Inorganic nutrients";
+        skos:definition        "The amount of dissolved inorganic macro nutrients (NO3, PO4, Si and NO2) in seawater using water column measurements."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/SLCAKGD5/> , <http://vocab.nerc.ac.uk/collection/P01/current/MDMAP906/> , <http://vocab.nerc.ac.uk/collection/P01/current/NTRIKGD6/> , <http://vocab.nerc.ac.uk/collection/P01/current/PHOSKGD5/> , <http://vocab.nerc.ac.uk/collection/P01/current/NTRIKGTX/> , <http://vocab.nerc.ac.uk/collection/P01/current/NTRIKGD1/> , <http://vocab.nerc.ac.uk/collection/P01/current/MDMAP007/> , <http://vocab.nerc.ac.uk/collection/P01/current/PHOSKGD1/> , <http://vocab.nerc.ac.uk/collection/P01/current/SLCAKGD1/> , <http://vocab.nerc.ac.uk/collection/P01/current/NTRIKGD5/> , <http://vocab.nerc.ac.uk/collection/P01/current/NTRAKGTX/> , <http://vocab.nerc.ac.uk/collection/P01/current/NTRAKGD5/> , <http://vocab.nerc.ac.uk/collection/P01/current/NTRAMS02/> , <http://vocab.nerc.ac.uk/collection/P01/current/MDMAP005/> , <http://vocab.nerc.ac.uk/collection/P01/current/NTRZKGD5/> , <http://vocab.nerc.ac.uk/collection/P01/current/MDMAP006/> , <http://vocab.nerc.ac.uk/collection/P01/current/NTRAMS01/> , <http://vocab.nerc.ac.uk/collection/P01/current/SLCAMS01/> , <http://vocab.nerc.ac.uk/collection/P01/current/MDMAP012/> , <http://vocab.nerc.ac.uk/collection/P01/current/SLKGAATX/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0519/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0514/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0515/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0516/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0518/> , <http://vocab.nerc.ac.uk/collection/P01/current/PHOSMS01/> , <http://vocab.nerc.ac.uk/collection/P01/current/PHKGAATX/>;
+        skos:notation          "SDN:A05::EV_NUTS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Nutrients"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/KGUM/> .
+
+<http://vocab.nerc.ac.uk/collection/A05/current/EV_RAIN/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A05::EV_RAIN";
+        dc:date                "2016-06-23 15:58:53.0";
+        dc:identifier          "SDN:A05::EV_RAIN";
+        pav:authoredOn         "2016-06-23 15:58:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A05/current/EV_RAIN/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/OD1/current/RAIN/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "Precipitation";
+        skos:definition        "The rate or amount of precipitation (liquid or solid) deposited from the atmosphere."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0410/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0143/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0559/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0569/> , <http://vocab.nerc.ac.uk/collection/P01/current/CPRRRG01/> , <http://vocab.nerc.ac.uk/collection/P01/current/CPRPRG01/>;
+        skos:notation          "SDN:A05::EV_RAIN";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Rainfall"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UXMM/> , <http://vocab.nerc.ac.uk/collection/P06/current/MMPH/> .
+
+<http://vocab.nerc.ac.uk/collection/A05/current/EV_AIRPRESS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A05::EV_AIRPRESS";
+        dc:date                "2016-06-23 15:58:53.0";
+        dc:identifier          "SDN:A05::EV_AIRPRESS";
+        pav:authoredOn         "2016-06-23 15:58:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A05/current/EV_AIRPRESS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/OD1/current/AIRPRES/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "Air pressure";
+        skos:definition        "The pressure exerted by the weight of the air in the Earth's atmosphere."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0022/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0015/> , <http://vocab.nerc.ac.uk/collection/P01/current/CAPHZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/CAPASS01/>;
+        skos:notation          "SDN:A05::EV_AIRPRESS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Atmospheric pressure"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/HPAX/> .
+
+<http://vocab.nerc.ac.uk/collection/A05/current/EV_WAVES/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A05::EV_WAVES";
+        dc:date                "2017-01-13 17:14:23.0";
+        dc:identifier          "SDN:A05::EV_WAVES";
+        pav:authoredOn         "2017-01-13 17:14:23.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A05/current/EV_WAVES/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/A05/current/EV_WAVES/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/OD1/current/WAVES/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "Sea waves";
+        skos:definition        "The properties (wave height, maximum wave height, significant wave height, wave period, wave direction, wave steepness and wave spectrum energy) of sea waves."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/GEPKZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/LCEWST01/> , <http://vocab.nerc.ac.uk/collection/P01/current/LCNSST01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GTZMZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GTZHZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GTAMZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GTZAM2ZZ/> , <http://vocab.nerc.ac.uk/collection/P01/current/GTPKZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GTZHTN01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GTZAM1S1/> , <http://vocab.nerc.ac.uk/collection/P01/current/GTZAM1ZZ/> , <http://vocab.nerc.ac.uk/collection/P01/current/GTZAZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GTZAM1S2/> , <http://vocab.nerc.ac.uk/collection/P01/current/GTHMXX01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GTZAM1WW/> , <http://vocab.nerc.ac.uk/collection/P01/current/GWDRWW01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GSD1SW01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GDPXXX01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GSD2SW01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GWDRZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/WVSTZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GCMXZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/HMZESWFT/> , <http://vocab.nerc.ac.uk/collection/P01/current/HMZEZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GAVHZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GTDHZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/HMZESWSC/> , <http://vocab.nerc.ac.uk/collection/P01/current/HMZEWW01/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFV8N75/> , <http://vocab.nerc.ac.uk/collection/P07/current/WHOJ1OG4/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFV8N74/> , <http://vocab.nerc.ac.uk/collection/P07/current/OW7KJRXV/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0385/> , <http://vocab.nerc.ac.uk/collection/P07/current/62Q37UQE/> , <http://vocab.nerc.ac.uk/collection/P07/current/SXTKCAH2/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0390/> , <http://vocab.nerc.ac.uk/collection/P07/current/UPGWHKDY/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0384/> , <http://vocab.nerc.ac.uk/collection/P07/current/JNQS0CMX/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFV13N31/> , <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0388/>;
+        skos:notation          "SDN:A05::EV_WAVES";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Waves"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> , <http://vocab.nerc.ac.uk/collection/P06/current/ULAA/> , <http://vocab.nerc.ac.uk/collection/P06/current/UTBB/> , <http://vocab.nerc.ac.uk/collection/P06/current/M2SX/> , <http://vocab.nerc.ac.uk/collection/P06/current/UABB/> .
+
+<http://vocab.nerc.ac.uk/collection/A05/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used within the data centre";
+        dc:alternative          "AtlantOS EVs";
+        dc:conformsTo           <https://w3id.org/env/puv> , <https://w3id.org/iadopt/ont>;
+        dc:creator              "British Oceanographic Data Centre";
+        dc:date                 "2019-03-29 02:01:22.0";
+        dc:description          "Collection of terms used to group key measurements into a set of Essential Variables (EV) and their associated units as part of the AtlantOS Atlantic Ocean dataset";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "AtlantOS Essential Variables";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "British Oceanographic Data Centre";
+        owl:versionInfo         "4";
+        skos:altLabel           "AtlantOS EVs";
+        skos:member             <http://vocab.nerc.ac.uk/collection/A05/current/EV_SEALVL/> , <http://vocab.nerc.ac.uk/collection/A05/current/EV_13C/> , <http://vocab.nerc.ac.uk/collection/A05/current/EV_PHYT/> , <http://vocab.nerc.ac.uk/collection/A05/current/EV_ZOO/> , <http://vocab.nerc.ac.uk/collection/A05/current/EV_N2O/> , <http://vocab.nerc.ac.uk/collection/A05/current/EV_POM/> , <http://vocab.nerc.ac.uk/collection/A05/current/EV_WSPD/> , <http://vocab.nerc.ac.uk/collection/A05/current/EV_SEATEMP/> , <http://vocab.nerc.ac.uk/collection/A05/current/EV_TTRACE/> , <http://vocab.nerc.ac.uk/collection/A05/current/EV_DOM/> , <http://vocab.nerc.ac.uk/collection/A05/current/EV_BATHY/> , <http://vocab.nerc.ac.uk/collection/A05/current/EV_CO2/> , <http://vocab.nerc.ac.uk/collection/A05/current/EV_AIRTEMP/> , <http://vocab.nerc.ac.uk/collection/A05/current/EV_CHLA/> , <http://vocab.nerc.ac.uk/collection/A05/current/EV_RADFLX/> , <http://vocab.nerc.ac.uk/collection/A05/current/EV_WDIR/> , <http://vocab.nerc.ac.uk/collection/A05/current/EV_SALIN/> , <http://vocab.nerc.ac.uk/collection/A05/current/EV_OXY/> , <http://vocab.nerc.ac.uk/collection/A05/current/EV_AIRHUM/> , <http://vocab.nerc.ac.uk/collection/A05/current/EV_CURR/> , <http://vocab.nerc.ac.uk/collection/A05/current/EV_NUTS/> , <http://vocab.nerc.ac.uk/collection/A05/current/EV_RAIN/> , <http://vocab.nerc.ac.uk/collection/A05/current/EV_AIRPRESS/> , <http://vocab.nerc.ac.uk/collection/A05/current/EV_WAVES/>;
+        skos:prefLabel          "AtlantOS Essential Variables" .

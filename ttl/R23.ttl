@@ -1,0 +1,818 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/R23/current/ALAMO/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::ALAMO";
+        dc:date                "2020-05-03 20:30:02.0";
+        dc:identifier          "SDN:R23::ALAMO";
+        pav:authoredOn         "2020-05-03 20:30:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/ALAMO/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ALAMO";
+        skos:definition        "ALAMO air-launched micro-observer float. PLATFORM_TYPE_KEY = 800"@en;
+        skos:notation          "SDN:R23::ALAMO";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ALAMO float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/MRV/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/ITP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::ITP";
+        dc:date                "2020-05-03 20:30:02.0";
+        dc:identifier          "SDN:R23::ITP";
+        pav:authoredOn         "2020-05-03 20:30:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/ITP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ITP";
+        skos:definition        "Ice Tethered Profiler (ITP). PLATFORM_TYPE_KEY = 901"@en;
+        skos:notation          "SDN:R23::ITP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ITP float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/WHOI/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/FLOAT/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::FLOAT";
+        dc:date                "2020-05-03 20:30:02.0";
+        dc:identifier          "SDN:R23::FLOAT";
+        pav:authoredOn         "2020-05-03 20:30:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/FLOAT/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "FLOAT";
+        skos:definition        "Generic value when platform type unknown. PLATFORM_TYPE_KEY = 999"@en;
+        skos:notation          "SDN:R23::FLOAT";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Unknown platform type"@en .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/HM2000/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::HM2000";
+        dc:date                "2020-05-03 20:30:02.0";
+        dc:identifier          "SDN:R23::HM2000";
+        pav:authoredOn         "2020-05-03 20:30:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/HM2000/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "HM2000";
+        skos:definition        "HM2000 float. PLATFORM_TYPE_KEY = 700"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/870/>;
+        skos:notation          "SDN:R23::HM2000";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "HM2000 float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/HSOE/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/PALACE/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::PALACE";
+        dc:date                "2020-05-03 20:30:02.0";
+        dc:identifier          "SDN:R23::PALACE";
+        pav:authoredOn         "2020-05-03 20:30:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/PALACE/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "PALACE";
+        skos:definition        "PALACE float. PLATFORM_TYPE_KEY = 000"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/831/>;
+        skos:notation          "SDN:R23::PALACE";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "PALACE float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/WRC/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/HM4000/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::HM4000";
+        dc:date                "2022-06-16 11:36:09.0";
+        dc:identifier          "SDN:R23::HM4000";
+        pav:authoredOn         "2022-06-16 11:36:09.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/HM4000/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "HM4000";
+        skos:definition        "HM4000 float."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/881/>;
+        skos:notation          "SDN:R23::HM4000";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "HM4000 float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/QNLM/> , <http://vocab.nerc.ac.uk/collection/R24/current/LaoshanL/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/APEX_EM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::APEX_EM";
+        dc:date                "2020-05-03 20:30:02.0";
+        dc:identifier          "SDN:R23::APEX_EM";
+        pav:authoredOn         "2020-05-03 20:30:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/APEX_EM/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "APEX_EM";
+        skos:definition        "APEX electro-magnetic float, measuring velocity and mixing. PLATFORM_TYPE_KEY = 005"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/848/>;
+        skos:notation          "SDN:R23::APEX_EM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "APEX electro-magnetic float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/TWR/> , <http://vocab.nerc.ac.uk/collection/R24/current/WRC/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_III_JUMBO/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::PROVOR_III_JUMBO";
+        dc:date                "2026-04-29 13:04:08.0";
+        dc:identifier          "SDN:R23::PROVOR_III_JUMBO";
+        pav:authoredOn         "2026-04-29 13:04:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_III_JUMBO/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_III_JUMBO/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "PROVOR_III_JUMBO";
+        skos:definition        "PROVOR float with additional battery pack. PLATFORM_TYPE_KEY = 108."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/836/> , <http://vocab.nerc.ac.uk/collection/R08/current/891/> , <http://vocab.nerc.ac.uk/collection/R08/current/890/>;
+        skos:notation          "SDN:R23::PROVOR_III_JUMBO";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "PROVOR_III_JUMBO float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/NKE/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/POPS_PROVOR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::POPS_PROVOR";
+        dc:date                "2020-05-03 20:30:02.0";
+        dc:identifier          "SDN:R23::POPS_PROVOR";
+        pav:authoredOn         "2020-05-03 20:30:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/POPS_PROVOR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "POPS_PROVOR";
+        skos:definition        "Polar Ocean Profiling System with a PROVOR float. PLATFORM_TYPE_KEY = 130"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/843/>;
+        skos:notation          "SDN:R23::POPS_PROVOR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Polar Ocean Profiling System with a PROVOR float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/NKE/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/POPS_NEMO/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::POPS_NEMO";
+        dc:date                "2020-05-03 20:30:02.0";
+        dc:identifier          "SDN:R23::POPS_NEMO";
+        pav:authoredOn         "2020-05-03 20:30:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/POPS_NEMO/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "POPS_NEMO";
+        skos:definition        "Polar Ocean Profiling System with a NEMO float. PLATFORM_TYPE_KEY = 430"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/843/>;
+        skos:notation          "SDN:R23::POPS_NEMO";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "POPS with NEMO float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/OPTIMARE/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/NAVIS_A/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::NAVIS_A";
+        dc:date                "2020-05-03 20:30:02.0";
+        dc:identifier          "SDN:R23::NAVIS_A";
+        pav:authoredOn         "2020-05-03 20:30:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/NAVIS_A/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "NAVIS_A";
+        skos:definition        "NAVIS_A float. PLATFORM_TYPE_KEY = 500"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/863/>;
+        skos:notation          "SDN:R23::NAVIS_A";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "NAVIS_A float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/SBE/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/ALTO/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::ALTO";
+        dc:date                "2020-05-03 20:30:02.0";
+        dc:identifier          "SDN:R23::ALTO";
+        pav:authoredOn         "2020-05-03 20:30:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/ALTO/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ALTO";
+        skos:definition        "ALTO float. PLATFORM_TYPE_KEY = 205"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/876/> , <http://vocab.nerc.ac.uk/collection/R08/current/873/> , <http://vocab.nerc.ac.uk/collection/R08/current/875/>;
+        skos:notation          "SDN:R23::ALTO";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ALTO float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/MRV/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/SOLO_II/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::SOLO_II";
+        dc:date                "2020-05-03 20:30:02.0";
+        dc:identifier          "SDN:R23::SOLO_II";
+        pav:authoredOn         "2020-05-03 20:30:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/SOLO_II/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SOLO_II";
+        skos:definition        "SOLO-II float manufactured by Scripps Institution of Oceanography (SIO). PLATFORM_TYPE_KEY = 202"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/853/> , <http://vocab.nerc.ac.uk/collection/R08/current/879/>;
+        skos:notation          "SDN:R23::SOLO_II";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "SIO SOLO-II float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/SIO_IDG/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/NINJA_D/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::NINJA_D";
+        dc:date                "2020-05-03 20:30:02.0";
+        dc:identifier          "SDN:R23::NINJA_D";
+        pav:authoredOn         "2020-05-03 20:30:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/NINJA_D/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "NINJA_D";
+        skos:definition        "Deep NINJA float. PLATFORM_TYPE_KEY = 320"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/864/>;
+        skos:notation          "SDN:R23::NINJA_D";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Deep NINJA float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/TSK/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/NAVIS_EBR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::NAVIS_EBR";
+        dc:date                "2020-05-03 20:30:02.0";
+        dc:identifier          "SDN:R23::NAVIS_EBR";
+        pav:authoredOn         "2020-05-03 20:30:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/NAVIS_EBR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "NAVIS_EBR";
+        skos:definition        "NAVIS_EBR float. PLATFORM_TYPE_KEY = 501"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/869/>;
+        skos:notation          "SDN:R23::NAVIS_EBR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "NAVIS_EBR float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/SBE/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/SOLO_D_MRV/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::SOLO_D_MRV";
+        dc:date                "2020-05-03 20:30:02.0";
+        dc:identifier          "SDN:R23::SOLO_D_MRV";
+        pav:authoredOn         "2020-05-03 20:30:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/SOLO_D_MRV/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SOLO_D_MRV";
+        skos:definition        "DEEPSOLO MRV float. PLATFORM_TYPE_KEY = 221"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/874/>;
+        skos:notation          "SDN:R23::SOLO_D_MRV";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "DEEPSOLO MRV float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/MRV/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/COPEX/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::COPEX";
+        dc:date                "2020-05-03 20:30:02.0";
+        dc:identifier          "SDN:R23::COPEX";
+        pav:authoredOn         "2020-05-03 20:30:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/COPEX/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "COPEX";
+        skos:definition        "COPEX float. PLATFORM_TYPE_KEY = 701"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/871/>;
+        skos:notation          "SDN:R23::COPEX";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "COPEX float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/NOTC/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/SOLO_BGC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::SOLO_BGC";
+        dc:date                "2024-04-18 10:15:35.0";
+        dc:identifier          "SDN:R23::SOLO_BGC";
+        pav:authoredOn         "2024-04-18 10:15:35.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/SOLO_BGC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SOLO_BGC";
+        skos:definition        "SOLO_BGC float manufactured by Scripps Institution of Oceanography (SIO). PLATFORM_TYPE_KEY = 206"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/887/> , <http://vocab.nerc.ac.uk/collection/R08/current/884/> , <http://vocab.nerc.ac.uk/collection/R08/current/886/> , <http://vocab.nerc.ac.uk/collection/R08/current/885/>;
+        skos:notation          "SDN:R23::SOLO_BGC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "SOLO_BGC float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/SIO_IDG/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/SOLO_BGC_MRV/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::SOLO_BGC_MRV";
+        dc:date                "2024-04-25 11:42:03.0";
+        dc:identifier          "SDN:R23::SOLO_BGC_MRV";
+        pav:authoredOn         "2024-04-25 11:42:03.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/SOLO_BGC_MRV/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SOLO_BGC_MRV";
+        skos:definition        "SOLO_BGC_MRV float manufactured by MRV. PLATFORM_TYPE_KEY = 207."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/887/> , <http://vocab.nerc.ac.uk/collection/R08/current/886/>;
+        skos:notation          "SDN:R23::SOLO_BGC_MRV";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "SOLO_BGC_MRV float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/MRV/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/SOLO_D/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::SOLO_D";
+        dc:date                "2020-05-03 20:30:02.0";
+        dc:identifier          "SDN:R23::SOLO_D";
+        pav:authoredOn         "2020-05-03 20:30:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/SOLO_D/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SOLO_D";
+        skos:definition        "Deep SOLO float. PLATFORM_TYPE_KEY = 220"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/862/>;
+        skos:notation          "SDN:R23::SOLO_D";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Deep SOLO float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/SIO_IDG/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_MT/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::PROVOR_MT";
+        dc:date                "2020-05-03 20:30:02.0";
+        dc:identifier          "SDN:R23::PROVOR_MT";
+        pav:authoredOn         "2020-05-03 20:30:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_MT/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "PROVOR_MT";
+        skos:definition        "Metocean PROVOR float. PLATFORM_TYPE_KEY = 100"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/840/> , <http://vocab.nerc.ac.uk/collection/R08/current/842/> , <http://vocab.nerc.ac.uk/collection/R08/current/841/>;
+        skos:notation          "SDN:R23::PROVOR_MT";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Metocean PROVOR float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/METOCEAN/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/S2A/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::S2A";
+        dc:date                "2020-05-03 20:30:02.0";
+        dc:identifier          "SDN:R23::S2A";
+        pav:authoredOn         "2020-05-03 20:30:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/S2A/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "S2A";
+        skos:definition        "S2-A float. PLATFORM_TYPE_KEY = 204"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/880/> , <http://vocab.nerc.ac.uk/collection/R08/current/854/>;
+        skos:notation          "SDN:R23::S2A";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "S2-A float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/MRV/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/NOVA/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::NOVA";
+        dc:date                "2020-05-03 20:30:02.0";
+        dc:identifier          "SDN:R23::NOVA";
+        pav:authoredOn         "2020-05-03 20:30:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/NOVA/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "NOVA";
+        skos:definition        "NOVA float. PLATFORM_TYPE_KEY = 600"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/865/>;
+        skos:notation          "SDN:R23::NOVA";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "NOVA float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/METOCEAN/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/S2X/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::S2X";
+        dc:date                "2020-05-03 20:30:02.0";
+        dc:identifier          "SDN:R23::S2X";
+        pav:authoredOn         "2020-05-03 20:30:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/S2X/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "S2X";
+        skos:definition        "S2X float designed for the US Navy. PLATFORM_TYPE_KEY = 203"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/872/>;
+        skos:notation          "SDN:R23::S2X";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "S2X float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/MRV/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/APEX/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::APEX";
+        dc:date                "2020-05-03 20:30:02.0";
+        dc:identifier          "SDN:R23::APEX";
+        pav:authoredOn         "2020-05-03 20:30:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/APEX/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "APEX";
+        skos:definition        "APEX float. PLATFORM_TYPE_KEY = 001"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/846/> , <http://vocab.nerc.ac.uk/collection/R08/current/845/> , <http://vocab.nerc.ac.uk/collection/R08/current/847/> , <http://vocab.nerc.ac.uk/collection/R08/current/877/>;
+        skos:notation          "SDN:R23::APEX";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "APEX float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/TWR/> , <http://vocab.nerc.ac.uk/collection/R24/current/WRC/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/SOLO_W/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::SOLO_W";
+        dc:date                "2020-05-03 20:30:02.0";
+        dc:identifier          "SDN:R23::SOLO_W";
+        pav:authoredOn         "2020-05-03 20:30:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/SOLO_W/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SOLO_W";
+        skos:definition        "SOLO float manufactured by Woods Whole Oceanographic Institution (WHOI). PLATFORM_TYPE_KEY = 201"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/850/> , <http://vocab.nerc.ac.uk/collection/R08/current/852/> , <http://vocab.nerc.ac.uk/collection/R08/current/851/>;
+        skos:notation          "SDN:R23::SOLO_W";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "WHOI SOLO float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/WHOI/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/SOLO/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::SOLO";
+        dc:date                "2020-05-03 20:30:02.0";
+        dc:identifier          "SDN:R23::SOLO";
+        pav:authoredOn         "2020-05-03 20:30:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/SOLO/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SOLO";
+        skos:definition        "SOLO float manufactured by Scripps Institution of Oceanography (SIO). PLATFORM_TYPE_KEY = 200"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/850/> , <http://vocab.nerc.ac.uk/collection/R08/current/852/> , <http://vocab.nerc.ac.uk/collection/R08/current/851/>;
+        skos:notation          "SDN:R23::SOLO";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "SIO SOLO float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/SIO_IDG/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/XUANWU/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::XUANWU";
+        dc:date                "2024-10-24 14:51:27.0";
+        dc:identifier          "SDN:R23::XUANWU";
+        pav:authoredOn         "2024-10-24 14:51:27.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/XUANWU/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R23/current/XUANWU/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "XUANWU";
+        skos:definition        "Xuanwu Deep float, also known as HM6000 float."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/882/>;
+        skos:notation          "SDN:R23::XUANWU";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Xuanwu Deep float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/QNLM/> , <http://vocab.nerc.ac.uk/collection/R24/current/LaoshanL/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/NEMO/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::NEMO";
+        dc:date                "2020-05-03 20:30:02.0";
+        dc:identifier          "SDN:R23::NEMO";
+        pav:authoredOn         "2020-05-03 20:30:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/NEMO/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "NEMO";
+        skos:definition        "NEMO float. PLATFORM_TYPE_KEY = 400"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/860/> , <http://vocab.nerc.ac.uk/collection/R08/current/861/> , <http://vocab.nerc.ac.uk/collection/R08/current/859/>;
+        skos:notation          "SDN:R23::NEMO";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "NEMO float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/OPTIMARE/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/APEX_D/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::APEX_D";
+        dc:date                "2020-05-03 20:30:02.0";
+        dc:identifier          "SDN:R23::APEX_D";
+        pav:authoredOn         "2020-05-03 20:30:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/APEX_D/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "APEX_D";
+        skos:definition        "Deep APEX float. PLATFORM_TYPE_KEY = 020"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/849/> , <http://vocab.nerc.ac.uk/collection/R08/current/883/>;
+        skos:notation          "SDN:R23::APEX_D";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Deep APEX float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/TWR/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/NINJA/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::NINJA";
+        dc:date                "2020-05-03 20:30:02.0";
+        dc:identifier          "SDN:R23::NINJA";
+        pav:authoredOn         "2020-05-03 20:30:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/NINJA/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "NINJA";
+        skos:definition        "NINJA float. PLATFORM_TYPE_KEY = 300"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/855/> , <http://vocab.nerc.ac.uk/collection/R08/current/857/> , <http://vocab.nerc.ac.uk/collection/R08/current/856/> , <http://vocab.nerc.ac.uk/collection/R08/current/858/>;
+        skos:notation          "SDN:R23::NINJA";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "NINJA float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/TSK/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_II/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::PROVOR_II";
+        dc:date                "2020-05-03 20:30:02.0";
+        dc:identifier          "SDN:R23::PROVOR_II";
+        pav:authoredOn         "2020-05-03 20:30:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_II/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "PROVOR_II";
+        skos:definition        "Dual board PROVOR float. PLATFORM_TYPE_KEY = 103"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/839/>;
+        skos:notation          "SDN:R23::PROVOR_II";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Dual board PROVOR float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R28/current/CB0011/> , <http://vocab.nerc.ac.uk/collection/R24/current/NKE/> , <http://vocab.nerc.ac.uk/collection/R24/current/MARTEC/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/ARVOR_C/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::ARVOR_C";
+        dc:date                "2020-05-03 20:30:02.0";
+        dc:identifier          "SDN:R23::ARVOR_C";
+        pav:authoredOn         "2020-05-03 20:30:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/ARVOR_C/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ARVOR_C";
+        skos:definition        "Coastal ARVOR float. PLATFORM_TYPE_KEY = 110"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/837/>;
+        skos:notation          "SDN:R23::ARVOR_C";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Coastal ARVOR float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R28/current/CB0005/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0012/> , <http://vocab.nerc.ac.uk/collection/R24/current/NKE/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/ARVOR_D/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::ARVOR_D";
+        dc:date                "2020-05-03 20:30:02.0";
+        dc:identifier          "SDN:R23::ARVOR_D";
+        pav:authoredOn         "2020-05-03 20:30:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/ARVOR_D/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ARVOR_D";
+        skos:definition        "Deep ARVOR float. PLATFORM_TYPE_KEY = 120"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/838/>;
+        skos:notation          "SDN:R23::ARVOR_D";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Deep ARVOR float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R28/current/CB0005/> , <http://vocab.nerc.ac.uk/collection/R24/current/NKE/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_III/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::PROVOR_III";
+        dc:date                "2020-05-03 20:30:02.0";
+        dc:identifier          "SDN:R23::PROVOR_III";
+        pav:authoredOn         "2020-05-03 20:30:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_III/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "PROVOR_III";
+        skos:definition        "Dual board PROVOR CTS4 float. PLATFORM_TYPE_KEY = 104"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/836/>;
+        skos:notation          "SDN:R23::PROVOR_III";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Dual board PROVOR CTS4 float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R28/current/CB0005/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0012/> , <http://vocab.nerc.ac.uk/collection/R24/current/NKE/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/ARVOR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::ARVOR";
+        dc:date                "2020-05-03 20:30:02.0";
+        dc:identifier          "SDN:R23::ARVOR";
+        pav:authoredOn         "2020-05-03 20:30:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/ARVOR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ARVOR";
+        skos:definition        "ARVOR float. PLATFORM_TYPE_KEY = 102"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/844/> , <http://vocab.nerc.ac.uk/collection/R08/current/878/>;
+        skos:notation          "SDN:R23::ARVOR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ARVOR float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R28/current/CB0013/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0005/> , <http://vocab.nerc.ac.uk/collection/R24/current/NKE/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/ARVOR2/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::ARVOR2";
+        dc:date                "2026-05-12 09:48:49.0";
+        dc:identifier          "SDN:R23::ARVOR2";
+        pav:authoredOn         "2026-05-12 09:48:49.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/ARVOR2/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ARVOR2";
+        skos:definition        "ARVOR2 float, PFV2 is the controller board type."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/844/> , <http://vocab.nerc.ac.uk/collection/R08/current/878/>;
+        skos:notation          "SDN:R23::ARVOR2";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ARVOR 2 float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R28/current/CB0013/> , <http://vocab.nerc.ac.uk/collection/R24/current/NKE/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/PROVOR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::PROVOR";
+        dc:date                "2020-05-03 20:30:02.0";
+        dc:identifier          "SDN:R23::PROVOR";
+        pav:authoredOn         "2020-05-03 20:30:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "PROVOR";
+        skos:definition        "PROVOR float. PLATFORM_TYPE_KEY = 101"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/841/> , <http://vocab.nerc.ac.uk/collection/R08/current/840/> , <http://vocab.nerc.ac.uk/collection/R08/current/842/>;
+        skos:notation          "SDN:R23::PROVOR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "PROVOR float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R28/current/CB0010/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0005/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0009/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0011/> , <http://vocab.nerc.ac.uk/collection/R24/current/NKE/> , <http://vocab.nerc.ac.uk/collection/R24/current/MARTEC/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_IV/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::PROVOR_IV";
+        dc:date                "2023-06-22 12:04:12.0";
+        dc:identifier          "SDN:R23::PROVOR_IV";
+        pav:authoredOn         "2023-06-22 12:04:12.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_IV/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_IV/1/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_IV/2/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "PROVOR_IV";
+        skos:definition        "PROVOR CTS5-Payload float. PLATFORM_TYPE_KEY = 105"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/835/>;
+        skos:notation          "SDN:R23::PROVOR_IV";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "PROVOR CTS5-Payload float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R28/current/CB0008/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0006/> , <http://vocab.nerc.ac.uk/collection/R24/current/NKE/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_V_JUMBO/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::PROVOR_V_JUMBO";
+        dc:date                "2023-10-05 14:41:04.0";
+        dc:identifier          "SDN:R23::PROVOR_V_JUMBO";
+        pav:authoredOn         "2023-10-05 14:41:04.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_V_JUMBO/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_V_JUMBO/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "PROVOR_V_JUMBO";
+        skos:definition        "PROVOR CTS5-USEA float with additional battery pack, USEA is the controller board type. PLATFORM_ TYPE_ KEY = 107"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/888/> , <http://vocab.nerc.ac.uk/collection/R08/current/834/> , <http://vocab.nerc.ac.uk/collection/R08/current/889/>;
+        skos:notation          "SDN:R23::PROVOR_V_JUMBO";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "PROVOR_V_JUMBO float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R28/current/CB0008/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0007/> , <http://vocab.nerc.ac.uk/collection/R24/current/NKE/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_V/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R23::PROVOR_V";
+        dc:date                "2023-10-05 14:41:04.0";
+        dc:identifier          "SDN:R23::PROVOR_V";
+        pav:authoredOn         "2023-10-05 14:41:04.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_V/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_V/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "PROVOR_V";
+        skos:definition        "PROVOR CTS5-USEA float, USEA is the controller board type. PLATFORM_ TYPE_ KEY = 106"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/834/>;
+        skos:notation          "SDN:R23::PROVOR_V";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "PROVOR_V float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R28/current/CB0008/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0007/> , <http://vocab.nerc.ac.uk/collection/R24/current/NKE/> .
+
+<http://vocab.nerc.ac.uk/collection/R23/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the Argo data system, published and maintained by the Argo Data Management Team (ADMT) and hosted on the NERC Vocabulary Server.";
+        rdfs:seeAlso            <https://github.com/OneArgo/ArgoVocabs>;
+        dc:alternative          "PLATFORM_TYPE";
+        dc:creator              "Argo Data Management Team";
+        dc:date                 "2026-05-13 03:00:02.0";
+        dc:description          "List of Argo float types. Argo netCDF variable PLATFORM_TYPE is populated by R23 altLabel.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Argo platform type";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Argo Data Management Team";
+        owl:versionInfo         "11";
+        skos:altLabel           "PLATFORM_TYPE";
+        skos:member             <http://vocab.nerc.ac.uk/collection/R23/current/ALAMO/> , <http://vocab.nerc.ac.uk/collection/R23/current/ITP/> , <http://vocab.nerc.ac.uk/collection/R23/current/FLOAT/> , <http://vocab.nerc.ac.uk/collection/R23/current/HM2000/> , <http://vocab.nerc.ac.uk/collection/R23/current/PALACE/> , <http://vocab.nerc.ac.uk/collection/R23/current/HM4000/> , <http://vocab.nerc.ac.uk/collection/R23/current/APEX_EM/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_III_JUMBO/> , <http://vocab.nerc.ac.uk/collection/R23/current/POPS_PROVOR/> , <http://vocab.nerc.ac.uk/collection/R23/current/POPS_NEMO/> , <http://vocab.nerc.ac.uk/collection/R23/current/NAVIS_A/> , <http://vocab.nerc.ac.uk/collection/R23/current/ALTO/> , <http://vocab.nerc.ac.uk/collection/R23/current/SOLO_II/> , <http://vocab.nerc.ac.uk/collection/R23/current/NINJA_D/> , <http://vocab.nerc.ac.uk/collection/R23/current/NAVIS_EBR/> , <http://vocab.nerc.ac.uk/collection/R23/current/SOLO_D_MRV/> , <http://vocab.nerc.ac.uk/collection/R23/current/COPEX/> , <http://vocab.nerc.ac.uk/collection/R23/current/SOLO_BGC/> , <http://vocab.nerc.ac.uk/collection/R23/current/SOLO_BGC_MRV/> , <http://vocab.nerc.ac.uk/collection/R23/current/SOLO_D/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_MT/> , <http://vocab.nerc.ac.uk/collection/R23/current/S2A/> , <http://vocab.nerc.ac.uk/collection/R23/current/NOVA/> , <http://vocab.nerc.ac.uk/collection/R23/current/S2X/> , <http://vocab.nerc.ac.uk/collection/R23/current/APEX/> , <http://vocab.nerc.ac.uk/collection/R23/current/SOLO_W/> , <http://vocab.nerc.ac.uk/collection/R23/current/SOLO/> , <http://vocab.nerc.ac.uk/collection/R23/current/XUANWU/> , <http://vocab.nerc.ac.uk/collection/R23/current/NEMO/> , <http://vocab.nerc.ac.uk/collection/R23/current/APEX_D/> , <http://vocab.nerc.ac.uk/collection/R23/current/NINJA/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_II/> , <http://vocab.nerc.ac.uk/collection/R23/current/ARVOR_C/> , <http://vocab.nerc.ac.uk/collection/R23/current/ARVOR_D/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_III/> , <http://vocab.nerc.ac.uk/collection/R23/current/ARVOR/> , <http://vocab.nerc.ac.uk/collection/R23/current/ARVOR2/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_IV/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_V/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_V_JUMBO/>;
+        skos:prefLabel          "Argo platform type" .

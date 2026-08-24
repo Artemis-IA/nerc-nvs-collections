@@ -1,0 +1,274 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/A01/current/Human_Responses_to_Coastal_Change/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A01::Human_Responses_to_Coastal_Change";
+        dc:date                "2011-08-15 11:25:11.0";
+        dc:identifier          "SDN:A01::Human_Responses_to_Coastal_Change";
+        pav:authoredOn         "2011-08-15 11:25:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A01/current/Human_Responses_to_Coastal_Change/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Non disponible"@fr , "Ikke tilgjengelig"@no , "não disponível"@pt , "no disponible"@es , "Human actions, requirements and processes that occur in response to changes in the nature or location of the boundary between land and sea."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/A01/current/Emergency_Response_and_Disaster_Recovery/> , <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/>;
+        skos:notation          "SDN:A01::Human_Responses_to_Coastal_Change";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Menneskelig respons på kystnære endringer"@no , "Respuestas humanas al cambio costero "@es , "Respostas humanas às alterações costeiras"@pt , "Human Responses to Coastal Change"@en , "Mesures prises face à l'évolution du littoral"@fr;
+        skos:topConceptOf      <http://vocab.nerc.ac.uk/scheme/ICANDIS/current/> , <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> .
+
+<http://vocab.nerc.ac.uk/collection/A01/current/Agents_of_Coastal_Change/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A01::Agents_of_Coastal_Change";
+        dc:date                "2011-08-15 11:25:11.0";
+        dc:identifier          "SDN:A01::Agents_of_Coastal_Change";
+        pav:authoredOn         "2011-08-15 11:25:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A01/current/Agents_of_Coastal_Change/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Non disponible"@fr , "Ikke tilgjengelig"@no , "não disponível"@pt , "no disponible"@es , "Actions and processes that change the nature or location of the boundary between land and sea."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/A01/current/Natural_Processes/> , <http://vocab.nerc.ac.uk/collection/A01/current/Sediment_Budget/> , <http://vocab.nerc.ac.uk/collection/A01/current/Human_Activity/>;
+        skos:notation          "SDN:A01::Agents_of_Coastal_Change";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Agentes de cambio costero"@es , "Facteurs d'évolution du littoral"@fr , "Agents of Coastal Change"@en , "Agentes de alteração costeira"@pt , "Agenter for kystnære endringer"@no;
+        skos:topConceptOf      <http://vocab.nerc.ac.uk/scheme/ICANDIS/current/> , <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> .
+
+<http://vocab.nerc.ac.uk/collection/A01/current/Effects_of_Coastal_Change/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A01::Effects_of_Coastal_Change";
+        dc:date                "2011-08-15 11:25:11.0";
+        dc:identifier          "SDN:A01::Effects_of_Coastal_Change";
+        pav:authoredOn         "2011-08-15 11:25:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A01/current/Effects_of_Coastal_Change/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Non disponible"@fr , "Ikke tilgjengelig"@no , "The consequences of changes in the nature or location of the boundary between land and sea."@en , "não disponível"@pt , "no disponible"@es;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/I03/current/Coastal_Hazard/> , <http://vocab.nerc.ac.uk/collection/A01/current/Shoreline_Accretion_Shoaling_and_Emergence/> , <http://vocab.nerc.ac.uk/collection/A01/current/Shoreline_Erosion_Flooding_and_Submergence/> , <http://vocab.nerc.ac.uk/collection/A01/current/Habitat_Alteration/>;
+        skos:notation          "SDN:A01::Effects_of_Coastal_Change";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Efectos del cambio costero"@es , "Effekt av kystnære endringer"@no , "Conséquences de l'évolution du littoral"@fr , "Efeitos das alterações costeiras"@pt , "Effects of Coastal Change"@en;
+        skos:topConceptOf      <http://vocab.nerc.ac.uk/scheme/ICANDIS/current/> , <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> .
+
+<http://vocab.nerc.ac.uk/collection/A01/current/Shoreline_Accretion_Shoaling_and_Emergence/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A01::Shoreline_Accretion_Shoaling_and_Emergence";
+        dc:date                "2011-08-15 11:25:11.0";
+        dc:identifier          "SDN:A01::Shoreline_Accretion_Shoaling_and_Emergence";
+        pav:authoredOn         "2011-08-15 11:25:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A01/current/Shoreline_Accretion_Shoaling_and_Emergence/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Effects_of_Coastal_Change/>;
+        skos:definition        "Non disponible"@fr , "Ikke tilgjengelig"@no , "não disponível"@pt , "no disponible"@es , "Processes, activities and events that extend the boundary between land and sea seawards."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANDIS/current/> , <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/>;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/A04/current/Accretion/> , <http://vocab.nerc.ac.uk/collection/A02/current/DuneRestoration/> , <http://vocab.nerc.ac.uk/collection/A02/current/BeachProfiles/>;
+        skos:notation          "SDN:A01::Shoreline_Accretion_Shoaling_and_Emergence";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Acreção da linha costeira, deposição em bancos de areia e sua emersão"@pt , "Deposición en la costa, deposición de los bancos de arena y aparición"@es , "Engraissement du littoral, formation de haut fonds et émersion"@fr , "Shoreline Accretion, Shoaling and Emergence"@en , "Kystlinjetilvekst, oppfylling og dannelse"@no .
+
+<http://vocab.nerc.ac.uk/collection/A01/current/Shoreline_Erosion_Flooding_and_Submergence/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A01::Shoreline_Erosion_Flooding_and_Submergence";
+        dc:date                "2011-08-15 11:25:11.0";
+        dc:identifier          "SDN:A01::Shoreline_Erosion_Flooding_and_Submergence";
+        pav:authoredOn         "2011-08-15 11:25:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A01/current/Shoreline_Erosion_Flooding_and_Submergence/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Effects_of_Coastal_Change/>;
+        skos:definition        "Non disponible"@fr , "Ikke tilgjengelig"@no , "não disponível"@pt , "no disponible"@es , "Processes, activities and events that extend the boundary between land and sea landwards."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANDIS/current/> , <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/>;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/I03/current/Coastal_Flooding/> , <http://vocab.nerc.ac.uk/collection/A02/current/Flood/> , <http://vocab.nerc.ac.uk/collection/A02/current/Landslide/> , <http://vocab.nerc.ac.uk/collection/A04/current/SeaLevelChange/> , <http://vocab.nerc.ac.uk/collection/A02/current/Erosion/> , <http://vocab.nerc.ac.uk/collection/I03/current/Coastal_Erosion/> , <http://vocab.nerc.ac.uk/collection/A04/current/CoastalErosion/> , <http://vocab.nerc.ac.uk/collection/A02/current/DuneGrading/> , <http://vocab.nerc.ac.uk/collection/A02/current/SeaLevelRise/> , <http://vocab.nerc.ac.uk/collection/A02/current/HighSurfAdvisory/> , <http://vocab.nerc.ac.uk/collection/A02/current/Tsunami/> , <http://vocab.nerc.ac.uk/collection/A02/current/Waves/> , <http://vocab.nerc.ac.uk/collection/A02/current/BeachProfiles/>;
+        skos:notation          "SDN:A01::Shoreline_Erosion_Flooding_and_Submergence";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Erosão da linha costeira, inundação e submersão"@pt , "Kystlinjeerosjon, flom og oversvømmelse"@no , "Shoreline Erosion, Flooding and Submergence"@en , "Érosion du littoral, inondation et et submersion"@fr , "Erosión del litoral"@es .
+
+<http://vocab.nerc.ac.uk/collection/A01/current/Emergency_Response_and_Disaster_Recovery/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A01::Emergency_Response_and_Disaster_Recovery";
+        dc:date                "2011-08-15 11:25:11.0";
+        dc:identifier          "SDN:A01::Emergency_Response_and_Disaster_Recovery";
+        pav:authoredOn         "2011-08-15 11:25:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A01/current/Emergency_Response_and_Disaster_Recovery/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Human_Responses_to_Coastal_Change/>;
+        skos:definition        "Non disponible"@fr , "Ikke tilgjengelig"@no , "não disponível"@pt , "no disponible"@es , "Actions, requirements and processes that occur in response to natural or human events that destroy or put at risk life, property or the environment (including wildlife)."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANDIS/current/> , <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/>;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/A02/current/Hospital/> , <http://vocab.nerc.ac.uk/collection/A02/current/Police/> , <http://vocab.nerc.ac.uk/collection/A02/current/Fire/> , <http://vocab.nerc.ac.uk/collection/A02/current/Zones/> , <http://vocab.nerc.ac.uk/collection/A02/current/BeachClosure/> , <http://vocab.nerc.ac.uk/collection/A02/current/Routes/> , <http://vocab.nerc.ac.uk/collection/A02/current/Shelters/> , <http://vocab.nerc.ac.uk/collection/A02/current/CoastGuardStations/> , <http://vocab.nerc.ac.uk/collection/A02/current/ShorelineEmergencyAccess/> , <http://vocab.nerc.ac.uk/collection/A02/current/OilSpill/>;
+        skos:notation          "SDN:A01::Emergency_Response_and_Disaster_Recovery";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Kriseberedskap og katastrofehåndtering"@no , "Emergency Response and Disaster Recovery"@en , "Respuesta a la emergencia y recuperación"@es , "Gestion de crise et restauration (liée au sinistre)"@fr , "Respostas a situações de emergência e recuperação de desastres"@pt .
+
+<http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A01::Legislation_and_Policy";
+        dc:date                "2011-08-15 11:25:11.0";
+        dc:identifier          "SDN:A01::Legislation_and_Policy";
+        pav:authoredOn         "2011-08-15 11:25:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Human_Responses_to_Coastal_Change/>;
+        skos:definition        "Non disponible"@fr , "Ikke tilgjengelig"@no , "não disponível"@pt , "no disponible"@es , "Actions and processes of local and national government."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANDIS/current/> , <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/>;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/A02/current/Employment/> , <http://vocab.nerc.ac.uk/collection/A02/current/Cadastre/> , <http://vocab.nerc.ac.uk/collection/A02/current/HazardEducationOutreach/> , <http://vocab.nerc.ac.uk/collection/A02/current/Demographics/> , <http://vocab.nerc.ac.uk/collection/A02/current/NationalParks/> , <http://vocab.nerc.ac.uk/collection/A02/current/CountyParks/> , <http://vocab.nerc.ac.uk/collection/A02/current/MarineProtectedArea/> , <http://vocab.nerc.ac.uk/collection/A02/current/ShellfishHarvestBan/> , <http://vocab.nerc.ac.uk/collection/A02/current/HabitatRefuge/> , <http://vocab.nerc.ac.uk/collection/A02/current/PrivateProperty/> , <http://vocab.nerc.ac.uk/collection/A02/current/DesignatedPublicAccess/> , <http://vocab.nerc.ac.uk/collection/A02/current/Zoning/> , <http://vocab.nerc.ac.uk/collection/A02/current/Permits/> , <http://vocab.nerc.ac.uk/collection/A02/current/BLMLands/> , <http://vocab.nerc.ac.uk/collection/A02/current/BuildingCodes/> , <http://vocab.nerc.ac.uk/collection/A02/current/StatutoryVegetationLine/> , <http://vocab.nerc.ac.uk/collection/A02/current/Reservations/> , <http://vocab.nerc.ac.uk/collection/A02/current/ShoreProtectiveStructureEligibility/> , <http://vocab.nerc.ac.uk/collection/A02/current/Counties/> , <http://vocab.nerc.ac.uk/collection/A02/current/MarineGardens/> , <http://vocab.nerc.ac.uk/collection/A02/current/Education/> , <http://vocab.nerc.ac.uk/collection/A03/current/Society/> , <http://vocab.nerc.ac.uk/collection/A02/current/StateParks/> , <http://vocab.nerc.ac.uk/collection/A04/current/Reserves/> , <http://vocab.nerc.ac.uk/collection/A02/current/StateLines/> , <http://vocab.nerc.ac.uk/collection/A02/current/AccessSiteGain/> , <http://vocab.nerc.ac.uk/collection/A02/current/ForestServiceLands/> , <http://vocab.nerc.ac.uk/collection/A02/current/UrbanGrowth/> , <http://vocab.nerc.ac.uk/collection/A04/current/RamsarSites/> , <http://vocab.nerc.ac.uk/collection/A04/current/SpecialProtectionAreas/> , <http://vocab.nerc.ac.uk/collection/A04/current/SpecialAreasOfConservation/> , <http://vocab.nerc.ac.uk/collection/A04/current/WorldHeritageSites/> , <http://vocab.nerc.ac.uk/collection/A02/current/TerritorialSea/> , <http://vocab.nerc.ac.uk/collection/A02/current/OceanShoresRecreationArea/> , <http://vocab.nerc.ac.uk/collection/A02/current/CityParks/> , <http://vocab.nerc.ac.uk/collection/A02/current/NatureConservancy/> , <http://vocab.nerc.ac.uk/collection/A02/current/ResearchReserves/> , <http://vocab.nerc.ac.uk/collection/A02/current/AccessSiteLoss/> , <http://vocab.nerc.ac.uk/collection/A02/current/CityLimits/> , <http://vocab.nerc.ac.uk/collection/A04/current/AdministrativeBoundaries/> , <http://vocab.nerc.ac.uk/collection/A02/current/OceanStewardshipArea/>;
+        skos:notation          "SDN:A01::Legislation_and_Policy";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Législation et  Politiques"@fr , "Legislación y política"@es , "Lovgivning og retningslinjer"@no , "Legislação e Políticas"@pt , "Legislation and Policy"@en .
+
+<http://vocab.nerc.ac.uk/collection/A01/current/Habitat_Alteration/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A01::Habitat_Alteration";
+        dc:date                "2011-08-15 11:25:11.0";
+        dc:identifier          "SDN:A01::Habitat_Alteration";
+        pav:authoredOn         "2011-08-15 11:25:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A01/current/Habitat_Alteration/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Effects_of_Coastal_Change/>;
+        skos:definition        "Non disponible"@fr , "Ikke tilgjengelig"@no , "não disponível"@pt , "no disponible"@es , "Processes, activities and events that change the nature of the environment provided for living organisms."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANDIS/current/> , <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/>;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/A04/current/BathingWaterQuality/> , <http://vocab.nerc.ac.uk/collection/A02/current/DuneGrading/> , <http://vocab.nerc.ac.uk/collection/A02/current/DuneRestoration/> , <http://vocab.nerc.ac.uk/collection/A04/current/CoastalStability/> , <http://vocab.nerc.ac.uk/collection/A04/current/Saltmarshes/> , <http://vocab.nerc.ac.uk/collection/A04/current/CoastalLagoons/> , <http://vocab.nerc.ac.uk/collection/A02/current/OilSpill/> , <http://vocab.nerc.ac.uk/collection/A04/current/CoastalTypology/>;
+        skos:notation          "SDN:A01::Habitat_Alteration";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Habitat Alteration"@en , "Dégradation des habitats"@fr , "Endring i leveområder"@no , "Alteração do habitat "@pt , "Alteración del hábitat"@es .
+
+<http://vocab.nerc.ac.uk/collection/A01/current/Natural_Processes/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A01::Natural_Processes";
+        dc:date                "2011-08-15 11:25:11.0";
+        dc:identifier          "SDN:A01::Natural_Processes";
+        pav:authoredOn         "2011-08-15 11:25:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A01/current/Natural_Processes/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Agents_of_Coastal_Change/>;
+        skos:definition        "Non disponible"@fr , "Ikke tilgjengelig"@no , "não disponível"@pt , "no disponible"@es , "Actions and processes that result from the forces of nature such as weather and tides."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANDIS/current/> , <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/>;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/A02/current/AverageMinimumTemperature/> , <http://vocab.nerc.ac.uk/collection/A04/current/TideGauges/> , <http://vocab.nerc.ac.uk/collection/A02/current/AverageMaximumTemperature/> , <http://vocab.nerc.ac.uk/collection/A04/current/ClimatologicalStations/> , <http://vocab.nerc.ac.uk/collection/A02/current/Flood/> , <http://vocab.nerc.ac.uk/collection/A02/current/Landslide/> , <http://vocab.nerc.ac.uk/collection/A04/current/SynopticStations/> , <http://vocab.nerc.ac.uk/collection/A04/current/Bathymetry/> , <http://vocab.nerc.ac.uk/collection/A02/current/AveragePrecipitation/> , <http://vocab.nerc.ac.uk/collection/A02/current/Erosion/> , <http://vocab.nerc.ac.uk/collection/A02/current/SeaLevelRise/> , <http://vocab.nerc.ac.uk/collection/A02/current/Tsunami/> , <http://vocab.nerc.ac.uk/collection/A04/current/CoastalStability/> , <http://vocab.nerc.ac.uk/collection/A04/current/Topography/> , <http://vocab.nerc.ac.uk/collection/A04/current/Rivers/> , <http://vocab.nerc.ac.uk/collection/A04/current/Rainfall/> , <http://vocab.nerc.ac.uk/collection/A02/current/Rain/> , <http://vocab.nerc.ac.uk/collection/A02/current/Winds/> , <http://vocab.nerc.ac.uk/collection/A02/current/Waves/> , <http://vocab.nerc.ac.uk/collection/A04/current/SeaLevelPosition/> , <http://vocab.nerc.ac.uk/collection/A02/current/EarthSurfaceGeology/> , <http://vocab.nerc.ac.uk/collection/A04/current/Saltmarshes/> , <http://vocab.nerc.ac.uk/collection/A04/current/CoastalLagoons/> , <http://vocab.nerc.ac.uk/collection/I03/current/Shore_Geomorphology/> , <http://vocab.nerc.ac.uk/collection/A04/current/TerrestrialGeology/> , <http://vocab.nerc.ac.uk/collection/A04/current/CoastalTypology/>;
+        skos:notation          "SDN:A01::Natural_Processes";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Procesos naturales"@es , "Processus naturels"@fr , "Processos naturais"@pt , "Naturlige prosesser"@no , "Natural Processes"@en .
+
+<http://vocab.nerc.ac.uk/collection/A01/current/Sediment_Budget/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A01::Sediment_Budget";
+        dc:date                "2011-08-15 11:25:11.0";
+        dc:identifier          "SDN:A01::Sediment_Budget";
+        pav:authoredOn         "2011-08-15 11:25:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A01/current/Sediment_Budget/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Agents_of_Coastal_Change/>;
+        skos:definition        "Non disponible"@fr , "Ikke tilgjengelig"@no , "não disponível"@pt , "no disponible"@es , "The balance between sediment added to and removed from the coastal system."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANDIS/current/> , <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/>;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/A02/current/BathyContours/> , <http://vocab.nerc.ac.uk/collection/A02/current/Sounding/> , <http://vocab.nerc.ac.uk/collection/A02/current/BoundingHeadland/> , <http://vocab.nerc.ac.uk/collection/A02/current/BeneficialUse/> , <http://vocab.nerc.ac.uk/collection/A02/current/SedimentSource/> , <http://vocab.nerc.ac.uk/collection/A02/current/Erosion/> , <http://vocab.nerc.ac.uk/collection/A02/current/DuneGrading/> , <http://vocab.nerc.ac.uk/collection/A02/current/DuneRestoration/> , <http://vocab.nerc.ac.uk/collection/A02/current/ChannelDeepening/> , <http://vocab.nerc.ac.uk/collection/A02/current/DigitalElevationModel/> , <http://vocab.nerc.ac.uk/collection/A02/current/Benchmark/> , <http://vocab.nerc.ac.uk/collection/A02/current/TopoContour/> , <http://vocab.nerc.ac.uk/collection/A02/current/Soil/> , <http://vocab.nerc.ac.uk/collection/A02/current/OceanFloorGeology/> , <http://vocab.nerc.ac.uk/collection/A02/current/BeachProfiles/> , <http://vocab.nerc.ac.uk/collection/A02/current/BathyGrid/> , <http://vocab.nerc.ac.uk/collection/A02/current/LIDARSurvey/> , <http://vocab.nerc.ac.uk/collection/A02/current/SedimentSink/> , <http://vocab.nerc.ac.uk/collection/P02/current/MBAN/>;
+        skos:notation          "SDN:A01::Sediment_Budget";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Balanço sedimentar"@pt , "Sediment Budget"@en , "Sedimentbudsjett"@no , "Balance sedimentario"@es , "Bilan sédimentaire"@fr .
+
+<http://vocab.nerc.ac.uk/collection/A01/current/Human_Activity/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A01::Human_Activity";
+        dc:date                "2011-08-15 11:25:11.0";
+        dc:identifier          "SDN:A01::Human_Activity";
+        pav:authoredOn         "2011-08-15 11:25:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A01/current/Human_Activity/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Agents_of_Coastal_Change/>;
+        skos:definition        "Non disponible"@fr , "Ikke tilgjengelig"@no , "não disponível"@pt , "no disponible"@es , "Actions and processes caused by humans."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANDIS/current/> , <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/>;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/A04/current/CommercialFerryPorts/> , <http://vocab.nerc.ac.uk/collection/A04/current/Marinas/> , <http://vocab.nerc.ac.uk/collection/A04/current/Shipwrecks/> , <http://vocab.nerc.ac.uk/collection/A02/current/DuneGrading/> , <http://vocab.nerc.ac.uk/collection/A02/current/DuneRestoration/> , <http://vocab.nerc.ac.uk/collection/A04/current/LandCoverChange/> , <http://vocab.nerc.ac.uk/collection/A04/current/Moorings/> , <http://vocab.nerc.ac.uk/collection/A02/current/StructureProtection/> , <http://vocab.nerc.ac.uk/collection/A02/current/Seawalls/> , <http://vocab.nerc.ac.uk/collection/A02/current/ChannelDeepening/> , <http://vocab.nerc.ac.uk/collection/A02/current/Wastewater/> , <http://vocab.nerc.ac.uk/collection/A04/current/BlueFlagBeaches/> , <http://vocab.nerc.ac.uk/collection/A02/current/Sewage/> , <http://vocab.nerc.ac.uk/collection/A02/current/RipRap/> , <http://vocab.nerc.ac.uk/collection/I03/current/Artificial_Structure/> , <http://vocab.nerc.ac.uk/collection/A02/current/Jetties/> , <http://vocab.nerc.ac.uk/collection/A02/current/BeachNourishment/> , <http://vocab.nerc.ac.uk/collection/A04/current/Shipping/> , <http://vocab.nerc.ac.uk/collection/A02/current/Fishing/> , <http://vocab.nerc.ac.uk/collection/A02/current/OilSpill/> , <http://vocab.nerc.ac.uk/collection/A03/current/Manmade/> , <http://vocab.nerc.ac.uk/collection/A04/current/CoastalProtection/>;
+        skos:notation          "SDN:A01::Human_Activity";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Human Activity"@en , "Menneskelig aktivitet"@no , "Activité humaine"@fr , "Actividad humana"@es , "Atividade humana"@pt .
+
+<http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A01::Mitigation_Strategies_and_Preparedness";
+        dc:date                "2011-08-15 11:25:11.0";
+        dc:identifier          "SDN:A01::Mitigation_Strategies_and_Preparedness";
+        pav:authoredOn         "2011-08-15 11:25:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Human_Responses_to_Coastal_Change/>;
+        skos:definition        "Non disponible"@fr , "Ikke tilgjengelig"@no , "não disponível"@pt , "no disponible"@es , "Actions, requirements and processes required to prevent the occurrence of catastrophic events."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANDIS/current/> , <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/>;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/A02/current/Water/> , <http://vocab.nerc.ac.uk/collection/A02/current/Channels/> , <http://vocab.nerc.ac.uk/collection/A02/current/ShorelandManagementUnits/> , <http://vocab.nerc.ac.uk/collection/A02/current/EstuaryClassifications/> , <http://vocab.nerc.ac.uk/collection/A02/current/Reef/> , <http://vocab.nerc.ac.uk/collection/A02/current/AquaticBed/> , <http://vocab.nerc.ac.uk/collection/A02/current/RockyIntertidal/> , <http://vocab.nerc.ac.uk/collection/A02/current/HazardEducationOutreach/> , <http://vocab.nerc.ac.uk/collection/A02/current/MarineTransportationInfrastructure/> , <http://vocab.nerc.ac.uk/collection/A02/current/Hospital/> , <http://vocab.nerc.ac.uk/collection/A02/current/Hachery/> , <http://vocab.nerc.ac.uk/collection/A02/current/Kelp/> , <http://vocab.nerc.ac.uk/collection/A02/current/BeneficialUse/> , <http://vocab.nerc.ac.uk/collection/A02/current/SmallCraftAdvisory/> , <http://vocab.nerc.ac.uk/collection/A02/current/Relocation/> , <http://vocab.nerc.ac.uk/collection/A02/current/ShorelandOverlays/> , <http://vocab.nerc.ac.uk/collection/A02/current/RelativeErosionRiskZones/> , <http://vocab.nerc.ac.uk/collection/A02/current/Lakes/> , <http://vocab.nerc.ac.uk/collection/A02/current/RiversStreams/> , <http://vocab.nerc.ac.uk/collection/A02/current/StructureElevation/> , <http://vocab.nerc.ac.uk/collection/A02/current/Electric/> , <http://vocab.nerc.ac.uk/collection/A02/current/WildernessAreas/> , <http://vocab.nerc.ac.uk/collection/A02/current/Data/> , <http://vocab.nerc.ac.uk/collection/A02/current/Estuary/> , <http://vocab.nerc.ac.uk/collection/A02/current/LandUse/> , <http://vocab.nerc.ac.uk/collection/A02/current/DuneGrading/> , <http://vocab.nerc.ac.uk/collection/A02/current/DuneRestoration/> , <http://vocab.nerc.ac.uk/collection/A02/current/StructureProtection/> , <http://vocab.nerc.ac.uk/collection/A02/current/Seawalls/> , <http://vocab.nerc.ac.uk/collection/A02/current/MarineGardens/> , <http://vocab.nerc.ac.uk/collection/A02/current/Watershed/> , <http://vocab.nerc.ac.uk/collection/A02/current/Lighthouses/> , <http://vocab.nerc.ac.uk/collection/A02/current/RipRap/> , <http://vocab.nerc.ac.uk/collection/A02/current/Buoys/> , <http://vocab.nerc.ac.uk/collection/A02/current/Tourism/> , <http://vocab.nerc.ac.uk/collection/A02/current/Ports/> , <http://vocab.nerc.ac.uk/collection/A02/current/RailTransportationInfrastructure/> , <http://vocab.nerc.ac.uk/collection/A02/current/Gravel/> , <http://vocab.nerc.ac.uk/collection/A02/current/MediumCoarse/> , <http://vocab.nerc.ac.uk/collection/A02/current/MixedSandGravel/> , <http://vocab.nerc.ac.uk/collection/A02/current/Jetties/> , <http://vocab.nerc.ac.uk/collection/A02/current/BeachNourishment/> , <http://vocab.nerc.ac.uk/collection/A02/current/Soil/> , <http://vocab.nerc.ac.uk/collection/A02/current/OceanFloorGeology/> , <http://vocab.nerc.ac.uk/collection/A02/current/GeologicFault/> , <http://vocab.nerc.ac.uk/collection/A02/current/EstuaryManagementUnits/> , <http://vocab.nerc.ac.uk/collection/A02/current/TowBoatLanes/> , <http://vocab.nerc.ac.uk/collection/A04/current/SatelliteImagery/> , <http://vocab.nerc.ac.uk/collection/A02/current/Military/> , <http://vocab.nerc.ac.uk/collection/A02/current/Eelgrass/> , <http://vocab.nerc.ac.uk/collection/A02/current/RockyShore/> , <http://vocab.nerc.ac.uk/collection/A02/current/Flat/> , <http://vocab.nerc.ac.uk/collection/A02/current/IntertidalWetlands/> , <http://vocab.nerc.ac.uk/collection/A02/current/Bluff/> , <http://vocab.nerc.ac.uk/collection/A02/current/Dune/> , <http://vocab.nerc.ac.uk/collection/A02/current/Docks/> , <http://vocab.nerc.ac.uk/collection/A02/current/RoadTransportationInfrastructure/> , <http://vocab.nerc.ac.uk/collection/A02/current/Mammals/> , <http://vocab.nerc.ac.uk/collection/A02/current/Birds/> , <http://vocab.nerc.ac.uk/collection/A02/current/Shellfish/> , <http://vocab.nerc.ac.uk/collection/A02/current/AirTransportationInfrastructure/> , <http://vocab.nerc.ac.uk/collection/A02/current/FineGrained/> , <http://vocab.nerc.ac.uk/collection/A02/current/ShoreProtectiveStructures/> , <http://vocab.nerc.ac.uk/collection/A04/current/CoastalProtection/>;
+        skos:notation          "SDN:A01::Mitigation_Strategies_and_Preparedness";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Stratégies de lutte et préparation"@fr , "Strategier og beredskap for skadereduksjon"@no , "Estrategias de mitigación y preparación"@es , "Estratégias de mitigação e prevenção"@pt , "Mitigation Strategies and Preparedness"@en .
+
+<http://vocab.nerc.ac.uk/collection/A01/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "International federation of coastal web atlases.  Governance implemented through the Technical team.";
+        dc:alternative          "ICAN Coastal Erosion Global Thesaurus";
+        dc:creator              "International Coastal Atlas Network";
+        dc:date                 "2011-08-16 02:00:06.0";
+        dc:description          "Terms used at all hierarchical levels in the ICAN global thesaurus for coastal erosion.  Terms used to populate drop-down lists in discovery portals.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "International Coastal Atlas Network Coastal Erosion Global Thesaurus";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "International Coastal Atlas Network";
+        owl:versionInfo         "1";
+        skos:altLabel           "ICAN Coastal Erosion Global Thesaurus";
+        skos:member             <http://vocab.nerc.ac.uk/collection/A01/current/Human_Responses_to_Coastal_Change/> , <http://vocab.nerc.ac.uk/collection/A01/current/Agents_of_Coastal_Change/> , <http://vocab.nerc.ac.uk/collection/A01/current/Effects_of_Coastal_Change/> , <http://vocab.nerc.ac.uk/collection/A01/current/Shoreline_Accretion_Shoaling_and_Emergence/> , <http://vocab.nerc.ac.uk/collection/A01/current/Shoreline_Erosion_Flooding_and_Submergence/> , <http://vocab.nerc.ac.uk/collection/A01/current/Emergency_Response_and_Disaster_Recovery/> , <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A01/current/Habitat_Alteration/> , <http://vocab.nerc.ac.uk/collection/A01/current/Natural_Processes/> , <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A01/current/Human_Activity/> , <http://vocab.nerc.ac.uk/collection/A01/current/Sediment_Budget/>;
+        skos:prefLabel          "International Coastal Atlas Network Coastal Erosion Global Thesaurus" .

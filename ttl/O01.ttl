@@ -1,0 +1,327 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/O01/current/O01003/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:O01::O01003";
+        dc:date                "2026-04-01 17:59:57.0";
+        dc:identifier          "SDN:O01::O01003";
+        pav:authoredOn         "2026-04-01 17:59:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/O01/current/O01003/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ASAP";
+        skos:definition        "The ASAP (Automated Shipboard Aerological Programme) network is upper atmosphere soundings made using balloons equipped with the required instruments and data telecommunication system. Acquisition of the data is made on-board the ships and the data are transmitted to shore by satellite."@en;
+        skos:notation          "SDN:O01::O01003";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Automated Shipboard Aerological Programme"@en .
+
+<http://vocab.nerc.ac.uk/collection/O01/current/O01010/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:O01::O01010";
+        dc:date                "2026-04-01 17:59:57.0";
+        dc:identifier          "SDN:O01::O01010";
+        pav:authoredOn         "2026-04-01 17:59:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/O01/current/O01010/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "AniBOS";
+        skos:definition        "Animal Borne Ocean Sensors (AniBOS) is a global network providing CTD profiles and other oceanographic data collected through bio-logging - satellite-linked sensors attached on marine animals."@en;
+        skos:notation          "SDN:O01::O01010";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Animal Borne Ocean Sensors"@en .
+
+<http://vocab.nerc.ac.uk/collection/O01/current/O01004/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:O01::O01004";
+        dc:date                "2026-04-01 17:59:57.0";
+        dc:identifier          "SDN:O01::O01004";
+        pav:authoredOn         "2026-04-01 17:59:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/O01/current/O01004/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Argo";
+        skos:definition        "Argo is an international program that collects information from the sub-surface ocean using a fleet of robotic instruments that drift with the ocean currents, descend to a mid-water level (Core and BGC) or to the bottom (Deep), rise to the sea surface sampling the ocean, obtain a geolocalisation, transmit their data by satellite and immediately descend to their drift depth."@en;
+        skos:notation          "SDN:O01::O01004";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Argo"@en .
+
+<http://vocab.nerc.ac.uk/collection/O01/current/O01001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:O01::O01001";
+        dc:date                "2026-04-01 17:59:57.0";
+        dc:identifier          "SDN:O01::O01001";
+        pav:authoredOn         "2026-04-01 17:59:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/O01/current/O01001/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "VOS";
+        skos:definition        "Voluntary Observing Ships (VOS) are recruited to collect and share weather observations. The ship crew or automated weather stations measure variables at the sea surface (e.g. temperature, waves) and in the atmosphere (e.g. clouds, air pressure). Data are shared globally for use by meteorologists, numerical weather prediction models, ship routeing services, climatological and research activities."@en;
+        skos:notation          "SDN:O01::O01001";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Voluntary Observing Ships"@en .
+
+<http://vocab.nerc.ac.uk/collection/O01/current/O01013/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:O01::O01013";
+        dc:date                "2026-04-01 17:59:57.0";
+        dc:identifier          "SDN:O01::O01013";
+        pav:authoredOn         "2026-04-01 17:59:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/O01/current/O01013/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "GLOSS";
+        skos:definition        "Global Sea Level Observing System (GLOSS) aims to develop a high-quality in-situ sea level observing network to support research and operational needs. The data help assess climate change impacts on sea levels, support storm surge forecasting, tsunami warnings, and ocean circulation studies, and serve scientific, economic, and social purposes at global to local scales."@en;
+        skos:notation          "SDN:O01::O01013";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Global Sea Level Observing System"@en .
+
+<http://vocab.nerc.ac.uk/collection/O01/current/O01006/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:O01::O01006";
+        dc:date                "2026-04-01 17:59:57.0";
+        dc:identifier          "SDN:O01::O01006";
+        pav:authoredOn         "2026-04-01 17:59:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/O01/current/O01006/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "MBN";
+        skos:definition        "Moored Buoy Network consists of buoys anchored at fixed locations and regularly collect atmospheric and surface oceanographic observations sensors. The atmospheric and marine surface observation measurements are considered under DBCP (Data Buoy Cooperation Panel) umbrella, while ocean subsurface measurements are under OceanSites. Wave buoys, coastal moorings and tropical moored buoys are included in the moored buoy network."@en;
+        skos:notation          "SDN:O01::O01006";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Moored Buoy Network"@en .
+
+<http://vocab.nerc.ac.uk/collection/O01/current/O01015/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:O01::O01015";
+        dc:date                "2026-04-01 17:59:57.0";
+        dc:identifier          "SDN:O01::O01015";
+        pav:authoredOn         "2026-04-01 17:59:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/O01/current/O01015/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SOCONET";
+        skos:definition        "A formalized and coordinated surface ocean CO2 reference network (SOCONET), integrated within relevant elements of IOC-UNESCO and WMO, is the backbone of monitoring, reporting and verification (MRV) efforts to properly incorporate ocean sinks in global carbon assessments and stocktakes. The climate quality observational data feeds directly into carbon monitoring systems to aid in accurate and timely assessments of surface ocean carbon levels, carbon uptake by the ocean, and changes thereof. Uniquely designed and distributed surface ocean CO2 reference network is a tightly coordinated activity aimed at creating monthly air-CO2 flux maps, assess surface ocean health as it pertains to ocean acidification; and to quantify ocean mitigation potential to reduce atmospheric CO2 increases."@en;
+        skos:notation          "SDN:O01::O01015";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Surface Ocean CO2 Observing Network"@en .
+
+<http://vocab.nerc.ac.uk/collection/O01/current/O01011/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:O01::O01011";
+        dc:date                "2026-04-01 17:59:57.0";
+        dc:identifier          "SDN:O01::O01011";
+        pav:authoredOn         "2026-04-01 17:59:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/O01/current/O01011/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "HF Radar";
+        skos:definition        "The Global High Frequency Radar Network (HF Radar) is a vision for a global operational system measuring ocean surface currents to support monitoring of marine and coastal ecosystems."@en;
+        skos:notation          "SDN:O01::O01011";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Global High Frequency Radar Network"@en .
+
+<http://vocab.nerc.ac.uk/collection/O01/current/O01007/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:O01::O01007";
+        dc:date                "2026-04-01 17:59:57.0";
+        dc:identifier          "SDN:O01::O01007";
+        pav:authoredOn         "2026-04-01 17:59:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/O01/current/O01007/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "GDA";
+        skos:definition        "The Global Drifter Array (GDA) includes all drifting platforms, including drifting buoy with and without drogue, and wave drifters."@en;
+        skos:notation          "SDN:O01::O01007";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Global Drifter Array"@en .
+
+<http://vocab.nerc.ac.uk/collection/O01/current/O01016/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:O01::O01016";
+        dc:date                "2026-04-01 17:59:57.0";
+        dc:identifier          "SDN:O01::O01016";
+        pav:authoredOn         "2026-04-01 17:59:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/O01/current/O01016/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SMART Cables";
+        skos:definition        "SMART Cables is a global network integrating temperature, pressure, and seismic sensors into subsea telecom infrastructure to enable real-time ocean and Earth observations. It supports climate monitoring, tsunami warning, and international scientific collaboration across multiple ocean basins."@en;
+        skos:notation          "SDN:O01::O01016";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "SMART Cables"@en .
+
+<http://vocab.nerc.ac.uk/collection/O01/current/O01005/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:O01::O01005";
+        dc:date                "2026-04-01 17:59:57.0";
+        dc:identifier          "SDN:O01::O01005";
+        pav:authoredOn         "2026-04-01 17:59:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/O01/current/O01005/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "OceanSITES";
+        skos:definition        "OceanSITES is a worldwide system of long-term, open-ocean reference stations measuring dozens of variables and monitoring the full depth of the ocean from air-sea interactions down to the seafloor. It is a network of stations or observatories measuring many aspects of the ocean's surface and water column using, where possible, automated systems with advanced sensors and telecommunications systems, yielding high time resolution, often in real-time, while building a long record. Observations cover meteorology, physical oceanography, transport of water, biogeochemistry, and parameters relevant to the carbon cycle, ocean acidification, the ecosystem, and geophysics."@en;
+        skos:notation          "SDN:O01::O01005";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "OceanSITES"@en .
+
+<http://vocab.nerc.ac.uk/collection/O01/current/O01008/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:O01::O01008";
+        dc:date                "2026-04-01 17:59:57.0";
+        dc:identifier          "SDN:O01::O01008";
+        pav:authoredOn         "2026-04-01 17:59:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/O01/current/O01008/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "TSB";
+        skos:definition        "Tsunami buoys consists of buoys measuring and transmitting water level variations as tsunami waves pass."@en;
+        skos:notation          "SDN:O01::O01008";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Tsunami Buoys"@en .
+
+<http://vocab.nerc.ac.uk/collection/O01/current/O01002/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:O01::O01002";
+        dc:date                "2026-04-01 17:59:57.0";
+        dc:identifier          "SDN:O01::O01002";
+        pav:authoredOn         "2026-04-01 17:59:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/O01/current/O01002/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "XBT SOOP";
+        skos:definition        "eXpendable BathyThermograph (XBT) probes are used on board Ships of Opportunity to collect ocean temperature profiles to ~850m. The profiles are collected on repeat transects across ocean basins in decades-long time series' with specific emphasis on the under-observed boundary current regions. The data are used in studies of ocean currents, heat content and heat flux."@en;
+        skos:notation          "SDN:O01::O01002";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "XBT Ship of Opportunity Programme"@en .
+
+<http://vocab.nerc.ac.uk/collection/O01/current/O01017/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:O01::O01017";
+        dc:date                "2026-04-01 17:59:57.0";
+        dc:identifier          "SDN:O01::O01017";
+        pav:authoredOn         "2026-04-01 17:59:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/O01/current/O01017/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SUN Fleet";
+        skos:definition        "The Surface Uncrewed Fleet (SUN Fleet) is an ocean observing network operating globally across remote and high-impact regions to collect high-resolution data at the air-sea interface, with a focus on surface fluxes, carbon exchange and extreme events. USVs collect unprecedented co-located variables using suites of meteorological and oceanographic instrumentation. USVs transmit data in near real-time to fill critical observing gaps, support weather and climate prediction, and connect industry platforms with scientific priorities to expand the reach and impact of the Global Ocean Observing System."@en;
+        skos:notation          "SDN:O01::O01017";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Surface UNcrewed Fleet"@en .
+
+<http://vocab.nerc.ac.uk/collection/O01/current/O01014/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:O01::O01014";
+        dc:date                "2026-04-01 17:59:57.0";
+        dc:identifier          "SDN:O01::O01014";
+        pav:authoredOn         "2026-04-01 17:59:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/O01/current/O01014/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "FVON";
+        skos:definition        "The Fishing Vessel Ocean Observing Network (FVON) is a global ocean observing network dedicated to collecting coastal subsurface data in partnership with the fishing industry. FVON outfits fishing gear with sensors that automatically collect and transmit data with the aim of powering a sustainable and inclusive blue economy that benefits fishers, coastal communities, and the blue economy."@en;
+        skos:notation          "SDN:O01::O01014";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Fishing Vessel Ocean Observing Network"@en .
+
+<http://vocab.nerc.ac.uk/collection/O01/current/O01012/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:O01::O01012";
+        dc:date                "2026-04-01 17:59:57.0";
+        dc:identifier          "SDN:O01::O01012";
+        pav:authoredOn         "2026-04-01 17:59:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/O01/current/O01012/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "OceanGliders";
+        skos:definition        "OceanGliders is an international glider-based ocean observation network, integrating autonomous underwater gliders with real-time telemetry, interoperable standards, and open access data to provide continuous, high-resolution profiles of the ocean’s physical, biogeochemical, and ecosystem properties."@en;
+        skos:notation          "SDN:O01::O01012";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "OceanGliders"@en .
+
+<http://vocab.nerc.ac.uk/collection/O01/current/O01009/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:O01::O01009";
+        dc:date                "2026-04-01 17:59:57.0";
+        dc:identifier          "SDN:O01::O01009";
+        pav:authoredOn         "2026-04-01 17:59:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/O01/current/O01009/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "GO-SHIP";
+        skos:definition        "GO-SHIP maintains around 50 coast-to-coast or coast-to-ice reference lines, sampled by research vessels at least once per decade, obtaining high-quality, high spatial and vertical resolution measurements of a suite of physical, chemical, and biological parameters over the full water column."@en;
+        skos:notation          "SDN:O01::O01009";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Global Ocean Ship-Based Hydrographic Investigations Programme"@en .
+
+<http://vocab.nerc.ac.uk/collection/O01/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies managed by the Global Ocean Observing System (GOOS) under OceanOPS (https://www.ocean-ops.org) and hosted on the NERC Vocabulary Server (NVS).";
+        dc:alternative          "GOOS Ocean Observing Networks";
+        dc:creator              "GOOS/OceanOPS Vocabulary Governance";
+        dc:date                 "2026-04-02 03:00:01.0";
+        dc:description          "List of individual observing networks contributing to the Global Ocean Observing System (GOOS).";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Global Ocean Observing System (GOOS) Ocean Observing Networks";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "GOOS/OceanOPS Vocabulary Governance";
+        owl:versionInfo         "1";
+        skos:altLabel           "GOOS Ocean Observing Networks";
+        skos:member             <http://vocab.nerc.ac.uk/collection/O01/current/O01003/> , <http://vocab.nerc.ac.uk/collection/O01/current/O01010/> , <http://vocab.nerc.ac.uk/collection/O01/current/O01004/> , <http://vocab.nerc.ac.uk/collection/O01/current/O01001/> , <http://vocab.nerc.ac.uk/collection/O01/current/O01013/> , <http://vocab.nerc.ac.uk/collection/O01/current/O01006/> , <http://vocab.nerc.ac.uk/collection/O01/current/O01015/> , <http://vocab.nerc.ac.uk/collection/O01/current/O01011/> , <http://vocab.nerc.ac.uk/collection/O01/current/O01007/> , <http://vocab.nerc.ac.uk/collection/O01/current/O01016/> , <http://vocab.nerc.ac.uk/collection/O01/current/O01005/> , <http://vocab.nerc.ac.uk/collection/O01/current/O01008/> , <http://vocab.nerc.ac.uk/collection/O01/current/O01002/> , <http://vocab.nerc.ac.uk/collection/O01/current/O01017/> , <http://vocab.nerc.ac.uk/collection/O01/current/O01014/> , <http://vocab.nerc.ac.uk/collection/O01/current/O01009/> , <http://vocab.nerc.ac.uk/collection/O01/current/O01012/>;
+        skos:prefLabel          "Global Ocean Observing System (GOOS) Ocean Observing Networks" .

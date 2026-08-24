@@ -1,0 +1,295 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/W07/current/IDEN0012/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W07::IDEN0012";
+        dc:date                "2016-07-20 15:00:36.0";
+        dc:identifier          "SDN:W07::IDEN0012";
+        pav:authoredOn         "2016-07-20 15:00:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0012/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The person or organisation that builds or develops a device or system."@en;
+        skos:notation          "SDN:W07::IDEN0012";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Manufacturer"@en .
+
+<http://vocab.nerc.ac.uk/collection/W07/current/IDEN0002/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W07::IDEN0002";
+        dc:date                "2016-07-20 15:00:23.0";
+        dc:identifier          "SDN:W07::IDEN0002";
+        pav:authoredOn         "2016-07-20 15:00:23.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0002/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The name of a sensor or platform described in plain language."@en;
+        skos:notation          "SDN:W07::IDEN0002";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Long name"@en .
+
+<http://vocab.nerc.ac.uk/collection/W07/current/IDEN0001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W07::IDEN0001";
+        dc:date                "2016-07-20 15:00:22.0";
+        dc:identifier          "SDN:W07::IDEN0001";
+        pav:authoredOn         "2016-07-20 15:00:22.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0001/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A collection of standardised identifiers and metadata for platform instances that is governed by International Council for the Exploration of the Sea (ICES)."@en;
+        skos:notation          "SDN:W07::IDEN0001";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ICES code"@en .
+
+<http://vocab.nerc.ac.uk/collection/W07/current/IDEN0007/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W07::IDEN0007";
+        dc:date                "2016-07-20 15:00:30.0";
+        dc:identifier          "SDN:W07::IDEN0007";
+        pav:authoredOn         "2016-07-20 15:00:30.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0007/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Universally Unique Identifier (UUID)."@en;
+        skos:notation          "SDN:W07::IDEN0007";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "UUID"@en .
+
+<http://vocab.nerc.ac.uk/collection/W07/current/IDEN0011/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W07::IDEN0011";
+        dc:date                "2016-07-20 15:00:35.0";
+        dc:identifier          "SDN:W07::IDEN0011";
+        pav:authoredOn         "2016-07-20 15:00:35.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0011/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The special use or purpose of a system or device."@en;
+        skos:notation          "SDN:W07::IDEN0011";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Application domain"@en .
+
+<http://vocab.nerc.ac.uk/collection/W07/current/IDEN0004/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W07::IDEN0004";
+        dc:date                "2021-10-29 09:33:08.0";
+        dc:identifier          "SDN:W07::IDEN0004";
+        pav:authoredOn         "2021-10-29 09:33:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0004/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0004/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "A name or number, usually assigned by the manufacturer, which identifies the unique design of a system or device that is usually mass-produced."@en;
+        skos:notation          "SDN:W07::IDEN0004";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Model number"@en .
+
+<http://vocab.nerc.ac.uk/collection/W07/current/IDEN0014/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W07::IDEN0014";
+        dc:date                "2017-12-08 11:35:26.0";
+        dc:identifier          "SDN:W07::IDEN0014";
+        pav:authoredOn         "2017-12-08 11:35:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0014/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "GEOSS_UUID";
+        skos:definition        "A universally unique identifier for GEOSS resources."@en;
+        skos:notation          "SDN:W07::IDEN0014";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEOSS Registry identifier"@en .
+
+<http://vocab.nerc.ac.uk/collection/W07/current/IDEN0010/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W07::IDEN0010";
+        dc:date                "2016-07-20 15:00:33.0";
+        dc:identifier          "SDN:W07::IDEN0010";
+        pav:authoredOn         "2016-07-20 15:00:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0010/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The unique identifier for the radio telecommunications transmitting station associated with a ship."@en;
+        skos:notation          "SDN:W07::IDEN0010";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Call Sign"@en .
+
+<http://vocab.nerc.ac.uk/collection/W07/current/IDEN0013/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W07::IDEN0013";
+        dc:date                "2016-07-20 15:00:37.0";
+        dc:identifier          "SDN:W07::IDEN0013";
+        pav:authoredOn         "2016-07-20 15:00:37.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0013/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "An identification that refers to a specific form or variation of a system or device model."@en;
+        skos:notation          "SDN:W07::IDEN0013";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Version"@en .
+
+<http://vocab.nerc.ac.uk/collection/W07/current/IDEN0003/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W07::IDEN0003";
+        dc:date                "2016-07-20 15:00:24.0";
+        dc:identifier          "SDN:W07::IDEN0003";
+        pav:authoredOn         "2016-07-20 15:00:24.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0003/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A term which identifies the unique design of a system or device that is usually mass-produced. The physical characteristics and capabilities will be the same for all products made to that design."@en;
+        skos:notation          "SDN:W07::IDEN0003";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Model name"@en .
+
+<http://vocab.nerc.ac.uk/collection/W07/current/IDEN0006/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W07::IDEN0006";
+        dc:date                "2016-07-20 15:00:29.0";
+        dc:identifier          "SDN:W07::IDEN0006";
+        pav:authoredOn         "2016-07-20 15:00:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0006/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "An alternative or abbreviation of the Long Name."@en;
+        skos:notation          "SDN:W07::IDEN0006";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Short name"@en .
+
+<http://vocab.nerc.ac.uk/collection/W07/current/IDEN0005/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W07::IDEN0005";
+        dc:date                "2016-07-20 15:00:28.0";
+        dc:identifier          "SDN:W07::IDEN0005";
+        pav:authoredOn         "2016-07-20 15:00:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0005/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A unique number which identifies an instance of a specific device or system model."@en;
+        skos:notation          "SDN:W07::IDEN0005";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Serial number"@en .
+
+<http://vocab.nerc.ac.uk/collection/W07/current/IDEN0008/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W07::IDEN0008";
+        dc:date                "2022-05-22 08:54:13.0";
+        dc:identifier          "SDN:W07::IDEN0008";
+        pav:authoredOn         "2022-05-22 08:54:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0008/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0008/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "A numeric identification code that is attached to a platform or sensor, which is exclusive to that particular entity."@en;
+        skos:notation          "SDN:W07::IDEN0008";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Unique ID"@en .
+
+<http://vocab.nerc.ac.uk/collection/W07/current/IDEN0009/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W07::IDEN0009";
+        dc:date                "2016-07-20 15:00:32.0";
+        dc:identifier          "SDN:W07::IDEN0009";
+        pav:authoredOn         "2016-07-20 15:00:32.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0009/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Identifiers allocated to ocean platforms reporting on GTS. These identifiers are allocated depending upon platform type, and deployment area. Considered platform types are drifting buoys, moored buoys, ocean reference sites, gliders, profiling floats (e.g. Argo), and marine animals equipped with instrumentation for measuring geo-physical variables."@en;
+        skos:notation          "SDN:W07::IDEN0009";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "WMO platform number"@en .
+
+<http://vocab.nerc.ac.uk/collection/W07/current/IDEN0015/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W07::IDEN0015";
+        dc:date                "2021-10-29 09:22:53.0";
+        dc:identifier          "SDN:W07::IDEN0015";
+        pav:authoredOn         "2021-10-29 09:22:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0015/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "An identifier, assigned by a third party (for example, a controlled vocabulary), which defines the unique design of a system or device that is usually mass-produced. The physical characteristics and capabilities will be the same for all product instances made to that design, barring subsequent physical modifications and changes in configuration modes of specific instrument instances of the design."@en;
+        skos:notation          "SDN:W07::IDEN0015";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Model ID"@en .
+
+<http://vocab.nerc.ac.uk/collection/W07/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies created for use in SWE Marine Profiles.";
+        rdfs:seeAlso            <https://github.com/nvs-vocabs/W07>;
+        dc:alternative          "SensorML Identifications";
+        dc:creator              "Sensor Web Enablement Marine Profiles";
+        dc:date                 "2022-05-23 03:00:02.0";
+        dc:description          "Terms used in SensorML to identify an observation system.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "SensorML Identification Section Terms";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Sensor Web Enablement Marine Profiles";
+        owl:versionInfo         "4";
+        skos:altLabel           "SensorML Identifications";
+        skos:member             <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0012/> , <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0002/> , <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0001/> , <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0007/> , <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0011/> , <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0004/> , <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0014/> , <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0010/> , <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0013/> , <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0003/> , <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0006/> , <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0005/> , <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0008/> , <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0015/> , <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0009/>;
+        skos:prefLabel          "SensorML Identification Section Terms" .

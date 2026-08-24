@@ -1,0 +1,191 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/R12/current/ARDU/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R12::ARDU";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R12::ARDU";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R12/current/ARDU/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ARDU";
+        skos:definition        "Delayed-data have been archived locally and sent to the Global Data Assembly Centres (GDACs)."@en;
+        skos:notation          "SDN:R12::ARDU";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Delayed-mode data archived locally and sent to GDACs"@en .
+
+<http://vocab.nerc.ac.uk/collection/R12/current/ARGQ/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R12::ARGQ";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R12::ARGQ";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R12/current/ARGQ/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ARGQ";
+        skos:definition        "Automatic quality-control (QC) of data reported in real-time has been performed."@en;
+        skos:notation          "SDN:R12::ARGQ";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Automatic QC of real-time data performed"@en .
+
+<http://vocab.nerc.ac.uk/collection/R12/current/IGO3/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R12::IGO3";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R12::IGO3";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R12/current/IGO3/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "IGO3";
+        skos:definition        "Checking for duplicates has been performed."@en;
+        skos:notation          "SDN:R12::IGO3";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Duplicates checking performed"@en .
+
+<http://vocab.nerc.ac.uk/collection/R12/current/COOA/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R12::COOA";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R12::COOA";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R12/current/COOA/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "COOA";
+        skos:definition        "Coriolis objective analysis performed."@en;
+        skos:notation          "SDN:R12::COOA";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Coriolis objective analysis performed"@en .
+
+<http://vocab.nerc.ac.uk/collection/R12/current/ARCA/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R12::ARCA";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R12::ARCA";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R12/current/ARCA/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ARCA";
+        skos:definition        "Calibration has been performed."@en;
+        skos:notation          "SDN:R12::ARCA";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Calibration performed"@en .
+
+<http://vocab.nerc.ac.uk/collection/R12/current/ARFM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R12::ARFM";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R12::ARFM";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R12/current/ARFM/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ARFM";
+        skos:definition        "Raw data from telecommunications system has been converted to a processing format."@en;
+        skos:notation          "SDN:R12::ARFM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Raw data converted to a processing format"@en .
+
+<http://vocab.nerc.ac.uk/collection/R12/current/ARUP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R12::ARUP";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R12::ARUP";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R12/current/ARUP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ARUP";
+        skos:definition        "Real-time data have been archived locally and sent to the Global Data Assembly Centres (GDACs)."@en;
+        skos:notation          "SDN:R12::ARUP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Real-time data archived locally and sent to GDACs"@en .
+
+<http://vocab.nerc.ac.uk/collection/R12/current/RFMT/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R12::RFMT";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R12::RFMT";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R12/current/RFMT/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "RFMT";
+        skos:definition        "Reformat software to convert hexadecimal format reported by the buoy to our standard format."@en;
+        skos:notation          "SDN:R12::RFMT";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Hexadecimal format reported by the buoy converted to our standard format using reformat software"@en .
+
+<http://vocab.nerc.ac.uk/collection/R12/current/ARSQ/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R12::ARSQ";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R12::ARSQ";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R12/current/ARSQ/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ARSQ";
+        skos:definition        "Delayed-mode quality-control (QC) has been performed."@en;
+        skos:notation          "SDN:R12::ARSQ";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Delayed-mode QC performed"@en .
+
+<http://vocab.nerc.ac.uk/collection/R12/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the Argo data system, published and maintained by the Argo Data Management Team (ADMT) and hosted on the NERC Vocabulary Server.";
+        rdfs:seeAlso            <https://github.com/OneArgo/ArgoVocabs>;
+        dc:alternative          "HISTORY_STEP";
+        dc:creator              "Argo Data Management Team";
+        dc:date                 "2020-04-08 03:00:04.0";
+        dc:description          "Data processing step codes for history record. Argo netCDF variable HISTORY_STEP is populated by R12 altLabel.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Argo history processing step codes";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Argo Data Management Team";
+        owl:versionInfo         "1";
+        skos:altLabel           "HISTORY_STEP";
+        skos:member             <http://vocab.nerc.ac.uk/collection/R12/current/ARDU/> , <http://vocab.nerc.ac.uk/collection/R12/current/ARGQ/> , <http://vocab.nerc.ac.uk/collection/R12/current/IGO3/> , <http://vocab.nerc.ac.uk/collection/R12/current/COOA/> , <http://vocab.nerc.ac.uk/collection/R12/current/ARCA/> , <http://vocab.nerc.ac.uk/collection/R12/current/ARFM/> , <http://vocab.nerc.ac.uk/collection/R12/current/ARUP/> , <http://vocab.nerc.ac.uk/collection/R12/current/ARSQ/> , <http://vocab.nerc.ac.uk/collection/R12/current/RFMT/>;
+        skos:prefLabel          "Argo history processing step codes" .

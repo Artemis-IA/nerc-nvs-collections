@@ -1,0 +1,122 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/I11/current/restriction/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I11::restriction";
+        dc:date                "2012-05-03 14:56:44.0";
+        dc:identifier          "SDN:I11::restriction";
+        pav:authoredOn         "2012-05-03 14:56:44.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I11/current/restriction/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:I11::restriction";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Restriction"@en .
+
+<http://vocab.nerc.ac.uk/collection/I11/current/management/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I11::management";
+        dc:date                "2012-05-03 14:56:44.0";
+        dc:identifier          "SDN:I11::management";
+        pav:authoredOn         "2012-05-03 14:56:44.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I11/current/management/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:I11::management";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Management"@en .
+
+<http://vocab.nerc.ac.uk/collection/I11/current/protection/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I11::protection";
+        dc:date                "2012-05-03 14:56:44.0";
+        dc:identifier          "SDN:I11::protection";
+        pav:authoredOn         "2012-05-03 14:56:44.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I11/current/protection/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:I11::protection";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Protection"@en .
+
+<http://vocab.nerc.ac.uk/collection/I11/current/regulation/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I11::regulation";
+        dc:date                "2012-05-03 14:56:44.0";
+        dc:identifier          "SDN:I11::regulation";
+        pav:authoredOn         "2012-05-03 14:56:44.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I11/current/regulation/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:I11::regulation";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Regulation"@en .
+
+<http://vocab.nerc.ac.uk/collection/I11/current/permitOrLicence/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I11::permitOrLicence";
+        dc:date                "2012-05-03 14:56:44.0";
+        dc:identifier          "SDN:I11::permitOrLicence";
+        pav:authoredOn         "2012-05-03 14:56:44.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I11/current/permitOrLicence/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:I11::permitOrLicence";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Permit or licence"@en .
+
+<http://vocab.nerc.ac.uk/collection/I11/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in INSPIRE spatial data infrastructure metadata";
+        dc:alternative          "INSPIRE Control Type";
+        dc:creator              "European Commission";
+        dc:date                 "2012-05-04 02:00:04.0";
+        dc:description          "Types of control used to manage activities within a Management Area, Restriction or Regulation Zone.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "INSPIRE Management and Reporting Control Type";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "European Commission";
+        owl:versionInfo         "1";
+        skos:altLabel           "INSPIRE Control Type";
+        skos:member             <http://vocab.nerc.ac.uk/collection/I11/current/restriction/> , <http://vocab.nerc.ac.uk/collection/I11/current/management/> , <http://vocab.nerc.ac.uk/collection/I11/current/permitOrLicence/> , <http://vocab.nerc.ac.uk/collection/I11/current/regulation/> , <http://vocab.nerc.ac.uk/collection/I11/current/protection/>;
+        skos:prefLabel          "INSPIRE Management and Reporting Control Type" .

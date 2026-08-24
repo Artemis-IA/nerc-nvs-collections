@@ -1,0 +1,258 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/M01/current/ODV/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M01::ODV";
+        dc:date                "2009-07-29 13:41:37.0";
+        dc:identifier          "SDN:M01::ODV";
+        pav:authoredOn         "2009-07-29 13:41:37.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M01/current/ODV/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ODV";
+        skos:definition        "Delimited files conforming to a set of conventions that allow them to be opened and interrogated using the OCEAN Data View application"@en;
+        skos:notation          "SDN:M01::ODV";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Ocean Data View"@en .
+
+<http://vocab.nerc.ac.uk/collection/M01/current/IMG/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M01::IMG";
+        dc:date                "2009-07-29 13:41:37.0";
+        dc:identifier          "SDN:M01::IMG";
+        pav:authoredOn         "2009-07-29 13:41:37.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M01/current/IMG/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Still image files such as jpeg, tiff, png that may be opened by applications such as PhotoShop"@en;
+        skos:notation          "SDN:M01::IMG";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Image"@en .
+
+<http://vocab.nerc.ac.uk/collection/M01/current/GIS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M01::GIS";
+        dc:date                "2009-07-29 13:41:37.0";
+        dc:identifier          "SDN:M01::GIS";
+        pav:authoredOn         "2009-07-29 13:41:37.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M01/current/GIS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "GIS";
+        skos:definition        "Files that are geographic in scope and can be opened by MapInfo or ESRI"@en;
+        skos:notation          "SDN:M01::GIS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Geographic Information System"@en .
+
+<http://vocab.nerc.ac.uk/collection/M01/current/KMX/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M01::KMX";
+        dc:date                "2009-07-29 13:41:37.0";
+        dc:identifier          "SDN:M01::KMX";
+        pav:authoredOn         "2009-07-29 13:41:37.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M01/current/KMX/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Files (e.g. kml, kmg) used to display data and images using Google applications Earth and Oceans."@en;
+        skos:notation          "SDN:M01::KMX";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Google Earth and Oceans"@en .
+
+<http://vocab.nerc.ac.uk/collection/M01/current/DB/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M01::DB";
+        dc:date                "2009-07-29 13:41:37.0";
+        dc:identifier          "SDN:M01::DB";
+        pav:authoredOn         "2009-07-29 13:41:37.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M01/current/DB/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Files that are used to store data in database applications such as Oracle or MS Access"@en;
+        skos:notation          "SDN:M01::DB";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Database"@en .
+
+<http://vocab.nerc.ac.uk/collection/M01/current/MOV/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M01::MOV";
+        dc:date                "2009-07-29 13:41:37.0";
+        dc:identifier          "SDN:M01::MOV";
+        pav:authoredOn         "2009-07-29 13:41:37.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M01/current/MOV/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Files that capture moving images such as avi, mpeg, mov, wmv"@en;
+        skos:notation          "SDN:M01::MOV";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Movie"@en .
+
+<http://vocab.nerc.ac.uk/collection/M01/current/ANAUD/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M01::ANAUD";
+        dc:date                "2016-06-01 13:58:00.0";
+        dc:identifier          "SDN:M01::ANAUD";
+        pav:authoredOn         "2016-06-01 13:58:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M01/current/ANAUD/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Recordings of sound converted to an electrical signal which is stored continuously using a medium such as magnetic tape or vinyl."@en;
+        skos:notation          "SDN:M01::ANAUD";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Analogue Audio"@en .
+
+<http://vocab.nerc.ac.uk/collection/M01/current/TXT/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M01::TXT";
+        dc:date                "2009-07-29 13:41:37.0";
+        dc:identifier          "SDN:M01::TXT";
+        pav:authoredOn         "2009-07-29 13:41:37.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M01/current/TXT/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Text";
+        skos:definition        "Files encoded in a character convention, usually ASCII, that need to be handled with a generic text editor such as Vi or Notepad or bespoke software"@en;
+        skos:notation          "SDN:M01::TXT";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Text or Plaintext"@en .
+
+<http://vocab.nerc.ac.uk/collection/M01/current/DIGAUD/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M01::DIGAUD";
+        dc:date                "2016-06-01 13:57:57.0";
+        dc:identifier          "SDN:M01::DIGAUD";
+        pav:authoredOn         "2016-06-01 13:57:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M01/current/DIGAUD/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Recordings of sound converted to an electrical signal the properties of which are determined as numbers at regular intervals and stored."@en;
+        skos:notation          "SDN:M01::DIGAUD";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Digital Audio"@en .
+
+<http://vocab.nerc.ac.uk/collection/M01/current/DEL/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M01::DEL";
+        dc:date                "2009-07-29 13:41:37.0";
+        dc:identifier          "SDN:M01::DEL";
+        pav:authoredOn         "2009-07-29 13:41:37.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M01/current/DEL/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "File formats that are delimited by commas, tabs, semi colons that can be opened using software packages such as MS Excel"@en;
+        skos:notation          "SDN:M01::DEL";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Delimited"@en .
+
+<http://vocab.nerc.ac.uk/collection/M01/current/DOC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M01::DOC";
+        dc:date                "2009-07-29 13:41:37.0";
+        dc:identifier          "SDN:M01::DOC";
+        pav:authoredOn         "2009-07-29 13:41:37.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M01/current/DOC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Files that hold written information such as pdf, doc,"@en;
+        skos:notation          "SDN:M01::DOC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Documents"@en .
+
+<http://vocab.nerc.ac.uk/collection/M01/current/NC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M01::NC";
+        dc:date                "2009-07-29 13:41:37.0";
+        dc:identifier          "SDN:M01::NC";
+        pav:authoredOn         "2009-07-29 13:41:37.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M01/current/NC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "NetCDF";
+        skos:definition        "Binary data files conforming to a set of conventions allowing them to be manipulated through the NetCDF API and tools built using that API"@en;
+        skos:notation          "SDN:M01::NC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Network Common Data Form"@en .
+
+<http://vocab.nerc.ac.uk/collection/M01/current/BIN/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M01::BIN";
+        dc:date                "2016-04-01 14:24:24.0";
+        dc:identifier          "SDN:M01::BIN";
+        pav:authoredOn         "2016-04-01 14:24:24.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M01/current/BIN/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Any file format for digital data that are not encoded in a recognised standard character code such as ASCII. Binary files need bespoke APIs in order to be interrogated or manipulated and cannot be read using text viewers."@en;
+        skos:notation          "SDN:M01::BIN";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Binary"@en .
+
+<http://vocab.nerc.ac.uk/collection/M01/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in MEDIN data and metadata documents";
+        dc:alternative          "MEDIN formats";
+        dc:creator              "MEDIN Standards Group";
+        dc:date                 "2016-06-02 02:00:04.0";
+        dc:description          "Terms describing what types of data formats exist in a data set so a human can identify if the data is likely to be of use and select a tool to interrogate that data.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "MEDIN data format categories";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "MEDIN Standards Group";
+        owl:versionInfo         "3";
+        skos:altLabel           "MEDIN formats";
+        skos:member             <http://vocab.nerc.ac.uk/collection/M01/current/ODV/> , <http://vocab.nerc.ac.uk/collection/M01/current/IMG/> , <http://vocab.nerc.ac.uk/collection/M01/current/GIS/> , <http://vocab.nerc.ac.uk/collection/M01/current/KMX/> , <http://vocab.nerc.ac.uk/collection/M01/current/DB/> , <http://vocab.nerc.ac.uk/collection/M01/current/MOV/> , <http://vocab.nerc.ac.uk/collection/M01/current/ANAUD/> , <http://vocab.nerc.ac.uk/collection/M01/current/TXT/> , <http://vocab.nerc.ac.uk/collection/M01/current/DIGAUD/> , <http://vocab.nerc.ac.uk/collection/M01/current/DEL/> , <http://vocab.nerc.ac.uk/collection/M01/current/BIN/> , <http://vocab.nerc.ac.uk/collection/M01/current/NC/> , <http://vocab.nerc.ac.uk/collection/M01/current/DOC/>;
+        skos:prefLabel          "MEDIN data format categories" .

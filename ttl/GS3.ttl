@@ -1,0 +1,326 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/GS3/current/(m)S/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GS3::(m)S";
+        dc:date                "2010-10-14 10:12:15.0";
+        dc:identifier          "SDN:GS3::(m)S";
+        pav:authoredOn         "2010-10-14 10:12:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GS3/current/(m)S/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "slMudSand";
+        skos:definition        "Sand:mud ratio = 3:1 to 19:1 and gravel percentage <1"@en;
+        skos:notation          "SDN:GS3::(m)S";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "slightly muddy sand"@en .
+
+<http://vocab.nerc.ac.uk/collection/GS3/current/(g)S/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GS3::(g)S";
+        dc:date                "2010-10-14 10:12:15.0";
+        dc:identifier          "SDN:GS3::(g)S";
+        pav:authoredOn         "2010-10-14 10:12:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GS3/current/(g)S/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "slGravSand";
+        skos:definition        "Sand:mud ratio = >9:1 and gravel percentage 1-5"@en;
+        skos:notation          "SDN:GS3::(g)S";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "slightly gravelly sand"@en .
+
+<http://vocab.nerc.ac.uk/collection/GS3/current/gmS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GS3::gmS";
+        dc:date                "2010-10-14 10:12:15.0";
+        dc:identifier          "SDN:GS3::gmS";
+        pav:authoredOn         "2010-10-14 10:12:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GS3/current/gmS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "gravMudSand";
+        skos:definition        "Sand:mud ratio = 1:1 to 9:1 and gravel percentage 5-30"@en;
+        skos:notation          "SDN:GS3::gmS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "gravelly muddy sand"@en .
+
+<http://vocab.nerc.ac.uk/collection/GS3/current/(g)mS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GS3::(g)mS";
+        dc:date                "2010-10-14 10:12:15.0";
+        dc:identifier          "SDN:GS3::(g)mS";
+        pav:authoredOn         "2010-10-14 10:12:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GS3/current/(g)mS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "slGravMudSand";
+        skos:definition        "Sand:mud ratio = 1:1 to 9:1 and gravel percentage 1-5"@en;
+        skos:notation          "SDN:GS3::(g)mS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "slightly gravelly muddy sand"@en .
+
+<http://vocab.nerc.ac.uk/collection/GS3/current/sM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GS3::sM";
+        dc:date                "2010-10-14 10:12:15.0";
+        dc:identifier          "SDN:GS3::sM";
+        pav:authoredOn         "2010-10-14 10:12:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GS3/current/sM/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "sandMud";
+        skos:definition        "Sand:mud ratio = 1:3 to 1:1 and gravel percentage <1"@en;
+        skos:notation          "SDN:GS3::sM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "sandy mud"@en .
+
+<http://vocab.nerc.ac.uk/collection/GS3/current/(g)M/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GS3::(g)M";
+        dc:date                "2010-10-14 10:12:15.0";
+        dc:identifier          "SDN:GS3::(g)M";
+        pav:authoredOn         "2010-10-14 10:12:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GS3/current/(g)M/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "slGravMud";
+        skos:definition        "Sand:mud ratio = <1:9 and gravel percentage 1-5"@en;
+        skos:notation          "SDN:GS3::(g)M";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "slightly gravelly mud"@en .
+
+<http://vocab.nerc.ac.uk/collection/GS3/current/gM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GS3::gM";
+        dc:date                "2010-10-14 10:12:15.0";
+        dc:identifier          "SDN:GS3::gM";
+        pav:authoredOn         "2010-10-14 10:12:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GS3/current/gM/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "gravMud";
+        skos:definition        "Sand:mud ratio = <1:1 and gravel percentage 5-30"@en;
+        skos:notation          "SDN:GS3::gM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "gravelly mud"@en .
+
+<http://vocab.nerc.ac.uk/collection/GS3/current/msG/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GS3::msG";
+        dc:date                "2010-10-14 10:12:15.0";
+        dc:identifier          "SDN:GS3::msG";
+        pav:authoredOn         "2010-10-14 10:12:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GS3/current/msG/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "mudSandGrav";
+        skos:definition        "Sand:mud ratio = 1:1 to 9:1 and gravel percentage 30-80"@en;
+        skos:notation          "SDN:GS3::msG";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "muddy sandy gravel"@en .
+
+<http://vocab.nerc.ac.uk/collection/GS3/current/(s)M/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GS3::(s)M";
+        dc:date                "2010-10-14 10:12:15.0";
+        dc:identifier          "SDN:GS3::(s)M";
+        pav:authoredOn         "2010-10-14 10:12:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GS3/current/(s)M/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "slSandMud";
+        skos:definition        "Sand:mud ratio = 1:19 to 1:3 and gravel percentage <1"@en;
+        skos:notation          "SDN:GS3::(s)M";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "slightly sandy mud"@en .
+
+<http://vocab.nerc.ac.uk/collection/GS3/current/M/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GS3::M";
+        dc:date                "2010-10-14 10:12:15.0";
+        dc:identifier          "SDN:GS3::M";
+        pav:authoredOn         "2010-10-14 10:12:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GS3/current/M/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "mud";
+        skos:definition        "Sand:mud ratio = <1:19 and gravel percentage <1"@en;
+        skos:notation          "SDN:GS3::M";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "mud"@en .
+
+<http://vocab.nerc.ac.uk/collection/GS3/current/(g)sM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GS3::(g)sM";
+        dc:date                "2010-10-14 10:12:15.0";
+        dc:identifier          "SDN:GS3::(g)sM";
+        pav:authoredOn         "2010-10-14 10:12:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GS3/current/(g)sM/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "slGravSandMud";
+        skos:definition        "Sand:mud ratio = 1:9 to 1:1 and gravel percentage 1-5"@en;
+        skos:notation          "SDN:GS3::(g)sM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "slightly gravelly sandy mud"@en .
+
+<http://vocab.nerc.ac.uk/collection/GS3/current/G/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GS3::G";
+        dc:date                "2010-10-14 10:12:15.0";
+        dc:identifier          "SDN:GS3::G";
+        pav:authoredOn         "2010-10-14 10:12:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GS3/current/G/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "gravel";
+        skos:definition        "Sand:mud ratio = all ratios and gravel percentage >80"@en;
+        skos:notation          "SDN:GS3::G";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "gravel"@en .
+
+<http://vocab.nerc.ac.uk/collection/GS3/current/mG/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GS3::mG";
+        dc:date                "2010-10-14 10:12:15.0";
+        dc:identifier          "SDN:GS3::mG";
+        pav:authoredOn         "2010-10-14 10:12:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GS3/current/mG/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "mudGrav";
+        skos:definition        "Sand:mud ratio = <1:1 and gravel percentage 30-80"@en;
+        skos:notation          "SDN:GS3::mG";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "muddy gravel"@en .
+
+<http://vocab.nerc.ac.uk/collection/GS3/current/sG/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GS3::sG";
+        dc:date                "2010-10-14 10:12:15.0";
+        dc:identifier          "SDN:GS3::sG";
+        pav:authoredOn         "2010-10-14 10:12:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GS3/current/sG/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "sandGrav";
+        skos:definition        "Sand:mud ratio = >9:1 and gravel percentage 30-80"@en;
+        skos:notation          "SDN:GS3::sG";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "sandy gravel"@en .
+
+<http://vocab.nerc.ac.uk/collection/GS3/current/S/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GS3::S";
+        dc:date                "2010-10-14 10:12:15.0";
+        dc:identifier          "SDN:GS3::S";
+        pav:authoredOn         "2010-10-14 10:12:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GS3/current/S/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "sand";
+        skos:definition        "Sand:mud ratio = >19:1 and gravel percentage <1"@en;
+        skos:notation          "SDN:GS3::S";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "sand"@en .
+
+<http://vocab.nerc.ac.uk/collection/GS3/current/gS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GS3::gS";
+        dc:date                "2010-10-14 10:12:15.0";
+        dc:identifier          "SDN:GS3::gS";
+        pav:authoredOn         "2010-10-14 10:12:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GS3/current/gS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "gravSand";
+        skos:definition        "Sand:mud ratio = >9:1 and gravel percentage 5-30"@en;
+        skos:notation          "SDN:GS3::gS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "gravelly sand"@en .
+
+<http://vocab.nerc.ac.uk/collection/GS3/current/mS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GS3::mS";
+        dc:date                "2010-10-14 10:12:15.0";
+        dc:identifier          "SDN:GS3::mS";
+        pav:authoredOn         "2010-10-14 10:12:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GS3/current/mS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "mudSand";
+        skos:definition        "Sand:mud ratio = 1:1 to 3:1 and gravel percentage <1"@en;
+        skos:notation          "SDN:GS3::mS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "muddy sand"@en .
+
+<http://vocab.nerc.ac.uk/collection/GS3/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the EU Geo-Seas project implemented as consultation between BODC and a designated group of Geo-Seas project paticipants";
+        dc:alternative          "Adjusted Folk classes";
+        dc:creator              "Geo-Seas";
+        dc:date                 "2010-10-15 02:00:11.0";
+        dc:description          "Terms used to categorise sedimentary rocks and sediments in terms of the proportion of gravel, sand and mud.  Initial terms proposed by Folk (1954) but subsequently revised by BGS and Flemming (2000).";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Geo-Seas adjusted Folk sediment lithology classes";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Geo-Seas";
+        owl:versionInfo         "1";
+        skos:altLabel           "Adjusted Folk classes";
+        skos:member             <http://vocab.nerc.ac.uk/collection/GS3/current/(m)S/> , <http://vocab.nerc.ac.uk/collection/GS3/current/(g)S/> , <http://vocab.nerc.ac.uk/collection/GS3/current/gmS/> , <http://vocab.nerc.ac.uk/collection/GS3/current/(g)mS/> , <http://vocab.nerc.ac.uk/collection/GS3/current/sM/> , <http://vocab.nerc.ac.uk/collection/GS3/current/(g)M/> , <http://vocab.nerc.ac.uk/collection/GS3/current/gM/> , <http://vocab.nerc.ac.uk/collection/GS3/current/msG/> , <http://vocab.nerc.ac.uk/collection/GS3/current/(s)M/> , <http://vocab.nerc.ac.uk/collection/GS3/current/M/> , <http://vocab.nerc.ac.uk/collection/GS3/current/(g)sM/> , <http://vocab.nerc.ac.uk/collection/GS3/current/G/> , <http://vocab.nerc.ac.uk/collection/GS3/current/mG/> , <http://vocab.nerc.ac.uk/collection/GS3/current/sG/> , <http://vocab.nerc.ac.uk/collection/GS3/current/mS/> , <http://vocab.nerc.ac.uk/collection/GS3/current/gS/> , <http://vocab.nerc.ac.uk/collection/GS3/current/S/>;
+        skos:prefLabel          "Geo-Seas adjusted Folk sediment lithology classes" .

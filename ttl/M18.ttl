@@ -1,0 +1,173 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/M18/current/CONT_LINER/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M18::CONT_LINER";
+        dc:date                "2016-05-31 12:39:36.0";
+        dc:identifier          "SDN:M18::CONT_LINER";
+        pav:authoredOn         "2016-05-31 12:39:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M18/current/CONT_LINER/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Liner";
+        skos:definition        "Sample is stored within the hollow hard plastic liner which forms a boundary between the sample and the sampling apparatus, in which it was recovered."@en;
+        skos:notation          "SDN:M18::CONT_LINER";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Plastic liner"@en .
+
+<http://vocab.nerc.ac.uk/collection/M18/current/CONT_VIAL/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M18::CONT_VIAL";
+        dc:date                "2016-05-31 12:39:36.0";
+        dc:identifier          "SDN:M18::CONT_VIAL";
+        pav:authoredOn         "2016-05-31 12:39:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M18/current/CONT_VIAL/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Vial";
+        skos:definition        "The sample has been removed from the container that it was held in when it was sampled and has been transferred into a glass vial of undefined size."@en;
+        skos:notation          "SDN:M18::CONT_VIAL";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Glass vial"@en .
+
+<http://vocab.nerc.ac.uk/collection/M18/current/CONT_TUB/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M18::CONT_TUB";
+        dc:date                "2016-05-31 12:39:36.0";
+        dc:identifier          "SDN:M18::CONT_TUB";
+        pav:authoredOn         "2016-05-31 12:39:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M18/current/CONT_TUB/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Tub";
+        skos:definition        "The sample has been removed from the container that it was held in when it was sampled and has been transferred into a plastic tub of undefined size, being disturbed in the transfer."@en;
+        skos:notation          "SDN:M18::CONT_TUB";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Plastic tub"@en .
+
+<http://vocab.nerc.ac.uk/collection/M18/current/CONT_UNDIST/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M18::CONT_UNDIST";
+        dc:date                "2016-05-31 12:39:36.0";
+        dc:identifier          "SDN:M18::CONT_UNDIST";
+        pav:authoredOn         "2016-05-31 12:39:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M18/current/CONT_UNDIST/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Undisturbed";
+        skos:definition        "Sample remains in the sampling device that it was recovered by and has been set aside for offshore testing."@en;
+        skos:notation          "SDN:M18::CONT_UNDIST";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Undisturbed"@en .
+
+<http://vocab.nerc.ac.uk/collection/M18/current/CONT_BAG/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M18::CONT_BAG";
+        dc:date                "2016-05-31 12:39:36.0";
+        dc:identifier          "SDN:M18::CONT_BAG";
+        pav:authoredOn         "2016-05-31 12:39:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M18/current/CONT_BAG/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Bag";
+        skos:definition        "The sample has been removed from the container that it was held in when it was sampled and has been transferred into a bag of undefined type, being disturbed in the transfer."@en;
+        skos:notation          "SDN:M18::CONT_BAG";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Bag"@en .
+
+<http://vocab.nerc.ac.uk/collection/M18/current/CONT_SHELBY/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M18::CONT_SHELBY";
+        dc:date                "2016-05-31 12:39:36.0";
+        dc:identifier          "SDN:M18::CONT_SHELBY";
+        pav:authoredOn         "2016-05-31 12:39:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M18/current/CONT_SHELBY/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Shelby";
+        skos:definition        "Sample is stored within a thin-walled hollow stainless steel tube which has one end which forms a cutting edge and can be secured at the upper end to a drive head."@en;
+        skos:notation          "SDN:M18::CONT_SHELBY";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Shelby tube"@en .
+
+<http://vocab.nerc.ac.uk/collection/M18/current/CONT_AMBER/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M18::CONT_AMBER";
+        dc:date                "2016-05-31 12:39:36.0";
+        dc:identifier          "SDN:M18::CONT_AMBER";
+        pav:authoredOn         "2016-05-31 12:39:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M18/current/CONT_AMBER/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Amber";
+        skos:definition        "The sample has been removed from the container that it was held in when it was sampled and has been transferred into an amber jar of undefined size."@en;
+        skos:notation          "SDN:M18::CONT_AMBER";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Amber jar"@en .
+
+<http://vocab.nerc.ac.uk/collection/M18/current/CONT_WAX/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M18::CONT_WAX";
+        dc:date                "2016-05-31 12:39:36.0";
+        dc:identifier          "SDN:M18::CONT_WAX";
+        pav:authoredOn         "2016-05-31 12:39:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M18/current/CONT_WAX/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Wax";
+        skos:definition        "The sample is wrapped in cling film, or foil or both and the ends are sealed with melted wax."@en;
+        skos:notation          "SDN:M18::CONT_WAX";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Wax"@en .
+
+<http://vocab.nerc.ac.uk/collection/M18/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in MEDIN data and metadata documents";
+        dc:alternative          "Geotech investigation sample container";
+        dc:creator              "MEDIN Standards Group";
+        dc:date                 "2016-06-01 02:00:04.0";
+        dc:description          "Terms used to classify types of container used by marine engineers to store physical specimens collected during marine geotechnical site investigations.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Type of container used to hold a physical sample collected during a geotechnical site investigation";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "MEDIN Standards Group";
+        owl:versionInfo         "1";
+        skos:altLabel           "Geotech investigation sample container";
+        skos:member             <http://vocab.nerc.ac.uk/collection/M18/current/CONT_LINER/> , <http://vocab.nerc.ac.uk/collection/M18/current/CONT_VIAL/> , <http://vocab.nerc.ac.uk/collection/M18/current/CONT_TUB/> , <http://vocab.nerc.ac.uk/collection/M18/current/CONT_UNDIST/> , <http://vocab.nerc.ac.uk/collection/M18/current/CONT_BAG/> , <http://vocab.nerc.ac.uk/collection/M18/current/CONT_WAX/> , <http://vocab.nerc.ac.uk/collection/M18/current/CONT_AMBER/> , <http://vocab.nerc.ac.uk/collection/M18/current/CONT_SHELBY/>;
+        skos:prefLabel          "Type of container used to hold a physical sample collected during a geotechnical site investigation" .

@@ -1,0 +1,159 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/L15/current/COMBINE/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L15::COMBINE";
+        dc:date                "2010-02-08 16:48:34.0";
+        dc:identifier          "SDN:L15::COMBINE";
+        pav:authoredOn         "2010-02-08 16:48:34.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L15/current/COMBINE/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L15/current/COMBINE/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "HELCOM COMBINE manual";
+        skos:definition        "A manual specifying field observation, sample collection, analytical and data quality procedures for environmental monitoring studies in the Baltic Sea (http://www.helcom.fi/groups/monas/CombineManual/en_GB/main/)."@en;
+        skos:notation          "SDN:L15::COMBINE";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Helsinki Commission Cooperative Monitoring in the Baltic Marine Environment manual of measurement protocols"@en .
+
+<http://vocab.nerc.ac.uk/collection/L15/current/BEQUALM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L15::BEQUALM";
+        dc:date                "2010-02-08 16:53:08.0";
+        dc:identifier          "SDN:L15::BEQUALM";
+        pav:authoredOn         "2010-02-08 16:53:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L15/current/BEQUALM/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "BEQUALM";
+        skos:definition        "An EU project to develop a quality assurance system for biological effects techniques."@en;
+        skos:notation          "SDN:L15::BEQUALM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Biological Effects Quality Assurance in Monitoring Programmes"@en .
+
+<http://vocab.nerc.ac.uk/collection/L15/current/JGOFSL1/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L15::JGOFSL1";
+        dc:date                "2010-02-08 16:49:36.0";
+        dc:identifier          "SDN:L15::JGOFSL1";
+        pav:authoredOn         "2010-02-08 16:49:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L15/current/JGOFSL1/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "JGOFS Level 1 protocols";
+        skos:definition        "A manual specifying field observation, sample collection, analytical and data quality procedures for quantification of the ocean carbon budget (http://ijgofs.whoi.edu/Publications/Report_Series/JGOFS_6.pdf)."@en;
+        skos:notation          "SDN:L15::JGOFSL1";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Joint Global Ocean Flux Study core measurement protocols"@en .
+
+<http://vocab.nerc.ac.uk/collection/L15/current/UNKNOWN/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L15::UNKNOWN";
+        dc:date                "2010-02-08 16:33:15.0";
+        dc:identifier          "SDN:L15::UNKNOWN";
+        pav:authoredOn         "2010-02-08 16:33:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L15/current/UNKNOWN/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "unknown";
+        skos:definition        "The correct value is not known to, or not computable by, the sender of this data. However, the correct value probably exists."@en;
+        skos:notation          "SDN:L15::UNKNOWN";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "unknown"@en .
+
+<http://vocab.nerc.ac.uk/collection/L15/current/IODE/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L15::IODE";
+        dc:date                "2021-03-15 08:37:26.0";
+        dc:identifier          "SDN:L15::IODE";
+        pav:authoredOn         "2021-03-15 08:37:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L15/current/IODE/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L15/current/IODE/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "IOC QC Guides";
+        skos:definition        "A published manaual (IOC Manauals and Guides 26) describing best practice for quality control of different types of oceanographic data"@en;
+        skos:notation          "SDN:L15::IODE";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "IOC Manual of Quality Control Procedures for Validation of Oceanographic Data"@en .
+
+<http://vocab.nerc.ac.uk/collection/L15/current/QUASIMEM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L15::QUASIMEM";
+        dc:date                "2010-02-08 16:56:05.0";
+        dc:identifier          "SDN:L15::QUASIMEM";
+        pav:authoredOn         "2010-02-08 16:56:05.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L15/current/QUASIMEM/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "QUASIMEME";
+        skos:definition        "An organisation dedicated to the development of a quality assurance system for marine chemistry analytical measurements."@en;
+        skos:notation          "SDN:L15::QUASIMEM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Quality Assurance of Information for Marine Environmental Monitoring in Europe"@en .
+
+<http://vocab.nerc.ac.uk/collection/L15/current/ICES/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L15::ICES";
+        dc:date                "2011-03-24 08:38:31.0";
+        dc:identifier          "SDN:L15::ICES";
+        pav:authoredOn         "2011-03-24 08:38:31.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L15/current/ICES/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ICES Guides";
+        skos:definition        "A series of manuals describing best practice for dataset preparation of different types of oceanographic data"@en;
+        skos:notation          "SDN:L15::ICES";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ICES Data Centre Data Type Guides"@en .
+
+<http://vocab.nerc.ac.uk/collection/L15/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the EU SeaDataNet project implemented as consultation between BODC and the members of the SeaDataNet Technical Task Team";
+        dc:alternative          "SDN QMS accreditations";
+        dc:creator              "SeaDataNet";
+        dc:date                 "2021-03-15 14:00:01.0";
+        dc:description          "Terms used to by SeaDataNet to describe formally recognised standards for data acquisition and handling procedures.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "SeaDataNet quality management system accreditations";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "SeaDataNet";
+        owl:versionInfo         "3";
+        skos:altLabel           "SDN QMS accreditations";
+        skos:member             <http://vocab.nerc.ac.uk/collection/L15/current/COMBINE/> , <http://vocab.nerc.ac.uk/collection/L15/current/BEQUALM/> , <http://vocab.nerc.ac.uk/collection/L15/current/JGOFSL1/> , <http://vocab.nerc.ac.uk/collection/L15/current/UNKNOWN/> , <http://vocab.nerc.ac.uk/collection/L15/current/IODE/> , <http://vocab.nerc.ac.uk/collection/L15/current/ICES/> , <http://vocab.nerc.ac.uk/collection/L15/current/QUASIMEM/>;
+        skos:prefLabel          "SeaDataNet quality management system accreditations" .

@@ -1,0 +1,139 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/E02/current/4/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:E02::4";
+        dc:date                "2016-02-01 09:33:11.0";
+        dc:identifier          "SDN:E02::4";
+        pav:authoredOn         "2016-02-01 09:33:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/E02/current/4/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Level 4";
+        skos:definition        "Model output or results from analyses of lower level data,  e.g.,  variables  derived  from multiple  measurements."@en;
+        skos:notation          "SDN:E02::4";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Level 4"@en .
+
+<http://vocab.nerc.ac.uk/collection/E02/current/1B/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:E02::1B";
+        dc:date                "2016-02-01 09:33:04.0";
+        dc:identifier          "SDN:E02::1B";
+        pav:authoredOn         "2016-02-01 09:33:04.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/E02/current/1B/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Level 1B";
+        skos:definition        "Level 1A data that have been processed to sensor units (not all instruments have Level 1B data products)."@en;
+        skos:notation          "SDN:E02::1B";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Level 1B"@en .
+
+<http://vocab.nerc.ac.uk/collection/E02/current/2/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:E02::2";
+        dc:date                "2016-02-01 09:33:06.0";
+        dc:identifier          "SDN:E02::2";
+        pav:authoredOn         "2016-02-01 09:33:06.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/E02/current/2/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Level 2";
+        skos:definition        "Derived geophysical variables at the same resolution and location as the Level 1 source data."@en;
+        skos:notation          "SDN:E02::2";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Level 2"@en .
+
+<http://vocab.nerc.ac.uk/collection/E02/current/1A/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:E02::1A";
+        dc:date                "2016-02-01 09:33:01.0";
+        dc:identifier          "SDN:E02::1A";
+        pav:authoredOn         "2016-02-01 09:33:01.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/E02/current/1A/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Level 1A";
+        skos:definition        "Reconstructed,  unprocessed  instrument  data  at  full resolution, time-referenced, and annotated with ancillary information, including radiometric and geometric calibration coefficients and georeferencing parameters, e.g., platform ephemeris, computed and appended but not applied to the Level 0 data."@en;
+        skos:notation          "SDN:E02::1A";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Level 1A"@en .
+
+<http://vocab.nerc.ac.uk/collection/E02/current/3/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:E02::3";
+        dc:date                "2016-02-01 09:33:08.0";
+        dc:identifier          "SDN:E02::3";
+        pav:authoredOn         "2016-02-01 09:33:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/E02/current/3/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Level 3";
+        skos:definition        "Variables mapped on uniform space-time grids, usually with some completeness and consistency."@en;
+        skos:notation          "SDN:E02::3";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Level 3"@en .
+
+<http://vocab.nerc.ac.uk/collection/E02/current/0/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:E02::0";
+        dc:date                "2016-02-01 09:32:59.0";
+        dc:identifier          "SDN:E02::0";
+        pav:authoredOn         "2016-02-01 09:32:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/E02/current/0/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Level 0";
+        skos:definition        "Reconstructed, unprocessed instrument/payload data at full resolution; any and all communications artifacts, e.g., synchronization frames, communications headers, duplicate data removed. In most cases these data are provided  by Earth Observing System (EOS) Data and Operations Systems  (EDOS)  to  a Distributed Active Archive Center (DAAC)  as  Production  Data Sets  for  processing  to  the  Science  Data  Processing  Segments  (SDPs)  in  the  DAAC  or  by the  Science Investigator-led Processing  Systems  (SIPSs) to produce the higher-level products."@en;
+        skos:notation          "SDN:E02::0";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Level 0"@en .
+
+<http://vocab.nerc.ac.uk/collection/E02/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "The United States government agency responsible for science and technology related to air and space. See www.nasa.gov for further details.";
+        dc:alternative          "Processing Levels for EOS SDPs";
+        dc:creator              "National Aeronautics and Space Administration";
+        dc:date                 "2016-02-02 02:00:02.0";
+        dc:description          "The standard states of processed data defined by the Earth Observing System Data and Information Ssytem (EOSDIS) Data Panel, which are also consistent with the Committee on Data Management, Archiving,\nand Computing (CODMAC) definitions.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Processing Levels for Earth Observing System Standard Data Products";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "National Aeronautics and Space Administration";
+        owl:versionInfo         "2";
+        skos:altLabel           "Processing Levels for EOS SDPs";
+        skos:member             <http://vocab.nerc.ac.uk/collection/E02/current/4/> , <http://vocab.nerc.ac.uk/collection/E02/current/1B/> , <http://vocab.nerc.ac.uk/collection/E02/current/2/> , <http://vocab.nerc.ac.uk/collection/E02/current/0/> , <http://vocab.nerc.ac.uk/collection/E02/current/3/> , <http://vocab.nerc.ac.uk/collection/E02/current/1A/>;
+        skos:prefLabel          "Processing Levels for Earth Observing System Standard Data Products" .

@@ -1,0 +1,299 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/R05/current/G/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R05::G";
+        dc:date                "2024-09-12 10:07:08.0";
+        dc:identifier          "SDN:R05::G";
+        pav:authoredOn         "2024-09-12 10:07:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R05/current/G/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R05/current/G/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "G";
+        skos:definition        "Estimated location accuracy radius from Global Positioning System (GPS) of less than 10m."@en;
+        skos:notation          "SDN:R05::G";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GPS positioning accuracy (not better than 10 m)"@en .
+
+<http://vocab.nerc.ac.uk/collection/R05/current/2/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R05::2";
+        dc:date                "2020-04-04 15:05:33.0";
+        dc:identifier          "SDN:R05::2";
+        pav:authoredOn         "2020-04-04 15:05:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R05/current/2/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "2";
+        skos:definition        "Estimated location accuracy radius from Argos positioning system of less than 500m"@en;
+        skos:notation          "SDN:R05::2";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Argos location accuracy <500m radius"@en .
+
+<http://vocab.nerc.ac.uk/collection/R05/current/Z/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R05::Z";
+        dc:date                "2020-04-04 15:05:33.0";
+        dc:identifier          "SDN:R05::Z";
+        pav:authoredOn         "2020-04-04 15:05:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R05/current/Z/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Z";
+        skos:definition        "The location accuracy radius from Argos positioning system cannot be estimated due to invalid location measurements."@en;
+        skos:notation          "SDN:R05::Z";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Argos invalid location"@en .
+
+<http://vocab.nerc.ac.uk/collection/R05/current/3/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R05::3";
+        dc:date                "2020-04-04 15:05:33.0";
+        dc:identifier          "SDN:R05::3";
+        pav:authoredOn         "2020-04-04 15:05:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R05/current/3/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "3";
+        skos:definition        "Estimated location accuracy radius from Argos positioning system of less than 250m"@en;
+        skos:notation          "SDN:R05::3";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Argos location accuracy <250m radius"@en .
+
+<http://vocab.nerc.ac.uk/collection/R05/current/1/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R05::1";
+        dc:date                "2020-04-04 15:05:33.0";
+        dc:identifier          "SDN:R05::1";
+        pav:authoredOn         "2020-04-04 15:05:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R05/current/1/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "1";
+        skos:definition        "Estimated location accuracy radius from Argos positioning system of less than 1500m"@en;
+        skos:notation          "SDN:R05::1";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Argos location accuracy <1500m radius"@en .
+
+<http://vocab.nerc.ac.uk/collection/R05/current/H/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R05::H";
+        dc:date                "2024-09-12 10:07:08.0";
+        dc:identifier          "SDN:R05::H";
+        pav:authoredOn         "2024-09-12 10:07:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R05/current/H/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R05/current/H/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "H";
+        skos:definition        "Estimated location accuracy radius from Global Navigation Satellite System (GNSS) of less than 10m."@en;
+        skos:notation          "SDN:R05::H";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GNSS accuracy (not better than 10 m)"@en .
+
+<http://vocab.nerc.ac.uk/collection/R05/current/E/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R05::E";
+        dc:date                "2024-09-12 10:07:08.0";
+        dc:identifier          "SDN:R05::E";
+        pav:authoredOn         "2024-09-12 10:07:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R05/current/E/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R05/current/E/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "E";
+        skos:definition        "Estimated location accuracy radius from GLObal NAvigation Satellite System (GLONASS) of less than 10m."@en;
+        skos:notation          "SDN:R05::E";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GLONASS accuracy (not better than 10 m)"@en .
+
+<http://vocab.nerc.ac.uk/collection/R05/current/R/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R05::R";
+        dc:date                "2020-04-04 15:05:33.0";
+        dc:identifier          "SDN:R05::R";
+        pav:authoredOn         "2020-04-04 15:05:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R05/current/R/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "R";
+        skos:definition        "Estimated location accuracy radius from RAFOS positioning system"@en;
+        skos:notation          "SDN:R05::R";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "RAFOS location accuracy"@en .
+
+<http://vocab.nerc.ac.uk/collection/R05/current/U/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R05::U";
+        dc:date                "2020-04-04 15:05:33.0";
+        dc:identifier          "SDN:R05::U";
+        pav:authoredOn         "2020-04-04 15:05:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R05/current/U/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "U";
+        skos:definition        "Estimated location accuracy radius from manual computation as not received by the float."@en;
+        skos:notation          "SDN:R05::U";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Estimated location accuracy"@en .
+
+<http://vocab.nerc.ac.uk/collection/R05/current/B/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R05::B";
+        dc:date                "2020-04-04 15:05:33.0";
+        dc:identifier          "SDN:R05::B";
+        pav:authoredOn         "2020-04-04 15:05:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R05/current/B/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "B";
+        skos:definition        "The location accuracy radius from Argos positioning system cannot be estimated as only one or two messages were received."@en;
+        skos:notation          "SDN:R05::B";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Argos no location accuracy estimation (one or two messages received)"@en .
+
+<http://vocab.nerc.ac.uk/collection/R05/current/0/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R05::0";
+        dc:date                "2020-04-04 15:05:33.0";
+        dc:identifier          "SDN:R05::0";
+        pav:authoredOn         "2020-04-04 15:05:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R05/current/0/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "0";
+        skos:definition        "Estimated location accuracy radius from Argos positioning system of over 1500m"@en;
+        skos:notation          "SDN:R05::0";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Argos location accuracy >1500m radius"@en .
+
+<http://vocab.nerc.ac.uk/collection/R05/current/I/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R05::I";
+        dc:date                "2024-09-12 10:07:08.0";
+        dc:identifier          "SDN:R05::I";
+        pav:authoredOn         "2024-09-12 10:07:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R05/current/I/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R05/current/I/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "I";
+        skos:definition        "Estimated location accuracy radius from Iridium positioning system of less than 5000m."@en;
+        skos:notation          "SDN:R05::I";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Iridium accuracy (not better than 5 km)"@en .
+
+<http://vocab.nerc.ac.uk/collection/R05/current/D/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R05::D";
+        dc:date                "2024-09-12 10:07:08.0";
+        dc:identifier          "SDN:R05::D";
+        pav:authoredOn         "2024-09-12 10:07:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R05/current/D/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R05/current/D/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "D";
+        skos:definition        "Estimated location accuracy radius from BeiDou Navigation Satellite System (BDS) of less than 10m."@en;
+        skos:notation          "SDN:R05::D";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Beidou accuracy (not better than 10 m)"@en .
+
+<http://vocab.nerc.ac.uk/collection/R05/current/A/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R05::A";
+        dc:date                "2020-04-04 15:05:33.0";
+        dc:identifier          "SDN:R05::A";
+        pav:authoredOn         "2020-04-04 15:05:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R05/current/A/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "A";
+        skos:definition        "The location accuracy radius from Argos positioning system cannot be estimated as only three messages were received."@en;
+        skos:notation          "SDN:R05::A";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Argos no location accuracy estimation (three messages received)"@en .
+
+<http://vocab.nerc.ac.uk/collection/R05/current/F/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R05::F";
+        dc:date                "2024-09-12 10:07:08.0";
+        dc:identifier          "SDN:R05::F";
+        pav:authoredOn         "2024-09-12 10:07:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R05/current/F/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R05/current/F/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "F";
+        skos:definition        "Estimated location accuracy radius from Galileo positioning system of less than 10m."@en;
+        skos:notation          "SDN:R05::F";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GALILEO accuracy (not better than 10 m)"@en .
+
+<http://vocab.nerc.ac.uk/collection/R05/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the Argo data system, published and maintained by the Argo Data Management Team (ADMT) and hosted on the NERC Vocabulary Server.";
+        rdfs:seeAlso            <https://github.com/OneArgo/ArgoVocabs>;
+        dc:alternative          "POSITION_ACCURACY";
+        dc:creator              "Argo Data Management Team";
+        dc:date                 "2024-09-13 03:00:00.0";
+        dc:description          "Accuracy in latitude and longitude measurements received from the positioning system, grouped by location accuracy classes.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Argo position accuracy";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Argo Data Management Team";
+        owl:versionInfo         "1";
+        skos:altLabel           "POSITION_ACCURACY";
+        skos:member             <http://vocab.nerc.ac.uk/collection/R05/current/G/> , <http://vocab.nerc.ac.uk/collection/R05/current/2/> , <http://vocab.nerc.ac.uk/collection/R05/current/Z/> , <http://vocab.nerc.ac.uk/collection/R05/current/3/> , <http://vocab.nerc.ac.uk/collection/R05/current/1/> , <http://vocab.nerc.ac.uk/collection/R05/current/H/> , <http://vocab.nerc.ac.uk/collection/R05/current/E/> , <http://vocab.nerc.ac.uk/collection/R05/current/R/> , <http://vocab.nerc.ac.uk/collection/R05/current/U/> , <http://vocab.nerc.ac.uk/collection/R05/current/B/> , <http://vocab.nerc.ac.uk/collection/R05/current/0/> , <http://vocab.nerc.ac.uk/collection/R05/current/I/> , <http://vocab.nerc.ac.uk/collection/R05/current/D/> , <http://vocab.nerc.ac.uk/collection/R05/current/F/> , <http://vocab.nerc.ac.uk/collection/R05/current/A/>;
+        skos:prefLabel          "Argo position accuracy" .

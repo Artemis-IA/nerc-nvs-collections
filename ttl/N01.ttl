@@ -1,0 +1,91 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/N01/current/NDGO0003/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N01::NDGO0003";
+        dc:date                "2012-01-10 13:30:36.0";
+        dc:identifier          "SDN:N01::NDGO0003";
+        pav:authoredOn         "2012-01-10 13:30:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N01/current/NDGO0003/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/N01/current/NDGO0003/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "NERC_DDC";
+        skos:definition        "Portal for the formally designated data management bodies within the Natural Environment Research Council."@en;
+        skos:notation          "SDN:N01::NDGO0003";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Natural Environment Research Council Designated Data Centres"@en .
+
+<http://vocab.nerc.ac.uk/collection/N01/current/NDGO0001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N01::NDGO0001";
+        dc:date                "2012-01-10 13:30:36.0";
+        dc:identifier          "SDN:N01::NDGO0001";
+        pav:authoredOn         "2012-01-10 13:30:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N01/current/NDGO0001/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/N01/current/NDGO0001/1/> , <http://vocab.nerc.ac.uk/collection/N01/current/NDGO0001/2/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "MEDIN";
+        skos:definition        "Portal for a partnership of public and private sector organisations working to provide harmonised stewardship and access to marine data and information, and so facilitate improved management of the seas around the UK."@en;
+        skos:notation          "SDN:N01::NDGO0001";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Marine Environmental Data and Information Network"@en .
+
+<http://vocab.nerc.ac.uk/collection/N01/current/NDGO0005/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N01::NDGO0005";
+        dc:date                "2012-01-10 13:30:36.0";
+        dc:identifier          "SDN:N01::NDGO0005";
+        pav:authoredOn         "2012-01-10 13:30:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N01/current/NDGO0005/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "DATA_GOV";
+        skos:definition        "Portal for the UK national spatial data infrastructure"@en;
+        skos:notation          "SDN:N01::NDGO0005";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "data.gov.uk"@en .
+
+<http://vocab.nerc.ac.uk/collection/N01/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used within the data centre";
+        dc:alternative          "Availability";
+        dc:creator              "British Oceanographic Data Centre";
+        dc:date                 "2012-01-11 07:46:54.0";
+        dc:description          "Terms used to describe portals to which a MEDIN discovery metadata record carrying the keyword should be made available.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "MEDIN metadata record availability";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "British Oceanographic Data Centre";
+        owl:versionInfo         "4";
+        skos:altLabel           "Availability";
+        skos:member             <http://vocab.nerc.ac.uk/collection/N01/current/NDGO0003/> , <http://vocab.nerc.ac.uk/collection/N01/current/NDGO0005/> , <http://vocab.nerc.ac.uk/collection/N01/current/NDGO0001/>;
+        skos:prefLabel          "MEDIN metadata record availability" .

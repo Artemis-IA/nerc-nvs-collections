@@ -1,0 +1,207 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/W05/current/CHAR0008/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W05::CHAR0008";
+        dc:date                "2017-12-08 11:35:26.0";
+        dc:identifier          "SDN:W05::CHAR0008";
+        pav:authoredOn         "2017-12-08 11:35:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0008/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "InPow";
+        skos:definition        "The amount of electricity fed into a system."@en;
+        skos:notation          "SDN:W05::CHAR0008";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Input power range"@en .
+
+<http://vocab.nerc.ac.uk/collection/W05/current/CHAR0009/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W05::CHAR0009";
+        dc:date                "2017-12-08 11:35:26.0";
+        dc:identifier          "SDN:W05::CHAR0009";
+        pav:authoredOn         "2017-12-08 11:35:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0009/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ElCurr";
+        skos:definition        "The kind of electron flow through a conductor (i.e. direct current, alternating current)."@en;
+        skos:notation          "SDN:W05::CHAR0009";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Electrical current type"@en .
+
+<http://vocab.nerc.ac.uk/collection/W05/current/CHAR0002/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W05::CHAR0002";
+        dc:date                "2016-07-20 15:00:12.0";
+        dc:identifier          "SDN:W05::CHAR0002";
+        pav:authoredOn         "2016-07-20 15:00:12.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0002/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "L";
+        skos:definition        "The measured extent (distance) of the longest dimension of an object."@en;
+        skos:notation          "SDN:W05::CHAR0002";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Length"@en .
+
+<http://vocab.nerc.ac.uk/collection/W05/current/CHAR0003/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W05::CHAR0003";
+        dc:date                "2016-07-20 15:00:13.0";
+        dc:identifier          "SDN:W05::CHAR0003";
+        pav:authoredOn         "2016-07-20 15:00:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0003/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "H";
+        skos:definition        "The measured extent (distance) from the base to the top of an object."@en;
+        skos:notation          "SDN:W05::CHAR0003";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Height"@en .
+
+<http://vocab.nerc.ac.uk/collection/W05/current/CHAR0010/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W05::CHAR0010";
+        dc:date                "2017-12-08 11:35:26.0";
+        dc:identifier          "SDN:W05::CHAR0010";
+        pav:authoredOn         "2017-12-08 11:35:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0010/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "DatStorTyp";
+        skos:definition        "Recording media that are used to retain digital data."@en;
+        skos:notation          "SDN:W05::CHAR0010";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Data storage type"@en .
+
+<http://vocab.nerc.ac.uk/collection/W05/current/CHAR0007/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W05::CHAR0007";
+        dc:date                "2016-09-14 22:29:52.0";
+        dc:identifier          "SDN:W05::CHAR0007";
+        pav:authoredOn         "2016-09-14 22:29:52.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0007/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The method of communication used to send information from a device or system to shore (e.g. ARGOS, IRIDIUM, Acoustic, Cabled)."@en;
+        skos:notation          "SDN:W05::CHAR0007";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Transmission mode"@en .
+
+<http://vocab.nerc.ac.uk/collection/W05/current/CHAR0004/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W05::CHAR0004";
+        dc:date                "2016-07-20 15:00:14.0";
+        dc:identifier          "SDN:W05::CHAR0004";
+        pav:authoredOn         "2016-07-20 15:00:14.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0004/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "W";
+        skos:definition        "The measured extent (distance) of an object that is at right angles to the length."@en;
+        skos:notation          "SDN:W05::CHAR0004";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Width"@en .
+
+<http://vocab.nerc.ac.uk/collection/W05/current/CHAR0005/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W05::CHAR0005";
+        dc:date                "2016-07-20 15:00:16.0";
+        dc:identifier          "SDN:W05::CHAR0005";
+        pav:authoredOn         "2016-07-20 15:00:16.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0005/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The casing type of a device or system."@en;
+        skos:notation          "SDN:W05::CHAR0005";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Housing material"@en .
+
+<http://vocab.nerc.ac.uk/collection/W05/current/CHAR0001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W05::CHAR0001";
+        dc:date                "2016-07-20 15:00:11.0";
+        dc:identifier          "SDN:W05::CHAR0001";
+        pav:authoredOn         "2016-07-20 15:00:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0001/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The mass or heaviness of an object on Earth."@en;
+        skos:notation          "SDN:W05::CHAR0001";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Weight"@en .
+
+<http://vocab.nerc.ac.uk/collection/W05/current/CHAR0006/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W05::CHAR0006";
+        dc:date                "2016-07-20 15:00:17.0";
+        dc:identifier          "SDN:W05::CHAR0006";
+        pav:authoredOn         "2016-07-20 15:00:17.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0006/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The capacity or memory space of a device or system."@en;
+        skos:notation          "SDN:W05::CHAR0006";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Data storage"@en .
+
+<http://vocab.nerc.ac.uk/collection/W05/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies created for use in SWE Marine Profiles.";
+        dc:alternative          "SensorML Characteristics";
+        dc:creator              "Sensor Web Enablement Marine Profiles";
+        dc:date                 "2017-12-09 02:00:02.0";
+        dc:description          "Terms used in SensorML to describe properties of an observation system that do not further qualify or quantify its output values.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "SensorML Characteristic Section Terms";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Sensor Web Enablement Marine Profiles";
+        owl:versionInfo         "3";
+        skos:altLabel           "SensorML Characteristics";
+        skos:member             <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0008/> , <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0009/> , <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0002/> , <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0003/> , <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0010/> , <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0007/> , <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0004/> , <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0006/> , <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0001/> , <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0005/>;
+        skos:prefLabel          "SensorML Characteristic Section Terms" .

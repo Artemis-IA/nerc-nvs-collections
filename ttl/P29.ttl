@@ -1,0 +1,1082 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/P29/current/primdetr/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::primdetr";
+        dc:date                "2013-07-11 09:54:22.0";
+        dc:identifier          "SDN:P29::primdetr";
+        pav:authoredOn         "2013-07-11 09:54:22.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/primdetr/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A primary forest is a naturally regenerated forest of native species, where there are no clearly visible indications of human activities and the ecological processes are not significantly disturbed. Reference: 'Global Forest Resources Assessment: Terms and Definitions', Forestry Department of Food and Agriculture Organization (FAO) of the United Nations, Rome 2010, www.fao.org/forestry/14241-0d7b74f45b0d2cfef31599cc17e4c28cd.pdf. Deciduous trees lose their leaves seasonally, for example, during winter in high latitudes or following seasonal variations in rainfall."@en;
+        skos:notation          "SDN:P29::primdetr";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "primary_deciduous_trees"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/ATCC3PFT/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::ATCC3PFT";
+        dc:date                "2018-03-13 13:56:23.0";
+        dc:identifier          "SDN:P29::ATCC3PFT";
+        pav:authoredOn         "2018-03-13 13:56:23.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/ATCC3PFT/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The definition of \"crops\" is model dependent, for example, some models may include fruit trees as crops. A \"c3 plant\" is one that utilizes the C3 carbon fixation pathway as the sole mechanism to bind CO2 before photosynthesis reactions take place. All trees are C3 type. Grasses and crops can be C3 or C4."@en;
+        skos:notation          "SDN:P29::ATCC3PFT";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "crops_of_c3_plant_functional_types"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/ANGC4PFT/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::ANGC4PFT";
+        dc:date                "2018-03-13 13:56:23.0";
+        dc:identifier          "SDN:P29::ANGC4PFT";
+        pav:authoredOn         "2018-03-13 13:56:23.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/ANGC4PFT/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "\"Natural grasses\" means grasses growing in areas of low productivity, often situated on rough or uneven ground. This can include rocky areas, briars and heathland. A \"c4 plant\" is one that utilizes the C4 carbon fixation pathway in which the CO2 is first bound to a compound containing four carbon atoms before photosynthesis reactions take place. All trees are C3 type. Grasses and crops can be C3 or C4."@en;
+        skos:notation          "SDN:P29::ANGC4PFT";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "natural_grasses_of_c4_plant_functional_types"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/CFATNLEV/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::CFATNLEV";
+        dc:date                "2025-01-20 16:07:13.0";
+        dc:identifier          "SDN:P29::CFATNLEV";
+        pav:authoredOn         "2025-01-20 16:07:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/CFATNLEV/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Needleleaf trees, often referred to as conifers, have long, thin needle-shaped leaves that are well adapted to retaining water. Evergreen plants retain their leaves through the year and into the following growing season (reference: https://www.britannica.com/plant/evergreen-plant)."@en;
+        skos:notation          "SDN:P29::CFATNLEV";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "needleleaf_evergreen_trees"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/cfat5urb/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::cfat5urb";
+        dc:date                "2017-02-21 16:02:00.0";
+        dc:identifier          "SDN:P29::cfat5urb";
+        pav:authoredOn         "2017-02-21 16:02:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/cfat5urb/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/P29/current/cfat5urb/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "Urban land is comprised of areas where much of the land is covered by structures. Included in this category are cities, towns and villages. Reference: Anderson, J.R, E. E. Hardy, J. T. Roach and R. E. Witmer (1976), A Land Use And Land Cover Classification System For Use With Remote Sensor Data, Appendix C Land Use Definitions, Geological Survey Professional Paper 964, A revision of the land use classification system as presented in U.S. Geological Survey Circular 671, https://www.usbr.gov/lc/socal/reports/SMappend_C.pdf."@en;
+        skos:notation          "SDN:P29::cfat5urb";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "urban"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/cficfrla/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::cficfrla";
+        dc:date                "2013-07-11 09:54:22.0";
+        dc:identifier          "SDN:P29::cficfrla";
+        pav:authoredOn         "2013-07-11 09:54:22.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/cficfrla/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:P29::cficfrla";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ice_free_land"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/CFATBLDT/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::CFATBLDT";
+        dc:date                "2025-01-20 16:07:13.0";
+        dc:identifier          "SDN:P29::CFATBLDT";
+        pav:authoredOn         "2025-01-20 16:07:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/CFATBLDT/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Broadleaf trees are characterized by leaves that are broad, flat and thin with networked veins (reference: https://treeterms.co.uk/broadleaf/). Deciduous trees lose their leaves seasonally, for example, during winter in high latitudes or following seasonal variations in rainfall."@en;
+        skos:notation          "SDN:P29::CFATBLDT";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "broadleaf_deciduous_trees"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/cfbuvegs/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::cfbuvegs";
+        dc:date                "2013-07-11 09:54:22.0";
+        dc:identifier          "SDN:P29::cfbuvegs";
+        pav:authoredOn         "2013-07-11 09:54:22.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/cfbuvegs/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:P29::cfbuvegs";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "burnt_vegetation"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/CFATAIR0/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::CFATAIR0";
+        dc:date                "2023-07-05 16:51:32.0";
+        dc:identifier          "SDN:P29::CFATAIR0";
+        pav:authoredOn         "2023-07-05 16:51:32.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/CFATAIR0/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The area type of \"air\" distinguishes the atmospheric portion of a domain from the land portion (or any other non-air portion). It is needed when a variable such as wind speed is reported, for example, on a surface at mean sea level pressure. At most locations over land, this surface would be underground and would need to be excluded from consideration, which could be indicated by specifying a cell_methods \"where air\"."@en;
+        skos:notation          "SDN:P29::CFATAIR0";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "air"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/CFATBLEV/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::CFATBLEV";
+        dc:date                "2025-01-20 16:07:13.0";
+        dc:identifier          "SDN:P29::CFATBLEV";
+        pav:authoredOn         "2025-01-20 16:07:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/CFATBLEV/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Broadleaf trees are characterized by leaves that are broad, flat and thin with networked veins (reference: https://treeterms.co.uk/broadleaf/). Evergreen plants retain their leaves through the year and into the following growing season (reference: https://www.britannica.com/plant/evergreen-plant)."@en;
+        skos:notation          "SDN:P29::CFATBLEV";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "broadleaf_evergreen_trees"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/cfbmfire/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::cfbmfire";
+        dc:date                "2015-07-08 15:41:36.0";
+        dc:identifier          "SDN:P29::cfbmfire";
+        pav:authoredOn         "2015-07-08 15:41:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/cfbmfire/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "An area_type of \"fire\" indicates that biomass fire, either smouldering, flaming or both, is present."@en;
+        skos:notation          "SDN:P29::cfbmfire";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "fire"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/ATSIRIDG/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::ATSIRIDG";
+        dc:date                "2018-03-13 13:56:23.0";
+        dc:identifier          "SDN:P29::ATSIRIDG";
+        pav:authoredOn         "2018-03-13 13:56:23.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/ATSIRIDG/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Sea ice \"ridging\" occurs in rough sea conditions. The motion of the sea surface can cause areas of sea ice to deform and fold resulting in ridged upper and lower surfaces. The ridges can be as much as twenty metres thick if thick ice is deformed."@en;
+        skos:notation          "SDN:P29::ATSIRIDG";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "sea_ice_ridges"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/secodetr/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::secodetr";
+        dc:date                "2013-07-11 09:54:22.0";
+        dc:identifier          "SDN:P29::secodetr";
+        pav:authoredOn         "2013-07-11 09:54:22.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/secodetr/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A secondary forest is a forest that has been logged and has recovered naturally or artificially. Reference: 'Report of the ad hoc technical expert group on forest biological diversity', United Nations Convention on Biological Diversity, www.cbd.int/forest/definitions.shtml. Deciduous trees lose their leaves seasonally, for example, during winter in high latitudes or following seasonal variations in rainfall."@en;
+        skos:notation          "SDN:P29::secodetr";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "secondary_deciduous_trees"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/land/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::land";
+        dc:date                "2013-01-08 12:47:16.0";
+        dc:identifier          "SDN:P29::land";
+        pav:authoredOn         "2013-01-08 12:47:16.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/land/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:P29::land";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "land"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/floating_ice/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::floating_ice";
+        dc:date                "2013-01-08 12:47:16.0";
+        dc:identifier          "SDN:P29::floating_ice";
+        pav:authoredOn         "2013-01-08 12:47:16.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/floating_ice/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "All ice floating on water including lake-ice, sea-ice, ice-shelves and icebergs."@en;
+        skos:notation          "SDN:P29::floating_ice";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "floating_ice"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/ATWETLND/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::ATWETLND";
+        dc:date                "2018-03-13 13:56:23.0";
+        dc:identifier          "SDN:P29::ATWETLND";
+        pav:authoredOn         "2018-03-13 13:56:23.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/ATWETLND/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Wetlands are areas where water covers the soil, or is present either at or near the surface of the soil all year or for varying periods of time during the year, including during the growing season."@en;
+        skos:notation          "SDN:P29::ATWETLND";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "wetland"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/cfshrubs/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::cfshrubs";
+        dc:date                "2013-07-11 09:54:22.0";
+        dc:identifier          "SDN:P29::cfshrubs";
+        pav:authoredOn         "2013-07-11 09:54:22.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/cfshrubs/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The distinction between trees and shrubs is model dependent."@en;
+        skos:notation          "SDN:P29::cfshrubs";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "shrubs"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/all_area_types/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::all_area_types";
+        dc:date                "2013-01-08 12:47:16.0";
+        dc:identifier          "SDN:P29::all_area_types";
+        pav:authoredOn         "2013-01-08 12:47:16.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/all_area_types/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:P29::all_area_types";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "all_area_types"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/c3plfuty/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::c3plfuty";
+        dc:date                "2013-07-11 09:54:22.0";
+        dc:identifier          "SDN:P29::c3plfuty";
+        pav:authoredOn         "2013-07-11 09:54:22.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/c3plfuty/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A plant that utilizes the C3 carbon fixation pathway as the sole mechanism to bind CO2 before photosynthesis reactions take place.  All trees are C3 type. Grasses and crops can be C3 or C4."@en;
+        skos:notation          "SDN:P29::c3plfuty";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "c3_plant_functional_types"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/cfvoascl/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::cfvoascl";
+        dc:date                "2015-07-08 15:41:36.0";
+        dc:identifier          "SDN:P29::cfvoascl";
+        pav:authoredOn         "2015-07-08 15:41:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/cfvoascl/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "An area_type of \"volcanic_ash_cloud\" indicates that volcanic ash aerosol is present at some level within the atmospheric column above an area of the surface of the Earth."@en;
+        skos:notation          "SDN:P29::cfvoascl";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "volcanic_ash_cloud"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/bare_ground/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::bare_ground";
+        dc:date                "2013-01-08 12:47:16.0";
+        dc:identifier          "SDN:P29::bare_ground";
+        pav:authoredOn         "2013-01-08 12:47:16.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/bare_ground/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:P29::bare_ground";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "bare_ground"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/cfcropss/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::cfcropss";
+        dc:date                "2013-07-11 09:54:22.0";
+        dc:identifier          "SDN:P29::cfcropss";
+        pav:authoredOn         "2013-07-11 09:54:22.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/cfcropss/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The definition of \"crops\" is model dependent, for example, some models may include fruit trees as crops."@en;
+        skos:notation          "SDN:P29::cfcropss";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "crops"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/ATPC4PFT/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::ATPC4PFT";
+        dc:date                "2018-03-13 13:56:23.0";
+        dc:identifier          "SDN:P29::ATPC4PFT";
+        pav:authoredOn         "2018-03-13 13:56:23.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/ATPC4PFT/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Pastures are assumed to be anthropogenic in origin. They include anthropogenically managed pastureland and rangeland. A \"c4 plant\" is one that utilizes the C4 carbon fixation pathway in which the CO2 is first bound to a compound containing four carbon atoms before photosynthesis reactions take place. All trees are C3 type. Grasses and crops can be C3 or C4."@en;
+        skos:notation          "SDN:P29::ATPC4PFT";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "pastures_of_c4_plant_functional_types"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/cfsmokes/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::cfsmokes";
+        dc:date                "2015-07-08 15:41:36.0";
+        dc:identifier          "SDN:P29::cfsmokes";
+        pav:authoredOn         "2015-07-08 15:41:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/cfsmokes/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "An area_type of \"smoke\" indicates that smoke aerosol is present at some level within the atmospheric column above an area of the surface of the Earth."@en;
+        skos:notation          "SDN:P29::cfsmokes";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "smoke"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/ANGC3PFT/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::ANGC3PFT";
+        dc:date                "2018-03-13 13:56:23.0";
+        dc:identifier          "SDN:P29::ANGC3PFT";
+        pav:authoredOn         "2018-03-13 13:56:23.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/ANGC3PFT/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "\"Natural grasses\" means grasses growing in areas of low productivity, often situated on rough or uneven ground. This can include rocky areas, briars and heathland. A \"c3 plant\" is one that utilizes the C3 carbon fixation pathway as the sole mechanism to bind CO2 before photosynthesis reactions take place. All trees are C3 type. Grasses and crops can be C3 or C4."@en;
+        skos:notation          "SDN:P29::ANGC3PFT";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "natural_grasses_of_c3_plant_functional_types"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/lake_ice_or_sea_ice/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::lake_ice_or_sea_ice";
+        dc:date                "2013-01-08 12:47:16.0";
+        dc:identifier          "SDN:P29::lake_ice_or_sea_ice";
+        pav:authoredOn         "2013-01-08 12:47:16.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/lake_ice_or_sea_ice/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Floating ice excluding ice-shelves and icebergs."@en;
+        skos:notation          "SDN:P29::lake_ice_or_sea_ice";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "lake_ice_or_sea_ice"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/secoevtr/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::secoevtr";
+        dc:date                "2013-07-11 09:54:22.0";
+        dc:identifier          "SDN:P29::secoevtr";
+        pav:authoredOn         "2013-07-11 09:54:22.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/secoevtr/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A secondary forest is a forest that has been logged and has recovered naturally or artificially. Reference: 'Report of the ad hoc technical expert group on forest biological diversity', United Nations Convention on Biological Diversity, www.cbd.int/forest/definitions.shtml. Evergreen trees have leaves in all seasons."@en;
+        skos:notation          "SDN:P29::secoevtr";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "secondary_evergreen_trees"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/cfat5gis/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::cfat5gis";
+        dc:date                "2017-01-24 16:10:06.0";
+        dc:identifier          "SDN:P29::cfat5gis";
+        pav:authoredOn         "2017-01-24 16:10:06.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/cfat5gis/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "An area type of \"grounded ice sheet\" indicates where the ice sheet rest over bedrock and is thus grounded. It excludes ice-caps, glaciers and floating ice shelves."@en;
+        skos:notation          "SDN:P29::cfat5gis";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "grounded_ice_sheet"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/clear_sky/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::clear_sky";
+        dc:date                "2013-01-08 12:47:16.0";
+        dc:identifier          "SDN:P29::clear_sky";
+        pav:authoredOn         "2013-01-08 12:47:16.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/clear_sky/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:P29::clear_sky";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "clear_sky"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/vegetation/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::vegetation";
+        dc:date                "2013-01-08 12:47:16.0";
+        dc:identifier          "SDN:P29::vegetation";
+        pav:authoredOn         "2013-01-08 12:47:16.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/vegetation/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:P29::vegetation";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "vegetation"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/primevtr/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::primevtr";
+        dc:date                "2013-07-11 09:54:22.0";
+        dc:identifier          "SDN:P29::primevtr";
+        pav:authoredOn         "2013-07-11 09:54:22.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/primevtr/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A primary forest is a naturally regenerated forest of native species, where there are no clearly visible indications of human activities and the ecological processes are not significantly disturbed. Reference: 'Global Forest Resources Assessment: Terms and Definitions', Forestry Department of Food and Agriculture Organization (FAO) of the United Nations, Rome 2010, www.fao.org/forestry/14241-0d7b74f45b0d2cfef31599cc17e4c28cd.pdf. Evergreen trees have leaves in all seasons."@en;
+        skos:notation          "SDN:P29::primevtr";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "primary_evergreen_trees"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/cfpastur/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::cfpastur";
+        dc:date                "2017-01-24 16:10:07.0";
+        dc:identifier          "SDN:P29::cfpastur";
+        pav:authoredOn         "2017-01-24 16:10:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/cfpastur/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/P29/current/cfpastur/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "Pastures are assumed to be anthropogenic in origin. They include anthropogenically managed pastureland and rangeland."@en;
+        skos:notation          "SDN:P29::cfpastur";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "pastures"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/ATCC4PFT/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::ATCC4PFT";
+        dc:date                "2018-03-13 13:56:23.0";
+        dc:identifier          "SDN:P29::ATCC4PFT";
+        pav:authoredOn         "2018-03-13 13:56:23.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/ATCC4PFT/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The definition of \"crops\" is model dependent, for example, some models may include fruit trees as crops. A \"c4 plant\" is one that utilizes the C4 carbon fixation pathway in which the CO2 is first bound to a compound containing four carbon atoms before photosynthesis reactions take place. All trees are C3 type. Grasses and crops can be C3 or C4."@en;
+        skos:notation          "SDN:P29::ATCC4PFT";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "crops_of_c4_plant_functional_types"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/CFAT04MP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::CFAT04MP";
+        dc:date                "2016-05-17 15:31:00.0";
+        dc:identifier          "SDN:P29::CFAT04MP";
+        pav:authoredOn         "2016-05-17 15:31:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/CFAT04MP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The area classified as type \"sea_ice\" within a grid cell is unaltered when an area of type \"sea_ice_melt_pond\" is also present because melt ponds occur on top of the existing sea ice."@en;
+        skos:notation          "SDN:P29::CFAT04MP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "sea_ice_melt_pond"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/snow/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::snow";
+        dc:date                "2013-01-08 12:47:16.0";
+        dc:identifier          "SDN:P29::snow";
+        pav:authoredOn         "2013-01-08 12:47:16.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/snow/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:P29::snow";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "snow"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/cfdustaa/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::cfdustaa";
+        dc:date                "2015-07-08 15:41:36.0";
+        dc:identifier          "SDN:P29::cfdustaa";
+        pav:authoredOn         "2015-07-08 15:41:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/cfdustaa/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "An area_type of \"dust_aerosol\" indicates that dust aerosol is present at some level within the atmospheric column above an area of the surface of the Earth."@en;
+        skos:notation          "SDN:P29::cfdustaa";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "dust_aerosol"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/CFA4MFSI/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::CFA4MFSI";
+        dc:date                "2016-05-17 15:31:00.0";
+        dc:identifier          "SDN:P29::CFA4MFSI";
+        pav:authoredOn         "2016-05-17 15:31:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/CFA4MFSI/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The area occupied by type \"sea_ice\" is the sum of the areas of types \"sea_ice_melt_pond\" and \"melt_pond_free_sea_ice\"."@en;
+        skos:notation          "SDN:P29::CFA4MFSI";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "melt_pond_free_sea_ice"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/ATV9IOLA/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::ATV9IOLA";
+        dc:date                "2018-08-06 12:15:46.0";
+        dc:identifier          "SDN:P29::ATV9IOLA";
+        pav:authoredOn         "2018-08-06 12:15:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/ATV9IOLA/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The area type \"ice_on_land\" means ice in glaciers, ice caps, grounded ice sheets (grounded and floating shelves), river and lake ice, and any other ice on a land surface, such as frozen flood water. This is distinct from the area type 'land ice' which has a narrower definition."@en;
+        skos:notation          "SDN:P29::ATV9IOLA";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ice_on_land"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/CFAT10PF/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::CFAT10PF";
+        dc:date                "2020-06-22 17:33:46.0";
+        dc:identifier          "SDN:P29::CFAT10PF";
+        pav:authoredOn         "2020-06-22 17:33:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/CFAT10PF/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "An area type of \"permafrost\" indicates where soil or rock has remained at a temperature at or below zero degrees Celsius throughout the seasonal cycle for two or more years."@en;
+        skos:notation          "SDN:P29::CFAT10PF";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "permafrost"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/ATV9IASL/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::ATV9IASL";
+        dc:date                "2018-08-06 12:15:46.0";
+        dc:identifier          "SDN:P29::ATV9IASL";
+        pav:authoredOn         "2018-08-06 12:15:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/ATV9IASL/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The area type \"ice_and_snow_on_land\" means ice in glaciers, ice caps, ice sheets (grounded and floating shelves), river and lake ice, any other ice on a land surface, such as frozen flood water, and snow lying on such ice or on the land surface."@en;
+        skos:notation          "SDN:P29::ATV9IASL";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ice_and_snow_on_land"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/ATPC3PFT/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::ATPC3PFT";
+        dc:date                "2018-03-13 13:56:23.0";
+        dc:identifier          "SDN:P29::ATPC3PFT";
+        pav:authoredOn         "2018-03-13 13:56:23.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/ATPC3PFT/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Pastures are assumed to be anthropogenic in origin. They include anthropogenically managed pastureland and rangeland. A \"c3 plant\" is one that utilizes the C3 carbon fixation pathway as the sole mechanism to bind CO2 before photosynthesis reactions take place. All trees are C3 type. Grasses and crops can be C3 or C4."@en;
+        skos:notation          "SDN:P29::ATPC3PFT";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "pastures_of_c3_plant_functional_types"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/cfrainac/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::cfrainac";
+        dc:date                "2015-07-08 15:41:36.0";
+        dc:identifier          "SDN:P29::cfrainac";
+        pav:authoredOn         "2015-07-08 15:41:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/cfrainac/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "An area_type of \"rain\" indicates that falling rain is present at some level within the atmospheric column above an area of the surface of the Earth."@en;
+        skos:notation          "SDN:P29::cfrainac";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "rain"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/cftreess/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::cftreess";
+        dc:date                "2013-07-11 09:54:22.0";
+        dc:identifier          "SDN:P29::cftreess";
+        pav:authoredOn         "2013-07-11 09:54:22.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/cftreess/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The distinction between trees and shrubs is model dependent. All trees are C3 plant functional type."@en;
+        skos:notation          "SDN:P29::cftreess";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "trees"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/land_ice/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::land_ice";
+        dc:date                "2017-02-21 16:02:00.0";
+        dc:identifier          "SDN:P29::land_ice";
+        pav:authoredOn         "2017-02-21 16:02:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/land_ice/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/P29/current/land_ice/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "\"Land ice\" means glaciers, ice-caps, grounded ice sheets resting on bedrock and floating ice-shelves."@en;
+        skos:notation          "SDN:P29::land_ice";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "land_ice"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/cfat5fis/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::cfat5fis";
+        dc:date                "2017-01-24 16:10:06.0";
+        dc:identifier          "SDN:P29::cfat5fis";
+        pav:authoredOn         "2017-01-24 16:10:06.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/cfat5fis/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "An area type of \"floating ice shelf\" indicates where ice shelves are present. Ice shelves are the component of ice sheets that flow over the ocean."@en;
+        skos:notation          "SDN:P29::cfat5fis";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "floating_ice_shelf"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/ATV9UFZS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::ATV9UFZS";
+        dc:date                "2018-08-06 12:15:46.0";
+        dc:identifier          "SDN:P29::ATV9UFZS";
+        pav:authoredOn         "2018-08-06 12:15:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/ATV9UFZS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "An area type of \"unfrozen_soil\" means that the soil at the surface is unfrozen. Frozen soil may be present at lower levels within a soil model."@en;
+        skos:notation          "SDN:P29::ATV9UFZS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "unfrozen_soil"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/ATV9FRFW/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::ATV9FRFW";
+        dc:date                "2018-08-06 12:15:46.0";
+        dc:identifier          "SDN:P29::ATV9FRFW";
+        pav:authoredOn         "2018-08-06 12:15:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/ATV9FRFW/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "An area type of \"fresh_free_water\" means a free interface between freshwater and the atmosphere without vegetation or other obstructions."@en;
+        skos:notation          "SDN:P29::ATV9FRFW";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "fresh_free_water"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/c4plfuty/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::c4plfuty";
+        dc:date                "2013-07-11 09:54:22.0";
+        dc:identifier          "SDN:P29::c4plfuty";
+        pav:authoredOn         "2013-07-11 09:54:22.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/c4plfuty/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A plant that utilizes the C4 carbon fixation pathway in which the CO2 is first bound to a compound containing four carbon atoms before photosynthesis reactions take place. All trees are C3 type. Grasses and crops can be C3 or C4."@en;
+        skos:notation          "SDN:P29::c4plfuty";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "c4_plant_functional_types"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/CFATRIV1/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::CFATRIV1";
+        dc:date                "2025-03-19 08:31:35.0";
+        dc:identifier          "SDN:P29::CFATRIV1";
+        pav:authoredOn         "2025-03-19 08:31:35.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/CFATRIV1/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The area type river means flowing water in a channel that is mainly driven by gravity. It includes streams, creeks and canals but not lakes or seas. It also includes water in a floodplain."@en;
+        skos:notation          "SDN:P29::CFATRIV1";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "river"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/CFATLAIS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::CFATLAIS";
+        dc:date                "2025-03-19 08:31:35.0";
+        dc:identifier          "SDN:P29::CFATLAIS";
+        pav:authoredOn         "2025-03-19 08:31:35.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/CFATLAIS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The area type lake_and_inland_sea means a quasi-permanent body of water surrounded by land, which may include certain ponds and reservoirs, but excludes rivers and streams which by gravity convey water into and out of lakes or inland seas or into the ocean."@en;
+        skos:notation          "SDN:P29::CFATLAIS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "lake_and_inland_sea"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/cfat5ish/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::cfat5ish";
+        dc:date                "2023-07-05 16:51:32.0";
+        dc:identifier          "SDN:P29::cfat5ish";
+        pav:authoredOn         "2023-07-05 16:51:32.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/cfat5ish/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/P29/current/cfat5ish/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "An area type of \"ice sheet\" indicates where ice sheets are present. It includes both grounded ice sheets resting over bedrock and any ice shelves flowing over the ocean that are attached to grounded ice sheets. The ice sheet area type excludes ice-caps and glaciers and any floating ice shelves and ice tongues attached to them, but the land_ice area type includes those as well as the ice_sheet area."@en;
+        skos:notation          "SDN:P29::cfat5ish";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ice_sheet"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/cfat5psl/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::cfat5psl";
+        dc:date                "2017-02-21 16:02:00.0";
+        dc:identifier          "SDN:P29::cfat5psl";
+        pav:authoredOn         "2017-02-21 16:02:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/cfat5psl/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/P29/current/cfat5psl/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "\"Primary and secondary land\" is land that is not in use as crop land or pasture land, including forests, grasslands, bare ground and vegetated wetlands. \"Primary land\" is land that has not undergone lulcc (land use or land cover change) due to human disturbance. \"Secondary land\" is land that has previously been used for agriculture, urban development or logging and has subsequently been abandoned. Reference: Hurtt et al. (2011), Climatic Change, 109 - 117, Harmonization of land-use scenarios for the period 1500–2100: 600 years of global gridded annual land-use transitions, wood harvest, and resulting secondary lands, doi: 10.1007/s10584-011-0153-2. \"Primary and secondary land\" refers to land use or management, rather than to specific categories of vegetation cover, e.g. the primary and secondary succession of plant species."@en;
+        skos:notation          "SDN:P29::cfat5psl";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "primary_and_secondary_land"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/CFAT11SC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::CFAT11SC";
+        dc:date                "2023-07-05 16:51:32.0";
+        dc:identifier          "SDN:P29::CFAT11SC";
+        pav:authoredOn         "2023-07-05 16:51:32.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/CFAT11SC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "This area type complements the \"convective_cloud\" area type, which is the other major category of cloud. The \"cloud\" area type is a more general term and includes both convective_cloud and stratiform_cloud types."@en;
+        skos:notation          "SDN:P29::CFAT11SC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "stratiform_cloud"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/cfsnfrla/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::cfsnfrla";
+        dc:date                "2015-07-08 15:41:36.0";
+        dc:identifier          "SDN:P29::cfsnfrla";
+        pav:authoredOn         "2015-07-08 15:41:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/cfsnfrla/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:P29::cfsnfrla";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "snow_free_land"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/CFATNLDT/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::CFATNLDT";
+        dc:date                "2025-01-20 16:07:13.0";
+        dc:identifier          "SDN:P29::CFATNLDT";
+        pav:authoredOn         "2025-01-20 16:07:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/CFATNLDT/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Needleleaf trees, often referred to as conifers, have long, thin needle-shaped leaves that are well adapted to retaining water. Deciduous trees lose their leaves seasonally, for example, during winter in high latitudes or following seasonal variations in rainfall."@en;
+        skos:notation          "SDN:P29::CFATNLDT";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "needleleaf_deciduous_trees"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/cfherbvg/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::cfherbvg";
+        dc:date                "2018-07-10 09:28:29.0";
+        dc:identifier          "SDN:P29::cfherbvg";
+        pav:authoredOn         "2018-07-10 09:28:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/cfherbvg/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Herbaceous plants are plants with very flexible stems. Their leaves and stems die down to soil level at the end of every growing season. Herbaceous plants can be annual, biennial or perennial."@en;
+        skos:notation          "SDN:P29::cfherbvg";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "herbaceous_vegetation"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/sea/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::sea";
+        dc:date                "2016-05-17 15:31:00.0";
+        dc:identifier          "SDN:P29::sea";
+        pav:authoredOn         "2016-05-17 15:31:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/sea/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/P29/current/sea/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "The area occupied by type \"sea\" is equal to the sum of the areas of types \"ice_free_sea\" and \"sea_ice\"."@en;
+        skos:notation          "SDN:P29::sea";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "sea"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/cloud/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::cloud";
+        dc:date                "2013-01-08 12:47:16.0";
+        dc:identifier          "SDN:P29::cloud";
+        pav:authoredOn         "2013-01-08 12:47:16.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/cloud/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:P29::cloud";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "cloud"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/cfnatgra/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::cfnatgra";
+        dc:date                "2018-03-13 13:56:24.0";
+        dc:identifier          "SDN:P29::cfnatgra";
+        pav:authoredOn         "2018-03-13 13:56:24.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/cfnatgra/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/P29/current/cfnatgra/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "\"Natural grasses\" means grasses growing in areas of low productivity, often situated on rough or uneven ground. This can include rocky areas, briars and heathland."@en;
+        skos:notation          "SDN:P29::cfnatgra";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "natural_grasses"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/ice_free_sea/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::ice_free_sea";
+        dc:date                "2013-01-08 12:47:16.0";
+        dc:identifier          "SDN:P29::ice_free_sea";
+        pav:authoredOn         "2013-01-08 12:47:16.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/ice_free_sea/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:P29::ice_free_sea";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ice_free_sea"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/sea_ice/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P29::sea_ice";
+        dc:date                "2016-05-17 15:31:00.0";
+        dc:identifier          "SDN:P29::sea_ice";
+        pav:authoredOn         "2016-05-17 15:31:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P29/current/sea_ice/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/P29/current/sea_ice/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "The area occupied by type \"sea_ice\" is the sum of the areas of types \"sea_ice_melt_pond\" and \"melt_pond_free_sea_ice\". The area occupied by type \"sea\" is equal to the sum of the areas of types \"ice_free_sea\" and \"sea_ice\"."@en;
+        skos:notation          "SDN:P29::sea_ice";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "sea_ice"@en .
+
+<http://vocab.nerc.ac.uk/collection/P29/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Formal vocabulary specialist group within the governance of the Climate and Forecast Community Metadata Standard.";
+        dc:alternative          "CF Area Types";
+        dc:creator              "Climate and Forecast Standard Names Committee";
+        dc:date                 "2025-03-20 02:00:00.0";
+        dc:description          "Terms used to describe the characteristics of regions of the Earth's Surface or their representation in a numerical simulation in the CF metadata conventions for data stored in NetCDF.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Climate and Forecast Area Types";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Climate and Forecast Standard Names Committee";
+        owl:versionInfo         "13";
+        skos:altLabel           "CF Area Types";
+        skos:member             <http://vocab.nerc.ac.uk/collection/P29/current/primdetr/> , <http://vocab.nerc.ac.uk/collection/P29/current/ATCC3PFT/> , <http://vocab.nerc.ac.uk/collection/P29/current/ANGC4PFT/> , <http://vocab.nerc.ac.uk/collection/P29/current/CFATNLEV/> , <http://vocab.nerc.ac.uk/collection/P29/current/cfat5urb/> , <http://vocab.nerc.ac.uk/collection/P29/current/cficfrla/> , <http://vocab.nerc.ac.uk/collection/P29/current/CFATBLDT/> , <http://vocab.nerc.ac.uk/collection/P29/current/cfbuvegs/> , <http://vocab.nerc.ac.uk/collection/P29/current/CFATAIR0/> , <http://vocab.nerc.ac.uk/collection/P29/current/CFATBLEV/> , <http://vocab.nerc.ac.uk/collection/P29/current/cfbmfire/> , <http://vocab.nerc.ac.uk/collection/P29/current/ATSIRIDG/> , <http://vocab.nerc.ac.uk/collection/P29/current/secodetr/> , <http://vocab.nerc.ac.uk/collection/P29/current/land/> , <http://vocab.nerc.ac.uk/collection/P29/current/floating_ice/> , <http://vocab.nerc.ac.uk/collection/P29/current/ATWETLND/> , <http://vocab.nerc.ac.uk/collection/P29/current/cfshrubs/> , <http://vocab.nerc.ac.uk/collection/P29/current/all_area_types/> , <http://vocab.nerc.ac.uk/collection/P29/current/c3plfuty/> , <http://vocab.nerc.ac.uk/collection/P29/current/cfvoascl/> , <http://vocab.nerc.ac.uk/collection/P29/current/bare_ground/> , <http://vocab.nerc.ac.uk/collection/P29/current/cfcropss/> , <http://vocab.nerc.ac.uk/collection/P29/current/ATPC4PFT/> , <http://vocab.nerc.ac.uk/collection/P29/current/cfsmokes/> , <http://vocab.nerc.ac.uk/collection/P29/current/ANGC3PFT/> , <http://vocab.nerc.ac.uk/collection/P29/current/lake_ice_or_sea_ice/> , <http://vocab.nerc.ac.uk/collection/P29/current/secoevtr/> , <http://vocab.nerc.ac.uk/collection/P29/current/cfat5gis/> , <http://vocab.nerc.ac.uk/collection/P29/current/clear_sky/> , <http://vocab.nerc.ac.uk/collection/P29/current/vegetation/> , <http://vocab.nerc.ac.uk/collection/P29/current/primevtr/> , <http://vocab.nerc.ac.uk/collection/P29/current/cfpastur/> , <http://vocab.nerc.ac.uk/collection/P29/current/ATCC4PFT/> , <http://vocab.nerc.ac.uk/collection/P29/current/CFAT04MP/> , <http://vocab.nerc.ac.uk/collection/P29/current/snow/> , <http://vocab.nerc.ac.uk/collection/P29/current/cfdustaa/> , <http://vocab.nerc.ac.uk/collection/P29/current/CFA4MFSI/> , <http://vocab.nerc.ac.uk/collection/P29/current/ATV9IOLA/> , <http://vocab.nerc.ac.uk/collection/P29/current/CFAT10PF/> , <http://vocab.nerc.ac.uk/collection/P29/current/ATV9IASL/> , <http://vocab.nerc.ac.uk/collection/P29/current/ATPC3PFT/> , <http://vocab.nerc.ac.uk/collection/P29/current/cfrainac/> , <http://vocab.nerc.ac.uk/collection/P29/current/cftreess/> , <http://vocab.nerc.ac.uk/collection/P29/current/land_ice/> , <http://vocab.nerc.ac.uk/collection/P29/current/cfat5fis/> , <http://vocab.nerc.ac.uk/collection/P29/current/ATV9UFZS/> , <http://vocab.nerc.ac.uk/collection/P29/current/ATV9FRFW/> , <http://vocab.nerc.ac.uk/collection/P29/current/c4plfuty/> , <http://vocab.nerc.ac.uk/collection/P29/current/CFATRIV1/> , <http://vocab.nerc.ac.uk/collection/P29/current/CFATLAIS/> , <http://vocab.nerc.ac.uk/collection/P29/current/cfat5ish/> , <http://vocab.nerc.ac.uk/collection/P29/current/cfat5psl/> , <http://vocab.nerc.ac.uk/collection/P29/current/CFAT11SC/> , <http://vocab.nerc.ac.uk/collection/P29/current/cfsnfrla/> , <http://vocab.nerc.ac.uk/collection/P29/current/CFATNLDT/> , <http://vocab.nerc.ac.uk/collection/P29/current/cfherbvg/> , <http://vocab.nerc.ac.uk/collection/P29/current/sea/> , <http://vocab.nerc.ac.uk/collection/P29/current/cloud/> , <http://vocab.nerc.ac.uk/collection/P29/current/sea_ice/> , <http://vocab.nerc.ac.uk/collection/P29/current/ice_free_sea/> , <http://vocab.nerc.ac.uk/collection/P29/current/cfnatgra/>;
+        skos:prefLabel          "Climate and Forecast Area Types" .

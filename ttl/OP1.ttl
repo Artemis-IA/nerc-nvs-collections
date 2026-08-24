@@ -1,0 +1,124 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/OP1/current/OPL2/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OP1::OPL2";
+        dc:date                "2026-06-16 23:07:00.0";
+        dc:identifier          "SDN:OP1::OPL2";
+        pav:authoredOn         "2026-06-16 23:07:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OP1/current/OPL2/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The practice is defined and informally documented and the practice is repeatable by the practice creator."@en;
+        skos:notation          "SDN:OP1::OPL2";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Repeatable"@en .
+
+<http://vocab.nerc.ac.uk/collection/OP1/current/OPL5/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OP1::OPL5";
+        dc:date                "2026-06-16 23:07:00.0";
+        dc:identifier          "SDN:OP1::OPL5";
+        pav:authoredOn         "2026-06-16 23:07:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OP1/current/OPL5/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "best practice";
+        skos:definition        "The practice has been reviewed by an internal or external multi-institutional Expert Panel or Expert Working Group, and that review has been documented in either the document or elsewhere; the practice is approved and published by an ocean-focused organization or organizational unit. Practice is adopted at least regionally. Practice includes either a defined process or a clear description of how quality is assessed. Practice has specific methods or approaches to implement user feedback and approve updates. Practice documentation includes or references training materials relevant to the practice."@en;
+        skos:notation          "SDN:OP1::OPL5";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sustained"@en .
+
+<http://vocab.nerc.ac.uk/collection/OP1/current/OPL1/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OP1::OPL1";
+        dc:date                "2026-06-16 23:07:00.0";
+        dc:identifier          "SDN:OP1::OPL1";
+        pav:authoredOn         "2026-06-16 23:07:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OP1/current/OPL1/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The practice is ad hoc with some documentation."@en;
+        skos:notation          "SDN:OP1::OPL1";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Formation"@en .
+
+<http://vocab.nerc.ac.uk/collection/OP1/current/OPL3/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OP1::OPL3";
+        dc:date                "2026-06-16 23:07:00.0";
+        dc:identifier          "SDN:OP1::OPL3";
+        pav:authoredOn         "2026-06-16 23:07:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OP1/current/OPL3/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "good practice";
+        skos:definition        "The practice is formally documented and described by metadata which both conform at least to some existing guidelines. Practice documentation is openly available in a sustained repository with a permanent identifier such as a DOI or ISBN. Practice documentation is sufficient for replication by a practitioner with prior experience using similar practices."@en;
+        skos:notation          "SDN:OP1::OPL3";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Documented"@en .
+
+<http://vocab.nerc.ac.uk/collection/OP1/current/OPL4/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OP1::OPL4";
+        dc:date                "2026-06-16 23:07:00.0";
+        dc:identifier          "SDN:OP1::OPL4";
+        pav:authoredOn         "2026-06-16 23:07:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OP1/current/OPL4/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "better practice";
+        skos:definition        "The practice is actively used by multiple institutions. Practice documentation includes or references specific procedures for practitioners to confirm their proper implementation of the practice. Practice documentation is sufficient for the key outcomes of the practice to be understood and used by stakeholders without detailed knowledge of this and similar practices. A Mechanism(s) is available for evolution of practice and its documentation through feedback contact information (e.g. emails), review meetings or other means for user feedback. Practice documentation uses consistent document structure and descriptive information (metadata) that follow recognized international or regional documentation."@en;
+        skos:notation          "SDN:OP1::OPL4";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Adopted"@en .
+
+<http://vocab.nerc.ac.uk/collection/OP1/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the Ocean Practices Maturity Model (OPMM) and maturity assessments.";
+        rdfs:seeAlso            <https://github.com/nvs-vocabs/OP1>;
+        dc:alternative          "OPM Levels";
+        dc:creator              "Institute of Electrical and Electronics Engineers";
+        dc:date                 "2026-06-17 03:00:01.0";
+        dc:description          "Levels defining the maturity of an ocean practice. The levels and their defining criteria are used to assess the maturity of the ocean practices documentation. Assessment does not address the maturity of the underlying science or technology.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Ocean Practices Maturity Levels";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Institute of Electrical and Electronics Engineers";
+        owl:versionInfo         "1";
+        skos:altLabel           "OPM Levels";
+        skos:member             <http://vocab.nerc.ac.uk/collection/OP1/current/OPL2/> , <http://vocab.nerc.ac.uk/collection/OP1/current/OPL5/> , <http://vocab.nerc.ac.uk/collection/OP1/current/OPL1/> , <http://vocab.nerc.ac.uk/collection/OP1/current/OPL3/> , <http://vocab.nerc.ac.uk/collection/OP1/current/OPL4/>;
+        skos:prefLabel          "Ocean Practices Maturity Levels" .

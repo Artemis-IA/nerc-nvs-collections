@@ -1,0 +1,73 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/B03/current/LRM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B03::LRM";
+        dc:date                "2014-03-26 12:29:51.0";
+        dc:identifier          "SDN:B03::LRM";
+        pav:authoredOn         "2014-03-26 12:29:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B03/current/LRM/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A material developed by a laboratory for its own internal quality assurance use. The material is not certified by an external source."@en;
+        skos:notation          "SDN:B03::LRM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Laboratory Reference Material"@en .
+
+<http://vocab.nerc.ac.uk/collection/B03/current/CRM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B03::CRM";
+        dc:date                "2014-03-26 12:29:51.0";
+        dc:identifier          "SDN:B03::CRM";
+        pav:authoredOn         "2014-03-26 12:29:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B03/current/CRM/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A Reference Material, accompanied by a certificate, one or more of whose property values are certified by a procedure which establishes its traceability to an accurate realisation of the unit in which the property values are expressed and for which each certified value is accompanied by an uncertainty at a stated level of confidence. The certification is issued by an organisation generally accepted to be technically competent in the appropriate discipline."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/B02/current/M000068/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000071/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000089/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000085/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000056/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000052/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000131/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000067/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000063/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000001/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000115/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000081/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000082/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000079/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000013/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000126/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000092/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000095/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000008/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000024/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000020/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000007/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000104/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000012/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000002/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000053/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000023/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000101/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000035/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000064/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000031/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000018/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000046/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000107/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000097/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000134/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000042/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000029/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000130/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000015/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000111/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000011/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000112/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000026/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000022/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000075/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000122/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000123/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000091/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000059/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000118/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000004/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000055/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000051/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000117/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000103/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000100/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000129/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000066/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000062/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000037/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000128/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000033/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000133/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000048/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000099/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000040/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000132/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000114/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000080/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000077/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000073/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000125/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000072/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000088/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000084/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000003/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000017/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000083/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000028/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000036/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000009/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000032/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000094/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000047/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000106/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000006/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000043/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000110/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000039/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000025/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000076/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000021/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000121/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000058/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000119/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000019/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000087/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000005/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000054/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000050/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000116/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000069/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000109/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000038/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000061/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000034/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000065/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000113/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000127/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000030/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000060/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000049/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000045/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000041/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000098/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000016/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000108/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000090/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000093/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000124/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000120/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000057/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000027/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000102/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000070/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000078/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000096/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000014/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000010/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000137/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000138/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000136/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000135/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000074/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000086/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000105/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000044/>;
+        skos:notation          "SDN:B03::CRM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Certified Reference Material"@en .
+
+<http://vocab.nerc.ac.uk/collection/B03/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used within the data centre";
+        dc:alternative          "Reference material classifiers";
+        dc:creator              "British Oceanographic Data Centre";
+        dc:date                 "2014-03-27 02:00:03.0";
+        dc:description          "Terms used to classify the type of reference material used by laboratories in the verification of analytical techniques in terms of consistency, accuracy and precision";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "BODC-annotated reference material classifiers";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "British Oceanographic Data Centre";
+        owl:versionInfo         "2";
+        skos:altLabel           "Reference material classifiers";
+        skos:member             <http://vocab.nerc.ac.uk/collection/B03/current/CRM/> , <http://vocab.nerc.ac.uk/collection/B03/current/LRM/>;
+        skos:prefLabel          "BODC-annotated reference material classifiers" .

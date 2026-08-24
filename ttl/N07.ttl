@@ -1,0 +1,140 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/N07/current/REQA/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N07::REQA";
+        dc:date                "2026-04-13 12:27:11.0";
+        dc:identifier          "SDN:N07::REQA";
+        pav:authoredOn         "2026-04-13 12:27:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N07/current/REQA/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The resource is not directly accessible and may only be obtained by submitting a request to the data centre or through a mediated access process."@en;
+        skos:notation          "SDN:N07::REQA";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "access by request"@en .
+
+<http://vocab.nerc.ac.uk/collection/N07/current/PUNA/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N07::PUNA";
+        dc:date                "2026-04-13 12:27:11.0";
+        dc:identifier          "SDN:N07::PUNA";
+        pav:authoredOn         "2026-04-13 12:27:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N07/current/PUNA/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The resource has been permanently removed and is no longer available. The metadata record is retained as a tombstone or historical record."@en;
+        skos:notation          "SDN:N07::PUNA";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "permanently unavailable"@en .
+
+<http://vocab.nerc.ac.uk/collection/N07/current/RAUT/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N07::RAUT";
+        dc:date                "2026-04-13 12:27:11.0";
+        dc:identifier          "SDN:N07::RAUT";
+        pav:authoredOn         "2026-04-13 12:27:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N07/current/RAUT/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Access to the resource is limited to users who have been authorised by the data custodian or data owner in accordance with applicable policies, agreements, or licensing conditions."@en;
+        skos:notation          "SDN:N07::RAUT";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "restricted to authorised users"@en .
+
+<http://vocab.nerc.ac.uk/collection/N07/current/UNRS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N07::UNRS";
+        dc:date                "2026-04-13 12:27:11.0";
+        dc:identifier          "SDN:N07::UNRS";
+        pav:authoredOn         "2026-04-13 12:27:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N07/current/UNRS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Access to the resource is not subject to any access limitations and is available to all users without restriction."@en;
+        skos:notation          "SDN:N07::UNRS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "unrestricted access"@en .
+
+<http://vocab.nerc.ac.uk/collection/N07/current/RACC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N07::RACC";
+        dc:date                "2026-04-13 12:27:11.0";
+        dc:identifier          "SDN:N07::RACC";
+        pav:authoredOn         "2026-04-13 12:27:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N07/current/RACC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Access to the resource is limited to users who have created a user account or registered with the service providing access to the resource."@en;
+        skos:notation          "SDN:N07::RACC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "registered access"@en .
+
+<http://vocab.nerc.ac.uk/collection/N07/current/EMBG/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N07::EMBG";
+        dc:date                "2026-04-13 12:27:11.0";
+        dc:identifier          "SDN:N07::EMBG";
+        pav:authoredOn         "2026-04-13 12:27:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N07/current/EMBG/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Access to the resource is restricted until a specified date or the occurrence of a defined condition, after which access may be granted in accordance with applicable policies or licensing conditions."@en;
+        skos:notation          "SDN:N07::EMBG";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "embargo"@en .
+
+<http://vocab.nerc.ac.uk/collection/N07/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used for cross-data centre information infrastructure in the UKRI-NERC's Environmental Data Service.";
+        dc:alternative          "EDS Access Limitation Vocabulary";
+        dc:creator              "Environmental Data Service Vocabulary Governance";
+        dc:date                 "2026-04-14 03:00:01.0";
+        dc:description          "Terms describing the access control status of a resource, including requirements, restrictions, or processes that determine how and whether the resource can be obtained.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Environmental Data Service (EDS) Access Limitation Vocabulary";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Environmental Data Service Vocabulary Governance";
+        owl:versionInfo         "1";
+        skos:altLabel           "EDS Access Limitation Vocabulary";
+        skos:member             <http://vocab.nerc.ac.uk/collection/N07/current/REQA/> , <http://vocab.nerc.ac.uk/collection/N07/current/PUNA/> , <http://vocab.nerc.ac.uk/collection/N07/current/RAUT/> , <http://vocab.nerc.ac.uk/collection/N07/current/UNRS/> , <http://vocab.nerc.ac.uk/collection/N07/current/EMBG/> , <http://vocab.nerc.ac.uk/collection/N07/current/RACC/>;
+        skos:prefLabel          "Environmental Data Service (EDS) Access Limitation Vocabulary" .

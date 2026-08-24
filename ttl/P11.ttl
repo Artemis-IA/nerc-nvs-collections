@@ -1,0 +1,54 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/P11/current/GCAT0001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P11::GCAT0001";
+        dc:date                "2004-09-27 10:33:24.0";
+        dc:identifier          "SDN:P11::GCAT0001";
+        pav:authoredOn         "2004-09-27 10:33:24.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P11/current/GCAT0001/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:P11::GCAT0001";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "EARTH SCIENCE"@en .
+
+<http://vocab.nerc.ac.uk/collection/P11/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "NASA environmental discovery metadata development and portal management group.";
+        dc:alternative          "GCMD categories";
+        dc:creator              "Global Change Master Directory";
+        dc:date                 "2007-04-18 14:55:46.0";
+        dc:description          "This collection is no longer maintained. It is an old version of the GCMD science keywords set up when GCMD keywords did not have stable URIs. Please use the URIs published on https://gcmd.earthdata.nasa.gov/ (definition was: Category level terms from the Science Keywords from Olsen L.M. et. al (2006) NASA/GCMD Earth Science Keywords Version 5.3.3.).";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Global Change Master Directory Science Keyword categories";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Global Change Master Directory";
+        owl:versionInfo         "4";
+        skos:altLabel           "GCMD categories";
+        skos:member             <http://vocab.nerc.ac.uk/collection/P11/current/GCAT0001/>;
+        skos:prefLabel          "Global Change Master Directory Science Keyword categories" .

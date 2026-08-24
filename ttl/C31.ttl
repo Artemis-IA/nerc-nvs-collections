@@ -1,0 +1,479 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/C31/current/CC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C31::CC";
+        dc:date                "2005-12-31 12:00:00.0";
+        dc:identifier          "SDN:C31::CC";
+        pav:authoredOn         "2005-12-31 12:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C31/current/CC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:C31::CC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Closed container"@en .
+
+<http://vocab.nerc.ac.uk/collection/C31/current/RV/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C31::RV";
+        dc:date                "2005-12-31 12:00:00.0";
+        dc:identifier          "SDN:C31::RV";
+        pav:authoredOn         "2005-12-31 12:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C31/current/RV/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:C31::RV";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Research vessel"@en .
+
+<http://vocab.nerc.ac.uk/collection/C31/current/GC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C31::GC";
+        dc:date                "2005-12-31 12:00:00.0";
+        dc:identifier          "SDN:C31::GC";
+        pav:authoredOn         "2005-12-31 12:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C31/current/GC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:C31::GC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "General Cargo"@en .
+
+<http://vocab.nerc.ac.uk/collection/C31/current/RF/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C31::RF";
+        dc:date                "2005-12-31 12:00:00.0";
+        dc:identifier          "SDN:C31::RF";
+        pav:authoredOn         "2005-12-31 12:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C31/current/RF/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:C31::RF";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Ro/Ro ferry"@en .
+
+<http://vocab.nerc.ac.uk/collection/C31/current/BC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C31::BC";
+        dc:date                "2005-12-31 12:00:00.0";
+        dc:identifier          "SDN:C31::BC";
+        pav:authoredOn         "2005-12-31 12:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C31/current/BC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:C31::BC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Bulk Carrier"@en .
+
+<http://vocab.nerc.ac.uk/collection/C31/current/LV/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C31::LV";
+        dc:date                "2005-12-31 12:00:00.0";
+        dc:identifier          "SDN:C31::LV";
+        pav:authoredOn         "2005-12-31 12:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C31/current/LV/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:C31::LV";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Light vessel"@en .
+
+<http://vocab.nerc.ac.uk/collection/C31/current/F/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C31::F";
+        dc:date                "2005-12-31 12:00:00.0";
+        dc:identifier          "SDN:C31::F";
+        pav:authoredOn         "2005-12-31 12:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C31/current/F/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:C31::F";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Ferry"@en .
+
+<http://vocab.nerc.ac.uk/collection/C31/current/RR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C31::RR";
+        dc:date                "2005-12-31 12:00:00.0";
+        dc:identifier          "SDN:C31::RR";
+        pav:authoredOn         "2005-12-31 12:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C31/current/RR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:C31::RR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Ro/Ro container"@en .
+
+<http://vocab.nerc.ac.uk/collection/C31/current/OW/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C31::OW";
+        dc:date                "2005-12-31 12:00:00.0";
+        dc:identifier          "SDN:C31::OW";
+        pav:authoredOn         "2005-12-31 12:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C31/current/OW/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:C31::OW";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Ocean weather ship"@en .
+
+<http://vocab.nerc.ac.uk/collection/C31/current/CS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C31::CS";
+        dc:date                "2005-12-31 12:00:00.0";
+        dc:identifier          "SDN:C31::CS";
+        pav:authoredOn         "2005-12-31 12:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C31/current/CS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:C31::CS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Container Ship"@en .
+
+<http://vocab.nerc.ac.uk/collection/C31/current/PL/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C31::PL";
+        dc:date                "2005-12-31 12:00:00.0";
+        dc:identifier          "SDN:C31::PL";
+        pav:authoredOn         "2005-12-31 12:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C31/current/PL/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:C31::PL";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Passenger liner"@en .
+
+<http://vocab.nerc.ac.uk/collection/C31/current/B/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C31::B";
+        dc:date                "2005-12-31 12:00:00.0";
+        dc:identifier          "SDN:C31::B";
+        pav:authoredOn         "2005-12-31 12:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C31/current/B/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:C31::B";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Barge"@en .
+
+<http://vocab.nerc.ac.uk/collection/C31/current/IF/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C31::IF";
+        dc:date                "2005-12-31 12:00:00.0";
+        dc:identifier          "SDN:C31::IF";
+        pav:authoredOn         "2005-12-31 12:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C31/current/IF/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:C31::IF";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Inshore fishing vessel"@en .
+
+<http://vocab.nerc.ac.uk/collection/C31/current/BS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C31::BS";
+        dc:date                "2005-12-31 12:00:00.0";
+        dc:identifier          "SDN:C31::BS";
+        pav:authoredOn         "2005-12-31 12:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C31/current/BS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:C31::BS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Banana ship"@en .
+
+<http://vocab.nerc.ac.uk/collection/C31/current/MS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C31::MS";
+        dc:date                "2005-12-31 12:00:00.0";
+        dc:identifier          "SDN:C31::MS";
+        pav:authoredOn         "2005-12-31 12:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C31/current/MS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:C31::MS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Military ship"@en .
+
+<http://vocab.nerc.ac.uk/collection/C31/current/LT/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C31::LT";
+        dc:date                "2005-12-31 12:00:00.0";
+        dc:identifier          "SDN:C31::LT";
+        pav:authoredOn         "2005-12-31 12:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C31/current/LT/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:C31::LT";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Liquid tanker"@en .
+
+<http://vocab.nerc.ac.uk/collection/C31/current/OT/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C31::OT";
+        dc:date                "2005-12-31 12:00:00.0";
+        dc:identifier          "SDN:C31::OT";
+        pav:authoredOn         "2005-12-31 12:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C31/current/OT/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:C31::OT";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Other"@en .
+
+<http://vocab.nerc.ac.uk/collection/C31/current/T/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C31::T";
+        dc:date                "2005-12-31 12:00:00.0";
+        dc:identifier          "SDN:C31::T";
+        pav:authoredOn         "2005-12-31 12:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C31/current/T/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:C31::T";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Trawler"@en .
+
+<http://vocab.nerc.ac.uk/collection/C31/current/TU/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C31::TU";
+        dc:date                "2005-12-31 12:00:00.0";
+        dc:identifier          "SDN:C31::TU";
+        pav:authoredOn         "2005-12-31 12:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C31/current/TU/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:C31::TU";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Tug"@en .
+
+<http://vocab.nerc.ac.uk/collection/C31/current/CG/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C31::CG";
+        dc:date                "2005-12-31 12:00:00.0";
+        dc:identifier          "SDN:C31::CG";
+        pav:authoredOn         "2005-12-31 12:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C31/current/CG/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:C31::CG";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Coast guard ship"@en .
+
+<http://vocab.nerc.ac.uk/collection/C31/current/PV/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C31::PV";
+        dc:date                "2005-12-31 12:00:00.0";
+        dc:identifier          "SDN:C31::PV";
+        pav:authoredOn         "2005-12-31 12:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C31/current/PV/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:C31::PV";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Passenger vessel"@en .
+
+<http://vocab.nerc.ac.uk/collection/C31/current/Y/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C31::Y";
+        dc:date                "2005-12-31 12:00:00.0";
+        dc:identifier          "SDN:C31::Y";
+        pav:authoredOn         "2005-12-31 12:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C31/current/Y/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:C31::Y";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Yacht/pleasure craft"@en .
+
+<http://vocab.nerc.ac.uk/collection/C31/current/SV/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C31::SV";
+        dc:date                "2005-12-31 12:00:00.0";
+        dc:identifier          "SDN:C31::SV";
+        pav:authoredOn         "2005-12-31 12:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C31/current/SV/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:C31::SV";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Support vessel"@en .
+
+<http://vocab.nerc.ac.uk/collection/C31/current/DR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C31::DR";
+        dc:date                "2005-12-31 12:00:00.0";
+        dc:identifier          "SDN:C31::DR";
+        pav:authoredOn         "2005-12-31 12:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C31/current/DR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:C31::DR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Dredger"@en .
+
+<http://vocab.nerc.ac.uk/collection/C31/current/GT/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C31::GT";
+        dc:date                "2005-12-31 12:00:00.0";
+        dc:identifier          "SDN:C31::GT";
+        pav:authoredOn         "2005-12-31 12:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C31/current/GT/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:C31::GT";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Gas tanker"@en .
+
+<http://vocab.nerc.ac.uk/collection/C31/current/FV/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C31::FV";
+        dc:date                "2005-12-31 12:00:00.0";
+        dc:identifier          "SDN:C31::FV";
+        pav:authoredOn         "2005-12-31 12:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C31/current/FV/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "";
+        skos:notation          "SDN:C31::FV";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Other fishing vessel"@en .
+
+<http://vocab.nerc.ac.uk/collection/C31/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the international exchange of meteorological and metocean data between national meteorological organisations";
+        dc:alternative          "WMO VOS category";
+        dc:creator              "World Meteorological Organisation";
+        dc:date                 "2005-12-31 12:00:00.0";
+        dc:description          "WMO ship type codes used to classify voluntary observing ships. Source: [WMO No.47 - International List of Selected, Supplementary and Auxiliary Ships](http://www.wmo.int/pages/prog/www/ois/pub47/pub47-home.htm).";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "World Meteorological Organisation voluntary observing ship category";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "World Meteorological Organisation";
+        owl:versionInfo         "0";
+        skos:altLabel           "WMO VOS category";
+        skos:member             <http://vocab.nerc.ac.uk/collection/C31/current/CC/> , <http://vocab.nerc.ac.uk/collection/C31/current/RV/> , <http://vocab.nerc.ac.uk/collection/C31/current/GC/> , <http://vocab.nerc.ac.uk/collection/C31/current/RF/> , <http://vocab.nerc.ac.uk/collection/C31/current/BC/> , <http://vocab.nerc.ac.uk/collection/C31/current/LV/> , <http://vocab.nerc.ac.uk/collection/C31/current/F/> , <http://vocab.nerc.ac.uk/collection/C31/current/RR/> , <http://vocab.nerc.ac.uk/collection/C31/current/OW/> , <http://vocab.nerc.ac.uk/collection/C31/current/CS/> , <http://vocab.nerc.ac.uk/collection/C31/current/PL/> , <http://vocab.nerc.ac.uk/collection/C31/current/B/> , <http://vocab.nerc.ac.uk/collection/C31/current/IF/> , <http://vocab.nerc.ac.uk/collection/C31/current/BS/> , <http://vocab.nerc.ac.uk/collection/C31/current/MS/> , <http://vocab.nerc.ac.uk/collection/C31/current/LT/> , <http://vocab.nerc.ac.uk/collection/C31/current/OT/> , <http://vocab.nerc.ac.uk/collection/C31/current/T/> , <http://vocab.nerc.ac.uk/collection/C31/current/TU/> , <http://vocab.nerc.ac.uk/collection/C31/current/CG/> , <http://vocab.nerc.ac.uk/collection/C31/current/PV/> , <http://vocab.nerc.ac.uk/collection/C31/current/Y/> , <http://vocab.nerc.ac.uk/collection/C31/current/SV/> , <http://vocab.nerc.ac.uk/collection/C31/current/FV/> , <http://vocab.nerc.ac.uk/collection/C31/current/GT/> , <http://vocab.nerc.ac.uk/collection/C31/current/DR/>;
+        skos:prefLabel          "World Meteorological Organisation voluntary observing ship category" .

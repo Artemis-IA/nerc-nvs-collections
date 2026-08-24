@@ -1,0 +1,105 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/BQ1/current/1/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:BQ1::1";
+        dc:date                "2023-07-14 11:30:36.0";
+        dc:identifier          "SDN:BQ1::1";
+        pav:authoredOn         "2023-07-14 11:30:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/BQ1/current/1/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "500-50m";
+        skos:definition        "Grossly equivalent to LORAN, DECCA systems or similar."@en;
+        skos:notation          "SDN:BQ1::1";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Between 500m and 50m"@en .
+
+<http://vocab.nerc.ac.uk/collection/BQ1/current/3/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:BQ1::3";
+        dc:date                "2023-07-14 11:30:38.0";
+        dc:identifier          "SDN:BQ1::3";
+        pav:authoredOn         "2023-07-14 11:30:38.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/BQ1/current/3/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "GPS with correction. Grossly equivalent to aided GPS systems such as DGPS, RTK."@en;
+        skos:notation          "SDN:BQ1::3";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "<20m"@en .
+
+<http://vocab.nerc.ac.uk/collection/BQ1/current/2/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:BQ1::2";
+        dc:date                "2023-07-14 11:30:37.0";
+        dc:identifier          "SDN:BQ1::2";
+        pav:authoredOn         "2023-07-14 11:30:37.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/BQ1/current/2/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "50-20m";
+        skos:definition        "Grossly equivalent to natural GPS systems."@en;
+        skos:notation          "SDN:BQ1::2";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Between 50m and 20m"@en .
+
+<http://vocab.nerc.ac.uk/collection/BQ1/current/0/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:BQ1::0";
+        dc:date                "2023-07-14 11:30:35.0";
+        dc:identifier          "SDN:BQ1::0";
+        pav:authoredOn         "2023-07-14 11:30:35.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/BQ1/current/0/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Unknown";
+        skos:definition        "Grossly equivalent to TACAN, OMEGA systems or similar."@en;
+        skos:notation          "SDN:BQ1::0";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Unknown or > 500m"@en .
+
+<http://vocab.nerc.ac.uk/collection/BQ1/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "A European project consortium aimed at the creation of data products using bathymetry data amassed through SeaDataNet. The governance is loosely defined as the scientific expertise within the consortium with no formal processes defined.";
+        dc:alternative          "EMODnet Bathy QI_Horizontal";
+        dc:creator              "EMODnet Bathymetry Lot";
+        dc:date                 "2023-07-15 03:00:03.0";
+        dc:description          "Terms used by the EMODnet Bathymetry Lot to define the estimated horizontal accuracy of bathymetric data (QI_Horizontal).";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "EMODnet Bathymetry Quality Indicators of horizontal accuracy (QI_Horizontal)";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "EMODnet Bathymetry Lot";
+        owl:versionInfo         "1";
+        skos:altLabel           "EMODnet Bathy QI_Horizontal";
+        skos:member             <http://vocab.nerc.ac.uk/collection/BQ1/current/1/> , <http://vocab.nerc.ac.uk/collection/BQ1/current/0/> , <http://vocab.nerc.ac.uk/collection/BQ1/current/2/> , <http://vocab.nerc.ac.uk/collection/BQ1/current/3/>;
+        skos:prefLabel          "EMODnet Bathymetry Quality Indicators of horizontal accuracy (QI_Horizontal)" .

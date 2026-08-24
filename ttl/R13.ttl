@@ -1,0 +1,92 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/R13/current/I/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R13::I";
+        dc:date                "2024-09-11 11:40:41.0";
+        dc:identifier          "SDN:R13::I";
+        pav:authoredOn         "2024-09-11 11:40:41.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R13/current/I/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R13/current/I/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "I";
+        skos:definition        "Below 30 degrees south, the Indian/Atlantic oceans boundary is at 20 degrees east, whereas the Indian/Pacific oceans boundary is at 145 degrees east. The Red Sea is part of the Indian ocean area."@en;
+        skos:notation          "SDN:R13::I";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Indian ocean area"@en .
+
+<http://vocab.nerc.ac.uk/collection/R13/current/A/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R13::A";
+        dc:date                "2024-09-11 11:40:41.0";
+        dc:identifier          "SDN:R13::A";
+        pav:authoredOn         "2024-09-11 11:40:41.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R13/current/A/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R13/current/A/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "A";
+        skos:definition        "Below 30 degrees south, the Atlantic/Pacific oceans boundary is at 70 degrees west, whereas the Atlantic/Indian oceans boundary is at 20 degrees east. The Caribbean Sea, the Mexico Gulf, the Mediterranean Sea, the Black Sea, the Baltic Sea, the Labrador Sea, the Baffin Bay and the Nordic seas (Greenland, Norwegian, Barents and Kara seas) are part of the Atlantic ocean area."@en;
+        skos:notation          "SDN:R13::A";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Atlantic ocean area"@en .
+
+<http://vocab.nerc.ac.uk/collection/R13/current/P/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R13::P";
+        dc:date                "2024-09-11 11:40:41.0";
+        dc:identifier          "SDN:R13::P";
+        pav:authoredOn         "2024-09-11 11:40:41.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R13/current/P/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R13/current/P/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "P";
+        skos:definition        "Below 30 degrees south, the Pacific/Indian oceans boundary is at 145 degrees east, whereas the Pacific/Atlantic oceans boundary is at 70 degrees west. The South China Sea, the Indonesian seas, the Laptev, Beaufort, East Siberian and Chukchi seas are part of the Pacific ocean area."@en;
+        skos:notation          "SDN:R13::P";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Pacific ocean area"@en .
+
+<http://vocab.nerc.ac.uk/collection/R13/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the Argo data system, published and maintained by the Argo Data Management Team (ADMT) and hosted on the NERC Vocabulary Server.";
+        rdfs:seeAlso            <https://github.com/OneArgo/ArgoVocabs>;
+        dc:alternative          "OCEAN_CODE";
+        dc:creator              "Argo Data Management Team";
+        dc:date                 "2024-09-12 03:00:00.0";
+        dc:description          "Ocean area codes assigned to each profile in the Metadata directory (index) file of the Argo Global Assembly Centre.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Argo ocean area codes and boundary definitions";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Argo Data Management Team";
+        owl:versionInfo         "2";
+        skos:altLabel           "OCEAN_CODE";
+        skos:member             <http://vocab.nerc.ac.uk/collection/R13/current/I/> , <http://vocab.nerc.ac.uk/collection/R13/current/P/> , <http://vocab.nerc.ac.uk/collection/R13/current/A/>;
+        skos:prefLabel          "Argo ocean area codes and boundary definitions" .

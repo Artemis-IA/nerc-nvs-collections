@@ -1,0 +1,145 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/M09/current/6/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M09::6";
+        dc:date                "2013-11-14 10:15:17.0";
+        dc:identifier          "SDN:M09::6";
+        pav:authoredOn         "2013-11-14 10:15:17.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M09/current/6/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Methods combining two or more types of valuation method to derive outputs."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/M10/current/25/>;
+        skos:notation          "SDN:M09::6";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Cross-methods"@en .
+
+<http://vocab.nerc.ac.uk/collection/M09/current/5/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M09::5";
+        dc:date                "2013-11-14 10:15:17.0";
+        dc:identifier          "SDN:M09::5";
+        pav:authoredOn         "2013-11-14 10:15:17.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M09/current/5/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Costs can be used as proxies for value, but can provide information about benefits or value only under specific and limited conditions. First, there must be multiple ways to produce an equivalent amount and quality of the ecosystem service. Second, the value of the ecosystem service must be greater than or equal to the cost of producing the service via this alternative means, so that society would be better off paying for replacement rather than choosing to forego the ecosystem service."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/M10/current/24/>;
+        skos:notation          "SDN:M09::5";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Cost as a proxy for value"@en .
+
+<http://vocab.nerc.ac.uk/collection/M09/current/4/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M09::4";
+        dc:date                "2013-11-14 10:15:17.0";
+        dc:identifier          "SDN:M09::4";
+        pav:authoredOn         "2013-11-14 10:15:17.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M09/current/4/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Produces quantitative metrics that are correlated with ecological contributions to human well-being and can serve as indicators for these contributions in a specific setting.  They use data to provide information related to the demand for, supply (or scarcity) of ecosystem services. Although the resulting indicators can be correlated with other value measures, such as economic values, they do not themselves provide measures of value."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/M10/current/23/> , <http://vocab.nerc.ac.uk/collection/M10/current/21/> , <http://vocab.nerc.ac.uk/collection/M10/current/22/>;
+        skos:notation          "SDN:M09::4";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Ecosystem benefit indicators and biophysical ranking methods"@en .
+
+<http://vocab.nerc.ac.uk/collection/M09/current/1/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M09::1";
+        dc:date                "2013-11-14 10:15:17.0";
+        dc:identifier          "SDN:M09::1";
+        pav:authoredOn         "2013-11-14 10:15:17.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M09/current/1/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Social-psychological approaches to characterize and measure the values people hold, express, and advocate with respect to changes in ecological states or their personal and social consequences. These methods elicit value-relevant perceptions and judgments, typically expressed as choices, rankings, or ratings."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/M10/current/8/> , <http://vocab.nerc.ac.uk/collection/M10/current/9/> , <http://vocab.nerc.ac.uk/collection/M10/current/10/>;
+        skos:notation          "SDN:M09::1";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Measures of attitudes preferences and intentions"@en .
+
+<http://vocab.nerc.ac.uk/collection/M09/current/2/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M09::2";
+        dc:date                "2013-11-14 10:15:17.0";
+        dc:identifier          "SDN:M09::2";
+        pav:authoredOn         "2013-11-14 10:15:17.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M09/current/2/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Economic valuation methods seek to measure the tradeoffs individuals are willing to make for ecological improvements or to avoid ecological degradation, given the constraints they face.  They are based on the utilitarian concept of Total Economic Value (TEV) of the environment, an expression of the many ways through which people benefit from the environment."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/M10/current/13/> , <http://vocab.nerc.ac.uk/collection/M10/current/17/> , <http://vocab.nerc.ac.uk/collection/M10/current/11/> , <http://vocab.nerc.ac.uk/collection/M10/current/15/> , <http://vocab.nerc.ac.uk/collection/M10/current/18/> , <http://vocab.nerc.ac.uk/collection/M10/current/12/> , <http://vocab.nerc.ac.uk/collection/M10/current/16/>;
+        skos:notation          "SDN:M09::2";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Direct economic valuation methods"@en .
+
+<http://vocab.nerc.ac.uk/collection/M09/current/3/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M09::3";
+        dc:date                "2013-11-14 10:15:17.0";
+        dc:identifier          "SDN:M09::3";
+        pav:authoredOn         "2013-11-14 10:15:17.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M09/current/3/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Civic valuation seeks to measure the values that people place on changes in ecosystems or ecosystem services when explicitly considering or acting in their role as citizens."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/M10/current/19/> , <http://vocab.nerc.ac.uk/collection/M10/current/20/>;
+        skos:notation          "SDN:M09::3";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Civic valuation"@en .
+
+<http://vocab.nerc.ac.uk/collection/M09/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in MEDIN data and metadata documents";
+        dc:alternative          "MEDIN EV method types";
+        dc:creator              "MEDIN Standards Group";
+        dc:date                 "2013-11-15 02:00:04.0";
+        dc:description          "Terms used to classify techniques used to assess the socio-economic value of an ecosystem.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "MEDIN ecosystem valuation method types";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "MEDIN Standards Group";
+        owl:versionInfo         "1";
+        skos:altLabel           "MEDIN EV method types";
+        skos:member             <http://vocab.nerc.ac.uk/collection/M09/current/6/> , <http://vocab.nerc.ac.uk/collection/M09/current/5/> , <http://vocab.nerc.ac.uk/collection/M09/current/4/> , <http://vocab.nerc.ac.uk/collection/M09/current/3/> , <http://vocab.nerc.ac.uk/collection/M09/current/2/> , <http://vocab.nerc.ac.uk/collection/M09/current/1/>;
+        skos:prefLabel          "MEDIN ecosystem valuation method types" .

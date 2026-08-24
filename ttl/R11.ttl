@@ -1,0 +1,484 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/R11/current/13/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R11::13";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R11::13";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R11/current/13/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Test 13";
+        skos:definition        "Stuck Value test. Test binary ID = 8192"@en;
+        skos:notation          "SDN:R11::13";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Stuck Value test"@en .
+
+<http://vocab.nerc.ac.uk/collection/R11/current/23/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R11::23";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R11::23";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R11/current/23/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Test 23";
+        skos:definition        "Interim rtqc flag scheme for data deeper than 2000 dbar. Test binary ID = 8388608"@en;
+        skos:notation          "SDN:R11::23";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Interim rtqc flag scheme for data deeper than 2000 dbar"@en .
+
+<http://vocab.nerc.ac.uk/collection/R11/current/25/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R11::25";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R11::25";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R11/current/25/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Test 25";
+        skos:definition        "MEDian with a Distance (MEDD) test. Test binary ID = 33554432"@en;
+        skos:notation          "SDN:R11::25";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "MEDD test"@en .
+
+<http://vocab.nerc.ac.uk/collection/R11/current/9/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R11::9";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R11::9";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R11/current/9/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Test 9";
+        skos:definition        "Spike test. Test binary ID = 512"@en;
+        skos:notation          "SDN:R11::9";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Spike test"@en .
+
+<http://vocab.nerc.ac.uk/collection/R11/current/11/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R11::11";
+        dc:date                "2020-04-07 23:03:06.0";
+        dc:identifier          "SDN:R11::11";
+        pav:authoredOn         "2020-04-07 23:03:06.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R11/current/11/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R11/current/11/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "Test 11";
+        skos:definition        "Gradient test. Test binary ID = 2048"@en;
+        skos:notation          "SDN:R11::11";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Gradient test"@en .
+
+<http://vocab.nerc.ac.uk/collection/R11/current/7/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R11::7";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R11::7";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R11/current/7/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Test 7";
+        skos:definition        "Regional Global Parameter test. Test binary ID = 128"@en;
+        skos:notation          "SDN:R11::7";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Regional Global Parameter test"@en .
+
+<http://vocab.nerc.ac.uk/collection/R11/current/2/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R11::2";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R11::2";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R11/current/2/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Test 2";
+        skos:definition        "Impossible Date test. Test binary ID = 4"@en;
+        skos:notation          "SDN:R11::2";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Impossible Date test"@en .
+
+<http://vocab.nerc.ac.uk/collection/R11/current/18/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R11::18";
+        dc:date                "2022-06-07 14:36:14.0";
+        dc:identifier          "SDN:R11::18";
+        pav:authoredOn         "2022-06-07 14:36:14.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R11/current/18/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R11/current/18/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "Test 18";
+        skos:definition        "Frozen profile test. Test binary ID = 261144"@en;
+        skos:notation          "SDN:R11::18";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Frozen profile test"@en .
+
+<http://vocab.nerc.ac.uk/collection/R11/current/16/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R11::16";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R11::16";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R11/current/16/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Test 16";
+        skos:definition        "Gross Salinity or Temperature Sensor Drift test. Test binary ID = 65536"@en;
+        skos:notation          "SDN:R11::16";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Gross Salinity or Temperature Sensor Drift test"@en .
+
+<http://vocab.nerc.ac.uk/collection/R11/current/17/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R11::17";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R11::17";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R11/current/17/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Test 17";
+        skos:definition        "Visual QC test. Test binary ID = 131072"@en;
+        skos:notation          "SDN:R11::17";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Visual QC test"@en .
+
+<http://vocab.nerc.ac.uk/collection/R11/current/26/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R11::26";
+        dc:date                "2024-09-11 11:40:41.0";
+        dc:identifier          "SDN:R11::26";
+        pav:authoredOn         "2024-09-11 11:40:41.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R11/current/26/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Test 26";
+        skos:definition        "TEMP_CNDC test applied to RBRargo3|2K, test added in July 2022. CTD data (< 2000 dbar) (TEMP_CNDC is used in the long timescale thermal inertia correction for RBR salinity data. This test aims to identify vertical profiles where TEMP_CNDC is of bad quality and thus unsuitable for use in the real-time adjustment of RBR salinity data.) Test 26 binary id = 67 108 864."@en;
+        skos:notation          "SDN:R11::26";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "TEMP_CNDC test applied to RBRargo3 2K"@en .
+
+<http://vocab.nerc.ac.uk/collection/R11/current/3/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R11::3";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R11::3";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R11/current/3/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Test 3";
+        skos:definition        "Impossible Location test. Test binary ID = 8"@en;
+        skos:notation          "SDN:R11::3";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Impossible Location test"@en .
+
+<http://vocab.nerc.ac.uk/collection/R11/current/14/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R11::14";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R11::14";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R11/current/14/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Test 14";
+        skos:definition        "Density Inversion test. Test binary ID = 16384"@en;
+        skos:notation          "SDN:R11::14";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Density Inversion test"@en .
+
+<http://vocab.nerc.ac.uk/collection/R11/current/4/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R11::4";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R11::4";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R11/current/4/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Test 4";
+        skos:definition        "Position on Land test. Test binary ID = 16"@en;
+        skos:notation          "SDN:R11::4";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Position on Land test"@en .
+
+<http://vocab.nerc.ac.uk/collection/R11/current/24/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R11::24";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R11::24";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R11/current/24/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Test 24";
+        skos:definition        "Interim rtqc flag scheme for data from experimental sensors. Test binary ID = 16777216"@en;
+        skos:notation          "SDN:R11::24";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Interim rtqc flag scheme for data from experimental sensors"@en .
+
+<http://vocab.nerc.ac.uk/collection/R11/current/1/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R11::1";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R11::1";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R11/current/1/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Test 1";
+        skos:definition        "Platform Identification test. Test binary ID = 2"@en;
+        skos:notation          "SDN:R11::1";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Platform Identification test"@en .
+
+<http://vocab.nerc.ac.uk/collection/R11/current/12/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R11::12";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R11::12";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R11/current/12/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Test 12";
+        skos:definition        "Digit Rollover test. Test binary ID = 4096"@en;
+        skos:notation          "SDN:R11::12";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Digit Rollover test"@en .
+
+<http://vocab.nerc.ac.uk/collection/R11/current/5/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R11::5";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R11::5";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R11/current/5/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Test 5";
+        skos:definition        "Impossible Speed test. Test binary ID = 32"@en;
+        skos:notation          "SDN:R11::5";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Impossible Speed test"@en .
+
+<http://vocab.nerc.ac.uk/collection/R11/current/15/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R11::15";
+        dc:date                "2025-03-06 09:09:15.0";
+        dc:identifier          "SDN:R11::15";
+        pav:authoredOn         "2025-03-06 09:09:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R11/current/15/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R11/current/15/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "Test 15";
+        skos:definition        "Supplemental sensor exclusion list test. Test binary ID = 32768"@en;
+        skos:notation          "SDN:R11::15";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Supplemental sensor exclusion list test"@en .
+
+<http://vocab.nerc.ac.uk/collection/R11/current/21/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R11::21";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R11::21";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R11/current/21/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Test 21";
+        skos:definition        "Near-surface unpumped CTD salinity test. Test binary ID = 2097152"@en;
+        skos:notation          "SDN:R11::21";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Near-surface unpumped CTD salinity test"@en .
+
+<http://vocab.nerc.ac.uk/collection/R11/current/10/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R11::10";
+        dc:date                "2020-04-07 23:03:06.0";
+        dc:identifier          "SDN:R11::10";
+        pav:authoredOn         "2020-04-07 23:03:06.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R11/current/10/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R11/current/10/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "Test 10";
+        skos:definition        "Top and Bottom Spike test. Test binary ID = 1024"@en;
+        skos:notation          "SDN:R11::10";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Top and Bottom Spike test"@en .
+
+<http://vocab.nerc.ac.uk/collection/R11/current/8/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R11::8";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R11::8";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R11/current/8/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Test 8";
+        skos:definition        "Pressure Increasing test. Test binary ID = 256"@en;
+        skos:notation          "SDN:R11::8";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Pressure Increasing test"@en .
+
+<http://vocab.nerc.ac.uk/collection/R11/current/20/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R11::20";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R11::20";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R11/current/20/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Test 20";
+        skos:definition        "Questionable Argos position test. Test binary ID = 1048576"@en;
+        skos:notation          "SDN:R11::20";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Questionable Argos position test"@en .
+
+<http://vocab.nerc.ac.uk/collection/R11/current/6/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R11::6";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R11::6";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R11/current/6/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Test 6";
+        skos:definition        "Global Range test. Test binary ID = 64"@en;
+        skos:notation          "SDN:R11::6";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Global Range test"@en .
+
+<http://vocab.nerc.ac.uk/collection/R11/current/19/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R11::19";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R11::19";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R11/current/19/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Test 19";
+        skos:definition        "Deepest pressure test. Test binary ID = 524288"@en;
+        skos:notation          "SDN:R11::19";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Deepest pressure test"@en .
+
+<http://vocab.nerc.ac.uk/collection/R11/current/22/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R11::22";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R11::22";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R11/current/22/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Test 22";
+        skos:definition        "Near-surface mixed air/water test. Test binary ID = 4194304"@en;
+        skos:notation          "SDN:R11::22";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Near-surface mixed air/water test"@en .
+
+<http://vocab.nerc.ac.uk/collection/R11/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the Argo data system, published and maintained by the Argo Data Management Team (ADMT) and hosted on the NERC Vocabulary Server.";
+        rdfs:seeAlso            <https://github.com/OneArgo/ArgoVocabs>;
+        dc:alternative          "RTQC_TESTID";
+        dc:creator              "Argo Data Management Team";
+        dc:date                 "2025-03-07 02:00:00.0";
+        dc:description          "List of real-time quality-control tests and corresponding binary identifiers, used as reference to populate the Argo netCDF HISTORY_QCTEST variable.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Argo real-time quality-control test identifiers";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Argo Data Management Team";
+        owl:versionInfo         "4";
+        skos:altLabel           "RTQC_TESTID";
+        skos:member             <http://vocab.nerc.ac.uk/collection/R11/current/13/> , <http://vocab.nerc.ac.uk/collection/R11/current/23/> , <http://vocab.nerc.ac.uk/collection/R11/current/25/> , <http://vocab.nerc.ac.uk/collection/R11/current/9/> , <http://vocab.nerc.ac.uk/collection/R11/current/11/> , <http://vocab.nerc.ac.uk/collection/R11/current/7/> , <http://vocab.nerc.ac.uk/collection/R11/current/2/> , <http://vocab.nerc.ac.uk/collection/R11/current/18/> , <http://vocab.nerc.ac.uk/collection/R11/current/16/> , <http://vocab.nerc.ac.uk/collection/R11/current/17/> , <http://vocab.nerc.ac.uk/collection/R11/current/26/> , <http://vocab.nerc.ac.uk/collection/R11/current/3/> , <http://vocab.nerc.ac.uk/collection/R11/current/14/> , <http://vocab.nerc.ac.uk/collection/R11/current/4/> , <http://vocab.nerc.ac.uk/collection/R11/current/24/> , <http://vocab.nerc.ac.uk/collection/R11/current/1/> , <http://vocab.nerc.ac.uk/collection/R11/current/12/> , <http://vocab.nerc.ac.uk/collection/R11/current/5/> , <http://vocab.nerc.ac.uk/collection/R11/current/15/> , <http://vocab.nerc.ac.uk/collection/R11/current/21/> , <http://vocab.nerc.ac.uk/collection/R11/current/10/> , <http://vocab.nerc.ac.uk/collection/R11/current/8/> , <http://vocab.nerc.ac.uk/collection/R11/current/20/> , <http://vocab.nerc.ac.uk/collection/R11/current/6/> , <http://vocab.nerc.ac.uk/collection/R11/current/22/> , <http://vocab.nerc.ac.uk/collection/R11/current/19/>;
+        skos:prefLabel          "Argo real-time quality-control test identifiers" .

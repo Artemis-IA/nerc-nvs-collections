@@ -1,0 +1,275 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/G03/current/009/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G03::009";
+        dc:date                "2012-07-04 10:55:59.0";
+        dc:identifier          "SDN:G03::009";
+        pav:authoredOn         "2012-07-04 10:55:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G03/current/009/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Vertical cross-section in digital form"@en;
+        skos:notation          "SDN:G03::009";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "profileDigital"@en .
+
+<http://vocab.nerc.ac.uk/collection/G03/current/003/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G03::003";
+        dc:date                "2012-07-04 10:55:59.0";
+        dc:identifier          "SDN:G03::003";
+        pav:authoredOn         "2012-07-04 10:55:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G03/current/003/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Likeness of natural or man-made features, objects, and activities acquired through the sensing of visual or any other segment of the electromagnetic spectrum by sensors, such as thermal infrared, and high resolution radar and stored in digital format"@en;
+        skos:notation          "SDN:G03::003";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "imageDigital"@en .
+
+<http://vocab.nerc.ac.uk/collection/G03/current/012/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G03::012";
+        dc:date                "2012-07-04 10:55:59.0";
+        dc:identifier          "SDN:G03::012";
+        pav:authoredOn         "2012-07-04 10:55:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G03/current/012/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Representation of facts or figures systematically displayed, especially in columns, printed onpapers, photographic material, or other media"@en;
+        skos:notation          "SDN:G03::012";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "tableHardcopy"@en .
+
+<http://vocab.nerc.ac.uk/collection/G03/current/004/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G03::004";
+        dc:date                "2012-07-04 10:55:59.0";
+        dc:identifier          "SDN:G03::004";
+        pav:authoredOn         "2012-07-04 10:55:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G03/current/004/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Likeness of natural or man-made features, objects, and activities acquired through the sensing of visual or any other segment of the electromagnetic spectrum by sensors, such as thermal infrared, and high resolution radar and reproduced on paper, photographic material, or other media for use directly by the human user"@en;
+        skos:notation          "SDN:G03::004";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "imageHardcopy"@en .
+
+<http://vocab.nerc.ac.uk/collection/G03/current/001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G03::001";
+        dc:date                "2012-07-04 10:55:59.0";
+        dc:identifier          "SDN:G03::001";
+        pav:authoredOn         "2012-07-04 10:55:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G03/current/001/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Digital representation of a primarily textual item (can contain illustrations also)"@en;
+        skos:notation          "SDN:G03::001";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "documentDigital"@en .
+
+<http://vocab.nerc.ac.uk/collection/G03/current/013/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G03::013";
+        dc:date                "2012-07-04 10:55:59.0";
+        dc:identifier          "SDN:G03::013";
+        pav:authoredOn         "2012-07-04 10:55:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G03/current/013/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Digital video recording"@en;
+        skos:notation          "SDN:G03::013";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "videoDigital"@en .
+
+<http://vocab.nerc.ac.uk/collection/G03/current/010/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G03::010";
+        dc:date                "2012-07-04 10:55:59.0";
+        dc:identifier          "SDN:G03::010";
+        pav:authoredOn         "2012-07-04 10:55:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G03/current/010/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Vertical cross-section printed on paper, etc."@en;
+        skos:notation          "SDN:G03::010";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "profileHardcopy"@en .
+
+<http://vocab.nerc.ac.uk/collection/G03/current/006/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G03::006";
+        dc:date                "2012-07-04 10:55:59.0";
+        dc:identifier          "SDN:G03::006";
+        pav:authoredOn         "2012-07-04 10:55:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G03/current/006/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Map printed on paper, photographic material, or other media for use directly by the human user"@en;
+        skos:notation          "SDN:G03::006";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "mapHardcopy"@en .
+
+<http://vocab.nerc.ac.uk/collection/G03/current/005/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G03::005";
+        dc:date                "2012-07-04 10:55:59.0";
+        dc:identifier          "SDN:G03::005";
+        pav:authoredOn         "2012-07-04 10:55:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G03/current/005/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Map represented in raster or vector form"@en;
+        skos:notation          "SDN:G03::005";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "mapDigital"@en .
+
+<http://vocab.nerc.ac.uk/collection/G03/current/007/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G03::007";
+        dc:date                "2012-07-04 10:55:59.0";
+        dc:identifier          "SDN:G03::007";
+        pav:authoredOn         "2012-07-04 10:55:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G03/current/007/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Multi-dimensional digital representation of a feature, process, etc."@en;
+        skos:notation          "SDN:G03::007";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "modelDigital"@en .
+
+<http://vocab.nerc.ac.uk/collection/G03/current/002/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G03::002";
+        dc:date                "2012-07-04 10:55:59.0";
+        dc:identifier          "SDN:G03::002";
+        pav:authoredOn         "2012-07-04 10:55:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G03/current/002/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Representation of a primarily textual item (can contain illustrations also) on paper, photograhic material, or other media"@en;
+        skos:notation          "SDN:G03::002";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "documentHardcopy"@en .
+
+<http://vocab.nerc.ac.uk/collection/G03/current/008/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G03::008";
+        dc:date                "2012-07-04 10:55:59.0";
+        dc:identifier          "SDN:G03::008";
+        pav:authoredOn         "2012-07-04 10:55:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G03/current/008/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "3-dimensional, physical model"@en;
+        skos:notation          "SDN:G03::008";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "modelHardcopy"@en .
+
+<http://vocab.nerc.ac.uk/collection/G03/current/014/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G03::014";
+        dc:date                "2012-07-04 10:55:59.0";
+        dc:identifier          "SDN:G03::014";
+        pav:authoredOn         "2012-07-04 10:55:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G03/current/014/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Video recording on film"@en;
+        skos:notation          "SDN:G03::014";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "videoHardcopy"@en .
+
+<http://vocab.nerc.ac.uk/collection/G03/current/011/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G03::011";
+        dc:date                "2012-07-04 10:55:59.0";
+        dc:identifier          "SDN:G03::011";
+        pav:authoredOn         "2012-07-04 10:55:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G03/current/011/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Digital representation of facts or figures systematically displayed, especially in columns"@en;
+        skos:notation          "SDN:G03::011";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "tableDigital"@en .
+
+<http://vocab.nerc.ac.uk/collection/G03/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "International governance for standards covering many domains within science and beyond.";
+        dc:alternative          "CI_PresentationFormCode";
+        dc:creator              "International Organization for Standardization";
+        dc:date                 "2012-07-05 02:00:09.0";
+        dc:description          "Mode in which the data are represented";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "CI_PresentationFormCode";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "International Organization for Standardization";
+        owl:versionInfo         "1";
+        skos:altLabel           "CI_PresentationFormCode";
+        skos:member             <http://vocab.nerc.ac.uk/collection/G03/current/009/> , <http://vocab.nerc.ac.uk/collection/G03/current/003/> , <http://vocab.nerc.ac.uk/collection/G03/current/012/> , <http://vocab.nerc.ac.uk/collection/G03/current/004/> , <http://vocab.nerc.ac.uk/collection/G03/current/001/> , <http://vocab.nerc.ac.uk/collection/G03/current/013/> , <http://vocab.nerc.ac.uk/collection/G03/current/010/> , <http://vocab.nerc.ac.uk/collection/G03/current/006/> , <http://vocab.nerc.ac.uk/collection/G03/current/005/> , <http://vocab.nerc.ac.uk/collection/G03/current/007/> , <http://vocab.nerc.ac.uk/collection/G03/current/002/> , <http://vocab.nerc.ac.uk/collection/G03/current/011/> , <http://vocab.nerc.ac.uk/collection/G03/current/014/> , <http://vocab.nerc.ac.uk/collection/G03/current/008/>;
+        skos:prefLabel          "CI_PresentationFormCode" .

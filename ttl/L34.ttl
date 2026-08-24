@@ -1,0 +1,122 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/L34/current/1/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L34::1";
+        dc:date                "2016-03-04 14:27:32.0";
+        dc:identifier          "SDN:L34::1";
+        pav:authoredOn         "2016-03-04 14:27:32.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L34/current/1/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Passed documented required QC tests"@en;
+        skos:notation          "SDN:L34::1";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Good"@en .
+
+<http://vocab.nerc.ac.uk/collection/L34/current/4/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L34::4";
+        dc:date                "2016-03-04 14:27:32.0";
+        dc:identifier          "SDN:L34::4";
+        pav:authoredOn         "2016-03-04 14:27:32.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L34/current/4/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Failed critical documented QC test(s) or as assigned by the data provider"@en;
+        skos:notation          "SDN:L34::4";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Bad"@en .
+
+<http://vocab.nerc.ac.uk/collection/L34/current/3/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L34::3";
+        dc:date                "2016-03-04 14:27:32.0";
+        dc:identifier          "SDN:L34::3";
+        pav:authoredOn         "2016-03-04 14:27:32.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L34/current/3/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Failed non-critical documented metric or subjective test(s)"@en;
+        skos:notation          "SDN:L34::3";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Questionable/suspect"@en .
+
+<http://vocab.nerc.ac.uk/collection/L34/current/2/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L34::2";
+        dc:date                "2016-03-04 14:27:32.0";
+        dc:identifier          "SDN:L34::2";
+        pav:authoredOn         "2016-03-04 14:27:32.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L34/current/2/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Used for data when no QC test performed or the information on quality is not available"@en;
+        skos:notation          "SDN:L34::2";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Not evaluated, not available or unknown"@en .
+
+<http://vocab.nerc.ac.uk/collection/L34/current/9/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L34::9";
+        dc:date                "2016-03-04 14:27:32.0";
+        dc:identifier          "SDN:L34::9";
+        pav:authoredOn         "2016-03-04 14:27:32.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L34/current/9/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Used as place holder when data are missing"@en;
+        skos:notation          "SDN:L34::9";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Missing data"@en .
+
+<http://vocab.nerc.ac.uk/collection/L34/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used by the International Oceanographic Commission of UNESCO for the international exchange of oceanographic and ocean biodiversity data and information.";
+        dc:alternative          "IODE flags";
+        dc:creator              "International Oceanographic Commission";
+        dc:date                 "2016-03-05 02:00:03.0";
+        dc:description          "Quality flags used for the primary level of the IODE Quality Flag Scheme for the Exchange of Oceanographic and Marine Meteorological Data, IODE Manuals and Guides 54, Vol. 3.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "IODE Primary Level quality flags";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "International Oceanographic Commission";
+        owl:versionInfo         "1";
+        skos:altLabel           "IODE flags";
+        skos:member             <http://vocab.nerc.ac.uk/collection/L34/current/1/> , <http://vocab.nerc.ac.uk/collection/L34/current/4/> , <http://vocab.nerc.ac.uk/collection/L34/current/9/> , <http://vocab.nerc.ac.uk/collection/L34/current/2/> , <http://vocab.nerc.ac.uk/collection/L34/current/3/>;
+        skos:prefLabel          "IODE Primary Level quality flags" .

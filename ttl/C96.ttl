@@ -1,0 +1,106 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/C96/current/SERIES/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C96::SERIES";
+        dc:date                "2012-10-03 15:43:21.0";
+        dc:identifier          "SDN:C96::SERIES";
+        pav:authoredOn         "2012-10-03 15:43:21.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C96/current/SERIES/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "series";
+        skos:definition        "A discrete fixed package of data served by BODC"@en;
+        skos:notation          "SDN:C96::SERIES";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "BODC data series"@en .
+
+<http://vocab.nerc.ac.uk/collection/C96/current/STATION/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C96::STATION";
+        dc:date                "2012-10-03 16:32:28.0";
+        dc:identifier          "SDN:C96::STATION";
+        pav:authoredOn         "2012-10-03 16:32:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C96/current/STATION/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "station";
+        skos:definition        "A spatial coverage occupied for a period of time or visited on several occasions for the making of measurements and/or the collection of samples."@en;
+        skos:notation          "SDN:C96::STATION";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Fixed station"@en .
+
+<http://vocab.nerc.ac.uk/collection/C96/current/EVENT/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C96::EVENT";
+        dc:date                "2012-10-03 16:27:35.0";
+        dc:identifier          "SDN:C96::EVENT";
+        pav:authoredOn         "2012-10-03 16:27:35.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C96/current/EVENT/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "event";
+        skos:definition        "A discrete action during a cruise or other data collection activity that results in data generating measurements or the collection of samples."@en;
+        skos:notation          "SDN:C96::EVENT";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Event"@en .
+
+<http://vocab.nerc.ac.uk/collection/C96/current/CRUISE/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C96::CRUISE";
+        dc:date                "2012-10-03 16:22:51.0";
+        dc:identifier          "SDN:C96::CRUISE";
+        pav:authoredOn         "2012-10-03 16:22:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C96/current/CRUISE/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "cruise";
+        skos:definition        "The deployment of a platform between two fixed points on a mission to collect data"@en;
+        skos:notation          "SDN:C96::CRUISE";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Cruise"@en .
+
+<http://vocab.nerc.ac.uk/collection/C96/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used within the data centre";
+        dc:alternative          "BODC spatial objects";
+        dc:creator              "British Oceanographic Data Centre";
+        dc:date                 "2012-10-04 02:00:03.0";
+        dc:description          "Entities in the BODC data model that may be associated with a spatial coverage in the real world";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "BODC data model spatial objects";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "British Oceanographic Data Centre";
+        owl:versionInfo         "1";
+        skos:altLabel           "BODC spatial objects";
+        skos:member             <http://vocab.nerc.ac.uk/collection/C96/current/SERIES/> , <http://vocab.nerc.ac.uk/collection/C96/current/STATION/> , <http://vocab.nerc.ac.uk/collection/C96/current/CRUISE/> , <http://vocab.nerc.ac.uk/collection/C96/current/EVENT/>;
+        skos:prefLabel          "BODC data model spatial objects" .

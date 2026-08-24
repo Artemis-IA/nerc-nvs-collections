@@ -1,0 +1,293 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/GGB/current/GGB10/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGB::GGB10";
+        dc:date                "2019-03-15 08:24:47.0";
+        dc:identifier          "SDN:GGB::GGB10";
+        pav:authoredOn         "2019-03-15 08:24:47.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGB/current/GGB10/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Singlebeam - depth value collected by a single beam echo-sounder."@en;
+        skos:notation          "SDN:GGB::GGB10";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_2019_source_data_type_10"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGB/current/GGB21/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGB::GGB21";
+        dc:date                "2019-03-15 08:24:47.0";
+        dc:identifier          "SDN:GGB::GGB21";
+        pav:authoredOn         "2019-03-15 08:24:47.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGB/current/GGB21/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "LiDAR - depth derived from a bathymetric LiDAR sensor."@en;
+        skos:notation          "SDN:GGB::GGB21";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_2019_source_data_type_21"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGB/current/GGB13/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGB::GGB13";
+        dc:date                "2019-03-15 08:24:47.0";
+        dc:identifier          "SDN:GGB::GGB13";
+        pav:authoredOn         "2019-03-15 08:24:47.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGB/current/GGB13/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Isolated sounding - depth value that is not part of a regular survey or trackline."@en;
+        skos:notation          "SDN:GGB::GGB13";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_2019_source_data_type_13"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGB/current/GGB19/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGB::GGB19";
+        dc:date                "2019-03-15 08:24:47.0";
+        dc:identifier          "SDN:GGB::GGB19";
+        pav:authoredOn         "2019-03-15 08:24:47.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGB/current/GGB19/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Unknown source - depth value from an unknown source."@en;
+        skos:notation          "SDN:GGB::GGB19";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_2019_source_data_type_19"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGB/current/GGB22/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGB::GGB22";
+        dc:date                "2019-03-15 08:24:47.0";
+        dc:identifier          "SDN:GGB::GGB22";
+        pav:authoredOn         "2019-03-15 08:24:47.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGB/current/GGB22/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Bathymetric sounding - depth value at this location is constrained by bathymetric sounding(s) from the SRTM15_plus data set (https://topex.ucsd.edu/WWW_html/srtm30_plus.html)."@en;
+        skos:notation          "SDN:GGB::GGB22";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_2019_source_data_type_22"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGB/current/GGB14/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGB::GGB14";
+        dc:date                "2019-03-15 08:24:47.0";
+        dc:identifier          "SDN:GGB::GGB14";
+        pav:authoredOn         "2019-03-15 08:24:47.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGB/current/GGB14/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "ENC sounding - depth value extracted from an Electronic Navigation Chart (ENC)."@en;
+        skos:notation          "SDN:GGB::GGB14";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_2019_source_data_type_14"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGB/current/GGB11/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGB::GGB11";
+        dc:date                "2019-03-15 08:24:47.0";
+        dc:identifier          "SDN:GGB::GGB11";
+        pav:authoredOn         "2019-03-15 08:24:47.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGB/current/GGB11/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Multibeam - depth value collected by a multibeam echo-sounder."@en;
+        skos:notation          "SDN:GGB::GGB11";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_2019_source_data_type_11"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGB/current/GGB23/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGB::GGB23";
+        dc:date                "2019-03-26 20:08:00.0";
+        dc:identifier          "SDN:GGB::GGB23";
+        pav:authoredOn         "2019-03-26 20:08:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGB/current/GGB23/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Pre-generated grid - depth value is based on the GEBCO_08 Grid. This data set is a global grid at 30 arc-seconds. It was largely generated from a data base of ship-track soundings with interpolation between soundings guided by satellite-derived gravity data."@en;
+        skos:notation          "SDN:GGB::GGB23";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_2019_source_data_type_23"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGB/current/GGB0/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGB::GGB0";
+        dc:date                "2019-03-15 08:24:47.0";
+        dc:identifier          "SDN:GGB::GGB0";
+        pav:authoredOn         "2019-03-15 08:24:47.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGB/current/GGB0/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Predicted based on satellite-derived gravity data - depth value is an interpolated value guided by satellite-derived gravity data (from the SRTM15_plus data set, https://topex.ucsd.edu/WWW_html/srtm30_plus.html)."@en;
+        skos:notation          "SDN:GGB::GGB0";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_2019_source_data_type_0"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGB/current/GGB20/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGB::GGB20";
+        dc:date                "2019-03-15 08:24:47.0";
+        dc:identifier          "SDN:GGB::GGB20";
+        pav:authoredOn         "2019-03-15 08:24:47.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGB/current/GGB20/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Steering points - depth value used to constrain the grid in areas of poor data coverage."@en;
+        skos:notation          "SDN:GGB::GGB20";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_2019_source_data_type_20"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGB/current/GGB16/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGB::GGB16";
+        dc:date                "2019-03-15 08:24:47.0";
+        dc:identifier          "SDN:GGB::GGB16";
+        pav:authoredOn         "2019-03-15 08:24:47.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGB/current/GGB16/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Digital bathymetric contours from charts - depth value taken from a bathymetric contour data set."@en;
+        skos:notation          "SDN:GGB::GGB16";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_2019_source_data_type_16"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGB/current/GGB-8888/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGB::GGB-8888";
+        dc:date                "2019-03-15 08:24:47.0";
+        dc:identifier          "SDN:GGB::GGB-8888";
+        pav:authoredOn         "2019-03-15 08:24:47.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGB/current/GGB-8888/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Land elevation."@en;
+        skos:notation          "SDN:GGB::GGB-8888";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_2019_source_data_type_-8888"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGB/current/GGB17/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGB::GGB17";
+        dc:date                "2019-03-15 08:24:47.0";
+        dc:identifier          "SDN:GGB::GGB17";
+        pav:authoredOn         "2019-03-15 08:24:47.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGB/current/GGB17/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Digital bathymetric contours from ENCs - depth value taken from bathymetric contours from an Electronic Navigation Chart (ENC)."@en;
+        skos:notation          "SDN:GGB::GGB17";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_2019_source_data_type_17"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGB/current/GGB15/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGB::GGB15";
+        dc:date                "2019-03-15 08:24:47.0";
+        dc:identifier          "SDN:GGB::GGB15";
+        pav:authoredOn         "2019-03-15 08:24:47.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGB/current/GGB15/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Interpolated based on a computer algorithm - depth value is an interpolated value based on a computer algorithm."@en;
+        skos:notation          "SDN:GGB::GGB15";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_2019_source_data_type_15"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGB/current/GGB18/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GGB::GGB18";
+        dc:date                "2019-03-15 08:24:47.0";
+        dc:identifier          "SDN:GGB::GGB18";
+        pav:authoredOn         "2019-03-15 08:24:47.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GGB/current/GGB18/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Pre-generated grid - depth value is taken from a pre-generated grid that is based on mixed source data types, e.g. single beam, multibeam, interpolation etc."@en;
+        skos:notation          "SDN:GGB::GGB18";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_2019_source_data_type_18"@en .
+
+<http://vocab.nerc.ac.uk/collection/GGB/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used within the data centre";
+        dc:alternative          "GEBCO_2019 sources";
+        dc:creator              "British Oceanographic Data Centre";
+        dc:date                 "2019-03-27 02:00:05.0";
+        dc:description          "Source data type information for the data sets used in the generation of the GEBCO_2019 Grid.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "GEBCO_2019 Grid source data types";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "British Oceanographic Data Centre";
+        owl:versionInfo         "2";
+        skos:altLabel           "GEBCO_2019 sources";
+        skos:member             <http://vocab.nerc.ac.uk/collection/GGB/current/GGB10/> , <http://vocab.nerc.ac.uk/collection/GGB/current/GGB21/> , <http://vocab.nerc.ac.uk/collection/GGB/current/GGB13/> , <http://vocab.nerc.ac.uk/collection/GGB/current/GGB19/> , <http://vocab.nerc.ac.uk/collection/GGB/current/GGB22/> , <http://vocab.nerc.ac.uk/collection/GGB/current/GGB14/> , <http://vocab.nerc.ac.uk/collection/GGB/current/GGB11/> , <http://vocab.nerc.ac.uk/collection/GGB/current/GGB23/> , <http://vocab.nerc.ac.uk/collection/GGB/current/GGB0/> , <http://vocab.nerc.ac.uk/collection/GGB/current/GGB20/> , <http://vocab.nerc.ac.uk/collection/GGB/current/GGB16/> , <http://vocab.nerc.ac.uk/collection/GGB/current/GGB-8888/> , <http://vocab.nerc.ac.uk/collection/GGB/current/GGB17/> , <http://vocab.nerc.ac.uk/collection/GGB/current/GGB18/> , <http://vocab.nerc.ac.uk/collection/GGB/current/GGB15/>;
+        skos:prefLabel          "GEBCO_2019 Grid source data types" .

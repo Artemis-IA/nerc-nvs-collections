@@ -1,0 +1,242 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/N02/current/9/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N02::9";
+        dc:date                "2017-08-10 12:19:08.0";
+        dc:identifier          "SDN:N02::9";
+        pav:authoredOn         "2017-08-10 12:19:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N02/current/9/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/N02/current/9/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "ISO19115WMO";
+        skos:definition        "Expression of an ISO 19115 WMO profile record in the standard XML instantiation"@en;
+        skos:notation          "SDN:N02::9";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ISO 19115/19139 compliant - WMO profile"@en .
+
+<http://vocab.nerc.ac.uk/collection/N02/current/4/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N02::4";
+        dc:date                "2007-05-17 14:52:02.0";
+        dc:identifier          "SDN:N02::4";
+        pav:authoredOn         "2007-05-17 14:52:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N02/current/4/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "CDML-0";
+        skos:definition        "The markup language used to represent metadata in the Climate Data Management System"@en;
+        skos:notation          "SDN:N02::4";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Climate Data Markup Language"@en .
+
+<http://vocab.nerc.ac.uk/collection/N02/current/1/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N02::1";
+        dc:date                "2007-05-17 14:52:02.0";
+        dc:identifier          "SDN:N02::1";
+        pav:authoredOn         "2007-05-17 14:52:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N02/current/1/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "NDG-A0";
+        skos:definition        "CSML is a standards-based data model and GML application schema for atmospheric and oceanographic data"@en;
+        skos:notation          "SDN:N02::1";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Climate Science Markup Language"@en .
+
+<http://vocab.nerc.ac.uk/collection/N02/current/3/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N02::3";
+        dc:date                "2007-05-17 14:52:02.0";
+        dc:identifier          "SDN:N02::3";
+        pav:authoredOn         "2007-05-17 14:52:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N02/current/3/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "NDG-B1";
+        skos:definition        "First order resolution of references in a MOLES record"@en;
+        skos:notation          "SDN:N02::3";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "NDG MOLES Stub-B"@en .
+
+<http://vocab.nerc.ac.uk/collection/N02/current/10/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N02::10";
+        dc:date                "2007-05-17 14:52:02.0";
+        dc:identifier          "SDN:N02::10";
+        pav:authoredOn         "2007-05-17 14:52:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N02/current/10/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "OAI_DC";
+        skos:definition        "Dublin Core record conforming to the Open Access Initiative schema for DC"@en;
+        skos:notation          "SDN:N02::10";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "OAI Dublin Core compliant"@en .
+
+<http://vocab.nerc.ac.uk/collection/N02/current/8/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N02::8";
+        dc:date                "2007-05-17 14:52:02.0";
+        dc:identifier          "SDN:N02::8";
+        pav:authoredOn         "2007-05-17 14:52:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N02/current/8/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ISO19115Marine";
+        skos:definition        "Expression of an ISO 19115 Marine profile record in the standard XML instantiation"@en;
+        skos:notation          "SDN:N02::8";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ISO 19115/19139 compliant - Marine profile"@en .
+
+<http://vocab.nerc.ac.uk/collection/N02/current/6/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N02::6";
+        dc:date                "2007-05-17 14:52:02.0";
+        dc:identifier          "SDN:N02::6";
+        pav:authoredOn         "2007-05-17 14:52:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N02/current/6/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "DIF";
+        skos:definition        "Discovery format managed by the Global Change Master Directory"@en;
+        skos:notation          "SDN:N02::6";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Directory Interchange Format"@en .
+
+<http://vocab.nerc.ac.uk/collection/N02/current/5/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N02::5";
+        dc:date                "2007-05-17 14:52:02.0";
+        dc:identifier          "SDN:N02::5";
+        pav:authoredOn         "2007-05-17 14:52:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N02/current/5/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "URI";
+        skos:definition        "The address of a resource on the Internet, including the access protocol"@en;
+        skos:notation          "SDN:N02::5";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Uniform Resource Identifier"@en .
+
+<http://vocab.nerc.ac.uk/collection/N02/current/11/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N02::11";
+        dc:date                "2007-05-17 14:52:02.0";
+        dc:identifier          "SDN:N02::11";
+        pav:authoredOn         "2007-05-17 14:52:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N02/current/11/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "MDIP";
+        skos:definition        "Format from the Marine Data and Information Partnership to aid cross-data centre searching. Based on the UK Gemini format"@en;
+        skos:notation          "SDN:N02::11";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "MDIP compliant"@en .
+
+<http://vocab.nerc.ac.uk/collection/N02/current/2/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N02::2";
+        dc:date                "2007-05-17 14:52:02.0";
+        dc:identifier          "SDN:N02::2";
+        pav:authoredOn         "2007-05-17 14:52:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N02/current/2/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "NDG-B0";
+        skos:definition        "The NDG discovery-format-neutral metadata format"@en;
+        skos:notation          "SDN:N02::2";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Metadata Objects for Links in Environmental Science"@en .
+
+<http://vocab.nerc.ac.uk/collection/N02/current/7/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N02::7";
+        dc:date                "2007-05-17 14:52:02.0";
+        dc:identifier          "SDN:N02::7";
+        pav:authoredOn         "2007-05-17 14:52:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N02/current/7/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ISO19115";
+        skos:definition        "Expression of an ISO 19115 standard record in the standard XML instantiation"@en;
+        skos:notation          "SDN:N02::7";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ISO 19115/19139 compliant"@en .
+
+<http://vocab.nerc.ac.uk/collection/N02/current/12/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N02::12";
+        dc:date                "2007-08-02 13:46:40.0";
+        dc:identifier          "SDN:N02::12";
+        pav:authoredOn         "2007-08-02 13:46:40.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N02/current/12/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "NumSim";
+        skos:definition        "NumSim documents consist of one or both of two elements:  (1) An XML description of a model codebase including the model components, and (2) a description of the use of that codebase in an experiment (includes initial and  boundary conditions, and ensemble membership, if any)."@en;
+        skos:notation          "SDN:N02::12";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "NumSim model description"@en .
+
+<http://vocab.nerc.ac.uk/collection/N02/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used for cross-centre information infrastructure in NERC. Current (2011) manifestation is the NERC SIS metadata subgroup";
+        dc:alternative          "NDG Formats";
+        dc:creator              "Natural Environment Research Council";
+        dc:date                 "2017-08-11 02:00:03.0";
+        dc:description          "Formats recognised by NDG, where this may allow conditional treatment. See also http://proj.badc.rl.ac.uk/ndg/browser/TI07-MOLES/trunk/Documents/NDG_MOLES_Instructions_for_Creation.doc";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "NERC DataGrid Recognised Formats";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Natural Environment Research Council";
+        owl:versionInfo         "3";
+        skos:altLabel           "NDG Formats";
+        skos:member             <http://vocab.nerc.ac.uk/collection/N02/current/9/> , <http://vocab.nerc.ac.uk/collection/N02/current/4/> , <http://vocab.nerc.ac.uk/collection/N02/current/1/> , <http://vocab.nerc.ac.uk/collection/N02/current/3/> , <http://vocab.nerc.ac.uk/collection/N02/current/10/> , <http://vocab.nerc.ac.uk/collection/N02/current/8/> , <http://vocab.nerc.ac.uk/collection/N02/current/6/> , <http://vocab.nerc.ac.uk/collection/N02/current/5/> , <http://vocab.nerc.ac.uk/collection/N02/current/11/> , <http://vocab.nerc.ac.uk/collection/N02/current/12/> , <http://vocab.nerc.ac.uk/collection/N02/current/7/> , <http://vocab.nerc.ac.uk/collection/N02/current/2/>;
+        skos:prefLabel          "NERC DataGrid Recognised Formats" .

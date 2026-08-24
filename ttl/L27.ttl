@@ -1,0 +1,313 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/L27/current/WOCESAMPLE_QC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L27::WOCESAMPLE_QC";
+        dc:date                "2012-07-24 13:37:31.0";
+        dc:identifier          "SDN:L27::WOCESAMPLE_QC";
+        pav:authoredOn         "2012-07-24 13:37:31.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L27/current/WOCESAMPLE_QC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "http://cchdo.ucsd.edu/WHP_Exchange_Description.pdf"@en;
+        skos:notation          "SDN:L27::WOCESAMPLE_QC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "World Ocean Circulation Experiment WHP quality flags for the bottle itself"@en .
+
+<http://vocab.nerc.ac.uk/collection/L27/current/WODSTATION_QC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L27::WODSTATION_QC";
+        dc:date                "2012-07-24 13:33:34.0";
+        dc:identifier          "SDN:L27::WODSTATION_QC";
+        pav:authoredOn         "2012-07-24 13:33:34.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L27/current/WODSTATION_QC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "ftp://ftp.nodc.noaa.gov/pub/WOD05/DOC/wod05_tutorial.pdf"@en;
+        skos:notation          "SDN:L27::WODSTATION_QC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "World Ocean Database entire station quality flags"@en .
+
+<http://vocab.nerc.ac.uk/collection/L27/current/ESEAS_QC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L27::ESEAS_QC";
+        dc:date                "2012-07-24 12:47:45.0";
+        dc:identifier          "SDN:L27::ESEAS_QC";
+        pav:authoredOn         "2012-07-24 12:47:45.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L27/current/ESEAS_QC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "http://wwww.eseas.org/eseas-ri/deliverables/d1.2/ESEAS_QC_29032005.doc"@en;
+        skos:notation          "SDN:L27::ESEAS_QC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "European Sea Level Service quality flags"@en .
+
+<http://vocab.nerc.ac.uk/collection/L27/current/IODE_QC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L27::IODE_QC";
+        dc:date                "2013-09-26 13:54:30.0";
+        dc:identifier          "SDN:L27::IODE_QC";
+        pav:authoredOn         "2013-09-26 13:54:30.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L27/current/IODE_QC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "IODE Manuals and Guides 54 Volume 3 Recommendation for a Quality Flag Scheme for the Exchange of Oceanographic and Marine Meteorological Data"@en;
+        skos:notation          "SDN:L27::IODE_QC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "IODE quality flags"@en .
+
+<http://vocab.nerc.ac.uk/collection/L27/current/PANGAEA_QC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L27::PANGAEA_QC";
+        dc:date                "2012-07-24 13:44:53.0";
+        dc:identifier          "SDN:L27::PANGAEA_QC";
+        pav:authoredOn         "2012-07-24 13:44:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L27/current/PANGAEA_QC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "http://wiki.pangaea.de/wiki/Quality_flag"@en;
+        skos:notation          "SDN:L27::PANGAEA_QC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "PANGAEA parameter value qualifier flags"@en .
+
+<http://vocab.nerc.ac.uk/collection/L27/current/ARGO_QC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L27::ARGO_QC";
+        dc:date                "2012-07-24 12:45:46.0";
+        dc:identifier          "SDN:L27::ARGO_QC";
+        pav:authoredOn         "2012-07-24 12:45:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L27/current/ARGO_QC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Argo data management users' manual version 2.1"@en;
+        skos:notation          "SDN:L27::ARGO_QC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ARGO quality flags"@en .
+
+<http://vocab.nerc.ac.uk/collection/L27/current/WOCEBOTTLE_QC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L27::WOCEBOTTLE_QC";
+        dc:date                "2012-07-24 13:35:22.0";
+        dc:identifier          "SDN:L27::WOCEBOTTLE_QC";
+        pav:authoredOn         "2012-07-24 13:35:22.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L27/current/WOCEBOTTLE_QC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "http://cchdo.ucsd.edu/WHP_Exchange_Description.pdf"@en;
+        skos:notation          "SDN:L27::WOCEBOTTLE_QC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "World Ocean Circulation Experiment WHP bottle parameter data quality flags"@en .
+
+<http://vocab.nerc.ac.uk/collection/L27/current/GTSPP_QC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L27::GTSPP_QC";
+        dc:date                "2012-07-24 12:44:07.0";
+        dc:identifier          "SDN:L27::GTSPP_QC";
+        pav:authoredOn         "2012-07-24 12:44:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L27/current/GTSPP_QC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "http:/www.meds-sdmm.dfo-mpo.gc.ca/meds/Databases/OCEAN/GTSPPcodes_e.htm"@en;
+        skos:notation          "SDN:L27::GTSPP_QC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GTSPP quality flags"@en .
+
+<http://vocab.nerc.ac.uk/collection/L27/current/QARTOD_QC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L27::QARTOD_QC";
+        dc:date                "2012-07-24 13:39:33.0";
+        dc:identifier          "SDN:L27::QARTOD_QC";
+        pav:authoredOn         "2012-07-24 13:39:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L27/current/QARTOD_QC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "http://nautilus.baruch.sc.edu/twiki/pub/Main/WebHome/QARTOD2006_v9.pdf"@en;
+        skos:notation          "SDN:L27::QARTOD_QC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "QARTOD provisional quality flags"@en .
+
+<http://vocab.nerc.ac.uk/collection/L27/current/BODC_QC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L27::BODC_QC";
+        dc:date                "2012-07-24 13:43:08.0";
+        dc:identifier          "SDN:L27::BODC_QC";
+        pav:authoredOn         "2012-07-24 13:43:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L27/current/BODC_QC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "BODC parameter value qualifier flags (C15 vocabulary)"@en;
+        skos:notation          "SDN:L27::BODC_QC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "British Oceanographic Data Centre parameter value qualifier flags"@en .
+
+<http://vocab.nerc.ac.uk/collection/L27/current/SEADATANET_QC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L27::SEADATANET_QC";
+        dc:date                "2012-07-24 13:48:47.0";
+        dc:identifier          "SDN:L27::SEADATANET_QC";
+        pav:authoredOn         "2012-07-24 13:48:47.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L27/current/SEADATANET_QC/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L27/current/SEADATANET_QC/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "SeaDataNet measurand qualifier flags version 3"@en;
+        skos:notation          "SDN:L27::SEADATANET_QC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "SeaDataNet measurand qualifier flags version 3"@en .
+
+<http://vocab.nerc.ac.uk/collection/L27/current/ODV_QC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L27::ODV_QC";
+        dc:date                "2012-07-24 12:42:26.0";
+        dc:identifier          "SDN:L27::ODV_QC";
+        pav:authoredOn         "2012-07-24 12:42:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L27/current/ODV_QC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "ODV Users Guide"@en;
+        skos:notation          "SDN:L27::ODV_QC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Ocean Data View generic quality flags"@en .
+
+<http://vocab.nerc.ac.uk/collection/L27/current/WOD_QC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L27::WOD_QC";
+        dc:date                "2012-07-24 12:49:27.0";
+        dc:identifier          "SDN:L27::WOD_QC";
+        pav:authoredOn         "2012-07-24 12:49:27.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L27/current/WOD_QC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "ftp://ftp.nodc.noaa.gov/pub/WOD05/DOC/wod05_tutorial.pdf"@en;
+        skos:notation          "SDN:L27::WOD_QC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "World Ocean Database individual observed level quality flags"@en .
+
+<http://vocab.nerc.ac.uk/collection/L27/current/OCEANSITES_QC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L27::OCEANSITES_QC";
+        dc:date                "2012-07-24 13:48:47.0";
+        dc:identifier          "SDN:L27::OCEANSITES_QC";
+        pav:authoredOn         "2012-07-24 13:48:47.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L27/current/OCEANSITES_QC/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L27/current/OCEANSITES_QC/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "OceanSites reference table 2"@en;
+        skos:notation          "SDN:L27::OCEANSITES_QC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "OceanSites reference table 2"@en .
+
+<http://vocab.nerc.ac.uk/collection/L27/current/WOCECTD_QC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L27::WOCECTD_QC";
+        dc:date                "2012-07-24 13:36:05.0";
+        dc:identifier          "SDN:L27::WOCECTD_QC";
+        pav:authoredOn         "2012-07-24 13:36:05.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L27/current/WOCECTD_QC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "http://cchdo.ucsd.edu/WHP_Exchange_Description.pdf"@en;
+        skos:notation          "SDN:L27::WOCECTD_QC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "World Ocean Circulation Experiment WHP CTD data quality flags"@en .
+
+<http://vocab.nerc.ac.uk/collection/L27/current/SMHI_QC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L27::SMHI_QC";
+        dc:date                "2025-01-23 13:39:35.0";
+        dc:identifier          "SDN:L27::SMHI_QC";
+        pav:authoredOn         "2025-01-23 13:39:35.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L27/current/SMHI_QC/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L27/current/SMHI_QC/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "Swedish Meteorological and Hydrographic Institute quality flags. For details see https://www.smhi.se/oceanografi/oce_info_data/shark_web/downloads/SMHI_QC.pdf."@en;
+        skos:notation          "SDN:L27::SMHI_QC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Swedish Meteorological and Hydrographic Institute quality flags"@en .
+
+<http://vocab.nerc.ac.uk/collection/L27/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Group set up under the joint auspices of the SeaDataNet project and the Intergovernmental Oceanographic Commission MarineXML Steering Group for controlled vocabulary governance in the marine domain";
+        dc:alternative          "SeaVoX Flag Conventions";
+        dc:creator              "SeaDataNet and MarineXML Vocabulary Content Governance Group";
+        dc:date                 "2025-01-24 02:00:01.0";
+        dc:description          "A catalogue including standardised labels of encoding schemes used for data value qualifying information such as data quality ";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "SeaVoX data quality control flagging conventions";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "SeaDataNet and MarineXML Vocabulary Content Governance Group";
+        owl:versionInfo         "3";
+        skos:altLabel           "SeaVoX Flag Conventions";
+        skos:member             <http://vocab.nerc.ac.uk/collection/L27/current/WOCESAMPLE_QC/> , <http://vocab.nerc.ac.uk/collection/L27/current/WODSTATION_QC/> , <http://vocab.nerc.ac.uk/collection/L27/current/ESEAS_QC/> , <http://vocab.nerc.ac.uk/collection/L27/current/IODE_QC/> , <http://vocab.nerc.ac.uk/collection/L27/current/PANGAEA_QC/> , <http://vocab.nerc.ac.uk/collection/L27/current/ARGO_QC/> , <http://vocab.nerc.ac.uk/collection/L27/current/WOCEBOTTLE_QC/> , <http://vocab.nerc.ac.uk/collection/L27/current/GTSPP_QC/> , <http://vocab.nerc.ac.uk/collection/L27/current/QARTOD_QC/> , <http://vocab.nerc.ac.uk/collection/L27/current/BODC_QC/> , <http://vocab.nerc.ac.uk/collection/L27/current/SEADATANET_QC/> , <http://vocab.nerc.ac.uk/collection/L27/current/ODV_QC/> , <http://vocab.nerc.ac.uk/collection/L27/current/WOD_QC/> , <http://vocab.nerc.ac.uk/collection/L27/current/OCEANSITES_QC/> , <http://vocab.nerc.ac.uk/collection/L27/current/SMHI_QC/> , <http://vocab.nerc.ac.uk/collection/L27/current/WOCECTD_QC/>;
+        skos:prefLabel          "SeaVoX data quality control flagging conventions" .

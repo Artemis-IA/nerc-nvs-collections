@@ -1,0 +1,513 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/C10/current/SECTSER/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C10::SECTSER";
+        dc:date                "2015-01-28 12:41:22.0";
+        dc:identifier          "SDN:C10::SECTSER";
+        pav:authoredOn         "2015-01-28 12:41:22.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C10/current/SECTSER/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Sect_Ser";
+        skos:definition        "The series has a single set of measurements valid along the whole of a fixed section (e.g. flow from a submarine cable) and fixed elevation or elevation range varying with time. Time and data parameters are stored along the primary dimension (rank 1). Position and the z co-ordinate(s) (depth or height) are stored in metadata."@en;
+        skos:notation          "SDN:C10::SECTSER";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Section time series"@en .
+
+<http://vocab.nerc.ac.uk/collection/C10/current/TRAJ/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C10::TRAJ";
+        dc:date                "2014-12-17 13:48:56.0";
+        dc:identifier          "SDN:C10::TRAJ";
+        pav:authoredOn         "2014-12-17 13:48:56.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C10/current/TRAJ/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C10/current/TRAJ/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "Traj";
+        skos:definition        "The series has measurements at a single fixed elevation varying with both position and time. Time and horizontal spatial (e.g. latitude and longitude) coordinates together with data are stored along the primary dimension (rank 1). The z co-ordinate (depth or height) is stored in metadata."@en;
+        skos:notation          "SDN:C10::TRAJ";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Trajectory"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L24/current/CFPOINT/> , <http://vocab.nerc.ac.uk/collection/L24/current/ODV/> .
+
+<http://vocab.nerc.ac.uk/collection/C10/current/CSPGRID/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C10::CSPGRID";
+        dc:date                "2014-12-17 14:15:32.0";
+        dc:identifier          "SDN:C10::CSPGRID";
+        pav:authoredOn         "2014-12-17 14:15:32.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C10/current/CSPGRID/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C10/current/CSPGRID/1/> , <http://vocab.nerc.ac.uk/collection/C10/current/CSPGRID/2/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "Comp_Grid";
+        skos:definition        "The series has data stored in a 2D array, having cycle number as the primary dimension (rank 1) variable and both latitude and longitude as the secondary dimension (rank 0) variables. Used in BODC for compact storage of spatial grids in QXF."@en;
+        skos:notation          "SDN:C10::CSPGRID";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Compressed spatial grid"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L24/current/CF/> .
+
+<http://vocab.nerc.ac.uk/collection/C10/current/SPPDPROF/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C10::SPPDPROF";
+        dc:date                "2018-09-20 09:02:58.0";
+        dc:identifier          "SDN:C10::SPPDPROF";
+        pav:authoredOn         "2018-09-20 09:02:58.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C10/current/SPPDPROF/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SP_Prof_PandD";
+        skos:definition        "The series has a single set of instantaneous measurements at a fixed position and elevation.  Z co-ordinates are included along the primary dimension (rank 1) as both pressure and depth. Time and position are stored as metadata. This is to cover series that would be a profile if there was more than one point."@en;
+        skos:notation          "SDN:C10::SPPDPROF";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Single point Profile with pressure and depth"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L24/current/CFPOINT/> , <http://vocab.nerc.ac.uk/collection/L24/current/ODV/> .
+
+<http://vocab.nerc.ac.uk/collection/C10/current/SPECSER/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C10::SPECSER";
+        dc:date                "2014-12-17 14:27:10.0";
+        dc:identifier          "SDN:C10::SPECSER";
+        pav:authoredOn         "2014-12-17 14:27:10.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C10/current/SPECSER/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C10/current/SPECSER/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "Spec_Ser";
+        skos:definition        "The series has a set of measurements at a fixed position and multiple but fixed z co-ordinate values that are not elevation (e.g. frequency or size class) varying with time. Time is stored along the primary dimension (rank 1) and the z co-ordinate along the secondary dimension (rank 0). The data parameters are 2D arrays (rank 2). Position is stored in metadata."@en;
+        skos:notation          "SDN:C10::SPECSER";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Spectrum time series"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L24/current/ODV/> .
+
+<http://vocab.nerc.ac.uk/collection/C10/current/SPDPROF/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C10::SPDPROF";
+        dc:date                "2018-09-20 09:02:59.0";
+        dc:identifier          "SDN:C10::SPDPROF";
+        pav:authoredOn         "2018-09-20 09:02:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C10/current/SPDPROF/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SP_Prof_D";
+        skos:definition        "The series has a single set of instantaneous measurements at a fixed position and elevation.  Z co-ordinates are included along the primary dimension (rank 1) as depth. Time and position are stored as metadata. This is to cover series that would be a profile if there was more than one point."@en;
+        skos:notation          "SDN:C10::SPDPROF";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Single point Profile with depth"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L24/current/CFPOINT/> , <http://vocab.nerc.ac.uk/collection/L24/current/ODV/> .
+
+<http://vocab.nerc.ac.uk/collection/C10/current/YOYO/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C10::YOYO";
+        dc:date                "2014-12-17 14:32:11.0";
+        dc:identifier          "SDN:C10::YOYO";
+        pav:authoredOn         "2014-12-17 14:32:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C10/current/YOYO/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C10/current/YOYO/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "Yo_Yo";
+        skos:definition        "The series has a set of measurements at a fixed position with elevation continuously varying (values potentially different for each oscillation) over time. QXF must include both a time channel and a z co-ordinate channel on the primary (rank 1) dimension along with the data parameters. Examples are wire-crawler moorings and repeated CTD casts that have neither been binned nor split into discrete profiles. Position is held in metadata."@en;
+        skos:notation          "SDN:C10::YOYO";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Repeated continuous profiles"@en .
+
+<http://vocab.nerc.ac.uk/collection/C10/current/TRAJ3D/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C10::TRAJ3D";
+        dc:date                "2014-12-17 13:58:59.0";
+        dc:identifier          "SDN:C10::TRAJ3D";
+        pav:authoredOn         "2014-12-17 13:58:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C10/current/TRAJ3D/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C10/current/TRAJ3D/1/> , <http://vocab.nerc.ac.uk/collection/C10/current/TRAJ3D/2/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "Traj_3D";
+        skos:definition        "The series has measurements at independently varying position and elevation as a function of time. Time, horizontal (e.g. latitude and longitude) and vertical (e.g. depth/height) coordinates together with data are stored along the primary dimension (rank 1). 2D trajectories may be stored as this feature type by including a z co-ordinate array set to a constant value."@en;
+        skos:notation          "SDN:C10::TRAJ3D";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Three Dimensional Trajectory"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L24/current/ODV/> .
+
+<http://vocab.nerc.ac.uk/collection/C10/current/2DSPCSER/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C10::2DSPCSER";
+        dc:date                "2016-12-06 14:31:59.0";
+        dc:identifier          "SDN:C10::2DSPCSER";
+        pav:authoredOn         "2016-12-06 14:31:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C10/current/2DSPCSER/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C10/current/2DSPCSER/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "2D_Spec_Ser";
+        skos:definition        "The series is a time series of measurements in which each measurement has two dimensions such as directional wave spectra. In CF-compliant NetCDF this example data type would be stored in a 3D array with co-ordinates time, frequency and direction. As QXF is limited to two dimensions the data are stored in a 2D array with time as a rank 1 variable and two rank 0 variables (frequency and direction) that are both required to describe a single row. So, for directional wave spectra with 10 frequencies, 10 direction bins and 50 time steps the CF array would have dimensions (50,10,10) and the QXF array (50,100). Position and z co-ordinate are stored in metadata."@en;
+        skos:notation          "SDN:C10::2DSPCSER";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Two-dimensional spectrum time series"@en .
+
+<http://vocab.nerc.ac.uk/collection/C10/current/PROFCOLL/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C10::PROFCOLL";
+        dc:date                "2014-12-17 13:45:57.0";
+        dc:identifier          "SDN:C10::PROFCOLL";
+        pav:authoredOn         "2014-12-17 13:45:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C10/current/PROFCOLL/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C10/current/PROFCOLL/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "Prof_Coll";
+        skos:definition        "The series has sets of measurements at multiple but constant elevations varying with both position and time. Time and horizontal spatial (e.g. latitude and longitude) coordinates are stored along the primary dimension (rank 1) with a z co-ordinate (depth or height) stored along the secondary dimension (rank 0). Data parameters are in 2D arrays (rank 2)."@en;
+        skos:notation          "SDN:C10::PROFCOLL";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Profile collection"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L24/current/ODV/> .
+
+<http://vocab.nerc.ac.uk/collection/C10/current/SPECPROF/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C10::SPECPROF";
+        dc:date                "2014-12-17 14:24:53.0";
+        dc:identifier          "SDN:C10::SPECPROF";
+        pav:authoredOn         "2014-12-17 14:24:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C10/current/SPECPROF/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C10/current/SPECPROF/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "Spec_Prof";
+        skos:definition        "The series has a set of measurements at a fixed position and time but varying depths. Each measurement constitutes a spectrum with a non-spatial variable (e.g. grain size or bin number) on the secondary dimension (rank 0). The primary dimension (rank 1) includes a z co-ordinate (depth). Time and position are held as metadata."@en;
+        skos:notation          "SDN:C10::SPECPROF";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Spectrum profile"@en .
+
+<http://vocab.nerc.ac.uk/collection/C10/current/SPPPROF/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C10::SPPPROF";
+        dc:date                "2018-09-20 09:02:55.0";
+        dc:identifier          "SDN:C10::SPPPROF";
+        pav:authoredOn         "2018-09-20 09:02:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C10/current/SPPPROF/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SP_Prof_P";
+        skos:definition        "The series has a single set of instantaneous measurements at a fixed position and elevation.  Data and z co-ordinate (as pressure) are included along the primary dimension (rank 1). Time and position are stored as metadata. This is to cover series that would be a profile if there was more than one point."@en;
+        skos:notation          "SDN:C10::SPPPROF";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Single point Profile with pressure"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L24/current/CFPOINT/> , <http://vocab.nerc.ac.uk/collection/L24/current/ODV/> .
+
+<http://vocab.nerc.ac.uk/collection/C10/current/SPGRID/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C10::SPGRID";
+        dc:date                "2014-12-17 14:29:57.0";
+        dc:identifier          "SDN:C10::SPGRID";
+        pav:authoredOn         "2014-12-17 14:29:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C10/current/SPGRID/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C10/current/SPGRID/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "Grid";
+        skos:definition        "The series has one set of measurements per parameter stored in a 2-D array described by two co-ordinate variables that are horizontal spatial co-ordinates (e.g. latitude and longitude) with longitude along the primary dimension (rank 1) and latitude along the secondary (rank 0).  Measurements could either be a single time-snapshot or considered time-independent."@en;
+        skos:notation          "SDN:C10::SPGRID";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Spatial Grid"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L24/current/CF/> .
+
+<http://vocab.nerc.ac.uk/collection/C10/current/CSPGRSER/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C10::CSPGRSER";
+        dc:date                "2013-10-02 14:16:17.0";
+        dc:identifier          "SDN:C10::CSPGRSER";
+        pav:authoredOn         "2013-10-02 14:16:17.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C10/current/CSPGRSER/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Comp_Grid_Ser";
+        skos:definition        "The series has data stored in a set of 2D arrays along a time dimension (i.e. a time series of compressed grids). Each has cycle number as the primary dimension variable and both latitude and longitude as the secondary dimension variables. Used in BODC for compact storage of spatial grid series (e.g. OSCR data) in QXF."@en;
+        skos:notation          "SDN:C10::CSPGRSER";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Compressed spatial grid series"@en .
+
+<http://vocab.nerc.ac.uk/collection/C10/current/DPROF/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C10::DPROF";
+        dc:date                "2014-12-17 14:18:01.0";
+        dc:identifier          "SDN:C10::DPROF";
+        pav:authoredOn         "2014-12-17 14:18:01.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C10/current/DPROF/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C10/current/DPROF/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "Prof_D";
+        skos:definition        "The series has a single set of instantaneous measurements at a fixed position over a vertical range (z).  Z co-ordinates are included along the primary dimension (rank 1) as depth. Time and position are stored as metadata."@en;
+        skos:notation          "SDN:C10::DPROF";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Profile with depth"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L24/current/CFPOINT/> , <http://vocab.nerc.ac.uk/collection/L24/current/ODV/> .
+
+<http://vocab.nerc.ac.uk/collection/C10/current/PROFSER/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C10::PROFSER";
+        dc:date                "2014-12-17 13:57:59.0";
+        dc:identifier          "SDN:C10::PROFSER";
+        pav:authoredOn         "2014-12-17 13:57:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C10/current/PROFSER/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C10/current/PROFSER/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "Prof_Ser";
+        skos:definition        "The series has a set of measurements at a fixed position and multiple but fixed elevations at different times. Time is stored along the primary dimension (rank 1). The z co-ordinate (depth/height) is stored along the secondary dimension (rank 0). Horizontal spatial co-ordinates (e.g. latitude and longitude) are stored in metadata."@en;
+        skos:notation          "SDN:C10::PROFSER";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Profile time series"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L24/current/ODV/> .
+
+<http://vocab.nerc.ac.uk/collection/C10/current/VPRFSER/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C10::VPRFSER";
+        dc:date                "2014-12-17 14:41:23.0";
+        dc:identifier          "SDN:C10::VPRFSER";
+        pav:authoredOn         "2014-12-17 14:41:23.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C10/current/VPRFSER/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "VD_Prof_Ser";
+        skos:definition        "The series has a set of measurements over time at a fixed point (position stored in metadata) and at multiple depths that can possibly vary from measurement to measurement. Each measurement constitutes a spectrum with a non-spatial variable (generally bin number) on the secondary (rank 0) dimension. The primary (rank 1) dimension includes the time variable. The z co-ordinate (depth or height) is carried with the data variables as 2D (rank 2) arrays."@en;
+        skos:notation          "SDN:C10::VPRFSER";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Variable-depth profile time series"@en .
+
+<http://vocab.nerc.ac.uk/collection/C10/current/SPECTRAJ/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C10::SPECTRAJ";
+        dc:date                "2014-12-17 14:28:24.0";
+        dc:identifier          "SDN:C10::SPECTRAJ";
+        pav:authoredOn         "2014-12-17 14:28:24.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C10/current/SPECTRAJ/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C10/current/SPECTRAJ/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "Spec_Traj";
+        skos:definition        "The series has a set of measurements at a fixed depth but variable times and locations. Each measurement constitutes a spectrum with a non-spatial variable (e.g. grain size or bin number) on the secondary dimension (rank 0). The primary dimension (rank 1) includes position and time variables, but no depth variable. Depth is stored in metadata."@en;
+        skos:notation          "SDN:C10::SPECTRAJ";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Spectrum trajectory"@en .
+
+<http://vocab.nerc.ac.uk/collection/C10/current/PDPROF/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C10::PDPROF";
+        dc:date                "2014-12-17 14:18:51.0";
+        dc:identifier          "SDN:C10::PDPROF";
+        pav:authoredOn         "2014-12-17 14:18:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C10/current/PDPROF/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C10/current/PDPROF/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "Prof_PandD";
+        skos:definition        "The series has a single set of instantaneous measurements at a fixed position over a vertical range (z).  Z co-ordinates are included along the primary dimension (rank 1) as both pressure and depth. Time and position are stored as metadata."@en;
+        skos:notation          "SDN:C10::PDPROF";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Profile with pressure and depth"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L24/current/CFPOINT/> , <http://vocab.nerc.ac.uk/collection/L24/current/ODV/> .
+
+<http://vocab.nerc.ac.uk/collection/C10/current/SPPOINT/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C10::SPPOINT";
+        dc:date                "2018-09-20 09:02:54.0";
+        dc:identifier          "SDN:C10::SPPOINT";
+        pav:authoredOn         "2018-09-20 09:02:54.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C10/current/SPPOINT/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SP_Point_Ser";
+        skos:definition        "The series has a single set of measurements at a fixed position, elevation and time. Time and data parameters are stored along the primary dimension (rank 1). Position and the z co-ordinate (depth or height) are stored in metadata. This is to cover series that would be a time series i.e. POINT if there was more than one point."@en;
+        skos:notation          "SDN:C10::SPPOINT";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Single point Point time series"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L24/current/CFPOINT/> , <http://vocab.nerc.ac.uk/collection/L24/current/ODV/> .
+
+<http://vocab.nerc.ac.uk/collection/C10/current/VPRFCOLL/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C10::VPRFCOLL";
+        dc:date                "2014-12-17 14:37:21.0";
+        dc:identifier          "SDN:C10::VPRFCOLL";
+        pav:authoredOn         "2014-12-17 14:37:21.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C10/current/VPRFCOLL/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "VD_Prof_Coll";
+        skos:definition        "The series has a set of measurements along a trajectory (variable times and locations) at multiple depths that can possibly vary from measurement to measurement. Each measurement constitutes a spectrum with a non-spatial variable (generally bin number) on the secondary (rank 0) dimension. The primary (rank 1) dimension includes position and time variables. The z co-ordinate (depth or height) is carried with the data variables as 2D (rank 2) arrays."@en;
+        skos:notation          "SDN:C10::VPRFCOLL";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Variable-depth profile collection"@en .
+
+<http://vocab.nerc.ac.uk/collection/C10/current/SPTRAJ3D/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C10::SPTRAJ3D";
+        dc:date                "2014-12-17 14:30:28.0";
+        dc:identifier          "SDN:C10::SPTRAJ3D";
+        pav:authoredOn         "2014-12-17 14:30:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C10/current/SPTRAJ3D/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C10/current/SPTRAJ3D/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "Spec_Traj_3D";
+        skos:definition        "The series has a set of measurements at variable times, depths and locations. Each measurement constitutes a spectrum with a non-spatial variable (e.g. grain size or bin number) on the secondary (rank 0)dimension. The primary (rank 1) dimension includes position, time variables and depth variable."@en;
+        skos:notation          "SDN:C10::SPTRAJ3D";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Spectrum three-dimensional trajectory"@en .
+
+<http://vocab.nerc.ac.uk/collection/C10/current/POINT/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C10::POINT";
+        dc:date                "2014-12-17 14:20:38.0";
+        dc:identifier          "SDN:C10::POINT";
+        pav:authoredOn         "2014-12-17 14:20:38.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C10/current/POINT/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C10/current/POINT/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "Point_Ser";
+        skos:definition        "The series has a single set of measurements at a fixed position and elevation varying with time. Time and data parameters are stored along the primary dimension (rank 1). Position and the z co-ordinate (depth or height) are stored in metadata."@en;
+        skos:notation          "SDN:C10::POINT";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Point time series"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L24/current/CFPOINT/> , <http://vocab.nerc.ac.uk/collection/L24/current/ODV/> .
+
+<http://vocab.nerc.ac.uk/collection/C10/current/POLYSER/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C10::POLYSER";
+        dc:date                "2015-01-28 14:07:49.0";
+        dc:identifier          "SDN:C10::POLYSER";
+        pav:authoredOn         "2015-01-28 14:07:49.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C10/current/POLYSER/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Poly_Ser";
+        skos:definition        "The series has a single set of measurements valid along the whole of a fixed area (e.g. flow from a submarine cable that has been relocated during the series) and fixed elevation or elevation range varying with time. Time and data parameters are stored along the primary dimension (rank 1). Position and the z co-ordinate(s) (depth or height) are stored in metadata."@en;
+        skos:notation          "SDN:C10::POLYSER";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Polygon time series"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L24/current/ODV/> .
+
+<http://vocab.nerc.ac.uk/collection/C10/current/PPROF/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C10::PPROF";
+        dc:date                "2014-12-17 14:22:05.0";
+        dc:identifier          "SDN:C10::PPROF";
+        pav:authoredOn         "2014-12-17 14:22:05.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C10/current/PPROF/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C10/current/PPROF/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "Prof_P";
+        skos:definition        "The series has a single set of instantaneous measurements at a fixed position over a vertical range (z).  Data and z co-ordinate (as pressure) are included along the primary dimension (rank 1). Time and position are stored as metadata."@en;
+        skos:notation          "SDN:C10::PPROF";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Profile with pressure"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L24/current/CFPOINT/> , <http://vocab.nerc.ac.uk/collection/L24/current/ODV/> .
+
+<http://vocab.nerc.ac.uk/collection/C10/current/SPTRAJ/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C10::SPTRAJ";
+        dc:date                "2018-09-20 09:02:36.0";
+        dc:identifier          "SDN:C10::SPTRAJ";
+        pav:authoredOn         "2018-09-20 09:02:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C10/current/SPTRAJ/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SP_Traj";
+        skos:definition        "The series has measurements at a single fixed elevation, position and time. Time and horizontal spatial (e.g. latitude and longitude) coordinates together with data are stored along the primary dimension (rank 1). The z co-ordinate (depth or height) is stored in metadata. This is to cover series that would be TRAJ if there was more than one point."@en;
+        skos:notation          "SDN:C10::SPTRAJ";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Single point Trajectory"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L24/current/CFPOINT/> , <http://vocab.nerc.ac.uk/collection/L24/current/ODV/> .
+
+<http://vocab.nerc.ac.uk/collection/C10/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used within the data centre";
+        dc:alternative          "BODC series features";
+        dc:creator              "British Oceanographic Data Centre";
+        dc:date                 "2018-09-21 02:00:04.0";
+        dc:description          "Terms that describe groups of BODC series with common independent variable characteristics.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "BODC series feature types";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "British Oceanographic Data Centre";
+        owl:versionInfo         "12";
+        skos:altLabel           "BODC series features";
+        skos:member             <http://vocab.nerc.ac.uk/collection/C10/current/SECTSER/> , <http://vocab.nerc.ac.uk/collection/C10/current/TRAJ/> , <http://vocab.nerc.ac.uk/collection/C10/current/CSPGRID/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPPDPROF/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPECSER/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPDPROF/> , <http://vocab.nerc.ac.uk/collection/C10/current/YOYO/> , <http://vocab.nerc.ac.uk/collection/C10/current/TRAJ3D/> , <http://vocab.nerc.ac.uk/collection/C10/current/2DSPCSER/> , <http://vocab.nerc.ac.uk/collection/C10/current/PROFCOLL/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPECPROF/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPPPROF/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPGRID/> , <http://vocab.nerc.ac.uk/collection/C10/current/CSPGRSER/> , <http://vocab.nerc.ac.uk/collection/C10/current/DPROF/> , <http://vocab.nerc.ac.uk/collection/C10/current/PROFSER/> , <http://vocab.nerc.ac.uk/collection/C10/current/VPRFSER/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPECTRAJ/> , <http://vocab.nerc.ac.uk/collection/C10/current/PDPROF/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPPOINT/> , <http://vocab.nerc.ac.uk/collection/C10/current/VPRFCOLL/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPTRAJ3D/> , <http://vocab.nerc.ac.uk/collection/C10/current/POINT/> , <http://vocab.nerc.ac.uk/collection/C10/current/POLYSER/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPTRAJ/> , <http://vocab.nerc.ac.uk/collection/C10/current/PPROF/>;
+        skos:prefLabel          "BODC series feature types" .

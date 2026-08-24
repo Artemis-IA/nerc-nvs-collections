@@ -1,0 +1,122 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/GS5/current/nearsymm/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GS5::nearsymm";
+        dc:date                "2010-10-14 10:12:15.0";
+        dc:identifier          "SDN:GS5::nearsymm";
+        pav:authoredOn         "2010-10-14 10:12:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GS5/current/nearsymm/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "nearSymm";
+        skos:definition        "Folk and Ward or Krumbein sediment grain-size  skewness coefficient +0.10 to -0.10"@en;
+        skos:notation          "SDN:GS5::nearsymm";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "near symmetrical"@en .
+
+<http://vocab.nerc.ac.uk/collection/GS5/current/fskew/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GS5::fskew";
+        dc:date                "2010-10-14 10:12:15.0";
+        dc:identifier          "SDN:GS5::fskew";
+        pav:authoredOn         "2010-10-14 10:12:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GS5/current/fskew/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "finSkew";
+        skos:definition        "Folk and Ward or Krumbein sediment grain-size  skewness coefficient +0.30 to +0.10"@en;
+        skos:notation          "SDN:GS5::fskew";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "fine skewed"@en .
+
+<http://vocab.nerc.ac.uk/collection/GS5/current/sfskew/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GS5::sfskew";
+        dc:date                "2010-10-14 10:12:15.0";
+        dc:identifier          "SDN:GS5::sfskew";
+        pav:authoredOn         "2010-10-14 10:12:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GS5/current/sfskew/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "strFinSkew";
+        skos:definition        "Folk and Ward or Krumbein sediment grain-size skewness coefficient >+0.30"@en;
+        skos:notation          "SDN:GS5::sfskew";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "strongly fine skewed"@en .
+
+<http://vocab.nerc.ac.uk/collection/GS5/current/scskew/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GS5::scskew";
+        dc:date                "2010-10-14 10:12:15.0";
+        dc:identifier          "SDN:GS5::scskew";
+        pav:authoredOn         "2010-10-14 10:12:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GS5/current/scskew/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "strCoarSkew";
+        skos:definition        "Folk and Ward or Krumbein sediment grain-size  skewness coefficient <-0.30"@en;
+        skos:notation          "SDN:GS5::scskew";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "strongly coarse skewed"@en .
+
+<http://vocab.nerc.ac.uk/collection/GS5/current/cskew/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GS5::cskew";
+        dc:date                "2010-10-14 10:12:15.0";
+        dc:identifier          "SDN:GS5::cskew";
+        pav:authoredOn         "2010-10-14 10:12:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GS5/current/cskew/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "coarSkew";
+        skos:definition        "Folk and Ward or Krumbein sediment grain-size  skewness coefficient -0.10 to -0.30"@en;
+        skos:notation          "SDN:GS5::cskew";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "coarse skewed"@en .
+
+<http://vocab.nerc.ac.uk/collection/GS5/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the EU Geo-Seas project implemented as consultation between BODC and a designated group of Geo-Seas project paticipants";
+        dc:alternative          "Geo-Seas skewness descriptors";
+        dc:creator              "Geo-Seas";
+        dc:date                 "2010-10-15 02:00:11.0";
+        dc:description          "Terms used to describe sediment grain-size skewness coefficients in the Geo-Seas project.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Geo-Seas sediment grain-size skewness descriptors";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Geo-Seas";
+        owl:versionInfo         "1";
+        skos:altLabel           "Geo-Seas skewness descriptors";
+        skos:member             <http://vocab.nerc.ac.uk/collection/GS5/current/nearsymm/> , <http://vocab.nerc.ac.uk/collection/GS5/current/fskew/> , <http://vocab.nerc.ac.uk/collection/GS5/current/cskew/> , <http://vocab.nerc.ac.uk/collection/GS5/current/scskew/> , <http://vocab.nerc.ac.uk/collection/GS5/current/sfskew/>;
+        skos:prefLabel          "Geo-Seas sediment grain-size skewness descriptors" .

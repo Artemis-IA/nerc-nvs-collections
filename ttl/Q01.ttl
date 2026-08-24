@@ -1,0 +1,360 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/Q01/current/Q0100016/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:Q01::Q0100016";
+        dc:date                "2023-11-15 16:18:53.0";
+        dc:identifier          "SDN:Q01::Q0100016";
+        pav:authoredOn         "2023-11-15 16:18:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100016/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100016/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "Term deprecated on 15/11/2023 (https://github.com/nvs-vocabs/Q01/issues/2). The efficiency of the sampling instrument in catching the targeted specimen."@en;
+        skos:notation          "SDN:Q01::Q0100016";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Sampling instrument efficiency"@en .
+
+<http://vocab.nerc.ac.uk/collection/Q01/current/Q0100001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:Q01::Q0100001";
+        dc:date                "2024-04-26 14:19:26.0";
+        dc:identifier          "SDN:Q01::Q0100001";
+        pav:authoredOn         "2024-04-26 14:19:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100001/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100001/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/NMSPPF01/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "Term deprecated on 26/04/2024 as the Q01 collection will no longer be used; use the equivalent P01 term instead. The name of the platform used to make the sampling, measurement or observation."@en;
+        skos:notation          "SDN:Q01::Q0100001";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Sampling platform name"@en .
+
+<http://vocab.nerc.ac.uk/collection/Q01/current/Q0100006/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:Q01::Q0100006";
+        dc:date                "2024-04-26 14:19:26.0";
+        dc:identifier          "SDN:Q01::Q0100006";
+        pav:authoredOn         "2024-04-26 14:19:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100006/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100006/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/DSPSSP01/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "Term deprecated on 26/04/2024 as the Q01 collection will no longer be used; use the equivalent P01 term instead. The name or description of the method used to divide the sample into subsamples."@en;
+        skos:notation          "SDN:Q01::Q0100006";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Subsampling protocol"@en .
+
+<http://vocab.nerc.ac.uk/collection/Q01/current/Q0100010/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:Q01::Q0100010";
+        dc:date                "2024-04-26 14:19:26.0";
+        dc:identifier          "SDN:Q01::Q0100010";
+        pav:authoredOn         "2024-04-26 14:19:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100010/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100010/1/> , <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100010/2/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/PRSZSPUP/>;
+        owl:versionInfo        "3";
+        skos:altLabel          "";
+        skos:definition        "Term deprecated on 26/04/2024 as the Q01 collection will no longer be used; use the equivalent P01 term instead. The pore size of the filter used to exclude particulate material from a sample (typically a water sample). Only the material and liquid passing through the filter are used in the analysis."@en;
+        skos:notation          "SDN:Q01::Q0100010";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Upper filter pore size"@en .
+
+<http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:Q01::Q0100002";
+        dc:date                "2024-04-26 14:19:26.0";
+        dc:identifier          "SDN:Q01::Q0100002";
+        pav:authoredOn         "2024-04-26 14:19:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/NMSPINST/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "Term deprecated on 26/04/2024 as the Q01 collection will no longer be used; use the equivalent P01 term instead. The name of the gear or instrument used to collect the sample or make the in-situ measurement or observation."@en;
+        skos:notation          "SDN:Q01::Q0100002";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Sampling instrument name"@en .
+
+<http://vocab.nerc.ac.uk/collection/Q01/current/Q0100011/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:Q01::Q0100011";
+        dc:date                "2024-04-26 14:19:26.0";
+        dc:identifier          "SDN:Q01::Q0100011";
+        pav:authoredOn         "2024-04-26 14:19:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100011/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100011/1/> , <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100011/2/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/PRSZSPLW/>;
+        owl:versionInfo        "3";
+        skos:altLabel          "";
+        skos:definition        "Term deprecated on 26/04/2024 as the Q01 collection will no longer be used; use the equivalent P01 term instead. The pore size of the filter used to collect particulate material from a sample (typically a water sample). Only the material collected on the filter is used in the analysis."@en;
+        skos:notation          "SDN:Q01::Q0100011";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Lower filter pore size"@en .
+
+<http://vocab.nerc.ac.uk/collection/Q01/current/Q0100014/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:Q01::Q0100014";
+        dc:date                "2024-04-26 14:19:26.0";
+        dc:identifier          "SDN:Q01::Q0100014";
+        pav:authoredOn         "2024-04-26 14:19:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100014/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100014/2/> , <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100014/1/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/MTHHGHT1/>;
+        owl:versionInfo        "3";
+        skos:altLabel          "";
+        skos:definition        "Term deprecated on 26/04/2024 as the Q01 collection will no longer be used; use the equivalent P01 term instead. The larger dimension of the sampling area of a device with a rectangular aperture (e.g. a grab); the type of device is specified elsewhere."@en;
+        skos:notation          "SDN:Q01::Q0100014";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Sampling device aperture length"@en .
+
+<http://vocab.nerc.ac.uk/collection/Q01/current/Q0100013/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:Q01::Q0100013";
+        dc:date                "2024-04-26 14:19:26.0";
+        dc:identifier          "SDN:Q01::Q0100013";
+        pav:authoredOn         "2024-04-26 14:19:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100013/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100013/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/MTHWDTH1/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "Term deprecated on 26/04/2024 as the Q01 collection will no longer be used; use the equivalent P01 term instead. The smaller dimension of the sampling area of a device with a rectangular aperture (e.g. a grab or a trawl); the type of device is specified elsewhere."@en;
+        skos:notation          "SDN:Q01::Q0100013";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Sampling device aperture width"@en .
+
+<http://vocab.nerc.ac.uk/collection/Q01/current/Q0100007/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:Q01::Q0100007";
+        dc:date                "2024-04-26 14:19:26.0";
+        dc:identifier          "SDN:Q01::Q0100007";
+        pav:authoredOn         "2024-04-26 14:19:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100007/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100007/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/MSHSIZE2/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "Term deprecated on 26/04/2024 as the Q01 collection will no longer be used; use the equivalent P01 term instead. The mesh size of the sieve used to sort biological material from a sample (typically a sediment sample). Only the material that remains in the sieve is used in the analyses."@en;
+        skos:notation          "SDN:Q01::Q0100007";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Lower sieve mesh size"@en .
+
+<http://vocab.nerc.ac.uk/collection/Q01/current/Q0100012/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:Q01::Q0100012";
+        dc:date                "2024-04-26 14:19:26.0";
+        dc:identifier          "SDN:Q01::Q0100012";
+        pav:authoredOn         "2024-04-26 14:19:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100012/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100012/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/DSAMPA01/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "Term deprecated on 26/04/2024 as the Q01 collection will no longer be used; use the equivalent P01 term instead. The diameter of the sampling area of a device with a circular aperture (e.g. a corer or a net); the type of device is specified elsewhere."@en;
+        skos:notation          "SDN:Q01::Q0100012";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Sampling device aperture diameter"@en .
+
+<http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:Q01::Q0100015";
+        dc:date                "2024-04-26 14:19:26.0";
+        dc:identifier          "SDN:Q01::Q0100015";
+        pav:authoredOn         "2024-04-26 14:19:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/MSHSIZE1/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "Term deprecated on 26/04/2024 as the Q01 collection will no longer be used; use the equivalent P01 term instead. The mesh size of the sampling net used to obtain the sample. The type of net is specified elsewhere."@en;
+        skos:notation          "SDN:Q01::Q0100015";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Sampling net mesh size"@en .
+
+<http://vocab.nerc.ac.uk/collection/Q01/current/Q0100004/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:Q01::Q0100004";
+        dc:date                "2024-04-26 14:19:26.0";
+        dc:identifier          "SDN:Q01::Q0100004";
+        pav:authoredOn         "2024-04-26 14:19:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100004/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100004/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/DSSPPRMT/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "Term deprecated on 26/04/2024 as the Q01 collection will no longer be used; use the equivalent P01 term instead. The name or description of the method used to preserve the sample after collection and prior to the analysis."@en;
+        skos:notation          "SDN:Q01::Q0100004";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Sample preservation method"@en .
+
+<http://vocab.nerc.ac.uk/collection/Q01/current/Q0100005/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:Q01::Q0100005";
+        dc:date                "2024-04-26 14:19:26.0";
+        dc:identifier          "SDN:Q01::Q0100005";
+        pav:authoredOn         "2024-04-26 14:19:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100005/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100005/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/DSSPXTMT/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "Term deprecated on 26/04/2024 as the Q01 collection will no longer be used; use the equivalent P01 term instead. The name or description of the method used to extract the biological material from its surrounding matrix."@en;
+        skos:notation          "SDN:Q01::Q0100005";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Sample extraction method"@en .
+
+<http://vocab.nerc.ac.uk/collection/Q01/current/Q0100009/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:Q01::Q0100009";
+        dc:date                "2024-04-26 14:19:26.0";
+        dc:identifier          "SDN:Q01::Q0100009";
+        pav:authoredOn         "2024-04-26 14:19:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100009/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100009/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/SZCLBIO1/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "Term deprecated on 26/04/2024 as the Q01 collection will no longer be used; use the equivalent P01 term instead. The size class of the biological entities used for the observation. Specimens with sizes outside this range would not be included in the dataset."@en;
+        skos:notation          "SDN:Q01::Q0100009";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Biological sample size range"@en .
+
+<http://vocab.nerc.ac.uk/collection/Q01/current/Q0100008/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:Q01::Q0100008";
+        dc:date                "2024-04-26 14:19:26.0";
+        dc:identifier          "SDN:Q01::Q0100008";
+        pav:authoredOn         "2024-04-26 14:19:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100008/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100008/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/MSHSIZE3/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "Term deprecated on 26/04/2024 as the Q01 collection will no longer be used; use the equivalent P01 term instead. The mesh size of the sieve used to sort biological material from a sample (typically a sediment sample). The material that remains in the sieve is discarded."@en;
+        skos:notation          "SDN:Q01::Q0100008";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Upper sieve mesh size"@en .
+
+<http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:Q01::Q0100003";
+        dc:date                "2024-04-26 14:19:26.0";
+        dc:identifier          "SDN:Q01::Q0100003";
+        pav:authoredOn         "2024-04-26 14:19:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/2/> , <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/1/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/DSSPMT01/>;
+        owl:versionInfo        "3";
+        skos:altLabel          "";
+        skos:definition        "Term deprecated on 26/04/2024 as the Q01 collection will no longer be used; use the equivalent P01 term instead. The name or description of the method used to collect the sample or make the in-situ measurement or observation."@en;
+        skos:notation          "SDN:Q01::Q0100003";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Sampling method"@en .
+
+<http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:Q01::Q0100017";
+        dc:date                "2024-04-26 14:19:26.0";
+        dc:identifier          "SDN:Q01::Q0100017";
+        pav:authoredOn         "2024-04-26 14:19:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/MTHAREA1/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "Term deprecated on 26/04/2024 as the Q01 collection will no longer be used; use the equivalent P01 term instead. The 2-dimensional size of the opening of a sampling device (e.g. a grab or a trawl); the type of device is specified elsewhere"@en;
+        skos:notation          "SDN:Q01::Q0100017";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Sampling device aperture surface area"@en .
+
+<http://vocab.nerc.ac.uk/collection/Q01/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies created and maintained by the Ocean Biogeographic Information System.";
+        rdfs:seeAlso            <https://github.com/nvs-vocabs/Q01>;
+        dc:alternative          "OBIS sampling attribute terms";
+        dc:creator              "Ocean Biogeographic Information System";
+        dc:date                 "2024-04-27 03:00:07.0";
+        dc:description          "!!MOTHBALLED!! Concepts from this collection have all been deprecated and replaced by equivalent P01 codes (follow the sameAs mapping link). Was previously defined as: Collection of terms used by the Ocean Biogeographic Information System to standardise attributes related to sampling instruments and methods.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "OBIS sampling instruments and methods attributes";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Ocean Biogeographic Information System";
+        owl:versionInfo         "5";
+        skos:altLabel           "OBIS sampling attribute terms";
+        skos:member             <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100016/> , <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100001/> , <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100006/> , <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100010/> , <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/> , <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100011/> , <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100014/> , <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100013/> , <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100007/> , <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100012/> , <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/> , <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100004/> , <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100005/> , <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100009/> , <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100008/> , <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/> , <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/>;
+        skos:prefLabel          "OBIS sampling instruments and methods attributes" .

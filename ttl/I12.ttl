@@ -1,0 +1,207 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/I12/current/tuesday/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I12::tuesday";
+        dc:date                "2012-05-03 14:56:50.0";
+        dc:identifier          "SDN:I12::tuesday";
+        pav:authoredOn         "2012-05-03 14:56:50.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I12/current/tuesday/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The day of the week between Monday and Wednesday."@en;
+        skos:notation          "SDN:I12::tuesday";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Tuesday"@en .
+
+<http://vocab.nerc.ac.uk/collection/I12/current/thursday/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I12::thursday";
+        dc:date                "2012-05-03 14:56:50.0";
+        dc:identifier          "SDN:I12::thursday";
+        pav:authoredOn         "2012-05-03 14:56:50.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I12/current/thursday/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The day of the week between Wednesday and Friday."@en;
+        skos:notation          "SDN:I12::thursday";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Thursday"@en .
+
+<http://vocab.nerc.ac.uk/collection/I12/current/weekends/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I12::weekends";
+        dc:date                "2012-05-03 14:56:50.0";
+        dc:identifier          "SDN:I12::weekends";
+        pav:authoredOn         "2012-05-03 14:56:50.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I12/current/weekends/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Weekends refers to those days contained within a typical weekend: Saturday and Sunday."@en;
+        skos:notation          "SDN:I12::weekends";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Weekends"@en .
+
+<http://vocab.nerc.ac.uk/collection/I12/current/weekdays/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I12::weekdays";
+        dc:date                "2012-05-03 14:56:50.0";
+        dc:identifier          "SDN:I12::weekdays";
+        pav:authoredOn         "2012-05-03 14:56:50.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I12/current/weekdays/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Weekdays refers to all days contained within a typical working week: Monday, Tuesday, Wednesday, Thursday and Friday."@en;
+        skos:notation          "SDN:I12::weekdays";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Weekdays"@en .
+
+<http://vocab.nerc.ac.uk/collection/I12/current/friday/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I12::friday";
+        dc:date                "2012-05-03 14:56:50.0";
+        dc:identifier          "SDN:I12::friday";
+        pav:authoredOn         "2012-05-03 14:56:50.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I12/current/friday/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The day of the week between Thursday and Saturday."@en;
+        skos:notation          "SDN:I12::friday";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Friday"@en .
+
+<http://vocab.nerc.ac.uk/collection/I12/current/saturday/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I12::saturday";
+        dc:date                "2012-05-03 14:56:50.0";
+        dc:identifier          "SDN:I12::saturday";
+        pav:authoredOn         "2012-05-03 14:56:50.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I12/current/saturday/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The day of the week between Friday and Sunday."@en;
+        skos:notation          "SDN:I12::saturday";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Saturday"@en .
+
+<http://vocab.nerc.ac.uk/collection/I12/current/wednesday/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I12::wednesday";
+        dc:date                "2012-05-03 14:56:50.0";
+        dc:identifier          "SDN:I12::wednesday";
+        pav:authoredOn         "2012-05-03 14:56:50.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I12/current/wednesday/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The day of the week between Tuesday and Thursday."@en;
+        skos:notation          "SDN:I12::wednesday";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Wednesday"@en .
+
+<http://vocab.nerc.ac.uk/collection/I12/current/publicHoliday/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I12::publicHoliday";
+        dc:date                "2012-05-03 14:56:50.0";
+        dc:identifier          "SDN:I12::publicHoliday";
+        pav:authoredOn         "2012-05-03 14:56:50.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I12/current/publicHoliday/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Any day that is a public holiday."@en;
+        skos:notation          "SDN:I12::publicHoliday";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Public holiday"@en .
+
+<http://vocab.nerc.ac.uk/collection/I12/current/sunday/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I12::sunday";
+        dc:date                "2012-05-03 14:56:50.0";
+        dc:identifier          "SDN:I12::sunday";
+        pav:authoredOn         "2012-05-03 14:56:50.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I12/current/sunday/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The day of the week between Saturday and Monday."@en;
+        skos:notation          "SDN:I12::sunday";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sunday"@en .
+
+<http://vocab.nerc.ac.uk/collection/I12/current/monday/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I12::monday";
+        dc:date                "2012-05-03 14:56:50.0";
+        dc:identifier          "SDN:I12::monday";
+        pav:authoredOn         "2012-05-03 14:56:50.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I12/current/monday/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The day of the week between Sunday and Tuesday."@en;
+        skos:notation          "SDN:I12::monday";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Monday"@en .
+
+<http://vocab.nerc.ac.uk/collection/I12/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in INSPIRE spatial data infrastructure metadata";
+        dc:alternative          "INSPIRE Day Type";
+        dc:creator              "European Commission";
+        dc:date                 "2012-05-04 02:00:04.0";
+        dc:description          "Terms used to describe temporal periods within which an activity is scheduled to be controlled.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "INSPIRE Management and Reporting Day Type";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "European Commission";
+        owl:versionInfo         "1";
+        skos:altLabel           "INSPIRE Day Type";
+        skos:member             <http://vocab.nerc.ac.uk/collection/I12/current/tuesday/> , <http://vocab.nerc.ac.uk/collection/I12/current/thursday/> , <http://vocab.nerc.ac.uk/collection/I12/current/weekends/> , <http://vocab.nerc.ac.uk/collection/I12/current/weekdays/> , <http://vocab.nerc.ac.uk/collection/I12/current/friday/> , <http://vocab.nerc.ac.uk/collection/I12/current/saturday/> , <http://vocab.nerc.ac.uk/collection/I12/current/wednesday/> , <http://vocab.nerc.ac.uk/collection/I12/current/monday/> , <http://vocab.nerc.ac.uk/collection/I12/current/sunday/> , <http://vocab.nerc.ac.uk/collection/I12/current/publicHoliday/>;
+        skos:prefLabel          "INSPIRE Management and Reporting Day Type" .

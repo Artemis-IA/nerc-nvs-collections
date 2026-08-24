@@ -1,0 +1,178 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/L26/current/UMNT/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L26::UMNT";
+        dc:date                "2014-05-06 09:27:10.0";
+        dc:identifier          "SDN:L26::UMNT";
+        pav:authoredOn         "2014-05-06 09:27:10.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L26/current/UMNT/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "mon";
+        skos:definition        "A time interval of 30.4375 days or 2629800 seconds."@en;
+        skos:notation          "SDN:L26::UMNT";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Months"@en .
+
+<http://vocab.nerc.ac.uk/collection/L26/current/UTBB/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L26::UTBB";
+        dc:date                "2014-05-06 09:22:18.0";
+        dc:identifier          "SDN:L26::UTBB";
+        pav:authoredOn         "2014-05-06 09:22:18.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L26/current/UTBB/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L26/current/UTBB/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "s";
+        skos:definition        "The duration of 9192631770 periods of the radiation corresponding to the transition between the two hyperfine levels of the ground state of the caesium 133 atom."@en;
+        skos:notation          "SDN:L26::UTBB";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Seconds"@en .
+
+<http://vocab.nerc.ac.uk/collection/L26/current/UMSC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L26::UMSC";
+        dc:date                "2014-05-06 09:18:59.0";
+        dc:identifier          "SDN:L26::UMSC";
+        pav:authoredOn         "2014-05-06 09:18:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L26/current/UMSC/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L26/current/UMSC/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "ms";
+        skos:definition        "A time interval of one thousandth of a second."@en;
+        skos:notation          "SDN:L26::UMSC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Milliseconds"@en .
+
+<http://vocab.nerc.ac.uk/collection/L26/current/UTAA/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L26::UTAA";
+        dc:date                "2014-05-06 09:20:54.0";
+        dc:identifier          "SDN:L26::UTAA";
+        pav:authoredOn         "2014-05-06 09:20:54.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L26/current/UTAA/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L26/current/UTAA/1/> , <http://vocab.nerc.ac.uk/collection/L26/current/UTAA/2/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "d";
+        skos:definition        "A time interval of 24 hours or 86400 seconds."@en;
+        skos:notation          "SDN:L26::UTAA";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Days"@en .
+
+<http://vocab.nerc.ac.uk/collection/L26/current/UYRS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L26::UYRS";
+        dc:date                "2011-10-26 14:11:07.0";
+        dc:identifier          "SDN:L26::UYRS";
+        pav:authoredOn         "2011-10-26 14:11:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L26/current/UYRS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "yr";
+        skos:definition        "A time interval of 365.25 days or 31557600 seconds"@en;
+        skos:notation          "SDN:L26::UYRS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Years"@en .
+
+<http://vocab.nerc.ac.uk/collection/L26/current/USEC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L26::USEC";
+        dc:date                "2014-05-06 09:19:21.0";
+        dc:identifier          "SDN:L26::USEC";
+        pav:authoredOn         "2014-05-06 09:19:21.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L26/current/USEC/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L26/current/USEC/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "us";
+        skos:definition        "A time interval of one millionth of a second."@en;
+        skos:notation          "SDN:L26::USEC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Microseconds"@en .
+
+<http://vocab.nerc.ac.uk/collection/L26/current/UHOR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L26::UHOR";
+        dc:date                "2011-10-26 14:11:07.0";
+        dc:identifier          "SDN:L26::UHOR";
+        pav:authoredOn         "2011-10-26 14:11:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L26/current/UHOR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "h";
+        skos:definition        "A time interval of sixty minutes or 3600 seconds."@en;
+        skos:notation          "SDN:L26::UHOR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Hours"@en .
+
+<http://vocab.nerc.ac.uk/collection/L26/current/UMIN/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L26::UMIN";
+        dc:date                "2011-10-26 14:11:07.0";
+        dc:identifier          "SDN:L26::UMIN";
+        pav:authoredOn         "2011-10-26 14:11:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L26/current/UMIN/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "min";
+        skos:definition        "A time interval of sixty seconds"@en;
+        skos:notation          "SDN:L26::UMIN";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Minutes"@en .
+
+<http://vocab.nerc.ac.uk/collection/L26/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the EU SeaDataNet project implemented as consultation between BODC and the members of the SeaDataNet Technical Task Team";
+        dc:alternative          "EDIOS sampling units";
+        dc:creator              "SeaDataNet";
+        dc:date                 "2014-05-07 08:19:59.0";
+        dc:description          "Units of measure (P06 subset) that may be used for sampling intervals in the EDIOS metadata schema. Required to prevent times with units of kilograms!";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "EDIOS permitted sampling interval units";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "SeaDataNet";
+        owl:versionInfo         "1";
+        skos:altLabel           "EDIOS sampling units";
+        skos:member             <http://vocab.nerc.ac.uk/collection/L26/current/UMNT/> , <http://vocab.nerc.ac.uk/collection/L26/current/UTBB/> , <http://vocab.nerc.ac.uk/collection/L26/current/UMSC/> , <http://vocab.nerc.ac.uk/collection/L26/current/UTAA/> , <http://vocab.nerc.ac.uk/collection/L26/current/UYRS/> , <http://vocab.nerc.ac.uk/collection/L26/current/USEC/> , <http://vocab.nerc.ac.uk/collection/L26/current/UMIN/> , <http://vocab.nerc.ac.uk/collection/L26/current/UHOR/>;
+        skos:prefLabel          "EDIOS permitted sampling interval units" .

@@ -1,0 +1,706 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/L24/current/JSON/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::JSON";
+        dc:date                "2026-03-19 11:16:00.0";
+        dc:identifier          "SDN:L24::JSON";
+        pav:authoredOn         "2026-03-19 11:16:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/JSON/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L24/current/JSON/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "JSON";
+        skos:definition        "JSON, JavaScript Object Notation) is an open standard file format that is human-readable and used for exchanging data in text format. It stores and transmits key value pairs in objects and ordered lists in arrays which are human and machine readable. It is compatible across programming languages such as JavaScript, Python, and Java."@en;
+        skos:notation          "SDN:L24::JSON";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "JavaScript Object Notation"@en .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/NETCDF-4/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::NETCDF-4";
+        dc:date                "2026-03-19 11:16:00.0";
+        dc:identifier          "SDN:L24::NETCDF-4";
+        pav:authoredOn         "2026-03-19 11:16:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/NETCDF-4/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L24/current/NETCDF-4/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "NetCDF-4";
+        skos:definition        "Network Common Data Form (netCDF) is a self-describing and machine-independent binary format. It bundles data arrays with metadata and is structured using dimensions, variables, and attributes. It is used for storing and sharing multidimensional scientific data. This version (4) allows for larger file sizes, data compression, and nested groups."@en;
+        skos:notation          "SDN:L24::NETCDF-4";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Network Common Data Format Version 4"@en .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/GEODATABASE/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::GEODATABASE";
+        dc:date                "2026-03-19 11:16:00.0";
+        dc:identifier          "SDN:L24::GEODATABASE";
+        pav:authoredOn         "2026-03-19 11:16:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/GEODATABASE/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L24/current/GEODATABASE/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "geodatabase";
+        skos:definition        "Geodatabase is a proprietary GIS file format used by Esri ArcGIS. It physically stores geographic information using a database management system or file system. It has an information model, for representing and managing geographic information, software logic, for working with the geographic data and shapefiles, CAD files, TINs, grids, etc., and a transaction model, for managing GIS data workflows."@en;
+        skos:notation          "SDN:L24::GEODATABASE";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Esri Geodatabase"@en .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/GEOPACKAGE/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::GEOPACKAGE";
+        dc:date                "2026-03-19 11:16:00.0";
+        dc:identifier          "SDN:L24::GEOPACKAGE";
+        pav:authoredOn         "2026-03-19 11:16:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/GEOPACKAGE/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L24/current/GEOPACKAGE/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "GPKG";
+        skos:definition        "GeoPackage (GPKG) is an open, non-proprietary, platform-independent and standards-based data format for geographic information system. It is an SQLite database file with a specific database schema. It stores vector features, tile matrix sets of imagery and raster maps, schema and metadata."@en;
+        skos:notation          "SDN:L24::GEOPACKAGE";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "GeoPackage"@en .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/GEOJSON/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::GEOJSON";
+        dc:date                "2026-03-19 11:16:00.0";
+        dc:identifier          "SDN:L24::GEOJSON";
+        pav:authoredOn         "2026-03-19 11:16:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/GEOJSON/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L24/current/GEOJSON/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "GeoJSON";
+        skos:definition        "GeoJSON is an open, non-proprietary standard format designed for representing simple geographical features, along with their non-spatial attributes. It is a dialect based on the JavaScript Object Notation (JSON). The features include points, line strings, polygons, and multiple collections of these types. GeoJSON features can also be used to define and describe conceptual or abstract features, such as mobile service coverage or urban planning data."@en;
+        skos:notation          "SDN:L24::GEOJSON";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "JavaScript Object Notation for Geographical Features"@en .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/GRID/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::GRID";
+        dc:date                "2026-03-19 11:16:00.0";
+        dc:identifier          "SDN:L24::GRID";
+        pav:authoredOn         "2026-03-19 11:16:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/GRID/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L24/current/GRID/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "grid";
+        skos:definition        "An Esri grid is a raster GIS file format developed by Esri. There are two file options, either a proprietary binary format, also known as an ARC/INFO GRID, ARC GRID and many other variations, or a non-proprietary ASCII format, also known as an ARC/INFO ASCII GRID."@en;
+        skos:notation          "SDN:L24::GRID";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Esri Grid"@en .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/INAPP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::INAPP";
+        dc:date                "2014-01-21 08:31:25.0";
+        dc:identifier          "SDN:L24::INAPP";
+        pav:authoredOn         "2014-01-21 08:31:25.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/INAPP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Inapplicable";
+        skos:definition        "There is no possible value for the data transport format, such as when a CDI record at some stage during its development cycle is not associated with a data file."@en;
+        skos:notation          "SDN:L24::INAPP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Inapplicable"@en .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/NETCDF/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::NETCDF";
+        dc:date                "2026-03-19 11:16:00.0";
+        dc:identifier          "SDN:L24::NETCDF";
+        pav:authoredOn         "2026-03-19 11:16:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/NETCDF/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L24/current/NETCDF/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "NetCDF";
+        skos:definition        "Network Common Data Form (netCDF) is a self-describing and machine-independent binary format. It bundles data arrays with metadata and is structured using dimensions, variables, and attributes. It is used for storing and sharing multidimensional scientific data."@en;
+        skos:notation          "SDN:L24::NETCDF";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Network Common Data Format"@en .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/HDF5/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::HDF5";
+        dc:date                "2026-03-19 11:16:00.0";
+        dc:identifier          "SDN:L24::HDF5";
+        pav:authoredOn         "2026-03-19 11:16:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/HDF5/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L24/current/HDF5/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "HDF5";
+        skos:definition        "HDF5 is an open source file format which supports multidimensional arrays, raster images, tables, and documents (e.g. PDF). It is self-describing and machine-independent, and is used to store complex, heterogeneous data and metadata. It is built for fast I/O processing and storage."@en;
+        skos:notation          "SDN:L24::HDF5";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Hierarchical Data Format Version 5"@en .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/KML/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::KML";
+        dc:date                "2026-03-19 11:16:00.0";
+        dc:identifier          "SDN:L24::KML";
+        pav:authoredOn         "2026-03-19 11:16:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/KML/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L24/current/KML/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "KML";
+        skos:definition        "KML is an open standard file format designed to display geographic data on 2D and 3D maps using XML notation. The files are human and machine readable, and can describe pinpoint locations, polygons, images, 3D models, and add image overlays. It also contains display information for software applications."@en;
+        skos:notation          "SDN:L24::KML";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Keyhole Markup Language"@en .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/PDF/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::PDF";
+        dc:date                "2026-03-19 11:16:00.0";
+        dc:identifier          "SDN:L24::PDF";
+        pav:authoredOn         "2026-03-19 11:16:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/PDF/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L24/current/PDF/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "PDF";
+        skos:definition        "PDF is an open standard file format (as of 2008) developed by Adobe to present documents, including text formatting and images, in a manner independent of application software, hardware, and operating systems. It is based on the PostScript language, where each file is self-contained, in that it contains all necessary elements such as text, fonts, vector graphics, raster images and other information needed to display it."@en;
+        skos:notation          "SDN:L24::PDF";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Portable Document Format"@en .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/HDF4/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::HDF4";
+        dc:date                "2026-03-19 11:16:00.0";
+        dc:identifier          "SDN:L24::HDF4";
+        pav:authoredOn         "2026-03-19 11:16:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/HDF4/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L24/current/HDF4/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "HDF4";
+        skos:definition        "HDF4 is an open source file format which supports multidimensional arrays, raster images, and tables. It is self-describing and machine-independent, and is used to store complex, heterogeneous data and metadata. It has a maximum file size of 2 GB. It is still supported and used, however it is not the recommended HDF format."@en;
+        skos:notation          "SDN:L24::HDF4";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Hierarchical Data Format Version 4"@en .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/ASCII/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::ASCII";
+        dc:date                "2026-03-19 11:16:00.0";
+        dc:identifier          "SDN:L24::ASCII";
+        pav:authoredOn         "2026-03-19 11:16:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/ASCII/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L24/current/ASCII/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "ASCII";
+        skos:definition        "ASCII is a character encoding standard that uses unique binary codes to represent letters, numbers, punctuation, and other characters. ASCII codes represent text in a standardised way to minimise compatibility issues across different computers, telecommunications equipment, and other devices."@en;
+        skos:notation          "SDN:L24::ASCII";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "American Standard Code for Information Interchange"@en .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/EXCEL/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::EXCEL";
+        dc:date                "2026-03-19 11:16:00.0";
+        dc:identifier          "SDN:L24::EXCEL";
+        pav:authoredOn         "2026-03-19 11:16:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/EXCEL/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L24/current/EXCEL/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "Excel";
+        skos:definition        "Excel is a spreadsheet developed by Microsoft for Windows, macOS, Android and iOS. These spreadsheets can handle data, formulas, charts, pivot tables, macros (Excel uses visual basic for applications (VBA)), and images. Excel refers to various proprietary file formats that are produced exclusively by Microsoft Windows, such as xlsx, xlsm, xlsb, and xls. Some file formats are based on XML (e.g. xlsx), whilst others are binary formats (e.g. xls)."@en;
+        skos:notation          "SDN:L24::EXCEL";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Microsoft Excel"@en .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/JPEG-2000/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::JPEG-2000";
+        dc:date                "2026-03-19 11:16:00.0";
+        dc:identifier          "SDN:L24::JPEG-2000";
+        pav:authoredOn         "2026-03-19 11:16:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/JPEG-2000/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L24/current/JPEG-2000/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "JPEG_2000";
+        skos:definition        "JPEG 2000 (JP2) is an image compression standard and coding system that is based on a discrete wavelet transform. It is not supported on web pages as of 2024."@en;
+        skos:notation          "SDN:L24::JPEG-2000";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "JPEG 2000"@en .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/TSV/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::TSV";
+        dc:date                "2026-03-19 11:16:00.0";
+        dc:identifier          "SDN:L24::TSV";
+        pav:authoredOn         "2026-03-19 11:16:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/TSV/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L24/current/TSV/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "TSV";
+        skos:definition        "An ASCII plain text data format for storing tabular data. Each line is a record with fields that are separated by a tab."@en;
+        skos:notation          "SDN:L24::TSV";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Tab-separated values"@en .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/KMZ/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::KMZ";
+        dc:date                "2026-03-19 11:16:00.0";
+        dc:identifier          "SDN:L24::KMZ";
+        pav:authoredOn         "2026-03-19 11:16:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/KMZ/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L24/current/KMZ/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "KMZ";
+        skos:definition        "A KMZ file is a compressed archive that consists of a main KML file, plus any desired supporting files, which can be embedded imagery, icons or 3D models . It requires the use of a GIS tool for visualisation."@en;
+        skos:notation          "SDN:L24::KMZ";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Keyhole Markup Language Zipped"@en .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/CSV/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::CSV";
+        dc:date                "2026-03-19 11:16:00.0";
+        dc:identifier          "SDN:L24::CSV";
+        pav:authoredOn         "2026-03-19 11:16:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/CSV/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L24/current/CSV/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "CSV";
+        skos:definition        "An ASCII plain text data format for storing tabular data. Each line is a record with fields that are separated by a comma."@en;
+        skos:notation          "SDN:L24::CSV";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Comma-separated values"@en .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/NETCDF-3/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::NETCDF-3";
+        dc:date                "2026-03-19 11:16:00.0";
+        dc:identifier          "SDN:L24::NETCDF-3";
+        pav:authoredOn         "2026-03-19 11:16:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/NETCDF-3/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L24/current/NETCDF-3/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "NetCDF-3";
+        skos:definition        "Network Common Data Form (netCDF) is a self-describing and machine-independent binary format. It bundles data arrays with metadata and is structured using dimensions, variables, and attributes. It is used for storing and sharing multidimensional scientific data. This version (3) can refer to the classic model (CDF-1), the CDF-2 which allows for more flexibility with variables and data sizes, or CDF-5 which allows for larger integer and unsigned integer data."@en;
+        skos:notation          "SDN:L24::NETCDF-3";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Network Common Data Format Version 3"@en .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/SHP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::SHP";
+        dc:date                "2013-11-26 09:01:43.0";
+        dc:identifier          "SDN:L24::SHP";
+        pav:authoredOn         "2013-11-26 09:01:43.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/SHP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Shapefile";
+        skos:definition        "A popular geospatial vector data format for geographic information system software developed and regulated by ESRI."@en;
+        skos:notation          "SDN:L24::SHP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ESRI Shapefile Format"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/001/> .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/UKOAP190/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::UKOAP190";
+        dc:date                "2010-06-16 15:07:31.0";
+        dc:identifier          "SDN:L24::UKOAP190";
+        pav:authoredOn         "2010-06-16 15:07:31.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/UKOAP190/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "UKOOA P1-90";
+        skos:definition        "A standard format designed for raw marine positioning and ancillary data exchange widely used by industry especially for seismic surveys (http://www.epsg.org/Exchange/P1.pdf)."@en;
+        skos:notation          "SDN:L24::UKOAP190";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "United Kingdom Offshore Operators Association P1-90"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/001/> .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/SODV/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::SODV";
+        dc:date                "2021-03-04 21:48:55.0";
+        dc:identifier          "SDN:L24::SODV";
+        pav:authoredOn         "2021-03-04 21:48:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/SODV/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Sediment_microlitter_ODV";
+        skos:definition        "A variant of the ODV ASCII format to enable Data Centers to exchange microlitter in sediments data using the SeaDataNet infrastructure. It contains all the elements required to describe microlitter in sediments."@en;
+        skos:notation          "SDN:L24::SODV";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sediment micro-litter ODV format"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/003/> .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/MODV/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::MODV";
+        dc:date                "2021-03-04 21:47:53.0";
+        dc:identifier          "SDN:L24::MODV";
+        pav:authoredOn         "2021-03-04 21:47:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/MODV/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L24/current/MODV/2/> , <http://vocab.nerc.ac.uk/collection/L24/current/MODV/1/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "Floating_microlitter_ODV";
+        skos:definition        "A variant of the Biological ODV format to enable Data Centers to exchange floating microlitter data using the SeaDataNet infrastructure. It contains all the required elements to describe the floating microlitter observation."@en;
+        skos:notation          "SDN:L24::MODV";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Floating micro-litter ODV format"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/003/> .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/EBL/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::EBL";
+        dc:date                "2018-09-05 14:35:25.0";
+        dc:identifier          "SDN:L24::EBL";
+        pav:authoredOn         "2018-09-05 14:35:25.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/EBL/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Beach_litter";
+        skos:definition        "A standard data format in Excel formulated by EMODnet Chemistry in cooperation with TSG-ML and EU-JRC and derived from OSPAR/MCS guidelines and practices. It is used for reporting and classifying beach litter monitoring data. Excel variants are permitted."@en;
+        skos:notation          "SDN:L24::EBL";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "EMODnet Beach litter data format"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/003/> .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/BODV/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::BODV";
+        dc:date                "2020-11-30 09:46:45.0";
+        dc:identifier          "SDN:L24::BODV";
+        pav:authoredOn         "2020-11-30 09:46:45.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/BODV/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Biological_ODV";
+        skos:definition        "A variant of the ODV ASCII format to enable Data Centers to exchange biological (taxon-based) data using the SeaDataNet infrastructure. It contains all the elements required to allow conversion to the Darwin Core format and is therefore compatible with formats used by e.g. EMODNet Biology, (Eur)OBIS and GBIF."@en;
+        skos:notation          "SDN:L24::BODV";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Biological ODV"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/003/> .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/ODV/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::ODV";
+        dc:date                "2020-11-30 09:46:57.0";
+        dc:identifier          "SDN:L24::ODV";
+        pav:authoredOn         "2020-11-30 09:46:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/ODV/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L24/current/ODV/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "ODV";
+        skos:definition        "SeaDataNet extension of the Ocean Data View ASCII upload format with additional semantics embedded. Designed for profiles and point time series. For taxon-based data and micro-litter data please use the specially designed ODV variants."@en;
+        skos:notation          "SDN:L24::ODV";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Ocean Data View ASCII input"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/C10/current/TRAJ/> , <http://vocab.nerc.ac.uk/collection/G26/current/003/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPTRAJ/> , <http://vocab.nerc.ac.uk/collection/C10/current/PPROF/> , <http://vocab.nerc.ac.uk/collection/C10/current/POLYSER/> , <http://vocab.nerc.ac.uk/collection/C10/current/POINT/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPPOINT/> , <http://vocab.nerc.ac.uk/collection/C10/current/PDPROF/> , <http://vocab.nerc.ac.uk/collection/C10/current/PROFSER/> , <http://vocab.nerc.ac.uk/collection/C10/current/DPROF/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPPPROF/> , <http://vocab.nerc.ac.uk/collection/C10/current/PROFCOLL/> , <http://vocab.nerc.ac.uk/collection/C10/current/TRAJ3D/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPDPROF/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPECSER/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPPDPROF/> .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/MEDATLAS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::MEDATLAS";
+        dc:date                "2007-09-14 14:33:19.0";
+        dc:identifier          "SDN:L24::MEDATLAS";
+        pav:authoredOn         "2007-09-14 14:33:19.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/MEDATLAS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "MEDATLAS";
+        skos:definition        "SeaDataNet extension of the Mediterrannean community ASCII format with additional semantics embedded.  Designed for profiles and point time series."@en;
+        skos:notation          "SDN:L24::MEDATLAS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "MEDATLAS ASCII"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/003/> .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/ESFL/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::ESFL";
+        dc:date                "2018-09-05 14:35:25.0";
+        dc:identifier          "SDN:L24::ESFL";
+        pav:authoredOn         "2018-09-05 14:35:25.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/ESFL/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Sea_floor_litter";
+        skos:definition        "A standard data format in excel formulated by EMODnet Chemistry in cooperation with TSG-ML and EU-JRC and derived from DATRAS- ICES Database of trawl surveys practices and guidelines for North and Western European seas and MEDITS practices and guidelines for the Mediterranean sea. It is used for reporting and classifying benthic litter monitoring data from fish trawl surveys. Excel variants are allowed."@en;
+        skos:notation          "SDN:L24::ESFL";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "EMODnet Sea-floor litter data format"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/003/> .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/CFPOINT/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::CFPOINT";
+        dc:date                "2013-07-16 12:27:20.0";
+        dc:identifier          "SDN:L24::CFPOINT";
+        pav:authoredOn         "2013-07-16 12:27:20.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/CFPOINT/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "CF1.6_NetCDF";
+        skos:definition        "SeaDataNet extension of the Climate and Forecast (http://www.cfconventions.org/) version 1.6 standard binary format for point data with additional semantics embedded.  Designed for profiles, time series and trajectories."@en;
+        skos:notation          "SDN:L24::CFPOINT";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Climate and Forecast Point Data NetCDF"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/003/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPTRAJ/> , <http://vocab.nerc.ac.uk/collection/C10/current/PPROF/> , <http://vocab.nerc.ac.uk/collection/C10/current/POINT/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPPOINT/> , <http://vocab.nerc.ac.uk/collection/C10/current/PDPROF/> , <http://vocab.nerc.ac.uk/collection/C10/current/DPROF/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPPPROF/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPDPROF/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPPDPROF/> , <http://vocab.nerc.ac.uk/collection/C10/current/TRAJ/> .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/CF/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::CF";
+        dc:date                "2013-07-16 12:27:17.0";
+        dc:identifier          "SDN:L24::CF";
+        pav:authoredOn         "2013-07-16 12:27:17.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/CF/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L24/current/CF/1/> , <http://vocab.nerc.ac.uk/collection/L24/current/CF/2/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "CF_NetCDF";
+        skos:definition        "SeaDataNet extension of the Climate and Forecast (http://www.cfconventions.org/) version 1.5 standard binary format with additional semantics embedded.  Designed for gridded data."@en;
+        skos:notation          "SDN:L24::CF";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Climate and Forecast NetCDF"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/002/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPGRID/> , <http://vocab.nerc.ac.uk/collection/C10/current/CSPGRID/> .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/XTF/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::XTF";
+        dc:date                "2010-06-16 14:27:18.0";
+        dc:identifier          "SDN:L24::XTF";
+        pav:authoredOn         "2010-06-16 14:27:18.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/XTF/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "XTF";
+        skos:definition        "A Triton Imaging Incorporated file format for recording hydrographic survey data, widely used for sidescan sonar."@en;
+        skos:notation          "SDN:L24::XTF";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "eXtended Triton Format"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/002/> .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/SEGY/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::SEGY";
+        dc:date                "2010-06-16 14:54:12.0";
+        dc:identifier          "SDN:L24::SEGY";
+        pav:authoredOn         "2010-06-16 14:54:12.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/SEGY/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SEG Y";
+        skos:definition        "A standard data format developed by the Society of Exploration Geophysicists for exchanging seismics data (http://www.seg.org/SEGportalWEBproject/prod/SEG-Publications/Pub-Technical-Standards/Documents/seg_y_rev1.pdf)."@en;
+        skos:notation          "SDN:L24::SEGY";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Society of Exploration Geophysicists SEG Y"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/002/> .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/TIFF/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::TIFF";
+        dc:date                "2010-06-16 14:57:21.0";
+        dc:identifier          "SDN:L24::TIFF";
+        pav:authoredOn         "2010-06-16 14:57:21.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/TIFF/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "TIFF";
+        skos:definition        "A standard format for the storage of images originally developed by Aldus, but under the control of Adobe Systems since 2009."@en;
+        skos:notation          "SDN:L24::TIFF";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Tagged Image File Format"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/002/> .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/BAG/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::BAG";
+        dc:date                "2014-06-24 08:56:13.0";
+        dc:identifier          "SDN:L24::BAG";
+        pav:authoredOn         "2014-06-24 08:56:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/BAG/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "BAG";
+        skos:definition        "A global, non-proprietary, open source exchange format created to facilitate the processing and storage of large volume multibeam sonar data. It is developed by the Open Navigation Surface Working Group."@en;
+        skos:notation          "SDN:L24::BAG";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Bathymetric Attributed Grid format"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/002/> .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/XYZ/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::XYZ";
+        dc:date                "2014-11-26 08:24:22.0";
+        dc:identifier          "SDN:L24::XYZ";
+        pav:authoredOn         "2014-11-26 08:24:22.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/XYZ/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "XYZ";
+        skos:definition        "XYZ comma separated format (longitude, latitude, depth), designed for gridded data from bathymetric surveys and Digital Terrain Models."@en;
+        skos:notation          "SDN:L24::XYZ";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "XYZ ASCII"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/002/> .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/PNG/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::PNG";
+        dc:date                "2010-06-16 15:02:24.0";
+        dc:identifier          "SDN:L24::PNG";
+        pav:authoredOn         "2010-06-16 15:02:24.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/PNG/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "PNG";
+        skos:definition        "A standard bit-mapped image format employing lossless compression for the storage of images."@en;
+        skos:notation          "SDN:L24::PNG";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Portable Network Graphics"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/002/> .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/GEOTIFF/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L24::GEOTIFF";
+        dc:date                "2014-06-24 08:53:18.0";
+        dc:identifier          "SDN:L24::GEOTIFF";
+        pav:authoredOn         "2014-06-24 08:53:18.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L24/current/GEOTIFF/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "GEOTIFF";
+        skos:definition        "A public domain metadata standard which allows georeferencing information to be embedded within a TIFF file. The potential additional information includes map projection, coordinate systems, ellipsoids, datums, and other attributes to establish the exact spatial reference for the file."@en;
+        skos:notation          "SDN:L24::GEOTIFF";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Georeferenced Tagged Image File Format"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/002/> .
+
+<http://vocab.nerc.ac.uk/collection/L24/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the EU SeaDataNet project implemented as consultation between BODC and the members of the SeaDataNet Technical Task Team";
+        dc:alternative          "SDN formats";
+        dc:creator              "SeaDataNet";
+        dc:date                 "2026-03-20 02:00:01.0";
+        dc:description          "Formats used for data delivery by SeaDataNet.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "SeaDataNet data transport formats";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "SeaDataNet";
+        owl:versionInfo         "13";
+        skos:altLabel           "SDN formats";
+        skos:member             <http://vocab.nerc.ac.uk/collection/L24/current/JSON/> , <http://vocab.nerc.ac.uk/collection/L24/current/NETCDF-4/> , <http://vocab.nerc.ac.uk/collection/L24/current/GEODATABASE/> , <http://vocab.nerc.ac.uk/collection/L24/current/GEOPACKAGE/> , <http://vocab.nerc.ac.uk/collection/L24/current/GEOJSON/> , <http://vocab.nerc.ac.uk/collection/L24/current/GRID/> , <http://vocab.nerc.ac.uk/collection/L24/current/INAPP/> , <http://vocab.nerc.ac.uk/collection/L24/current/NETCDF/> , <http://vocab.nerc.ac.uk/collection/L24/current/HDF5/> , <http://vocab.nerc.ac.uk/collection/L24/current/KML/> , <http://vocab.nerc.ac.uk/collection/L24/current/PDF/> , <http://vocab.nerc.ac.uk/collection/L24/current/HDF4/> , <http://vocab.nerc.ac.uk/collection/L24/current/ASCII/> , <http://vocab.nerc.ac.uk/collection/L24/current/EXCEL/> , <http://vocab.nerc.ac.uk/collection/L24/current/JPEG-2000/> , <http://vocab.nerc.ac.uk/collection/L24/current/TSV/> , <http://vocab.nerc.ac.uk/collection/L24/current/KMZ/> , <http://vocab.nerc.ac.uk/collection/L24/current/CSV/> , <http://vocab.nerc.ac.uk/collection/L24/current/NETCDF-3/> , <http://vocab.nerc.ac.uk/collection/L24/current/SHP/> , <http://vocab.nerc.ac.uk/collection/L24/current/UKOAP190/> , <http://vocab.nerc.ac.uk/collection/L24/current/SODV/> , <http://vocab.nerc.ac.uk/collection/L24/current/MODV/> , <http://vocab.nerc.ac.uk/collection/L24/current/EBL/> , <http://vocab.nerc.ac.uk/collection/L24/current/BODV/> , <http://vocab.nerc.ac.uk/collection/L24/current/ODV/> , <http://vocab.nerc.ac.uk/collection/L24/current/MEDATLAS/> , <http://vocab.nerc.ac.uk/collection/L24/current/ESFL/> , <http://vocab.nerc.ac.uk/collection/L24/current/CFPOINT/> , <http://vocab.nerc.ac.uk/collection/L24/current/CF/> , <http://vocab.nerc.ac.uk/collection/L24/current/XTF/> , <http://vocab.nerc.ac.uk/collection/L24/current/SEGY/> , <http://vocab.nerc.ac.uk/collection/L24/current/TIFF/> , <http://vocab.nerc.ac.uk/collection/L24/current/BAG/> , <http://vocab.nerc.ac.uk/collection/L24/current/XYZ/> , <http://vocab.nerc.ac.uk/collection/L24/current/GEOTIFF/> , <http://vocab.nerc.ac.uk/collection/L24/current/PNG/>;
+        skos:prefLabel          "SeaDataNet data transport formats" .

@@ -1,0 +1,744 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/L13/current/AY/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::AY";
+        dc:date                "2013-02-05 12:39:17.0";
+        dc:identifier          "SDN:L13::AY";
+        pav:authoredOn         "2013-02-05 12:39:17.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/AY/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "abyssobenthic";
+        skos:definition        "The zone of the seabed comprising the ocean floor with a bathymetric depth greater than  approximately 2700 metres where the bathyal fauna are replaced by more primitive abyssal fauna."@en;
+        skos:notation          "SDN:L13::AY";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "abyssobenthic"@en .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/BB/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::BB";
+        dc:date                "2020-05-20 21:09:54.0";
+        dc:identifier          "SDN:L13::BB";
+        pav:authoredOn         "2020-05-20 21:09:54.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/BB/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L13/current/BB/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "bathybenthic";
+        skos:definition        "The zone of the seabed between the permanent thermocline in the overlying water body and the limit of colonisation by bathyal fauna. It incorporates the lower part of the slope and the ocean floor to around 2700 metres bathymetric depth. It includes several faunal discontinuities."@en;
+        skos:notation          "SDN:L13::BB";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "bathybenthic"@en .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/DC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::DC";
+        dc:date                "2013-02-05 12:39:17.0";
+        dc:identifier          "SDN:L13::DC";
+        pav:authoredOn         "2013-02-05 12:39:17.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/DC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "offshore_circalittoral";
+        skos:definition        "The zone of the seabed between the depth to which storms and waves still influence the seabed (wave-base) and the marked break of slope that characterises the offshore limit of the shelf (shelf-break)."@en;
+        skos:notation          "SDN:L13::DC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "deep circalittoral"@en .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/CL/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::CL";
+        dc:date                "2013-02-05 12:39:17.0";
+        dc:identifier          "SDN:L13::CL";
+        pav:authoredOn         "2013-02-05 12:39:17.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/CL/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "circalittoral";
+        skos:definition        "The zone of the seabed dominated by animals. On open coastline this is from bottom of the infralittoral zone to the depth to which storms and waves still influence the seabed (wave-base)."@en;
+        skos:notation          "SDN:L13::CL";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "circalittoral"@en .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/US/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::US";
+        dc:date                "2013-02-05 12:39:17.0";
+        dc:identifier          "SDN:L13::US";
+        pav:authoredOn         "2013-02-05 12:39:17.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/US/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "upper_slope";
+        skos:definition        "The zone of steeply-sloping seabed between the shelf-break and the permanent thermocline in the overlying water body."@en;
+        skos:notation          "SDN:L13::US";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "upper slope"@en .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/LI/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::LI";
+        dc:date                "2013-02-05 12:39:17.0";
+        dc:identifier          "SDN:L13::LI";
+        pav:authoredOn         "2013-02-05 12:39:17.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/LI/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "littoral";
+        skos:definition        "That part of the shore (the fringe of a body of water that has been geologically modified by the action of that body of water past and present) above the low water mark and therefore exposed to the atmosphere at low tide."@en;
+        skos:notation          "SDN:L13::LI";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "littoral"@en .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/IL/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::IL";
+        dc:date                "2013-02-05 12:39:17.0";
+        dc:identifier          "SDN:L13::IL";
+        pav:authoredOn         "2013-02-05 12:39:17.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/IL/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "infralittoral";
+        skos:definition        "The zone of the seabed dominated by macroalgae below the low water mark. It extends to a depth where 1% of the surface illumination reaches the seabed, which varies according to turbidity."@en;
+        skos:notation          "SDN:L13::IL";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "infralittoral"@en .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/TH/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::TH";
+        dc:date                "2006-11-15 08:15:00.0";
+        dc:identifier          "SDN:L13::TH";
+        pav:authoredOn         "2006-11-15 08:15:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/TH/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "troposphere";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG16/>;
+        skos:definition        "The  lowest broad layer of the atmosphere characterised by decreasing avearage temperature with height.  Typically from the surface to between 10 and 15 km."@en;
+        skos:notation          "SDN:L13::TH";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "troposphere"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P25/current/ATEMP/> .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/SD/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::SD";
+        dc:date                "2010-05-17 15:26:07.0";
+        dc:identifier          "SDN:L13::SD";
+        pav:authoredOn         "2010-05-17 15:26:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/SD/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L13/current/SD/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "sediment";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG16/>;
+        skos:definition        "The unlithified sediments (of any grain size from silt to boulders) that form a layer between the solid crust and either the atmosphere or the water column."@en;
+        skos:notation          "SDN:L13::SD";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "soil and sediment"@en .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/TP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::TP";
+        dc:date                "2006-11-15 08:15:00.0";
+        dc:identifier          "SDN:L13::TP";
+        pav:authoredOn         "2006-11-15 08:15:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/TP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "tropopause";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG16/>;
+        skos:definition        "The boundary between the troposphere and stratosphere, characterized by change in temperature gradient with height from decreasing below to increasing above. May extend over a few km in height. Typically lies somewhere between 10 and 15 km."@en;
+        skos:notation          "SDN:L13::TP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "tropopause"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P25/current/ATEMP/> .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/CO/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::CO";
+        dc:date                "2006-11-15 08:15:00.0";
+        dc:identifier          "SDN:L13::CO";
+        pav:authoredOn         "2006-11-15 08:15:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/CO/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "core";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG16/>;
+        skos:definition        "The central zone of the earth largely composed of solid or molten metal alloys, typically from the centre of the Earth to approximately 2900 km below the surface.."@en;
+        skos:notation          "SDN:L13::CO";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "core"@en .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/UK/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::UK";
+        dc:date                "2006-11-15 08:15:00.0";
+        dc:identifier          "SDN:L13::UK";
+        pav:authoredOn         "2006-11-15 08:15:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/UK/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "unknown";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG16/>;
+        skos:definition        "The correct value is not known to, and not computable by, the sender of this data. However, a correct value probably exists."@en;
+        skos:notation          "SDN:L13::UK";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "unknown"@en .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/MA/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::MA";
+        dc:date                "2006-11-15 08:15:00.0";
+        dc:identifier          "SDN:L13::MA";
+        pav:authoredOn         "2006-11-15 08:15:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/MA/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "mantle";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG16/>;
+        skos:definition        "The layer of basic (i.e ferromagnesian) solid rock between the core and the crust.  Typically from between 5-70 km below the surface to approximately 2900 km below the surface."@en;
+        skos:notation          "SDN:L13::MA";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "mantle"@en .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/IA/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::IA";
+        dc:date                "2010-02-26 14:44:55.0";
+        dc:identifier          "SDN:L13::IA";
+        pav:authoredOn         "2010-02-26 14:44:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/IA/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "inapplicable";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG16/>;
+        skos:definition        "There is no appropriate value"@en;
+        skos:notation          "SDN:L13::IA";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "inapplicable"@en .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/HX/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::HX";
+        dc:date                "2006-11-15 08:15:00.0";
+        dc:identifier          "SDN:L13::HX";
+        pav:authoredOn         "2006-11-15 08:15:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/HX/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "heterosphere";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG16/>;
+        skos:definition        "The region of the atmosphere where the mixing ratio of gases is differentiated by gravity. Lies above the homosphere, from about 100 km in altitude."@en;
+        skos:notation          "SDN:L13::HX";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "heterosphere"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P25/current/ATEMP/> .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/SP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::SP";
+        dc:date                "2006-11-15 08:15:00.0";
+        dc:identifier          "SDN:L13::SP";
+        pav:authoredOn         "2006-11-15 08:15:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/SP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "stratopause";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG16/>;
+        skos:definition        "The boundary between the stratosphere and the mesosphere characterised by a temperature maximum. Typically at about 50 km."@en;
+        skos:notation          "SDN:L13::SP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "stratopause"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P25/current/ATEMP/> .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/MS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::MS";
+        dc:date                "2006-11-15 08:15:00.0";
+        dc:identifier          "SDN:L13::MS";
+        pav:authoredOn         "2006-11-15 08:15:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/MS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "mesosphere";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG16/>;
+        skos:definition        "The layer of atmosphere overlying the stratospause characterised by decreasing temperature with height, typically from about 50 to about 80 km"@en;
+        skos:notation          "SDN:L13::MS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "mesosphere"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P25/current/ATEMP/> .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/WS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::WS";
+        dc:date                "2006-11-15 08:15:00.0";
+        dc:identifier          "SDN:L13::WS";
+        pav:authoredOn         "2006-11-15 08:15:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/WS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "water_column_skin";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG16/>;
+        skos:definition        "The zone a few microns thick at the extreme surface of the water column that is sampled by radiometers."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current/> , <http://vocab.nerc.ac.uk/scheme/NETOC_VCOV/current/>;
+        skos:notation          "SDN:L13::WS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "water column skin"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P25/current/WTEMP/> .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/SB/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::SB";
+        dc:date                "2010-05-17 15:28:38.0";
+        dc:identifier          "SDN:L13::SB";
+        pav:authoredOn         "2010-05-17 15:28:38.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/SB/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "sediment_boundary";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG16/>;
+        skos:definition        "The upper surface (interface plus surficial substrate) of the layer of unlithified sediments (of any grain size from silt to boulders) that form a layer between the solid crust and either the atmosphere or the water column."@en;
+        skos:notation          "SDN:L13::SB";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "soil and sediment boundary layer"@en .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/HS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::HS";
+        dc:date                "2006-11-15 08:15:00.0";
+        dc:identifier          "SDN:L13::HS";
+        pav:authoredOn         "2006-11-15 08:15:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/HS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "homosphere";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG16/>;
+        skos:definition        "The region of the atmosphere where gases are fully mixed by diffusion and turbulence. Lies between the surface (0 km) and the base of the heterosphere (at about 100 km)."@en;
+        skos:notation          "SDN:L13::HS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "homosphere"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P25/current/ATEMP/> .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/ES/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::ES";
+        dc:date                "2006-11-15 08:15:00.0";
+        dc:identifier          "SDN:L13::ES";
+        pav:authoredOn         "2006-11-15 08:15:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/ES/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "exosphere";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG16/>;
+        skos:definition        "The outermost layer of the atmosphere from which atoms can escape into outer space. Lies above the thermosphere from about 400 km in altitude."@en;
+        skos:notation          "SDN:L13::ES";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "exosphere"@en .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/SS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::SS";
+        dc:date                "2006-11-15 08:15:00.0";
+        dc:identifier          "SDN:L13::SS";
+        pav:authoredOn         "2006-11-15 08:15:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/SS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "stratosphere";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG16/>;
+        skos:definition        "The layer of the atmosphere from the tropopause to a height of approximately 50 km, characterised by increasing temperature with height."@en;
+        skos:notation          "SDN:L13::SS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "stratosphere"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P25/current/ATEMP/> .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/TS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::TS";
+        dc:date                "2006-11-15 08:15:00.0";
+        dc:identifier          "SDN:L13::TS";
+        pav:authoredOn         "2006-11-15 08:15:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/TS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "thermosphere";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG16/>;
+        skos:definition        "The atmospheric layer extending between heights of approximately 80 km to approximately 400 km characterised by rising temperature with height and phenomena associated with ionisation.  Part of the thermosphere is sometimes termed the ionosphere."@en;
+        skos:notation          "SDN:L13::TS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "thermosphere"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P25/current/ATEMP/> .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/TZ/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::TZ";
+        dc:date                "2006-11-15 08:15:00.0";
+        dc:identifier          "SDN:L13::TZ";
+        pav:authoredOn         "2006-11-15 08:15:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/TZ/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "thermopause";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG16/>;
+        skos:definition        "The boundary between the thermosphere and the exosphere. Typically at about 400 km."@en;
+        skos:notation          "SDN:L13::TZ";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "thermopause"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P25/current/ATEMP/> .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/CR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::CR";
+        dc:date                "2006-11-15 08:15:00.0";
+        dc:identifier          "SDN:L13::CR";
+        pav:authoredOn         "2006-11-15 08:15:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/CR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "crust";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG16/>;
+        skos:definition        "The layer of lithified rock between the unconsolidated sediment and the Moho seismic discontinuity. Typically 5-10 km thick beneath oceans and 60-70 km thick beneath continents."@en;
+        skos:notation          "SDN:L13::CR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "crust"@en .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/MP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::MP";
+        dc:date                "2006-11-15 08:15:00.0";
+        dc:identifier          "SDN:L13::MP";
+        pav:authoredOn         "2006-11-15 08:15:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/MP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "mesopause";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG16/>;
+        skos:definition        "The boundary between the mesosphere and the thermosphere characterised by a temperature minimum.  Typically lies somewhere between 80 and 90 km."@en;
+        skos:notation          "SDN:L13::MP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "mesopause"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P25/current/ATEMP/> .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/HP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::HP";
+        dc:date                "2006-11-15 08:15:00.0";
+        dc:identifier          "SDN:L13::HP";
+        pav:authoredOn         "2006-11-15 08:15:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/HP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "homopause";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG16/>;
+        skos:definition        "The boundary region between the homosphere and the heterosphere. Typically at about 100 km."@en;
+        skos:notation          "SDN:L13::HP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "homopause"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P25/current/ATEMP/> .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/AT/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::AT";
+        dc:date                "2006-11-15 08:15:00.0";
+        dc:identifier          "SDN:L13::AT";
+        pav:authoredOn         "2006-11-15 08:15:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/AT/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "atmosphere";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG16/>;
+        skos:definition        "The envelope of gases surrounding the Earth."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current/> , <http://vocab.nerc.ac.uk/scheme/NETOC_VCOV/current/>;
+        skos:notation          "SDN:L13::AT";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "atmosphere"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P25/current/ATEMP/> .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/AP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::AP";
+        dc:date                "2006-11-15 08:15:00.0";
+        dc:identifier          "SDN:L13::AP";
+        pav:authoredOn         "2006-11-15 08:15:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/AP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "abyssopelagic";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG16/>;
+        skos:definition        "The water column zone of total darkness extending down to the abyssal sea floor. Typically between depths of approximately 4000 metres and 6000 metres."@en;
+        skos:notation          "SDN:L13::AP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "abyssopelagic water column"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P25/current/SLCA/> , <http://vocab.nerc.ac.uk/collection/P25/current/NO3NO2/> , <http://vocab.nerc.ac.uk/collection/P25/current/SALIN/> , <http://vocab.nerc.ac.uk/collection/P25/current/NO3/> , <http://vocab.nerc.ac.uk/collection/P25/current/NO2/> , <http://vocab.nerc.ac.uk/collection/P25/current/WTEMP/> , <http://vocab.nerc.ac.uk/collection/P25/current/PO4/> .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/WC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::WC";
+        dc:date                "2006-11-15 08:15:00.0";
+        dc:identifier          "SDN:L13::WC";
+        pav:authoredOn         "2006-11-15 08:15:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/WC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "water_column";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG16/>;
+        skos:definition        "The entire body of water between the bed and the atmosphere."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/NETOC_VCOV/current/> , <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current/>;
+        skos:notation          "SDN:L13::WC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "water column"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P25/current/SLCA/> , <http://vocab.nerc.ac.uk/collection/P25/current/NO3NO2/> , <http://vocab.nerc.ac.uk/collection/P25/current/DOXY/> , <http://vocab.nerc.ac.uk/collection/P25/current/SALIN/> , <http://vocab.nerc.ac.uk/collection/P25/current/NO3/> , <http://vocab.nerc.ac.uk/collection/P25/current/NO2/> , <http://vocab.nerc.ac.uk/collection/P25/current/TURB/> , <http://vocab.nerc.ac.uk/collection/P25/current/WTEMP/> , <http://vocab.nerc.ac.uk/collection/P25/current/OXYS/> , <http://vocab.nerc.ac.uk/collection/P25/current/PO4/> , <http://vocab.nerc.ac.uk/collection/P25/current/CHLA/> , <http://vocab.nerc.ac.uk/collection/P25/current/PHAEO/> , <http://vocab.nerc.ac.uk/collection/P25/current/PHYTABUND/> .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/NS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::NS";
+        dc:date                "2006-11-15 08:15:00.0";
+        dc:identifier          "SDN:L13::NS";
+        pav:authoredOn         "2006-11-15 08:15:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/NS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "water_column_boundary";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG16/>;
+        skos:definition        "The zone of the water column that is significantly influenced by the atmosphere. Typically the top 10m of the water column."@en;
+        skos:notation          "SDN:L13::NS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "water column boundary layer"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P25/current/ICETYPE/> , <http://vocab.nerc.ac.uk/collection/P25/current/ICEEDGE/> , <http://vocab.nerc.ac.uk/collection/P25/current/PHYTABUND/> , <http://vocab.nerc.ac.uk/collection/P25/current/PHAEO/> , <http://vocab.nerc.ac.uk/collection/P25/current/CHLA/> , <http://vocab.nerc.ac.uk/collection/P25/current/ICESPD/> , <http://vocab.nerc.ac.uk/collection/P25/current/ICETHICK/> , <http://vocab.nerc.ac.uk/collection/P25/current/ICEDIR/> , <http://vocab.nerc.ac.uk/collection/P25/current/ICECOV/> , <http://vocab.nerc.ac.uk/collection/P25/current/SLCA/> , <http://vocab.nerc.ac.uk/collection/P25/current/ICESSALIN/> , <http://vocab.nerc.ac.uk/collection/P25/current/NO3NO2/> , <http://vocab.nerc.ac.uk/collection/P25/current/SALIN/> , <http://vocab.nerc.ac.uk/collection/P25/current/ICEDISP/> , <http://vocab.nerc.ac.uk/collection/P25/current/ICETEMP/> , <http://vocab.nerc.ac.uk/collection/P25/current/NO3/> , <http://vocab.nerc.ac.uk/collection/P25/current/NO2/> , <http://vocab.nerc.ac.uk/collection/P25/current/WTEMP/> , <http://vocab.nerc.ac.uk/collection/P25/current/ICEBERG/> , <http://vocab.nerc.ac.uk/collection/P25/current/PO4/> .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/BP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::BP";
+        dc:date                "2006-11-15 08:15:00.0";
+        dc:identifier          "SDN:L13::BP";
+        pav:authoredOn         "2006-11-15 08:15:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/BP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "bathypelagic";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG16/>;
+        skos:definition        "The water column zone illuminated only by bioluminescent organisms. Typically between depths of approximately 1000 metres and 4000 metres."@en;
+        skos:notation          "SDN:L13::BP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "bathypelagic water column"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P25/current/SLCA/> , <http://vocab.nerc.ac.uk/collection/P25/current/NO3NO2/> , <http://vocab.nerc.ac.uk/collection/P25/current/SALIN/> , <http://vocab.nerc.ac.uk/collection/P25/current/NO3/> , <http://vocab.nerc.ac.uk/collection/P25/current/NO2/> , <http://vocab.nerc.ac.uk/collection/P25/current/WTEMP/> , <http://vocab.nerc.ac.uk/collection/P25/current/PO4/> .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/MW/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::MW";
+        dc:date                "2006-11-15 08:15:00.0";
+        dc:identifier          "SDN:L13::MW";
+        pav:authoredOn         "2006-11-15 08:15:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/MW/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "mesopelagic";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG16/>;
+        skos:definition        "The water column zone penetrated by light, but in insufficient quantities for photosynthesis. Typically between depths of approximately 200 metres and 1000 metres."@en;
+        skos:notation          "SDN:L13::MW";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "mesopelagic water column"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P25/current/SLCA/> , <http://vocab.nerc.ac.uk/collection/P25/current/NO3NO2/> , <http://vocab.nerc.ac.uk/collection/P25/current/SALIN/> , <http://vocab.nerc.ac.uk/collection/P25/current/NO3/> , <http://vocab.nerc.ac.uk/collection/P25/current/NO2/> , <http://vocab.nerc.ac.uk/collection/P25/current/WTEMP/> , <http://vocab.nerc.ac.uk/collection/P25/current/PO4/> .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/HW/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::HW";
+        dc:date                "2006-11-15 08:15:00.0";
+        dc:identifier          "SDN:L13::HW";
+        pav:authoredOn         "2006-11-15 08:15:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/HW/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "hadopelagic";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG16/>;
+        skos:definition        "The zone of the water column occupying ocean trenches, deeper than approximately 6000 metres."@en;
+        skos:notation          "SDN:L13::HW";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "hadopelagic water column"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P25/current/SLCA/> , <http://vocab.nerc.ac.uk/collection/P25/current/NO3NO2/> , <http://vocab.nerc.ac.uk/collection/P25/current/SALIN/> , <http://vocab.nerc.ac.uk/collection/P25/current/NO3/> , <http://vocab.nerc.ac.uk/collection/P25/current/NO2/> , <http://vocab.nerc.ac.uk/collection/P25/current/WTEMP/> , <http://vocab.nerc.ac.uk/collection/P25/current/PO4/> .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/U1/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::U1";
+        dc:date                "2006-11-15 08:15:00.0";
+        dc:identifier          "SDN:L13::U1";
+        pav:authoredOn         "2006-11-15 08:15:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/U1/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "upper_epipelagic";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG16/>;
+        skos:definition        "The strongly illuminated upper half of the epipelagic zone. Typically from the surface down to a depth of approximately 100 metres."@en;
+        skos:notation          "SDN:L13::U1";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "upper epipelagic water column"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P25/current/SLCA/> , <http://vocab.nerc.ac.uk/collection/P25/current/NO3NO2/> , <http://vocab.nerc.ac.uk/collection/P25/current/SALIN/> , <http://vocab.nerc.ac.uk/collection/P25/current/NO3/> , <http://vocab.nerc.ac.uk/collection/P25/current/NO2/> , <http://vocab.nerc.ac.uk/collection/P25/current/WTEMP/> , <http://vocab.nerc.ac.uk/collection/P25/current/PO4/> , <http://vocab.nerc.ac.uk/collection/P25/current/CHLA/> , <http://vocab.nerc.ac.uk/collection/P25/current/PHAEO/> , <http://vocab.nerc.ac.uk/collection/P25/current/PHYTABUND/> .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/NB/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::NB";
+        dc:date                "2006-11-15 08:15:00.0";
+        dc:identifier          "SDN:L13::NB";
+        pav:authoredOn         "2006-11-15 08:15:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/NB/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "benthic_boundary";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG16/>;
+        skos:definition        "The water column that is significantly influenced by the seabed, which is broader in deep ocean than in shelf seas.  Guideline approximation is bottom 10m of oceans and bottom 5% of shelf (<200m) seas."@en;
+        skos:notation          "SDN:L13::NB";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "benthic boundary layer"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P25/current/SLCA/> , <http://vocab.nerc.ac.uk/collection/P25/current/NO3NO2/> , <http://vocab.nerc.ac.uk/collection/P25/current/SALIN/> , <http://vocab.nerc.ac.uk/collection/P25/current/NO3/> , <http://vocab.nerc.ac.uk/collection/P25/current/NO2/> , <http://vocab.nerc.ac.uk/collection/P25/current/WTEMP/> , <http://vocab.nerc.ac.uk/collection/P25/current/PO4/> .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/U2/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::U2";
+        dc:date                "2006-11-15 08:15:00.0";
+        dc:identifier          "SDN:L13::U2";
+        pav:authoredOn         "2006-11-15 08:15:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/U2/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "epipelagic";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG16/>;
+        skos:definition        "The water column zone in which for clear water there is adequate light for photosynthesis. Typically from  the surface down to a depth of approximately 200 metres."@en;
+        skos:notation          "SDN:L13::U2";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "epipelagic water column"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P25/current/SLCA/> , <http://vocab.nerc.ac.uk/collection/P25/current/NO3NO2/> , <http://vocab.nerc.ac.uk/collection/P25/current/SALIN/> , <http://vocab.nerc.ac.uk/collection/P25/current/NO3/> , <http://vocab.nerc.ac.uk/collection/P25/current/NO2/> , <http://vocab.nerc.ac.uk/collection/P25/current/WTEMP/> , <http://vocab.nerc.ac.uk/collection/P25/current/PO4/> , <http://vocab.nerc.ac.uk/collection/P25/current/CHLA/> , <http://vocab.nerc.ac.uk/collection/P25/current/PHAEO/> , <http://vocab.nerc.ac.uk/collection/P25/current/PHYTABUND/> .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/AB/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L13::AB";
+        dc:date                "2006-11-15 08:15:00.0";
+        dc:identifier          "SDN:L13::AB";
+        pav:authoredOn         "2006-11-15 08:15:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L13/current/AB/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "atmosphere_boundary";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG16/>;
+        skos:definition        "The region of the atmosphere close enough to the Earth's surface for frictional effects of that surface to be significant. Typically not more than 1 km thick."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/NETOC_VCOV/current/> , <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current/>;
+        skos:notation          "SDN:L13::AB";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "atmospheric boundary layer"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P25/current/WINDY/> , <http://vocab.nerc.ac.uk/collection/P25/current/WINDS/> , <http://vocab.nerc.ac.uk/collection/P25/current/WINDF/> , <http://vocab.nerc.ac.uk/collection/P25/current/ATEMP/> , <http://vocab.nerc.ac.uk/collection/P25/current/WINDX/> , <http://vocab.nerc.ac.uk/collection/P25/current/WINDT/> , <http://vocab.nerc.ac.uk/collection/P25/current/SNWLR/> .
+
+<http://vocab.nerc.ac.uk/collection/L13/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Group set up under the joint auspices of the SeaDataNet project and the Intergovernmental Oceanographic Commission MarineXML Steering Group for controlled vocabulary governance in the marine domain";
+        dc:alternative          "SeaVoX Vertical Coverages";
+        dc:creator              "SeaDataNet and MarineXML Vocabulary Content Governance Group";
+        dc:date                 "2020-05-21 03:00:01.0";
+        dc:description          "Terms used to describe data coverage over the vertical (z) co-ordinate.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "SeaVoX Vertical Co-ordinate Coverages";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "SeaDataNet and MarineXML Vocabulary Content Governance Group";
+        owl:versionInfo         "5";
+        skos:altLabel           "SeaVoX Vertical Coverages";
+        skos:member             <http://vocab.nerc.ac.uk/collection/L13/current/AY/> , <http://vocab.nerc.ac.uk/collection/L13/current/BB/> , <http://vocab.nerc.ac.uk/collection/L13/current/DC/> , <http://vocab.nerc.ac.uk/collection/L13/current/CL/> , <http://vocab.nerc.ac.uk/collection/L13/current/US/> , <http://vocab.nerc.ac.uk/collection/L13/current/LI/> , <http://vocab.nerc.ac.uk/collection/L13/current/IL/> , <http://vocab.nerc.ac.uk/collection/L13/current/TH/> , <http://vocab.nerc.ac.uk/collection/L13/current/SD/> , <http://vocab.nerc.ac.uk/collection/L13/current/TP/> , <http://vocab.nerc.ac.uk/collection/L13/current/CO/> , <http://vocab.nerc.ac.uk/collection/L13/current/UK/> , <http://vocab.nerc.ac.uk/collection/L13/current/MA/> , <http://vocab.nerc.ac.uk/collection/L13/current/IA/> , <http://vocab.nerc.ac.uk/collection/L13/current/HX/> , <http://vocab.nerc.ac.uk/collection/L13/current/SP/> , <http://vocab.nerc.ac.uk/collection/L13/current/MS/> , <http://vocab.nerc.ac.uk/collection/L13/current/WS/> , <http://vocab.nerc.ac.uk/collection/L13/current/SB/> , <http://vocab.nerc.ac.uk/collection/L13/current/HS/> , <http://vocab.nerc.ac.uk/collection/L13/current/ES/> , <http://vocab.nerc.ac.uk/collection/L13/current/SS/> , <http://vocab.nerc.ac.uk/collection/L13/current/TS/> , <http://vocab.nerc.ac.uk/collection/L13/current/TZ/> , <http://vocab.nerc.ac.uk/collection/L13/current/CR/> , <http://vocab.nerc.ac.uk/collection/L13/current/MP/> , <http://vocab.nerc.ac.uk/collection/L13/current/HP/> , <http://vocab.nerc.ac.uk/collection/L13/current/AT/> , <http://vocab.nerc.ac.uk/collection/L13/current/AP/> , <http://vocab.nerc.ac.uk/collection/L13/current/WC/> , <http://vocab.nerc.ac.uk/collection/L13/current/NS/> , <http://vocab.nerc.ac.uk/collection/L13/current/BP/> , <http://vocab.nerc.ac.uk/collection/L13/current/MW/> , <http://vocab.nerc.ac.uk/collection/L13/current/HW/> , <http://vocab.nerc.ac.uk/collection/L13/current/U1/> , <http://vocab.nerc.ac.uk/collection/L13/current/NB/> , <http://vocab.nerc.ac.uk/collection/L13/current/AB/> , <http://vocab.nerc.ac.uk/collection/L13/current/U2/>;
+        skos:prefLabel          "SeaVoX Vertical Co-ordinate Coverages" .

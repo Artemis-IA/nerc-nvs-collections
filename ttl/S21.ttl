@@ -1,0 +1,503 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/S21/current/S21S040/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:S21::S21S040";
+        dc:date                "2025-02-04 17:19:08.0";
+        dc:identifier          "SDN:S21::S21S040";
+        pav:authoredOn         "2025-02-04 17:19:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/S21/current/S21S040/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/S21/current/S21S040/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "Code deprecated on 04/02/2025: created in wrong collection. Definition was: The boundary of the seabed sediment with the body of water."@en;
+        skos:notation          "SDN:S21::S21S040";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "sediment-water interface"@en .
+
+<http://vocab.nerc.ac.uk/collection/S21/current/S21S041/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:S21::S21S041";
+        dc:date                "2025-04-03 13:54:41.0";
+        dc:identifier          "SDN:S21::S21S041";
+        pav:authoredOn         "2025-04-03 13:54:41.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/S21/current/S21S041/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Matrix is described elsewhere in the metadata."@en;
+        skos:notation          "SDN:S21::S21S041";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "matrix specified elsewhere"@en .
+
+<http://vocab.nerc.ac.uk/collection/S21/current/S21S042/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:S21::S21S042";
+        dc:date                "2026-04-15 17:09:28.0";
+        dc:identifier          "SDN:S21::S21S042";
+        pav:authoredOn         "2026-04-15 17:09:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/S21/current/S21S042/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Hot groundwater that circulates within the Earth's crust that can emerge at the Earth's surface as hot springs, geothermal fields, geysers, or hydrothermal vents."@en;
+        skos:notation          "SDN:S21::S21S042";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "hydrothermal fluid"@en .
+
+<http://vocab.nerc.ac.uk/collection/S21/current/S21S028/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:S21::S21S028";
+        dc:date                "2009-11-03 15:42:59.0";
+        dc:identifier          "SDN:S21::S21S028";
+        pav:authoredOn         "2009-11-03 15:42:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/S21/current/S21S028/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/S26/current/MAT01067/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A distinct and significant volume of fresh or salt water on the Earth's surface plus the layer of gases retained by gravity overlying it."@en;
+        skos:notation          "SDN:S21::S21S028";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "water body plus atmosphere"@en .
+
+<http://vocab.nerc.ac.uk/collection/S21/current/S21S003/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:S21::S21S003";
+        dc:date                "2009-11-03 15:42:59.0";
+        dc:identifier          "SDN:S21::S21S003";
+        pav:authoredOn         "2009-11-03 15:42:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/S21/current/S21S003/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/S26/current/MAT00850/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Matériel solide en dessous d'une masse d'eau, y compris le matériel situé à son interface avec la masse d'eau (accessible par échantillonage)."@fr , "The solid material at the base of a body of water, including all material accessible to sampling techniques from its interface with that water body."@en;
+        skos:notation          "SDN:S21::S21S003";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "fond (marin)"@fr , "bed"@en .
+
+<http://vocab.nerc.ac.uk/collection/S21/current/S21S020/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:S21::S21S020";
+        dc:date                "2009-11-03 15:42:59.0";
+        dc:identifier          "SDN:S21::S21S020";
+        pav:authoredOn         "2009-11-03 15:42:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/S21/current/S21S020/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Liquid precipitation."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/S26/current/MAT01966/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00920/>;
+        skos:notation          "SDN:S21::S21S020";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "rainwater"@en .
+
+<http://vocab.nerc.ac.uk/collection/S21/current/S21S025/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:S21::S21S025";
+        dc:date                "2009-11-03 15:42:59.0";
+        dc:identifier          "SDN:S21::S21S025";
+        pav:authoredOn         "2009-11-03 15:42:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/S21/current/S21S025/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/S26/current/MAT00206/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A secondary mineral deposit within a cave (speleothem) which rises from the floor of the cave"@en;
+        skos:notation          "SDN:S21::S21S025";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "stalagmite"@en .
+
+<http://vocab.nerc.ac.uk/collection/S21/current/S21S005/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:S21::S21S005";
+        dc:date                "2009-11-03 15:42:59.0";
+        dc:identifier          "SDN:S21::S21S005";
+        pav:authoredOn         "2009-11-03 15:42:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/S21/current/S21S005/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Water occupying pores in soil or rock with direct connection to the atmosphere or flowing through underground plumbing systems such as fissures in limestone."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/S26/current/MAT00899/>;
+        skos:notation          "SDN:S21::S21S005";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "groundwater"@en .
+
+<http://vocab.nerc.ac.uk/collection/S21/current/S21S006/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:S21::S21S006";
+        dc:date                "2009-11-03 15:42:59.0";
+        dc:identifier          "SDN:S21::S21S006";
+        pav:authoredOn         "2009-11-03 15:42:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/S21/current/S21S006/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/S26/current/MAT00710/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The third planet away from the sun in our solar system."@en;
+        skos:notation          "SDN:S21::S21S006";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Earth"@en .
+
+<http://vocab.nerc.ac.uk/collection/S21/current/S21S031/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:S21::S21S031";
+        dc:date                "2009-11-03 15:42:59.0";
+        dc:identifier          "SDN:S21::S21S031";
+        pav:authoredOn         "2009-11-03 15:42:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/S21/current/S21S031/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/S26/current/MAT01074/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "An aliquot of the bed containing both solid material and its interstitial pore water."@en , "Partie aliquote du fond contenant du matériel solide et de l'eau intersticielle."@fr;
+        skos:notation          "SDN:S21::S21S031";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "wet sediment"@en , "sédiment brut"@fr .
+
+<http://vocab.nerc.ac.uk/collection/S21/current/S21S034/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:S21::S21S034";
+        dc:date                "2009-11-04 11:30:44.0";
+        dc:identifier          "SDN:S21::S21S034";
+        pav:authoredOn         "2009-11-04 11:30:44.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/S21/current/S21S034/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/S21/current/S21S034/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/S26/current/MAT00199/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "A secondary mineral deposit within a cave (speleothem) which hangs from the roof of the cave"@en;
+        skos:notation          "SDN:S21::S21S034";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "stalactite"@en .
+
+<http://vocab.nerc.ac.uk/collection/S21/current/S21S038/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:S21::S21S038";
+        dc:date                "2010-11-04 16:02:38.0";
+        dc:identifier          "SDN:S21::S21S038";
+        pav:authoredOn         "2010-11-04 16:02:38.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/S21/current/S21S038/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/S26/current/MAT00927/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Échantillon de substrat dur (roche sédimentaire, ignée ou métamorphique) prélevé d'une unité géologique du fond."@fr , "Sample of sedimentary, igneous or metamorphic rock removed from a geological unit in the bed"@en;
+        skos:notation          "SDN:S21::S21S038";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "rock"@en , "roche"@fr .
+
+<http://vocab.nerc.ac.uk/collection/S21/current/S21S024/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:S21::S21S024";
+        dc:date                "2009-11-03 15:42:59.0";
+        dc:identifier          "SDN:S21::S21S024";
+        pav:authoredOn         "2009-11-03 15:42:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/S21/current/S21S024/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/S26/current/MAT00192/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Crystalline water ice precipitation."@en;
+        skos:notation          "SDN:S21::S21S024";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "snow"@en .
+
+<http://vocab.nerc.ac.uk/collection/S21/current/S21S033/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:S21::S21S033";
+        dc:date                "2009-11-03 16:09:28.0";
+        dc:identifier          "SDN:S21::S21S033";
+        pav:authoredOn         "2009-11-03 16:09:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/S21/current/S21S033/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/S26/current/MAT00857/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The gas mixture contained inside an underground cavity large enough for human access."@en;
+        skos:notation          "SDN:S21::S21S033";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "cave atmosphere"@en .
+
+<http://vocab.nerc.ac.uk/collection/S21/current/S21S039/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:S21::S21S039";
+        dc:date                "2010-12-01 12:46:20.0";
+        dc:identifier          "SDN:S21::S21S039";
+        pav:authoredOn         "2010-12-01 12:46:20.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/S21/current/S21S039/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/S26/current/MAT00892/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Sample of unconsolidated sediment or sedimentary, igneous or metamorphic rock removed from a geological unit in the bed"@en;
+        skos:notation          "SDN:S21::S21S039";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "geological sample"@en .
+
+<http://vocab.nerc.ac.uk/collection/S21/current/S21S011/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:S21::S21S011";
+        dc:date                "2014-06-03 10:09:56.0";
+        dc:identifier          "SDN:S21::S21S011";
+        pav:authoredOn         "2014-06-03 10:09:56.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/S21/current/S21S011/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/S21/current/S21S011/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/S26/current/MAT00871/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "A sample of water whose chemical and biological composition has been artificially modified under known controlled conditions."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/S26/current/MAT01277/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00878/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01403/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00885/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00864/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01312/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01305/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01291/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01550/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01270/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01298/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01284/>;
+        skos:notation          "SDN:S21::S21S011";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "experiment water sample"@en .
+
+<http://vocab.nerc.ac.uk/collection/S21/current/S21S009/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:S21::S21S009";
+        dc:date                "2009-11-03 15:42:59.0";
+        dc:identifier          "SDN:S21::S21S009";
+        pav:authoredOn         "2009-11-03 15:42:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/S21/current/S21S009/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/S26/current/MAT00213/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A significant volume of frozen water possibly containing a variety of inclusions (rock particles, bubbles etc.) located above land or a water body."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/S26/current/MAT01683/>;
+        skos:notation          "SDN:S21::S21S009";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "surface ice"@en .
+
+<http://vocab.nerc.ac.uk/collection/S21/current/S21S019/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:S21::S21S019";
+        dc:date                "2009-11-03 15:42:59.0";
+        dc:identifier          "SDN:S21::S21S019";
+        pav:authoredOn         "2009-11-03 15:42:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/S21/current/S21S019/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/S26/current/MAT00913/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A type of terrestrial sediment comprising an accumulation of partially decayed vegetable matter, usually moss."@en;
+        skos:notation          "SDN:S21::S21S019";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "peat"@en .
+
+<http://vocab.nerc.ac.uk/collection/S21/current/S21S023/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:S21::S21S023";
+        dc:date                "2009-11-03 15:42:59.0";
+        dc:identifier          "SDN:S21::S21S023";
+        pav:authoredOn         "2009-11-03 15:42:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/S21/current/S21S023/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/S26/current/MAT00185/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Water occupying the spaces between grains in an unlithified sample of unconsolidated sediment collected from the bed of a water body."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/S26/current/MAT01987/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00157/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00171/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00150/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01983/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00164/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00178/>;
+        skos:notation          "SDN:S21::S21S023";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "sediment pore water"@en .
+
+<http://vocab.nerc.ac.uk/collection/S21/current/S21S022/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:S21::S21S022";
+        dc:date                "2010-11-04 16:04:07.0";
+        dc:identifier          "SDN:S21::S21S022";
+        pav:authoredOn         "2010-11-04 16:04:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/S21/current/S21S022/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/S21/current/S21S022/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <https://id.eaufrance.fr/sup/6> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00136/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "Unconsolidated solid material removed from a geological unit in the bed"@en , "Matériel solide non consolidé prélevé d'une unité géologique du fond."@fr;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/S26/current/MAT00003/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00094/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01144/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00017/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT001971/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00976/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00010/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01979/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01543/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00955/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT001973/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT001972/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00073/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00045/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01984/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00143/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT001974/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00129/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00115/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00024/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00090/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00122/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00087/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00080/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00059/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01975/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00066/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00052/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00934/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01977/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01976/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00969/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00983/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00941/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00031/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00101/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01978/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00962/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00038/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00948/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00108/>;
+        skos:notation          "SDN:S21::S21S022";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "sediment"@en , "sédiment"@fr;
+        skos:related           <http://vocab.nerc.ac.uk/collection/B02/current/M000137/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000138/> , <http://vocab.nerc.ac.uk/collection/B02/current/M000136/>;
+        skos:topConceptOf      <http://vocab.nerc.ac.uk/scheme/EMODNET_PEST/current/> .
+
+<http://vocab.nerc.ac.uk/collection/S21/current/S21S017/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:S21::S21S017";
+        dc:date                "2009-11-03 15:42:59.0";
+        dc:identifier          "SDN:S21::S21S017";
+        pav:authoredOn         "2009-11-03 15:42:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/S21/current/S21S017/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/S26/current/MAT00906/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Il n'y a pas de valeur adaptée pour remplir ce champ."@fr , "There is no appropriate value to populate the field."@en;
+        skos:notation          "SDN:S21::S21S017";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "not applicable"@en , "n/a"@fr .
+
+<http://vocab.nerc.ac.uk/collection/S21/current/S21S001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:S21::S21S001";
+        dc:date                "2009-11-03 15:42:59.0";
+        dc:identifier          "SDN:S21::S21S001";
+        pav:authoredOn         "2009-11-03 15:42:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/S21/current/S21S001/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/S26/current/MAT00843/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Layer of gases surrounding the planet Earth that is retained by the Earth's gravity."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/S26/current/MAT00808/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00724/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00738/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00759/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00745/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00773/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00836/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00794/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00801/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00766/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00752/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00717/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00787/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00815/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00822/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00780/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00731/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00829/>;
+        skos:notation          "SDN:S21::S21S001";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "atmosphere"@en .
+
+<http://vocab.nerc.ac.uk/collection/S21/current/S21S026/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:S21::S21S026";
+        dc:date                "2009-11-03 15:42:59.0";
+        dc:identifier          "SDN:S21::S21S026";
+        pav:authoredOn         "2009-11-03 15:42:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/S21/current/S21S026/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/S26/current/MAT00528/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Solid material, including flora and fauna, that is distributed throughout a water body."@en , "Matériel solide (y compris la faune et la flore) réparti dans la masse d'eau."@fr;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/S26/current/MAT01991/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00255/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01989/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00248/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00227/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01990/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00241/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00220/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00234/>;
+        skos:notation          "SDN:S21::S21S026";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "suspended particulate material"@en , "matières en suspension (MES)"@fr .
+
+<http://vocab.nerc.ac.uk/collection/S21/current/S21S027/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:S21::S21S027";
+        dc:date                "2009-11-03 15:42:59.0";
+        dc:identifier          "SDN:S21::S21S027";
+        pav:authoredOn         "2009-11-03 15:42:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/S21/current/S21S027/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/S26/current/MAT00640/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Volume distinct d'eau douce ou salée à la surface de la Terre. Cela comprend les océans, mers, estuaires, rivières, bassins et lacs."@fr , "A distinct and significant volume of fresh or salt water on the Earth's surface.  Includes oceans, seas, estuaries, rivers, ponds and lakes."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/S26/current/MAT00290/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01823/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00388/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00472/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01965/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00416/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01130/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00283/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00437/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00269/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01986/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01011/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00423/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00304/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01137/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01967/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00990/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01980/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01981/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00542/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00360/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01046/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01970/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01964/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01988/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00535/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00563/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00381/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01969/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00367/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00409/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00339/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01032/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00500/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01982/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00311/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01025/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00577/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00332/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00346/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00556/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00619/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00682/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00325/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00549/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00703/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00612/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01968/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00661/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00514/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00696/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01004/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00451/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00465/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00689/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00297/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00318/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00486/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01962/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01018/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00521/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00276/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00647/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01053/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00458/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00395/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01263/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00479/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01039/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00668/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00262/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00605/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01123/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00507/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00570/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00444/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00374/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00591/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00654/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00430/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00997/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00675/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00402/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00493/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT01060/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00633/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00626/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00598/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00353/> , <http://vocab.nerc.ac.uk/collection/S26/current/MAT00584/>;
+        skos:notation          "SDN:S21::S21S027";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "masse d'eau"@fr , "water body"@en;
+        skos:topConceptOf      <http://vocab.nerc.ac.uk/scheme/EMODNET_PEST/current/> .
+
+<http://vocab.nerc.ac.uk/collection/S21/current/S21S037/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:S21::S21S037";
+        dc:date                "2014-01-30 09:21:29.0";
+        dc:identifier          "SDN:S21::S21S037";
+        pav:authoredOn         "2014-01-30 09:21:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/S21/current/S21S037/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/S21/current/S21S037/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/S26/current/MAT01963/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "Organisme vivant ou une partie de celui-ci, corps ou partie du corps d'un organisme qui a été vivant."@fr , "A living organism (or part thereof) or the body or body part of an organism that was once alive."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/S25/current/BE007549/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007898/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006324/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007545/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008589/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008574/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007499/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007337/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007514/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007959/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007508/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008598/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007119/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008564/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007903/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007510/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007956/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007129/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007328/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006293/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007559/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007676/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008541/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE003274/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007879/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007574/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007516/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007933/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006299/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007583/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007716/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007591/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007905/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006303/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007524/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE004035/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008517/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007913/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007522/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE000602/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007823/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006784/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006332/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007601/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006323/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007941/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007897/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007820/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007498/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006357/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007593/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007878/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007504/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007874/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006338/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008519/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006353/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007320/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007618/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006334/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007551/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008569/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007908/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007327/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006346/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007048/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007951/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE005620/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008513/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007882/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007126/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE001301/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007111/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006370/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007323/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE005249/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006342/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007527/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006328/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007523/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007500/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007896/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007128/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE001297/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006372/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008527/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008554/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006356/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007325/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE004430/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007529/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007573/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008511/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007946/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006511/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008566/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008609/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006352/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008551/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE004253/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE003270/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007875/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE000729/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007598/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006295/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007576/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008602/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007130/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007909/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007561/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006291/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007518/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007867/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007938/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007881/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE001300/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008577/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008600/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008568/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007718/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006305/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007526/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE003107/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE002274/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007915/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006297/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007900/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008561/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007825/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007578/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007132/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007501/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007869/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE005989/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006484/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007871/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007819/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE005868/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006359/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007595/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007528/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007936/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007530/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007557/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008421/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007921/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007917/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006355/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007322/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007118/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007553/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007696/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006327/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007536/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007953/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007937/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006292/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007532/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008576/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE005621/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007910/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007721/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008601/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007324/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007586/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE001644/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006298/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007590/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006302/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007888/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008482/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007943/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007507/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007939/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007822/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008529/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006362/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE002279/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006358/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008544/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008137/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007575/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE004073/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008525/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007935/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE003140/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007560/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007920/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007592/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007558/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006354/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE003272/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007877/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007570/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007136/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008521/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE002156/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006337/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE001578/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007656/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006379/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE004323/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008504/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008604/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007535/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008546/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007550/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007577/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007131/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007884/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008579/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE004362/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007912/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007720/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006331/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007818/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE005852/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007865/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007861/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008563/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008181/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007134/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007503/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007873/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE001453/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006361/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008543/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006333/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008526/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008580/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007923/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007531/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE005618/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007907/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007950/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007505/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007887/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008545/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007534/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007883/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006294/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008578/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007866/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007326/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007588/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007948/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006371/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006304/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008553/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007567/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007891/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007945/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007317/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006296/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE005978/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007824/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007548/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008503/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007868/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007563/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE002325/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007925/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007922/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007594/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006306/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007138/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007556/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007513/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007542/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE003526/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008506/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007902/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006728/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007552/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007579/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007955/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007519/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007133/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007886/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007914/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006374/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007722/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008556/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007597/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008539/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007544/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007863/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007585/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008608/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007963/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE000926/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007890/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007540/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007916/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008481/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007580/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006335/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE000731/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007940/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008528/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007924/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008502/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007533/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE002452/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006343/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE003902/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007952/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE003106/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007636/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007889/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007582/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007509/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008599/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007885/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007117/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006349/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE000227/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006364/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008531/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006345/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007954/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007562/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006496/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008592/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE002174/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006373/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007919/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008555/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE003059/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007638/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007864/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007962/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE000010/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008540/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008590/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007571/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007893/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007137/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007319/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007640/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007569/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006341/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE003269/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007617/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007538/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008505/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007565/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008520/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE000730/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008581/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007927/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008501/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008603/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007112/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007895/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007336/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007904/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007497/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008550/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE003273/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008507/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007957/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008522/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007121/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007929/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008583/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006363/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008562/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008530/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006459/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE004963/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007517/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007546/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007639/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007587/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006430/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007717/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007572/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007965/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007892/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008591/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006339/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008588/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007961/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007918/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE001743/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007537/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007511/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE000733/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE000434/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007930/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007926/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007521/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007911/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007589/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007600/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007967/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007641/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007894/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007496/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008508/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007539/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007584/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006320/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007541/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007947/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007568/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007932/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007928/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007826/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006366/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE002905/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008141/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008518/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006351/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006347/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008533/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007616/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007564/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008514/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007316/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006483/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007596/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007547/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007821/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006460/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007964/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE005853/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007125/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006322/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008510/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007543/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008587/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE005982/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006368/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007512/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007135/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007566/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007506/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007899/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006376/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007901/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE005666/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008139/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007966/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE005856/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE005619/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008567/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006369/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008552/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008524/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE000734/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007931/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE005980/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006365/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007960/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007862/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007581/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006350/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006406/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008532/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006348/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007870/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE001298/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008560/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007520/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006325/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE001004/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007719/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006782/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006321/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008538/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007637/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008575/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006367/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008201/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007876/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008534/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE005117/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007502/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE002171/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007872/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007599/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007329/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE001574/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006360/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007906/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE008542/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006344/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE001790/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE004783/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007124/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007880/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007934/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007321/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006340/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007525/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE001252/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007942/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE003103/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007318/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE003538/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE002095/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006326/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006783/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006644/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007123/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007028/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006626/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006664/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006649/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006620/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006639/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE001319/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006621/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006623/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006625/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006656/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006628/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006630/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006655/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006660/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006619/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006608/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006653/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006652/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006648/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007110/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006658/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006624/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006616/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007122/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006654/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006638/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006605/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006569/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006336/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006651/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE007120/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006650/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006663/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006659/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006627/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006657/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006607/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE002366/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006622/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006615/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006604/> , <http://vocab.nerc.ac.uk/collection/S25/current/BE006632/>;
+        skos:notation          "SDN:S21::S21S037";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "biota"@en , "biote"@fr;
+        skos:related           <http://vocab.nerc.ac.uk/collection/B02/current/M000135/>;
+        skos:topConceptOf      <http://vocab.nerc.ac.uk/scheme/EMODNET_PEST/current/> .
+
+<http://vocab.nerc.ac.uk/collection/S21/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used within the data centre";
+        dc:alternative          "Sphere names";
+        dc:creator              "British Oceanographic Data Centre";
+        dc:date                 "2026-04-16 03:00:01.0";
+        dc:description          "Controlled vocabulary defining the terms that may be used to describe the sphere (SWEET EarthRealm) in the BODC parameter semantic model. Part of the where theme.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "BODC parameter semantic model sphere names";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "British Oceanographic Data Centre";
+        owl:versionInfo         "15";
+        skos:altLabel           "Sphere names";
+        skos:member             <http://vocab.nerc.ac.uk/collection/S21/current/S21S040/> , <http://vocab.nerc.ac.uk/collection/S21/current/S21S041/> , <http://vocab.nerc.ac.uk/collection/S21/current/S21S042/> , <http://vocab.nerc.ac.uk/collection/S21/current/S21S028/> , <http://vocab.nerc.ac.uk/collection/S21/current/S21S003/> , <http://vocab.nerc.ac.uk/collection/S21/current/S21S020/> , <http://vocab.nerc.ac.uk/collection/S21/current/S21S025/> , <http://vocab.nerc.ac.uk/collection/S21/current/S21S005/> , <http://vocab.nerc.ac.uk/collection/S21/current/S21S006/> , <http://vocab.nerc.ac.uk/collection/S21/current/S21S031/> , <http://vocab.nerc.ac.uk/collection/S21/current/S21S034/> , <http://vocab.nerc.ac.uk/collection/S21/current/S21S038/> , <http://vocab.nerc.ac.uk/collection/S21/current/S21S024/> , <http://vocab.nerc.ac.uk/collection/S21/current/S21S033/> , <http://vocab.nerc.ac.uk/collection/S21/current/S21S039/> , <http://vocab.nerc.ac.uk/collection/S21/current/S21S011/> , <http://vocab.nerc.ac.uk/collection/S21/current/S21S009/> , <http://vocab.nerc.ac.uk/collection/S21/current/S21S019/> , <http://vocab.nerc.ac.uk/collection/S21/current/S21S023/> , <http://vocab.nerc.ac.uk/collection/S21/current/S21S022/> , <http://vocab.nerc.ac.uk/collection/S21/current/S21S017/> , <http://vocab.nerc.ac.uk/collection/S21/current/S21S001/> , <http://vocab.nerc.ac.uk/collection/S21/current/S21S026/> , <http://vocab.nerc.ac.uk/collection/S21/current/S21S037/> , <http://vocab.nerc.ac.uk/collection/S21/current/S21S027/>;
+        skos:prefLabel          "BODC parameter semantic model sphere names" .

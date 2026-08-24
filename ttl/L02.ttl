@@ -1,0 +1,92 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/L02/current/003/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L02::003";
+        dc:date                "2014-03-27 09:10:09.0";
+        dc:identifier          "SDN:L02::003";
+        pav:authoredOn         "2014-03-27 09:10:09.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L02/current/003/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L02/current/003/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "LineString";
+        skos:definition        "Bounded, 1-dimensional geometric primitive, representing the continuous image of a line"@en;
+        skos:notation          "SDN:L02::003";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "curve"@en .
+
+<http://vocab.nerc.ac.uk/collection/L02/current/006/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L02::006";
+        dc:date                "2014-03-27 09:10:25.0";
+        dc:identifier          "SDN:L02::006";
+        pav:authoredOn         "2014-03-27 09:10:25.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L02/current/006/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L02/current/006/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "Polygon";
+        skos:definition        "Bounded, connected 2-dimensional geometric primitive, representing the continuous image of a region of a plane"@en;
+        skos:notation          "SDN:L02::006";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "surface"@en .
+
+<http://vocab.nerc.ac.uk/collection/L02/current/004/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L02::004";
+        dc:date                "2014-03-27 09:10:18.0";
+        dc:identifier          "SDN:L02::004";
+        pav:authoredOn         "2014-03-27 09:10:18.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L02/current/004/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L02/current/004/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "Point";
+        skos:definition        "Zero-dimensional geometric primitive, representing a position but not having an extent"@en;
+        skos:notation          "SDN:L02::004";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "point"@en .
+
+<http://vocab.nerc.ac.uk/collection/L02/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the EU SeaDataNet project implemented as consultation between BODC and the members of the SeaDataNet Technical Task Team";
+        dc:alternative          "SeaDataNet Geospatial Feature Types";
+        dc:creator              "SeaDataNet";
+        dc:date                 "2014-03-28 02:00:02.0";
+        dc:description          "SeaDataNet profile of ISO MD_GeometricObjectTypeCodeTerms code list.  Known in SEA-SEARCH as 'Library 2'  or cdi_measurement_codes.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "SeaDataNet Geospatial Feature Types";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "SeaDataNet";
+        owl:versionInfo         "2";
+        skos:altLabel           "SeaDataNet Geospatial Feature Types";
+        skos:member             <http://vocab.nerc.ac.uk/collection/L02/current/003/> , <http://vocab.nerc.ac.uk/collection/L02/current/004/> , <http://vocab.nerc.ac.uk/collection/L02/current/006/>;
+        skos:prefLabel          "SeaDataNet Geospatial Feature Types" .

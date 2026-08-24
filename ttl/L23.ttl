@@ -1,0 +1,312 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/L23/current/CPRD/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L23::CPRD";
+        dc:date                "2012-01-17 10:03:53.0";
+        dc:identifier          "SDN:L23::CPRD";
+        pav:authoredOn         "2012-01-17 10:03:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L23/current/CPRD/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Composite Product";
+        skos:definition        "Metadata record providing discovery metadata for a product such as a DTM which is provided by a data provider in place of their actual survey data as source for the project."@en;
+        skos:notation          "SDN:L23::CPRD";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Composite Product Record"@en .
+
+<http://vocab.nerc.ac.uk/collection/L23/current/EDIOSOP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L23::EDIOSOP";
+        dc:date                "2007-09-14 14:40:13.0";
+        dc:identifier          "SDN:L23::EDIOSOP";
+        pav:authoredOn         "2007-09-14 14:40:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L23/current/EDIOSOP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "EDIOS_OP";
+        skos:definition        "Metadata record describing an observing programme from the European Directory of the Initial Ocean Observing System"@en;
+        skos:notation          "SDN:L23::EDIOSOP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "EDIOS observing programme record"@en .
+
+<http://vocab.nerc.ac.uk/collection/L23/current/DTPLCY/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L23::DTPLCY";
+        dc:date                "2016-03-03 12:18:32.0";
+        dc:identifier          "SDN:L23::DTPLCY";
+        pav:authoredOn         "2016-03-03 12:18:32.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L23/current/DTPLCY/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Data policy";
+        skos:definition        "An XHTML policy document describing the terms under which the data were collected and curated  for future use."@en;
+        skos:notation          "SDN:L23::DTPLCY";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Data policy"@en .
+
+<http://vocab.nerc.ac.uk/collection/L23/current/PCR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L23::PCR";
+        dc:date                "2011-01-21 11:08:27.0";
+        dc:identifier          "SDN:L23::PCR";
+        pav:authoredOn         "2011-01-21 11:08:27.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L23/current/PCR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "PCR";
+        skos:definition        "Metadata record describing a cruise that is planned for the future"@en;
+        skos:notation          "SDN:L23::PCR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Planned Cruise record"@en .
+
+<http://vocab.nerc.ac.uk/collection/L23/current/IPRD/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L23::IPRD";
+        dc:date                "2012-01-17 10:05:10.0";
+        dc:identifier          "SDN:L23::IPRD";
+        pav:authoredOn         "2012-01-17 10:05:10.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L23/current/IPRD/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Intermediate product";
+        skos:definition        "Metadata record providing discovery metadata for a product such as a DTM which is produced following the project methodology for the construction of a final product eg a DTM delivered by partners to a regional integrator."@en;
+        skos:notation          "SDN:L23::IPRD";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Intermediate Product record"@en .
+
+<http://vocab.nerc.ac.uk/collection/L23/current/CSR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L23::CSR";
+        dc:date                "2024-11-05 12:56:30.0";
+        dc:identifier          "SDN:L23::CSR";
+        pav:authoredOn         "2024-11-05 12:56:30.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L23/current/CSR/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L23/current/CSR/3/> , <http://vocab.nerc.ac.uk/collection/L23/current/CSR/2/> , <http://vocab.nerc.ac.uk/collection/L23/current/CSR/1/>;
+        pav:version            "4";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "4";
+        skos:altLabel          "CSR";
+        skos:definition        "Metadata record describing a cruise that has already taken place"@en;
+        skos:notation          "SDN:L23::CSR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Cruise Summary Report record"@en .
+
+<http://vocab.nerc.ac.uk/collection/L23/current/CDI/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L23::CDI";
+        dc:date                "2008-06-02 13:07:32.0";
+        dc:identifier          "SDN:L23::CDI";
+        pav:authoredOn         "2008-06-02 13:07:32.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L23/current/CDI/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L23/current/CDI/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "CDI";
+        skos:definition        "Metadata record providing discovery and evaluation metadata for a SeaDataNet data object"@en;
+        skos:notation          "SDN:L23::CDI";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Common Data Index record"@en .
+
+<http://vocab.nerc.ac.uk/collection/L23/current/PRODUCT/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L23::PRODUCT";
+        dc:date                "2008-03-31 12:04:24.0";
+        dc:identifier          "SDN:L23::PRODUCT";
+        pav:authoredOn         "2008-03-31 12:04:24.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L23/current/PRODUCT/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Product";
+        skos:definition        "Metadata record providing discovery metadata for a data product"@en;
+        skos:notation          "SDN:L23::PRODUCT";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Product record"@en .
+
+<http://vocab.nerc.ac.uk/collection/L23/current/EDIOSPL/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L23::EDIOSPL";
+        dc:date                "2010-11-24 09:18:19.0";
+        dc:identifier          "SDN:L23::EDIOSPL";
+        pav:authoredOn         "2010-11-24 09:18:19.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L23/current/EDIOSPL/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "EDIOS_PL";
+        skos:definition        "Metadata record describing a data collection platform from the European Directory of the Initial Ocean Observing System"@en;
+        skos:notation          "SDN:L23::EDIOSPL";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "EDIOS platform record"@en .
+
+<http://vocab.nerc.ac.uk/collection/L23/current/EDMERP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L23::EDMERP";
+        dc:date                "2007-09-14 14:40:13.0";
+        dc:identifier          "SDN:L23::EDMERP";
+        pav:authoredOn         "2007-09-14 14:40:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L23/current/EDMERP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "EDMERP";
+        skos:definition        "Metadata record describing a project in the European Directory of Marine Environmental Research Projects"@en;
+        skos:notation          "SDN:L23::EDMERP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "EDMERP project record"@en .
+
+<http://vocab.nerc.ac.uk/collection/L23/current/EDIOSDS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L23::EDIOSDS";
+        dc:date                "2007-09-14 14:40:13.0";
+        dc:identifier          "SDN:L23::EDIOSDS";
+        pav:authoredOn         "2007-09-14 14:40:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L23/current/EDIOSDS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "EDIOS_DS";
+        skos:definition        "Metadata record describing a data series from the European Directory of the Initial Ocean Observing System"@en;
+        skos:notation          "SDN:L23::EDIOSDS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "EDIOS data series record"@en .
+
+<http://vocab.nerc.ac.uk/collection/L23/current/EDMED/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L23::EDMED";
+        dc:date                "2007-09-14 14:40:13.0";
+        dc:identifier          "SDN:L23::EDMED";
+        pav:authoredOn         "2007-09-14 14:40:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L23/current/EDMED/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "EDMED";
+        skos:definition        "Metadata record describing a dataset from the European Directory of Marine Environmental Datasets"@en;
+        skos:notation          "SDN:L23::EDMED";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "EDMED record"@en .
+
+<http://vocab.nerc.ac.uk/collection/L23/current/NVS2CON/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L23::NVS2CON";
+        dc:date                "2014-05-27 12:17:53.0";
+        dc:identifier          "SDN:L23::NVS2CON";
+        pav:authoredOn         "2014-05-27 12:17:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L23/current/NVS2CON/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "NVSV2 concept";
+        skos:definition        "Metadata record describing a single concept in the NERC Vocabulary Server in the format (SKOS RDF XML) generated by V2 of that server."@en;
+        skos:notation          "SDN:L23::NVS2CON";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "NERC Vocabulary Server V2 concept document"@en .
+
+<http://vocab.nerc.ac.uk/collection/L23/current/DTLCNC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L23::DTLCNC";
+        dc:date                "2016-03-03 12:17:57.0";
+        dc:identifier          "SDN:L23::DTLCNC";
+        pav:authoredOn         "2016-03-03 12:17:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L23/current/DTLCNC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Data licence";
+        skos:definition        "An XHTML document describing the terms under which the data are supplied for use and how they are to be acknowledged."@en;
+        skos:notation          "SDN:L23::DTLCNC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Data licence"@en .
+
+<http://vocab.nerc.ac.uk/collection/L23/current/DATDOC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L23::DATDOC";
+        dc:date                "2016-03-03 12:19:11.0";
+        dc:identifier          "SDN:L23::DATDOC";
+        pav:authoredOn         "2016-03-03 12:19:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L23/current/DATDOC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Data documentation";
+        skos:definition        "An XHTML document compiled and served by the data curator to describe the sampling, analytical and quality control procedures used in the generation and subsequent management of the data."@en;
+        skos:notation          "SDN:L23::DATDOC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Data documentation"@en .
+
+<http://vocab.nerc.ac.uk/collection/L23/current/ICESSTN/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L23::ICESSTN";
+        dc:date                "2017-09-06 12:09:16.0";
+        dc:identifier          "SDN:L23::ICESSTN";
+        pav:authoredOn         "2017-09-06 12:09:16.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L23/current/ICESSTN/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ICES station";
+        skos:definition        "Metadata record describing a monitoring station in the ICES Station Dictionary."@en;
+        skos:notation          "SDN:L23::ICESSTN";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ICES Station Dictionary Record"@en .
+
+<http://vocab.nerc.ac.uk/collection/L23/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the EU SeaDataNet project implemented as consultation between BODC and the members of the SeaDataNet Technical Task Team";
+        dc:alternative          "SDN metadata entities";
+        dc:creator              "SeaDataNet";
+        dc:date                 "2024-11-06 02:00:01.0";
+        dc:description          "Types of metadata record in the SeaDataNet metadata catalogue repositories";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "SeaDataNet metadata entities";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "SeaDataNet";
+        owl:versionInfo         "10";
+        skos:altLabel           "SDN metadata entities";
+        skos:member             <http://vocab.nerc.ac.uk/collection/L23/current/CPRD/> , <http://vocab.nerc.ac.uk/collection/L23/current/EDIOSOP/> , <http://vocab.nerc.ac.uk/collection/L23/current/DTPLCY/> , <http://vocab.nerc.ac.uk/collection/L23/current/PCR/> , <http://vocab.nerc.ac.uk/collection/L23/current/IPRD/> , <http://vocab.nerc.ac.uk/collection/L23/current/CSR/> , <http://vocab.nerc.ac.uk/collection/L23/current/CDI/> , <http://vocab.nerc.ac.uk/collection/L23/current/PRODUCT/> , <http://vocab.nerc.ac.uk/collection/L23/current/EDIOSPL/> , <http://vocab.nerc.ac.uk/collection/L23/current/EDMERP/> , <http://vocab.nerc.ac.uk/collection/L23/current/EDIOSDS/> , <http://vocab.nerc.ac.uk/collection/L23/current/EDMED/> , <http://vocab.nerc.ac.uk/collection/L23/current/NVS2CON/> , <http://vocab.nerc.ac.uk/collection/L23/current/DTLCNC/> , <http://vocab.nerc.ac.uk/collection/L23/current/ICESSTN/> , <http://vocab.nerc.ac.uk/collection/L23/current/DATDOC/>;
+        skos:prefLabel          "SeaDataNet metadata entities" .

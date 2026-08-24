@@ -1,0 +1,89 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/W11/current/ECLS0001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W11::ECLS0001";
+        dc:date                "2020-11-04 20:33:56.0";
+        dc:identifier          "SDN:W11::ECLS0001";
+        pav:authoredOn         "2020-11-04 20:33:56.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W11/current/ECLS0001/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "An activity performed by a system and consisting of a sequence of punctuated actions (including malfunctions and deliberate actions)."@en;
+        skos:notation          "SDN:W11::ECLS0001";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Event process"@en .
+
+<http://vocab.nerc.ac.uk/collection/W11/current/ECLS0003/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W11::ECLS0003";
+        dc:date                "2020-11-04 20:35:36.0";
+        dc:identifier          "SDN:W11::ECLS0003";
+        pav:authoredOn         "2020-11-04 20:35:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W11/current/ECLS0003/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A temporal punctuation (like a step, a phase, a moment) in an ongoing process which can be deliberate or incidental; for instance 'Start', 'End', 'Failure'."@en;
+        skos:notation          "SDN:W11::ECLS0003";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Event action"@en .
+
+<http://vocab.nerc.ac.uk/collection/W11/current/ECLS0002/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W11::ECLS0002";
+        dc:date                "2020-11-04 20:32:55.0";
+        dc:identifier          "SDN:W11::ECLS0002";
+        pav:authoredOn         "2020-11-04 20:32:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W11/current/ECLS0002/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The primary scientific purpose of the event (e.g. a given scientific activity preferably selected from a controlled vocabulary)."@en;
+        skos:notation          "SDN:W11::ECLS0002";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Event subject"@en .
+
+<http://vocab.nerc.ac.uk/collection/W11/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies created for use in SWE Marine Profiles.";
+        rdfs:seeAlso            <https://github.com/nvs-vocabs/W11>;
+        dc:alternative          "SensorML Event Classification";
+        dc:creator              "Sensor Web Enablement Marine Profiles";
+        dc:date                 "2020-11-05 02:00:02.0";
+        dc:description          "Terms used in SensorML to describe aspects of an Event.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "SensorML Event Classification Terms";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Sensor Web Enablement Marine Profiles";
+        owl:versionInfo         "1";
+        skos:altLabel           "SensorML Event Classification";
+        skos:member             <http://vocab.nerc.ac.uk/collection/W11/current/ECLS0001/> , <http://vocab.nerc.ac.uk/collection/W11/current/ECLS0002/> , <http://vocab.nerc.ac.uk/collection/W11/current/ECLS0003/>;
+        skos:prefLabel          "SensorML Event Classification Terms" .

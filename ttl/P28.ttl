@@ -1,0 +1,71 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/P28/current/OPEN/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P28::OPEN";
+        dc:date                "2012-07-20 10:56:31.0";
+        dc:identifier          "SDN:P28::OPEN";
+        pav:authoredOn         "2012-07-20 10:56:31.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P28/current/OPEN/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Work is currently underway at the cleanup site."@en;
+        skos:notation          "SDN:P28::OPEN";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "open"@en .
+
+<http://vocab.nerc.ac.uk/collection/P28/current/CLOSED/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P28::CLOSED";
+        dc:date                "2012-07-20 10:56:52.0";
+        dc:identifier          "SDN:P28::CLOSED";
+        pav:authoredOn         "2012-07-20 10:56:52.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P28/current/CLOSED/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Work is not currently underway at the cleanup site."@en;
+        skos:notation          "SDN:P28::CLOSED";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "closed"@en .
+
+<http://vocab.nerc.ac.uk/collection/P28/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "French national organisation for documentation, research and experimentation on pollutants, their effects and the response means and tools that can be used to combat them. It is charged with providing advice and expertise to the authorities responsible for responding to accidental pollution.";
+        dc:alternative          "Cedre cleanup site stati";
+        dc:creator              "Centre de documentation de recherche et d'expérimentations sur les pollutions accidentelles des eaux";
+        dc:date                 "2012-07-21 02:00:03.0";
+        dc:description          "Terms used to describe the operational stati of pollution cleanup sites in the Cedre cleanup site service.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Cedre pollution site cleanup operational stati";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Centre de documentation de recherche et d'expérimentations sur les pollutions accidentelles des eaux";
+        owl:versionInfo         "1";
+        skos:altLabel           "Cedre cleanup site stati";
+        skos:member             <http://vocab.nerc.ac.uk/collection/P28/current/OPEN/> , <http://vocab.nerc.ac.uk/collection/P28/current/CLOSED/>;
+        skos:prefLabel          "Cedre pollution site cleanup operational stati" .

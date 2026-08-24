@@ -1,0 +1,242 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/C87/current/CO/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C87::CO";
+        dc:date                "2011-12-12 09:37:26.0";
+        dc:identifier          "SDN:C87::CO";
+        pav:authoredOn         "2011-12-12 09:37:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C87/current/CO/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A provider of input to a project on a mutual co-operation basis without formal involvement in the project."@en;
+        skos:notation          "SDN:C87::CO";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Project collaborator"@en .
+
+<http://vocab.nerc.ac.uk/collection/C87/current/PD/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C87::PD";
+        dc:date                "2011-12-12 09:37:26.0";
+        dc:identifier          "SDN:C87::PD";
+        pav:authoredOn         "2011-12-12 09:37:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C87/current/PD/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "RA";
+        skos:definition        "Persons employed as researchers on a project, usually the line management responsibility of the principal investigator or a co-investigator."@en;
+        skos:notation          "SDN:C87::PD";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Project research assistant"@en .
+
+<http://vocab.nerc.ac.uk/collection/C87/current/PG/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C87::PG";
+        dc:date                "2011-12-12 09:37:26.0";
+        dc:identifier          "SDN:C87::PG";
+        pav:authoredOn         "2011-12-12 09:37:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C87/current/PG/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "PGRA";
+        skos:definition        "Persons researching as part of a project as part of their work towards an academic degree.  This will usually be a PhD student, but could also be a masters student or even an undergraduate contributing through their degree work."@en;
+        skos:notation          "SDN:C87::PG";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Project research student"@en .
+
+<http://vocab.nerc.ac.uk/collection/C87/current/SM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C87::SM";
+        dc:date                "2011-12-12 09:37:26.0";
+        dc:identifier          "SDN:C87::SM";
+        pav:authoredOn         "2011-12-12 09:37:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C87/current/SM/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Persons serving on a project scientific steering committee,"@en;
+        skos:notation          "SDN:C87::SM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Project scientific steering committee member"@en .
+
+<http://vocab.nerc.ac.uk/collection/C87/current/CI/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C87::CI";
+        dc:date                "2011-12-12 09:37:26.0";
+        dc:identifier          "SDN:C87::CI";
+        pav:authoredOn         "2011-12-12 09:37:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C87/current/CI/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Project Co-I";
+        skos:definition        "The persons responsible for the planning, direction and management of a sub-component of a project.  Termed a work package leader in EU projects."@en;
+        skos:notation          "SDN:C87::CI";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Project co-investigator"@en .
+
+<http://vocab.nerc.ac.uk/collection/C87/current/PA/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C87::PA";
+        dc:date                "2011-12-12 09:37:26.0";
+        dc:identifier          "SDN:C87::PA";
+        pav:authoredOn         "2011-12-12 09:37:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C87/current/PA/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Project secretariat members providing administrative support to the project without management responsibility."@en;
+        skos:notation          "SDN:C87::PA";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Project administrator"@en .
+
+<http://vocab.nerc.ac.uk/collection/C87/current/PI/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C87::PI";
+        dc:date                "2011-12-12 09:37:26.0";
+        dc:identifier          "SDN:C87::PI";
+        pav:authoredOn         "2011-12-12 09:37:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C87/current/PI/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Project PI";
+        skos:definition        "The person or persons responsible for the overall planning, direction and management of the project.  This role is termed the project co-ordinator in EU projects."@en;
+        skos:notation          "SDN:C87::PI";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Project principal investigator"@en .
+
+<http://vocab.nerc.ac.uk/collection/C87/current/MP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C87::MP";
+        dc:date                "2011-12-12 09:37:26.0";
+        dc:identifier          "SDN:C87::MP";
+        pav:authoredOn         "2011-12-12 09:37:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C87/current/MP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Person with particular responsibility for accuracy and completeness of metadata, data quality and the short-term data access and security and assuring the long-term stewardship of the data collected during the project, but has no IPR interest in those data."@en;
+        skos:notation          "SDN:C87::MP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Project data manager"@en .
+
+<http://vocab.nerc.ac.uk/collection/C87/current/RA/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C87::RA";
+        dc:date                "2011-12-12 09:37:26.0";
+        dc:identifier          "SDN:C87::RA";
+        pav:authoredOn         "2011-12-12 09:37:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C87/current/RA/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A person who is responsible for preparation, operation and/or maintenance of shipboard, laboratory or deployed scientific instrumentation, but has no IPR interest in the data returned by that instrumentation."@en;
+        skos:notation          "SDN:C87::RA";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Project technician"@en .
+
+<http://vocab.nerc.ac.uk/collection/C87/current/SC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C87::SC";
+        dc:date                "2011-12-12 09:37:26.0";
+        dc:identifier          "SDN:C87::SC";
+        pav:authoredOn         "2011-12-12 09:37:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C87/current/SC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The person chairing the project scientific steering committee."@en;
+        skos:notation          "SDN:C87::SC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Project scientific steering committee chair"@en .
+
+<http://vocab.nerc.ac.uk/collection/C87/current/PM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C87::PM";
+        dc:date                "2011-12-12 09:37:26.0";
+        dc:identifier          "SDN:C87::PM";
+        pav:authoredOn         "2011-12-12 09:37:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C87/current/PM/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Project secretariat member with management responsibilities for the project."@en;
+        skos:notation          "SDN:C87::PM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Project manager"@en .
+
+<http://vocab.nerc.ac.uk/collection/C87/current/DP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C87::DP";
+        dc:date                "2011-12-12 09:37:26.0";
+        dc:identifier          "SDN:C87::DP";
+        pav:authoredOn         "2011-12-12 09:37:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C87/current/DP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Dataset PI";
+        skos:definition        "The person responsible for a specified subset of the data collected during a project and who holds the IPR for that subset of the data."@en;
+        skos:notation          "SDN:C87::DP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Project dataset principal investigator"@en .
+
+<http://vocab.nerc.ac.uk/collection/C87/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used within the data centre";
+        dc:alternative          "BODC project roles";
+        dc:creator              "British Oceanographic Data Centre";
+        dc:date                 "2011-12-13 00:00:00.0";
+        dc:description          "Terms used by BODC to describe roles associated with scientific projects.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "BODC project roles";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "British Oceanographic Data Centre";
+        owl:versionInfo         "0";
+        skos:altLabel           "BODC project roles";
+        skos:member             <http://vocab.nerc.ac.uk/collection/C87/current/CO/> , <http://vocab.nerc.ac.uk/collection/C87/current/PD/> , <http://vocab.nerc.ac.uk/collection/C87/current/PG/> , <http://vocab.nerc.ac.uk/collection/C87/current/SM/> , <http://vocab.nerc.ac.uk/collection/C87/current/CI/> , <http://vocab.nerc.ac.uk/collection/C87/current/PA/> , <http://vocab.nerc.ac.uk/collection/C87/current/PI/> , <http://vocab.nerc.ac.uk/collection/C87/current/MP/> , <http://vocab.nerc.ac.uk/collection/C87/current/RA/> , <http://vocab.nerc.ac.uk/collection/C87/current/SC/> , <http://vocab.nerc.ac.uk/collection/C87/current/DP/> , <http://vocab.nerc.ac.uk/collection/C87/current/PM/>;
+        skos:prefLabel          "BODC project roles" .

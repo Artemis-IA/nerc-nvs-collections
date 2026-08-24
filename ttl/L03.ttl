@@ -1,0 +1,243 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/L03/current/6/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L03::6";
+        dc:date                "2006-08-18 14:33:02.0";
+        dc:identifier          "SDN:L03::6";
+        pav:authoredOn         "2006-08-18 14:33:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L03/current/6/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "week2month";
+        skos:definition        "Sampling interval is one week or longer, but shorter than one month.  Sampling frequency is weekly or less, but greater than monthly."@en;
+        skos:notation          "SDN:L03::6";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "week to sub-month"@en .
+
+<http://vocab.nerc.ac.uk/collection/L03/current/4/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L03::4";
+        dc:date                "2006-08-18 14:33:02.0";
+        dc:identifier          "SDN:L03::4";
+        pav:authoredOn         "2006-08-18 14:33:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L03/current/4/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "hour2day";
+        skos:definition        "Sampling interval is one hour or longer, but shorter than one day.  Sampling frequency is hourly or less, but greater than daily."@en;
+        skos:notation          "SDN:L03::4";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "hour to sub-day"@en .
+
+<http://vocab.nerc.ac.uk/collection/L03/current/7/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L03::7";
+        dc:date                "2006-08-18 14:33:02.0";
+        dc:identifier          "SDN:L03::7";
+        pav:authoredOn         "2006-08-18 14:33:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L03/current/7/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "month2year";
+        skos:definition        "Sampling interval is one month or longer, but shorter than one year.  Sampling frequency is monthly or less, but greater than yearly."@en;
+        skos:notation          "SDN:L03::7";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "month to sub-year"@en .
+
+<http://vocab.nerc.ac.uk/collection/L03/current/13/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L03::13";
+        dc:date                "2006-08-18 14:33:02.0";
+        dc:identifier          "SDN:L03::13";
+        pav:authoredOn         "2006-08-18 14:33:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L03/current/13/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "annual";
+        skos:definition        "Sampling interval is one year or longer, but shorter than ten years.  Sampling frequency is yearly or less, but greater than decadal."@en;
+        skos:notation          "SDN:L03::13";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "year to sub-decade"@en .
+
+<http://vocab.nerc.ac.uk/collection/L03/current/0/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L03::0";
+        dc:date                "2006-12-20 11:26:15.0";
+        dc:identifier          "SDN:L03::0";
+        pav:authoredOn         "2006-12-20 11:26:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L03/current/0/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "indeterminate";
+        skos:definition        "No regular sampling interval exists because measurements are made at irregular and unpredictable times."@en;
+        skos:notation          "SDN:L03::0";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "indeterminate"@en .
+
+<http://vocab.nerc.ac.uk/collection/L03/current/98/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L03::98";
+        dc:date                "2011-08-26 10:27:47.0";
+        dc:identifier          "SDN:L03::98";
+        pav:authoredOn         "2011-08-26 10:27:47.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L03/current/98/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L03/current/98/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "NA";
+        skos:definition        "There is no meaningful sampling interval either because measurements have not not repreated (e.g. sediment core measurements) or measurements have been averaged along a spatial axis (e.g. binned CTD data)."@en;
+        skos:notation          "SDN:L03::98";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "inapplicable"@en .
+
+<http://vocab.nerc.ac.uk/collection/L03/current/15/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L03::15";
+        dc:date                "2006-08-18 14:33:02.0";
+        dc:identifier          "SDN:L03::15";
+        pav:authoredOn         "2006-08-18 14:33:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L03/current/15/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "decadal";
+        skos:definition        "Sampling interval is 10 years or more.  Sampling frequency is less than or equal to decadal."@en;
+        skos:notation          "SDN:L03::15";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "decadal"@en .
+
+<http://vocab.nerc.ac.uk/collection/L03/current/1/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L03::1";
+        dc:date                "2006-08-18 14:33:02.0";
+        dc:identifier          "SDN:L03::1";
+        pav:authoredOn         "2006-08-18 14:33:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L03/current/1/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "sub-second";
+        skos:definition        "Sampling interval is less than a second.  Sampling frequency is greater than one hertz."@en;
+        skos:notation          "SDN:L03::1";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "sub-second"@en .
+
+<http://vocab.nerc.ac.uk/collection/L03/current/5/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L03::5";
+        dc:date                "2006-08-18 14:33:02.0";
+        dc:identifier          "SDN:L03::5";
+        pav:authoredOn         "2006-08-18 14:33:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L03/current/5/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "day2week";
+        skos:definition        "Sampling interval is one day or longer, but shorter than one week.  Sampling frequency is daily or less, but greater than weekly."@en;
+        skos:notation          "SDN:L03::5";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "day to sub-week"@en .
+
+<http://vocab.nerc.ac.uk/collection/L03/current/2/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L03::2";
+        dc:date                "2006-08-18 14:33:02.0";
+        dc:identifier          "SDN:L03::2";
+        pav:authoredOn         "2006-08-18 14:33:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L03/current/2/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "second2minute";
+        skos:definition        "Sampling interval is one second or longer, but shorter than one minute.  Sampling frequency is 1 hertz or less, but greater than 1/60 hertz."@en;
+        skos:notation          "SDN:L03::2";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "second to sub-minute"@en .
+
+<http://vocab.nerc.ac.uk/collection/L03/current/99/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L03::99";
+        dc:date                "2006-12-20 11:29:52.0";
+        dc:identifier          "SDN:L03::99";
+        pav:authoredOn         "2006-12-20 11:29:52.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L03/current/99/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "unknown";
+        skos:definition        "A regular sampling interval probably exists but is not known to, or computable by, the information provider."@en;
+        skos:notation          "SDN:L03::99";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "unknown"@en .
+
+<http://vocab.nerc.ac.uk/collection/L03/current/3/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L03::3";
+        dc:date                "2006-08-18 14:33:02.0";
+        dc:identifier          "SDN:L03::3";
+        pav:authoredOn         "2006-08-18 14:33:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L03/current/3/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "minute2hour";
+        skos:definition        "Sampling interval is one minute or longer, but shorter than one hour.  Sampling frequency is 1/60 hertz or less, but greater than 1/3600 hertz."@en;
+        skos:notation          "SDN:L03::3";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "minute to sub-hour"@en .
+
+<http://vocab.nerc.ac.uk/collection/L03/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the EU SeaDataNet project implemented as consultation between BODC and the members of the SeaDataNet Technical Task Team";
+        dc:alternative          "SeaDataNet Measurement Periodicity";
+        dc:creator              "SeaDataNet";
+        dc:date                 "2011-08-27 02:00:05.0";
+        dc:description          "Terms used to express a classification of measurement periodicity in the SeaDataNet project.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "SeaDataNet Measurement Periodicity Categories";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "SeaDataNet";
+        owl:versionInfo         "3";
+        skos:altLabel           "SeaDataNet Measurement Periodicity";
+        skos:member             <http://vocab.nerc.ac.uk/collection/L03/current/6/> , <http://vocab.nerc.ac.uk/collection/L03/current/4/> , <http://vocab.nerc.ac.uk/collection/L03/current/7/> , <http://vocab.nerc.ac.uk/collection/L03/current/13/> , <http://vocab.nerc.ac.uk/collection/L03/current/0/> , <http://vocab.nerc.ac.uk/collection/L03/current/98/> , <http://vocab.nerc.ac.uk/collection/L03/current/15/> , <http://vocab.nerc.ac.uk/collection/L03/current/1/> , <http://vocab.nerc.ac.uk/collection/L03/current/5/> , <http://vocab.nerc.ac.uk/collection/L03/current/2/> , <http://vocab.nerc.ac.uk/collection/L03/current/3/> , <http://vocab.nerc.ac.uk/collection/L03/current/99/>;
+        skos:prefLabel          "SeaDataNet Measurement Periodicity Categories" .

@@ -1,0 +1,532 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/V23/current/G11/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:V23::G11";
+        dc:date                "2012-07-27 10:30:40.0";
+        dc:identifier          "SDN:V23::G11";
+        pav:authoredOn         "2012-07-27 10:30:40.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/V23/current/G11/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Specific type of information represented in the cell"@en;
+        skos:notation          "SDN:V23::G11";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "MD_CoverageContentTypeCode"@en .
+
+<http://vocab.nerc.ac.uk/collection/V23/current/G22/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:V23::G22";
+        dc:date                "2012-07-27 15:10:02.0";
+        dc:identifier          "SDN:V23::G22";
+        pav:authoredOn         "2012-07-27 15:10:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/V23/current/G22/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Status of the dataset or progress of a review"@en;
+        skos:notation          "SDN:V23::G22";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "MD_ProgressCode"@en .
+
+<http://vocab.nerc.ac.uk/collection/V23/current/P05/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:V23::P05";
+        dc:date                "2012-07-27 15:15:40.0";
+        dc:identifier          "SDN:V23::P05";
+        pav:authoredOn         "2012-07-27 15:15:40.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/V23/current/P05/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "High-level geographic data thematic classification to assist in the grouping and search of available geographic data sets. Can be used to group keywords as well. Listed examples are not exhaustive."@en;
+        skos:notation          "SDN:V23::P05";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "MD_TopicCategoryCode"@en .
+
+<http://vocab.nerc.ac.uk/collection/V23/current/G17/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:V23::G17";
+        dc:date                "2012-07-27 14:37:24.0";
+        dc:identifier          "SDN:V23::G17";
+        pav:authoredOn         "2012-07-27 14:37:24.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/V23/current/G17/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Frequency with which modifications and deletions are made to the data after they are first produced"@en;
+        skos:notation          "SDN:V23::G17";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "MD_MaintenanceFrequencyCode"@en .
+
+<http://vocab.nerc.ac.uk/collection/V23/current/G03/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:V23::G03";
+        dc:date                "2012-07-27 14:24:55.0";
+        dc:identifier          "SDN:V23::G03";
+        pav:authoredOn         "2012-07-27 14:24:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/V23/current/G03/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Mode in which the data are represented"@en;
+        skos:notation          "SDN:V23::G03";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "CI_PresentationFormCode"@en .
+
+<http://vocab.nerc.ac.uk/collection/V23/current/G13/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:V23::G13";
+        dc:date                "2012-07-27 10:48:03.0";
+        dc:identifier          "SDN:V23::G13";
+        pav:authoredOn         "2012-07-27 10:48:03.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/V23/current/G13/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Name of the dimension"@en;
+        skos:notation          "SDN:V23::G13";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "MD_DimensionNameTypeCode"@en .
+
+<http://vocab.nerc.ac.uk/collection/V23/current/G02/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:V23::G02";
+        dc:date                "2020-02-04 21:28:04.0";
+        dc:identifier          "SDN:V23::G02";
+        pav:authoredOn         "2020-02-04 21:28:04.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/V23/current/G02/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/V23/current/G02/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "Function performed by the resource"@en;
+        skos:notation          "SDN:V23::G02";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "CI_OnLineFunctionCode"@en .
+
+<http://vocab.nerc.ac.uk/collection/V23/current/L19/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:V23::L19";
+        dc:date                "2012-07-27 14:31:09.0";
+        dc:identifier          "SDN:V23::L19";
+        pav:authoredOn         "2012-07-27 14:31:09.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/V23/current/L19/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Methods used to group similar keywords"@en;
+        skos:notation          "SDN:V23::L19";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "MD_KeywordTypeCode"@en .
+
+<http://vocab.nerc.ac.uk/collection/V23/current/G06/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:V23::G06";
+        dc:date                "2012-07-27 14:36:12.0";
+        dc:identifier          "SDN:V23::G06";
+        pav:authoredOn         "2012-07-27 14:36:12.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/V23/current/G06/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Justification for the correlation of two datasets"@en;
+        skos:notation          "SDN:V23::G06";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "DS_AssociationTypeCode"@en .
+
+<http://vocab.nerc.ac.uk/collection/V23/current/G15/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:V23::G15";
+        dc:date                "2012-07-27 14:31:51.0";
+        dc:identifier          "SDN:V23::G15";
+        pav:authoredOn         "2012-07-27 14:31:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/V23/current/G15/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Code which indicates conditions which may affect the image"@en;
+        skos:notation          "SDN:V23::G15";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "MD_ImagingConditionCode"@en .
+
+<http://vocab.nerc.ac.uk/collection/V23/current/G26/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:V23::G26";
+        dc:date                "2012-07-27 15:14:57.0";
+        dc:identifier          "SDN:V23::G26";
+        pav:authoredOn         "2012-07-27 15:14:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/V23/current/G26/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Method used to represent geographic information in the dataset"@en;
+        skos:notation          "SDN:V23::G26";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "MD_SpatialRepresentationTypeCode"@en .
+
+<http://vocab.nerc.ac.uk/collection/V23/current/G10/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:V23::G10";
+        dc:date                "2012-07-27 10:29:38.0";
+        dc:identifier          "SDN:V23::G10";
+        pav:authoredOn         "2012-07-27 10:29:38.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/V23/current/G10/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Name of the handling restrictions on the dataset"@en;
+        skos:notation          "SDN:V23::G10";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "MD_ClassificationCode"@en .
+
+<http://vocab.nerc.ac.uk/collection/V23/current/G01/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:V23::G01";
+        dc:date                "2012-07-27 10:58:04.0";
+        dc:identifier          "SDN:V23::G01";
+        pav:authoredOn         "2012-07-27 10:58:04.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/V23/current/G01/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Identification of when a given event occurred"@en;
+        skos:notation          "SDN:V23::G01";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "CI_DateTypeCode"@en .
+
+<http://vocab.nerc.ac.uk/collection/V23/current/G19/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:V23::G19";
+        dc:date                "2012-07-27 14:52:29.0";
+        dc:identifier          "SDN:V23::G19";
+        pav:authoredOn         "2012-07-27 14:52:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/V23/current/G19/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Name of the medium"@en;
+        skos:notation          "SDN:V23::G19";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "MD_MediumNameCode"@en .
+
+<http://vocab.nerc.ac.uk/collection/V23/current/G21/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:V23::G21";
+        dc:date                "2012-07-27 15:03:00.0";
+        dc:identifier          "SDN:V23::G21";
+        pav:authoredOn         "2012-07-27 15:03:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/V23/current/G21/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Point in a pixel corresponding to the Earth location of the pixel"@en;
+        skos:notation          "SDN:V23::G21";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "MD_PixelOrientationCode"@en .
+
+<http://vocab.nerc.ac.uk/collection/V23/current/L02/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:V23::L02";
+        dc:date                "2012-07-27 10:55:57.0";
+        dc:identifier          "SDN:V23::L02";
+        pav:authoredOn         "2012-07-27 10:55:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/V23/current/L02/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Name of point or vector objects used to locate zero-, one-, two-, or three-dimensional spatial locations in the dataset"@en;
+        skos:notation          "SDN:V23::L02";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "MD_GeometricObjectTypeCode"@en .
+
+<http://vocab.nerc.ac.uk/collection/V23/current/G20/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:V23::G20";
+        dc:date                "2012-07-27 15:02:11.0";
+        dc:identifier          "SDN:V23::G20";
+        pav:authoredOn         "2012-07-27 15:02:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/V23/current/G20/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Obligation of the element or entity"@en;
+        skos:notation          "SDN:V23::G20";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "MD_ObligationCode"@en .
+
+<http://vocab.nerc.ac.uk/collection/V23/current/G08/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:V23::G08";
+        dc:date                "2012-07-27 10:26:01.0";
+        dc:identifier          "SDN:V23::G08";
+        pav:authoredOn         "2012-07-27 10:26:01.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/V23/current/G08/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Code indicating whether grid data are points or area"@en;
+        skos:notation          "SDN:V23::G08";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "MD_CellGeometryCode"@en .
+
+<http://vocab.nerc.ac.uk/collection/V23/current/G09/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:V23::G09";
+        dc:date                "2012-07-27 10:27:31.0";
+        dc:identifier          "SDN:V23::G09";
+        pav:authoredOn         "2012-07-27 10:27:31.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/V23/current/G09/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Name of the character coding standard used in the resource"@en;
+        skos:notation          "SDN:V23::G09";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "MD_CharacterSetCode"@en .
+
+<http://vocab.nerc.ac.uk/collection/V23/current/G28/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:V23::G28";
+        dc:date                "2012-07-27 15:16:27.0";
+        dc:identifier          "SDN:V23::G28";
+        pav:authoredOn         "2012-07-27 15:16:27.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/V23/current/G28/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Degree of complexity of the spatial relationships"@en;
+        skos:notation          "SDN:V23::G28";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "MD_TopologyLevelCode"@en .
+
+<http://vocab.nerc.ac.uk/collection/V23/current/G12/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:V23::G12";
+        dc:date                "2012-07-27 10:32:12.0";
+        dc:identifier          "SDN:V23::G12";
+        pav:authoredOn         "2012-07-27 10:32:12.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/V23/current/G12/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Datatype of element or entity"@en;
+        skos:notation          "SDN:V23::G12";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "MD_DatatypeCode"@en .
+
+<http://vocab.nerc.ac.uk/collection/V23/current/G23/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:V23::G23";
+        dc:date                "2012-07-27 15:11:23.0";
+        dc:identifier          "SDN:V23::G23";
+        pav:authoredOn         "2012-07-27 15:11:23.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/V23/current/G23/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Limitation(s) placed upon the access or use of the data"@en;
+        skos:notation          "SDN:V23::G23";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "MD_RestrictionCode"@en .
+
+<http://vocab.nerc.ac.uk/collection/V23/current/L07/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:V23::L07";
+        dc:date                "2020-02-04 21:27:06.0";
+        dc:identifier          "SDN:V23::L07";
+        pav:authoredOn         "2020-02-04 21:27:06.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/V23/current/L07/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Function performed by the resource"@en;
+        skos:notation          "SDN:V23::L07";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "CI_OnLineFunctionCode"@en .
+
+<http://vocab.nerc.ac.uk/collection/V23/current/G07/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:V23::G07";
+        dc:date                "2012-07-27 14:36:45.0";
+        dc:identifier          "SDN:V23::G07";
+        pav:authoredOn         "2012-07-27 14:36:45.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/V23/current/G07/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Type of aggregation activity in which datasets are related"@en;
+        skos:notation          "SDN:V23::G07";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "DS_InitiativeTypeCode"@en .
+
+<http://vocab.nerc.ac.uk/collection/V23/current/G25/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:V23::G25";
+        dc:date                "2012-07-27 15:14:29.0";
+        dc:identifier          "SDN:V23::G25";
+        pav:authoredOn         "2012-07-27 15:14:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/V23/current/G25/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Class of information to which the referencing entity applies"@en;
+        skos:notation          "SDN:V23::G25";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "MD_ScopeCode"@en .
+
+<http://vocab.nerc.ac.uk/collection/V23/current/G18/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:V23::G18";
+        dc:date                "2012-07-27 14:38:10.0";
+        dc:identifier          "SDN:V23::G18";
+        pav:authoredOn         "2012-07-27 14:38:10.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/V23/current/G18/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Method used to write to the medium"@en;
+        skos:notation          "SDN:V23::G18";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "MD_MediumFormatCode"@en .
+
+<http://vocab.nerc.ac.uk/collection/V23/current/G04/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:V23::G04";
+        dc:date                "2012-07-27 14:34:51.0";
+        dc:identifier          "SDN:V23::G04";
+        pav:authoredOn         "2012-07-27 14:34:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/V23/current/G04/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Function performed by the responsible party"@en;
+        skos:notation          "SDN:V23::G04";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "CI_RoleCode"@en .
+
+<http://vocab.nerc.ac.uk/collection/V23/current/G29/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:V23::G29";
+        dc:date                "2012-07-27 15:17:00.0";
+        dc:identifier          "SDN:V23::G29";
+        pav:authoredOn         "2012-07-27 15:17:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/V23/current/G29/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Extension of MD_ScopeCode for the needs of GMX application schemas and in the context of a transfer"@en;
+        skos:notation          "SDN:V23::G29";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "MX_ScopeCode"@en .
+
+<http://vocab.nerc.ac.uk/collection/V23/current/G05/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:V23::G05";
+        dc:date                "2012-07-27 14:35:31.0";
+        dc:identifier          "SDN:V23::G05";
+        pav:authoredOn         "2012-07-27 14:35:31.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/V23/current/G05/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Type or method for evaluating an identified data quality measure"@en;
+        skos:notation          "SDN:V23::G05";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "DQ_EvaluationMethodTypeCode"@en .
+
+<http://vocab.nerc.ac.uk/collection/V23/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the EU SeaDataNet project implemented as consultation between BODC and the members of the SeaDataNet Technical Task Team";
+        dc:alternative          "SDN GMX ISO";
+        dc:creator              "SeaDataNet";
+        dc:date                 "2020-02-05 02:00:04.0";
+        dc:description          "Concept collections used within ISOTC211/19115 namespace of ISO Code List representations for ISO19139 encoding of SeaDataNet CDIs and CSRs";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "SeaDataNet GMX and imported ISO Code List collections";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "SeaDataNet";
+        owl:versionInfo         "3";
+        skos:altLabel           "SDN GMX ISO";
+        skos:member             <http://vocab.nerc.ac.uk/collection/V23/current/G11/> , <http://vocab.nerc.ac.uk/collection/V23/current/G22/> , <http://vocab.nerc.ac.uk/collection/V23/current/P05/> , <http://vocab.nerc.ac.uk/collection/V23/current/G17/> , <http://vocab.nerc.ac.uk/collection/V23/current/G03/> , <http://vocab.nerc.ac.uk/collection/V23/current/G13/> , <http://vocab.nerc.ac.uk/collection/V23/current/G02/> , <http://vocab.nerc.ac.uk/collection/V23/current/L19/> , <http://vocab.nerc.ac.uk/collection/V23/current/G06/> , <http://vocab.nerc.ac.uk/collection/V23/current/G15/> , <http://vocab.nerc.ac.uk/collection/V23/current/G26/> , <http://vocab.nerc.ac.uk/collection/V23/current/G10/> , <http://vocab.nerc.ac.uk/collection/V23/current/G01/> , <http://vocab.nerc.ac.uk/collection/V23/current/G19/> , <http://vocab.nerc.ac.uk/collection/V23/current/G21/> , <http://vocab.nerc.ac.uk/collection/V23/current/L02/> , <http://vocab.nerc.ac.uk/collection/V23/current/G20/> , <http://vocab.nerc.ac.uk/collection/V23/current/G08/> , <http://vocab.nerc.ac.uk/collection/V23/current/G09/> , <http://vocab.nerc.ac.uk/collection/V23/current/G28/> , <http://vocab.nerc.ac.uk/collection/V23/current/G12/> , <http://vocab.nerc.ac.uk/collection/V23/current/G23/> , <http://vocab.nerc.ac.uk/collection/V23/current/L07/> , <http://vocab.nerc.ac.uk/collection/V23/current/G07/> , <http://vocab.nerc.ac.uk/collection/V23/current/G25/> , <http://vocab.nerc.ac.uk/collection/V23/current/G18/> , <http://vocab.nerc.ac.uk/collection/V23/current/G04/> , <http://vocab.nerc.ac.uk/collection/V23/current/G05/> , <http://vocab.nerc.ac.uk/collection/V23/current/G29/>;
+        skos:prefLabel          "SeaDataNet GMX and imported ISO Code List collections" .

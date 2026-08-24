@@ -1,0 +1,89 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/B22/current/B22003/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B22::B22003";
+        dc:date                "2016-09-29 00:00:00.0";
+        dc:identifier          "SDN:B22::B22003";
+        pav:authoredOn         "2016-09-29 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B22/current/B22003/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "transboundary_initiatives";
+        skos:definition        "";
+        skos:notation          "SDN:B22::B22003";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Transboundary projects, databases and supporting information"@en .
+
+<http://vocab.nerc.ac.uk/collection/B22/current/B22002/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B22::B22002";
+        dc:date                "2016-09-29 00:00:00.0";
+        dc:identifier          "SDN:B22::B22002";
+        pav:authoredOn         "2016-09-29 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B22/current/B22002/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "statutory";
+        skos:definition        "";
+        skos:notation          "SDN:B22::B22002";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Statutory Transboundary Governance Mechanisms"@en .
+
+<http://vocab.nerc.ac.uk/collection/B22/current/B22001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B22::B22001";
+        dc:date                "2016-09-29 00:00:00.0";
+        dc:identifier          "SDN:B22::B22001";
+        pav:authoredOn         "2016-09-29 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B22/current/B22001/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "informal";
+        skos:definition        "";
+        skos:notation          "SDN:B22::B22001";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Informal Transboundary Forums"@en .
+
+<http://vocab.nerc.ac.uk/collection/B22/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used within the data centre";
+        dc:alternative          "cspgovernancemechanisms";
+        dc:creator              "British Oceanographic Data Centre";
+        dc:date                 "2016-09-30 02:00:02.0";
+        dc:description          "Terms used by the Celtic Seas Partnership to describe the transboundary nature of a project, programme or initiative.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Celtic Seas Partnership governance mechanisms";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "British Oceanographic Data Centre";
+        owl:versionInfo         "1";
+        skos:altLabel           "cspgovernancemechanisms";
+        skos:member             <http://vocab.nerc.ac.uk/collection/B22/current/B22003/> , <http://vocab.nerc.ac.uk/collection/B22/current/B22001/> , <http://vocab.nerc.ac.uk/collection/B22/current/B22002/>;
+        skos:prefLabel          "Celtic Seas Partnership governance mechanisms" .

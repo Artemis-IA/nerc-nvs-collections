@@ -1,0 +1,297 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/C00/current/GEBCO2601/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C00::GEBCO2601";
+        dc:date                "2026-06-24 09:37:41.0";
+        dc:identifier          "SDN:C00::GEBCO2601";
+        pav:authoredOn         "2026-06-24 09:37:41.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C00/current/GEBCO2601/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "GEBCO_26_20260423";
+        skos:definition        "Bathymetric depth set to the value for the 15-second by 15-second grid cell containing the series spatial coverage from the GEBCO_2026 gridded bathymetry finalised on 2026-04-23."@en;
+        skos:notation          "SDN:C00::GEBCO2601";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_26 grid version 20260423"@en .
+
+<http://vocab.nerc.ac.uk/collection/C00/current/GEBCO1901/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C00::GEBCO1901";
+        dc:date                "2019-05-15 15:17:46.0";
+        dc:identifier          "SDN:C00::GEBCO1901";
+        pav:authoredOn         "2019-05-15 15:17:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C00/current/GEBCO1901/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "GEBCO_19_20190326";
+        skos:definition        "Bathymetric depth set to the value for the 15-second by 15-second grid cell containing the series spatial coverage from the GEBCO_2019 gridded bathymetry finalised on 2019-03-26."@en;
+        skos:notation          "SDN:C00::GEBCO1901";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_19 grid version 20190326"@en .
+
+<http://vocab.nerc.ac.uk/collection/C00/current/BRIDGE/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C00::BRIDGE";
+        dc:date                "2013-04-23 10:22:29.0";
+        dc:identifier          "SDN:C00::BRIDGE";
+        pav:authoredOn         "2013-04-23 10:22:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C00/current/BRIDGE/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Bridge_log";
+        skos:definition        "Bathymetric depth was obtained from the value logged for the data collection activity by the ship's deck officers. This will be based on the bridge echosounder which may not be the same instrument used by the scientific party."@en;
+        skos:notation          "SDN:C00::BRIDGE";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Bridge log sheets"@en .
+
+<http://vocab.nerc.ac.uk/collection/C00/current/GEBCO2401/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C00::GEBCO2401";
+        dc:date                "2024-09-12 09:52:31.0";
+        dc:identifier          "SDN:C00::GEBCO2401";
+        pav:authoredOn         "2024-09-12 09:52:31.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C00/current/GEBCO2401/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "GEBCO_24_20240705";
+        skos:definition        "Bathymetric depth set to the value for the 15-second by 15-second grid cell containing the series spatial coverage from the GEBCO_2024 gridded bathymetry finalised on 2024-07-05"@en;
+        skos:notation          "SDN:C00::GEBCO2401";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_24 grid version 20240705"@en .
+
+<http://vocab.nerc.ac.uk/collection/C00/current/CHART/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C00::CHART";
+        dc:date                "2018-05-14 10:21:58.0";
+        dc:identifier          "SDN:C00::CHART";
+        pav:authoredOn         "2018-05-14 10:21:58.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C00/current/CHART/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C00/current/CHART/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "chart";
+        skos:definition        "Bathymetric depth was read by eye from a published bathymetric chart of the area (e.g. the UK Admiralty Charts used for navigation), using the series spatial coordinates or station position."@en;
+        skos:notation          "SDN:C00::CHART";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Bathymetric chart"@en .
+
+<http://vocab.nerc.ac.uk/collection/C00/current/GEBCO00/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C00::GEBCO00";
+        dc:date                "2013-04-23 11:38:23.0";
+        dc:identifier          "SDN:C00::GEBCO00";
+        pav:authoredOn         "2013-04-23 11:38:23.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C00/current/GEBCO00/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C00/current/GEBCO00/1/> , <http://vocab.nerc.ac.uk/collection/C00/current/GEBCO00/2/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "GEBCO_1-minute";
+        skos:definition        "Bathymetric depth set to the value for the one-minute by one-minute grid cell containing the series spatial coverage from the GEBCO one-minute gridded bathymetry."@en;
+        skos:notation          "SDN:C00::GEBCO00";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO one-minute grid"@en .
+
+<http://vocab.nerc.ac.uk/collection/C00/current/CTDDATA/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C00::CTDDATA";
+        dc:date                "2013-04-23 13:36:39.0";
+        dc:identifier          "SDN:C00::CTDDATA";
+        pav:authoredOn         "2013-04-23 13:36:39.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C00/current/CTDDATA/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C00/current/CTDDATA/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "CTD_data";
+        skos:definition        "Bathymetric depth was obtained from the depth below surface recorded by the CTD pressure sensor and the height above the bed obtained from the CTD package altimeter at the time of closest approach of the CTD package to the bed."@en;
+        skos:notation          "SDN:C00::CTDDATA";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "CTD data"@en .
+
+<http://vocab.nerc.ac.uk/collection/C00/current/GEBCO2501/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C00::GEBCO2501";
+        dc:date                "2026-02-13 16:57:31.0";
+        dc:identifier          "SDN:C00::GEBCO2501";
+        pav:authoredOn         "2026-02-13 16:57:31.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C00/current/GEBCO2501/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "GEBCO_25_20250804";
+        skos:definition        "Bathymetric depth set to the value for the 15-second by 15-second grid cell containing the series spatial coverage from the GEBCO_2025 gridded bathymetry finalised on 2025-08-04."@en;
+        skos:notation          "SDN:C00::GEBCO2501";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_25 grid version 20250804"@en .
+
+<http://vocab.nerc.ac.uk/collection/C00/current/GEBCO1401/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C00::GEBCO1401";
+        dc:date                "2014-12-03 15:23:50.0";
+        dc:identifier          "SDN:C00::GEBCO1401";
+        pav:authoredOn         "2014-12-03 15:23:50.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C00/current/GEBCO1401/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "GEBCO_14_20141103";
+        skos:definition        "Bathymetric depth set to the value for the 30-second by 30-second grid cell containing the series spatial coverage from the GEBCO_2014 gridded bathymetry finalised on 2014-11-03"@en;
+        skos:notation          "SDN:C00::GEBCO1401";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_14 grid version 20141103"@en .
+
+<http://vocab.nerc.ac.uk/collection/C00/current/CRREP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C00::CRREP";
+        dc:date                "2013-04-23 10:27:20.0";
+        dc:identifier          "SDN:C00::CRREP";
+        pav:authoredOn         "2013-04-23 10:27:20.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C00/current/CRREP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Cruise_report";
+        skos:definition        "Bathymetric depth was obtained from the value published in the cruise report for the data collection activity."@en;
+        skos:notation          "SDN:C00::CRREP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Cruise report"@en .
+
+<http://vocab.nerc.ac.uk/collection/C00/current/GEBCO0801/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C00::GEBCO0801";
+        dc:date                "2013-04-23 10:14:26.0";
+        dc:identifier          "SDN:C00::GEBCO0801";
+        pav:authoredOn         "2013-04-23 10:14:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C00/current/GEBCO0801/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "GEBCO_08_20100927";
+        skos:definition        "Bathymetric depth set to the value for the 30-second by 30-second grid cell containing the series spatial coverage from the GEBCO-08 gridded bathymetry published on 2010-09-27."@en;
+        skos:notation          "SDN:C00::GEBCO0801";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GEBCO_08 grid version 20100927"@en .
+
+<http://vocab.nerc.ac.uk/collection/C00/current/DATAHEAD/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C00::DATAHEAD";
+        dc:date                "2013-04-23 10:30:15.0";
+        dc:identifier          "SDN:C00::DATAHEAD";
+        pav:authoredOn         "2013-04-23 10:30:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C00/current/DATAHEAD/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Data_header";
+        skos:definition        "Bathymetric depth was obtained from the value included as usage metadata in the header of the source file for the series."@en;
+        skos:notation          "SDN:C00::DATAHEAD";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Usage metadata in data header"@en .
+
+<http://vocab.nerc.ac.uk/collection/C00/current/BUDS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C00::BUDS";
+        dc:date                "2013-04-24 15:16:56.0";
+        dc:identifier          "SDN:C00::BUDS";
+        pav:authoredOn         "2013-04-24 15:16:56.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C00/current/BUDS/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C00/current/BUDS/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "BUDS";
+        skos:definition        "Bathymetric depth was obtained from shipboard echosounder data processed by BODC using the BUDS underway data system. The acceptable depth value located closest to the series position (providing separation distance is reasonable) is taken."@en;
+        skos:notation          "SDN:C00::BUDS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "BUDS object"@en .
+
+<http://vocab.nerc.ac.uk/collection/C00/current/SCILOG/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C00::SCILOG";
+        dc:date                "2013-04-23 10:24:43.0";
+        dc:identifier          "SDN:C00::SCILOG";
+        pav:authoredOn         "2013-04-23 10:24:43.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C00/current/SCILOG/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Science_log";
+        skos:definition        "Bathymetric depth was obtained from the value logged for the data collection activity by the scientific party. This is generally a spot reading at some stage during the activity taken from the scientific echo sounder."@en;
+        skos:notation          "SDN:C00::SCILOG";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Scientific log sheets"@en .
+
+<http://vocab.nerc.ac.uk/collection/C00/current/PEVENT/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C00::PEVENT";
+        dc:date                "2013-05-07 11:36:41.0";
+        dc:identifier          "SDN:C00::PEVENT";
+        pav:authoredOn         "2013-05-07 11:36:41.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C00/current/PEVENT/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Avg_Uway";
+        skos:definition        "Bathymetric depth was obtained by averaging underway echo-sounder data over the duration of the data collection event. EVENT water depths obtained using PEVENT and subsequently ported to ZESH (e.g. CTD migration) are obtained in this way."@en;
+        skos:notation          "SDN:C00::PEVENT";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Averaged underway bathymetry"@en .
+
+<http://vocab.nerc.ac.uk/collection/C00/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used within the data centre";
+        dc:alternative          "BODC water depth sources";
+        dc:creator              "British Oceanographic Data Centre";
+        dc:date                 "2026-06-25 03:00:01.0";
+        dc:description          "Terms used to describe the provenance of a water depth included in BODC metadata";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "BODC Seafloor Depth Data Sources";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "British Oceanographic Data Centre";
+        owl:versionInfo         "11";
+        skos:altLabel           "BODC water depth sources";
+        skos:member             <http://vocab.nerc.ac.uk/collection/C00/current/GEBCO2601/> , <http://vocab.nerc.ac.uk/collection/C00/current/GEBCO1901/> , <http://vocab.nerc.ac.uk/collection/C00/current/BRIDGE/> , <http://vocab.nerc.ac.uk/collection/C00/current/GEBCO2401/> , <http://vocab.nerc.ac.uk/collection/C00/current/CHART/> , <http://vocab.nerc.ac.uk/collection/C00/current/GEBCO00/> , <http://vocab.nerc.ac.uk/collection/C00/current/CTDDATA/> , <http://vocab.nerc.ac.uk/collection/C00/current/GEBCO2501/> , <http://vocab.nerc.ac.uk/collection/C00/current/GEBCO1401/> , <http://vocab.nerc.ac.uk/collection/C00/current/CRREP/> , <http://vocab.nerc.ac.uk/collection/C00/current/GEBCO0801/> , <http://vocab.nerc.ac.uk/collection/C00/current/DATAHEAD/> , <http://vocab.nerc.ac.uk/collection/C00/current/BUDS/> , <http://vocab.nerc.ac.uk/collection/C00/current/PEVENT/> , <http://vocab.nerc.ac.uk/collection/C00/current/SCILOG/>;
+        skos:prefLabel          "BODC Seafloor Depth Data Sources" .

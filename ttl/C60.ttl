@@ -1,0 +1,681 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/C60/current/HST/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::HST";
+        dc:date                "2021-06-30 11:46:44.0";
+        dc:identifier          "SDN:C60::HST";
+        pav:authoredOn         "2021-06-30 11:46:44.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/HST/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             puv:statistic;
+        owl:versionInfo        "1";
+        skos:altLabel          "hasStatisticModifier";
+        skos:definition        "Parameter Usage Vocabulary ontology property used to link a variable identifier, label or description to a statistical modifier if applicable."@en;
+        skos:notation          "SDN:C60::HST";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "puv#statistic"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/EAR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::EAR";
+        dc:date                "2007-10-25 14:49:59.0";
+        dc:identifier          "SDN:C60::EAR";
+        pav:authoredOn         "2007-10-25 14:49:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/EAR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "earlierVersionOf";
+        skos:definition        "The subject is an earlier version of the object"@en;
+        skos:notation          "SDN:C60::EAR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "earlier-version-of"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/MIN/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::MIN";
+        dc:date                "2007-02-15 08:16:44.0";
+        dc:identifier          "SDN:C60::MIN";
+        pav:authoredOn         "2007-02-15 08:16:44.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/MIN/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             skos:related;
+        owl:versionInfo        "1";
+        skos:altLabel          "minorMatch";
+        skos:definition        "The set of resources properly indexed against the predicate shares between 0 and 50 per cent of its members with the set of resources properly indexed against the object. SKOS mapping vocabulary term."@en;
+        skos:notation          "SDN:C60::MIN";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "has-minor-match"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/DER/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::DER";
+        dc:date                "2007-10-25 14:49:59.0";
+        dc:identifier          "SDN:C60::DER";
+        pav:authoredOn         "2007-10-25 14:49:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/DER/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "derivedVersionOf";
+        skos:definition        "The subject has been derived from the object in some way"@en;
+        skos:notation          "SDN:C60::DER";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "derived-version-of"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/MAJ/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::MAJ";
+        dc:date                "2007-02-15 08:47:28.0";
+        dc:identifier          "SDN:C60::MAJ";
+        pav:authoredOn         "2007-02-15 08:47:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/MAJ/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C60/current/MAJ/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "majorMatch";
+        skos:definition        "The set of resources properly indexed against the predicate shares more than 50 per cent of its members with the set of resources properly indexed against the object. SKOS mapping vocabulary term."@en;
+        skos:notation          "SDN:C60::MAJ";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "has-major-match"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/SUC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::SUC";
+        dc:date                "2008-09-08 16:24:10.0";
+        dc:identifier          "SDN:C60::SUC";
+        pav:authoredOn         "2008-09-08 16:24:10.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/SUC/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C60/current/SUC/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "successorTo";
+        skos:definition        "The subject is an activity inheriting attributes from the object whose start depends on the finish of the object"@en;
+        skos:notation          "SDN:C60::SUC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "successor-to"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/COM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::COM";
+        dc:date                "2008-03-12 09:13:05.0";
+        dc:identifier          "SDN:C60::COM";
+        pav:authoredOn         "2008-03-12 09:13:05.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/COM/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C60/current/COM/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "componentOf";
+        skos:definition        "The subject formed a constituent component of the object (although the subject may exist in its own right, in this case, it was deployed as part of the object)."@en;
+        skos:notation          "SDN:C60::COM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "component-of"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/IHC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::IHC";
+        dc:date                "2022-03-23 12:33:00.0";
+        dc:identifier          "SDN:C60::IHC";
+        pav:authoredOn         "2022-03-23 12:33:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/IHC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             iop:hasConstraint;
+        owl:versionInfo        "1";
+        skos:altLabel          "hasConstraint";
+        skos:definition        "I-ADOPT framework ontology property linking the variable to a constraint component."@en;
+        skos:notation          "SDN:C60::IHC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "iop#hasConstraint"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/INC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::INC";
+        dc:date                "2008-05-02 08:11:42.0";
+        dc:identifier          "SDN:C60::INC";
+        pav:authoredOn         "2008-05-02 08:11:42.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/INC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "includes";
+        skos:definition        "The subject is made up in part by the object"@en;
+        skos:notation          "SDN:C60::INC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "includes"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/CMP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::CMP";
+        dc:date                "2008-09-08 16:09:14.0";
+        dc:identifier          "SDN:C60::CMP";
+        pav:authoredOn         "2008-09-08 16:09:14.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/CMP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "complements";
+        skos:definition        "The subject shares enough attributes with the object that it is probable both will be of equal interest to a user or customer"@en;
+        skos:notation          "SDN:C60::CMP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "complements"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/IAO/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::IAO";
+        dc:date                "2023-06-26 15:19:40.0";
+        dc:identifier          "SDN:C60::IAO";
+        pav:authoredOn         "2023-06-26 15:19:40.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/IAO/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             iop:hasApplicableObjectOfInterest;
+        owl:versionInfo        "1";
+        skos:altLabel          "hasApplicableObjectOfInterest";
+        skos:definition        "I-ADOPT ontology object property linking a VariableSet to one or more applicable ObjectOfInterest."@en;
+        skos:notation          "SDN:C60::IAO";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "iop#hasApplicableObjectOfInterest"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/DBY/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::DBY";
+        dc:date                "2007-10-25 15:26:49.0";
+        dc:identifier          "SDN:C60::DBY";
+        pav:authoredOn         "2007-10-25 15:26:49.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/DBY/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C60/current/DBY/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "describedBy";
+        skos:definition        "An important attribute of the subject  is specified by the object."@en;
+        skos:notation          "SDN:C60::DBY";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "described_by"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/HUN/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::HUN";
+        dc:date                "2008-03-07 11:51:58.0";
+        dc:identifier          "SDN:C60::HUN";
+        pav:authoredOn         "2008-03-07 11:51:58.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/HUN/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "hasUnits";
+        skos:definition        "The subject phenomenon may be stored in the object units."@en;
+        skos:notation          "SDN:C60::HUN";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "has-units-of"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/IAM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::IAM";
+        dc:date                "2023-06-26 15:19:43.0";
+        dc:identifier          "SDN:C60::IAM";
+        pav:authoredOn         "2023-06-26 15:19:43.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/IAM/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             iop:hasApplicableMatrix;
+        owl:versionInfo        "1";
+        skos:altLabel          "hasApplicableMatrix";
+        skos:definition        "I-ADOPT ontology object property linking a VariableSet to one or more applicable Matrix."@en;
+        skos:notation          "SDN:C60::IAM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "iop#hasApplicableMatrix"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/IHM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::IHM";
+        dc:date                "2022-03-23 12:32:42.0";
+        dc:identifier          "SDN:C60::IHM";
+        pav:authoredOn         "2022-03-23 12:32:42.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/IHM/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             iop:hasMatrix;
+        owl:versionInfo        "1";
+        skos:altLabel          "hasMatrix";
+        skos:definition        "I-ADOPT framework ontology property linking the variable to a matrix entity."@en;
+        skos:notation          "SDN:C60::IHM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "iop#hasMatrix"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/SCM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::SCM";
+        dc:date                "2007-10-25 14:49:59.0";
+        dc:identifier          "SDN:C60::SCM";
+        pav:authoredOn         "2007-10-25 14:49:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/SCM/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "subcomponentOf";
+        skos:definition        "The subject forms a constituent component of the object (and cannot exist independently of the object)."@en;
+        skos:notation          "SDN:C60::SCM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "subcomponent-of"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/BRD/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::BRD";
+        dc:date                "2007-02-15 08:36:11.0";
+        dc:identifier          "SDN:C60::BRD";
+        pav:authoredOn         "2007-02-15 08:36:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/BRD/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C60/current/BRD/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             skos:narrower;
+        owl:versionInfo        "2";
+        skos:altLabel          "narrowMatch";
+        skos:definition        "The set of resources properly indexed against the predicate is a superset of the set of resources properly indexed against the object. SKOS mapping vocabulary term conceptually the same as 'broader than'."@en;
+        skos:notation          "SDN:C60::BRD";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "has-narrow-match"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/ICO/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::ICO";
+        dc:date                "2022-03-23 12:32:51.0";
+        dc:identifier          "SDN:C60::ICO";
+        pav:authoredOn         "2022-03-23 12:32:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/ICO/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             iop:hasContextObject;
+        owl:versionInfo        "1";
+        skos:altLabel          "hasContextObject";
+        skos:definition        "I-ADOPT framework ontology property linking the variable to a context object."@en;
+        skos:notation          "SDN:C60::ICO";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "iop#hasContextObject"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/SYN/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::SYN";
+        dc:date                "2007-02-15 08:33:49.0";
+        dc:identifier          "SDN:C60::SYN";
+        pav:authoredOn         "2007-02-15 08:33:49.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/SYN/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C60/current/SYN/1/> , <http://vocab.nerc.ac.uk/collection/C60/current/SYN/2/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             owl:sameAs;
+        owl:versionInfo        "3";
+        skos:altLabel          "exactMatch";
+        skos:definition        "The set of resources properly indexed against the predicate is identical to the set of resources properly indexed against the object. SKOS mapping vocabulary term."@en;
+        skos:notation          "SDN:C60::SYN";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "has-exact-match"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/HMX/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::HMX";
+        dc:date                "2021-06-30 11:50:09.0";
+        dc:identifier          "SDN:C60::HMX";
+        pav:authoredOn         "2021-06-30 11:50:09.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/HMX/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             puv:matrix;
+        owl:versionInfo        "1";
+        skos:altLabel          "hasMatrix";
+        skos:definition        "Parameter Usage Vocabulary ontology property used to link a variable identifier, label or description to a matrix when applicable."@en;
+        skos:notation          "SDN:C60::HMX";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "puv#matrix"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/SIM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::SIM";
+        dc:date                "2007-10-25 14:49:59.0";
+        dc:identifier          "SDN:C60::SIM";
+        pav:authoredOn         "2007-10-25 14:49:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/SIM/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             skos:closeMatch;
+        owl:versionInfo        "1";
+        skos:altLabel          "similarTo";
+        skos:definition        "The subject and the object share major characteristics"@en;
+        skos:notation          "SDN:C60::SIM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "similar-to"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/HPP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::HPP";
+        dc:date                "2021-06-30 11:44:21.0";
+        dc:identifier          "SDN:C60::HPP";
+        pav:authoredOn         "2021-06-30 11:44:21.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/HPP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             puv:property;
+        owl:versionInfo        "1";
+        skos:altLabel          "hasProperty";
+        skos:definition        "Parameter Usage Vocabulary ontology property used to link a variable identifier, label or description to the property or attribute that is being measured, which must be associated with either an object of interest or a matrix or both."@en;
+        skos:notation          "SDN:C60::HPP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "puv#property"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/IAP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::IAP";
+        dc:date                "2023-06-26 15:19:37.0";
+        dc:identifier          "SDN:C60::IAP";
+        pav:authoredOn         "2023-06-26 15:19:37.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/IAP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             iop:hasApplicableProperty;
+        owl:versionInfo        "1";
+        skos:altLabel          "hasApplicableProperty";
+        skos:definition        "I-ADOPT ontology object property linking a VariableSet to one or more applicable Property."@en;
+        skos:notation          "SDN:C60::IAP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "iop#hasApplicableProperty"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/IHO/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::IHO";
+        dc:date                "2022-03-23 12:32:27.0";
+        dc:identifier          "SDN:C60::IHO";
+        pav:authoredOn         "2022-03-23 12:32:27.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/IHO/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             iop:hasObjectOfInterest;
+        owl:versionInfo        "1";
+        skos:altLabel          "hasObjectOfInterest";
+        skos:definition        "I-ADOPT framework ontology property linking the variable to its object of interest."@en;
+        skos:notation          "SDN:C60::IHO";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "iop#hasObjectOfInterest"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/TYP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::TYP";
+        dc:date                "2022-07-14 10:30:04.0";
+        dc:identifier          "SDN:C60::TYP";
+        pav:authoredOn         "2022-07-14 10:30:04.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/TYP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             rdf:type;
+        owl:versionInfo        "1";
+        skos:altLabel          "type";
+        skos:definition        "rdf:type is an instance of rdf:Property that is used to state that a resource is an instance of a class."@en;
+        skos:notation          "SDN:C60::TYP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "rdf#type"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/QTK/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::QTK";
+        dc:date                "2025-12-02 10:41:33.0";
+        dc:identifier          "SDN:C60::QTK";
+        pav:authoredOn         "2025-12-02 10:41:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/QTK/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C60/current/QTK/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             qudt:hasQuantityKind;
+        owl:versionInfo        "2";
+        skos:altLabel          "quantitykind";
+        skos:definition        "Property from the QUDT ontology."@en;
+        skos:notation          "SDN:C60::QTK";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "qudt#hasQuantityKind"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/CAM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::CAM";
+        dc:date                "2007-10-25 14:49:59.0";
+        dc:identifier          "SDN:C60::CAM";
+        pav:authoredOn         "2007-10-25 14:49:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/CAM/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "activityOf";
+        skos:definition        "The subject was an activity within the object"@en;
+        skos:notation          "SDN:C60::CAM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "activity-of"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/IAC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::IAC";
+        dc:date                "2023-06-26 15:19:45.0";
+        dc:identifier          "SDN:C60::IAC";
+        pav:authoredOn         "2023-06-26 15:19:45.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/IAC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             iop:hasApplicableContextObject;
+        owl:versionInfo        "1";
+        skos:altLabel          "hasApplicableContextObject";
+        skos:definition        "I-ADOPT ontology object property linking a VariableSet to one or more applicable ContextObject."@en;
+        skos:notation          "SDN:C60::IAC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "iop#hasApplicableContextObject"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/HCO/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::HCO";
+        dc:date                "2021-07-06 16:21:53.0";
+        dc:identifier          "SDN:C60::HCO";
+        pav:authoredOn         "2021-07-06 16:21:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/HCO/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             puv:chemicalObject;
+        owl:versionInfo        "1";
+        skos:altLabel          "hasChemicalObject";
+        skos:definition        "Parameter Usage Vocabulary ontology property that is used to link a variable identifier, label or description to its chemical object of interest when applicable."@en;
+        skos:notation          "SDN:C60::HCO";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "puv#chemicalObject"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/PRE/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::PRE";
+        dc:date                "2008-09-08 16:24:37.0";
+        dc:identifier          "SDN:C60::PRE";
+        pav:authoredOn         "2008-09-08 16:24:37.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/PRE/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "predecessorOf";
+        skos:definition        "The subject is an activity passing attributes to the object whose finish is required for the object to start"@en;
+        skos:notation          "SDN:C60::PRE";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "predecessor-of"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/INV/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::INV";
+        dc:date                "2007-10-25 15:27:41.0";
+        dc:identifier          "SDN:C60::INV";
+        pav:authoredOn         "2007-10-25 15:27:41.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/INV/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C60/current/INV/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "inverse";
+        skos:definition        "The subject has precisely the opposite meaning to the object."@en;
+        skos:notation          "SDN:C60::INV";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "inverse"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/NAR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::NAR";
+        dc:date                "2007-02-15 08:20:49.0";
+        dc:identifier          "SDN:C60::NAR";
+        pav:authoredOn         "2007-02-15 08:20:49.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/NAR/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C60/current/NAR/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             skos:broader;
+        owl:versionInfo        "2";
+        skos:altLabel          "broadMatch";
+        skos:definition        "The set of resources properly indexed against the predicate is a subset of the set of resources properly indexed against the object. SKOS mapping vocabulary term conceptually the same as 'narrower than'"@en;
+        skos:notation          "SDN:C60::NAR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "has-broad-match"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/DSC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::DSC";
+        dc:date                "2007-10-25 15:27:06.0";
+        dc:identifier          "SDN:C60::DSC";
+        pav:authoredOn         "2007-10-25 15:27:06.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/DSC/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C60/current/DSC/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "describes";
+        skos:definition        "The subject is an important descriptive attribute of the object."@en;
+        skos:notation          "SDN:C60::DSC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "describes"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/BUN/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::BUN";
+        dc:date                "2008-03-07 11:50:46.0";
+        dc:identifier          "SDN:C60::BUN";
+        pav:authoredOn         "2008-03-07 11:50:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/BUN/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C60/current/BUN/1/> , <http://vocab.nerc.ac.uk/collection/C60/current/BUN/2/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "unitsOf";
+        skos:definition        "The subject describes the measurement unit in which a measured values of the phenomenon described by the object term is stored."@en;
+        skos:notation          "SDN:C60::BUN";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "is-units-of"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/IHP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::IHP";
+        dc:date                "2022-03-23 12:32:07.0";
+        dc:identifier          "SDN:C60::IHP";
+        pav:authoredOn         "2022-03-23 12:32:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/IHP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             iop:hasProperty;
+        owl:versionInfo        "1";
+        skos:altLabel          "hasProperty";
+        skos:definition        "I-ADOPT framework ontology property linking the variable to its property component."@en;
+        skos:notation          "SDN:C60::IHP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "iop#hasProperty"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/VAR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C60::VAR";
+        dc:date                "2007-10-25 14:49:59.0";
+        dc:identifier          "SDN:C60::VAR";
+        pav:authoredOn         "2007-10-25 14:49:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C60/current/VAR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "variantOf";
+        skos:definition        "The subject is a variant of the object (the subject and object share the same attributes, but the values/settings of the attributes may differ)"@en;
+        skos:notation          "SDN:C60::VAR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "variant-of"@en .
+
+<http://vocab.nerc.ac.uk/collection/C60/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used within the data centre";
+        dc:alternative          "NDG term relationships";
+        dc:creator              "British Oceanographic Data Centre";
+        dc:date                 "2025-12-03 02:00:00.0";
+        dc:description          "Terms used in the NDG project to describe the relationship between subjects and objects in RDF triples, including vocabulary term mappings.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "NERC DataGrid vocabulary term relationships";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "British Oceanographic Data Centre";
+        owl:versionInfo         "13";
+        skos:altLabel           "NDG term relationships";
+        skos:member             <http://vocab.nerc.ac.uk/collection/C60/current/HST/> , <http://vocab.nerc.ac.uk/collection/C60/current/EAR/> , <http://vocab.nerc.ac.uk/collection/C60/current/MIN/> , <http://vocab.nerc.ac.uk/collection/C60/current/DER/> , <http://vocab.nerc.ac.uk/collection/C60/current/MAJ/> , <http://vocab.nerc.ac.uk/collection/C60/current/SUC/> , <http://vocab.nerc.ac.uk/collection/C60/current/COM/> , <http://vocab.nerc.ac.uk/collection/C60/current/IHC/> , <http://vocab.nerc.ac.uk/collection/C60/current/INC/> , <http://vocab.nerc.ac.uk/collection/C60/current/CMP/> , <http://vocab.nerc.ac.uk/collection/C60/current/IAO/> , <http://vocab.nerc.ac.uk/collection/C60/current/DBY/> , <http://vocab.nerc.ac.uk/collection/C60/current/HUN/> , <http://vocab.nerc.ac.uk/collection/C60/current/IAM/> , <http://vocab.nerc.ac.uk/collection/C60/current/IHM/> , <http://vocab.nerc.ac.uk/collection/C60/current/SCM/> , <http://vocab.nerc.ac.uk/collection/C60/current/BRD/> , <http://vocab.nerc.ac.uk/collection/C60/current/ICO/> , <http://vocab.nerc.ac.uk/collection/C60/current/SYN/> , <http://vocab.nerc.ac.uk/collection/C60/current/HMX/> , <http://vocab.nerc.ac.uk/collection/C60/current/SIM/> , <http://vocab.nerc.ac.uk/collection/C60/current/HPP/> , <http://vocab.nerc.ac.uk/collection/C60/current/IAP/> , <http://vocab.nerc.ac.uk/collection/C60/current/IHO/> , <http://vocab.nerc.ac.uk/collection/C60/current/TYP/> , <http://vocab.nerc.ac.uk/collection/C60/current/QTK/> , <http://vocab.nerc.ac.uk/collection/C60/current/CAM/> , <http://vocab.nerc.ac.uk/collection/C60/current/IAC/> , <http://vocab.nerc.ac.uk/collection/C60/current/HCO/> , <http://vocab.nerc.ac.uk/collection/C60/current/PRE/> , <http://vocab.nerc.ac.uk/collection/C60/current/INV/> , <http://vocab.nerc.ac.uk/collection/C60/current/NAR/> , <http://vocab.nerc.ac.uk/collection/C60/current/DSC/> , <http://vocab.nerc.ac.uk/collection/C60/current/BUN/> , <http://vocab.nerc.ac.uk/collection/C60/current/VAR/> , <http://vocab.nerc.ac.uk/collection/C60/current/IHP/>;
+        skos:prefLabel          "NERC DataGrid vocabulary term relationships" .

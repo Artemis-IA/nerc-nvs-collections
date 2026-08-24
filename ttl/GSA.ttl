@@ -1,0 +1,156 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/GSA/current/FLDS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GSA::FLDS";
+        dc:date                "2011-01-28 12:26:26.0";
+        dc:identifier          "SDN:GSA::FLDS";
+        pav:authoredOn         "2011-01-28 12:26:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GSA/current/FLDS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "FieldDataSingleFold";
+        skos:definition        "Single-fold seismic data ready to be processed. These should adhere to GeoSeas D4.5 deliverable specifications, but should not have undergone any processing algorithm  yet."@en;
+        skos:notation          "SDN:GSA::FLDS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Field data: single-fold continuous profile"@en .
+
+<http://vocab.nerc.ac.uk/collection/GSA/current/PRSS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GSA::PRSS";
+        dc:date                "2011-01-28 12:26:26.0";
+        dc:identifier          "SDN:GSA::PRSS";
+        pav:authoredOn         "2011-01-28 12:26:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GSA/current/PRSS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ProcSingleFold";
+        skos:definition        "Single-fold seismic data that have undergone processing as gain recovery, filtering, noise reduction, muting, wavelet processing."@en;
+        skos:notation          "SDN:GSA::PRSS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Processed: single-fold continuous profile"@en .
+
+<http://vocab.nerc.ac.uk/collection/GSA/current/OTHR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GSA::OTHR";
+        dc:date                "2011-01-28 12:26:26.0";
+        dc:identifier          "SDN:GSA::OTHR";
+        pav:authoredOn         "2011-01-28 12:26:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GSA/current/OTHR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Other";
+        skos:definition        "Seismic data that have undergone processing algorithms that do not fall within the other cases. Processing needs to be documented"@en;
+        skos:notation          "SDN:GSA::OTHR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Other"@en .
+
+<http://vocab.nerc.ac.uk/collection/GSA/current/STAK/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GSA::STAK";
+        dc:date                "2011-01-28 12:26:26.0";
+        dc:identifier          "SDN:GSA::STAK";
+        pav:authoredOn         "2011-01-28 12:26:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GSA/current/STAK/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Stacked";
+        skos:definition        "Processed mutli-fold seismic data that have undergone trace summation within CMP and therefore result in zero offset stacked sections."@en;
+        skos:notation          "SDN:GSA::STAK";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Stacked"@en .
+
+<http://vocab.nerc.ac.uk/collection/GSA/current/FLDM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GSA::FLDM";
+        dc:date                "2011-01-28 12:26:26.0";
+        dc:identifier          "SDN:GSA::FLDM";
+        pav:authoredOn         "2011-01-28 12:26:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GSA/current/FLDM/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "FieldDataMultiFold";
+        skos:definition        "Multi-fold seismic data ready to be processed. These should adhere to D4.5 specifications: mainly that they should already be demultiplexed and converted to SEG-Y format, but should not have undergone any processing algorithm  yet."@en;
+        skos:notation          "SDN:GSA::FLDM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Field data: multi-fold"@en .
+
+<http://vocab.nerc.ac.uk/collection/GSA/current/MIGR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GSA::MIGR";
+        dc:date                "2011-01-28 12:26:26.0";
+        dc:identifier          "SDN:GSA::MIGR";
+        pav:authoredOn         "2011-01-28 12:26:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GSA/current/MIGR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Migrated";
+        skos:definition        "Seismic data that have undergone a migration process to improve spatial resolution."@en;
+        skos:notation          "SDN:GSA::MIGR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Migrated"@en .
+
+<http://vocab.nerc.ac.uk/collection/GSA/current/PRSM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GSA::PRSM";
+        dc:date                "2011-01-28 12:26:26.0";
+        dc:identifier          "SDN:GSA::PRSM";
+        pav:authoredOn         "2011-01-28 12:26:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GSA/current/PRSM/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ProcessedMultiFold";
+        skos:definition        "Multi-fold seismic data that have undergone processing as gain recovery, filtering, noise reduction, muting, wavelet processing, but should not have undergone stacking algorithm  yet."@en;
+        skos:notation          "SDN:GSA::PRSM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Processed: multi-fold"@en .
+
+<http://vocab.nerc.ac.uk/collection/GSA/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the EU Geo-Seas project implemented as consultation between BODC and a designated group of Geo-Seas project paticipants";
+        dc:alternative          "Seismic Data Products";
+        dc:creator              "Geo-Seas";
+        dc:date                 "2011-01-29 02:00:05.0";
+        dc:description          "Concepts that describe standard types of data product produced in the geophysical discipline of seismics";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Geo-Seas Seismic Data Product Types";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Geo-Seas";
+        owl:versionInfo         "1";
+        skos:altLabel           "Seismic Data Products";
+        skos:member             <http://vocab.nerc.ac.uk/collection/GSA/current/FLDS/> , <http://vocab.nerc.ac.uk/collection/GSA/current/PRSS/> , <http://vocab.nerc.ac.uk/collection/GSA/current/OTHR/> , <http://vocab.nerc.ac.uk/collection/GSA/current/STAK/> , <http://vocab.nerc.ac.uk/collection/GSA/current/PRSM/> , <http://vocab.nerc.ac.uk/collection/GSA/current/MIGR/> , <http://vocab.nerc.ac.uk/collection/GSA/current/FLDM/>;
+        skos:prefLabel          "Geo-Seas Seismic Data Product Types" .

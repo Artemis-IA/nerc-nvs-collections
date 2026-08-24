@@ -1,0 +1,377 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/G04/current/015/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G04::015";
+        dc:date                "2018-09-04 16:02:28.0";
+        dc:identifier          "SDN:G04::015";
+        pav:authoredOn         "2018-09-04 16:02:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G04/current/015/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Party who reviewed or modified the resource to improve the content"@en;
+        skos:notation          "SDN:G04::015";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "editor"@en .
+
+<http://vocab.nerc.ac.uk/collection/G04/current/020/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G04::020";
+        dc:date                "2018-09-04 16:02:28.0";
+        dc:identifier          "SDN:G04::020";
+        pav:authoredOn         "2018-09-04 16:02:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G04/current/020/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Party who has an interest in the resource or the use of the resource"@en;
+        skos:notation          "SDN:G04::020";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "stakeholder"@en .
+
+<http://vocab.nerc.ac.uk/collection/G04/current/012/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G04::012";
+        dc:date                "2018-09-04 16:02:28.0";
+        dc:identifier          "SDN:G04::012";
+        pav:authoredOn         "2018-09-04 16:02:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G04/current/012/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Party who speaks for the resource"@en;
+        skos:notation          "SDN:G04::012";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "sponsor"@en .
+
+<http://vocab.nerc.ac.uk/collection/G04/current/003/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G04::003";
+        dc:date                "2012-07-04 10:56:53.0";
+        dc:identifier          "SDN:G04::003";
+        pav:authoredOn         "2012-07-04 10:56:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G04/current/003/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Party that owns the resource"@en;
+        skos:notation          "SDN:G04::003";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "owner"@en .
+
+<http://vocab.nerc.ac.uk/collection/G04/current/007/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G04::007";
+        dc:date                "2012-07-04 10:56:53.0";
+        dc:identifier          "SDN:G04::007";
+        pav:authoredOn         "2012-07-04 10:56:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G04/current/007/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Party who can be contacted for acquiring knowledge about or acquisition of the resource"@en;
+        skos:notation          "SDN:G04::007";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "pointOfContact"@en .
+
+<http://vocab.nerc.ac.uk/collection/G04/current/010/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G04::010";
+        dc:date                "2012-07-04 10:56:53.0";
+        dc:identifier          "SDN:G04::010";
+        pav:authoredOn         "2012-07-04 10:56:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G04/current/010/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Party who published the resource"@en;
+        skos:notation          "SDN:G04::010";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "publisher"@en .
+
+<http://vocab.nerc.ac.uk/collection/G04/current/009/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G04::009";
+        dc:date                "2012-07-04 10:56:53.0";
+        dc:identifier          "SDN:G04::009";
+        pav:authoredOn         "2012-07-04 10:56:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G04/current/009/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Party that has processed the data in a manner such that the resource has been modified"@en;
+        skos:notation          "SDN:G04::009";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "processor"@en .
+
+<http://vocab.nerc.ac.uk/collection/G04/current/014/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G04::014";
+        dc:date                "2018-09-04 16:02:28.0";
+        dc:identifier          "SDN:G04::014";
+        pav:authoredOn         "2018-09-04 16:02:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G04/current/014/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Party who assists with the generation of the resource other than the principal investigator"@en;
+        skos:notation          "SDN:G04::014";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "collaborator"@en .
+
+<http://vocab.nerc.ac.uk/collection/G04/current/019/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G04::019";
+        dc:date                "2018-09-04 16:02:28.0";
+        dc:identifier          "SDN:G04::019";
+        pav:authoredOn         "2018-09-04 16:02:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G04/current/019/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Party providing monetary support for the resource"@en;
+        skos:notation          "SDN:G04::019";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "funder"@en .
+
+<http://vocab.nerc.ac.uk/collection/G04/current/002/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G04::002";
+        dc:date                "2012-07-04 10:56:53.0";
+        dc:identifier          "SDN:G04::002";
+        pav:authoredOn         "2012-07-04 10:56:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G04/current/002/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Party that accepts accountability and responsibility for the data, and ensures appropriate care and maintenance of the resource"@en;
+        skos:notation          "SDN:G04::002";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "custodian"@en .
+
+<http://vocab.nerc.ac.uk/collection/G04/current/004/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G04::004";
+        dc:date                "2012-07-04 10:56:53.0";
+        dc:identifier          "SDN:G04::004";
+        pav:authoredOn         "2012-07-04 10:56:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G04/current/004/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Party who uses the resource"@en;
+        skos:notation          "SDN:G04::004";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "user"@en .
+
+<http://vocab.nerc.ac.uk/collection/G04/current/013/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G04::013";
+        dc:date                "2018-09-04 16:02:28.0";
+        dc:identifier          "SDN:G04::013";
+        pav:authoredOn         "2018-09-04 16:02:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G04/current/013/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Party who jointly authors the resource"@en;
+        skos:notation          "SDN:G04::013";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "coAuthor"@en .
+
+<http://vocab.nerc.ac.uk/collection/G04/current/001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G04::001";
+        dc:date                "2012-07-04 10:56:53.0";
+        dc:identifier          "SDN:G04::001";
+        pav:authoredOn         "2012-07-04 10:56:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G04/current/001/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Party that supplies the resource"@en;
+        skos:notation          "SDN:G04::001";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "resourceProvider"@en .
+
+<http://vocab.nerc.ac.uk/collection/G04/current/005/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G04::005";
+        dc:date                "2012-07-04 10:56:53.0";
+        dc:identifier          "SDN:G04::005";
+        pav:authoredOn         "2012-07-04 10:56:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G04/current/005/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Party who distributes the resource"@en;
+        skos:notation          "SDN:G04::005";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "distributor"@en .
+
+<http://vocab.nerc.ac.uk/collection/G04/current/011/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G04::011";
+        dc:date                "2012-07-04 10:56:53.0";
+        dc:identifier          "SDN:G04::011";
+        pav:authoredOn         "2012-07-04 10:56:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G04/current/011/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Party who authored the resource"@en;
+        skos:notation          "SDN:G04::011";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "author"@en .
+
+<http://vocab.nerc.ac.uk/collection/G04/current/016/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G04::016";
+        dc:date                "2018-09-04 16:02:28.0";
+        dc:identifier          "SDN:G04::016";
+        pav:authoredOn         "2018-09-04 16:02:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G04/current/016/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A class of entity that mediates access to the resource and for whom the resource is intended or useful"@en;
+        skos:notation          "SDN:G04::016";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "mediator"@en .
+
+<http://vocab.nerc.ac.uk/collection/G04/current/006/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G04::006";
+        dc:date                "2012-07-04 10:56:53.0";
+        dc:identifier          "SDN:G04::006";
+        pav:authoredOn         "2012-07-04 10:56:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G04/current/006/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Party who created the resource"@en;
+        skos:notation          "SDN:G04::006";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "originator"@en .
+
+<http://vocab.nerc.ac.uk/collection/G04/current/017/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G04::017";
+        dc:date                "2018-09-04 16:02:28.0";
+        dc:identifier          "SDN:G04::017";
+        pav:authoredOn         "2018-09-04 16:02:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G04/current/017/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Party owning or managing rights over the resource"@en;
+        skos:notation          "SDN:G04::017";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "rightsHolder"@en .
+
+<http://vocab.nerc.ac.uk/collection/G04/current/008/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G04::008";
+        dc:date                "2012-07-04 10:56:53.0";
+        dc:identifier          "SDN:G04::008";
+        pav:authoredOn         "2012-07-04 10:56:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G04/current/008/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Key party responsible for gathering information and conducting research"@en;
+        skos:notation          "SDN:G04::008";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "principalInvestigator"@en .
+
+<http://vocab.nerc.ac.uk/collection/G04/current/018/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G04::018";
+        dc:date                "2018-09-04 16:02:28.0";
+        dc:identifier          "SDN:G04::018";
+        pav:authoredOn         "2018-09-04 16:02:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G04/current/018/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Party contributing to the resource"@en;
+        skos:notation          "SDN:G04::018";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "contributor"@en .
+
+<http://vocab.nerc.ac.uk/collection/G04/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "International governance for standards covering many domains within science and beyond.";
+        dc:alternative          "CI_RoleCode";
+        dc:creator              "International Organization for Standardization";
+        dc:date                 "2018-09-05 02:00:04.0";
+        dc:description          "Function performed by the responsible party";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "CI_RoleCode";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "International Organization for Standardization";
+        owl:versionInfo         "2";
+        skos:altLabel           "CI_RoleCode";
+        skos:member             <http://vocab.nerc.ac.uk/collection/G04/current/015/> , <http://vocab.nerc.ac.uk/collection/G04/current/020/> , <http://vocab.nerc.ac.uk/collection/G04/current/012/> , <http://vocab.nerc.ac.uk/collection/G04/current/003/> , <http://vocab.nerc.ac.uk/collection/G04/current/007/> , <http://vocab.nerc.ac.uk/collection/G04/current/010/> , <http://vocab.nerc.ac.uk/collection/G04/current/009/> , <http://vocab.nerc.ac.uk/collection/G04/current/014/> , <http://vocab.nerc.ac.uk/collection/G04/current/019/> , <http://vocab.nerc.ac.uk/collection/G04/current/002/> , <http://vocab.nerc.ac.uk/collection/G04/current/004/> , <http://vocab.nerc.ac.uk/collection/G04/current/013/> , <http://vocab.nerc.ac.uk/collection/G04/current/001/> , <http://vocab.nerc.ac.uk/collection/G04/current/005/> , <http://vocab.nerc.ac.uk/collection/G04/current/011/> , <http://vocab.nerc.ac.uk/collection/G04/current/016/> , <http://vocab.nerc.ac.uk/collection/G04/current/006/> , <http://vocab.nerc.ac.uk/collection/G04/current/018/> , <http://vocab.nerc.ac.uk/collection/G04/current/008/> , <http://vocab.nerc.ac.uk/collection/G04/current/017/>;
+        skos:prefLabel          "CI_RoleCode" .

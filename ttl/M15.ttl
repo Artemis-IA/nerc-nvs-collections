@@ -1,0 +1,146 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/M15/current/O/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M15::O";
+        dc:date                "2015-09-11 16:08:08.0";
+        dc:identifier          "SDN:M15::O";
+        pav:authoredOn         "2015-09-11 16:08:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M15/current/O/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Other physical pressures caused by human activity which lead to an impact on the marine environment"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/M14/current/O6/> , <http://vocab.nerc.ac.uk/collection/M14/current/O3/> , <http://vocab.nerc.ac.uk/collection/M14/current/O2/> , <http://vocab.nerc.ac.uk/collection/M14/current/O5/> , <http://vocab.nerc.ac.uk/collection/M14/current/O1/> , <http://vocab.nerc.ac.uk/collection/M14/current/O4/>;
+        skos:notation          "SDN:M15::O";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Other physical pressures"@en .
+
+<http://vocab.nerc.ac.uk/collection/M15/current/B/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M15::B";
+        dc:date                "2015-09-11 16:08:08.0";
+        dc:identifier          "SDN:M15::B";
+        pav:authoredOn         "2015-09-11 16:08:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M15/current/B/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Pressures on biota in the marine environment caused by human activities"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/M14/current/B3/> , <http://vocab.nerc.ac.uk/collection/M14/current/B5/> , <http://vocab.nerc.ac.uk/collection/M14/current/B2/> , <http://vocab.nerc.ac.uk/collection/M14/current/B6/> , <http://vocab.nerc.ac.uk/collection/M14/current/B4/> , <http://vocab.nerc.ac.uk/collection/M14/current/B1/>;
+        skos:notation          "SDN:M15::B";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Biological pressures"@en .
+
+<http://vocab.nerc.ac.uk/collection/M15/current/D/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M15::D";
+        dc:date                "2015-09-11 16:08:08.0";
+        dc:identifier          "SDN:M15::D";
+        pav:authoredOn         "2015-09-11 16:08:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M15/current/D/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Pressures caused by human activity which lead to reversible physical damage of the marine environment"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/M14/current/D2/> , <http://vocab.nerc.ac.uk/collection/M14/current/D1/> , <http://vocab.nerc.ac.uk/collection/M14/current/D3/> , <http://vocab.nerc.ac.uk/collection/M14/current/D4/>;
+        skos:notation          "SDN:M15::D";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Physical damage (reversible change)"@en .
+
+<http://vocab.nerc.ac.uk/collection/M15/current/P/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M15::P";
+        dc:date                "2015-09-11 16:08:08.0";
+        dc:identifier          "SDN:M15::P";
+        pav:authoredOn         "2015-09-11 16:08:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M15/current/P/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Pressures on the marine environment due to pollution and other chemical changes caused by human activity"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/M14/current/P2/> , <http://vocab.nerc.ac.uk/collection/M14/current/P8/> , <http://vocab.nerc.ac.uk/collection/M14/current/P5/> , <http://vocab.nerc.ac.uk/collection/M14/current/P4/> , <http://vocab.nerc.ac.uk/collection/M14/current/P1/> , <http://vocab.nerc.ac.uk/collection/M14/current/P7/> , <http://vocab.nerc.ac.uk/collection/M14/current/P3/> , <http://vocab.nerc.ac.uk/collection/M14/current/P6/>;
+        skos:notation          "SDN:M15::P";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Pollution and other chemical changes"@en .
+
+<http://vocab.nerc.ac.uk/collection/M15/current/L/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M15::L";
+        dc:date                "2015-09-11 16:08:08.0";
+        dc:identifier          "SDN:M15::L";
+        pav:authoredOn         "2015-09-11 16:08:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M15/current/L/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Pressures caused by human activity in the marine environment which lead to the permanent change or loss of marine habitats"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/M14/current/L2/> , <http://vocab.nerc.ac.uk/collection/M14/current/L1/>;
+        skos:notation          "SDN:M15::L";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Physical loss (permanent change)"@en .
+
+<http://vocab.nerc.ac.uk/collection/M15/current/H/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M15::H";
+        dc:date                "2025-01-06 09:56:19.0";
+        dc:identifier          "SDN:M15::H";
+        pav:authoredOn         "2025-01-06 09:56:19.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M15/current/H/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/M15/current/H/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "Pressures exerted on the marine environment by human activities that lead to inshore and/or local hydrological changes"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/M14/current/H1/> , <http://vocab.nerc.ac.uk/collection/M14/current/H3/> , <http://vocab.nerc.ac.uk/collection/M14/current/H5/> , <http://vocab.nerc.ac.uk/collection/M14/current/H2/> , <http://vocab.nerc.ac.uk/collection/M14/current/H4/>;
+        skos:notation          "SDN:M15::H";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Hydrological changes (inshore/local)"@en .
+
+<http://vocab.nerc.ac.uk/collection/M15/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in MEDIN data and metadata documents";
+        dc:alternative          "OSPAR marine environment pressure themes";
+        dc:creator              "MEDIN Standards Group";
+        dc:date                 "2025-01-07 02:00:00.0";
+        dc:description          "Themes under which defined pressures in M14 are categorised by the Convention for the Protection of the Marine Environment for the North-East Atlantic (OSPAR) International Correspondence Group on Cumulative Effects (ICG-C) and distributed by the Joint Nature Conservation Committee (JNCC) ";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "OSPAR list of themes of defined pressures on the marine environment";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "MEDIN Standards Group";
+        owl:versionInfo         "3";
+        skos:altLabel           "OSPAR marine environment pressure themes";
+        skos:member             <http://vocab.nerc.ac.uk/collection/M15/current/O/> , <http://vocab.nerc.ac.uk/collection/M15/current/B/> , <http://vocab.nerc.ac.uk/collection/M15/current/D/> , <http://vocab.nerc.ac.uk/collection/M15/current/H/> , <http://vocab.nerc.ac.uk/collection/M15/current/L/> , <http://vocab.nerc.ac.uk/collection/M15/current/P/>;
+        skos:prefLabel          "OSPAR list of themes of defined pressures on the marine environment" .

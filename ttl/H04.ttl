@@ -1,0 +1,426 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/H04/current/H0400007/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H04::H0400007";
+        dc:date                "2021-04-25 23:22:31.0";
+        dc:identifier          "SDN:H04::H0400007";
+        dc:isReplacedBy        <http://vocab.nerc.ac.uk/collection/H04/current/H0400009/>;
+        pav:authoredOn         "2021-04-25 23:22:31.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H04/current/H0400007/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/H04/current/H0400007/2/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400007/1/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "3";
+        skos:altLabel          "transparent";
+        skos:definition        "Color class TRANSPARENT for describing micro-litter items."@en;
+        skos:notation          "SDN:H04::H0400007";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "TRANSPARENT"@en .
+
+<http://vocab.nerc.ac.uk/collection/H04/current/H0400020/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H04::H0400020";
+        dc:date                "2021-09-01 21:48:20.0";
+        dc:identifier          "SDN:H04::H0400020";
+        pav:authoredOn         "2021-09-01 21:48:20.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H04/current/H0400020/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Color class defined by the Guidance on Monitoring of Marine Litter in European Seas (e.g. MSFD Technical Subgroup on Marine Litter, 2013) for describing micro-litter items of colour white."@en;
+        skos:notation          "SDN:H04::H0400020";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "WHITE"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H04/current/H0400009/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H04::H0400009";
+        dc:date                "2021-04-25 23:19:07.0";
+        dc:identifier          "SDN:H04::H0400009";
+        dc:replaces            <http://vocab.nerc.ac.uk/collection/H04/current/H0400007/>;
+        pav:authoredOn         "2021-04-25 23:19:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H04/current/H0400009/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Color class COLOURLESS for describing micro-litter items."@en;
+        skos:notation          "SDN:H04::H0400009";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "COLOURLESS"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITROPW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLS/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITROPS/> .
+
+<http://vocab.nerc.ac.uk/collection/H04/current/H0400004/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H04::H0400004";
+        dc:date                "2021-09-01 21:39:52.0";
+        dc:identifier          "SDN:H04::H0400004";
+        pav:authoredOn         "2021-09-01 21:39:52.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H04/current/H0400004/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/H04/current/H0400004/2/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400004/3/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400004/1/>;
+        pav:version            "4";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "4";
+        skos:altLabel          "white+cream";
+        skos:definition        "Color class defined by the Guidance on Monitoring of Marine Litter in European Seas (e.g. MSFD Technical Subgroup on Marine Litter, 2013) for describing micro-litter items of colour clear, white and cream."@en;
+        skos:notation          "SDN:H04::H0400004";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "WHITE/CREAM"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H04/current/H0400015/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H04::H0400015";
+        dc:date                "2021-09-01 21:48:20.0";
+        dc:identifier          "SDN:H04::H0400015";
+        pav:authoredOn         "2021-09-01 21:48:20.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H04/current/H0400015/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Color class defined by the Guidance on Monitoring of Marine Litter in European Seas (e.g. MSFD Technical Subgroup on Marine Litter, 2013) for describing micro-litter items of colour grey."@en;
+        skos:notation          "SDN:H04::H0400015";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GREY"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H04/current/H0400016/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H04::H0400016";
+        dc:date                "2021-09-01 21:48:20.0";
+        dc:identifier          "SDN:H04::H0400016";
+        pav:authoredOn         "2021-09-01 21:48:20.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H04/current/H0400016/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Color class defined by the Guidance on Monitoring of Marine Litter in European Seas (e.g. MSFD Technical Subgroup on Marine Litter, 2013) for describing micro-litter items of colour brown."@en;
+        skos:notation          "SDN:H04::H0400016";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "BROWN"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H04/current/H0400010/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H04::H0400010";
+        dc:date                "2021-06-21 16:23:15.0";
+        dc:identifier          "SDN:H04::H0400010";
+        pav:authoredOn         "2021-06-21 16:23:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H04/current/H0400010/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "others_BASEMAN";
+        skos:definition        "Color class defined in the JPI-Oceans BASEMAN project protocol (e.g. Frias et al, 2018) as including micro-litter items of colour other than black, blue, white, red, green, colourless/transparent, and multicolour. This category could therefore contain items that could be classified as yellow, orange, pink, purple, tan/brown, grey when data are reported using other protocols."@en;
+        skos:notation          "SDN:H04::H0400010";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "BASEMAN_OTHERS"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H04/current/H0400003/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H04::H0400003";
+        dc:date                "2021-09-01 21:39:52.0";
+        dc:identifier          "SDN:H04::H0400003";
+        pav:authoredOn         "2021-09-01 21:39:52.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H04/current/H0400003/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/H04/current/H0400003/2/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400003/1/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400003/3/>;
+        pav:version            "4";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "4";
+        skos:altLabel          "brown+tan";
+        skos:definition        "Color class defined in the EU Interreg 2 Seas IVa project MICRO protocol (e.g. Maes et al, 2017) as including micro-litter items of colour brown and tan."@en;
+        skos:notation          "SDN:H04::H0400003";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "BROWN/TAN"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H04/current/H0400021/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H04::H0400021";
+        dc:date                "2022-01-18 10:03:26.0";
+        dc:identifier          "SDN:H04::H0400021";
+        pav:authoredOn         "2022-01-18 10:03:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H04/current/H0400021/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Color class defined by the Guidelines for the monitoring and assessment of plastic litter and microplastics in the ocean (GESAMP, 2019) for describing micro-litter items of colour purple."@en;
+        skos:notation          "SDN:H04::H0400021";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "PURPLE"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H04/current/H0400019/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H04::H0400019";
+        dc:date                "2021-09-01 21:48:20.0";
+        dc:identifier          "SDN:H04::H0400019";
+        pav:authoredOn         "2021-09-01 21:48:20.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H04/current/H0400019/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Color class defined by the Guidance on Monitoring of Marine Litter in European Seas (e.g. MSFD Technical Subgroup on Marine Litter, 2013) for describing micro-litter items of colour tan."@en;
+        skos:notation          "SDN:H04::H0400019";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "TAN"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H04/current/H0400006/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H04::H0400006";
+        dc:date                "2021-09-01 21:39:52.0";
+        dc:identifier          "SDN:H04::H0400006";
+        pav:authoredOn         "2021-09-01 21:39:52.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H04/current/H0400006/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/H04/current/H0400006/1/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400006/2/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400006/3/>;
+        pav:version            "4";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "4";
+        skos:altLabel          "orange+pink+red";
+        skos:definition        "Color class defined in the EU Interreg 2 Seas IVa project MICRO protocol (e.g. Maes et al, 2017) as including micro-litter items of colour orange, pink and red."@en;
+        skos:notation          "SDN:H04::H0400006";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ORANGE/PINK/RED"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H04/current/H0400002/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H04::H0400002";
+        dc:date                "2021-09-01 21:39:52.0";
+        dc:identifier          "SDN:H04::H0400002";
+        pav:authoredOn         "2021-09-01 21:39:52.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H04/current/H0400002/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/H04/current/H0400002/2/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400002/1/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400002/3/>;
+        pav:version            "4";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "4";
+        skos:altLabel          "blue+green";
+        skos:definition        "Color class defined in the EU Interreg 2 Seas IVa project MICRO protocol (e.g. Maes et al, 2017) as including micro-litter items of colour blue and green."@en;
+        skos:notation          "SDN:H04::H0400002";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "BLUE/GREEN"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H04/current/H0400017/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H04::H0400017";
+        dc:date                "2021-09-01 21:48:20.0";
+        dc:identifier          "SDN:H04::H0400017";
+        pav:authoredOn         "2021-09-01 21:48:20.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H04/current/H0400017/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Color class defined by the Guidance on Monitoring of Marine Litter in European Seas (e.g. MSFD Technical Subgroup on Marine Litter, 2013) for describing micro-litter items of colour green."@en;
+        skos:notation          "SDN:H04::H0400017";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GREEN"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H04/current/H0400013/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H04::H0400013";
+        dc:date                "2021-09-01 21:48:20.0";
+        dc:identifier          "SDN:H04::H0400013";
+        pav:authoredOn         "2021-09-01 21:48:20.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H04/current/H0400013/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Color class defined by the Guidance on Monitoring of Marine Litter in European Seas (e.g. MSFD Technical Subgroup on Marine Litter, 2013) for describing micro-litter items of colour blue."@en;
+        skos:notation          "SDN:H04::H0400013";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "BLUE"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H04/current/H0400014/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H04::H0400014";
+        dc:date                "2021-09-01 21:48:20.0";
+        dc:identifier          "SDN:H04::H0400014";
+        pav:authoredOn         "2021-09-01 21:48:20.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H04/current/H0400014/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Color class defined by the Guidance on Monitoring of Marine Litter in European Seas (e.g. MSFD Technical Subgroup on Marine Litter, 2013) for describing micro-litter items of colour black."@en;
+        skos:notation          "SDN:H04::H0400014";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "BLACK"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H04/current/H0400005/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H04::H0400005";
+        dc:date                "2021-09-01 21:39:52.0";
+        dc:identifier          "SDN:H04::H0400005";
+        pav:authoredOn         "2021-09-01 21:39:52.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H04/current/H0400005/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/H04/current/H0400005/2/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400005/1/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400005/3/>;
+        pav:version            "4";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "4";
+        skos:altLabel          "yellow";
+        skos:definition        "Color class defined by the Guidance on Monitoring of Marine Litter in European Seas (e.g. MSFD Technical Subgroup on Marine Litter, 2013) for describing micro-litter items of colour yellow."@en;
+        skos:notation          "SDN:H04::H0400005";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "YELLOW"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H04/current/H0400001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H04::H0400001";
+        dc:date                "2021-09-01 21:39:52.0";
+        dc:identifier          "SDN:H04::H0400001";
+        pav:authoredOn         "2021-09-01 21:39:52.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H04/current/H0400001/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/H04/current/H0400001/1/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400001/3/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400001/2/>;
+        pav:version            "4";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "4";
+        skos:altLabel          "black+grey";
+        skos:definition        "Color class defined in the EU Interreg 2 Seas IVa project MICRO protocol (e.g. Maes et al, 2017) as including micro-litter items of colour black and grey."@en;
+        skos:notation          "SDN:H04::H0400001";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "BLACK/GREY"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H04/current/H0400018/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H04::H0400018";
+        dc:date                "2021-09-01 21:48:20.0";
+        dc:identifier          "SDN:H04::H0400018";
+        pav:authoredOn         "2021-09-01 21:48:20.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H04/current/H0400018/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Color class defined by the Guidance on Monitoring of Marine Litter in European Seas (e.g. MSFD Technical Subgroup on Marine Litter, 2013) for describing micro-litter items of colour pink."@en;
+        skos:notation          "SDN:H04::H0400018";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "PINK"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H04/current/H0400008/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H04::H0400008";
+        dc:date                "2021-09-01 21:39:52.0";
+        dc:identifier          "SDN:H04::H0400008";
+        pav:authoredOn         "2021-09-01 21:39:52.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H04/current/H0400008/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/H04/current/H0400008/2/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400008/1/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "multicolour";
+        skos:definition        "Color class defined by the Guidance on Monitoring of Marine Litter in European Seas (e.g. MSFD Technical Subgroup on Marine Litter, 2013) for describing multicolor micro-litter items."@en;
+        skos:notation          "SDN:H04::H0400008";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "MULTICOLOUR"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H04/current/H0400011/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H04::H0400011";
+        dc:date                "2021-09-01 21:48:20.0";
+        dc:identifier          "SDN:H04::H0400011";
+        pav:authoredOn         "2021-09-01 21:48:20.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H04/current/H0400011/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Color class defined by the Guidance on Monitoring of Marine Litter in European Seas (e.g. MSFD Technical Subgroup on Marine Litter, 2013) for describing micro-litter items of colour red."@en;
+        skos:notation          "SDN:H04::H0400011";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "RED"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H04/current/H0400012/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H04::H0400012";
+        dc:date                "2021-09-01 21:48:20.0";
+        dc:identifier          "SDN:H04::H0400012";
+        pav:authoredOn         "2021-09-01 21:48:20.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H04/current/H0400012/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Color class defined by the Guidance on Monitoring of Marine Litter in European Seas (e.g. MSFD Technical Subgroup on Marine Litter, 2013) for describing micro-litter items of colour orange."@en;
+        skos:notation          "SDN:H04::H0400012";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ORANGE"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITCOLS/> .
+
+<http://vocab.nerc.ac.uk/collection/H04/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "A European project consortium aimed at the creation of data products using chemical data amassed through SeaDataNet. The governance is loosely defined as the scientific expertise within the consortium with no formal processes defined.";
+        rdfs:seeAlso            <https://github.com/nvs-vocabs/H04>;
+        dc:alternative          "Microlitter_colour";
+        dc:creator              "EMODnet Chemistry Lot";
+        dc:date                 "2022-01-19 02:00:03.0";
+        dc:description          "Controlled vocabulary defining the terms that may be used for micro-litter particle colour classes in the EMODnet Chemistry data reporting system.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "EMODnet micro-litter colour classes";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "EMODnet Chemistry Lot";
+        owl:versionInfo         "7";
+        skos:altLabel           "Microlitter_colour";
+        skos:member             <http://vocab.nerc.ac.uk/collection/H04/current/H0400007/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400020/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400009/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400004/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400015/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400016/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400010/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400003/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400021/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400019/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400006/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400002/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400017/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400013/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400014/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400005/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400001/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400018/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400008/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400011/> , <http://vocab.nerc.ac.uk/collection/H04/current/H0400012/>;
+        skos:prefLabel          "EMODnet micro-litter colour classes" .

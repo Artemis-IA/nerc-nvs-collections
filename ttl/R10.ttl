@@ -1,0 +1,107 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/R10/current/BEIDOU/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R10::BEIDOU";
+        dc:date                "2026-02-25 09:10:14.0";
+        dc:identifier          "SDN:R10::BEIDOU";
+        pav:authoredOn         "2026-02-25 09:10:14.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R10/current/BEIDOU/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R10/current/BEIDOU/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "BEIDOU";
+        skos:definition        "Beidou transmission system"@en;
+        skos:notation          "SDN:R10::BEIDOU";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Beidou transmission system"@en .
+
+<http://vocab.nerc.ac.uk/collection/R10/current/ARGOS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R10::ARGOS";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R10::ARGOS";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R10/current/ARGOS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ARGOS";
+        skos:definition        "Argos transmission system"@en;
+        skos:notation          "SDN:R10::ARGOS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Argos transmission system"@en .
+
+<http://vocab.nerc.ac.uk/collection/R10/current/ORBCOMM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R10::ORBCOMM";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R10::ORBCOMM";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R10/current/ORBCOMM/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ORBCOMM";
+        skos:definition        "Orbcomm transmission system"@en;
+        skos:notation          "SDN:R10::ORBCOMM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Orbcomm transmission system"@en .
+
+<http://vocab.nerc.ac.uk/collection/R10/current/IRIDIUM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R10::IRIDIUM";
+        dc:date                "2020-04-07 22:59:46.0";
+        dc:identifier          "SDN:R10::IRIDIUM";
+        pav:authoredOn         "2020-04-07 22:59:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R10/current/IRIDIUM/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "IRIDIUM";
+        skos:definition        "Iridium transmission system"@en;
+        skos:notation          "SDN:R10::IRIDIUM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Iridium transmission system"@en .
+
+<http://vocab.nerc.ac.uk/collection/R10/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the Argo data system, published and maintained by the Argo Data Management Team (ADMT) and hosted on the NERC Vocabulary Server.";
+        rdfs:seeAlso            <https://github.com/OneArgo/ArgoVocabs>;
+        dc:alternative          "TRANS_SYSTEM";
+        dc:creator              "Argo Data Management Team";
+        dc:date                 "2026-02-26 02:00:01.0";
+        dc:description          "List of telecommunication systems. Argo netCDF variable TRANS_SYSTEM is populated by R10 altLabel.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Argo transmission systems";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Argo Data Management Team";
+        owl:versionInfo         "3";
+        skos:altLabel           "TRANS_SYSTEM";
+        skos:member             <http://vocab.nerc.ac.uk/collection/R10/current/BEIDOU/> , <http://vocab.nerc.ac.uk/collection/R10/current/ARGOS/> , <http://vocab.nerc.ac.uk/collection/R10/current/IRIDIUM/> , <http://vocab.nerc.ac.uk/collection/R10/current/ORBCOMM/>;
+        skos:prefLabel          "Argo transmission systems" .

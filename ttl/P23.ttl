@@ -1,0 +1,262 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/P23/current/MD012/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P23::MD012";
+        dc:date                "2009-09-28 16:24:46.0";
+        dc:identifier          "SDN:P23::MD012";
+        pav:authoredOn         "2009-09-28 16:24:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P23/current/MD012/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Data on seabed and subsurface cultural and heritage objects (e.g. historically relevant ships, jetties, objects). Includes historic landscape information."@en;
+        skos:notation          "SDN:P23::MD012";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Cultural, Heritage and Marine Archaeology"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P03/current/H002/> .
+
+<http://vocab.nerc.ac.uk/collection/P23/current/MD011/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P23::MD011";
+        dc:date                "2012-04-23 13:03:41.0";
+        dc:identifier          "SDN:P23::MD011";
+        pav:authoredOn         "2012-04-23 13:03:41.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P23/current/MD011/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/P23/current/MD011/2/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD011/1/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "";
+        skos:definition        "Parameters related to spatial and temporal coordinates (e.g. protected sites, administrative divisions), entity referencing (e.g. gazetteer) and access control"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P03/current/Z005/>;
+        skos:notation          "SDN:P23::MD011";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Administration, boundaries, dimensions and entity referencing"@en .
+
+<http://vocab.nerc.ac.uk/collection/P23/current/MD010/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P23::MD010";
+        dc:date                "2009-09-28 16:24:46.0";
+        dc:identifier          "SDN:P23::MD010";
+        pav:authoredOn         "2009-09-28 16:24:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P23/current/MD010/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The use and location of buildings, ships, monitoring platforms or other structures that are manmade (e.g. platforms, wind farms, cables, transportation, coastal defense structures, barrages, piers). Information may be economic based."@en;
+        skos:notation          "SDN:P23::MD010";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Socio-economic and Infrastructure"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P03/current/H002/> , <http://vocab.nerc.ac.uk/collection/P03/current/H005/> .
+
+<http://vocab.nerc.ac.uk/collection/P23/current/MD003/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P23::MD003";
+        dc:date                "2012-06-08 13:38:13.0";
+        dc:identifier          "SDN:P23::MD003";
+        pav:authoredOn         "2012-06-08 13:38:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P23/current/MD003/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/P23/current/MD003/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "Physical, chemical and weather characteristics of the atmosphere (e.g. wind speed, evaporation, humidity, pCO2)."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P03/current/M010/> , <http://vocab.nerc.ac.uk/collection/P03/current/M005/>;
+        skos:notation          "SDN:P23::MD003";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Meteorology and Atmospheric Conditions"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P03/current/O005/> .
+
+<http://vocab.nerc.ac.uk/collection/P23/current/MD009/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P23::MD009";
+        dc:date                "2009-09-28 16:24:46.0";
+        dc:identifier          "SDN:P23::MD009";
+        pav:authoredOn         "2009-09-28 16:24:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P23/current/MD009/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Physical or chemical properties of snow and ice on the earths surface, (e.g. sea ice, snow cover, glaciers, ice caps and ice sheets)."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P03/current/M015/>;
+        skos:notation          "SDN:P23::MD009";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Cryosphere"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P03/current/H003/> .
+
+<http://vocab.nerc.ac.uk/collection/P23/current/MD006/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P23::MD006";
+        dc:date                "2009-09-28 16:24:46.0";
+        dc:identifier          "SDN:P23::MD006";
+        pav:authoredOn         "2009-09-28 16:24:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P23/current/MD006/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Chemical features of the seas (eg, nutrients, carbon, dissolved gases, metals, organic compounds)"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P03/current/C020/> , <http://vocab.nerc.ac.uk/collection/P03/current/G050/> , <http://vocab.nerc.ac.uk/collection/P03/current/C050/> , <http://vocab.nerc.ac.uk/collection/P03/current/C017/> , <http://vocab.nerc.ac.uk/collection/P03/current/C010/> , <http://vocab.nerc.ac.uk/collection/P03/current/C055/> , <http://vocab.nerc.ac.uk/collection/P03/current/C030/> , <http://vocab.nerc.ac.uk/collection/P03/current/C035/> , <http://vocab.nerc.ac.uk/collection/P03/current/C045/> , <http://vocab.nerc.ac.uk/collection/P03/current/C025/> , <http://vocab.nerc.ac.uk/collection/P03/current/C040/> , <http://vocab.nerc.ac.uk/collection/P03/current/C003/> , <http://vocab.nerc.ac.uk/collection/P03/current/C005/> , <http://vocab.nerc.ac.uk/collection/P03/current/C015/> , <http://vocab.nerc.ac.uk/collection/P03/current/O010/>;
+        skos:notation          "SDN:P23::MD006";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Marine Chemistry"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P03/current/O005/> , <http://vocab.nerc.ac.uk/collection/P03/current/B007/> .
+
+<http://vocab.nerc.ac.uk/collection/P23/current/MD008/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P23::MD008";
+        dc:date                "2009-09-28 16:24:46.0";
+        dc:identifier          "SDN:P23::MD008";
+        pav:authoredOn         "2009-09-28 16:24:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P23/current/MD008/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Parameters describing the abundance, nature and impact of material or energy added to the environment by the activities of man (e.g. contaminants, dredge material dumping, litter, noise)"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P03/current/H001/> , <http://vocab.nerc.ac.uk/collection/P03/current/H005/>;
+        skos:notation          "SDN:P23::MD008";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Anthropogenic Properties"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P03/current/C040/> , <http://vocab.nerc.ac.uk/collection/P03/current/B007/> , <http://vocab.nerc.ac.uk/collection/P03/current/D005/> , <http://vocab.nerc.ac.uk/collection/P03/current/C055/> .
+
+<http://vocab.nerc.ac.uk/collection/P23/current/MD004/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P23::MD004";
+        dc:date                "2009-09-28 16:24:46.0";
+        dc:identifier          "SDN:P23::MD004";
+        pav:authoredOn         "2009-09-28 16:24:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P23/current/MD004/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The topic concerned with aquatic life taken from the wild or farmed for human consumption and the facilities required to harvest those aquatic life. (e.g. cod fisheries, salmon farming, cockle picking)"@en;
+        skos:notation          "SDN:P23::MD004";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Fisheries and Aquaculture"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P03/current/B020/> , <http://vocab.nerc.ac.uk/collection/P03/current/H004/> , <http://vocab.nerc.ac.uk/collection/P03/current/B050/> .
+
+<http://vocab.nerc.ac.uk/collection/P23/current/MD007/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P23::MD007";
+        dc:date                "2009-09-28 16:24:46.0";
+        dc:identifier          "SDN:P23::MD007";
+        pav:authoredOn         "2009-09-28 16:24:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P23/current/MD007/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The topic which collates information on the depth and topography of the sea floor that may be used for navigation or understanding scientific processes (e.g. water depth, seafloor topography, bathymetry)."@en;
+        skos:notation          "SDN:P23::MD007";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Bathymetry and Seafloor topography"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P03/current/B050/> , <http://vocab.nerc.ac.uk/collection/P03/current/G005/> , <http://vocab.nerc.ac.uk/collection/P03/current/UWPH/> , <http://vocab.nerc.ac.uk/collection/P03/current/G012/> .
+
+<http://vocab.nerc.ac.uk/collection/P23/current/MD005/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P23::MD005";
+        dc:date                "2009-09-28 16:24:46.0";
+        dc:identifier          "SDN:P23::MD005";
+        pav:authoredOn         "2009-09-28 16:24:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P23/current/MD005/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Physical features of the seas (eg, tides, waves, salinity, temperature, suspended particulate material, optical measurements)"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P03/current/D025/> , <http://vocab.nerc.ac.uk/collection/P03/current/D030/> , <http://vocab.nerc.ac.uk/collection/P03/current/D015/> , <http://vocab.nerc.ac.uk/collection/P03/current/D034/> , <http://vocab.nerc.ac.uk/collection/P03/current/D020/> , <http://vocab.nerc.ac.uk/collection/P03/current/D032/>;
+        skos:notation          "SDN:P23::MD005";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Physical Oceanography"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P03/current/O005/> , <http://vocab.nerc.ac.uk/collection/P03/current/D005/> .
+
+<http://vocab.nerc.ac.uk/collection/P23/current/MD002/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P23::MD002";
+        dc:date                "2009-09-28 16:24:46.0";
+        dc:identifier          "SDN:P23::MD002";
+        pav:authoredOn         "2009-09-28 16:24:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P23/current/MD002/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The extent and composition of species and habitats and the ecological processes that support them. (e.g. productivity, phytoplankton abundance, alien species, biological reef extent)"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P03/current/GTHM/> , <http://vocab.nerc.ac.uk/collection/P03/current/B060/> , <http://vocab.nerc.ac.uk/collection/P03/current/B025/> , <http://vocab.nerc.ac.uk/collection/P03/current/B030/> , <http://vocab.nerc.ac.uk/collection/P03/current/O010/> , <http://vocab.nerc.ac.uk/collection/P03/current/B050/> , <http://vocab.nerc.ac.uk/collection/P03/current/B005/> , <http://vocab.nerc.ac.uk/collection/P03/current/B027/> , <http://vocab.nerc.ac.uk/collection/P03/current/B055/> , <http://vocab.nerc.ac.uk/collection/P03/current/B015/> , <http://vocab.nerc.ac.uk/collection/P03/current/B070/> , <http://vocab.nerc.ac.uk/collection/P03/current/B045/>;
+        skos:notation          "SDN:P23::MD002";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Marine Biodiversity"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P03/current/B020/> , <http://vocab.nerc.ac.uk/collection/P03/current/H004/> , <http://vocab.nerc.ac.uk/collection/P03/current/B007/> , <http://vocab.nerc.ac.uk/collection/P03/current/B035/> , <http://vocab.nerc.ac.uk/collection/P03/current/UWPH/> .
+
+<http://vocab.nerc.ac.uk/collection/P23/current/MD001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P23::MD001";
+        dc:date                "2009-09-28 16:24:46.0";
+        dc:identifier          "SDN:P23::MD001";
+        pav:authoredOn         "2009-09-28 16:24:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P23/current/MD001/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Composition and structure of geological features on or below the seabed or associated with the coast (e.g. sediment, magnetics, gravity, geomorphology)"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P03/current/G012/> , <http://vocab.nerc.ac.uk/collection/P03/current/G060/> , <http://vocab.nerc.ac.uk/collection/P03/current/GSED/> , <http://vocab.nerc.ac.uk/collection/P03/current/G005/> , <http://vocab.nerc.ac.uk/collection/P03/current/GPYS/> , <http://vocab.nerc.ac.uk/collection/P03/current/G045/> , <http://vocab.nerc.ac.uk/collection/P03/current/G040/> , <http://vocab.nerc.ac.uk/collection/P03/current/G015/> , <http://vocab.nerc.ac.uk/collection/P03/current/G035/> , <http://vocab.nerc.ac.uk/collection/P03/current/G030/> , <http://vocab.nerc.ac.uk/collection/P03/current/H003/>;
+        skos:notation          "SDN:P23::MD001";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Marine Geology"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P03/current/G055/> , <http://vocab.nerc.ac.uk/collection/P03/current/T001/> , <http://vocab.nerc.ac.uk/collection/P03/current/UWPH/> .
+
+<http://vocab.nerc.ac.uk/collection/P23/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in MEDIN data and metadata documents";
+        dc:alternative          "MEDIN Disciplines";
+        dc:creator              "MEDIN Standards Group";
+        dc:date                 "2012-06-09 02:00:04.0";
+        dc:description          "Coarse grained grouping terms designed by MEDIN to provide the top level for a parameter discovery thesaurus.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "MEDIN Parameter Discipline Keywords";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "MEDIN Standards Group";
+        owl:versionInfo         "3";
+        skos:altLabel           "MEDIN Disciplines";
+        skos:member             <http://vocab.nerc.ac.uk/collection/P23/current/MD012/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD011/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD010/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD003/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD009/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD006/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD008/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD004/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD007/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD001/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD002/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD005/>;
+        skos:prefLabel          "MEDIN Parameter Discipline Keywords" .

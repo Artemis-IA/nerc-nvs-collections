@@ -1,0 +1,157 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/B21/current/B21001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B21::B21001";
+        dc:date                "2016-09-29 00:00:00.0";
+        dc:identifier          "SDN:B21::B21001";
+        pav:authoredOn         "2016-09-29 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B21/current/B21001/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "European level"@en;
+        skos:notation          "SDN:B21::B21001";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "European"@en .
+
+<http://vocab.nerc.ac.uk/collection/B21/current/B21003/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B21::B21003";
+        dc:date                "2016-09-29 00:00:00.0";
+        dc:identifier          "SDN:B21::B21003";
+        pav:authoredOn         "2016-09-29 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B21/current/B21003/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Country level"@en;
+        skos:notation          "SDN:B21::B21003";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "National"@en .
+
+<http://vocab.nerc.ac.uk/collection/B21/current/B21006/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B21::B21006";
+        dc:date                "2016-09-29 00:00:00.0";
+        dc:identifier          "SDN:B21::B21006";
+        pav:authoredOn         "2016-09-29 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B21/current/B21006/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Sub regional level within a country"@en;
+        skos:notation          "SDN:B21::B21006";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Local"@en .
+
+<http://vocab.nerc.ac.uk/collection/B21/current/B21005/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B21::B21005";
+        dc:date                "2016-09-29 00:00:00.0";
+        dc:identifier          "SDN:B21::B21005";
+        pav:authoredOn         "2016-09-29 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B21/current/B21005/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Sub national level across countries"@en;
+        skos:notation          "SDN:B21::B21005";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Regional(Transboundary)"@en .
+
+<http://vocab.nerc.ac.uk/collection/B21/current/B21004/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B21::B21004";
+        dc:date                "2016-09-29 00:00:00.0";
+        dc:identifier          "SDN:B21::B21004";
+        pav:authoredOn         "2016-09-29 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B21/current/B21004/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Sub national  level within a country"@en;
+        skos:notation          "SDN:B21::B21004";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Regional"@en .
+
+<http://vocab.nerc.ac.uk/collection/B21/current/B21002/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B21::B21002";
+        dc:date                "2016-09-29 00:00:00.0";
+        dc:identifier          "SDN:B21::B21002";
+        pav:authoredOn         "2016-09-29 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B21/current/B21002/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Worldwide"@en;
+        skos:notation          "SDN:B21::B21002";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Global"@en .
+
+<http://vocab.nerc.ac.uk/collection/B21/current/B21007/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B21::B21007";
+        dc:date                "2016-09-29 00:00:00.0";
+        dc:identifier          "SDN:B21::B21007";
+        pav:authoredOn         "2016-09-29 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B21/current/B21007/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Sub regional level across countries"@en;
+        skos:notation          "SDN:B21::B21007";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Local(Transboundary)"@en .
+
+<http://vocab.nerc.ac.uk/collection/B21/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used within the data centre";
+        dc:alternative          "cspscales";
+        dc:creator              "British Oceanographic Data Centre";
+        dc:date                 "2016-09-30 02:00:02.0";
+        dc:description          "Terms used by the Celtic Seas Partnership to broadly describe the spatial area of influence of a project, programme or initiative.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Celtic Seas Partnership scale";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "British Oceanographic Data Centre";
+        owl:versionInfo         "1";
+        skos:altLabel           "cspscales";
+        skos:member             <http://vocab.nerc.ac.uk/collection/B21/current/B21001/> , <http://vocab.nerc.ac.uk/collection/B21/current/B21003/> , <http://vocab.nerc.ac.uk/collection/B21/current/B21006/> , <http://vocab.nerc.ac.uk/collection/B21/current/B21005/> , <http://vocab.nerc.ac.uk/collection/B21/current/B21004/> , <http://vocab.nerc.ac.uk/collection/B21/current/B21007/> , <http://vocab.nerc.ac.uk/collection/B21/current/B21002/>;
+        skos:prefLabel          "Celtic Seas Partnership scale" .

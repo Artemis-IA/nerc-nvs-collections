@@ -1,0 +1,157 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH07/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L07::CDIMTH07";
+        dc:date                "2015-09-10 08:36:14.0";
+        dc:identifier          "SDN:L07::CDIMTH07";
+        pav:authoredOn         "2015-09-10 08:36:14.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH07/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "52n-sos-restful-ts-api";
+        skos:definition        "The data object may be accessed in JSON format through a restful API dedicated to time series (see http://sensorweb.demo.52north.org/sensorwebclient-webapp-stable/api-doc/index.html)."@en;
+        skos:notation          "SDN:L07::CDIMTH07";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "time series data access restful API"@en .
+
+<http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH06/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L07::CDIMTH06";
+        dc:date                "2012-07-10 14:19:38.0";
+        dc:identifier          "SDN:L07::CDIMTH06";
+        pav:authoredOn         "2012-07-10 14:19:38.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH06/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "hrsvsRegistration";
+        skos:definition        "The seismic data object may be viewed in high resolution through manual interaction with an on-line system by registered users following successful authentication and authorisation"@en;
+        skos:notation          "SDN:L07::CDIMTH06";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "high resolution viewing of seismic data with registration"@en .
+
+<http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH01/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L07::CDIMTH01";
+        dc:date                "2007-02-16 16:58:36.0";
+        dc:identifier          "SDN:L07::CDIMTH01";
+        pav:authoredOn         "2007-02-16 16:58:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH01/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "download";
+        skos:definition        "The data object may be downloaded through manual interaction with an on-line system."@en;
+        skos:notation          "SDN:L07::CDIMTH01";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "web data access"@en .
+
+<http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH04/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L07::CDIMTH04";
+        dc:date                "2007-02-16 16:58:36.0";
+        dc:identifier          "SDN:L07::CDIMTH04";
+        pav:authoredOn         "2007-02-16 16:58:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH04/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "offlineAccess";
+        skos:definition        "The data object may be obtained through an automated ordering process from the holding data centre."@en;
+        skos:notation          "SDN:L07::CDIMTH04";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "delayed online access"@en .
+
+<http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH03/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L07::CDIMTH03";
+        dc:date                "2007-02-16 16:58:36.0";
+        dc:identifier          "SDN:L07::CDIMTH03";
+        pav:authoredOn         "2007-02-16 16:58:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH03/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "order";
+        skos:definition        "The data object may be obtained though a manual ordering process from the holding data centre."@en;
+        skos:notation          "SDN:L07::CDIMTH03";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "data request order"@en .
+
+<http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH02/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L07::CDIMTH02";
+        dc:date                "2007-02-16 16:58:36.0";
+        dc:identifier          "SDN:L07::CDIMTH02";
+        pav:authoredOn         "2007-02-16 16:58:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH02/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "downloadRegistration";
+        skos:definition        "The data object may be downloaded through manual interaction with an on-line system by registered users following successful authentication and authorisation."@en;
+        skos:notation          "SDN:L07::CDIMTH02";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "web data access with registration"@en .
+
+<http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH05/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L07::CDIMTH05";
+        dc:date                "2007-02-16 16:58:36.0";
+        dc:identifier          "SDN:L07::CDIMTH05";
+        pav:authoredOn         "2007-02-16 16:58:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH05/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "URL";
+        skos:definition        "The data object may be accessed as a URL over the internet."@en;
+        skos:notation          "SDN:L07::CDIMTH05";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "universal resource locator"@en .
+
+<http://vocab.nerc.ac.uk/collection/L07/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the EU SeaDataNet project implemented as consultation between BODC and the members of the SeaDataNet Technical Task Team";
+        dc:alternative          "SeaDataNet data access";
+        dc:creator              "SeaDataNet";
+        dc:date                 "2015-09-11 02:00:01.0";
+        dc:description          "Terms for mechanisms by which data objects described by SeaDataNet Central Data Index (CDI) records may be obtained before SeaDataNet is fully implemented.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "SeaDataNet data access mechanisms";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "SeaDataNet";
+        owl:versionInfo         "3";
+        skos:altLabel           "SeaDataNet data access";
+        skos:member             <http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH07/> , <http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH06/> , <http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH01/> , <http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH04/> , <http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH03/> , <http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH05/> , <http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH02/>;
+        skos:prefLabel          "SeaDataNet data access mechanisms" .

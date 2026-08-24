@@ -1,0 +1,105 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/EF1/current/SwG/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EF1::SwG";
+        dc:date                "2023-09-05 16:33:09.0";
+        dc:identifier          "SDN:EF1::SwG";
+        pav:authoredOn         "2023-09-05 16:33:09.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EF1/current/SwG/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Areas where there is clear evidence of spawning activity, including areas of known spawning aggregations or with high concentration of eggs."@en;
+        skos:notation          "SDN:EF1::SwG";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Spawning grounds"@en .
+
+<http://vocab.nerc.ac.uk/collection/EF1/current/MiC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EF1::MiC";
+        dc:date                "2023-09-05 16:33:07.0";
+        dc:identifier          "SDN:EF1::MiC";
+        pav:authoredOn         "2023-09-05 16:33:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EF1/current/MiC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Routes heavily used by highly mobile species between seasonal habitats during their lifecycle."@en;
+        skos:notation          "SDN:EF1::MiC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Migration corridors"@en .
+
+<http://vocab.nerc.ac.uk/collection/EF1/current/FeeG/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EF1::FeeG";
+        dc:date                "2023-09-05 16:33:05.0";
+        dc:identifier          "SDN:EF1::FeeG";
+        pav:authoredOn         "2023-09-05 16:33:05.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EF1/current/FeeG/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Areas where there is clear evidence that they are favorite feeding grounds, leading to important fish aggregations."@en;
+        skos:notation          "SDN:EF1::FeeG";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Feeding/foraging grounds"@en .
+
+<http://vocab.nerc.ac.uk/collection/EF1/current/NuG/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EF1::NuG";
+        dc:date                "2023-09-05 16:33:08.0";
+        dc:identifier          "SDN:EF1::NuG";
+        pav:authoredOn         "2023-09-05 16:33:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EF1/current/NuG/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Areas where there is clear evidence of heavy concentrations of fish below minimum conservation reference size."@en;
+        skos:notation          "SDN:EF1::NuG";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Nursery grounds"@en .
+
+<http://vocab.nerc.ac.uk/collection/EF1/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "A European project consortium aimed at the creation of broad-scale seabed habitat data products (EUSeaMap) using data amassed through SeaDataNet from surveys across Europe. The governance is loosely defined as the scientific expertise within the consortium with no formal processes defined.";
+        dc:alternative          "EMODnet SeaHab Essential Fish Habitat";
+        dc:creator              "EMODnet Seabed Habitats Lot";
+        dc:date                 "2023-09-06 03:00:04.0";
+        dc:description          "Terms used by the EMODnet Seabed Habitats Lot to define a list of habitats identified as essential to the ecological and biological requirements for critical life history stages of exploited fish species.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "EMODnet Seabed Habitats Essential Fish Habitat (EFH) vocabulary";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "EMODnet Seabed Habitats Lot";
+        owl:versionInfo         "1";
+        skos:altLabel           "EMODnet SeaHab Essential Fish Habitat";
+        skos:member             <http://vocab.nerc.ac.uk/collection/EF1/current/SwG/> , <http://vocab.nerc.ac.uk/collection/EF1/current/NuG/> , <http://vocab.nerc.ac.uk/collection/EF1/current/FeeG/> , <http://vocab.nerc.ac.uk/collection/EF1/current/MiC/>;
+        skos:prefLabel          "EMODnet Seabed Habitats Essential Fish Habitat (EFH) vocabulary" .

@@ -1,0 +1,173 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/M17/current/SAMP_BOX/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M17::SAMP_BOX";
+        dc:date                "2016-05-31 12:38:17.0";
+        dc:identifier          "SDN:M17::SAMP_BOX";
+        pav:authoredOn         "2016-05-31 12:38:17.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M17/current/SAMP_BOX/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Box core sample";
+        skos:definition        "A sample of soft sediment recovered from the seafloor using a sampling technique consisting of a weighted box which penetrates into the seabed to a depth which depends on its descent rate, and has a blade which closes the base of the box after penetration, thus collecting the sample."@en;
+        skos:notation          "SDN:M17::SAMP_BOX";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Box core sample"@en .
+
+<http://vocab.nerc.ac.uk/collection/M17/current/SAMP_GRAB/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M17::SAMP_GRAB";
+        dc:date                "2016-05-31 12:38:17.0";
+        dc:identifier          "SDN:M17::SAMP_GRAB";
+        pav:authoredOn         "2016-05-31 12:38:17.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M17/current/SAMP_GRAB/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Grab sample";
+        skos:definition        "A sample of sediment recovered from the seabed using a device which consists of a bucket or pair of buckets or similar containers which rotate on impact with the seabed, either through a spring trigger or through human intervention and scoops out a sample of sediment."@en;
+        skos:notation          "SDN:M17::SAMP_GRAB";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Grab sample"@en .
+
+<http://vocab.nerc.ac.uk/collection/M17/current/SAMP_PISTCOR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M17::SAMP_PISTCOR";
+        dc:date                "2016-05-31 12:38:17.0";
+        dc:identifier          "SDN:M17::SAMP_PISTCOR";
+        pav:authoredOn         "2016-05-31 12:38:17.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M17/current/SAMP_PISTCOR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Piston core";
+        skos:definition        "A sample of material collected when a metal tube is pushed into the seafloor by a large weight which deploys on contact with the seabed."@en;
+        skos:notation          "SDN:M17::SAMP_PISTCOR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Piston core"@en .
+
+<http://vocab.nerc.ac.uk/collection/M17/current/SAMP_PUSH/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M17::SAMP_PUSH";
+        dc:date                "2016-05-31 12:38:16.0";
+        dc:identifier          "SDN:M17::SAMP_PUSH";
+        pav:authoredOn         "2016-05-31 12:38:16.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M17/current/SAMP_PUSH/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Push sample";
+        skos:definition        "A sample of substrate collected at the base of a borehole using a sampling tube with a hydraulic ram which is connected to the deck of the vessel via a flexible umbilical. A steady pushing action then drives the tube into the base of the borehole to allow the sample to be collected."@en;
+        skos:notation          "SDN:M17::SAMP_PUSH";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Push sample"@en .
+
+<http://vocab.nerc.ac.uk/collection/M17/current/SAMP_VIBR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M17::SAMP_VIBR";
+        dc:date                "2016-05-31 12:38:17.0";
+        dc:identifier          "SDN:M17::SAMP_VIBR";
+        pav:authoredOn         "2016-05-31 12:38:17.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M17/current/SAMP_VIBR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Vibrocore";
+        skos:definition        "A sample collected from the seabed using a sampling technique in which a large diameter tube is vibrated into substrate while oscillating."@en;
+        skos:notation          "SDN:M17::SAMP_VIBR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Vibrocore"@en .
+
+<http://vocab.nerc.ac.uk/collection/M17/current/SAMP_HAM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M17::SAMP_HAM";
+        dc:date                "2016-05-31 12:38:16.0";
+        dc:identifier          "SDN:M17::SAMP_HAM";
+        pav:authoredOn         "2016-05-31 12:38:16.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M17/current/SAMP_HAM/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Hammer sample";
+        skos:definition        "A sample of substrate collected at the base of a borehole using a sampling tube which is attached to a rod with extensions to enable the tube to reach the base of the borehole. Energy through application of blows of a falling hammer to the sampling rods drives the tube into the base of the borehole to allow the sample to be collected."@en;
+        skos:notation          "SDN:M17::SAMP_HAM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Hammer sample"@en .
+
+<http://vocab.nerc.ac.uk/collection/M17/current/SAMP_PIST/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M17::SAMP_PIST";
+        dc:date                "2016-05-31 12:38:17.0";
+        dc:identifier          "SDN:M17::SAMP_PIST";
+        pav:authoredOn         "2016-05-31 12:38:17.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M17/current/SAMP_PIST/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Piston sample";
+        skos:definition        "A sample of substrate is collected using a thin-walled metal tube with a piston at the tip, deployed at the base of a borehole. The metal tube slides into the substrate while the piston remains above it, creating a vacuum which assists the sample to enter the sampler."@en;
+        skos:notation          "SDN:M17::SAMP_PIST";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Piston sample"@en .
+
+<http://vocab.nerc.ac.uk/collection/M17/current/SAMP_CORR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M17::SAMP_CORR";
+        dc:date                "2016-05-31 12:38:16.0";
+        dc:identifier          "SDN:M17::SAMP_CORR";
+        pav:authoredOn         "2016-05-31 12:38:16.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M17/current/SAMP_CORR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Core run";
+        skos:definition        "A sample which consists of substrate material cut with a bit during drilling of a borehole and stored in a tubular housing known as a core barrel, which is located behind the drill head. The core barrel may consist of up to three layers of tube housing and can be lined with a plastic sleeve to ensure sample integrity. The length of the core run depends on the length of the core barrel."@en;
+        skos:notation          "SDN:M17::SAMP_CORR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Core run"@en .
+
+<http://vocab.nerc.ac.uk/collection/M17/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in MEDIN data and metadata documents";
+        dc:alternative          "Geotech investigation sample type";
+        dc:creator              "MEDIN Standards Group";
+        dc:date                 "2016-06-01 02:00:04.0";
+        dc:description          "Terms used to classify types of samples collected by marine engineers during geotechnical site investigations in the marine environment.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Type of sample collected during a geotechnical investigation";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "MEDIN Standards Group";
+        owl:versionInfo         "1";
+        skos:altLabel           "Geotech investigation sample type";
+        skos:member             <http://vocab.nerc.ac.uk/collection/M17/current/SAMP_BOX/> , <http://vocab.nerc.ac.uk/collection/M17/current/SAMP_GRAB/> , <http://vocab.nerc.ac.uk/collection/M17/current/SAMP_PISTCOR/> , <http://vocab.nerc.ac.uk/collection/M17/current/SAMP_PUSH/> , <http://vocab.nerc.ac.uk/collection/M17/current/SAMP_VIBR/> , <http://vocab.nerc.ac.uk/collection/M17/current/SAMP_CORR/> , <http://vocab.nerc.ac.uk/collection/M17/current/SAMP_PIST/> , <http://vocab.nerc.ac.uk/collection/M17/current/SAMP_HAM/>;
+        skos:prefLabel          "Type of sample collected during a geotechnical investigation" .

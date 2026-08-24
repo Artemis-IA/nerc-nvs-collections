@@ -1,0 +1,891 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG029/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG029";
+        dc:date                "2012-04-30 10:53:40.0";
+        dc:identifier          "SDN:C48::MDG029";
+        pav:authoredOn         "2012-04-30 10:53:40.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG029/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "PROF";
+        skos:definition        "MEDIN product guideline for profiles"@en;
+        skos:notation          "SDN:C48::MDG029";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Seabed survey profile"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG033/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG033";
+        dc:date                "2025-11-26 09:11:06.0";
+        dc:identifier          "SDN:C48::MDG033";
+        pav:authoredOn         "2025-11-26 09:11:06.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG033/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C48/current/MDG033/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "SEIS";
+        skos:definition        "MEDIN product guideline for 3D seismic surfaces"@en;
+        skos:notation          "SDN:C48::MDG033";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Seabed survey 3D seismic surfaces"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG023/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG023";
+        dc:date                "2018-10-08 20:48:01.0";
+        dc:identifier          "SDN:C48::MDG023";
+        pav:authoredOn         "2018-10-08 20:48:01.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG023/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C48/current/MDG023/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "MBES";
+        skos:definition        "MEDIN data guideline for multibeam echosounder (MBES) data"@en;
+        skos:notation          "SDN:C48::MDG023";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Hydrographic multibeam echo"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG040/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG040";
+        dc:date                "2018-10-08 20:48:00.0";
+        dc:identifier          "SDN:C48::MDG040";
+        pav:authoredOn         "2018-10-08 20:48:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG040/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "BATHY";
+        skos:definition        "MEDIN data guideline for Bathymetry data"@en;
+        skos:notation          "SDN:C48::MDG040";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Bathymetry"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG002/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG002";
+        dc:date                "2011-01-28 12:26:26.0";
+        dc:identifier          "SDN:C48::MDG002";
+        pav:authoredOn         "2011-01-28 12:26:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG002/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "MEDIN data guideline for sediment sampling by grab or core for benthos"@en;
+        skos:notation          "SDN:C48::MDG002";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sediment benthos grab core"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG022/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG022";
+        dc:date                "2018-10-08 20:48:01.0";
+        dc:identifier          "SDN:C48::MDG022";
+        pav:authoredOn         "2018-10-08 20:48:01.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG022/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C48/current/MDG022/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "MEDIN data guideline for side scan sonar (SSS) data"@en;
+        skos:notation          "SDN:C48::MDG022";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Hydrographic sidescan sonar"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG024/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG024";
+        dc:date                "2023-05-11 09:35:54.0";
+        dc:identifier          "SDN:C48::MDG024";
+        pav:authoredOn         "2023-05-11 09:35:54.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG024/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C48/current/MDG024/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "SBES";
+        skos:definition        "MEDIN data guideline for single beam echosounder (SBES) data"@en;
+        skos:notation          "SDN:C48::MDG024";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Hydrographic singlebeam echo"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG030/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG030";
+        dc:date                "2012-04-30 10:53:40.0";
+        dc:identifier          "SDN:C48::MDG030";
+        pav:authoredOn         "2012-04-30 10:53:40.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG030/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ACC";
+        skos:definition        "MEDIN product guideline for observed acoustic features"@en;
+        skos:notation          "SDN:C48::MDG030";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Seabed survey acoustic feature"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG014/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG014";
+        dc:date                "2023-05-11 09:35:54.0";
+        dc:identifier          "SDN:C48::MDG014";
+        pav:authoredOn         "2023-05-11 09:35:54.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG014/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C48/current/MDG014/2/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG014/1/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "";
+        skos:definition        "MMO data guideline for leisure and recreation activities"@en;
+        skos:notation          "SDN:C48::MDG014";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Leisure and recreation"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG034/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG034";
+        dc:date                "2018-10-08 20:48:01.0";
+        dc:identifier          "SDN:C48::MDG034";
+        pav:authoredOn         "2018-10-08 20:48:01.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG034/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C48/current/MDG034/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "SF";
+        skos:definition        "MEDIN product seabed feature and contact interpretations"@en;
+        skos:notation          "SDN:C48::MDG034";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Seabed survey feature interpretations"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG042/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG042";
+        dc:date                "2018-10-08 20:48:00.0";
+        dc:identifier          "SDN:C48::MDG042";
+        pav:authoredOn         "2018-10-08 20:48:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG042/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "MET";
+        skos:definition        "MEDIN data guideline for fixed position meteorological measuring instruments"@en;
+        skos:notation          "SDN:C48::MDG042";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Fixed position meteorology"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG013/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG013";
+        dc:date                "2011-01-28 12:26:26.0";
+        dc:identifier          "SDN:C48::MDG013";
+        pav:authoredOn         "2011-01-28 12:26:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG013/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "MEDIN data guideline for the recording of underwater noise data"@en;
+        skos:notation          "SDN:C48::MDG013";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Underwater Noise"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG036/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG036";
+        dc:date                "2012-04-30 10:53:40.0";
+        dc:identifier          "SDN:C48::MDG036";
+        pav:authoredOn         "2012-04-30 10:53:40.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG036/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SURV_E";
+        skos:definition        "MEDIN product guideline for survey extents"@en;
+        skos:notation          "SDN:C48::MDG036";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Seabed survey extents"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG015/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG015";
+        dc:date                "2023-05-11 09:35:54.0";
+        dc:identifier          "SDN:C48::MDG015";
+        pav:authoredOn         "2023-05-11 09:35:54.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG015/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C48/current/MDG015/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "OBS";
+        skos:definition        "MEDIN data guideline for ancillary observations"@en;
+        skos:notation          "SDN:C48::MDG015";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Seabed survey ancillary observations"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG003/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG003";
+        dc:date                "2023-05-11 09:35:54.0";
+        dc:identifier          "SDN:C48::MDG003";
+        pav:authoredOn         "2023-05-11 09:35:54.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG003/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C48/current/MDG003/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "MEDIN data guideline for the recording of oceanographic vertical profile data"@en;
+        skos:notation          "SDN:C48::MDG003";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Oceanographic vertical profile"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG037/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG037";
+        dc:date                "2012-04-30 10:53:40.0";
+        dc:identifier          "SDN:C48::MDG037";
+        pav:authoredOn         "2012-04-30 10:53:40.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG037/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SURV_L";
+        skos:definition        "MEDIN product guideline for survey line plans"@en;
+        skos:notation          "SDN:C48::MDG037";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Seabed survey line plans"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG004/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG004";
+        dc:date                "2023-05-11 09:35:54.0";
+        dc:identifier          "SDN:C48::MDG004";
+        pav:authoredOn         "2023-05-11 09:35:54.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG004/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C48/current/MDG004/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "MEDIN data guideline for recording and archiving of digital images"@en;
+        skos:notation          "SDN:C48::MDG004";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Image"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG027/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG027";
+        dc:date                "2012-04-30 10:53:40.0";
+        dc:identifier          "SDN:C48::MDG027";
+        pav:authoredOn         "2012-04-30 10:53:40.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG027/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SED_CHAR";
+        skos:definition        "MEDIN data guideline for sediment and rock characteristics"@en;
+        skos:notation          "SDN:C48::MDG027";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sediment and rock characteristics"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG047/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG047";
+        dc:date                "2022-02-11 12:22:04.0";
+        dc:identifier          "SDN:C48::MDG047";
+        pav:authoredOn         "2022-02-11 12:22:04.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG047/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "TRANSECT";
+        skos:definition        "MEDIN data guideline for transect survey data"@en;
+        skos:notation          "SDN:C48::MDG047";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Transect survey"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG049/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG049";
+        dc:date                "2023-05-11 09:35:53.0";
+        dc:identifier          "SDN:C48::MDG049";
+        pav:authoredOn         "2023-05-11 09:35:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG049/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "JCDP";
+        skos:definition        "Joint Cetacean Data Programme (JCDP) data guideline for effort related cetacean survey data"@en;
+        skos:notation          "SDN:C48::MDG049";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Effort related cetacean survey"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG001";
+        dc:date                "2011-01-28 12:26:26.0";
+        dc:identifier          "SDN:C48::MDG001";
+        pav:authoredOn         "2011-01-28 12:26:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG001/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "MEDIN data guideline for the recording of offshore litter data"@en;
+        skos:notation          "SDN:C48::MDG001";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Offshore litter"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG012/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG012";
+        dc:date                "2018-10-08 20:48:01.0";
+        dc:identifier          "SDN:C48::MDG012";
+        pav:authoredOn         "2018-10-08 20:48:01.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG012/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C48/current/MDG012/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "MEDIN data guideline for transfer video survey data"@en;
+        skos:notation          "SDN:C48::MDG012";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Video survey"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG017/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG017";
+        dc:date                "2023-05-11 09:35:54.0";
+        dc:identifier          "SDN:C48::MDG017";
+        pav:authoredOn         "2023-05-11 09:35:54.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG017/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C48/current/MDG017/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "SURV_C";
+        skos:definition        "MEDIN data guideline for survey control data"@en;
+        skos:notation          "SDN:C48::MDG017";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Seabed survey control"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG039/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG039";
+        dc:date                "2018-10-08 20:48:00.0";
+        dc:identifier          "SDN:C48::MDG039";
+        pav:authoredOn         "2018-10-08 20:48:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG039/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "AD_HOC";
+        skos:definition        "MEDIN data guideline for ad-hoc sightings and non-effort or quantitative based visual surveys of marine life"@en;
+        skos:notation          "SDN:C48::MDG039";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Ad-hoc sightings"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG032/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG032";
+        dc:date                "2012-04-30 10:53:40.0";
+        dc:identifier          "SDN:C48::MDG032";
+        pav:authoredOn         "2012-04-30 10:53:40.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG032/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SED";
+        skos:definition        "MEDIN product guideline for seabed sediment distribution"@en;
+        skos:notation          "SDN:C48::MDG032";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Seabedsurvey sediment distribution"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG019/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG019";
+        dc:date                "2012-04-30 10:53:40.0";
+        dc:identifier          "SDN:C48::MDG019";
+        pav:authoredOn         "2012-04-30 10:53:40.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG019/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "MAG";
+        skos:definition        "MEDIN data guideline for magnetometer/ magnetic gradiometer data"@en;
+        skos:notation          "SDN:C48::MDG019";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Geophysical magnetic"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG007/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG007";
+        dc:date                "2011-01-28 12:26:26.0";
+        dc:identifier          "SDN:C48::MDG007";
+        pav:authoredOn         "2011-01-28 12:26:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG007/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "MEDIN data guideline for static net, pot and trap data"@en;
+        skos:notation          "SDN:C48::MDG007";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Static net pot trap"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG011/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG011";
+        dc:date                "2011-01-28 12:26:26.0";
+        dc:identifier          "SDN:C48::MDG011";
+        pav:authoredOn         "2011-01-28 12:26:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG011/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "MEDIN data guideline for the recording of water sample data"@en;
+        skos:notation          "SDN:C48::MDG011";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Water sample"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG043/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG043";
+        dc:date                "2018-10-08 20:48:00.0";
+        dc:identifier          "SDN:C48::MDG043";
+        pav:authoredOn         "2018-10-08 20:48:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG043/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SEIS";
+        skos:definition        "MEDIN data guideline for seismic data"@en;
+        skos:notation          "SDN:C48::MDG043";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Seismic"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG044/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG044";
+        dc:date                "2018-10-08 20:48:00.0";
+        dc:identifier          "SDN:C48::MDG044";
+        pav:authoredOn         "2018-10-08 20:48:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG044/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "TIDE";
+        skos:definition        "MEDIN data guideline for tidal elevation data"@en;
+        skos:notation          "SDN:C48::MDG044";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Tidal elevation"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG031/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG031";
+        dc:date                "2012-04-30 10:53:40.0";
+        dc:identifier          "SDN:C48::MDG031";
+        pav:authoredOn         "2012-04-30 10:53:40.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG031/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "GEO";
+        skos:definition        "MEDIN product guideline for geological features"@en;
+        skos:notation          "SDN:C48::MDG031";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Seabed survey geological feature"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG009/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG009";
+        dc:date                "2023-05-11 09:35:54.0";
+        dc:identifier          "SDN:C48::MDG009";
+        pav:authoredOn         "2023-05-11 09:35:54.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG009/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C48/current/MDG009/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "MEDIN data guideline for the recording of moored instrument data"@en;
+        skos:notation          "SDN:C48::MDG009";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Moored instrument"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG041/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG041";
+        dc:date                "2018-10-08 20:48:00.0";
+        dc:identifier          "SDN:C48::MDG041";
+        pav:authoredOn         "2018-10-08 20:48:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG041/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "GEOTECH";
+        skos:definition        "MEDIN data guideline for the recording of offshore geotechnical site investigation data"@en;
+        skos:notation          "SDN:C48::MDG041";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Offshore geotechnical site investigation"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG045/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG045";
+        dc:date                "2020-01-14 09:08:58.0";
+        dc:identifier          "SDN:C48::MDG045";
+        pav:authoredOn         "2020-01-14 09:08:58.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG045/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "AIS";
+        skos:definition        "MMO data guideline for Automatic Identification system (AIS) data"@en;
+        skos:notation          "SDN:C48::MDG045";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Automatic Identification system (AIS)"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG008/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG008";
+        dc:date                "2023-05-11 09:35:54.0";
+        dc:identifier          "SDN:C48::MDG008";
+        pav:authoredOn         "2023-05-11 09:35:54.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG008/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C48/current/MDG008/2/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG008/1/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "";
+        skos:definition        "MEDIN data guideline for species and benthos data by trawl or dredge"@en;
+        skos:notation          "SDN:C48::MDG008";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Fish and benthos trawl tow"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG018/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG018";
+        dc:date                "2018-10-08 20:48:01.0";
+        dc:identifier          "SDN:C48::MDG018";
+        pav:authoredOn         "2018-10-08 20:48:01.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG018/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C48/current/MDG018/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "MEDIN data guideline for marine gravimeter/ gravity data"@en;
+        skos:notation          "SDN:C48::MDG018";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Geophysical gravity"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG020/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG020";
+        dc:date                "2018-10-08 20:48:01.0";
+        dc:identifier          "SDN:C48::MDG020";
+        pav:authoredOn         "2018-10-08 20:48:01.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG020/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C48/current/MDG020/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "MCS";
+        skos:definition        "MEDIN data guideline for multi channel seismic (2D,3D & 4D) data"@en;
+        skos:notation          "SDN:C48::MDG020";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Geophysical multi channel siesmic"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG025/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG025";
+        dc:date                "2023-05-11 09:35:54.0";
+        dc:identifier          "SDN:C48::MDG025";
+        pav:authoredOn         "2023-05-11 09:35:54.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG025/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C48/current/MDG025/1/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG025/2/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "ADCP";
+        skos:definition        "MEDIN data guideline for Acoustic Doppler Current Profiler (ADCP) data"@en;
+        skos:notation          "SDN:C48::MDG025";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Acoustic doppler current profile"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG005/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG005";
+        dc:date                "2011-01-28 12:26:26.0";
+        dc:identifier          "SDN:C48::MDG005";
+        pav:authoredOn         "2011-01-28 12:26:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG005/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "MEDIN data guideline for shellfish stock assessment data"@en;
+        skos:notation          "SDN:C48::MDG005";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Shellfish stock"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG028/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG028";
+        dc:date                "2012-04-30 10:53:40.0";
+        dc:identifier          "SDN:C48::MDG028";
+        pav:authoredOn         "2012-04-30 10:53:40.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG028/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "CONTOUR";
+        skos:definition        "MEDIN product guideline for contours"@en;
+        skos:notation          "SDN:C48::MDG028";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Seabed survey contour"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG035/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG035";
+        dc:date                "2012-04-30 10:53:40.0";
+        dc:identifier          "SDN:C48::MDG035";
+        pav:authoredOn         "2012-04-30 10:53:40.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG035/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SLOPE";
+        skos:definition        "MEDIN product guideline for seabed slope (gradient) and aspect"@en;
+        skos:notation          "SDN:C48::MDG035";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Seabed survey slope and aspect"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG038/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG038";
+        dc:date                "2023-05-11 09:35:54.0";
+        dc:identifier          "SDN:C48::MDG038";
+        pav:authoredOn         "2023-05-11 09:35:54.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG038/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C48/current/MDG038/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "VIDEO";
+        skos:definition        "MEDIN data guideline for video surveys of species and benthos"@en;
+        skos:notation          "SDN:C48::MDG038";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Species and benthos video surveys"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG046/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG046";
+        dc:date                "2022-02-11 12:22:04.0";
+        dc:identifier          "SDN:C48::MDG046";
+        pav:authoredOn         "2022-02-11 12:22:04.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG046/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "QUADRAT";
+        skos:definition        "MEDIN data guideline for quadrat survey data"@en;
+        skos:notation          "SDN:C48::MDG046";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Quadrat survey"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG016/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG016";
+        dc:date                "2023-05-11 09:35:54.0";
+        dc:identifier          "SDN:C48::MDG016";
+        pav:authoredOn         "2023-05-11 09:35:54.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG016/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C48/current/MDG016/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "POS";
+        skos:definition        "MEDIN data guideline for navigation and positioning data"@en;
+        skos:notation          "SDN:C48::MDG016";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Seabed survey navigation and positioning"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG010/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG010";
+        dc:date                "2018-10-08 20:48:00.0";
+        dc:identifier          "SDN:C48::MDG010";
+        pav:authoredOn         "2018-10-08 20:48:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG010/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C48/current/MDG010/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "MEDIN data guideline for the recording of oceanographic data while underway"@en;
+        skos:notation          "SDN:C48::MDG010";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Underway ocean data"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG048/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG048";
+        dc:date                "2022-02-11 12:22:04.0";
+        dc:identifier          "SDN:C48::MDG048";
+        pav:authoredOn         "2022-02-11 12:22:04.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG048/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "TIMED_SEARCH";
+        skos:definition        "MEDIN data guideline for timed search data"@en;
+        skos:notation          "SDN:C48::MDG048";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Timed search survey"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG026/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG026";
+        dc:date                "2018-10-08 20:48:01.0";
+        dc:identifier          "SDN:C48::MDG026";
+        pav:authoredOn         "2018-10-08 20:48:01.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG026/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C48/current/MDG026/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "TIDE";
+        skos:definition        "MEDIN data guideline for tidal reduction data"@en;
+        skos:notation          "SDN:C48::MDG026";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Tidal reduction"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG021/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG021";
+        dc:date                "2018-10-08 20:48:01.0";
+        dc:identifier          "SDN:C48::MDG021";
+        pav:authoredOn         "2018-10-08 20:48:01.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG021/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C48/current/MDG021/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "SCS";
+        skos:definition        "MEDIN data guideline for single channel seismic (sub bottom profiler (SBP)) data"@en;
+        skos:notation          "SDN:C48::MDG021";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Geophysical single channel siesmic"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/MDG006/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C48::MDG006";
+        dc:date                "2011-01-28 12:26:26.0";
+        dc:identifier          "SDN:C48::MDG006";
+        pav:authoredOn         "2011-01-28 12:26:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C48/current/MDG006/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "MEDIN data guideline for photo-identification of cetaceans and surface swimming sharks"@en;
+        skos:notation          "SDN:C48::MDG006";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Cetacean sighting"@en .
+
+<http://vocab.nerc.ac.uk/collection/C48/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in MEDIN data and metadata documents";
+        dc:alternative          "MEDIN Data Guides";
+        dc:creator              "MEDIN Standards Group";
+        dc:date                 "2025-11-27 02:00:01.0";
+        dc:description          "Documents produced by the Marine Environmental Data and Information Network specifying information content standards for the collection of specific types of marine data";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "MEDIN Data Guidelines";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "MEDIN Standards Group";
+        owl:versionInfo         "9";
+        skos:altLabel           "MEDIN Data Guides";
+        skos:member             <http://vocab.nerc.ac.uk/collection/C48/current/MDG029/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG033/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG023/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG040/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG002/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG022/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG024/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG030/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG014/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG034/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG042/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG013/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG036/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG015/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG003/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG037/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG004/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG027/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG047/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG049/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG001/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG012/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG017/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG039/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG032/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG019/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG007/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG011/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG043/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG044/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG031/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG009/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG041/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG045/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG008/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG018/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG020/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG025/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG005/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG028/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG035/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG038/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG046/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG016/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG010/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG048/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG006/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG021/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG026/>;
+        skos:prefLabel          "MEDIN Data Guidelines" .

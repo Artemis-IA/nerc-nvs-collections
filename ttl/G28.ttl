@@ -1,0 +1,190 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/G28/current/003/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G28::003";
+        dc:date                "2012-07-04 11:39:51.0";
+        dc:identifier          "SDN:G28::003";
+        pav:authoredOn         "2012-07-04 11:39:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G28/current/003/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "1-dimensional topological complex that is planar. (A planar graph is a graph that can be drawn in a plane in such a way that no two edges intersect except at a vertex.)"@en;
+        skos:notation          "SDN:G28::003";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "planarGraph"@en .
+
+<http://vocab.nerc.ac.uk/collection/G28/current/002/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G28::002";
+        dc:date                "2012-07-04 11:39:51.0";
+        dc:identifier          "SDN:G28::002";
+        pav:authoredOn         "2012-07-04 11:39:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G28/current/002/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "1-dimensional topological complex --  commonly called  chain-node  topology"@en;
+        skos:notation          "SDN:G28::002";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "topology1D"@en .
+
+<http://vocab.nerc.ac.uk/collection/G28/current/004/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G28::004";
+        dc:date                "2012-07-04 11:39:51.0";
+        dc:identifier          "SDN:G28::004";
+        pav:authoredOn         "2012-07-04 11:39:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G28/current/004/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "2-dimensional topological complex that is planar. (A 2-dimensional topological complex is commonly called  full topology  in a cartographic 2D environment.)"@en;
+        skos:notation          "SDN:G28::004";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "fullPlanarGraph"@en .
+
+<http://vocab.nerc.ac.uk/collection/G28/current/005/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G28::005";
+        dc:date                "2012-07-04 11:39:51.0";
+        dc:identifier          "SDN:G28::005";
+        pav:authoredOn         "2012-07-04 11:39:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G28/current/005/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "1-dimensional topological complex that is isomorphic to a subset of a surface. (A geometric complex is isomorphic to a topological complex if their elements are in a one-to-one, dimensional-and boundry-preserving correspondence to one another.)"@en;
+        skos:notation          "SDN:G28::005";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "surfaceGraph"@en .
+
+<http://vocab.nerc.ac.uk/collection/G28/current/006/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G28::006";
+        dc:date                "2012-07-04 11:39:51.0";
+        dc:identifier          "SDN:G28::006";
+        pav:authoredOn         "2012-07-04 11:39:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G28/current/006/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "2-dimensional topological complex that is isomorphic to a subset of a surface"@en;
+        skos:notation          "SDN:G28::006";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "fullSurfaceGraph"@en .
+
+<http://vocab.nerc.ac.uk/collection/G28/current/001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G28::001";
+        dc:date                "2012-07-04 11:39:51.0";
+        dc:identifier          "SDN:G28::001";
+        pav:authoredOn         "2012-07-04 11:39:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G28/current/001/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Geometry objects without any additional structure which describes topology"@en;
+        skos:notation          "SDN:G28::001";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "geometryOnly"@en .
+
+<http://vocab.nerc.ac.uk/collection/G28/current/008/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G28::008";
+        dc:date                "2012-07-04 11:39:51.0";
+        dc:identifier          "SDN:G28::008";
+        pav:authoredOn         "2012-07-04 11:39:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G28/current/008/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Complete coverage of a 3D Euclidean coordinate space"@en;
+        skos:notation          "SDN:G28::008";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "fullTopology3D"@en .
+
+<http://vocab.nerc.ac.uk/collection/G28/current/009/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G28::009";
+        dc:date                "2012-07-04 11:39:51.0";
+        dc:identifier          "SDN:G28::009";
+        pav:authoredOn         "2012-07-04 11:39:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G28/current/009/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Topological complex without any specified geometric realisation"@en;
+        skos:notation          "SDN:G28::009";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "abstract"@en .
+
+<http://vocab.nerc.ac.uk/collection/G28/current/007/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G28::007";
+        dc:date                "2012-07-04 11:39:51.0";
+        dc:identifier          "SDN:G28::007";
+        pav:authoredOn         "2012-07-04 11:39:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G28/current/007/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "3-dimensional topological complex. (A topological complex is a collection of topological primitives that are closed under the boundary operations.)"@en;
+        skos:notation          "SDN:G28::007";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "topology3D"@en .
+
+<http://vocab.nerc.ac.uk/collection/G28/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "International governance for standards covering many domains within science and beyond.";
+        dc:alternative          "MD_TopologyLevelCode";
+        dc:creator              "International Organization for Standardization";
+        dc:date                 "2012-07-05 02:00:09.0";
+        dc:description          "Degree of complexity of the spatial relationships";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "MD_TopologyLevelCode";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "International Organization for Standardization";
+        owl:versionInfo         "1";
+        skos:altLabel           "MD_TopologyLevelCode";
+        skos:member             <http://vocab.nerc.ac.uk/collection/G28/current/003/> , <http://vocab.nerc.ac.uk/collection/G28/current/002/> , <http://vocab.nerc.ac.uk/collection/G28/current/004/> , <http://vocab.nerc.ac.uk/collection/G28/current/005/> , <http://vocab.nerc.ac.uk/collection/G28/current/006/> , <http://vocab.nerc.ac.uk/collection/G28/current/001/> , <http://vocab.nerc.ac.uk/collection/G28/current/007/> , <http://vocab.nerc.ac.uk/collection/G28/current/009/> , <http://vocab.nerc.ac.uk/collection/G28/current/008/>;
+        skos:prefLabel          "MD_TopologyLevelCode" .

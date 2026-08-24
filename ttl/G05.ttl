@@ -1,0 +1,88 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/G05/current/003/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G05::003";
+        dc:date                "2012-07-04 10:57:33.0";
+        dc:identifier          "SDN:G05::003";
+        pav:authoredOn         "2012-07-04 10:57:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G05/current/003/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Method of evaluating the quality of a dataset based on external knowledge"@en;
+        skos:notation          "SDN:G05::003";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "indirect"@en .
+
+<http://vocab.nerc.ac.uk/collection/G05/current/002/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G05::002";
+        dc:date                "2012-07-04 10:57:33.0";
+        dc:identifier          "SDN:G05::002";
+        pav:authoredOn         "2012-07-04 10:57:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G05/current/002/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Method of evaluating the quality of a dataset based on inspection of items within the dataset, where reference data external to the dataset being evaluated are required"@en;
+        skos:notation          "SDN:G05::002";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "directExternal"@en .
+
+<http://vocab.nerc.ac.uk/collection/G05/current/001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G05::001";
+        dc:date                "2012-07-04 10:57:33.0";
+        dc:identifier          "SDN:G05::001";
+        pav:authoredOn         "2012-07-04 10:57:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G05/current/001/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Method of evaluating the quality of a dataset based on inspection of items within the dataset, where all data required are internal to the dataset being evaluated"@en;
+        skos:notation          "SDN:G05::001";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "directInternal"@en .
+
+<http://vocab.nerc.ac.uk/collection/G05/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "International governance for standards covering many domains within science and beyond.";
+        dc:alternative          "DQ_EvaluationMethodTypeCode";
+        dc:creator              "International Organization for Standardization";
+        dc:date                 "2012-07-05 02:00:09.0";
+        dc:description          "Type or method for evaluating an identified data quality measure";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "DQ_EvaluationMethodTypeCode";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "International Organization for Standardization";
+        owl:versionInfo         "1";
+        skos:altLabel           "DQ_EvaluationMethodTypeCode";
+        skos:member             <http://vocab.nerc.ac.uk/collection/G05/current/001/> , <http://vocab.nerc.ac.uk/collection/G05/current/002/> , <http://vocab.nerc.ac.uk/collection/G05/current/003/>;
+        skos:prefLabel          "DQ_EvaluationMethodTypeCode" .

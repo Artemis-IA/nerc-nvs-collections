@@ -1,0 +1,207 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/P37/current/standard/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P37::standard";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P37::standard";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P37/current/standard/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Mixed Gregorian/Julian calendar, as implemented in the Unidata Udunits software, in which dates prior to 15th October 1582 are assumed to use  the Julian calendar. Dates on or after 15th October 1582 are assumed to use the Gregorian calendar."@en;
+        skos:notation          "SDN:P37::standard";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "standard"@en .
+
+<http://vocab.nerc.ac.uk/collection/P37/current/365_day/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P37::365_day";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P37::365_day";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P37/current/365_day/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Gregorian calendar without leap years, i.e., all years are 365 days long."@en;
+        skos:notation          "SDN:P37::365_day";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "365_day"@en .
+
+<http://vocab.nerc.ac.uk/collection/P37/current/proleptic_gregorian/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P37::proleptic_gregorian";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P37::proleptic_gregorian";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P37/current/proleptic_gregorian/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A Gregorian calendar extended to dates before the 15th of October 1582. That is, a year is a leap year if either: (i) it is divisible by 4 but not by 100; (ii) it is divisible by 400."@en;
+        skos:notation          "SDN:P37::proleptic_gregorian";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "proleptic_gregorian"@en .
+
+<http://vocab.nerc.ac.uk/collection/P37/current/gregorian/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P37::gregorian";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P37::gregorian";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P37/current/gregorian/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Mixed Gregorian/Julian calendar, as implemented in the Unidata Udunits software, in which dates prior to 15th October 1582 are assumed to use  the Julian calendar. Dates on or after 15th October 1582 are assumed to use the Gregorian calendar."@en;
+        skos:notation          "SDN:P37::gregorian";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "gregorian"@en .
+
+<http://vocab.nerc.ac.uk/collection/P37/current/noleap/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P37::noleap";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P37::noleap";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P37/current/noleap/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Gregorian calendar without leap years, i.e., all years are 365 days long."@en;
+        skos:notation          "SDN:P37::noleap";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "noleap"@en .
+
+<http://vocab.nerc.ac.uk/collection/P37/current/all_leap/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P37::all_leap";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P37::all_leap";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P37/current/all_leap/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Gregorian calendar with every year being a leap year, i.e., all years are 366 days long."@en;
+        skos:notation          "SDN:P37::all_leap";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "all_leap"@en .
+
+<http://vocab.nerc.ac.uk/collection/P37/current/360_day/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P37::360_day";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P37::360_day";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P37/current/360_day/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "All years are 360 days divided into 30 day months."@en;
+        skos:notation          "SDN:P37::360_day";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "360_day"@en .
+
+<http://vocab.nerc.ac.uk/collection/P37/current/julian/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P37::julian";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P37::julian";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P37/current/julian/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Julian calendar."@en;
+        skos:notation          "SDN:P37::julian";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "julian"@en .
+
+<http://vocab.nerc.ac.uk/collection/P37/current/none/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P37::none";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P37::none";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P37/current/none/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "No calendar."@en;
+        skos:notation          "SDN:P37::none";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "none"@en .
+
+<http://vocab.nerc.ac.uk/collection/P37/current/366_day/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P37::366_day";
+        dc:date                "2015-02-18 11:28:48.0";
+        dc:identifier          "SDN:P37::366_day";
+        pav:authoredOn         "2015-02-18 11:28:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P37/current/366_day/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Gregorian calendar with every year being a leap year, i.e., all years are 366 days long."@en;
+        skos:notation          "SDN:P37::366_day";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "366_day"@en .
+
+<http://vocab.nerc.ac.uk/collection/P37/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Formal vocabulary specialist group within the governance of the Climate and Forecast Community Metadata Standard.";
+        dc:alternative          "CF Calendars";
+        dc:creator              "Climate and Forecast Standard Names Committee";
+        dc:date                 "2015-02-19 02:00:03.0";
+        dc:description          "Terms used by the CF community to describe the calendar systems used for time co-ordinates in CF-compliant data files";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Climate and Forecast Calendars";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Climate and Forecast Standard Names Committee";
+        owl:versionInfo         "1";
+        skos:altLabel           "CF Calendars";
+        skos:member             <http://vocab.nerc.ac.uk/collection/P37/current/standard/> , <http://vocab.nerc.ac.uk/collection/P37/current/365_day/> , <http://vocab.nerc.ac.uk/collection/P37/current/proleptic_gregorian/> , <http://vocab.nerc.ac.uk/collection/P37/current/gregorian/> , <http://vocab.nerc.ac.uk/collection/P37/current/noleap/> , <http://vocab.nerc.ac.uk/collection/P37/current/all_leap/> , <http://vocab.nerc.ac.uk/collection/P37/current/360_day/> , <http://vocab.nerc.ac.uk/collection/P37/current/366_day/> , <http://vocab.nerc.ac.uk/collection/P37/current/none/> , <http://vocab.nerc.ac.uk/collection/P37/current/julian/>;
+        skos:prefLabel          "Climate and Forecast Calendars" .

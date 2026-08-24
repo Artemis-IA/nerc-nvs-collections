@@ -1,0 +1,851 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600010/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600010";
+        dc:date                "2018-01-17 14:25:30.0";
+        dc:identifier          "SDN:B76::B7600010";
+        pav:authoredOn         "2018-01-17 14:25:30.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600010/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Argo ARVOR";
+        skos:definition        "An autonomous, self-ballasted, Argo profiling float. It provides temperature, salinity and pressure profiles up to 2000 m depth using a Sea-Bird SBE 41CP CTD. It is less bulky and lighter than traditional floats (19.5 kg), consisting of an antenna, float collar (25 cm dia.) and cylindrical hull (12 cm dia.) resulting in an overall length of 195 cm. It uses an ARGOS telemetry system and an oil ballast with pump and value for buoyancy. Positional accuracy is +/- 30 m."@en;
+        skos:notation          "SDN:B76::B7600010";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "NKE Instrumentation ARVOR autonomous profiling float"@en .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600015/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600015";
+        dc:date                "2019-03-18 09:03:05.0";
+        dc:identifier          "SDN:B76::B7600015";
+        pav:authoredOn         "2019-03-18 09:03:05.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600015/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "NOC spar buoy";
+        skos:definition        "A custom-built spar buoy platform designed to measure waves, wave breaking and whitecaps in-situ using capacitance wave wires. The main body of the buoy consists of two sealed sections of aluminium alloy tubing, with the lower section being 6 m long and 25 cm in diameter, and the upper section being 4 m long and 10 cm in diameter. The wave wires are mounted along the upper section and the buoy is ballasted so that the wires are half submerged, on average. A sealed dome is mounted at the top of the buoy, and this contains the cameras, buoy motion sensors, and electronics for the wave wires. The acoustic and optical systems are distributed along the length of the submerged sections, and have separate electronics housing near the base of the buoy. At the bottom of the spar are two hexagonal damping plates that act to increase the natural period of oscillation of the spar to about 30 s. The buoy has an overall length of 11 m and, including all instrumentation, a total weight in air of approximately 440 kg. It can carry enough batteries to operate for 5 days at a time."@en;
+        skos:notation          "SDN:B76::B7600015";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "National Oceanography Centre [standard] spar buoy"@en .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600005/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600005";
+        dc:date                "2017-11-15 13:49:12.0";
+        dc:identifier          "SDN:B76::B7600005";
+        pav:authoredOn         "2017-11-15 13:49:12.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600005/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "AUV";
+        skos:definition        "A generic term to describe an unmanned robot equipped with oceanographic sensors or sonar systems that travels underwater without operator intervention. It typically conducts underwater surveys such as detecting and mapping submerged wrecks, rocks, and obstructions that pose a hazard to navigation for commercial and recreational vessels."@en;
+        skos:notation          "SDN:B76::B7600005";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Unspecified Autonomous Underwater Vehicle"@en .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600016/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600016";
+        dc:date                "2019-03-18 09:06:23.0";
+        dc:identifier          "SDN:B76::B7600016";
+        pav:authoredOn         "2019-03-18 09:06:23.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600016/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "NOC modified spar buoy";
+        skos:definition        "Modified version of the standard spar buoy designed by the National Oceanography Centre (NOC) also known as Bubble Buoy. Strengthened and lengthened structure in order to carry acoustic resonators that measure sub-surface bubble populations."@en;
+        skos:notation          "SDN:B76::B7600016";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "National Oceanography Centre [modified length and strength] {Bubble Buoy} spar buoy"@en .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600008/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600008";
+        dc:date                "2017-11-15 13:49:12.0";
+        dc:identifier          "SDN:B76::B7600008";
+        pav:authoredOn         "2017-11-15 13:49:12.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600008/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Coast moor";
+        skos:definition        "A generic term to describe a tethered platform equipped with oceanographic sensors that is located in the interface between the land and the ocean. The platform is located in a fixed position. Locations may include bays and estuaries."@en;
+        skos:notation          "SDN:B76::B7600008";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Unspecified coastal mooring"@en .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600018/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600018";
+        dc:date                "2019-05-10 13:43:59.0";
+        dc:identifier          "SDN:B76::B7600018";
+        pav:authoredOn         "2019-05-10 13:43:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600018/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "PAP-3";
+        skos:definition        "A sub-surface, fixed-point sediment trap mooring that forms part of the Porcupine Abyssal Plain Sustained Observatory (PAP-SO). It is designed for particle flux and current measurements. The design has been in use since 1998."@en;
+        skos:notation          "SDN:B76::B7600018";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "National Oceanography Centre PAP-3 mooring"@en .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600007/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600007";
+        dc:date                "2017-11-15 13:49:12.0";
+        dc:identifier          "SDN:B76::B7600007";
+        pav:authoredOn         "2017-11-15 13:49:12.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600007/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Lander";
+        skos:definition        "A generic term to describe a platform equipped with oceanographic sensors (such as a benthic lander) that is located on the seafloor."@en;
+        skos:notation          "SDN:B76::B7600007";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Unspecified seabed observatory"@en .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600044/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600044";
+        dc:date                "2026-08-12 11:10:17.0";
+        dc:identifier          "SDN:B76::B7600044";
+        pav:authoredOn         "2026-08-12 11:10:17.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600044/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "EGIM";
+        skos:definition        "A subsurface platform designed for seafloor and water column observation. Designed by the European Multidisciplinary Seafloor and water column Observatory (EMSO) European Research Infrastructure Consortium (ERIC) as part of the EMSODEV (EMSO Implementation and Operation: DEVelopment of Instrument Module) project. It contains a set of core sensors measuring seven Essential Ocean Variables: conductivity, temperature, pressure, dissolved oxygen, turbidity and optical backscatter, current velocity, and underwater sound. Embedded in an easy-to-deploy frame, the EGIM can be used in diverse implementation scenarios and multidisciplinary scientific purposes. It can be deployed on mooring lines, seabed stations both cabled and non-cabled, surface buoys, and can also be deployed as an independent system. It is depth-rated to 6000 m but is open to user customisation for shallower seas if required. https://doi.org/10.3389/fmars.2022.801033."@en;
+        skos:notation          "SDN:B76::B7600044";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "EMSO Generic Instrument Module"@en .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600011/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600011";
+        dc:date                "2018-02-02 09:51:36.0";
+        dc:identifier          "SDN:B76::B7600011";
+        pav:authoredOn         "2018-02-02 09:51:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600011/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "CTG NuShuttle";
+        skos:definition        "A towed undulating vehicle capable of carrying a wide range of sensors, including: conductivity, temperature, pressure, chlorophyll, hydrocarbon, fluorescence, turbidity, optical transmittance, bioluminescence, nutrient, redox and dissolved oxygen sensors. Moreover, NuShuttle can be fitted with a mechanical plankton sampler or an optical plankton counter. This platform is designed to be towed at > 150 m depth, at speeds between 5 knots and 15 knots."@en;
+        skos:notation          "SDN:B76::B7600011";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Chelsea Technologies Group NuShuttle"@en .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600023/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600023";
+        dc:date                "2020-09-01 12:23:35.0";
+        dc:identifier          "SDN:B76::B7600023";
+        pav:authoredOn         "2020-09-01 12:23:35.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600023/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "BlueROV2";
+        skos:definition        "A remotely operated vehicle (ROV) produced by Blue Robotics in California, USA, that features various customizable features, sensors and accessories. It also makes use of open source software. It features a high definition (1080p, 30fps) wide-angle, low-light camera mounted to a tilt mechanism, and can be configured with 2 or 4 Lumen lights, providing up to 6000 lumens to illuminate the ocean depths. BlueROV2 is depth-rated to 100m, and can use 6 or 8 patented T200 thrusters providing a high thrust-to-weight ratio. The modular frame of BlueROV2 allows users to attach accessories such as a gripper, Ping360 scanning sonar, Blue Robotics Bar30 pressure/depth and temperature sensor, additional battery enclosures, a Fathom Tether (customizable from 25 to 300 m), and Fathom Spool."@en;
+        skos:notation          "SDN:B76::B7600023";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Blue Robotics BlueROV2 remotely operated vehicle"@en .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600006/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600006";
+        dc:date                "2017-11-15 13:49:12.0";
+        dc:identifier          "SDN:B76::B7600006";
+        pav:authoredOn         "2017-11-15 13:49:12.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600006/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Argo float";
+        skos:definition        "A generic term to describe a float that is part of the Argo array. Argo floats are autonomous, free-drifting profiling floats. Typically, a float descends to a target depth to drift where they are stabilised by being neutrally buoyant. At an appropriate interval, the float pumps fluid into an external bladder and rises to the surface while measuring temperature and salinity. Satellites or GPS determine the position of the float at the surface, and it transmits its data to a satellite. The bladder then deflates and the float returns to its original density and sinks to drift until the cycle is repeated. The Argo array is currently comprised of several float models such as PROVOR or APEX."@en;
+        skos:notation          "SDN:B76::B7600006";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Unspecified Argo float"@en .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600012/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600012";
+        dc:date                "2018-02-02 09:51:36.0";
+        dc:identifier          "SDN:B76::B7600012";
+        pav:authoredOn         "2018-02-02 09:51:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600012/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "BRIDGET";
+        skos:definition        "A deep-tow vehicle developed jointly by the National Oceanography Centre and the University of Cambridge, designed to investigate and sample plumes from underwater volcanic vents. BRIDGET can be towed down to 5000 m depth, and may carry a wide range of sensors and samplers, including CTD, optical and chemical sensors, altimeter, heading and attitude sensors. All data is transmitted to the surface via the ship's deep tow conducting cable."@en;
+        skos:notation          "SDN:B76::B7600012";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "BRIDGET"@en .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600034/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600034";
+        dc:date                "2025-01-29 08:50:13.0";
+        dc:identifier          "SDN:B76::B7600034";
+        pav:authoredOn         "2025-01-29 08:50:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600034/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "UoW Seaglider SGX";
+        skos:definition        "An autonomous underwater vehicle (AUV) based on buoyancy, developed at the University of Washington for continuous, long-term measurement of oceanographic parameters at full ocean depth. It uses small changes in buoyancy and wings to achieve forward motion. The systems pitch and roll are controlled using adjustable ballast (the vehicle battery). Pitch and roll trim are automatic. The vehicle moves through the water in a saw-tooth like pattern and surfaces often to determine its position. Navigation is waypoint-based and accomplished using a combination of GPS fixes while on the surface and internal sensors that monitor the vehicle heading, depth and attitude during dives. The SGX features advanced navigation capabilities including under-ice behaviour. External sensors are constantly scanning the ocean to determine environmental properties. The glider is approximately 203 cm long with a maximum diameter of 29.5 cm. It has a nominal displacement of 70 kg and is rated to 1000 m depth. The nominal mission duration for SGX is 12 months with continuous sampling, which may be extended with periods of loitering. Maximum roll is 80 degrees. Typical speeds of 0.1 - 0.25 m/s horizontal, 0.1 m/s vertical."@en;
+        skos:notation          "SDN:B76::B7600034";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "University of Washington Seaglider SGX"@en .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600009/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600009";
+        dc:date                "2018-01-17 14:25:30.0";
+        dc:identifier          "SDN:B76::B7600009";
+        pav:authoredOn         "2018-01-17 14:25:30.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600009/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Argo APEX Deep";
+        skos:definition        "An autonomous, neutrally-buoyant, Argo profiling float rated to 6000 m. Sphere-shaped (17 inch dia.), it consists of a depth-rated glass pressure vessel and buoyancy engine. It is fitted with a Sea-Bird SBE 61 CTD, Aanderaa 4831 oxygen optode and Iridium Circuit Switch/RUDICS telemetry system as standard. It can be fitted with optional Iridium Short Burst Data (SBD) telemetry and other environmental sensors, such as the Turner Designs Cyclops 6K fluorometer."@en;
+        skos:notation          "SDN:B76::B7600009";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Teledyne Webb Research APEX Deep autonomous profiling float"@en .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600025/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600025";
+        dc:date                "2020-10-27 12:25:06.0";
+        dc:identifier          "SDN:B76::B7600025";
+        pav:authoredOn         "2020-10-27 12:25:06.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600025/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "iRobot Seaglider M1";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/27/>;
+        skos:definition        "An autonomous underwater vehicle (AUV) based on buoyancy, initially developed at the University of Washington, but produced by iRobot under an exclusive 5-year licence from 2008-2013 for customers outside the Univsersity of Washington. It was developed for continuous, long-term measurement of oceanographic parameters. It uses small changes in buoyancy and wings to achieve forward motion. The systems pitch and roll are controlled using adjustable ballast (the vehicle battery). The vehicle moves through the water in a saw-tooth like pattern and surfaces often to determine its position. Navigation is accomplished using a combination of GPS fixes while on the surface and internal sensors that monitor the vehicle heading, depth and attitude during dives. External sensors are constantly scanning the ocean to determine environmental properties. The glider is 1.8 - 2 m long with a maximum diameter of 30 cm and antenna mast length between 43 cm and 1 m. It weighs 52 kg with a wing span of 1 m. It has a deployment range of 4600 km, deployment length of 10 months and an operating depth range between 50-1000 m. Maximum speed is 25 cm/s."@en;
+        skos:notation          "SDN:B76::B7600025";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "iRobot Seaglider M1 glider"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0023/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG01747/> .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600001";
+        dc:date                "2017-07-28 15:07:57.0";
+        dc:identifier          "SDN:B76::B7600001";
+        pav:authoredOn         "2017-07-28 15:07:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600001/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Slocum G2";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/27/>;
+        skos:definition        "A long-range autonomous underwater vehicle (AUV) based on buoyancy. It is used for remote water column sampling. It uses hydraulic buoyancy change to alter the vehicle density in relation to the surrounding water thereby causing the vehicle to either float or sink. Given an appropriate dive or climb angle, the wings and body lift and convert some of this vertical motion into a forward saw tooth horizontal motion. Periodically, the glider surfaces and calls via Iridium Satellite Phone (anywhere in world) or Free Wave RF Modem (line of sight) in to Dockserver (auto attendant computer) to relay navigational fix, data and receive further instructions for command and control. The glider is capable of storm sampling and can be flown in a coordinated fleet. It is 1.5 m in length, has a hull diameter of 22 cm and mass of 54 kgs. It has an exchangeable payload (capacity up to 6 L) which is capable of housing a variety of environmental sensors such as nitrate and oxygen. It uses lithium or alkaline batteries. It has a deployment range of 600-6000 km, a deployment length of 15 days to 12 months and an operating depth range of 4-1000m. Navigation is via GPS waypoints, a pressure and altimeter sensor. Maximum speed is .35 m/s. It transmits via RF modem, Iridium (RUDICS), ARGOS or acoustic modem."@en;
+        skos:notation          "SDN:B76::B7600001";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Teledyne Webb Research Slocum G2 glider"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/B75/current/ORG01077/> , <http://vocab.nerc.ac.uk/collection/L35/current/MAN0020/> .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600029/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600029";
+        dc:date                "2021-10-15 12:08:04.0";
+        dc:identifier          "SDN:B76::B7600029";
+        pav:authoredOn         "2021-10-15 12:08:04.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600029/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Slocum G3S";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/27/>;
+        skos:definition        "A long-range autonomous underwater vehicle (AUV) based on buoyancy. The G3S utilises the same features as the G3 glider but uses a new STM32 Processor. This replaces the Persistor processor used on the G3 glider in the Science and Flight Bays. The G3S is used for remote water column sampling. It uses hydraulic buoyancy change to alter the vehicle density in relation to the surrounding water thereby causing the vehicle to either float or sink. Given an appropriate dive or climb angle, the wings and body lift and convert some of this vertical motion into a forward saw tooth horizontal motion. Periodically, the glider surfaces and calls via Iridium Satellite Phone (anywhere in world) or Free Wave RF Modem (line of sight) in to Dockserver (auto attendant computer) to relay navigational fix, data and receive further instructions for command and control. The glider is capable of storm sampling and can be flown in a coordinated fleet. It is 1.5 m in length, has a hull diameter of 22 cm and mass of 55-70 kgs (dependent upon configuration). It has an exchangeable payload (capacity up to 6 L) which is capable of housing a variety of environmental sensors such as nitrate and oxygen. It uses lithium or alkaline batteries. It has a deployment range of 350-13000 km (dependent upon configuration), a deployment length of 15 days to 18 months (dependent upon configuration) and an operating depth range of 4-1000m. Navigation is via GPS waypoints, a pressure and altimeter sensor. Maximum speed is 0.35 m/s (0.68 knot) with the buoyancy engine and an average up to 0.5 m/s (1 knots) with full drive, with the thruster: Up to 1 m/s (2 knots). It transmits via RF modem, Iridium (RUDICS), ARGOS or acoustic modem. The new STM32L4 CPU processor utilises OpenRTOS running up to 120 MHz, with 8 Mbytes RAM and 32 Mbytes of flash memory."@en;
+        skos:notation          "SDN:B76::B7600029";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Teledyne Webb Research Slocum G3S glider"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/B75/current/ORG01077/> , <http://vocab.nerc.ac.uk/collection/L35/current/MAN0020/> .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600033/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600033";
+        dc:date                "2024-10-24 12:46:03.0";
+        dc:identifier          "SDN:B76::B7600033";
+        pav:authoredOn         "2024-10-24 12:46:03.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600033/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Slocum G3 shallow";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/27/>;
+        skos:definition        "A long-range autonomous underwater vehicle (AUV) based on buoyancy. It is the shallow-water version of the standard Slocum G3, optimised for shallow water operation due to its specialised pump, with a depth range from 4 to 150 m. It is used for remote water column sampling. It uses hydraulic buoyancy change to alter the vehicle density in relation to the surrounding water thereby causing the vehicle to either float or sink. Given an appropriate dive or climb angle, the wings and body lift and convert some of this vertical motion into a forward saw tooth horizontal motion. Periodically, the glider surfaces and calls via Iridium Satellite Phone (anywhere in world) or Free Wave RF Modem (line of sight) in to Dockserver (auto attendant computer) to relay navigational fix, data and receive further instructions for command and control. The glider is capable of storm sampling and can be flown in a coordinated fleet. It is 1.5 m in length, has a hull diameter of 22 cm and mass of 55-70 kgs (dependent upon configuration). It has an exchangeable payload (capacity up to 6 L) which is capable of housing a variety of environmental sensors such as nitrate and oxygen. It uses lithium or alkaline batteries. It has a deployment range of 350-13000 km (dependent upon configuration), a deployment length of 15 days to 18 months (dependent upon configuration) and an operating depth range of 4-150 m. Navigation is via GPS waypoints, a pressure and altimeter sensor. Maximum speed is 0.35 m/s (0.68 knot) with the buoyancy engine and an average up to 0.5 m/s (1 knots) with full drive, with the thruster: Up to 1 m/s (2 knots). It transmits via RF modem, Iridium (RUDICS), ARGOS or acoustic modem."@en;
+        skos:notation          "SDN:B76::B7600033";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Teledyne Webb Research Slocum G3 shallow glider"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/B75/current/ORG01077/> , <http://vocab.nerc.ac.uk/collection/L35/current/MAN0020/> .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600013/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600013";
+        dc:date                "2018-06-15 13:48:43.0";
+        dc:identifier          "SDN:B76::B7600013";
+        pav:authoredOn         "2018-06-15 13:48:43.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600013/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/B76/current/B7600013/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "Slocum G1";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/27/>;
+        skos:definition        "A long-range autonomous underwater vehicle (AUV) based on buoyancy. It is used for remote water column sampling. It uses hydraulic buoyancy change to alter the vehicle density in relation to the surrounding water thereby causing the vehicle to either float or sink. Given an appropriate dive or climb angle, the wings and body lift and convert some of this vertical motion into a forward saw tooth horizontal motion. Periodically, the glider surfaces and calls via Iridium Satellite Phone (anywhere in world) or Free Wave RF Modem (line of sight) in to Dockserver (auto attendant computer) to relay navigational fix, data and receive further instructions for command and control. The glider is capable of storm sampling and can be flown in a coordinated fleet. It is 1.5 m in length, has a hull diameter of 22 cm and mass of 54 kgs. It has an exchangeable payload (capacity up to 6 L) which is capable of housing a variety of environmental sensors such as nitrate and oxygen. It uses lithium or alkaline batteries. It has a deployment range of 600-6000 km, a deployment length of 15 days to 12 months and an operating depth range of 4-1000m. Navigation is via GPS waypoints, a pressure and altimeter sensor. Maximum speed is .35 m/s. It transmits via RF modem, Iridium (RUDICS), ARGOS or acoustic modem."@en;
+        skos:notation          "SDN:B76::B7600013";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Teledyne Webb Research Slocum G1 glider"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/B75/current/ORG01077/> , <http://vocab.nerc.ac.uk/collection/L35/current/MAN0020/> .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600014/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600014";
+        dc:date                "2018-06-15 13:52:03.0";
+        dc:identifier          "SDN:B76::B7600014";
+        pav:authoredOn         "2018-06-15 13:52:03.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600014/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Slocum G3";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/27/>;
+        skos:definition        "A long-range autonomous underwater vehicle (AUV) based on buoyancy. It is used for remote water column sampling. It uses hydraulic buoyancy change to alter the vehicle density in relation to the surrounding water thereby causing the vehicle to either float or sink. Given an appropriate dive or climb angle, the wings and body lift and convert some of this vertical motion into a forward saw tooth horizontal motion. Periodically, the glider surfaces and calls via Iridium Satellite Phone (anywhere in world) or Free Wave RF Modem (line of sight) in to Dockserver (auto attendant computer) to relay navigational fix, data and receive further instructions for command and control. The glider is capable of storm sampling and can be flown in a coordinated fleet. It is 1.5 m in length, has a hull diameter of 22 cm and mass of 55-70 kgs (dependent upon configuration). It has an exchangeable payload (capacity up to 6 L) which is capable of housing a variety of environmental sensors such as nitrate and oxygen. It uses lithium or alkaline batteries. It has a deployment range of 350-13000 km (dependent upon configuration), a deployment length of 15 days to 18 months (dependent upon configuration) and an operating depth range of 4-1000m. Navigation is via GPS waypoints, a pressure and altimeter sensor. Maximum speed is 0.35 m/s (0.68 knot) with the buoyancy engine and an average up to 0.5 m/s (1 knots) with full drive, with the thruster: Up to 1 m/s (2 knots). It transmits via RF modem, Iridium (RUDICS), ARGOS or acoustic modem."@en;
+        skos:notation          "SDN:B76::B7600014";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Teledyne Webb Research Slocum G3 glider"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/B75/current/ORG01077/> , <http://vocab.nerc.ac.uk/collection/L35/current/MAN0020/> .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600024/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600024";
+        dc:date                "2020-10-27 12:25:06.0";
+        dc:identifier          "SDN:B76::B7600024";
+        pav:authoredOn         "2020-10-27 12:25:06.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600024/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "UoW Seaglider M1";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/27/>;
+        skos:definition        "An autonomous underwater vehicle (AUV) based on buoyancy, developed at the University of Washington. It was developed for continuous, long-term measurement of oceanographic parameters. It uses small changes in buoyancy and wings to achieve forward motion. The systems pitch and roll are controlled using adjustable ballast (the vehicle battery). The vehicle moves through the water in a saw-tooth like pattern and surfaces often to determine its position. Navigation is accomplished using a combination of GPS fixes while on the surface and internal sensors that monitor the vehicle heading, depth and attitude during dives. External sensors are constantly scanning the ocean to determine environmental properties. The glider is 1.8 - 2 m long with a maximum diameter of 30 cm and antenna mast length between 43 cm and 1 m. It weighs 52 kg with a wing span of 1 m. It has a deployment range of 4600 km, deployment length of 10 months and an operating depth range between 50-1000 m. Maximum speed is 25 cm/s."@en;
+        skos:notation          "SDN:B76::B7600024";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "University of Washington Seaglider M1 glider"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0024/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG00142/> .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600043/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600043";
+        dc:date                "2025-11-18 10:02:46.0";
+        dc:identifier          "SDN:B76::B7600043";
+        pav:authoredOn         "2025-11-18 10:02:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600043/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "RAFOS float";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/44/>;
+        skos:definition        "A drifting subsurface float used to map deep ocean currents and deployed at a target range of depths known as the Sound Fixing and Ranging (SOFAR) channel. The RAFOS float acts as a receiver of pongs emitted at designated times by moored acoustic beacons at ranges of hundreds of kilometres away which provide real-time underwater tracking of the float. Widely used by Woods Hole Oceanographic Institution (WHOI), the floats comprise a 2 m glass tube to house the electronics, an acoustic hydrophone, a ballast weight, and is typically fitted with temperature, pressure, and dissolved oxygen sensors. The float is depth rated to 3000 m and can have a deployment life span of up to 2 years. At the end of its mission, a pre-programmed command from the float's microprocessor releases the ballast weight, allowing it to rise to the surface and transmit the acoustic tracking data to satellites. The RAFOS system for oceanographic current measurements was first developed by T. Rossby, D. Dorson, and J. Fontaine at the University of Rhode Island and published in 1986. Rossby, T., Dorson, D., and Fontaine, J. (1986) The RAFOS System. J. Atmos. Oceanic Technol., 3(4), 672–679. doi: 10.1175/1520-0426(1986)0032.0.CO;2."@en;
+        skos:notation          "SDN:B76::B7600043";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Unknown RAFOS drifting subsurface float - Rossby et al. (1986)"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/B75/current/UNSPEC/> , <http://vocab.nerc.ac.uk/collection/L35/current/MAN0002/> .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600035/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600035";
+        dc:date                "2025-04-09 17:02:41.0";
+        dc:identifier          "SDN:B76::B7600035";
+        pav:authoredOn         "2025-04-09 17:02:41.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600035/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Alseamar SeaExplorer X2";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/27/>;
+        skos:definition        "A long-range autonomous underwater vehicle (AUV) based on buoyancy. It is used for remote water column sampling. It uses hydraulic buoyancy change to alter the vehicle density in relation to the surrounding water thereby causing the vehicle to either float or sink. Given an appropriate dive or climb angle, the wings and body lift and convert some of this vertical motion into a forward saw tooth horizontal motion. Periodically, the glider surfaces and calls via Iridium Satellite Phone (anywhere in world) or Free Wave RF Modem (line of sight) in to landstation name GLIMPS 0auto attendant computer) to relay navigational fix, data and receive further instructions for command and control. The glider is capable of storm sampling and can be flown in a coordinated fleet. It is about 2 m in length (+0.8 m foldable antenna), has a hull diameter of about 23 cm and mass of 60 kg in the air. Wing span 65 cm. Ballast 1000 cc, 20 to 1000 m depth range of operation. Rechargeable battery. It transmits via RF modem, Iridium (RUDICS), ARGOS or acoustic modem."@en;
+        skos:notation          "SDN:B76::B7600035";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Alseamar SeaExplorer X2 glider"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0328/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG02100/> .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600037/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600037";
+        dc:date                "2025-04-09 17:02:41.0";
+        dc:identifier          "SDN:B76::B7600037";
+        pav:authoredOn         "2025-04-09 17:02:41.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600037/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Alseamar SeaExplorer X3 shallow";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/27/>;
+        skos:definition        "A long-range autonomous underwater vehicle (AUV) based on buoyancy, released in 2025 with updated electronics compared to the X2. It has a specific pump and ballast capacity to optimise flight in the shallow 5 to 200 m depth range. It is used for remote water column sampling. It uses hydraulic buoyancy change to alter the vehicle density in relation to the surrounding water thereby causing the vehicle to either float or sink. Given an appropriate dive or climb angle, the wings and body lift and convert some of this vertical motion into a forward saw tooth horizontal motion. Periodically, the glider surfaces and calls via Iridium Satellite Phone (anywhere in world) or Free Wave RF Modem (line of sight) in to landstation name GLIMPS 0auto attendant computer) to relay navigational fix, data and receive further instructions for command and control. The glider is capable of storm sampling and can be flown in a coordinated fleet. It is about 2.2 m in length (+0.8 m foldable antenna), has a hull diameter of about 23 cm and mass of 65 kg in the air. Wing span 65 cm. Ballast 1600 cc, 5m to 200 m depth range of operation. Rechargeable battery. It transmits via RF modem, Iridium (RUDICS), ARGOS or acoustic modem."@en;
+        skos:notation          "SDN:B76::B7600037";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Alseamar SeaExplorer X3 shallow glider"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0328/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG02100/> .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600036/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600036";
+        dc:date                "2025-04-09 17:02:41.0";
+        dc:identifier          "SDN:B76::B7600036";
+        pav:authoredOn         "2025-04-09 17:02:41.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600036/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Alseamar SeaExplorer X3";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/27/>;
+        skos:definition        "A long-range autonomous underwater vehicle (AUV) based on buoyancy, released in 2025 with updated electronics compared to the X2. It is used for remote water column sampling. It uses hydraulic buoyancy change to alter the vehicle density in relation to the surrounding water thereby causing the vehicle to either float or sink. Given an appropriate dive or climb angle, the wings and body lift and convert some of this vertical motion into a forward saw tooth horizontal motion. Periodically, the glider surfaces and calls via Iridium Satellite Phone (anywhere in world) or Free Wave RF Modem (line of sight) in to landstation name GLIMPS 0auto attendant computer) to relay navigational fix, data and receive further instructions for command and control. The glider is capable of storm sampling and can be flown in a coordinated fleet. It is about 2 m in length (+0.8 m foldable antenna), has a hull diameter of about 23 cm and mass of 60 kg in the air. Wing span 65 cm. Ballast 1000 cc, 20 m to 1250 m depth range of operation. Rechargeable battery. It transmits via RF modem, Iridium (RUDICS), ARGOS or acoustic modem."@en;
+        skos:notation          "SDN:B76::B7600036";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Alseamar SeaExplorer X3 glider"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0328/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG02100/> .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600030/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600030";
+        dc:date                "2022-07-11 11:39:26.0";
+        dc:identifier          "SDN:B76::B7600030";
+        pav:authoredOn         "2022-07-11 11:39:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600030/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/B76/current/B7600030/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "UoW Seaglider M6";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/27/>;
+        skos:definition        "An autonomous underwater vehicle (AUV) based on buoyancy. Initially developed at the University of Washington, it is now produced and developed by Kongsberg. The Seaglider M6 Deepglider is designed for continuous, long-term measurement of oceanographic parameters at full-ocean depth. It uses small changes in buoyancy and wings to achieve forward motion. The systems pitch and roll are controlled using adjustable ballast (the vehicle battery). The vehicle moves through the water in a saw-tooth like pattern and surfaces often to determine its position. Navigation is accomplished using a combination of GPS fixes while on the surface and internal sensors that monitor the vehicle heading, depth and attitude during dives. External sensors are constantly scanning the ocean to determine environmental properties. The glider is 1.8 m long with a maximum diameter of 30 cm and antenna mast length between 43 cm and 1 m. It weighs 52 kg with a wing span of 1 m. It has a maximum deployment range of 10000 km, enabling missions to last over a year. It has an operating depth range up to 6000 m. Maximum speed is 0.5 m/s. Glide angle is 14 - 45 degrees."@en;
+        skos:notation          "SDN:B76::B7600030";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "University of Washington Seaglider M6 Deepglider"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/B75/current/ORG00360/> , <http://vocab.nerc.ac.uk/collection/L35/current/MAN0015/> .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600002/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600002";
+        dc:date                "2020-10-27 13:59:25.0";
+        dc:identifier          "SDN:B76::B7600002";
+        pav:authoredOn         "2020-10-27 13:59:25.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600002/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/B76/current/B7600002/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "KM Seaglider M1";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/27/>;
+        skos:definition        "An autonomous underwater vehicle (AUV) based on buoyancy. It was initially developed by the University of Washington, but produced by iRobot under an exclusive 5-year licence from 2008-2013 for customers outside the Univserity of Washington. Since 2013 Kongsberg Maritime has held the licence to develop and produce the M1 Seaglider. It was developed for continuous, long-term measurement of oceanographic parameters. It uses small changes in buoyancy and wings to achieve forward motion. The systems pitch and roll are controlled using adjustable ballast (the vehicle battery). The vehicle moves through the water in a saw-tooth like pattern and surfaces often to determine its position. Navigation is accomplished using a combination of GPS fixes while on the surface and internal sensors that monitor the vehicle heading, depth and attitude during dives. External sensors are constantly scanning the ocean to determine environmental properties. The glider is 1.8 - 2 m long with a maximum diameter of 30 cm and antenna mast length between 43 cm and 1 m. It weighs 52 kg with a wing span of 1 m. It has a deployment range of 4600 km, deployment length of 10 months and an operating depth range between 50-1000 m. Maximum speed is 25 cm/s."@en;
+        skos:notation          "SDN:B76::B7600002";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Kongsberg Maritime Seaglider M1 glider"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/B75/current/ORG00360/> , <http://vocab.nerc.ac.uk/collection/L35/current/MAN0015/> .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600022/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600022";
+        dc:date                "2019-09-06 13:13:15.0";
+        dc:identifier          "SDN:B76::B7600022";
+        pav:authoredOn         "2019-09-06 13:13:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600022/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "BAS SUCS";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/11/>;
+        skos:definition        "A camera system developed by the British Antarctic Survey (BAS). The system consists of an underwater tripod which holds an underwater housing unit fitted with a camera, electronics and a stand-alone light. The tripod is directly connected to a conductive cable via a Chinese finger. The cable is spooled from a platform on a small winch via a slip-ring connected to a deck unit. The deck unit is connected to a PC which runs a MatLab GUI to display and control the camera functions. The system works to depth up to 500m, showing a black and white live low resolution video stream and can take colour high resolution stills."@en;
+        skos:notation          "SDN:B76::B7600022";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "British Antarctic Survey Shallow Underwater Camera System {SUCS} benthic node"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/B75/current/ORG0015/> , <http://vocab.nerc.ac.uk/collection/L35/current/MAN0052/> .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600026/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600026";
+        dc:date                "2020-12-11 14:01:19.0";
+        dc:identifier          "SDN:B76::B7600026";
+        pav:authoredOn         "2020-12-11 14:01:19.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600026/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "HYD Seaglider M1";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/27/>;
+        skos:definition        "An autonomous underwater vehicle (AUV) based on buoyancy. The term reflects Hydroid as licence holders to develop and produce the M1 Seaglider. The licence was previously owned by Kongsberg Maritime. The Seaglider is developed for continuous, long-term measurement of oceanographic parameters. It uses small changes in buoyancy and wings to achieve forward motion. The systems pitch and roll are controlled using adjustable ballast (the vehicle battery). The vehicle moves through the water in a saw-tooth like pattern and surfaces often to determine its position. Navigation is accomplished using a combination of GPS fixes while on the surface and internal sensors that monitor the vehicle heading, depth and attitude during dives. External sensors are constantly scanning the ocean to determine environmental properties. The glider is 1.8 - 2 m long with a maximum diameter of 30 cm and antenna mast length between 43 cm and 1 m. It weighs 52 kg with a wing span of 1 m. It has a deployment range of 4600 km, deployment length of 10 months and an operating depth range between 50-1000 m. Maximum speed is 25 cm/s."@en;
+        skos:notation          "SDN:B76::B7600026";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Hydroid Seaglider M1 glider"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0140/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG01760/> .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600027/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600027";
+        dc:date                "2021-08-10 10:58:13.0";
+        dc:identifier          "SDN:B76::B7600027";
+        pav:authoredOn         "2021-08-10 10:58:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600027/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SIO Spray";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/27/>;
+        skos:definition        "The Spray underwater glider is an autonomous vehicle developed at the Instrument Development Group of Scripps Institution of Oceanography that profiles vertically by controlling buoyancy and moves horizontally on wings. Spray steers by changing its center of mass through the movement of internal heavy battery packs, communicates to shore using Iridium, and navigates with GPS. Spray carries sensors to measure a number of variables, including pressure, temperature, salinity, optical properties, dissolved oxygen, and velocity. In typical use, Spray cycles from the surface to 1000 m, traveling 6 km horizontally in 6 hours, with a horizontal velocity of about 0.25 m/s and a vertical velocity of roughly 0.1 m/s. GPS and Iridium antennas are in Spray's wings, so when Spray is on the surface, it rolls 90 degrees to navigate and communicate. During communication, Spray sends data to shore, and shore-based pilots can change mission parameters such as waypoints and dive depth. Typical deployment duration is 3-5 months, depending on sensor suite, stratification, dive depth, and profiling speed."@en;
+        skos:notation          "SDN:B76::B7600027";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Scripps Institution of Oceanography Spray glider"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0039/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG00134/> .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600028/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600028";
+        dc:date                "2021-08-10 11:01:24.0";
+        dc:identifier          "SDN:B76::B7600028";
+        pav:authoredOn         "2021-08-10 11:01:24.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600028/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/B76/current/B7600028/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "SIO Spray2";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/27/>;
+        skos:definition        "The Spray underwater glider is an autonomous vehicle developed at the Instrument Development Group of Scripps Institution of Oceanography that profiles vertically by controlling buoyancy and moves horizontally on wings. Spray steers by changing its center of mass through the movement of internal heavy battery packs, communicates to shore using Iridium, and navigates with GPS. Spray carries sensors to measure a number of variables, including pressure, temperature, salinity, optical properties, dissolved oxygen, and velocity. In typical use, Spray cycles from the surface to 1000 m, traveling 6 km horizontally in 6 hours, with a horizontal velocity of about 0.25 m/s and a vertical velocity of roughly 0.1 m/s. GPS and Iridium antennas are in Spray's wings, so when Spray is on the surface, it rolls 90 degrees to navigate and communicate. During communication, Spray sends data to shore, and shore-based pilots can change mission parameters such as waypoints and dive depth. The Sray2 has a larger payload capacity than the first generation of this model."@en;
+        skos:notation          "SDN:B76::B7600028";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Scripps Institution of Oceanography Spray 2 glider"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0039/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG00134/> .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600004/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600004";
+        dc:date                "2017-07-28 15:07:57.0";
+        dc:identifier          "SDN:B76::B7600004";
+        pav:authoredOn         "2017-07-28 15:07:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600004/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Wave Glider SV2";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/3C/>;
+        skos:definition        "An autonomous surface vehicle (USV) based on wave and sun power. It is deployed for long-term, open ocean measurements in the defense, maritime surveillance, environmental assessment and oil and gas industries. It consists of a float (210cm in length) and sub (191cm in length) joined by a tether (4m standard) that converts wave motion into propulsion by leveraging the difference in motion at the ocean surface and below. A solar energy system powers sensors, communications, and enables a thruster propulsion system that provides additional navigational agility and thrust. It weighs 90kg, has 2 modular payload bays (40L total volume, 18kg maximum weight) and has a speed between 0.5-1.6kts. It uses real-time communications (satellite, cell or Wi-Fi). The vehicle is capable of long deployments (years with regular maintenance). It is fitted with an Automatic Identification System (AIS) Receiver and water speed sensor and can be fitted with auxiliary sensors. It can operate individually or in small fleets. The SV3 replaced the SV2 in early 2015."@en;
+        skos:notation          "SDN:B76::B7600004";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Liquid Robotics Wave Glider SV2 glider"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0021/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG01078/> .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600003/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600003";
+        dc:date                "2017-07-28 15:07:57.0";
+        dc:identifier          "SDN:B76::B7600003";
+        pav:authoredOn         "2017-07-28 15:07:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600003/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Wave Glider SV3";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/3C/>;
+        skos:definition        "An autonomous surface vehicle (USV) based on wave and sun power. It is deployed for long-term, open ocean measurements in the defense, maritime surveillance, environmental assessment and oil and gas industries. It consists of a float (305cm in length) and sub (215cm in length) joined by a tether (8m standard) that converts wave motion into propulsion by leveraging the difference in motion at the ocean surface and below. A solar energy system powers sensors, communications, and enables a thruster propulsion system that provides additional navigational agility and thrust. It weighs 150kg, has 7 modular payload bays (93L total volume, 45kg maximum weight) and has a maximum speed of 3 kts (1.8 kts average). It uses real-time communications (satellite, cell or Wi-Fi). The vehicle is capable of deployments up to 1 year (without maintenance) and towing additional instrumentation (up to 500kg). It is fitted with an Automatic Identification System (AIS) Receiver, water speed sensor, weather station and a number of optional auxiliary sensors. It can operate individually or in fleets. The SV3 replaced the SV2 in early 2015."@en;
+        skos:notation          "SDN:B76::B7600003";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Liquid Robotics Wave Glider SV3 glider"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0021/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG01078/> .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600017/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600017";
+        dc:date                "2019-05-10 13:43:59.0";
+        dc:identifier          "SDN:B76::B7600017";
+        pav:authoredOn         "2019-05-10 13:43:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600017/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "PAP-1";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/48/>;
+        skos:definition        "A fixed-point mooring that formed part of the Porcupine Abyssal Plain Sustained Observatory (PAP-SO). It was initially designed for upper ocean biogeochemical measurements. The design was in use between 2002 and 2006 when it underwent a major re-configuration to a full depth mooring attached to a surface met buoy, to include physical measurements and to transmit data in near-real time. An 'S' tether configuration was also applied to help the mooring better withstand the extremes of the environment it is in."@en;
+        skos:notation          "SDN:B76::B7600017";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "National Oceanography Centre PAP-1 mooring"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0003/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG00009/> .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600019/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600019";
+        dc:date                "2019-05-10 13:43:59.0";
+        dc:identifier          "SDN:B76::B7600019";
+        pav:authoredOn         "2019-05-10 13:43:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600019/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "PAP-2";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/48/>;
+        skos:definition        "A fixed-point mooring that formed part of the Porcupine Abyssal Plain Sustained Observatory (PAP-SO). It was designed for upper ocean physical measurements. Data were transmitted in near real-time. The design was in use between 2002 and 2006 when it underwent a major re-configuration."@en;
+        skos:notation          "SDN:B76::B7600019";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "National Oceanography Centre PAP-2 mooring"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0003/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG00009/> .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600041/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600041";
+        dc:date                "2025-10-24 15:47:38.0";
+        dc:identifier          "SDN:B76::B7600041";
+        pav:authoredOn         "2025-10-24 15:47:38.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600041/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SEATREC infiniTE float";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/46/>;
+        skos:definition        "An autonomous profiling float rated to 1000 m (with a 2000 m version available on request) capable of profiling up to 3 times a day. The base of the float contains Seatrec’s thermal energy harvesting system which, through the incorporation of Phase Change Materials (PCMs), utilises the ocean’s thermocline for changing buoyancy and electricity generation. The limitless power source enables the floats to house CTD sensors, hydrophones, and echosounders."@en;
+        skos:notation          "SDN:B76::B7600041";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "SEATREC infiniTE autonomous profiling float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0366/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG02140/> .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600039/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600039";
+        dc:date                "2025-10-17 10:18:51.0";
+        dc:identifier          "SDN:B76::B7600039";
+        pav:authoredOn         "2025-10-17 10:18:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600039/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "APEX EM float";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/46/>;
+        skos:definition        "An autonomous profiling float with electromagnetic sensors that directly measures water motion through induced electromagnetic currents. The float can be deployed from aircraft using a parachute and can be programmed for surface avoidance during extreme weather events. It has a carbon fibre hull rated to 2000 m and an Iridium Circuit Switch/RUDICS telemetry system as standard. It is also typically fitted with a Sea-Bird SBE 41CP CTD, a WET Labs FLbb (CD) fluorometer, an SBE Float Deep SeaFET pH sensor, and either an Aanderaa 4430 or a RINKO II ARO-FT dissolved oxygen sensor. There are options for custom sensor integration or for Iridium Short Burst Data (SBD) telemetry. Additional features such as ice avoidance can be included dependent on the float configuration."@en;
+        skos:notation          "SDN:B76::B7600039";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Teledyne Webb Research APEX Current Profiling autonomous profiling float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/B75/current/ORG01077/> , <http://vocab.nerc.ac.uk/collection/L35/current/MAN0020/> .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600038/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600038";
+        dc:date                "2025-10-17 10:18:51.0";
+        dc:identifier          "SDN:B76::B7600038";
+        pav:authoredOn         "2025-10-17 10:18:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600038/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "APEX BGC float";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/46/>;
+        skos:definition        "An autonomous profiling float with biogeochemical sensor options rated to 2000 m. Widely used within the international Argo program, it consists of an aluminium hull, an APF-11 controller, and an Iridium Circuit Switch/RUDICS telemetry system as standard. Sensors typically include a Sea-Bird SBE 41CP CTD, a WET Labs FLbb(CD) fluorometer, and an Aanderaa 4430 dissolved oxygen sensor. Sensor options include RBR Argo CTD, a RINKO ARO-FT dissolved oxygen sensor, an SBE Float Deep SeaFET pH sensor, a Satlantic OCR 504 radiometer, a WET Labs C Rover transmissometer, and a WET Labs SUNA nitrate sensor. There are also options for custom sensor integration, a carbon fibre hull, or for Iridium Short Burst Data (SBD) telemetry. Additional features such as ice avoidance can be included dependent on the float configuration."@en;
+        skos:notation          "SDN:B76::B7600038";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Teledyne Webb Research APEX BioGeoChem autonomous profiling float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/B75/current/ORG01077/> , <http://vocab.nerc.ac.uk/collection/L35/current/MAN0020/> .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600040/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600040";
+        dc:date                "2025-10-17 10:18:51.0";
+        dc:identifier          "SDN:B76::B7600040";
+        pav:authoredOn         "2025-10-17 10:18:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600040/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "APEX float";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/46/>;
+        skos:definition        "An autonomous profiling float rated to 2000 m. Widely used within the international Argo program, it consists of an aluminium hull, an APF-11 controller, and an Iridium Circuit Switch/RUDICS telemetry system as standard. It is typically fitted with a Sea-Bird SBE 41(CP) CTD with the alternative option of an RBR CTD. There are also options for a carbon fibre hull or for Iridium Short Burst Data (SBD) telemetry. Additional features such as ice avoidance can be included but are dependent on the float configuration."@en;
+        skos:notation          "SDN:B76::B7600040";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Teledyne Webb Research APEX autonomous profiling float"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/B75/current/ORG01077/> , <http://vocab.nerc.ac.uk/collection/L35/current/MAN0020/> .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600032/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600032";
+        dc:date                "2023-02-09 14:46:16.0";
+        dc:identifier          "SDN:B76::B7600032";
+        pav:authoredOn         "2023-02-09 14:46:16.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600032/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Autosub3";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/25/>;
+        skos:definition        "An autonomous underwater vehicle (AUV) by the National Oceanography Centre, UK. Autosub3 is powered by approximately 5000 D-cell batteries, and the instrument payload is housed in free-flooding areas at each end of the vehicle. In addition to a multibeam sonar system, Autosub3 can carry a range of instruments to measure the salinity, temperature, oxygen concentrations and currents. It is also equipped with an Acoustic Doppler Current Profiler (ADCP) for navigation. It has a depth-rating of 1600 m, mission range of 400 km and payload capacity of 1 cubic metre or 100 kilograms in water."@en;
+        skos:notation          "SDN:B76::B7600032";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "National Oceanography Centre Autosub3 autonomous underwater vehicle"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0003/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG00009/> .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600020/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600020";
+        dc:date                "2019-07-19 10:56:06.0";
+        dc:identifier          "SDN:B76::B7600020";
+        pav:authoredOn         "2019-07-19 10:56:06.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600020/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/B76/current/B7600020/1/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600020/2/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "Autosub ALR6000";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/25/>;
+        skos:definition        "An autonomous underwater vehicle (AUV) by the National Oceanography Centre. The ALR has a depth rating of 6000m and mission range of 2000km. It is designed for deployments consisting of multiple months by using efficient propulsion at slow speed (0.4 ms-1). ALR may carry a wide range of sensors and samplers, including CTD, optical and chemical sensors, ADCP, altimeter, heading and attitude sensors. Data is transmitted via Iridium SBD format messages and stored on the vehicles internal data logger."@en;
+        skos:notation          "SDN:B76::B7600020";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "National Oceanography Centre Autosub Long Range 6000 {ALR6000} autonomous underwater vehicle"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0003/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG00009/> .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600021/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600021";
+        dc:date                "2019-08-06 09:07:08.0";
+        dc:identifier          "SDN:B76::B7600021";
+        pav:authoredOn         "2019-08-06 09:07:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600021/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Autosub ALR1500";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/25/>;
+        skos:definition        "An autonomous underwater vehicle (AUV) by the National Oceanography Centre that has increased payload power capacity and operational speed. To achieve this, it uses a single central pressure vessel that increases buoyancy, allowing more batteries to be installed into the vehicle, and shallow depth rating (1500 m), making it optimised for long range missions such as surveying the continental shelf and upper slope or under ice. ALR may carry a wide range of sensors and samplers, including CTD, optical and chemical sensors, ADCP, altimeter, heading and attitude sensors. Data is transmitted via Iridium SBD format messages and stored on the vehicles internal data logger."@en;
+        skos:notation          "SDN:B76::B7600021";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "National Oceanography Centre Autosub Long Range 1500 {ALR1500} autonomous underwater vehicle"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0003/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG00009/> .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600031/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600031";
+        dc:date                "2023-02-09 14:25:25.0";
+        dc:identifier          "SDN:B76::B7600031";
+        pav:authoredOn         "2023-02-09 14:25:25.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600031/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Autosub6000";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/25/>;
+        skos:definition        "An autonomous underwater vehicle (AUV) by the National Oceanography Centre, UK. It features titanium housing and is designed for deep water deployments including operations under ice. The design of the nose and tail sections, including the navigation and control systems, are inherited from the Autosub3. The Autosub6000 uses pressure-balanced lithium polymer rechargeable batteries, which eliminates the requirement for pressure-resistant battery housings as used on the Autosub3. Up to 12 battery packs can be fitted, with each storing 18 MJ of energy. A wide range of sensors may be carried including ADCP, CTD, optical and chemical sensors, multibeam bathymetry systems, and more. The Autosub6000 has a depth rating of 6000 m, mission range of 1000 km and payload capacity of 0.5 metres cubed."@en;
+        skos:notation          "SDN:B76::B7600031";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "National Oceanography Centre Autosub6000 autonomous underwater vehicle"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0003/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG00009/> .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/B7600042/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B76::B7600042";
+        dc:date                "2025-11-11 11:11:09.0";
+        dc:identifier          "SDN:B76::B7600042";
+        pav:authoredOn         "2025-11-11 11:11:09.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B76/current/B7600042/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "VAMPIRE";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/25/>;
+        skos:definition        "An autonomous profiling vehicle developed in collaboration with the University of Rhode Island and Stony Brook University. It collects environmental, acoustic, and visual data and can be deployed down to 1000 meters. Operating autonomously for days at a time, VAMPIRE has the ability to analyse plankton and nekton communities at a very fine vertical scale, using cameras and acoustics, while environmental sensors simultaneously collect measurements of temperature, salinity, oxygen, chlorophyll, turbidity, beam attenuation, and photosynthetically active radiation (PAR)."@en;
+        skos:notation          "SDN:B76::B7600042";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Arizona State University Bermuda Institute of Ocean Sciences Visual and Acoustic Mesopelagic Profiler for Interdisciplinary Research"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0370/> , <http://vocab.nerc.ac.uk/collection/L35/current/MAN0369/> , <http://vocab.nerc.ac.uk/collection/L35/current/MAN0371/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG00588/> .
+
+<http://vocab.nerc.ac.uk/collection/B76/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used within the data centre";
+        dc:alternative          "BODC Platforms";
+        dc:creator              "British Oceanographic Data Centre";
+        dc:date                 "2026-08-13 03:00:01.0";
+        dc:description          "Terms used to describe designs or versions of platforms.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "BODC Platform Models";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "British Oceanographic Data Centre";
+        owl:versionInfo         "25";
+        skos:altLabel           "BODC Platforms";
+        skos:member             <http://vocab.nerc.ac.uk/collection/B76/current/B7600010/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600015/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600005/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600016/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600008/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600018/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600007/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600044/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600011/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600023/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600006/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600012/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600034/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600009/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600025/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600001/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600029/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600033/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600013/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600014/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600024/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600043/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600035/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600037/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600036/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600030/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600002/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600022/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600026/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600027/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600028/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600004/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600003/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600017/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600019/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600041/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600039/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600038/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600040/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600032/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600020/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600021/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600042/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600031/>;
+        skos:prefLabel          "BODC Platform Models" .

@@ -1,0 +1,161 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/R20/current/S/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R20::S";
+        dc:date                "2021-02-08 16:23:27.0";
+        dc:identifier          "SDN:R20::S";
+        pav:authoredOn         "2021-02-08 16:23:27.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R20/current/S/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R20/current/S/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "S";
+        skos:definition        "Float is known to be drifting at a shallower depth than originally programmed"@en;
+        skos:notation          "SDN:R20::S";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Drifting at shallower depth than programmed"@en .
+
+<http://vocab.nerc.ac.uk/collection/R20/current/N/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R20::N";
+        dc:date                "2021-02-08 16:22:18.0";
+        dc:identifier          "SDN:R20::N";
+        pav:authoredOn         "2021-02-08 16:22:18.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R20/current/N/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R20/current/N/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "N";
+        skos:definition        "No, the float did not touch the ground"@en;
+        skos:notation          "SDN:R20::N";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Not grounded"@en .
+
+<http://vocab.nerc.ac.uk/collection/R20/current/B/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R20::B";
+        dc:date                "2021-02-08 16:18:37.0";
+        dc:identifier          "SDN:R20::B";
+        pav:authoredOn         "2021-02-08 16:18:37.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R20/current/B/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R20/current/B/2/> , <http://vocab.nerc.ac.uk/collection/R20/current/B/1/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "B";
+        skos:definition        "Yes, the float touched the ground as determined by an external bathymetry database and the programmed free-drift period was affected. If it is uncertain what mission phase the grounding took place, use 'B'."@en;
+        skos:notation          "SDN:R20::B";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Grounded (external bathymetry database check), and free-drift period affected"@en .
+
+<http://vocab.nerc.ac.uk/collection/R20/current/U/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R20::U";
+        dc:date                "2020-05-03 20:29:34.0";
+        dc:identifier          "SDN:R20::U";
+        pav:authoredOn         "2020-05-03 20:29:34.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R20/current/U/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "U";
+        skos:definition        "Unknown"@en;
+        skos:notation          "SDN:R20::U";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Unknown"@en .
+
+<http://vocab.nerc.ac.uk/collection/R20/current/P/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R20::P";
+        dc:date                "2021-02-08 16:07:23.0";
+        dc:identifier          "SDN:R20::P";
+        pav:authoredOn         "2021-02-08 16:07:23.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R20/current/P/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "P";
+        skos:definition        "Yes, the float touched the ground during a part of the mission that did not affect the free-drift period."@en;
+        skos:notation          "SDN:R20::P";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Grounded, but free-drift period not affected"@en .
+
+<http://vocab.nerc.ac.uk/collection/R20/current/C/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R20::C";
+        dc:date                "2021-02-08 16:07:23.0";
+        dc:identifier          "SDN:R20::C";
+        pav:authoredOn         "2021-02-08 16:07:23.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R20/current/C/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "C";
+        skos:definition        "Yes, the float touched the ground as determined by an external bathymetry database during a part of the mission that did not affect the free-drift period."@en;
+        skos:notation          "SDN:R20::C";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Grounded (external bathymetry database check), but free-drift period not affected"@en .
+
+<http://vocab.nerc.ac.uk/collection/R20/current/Y/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R20::Y";
+        dc:date                "2021-02-08 16:25:46.0";
+        dc:identifier          "SDN:R20::Y";
+        pav:authoredOn         "2021-02-08 16:25:46.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R20/current/Y/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R20/current/Y/1/> , <http://vocab.nerc.ac.uk/collection/R20/current/Y/2/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "Y";
+        skos:definition        "Yes, the float touched the ground and the programmed free-drift period was affected. If it is uncertain what mission phase the grounding took place, use 'Y'."@en;
+        skos:notation          "SDN:R20::Y";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Grounded, and free-drift period affected"@en .
+
+<http://vocab.nerc.ac.uk/collection/R20/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the Argo data system, published and maintained by the Argo Data Management Team (ADMT) and hosted on the NERC Vocabulary Server.";
+        rdfs:seeAlso            <https://github.com/OneArgo/ArgoVocabs>;
+        dc:alternative          "GROUNDED";
+        dc:creator              "Argo Data Management Team";
+        dc:date                 "2021-02-09 02:00:03.0";
+        dc:description          "Codes to indicate the best estimate of whether the float touched the ground during a specific cycle. Argo netCDF variable GROUNDED in the Trajectory file is populated by R20 altLabel.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Argo GROUNDED flags";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Argo Data Management Team";
+        owl:versionInfo         "2";
+        skos:altLabel           "GROUNDED";
+        skos:member             <http://vocab.nerc.ac.uk/collection/R20/current/S/> , <http://vocab.nerc.ac.uk/collection/R20/current/N/> , <http://vocab.nerc.ac.uk/collection/R20/current/B/> , <http://vocab.nerc.ac.uk/collection/R20/current/U/> , <http://vocab.nerc.ac.uk/collection/R20/current/P/> , <http://vocab.nerc.ac.uk/collection/R20/current/Y/> , <http://vocab.nerc.ac.uk/collection/R20/current/C/>;
+        skos:prefLabel          "Argo GROUNDED flags" .

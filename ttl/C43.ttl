@@ -1,0 +1,123 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/C43/current/UNK/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C43::UNK";
+        dc:date                "2010-01-26 12:37:44.0";
+        dc:identifier          "SDN:C43::UNK";
+        pav:authoredOn         "2010-01-26 12:37:44.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C43/current/UNK/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "unknown";
+        skos:definition        "The correct value is not known to, or not computable by, the sender of this data. However, the correct value probably exists."@en;
+        skos:notation          "SDN:C43::UNK";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "unknown"@en .
+
+<http://vocab.nerc.ac.uk/collection/C43/current/SML/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C43::SML";
+        dc:date                "2010-01-26 12:39:28.0";
+        dc:identifier          "SDN:C43::SML";
+        pav:authoredOn         "2010-01-26 12:39:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C43/current/SML/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "small";
+        skos:definition        "A spill with a quantity of less than a litre such as deck runoff."@en;
+        skos:notation          "SDN:C43::SML";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "small"@en .
+
+<http://vocab.nerc.ac.uk/collection/C43/current/XXL/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C43::XXL";
+        dc:date                "2010-01-26 12:44:15.0";
+        dc:identifier          "SDN:C43::XXL";
+        pav:authoredOn         "2010-01-26 12:44:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C43/current/XXL/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "very large";
+        skos:definition        "A spill with a quantity in excess of a thousand metric tonnes such as the cargo of an oil tanker."@en;
+        skos:notation          "SDN:C43::XXL";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "very large"@en .
+
+<http://vocab.nerc.ac.uk/collection/C43/current/LRG/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C43::LRG";
+        dc:date                "2010-01-26 12:43:20.0";
+        dc:identifier          "SDN:C43::LRG";
+        pav:authoredOn         "2010-01-26 12:43:20.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C43/current/LRG/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "large";
+        skos:definition        "A spill with a quantity of between one and a thousand metric tonnes such as the contents of a ship fuel tank."@en;
+        skos:notation          "SDN:C43::LRG";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "large"@en .
+
+<http://vocab.nerc.ac.uk/collection/C43/current/MED/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C43::MED";
+        dc:date                "2010-01-26 12:40:58.0";
+        dc:identifier          "SDN:C43::MED";
+        pav:authoredOn         "2010-01-26 12:40:58.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C43/current/MED/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "medium";
+        skos:definition        "A spill with a quantity of between a litre and a metric tonne such as the result of tank flushing."@en;
+        skos:notation          "SDN:C43::MED";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "medium"@en .
+
+<http://vocab.nerc.ac.uk/collection/C43/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used within the data centre";
+        dc:alternative          "Oilspill quantity";
+        dc:creator              "British Oceanographic Data Centre";
+        dc:date                 "2010-01-27 02:01:31.0";
+        dc:description          "Terms developed by BODC to classify the magnitude of a discharge of oil into the marine environment";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "BODC oilspill quantity";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "British Oceanographic Data Centre";
+        owl:versionInfo         "1";
+        skos:altLabel           "Oilspill quantity";
+        skos:member             <http://vocab.nerc.ac.uk/collection/C43/current/UNK/> , <http://vocab.nerc.ac.uk/collection/C43/current/SML/> , <http://vocab.nerc.ac.uk/collection/C43/current/XXL/> , <http://vocab.nerc.ac.uk/collection/C43/current/MED/> , <http://vocab.nerc.ac.uk/collection/C43/current/LRG/>;
+        skos:prefLabel          "BODC oilspill quantity" .

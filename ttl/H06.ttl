@@ -1,0 +1,75 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/H06/current/H06AA001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H06::H06AA001";
+        dc:date                "2021-04-26 09:55:49.0";
+        dc:identifier          "SDN:H06::H06AA001";
+        pav:authoredOn         "2021-04-26 09:55:49.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H06/current/H06AA001/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/H06/current/H06AA001/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "Term that qualifies micro-litter particles that allow light to travel through them either almost unaltered (transparent) or with some diffraction (translucent, translucid or semitransparent)."@en;
+        skos:notation          "SDN:H06::H06AA001";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "transparent/translucent"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITROPW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITROPS/> .
+
+<http://vocab.nerc.ac.uk/collection/H06/current/H06AA002/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H06::H06AA002";
+        dc:date                "2021-04-25 22:28:08.0";
+        dc:identifier          "SDN:H06::H06AA002";
+        pav:authoredOn         "2021-04-25 22:28:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H06/current/H06AA002/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Term that qualifies micro-litter particles that do not allow the light to travel through them."@en;
+        skos:notation          "SDN:H06::H06AA002";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "opaque"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITROPW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITROPS/> .
+
+<http://vocab.nerc.ac.uk/collection/H06/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "A European project consortium aimed at the creation of data products using chemical data amassed through SeaDataNet. The governance is loosely defined as the scientific expertise within the consortium with no formal processes defined.";
+        dc:alternative          "Microlitter_transparency";
+        dc:creator              "EMODnet Chemistry Lot";
+        dc:date                 "2021-04-26 15:00:01.0";
+        dc:description          "Controlled vocabulary defining the terms that may be used for micro-litter particle transparency categories in the EMODnet Chemistry data reporting format.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "EMODnet micro-litter transparency classes";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "EMODnet Chemistry Lot";
+        owl:versionInfo         "2";
+        skos:altLabel           "Microlitter_transparency";
+        skos:member             <http://vocab.nerc.ac.uk/collection/H06/current/H06AA002/> , <http://vocab.nerc.ac.uk/collection/H06/current/H06AA001/>;
+        skos:prefLabel          "EMODnet micro-litter transparency classes" .

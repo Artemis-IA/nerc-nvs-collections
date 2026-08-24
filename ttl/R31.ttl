@@ -1,0 +1,463 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/R31/current/internal_vacuum/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R31::internal_vacuum";
+        dc:date                "2025-08-28 11:14:55.0";
+        dc:identifier          "SDN:R31::internal_vacuum";
+        pav:authoredOn         "2025-08-28 11:14:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R31/current/internal_vacuum/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "internal_vacuum";
+        skos:definition        "Issues with the internal vacuum have been identified."@en;
+        skos:notation          "SDN:R31::internal_vacuum";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "internal vacuum"@en .
+
+<http://vocab.nerc.ac.uk/collection/R31/current/grounded/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R31::grounded";
+        dc:date                "2025-08-28 11:14:55.0";
+        dc:identifier          "SDN:R31::grounded";
+        pav:authoredOn         "2025-08-28 11:14:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R31/current/grounded/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "grounded";
+        skos:definition        "Single or repeated groundings at the seafloor may have resulted in the premature loss of the float."@en;
+        skos:notation          "SDN:R31::grounded";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "grounded"@en .
+
+<http://vocab.nerc.ac.uk/collection/R31/current/beached/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R31::beached";
+        dc:date                "2025-08-28 11:14:55.0";
+        dc:identifier          "SDN:R31::beached";
+        pav:authoredOn         "2025-08-28 11:14:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R31/current/beached/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "beached";
+        skos:definition        "The float beached at the coastline."@en;
+        skos:notation          "SDN:R31::beached";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "beached"@en .
+
+<http://vocab.nerc.ac.uk/collection/R31/current/recovered_intentional/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R31::recovered_intentional";
+        dc:date                "2025-08-28 11:14:55.0";
+        dc:identifier          "SDN:R31::recovered_intentional";
+        pav:authoredOn         "2025-08-28 11:14:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R31/current/recovered_intentional/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "recovered_intentional";
+        skos:definition        "The float was recovered deliberately as a result of an Argo community initiative."@en;
+        skos:notation          "SDN:R31::recovered_intentional";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "recovered intentional"@en .
+
+<http://vocab.nerc.ac.uk/collection/R31/current/battery_failure/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R31::battery_failure";
+        dc:date                "2025-08-28 11:14:55.0";
+        dc:identifier          "SDN:R31::battery_failure";
+        pav:authoredOn         "2025-08-28 11:14:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R31/current/battery_failure/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "battery_failure";
+        skos:definition        "The float exhausted its battery after an unexpected level of operation at sea."@en;
+        skos:notation          "SDN:R31::battery_failure";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "battery failure"@en .
+
+<http://vocab.nerc.ac.uk/collection/R31/current/transfer_ownership/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R31::transfer_ownership";
+        dc:date                "2025-08-28 11:14:55.0";
+        dc:identifier          "SDN:R31::transfer_ownership";
+        pav:authoredOn         "2025-08-28 11:14:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R31/current/transfer_ownership/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "transfer_ownership";
+        skos:definition        "The float mission has been closed due to a transfer of ownership of the float during its mission (country, program, institution, etc)."@en;
+        skos:notation          "SDN:R31::transfer_ownership";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "transfer ownership"@en .
+
+<http://vocab.nerc.ac.uk/collection/R31/current/recovered_unintentional/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R31::recovered_unintentional";
+        dc:date                "2025-08-28 11:14:55.0";
+        dc:identifier          "SDN:R31::recovered_unintentional";
+        pav:authoredOn         "2025-08-28 11:14:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R31/current/recovered_unintentional/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "recovered_unintentional";
+        skos:definition        "The float was picked up by a ship (fishermen, etc)."@en;
+        skos:notation          "SDN:R31::recovered_unintentional";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "recovered unintentional"@en .
+
+<http://vocab.nerc.ac.uk/collection/R31/current/sensor_other/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R31::sensor_other";
+        dc:date                "2025-08-28 11:14:55.0";
+        dc:identifier          "SDN:R31::sensor_other";
+        pav:authoredOn         "2025-08-28 11:14:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R31/current/sensor_other/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "sensor_other";
+        skos:definition        "The defect of any other sensor than CTD equipping the float resulted in the float being inoperant."@en;
+        skos:notation          "SDN:R31::sensor_other";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "sensor other"@en .
+
+<http://vocab.nerc.ac.uk/collection/R31/current/sensor_ctd/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R31::sensor_ctd";
+        dc:date                "2025-08-28 11:14:55.0";
+        dc:identifier          "SDN:R31::sensor_ctd";
+        pav:authoredOn         "2025-08-28 11:14:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R31/current/sensor_ctd/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "sensor_ctd";
+        skos:definition        "The defect of the primary CTD sensor equipping the float resulted in the float being inoperant."@en;
+        skos:notation          "SDN:R31::sensor_ctd";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "sensor ctd"@en .
+
+<http://vocab.nerc.ac.uk/collection/R31/current/iced/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R31::iced";
+        dc:date                "2025-08-28 11:14:55.0";
+        dc:identifier          "SDN:R31::iced";
+        pav:authoredOn         "2025-08-28 11:14:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R31/current/iced/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "iced";
+        skos:definition        "The float permanently left under sea ice."@en;
+        skos:notation          "SDN:R31::iced";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "iced"@en .
+
+<http://vocab.nerc.ac.uk/collection/R31/current/unchecked/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R31::unchecked";
+        dc:date                "2025-08-28 11:14:55.0";
+        dc:identifier          "SDN:R31::unchecked";
+        pav:authoredOn         "2025-08-28 11:14:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R31/current/unchecked/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "unchecked";
+        skos:definition        "Default value - no investigation on the float ending cause has been conducted yet."@en;
+        skos:notation          "SDN:R31::unchecked";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "unchecked"@en .
+
+<http://vocab.nerc.ac.uk/collection/R31/current/manual/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R31::manual";
+        dc:date                "2025-08-28 11:14:55.0";
+        dc:identifier          "SDN:R31::manual";
+        pav:authoredOn         "2025-08-28 11:14:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R31/current/manual/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "manual";
+        skos:definition        "Use of downlink to terminate the float mission."@en;
+        skos:notation          "SDN:R31::manual";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "manual"@en .
+
+<http://vocab.nerc.ac.uk/collection/R31/current/deployment/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R31::deployment";
+        dc:date                "2025-08-28 11:14:55.0";
+        dc:identifier          "SDN:R31::deployment";
+        pav:authoredOn         "2025-08-28 11:14:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R31/current/deployment/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "deployment";
+        skos:definition        "Issues with the deployment procedure resulted in the loss of the float (e.g. shocks, unwanted items left attached to the float, etc)."@en;
+        skos:notation          "SDN:R31::deployment";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "deployment"@en .
+
+<http://vocab.nerc.ac.uk/collection/R31/current/buoyancy/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R31::buoyancy";
+        dc:date                "2025-08-28 11:14:55.0";
+        dc:identifier          "SDN:R31::buoyancy";
+        pav:authoredOn         "2025-08-28 11:14:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R31/current/buoyancy/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "buoyancy";
+        skos:definition        "Issues with the hydraulic components or hydraulic behaviour have been identified."@en;
+        skos:notation          "SDN:R31::buoyancy";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "buoyancy"@en .
+
+<http://vocab.nerc.ac.uk/collection/R31/current/software_issues/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R31::software_issues";
+        dc:date                "2025-08-28 11:14:55.0";
+        dc:identifier          "SDN:R31::software_issues";
+        pav:authoredOn         "2025-08-28 11:14:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R31/current/software_issues/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "software_issues";
+        skos:definition        "Issues with the software have been identified."@en;
+        skos:notation          "SDN:R31::software_issues";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "software issues"@en .
+
+<http://vocab.nerc.ac.uk/collection/R31/current/telemetry/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R31::telemetry";
+        dc:date                "2025-08-28 11:14:55.0";
+        dc:identifier          "SDN:R31::telemetry";
+        pav:authoredOn         "2025-08-28 11:14:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R31/current/telemetry/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "telemetry";
+        skos:definition        "Telemetry issues have been identified."@en;
+        skos:notation          "SDN:R31::telemetry";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "telemetry"@en .
+
+<http://vocab.nerc.ac.uk/collection/R31/current/unknown/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R31::unknown";
+        dc:date                "2025-08-28 11:14:55.0";
+        dc:identifier          "SDN:R31::unknown";
+        pav:authoredOn         "2025-08-28 11:14:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R31/current/unknown/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "unknown";
+        skos:definition        "The ending cause of the float was not determined after analyses."@en;
+        skos:notation          "SDN:R31::unknown";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "unknown"@en .
+
+<http://vocab.nerc.ac.uk/collection/R31/current/battery_end_of/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R31::battery_end_of";
+        dc:date                "2025-08-28 11:14:55.0";
+        dc:identifier          "SDN:R31::battery_end_of";
+        pav:authoredOn         "2025-08-28 11:14:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R31/current/battery_end_of/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "battery_end_of";
+        skos:definition        "The float exhausted its battery after an expected level of operation at sea (close to theoretical lifetime)."@en;
+        skos:notation          "SDN:R31::battery_end_of";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "battery end of"@en .
+
+<http://vocab.nerc.ac.uk/collection/R31/current/location/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R31::location";
+        dc:date                "2025-08-28 11:14:55.0";
+        dc:identifier          "SDN:R31::location";
+        pav:authoredOn         "2025-08-28 11:14:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R31/current/location/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "location";
+        skos:definition        "Positioning issues (e.g. GPS hardware or firmware) have been identified."@en;
+        skos:notation          "SDN:R31::location";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "location"@en .
+
+<http://vocab.nerc.ac.uk/collection/R31/current/stuck_on_surface/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R31::stuck_on_surface";
+        dc:date                "2025-08-28 11:14:55.0";
+        dc:identifier          "SDN:R31::stuck_on_surface";
+        pav:authoredOn         "2025-08-28 11:14:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R31/current/stuck_on_surface/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "stuck_on_surface";
+        skos:definition        "The float ended its life drifting at surface."@en;
+        skos:notation          "SDN:R31::stuck_on_surface";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "stuck on surface"@en .
+
+<http://vocab.nerc.ac.uk/collection/R31/current/ballast/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R31::ballast";
+        dc:date                "2025-08-28 11:14:55.0";
+        dc:identifier          "SDN:R31::ballast";
+        pav:authoredOn         "2025-08-28 11:14:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R31/current/ballast/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ballast";
+        skos:definition        "Ballast issues have been identified (e.g. loss of external ballast, etc)."@en;
+        skos:notation          "SDN:R31::ballast";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ballast"@en .
+
+<http://vocab.nerc.ac.uk/collection/R31/current/bluetooth/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R31::bluetooth";
+        dc:date                "2025-08-28 11:14:55.0";
+        dc:identifier          "SDN:R31::bluetooth";
+        pav:authoredOn         "2025-08-28 11:14:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R31/current/bluetooth/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "bluetooth";
+        skos:definition        "Bluetooth problem."@en;
+        skos:notation          "SDN:R31::bluetooth";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "bluetooth"@en .
+
+<http://vocab.nerc.ac.uk/collection/R31/current/leak/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R31::leak";
+        dc:date                "2025-08-28 11:14:55.0";
+        dc:identifier          "SDN:R31::leak";
+        pav:authoredOn         "2025-08-28 11:14:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R31/current/leak/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "leak";
+        skos:definition        "Leak in the float resulted in the damage of the float."@en;
+        skos:notation          "SDN:R31::leak";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "leak"@en .
+
+<http://vocab.nerc.ac.uk/collection/R31/current/hardware_other/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R31::hardware_other";
+        dc:date                "2025-08-28 11:14:55.0";
+        dc:identifier          "SDN:R31::hardware_other";
+        pav:authoredOn         "2025-08-28 11:14:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R31/current/hardware_other/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "hardware_other";
+        skos:definition        "Miscellaneous hardware issues (e.g. anode corrosion, etc)."@en;
+        skos:notation          "SDN:R31::hardware_other";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "hardware other"@en .
+
+<http://vocab.nerc.ac.uk/collection/R31/current/electrical/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R31::electrical";
+        dc:date                "2025-08-28 11:14:55.0";
+        dc:identifier          "SDN:R31::electrical";
+        pav:authoredOn         "2025-08-28 11:14:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R31/current/electrical/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "electrical";
+        skos:definition        "Electrical issues with the float or sensor have been identified."@en;
+        skos:notation          "SDN:R31::electrical";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "electrical"@en .
+
+<http://vocab.nerc.ac.uk/collection/R31/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the Argo data system, published and maintained by the Argo Data Management Team (ADMT) and hosted on the NERC Vocabulary Server.";
+        rdfs:seeAlso            <https://github.com/OneArgo/ArgoVocabs>;
+        dc:alternative          "ENDING_CAUSE";
+        dc:creator              "Argo Data Management Team";
+        dc:date                 "2025-08-29 03:00:01.0";
+        dc:description          "Lists the float end-of-life reasons. This information is allocated manually after analysis of the float's end of life. Argo netCDF variable ANOMALY syntax uses R31 altLabel preceeded by the 'ending_cause:' keyword and separated from the other anomaly items by commas.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Argo float ending cause";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Argo Data Management Team";
+        owl:versionInfo         "1";
+        skos:altLabel           "ENDING_CAUSE";
+        skos:member             <http://vocab.nerc.ac.uk/collection/R31/current/internal_vacuum/> , <http://vocab.nerc.ac.uk/collection/R31/current/grounded/> , <http://vocab.nerc.ac.uk/collection/R31/current/beached/> , <http://vocab.nerc.ac.uk/collection/R31/current/recovered_intentional/> , <http://vocab.nerc.ac.uk/collection/R31/current/battery_failure/> , <http://vocab.nerc.ac.uk/collection/R31/current/transfer_ownership/> , <http://vocab.nerc.ac.uk/collection/R31/current/recovered_unintentional/> , <http://vocab.nerc.ac.uk/collection/R31/current/sensor_other/> , <http://vocab.nerc.ac.uk/collection/R31/current/sensor_ctd/> , <http://vocab.nerc.ac.uk/collection/R31/current/iced/> , <http://vocab.nerc.ac.uk/collection/R31/current/unchecked/> , <http://vocab.nerc.ac.uk/collection/R31/current/manual/> , <http://vocab.nerc.ac.uk/collection/R31/current/deployment/> , <http://vocab.nerc.ac.uk/collection/R31/current/buoyancy/> , <http://vocab.nerc.ac.uk/collection/R31/current/software_issues/> , <http://vocab.nerc.ac.uk/collection/R31/current/telemetry/> , <http://vocab.nerc.ac.uk/collection/R31/current/unknown/> , <http://vocab.nerc.ac.uk/collection/R31/current/battery_end_of/> , <http://vocab.nerc.ac.uk/collection/R31/current/location/> , <http://vocab.nerc.ac.uk/collection/R31/current/stuck_on_surface/> , <http://vocab.nerc.ac.uk/collection/R31/current/ballast/> , <http://vocab.nerc.ac.uk/collection/R31/current/bluetooth/> , <http://vocab.nerc.ac.uk/collection/R31/current/leak/> , <http://vocab.nerc.ac.uk/collection/R31/current/electrical/> , <http://vocab.nerc.ac.uk/collection/R31/current/hardware_other/>;
+        skos:prefLabel          "Argo float ending cause" .

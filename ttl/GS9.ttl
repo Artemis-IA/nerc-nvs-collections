@@ -1,0 +1,88 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/GS9/current/SR2D/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GS9::SR2D";
+        dc:date                "2011-01-28 12:26:26.0";
+        dc:identifier          "SDN:GS9::SR2D";
+        pav:authoredOn         "2011-01-28 12:26:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GS9/current/SR2D/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "2DSeisRefl";
+        skos:definition        "The elucidation of structure beneath sea-bed determined by the reflection of seismic energy along a single track."@en;
+        skos:notation          "SDN:GS9::SR2D";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Two-dimensional seismic reflection"@en .
+
+<http://vocab.nerc.ac.uk/collection/GS9/current/SR4D/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GS9::SR4D";
+        dc:date                "2011-01-28 12:26:26.0";
+        dc:identifier          "SDN:GS9::SR4D";
+        pav:authoredOn         "2011-01-28 12:26:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GS9/current/SR4D/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "4DSeisImag";
+        skos:definition        "The elucidation of structure beneath sea-bed determined by the reflection of seismic energy acquired in multiple surveys at different times but with the aim of comparing and amalgamating them."@en;
+        skos:notation          "SDN:GS9::SR4D";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Four-dimensional seismic imaging"@en .
+
+<http://vocab.nerc.ac.uk/collection/GS9/current/SR3D/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GS9::SR3D";
+        dc:date                "2011-01-28 12:26:26.0";
+        dc:identifier          "SDN:GS9::SR3D";
+        pav:authoredOn         "2011-01-28 12:26:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GS9/current/SR3D/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "3DSeisRefl";
+        skos:definition        "The elucidation of structure beneath sea-bed determined by the reflection of seismic energy along multiple parallel tracks."@en;
+        skos:notation          "SDN:GS9::SR3D";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Three-dimensional seismic reflection"@en .
+
+<http://vocab.nerc.ac.uk/collection/GS9/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the EU Geo-Seas project implemented as consultation between BODC and a designated group of Geo-Seas project paticipants";
+        dc:alternative          "Seismic Dimensionality";
+        dc:creator              "Geo-Seas";
+        dc:date                 "2011-01-29 02:00:05.0";
+        dc:description          "Concepts that describe dimensionality of field surveys in the geophysical discipline of seismics";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Geo-Seas Seismic Survey Dimensionality";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Geo-Seas";
+        owl:versionInfo         "1";
+        skos:altLabel           "Seismic Dimensionality";
+        skos:member             <http://vocab.nerc.ac.uk/collection/GS9/current/SR3D/> , <http://vocab.nerc.ac.uk/collection/GS9/current/SR4D/> , <http://vocab.nerc.ac.uk/collection/GS9/current/SR2D/>;
+        skos:prefLabel          "Geo-Seas Seismic Survey Dimensionality" .

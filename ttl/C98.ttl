@@ -1,0 +1,382 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/C98/current/CL02/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C98::CL02";
+        dc:date                "2006-03-07 08:56:00.0";
+        dc:identifier          "SDN:C98::CL02";
+        pav:authoredOn         "2006-03-07 08:56:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C98/current/CL02/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Administration";
+        skos:definition        "Term lists concerned with the description of BODC systems, operational procedures and internal administration."@en;
+        skos:notation          "SDN:C98::CL02";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "BODC operational systems and administration"@en .
+
+<http://vocab.nerc.ac.uk/collection/C98/current/CL14/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C98::CL14";
+        dc:date                "2007-01-30 14:56:29.0";
+        dc:identifier          "SDN:C98::CL14";
+        pav:authoredOn         "2007-01-30 14:56:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C98/current/CL14/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "GCMD Keywords";
+        skos:definition        "Vocabulary lists under NASA Global Change Master Directory content governance used to populate Directory Interchange Format (DIF) metadata records"@en;
+        skos:notation          "SDN:C98::CL14";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Global Change Master Directory Keyword Lists"@en .
+
+<http://vocab.nerc.ac.uk/collection/C98/current/CL05/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C98::CL05";
+        dc:date                "2006-03-07 08:56:00.0";
+        dc:identifier          "SDN:C98::CL05";
+        pav:authoredOn         "2006-03-07 08:56:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C98/current/CL05/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Instruments";
+        skos:definition        "Term lists concerned with instrumentation or methodology used to obtain data."@en;
+        skos:notation          "SDN:C98::CL05";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Data production tools"@en .
+
+<http://vocab.nerc.ac.uk/collection/C98/current/CL15/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C98::CL15";
+        dc:date                "2008-11-24 14:19:14.0";
+        dc:identifier          "SDN:C98::CL15";
+        pav:authoredOn         "2008-11-24 14:19:14.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C98/current/CL15/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ESEAS vocabularies";
+        skos:definition        "Vocabulary lists used to support the ESEAS sea level data portal"@en;
+        skos:notation          "SDN:C98::CL15";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ESEAS portal support vocabularies"@en .
+
+<http://vocab.nerc.ac.uk/collection/C98/current/CL03/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C98::CL03";
+        dc:date                "2006-03-07 08:56:00.0";
+        dc:identifier          "SDN:C98::CL03";
+        pav:authoredOn         "2006-03-07 08:56:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C98/current/CL03/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Security";
+        skos:definition        "Term lists concerned with the identification of individuals and their access rights to BODC-controlled assets including data sets, documents, web pages and services."@en;
+        skos:notation          "SDN:C98::CL03";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "BODC authentication and authorisation"@en .
+
+<http://vocab.nerc.ac.uk/collection/C98/current/CL17/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C98::CL17";
+        dc:date                "2013-08-22 08:51:59.0";
+        dc:identifier          "SDN:C98::CL17";
+        pav:authoredOn         "2013-08-22 08:51:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C98/current/CL17/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "MEDIN vocabularies";
+        skos:definition        "All vocabulary lists deemed to be of interest to the activities of the Marine Environmental Data and Information network. Includes, but is not restricted to, vocabularies under MEDIN governance."@en;
+        skos:notation          "SDN:C98::CL17";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "MEDIN controlled vocabularies"@en .
+
+<http://vocab.nerc.ac.uk/collection/C98/current/CL13/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C98::CL13";
+        dc:date                "2007-11-28 10:38:18.0";
+        dc:identifier          "SDN:C98::CL13";
+        pav:authoredOn         "2007-11-28 10:38:18.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C98/current/CL13/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C98/current/CL13/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "NDG Vocabularies";
+        skos:definition        "All vocabulary lists deemed to be of interest to the NERC DataGrid Project"@en;
+        skos:notation          "SDN:C98::CL13";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "NERC DataGrid Controlled Vocabularies"@en .
+
+<http://vocab.nerc.ac.uk/collection/C98/current/CL01/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C98::CL01";
+        dc:date                "2006-03-07 08:56:00.0";
+        dc:identifier          "SDN:C98::CL01";
+        pav:authoredOn         "2006-03-07 08:56:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C98/current/CL01/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Semantic Model";
+        skos:definition        "Term lists constraining components of the semantic model used to BODC to describe phenomena."@en;
+        skos:notation          "SDN:C98::CL01";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "BODC Parameter Semantic Model"@en .
+
+<http://vocab.nerc.ac.uk/collection/C98/current/CL09/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C98::CL09";
+        dc:date                "2006-03-07 08:56:00.0";
+        dc:identifier          "SDN:C98::CL09";
+        pav:authoredOn         "2006-03-07 08:56:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C98/current/CL09/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Platforms";
+        skos:definition        "Term lists concerned with platforms and stations around which data collection activities are organised."@en;
+        skos:notation          "SDN:C98::CL09";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Data collection platforms and observation stations"@en .
+
+<http://vocab.nerc.ac.uk/collection/C98/current/CL20/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C98::CL20";
+        dc:date                "2026-04-01 17:41:15.0";
+        dc:identifier          "SDN:C98::CL20";
+        pav:authoredOn         "2026-04-01 17:41:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C98/current/CL20/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "EDS vocabularies";
+        skos:definition        "All vocabulary lists deemed to be of interest to the EDS activities. Includes, but is not restricted to, vocabularies under the EDS."@en;
+        skos:notation          "SDN:C98::CL20";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "EDS controlled vocabularies"@en .
+
+<http://vocab.nerc.ac.uk/collection/C98/current/CL08/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C98::CL08";
+        dc:date                "2006-03-07 08:56:00.0";
+        dc:identifier          "SDN:C98::CL08";
+        pav:authoredOn         "2006-03-07 08:56:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C98/current/CL08/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Spatio-temporal";
+        skos:definition        "Terms associated with absolute or descriptive 3-dimensional geographic location or with time."@en;
+        skos:notation          "SDN:C98::CL08";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Geographic location (3D) and time"@en .
+
+<http://vocab.nerc.ac.uk/collection/C98/current/CL18/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C98::CL18";
+        dc:date                "2020-04-04 15:54:00.0";
+        dc:identifier          "SDN:C98::CL18";
+        pav:authoredOn         "2020-04-04 15:54:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C98/current/CL18/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Argo vocabularies";
+        skos:definition        "All vocabulary lists deemed to be of interest to the Argo programme. Includes, but is not restricted to, vocabularies under the Argo Data Management Team governance."@en;
+        skos:notation          "SDN:C98::CL18";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Argo controlled vocabularies"@en .
+
+<http://vocab.nerc.ac.uk/collection/C98/current/CL19/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C98::CL19";
+        dc:date                "2026-04-01 17:41:07.0";
+        dc:identifier          "SDN:C98::CL19";
+        pav:authoredOn         "2026-04-01 17:41:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C98/current/CL19/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "GOOS/OceanOPS vocabularies";
+        skos:definition        "All vocabulary lists deemed to be of interest to the GOOS/OceanOPS activities. Includes, but is not restricted to, vocabularies under the GOOS/OceanOPS governance."@en;
+        skos:notation          "SDN:C98::CL19";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GOOS/OceanOPS controlled vocabularies"@en .
+
+<http://vocab.nerc.ac.uk/collection/C98/current/CL10/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C98::CL10";
+        dc:date                "2006-03-07 08:56:00.0";
+        dc:identifier          "SDN:C98::CL10";
+        pav:authoredOn         "2006-03-07 08:56:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C98/current/CL10/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "All";
+        skos:definition        "All code tables held in the BODC code table system (tables BODCCODE, BODCCDTX and BODCCDHD)"@en;
+        skos:notation          "SDN:C98::CL10";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "All BODC controlled vocabulary lists"@en .
+
+<http://vocab.nerc.ac.uk/collection/C98/current/CL07/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C98::CL07";
+        dc:date                "2006-08-25 14:26:33.0";
+        dc:identifier          "SDN:C98::CL07";
+        pav:authoredOn         "2006-08-25 14:26:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C98/current/CL07/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C98/current/CL07/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "NODB documents";
+        skos:definition        "Term lists concerned with the documents stored in the BODC NODB document management system."@en;
+        skos:notation          "SDN:C98::CL07";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "BODC NODB documentation system"@en .
+
+<http://vocab.nerc.ac.uk/collection/C98/current/CL06/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C98::CL06";
+        dc:date                "2006-03-07 08:56:00.0";
+        dc:identifier          "SDN:C98::CL06";
+        pav:authoredOn         "2006-03-07 08:56:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C98/current/CL06/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Parameters";
+        skos:definition        "Term lists concerned with the specification of the nature of measured phenomena."@en;
+        skos:notation          "SDN:C98::CL06";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Phenomenon descriptions and qualifications"@en .
+
+<http://vocab.nerc.ac.uk/collection/C98/current/CL16/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C98::CL16";
+        dc:date                "2011-08-15 09:53:05.0";
+        dc:identifier          "SDN:C98::CL16";
+        pav:authoredOn         "2011-08-15 09:53:05.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C98/current/CL16/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "NETMAR vocabularies";
+        skos:definition        "All vocabulary lists deemed to be of interest to the NETMAR FP7 project."@en;
+        skos:notation          "SDN:C98::CL16";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "NETMAR controlled vocabularies"@en .
+
+<http://vocab.nerc.ac.uk/collection/C98/current/CL11/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C98::CL11";
+        dc:date                "2006-05-02 08:18:36.0";
+        dc:identifier          "SDN:C98::CL11";
+        pav:authoredOn         "2006-05-02 08:18:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C98/current/CL11/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "All vocabulary lists associated with the BODC I18n web text display system (initially UK English but could be developed into a multi-lingual system)"@en;
+        skos:notation          "SDN:C98::CL11";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "I18n web text display system term lists"@en .
+
+<http://vocab.nerc.ac.uk/collection/C98/current/CL12/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C98::CL12";
+        dc:date                "2006-11-15 16:20:10.0";
+        dc:identifier          "SDN:C98::CL12";
+        pav:authoredOn         "2006-11-15 16:20:10.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C98/current/CL12/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C98/current/CL12/2/> , <http://vocab.nerc.ac.uk/collection/C98/current/CL12/1/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "SeaDataNet";
+        skos:definition        "All vocabulary lists deemed to be of interest to participants in the SeaDataNet project."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/V12/current/P06/> , <http://vocab.nerc.ac.uk/collection/V12/current/P07/> , <http://vocab.nerc.ac.uk/collection/V12/current/P05/> , <http://vocab.nerc.ac.uk/collection/V12/current/C17/> , <http://vocab.nerc.ac.uk/collection/V12/current/L19/> , <http://vocab.nerc.ac.uk/collection/V12/current/C35/> , <http://vocab.nerc.ac.uk/collection/V12/current/C36/> , <http://vocab.nerc.ac.uk/collection/V12/current/C37/> , <http://vocab.nerc.ac.uk/collection/V12/current/L12/> , <http://vocab.nerc.ac.uk/collection/V12/current/L13/> , <http://vocab.nerc.ac.uk/collection/V12/current/L14/> , <http://vocab.nerc.ac.uk/collection/V12/current/P08/> , <http://vocab.nerc.ac.uk/collection/V12/current/P09/> , <http://vocab.nerc.ac.uk/collection/V12/current/L02/> , <http://vocab.nerc.ac.uk/collection/V12/current/L03/> , <http://vocab.nerc.ac.uk/collection/V12/current/L26/> , <http://vocab.nerc.ac.uk/collection/V12/current/GS3/> , <http://vocab.nerc.ac.uk/collection/V12/current/P01/> , <http://vocab.nerc.ac.uk/collection/V12/current/P02/> , <http://vocab.nerc.ac.uk/collection/V12/current/V12/> , <http://vocab.nerc.ac.uk/collection/V12/current/P03/> , <http://vocab.nerc.ac.uk/collection/V12/current/GSC/> , <http://vocab.nerc.ac.uk/collection/V12/current/L15/> , <http://vocab.nerc.ac.uk/collection/V12/current/GSB/> , <http://vocab.nerc.ac.uk/collection/V12/current/C45/> , <http://vocab.nerc.ac.uk/collection/V12/current/C46/> , <http://vocab.nerc.ac.uk/collection/V12/current/C47/> , <http://vocab.nerc.ac.uk/collection/V12/current/P22/> , <http://vocab.nerc.ac.uk/collection/V12/current/L18/> , <http://vocab.nerc.ac.uk/collection/V12/current/GS8/> , <http://vocab.nerc.ac.uk/collection/V12/current/GS9/> , <http://vocab.nerc.ac.uk/collection/V12/current/C97/> , <http://vocab.nerc.ac.uk/collection/V12/current/C34/> , <http://vocab.nerc.ac.uk/collection/V12/current/L22/> , <http://vocab.nerc.ac.uk/collection/V12/current/L23/> , <http://vocab.nerc.ac.uk/collection/V12/current/L24/> , <http://vocab.nerc.ac.uk/collection/V12/current/L05/> , <http://vocab.nerc.ac.uk/collection/V12/current/L06/> , <http://vocab.nerc.ac.uk/collection/V12/current/L07/> , <http://vocab.nerc.ac.uk/collection/V12/current/C19/> , <http://vocab.nerc.ac.uk/collection/V12/current/S25/> , <http://vocab.nerc.ac.uk/collection/V12/current/L11/> , <http://vocab.nerc.ac.uk/collection/V12/current/C86/> , <http://vocab.nerc.ac.uk/collection/V12/current/C38/> , <http://vocab.nerc.ac.uk/collection/V12/current/L08/> , <http://vocab.nerc.ac.uk/collection/V12/current/L30/> , <http://vocab.nerc.ac.uk/collection/V12/current/L31/> , <http://vocab.nerc.ac.uk/collection/V12/current/C77/> , <http://vocab.nerc.ac.uk/collection/V12/current/GS4/> , <http://vocab.nerc.ac.uk/collection/V12/current/GS5/> , <http://vocab.nerc.ac.uk/collection/V12/current/GS6/> , <http://vocab.nerc.ac.uk/collection/V12/current/P04/> , <http://vocab.nerc.ac.uk/collection/V12/current/L10/> , <http://vocab.nerc.ac.uk/collection/V12/current/GSA/> , <http://vocab.nerc.ac.uk/collection/V12/current/P17/> , <http://vocab.nerc.ac.uk/collection/V12/current/L21/> , <http://vocab.nerc.ac.uk/collection/V12/current/L20/> , <http://vocab.nerc.ac.uk/collection/V12/current/C32/> , <http://vocab.nerc.ac.uk/collection/V12/current/C16/>;
+        skos:notation          "SDN:C98::CL12";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "SeaDataNet Controlled Vocabularies"@en .
+
+<http://vocab.nerc.ac.uk/collection/C98/current/CL04/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C98::CL04";
+        dc:date                "2006-03-07 08:56:00.0";
+        dc:identifier          "SDN:C98::CL04";
+        pav:authoredOn         "2006-03-07 08:56:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C98/current/CL04/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Projects and organisations";
+        skos:definition        "Term lists concerned with data collecting organisations and their data collection activities."@en;
+        skos:notation          "SDN:C98::CL04";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Projects and organisations"@en .
+
+<http://vocab.nerc.ac.uk/collection/C98/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used within the data centre";
+        dc:alternative          "VS categories";
+        dc:creator              "British Oceanographic Data Centre";
+        dc:date                 "2026-04-02 03:00:01.0";
+        dc:description          "Terms used to classify the lists held in the Vocabulary Server (formerly known as code tables) by the subject of their contents.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Vocabulary Server list subject categories";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "British Oceanographic Data Centre";
+        owl:versionInfo         "12";
+        skos:altLabel           "VS categories";
+        skos:member             <http://vocab.nerc.ac.uk/collection/C98/current/CL02/> , <http://vocab.nerc.ac.uk/collection/C98/current/CL14/> , <http://vocab.nerc.ac.uk/collection/C98/current/CL05/> , <http://vocab.nerc.ac.uk/collection/C98/current/CL15/> , <http://vocab.nerc.ac.uk/collection/C98/current/CL03/> , <http://vocab.nerc.ac.uk/collection/C98/current/CL17/> , <http://vocab.nerc.ac.uk/collection/C98/current/CL13/> , <http://vocab.nerc.ac.uk/collection/C98/current/CL01/> , <http://vocab.nerc.ac.uk/collection/C98/current/CL09/> , <http://vocab.nerc.ac.uk/collection/C98/current/CL20/> , <http://vocab.nerc.ac.uk/collection/C98/current/CL08/> , <http://vocab.nerc.ac.uk/collection/C98/current/CL18/> , <http://vocab.nerc.ac.uk/collection/C98/current/CL19/> , <http://vocab.nerc.ac.uk/collection/C98/current/CL10/> , <http://vocab.nerc.ac.uk/collection/C98/current/CL07/> , <http://vocab.nerc.ac.uk/collection/C98/current/CL06/> , <http://vocab.nerc.ac.uk/collection/C98/current/CL16/> , <http://vocab.nerc.ac.uk/collection/C98/current/CL11/> , <http://vocab.nerc.ac.uk/collection/C98/current/CL04/> , <http://vocab.nerc.ac.uk/collection/C98/current/CL12/>;
+        skos:prefLabel          "Vocabulary Server list subject categories" .

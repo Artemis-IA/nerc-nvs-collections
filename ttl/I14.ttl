@@ -1,0 +1,190 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/I14/current/riskManagement/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I14::riskManagement";
+        dc:date                "2012-05-03 14:57:14.0";
+        dc:identifier          "SDN:I14::riskManagement";
+        pav:authoredOn         "2012-05-03 14:57:14.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I14/current/riskManagement/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Activities related to risk management."@en;
+        skos:notation          "SDN:I14::riskManagement";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Risk management"@en .
+
+<http://vocab.nerc.ac.uk/collection/I14/current/plantAndAnimalHealth/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I14::plantAndAnimalHealth";
+        dc:date                "2012-05-03 14:57:14.0";
+        dc:identifier          "SDN:I14::plantAndAnimalHealth";
+        pav:authoredOn         "2012-05-03 14:57:14.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I14/current/plantAndAnimalHealth/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Activities related to protection and eradication of harmful organisms and disease related to plant and animal health."@en;
+        skos:notation          "SDN:I14::plantAndAnimalHealth";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Plant and animal health"@en .
+
+<http://vocab.nerc.ac.uk/collection/I14/current/fishingHuntingOrCollecting/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I14::fishingHuntingOrCollecting";
+        dc:date                "2012-05-03 14:57:14.0";
+        dc:identifier          "SDN:I14::fishingHuntingOrCollecting";
+        pav:authoredOn         "2012-05-03 14:57:14.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I14/current/fishingHuntingOrCollecting/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Activities related to fishing, hunting and/or collecting of flora or fauna."@en;
+        skos:notation          "SDN:I14::fishingHuntingOrCollecting";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Fishing, hunting or collecting"@en .
+
+<http://vocab.nerc.ac.uk/collection/I14/current/conservation/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I14::conservation";
+        dc:date                "2012-05-03 14:57:14.0";
+        dc:identifier          "SDN:I14::conservation";
+        pav:authoredOn         "2012-05-03 14:57:14.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I14/current/conservation/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Activities related to conservation of nature and cultural heritage."@en;
+        skos:notation          "SDN:I14::conservation";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Conservation"@en .
+
+<http://vocab.nerc.ac.uk/collection/I14/current/transportation/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I14::transportation";
+        dc:date                "2012-05-03 14:57:14.0";
+        dc:identifier          "SDN:I14::transportation";
+        pav:authoredOn         "2012-05-03 14:57:14.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I14/current/transportation/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Activities related to transportation."@en;
+        skos:notation          "SDN:I14::transportation";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Transportation"@en .
+
+<http://vocab.nerc.ac.uk/collection/I14/current/resourceManagement/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I14::resourceManagement";
+        dc:date                "2012-05-03 14:57:14.0";
+        dc:identifier          "SDN:I14::resourceManagement";
+        pav:authoredOn         "2012-05-03 14:57:14.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I14/current/resourceManagement/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Activities related to mining and extraction of materials."@en;
+        skos:notation          "SDN:I14::resourceManagement";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Resource management"@en .
+
+<http://vocab.nerc.ac.uk/collection/I14/current/landUseAndPlanning/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I14::landUseAndPlanning";
+        dc:date                "2012-05-03 14:57:14.0";
+        dc:identifier          "SDN:I14::landUseAndPlanning";
+        pav:authoredOn         "2012-05-03 14:57:14.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I14/current/landUseAndPlanning/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Activities related to land use and planning."@en;
+        skos:notation          "SDN:I14::landUseAndPlanning";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Land use and planning"@en .
+
+<http://vocab.nerc.ac.uk/collection/I14/current/environmentalPollution/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I14::environmentalPollution";
+        dc:date                "2012-05-03 14:57:14.0";
+        dc:identifier          "SDN:I14::environmentalPollution";
+        pav:authoredOn         "2012-05-03 14:57:14.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I14/current/environmentalPollution/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Activities causing environmental pollution."@en;
+        skos:notation          "SDN:I14::environmentalPollution";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Environmental pollution"@en .
+
+<http://vocab.nerc.ac.uk/collection/I14/current/agricultureAndAquaculture/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:I14::agricultureAndAquaculture";
+        dc:date                "2012-05-03 14:57:14.0";
+        dc:identifier          "SDN:I14::agricultureAndAquaculture";
+        pav:authoredOn         "2012-05-03 14:57:14.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/I14/current/agricultureAndAquaculture/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Activities related to agriculture and aquaculture."@en;
+        skos:notation          "SDN:I14::agricultureAndAquaculture";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Agriculture and aquaculture"@en .
+
+<http://vocab.nerc.ac.uk/collection/I14/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in INSPIRE spatial data infrastructure metadata";
+        dc:alternative          "INSPIRE Controlled Activity Type";
+        dc:creator              "European Commission";
+        dc:date                 "2012-05-04 02:00:04.0";
+        dc:description          "Classification of the types of activities controlled within a Management Area, Restriction or Regulation Zone.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "INSPIRE Management and Reporting Controlled Activity Type";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "European Commission";
+        owl:versionInfo         "1";
+        skos:altLabel           "INSPIRE Controlled Activity Type";
+        skos:member             <http://vocab.nerc.ac.uk/collection/I14/current/riskManagement/> , <http://vocab.nerc.ac.uk/collection/I14/current/plantAndAnimalHealth/> , <http://vocab.nerc.ac.uk/collection/I14/current/fishingHuntingOrCollecting/> , <http://vocab.nerc.ac.uk/collection/I14/current/conservation/> , <http://vocab.nerc.ac.uk/collection/I14/current/transportation/> , <http://vocab.nerc.ac.uk/collection/I14/current/resourceManagement/> , <http://vocab.nerc.ac.uk/collection/I14/current/agricultureAndAquaculture/> , <http://vocab.nerc.ac.uk/collection/I14/current/environmentalPollution/> , <http://vocab.nerc.ac.uk/collection/I14/current/landUseAndPlanning/>;
+        skos:prefLabel          "INSPIRE Management and Reporting Controlled Activity Type" .

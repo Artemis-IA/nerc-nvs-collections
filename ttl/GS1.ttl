@@ -1,0 +1,55 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/GS1/current/EarthVol/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:GS1::EarthVol";
+        dc:date                "2015-12-10 15:23:36.0";
+        dc:identifier          "SDN:GS1::EarthVol";
+        pav:authoredOn         "2015-12-10 15:23:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/GS1/current/EarthVol/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/GS1/current/EarthVol/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "The volume below the Earth's surface of interest to the exploration."@en;
+        skos:notation          "SDN:GS1::EarthVol";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "earth volume"@en .
+
+<http://vocab.nerc.ac.uk/collection/GS1/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the EU Geo-Seas project implemented as consultation between BODC and a designated group of Geo-Seas project paticipants";
+        dc:alternative          "featureOfInterest";
+        dc:creator              "Geo-Seas";
+        dc:date                 "2015-12-11 02:00:03.0";
+        dc:description          "Terms used to populate the featureOfInterest name field in the Geo-Seas data object Observations and Measurments documents.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Geo-Seas features of interest";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Geo-Seas";
+        owl:versionInfo         "2";
+        skos:altLabel           "featureOfInterest";
+        skos:member             <http://vocab.nerc.ac.uk/collection/GS1/current/EarthVol/>;
+        skos:prefLabel          "Geo-Seas features of interest" .

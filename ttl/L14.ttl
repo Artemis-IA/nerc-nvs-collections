@@ -1,0 +1,175 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/L14/current/IR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L14::IR";
+        dc:date                "2022-11-24 11:15:59.0";
+        dc:identifier          "SDN:L14::IR";
+        pav:authoredOn         "2022-11-24 11:15:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L14/current/IR/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L14/current/IR/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "suspended";
+        skos:definition        "The activity is non-operational. The intention is that operations will resume at some stage."@en;
+        skos:notation          "SDN:L14::IR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "suspended"@en .
+
+<http://vocab.nerc.ac.uk/collection/L14/current/ON/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L14::ON";
+        dc:date                "2006-08-18 14:33:02.0";
+        dc:identifier          "SDN:L14::ON";
+        pav:authoredOn         "2006-08-18 14:33:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L14/current/ON/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "operational";
+        skos:definition        "The activity is operational with no date specified for operations to cease."@en;
+        skos:notation          "SDN:L14::ON";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "operational"@en .
+
+<http://vocab.nerc.ac.uk/collection/L14/current/CA/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L14::CA";
+        dc:date                "2007-05-17 14:09:24.0";
+        dc:identifier          "SDN:L14::CA";
+        pav:authoredOn         "2007-05-17 14:09:24.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L14/current/CA/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "cancelled";
+        skos:definition        "The activity was planned but never became operational."@en;
+        skos:notation          "SDN:L14::CA";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "cancelled"@en .
+
+<http://vocab.nerc.ac.uk/collection/L14/current/ZZ/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L14::ZZ";
+        dc:date                "2006-08-18 14:33:02.0";
+        dc:identifier          "SDN:L14::ZZ";
+        pav:authoredOn         "2006-08-18 14:33:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L14/current/ZZ/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "unknown";
+        skos:definition        "The status of the activity is not known and not computable by the sender of this data."@en;
+        skos:notation          "SDN:L14::ZZ";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "unknown"@en .
+
+<http://vocab.nerc.ac.uk/collection/L14/current/OR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L14::OR";
+        dc:date                "2006-08-18 14:33:02.0";
+        dc:identifier          "SDN:L14::OR";
+        pav:authoredOn         "2006-08-18 14:33:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L14/current/OR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "operational2suspended";
+        skos:definition        "The activity is operational but a date is known when operations will cease.  The intention is that operations will resume after a period of inactivity."@en;
+        skos:notation          "SDN:L14::OR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "operational becoming suspended"@en .
+
+<http://vocab.nerc.ac.uk/collection/L14/current/PO/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L14::PO";
+        dc:date                "2006-08-18 14:33:02.0";
+        dc:identifier          "SDN:L14::PO";
+        pav:authoredOn         "2006-08-18 14:33:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L14/current/PO/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "pre-operational";
+        skos:definition        "The activity is under development and not yet in operational use."@en;
+        skos:notation          "SDN:L14::PO";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "pre-operational"@en .
+
+<http://vocab.nerc.ac.uk/collection/L14/current/OP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L14::OP";
+        dc:date                "2006-08-18 14:33:02.0";
+        dc:identifier          "SDN:L14::OP";
+        pav:authoredOn         "2006-08-18 14:33:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L14/current/OP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "operational2terminated";
+        skos:definition        "The activity is operational but a date is known when operations will cease permanently."@en;
+        skos:notation          "SDN:L14::OP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "operational becoming terminated"@en .
+
+<http://vocab.nerc.ac.uk/collection/L14/current/IA/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L14::IA";
+        dc:date                "2006-08-18 14:33:02.0";
+        dc:identifier          "SDN:L14::IA";
+        pav:authoredOn         "2006-08-18 14:33:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L14/current/IA/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "terminated";
+        skos:definition        "The activity is non-operational with no planned resumption of operation."@en;
+        skos:notation          "SDN:L14::IA";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "terminated"@en .
+
+<http://vocab.nerc.ac.uk/collection/L14/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the EU SeaDataNet project implemented as consultation between BODC and the members of the SeaDataNet Technical Task Team";
+        dc:alternative          "SDN Activity Operational Stati";
+        dc:creator              "SeaDataNet";
+        dc:date                 "2022-11-25 02:00:01.0";
+        dc:description          "Terms used to describe the operational status of data collection activities within the SeaDataNet project.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "SeaDataNet Activity Operational Stati";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "SeaDataNet";
+        owl:versionInfo         "3";
+        skos:altLabel           "SDN Activity Operational Stati";
+        skos:member             <http://vocab.nerc.ac.uk/collection/L14/current/IR/> , <http://vocab.nerc.ac.uk/collection/L14/current/ON/> , <http://vocab.nerc.ac.uk/collection/L14/current/CA/> , <http://vocab.nerc.ac.uk/collection/L14/current/ZZ/> , <http://vocab.nerc.ac.uk/collection/L14/current/OR/> , <http://vocab.nerc.ac.uk/collection/L14/current/PO/> , <http://vocab.nerc.ac.uk/collection/L14/current/IA/> , <http://vocab.nerc.ac.uk/collection/L14/current/OP/>;
+        skos:prefLabel          "SeaDataNet Activity Operational Stati" .

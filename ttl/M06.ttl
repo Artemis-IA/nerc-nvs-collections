@@ -1,0 +1,173 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/M06/current/MONRGSP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M06::MONRGSP";
+        dc:date                "2013-08-22 11:16:40.0";
+        dc:identifier          "SDN:M06::MONRGSP";
+        pav:authoredOn         "2013-08-22 11:16:40.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M06/current/MONRGSP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A process in which the well-being of one or more species in a designated area is determined repeatedly at a specified frequency."@en;
+        skos:notation          "SDN:M06::MONRGSP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Regular species monitoring programme"@en .
+
+<http://vocab.nerc.ac.uk/collection/M06/current/MONAHSE/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M06::MONAHSE";
+        dc:date                "2013-08-22 11:16:40.0";
+        dc:identifier          "SDN:M06::MONAHSE";
+        pav:authoredOn         "2013-08-22 11:16:40.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M06/current/MONAHSE/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A process in which one or more socioeconomic activity in a designated area is determined is determined once or at an irregular frequency"@en;
+        skos:notation          "SDN:M06::MONAHSE";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Occasional/Ad Hoc socioeconomic monitoring"@en .
+
+<http://vocab.nerc.ac.uk/collection/M06/current/MONRGHB/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M06::MONRGHB";
+        dc:date                "2013-08-22 11:16:40.0";
+        dc:identifier          "SDN:M06::MONRGHB";
+        pav:authoredOn         "2013-08-22 11:16:40.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M06/current/MONRGHB/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A process in which the well-being of one or more habitats in a designated area is determined repeatedly at a specified frequency."@en;
+        skos:notation          "SDN:M06::MONRGHB";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Regular habitat monitoring programme"@en .
+
+<http://vocab.nerc.ac.uk/collection/M06/current/MONAHSP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M06::MONAHSP";
+        dc:date                "2013-08-22 11:16:40.0";
+        dc:identifier          "SDN:M06::MONAHSP";
+        pav:authoredOn         "2013-08-22 11:16:40.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M06/current/MONAHSP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A process in which the well-being of one or more species in a designated area is determined is determined once or at an irregular frequency"@en;
+        skos:notation          "SDN:M06::MONAHSP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Occasional/Ad Hoc species monitoring"@en .
+
+<http://vocab.nerc.ac.uk/collection/M06/current/MONAHHB/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M06::MONAHHB";
+        dc:date                "2013-08-22 11:16:40.0";
+        dc:identifier          "SDN:M06::MONAHHB";
+        pav:authoredOn         "2013-08-22 11:16:40.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M06/current/MONAHHB/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A process in which the well-being of one or more habitats in a designated area is determined is determined once or at an irregular frequency"@en;
+        skos:notation          "SDN:M06::MONAHHB";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Occasional/Ad Hoc habitat monitoring"@en .
+
+<http://vocab.nerc.ac.uk/collection/M06/current/MONRGES/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M06::MONRGES";
+        dc:date                "2013-08-22 11:16:40.0";
+        dc:identifier          "SDN:M06::MONRGES";
+        pav:authoredOn         "2013-08-22 11:16:40.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M06/current/MONRGES/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A process in which one or more ecosystem function in a designated area is determined repeatedly at a specified frequency."@en;
+        skos:notation          "SDN:M06::MONRGES";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Regular ecosystem functionality monitoring programme"@en .
+
+<http://vocab.nerc.ac.uk/collection/M06/current/MONAHES/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M06::MONAHES";
+        dc:date                "2013-08-22 11:16:40.0";
+        dc:identifier          "SDN:M06::MONAHES";
+        pav:authoredOn         "2013-08-22 11:16:40.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M06/current/MONAHES/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A process in which one or more ecosystem function in a designated area is determined once or at an irregular frequency. "@en;
+        skos:notation          "SDN:M06::MONAHES";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Occasional/Ad Hoc ecosystem functionality monitoring"@en .
+
+<http://vocab.nerc.ac.uk/collection/M06/current/MONRGSE/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M06::MONRGSE";
+        dc:date                "2013-08-22 11:16:40.0";
+        dc:identifier          "SDN:M06::MONRGSE";
+        pav:authoredOn         "2013-08-22 11:16:40.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M06/current/MONRGSE/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A process in which one or more socioeconomic activity in a designated area is determined repeatedly at a specified frequency."@en;
+        skos:notation          "SDN:M06::MONRGSE";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Regular socioeconomic monitoring programme"@en .
+
+<http://vocab.nerc.ac.uk/collection/M06/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in MEDIN data and metadata documents";
+        dc:alternative          "MEDIN monitoring types";
+        dc:creator              "MEDIN Standards Group";
+        dc:date                 "2013-08-23 02:00:03.0";
+        dc:description          "Categories in a classification of the purpose of activities in which the state of something at different times is determined.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "MEDIN monitoring activity categories";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "MEDIN Standards Group";
+        owl:versionInfo         "1";
+        skos:altLabel           "MEDIN monitoring types";
+        skos:member             <http://vocab.nerc.ac.uk/collection/M06/current/MONRGSP/> , <http://vocab.nerc.ac.uk/collection/M06/current/MONAHSE/> , <http://vocab.nerc.ac.uk/collection/M06/current/MONRGHB/> , <http://vocab.nerc.ac.uk/collection/M06/current/MONAHSP/> , <http://vocab.nerc.ac.uk/collection/M06/current/MONAHHB/> , <http://vocab.nerc.ac.uk/collection/M06/current/MONRGSE/> , <http://vocab.nerc.ac.uk/collection/M06/current/MONAHES/> , <http://vocab.nerc.ac.uk/collection/M06/current/MONRGES/>;
+        skos:prefLabel          "MEDIN monitoring activity categories" .

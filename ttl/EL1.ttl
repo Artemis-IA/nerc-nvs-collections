@@ -1,0 +1,414 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/EL1/current/act25/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EL1::act25";
+        dc:date                "2022-12-16 10:12:44.0";
+        dc:identifier          "SDN:EL1::act25";
+        pav:authoredOn         "2022-12-16 10:12:44.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EL1/current/act25/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Equipment is released."@en;
+        skos:notation          "SDN:EL1::act25";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Released"@en .
+
+<http://vocab.nerc.ac.uk/collection/EL1/current/act2/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EL1::act2";
+        dc:date                "2022-11-27 06:33:33.0";
+        dc:identifier          "SDN:EL1::act2";
+        pav:authoredOn         "2022-11-27 06:33:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EL1/current/act2/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Finish";
+        skos:definition        "Ending of an activity (procedure, operation, process)."@en;
+        skos:notation          "SDN:EL1::act2";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "End"@en .
+
+<http://vocab.nerc.ac.uk/collection/EL1/current/act15/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EL1::act15";
+        dc:date                "2022-12-16 10:12:44.0";
+        dc:identifier          "SDN:EL1::act15";
+        pav:authoredOn         "2022-12-16 10:12:44.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EL1/current/act15/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The equipment starts its rising through a medium."@en;
+        skos:notation          "SDN:EL1::act15";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Ascend"@en .
+
+<http://vocab.nerc.ac.uk/collection/EL1/current/act4/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EL1::act4";
+        dc:date                "2022-11-27 06:52:19.0";
+        dc:identifier          "SDN:EL1::act4";
+        pav:authoredOn         "2022-11-27 06:52:19.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EL1/current/act4/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Restart";
+        skos:definition        "The activity restarts after a pause."@en;
+        skos:notation          "SDN:EL1::act4";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Resume"@en .
+
+<http://vocab.nerc.ac.uk/collection/EL1/current/act13/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EL1::act13";
+        dc:date                "2022-12-16 10:12:44.0";
+        dc:identifier          "SDN:EL1::act13";
+        pav:authoredOn         "2022-12-16 10:12:44.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EL1/current/act13/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Equipment reached the required depth."@en;
+        skos:notation          "SDN:EL1::act13";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "AtDepth"@en .
+
+<http://vocab.nerc.ac.uk/collection/EL1/current/act27/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EL1::act27";
+        dc:date                "2022-12-16 10:12:44.0";
+        dc:identifier          "SDN:EL1::act27";
+        pav:authoredOn         "2022-12-16 10:12:44.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EL1/current/act27/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Visual observation of an uncontrolled phenomenon."@en;
+        skos:notation          "SDN:EL1::act27";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sighted"@en .
+
+<http://vocab.nerc.ac.uk/collection/EL1/current/act30/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EL1::act30";
+        dc:date                "2022-12-16 10:12:44.0";
+        dc:identifier          "SDN:EL1::act30";
+        pav:authoredOn         "2022-12-16 10:12:44.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EL1/current/act30/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Equipment leaves the seabed."@en;
+        skos:notation          "SDN:EL1::act30";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "OffBottom"@en .
+
+<http://vocab.nerc.ac.uk/collection/EL1/current/act3/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EL1::act3";
+        dc:date                "2022-11-27 06:51:22.0";
+        dc:identifier          "SDN:EL1::act3";
+        pav:authoredOn         "2022-11-27 06:51:22.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EL1/current/act3/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Suspend";
+        skos:definition        "The activity is interrupted with intention to resume."@en;
+        skos:notation          "SDN:EL1::act3";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Pause"@en .
+
+<http://vocab.nerc.ac.uk/collection/EL1/current/act29/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EL1::act29";
+        dc:date                "2022-12-16 10:12:44.0";
+        dc:identifier          "SDN:EL1::act29";
+        pav:authoredOn         "2022-12-16 10:12:44.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EL1/current/act29/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Equipment is taken out of the water."@en;
+        skos:notation          "SDN:EL1::act29";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "OutWater"@en .
+
+<http://vocab.nerc.ac.uk/collection/EL1/current/act7/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EL1::act7";
+        dc:date                "2022-11-27 06:49:51.0";
+        dc:identifier          "SDN:EL1::act7";
+        pav:authoredOn         "2022-11-27 06:49:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EL1/current/act7/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The equipment has reached the bed. Terms applies to e.g. a benthic sampler or the anchor of a mooring line."@en;
+        skos:notation          "SDN:EL1::act7";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "OnBottom"@en .
+
+<http://vocab.nerc.ac.uk/collection/EL1/current/act28/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EL1::act28";
+        dc:date                "2022-12-16 10:12:44.0";
+        dc:identifier          "SDN:EL1::act28";
+        pav:authoredOn         "2022-12-16 10:12:44.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EL1/current/act28/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "OnDeck";
+        skos:definition        "Equipment back on the platform after deployment."@en;
+        skos:notation          "SDN:EL1::act28";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "OnBoard"@en .
+
+<http://vocab.nerc.ac.uk/collection/EL1/current/act31/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EL1::act31";
+        dc:date                "2022-12-16 10:12:44.0";
+        dc:identifier          "SDN:EL1::act31";
+        pav:authoredOn         "2022-12-16 10:12:44.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EL1/current/act31/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A sampler is closed (plankton net, water sampling bottle, sediment trap)."@en;
+        skos:notation          "SDN:EL1::act31";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Close"@en .
+
+<http://vocab.nerc.ac.uk/collection/EL1/current/act16/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EL1::act16";
+        dc:date                "2022-12-16 10:12:44.0";
+        dc:identifier          "SDN:EL1::act16";
+        pav:authoredOn         "2022-12-16 10:12:44.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EL1/current/act16/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Equipment enters the water."@en;
+        skos:notation          "SDN:EL1::act16";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "InWater"@en .
+
+<http://vocab.nerc.ac.uk/collection/EL1/current/act10/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EL1::act10";
+        dc:date                "2022-12-16 10:12:44.0";
+        dc:identifier          "SDN:EL1::act10";
+        pav:authoredOn         "2022-12-16 10:12:44.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EL1/current/act10/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Install";
+        skos:definition        "The equipment is prepared for deployment e.g. installation of sensors prior to actual measurements."@en;
+        skos:notation          "SDN:EL1::act10";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Setup"@en .
+
+<http://vocab.nerc.ac.uk/collection/EL1/current/act26/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EL1::act26";
+        dc:date                "2022-12-16 10:12:44.0";
+        dc:identifier          "SDN:EL1::act26";
+        pav:authoredOn         "2022-12-16 10:12:44.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EL1/current/act26/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Equipment is located (by acoustic detection or visual observation)."@en;
+        skos:notation          "SDN:EL1::act26";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Located"@en .
+
+<http://vocab.nerc.ac.uk/collection/EL1/current/act14/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EL1::act14";
+        dc:date                "2022-12-16 10:12:44.0";
+        dc:identifier          "SDN:EL1::act14";
+        pav:authoredOn         "2022-12-16 10:12:44.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EL1/current/act14/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Equipment starts its descent through a medium."@en;
+        skos:notation          "SDN:EL1::act14";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Descend"@en .
+
+<http://vocab.nerc.ac.uk/collection/EL1/current/act11/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EL1::act11";
+        dc:date                "2022-12-16 10:12:44.0";
+        dc:identifier          "SDN:EL1::act11";
+        pav:authoredOn         "2022-12-16 10:12:44.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EL1/current/act11/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Equipment failed during the operation due to malfunction."@en;
+        skos:notation          "SDN:EL1::act11";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Failure"@en .
+
+<http://vocab.nerc.ac.uk/collection/EL1/current/act8/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EL1::act8";
+        dc:date                "2022-11-27 06:57:43.0";
+        dc:identifier          "SDN:EL1::act8";
+        pav:authoredOn         "2022-11-27 06:57:43.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EL1/current/act8/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/EL1/current/act8/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "The equipment has reached its maximum depth in medium."@en;
+        skos:notation          "SDN:EL1::act8";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "AtMaxDepth"@en .
+
+<http://vocab.nerc.ac.uk/collection/EL1/current/act12/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EL1::act12";
+        dc:date                "2022-12-16 10:12:44.0";
+        dc:identifier          "SDN:EL1::act12";
+        pav:authoredOn         "2022-12-16 10:12:44.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EL1/current/act12/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Equipment is lost while being deployed."@en;
+        skos:notation          "SDN:EL1::act12";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Lost"@en .
+
+<http://vocab.nerc.ac.uk/collection/EL1/current/act23/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EL1::act23";
+        dc:date                "2022-12-16 10:12:44.0";
+        dc:identifier          "SDN:EL1::act23";
+        pav:authoredOn         "2022-12-16 10:12:44.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EL1/current/act23/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Cancel";
+        skos:definition        "The operation is aborted for some reason."@en;
+        skos:notation          "SDN:EL1::act23";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Abort"@en .
+
+<http://vocab.nerc.ac.uk/collection/EL1/current/act32/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EL1::act32";
+        dc:date                "2022-12-16 10:12:44.0";
+        dc:identifier          "SDN:EL1::act32";
+        pav:authoredOn         "2022-12-16 10:12:44.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EL1/current/act32/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A sampler is opened (plankton or fishing net)."@en;
+        skos:notation          "SDN:EL1::act32";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Open"@en .
+
+<http://vocab.nerc.ac.uk/collection/EL1/current/act1/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:EL1::act1";
+        dc:date                "2022-11-27 06:32:21.0";
+        dc:identifier          "SDN:EL1::act1";
+        pav:authoredOn         "2022-11-27 06:32:21.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/EL1/current/act1/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Begin";
+        skos:definition        "Beginning of an activity (procedure, operation, process)."@en;
+        skos:notation          "SDN:EL1::act1";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Start"@en .
+
+<http://vocab.nerc.ac.uk/collection/EL1/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Group set up under the joint auspices of the SeaDataNet project and the Intergovernmental Oceanographic Commission MarineXML Steering Group for controlled vocabulary governance in the marine domain";
+        rdfs:seeAlso            <https://github.com/nvs-vocabs/EL1>;
+        dc:alternative          "Platform Event Actions";
+        dc:creator              "SeaDataNet and MarineXML Vocabulary Content Governance Group";
+        dc:date                 "2022-12-17 02:00:01.0";
+        dc:description          "Terms used to identify actions performed on sampling and observation platforms. This vocabulary is the result of an harmonisation exercise between the Eurofleets Automatic Reporting System (EARS) ontology and the Rolling Deck to Repository (R2R) project, for research vessel event logs. The terms it contains should be applicable to any sampling or observation platforms.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "SeaVoX Sampling and Observation Platform Event Actions";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "SeaDataNet and MarineXML Vocabulary Content Governance Group";
+        owl:versionInfo         "2";
+        skos:altLabel           "Platform Event Actions";
+        skos:member             <http://vocab.nerc.ac.uk/collection/EL1/current/act25/> , <http://vocab.nerc.ac.uk/collection/EL1/current/act2/> , <http://vocab.nerc.ac.uk/collection/EL1/current/act15/> , <http://vocab.nerc.ac.uk/collection/EL1/current/act4/> , <http://vocab.nerc.ac.uk/collection/EL1/current/act13/> , <http://vocab.nerc.ac.uk/collection/EL1/current/act27/> , <http://vocab.nerc.ac.uk/collection/EL1/current/act30/> , <http://vocab.nerc.ac.uk/collection/EL1/current/act3/> , <http://vocab.nerc.ac.uk/collection/EL1/current/act29/> , <http://vocab.nerc.ac.uk/collection/EL1/current/act7/> , <http://vocab.nerc.ac.uk/collection/EL1/current/act28/> , <http://vocab.nerc.ac.uk/collection/EL1/current/act31/> , <http://vocab.nerc.ac.uk/collection/EL1/current/act16/> , <http://vocab.nerc.ac.uk/collection/EL1/current/act10/> , <http://vocab.nerc.ac.uk/collection/EL1/current/act26/> , <http://vocab.nerc.ac.uk/collection/EL1/current/act14/> , <http://vocab.nerc.ac.uk/collection/EL1/current/act11/> , <http://vocab.nerc.ac.uk/collection/EL1/current/act8/> , <http://vocab.nerc.ac.uk/collection/EL1/current/act12/> , <http://vocab.nerc.ac.uk/collection/EL1/current/act23/> , <http://vocab.nerc.ac.uk/collection/EL1/current/act32/> , <http://vocab.nerc.ac.uk/collection/EL1/current/act1/>;
+        skos:prefLabel          "SeaVoX Sampling and Observation Platform Event Actions" .

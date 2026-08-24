@@ -1,0 +1,2322 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/BBP880/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::BBP880";
+        dc:date                "2022-03-28 16:25:57.0";
+        dc:identifier          "SDN:OG1::BBP880";
+        pav:authoredOn         "2022-03-28 16:25:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/BBP880/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "BBP880";
+        skos:definition        "Particle backscattering at 880 nanometers."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/BB117IIR/>;
+        skos:notation          "SDN:OG1::BBP880";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Particle backscattering at 880 nanometers"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPRM/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/DPAR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::DPAR";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::DPAR";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/DPAR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "DOWNWELLING_PAR";
+        skos:definition        "Downwelling vector irradiance as energy of electromagnetic radiation (PAR wavelengths) in the water body by cosine-collector radiometer."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/DWIRRXUD/> , <http://vocab.nerc.ac.uk/collection/P01/current/IRRDPP01/>;
+        skos:notation          "SDN:OG1::DPAR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Downwelling photosynthetic available radiation"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UMES/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/BBP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::BBP";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::BBP";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/BBP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "BBP";
+        skos:definition        "Particle backscattering at a specified optical wavelength."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/BSXXXVSF/>;
+        skos:notation          "SDN:OG1::BBP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Particle backscattering at x nanometers"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPRM/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/PPOXDOXY/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::PPOXDOXY";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::PPOXDOXY";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/PPOXDOXY/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "PPOX_DOXY";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/PPOXZZ01/>;
+        skos:definition        "The pressure that the oxygen component of an atmosphere sample would have if it alone occupied the same volume at the same temperature as the sample."@en;
+        skos:notation          "SDN:OG1::PPOXDOXY";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Partial pressure of oxygen"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPBB/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/REDOX_POTENTIAL_CORR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::REDOX_POTENTIAL_CORR";
+        dc:date                "2026-05-22 13:48:07.0";
+        dc:identifier          "SDN:OG1::REDOX_POTENTIAL_CORR";
+        pav:authoredOn         "2026-05-22 13:48:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/REDOX_POTENTIAL_CORR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/RPTWBHE1/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "REDOX_CORR";
+        skos:definition        "A measure of the tendency of the water body to either gain or lose electrons in a reaction. The redox measurement is referenced against a Standard Hydrogen Electrode and can be referred to as Eh."@en;
+        skos:notation          "SDN:OG1::REDOX_POTENTIAL_CORR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Redox potential relative to Standard Hydrogen Electrode (SHE)"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUMV/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/CNDC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::CNDC";
+        dc:date                "2026-05-21 15:20:22.0";
+        dc:identifier          "SDN:OG1::CNDC";
+        pav:authoredOn         "2026-05-21 15:20:22.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/CNDC/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/CNDC/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/CNDCZZ01/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "CNDC";
+        skos:definition        "Electrical conductivity of the water body."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/CNDCST01/>;
+        skos:notation          "SDN:OG1::CNDC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Electrical conductivity"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UECA/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/BETA880/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::BETA880";
+        dc:date                "2019-08-12 14:13:17.0";
+        dc:identifier          "SDN:OG1::BETA880";
+        pav:authoredOn         "2019-08-12 14:13:17.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/BETA880/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/BVSFO880/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "BETA_BACKSCATTERING880";
+        skos:definition        "Total angle specific volume from backscattering sensor at 880 nanometers."@en;
+        skos:notation          "SDN:OG1::BETA880";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Total angle specific volume from backscattering sensor at 880 nanometers"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/PMSR/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/ED412/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::ED412";
+        dc:date                "2024-07-30 13:34:16.0";
+        dc:identifier          "SDN:OG1::ED412";
+        pav:authoredOn         "2024-07-30 13:34:16.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/ED412/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/ED412/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/RXUD412E/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "DOWN_IRRADIANCE412";
+        skos:definition        "The vertical component of light at 412nm wavelength travelling downwards."@en;
+        skos:notation          "SDN:OG1::ED412";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Downwelling irradiance at 412 nanometers"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UWNM/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/BETA650/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::BETA650";
+        dc:date                "2019-08-12 14:13:17.0";
+        dc:identifier          "SDN:OG1::BETA650";
+        pav:authoredOn         "2019-08-12 14:13:17.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/BETA650/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/BVSFO650/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "BETA_BACKSCATTERING650";
+        skos:definition        "Total angle specific volume from backscattering sensor at 650 nanometers."@en;
+        skos:notation          "SDN:OG1::BETA650";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Total angle specific volume from backscattering sensor at 650 nanometers"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/PMSR/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/WCUR_X/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::WCUR_X";
+        dc:date                "2025-04-11 12:17:27.0";
+        dc:identifier          "SDN:OG1::WCUR_X";
+        pav:authoredOn         "2025-04-11 12:17:27.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/WCUR_X/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/WCUR_X/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/LCEWZZ01/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "WATERCURRENTS_U";
+        skos:definition        "The depth-averaged current in the x-axis using dead reckoning between two surfacings."@en;
+        skos:notation          "SDN:OG1::WCUR_X";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Eastward current velocity in the water body"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UVBB/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/ED443/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::ED443";
+        dc:date                "2024-07-30 13:34:16.0";
+        dc:identifier          "SDN:OG1::ED443";
+        pav:authoredOn         "2024-07-30 13:34:16.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/ED443/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/ED443/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/RXUD443E/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "DOWN_IRRADIANCE443";
+        skos:definition        "The vertical component of light at 443nm wavelength travelling downwards."@en;
+        skos:notation          "SDN:OG1::ED443";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Downwelling irradiance at 443 nanometers"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UWNM/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/BETABBP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::BETABBP";
+        dc:date                "2025-07-07 10:59:57.0";
+        dc:identifier          "SDN:OG1::BETABBP";
+        pav:authoredOn         "2025-07-07 10:59:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/BETABBP/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/BETABBP/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/BVSFOXXX/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "BETA_BACKSCATTERING";
+        skos:definition        "Total angle specific volume from backscattering sensor at unspecified wavelength."@en;
+        skos:notation          "SDN:OG1::BETABBP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Total angle specific volume from backscattering sensor at x nanometers"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/PMSR/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/PRES/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::PRES";
+        dc:date                "2018-05-31 16:35:24.0";
+        dc:identifier          "SDN:OG1::PRES";
+        pav:authoredOn         "2018-05-31 16:35:24.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/PRES/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "PRES";
+        skos:definition        "Pressure (spatial co-ordinate) exerted by the water body by profiling pressure sensor and corrected to read zero at sea level"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/PRESPR01/>;
+        skos:notation          "SDN:OG1::PRES";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sea water pressure, equals 0 at sea-level"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPDB/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/LON_GPS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::LON_GPS";
+        dc:date                "2024-09-09 09:06:07.0";
+        dc:identifier          "SDN:OG1::LON_GPS";
+        pav:authoredOn         "2024-09-09 09:06:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/LON_GPS/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/LON_GPS/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/ALONGP01/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "LONGITUDE_GPS";
+        skos:definition        "Longitude east by unspecified GPS system."@en;
+        skos:notation          "SDN:OG1::LON_GPS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GPS fixed longitude"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/DEGE/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/BBP700/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::BBP700";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::BBP700";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/BBP700/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "BBP700";
+        skos:definition        "Particle backscattering at 700 nanometers."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/BB117NIR/>;
+        skos:notation          "SDN:OG1::BBP700";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Particle backscattering at 700 nanometers"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPRM/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/RELVBD/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::RELVBD";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::RELVBD";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/RELVBD/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/VBDRCF01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "GLIDER_RELATIVE_VBD";
+        skos:definition        "The difference between the volume of the internal variable buoyancy device (VBD) on a glider and the volume of the VBD that would maintain neutral buoyancy. If values are positive then the glider rises in the water."@en;
+        skos:notation          "SDN:OG1::RELVBD";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Setting (volume offset from neutrally buoyant) of glider variable buoyancy device"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/VVCC/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/OIL_VOL/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::OIL_VOL";
+        dc:date                "2025-04-11 12:56:00.0";
+        dc:identifier          "SDN:OG1::OIL_VOL";
+        pav:authoredOn         "2025-04-11 12:56:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/OIL_VOL/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/VOLCHA01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "OIL_VOL";
+        skos:definition        "The volume of oil in the external reservoir of the platform. A positive change in OIL_VOL represents moving oil from the internal reservoir (within the pressure casing) to the external reservoir, increasing the total volume of the platform."@en;
+        skos:notation          "SDN:OG1::OIL_VOL";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Oil volume in the measurement platform"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/VVCC/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/PRES_ENG/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::PRES_ENG";
+        dc:date                "2025-04-11 12:55:58.0";
+        dc:identifier          "SDN:OG1::PRES_ENG";
+        pav:authoredOn         "2025-04-11 12:55:58.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/PRES_ENG/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/PRESAUV1/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "PRES_ENG";
+        skos:definition        "Pressure (spatial co-ordinate) exerted by the water body by non temperature compensated platform pressure sensor and corrected to read zero at sea level."@en;
+        skos:notation          "SDN:OG1::PRES_ENG";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sea water pressure, equals 0 at sea-level by non temperature compensated platform pressure sensor"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPDB/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/BETA470/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::BETA470";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::BETA470";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/BETA470/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/BVSFO470/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "BETA_BACKSCATTERING470";
+        skos:definition        "Total angle specific volume from backscattering sensor at 470 nanometers."@en;
+        skos:notation          "SDN:OG1::BETA470";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Total angle specific volume from backscattering sensor at 470 nanometers"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/PMSR/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/WCUR_Y/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::WCUR_Y";
+        dc:date                "2025-04-11 12:17:27.0";
+        dc:identifier          "SDN:OG1::WCUR_Y";
+        pav:authoredOn         "2025-04-11 12:17:27.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/WCUR_Y/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/WCUR_Y/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/LCNSZZ01/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "WATERCURRENTS_V";
+        skos:definition        "The depth-averaged current in the y-axis using dead reckoning between two surfacings."@en;
+        skos:notation          "SDN:OG1::WCUR_Y";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Northward current velocity in the water body"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UVBB/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/ED655/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::ED655";
+        dc:date                "2024-07-31 15:21:42.0";
+        dc:identifier          "SDN:OG1::ED655";
+        pav:authoredOn         "2024-07-31 15:21:42.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/ED655/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/RXUD655E/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "DOWN_IRRADIANCE655";
+        skos:definition        "The vertical component of light at 655nm wavelength travelling downwards."@en;
+        skos:notation          "SDN:OG1::ED655";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Downwelling irradiance at 655 nanometers"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UWNM/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/LAT/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::LAT";
+        dc:date                "2024-09-09 09:06:07.0";
+        dc:identifier          "SDN:OG1::LAT";
+        pav:authoredOn         "2024-09-09 09:06:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/LAT/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/LAT/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "LATITUDE";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/ALATZZ01/>;
+        skos:definition        "Latitude north."@en;
+        skos:notation          "SDN:OG1::LAT";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Latitude north"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/DEGN/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/BBP470/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::BBP470";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::BBP470";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/BBP470/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "BBP470";
+        skos:definition        "Particle backscattering at 470 nanometers."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/BB117B01/>;
+        skos:notation          "SDN:OG1::BBP470";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Particle backscattering at 470 nanometers"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPRM/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/ED555/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::ED555";
+        dc:date                "2024-07-30 13:34:16.0";
+        dc:identifier          "SDN:OG1::ED555";
+        pav:authoredOn         "2024-07-30 13:34:16.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/ED555/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/ED555/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/RXUD555E/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "DOWN_IRRADIANCE555";
+        skos:definition        "The vertical component of light at 555nm wavelength travelling downwards."@en;
+        skos:notation          "SDN:OG1::ED555";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Downwelling irradiance at 555 nanometers"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UWNM/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/BETA532/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::BETA532";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::BETA532";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/BETA532/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/BVSFO532/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "BETA_BACKSCATTERING532";
+        skos:definition        "Total angle specific volume from backscattering sensor at 532 nanometers."@en;
+        skos:notation          "SDN:OG1::BETA532";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Total angle specific volume from backscattering sensor at 532 nanometers"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/PMSR/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/PHASE/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::PHASE";
+        dc:date                "2026-05-01 11:18:39.0";
+        dc:identifier          "SDN:OG1::PHASE";
+        pav:authoredOn         "2026-05-01 11:18:39.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/PHASE/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/PHASE/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "PHASE";
+        skos:definition        "Derived from the glider's engineering state, glider phase reflects the state of glider behaviour. Accepted values range from 0 - 5, with the definitions available at: https://github.com/OceanGlidersCommunity/OG-format-user-manual/blob/main/vocabularyCollection/phase_translation_tables.md."@en;
+        skos:notation          "SDN:OG1::PHASE";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Identifier of glider phase"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/XXXX/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/PRES2/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::PRES2";
+        dc:date                "2026-05-21 15:24:05.0";
+        dc:identifier          "SDN:OG1::PRES2";
+        pav:authoredOn         "2026-05-21 15:24:05.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/PRES2/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/PRESPR02/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "PRES2";
+        skos:definition        "Pressure (spatial co-ordinate) exerted by the water body measured by a second profiling pressure sensor and corrected to read zero at sea level."@en;
+        skos:notation          "SDN:OG1::PRES2";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sea water pressure, equals 0 at sea-level (second sensor)"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPDB/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/TIMEYO/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::TIMEYO";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::TIMEYO";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/TIMEYO/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "TIME_FROM_YO_START";
+        skos:definition        "Time elapsed since since start of glider yo."@en;
+        skos:notation          "SDN:OG1::TIMEYO";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Time elapsed since since start of glider yo"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UTBB/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/ED/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::ED";
+        dc:date                "2024-07-30 13:34:16.0";
+        dc:identifier          "SDN:OG1::ED";
+        pav:authoredOn         "2024-07-30 13:34:16.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/ED/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/ED/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "DOWN_IRRADIANCE";
+        skos:definition        "The vertical component of light at the specified wavelength travelling downwards."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/DWIRXXED/>;
+        skos:notation          "SDN:OG1::ED";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Downwelling irradiance at x nanometers"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UWNM/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/VLTDOXY/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::VLTDOXY";
+        dc:date                "2018-06-01 13:09:02.0";
+        dc:identifier          "SDN:OG1::VLTDOXY";
+        pav:authoredOn         "2018-06-01 13:09:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/VLTDOXY/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "VOLTAGE_DOXY";
+        skos:definition        "The raw output from a dissolved oxygen sensor such as an SBE43 with output as a voltage related to DO concentration."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/OXYOCPVL/>;
+        skos:notation          "SDN:OG1::VLTDOXY";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Voltage reported by oxygen sensor"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UVLT/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/LAT_GPS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::LAT_GPS";
+        dc:date                "2024-09-09 09:06:07.0";
+        dc:identifier          "SDN:OG1::LAT_GPS";
+        pav:authoredOn         "2024-09-09 09:06:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/LAT_GPS/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/LAT_GPS/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/ALATGP01/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "LATITUDE_GPS";
+        skos:definition        "Latitude north by unspecified GPS system."@en;
+        skos:notation          "SDN:OG1::LAT_GPS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GPS fixed latitude"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/DEGN/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/CPITMPOS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::CPITMPOS";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::CPITMPOS";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/CPITMPOS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/PTCHCF01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "CONFIGURED_GLIDER_PITCH_MASS_POSITION";
+        skos:definition        "The distance of a glider's internal pitch mass from the position that would maintain neutral pitch (Positive nose up)."@en;
+        skos:notation          "SDN:OG1::CPITMPOS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Setting (offset distance from neutral) of glider pitchmass"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/ULCM/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/TIMEDF/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::TIMEDF";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::TIMEDF";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/TIMEDF/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "TIME_SINCE_MIDNIGHT_OF_CURRENT_DAY";
+        skos:definition        "Time elapsed since since start of day."@en;
+        skos:notation          "SDN:OG1::TIMEDF";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Time elapsed since since start of day"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UTBB/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/ED532/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::ED532";
+        dc:date                "2024-08-22 14:14:14.0";
+        dc:identifier          "SDN:OG1::ED532";
+        pav:authoredOn         "2024-08-22 14:14:14.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/ED532/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/RXUD532E/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "DOWN_IRRADIANCE532";
+        skos:definition        "The vertical component of light at 532nm wavelength travelling downwards."@en;
+        skos:notation          "SDN:OG1::ED532";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Downwelling irradiance at 532 nanometers"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UWNM/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/ED490/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::ED490";
+        dc:date                "2024-07-30 13:34:16.0";
+        dc:identifier          "SDN:OG1::ED490";
+        pav:authoredOn         "2024-07-30 13:34:16.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/ED490/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/ED490/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/RXUD490E/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "DOWN_IRRADIANCE490";
+        skos:definition        "The vertical component of light at 490nm wavelength travelling downwards."@en;
+        skos:notation          "SDN:OG1::ED490";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Downwelling irradiance at 490 nanometers"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UWNM/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/BETA700/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::BETA700";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::BETA700";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/BETA700/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/BVSFO700/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "BETA_BACKSCATTERING700";
+        skos:definition        "Total angle specific volume from backscattering sensor at 700 nanometers."@en;
+        skos:notation          "SDN:OG1::BETA700";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Total angle specific volume from backscattering sensor at 700 nanometers"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/PMSR/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/PPDOXY/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::PPDOXY";
+        dc:date                "2022-03-28 16:25:57.0";
+        dc:identifier          "SDN:OG1::PPDOXY";
+        pav:authoredOn         "2022-03-28 16:25:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/PPDOXY/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/PO2XXXXX/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "PP_DOXY";
+        skos:definition        "The partial pressure of oxygen in air in equilibrium with a water sample."@en;
+        skos:notation          "SDN:OG1::PPDOXY";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Partial pressure of oxygen in the water body"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPBB/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/MOLDOXY/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::MOLDOXY";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::MOLDOXY";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/MOLDOXY/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/DOXYMMOP/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "MOLAR_DOXY";
+        skos:definition        "Water body dissolved oxygen concentration expressed at zero rather than in-situ salinity. This is NOT an environment state variable."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/DOXYAAOP/>;
+        skos:notation          "SDN:OG1::MOLDOXY";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Uncompensated (pressure and salinity) oxygen concentration reported by the oxygen sensor"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/MMPL/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/PHDEDOXY/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::PHDEDOXY";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::PHDEDOXY";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/PHDEDOXY/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/OXYOPH01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "PHASE_DELAY_DOXY";
+        skos:definition        "Phase delay reported by oxygen sensor."@en;
+        skos:notation          "SDN:OG1::PHDEDOXY";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Phase delay reported by oxygen sensor"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/USEC/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/TVLTDOXY/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::TVLTDOXY";
+        dc:date                "2018-04-23 16:53:35.0";
+        dc:identifier          "SDN:OG1::TVLTDOXY";
+        pav:authoredOn         "2018-04-23 16:53:35.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/TVLTDOXY/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/TCNTOPTT/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "TEMP_VOLTAGE_DOXY";
+        skos:definition        "Voltage of instrument output by in-situ thermistor"@en;
+        skos:notation          "SDN:OG1::TVLTDOXY";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Thermistor voltage reported by oxygen sensor"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UVLT/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/NCNTTUR1/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::NCNTTUR1";
+        dc:date                "2018-06-26 10:19:15.0";
+        dc:identifier          "SDN:OG1::NCNTTUR1";
+        pav:authoredOn         "2018-06-26 10:19:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/NCNTTUR1/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SIDE_SCATTERING_TURBIDITY";
+        skos:definition        "Turbidity signal from side scattering sensor."@en;
+        skos:notation          "SDN:OG1::NCNTTUR1";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Turbidity signal from side scattering sensor"@en .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/BBP650/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::BBP650";
+        dc:date                "2021-06-24 15:50:19.0";
+        dc:identifier          "SDN:OG1::BBP650";
+        pav:authoredOn         "2021-06-24 15:50:19.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/BBP650/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "BBP650";
+        skos:definition        "Particle backscattering at 650 nanometers."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/BB117R02/>;
+        skos:notation          "SDN:OG1::BBP650";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Particle backscattering at 650 nanometers"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPRM/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/CNDC2/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::CNDC2";
+        dc:date                "2026-05-21 15:24:03.0";
+        dc:identifier          "SDN:OG1::CNDC2";
+        pav:authoredOn         "2026-05-21 15:24:03.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/CNDC2/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/CNDCPR02/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "CNDC2";
+        skos:definition        "Electrical conductivity of the water body measured by a second sensor."@en;
+        skos:notation          "SDN:OG1::CNDC2";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Electrical conductivity (second sensor)"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UECA/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/TIME/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::TIME";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::TIME";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/TIME/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/ELTMEP01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "TIME";
+        skos:definition        "Time elapsed since 1970-01-01T00:00:00Z."@en;
+        skos:notation          "SDN:OG1::TIME";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "epoch time (glider)"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UTBB/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/CDOM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::CDOM";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::CDOM";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/CDOM/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "CDOM";
+        skos:definition        "The quantity of coloured organic compounds in solution in unit volume of any body of water."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/CCOMD002/>;
+        skos:notation          "SDN:OG1::CDOM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Concentration of coloured dissolved organic matter in sea water"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPPB/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/PHYCOCYANIN/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::PHYCOCYANIN";
+        dc:date                "2024-10-21 15:11:44.0";
+        dc:identifier          "SDN:OG1::PHYCOCYANIN";
+        pav:authoredOn         "2024-10-21 15:11:44.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/PHYCOCYANIN/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/PHYCSPP6/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "PHYCOCYANIN";
+        skos:definition        "Phycocyanin concentration per unit volume of fresh or salt water."@en;
+        skos:notation          "SDN:OG1::PHYCOCYANIN";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Concentration of phycocyanin by fluorometer"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UNGL/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/BBP412/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::BBP412";
+        dc:date                "2022-03-28 16:25:57.0";
+        dc:identifier          "SDN:OG1::BBP412";
+        pav:authoredOn         "2022-03-28 16:25:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/BBP412/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "BBP412";
+        skos:definition        "Particle backscattering at 412 nanometers."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/BB117V01/>;
+        skos:notation          "SDN:OG1::BBP412";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Particle backscattering at 412 nanometers"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPRM/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/TURB/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::TURB";
+        dc:date                "2018-06-26 10:19:15.0";
+        dc:identifier          "SDN:OG1::TURB";
+        pav:authoredOn         "2018-06-26 10:19:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/TURB/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "TURBIDITY";
+        skos:definition        "Estimate of suspended sediment concentration based on the proportion of a light transmission in the water column that is reflected back to a co-located receiver."@en;
+        skos:notation          "SDN:OG1::TURB";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Turbidity of water in the water body"@en .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/FREQDOXY/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::FREQDOXY";
+        dc:date                "2018-06-01 13:09:02.0";
+        dc:identifier          "SDN:OG1::FREQDOXY";
+        pav:authoredOn         "2018-06-01 13:09:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/FREQDOXY/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/OXYOCPFR/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "FREQUENCY_DOXY";
+        skos:definition        "The raw output from a dissolved oxygen sensor such as an SBE43 with output as a frequency related to DO concentration."@en;
+        skos:notation          "SDN:OG1::FREQDOXY";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Frequency reported by oxygen sensor"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UTHZ/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/PH_IN_SITU_TOTAL/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::PH_IN_SITU_TOTAL";
+        dc:date                "2026-05-21 16:38:22.0";
+        dc:identifier          "SDN:OG1::PH_IN_SITU_TOTAL";
+        pav:authoredOn         "2026-05-21 16:38:22.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/PH_IN_SITU_TOTAL/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/PHXXPR01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "PH_TOTAL";
+        skos:definition        "pH of the water body measured on the total scale (pH based on concentrations of the free proton and the proton associated with SO4 2-)."@en;
+        skos:notation          "SDN:OG1::PH_IN_SITU_TOTAL";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "pH (total scale) of the water body"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUPH/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/BBP715/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::BBP715";
+        dc:date                "2022-03-28 16:25:57.0";
+        dc:identifier          "SDN:OG1::BBP715";
+        pav:authoredOn         "2022-03-28 16:25:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/BBP715/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "BBP715";
+        skos:definition        "Particle backscattering at 715 nanometers."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/BB117R03/>;
+        skos:notation          "SDN:OG1::BBP715";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Particle backscattering at 715 nanometers"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPRM/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/LON/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::LON";
+        dc:date                "2024-09-09 09:06:07.0";
+        dc:identifier          "SDN:OG1::LON";
+        pav:authoredOn         "2024-09-09 09:06:07.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/LON/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/LON/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "LONGITUDE";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/ALONZZ01/>;
+        skos:definition        "Longitude east."@en;
+        skos:notation          "SDN:OG1::LON";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Longitude east"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/DEGE/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/PHYC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::PHYC";
+        dc:date                "2024-09-09 11:28:54.0";
+        dc:identifier          "SDN:OG1::PHYC";
+        pav:authoredOn         "2024-09-09 11:28:54.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/PHYC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/PHYCSPP5/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "PHYCOERYTHRIN";
+        skos:definition        "Phycoerythrin concentration per unit volume of fresh or salt water."@en;
+        skos:notation          "SDN:OG1::PHYC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Concentration of phycoerythrin by fluorometer"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UNGL/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/BBP532/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::BBP532";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::BBP532";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/BBP532/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "BBP532";
+        skos:definition        "Particle backscattering at 532 nanometers."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/BB117G01/>;
+        skos:notation          "SDN:OG1::BBP532";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Particle backscattering at 532 nanometers"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPRM/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/FDOM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::FDOM";
+        dc:date                "2024-09-09 11:33:13.0";
+        dc:identifier          "SDN:OG1::FDOM";
+        pav:authoredOn         "2024-09-09 11:33:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/FDOM/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/QSCDOMX1/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "FDOM";
+        skos:definition        "The quantity of the optically measurable component of coloured (chromophoric) dissolved organic matter (CDOM) that fluoresces when excited with near ultra-violet (UV) light, measured in a unit volume of salt water by calibration against a quinine sulphate proxy. Often referred to as fluorescent dissolved organic matter (FDOM) when expressed as quinine sulphate equivalent."@en;
+        skos:notation          "SDN:OG1::FDOM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Concentration of coloured dissolved organic matter expressed as quinine sulphate equivalent (FDOM) in seawater"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPPB/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/ED380/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::ED380";
+        dc:date                "2024-07-30 13:34:16.0";
+        dc:identifier          "SDN:OG1::ED380";
+        pav:authoredOn         "2024-07-30 13:34:16.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/ED380/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/ED380/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/RXUD380E/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "DOWN_IRRADIANCE380";
+        skos:definition        "The vertical component of light at 380nm wavelength travelling downwards."@en;
+        skos:notation          "SDN:OG1::ED380";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Downwelling irradiance at 380 nanometers"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UWNM/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/THETA/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::THETA";
+        dc:date                "2020-07-20 16:06:56.0";
+        dc:identifier          "SDN:OG1::THETA";
+        pav:authoredOn         "2020-07-20 16:06:56.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/THETA/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/THETA/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/POTMCV01/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "THETA";
+        skos:definition        "Potential temperature of the water body by computation using UNESCO 1983 algorithm."@en;
+        skos:notation          "SDN:OG1::THETA";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sea water potential temperature"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/TEMP2/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::TEMP2";
+        dc:date                "2026-05-21 15:24:02.0";
+        dc:identifier          "SDN:OG1::TEMP2";
+        pav:authoredOn         "2026-05-21 15:24:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/TEMP2/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/TEMPZZ02/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "TEMP2";
+        skos:definition        "Temperature of the water body expressed against the International Temperature Scale 1990 (ITS-90), measured by a second sensor."@en;
+        skos:notation          "SDN:OG1::TEMP2";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sea temperature in-situ ITS-90 scale (second sensor)"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/TEMP_CNDC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::TEMP_CNDC";
+        dc:date                "2022-09-09 15:42:29.0";
+        dc:identifier          "SDN:OG1::TEMP_CNDC";
+        pav:authoredOn         "2022-09-09 15:42:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/TEMP_CNDC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/TMESCNDC/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "TEMP_CNDC";
+        skos:definition        "Internal temperature (degC) of the conductivity cell."@en;
+        skos:notation          "SDN:OG1::TEMP_CNDC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Internal temperature of the conductivity cell"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/TEMPDOXY/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::TEMPDOXY";
+        dc:date                "2018-06-01 13:09:02.0";
+        dc:identifier          "SDN:OG1::TEMPDOXY";
+        pav:authoredOn         "2018-06-01 13:09:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/TEMPDOXY/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "TEMP_DOXY";
+        skos:definition        "Temperature of oxygen determination by optode."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/OXYTAAOP/>;
+        skos:notation          "SDN:OG1::TEMPDOXY";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sea temperature from oxygen sensor ITS-90 scale"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/OXYSAT/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::OXYSAT";
+        dc:date                "2018-08-24 10:57:58.0";
+        dc:identifier          "SDN:OG1::OXYSAT";
+        pav:authoredOn         "2018-08-24 10:57:58.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/OXYSAT/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "OXYSAT_DOXY";
+        skos:definition        "Saturation of oxygen {O2 CAS 7782-44-7} in the water body [dissolved plus reactive particulate phase] by in-situ oxygen optode and computation from concentration."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/OXYSOP01/>;
+        skos:notation          "SDN:OG1::OXYSAT";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Oxygen saturation by Optode"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPCT/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/SOUNDVEL/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::SOUNDVEL";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::SOUNDVEL";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/SOUNDVEL/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SOUNDVEL";
+        skos:definition        "The rate at which sound travels through the water column."@en;
+        skos:notation          "SDN:OG1::SOUNDVEL";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sound velocity in the water body"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UVAA/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/WATER_VELOC_FINAL_V/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::WATER_VELOC_FINAL_V";
+        dc:date                "2025-04-28 13:58:01.0";
+        dc:identifier          "SDN:OG1::WATER_VELOC_FINAL_V";
+        pav:authoredOn         "2025-04-28 13:58:01.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/WATER_VELOC_FINAL_V/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/WATER_VELOC_FINAL_V/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/LCNSCD01/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "WATER_VELOC_FINAL_V";
+        skos:definition        "The depth-averaged current in the y-axis using dead reckoning between two surfacings. Corrected for surface drift while the glider receives its first GPS fix at the surface."@en;
+        skos:notation          "SDN:OG1::WATER_VELOC_FINAL_V";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Northward current velocity in the water body by dead reckoning and surface drift correction"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UVAA/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/WATER_VELOC_FINAL_U/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::WATER_VELOC_FINAL_U";
+        dc:date                "2025-04-28 13:58:38.0";
+        dc:identifier          "SDN:OG1::WATER_VELOC_FINAL_U";
+        pav:authoredOn         "2025-04-28 13:58:38.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/WATER_VELOC_FINAL_U/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/WATER_VELOC_FINAL_U/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/LCEWCD01/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "WATER_VELOC_FINAL_U";
+        skos:definition        "The depth-averaged current in the x-axis using dead reckoning between two surfacings. Corrected for surface drift while the glider receives its first GPS fix at the surface."@en;
+        skos:notation          "SDN:OG1::WATER_VELOC_FINAL_U";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Eastward current velocity in the water body by dead reckoning and surface drift correction"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UVAA/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/DPHDOXY/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::DPHDOXY";
+        dc:date                "2021-06-25 14:27:02.0";
+        dc:identifier          "SDN:OG1::DPHDOXY";
+        pav:authoredOn         "2021-06-25 14:27:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/DPHDOXY/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/DPHDOXY/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/OXYCPHAC/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "DPHASE_DOXY";
+        skos:definition        "D phase is calculated as a third degree polynomial of (the phase angle measured by blue excitation light minus the phase angle measured by red excitation light)."@en;
+        skos:notation          "SDN:OG1::DPHDOXY";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Calibrated phase shift reported by oxygen sensor"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UAAA/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/BPHDOXY/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::BPHDOXY";
+        dc:date                "2021-06-25 14:27:02.0";
+        dc:identifier          "SDN:OG1::BPHDOXY";
+        dc:replaces            <http://vocab.nerc.ac.uk/collection/OG1/current/C1PHDOXY/>;
+        pav:authoredOn         "2021-06-25 14:27:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/BPHDOXY/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/BPHDOXY/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/OXYCPHAB/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "BPHASE_DOXY";
+        skos:definition        "Uncalibrated blue excitation light phase shift reported by oxygen sensor."@en;
+        skos:notation          "SDN:OG1::BPHDOXY";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Uncalibrated blue excitation light phase shift reported by oxygen sensor"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UAAA/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/C1PHDOXY/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::C1PHDOXY";
+        dc:date                "2021-06-28 13:17:52.0";
+        dc:identifier          "SDN:OG1::C1PHDOXY";
+        dc:isReplacedBy        <http://vocab.nerc.ac.uk/collection/OG1/current/BPHDOXY/>;
+        pav:authoredOn         "2021-06-28 13:17:52.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/C1PHDOXY/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/C1PHDOXY/1/> , <http://vocab.nerc.ac.uk/collection/OG1/current/C1PHDOXY/2/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "3";
+        skos:altLabel          "C1PHASE_DOXY";
+        skos:definition        "Deprecated on 25-Jun-2021 because the parameter concept was identical to an existing one. Uncalibrated phase shift reported by oxygen sensor."@en;
+        skos:notation          "SDN:OG1::C1PHDOXY";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Uncalibrated phase shift reported by oxygen sensor"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UAAA/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/ROLL/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::ROLL";
+        dc:date                "2025-04-11 12:17:24.0";
+        dc:identifier          "SDN:OG1::ROLL";
+        pav:authoredOn         "2025-04-11 12:17:24.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/ROLL/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/ROLL/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/ROLLEI01/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "GLIDER_ROLL";
+        skos:definition        "The tilting rotation of a platform relative to its longitudinal/X axis as measured by an inclinometer."@en;
+        skos:notation          "SDN:OG1::ROLL";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Orientation (roll angle) of measurement platform by inclinometer"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UAAA/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/C2PHDOXY/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::C2PHDOXY";
+        dc:date                "2021-06-28 13:17:52.0";
+        dc:identifier          "SDN:OG1::C2PHDOXY";
+        dc:isReplacedBy        <http://vocab.nerc.ac.uk/collection/OG1/current/RPHDOXY/>;
+        pav:authoredOn         "2021-06-28 13:17:52.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/C2PHDOXY/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/C2PHDOXY/2/> , <http://vocab.nerc.ac.uk/collection/OG1/current/C2PHDOXY/1/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "3";
+        skos:altLabel          "C2PHASE_DOXY";
+        skos:definition        "Deprecated on 25-Jun-2021 because the parameter concept was identical to an existing one. Uncalibrated phase shift reported by oxygen sensor."@en;
+        skos:notation          "SDN:OG1::C2PHDOXY";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Uncalibrated phase shift reported by oxygen sensor"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UAAA/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/RPHDOXY/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::RPHDOXY";
+        dc:date                "2021-06-25 14:27:02.0";
+        dc:identifier          "SDN:OG1::RPHDOXY";
+        dc:replaces            <http://vocab.nerc.ac.uk/collection/OG1/current/C2PHDOXY/>;
+        pav:authoredOn         "2021-06-25 14:27:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/RPHDOXY/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/RPHDOXY/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/OXYCPHAR/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "RPHASE_DOXY";
+        skos:definition        "Uncalibrated red excitation light phase shift reported by oxygen sensor."@en;
+        skos:notation          "SDN:OG1::RPHDOXY";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Uncalibrated red excitation light phase shift reported by oxygen sensor"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UAAA/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/HEADING/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::HEADING";
+        dc:date                "2025-04-11 12:17:23.0";
+        dc:identifier          "SDN:OG1::HEADING";
+        pav:authoredOn         "2025-04-11 12:17:23.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/HEADING/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/HEADING/1/> , <http://vocab.nerc.ac.uk/collection/OG1/current/HEADING/2/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "GLIDER_HEADING";
+        skos:definition        "The rotation of a platform relative to its upward/Z axis relative to magnetic north. Often referred to as yaw or bearing."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/HEADCMMG/>;
+        skos:notation          "SDN:OG1::HEADING";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Orientation (horizontal relative to magnetic north) of measurement platform {heading}"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UAAA/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/TPHDOXY/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::TPHDOXY";
+        dc:date                "2021-06-25 14:27:02.0";
+        dc:identifier          "SDN:OG1::TPHDOXY";
+        pav:authoredOn         "2021-06-25 14:27:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/TPHDOXY/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/TPHDOXY/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/OXYCPHTC/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "TPHASE_DOXY";
+        skos:definition        "Uncalibrated (temperature compensated) phase shift reported by oxygen sensor."@en;
+        skos:notation          "SDN:OG1::TPHDOXY";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Uncalibrated (temperature compensated) phase shift reported by oxygen sensor"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UAAA/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/PITCH/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::PITCH";
+        dc:date                "2025-04-11 12:17:25.0";
+        dc:identifier          "SDN:OG1::PITCH";
+        pav:authoredOn         "2025-04-11 12:17:25.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/PITCH/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/PITCH/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/PTCHEI01/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "GLIDER_PITCH";
+        skos:definition        "The up/down rotation of a platform relative to it Y axis as measured by an inclinometer."@en;
+        skos:notation          "SDN:OG1::PITCH";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Orientation (pitch) of measurement platform by inclinometer"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UAAA/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/HEADINGTN/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::HEADINGTN";
+        dc:date                "2025-04-11 12:55:57.0";
+        dc:identifier          "SDN:OG1::HEADINGTN";
+        pav:authoredOn         "2025-04-11 12:55:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/HEADINGTN/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "GLIDER_HEADING_TN";
+        skos:definition        "The rotation of a platform relative to its upward/Z axis relative to True North. Often referred to as yaw or bearing."@en;
+        skos:notation          "SDN:OG1::HEADINGTN";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Orientation (horizontal relative to True North) of measurement platform {heading}"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UAAA/> , <http://vocab.nerc.ac.uk/collection/P01/current/HEADCM01/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/SIGTHETA/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::SIGTHETA";
+        dc:date                "2020-07-20 16:06:56.0";
+        dc:identifier          "SDN:OG1::SIGTHETA";
+        pav:authoredOn         "2020-07-20 16:06:56.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/SIGTHETA/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/SIGTHETA/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/SIGTEQ01/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "SIGMA_THETA";
+        skos:definition        "Sigma-theta of the water body and computation from salinity and potential temperature using UNESCO algorithm."@en;
+        skos:notation          "SDN:OG1::SIGTHETA";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sigma-theta"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UKMC/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/POTDENS0/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::POTDENS0";
+        dc:date                "2020-07-20 16:06:56.0";
+        dc:identifier          "SDN:OG1::POTDENS0";
+        pav:authoredOn         "2020-07-20 16:06:56.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/POTDENS0/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/POTDENS0/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "POTDENS_SURFACE";
+        skos:definition        "Potential density of the water body by computation from salinity and theta using UNESCO algorithm with 0 decibar reference pressure"@en;
+        skos:notation          "SDN:OG1::POTDENS0";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Potential density of water body at surface"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UKMC/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/DENSITY/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::DENSITY";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::DENSITY";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/DENSITY/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "DENSITY";
+        skos:definition        "The mass of a unit volume of any body of fresh or salt water."@en;
+        skos:notation          "SDN:OG1::DENSITY";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sea water density"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UKMC/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/SIGMA_T/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::SIGMA_T";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::SIGMA_T";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/SIGMA_T/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/SIGTEQST/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "SIGMA_T";
+        skos:definition        "Computed by UNESCO SVAN function using in-situ temperature."@en;
+        skos:notation          "SDN:OG1::SIGMA_T";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sigma-T"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UKMC/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/PHOS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::PHOS";
+        dc:date                "2026-05-01 10:27:24.0";
+        dc:identifier          "SDN:OG1::PHOS";
+        pav:authoredOn         "2026-05-01 10:27:24.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/PHOS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/PHOSLOCF/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "PHOSPHATE";
+        skos:definition        "Phosphate concentration per unit volume of fresh or salt water by colorimetry."@en;
+        skos:notation          "SDN:OG1::PHOS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Concentration of phosphate by colorimetry"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/NITRATE_NITRITE/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::NITRATE_NITRITE";
+        dc:date                "2026-05-01 10:27:25.0";
+        dc:identifier          "SDN:OG1::NITRATE_NITRITE";
+        pav:authoredOn         "2026-05-01 10:27:25.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/NITRATE_NITRITE/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/NTLOCF01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "NITRATE_NITRITE";
+        skos:definition        "Nitrate+nitrite concentration per unit volume of fresh or salt water by colorimetry."@en;
+        skos:notation          "SDN:OG1::NITRATE_NITRITE";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Concentration of nitrate+nitrite by colorimetry"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/EDLAM380/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::EDLAM380";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::EDLAM380";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/EDLAM380/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/RDWIR380/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "RAW_DOWNWELLING_IRRADIANCE380";
+        skos:definition        "The raw output expressed in counts from an upward-facing cosine collector radiometer for optical wavelength 380nm."@en;
+        skos:notation          "SDN:OG1::EDLAM380";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Raw downwelling irradiance at 380 nanometers"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/RSHEAR_SD/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::RSHEAR_SD";
+        dc:date                "2023-08-07 10:17:31.0";
+        dc:identifier          "SDN:OG1::RSHEAR_SD";
+        pav:authoredOn         "2023-08-07 10:17:31.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/RSHEAR_SD/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/EPSVTBPT/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "RAW_STDEV_TURB_SHEAR";
+        skos:definition        "The square root of the average of the squares of deviations about the mean of counts in the water body by a turbulence profiler shear sensor."@en;
+        skos:notation          "SDN:OG1::RSHEAR_SD";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Raw signal (standard deviation) from turbulence profiler shear sensor"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/EDLAM443/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::EDLAM443";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::EDLAM443";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/EDLAM443/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/RDWIR443/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "RAW_DOWNWELLING_IRRADIANCE443";
+        skos:definition        "The raw output expressed in counts from an upward-facing cosine collector radiometer for optical wavelength 443nm."@en;
+        skos:notation          "SDN:OG1::EDLAM443";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Raw downwelling irradiance at 443 nanometers"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/RTHERTUR_SD2/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::RTHERTUR_SD2";
+        dc:date                "2023-08-07 10:17:29.0";
+        dc:identifier          "SDN:OG1::RTHERTUR_SD2";
+        pav:authoredOn         "2023-08-07 10:17:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/RTHERTUR_SD2/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/TCNTSDC2/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "RAW_STDEV_TURB_THERMISTOR_2";
+        skos:definition        "The square root of the average of the squares of deviations about the mean of counts in the water body by a second turbulence profiler thermistor."@en;
+        skos:notation          "SDN:OG1::RTHERTUR_SD2";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Raw signal (standard deviation) from turbulence profiler thermistor (second sensor)"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/ENLEVEL/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::ENLEVEL";
+        dc:date                "2023-06-02 13:43:08.0";
+        dc:identifier          "SDN:OG1::ENLEVEL";
+        pav:authoredOn         "2023-06-02 13:43:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/ENLEVEL/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/ENLVZZ01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "ENERGYLEVEL_ALTIMETER";
+        skos:definition        "Intensity of the echo return from an altimeter, ranging from 0 to 1. A value of 1 represents full saturation of the receiver. An energy level of 0.707 (square root of 2) is the theoretical perfect level as it represents the energy of a pure sine wave with an amplitude utilising the maximum dynamic range of the receiver."@en;
+        skos:notation          "SDN:OG1::ENLEVEL";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Energy level of acoustic signal by altimeter"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/TCPURADP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::TCPURADP";
+        dc:date                "2024-09-10 16:05:59.0";
+        dc:identifier          "SDN:OG1::TCPURADP";
+        pav:authoredOn         "2024-09-10 16:05:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/TCPURADP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/TCNTRCPU/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "TEMP_CPU_RADIOM";
+        skos:definition        "The raw analogue-to-digital converter output from a temperature sensor mounted on a CPU that is a component part of a radiometer."@en;
+        skos:notation          "SDN:OG1::TCPURADP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Thermistor signal from radiometer"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/GLCOMPH/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::GLCOMPH";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::GLCOMPH";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/GLCOMPH/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "GLIDER_COMMAND_PHASE";
+        skos:definition        "Glider command phase."@en;
+        skos:notation          "SDN:OG1::GLCOMPH";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Glider command phase"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/RTHERTUR_SD/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::RTHERTUR_SD";
+        dc:date                "2023-08-07 10:17:28.0";
+        dc:identifier          "SDN:OG1::RTHERTUR_SD";
+        pav:authoredOn         "2023-08-07 10:17:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/RTHERTUR_SD/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/TCNTSDCP/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "RAW_STDEV_TURB_THERMISTOR";
+        skos:definition        "The square root of the average of the squares of deviations about the mean of counts in the water body by a turbulence profiler thermistor."@en;
+        skos:notation          "SDN:OG1::RTHERTUR_SD";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Raw signal (standard deviation) from turbulence profiler thermistor"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/PSAL/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::PSAL";
+        dc:date                "2018-05-31 16:35:24.0";
+        dc:identifier          "SDN:OG1::PSAL";
+        pav:authoredOn         "2018-05-31 16:35:24.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/PSAL/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "PSAL";
+        skos:definition        "Practical salinity of the water body by CTD and computation using UNESCO 1983 algorithm"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/PSALST01/>;
+        skos:notation          "SDN:OG1::PSAL";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Practical salinity"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/RTHERTUR_MN2/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::RTHERTUR_MN2";
+        dc:date                "2023-08-07 10:17:27.0";
+        dc:identifier          "SDN:OG1::RTHERTUR_MN2";
+        pav:authoredOn         "2023-08-07 10:17:27.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/RTHERTUR_MN2/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/TCNTCPT2/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "RAW_MEAN_TURB_THERMISTOR_2";
+        skos:definition        "The average number of counts in the water body across multiple measurements by a second turbulence profiler thermistor."@en;
+        skos:notation          "SDN:OG1::RTHERTUR_MN2";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Raw signal (mean) from turbulence profiler thermistor (second sensor)"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/TCNTDOXY/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::TCNTDOXY";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::TCNTDOXY";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/TCNTDOXY/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "TEMP_COUNT_DOXY";
+        skos:definition        "Count which is expressive of uncalibrated temperature value reported by oxygen sensor."@en;
+        skos:notation          "SDN:OG1::TCNTDOXY";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Count which is expressive of uncalibrated temperature value reported by oxygen sensor"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/RTHERTUR_MN/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::RTHERTUR_MN";
+        dc:date                "2023-08-07 10:17:26.0";
+        dc:identifier          "SDN:OG1::RTHERTUR_MN";
+        pav:authoredOn         "2023-08-07 10:17:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/RTHERTUR_MN/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/TCNTCPTT/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "RAW_MEAN_TURB_THERMISTOR";
+        skos:definition        "The average number of counts in the water body across multiple measurements by a turbulence profiler thermistor."@en;
+        skos:notation          "SDN:OG1::RTHERTUR_MN";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Raw signal (mean) from turbulence profiler thermistor"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/VBD/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::VBD";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::VBD";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/VBD/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/VBDRCT01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "GLIDER_VBD_COUNT";
+        skos:definition        "The variable buoyancy device (VBD) A/D count position of a glider."@en;
+        skos:notation          "SDN:OG1::VBD";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Setting (counts) of glider variable buoyancy device"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/EDLAM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::EDLAM";
+        dc:date                "2025-07-07 13:26:20.0";
+        dc:identifier          "SDN:OG1::EDLAM";
+        pav:authoredOn         "2025-07-07 13:26:20.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/EDLAM/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/EDLAM/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> , <http://vocab.nerc.ac.uk/collection/P01/current/DWIRXXZZ/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "RAW_DOWNWELLING_IRRADIANCE";
+        skos:definition        "The raw output expressed in counts from an upward-facing cosine collector radiometer for one unspecified wavelength from the measured spectrum."@en;
+        skos:notation          "SDN:OG1::EDLAM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Raw downwelling irradiance at x nanometers"@en .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/EDLAM490/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::EDLAM490";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::EDLAM490";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/EDLAM490/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/RDWIR490/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "RAW_DOWNWELLING_IRRADIANCE490";
+        skos:definition        "The raw output expressed in counts from an upward-facing cosine collector radiometer for optical wavelength 490nm."@en;
+        skos:notation          "SDN:OG1::EDLAM490";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Raw downwelling irradiance at 490 nanometers"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/COR_FACT/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::COR_FACT";
+        dc:date                "2023-06-02 13:42:23.0";
+        dc:identifier          "SDN:OG1::COR_FACT";
+        pav:authoredOn         "2023-06-02 13:42:23.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/COR_FACT/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/CFACZZ01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "CORRELATIONFACTOR_ALTIMETER";
+        skos:definition        "Quality of the echo return from an altimeter, ranging from 0 to 1. A value of 1 represents a perfect return echo with negligible noise and distortion."@en;
+        skos:notation          "SDN:OG1::COR_FACT";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Correlation factor of acoustic signal by altimeter"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/EDLAM555/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::EDLAM555";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::EDLAM555";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/EDLAM555/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/RDWIR555/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "RAW_DOWNWELLING_IRRADIANCE555";
+        skos:definition        "The raw output expressed in counts from an upward-facing cosine collector radiometer for optical wavelength 555nm."@en;
+        skos:notation          "SDN:OG1::EDLAM555";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Raw downwelling irradiance at 555 nanometers"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/ROLMPOS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::ROLMPOS";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::ROLMPOS";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/ROLMPOS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/ROLLCT01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "GLIDER_ROLL_MASS_POSITION_COUNT";
+        skos:definition        "The roll A/D count position of a glider internal mass."@en;
+        skos:notation          "SDN:OG1::ROLMPOS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Setting (counts) of glider roll mass"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/CROLMPOS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::CROLMPOS";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::CROLMPOS";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/CROLMPOS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/ROLLCF01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "CONFIGURED_GLIDER_ROLL_MASS_POSITION";
+        skos:definition        "The angle of a glider's internal roll mass from the position that would maintain neutral roll (Positive starboard wing down)."@en;
+        skos:notation          "SDN:OG1::CROLMPOS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Setting (offset angle from neutral) of glider roll mass"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/RSHEAR_SD2/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::RSHEAR_SD2";
+        dc:date                "2023-08-07 10:17:32.0";
+        dc:identifier          "SDN:OG1::RSHEAR_SD2";
+        pav:authoredOn         "2023-08-07 10:17:32.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/RSHEAR_SD2/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/EPSVTBP2/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "RAW_STDEV_TURB_SHEAR_2";
+        skos:definition        "The square root of the average of the squares of deviations about the mean of counts in the water body by a second turbulence profiler shear sensor."@en;
+        skos:notation          "SDN:OG1::RSHEAR_SD2";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Raw signal (standard deviation) from turbulence profiler shear sensor (second sensor)"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/EDLAM412/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::EDLAM412";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::EDLAM412";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/EDLAM412/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/RDWIR412/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "RAW_DOWNWELLING_IRRADIANCE412";
+        skos:definition        "The raw output expressed in counts from an upward-facing cosine collector radiometer for optical wavelength 412nm."@en;
+        skos:notation          "SDN:OG1::EDLAM412";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Raw downwelling irradiance at 412 nanometers"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/CYCLEENG/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::CYCLEENG";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::CYCLEENG";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/CYCLEENG/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ENGINEERING_CYCLE_NUMBER";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/ACYCAA01/>;
+        skos:definition        "Engineering data cycle number."@en;
+        skos:notation          "SDN:OG1::CYCLEENG";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Engineering data cycle number"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/FLUOPHYC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::FLUOPHYC";
+        dc:date                "2019-03-21 11:31:20.0";
+        dc:identifier          "SDN:OG1::FLUOPHYC";
+        pav:authoredOn         "2019-03-21 11:31:20.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/FLUOPHYC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/FVLTPELS/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "FLUORESCENCE_PHYCOERYTHRIN";
+        skos:definition        "Phycoerythrin signal from a fluorescence sensor."@en;
+        skos:notation          "SDN:OG1::FLUOPHYC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Phycoerythrin signal from fluorescence sensor"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/FLUOCDOM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::FLUOCDOM";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::FLUOCDOM";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/FLUOCDOM/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/FCNTCDOM/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "FLUORESCENCE_CDOM";
+        skos:definition        "The amount of violet to low ultra-violet radiation generated in the water column in response to high ultra-violet radiation transmission expressed relative to an unspecified baseline using fluorometer designed to detect CDOM, crude oil or UV-fluorescent dyes."@en;
+        skos:notation          "SDN:OG1::FLUOCDOM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Raw fluorescence from coloured dissolved organic matter sensor"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/LCNTDOXY/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::LCNTDOXY";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::LCNTDOXY";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/LCNTDOXY/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "LED_FLASHING_COUNT_DOXY";
+        skos:definition        "Number of times oxygen sensor flashing to measure oxygen."@en;
+        skos:notation          "SDN:OG1::LCNTDOXY";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Number of times oxygen sensor flashing to measure oxygen"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/RAWDPAR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::RAWDPAR";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::RAWDPAR";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/RAWDPAR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "RAW_DOWNWELLING_PAR";
+        skos:definition        "The raw output expressed in counts from an upward-facing cosine collector radiometer measuring the integrated light over PAR wavelengths."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/DWIRRXZZ/>;
+        skos:notation          "SDN:OG1::RAWDPAR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Raw downwelling photosynthetic available radiation"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/FLUOCHLA/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::FLUOCHLA";
+        dc:date                "2024-09-09 09:25:51.0";
+        dc:identifier          "SDN:OG1::FLUOCHLA";
+        pav:authoredOn         "2024-09-09 09:25:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/FLUOCHLA/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/FLUOCHLA/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/FCNTRW01/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "FLUORESCENCE_CHLA";
+        skos:definition        "Raw fluorescence signal (count) from chlorophyll-a fluorometer."@en;
+        skos:notation          "SDN:OG1::FLUOCHLA";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Raw signal from chlorophyll-a fluorometer"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/TCPUCHLA/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::TCPUCHLA";
+        dc:date                "2024-09-09 11:04:12.0";
+        dc:identifier          "SDN:OG1::TCPUCHLA";
+        pav:authoredOn         "2024-09-09 11:04:12.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/TCPUCHLA/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/TCPUCHLA/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "TEMP_CPU_FLUOR_BACKSC";
+        skos:definition        "The raw analogue-to-digital converter output from a temperature sensor mounted on a CPU that is a component part of a backscattering meter and/or fluorometer."@en;
+        skos:notation          "SDN:OG1::TCPUCHLA";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Thermistor signal from backscattering meter and/or fluorometer"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> , <http://vocab.nerc.ac.uk/collection/P01/current/TCNTICPU/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/RBBP700/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::RBBP700";
+        dc:date                "2025-07-07 17:13:32.0";
+        dc:identifier          "SDN:OG1::RBBP700";
+        pav:authoredOn         "2025-07-07 17:13:32.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/RBBP700/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/RBBP700/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/NVLTOBS1/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "RAW_BACKSCATTERING700";
+        skos:definition        "Raw backscattering sensor signal (count) at 700 nm wavelength. Volume scattering scale factor has not been applied."@en;
+        skos:notation          "SDN:OG1::RBBP700";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Raw signal from backscattering sensor at 700 nanometers"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/NBSAMP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::NBSAMP";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::NBSAMP";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/NBSAMP/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "NB_SAMPLE";
+        skos:definition        "Number of values included in the determination of a statistic such as an average."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/NUMVALES/>;
+        skos:notation          "SDN:OG1::NBSAMP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Number of samples in bin"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/CNTDOXY/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::CNTDOXY";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::CNTDOXY";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/CNTDOXY/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/OXYOOPCT/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "COUNT_DOXY";
+        skos:definition        "The raw output from a dissolved oxygen sensor such as an SBE43 with output converted from voltage or frequency into counts by an ADC."@en;
+        skos:notation          "SDN:OG1::CNTDOXY";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Count reported by oxygen sensor"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/PITMPOS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::PITMPOS";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::PITMPOS";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/PITMPOS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/PTCHCT01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "GLIDER_PITCH_MASS_POSITION_COUNT";
+        skos:definition        "The pitch A/D count position of a glider internal mass."@en;
+        skos:notation          "SDN:OG1::PITMPOS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Setting (counts) of glider pitch mass"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/DOXY/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::DOXY";
+        dc:date                "2018-06-01 13:09:02.0";
+        dc:identifier          "SDN:OG1::DOXY";
+        pav:authoredOn         "2018-06-01 13:09:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/DOXY/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "DOXY";
+        skos:definition        "Concentration of dissolved oxygen per unit mass of the water column. Oxygen may be expressed in terms of mass, volume or quantity of substance."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/DOXYZZ01/>;
+        skos:notation          "SDN:OG1::DOXY";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Dissolved oxygen"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/KGUM/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/MLPLDOXY/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::MLPLDOXY";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::MLPLDOXY";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/MLPLDOXY/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "MLPL_DOXY";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/DOXYZZXX/>;
+        skos:definition        "Concentration of dissolved oxygen per unit volume of the water column. Oxygen may be expressed in terms of mass, volume or quantity of substance."@en;
+        skos:notation          "SDN:OG1::MLPLDOXY";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Oxygen concentration reported by the oxygen sensor"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UMLL/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/DIST_ALT/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::DIST_ALT";
+        dc:date                "2023-06-02 13:43:09.0";
+        dc:identifier          "SDN:OG1::DIST_ALT";
+        pav:authoredOn         "2023-06-02 13:43:09.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/DIST_ALT/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/DISTTRAN/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "DISTANCE_ALTIMETER";
+        skos:definition        "Distance in meters from the transducer face to the target."@en;
+        skos:notation          "SDN:OG1::DIST_ALT";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Altitude"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/ULAA/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/DEPTH/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::DEPTH";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::DEPTH";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/DEPTH/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "GLIDER_DEPTH";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/ADEPZZ01/>;
+        skos:definition        "Depth below surface of the water body by unknown instrument and correction to zero at sea level using unspecified algorithm."@en;
+        skos:notation          "SDN:OG1::DEPTH";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Depth below sea surface (zero at sea level) of measurement platform"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/ULAA/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/ALTITUDE/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::ALTITUDE";
+        dc:date                "2025-04-11 12:17:26.0";
+        dc:identifier          "SDN:OG1::ALTITUDE";
+        pav:authoredOn         "2025-04-11 12:17:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/ALTITUDE/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/ALTITUDE/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/AHSFZZ01/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "ALTITUDE";
+        skos:definition        "The vertical distance of a platform above the bed surface of a water body."@en;
+        skos:notation          "SDN:OG1::ALTITUDE";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Height above bed in the water body"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/ULAA/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/CHLA/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::CHLA";
+        dc:date                "2018-06-01 16:44:29.0";
+        dc:identifier          "SDN:OG1::CHLA";
+        pav:authoredOn         "2018-06-01 16:44:29.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/CHLA/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "CHLA";
+        skos:definition        "In-situ fluorometer with either manufacturer, laboratory or sample calibration applied."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/CPHLPR01/>;
+        skos:notation          "SDN:OG1::CHLA";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Chlorophyll-A"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UMMC/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/TEMP/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::TEMP";
+        dc:date                "2026-05-21 15:19:49.0";
+        dc:identifier          "SDN:OG1::TEMP";
+        pav:authoredOn         "2026-05-21 15:19:49.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/TEMP/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/TEMP/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "TEMP";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/>;
+        skos:definition        "Temperature of the water body expressed against the International Temperature Scale 1990 (ITS-90)."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/TEMPST01/>;
+        skos:notation          "SDN:OG1::TEMP";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sea temperature in-situ ITS-90 scale"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "An international team set up to co-ordinate and harmonise glider data management on a global scale.";
+        dc:alternative          "OG PUV";
+        dc:creator              "OceanGliders Data Management Task Team";
+        dc:date                 "2026-05-23 03:00:01.0";
+        dc:description          "Terms in this vocabulary are under the content governance of the OceanGliders Data Management Task Team (OGDMTT) on behalf of the OceanGliders community. Terms describe measured phenomena within the OceanGliders format.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "OceanGliders Parameter Usage Vocabulary";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "OceanGliders Data Management Task Team";
+        owl:versionInfo         "32";
+        skos:altLabel           "OG PUV";
+        skos:member             <http://vocab.nerc.ac.uk/collection/OG1/current/BBP880/> , <http://vocab.nerc.ac.uk/collection/OG1/current/DPAR/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BBP/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PPOXDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/REDOX_POTENTIAL_CORR/> , <http://vocab.nerc.ac.uk/collection/OG1/current/CNDC/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BETA880/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ED412/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BETA650/> , <http://vocab.nerc.ac.uk/collection/OG1/current/WCUR_X/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ED443/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BETABBP/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PRES/> , <http://vocab.nerc.ac.uk/collection/OG1/current/LON_GPS/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BBP700/> , <http://vocab.nerc.ac.uk/collection/OG1/current/RELVBD/> , <http://vocab.nerc.ac.uk/collection/OG1/current/OIL_VOL/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PRES_ENG/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BETA470/> , <http://vocab.nerc.ac.uk/collection/OG1/current/WCUR_Y/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ED655/> , <http://vocab.nerc.ac.uk/collection/OG1/current/LAT/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BBP470/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ED555/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BETA532/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PHASE/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PRES2/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TIMEYO/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ED/> , <http://vocab.nerc.ac.uk/collection/OG1/current/VLTDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/LAT_GPS/> , <http://vocab.nerc.ac.uk/collection/OG1/current/CPITMPOS/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TIMEDF/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ED532/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ED490/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BETA700/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PPDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/MOLDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PHDEDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TVLTDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/NCNTTUR1/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BBP650/> , <http://vocab.nerc.ac.uk/collection/OG1/current/CNDC2/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TIME/> , <http://vocab.nerc.ac.uk/collection/OG1/current/CDOM/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PHYCOCYANIN/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BBP412/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TURB/> , <http://vocab.nerc.ac.uk/collection/OG1/current/FREQDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PH_IN_SITU_TOTAL/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BBP715/> , <http://vocab.nerc.ac.uk/collection/OG1/current/LON/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PHYC/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BBP532/> , <http://vocab.nerc.ac.uk/collection/OG1/current/FDOM/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ED380/> , <http://vocab.nerc.ac.uk/collection/OG1/current/THETA/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TEMP2/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TEMP_CNDC/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TEMPDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/OXYSAT/> , <http://vocab.nerc.ac.uk/collection/OG1/current/SOUNDVEL/> , <http://vocab.nerc.ac.uk/collection/OG1/current/WATER_VELOC_FINAL_V/> , <http://vocab.nerc.ac.uk/collection/OG1/current/WATER_VELOC_FINAL_U/> , <http://vocab.nerc.ac.uk/collection/OG1/current/DPHDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BPHDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/C1PHDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ROLL/> , <http://vocab.nerc.ac.uk/collection/OG1/current/C2PHDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/RPHDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/HEADING/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TPHDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PITCH/> , <http://vocab.nerc.ac.uk/collection/OG1/current/HEADINGTN/> , <http://vocab.nerc.ac.uk/collection/OG1/current/SIGTHETA/> , <http://vocab.nerc.ac.uk/collection/OG1/current/POTDENS0/> , <http://vocab.nerc.ac.uk/collection/OG1/current/DENSITY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/SIGMA_T/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PHOS/> , <http://vocab.nerc.ac.uk/collection/OG1/current/NITRATE_NITRITE/> , <http://vocab.nerc.ac.uk/collection/OG1/current/EDLAM380/> , <http://vocab.nerc.ac.uk/collection/OG1/current/RSHEAR_SD/> , <http://vocab.nerc.ac.uk/collection/OG1/current/EDLAM443/> , <http://vocab.nerc.ac.uk/collection/OG1/current/RTHERTUR_SD2/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ENLEVEL/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TCPURADP/> , <http://vocab.nerc.ac.uk/collection/OG1/current/GLCOMPH/> , <http://vocab.nerc.ac.uk/collection/OG1/current/RTHERTUR_SD/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PSAL/> , <http://vocab.nerc.ac.uk/collection/OG1/current/RTHERTUR_MN2/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TCNTDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/RTHERTUR_MN/> , <http://vocab.nerc.ac.uk/collection/OG1/current/VBD/> , <http://vocab.nerc.ac.uk/collection/OG1/current/EDLAM/> , <http://vocab.nerc.ac.uk/collection/OG1/current/EDLAM490/> , <http://vocab.nerc.ac.uk/collection/OG1/current/COR_FACT/> , <http://vocab.nerc.ac.uk/collection/OG1/current/EDLAM555/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ROLMPOS/> , <http://vocab.nerc.ac.uk/collection/OG1/current/CROLMPOS/> , <http://vocab.nerc.ac.uk/collection/OG1/current/RSHEAR_SD2/> , <http://vocab.nerc.ac.uk/collection/OG1/current/EDLAM412/> , <http://vocab.nerc.ac.uk/collection/OG1/current/CYCLEENG/> , <http://vocab.nerc.ac.uk/collection/OG1/current/FLUOPHYC/> , <http://vocab.nerc.ac.uk/collection/OG1/current/FLUOCDOM/> , <http://vocab.nerc.ac.uk/collection/OG1/current/LCNTDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/RAWDPAR/> , <http://vocab.nerc.ac.uk/collection/OG1/current/FLUOCHLA/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TCPUCHLA/> , <http://vocab.nerc.ac.uk/collection/OG1/current/RBBP700/> , <http://vocab.nerc.ac.uk/collection/OG1/current/NBSAMP/> , <http://vocab.nerc.ac.uk/collection/OG1/current/CNTDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PITMPOS/> , <http://vocab.nerc.ac.uk/collection/OG1/current/DOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/MLPLDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/DIST_ALT/> , <http://vocab.nerc.ac.uk/collection/OG1/current/DEPTH/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TEMP/> , <http://vocab.nerc.ac.uk/collection/OG1/current/CHLA/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ALTITUDE/>;
+        skos:prefLabel          "OceanGliders Parameter Usage Vocabulary" .

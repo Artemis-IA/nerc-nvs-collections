@@ -1,0 +1,163 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/S30/current/S30999/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:S30::S30999";
+        dc:date                "2017-05-25 17:05:52.0";
+        dc:identifier          "SDN:S30::S30999";
+        pav:authoredOn         "2017-05-25 17:05:52.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/S30/current/S30999/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Not applicable";
+        skos:definition        "This semantic element is not required."@en;
+        skos:notation          "SDN:S30::S30999";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "not applicable"@en .
+
+<http://vocab.nerc.ac.uk/collection/S30/current/S30006/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:S30::S30006";
+        dc:date                "2026-02-19 10:57:04.0";
+        dc:identifier          "SDN:S30::S30006";
+        pav:authoredOn         "2026-02-19 10:57:04.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/S30/current/S30006/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The measured property of a primary biological entity is described in relation to a second biological entity located inside it."@en;
+        skos:notation          "SDN:S30::S30006";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "containing"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/PNSTC1B2/> .
+
+<http://vocab.nerc.ac.uk/collection/S30/current/S30003/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:S30::S30003";
+        dc:date                "2020-05-12 17:46:43.0";
+        dc:identifier          "SDN:S30::S30003";
+        pav:authoredOn         "2020-05-12 17:46:43.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/S30/current/S30003/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The measured property of a primary biological entity is expressed in relation to the colony unit of the same, or of a different species."@en;
+        skos:notation          "SDN:S30::S30003";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "per colony of"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/NCOLIVXX/> .
+
+<http://vocab.nerc.ac.uk/collection/S30/current/S30005/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:S30::S30005";
+        dc:date                "2026-02-19 10:56:59.0";
+        dc:identifier          "SDN:S30::S30005";
+        pav:authoredOn         "2026-02-19 10:56:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/S30/current/S30005/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The measured property of a primary biological entity is expressed in relation to a second biological entity that the primary biological entity is contained within."@en;
+        skos:notation          "SDN:S30::S30005";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "in"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/PNB1STC2/> , <http://vocab.nerc.ac.uk/collection/P01/current/PWWB1STC/> .
+
+<http://vocab.nerc.ac.uk/collection/S30/current/S30004/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:S30::S30004";
+        dc:date                "2022-06-13 15:32:34.0";
+        dc:identifier          "SDN:S30::S30004";
+        pav:authoredOn         "2022-06-13 15:32:34.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/S30/current/S30004/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The primary biological entity of interest is moving away from a secondary associated biological entity."@en;
+        skos:notation          "SDN:S30::S30004";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "from the"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/LRZOXAM1/> .
+
+<http://vocab.nerc.ac.uk/collection/S30/current/S30001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:S30::S30001";
+        dc:date                "2017-05-25 17:05:18.0";
+        dc:identifier          "SDN:S30::S30001";
+        pav:authoredOn         "2017-05-25 17:05:18.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/S30/current/S30001/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The measured phenomenon relates to the action of a secondary biological entity on a primary biological entity."@en;
+        skos:notation          "SDN:S30::S30001";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "by"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/FCSDGCPP/> , <http://vocab.nerc.ac.uk/collection/P01/current/FCRTGFCA/> , <http://vocab.nerc.ac.uk/collection/P01/current/FCSDGCCP/> , <http://vocab.nerc.ac.uk/collection/P01/current/FCRTGCAC/> , <http://vocab.nerc.ac.uk/collection/P01/current/FCSDGFCP/> , <http://vocab.nerc.ac.uk/collection/P01/current/FCSDGCAC/> , <http://vocab.nerc.ac.uk/collection/P01/current/FCRTGFAC/> , <http://vocab.nerc.ac.uk/collection/P01/current/FCRTGFCL/> , <http://vocab.nerc.ac.uk/collection/P01/current/FCSDGFPP/> , <http://vocab.nerc.ac.uk/collection/P01/current/FCRTGCCP/> , <http://vocab.nerc.ac.uk/collection/P01/current/FCSDGCCA/> , <http://vocab.nerc.ac.uk/collection/P01/current/FCSDGFCL/> , <http://vocab.nerc.ac.uk/collection/P01/current/FCRTGCCA/> , <http://vocab.nerc.ac.uk/collection/P01/current/FCSDGFCA/> , <http://vocab.nerc.ac.uk/collection/P01/current/FCRTGFCP/> , <http://vocab.nerc.ac.uk/collection/P01/current/FCRTGFPP/> , <http://vocab.nerc.ac.uk/collection/P01/current/FCSDGFAC/> , <http://vocab.nerc.ac.uk/collection/P01/current/FCRTGCCL/> , <http://vocab.nerc.ac.uk/collection/P01/current/FCRTGCPP/> , <http://vocab.nerc.ac.uk/collection/P01/current/FCSDGCCL/> .
+
+<http://vocab.nerc.ac.uk/collection/S30/current/S30002/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:S30::S30002";
+        dc:date                "2018-03-27 12:41:23.0";
+        dc:identifier          "SDN:S30::S30002";
+        pav:authoredOn         "2018-03-27 12:41:23.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/S30/current/S30002/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The measured property of a primary biological entity is expressed in relation to the surface area of a second biological entity."@en;
+        skos:notation          "SDN:S30::S30002";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "per surface area of"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/AEP08442/> .
+
+<http://vocab.nerc.ac.uk/collection/S30/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used within the data centre";
+        dc:alternative          "Biological entities relationships";
+        dc:creator              "British Oceanographic Data Centre";
+        dc:date                 "2026-02-20 02:00:01.0";
+        dc:description          "Controlled vocabulary defining the relationship between two biological entities in the BODC parameter semantic model for biological parameters related to e.g. predator-prey interactions.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "BODC parameter semantic model relationships between biological entities";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "British Oceanographic Data Centre";
+        owl:versionInfo         "5";
+        skos:altLabel           "Biological entities relationships";
+        skos:member             <http://vocab.nerc.ac.uk/collection/S30/current/S30999/> , <http://vocab.nerc.ac.uk/collection/S30/current/S30006/> , <http://vocab.nerc.ac.uk/collection/S30/current/S30003/> , <http://vocab.nerc.ac.uk/collection/S30/current/S30005/> , <http://vocab.nerc.ac.uk/collection/S30/current/S30004/> , <http://vocab.nerc.ac.uk/collection/S30/current/S30002/> , <http://vocab.nerc.ac.uk/collection/S30/current/S30001/>;
+        skos:prefLabel          "BODC parameter semantic model relationships between biological entities" .

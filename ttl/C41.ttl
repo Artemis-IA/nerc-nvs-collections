@@ -1,0 +1,192 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/C41/current/PEST06/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C41::PEST06";
+        dc:date                "2009-09-29 11:44:57.0";
+        dc:identifier          "SDN:C41::PEST06";
+        pav:authoredOn         "2009-09-29 11:44:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C41/current/PEST06/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A discharge from temporary structure from land into the sea (e.g. oil washed into the sea from a jetty or promenade)"@en;
+        skos:notation          "SDN:C41::PEST06";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Temporary Coastal Discharge"@en .
+
+<http://vocab.nerc.ac.uk/collection/C41/current/PESTUK/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C41::PESTUK";
+        dc:date                "2009-09-29 11:44:57.0";
+        dc:identifier          "SDN:C41::PESTUK";
+        pav:authoredOn         "2009-09-29 11:44:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C41/current/PESTUK/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The correct value is not known to, and not computable by, the creator of this information. However, a correct value probably exists."@en;
+        skos:notation          "SDN:C41::PESTUK";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Unknown"@en .
+
+<http://vocab.nerc.ac.uk/collection/C41/current/PESTNA/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C41::PESTNA";
+        dc:date                "2011-08-26 10:26:06.0";
+        dc:identifier          "SDN:C41::PESTNA";
+        pav:authoredOn         "2011-08-26 10:26:06.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C41/current/PESTNA/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C41/current/PESTNA/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "There is no appropriate value."@en;
+        skos:notation          "SDN:C41::PESTNA";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "inapplicable"@en .
+
+<http://vocab.nerc.ac.uk/collection/C41/current/PEST07/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C41::PEST07";
+        dc:date                "2009-09-29 11:44:57.0";
+        dc:identifier          "SDN:C41::PEST07";
+        pav:authoredOn         "2009-09-29 11:44:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C41/current/PEST07/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A discharge from a fixed structure permanently connected to land into the sea (e.g. a sewage outfall or industrial pipe discharge)"@en;
+        skos:notation          "SDN:C41::PEST07";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Fixed Coastal Discharge"@en .
+
+<http://vocab.nerc.ac.uk/collection/C41/current/PEST01/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C41::PEST01";
+        dc:date                "2009-09-29 11:44:57.0";
+        dc:identifier          "SDN:C41::PEST01";
+        pav:authoredOn         "2009-09-29 11:44:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C41/current/PEST01/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Platforms fixed to the seabed and used for the extraction of oil and gas"@en;
+        skos:notation          "SDN:C41::PEST01";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Oil and Gas Platforms"@en .
+
+<http://vocab.nerc.ac.uk/collection/C41/current/PEST02/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C41::PEST02";
+        dc:date                "2009-09-29 11:44:57.0";
+        dc:identifier          "SDN:C41::PEST02";
+        pav:authoredOn         "2009-09-29 11:44:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C41/current/PEST02/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A large platform operating on the surface of the water column. Objective definitions for guidelines: >50m length (EU),"@en;
+        skos:notation          "SDN:C41::PEST02";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Ship"@en .
+
+<http://vocab.nerc.ac.uk/collection/C41/current/PEST03/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C41::PEST03";
+        dc:date                "2009-09-29 11:44:57.0";
+        dc:identifier          "SDN:C41::PEST03";
+        pav:authoredOn         "2009-09-29 11:44:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C41/current/PEST03/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A platform operating on the surface of the water column whose primary purpose is the commercial harevsting of fish or shellfish but may be engaged in scientific activities such as fish stock surveys or mooring deployments and recoveries"@en;
+        skos:notation          "SDN:C41::PEST03";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Fishing Vessel"@en .
+
+<http://vocab.nerc.ac.uk/collection/C41/current/PEST04/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C41::PEST04";
+        dc:date                "2009-09-29 11:44:57.0";
+        dc:identifier          "SDN:C41::PEST04";
+        pav:authoredOn         "2009-09-29 11:44:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C41/current/PEST04/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A small platform operating on the surface of the water column. Objective definitions for guidelines: <50m length (EU),"@en;
+        skos:notation          "SDN:C41::PEST04";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Boat"@en .
+
+<http://vocab.nerc.ac.uk/collection/C41/current/PEST05/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C41::PEST05";
+        dc:date                "2009-09-29 11:44:57.0";
+        dc:identifier          "SDN:C41::PEST05";
+        pav:authoredOn         "2009-09-29 11:44:57.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C41/current/PEST05/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A fixed-wing self-propelled aircraft."@en;
+        skos:notation          "SDN:C41::PEST05";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Aeroplane"@en .
+
+<http://vocab.nerc.ac.uk/collection/C41/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used within the data centre";
+        dc:alternative          "POLREP sources";
+        dc:creator              "British Oceanographic Data Centre";
+        dc:date                 "2011-08-27 02:00:05.0";
+        dc:description          "Terms developed by BODC to provide a standard classification of pollution sources to be used in UK pollution reports filed under the Bonn Agreement.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "BODC marine pollution sources";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "British Oceanographic Data Centre";
+        owl:versionInfo         "2";
+        skos:altLabel           "POLREP sources";
+        skos:member             <http://vocab.nerc.ac.uk/collection/C41/current/PEST06/> , <http://vocab.nerc.ac.uk/collection/C41/current/PESTUK/> , <http://vocab.nerc.ac.uk/collection/C41/current/PESTNA/> , <http://vocab.nerc.ac.uk/collection/C41/current/PEST07/> , <http://vocab.nerc.ac.uk/collection/C41/current/PEST01/> , <http://vocab.nerc.ac.uk/collection/C41/current/PEST02/> , <http://vocab.nerc.ac.uk/collection/C41/current/PEST03/> , <http://vocab.nerc.ac.uk/collection/C41/current/PEST05/> , <http://vocab.nerc.ac.uk/collection/C41/current/PEST04/>;
+        skos:prefLabel          "BODC marine pollution sources" .

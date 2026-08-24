@@ -1,0 +1,123 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/L12/current/U/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L12::U";
+        dc:date                "2010-02-12 15:53:48.0";
+        dc:identifier          "SDN:L12::U";
+        pav:authoredOn         "2010-02-12 15:53:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L12/current/U/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Unknown";
+        skos:definition        "The correct value is not known to, or not computable by, the sender of this data. However, the correct value probably exists."@en;
+        skos:notation          "SDN:L12::U";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Unknown"@en .
+
+<http://vocab.nerc.ac.uk/collection/L12/current/R/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L12::R";
+        dc:date                "2008-11-24 15:36:58.0";
+        dc:identifier          "SDN:L12::R";
+        pav:authoredOn         "2008-11-24 15:36:58.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L12/current/R/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Real-time QC";
+        skos:definition        "Automatic validation checks have been applied to the data as they were collected prior to their initial publication"@en;
+        skos:notation          "SDN:L12::R";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Real-time validation on the data"@en .
+
+<http://vocab.nerc.ac.uk/collection/L12/current/A/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L12::A";
+        dc:date                "2008-11-24 15:38:03.0";
+        dc:identifier          "SDN:L12::A";
+        pav:authoredOn         "2008-11-24 15:38:03.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L12/current/A/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Real-time + delayed mode QC";
+        skos:definition        "Automatic validation checks were applied to the data as they were collected prior to their initial publication.Validation checks, including both algorithms and manual examination, were applied to the data subsequent to their initial publication."@en;
+        skos:notation          "SDN:L12::A";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Real-time plus delayed mode validation on the data"@en .
+
+<http://vocab.nerc.ac.uk/collection/L12/current/N/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L12::N";
+        dc:date                "2008-11-24 15:27:28.0";
+        dc:identifier          "SDN:L12::N";
+        pav:authoredOn         "2008-11-24 15:27:28.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L12/current/N/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Unvalidated";
+        skos:definition        "No validation checks have been made on the data."@en;
+        skos:notation          "SDN:L12::N";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "No validation on the data"@en .
+
+<http://vocab.nerc.ac.uk/collection/L12/current/D/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L12::D";
+        dc:date                "2008-11-24 15:34:44.0";
+        dc:identifier          "SDN:L12::D";
+        pav:authoredOn         "2008-11-24 15:34:44.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L12/current/D/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Delayed mode QC";
+        skos:definition        "Validation checks, including both algorithms and manual examination, were applied to the data subsequent to their initial publication."@en;
+        skos:notation          "SDN:L12::D";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Delayed mode validation on the data"@en .
+
+<http://vocab.nerc.ac.uk/collection/L12/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the EU SeaDataNet project implemented as consultation between BODC and the members of the SeaDataNet Technical Task Team";
+        dc:alternative          "SeaDataNet QC procedures";
+        dc:creator              "SeaDataNet";
+        dc:date                 "2010-02-13 02:01:36.0";
+        dc:description          "Terms that are used to describe quality control procedures applied to data parameters.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "SeaDataNet parameter quality control procedures";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "SeaDataNet";
+        owl:versionInfo         "2";
+        skos:altLabel           "SeaDataNet QC procedures";
+        skos:member             <http://vocab.nerc.ac.uk/collection/L12/current/U/> , <http://vocab.nerc.ac.uk/collection/L12/current/R/> , <http://vocab.nerc.ac.uk/collection/L12/current/A/> , <http://vocab.nerc.ac.uk/collection/L12/current/D/> , <http://vocab.nerc.ac.uk/collection/L12/current/N/>;
+        skos:prefLabel          "SeaDataNet parameter quality control procedures" .

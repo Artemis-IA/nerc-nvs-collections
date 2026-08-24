@@ -1,0 +1,655 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D11/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D11";
+        dc:date                "2007-02-16 07:52:39.0";
+        dc:identifier          "SDN:L11::D11";
+        pav:authoredOn         "2007-02-16 07:52:39.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D11/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "MSL";
+        skos:definition        "The average elevation of the sea surface over an unspecified time period of at least a tidal cycle, but generally much longer."@en;
+        skos:notation          "SDN:L11::D11";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "mean sea level"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D28/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D28";
+        dc:date                "2007-08-10 10:12:56.0";
+        dc:identifier          "SDN:L11::D28";
+        pav:authoredOn         "2007-08-10 10:12:56.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D28/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "RGF80";
+        skos:definition        "The vertical component of a French 3-D CRS computed in 1980 until superseded in 1993 approximating to mean sea level"@en;
+        skos:notation          "SDN:L11::D28";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Réseau Géodésique Français 80"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D18/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D18";
+        dc:date                "2007-02-16 07:52:39.0";
+        dc:identifier          "SDN:L11::D18";
+        pav:authoredOn         "2007-02-16 07:52:39.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D18/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "MHWN";
+        skos:definition        "The average throughout the year (when the average maximium declination of the moon is 23.5 degrees) of two successive high waters during those periods of 24 hours when the range of the tide is at its least."@en;
+        skos:notation          "SDN:L11::D18";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "mean high water neaps"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D17/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D17";
+        dc:date                "2007-02-16 07:52:39.0";
+        dc:identifier          "SDN:L11::D17";
+        pav:authoredOn         "2007-02-16 07:52:39.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D17/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "MLWN";
+        skos:definition        "The average throughout the year (when the average maximium declination of the moon is 23.5 degrees) of two successive low waters during those periods of 24 hours when the range of the tide is at its least."@en;
+        skos:notation          "SDN:L11::D17";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "mean low water neaps"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D27/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D27";
+        dc:date                "2007-02-16 07:52:39.0";
+        dc:identifier          "SDN:L11::D27";
+        pav:authoredOn         "2007-02-16 07:52:39.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D27/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "N60";
+        skos:definition        "Finnish national benchmark network mean sea level datum."@en;
+        skos:notation          "SDN:L11::D27";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Helsinki Tide Gauge Datum"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D05/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D05";
+        dc:date                "2007-02-16 07:52:39.0";
+        dc:identifier          "SDN:L11::D05";
+        pav:authoredOn         "2007-02-16 07:52:39.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D05/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Hellenic_CD";
+        skos:definition        "The elevation of the zero metres contour on the navigation charts produced by the Greek Navy."@en;
+        skos:notation          "SDN:L11::D05";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Hellenic Navy Hydrographic Service Chart Datum"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D08/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D08";
+        dc:date                "2007-02-16 07:52:39.0";
+        dc:identifier          "SDN:L11::D08";
+        pav:authoredOn         "2007-02-16 07:52:39.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D08/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "sea_level";
+        skos:definition        "The level of the sea surface at an unspecified time and location of interest.  Usually associated with water depth measurements by shipboard echo sounder.  May be anywhere between LAT and HAT."@en;
+        skos:notation          "SDN:L11::D08";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "sea level"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D06/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D06";
+        dc:date                "2007-02-16 07:52:39.0";
+        dc:identifier          "SDN:L11::D06";
+        pav:authoredOn         "2007-02-16 07:52:39.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D06/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Bulgarian_CD";
+        skos:definition        "The elevation of the zero metres contour on the navigation charts produced by the Bulgarian Navy."@en;
+        skos:notation          "SDN:L11::D06";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Bulgarian Navy Hydrographic Service Chart Datum"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D16/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D16";
+        dc:date                "2007-02-16 07:52:39.0";
+        dc:identifier          "SDN:L11::D16";
+        pav:authoredOn         "2007-02-16 07:52:39.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D16/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "MHWS";
+        skos:definition        "The average throughout the year (when the average maximium declination of the moon is 23.5 degrees) of two successive high waters during those periods of 24 hours when the range of the tide is at its greatest."@en;
+        skos:notation          "SDN:L11::D16";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "mean high water springs"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D01/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D01";
+        dc:date                "2007-02-16 07:52:39.0";
+        dc:identifier          "SDN:L11::D01";
+        pav:authoredOn         "2007-02-16 07:52:39.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D01/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "LAT";
+        skos:definition        "The lowest level expected to be reached by the sea surface after pertubations due to waves have been filtered out under average meteorological conditions and any combination of astronomical conditions."@en;
+        skos:notation          "SDN:L11::D01";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Lowest Astronomical Tide"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D31/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D31";
+        dc:date                "2009-04-28 10:38:24.0";
+        dc:identifier          "SDN:L11::D31";
+        pav:authoredOn         "2009-04-28 10:38:24.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D31/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Spanish_CD";
+        skos:definition        "The elevation of the zero metres contour on the navigation charts produced by the Spanish Hydrographic Office for the Spanish coastal waters."@en;
+        skos:notation          "SDN:L11::D31";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Spanish Chart Datum"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D04/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D04";
+        dc:date                "2008-11-25 15:43:03.0";
+        dc:identifier          "SDN:L11::D04";
+        pav:authoredOn         "2008-11-25 15:43:03.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D04/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L11/current/D04/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "ACD";
+        skos:definition        "The elevation of the zero metres contour on the navigation charts produced for commercial marine navigation by the UK Hydrographic Office.  It approximates to LAT."@en;
+        skos:notation          "SDN:L11::D04";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "UK Admiralty Chart Datum"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D23/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D23";
+        dc:date                "2007-02-16 07:52:39.0";
+        dc:identifier          "SDN:L11::D23";
+        pav:authoredOn         "2007-02-16 07:52:39.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D23/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "BOD";
+        skos:definition        "Mean sea level at Clarendon Loch, Belfast averaged between 1951 and 1956 used for the elevation of the zero metres contour on Ordnance Survey of Northern Ireland maps."@en;
+        skos:notation          "SDN:L11::D23";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Belfast Ordnance Datum"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D21/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D21";
+        dc:date                "2007-02-16 07:52:39.0";
+        dc:identifier          "SDN:L11::D21";
+        pav:authoredOn         "2007-02-16 07:52:39.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D21/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "DVR90";
+        skos:definition        "Danish mean sea level during 1990 introduced in 2001 and adopted as the level of the zero metre contour in Denmark in 2003."@en;
+        skos:notation          "SDN:L11::D21";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Danish Vertical Reference 1990"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D99/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D99";
+        dc:date                "2011-08-26 10:27:52.0";
+        dc:identifier          "SDN:L11::D99";
+        pav:authoredOn         "2011-08-26 10:27:52.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D99/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L11/current/D99/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "NA";
+        skos:definition        "There is no appropriate value. To be used in cases where metadata elements cannot be set null due to schema constraints e.g. when using a 3D CRS specification schema to describe 2D data."@en;
+        skos:notation          "SDN:L11::D99";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "inapplicable"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D02/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D02";
+        dc:date                "2007-02-16 07:52:39.0";
+        dc:identifier          "SDN:L11::D02";
+        pav:authoredOn         "2007-02-16 07:52:39.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D02/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "HAT";
+        skos:definition        "The highest level expected to be reached by the sea surface after pertubations due to waves have been filtered out under average meteorological conditions and any combination of astronomical conditions."@en;
+        skos:notation          "SDN:L11::D02";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Highest Astronomical Tide"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D13/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D13";
+        dc:date                "2007-02-16 07:52:39.0";
+        dc:identifier          "SDN:L11::D13";
+        pav:authoredOn         "2007-02-16 07:52:39.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D13/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "MHW";
+        skos:definition        "The average of the highest elevation reached during at least two tidal cycles, but generally many more."@en;
+        skos:notation          "SDN:L11::D13";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "mean high water"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D33/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D33";
+        dc:date                "2017-05-22 15:41:48.0";
+        dc:identifier          "SDN:L11::D33";
+        pav:authoredOn         "2017-05-22 15:41:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D33/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L11/current/D33/1/> , <http://vocab.nerc.ac.uk/collection/L11/current/D33/2/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "BSCD2000";
+        skos:definition        "The elevation of the zero metres contour in the Baltic Sea as approved by the IHO Baltic Sea Hydrographic Commission as the common chart datum for the Baltic Sea. The datum refers to each Baltic country´s realization of the European Vertical Reference System (EVRS), which is connected to the Normaal Amsterdams Peil (NAP)."@en;
+        skos:notation          "SDN:L11::D33";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Baltic Sea Chart Datum 2000"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D24/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D24";
+        dc:date                "2007-02-16 07:52:39.0";
+        dc:identifier          "SDN:L11::D24";
+        pav:authoredOn         "2007-02-16 07:52:39.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D24/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "MOD";
+        skos:definition        "Mean sea level at Portmoor Pier, Malin Head averaged between 1960 and 1969 used for the elevation of the zero metres contour on Ordnance Survey of Ireland maps since 1970."@en;
+        skos:notation          "SDN:L11::D24";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Malin Ordnance Datum"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D12/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D12";
+        dc:date                "2007-02-16 07:52:39.0";
+        dc:identifier          "SDN:L11::D12";
+        pav:authoredOn         "2007-02-16 07:52:39.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D12/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "MLW";
+        skos:definition        "The average of the lowest elevation reached during at least two tidal cycles, but generally many more."@en;
+        skos:notation          "SDN:L11::D12";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "mean low water"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D22/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D22";
+        dc:date                "2007-02-16 07:52:39.0";
+        dc:identifier          "SDN:L11::D22";
+        pav:authoredOn         "2007-02-16 07:52:39.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D22/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "local";
+        skos:definition        "A local fixed elevation, usually labelled with a benchmark like a bolt, connected to a national datum through levelling."@en;
+        skos:notation          "SDN:L11::D22";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "local reference plane"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D03/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D03";
+        dc:date                "2007-02-16 07:52:39.0";
+        dc:identifier          "SDN:L11::D03";
+        pav:authoredOn         "2007-02-16 07:52:39.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D03/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "CD";
+        skos:definition        "The elevation of the zero metres contour on an unspecified marine navigation chart. These are generally based on LAT which represents the safest option for navigation."@en;
+        skos:notation          "SDN:L11::D03";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "unspecified chart datum"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D32/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D32";
+        dc:date                "2012-12-12 15:16:55.0";
+        dc:identifier          "SDN:L11::D32";
+        pav:authoredOn         "2012-12-12 15:16:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D32/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Portuguese_CD";
+        skos:definition        "The elevation of the zero metres contour on Portuguese navigation charts for Portuguese coastal waters. It has been set near the theoretical level reached by the lowest astronomical tide (LAT) calculated from tide gauge data."@en;
+        skos:notation          "SDN:L11::D32";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Portuguese Chart Datum"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D14/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D14";
+        dc:date                "2007-02-16 07:52:39.0";
+        dc:identifier          "SDN:L11::D14";
+        pav:authoredOn         "2007-02-16 07:52:39.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D14/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "RKW_MSL";
+        skos:definition        "The mean sea level for a period of minimal 2 days converted to a many-year average based on measurements taken at the specified location."@en;
+        skos:notation          "SDN:L11::D14";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Rijkswaterstaat mean sea level"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D10/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D10";
+        dc:date                "2007-02-16 07:52:39.0";
+        dc:identifier          "SDN:L11::D10";
+        pav:authoredOn         "2007-02-16 07:52:39.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D10/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ground";
+        skos:definition        "The level of the land surface at an unspecified location of interest.  Usually associated with meteorological instruments tethered to the ground."@en;
+        skos:notation          "SDN:L11::D10";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "ground level"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D25/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D25";
+        dc:date                "2007-02-16 07:52:39.0";
+        dc:identifier          "SDN:L11::D25";
+        pav:authoredOn         "2007-02-16 07:52:39.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D25/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "POD";
+        skos:definition        "Spring tide low water at Poolbeg Lighthouse, Dublin on 8 April 1837 used for the elevation of the zero metres contour on Ordnance Survey of Ireland maps before 1970."@en;
+        skos:notation          "SDN:L11::D25";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Poolbeg Ordnance Datum"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D20/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D20";
+        dc:date                "2007-02-16 07:52:39.0";
+        dc:identifier          "SDN:L11::D20";
+        pav:authoredOn         "2007-02-16 07:52:39.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D20/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ODN";
+        skos:definition        "Mean sea level at Newlyn in Cornwall averaged between 1915 and 1921 used for the elevation of the zero metres contour on UK Ordnance Survey maps."@en;
+        skos:notation          "SDN:L11::D20";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Ordnance Datum Newlyn"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D09/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D09";
+        dc:date                "2007-02-16 07:52:39.0";
+        dc:identifier          "SDN:L11::D09";
+        pav:authoredOn         "2007-02-16 07:52:39.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D09/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "sea_floor";
+        skos:definition        "The level of the sea floor at the location of interest.  Usually associated with vertical position co-ordinates of oceanographic instruments tethered to the sea floor."@en;
+        skos:notation          "SDN:L11::D09";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "sea floor"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/UKN/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::UKN";
+        dc:date                "2009-01-12 10:49:19.0";
+        dc:identifier          "SDN:L11::UKN";
+        pav:authoredOn         "2009-01-12 10:49:19.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/UKN/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "unknown";
+        skos:definition        "The correct value is not known to, and not computable by, the creator of this information. However, a correct value probably exists."@en;
+        skos:notation          "SDN:L11::UKN";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "unknown"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D07/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D07";
+        dc:date                "2007-02-16 07:52:39.0";
+        dc:identifier          "SDN:L11::D07";
+        pav:authoredOn         "2007-02-16 07:52:39.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D07/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "French_CD";
+        skos:definition        "The elevation of the zero metres contour on the navigation charts produced by the French Navy."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/L11/current/D30/>;
+        skos:notation          "SDN:L11::D07";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "French Naval Chart Datum"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D30/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D30";
+        dc:date                "2007-08-23 15:14:02.0";
+        dc:identifier          "SDN:L11::D30";
+        pav:authoredOn         "2007-08-23 15:14:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D30/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "French_CD_Leb";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L11/current/D07/>;
+        skos:definition        "The elevation of the zero metres contour on the navigation charts produced by the French Navy for Lebanese coastal waters."@en;
+        skos:notation          "SDN:L11::D30";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "French Naval Chart Datum for Lebanon"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D19/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D19";
+        dc:date                "2007-02-16 07:52:39.0";
+        dc:identifier          "SDN:L11::D19";
+        pav:authoredOn         "2007-02-16 07:52:39.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D19/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "NAP";
+        skos:definition        "Elevation marked by a brass benchmark in Amsterdam approximating to mean sea level at the Dutch Coast. Sometimes referred to as Normalnull and used as the zero metre contour in much of Western Europe.."@en;
+        skos:notation          "SDN:L11::D19";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Normaal Amsterdams Peil"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D34/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D34";
+        dc:date                "2024-01-25 10:55:59.0";
+        dc:identifier          "SDN:L11::D34";
+        pav:authoredOn         "2024-01-25 10:55:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D34/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "NCD_EPSG-1301";
+        skos:definition        "The elevation of the zero metres contour on Norwegian navigation charts as defined by the Norwegian Mapping Authority, Hydrographic Service. The area of extent includes the waters of Norway, Svalbard and Jan Mayen (offshore). EPSG code 1301."@en;
+        skos:notation          "SDN:L11::D34";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Norwegian Chart Datum"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D15/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D15";
+        dc:date                "2007-02-16 07:52:39.0";
+        dc:identifier          "SDN:L11::D15";
+        pav:authoredOn         "2007-02-16 07:52:39.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D15/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "MLWS";
+        skos:definition        "The average throughout the year (when the average maximium declination of the moon is 23.5 degrees) of two successive low waters during those periods of 24 hours when the range of the tide is at its greatest."@en;
+        skos:notation          "SDN:L11::D15";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "mean low water springs"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D29/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D29";
+        dc:date                "2007-08-10 10:13:31.0";
+        dc:identifier          "SDN:L11::D29";
+        pav:authoredOn         "2007-08-10 10:13:31.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D29/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "RGF93";
+        skos:definition        "The vertical component of a French 3-D CRS computed in 1993 approximating to mean sea level"@en;
+        skos:notation          "SDN:L11::D29";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Réseau Géodésique Français 93"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/D26/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L11::D26";
+        dc:date                "2007-02-16 07:52:39.0";
+        dc:identifier          "SDN:L11::D26";
+        pav:authoredOn         "2007-02-16 07:52:39.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L11/current/D26/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "RH70";
+        skos:definition        "Swedish national benchmark network mean sea level datum."@en;
+        skos:notation          "SDN:L11::D26";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Swedish national coordinate system"@en .
+
+<http://vocab.nerc.ac.uk/collection/L11/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the EU SeaDataNet project implemented as consultation between BODC and the members of the SeaDataNet Technical Task Team";
+        dc:alternative          "SeaDataNet datum origins";
+        dc:creator              "SeaDataNet";
+        dc:date                 "2024-01-26 02:00:06.0";
+        dc:description          "Terms used to describe the zero point for vertical co-ordinate reference systems (datums).";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "SeaDataNet depth measurement reference planes";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "SeaDataNet";
+        owl:versionInfo         "11";
+        skos:altLabel           "SeaDataNet datum origins";
+        skos:member             <http://vocab.nerc.ac.uk/collection/L11/current/D11/> , <http://vocab.nerc.ac.uk/collection/L11/current/D28/> , <http://vocab.nerc.ac.uk/collection/L11/current/D18/> , <http://vocab.nerc.ac.uk/collection/L11/current/D17/> , <http://vocab.nerc.ac.uk/collection/L11/current/D27/> , <http://vocab.nerc.ac.uk/collection/L11/current/D05/> , <http://vocab.nerc.ac.uk/collection/L11/current/D08/> , <http://vocab.nerc.ac.uk/collection/L11/current/D06/> , <http://vocab.nerc.ac.uk/collection/L11/current/D16/> , <http://vocab.nerc.ac.uk/collection/L11/current/D01/> , <http://vocab.nerc.ac.uk/collection/L11/current/D31/> , <http://vocab.nerc.ac.uk/collection/L11/current/D04/> , <http://vocab.nerc.ac.uk/collection/L11/current/D23/> , <http://vocab.nerc.ac.uk/collection/L11/current/D21/> , <http://vocab.nerc.ac.uk/collection/L11/current/D99/> , <http://vocab.nerc.ac.uk/collection/L11/current/D02/> , <http://vocab.nerc.ac.uk/collection/L11/current/D13/> , <http://vocab.nerc.ac.uk/collection/L11/current/D33/> , <http://vocab.nerc.ac.uk/collection/L11/current/D24/> , <http://vocab.nerc.ac.uk/collection/L11/current/D12/> , <http://vocab.nerc.ac.uk/collection/L11/current/D22/> , <http://vocab.nerc.ac.uk/collection/L11/current/D03/> , <http://vocab.nerc.ac.uk/collection/L11/current/D32/> , <http://vocab.nerc.ac.uk/collection/L11/current/D14/> , <http://vocab.nerc.ac.uk/collection/L11/current/D10/> , <http://vocab.nerc.ac.uk/collection/L11/current/D25/> , <http://vocab.nerc.ac.uk/collection/L11/current/D20/> , <http://vocab.nerc.ac.uk/collection/L11/current/D09/> , <http://vocab.nerc.ac.uk/collection/L11/current/UKN/> , <http://vocab.nerc.ac.uk/collection/L11/current/D07/> , <http://vocab.nerc.ac.uk/collection/L11/current/D30/> , <http://vocab.nerc.ac.uk/collection/L11/current/D19/> , <http://vocab.nerc.ac.uk/collection/L11/current/D34/> , <http://vocab.nerc.ac.uk/collection/L11/current/D15/> , <http://vocab.nerc.ac.uk/collection/L11/current/D26/> , <http://vocab.nerc.ac.uk/collection/L11/current/D29/>;
+        skos:prefLabel          "SeaDataNet depth measurement reference planes" .

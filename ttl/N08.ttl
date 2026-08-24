@@ -1,0 +1,276 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/N08/current/OPEN/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N08::OPEN";
+        dc:date                "2026-04-13 12:27:11.0";
+        dc:identifier          "SDN:N08::OPEN";
+        pav:authoredOn         "2026-04-13 12:27:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N08/current/OPEN/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Use of the resource is permitted for any purpose and by any user, without restriction, in accordance with the applicable licence or usage policy."@en;
+        skos:notation          "SDN:N08::OPEN";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "open use permitted"@en .
+
+<http://vocab.nerc.ac.uk/collection/N08/current/ACAD/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N08::ACAD";
+        dc:date                "2026-04-13 12:27:11.0";
+        dc:identifier          "SDN:N08::ACAD";
+        pav:authoredOn         "2026-04-13 12:27:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N08/current/ACAD/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Use of the resource is permitted for academic research purposes in accordance with the applicable licence or usage policy."@en;
+        skos:notation          "SDN:N08::ACAD";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "academic use permitted"@en .
+
+<http://vocab.nerc.ac.uk/collection/N08/current/UNCL/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N08::UNCL";
+        dc:date                "2026-04-13 12:27:11.0";
+        dc:identifier          "SDN:N08::UNCL";
+        pav:authoredOn         "2026-04-13 12:27:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N08/current/UNCL/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Use of the resource may be subject to licence or policy terms in which permitted uses, prohibitions, or conditions of use are not clearly defined. No specific permissions, restrictions, or obligations can be reliably inferred."@en;
+        skos:notation          "SDN:N08::UNCL";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "use conditions unclear"@en .
+
+<http://vocab.nerc.ac.uk/collection/N08/current/PERS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N08::PERS";
+        dc:date                "2026-04-13 12:27:11.0";
+        dc:identifier          "SDN:N08::PERS";
+        pav:authoredOn         "2026-04-13 12:27:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N08/current/PERS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Use of the resource is permitted for personal or private purposes, in accordance with the applicable licence or usage policy."@en;
+        skos:notation          "SDN:N08::PERS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "personal use permitted"@en .
+
+<http://vocab.nerc.ac.uk/collection/N08/current/COMM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N08::COMM";
+        dc:date                "2026-04-13 12:27:11.0";
+        dc:identifier          "SDN:N08::COMM";
+        pav:authoredOn         "2026-04-13 12:27:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N08/current/COMM/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Use of the resource is permitted for commercial purposes or financial gain, in accordance with the applicable licence, usage policy, or fee requirements."@en;
+        skos:notation          "SDN:N08::COMM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "commercial use permitted"@en .
+
+<http://vocab.nerc.ac.uk/collection/N08/current/DERI/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N08::DERI";
+        dc:date                "2026-04-13 12:27:11.0";
+        dc:identifier          "SDN:N08::DERI";
+        pav:authoredOn         "2026-04-13 12:27:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N08/current/DERI/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Use of the resource is permitted to create derivative products or outputs, in accordance with the applicable licence or usage policy."@en;
+        skos:notation          "SDN:N08::DERI";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "derivative outputs permitted"@en .
+
+<http://vocab.nerc.ac.uk/collection/N08/current/NCOM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N08::NCOM";
+        dc:date                "2026-04-13 12:27:11.0";
+        dc:identifier          "SDN:N08::NCOM";
+        pav:authoredOn         "2026-04-13 12:27:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N08/current/NCOM/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Use of the resource is restricted to non-commercial purposes; use for commercial purposes is not permitted, in accordance with the applicable licence or usage policy."@en;
+        skos:notation          "SDN:N08::NCOM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "use restricted to non-commercial purposes"@en .
+
+<http://vocab.nerc.ac.uk/collection/N08/current/NODS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N08::NODS";
+        dc:date                "2026-04-13 12:27:11.0";
+        dc:identifier          "SDN:N08::NODS";
+        pav:authoredOn         "2026-04-13 12:27:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N08/current/NODS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Use of the resource is permitted only for the grantee and may not be redistributed or shared with third parties without explicit permission from the data owner or provider."@en;
+        skos:notation          "SDN:N08::NODS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "onward distribution prohibited"@en .
+
+<http://vocab.nerc.ac.uk/collection/N08/current/ATTR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N08::ATTR";
+        dc:date                "2026-04-13 12:27:11.0";
+        dc:identifier          "SDN:N08::ATTR";
+        pav:authoredOn         "2026-04-13 12:27:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N08/current/ATTR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Use of the resource is permitted provided that the data source is acknowledged in accordance with the applicable licence or citation guidance."@en;
+        skos:notation          "SDN:N08::ATTR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "attribution required"@en .
+
+<http://vocab.nerc.ac.uk/collection/N08/current/SHAR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N08::SHAR";
+        dc:date                "2026-04-13 12:27:11.0";
+        dc:identifier          "SDN:N08::SHAR";
+        pav:authoredOn         "2026-04-13 12:27:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N08/current/SHAR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Use of the resource is permitted only if any derivative products or outputs are made available under the same or a compatible licence as the original resource, in accordance with the applicable licence or usage policy."@en;
+        skos:notation          "SDN:N08::SHAR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "share-alike required"@en .
+
+<http://vocab.nerc.ac.uk/collection/N08/current/INTU/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N08::INTU";
+        dc:date                "2026-04-13 12:27:11.0";
+        dc:identifier          "SDN:N08::INTU";
+        pav:authoredOn         "2026-04-13 12:27:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N08/current/INTU/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Use of the resource is restricted to internal purposes within the specified organisation or project, in accordance with applicable policies or agreements."@en;
+        skos:notation          "SDN:N08::INTU";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "use restricted to internal purposes"@en .
+
+<http://vocab.nerc.ac.uk/collection/N08/current/EDUC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N08::EDUC";
+        dc:date                "2026-04-13 12:27:11.0";
+        dc:identifier          "SDN:N08::EDUC";
+        pav:authoredOn         "2026-04-13 12:27:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N08/current/EDUC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Use of the resource is permitted for teaching, training, or instructional purposes, in accordance with the applicable licence or usage policy."@en;
+        skos:notation          "SDN:N08::EDUC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "educational use permitted"@en .
+
+<http://vocab.nerc.ac.uk/collection/N08/current/POLI/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N08::POLI";
+        dc:date                "2026-04-13 12:27:11.0";
+        dc:identifier          "SDN:N08::POLI";
+        pav:authoredOn         "2026-04-13 12:27:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N08/current/POLI/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Use of the resource is permitted internally within organisations to support policy development, decision-making, or governmental operations, in accordance with applicable licence or usage policy."@en;
+        skos:notation          "SDN:N08::POLI";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "policy use permitted"@en .
+
+<http://vocab.nerc.ac.uk/collection/N08/current/DPTR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N08::DPTR";
+        dc:date                "2026-04-13 12:27:11.0";
+        dc:identifier          "SDN:N08::DPTR";
+        pav:authoredOn         "2026-04-13 12:27:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N08/current/DPTR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Distribution of derivative products or outputs created from the resource is not permitted without explicit permission from the data owner or provider."@en;
+        skos:notation          "SDN:N08::DPTR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "derived product distribution restricted"@en .
+
+<http://vocab.nerc.ac.uk/collection/N08/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used for cross-data centre information infrastructure in the UKRI-NERC's Environmental Data Service.";
+        dc:alternative          "EDS Use Conditions Vocabulary";
+        dc:creator              "Environmental Data Service Vocabulary Governance";
+        dc:date                 "2026-04-14 03:00:01.0";
+        dc:description          "Terms describing permitted, restricted, or prohibited uses of a resource, including obligations, permissions, and prohibitions that govern how the resource may be used, shared, or adapted.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Environmental Data Service (EDS) Use Conditions Vocabulary";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Environmental Data Service Vocabulary Governance";
+        owl:versionInfo         "1";
+        skos:altLabel           "EDS Use Conditions Vocabulary";
+        skos:member             <http://vocab.nerc.ac.uk/collection/N08/current/OPEN/> , <http://vocab.nerc.ac.uk/collection/N08/current/ACAD/> , <http://vocab.nerc.ac.uk/collection/N08/current/UNCL/> , <http://vocab.nerc.ac.uk/collection/N08/current/PERS/> , <http://vocab.nerc.ac.uk/collection/N08/current/COMM/> , <http://vocab.nerc.ac.uk/collection/N08/current/DERI/> , <http://vocab.nerc.ac.uk/collection/N08/current/NCOM/> , <http://vocab.nerc.ac.uk/collection/N08/current/NODS/> , <http://vocab.nerc.ac.uk/collection/N08/current/ATTR/> , <http://vocab.nerc.ac.uk/collection/N08/current/SHAR/> , <http://vocab.nerc.ac.uk/collection/N08/current/INTU/> , <http://vocab.nerc.ac.uk/collection/N08/current/EDUC/> , <http://vocab.nerc.ac.uk/collection/N08/current/DPTR/> , <http://vocab.nerc.ac.uk/collection/N08/current/POLI/>;
+        skos:prefLabel          "Environmental Data Service (EDS) Use Conditions Vocabulary" .

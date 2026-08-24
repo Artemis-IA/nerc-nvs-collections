@@ -1,0 +1,328 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/P33/current/WAVES/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P33::WAVES";
+        dc:date                "2024-03-06 04:47:59.0";
+        dc:identifier          "SDN:P33::WAVES";
+        pav:authoredOn         "2024-03-06 04:47:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P33/current/WAVES/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Variables associated with the determination of surface waves on water bodies."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/GEPKZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GTZMZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GTZHZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GTAMZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GTZAM2ZZ/> , <http://vocab.nerc.ac.uk/collection/P01/current/GTZAMIZZ/> , <http://vocab.nerc.ac.uk/collection/P01/current/GTPKZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GTZHTN01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GTZAZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GSZZXXXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/GTZAMAZ2/> , <http://vocab.nerc.ac.uk/collection/P01/current/GTHMXX01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GPEDZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GMWDZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GDSWZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GSPRZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GWDRZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/WVSTZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/P2HD8701/> , <http://vocab.nerc.ac.uk/collection/P01/current/GTDTZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GCMXZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GZMXZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/HZAVZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GMXLZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/HSTKDP01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GCMXVS01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GTDHZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GAVHZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GMNLZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/GHSWZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/HMZEZZ01/>;
+        skos:notation          "SDN:P33::WAVES";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Waves"@en .
+
+<http://vocab.nerc.ac.uk/collection/P33/current/RIVER/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P33::RIVER";
+        dc:date                "2024-03-06 04:47:59.0";
+        dc:identifier          "SDN:P33::RIVER";
+        pav:authoredOn         "2024-03-06 04:47:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P33/current/RIVER/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Variables associated with the river water properties"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/RFDSCH01/>;
+        skos:notation          "SDN:P33::RIVER";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "River"@en .
+
+<http://vocab.nerc.ac.uk/collection/P33/current/WINDS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P33::WINDS";
+        dc:date                "2024-03-06 04:47:59.0";
+        dc:identifier          "SDN:P33::WINDS";
+        pav:authoredOn         "2024-03-06 04:47:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P33/current/WINDS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Variables associated with the determination of the wind speed and direction near the Earth's surface."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/WMOCWFBF/> , <http://vocab.nerc.ac.uk/collection/P01/current/EGTSZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/EWSBZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/ESNSZZXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/ESEWZZXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/EWDAZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/EGTDZZ01/>;
+        skos:notation          "SDN:P33::WINDS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Winds"@en .
+
+<http://vocab.nerc.ac.uk/collection/P33/current/CURRENTS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P33::CURRENTS";
+        dc:date                "2024-03-06 04:47:59.0";
+        dc:identifier          "SDN:P33::CURRENTS";
+        pav:authoredOn         "2024-03-06 04:47:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P33/current/CURRENTS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Variables associated with the determination of the speed and direction of surface and subsuface seawater currents."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/LCEWZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/LCNSZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/LCDAZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/LCSAZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/LCSAWVRD/> , <http://vocab.nerc.ac.uk/collection/P01/current/LCDAWVRD/> , <http://vocab.nerc.ac.uk/collection/P01/current/LRZAZZZZ/>;
+        skos:notation          "SDN:P33::CURRENTS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Currents"@en .
+
+<http://vocab.nerc.ac.uk/collection/P33/current/CARBONSYSTEM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P33::CARBONSYSTEM";
+        dc:date                "2024-03-06 04:47:59.0";
+        dc:identifier          "SDN:P33::CARBONSYSTEM";
+        pav:authoredOn         "2024-03-06 04:47:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P33/current/CARBONSYSTEM/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Variables associated to carbon uptake and fluxes"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/PCO2XXXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/MDMAP014/> , <http://vocab.nerc.ac.uk/collection/P01/current/PHXXZZXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/ALKYZZXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/FCO2XXXX/>;
+        skos:notation          "SDN:P33::CARBONSYSTEM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Carbon System"@en .
+
+<http://vocab.nerc.ac.uk/collection/P33/current/UNDERWATERSOUND/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P33::UNDERWATERSOUND";
+        dc:date                "2024-03-06 04:47:59.0";
+        dc:identifier          "SDN:P33::UNDERWATERSOUND";
+        pav:authoredOn         "2024-03-06 04:47:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P33/current/UNDERWATERSOUND/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Variables associated with the sound emission and propagation in the marine environment. This topic includes the measurement of sound characteristics"@en;
+        skos:notation          "SDN:P33::UNDERWATERSOUND";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Underwater Sound"@en .
+
+<http://vocab.nerc.ac.uk/collection/P33/current/SALINITYCONDUCTIVITY/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P33::SALINITYCONDUCTIVITY";
+        dc:date                "2024-04-18 10:15:35.0";
+        dc:identifier          "SDN:P33::SALINITYCONDUCTIVITY";
+        dc:isReplacedBy        <http://vocab.nerc.ac.uk/collection/P33/current/WATERSALINITY/>;
+        pav:authoredOn         "2024-04-18 10:15:35.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P33/current/SALINITYCONDUCTIVITY/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/P33/current/SALINITYCONDUCTIVITY/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "Variables associated with the determination of seawater salinity"@en;
+        skos:notation          "SDN:P33::SALINITYCONDUCTIVITY";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Water Salinity and conductivity"@en .
+
+<http://vocab.nerc.ac.uk/collection/P33/current/WATERSALINITY/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P33::WATERSALINITY";
+        dc:date                "2024-04-18 10:15:35.0";
+        dc:identifier          "SDN:P33::WATERSALINITY";
+        dc:replaces            <http://vocab.nerc.ac.uk/collection/P33/current/SALINITYCONDUCTIVITY/>;
+        pav:authoredOn         "2024-04-18 10:15:35.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P33/current/WATERSALINITY/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Variables associated with the determination of sea water salinity"@en;
+        skos:notation          "SDN:P33::WATERSALINITY";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Water Salinity and Conductivity"@en .
+
+<http://vocab.nerc.ac.uk/collection/P33/current/METEOROLOGICAL/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P33::METEOROLOGICAL";
+        dc:date                "2024-03-06 04:47:59.0";
+        dc:identifier          "SDN:P33::METEOROLOGICAL";
+        pav:authoredOn         "2024-03-06 04:47:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P33/current/METEOROLOGICAL/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Variables associated with the determination of the meteorological variables (including atmospheric pressure, air temperature, rain, aerosol, etc)"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/CDEWZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/CWETZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/CAPHZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTMPZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/CRELZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/CPRRRG01/> , <http://vocab.nerc.ac.uk/collection/P01/current/NTLRDZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/APRESSTN/> , <http://vocab.nerc.ac.uk/collection/P01/current/CAPAZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSLRZZXX/>;
+        skos:notation          "SDN:P33::METEOROLOGICAL";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Meteorological"@en .
+
+<http://vocab.nerc.ac.uk/collection/P33/current/SEAICE/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P33::SEAICE";
+        dc:date                "2024-03-06 04:47:59.0";
+        dc:identifier          "SDN:P33::SEAICE";
+        pav:authoredOn         "2024-03-06 04:47:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P33/current/SEAICE/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Variables associated with the determination of sea ice properties and position (including iceberg trajectories)"@en;
+        skos:notation          "SDN:P33::SEAICE";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sea Ice"@en .
+
+<http://vocab.nerc.ac.uk/collection/P33/current/SEALEVEL/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P33::SEALEVEL";
+        dc:date                "2024-03-06 04:47:59.0";
+        dc:identifier          "SDN:P33::SEALEVEL";
+        pav:authoredOn         "2024-03-06 04:47:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P33/current/SEALEVEL/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Variables associated with the of sea level properties, including movement of sea level, the displacement of the water column surface from a fixed, stable reference, expressed as metres or pressure"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/AHGTZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/ASLVR101/> , <http://vocab.nerc.ac.uk/collection/P01/current/ASLVZZ01/>;
+        skos:notation          "SDN:P33::SEALEVEL";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sea Level"@en .
+
+<http://vocab.nerc.ac.uk/collection/P33/current/WATERTEMPERATURE/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P33::WATERTEMPERATURE";
+        dc:date                "2024-03-18 16:36:19.0";
+        dc:identifier          "SDN:P33::WATERTEMPERATURE";
+        pav:authoredOn         "2024-03-18 16:36:19.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P33/current/WATERTEMPERATURE/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Variables associated with the determination of seawater temperature"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/> , <http://vocab.nerc.ac.uk/collection/P01/current/TEMPSG01/>;
+        skos:notation          "SDN:P33::WATERTEMPERATURE";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Temperature in the sea water column"@en .
+
+<http://vocab.nerc.ac.uk/collection/P33/current/DISSOLVEDOXYGEN/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P33::DISSOLVEDOXYGEN";
+        dc:date                "2024-03-06 04:47:59.0";
+        dc:identifier          "SDN:P33::DISSOLVEDOXYGEN";
+        pav:authoredOn         "2024-03-06 04:47:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P33/current/DISSOLVEDOXYGEN/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Variables associated with the determination of the amount of oxygen dissolved in seawater using water column measurements"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/DOXYZZXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/OXYSZZ01/>;
+        skos:notation          "SDN:P33::DISSOLVEDOXYGEN";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Dissolved Oxygen"@en .
+
+<http://vocab.nerc.ac.uk/collection/P33/current/BIOGEOCHEMICAL/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P33::BIOGEOCHEMICAL";
+        dc:date                "2024-05-20 20:39:53.0";
+        dc:identifier          "SDN:P33::BIOGEOCHEMICAL";
+        pav:authoredOn         "2024-05-20 20:39:53.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P33/current/BIOGEOCHEMICAL/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/P33/current/BIOGEOCHEMICAL/2/> , <http://vocab.nerc.ac.uk/collection/P33/current/BIOGEOCHEMICAL/1/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "3";
+        skos:altLabel          "";
+        skos:definition        "Variables associated with the with the determination of the amount od dissolved chlorophyll, inorganic macronutrients in seawater using water column measurements"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/TBCCXXXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/DINXZZZZ/> , <http://vocab.nerc.ac.uk/collection/P01/current/MDMAP007/> , <http://vocab.nerc.ac.uk/collection/P01/current/MDMAP008/> , <http://vocab.nerc.ac.uk/collection/P01/current/AMONZZXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/NTRAZZXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/MDMAP005/> , <http://vocab.nerc.ac.uk/collection/P01/current/NTRIZZXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/PHTLSX25/> , <http://vocab.nerc.ac.uk/collection/P01/current/PHYCSPP4/> , <http://vocab.nerc.ac.uk/collection/P01/current/SLCAZZXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/CPHLZZXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/CHLTVOLU/> , <http://vocab.nerc.ac.uk/collection/P01/current/CPHLPM01/> , <http://vocab.nerc.ac.uk/collection/P01/current/PHOSZZXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/MDMAP012/> , <http://vocab.nerc.ac.uk/collection/P01/current/FLUOZZZZ/> , <http://vocab.nerc.ac.uk/collection/P01/current/NTRZZZXX/>;
+        skos:notation          "SDN:P33::BIOGEOCHEMICAL";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "Biogeochemical"@en .
+
+<http://vocab.nerc.ac.uk/collection/P33/current/BIOCHEMICAL/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P33::BIOCHEMICAL";
+        dc:date                "2026-07-22 13:46:41.0";
+        dc:identifier          "SDN:P33::BIOCHEMICAL";
+        pav:authoredOn         "2026-07-22 13:46:41.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P33/current/BIOCHEMICAL/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/P33/current/BIOCHEMICAL/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "Variables associated with the determination of the amount of dissolved chlorophyll, inorganic macronutrients in seawater using water column measurements."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/TBCCXXXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/DINXZZZZ/> , <http://vocab.nerc.ac.uk/collection/P01/current/MDMAP007/> , <http://vocab.nerc.ac.uk/collection/P01/current/MDMAP008/> , <http://vocab.nerc.ac.uk/collection/P01/current/AMONZZXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/NTRAZZXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/MDMAP005/> , <http://vocab.nerc.ac.uk/collection/P01/current/NTRIZZXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/PHTLSX25/> , <http://vocab.nerc.ac.uk/collection/P01/current/PHYCSPP4/> , <http://vocab.nerc.ac.uk/collection/P01/current/SLCAZZXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/CPHLZZXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/CHLTVOLU/> , <http://vocab.nerc.ac.uk/collection/P01/current/CPHLPM01/> , <http://vocab.nerc.ac.uk/collection/P01/current/PHOSZZXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/MDMAP012/> , <http://vocab.nerc.ac.uk/collection/P01/current/FLUOZZZZ/> , <http://vocab.nerc.ac.uk/collection/P01/current/NTRZZZXX/>;
+        skos:notation          "SDN:P33::BIOCHEMICAL";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Biochemical"@en .
+
+<http://vocab.nerc.ac.uk/collection/P33/current/OPTICAL/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P33::OPTICAL";
+        dc:date                "2024-03-06 04:47:59.0";
+        dc:identifier          "SDN:P33::OPTICAL";
+        pav:authoredOn         "2024-03-06 04:47:59.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P33/current/OPTICAL/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Variables associated with the optical properties of the water, including the turbidity, the degree of scattering of light in water, related to the amount of suspended material in the water"@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P01/current/ATTNZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/POPTZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/LWRDZZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/TURBXXXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/MBANZZZZ/> , <http://vocab.nerc.ac.uk/collection/P01/current/PARERXSD/> , <http://vocab.nerc.ac.uk/collection/P01/current/FLUOCDOM/> , <http://vocab.nerc.ac.uk/collection/P01/current/IRRDUV01/> , <http://vocab.nerc.ac.uk/collection/P01/current/PARERXUD/> , <http://vocab.nerc.ac.uk/collection/P01/current/TSEDZZZZ/> , <http://vocab.nerc.ac.uk/collection/P01/current/TLRDZZ01/>;
+        skos:notation          "SDN:P33::OPTICAL";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Optical Properties"@en .
+
+<http://vocab.nerc.ac.uk/collection/P33/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies created for the European Marine Observation and Data Network (EMODnet) Physics infrastructure. EMODnet Physics is an upstream ocean data integrating service providing a single point of access to in situ ocean physics time-series data and vertical profiles, data products and metadata built with common standards, free of charge and no restrictions. The governance is loosely defined as the scientific expertise within the consortium with no formal processes defined.";
+        rdfs:seeAlso            <https://github.com/nvs-vocabs/P33>;
+        dc:alternative          "EMODnet physics themes/terms";
+        dc:creator              "EMODnet Physics";
+        dc:date                 "2026-07-23 03:00:01.0";
+        dc:description          "Terms used by EMODnet physics to group parameters into coarser categories to be used at the data discovery and at the data aggregation product levels.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "EMODnet Physics data collection aggregated parameter names";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "EMODnet Physics";
+        owl:versionInfo         "6";
+        skos:altLabel           "EMODnet physics themes/terms";
+        skos:member             <http://vocab.nerc.ac.uk/collection/P33/current/WAVES/> , <http://vocab.nerc.ac.uk/collection/P33/current/RIVER/> , <http://vocab.nerc.ac.uk/collection/P33/current/WINDS/> , <http://vocab.nerc.ac.uk/collection/P33/current/CURRENTS/> , <http://vocab.nerc.ac.uk/collection/P33/current/CARBONSYSTEM/> , <http://vocab.nerc.ac.uk/collection/P33/current/UNDERWATERSOUND/> , <http://vocab.nerc.ac.uk/collection/P33/current/SALINITYCONDUCTIVITY/> , <http://vocab.nerc.ac.uk/collection/P33/current/WATERSALINITY/> , <http://vocab.nerc.ac.uk/collection/P33/current/METEOROLOGICAL/> , <http://vocab.nerc.ac.uk/collection/P33/current/SEAICE/> , <http://vocab.nerc.ac.uk/collection/P33/current/SEALEVEL/> , <http://vocab.nerc.ac.uk/collection/P33/current/WATERTEMPERATURE/> , <http://vocab.nerc.ac.uk/collection/P33/current/DISSOLVEDOXYGEN/> , <http://vocab.nerc.ac.uk/collection/P33/current/BIOGEOCHEMICAL/> , <http://vocab.nerc.ac.uk/collection/P33/current/BIOCHEMICAL/> , <http://vocab.nerc.ac.uk/collection/P33/current/OPTICAL/>;
+        skos:prefLabel          "EMODnet Physics data collection aggregated parameter names" .

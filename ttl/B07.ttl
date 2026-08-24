@@ -1,0 +1,446 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/B07/current/NDT017/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B07::NDT017";
+        dc:date                "2014-10-14 12:14:45.0";
+        dc:identifier          "SDN:B07::NDT017";
+        pav:authoredOn         "2014-10-14 12:14:45.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B07/current/NDT017/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Serial sampler stratified oblique tow";
+        skos:definition        "Multiple nets are deployed on a single frame with opening and closing capability. In the case of a system like MOCNESS, the first net (0) is deployed to the bottom depth, open. Once at the bottom the zero net is closed, at the same time opening the second (net 1) net. This net is hauled to a predetermined depth and then closed while the next net is opened. The procedure continues until the final predetermined depth is reached (normally the surface). For systems like the Multinet, the system can be deployed without a net open and the first net is opened at depth. This deployment strategy can also be done with a single net with multiple a cod-end system. Examples of gears that can be deployed that way include MOCNESS, BIONESS, Multinet, other multiple net opening/closing systems (Wiebe and Benfield 2003, Plates 28-31)."@en;
+        skos:notation          "SDN:B07::NDT017";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Multiple net/multiple cod-end system stratified oblique tow"@en .
+
+<http://vocab.nerc.ac.uk/collection/B07/current/NDT006/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B07::NDT006";
+        dc:date                "2014-10-14 12:14:45.0";
+        dc:identifier          "SDN:B07::NDT006";
+        pav:authoredOn         "2014-10-14 12:14:45.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B07/current/NDT006/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Neuston tow";
+        skos:definition        "Net deployments designed to collect animals or debris floating on the surface or in the upper few centimeters of the water from a moving platform.  The net is towed horizontally at one depth and samples half in and half out of the water. Occasionally neuston nets can be stacked vertically in the water column to sample as deep as 100 cm. For examples, see Wiebe and Benfield 2003, Plates 20 and 21."@en;
+        skos:notation          "SDN:B07::NDT006";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Neuston net tow"@en .
+
+<http://vocab.nerc.ac.uk/collection/B07/current/NDT009/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B07::NDT009";
+        dc:date                "2014-10-14 12:14:45.0";
+        dc:identifier          "SDN:B07::NDT009";
+        pav:authoredOn         "2014-10-14 12:14:45.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B07/current/NDT009/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Towyo";
+        skos:definition        "A single net or net pair is deployed open from a moving platform to a predetermined depth and then repeatedly hauled to the surface and sent back to depth. Examples of gears that can be deployed that way include ring nets, Bongo nets, Tucker trawls, and other non-opening closing nets (Wiebe and Benfield 2003, Plates 2 and 3)."@en;
+        skos:notation          "SDN:B07::NDT009";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Single net or net pair towyo"@en .
+
+<http://vocab.nerc.ac.uk/collection/B07/current/NDT007/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B07::NDT007";
+        dc:date                "2014-10-14 12:14:45.0";
+        dc:identifier          "SDN:B07::NDT007";
+        pav:authoredOn         "2014-10-14 12:14:45.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B07/current/NDT007/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "V-shape tow";
+        skos:definition        "This deployment type has sometimes been misrepresented as a double oblique.  A true double oblique tow is in the form of a W.  For a single oblique tow, the net fishes from the surface obliquely down to some particular depth and back to the surface along a V-shape path.  There is no opening/closing mechanism.  Most of the time oblique tows are not symmetrical.  The net is typically shot to depth rapidly and hauled to the surface more slowly from a moving platform. Examples of gears that can be deployed that way include ring nets, Bongo nets, Tucker trawls, and other non-opening closing nets (Wiebe and Benfield 2003, Plates 2 and 3)."@en;
+        skos:notation          "SDN:B07::NDT007";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Single net or net pair oblique tow"@en .
+
+<http://vocab.nerc.ac.uk/collection/B07/current/NDT020/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B07::NDT020";
+        dc:date                "2014-10-14 12:14:45.0";
+        dc:identifier          "SDN:B07::NDT020";
+        pav:authoredOn         "2014-10-14 12:14:45.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B07/current/NDT020/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Serial sampler stratified towyo";
+        skos:definition        "Multiple nets are deployed on a single frame with opening and closing capability. in the case of a system like MOCNESS, the first net (0) is deployed to a predetermined depth, open. Once at that depth, that net is closed, at the same time opening the second (net 1) net.  On the oblique section up, several different depth intervals are sampled by successive nets. Once at the shallowest point of tow (usually the surface), the next net is open and shot open down to depth.  Then this net is closed and again on the way up, several different depth intervals are sampled by successive nets.  For systems like the Multinet, the system can be deployed without a net open and the first net is opened at depth. Sampling depths can be adjusted as the environmental structure requires.  This deployment strategy can also be done with a single net with multiple cod-end system. Examples of gears that can be deployed that way include the MOCNESS, BIONESS, Multinet, other multiple net opening/closing or closing cod-end systems (Wiebe and Benfield 2003, Plates 28-31)."@en;
+        skos:notation          "SDN:B07::NDT020";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Multiple net/multiple cod-end system stratified oblique horizontal towyo"@en .
+
+<http://vocab.nerc.ac.uk/collection/B07/current/NDT022/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B07::NDT022";
+        dc:date                "2014-10-14 12:14:45.0";
+        dc:identifier          "SDN:B07::NDT022";
+        pav:authoredOn         "2014-10-14 12:14:45.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B07/current/NDT022/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Serial sampler discontinuous horizontal tow";
+        skos:definition        "Multiple nets are deployed on a single frame with opening and closing capability or this type of deployment also applies to a single net with a multiple cod-end system. The net system is deployed to a predetermined depth with the first net either open or closed.  At depth, the first net is opened (if it was closed) or closed (if it was open) and the next net opened in this case.  The open net is towed horizontally for some distance and then closed.  The next net is NOT open upon the previous net's closing and the system travels some distance at the same depth before another net is opened.  This sequence continues until all nets are fished at the specific required depth intervals.  In this deployment configuration, there are intervals between nets that are NOT sampled. Examples of gears that can be deployed that way include MOCNESS, BIONESS, Multinet, multiple net opening/closing systems; cod-end serial samplers such as LHPR, ARIES (see Wiebe and Benfield 2003, Plates 27B-31C)."@en;
+        skos:notation          "SDN:B07::NDT022";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Multiple net/multiple cod-end system  discontinuous horizontal tow"@en .
+
+<http://vocab.nerc.ac.uk/collection/B07/current/NDT018/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B07::NDT018";
+        dc:date                "2014-10-14 12:14:45.0";
+        dc:identifier          "SDN:B07::NDT018";
+        pav:authoredOn         "2014-10-14 12:14:45.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B07/current/NDT018/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Serial sampler horizontal tow";
+        skos:definition        "Multiple nets are deployed on a single frame with opening and closing capability or this type of deployment also applies to a single net with a multiple cod-end system or a Continuous Plankton Recorder (CPR). In the case of a system like MOCNESS, the first net (0) is deployed to a predetermined depth, open. Once at that depth, that net is closed, at the same time opening the second (net 1) net. Net 1 and all subsequent nets are opened/closed at the depth selected for the horizontal tow.  For systems, like the Multinet, the system can be deployed without a net open and the first net is opened at the selected depth. The CPR is normally towed horizontally just below the sea surface and samples plankton on a single slow-moving band of silk that is then spooled in a storage tank until recovery. Examples of gears that can be deployed that way include MOCNESS, BIONESS, Multinet, multiple net opening/closing systems; cod-end serial samplers such as LHPR, ARIES; CPR. See Wiebe and Benfield 2003, Plates 19, 27-31."@en;
+        skos:notation          "SDN:B07::NDT018";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Multiple net/multiple cod-end system or CPR  horizontal tow"@en .
+
+<http://vocab.nerc.ac.uk/collection/B07/current/NDT004/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B07::NDT004";
+        dc:date                "2014-10-14 12:14:45.0";
+        dc:identifier          "SDN:B07::NDT004";
+        pav:authoredOn         "2014-10-14 12:14:45.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B07/current/NDT004/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Reverse sub-surface vertical tow";
+        skos:definition        "The net goes down closed and mouth first from a stationary platform. When the net is at predetermined depth, one method has a messenger sent down that opens the net. The net continues to drop with the mouth open until a second messenger is sent to close the mouth. The net is then retrieved closed with the sample in the cod end. A Plummet net can be configured in this way. Other methods have been used to open and close nets for this kind of deployment. Examples of gears that can be deployed that way include pop-down nets like the Plummet net, Streamer net, and others (Wiebe and Benfield 2003, Plate 10)."@en;
+        skos:notation          "SDN:B07::NDT004";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Single net reverse vertical sub-surface tow"@en .
+
+<http://vocab.nerc.ac.uk/collection/B07/current/NDT015/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B07::NDT015";
+        dc:date                "2014-10-14 12:14:45.0";
+        dc:identifier          "SDN:B07::NDT015";
+        pav:authoredOn         "2014-10-14 12:14:45.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B07/current/NDT015/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Multi-strata horizontal tow";
+        skos:definition        "Two or more opened nets are on the wire at the same time. The ship is standing or moving ahead slowly. The nets are always open. Wire is paid out slowly and the nets attached while paying wire out. When the proper amount of wire has been paid out, the vessel is brought to towing speed and the nets fish horizontally in stratified layers. At the completion of the tow, the ship is stopped and the nets are recovered (Miller, 1961). Examples of nets that can be deployed that way include the Clarke Bumpus net, Leavitt net, the Miller High Speed Sampler non-opening/closing (Wiebe and Benfield 2003, Plates 6, 8 and 14)."@en;
+        skos:notation          "SDN:B07::NDT015";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Multiple nets stratified horizontal tow"@en .
+
+<http://vocab.nerc.ac.uk/collection/B07/current/NDT012/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B07::NDT012";
+        dc:date                "2014-10-14 12:14:45.0";
+        dc:identifier          "SDN:B07::NDT012";
+        pav:authoredOn         "2014-10-14 12:14:45.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B07/current/NDT012/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Horizontal tow";
+        skos:definition        "The sample is collected within a defined depth stratum from a moving platform; the depth of the tow is controlled by the weight of the device, the length of the wire, and the towing platform speed. Horizontal net tows are used to collect horizontally integrated samples. It requires either an opening and closing system or the ship must be stopped during deployment and recovery; otherwise it becomes an oblique horizontal tow.  Examples of gears that can be deployed that way include the Clarke-Bumpus net, the Leavitt net or other opening and closing nets or meter nets deployed and recovered with platform stopped."@en;
+        skos:notation          "SDN:B07::NDT012";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Single net or net pair horizontal tow"@en .
+
+<http://vocab.nerc.ac.uk/collection/B07/current/NDT002/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B07::NDT002";
+        dc:date                "2014-10-14 12:14:45.0";
+        dc:identifier          "SDN:B07::NDT002";
+        pav:authoredOn         "2014-10-14 12:14:45.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B07/current/NDT002/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Reverse vertical tow";
+        skos:definition        "A particular kind of single net vertical tow deployment where the net goes down open, starting at the surface, samples on the way down, and closes at depth either via a choke rope or messenger system. Examples of gears that can be deployed that way include pop-down nets like the free-fall net, and the Heron net (Wiebe and Benfield 2003, Plate 10)."@en;
+        skos:notation          "SDN:B07::NDT002";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Single net reverse vertical tow"@en .
+
+<http://vocab.nerc.ac.uk/collection/B07/current/NDT010/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B07::NDT010";
+        dc:date                "2014-10-14 12:14:45.0";
+        dc:identifier          "SDN:B07::NDT010";
+        pav:authoredOn         "2014-10-14 12:14:45.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B07/current/NDT010/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "U-shape tow";
+        skos:definition        "The sample is collected between two depths along a U-shape path from a moving platform; the sample is collected while the device is lowered from the surface down to a target depth, towed horizontally for a given time at that depth, and then hauled back to the surface. Examples of gears that can be deployed that way include ring nets, Bongo nets, Tucker trawls, IKMTs or other non-opening or closing nets (Wiebe and Benfield 2003, Plates 2 and 3)."@en;
+        skos:notation          "SDN:B07::NDT010";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Single net or net pair oblique horizontal tow"@en .
+
+<http://vocab.nerc.ac.uk/collection/B07/current/NDT003/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B07::NDT003";
+        dc:date                "2014-10-14 12:14:45.0";
+        dc:identifier          "SDN:B07::NDT003";
+        pav:authoredOn         "2014-10-14 12:14:45.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B07/current/NDT003/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Sub-surface vertical tow";
+        skos:definition        "A closing mechanism or both an opening and closing mechanism are present and used to sample a single depth interval from a stationary platform.  With a single messenger, the net is deployed to a particular depth, hauled to a shallower depth and a messenger is sent down to close the net. A double messenger system avoids contamination on the way down by lowering the net closed, a messenger is dropped to open it and the net is hauled to a second depth and another messenger is sent to close it. Examples of gears that can be deployed that way include opening closing nets equipped with messenger, pressure or timer release (Wiebe and Benfield 2003, Plates 6 and 8)."@en;
+        skos:notation          "SDN:B07::NDT003";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Single net or net pair vertical sub-surface tow"@en .
+
+<http://vocab.nerc.ac.uk/collection/B07/current/NDT013/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B07::NDT013";
+        dc:date                "2014-10-14 12:14:45.0";
+        dc:identifier          "SDN:B07::NDT013";
+        pav:authoredOn         "2014-10-14 12:14:45.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B07/current/NDT013/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Oblique tow";
+        skos:definition        "An opening and closing mechanism is present and a single depth interval is sampled by a single net or a net pair. The net is sent down closed, opened by messenger and fished upward at a certain rate.  At a predetermined depth another messenger is sent down to close the nets.  A variation on this is to open the net by messenger and close by flow meter readings.  Examples of gears that can be deployed that way include Clarke-Bumpus nets, Leavitt nets, other opening/closing nets (Wiebe and Benfield 2003, Plates 6 and 8)"@en;
+        skos:notation          "SDN:B07::NDT013";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Single net stratified oblique tow"@en .
+
+<http://vocab.nerc.ac.uk/collection/B07/current/NDT014/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B07::NDT014";
+        dc:date                "2014-10-14 12:14:45.0";
+        dc:identifier          "SDN:B07::NDT014";
+        pav:authoredOn         "2014-10-14 12:14:45.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B07/current/NDT014/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Multiple nets multi-strata oblique tow";
+        skos:definition        "Two or more nets are on the wire at the same time. The nets are sent down closed, opened by messenger sequentially and fish upward at a certain rate. At a predetermined depth another messenger is sent down to close the nets.  A variation on this is to open the nets by messenger and close by flow meter readings.  Examples of nets that can be deployed that way include Clarke-Bumpus net, Leavitt net, other opening/closing nets (Wiebe and Benfield 2003, Plates 6 and 8)."@en;
+        skos:notation          "SDN:B07::NDT014";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Multiple nets stratified oblique tow"@en .
+
+<http://vocab.nerc.ac.uk/collection/B07/current/NDT008/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B07::NDT008";
+        dc:date                "2014-10-14 12:14:45.0";
+        dc:identifier          "SDN:B07::NDT008";
+        pav:authoredOn         "2014-10-14 12:14:45.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B07/current/NDT008/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "W-shape tow";
+        skos:definition        "A single net or net pair is deployed open from a moving platform to a predetermined depth.  It is then returned to the surface (always open).  Without returning the net to the deck, the net starts down again and fishes to the predetermined depth (usually the same depth as the first). If this pattern is repeated more than twice without returning the net to the deck, it becomes a towyo.  This technique is ideal for long integrated tows, i.e. for catching patches of zooplankton. Examples of gears that can be deployed that way include ring nets, Bongo nets, Tucker trawls, and other non-opening closing nets (Wiebe and Benfield 2003, Plates 2 and 3)."@en;
+        skos:notation          "SDN:B07::NDT008";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Single net or net pair double oblique tow"@en .
+
+<http://vocab.nerc.ac.uk/collection/B07/current/NDT019/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B07::NDT019";
+        dc:date                "2014-10-14 12:14:45.0";
+        dc:identifier          "SDN:B07::NDT019";
+        pav:authoredOn         "2014-10-14 12:14:45.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B07/current/NDT019/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Serial sampler sawtooth tow";
+        skos:definition        "Multiple nets are deployed on a single frame with opening and closing capability. In the case of a system like MOCNESS the first net (0) is deployed to a predetermined depth, open. Once at that depth, that net is closed, at the same time opening the second (net 1) net. This net is hauled back to a predetermined shallower depth open and then closed and the next net is opened and sent back to the same depth as the original net and closed and the next net opened, etc. This continues until all the desired sampling is accomplished. (Wiebe, et al., 1992,  Figures 3). For systems like the Multinet, the system can be deployed wihtout a net open and the first net is opened at depth.  This deployment strategy can also be done with a single net with multiple cod-end system. Examples of gears that can be deployed that way include the MOCNESS, the BIONESS, the Multinet, other multiple net or cod-end opening/closing systems (Wiebe and Benfield 2003, Plates 28-31)."@en;
+        skos:notation          "SDN:B07::NDT019";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Multiple net/multiple cod-end  system oblique horizontal towyo"@en .
+
+<http://vocab.nerc.ac.uk/collection/B07/current/NDT023/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B07::NDT023";
+        dc:date                "2014-10-14 12:14:45.0";
+        dc:identifier          "SDN:B07::NDT023";
+        pav:authoredOn         "2014-10-14 12:14:45.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B07/current/NDT023/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Serial sampler discontinuous stepped oblique tow";
+        skos:definition        "Multiple nets are deployed on a single frame with opening and closing capability. The net system is deployed to a predetermined depth with the first net either open or closed.  At depth, the first net is opened (if it was closed) or closed (if it was open) and the next net opened in this case.  The open net is towed horizontally for some distance and then closed.  The next net is NOT open upon the previous net's closing.  The net system is raised to another predetermined depth and the next net is open and fishes for some distance/time.  That net is then closed again without opening the next net and raised to a new depth.  The next net is opened at that depth, fishes horizontally for some distance/time. That net is then closed again without opening the next net and raised to a new depth. The next net is opened at that depth, fishes horizontally for some distance/time, and is then closed. This sequence continues until all nets are fished at the specific required depth intervals.  In this deployment configuration, the intervals between depths are NOT sampled. This kind of tow has been done using the \"Macroplankton trawl\" for catching macroplankton and micronekton (Krafft et al. 2010)."@en;
+        skos:notation          "SDN:B07::NDT023";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Multiple net system oblique stepped discontinuous horizontal tow"@en .
+
+<http://vocab.nerc.ac.uk/collection/B07/current/NDT024/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B07::NDT024";
+        dc:date                "2014-10-14 12:14:45.0";
+        dc:identifier          "SDN:B07::NDT024";
+        pav:authoredOn         "2014-10-14 12:14:45.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B07/current/NDT024/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Epibenthic tow";
+        skos:definition        "A net system deployed from a ship, a sledge, a towed body, an autonomous submersible vehicle and towed close to the seabed. Usually horizontal tows, the sample or samples is/are collected while the gear is towed along the bottom of the sea and upward to 100 meters above the bottom. Most gears have opening and closing capability to avoid contamination during deployment or to collect separate discrete samples in a single deployment.  Those towed from sledges originally did not have opening and closing capability, but many were modified later to collect discrete samples. These systems are designed to avoid catching sediment and associated bottom (benthic) fauna. For examples of gears using this type of deployment see Wiebe and Benfield 2003, Plates 6, 8 and 14."@en;
+        skos:notation          "SDN:B07::NDT024";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Epibenthic plankton net tow"@en .
+
+<http://vocab.nerc.ac.uk/collection/B07/current/NDT005/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B07::NDT005";
+        dc:date                "2014-10-14 12:14:45.0";
+        dc:identifier          "SDN:B07::NDT005";
+        pav:authoredOn         "2014-10-14 12:14:45.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B07/current/NDT005/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Surface tow";
+        skos:definition        "A particular kind of horizontal tow where the net samples the upper ocean layer close to the surface and not including the air above the water. Once deployed, the gear is towed horizontally at one depth. Examples of gears deployed that way include WP-2, Hensen net, Bongo net, and other non-opening closing nets (Wiebe and Benfield 2003, Plates 1 and 2)."@en;
+        skos:notation          "SDN:B07::NDT005";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Single net or net pair surface tow"@en .
+
+<http://vocab.nerc.ac.uk/collection/B07/current/NDT001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B07::NDT001";
+        dc:date                "2014-10-14 12:14:45.0";
+        dc:identifier          "SDN:B07::NDT001";
+        pav:authoredOn         "2014-10-14 12:14:45.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B07/current/NDT001/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Vertical tow";
+        skos:definition        "The sample is collected between a deeper depth and the surface from a stationary platform; the net is typically lowered to depth and samples on the way up while the gear is being hauled back to the surface. Vertical tows collect vertically integrated samples. No closing mechanism is used. Examples of gears that can be deployed that way include WP-2, Hensen net, Bongo net, and other non-opening closing nets (Wiebe and Benfield  2003, Plates 1 and 2)."@en;
+        skos:notation          "SDN:B07::NDT001";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Single net or net pair vertical tow"@en .
+
+<http://vocab.nerc.ac.uk/collection/B07/current/NDT016/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B07::NDT016";
+        dc:date                "2014-10-14 12:14:45.0";
+        dc:identifier          "SDN:B07::NDT016";
+        pav:authoredOn         "2014-10-14 12:14:45.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B07/current/NDT016/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Serial sampler vertical tow";
+        skos:definition        "Multiple nets are deployed on a single frame with opening and closing capabilities.  The ship is stopped.  The nets are sent down closed and opened and closed one at a time as the nets are hauled back to the surface. This is done electronically or with pressure releases.  Examples of gears that can be deployed that way include the Multinet and the Be net."@en;
+        skos:notation          "SDN:B07::NDT016";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Multiple net system vertical stratified tow"@en .
+
+<http://vocab.nerc.ac.uk/collection/B07/current/NDT011/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B07::NDT011";
+        dc:date                "2014-10-14 12:14:45.0";
+        dc:identifier          "SDN:B07::NDT011";
+        pav:authoredOn         "2014-10-14 12:14:45.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B07/current/NDT011/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Stepped oblique tow";
+        skos:definition        "Single net or net pair towed continuously in a stepped horizontal fashion. The sample is collected while the gear is towed from depth to the surface in a succession of horizontal and oblique steps; details related to sampling time at specific depths and the duration of the tow should be included in the cruise metadata. Examples of gears that can be deployed that way include ring nets, Bongo nets, Tucker trawls, IKMTs, or other non-opening closing nets (Wiebe and Benfield 2003, Plates 2 and 3)"@en;
+        skos:notation          "SDN:B07::NDT011";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Single net or net pair oblique stepped horizontal tow"@en .
+
+<http://vocab.nerc.ac.uk/collection/B07/current/NDT021/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B07::NDT021";
+        dc:date                "2014-10-14 12:14:45.0";
+        dc:identifier          "SDN:B07::NDT021";
+        pav:authoredOn         "2014-10-14 12:14:45.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B07/current/NDT021/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Serial sampler continuous stepped oblique tow";
+        skos:definition        "Multiple nets are deployed on a single frame with opening and closing capability. The first net (0) is deployed to a predetermined depth, open. Once at that depth, that net is closed, at the same time opening the second (net 1) net.  This net is towed horizontally for some distance then quickly hauled to some shallower depth (2) where the net is closed and the next net is open. That net is then towed horizontally for some distance then hauled quickly to some shallower depth and closed, the next net open, and so on until all the nets have been fished horizontally over a series of fixed depths. This deployment strategy can also be done with a single net with a multiple cod-end system. Example of gears that can be deployed that way include the MOCNESS, the BIONESS, the Multinet or other multiple net opening/closing systems (Wiebe and Benfield 2003, Plates 28-31)."@en;
+        skos:notation          "SDN:B07::NDT021";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Multiple net/multiple cod-end system oblique stepped continuous horizontal tow"@en .
+
+<http://vocab.nerc.ac.uk/collection/B07/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used within the data centre";
+        dc:alternative          "Net deployment vocabulary";
+        dc:creator              "British Oceanographic Data Centre";
+        dc:date                 "2014-10-15 02:00:02.0";
+        dc:description          "A catalogue of deployment methods of sampling net gears for the collection of mainly plankton, micronekton, and neuston organisms based on Wiebe P.H. et al. (2014)";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Sampling net gear deployment vocabulary";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "British Oceanographic Data Centre";
+        owl:versionInfo         "1";
+        skos:altLabel           "Net deployment vocabulary";
+        skos:member             <http://vocab.nerc.ac.uk/collection/B07/current/NDT017/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT006/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT009/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT007/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT020/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT022/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT018/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT004/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT015/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT012/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT002/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT010/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT003/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT013/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT014/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT008/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT019/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT023/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT024/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT005/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT001/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT016/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT021/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT011/>;
+        skos:prefLabel          "Sampling net gear deployment vocabulary" .

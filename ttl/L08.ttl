@@ -1,0 +1,277 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/L08/current/LS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L08::LS";
+        dc:date                "2008-09-25 09:31:26.0";
+        dc:identifier          "SDN:L08::LS";
+        pav:authoredOn         "2008-09-25 09:31:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L08/current/LS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SDN_licence";
+        skos:definition        "Access to the data and usage are as specified in the SeaDataNet data policy and licence agreement"@en;
+        skos:notation          "SDN:L08::LS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "SeaDataNet licence"@en .
+
+<http://vocab.nerc.ac.uk/collection/L08/current/OG/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L08::OG";
+        dc:date                "2006-12-05 16:18:33.0";
+        dc:identifier          "SDN:L08::OG";
+        pav:authoredOn         "2006-12-05 16:18:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L08/current/OG/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "organisation";
+        skos:definition        "The data are unrestricted to members of an organisation or a virtual organisation (such as project or cruise participants) but restricted to anybody else."@en;
+        skos:notation          "SDN:L08::OG";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "organisation"@en .
+
+<http://vocab.nerc.ac.uk/collection/L08/current/CB/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L08::CB";
+        dc:date                "2020-11-12 12:26:02.0";
+        dc:identifier          "SDN:L08::CB";
+        pav:authoredOn         "2020-11-12 12:26:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L08/current/CB/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "CC BY 4.0";
+        skos:definition        "The data are available under the Creative Commons Attribution 4.0 International Public License (https://creativecommons.org/licenses/by/4.0/)."@en;
+        skos:notation          "SDN:L08::CB";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Creative Commons Attribution 4.0 International"@en .
+
+<http://vocab.nerc.ac.uk/collection/L08/current/NC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L08::NC";
+        dc:date                "2006-12-05 16:18:33.0";
+        dc:identifier          "SDN:L08::NC";
+        pav:authoredOn         "2006-12-05 16:18:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L08/current/NC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "distribution_charge";
+        skos:definition        "A charge is made to cover the costs of delivering data to the user."@en;
+        skos:notation          "SDN:L08::NC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "distribution cost charge"@en .
+
+<http://vocab.nerc.ac.uk/collection/L08/current/MO/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L08::MO";
+        dc:date                "2006-12-05 16:18:33.0";
+        dc:identifier          "SDN:L08::MO";
+        pav:authoredOn         "2006-12-05 16:18:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L08/current/MO/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "moratorium";
+        skos:definition        "Data are initially restricted, but the access condition relaxes to academic or unrestricted once a specified period of time after an event (such as collection, publication, completion of QC procedures or project cessation) has elapsed."@en;
+        skos:notation          "SDN:L08::MO";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "moratorium"@en .
+
+<http://vocab.nerc.ac.uk/collection/L08/current/FE/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L08::FE";
+        dc:date                "2006-12-05 16:18:33.0";
+        dc:identifier          "SDN:L08::FE";
+        pav:authoredOn         "2006-12-05 16:18:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L08/current/FE/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "commercial_charge";
+        skos:definition        "A charge significantly exceeding the cost of data collection and delivery is made for usage of the data."@en;
+        skos:notation          "SDN:L08::FE";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "commercial charge"@en .
+
+<http://vocab.nerc.ac.uk/collection/L08/current/UN/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L08::UN";
+        dc:date                "2006-12-05 16:18:33.0";
+        dc:identifier          "SDN:L08::UN";
+        pav:authoredOn         "2006-12-05 16:18:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L08/current/UN/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "unrestricted";
+        skos:definition        "The data are freely available to anybody and may be used for any purpose. Usage acknowledgement may be required."@en;
+        skos:notation          "SDN:L08::UN";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "unrestricted"@en .
+
+<http://vocab.nerc.ac.uk/collection/L08/current/UK/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L08::UK";
+        dc:date                "2006-12-05 16:18:33.0";
+        dc:identifier          "SDN:L08::UK";
+        pav:authoredOn         "2006-12-05 16:18:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L08/current/UK/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "unknown";
+        skos:definition        "The correct value is not known to and not computable by the creator of this information. However a correct value probably exists."@en;
+        skos:notation          "SDN:L08::UK";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "unknown"@en .
+
+<http://vocab.nerc.ac.uk/collection/L08/current/NA/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L08::NA";
+        dc:date                "2006-12-05 16:18:33.0";
+        dc:identifier          "SDN:L08::NA";
+        pav:authoredOn         "2006-12-05 16:18:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L08/current/NA/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "none";
+        skos:definition        "Access to the data cannot be negotiated."@en;
+        skos:notation          "SDN:L08::NA";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "no access"@en .
+
+<http://vocab.nerc.ac.uk/collection/L08/current/LI/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L08::LI";
+        dc:date                "2006-12-05 16:18:33.0";
+        dc:identifier          "SDN:L08::LI";
+        pav:authoredOn         "2006-12-05 16:18:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L08/current/LI/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "licence";
+        skos:definition        "Conditions of supply and usage of the data are specified in a formal agreement."@en;
+        skos:notation          "SDN:L08::LI";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "licence"@en .
+
+<http://vocab.nerc.ac.uk/collection/L08/current/CC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L08::CC";
+        dc:date                "2006-12-05 16:18:33.0";
+        dc:identifier          "SDN:L08::CC";
+        pav:authoredOn         "2006-12-05 16:18:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L08/current/CC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "collection_charge";
+        skos:definition        "A charge is made related to the cost of collecting the data."@en;
+        skos:notation          "SDN:L08::CC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "collection cost charge"@en .
+
+<http://vocab.nerc.ac.uk/collection/L08/current/RS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L08::RS";
+        dc:date                "2012-05-16 08:24:54.0";
+        dc:identifier          "SDN:L08::RS";
+        pav:authoredOn         "2012-05-16 08:24:54.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L08/current/RS/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/L08/current/RS/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "restricted";
+        skos:definition        "The data are witheld from general circulation and disclosure but access may be obtained on a case-by-case basis through negotiation."@en;
+        skos:notation          "SDN:L08::RS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "by negotiation"@en .
+
+<http://vocab.nerc.ac.uk/collection/L08/current/SR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L08::SR";
+        dc:date                "2006-12-05 16:18:33.0";
+        dc:identifier          "SDN:L08::SR";
+        pav:authoredOn         "2006-12-05 16:18:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L08/current/SR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "academic";
+        skos:definition        "The data are freely available for research and education purposes.  Usage acknowledgement is usually expected."@en;
+        skos:notation          "SDN:L08::SR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "academic"@en .
+
+<http://vocab.nerc.ac.uk/collection/L08/current/CA/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:L08::CA";
+        dc:date                "2021-05-04 16:04:03.0";
+        dc:identifier          "SDN:L08::CA";
+        pav:authoredOn         "2021-05-04 16:04:03.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/L08/current/CA/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "CC BY 3.0";
+        skos:definition        "The data are available under the Creative Commons Attribution 3.0 Unported Public License (https://creativecommons.org/licenses/by/3.0/)."@en;
+        skos:notation          "SDN:L08::CA";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Creative Commons Attribution 3.0 Unported"@en .
+
+<http://vocab.nerc.ac.uk/collection/L08/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the EU SeaDataNet project implemented as consultation between BODC and the members of the SeaDataNet Technical Task Team";
+        dc:alternative          "SeaDataNet Data Access Policies";
+        dc:creator              "SeaDataNet";
+        dc:date                 "2021-05-05 03:00:15.0";
+        dc:description          "Terms used to represent and classify data access policies in operation in the SeaDataNet project.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "SeaDataNet Data Access Restriction Policies";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "SeaDataNet";
+        owl:versionInfo         "5";
+        skos:altLabel           "SeaDataNet Data Access Policies";
+        skos:member             <http://vocab.nerc.ac.uk/collection/L08/current/LS/> , <http://vocab.nerc.ac.uk/collection/L08/current/OG/> , <http://vocab.nerc.ac.uk/collection/L08/current/CB/> , <http://vocab.nerc.ac.uk/collection/L08/current/NC/> , <http://vocab.nerc.ac.uk/collection/L08/current/MO/> , <http://vocab.nerc.ac.uk/collection/L08/current/FE/> , <http://vocab.nerc.ac.uk/collection/L08/current/UN/> , <http://vocab.nerc.ac.uk/collection/L08/current/UK/> , <http://vocab.nerc.ac.uk/collection/L08/current/NA/> , <http://vocab.nerc.ac.uk/collection/L08/current/LI/> , <http://vocab.nerc.ac.uk/collection/L08/current/CC/> , <http://vocab.nerc.ac.uk/collection/L08/current/RS/> , <http://vocab.nerc.ac.uk/collection/L08/current/CA/> , <http://vocab.nerc.ac.uk/collection/L08/current/SR/>;
+        skos:prefLabel          "SeaDataNet Data Access Restriction Policies" .

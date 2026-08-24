@@ -1,0 +1,91 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/M28/current/MCW/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M28::MCW";
+        dc:date                "2022-08-18 11:48:12.0";
+        dc:identifier          "SDN:M28::MCW";
+        pav:authoredOn         "2022-08-18 11:48:12.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M28/current/MCW/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Term used to group wetland habitat types, specified by the Ramsar Convention's Classification for Wetland Type, approved by Recommendation 4.7 and amended by Resolutions VI.5 and VII.11 of the Conference of the Contracting Parties."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/M29/current/B/> , <http://vocab.nerc.ac.uk/collection/M29/current/Ga/> , <http://vocab.nerc.ac.uk/collection/M29/current/H/> , <http://vocab.nerc.ac.uk/collection/M29/current/Zk_a/> , <http://vocab.nerc.ac.uk/collection/M29/current/J/> , <http://vocab.nerc.ac.uk/collection/M29/current/I/> , <http://vocab.nerc.ac.uk/collection/M29/current/D/> , <http://vocab.nerc.ac.uk/collection/M29/current/K/> , <http://vocab.nerc.ac.uk/collection/M29/current/G/> , <http://vocab.nerc.ac.uk/collection/M29/current/F/> , <http://vocab.nerc.ac.uk/collection/M29/current/E/> , <http://vocab.nerc.ac.uk/collection/M29/current/A/> , <http://vocab.nerc.ac.uk/collection/M29/current/C/>;
+        skos:notation          "SDN:M28::MCW";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Marine/Coastal Wetlands"@en .
+
+<http://vocab.nerc.ac.uk/collection/M28/current/HMW/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M28::HMW";
+        dc:date                "2022-08-18 11:48:12.0";
+        dc:identifier          "SDN:M28::HMW";
+        pav:authoredOn         "2022-08-18 11:48:12.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M28/current/HMW/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Term used to group wetland habitat types, specified by the Ramsar Convention's Classification for Wetland Type, approved by Recommendation 4.7 and amended by Resolutions VI.5 and VII.11 of the Conference of the Contracting Parties."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/M29/current/8/> , <http://vocab.nerc.ac.uk/collection/M29/current/1/> , <http://vocab.nerc.ac.uk/collection/M29/current/9/> , <http://vocab.nerc.ac.uk/collection/M29/current/3/> , <http://vocab.nerc.ac.uk/collection/M29/current/6/> , <http://vocab.nerc.ac.uk/collection/M29/current/2/> , <http://vocab.nerc.ac.uk/collection/M29/current/4/> , <http://vocab.nerc.ac.uk/collection/M29/current/7/> , <http://vocab.nerc.ac.uk/collection/M29/current/Zk_c/> , <http://vocab.nerc.ac.uk/collection/M29/current/5/>;
+        skos:notation          "SDN:M28::HMW";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Human-Made Wetlands"@en .
+
+<http://vocab.nerc.ac.uk/collection/M28/current/IW/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:M28::IW";
+        dc:date                "2022-08-18 11:48:12.0";
+        dc:identifier          "SDN:M28::IW";
+        pav:authoredOn         "2022-08-18 11:48:12.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/M28/current/IW/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Term used to group wetland habitat types, specified by the Ramsar Convention's Classification for Wetland Type, approved by Recommendation 4.7 and amended by Resolutions VI.5 and VII.11 of the Conference of the Contracting Parties."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/M29/current/Q/> , <http://vocab.nerc.ac.uk/collection/M29/current/Xf/> , <http://vocab.nerc.ac.uk/collection/M29/current/Vt/> , <http://vocab.nerc.ac.uk/collection/M29/current/Y/> , <http://vocab.nerc.ac.uk/collection/M29/current/N/> , <http://vocab.nerc.ac.uk/collection/M29/current/M/> , <http://vocab.nerc.ac.uk/collection/M29/current/Ss/> , <http://vocab.nerc.ac.uk/collection/M29/current/Va/> , <http://vocab.nerc.ac.uk/collection/M29/current/P/> , <http://vocab.nerc.ac.uk/collection/M29/current/U/> , <http://vocab.nerc.ac.uk/collection/M29/current/Sp/> , <http://vocab.nerc.ac.uk/collection/M29/current/Ts/> , <http://vocab.nerc.ac.uk/collection/M29/current/Xp/> , <http://vocab.nerc.ac.uk/collection/M29/current/W/> , <http://vocab.nerc.ac.uk/collection/M29/current/O/> , <http://vocab.nerc.ac.uk/collection/M29/current/R/> , <http://vocab.nerc.ac.uk/collection/M29/current/L/> , <http://vocab.nerc.ac.uk/collection/M29/current/Zg/> , <http://vocab.nerc.ac.uk/collection/M29/current/Zk_b/> , <http://vocab.nerc.ac.uk/collection/M29/current/Tp/>;
+        skos:notation          "SDN:M28::IW";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Inland Wetlands"@en .
+
+<http://vocab.nerc.ac.uk/collection/M28/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies associated with the Ramsar Classification System for Wetland Type.";
+        dc:alternative          "Ramsar upper categories";
+        dc:creator              "Ramsar Convention on Wetlands vocabulary governance";
+        dc:date                 "2022-08-19 03:00:01.0";
+        dc:description          "A collection of terms used to group wetland habitats into three upper-category types, as specified by the Ramsar Convention's (Ramsar, Iran, 1971) Classification System for Wetland Type, approved by Recommendation 4.7 and amended by Resolutions VI.5 and VII.11 of the Conference of the Contracting Parties.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Ramsar Classification System for Wetland Type upper categories";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Ramsar Convention on Wetlands vocabulary governance";
+        owl:versionInfo         "1";
+        skos:altLabel           "Ramsar upper categories";
+        skos:member             <http://vocab.nerc.ac.uk/collection/M28/current/IW/> , <http://vocab.nerc.ac.uk/collection/M28/current/HMW/> , <http://vocab.nerc.ac.uk/collection/M28/current/MCW/>;
+        skos:prefLabel          "Ramsar Classification System for Wetland Type upper categories" .

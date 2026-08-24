@@ -1,0 +1,122 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/G06/current/002/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G06::002";
+        dc:date                "2012-07-04 10:58:08.0";
+        dc:identifier          "SDN:G06::002";
+        pav:authoredOn         "2012-07-04 10:58:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G06/current/002/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Reference to a master dataset of which this one is a part"@en;
+        skos:notation          "SDN:G06::002";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "largerWorkCitation"@en .
+
+<http://vocab.nerc.ac.uk/collection/G06/current/005/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G06::005";
+        dc:date                "2012-07-04 10:58:08.0";
+        dc:identifier          "SDN:G06::005";
+        pav:authoredOn         "2012-07-04 10:58:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G06/current/005/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Part of a set of imagery that when used together, provides three-dimensional images"@en;
+        skos:notation          "SDN:G06::005";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "stereoMate"@en .
+
+<http://vocab.nerc.ac.uk/collection/G06/current/003/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G06::003";
+        dc:date                "2012-07-04 10:58:08.0";
+        dc:identifier          "SDN:G06::003";
+        pav:authoredOn         "2012-07-04 10:58:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G06/current/003/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Part of the same structured set of data held in a computer"@en;
+        skos:notation          "SDN:G06::003";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "partOfSeamlessDataset"@en .
+
+<http://vocab.nerc.ac.uk/collection/G06/current/004/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G06::004";
+        dc:date                "2012-07-04 10:58:08.0";
+        dc:identifier          "SDN:G06::004";
+        pav:authoredOn         "2012-07-04 10:58:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G06/current/004/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Mapping and charting information from which the dataset content originates"@en;
+        skos:notation          "SDN:G06::004";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "source"@en .
+
+<http://vocab.nerc.ac.uk/collection/G06/current/001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:G06::001";
+        dc:date                "2012-07-04 10:58:08.0";
+        dc:identifier          "SDN:G06::001";
+        pav:authoredOn         "2012-07-04 10:58:08.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/G06/current/001/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Reference from one dataset to another"@en;
+        skos:notation          "SDN:G06::001";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "crossReference"@en .
+
+<http://vocab.nerc.ac.uk/collection/G06/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "International governance for standards covering many domains within science and beyond.";
+        dc:alternative          "DS_AssociationTypeCode";
+        dc:creator              "International Organization for Standardization";
+        dc:date                 "2012-07-05 02:00:09.0";
+        dc:description          "Justification for the correlation of two datasets";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "DS_AssociationTypeCode";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "International Organization for Standardization";
+        owl:versionInfo         "1";
+        skos:altLabel           "DS_AssociationTypeCode";
+        skos:member             <http://vocab.nerc.ac.uk/collection/G06/current/002/> , <http://vocab.nerc.ac.uk/collection/G06/current/005/> , <http://vocab.nerc.ac.uk/collection/G06/current/001/> , <http://vocab.nerc.ac.uk/collection/G06/current/004/> , <http://vocab.nerc.ac.uk/collection/G06/current/003/>;
+        skos:prefLabel          "DS_AssociationTypeCode" .

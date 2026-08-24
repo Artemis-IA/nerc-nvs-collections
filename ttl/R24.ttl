@@ -1,0 +1,328 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/R24/current/UNKNOWN/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R24::UNKNOWN";
+        dc:date                "2020-05-03 20:30:12.0";
+        dc:identifier          "SDN:R24::UNKNOWN";
+        pav:authoredOn         "2020-05-03 20:30:12.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R24/current/UNKNOWN/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "UNKNOWN";
+        skos:definition        "Unknown platform maker. The platform maker should not be unknown, the use of this value should be exceptional"@en;
+        skos:notation          "SDN:R24::UNKNOWN";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Unknown platform maker"@en .
+
+<http://vocab.nerc.ac.uk/collection/R24/current/TSK/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R24::TSK";
+        dc:date                "2020-05-03 20:30:12.0";
+        dc:identifier          "SDN:R24::TSK";
+        pav:authoredOn         "2020-05-03 20:30:12.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R24/current/TSK/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "TSK";
+        skos:definition        "Tsurumi-Seiki Co., Ltd."@en;
+        skos:notation          "SDN:R24::TSK";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Tsurumi-Seiki Co., Ltd."@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R23/current/NINJA/> , <http://vocab.nerc.ac.uk/collection/R23/current/NINJA_D/> .
+
+<http://vocab.nerc.ac.uk/collection/R24/current/WHOI/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R24::WHOI";
+        dc:date                "2020-05-03 20:30:12.0";
+        dc:identifier          "SDN:R24::WHOI";
+        pav:authoredOn         "2020-05-03 20:30:12.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R24/current/WHOI/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "WHOI";
+        skos:definition        "Woods Hole Oceanographic Institution"@en;
+        skos:notation          "SDN:R24::WHOI";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Woods Hole Oceanographic Institution"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R23/current/SOLO_W/> , <http://vocab.nerc.ac.uk/collection/R23/current/ITP/> .
+
+<http://vocab.nerc.ac.uk/collection/R24/current/NOTC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R24::NOTC";
+        dc:date                "2025-11-25 10:14:01.0";
+        dc:identifier          "SDN:R24::NOTC";
+        pav:authoredOn         "2025-11-25 10:14:01.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R24/current/NOTC/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R24/current/NOTC/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "NOTC";
+        skos:definition        "National Ocean Technology Center, China."@en;
+        skos:notation          "SDN:R24::NOTC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "National Ocean Technology Center"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R23/current/COPEX/> .
+
+<http://vocab.nerc.ac.uk/collection/R24/current/OPTIMARE/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R24::OPTIMARE";
+        dc:date                "2020-05-03 20:30:12.0";
+        dc:identifier          "SDN:R24::OPTIMARE";
+        pav:authoredOn         "2020-05-03 20:30:12.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R24/current/OPTIMARE/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "OPTIMARE";
+        skos:definition        "Optimare"@en;
+        skos:notation          "SDN:R24::OPTIMARE";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Optimare"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R23/current/NEMO/> , <http://vocab.nerc.ac.uk/collection/R23/current/POPS_NEMO/> .
+
+<http://vocab.nerc.ac.uk/collection/R24/current/WRC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R24::WRC";
+        dc:date                "2020-05-03 20:30:12.0";
+        dc:identifier          "SDN:R24::WRC";
+        pav:authoredOn         "2020-05-03 20:30:12.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R24/current/WRC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "WRC";
+        skos:definition        "Webb Research Corporation"@en;
+        skos:notation          "SDN:R24::WRC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Webb Research Corporation"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R23/current/APEX/> , <http://vocab.nerc.ac.uk/collection/R23/current/APEX_EM/> , <http://vocab.nerc.ac.uk/collection/R23/current/PALACE/> .
+
+<http://vocab.nerc.ac.uk/collection/R24/current/TWR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R24::TWR";
+        dc:date                "2020-05-03 20:30:12.0";
+        dc:identifier          "SDN:R24::TWR";
+        pav:authoredOn         "2020-05-03 20:30:12.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R24/current/TWR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "TWR";
+        skos:definition        "Teledyne Webb Research (formerly Webb Research Corporation)"@en;
+        skos:notation          "SDN:R24::TWR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Teledyne Webb Research"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R23/current/APEX_D/> , <http://vocab.nerc.ac.uk/collection/R23/current/APEX/> , <http://vocab.nerc.ac.uk/collection/R23/current/APEX_EM/> .
+
+<http://vocab.nerc.ac.uk/collection/R24/current/MARTEC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R24::MARTEC";
+        dc:date                "2020-05-03 20:30:12.0";
+        dc:identifier          "SDN:R24::MARTEC";
+        pav:authoredOn         "2020-05-03 20:30:12.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R24/current/MARTEC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "MARTEC";
+        skos:definition        "Martec"@en;
+        skos:notation          "SDN:R24::MARTEC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Martec"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_II/> .
+
+<http://vocab.nerc.ac.uk/collection/R24/current/LaoshanL/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R24::LaoshanL";
+        dc:date                "2024-10-24 14:51:27.0";
+        dc:identifier          "SDN:R24::LaoshanL";
+        pav:authoredOn         "2024-10-24 14:51:27.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R24/current/LaoshanL/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R24/current/LaoshanL/1/> , <http://vocab.nerc.ac.uk/collection/R24/current/LaoshanL/2/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "LaoshanLaboratory";
+        skos:definition        "Laoshan Laboratory (was named QNLM before May 2023)"@en;
+        skos:notation          "SDN:R24::LaoshanL";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "LaoshanLaboratory"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R23/current/XUANWU/> , <http://vocab.nerc.ac.uk/collection/R23/current/HM4000/> .
+
+<http://vocab.nerc.ac.uk/collection/R24/current/QNLM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R24::QNLM";
+        dc:date                "2024-10-24 14:51:27.0";
+        dc:identifier          "SDN:R24::QNLM";
+        pav:authoredOn         "2024-10-24 14:51:27.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R24/current/QNLM/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R24/current/QNLM/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "QNLM";
+        skos:definition        "Qingdao National Laboratory for Marine Science and Technology, renamed LaoshanLaboratory since May 2023"@en;
+        skos:notation          "SDN:R24::QNLM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Qingdao National Laboratory for Marine Science and Technology"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R23/current/XUANWU/> , <http://vocab.nerc.ac.uk/collection/R23/current/HM4000/> .
+
+<http://vocab.nerc.ac.uk/collection/R24/current/METOCEAN/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R24::METOCEAN";
+        dc:date                "2020-05-03 20:30:12.0";
+        dc:identifier          "SDN:R24::METOCEAN";
+        pav:authoredOn         "2020-05-03 20:30:12.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R24/current/METOCEAN/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "METOCEAN";
+        skos:definition        "Metocean"@en;
+        skos:notation          "SDN:R24::METOCEAN";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Metocean"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R23/current/NOVA/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_MT/> .
+
+<http://vocab.nerc.ac.uk/collection/R24/current/SIO_IDG/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R24::SIO_IDG";
+        dc:date                "2020-05-03 20:30:12.0";
+        dc:identifier          "SDN:R24::SIO_IDG";
+        pav:authoredOn         "2020-05-03 20:30:12.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R24/current/SIO_IDG/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SIO_IDG";
+        skos:definition        "Scripps Institution of Oceanography - Instrument Development Group"@en;
+        skos:notation          "SDN:R24::SIO_IDG";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Scripps Institution of Oceanography - Instrument Development Group"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R23/current/SOLO/> , <http://vocab.nerc.ac.uk/collection/R23/current/SOLO_D/> , <http://vocab.nerc.ac.uk/collection/R23/current/SOLO_BGC/> , <http://vocab.nerc.ac.uk/collection/R23/current/SOLO_II/> .
+
+<http://vocab.nerc.ac.uk/collection/R24/current/NKE/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R24::NKE";
+        dc:date                "2020-05-03 20:30:12.0";
+        dc:identifier          "SDN:R24::NKE";
+        pav:authoredOn         "2020-05-03 20:30:12.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R24/current/NKE/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "NKE";
+        skos:definition        "NKE Instrumentation"@en;
+        skos:notation          "SDN:R24::NKE";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "NKE Instrumentation"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_V/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_V_JUMBO/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_IV/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR/> , <http://vocab.nerc.ac.uk/collection/R23/current/ARVOR2/> , <http://vocab.nerc.ac.uk/collection/R23/current/ARVOR/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_III/> , <http://vocab.nerc.ac.uk/collection/R23/current/ARVOR_D/> , <http://vocab.nerc.ac.uk/collection/R23/current/ARVOR_C/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_II/> , <http://vocab.nerc.ac.uk/collection/R23/current/POPS_PROVOR/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_III_JUMBO/> .
+
+<http://vocab.nerc.ac.uk/collection/R24/current/HSOE/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R24::HSOE";
+        dc:date                "2020-05-03 20:30:12.0";
+        dc:identifier          "SDN:R24::HSOE";
+        pav:authoredOn         "2020-05-03 20:30:12.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R24/current/HSOE/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "HSOE";
+        skos:definition        "Qingdao Hisun Ocean Equipment Corporation Limited"@en;
+        skos:notation          "SDN:R24::HSOE";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Qingdao Hisun Ocean Equipment Corporation Limited"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R23/current/HM2000/> .
+
+<http://vocab.nerc.ac.uk/collection/R24/current/SBE/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R24::SBE";
+        dc:date                "2020-05-03 20:30:12.0";
+        dc:identifier          "SDN:R24::SBE";
+        pav:authoredOn         "2020-05-03 20:30:12.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R24/current/SBE/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "SBE";
+        skos:definition        "Sea-Bird Scientific"@en;
+        skos:notation          "SDN:R24::SBE";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sea-Bird Scientific"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R23/current/NAVIS_EBR/> , <http://vocab.nerc.ac.uk/collection/R23/current/NAVIS_A/> .
+
+<http://vocab.nerc.ac.uk/collection/R24/current/MRV/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R24::MRV";
+        dc:date                "2020-05-03 20:30:12.0";
+        dc:identifier          "SDN:R24::MRV";
+        pav:authoredOn         "2020-05-03 20:30:12.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R24/current/MRV/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "MRV";
+        skos:definition        "MRV Systems"@en;
+        skos:notation          "SDN:R24::MRV";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "MRV Systems"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R23/current/S2X/> , <http://vocab.nerc.ac.uk/collection/R23/current/S2A/> , <http://vocab.nerc.ac.uk/collection/R23/current/SOLO_BGC_MRV/> , <http://vocab.nerc.ac.uk/collection/R23/current/SOLO_D_MRV/> , <http://vocab.nerc.ac.uk/collection/R23/current/ALTO/> , <http://vocab.nerc.ac.uk/collection/R23/current/ALAMO/> .
+
+<http://vocab.nerc.ac.uk/collection/R24/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the Argo data system, published and maintained by the Argo Data Management Team (ADMT) and hosted on the NERC Vocabulary Server.";
+        rdfs:seeAlso            <https://github.com/OneArgo/ArgoVocabs>;
+        dc:alternative          "PLATFORM_MAKER";
+        dc:creator              "Argo Data Management Team";
+        dc:date                 "2025-11-26 02:00:00.0";
+        dc:description          "List of Argo float manufacturers. Argo netCDF variable PLATFORM_MAKER is populated by R24 altLabel.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Argo platform maker";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Argo Data Management Team";
+        owl:versionInfo         "7";
+        skos:altLabel           "PLATFORM_MAKER";
+        skos:member             <http://vocab.nerc.ac.uk/collection/R24/current/UNKNOWN/> , <http://vocab.nerc.ac.uk/collection/R24/current/TSK/> , <http://vocab.nerc.ac.uk/collection/R24/current/WHOI/> , <http://vocab.nerc.ac.uk/collection/R24/current/NOTC/> , <http://vocab.nerc.ac.uk/collection/R24/current/OPTIMARE/> , <http://vocab.nerc.ac.uk/collection/R24/current/WRC/> , <http://vocab.nerc.ac.uk/collection/R24/current/TWR/> , <http://vocab.nerc.ac.uk/collection/R24/current/MARTEC/> , <http://vocab.nerc.ac.uk/collection/R24/current/LaoshanL/> , <http://vocab.nerc.ac.uk/collection/R24/current/QNLM/> , <http://vocab.nerc.ac.uk/collection/R24/current/METOCEAN/> , <http://vocab.nerc.ac.uk/collection/R24/current/SIO_IDG/> , <http://vocab.nerc.ac.uk/collection/R24/current/NKE/> , <http://vocab.nerc.ac.uk/collection/R24/current/HSOE/> , <http://vocab.nerc.ac.uk/collection/R24/current/MRV/> , <http://vocab.nerc.ac.uk/collection/R24/current/SBE/>;
+        skos:prefLabel          "Argo platform maker" .

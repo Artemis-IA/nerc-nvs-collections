@@ -1,0 +1,225 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/B05/current/MEM/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B05::MEM";
+        dc:date                "2014-06-08 13:51:03.0";
+        dc:identifier          "SDN:B05::MEM";
+        pav:authoredOn         "2014-06-08 13:51:03.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B05/current/MEM/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Member of a governance or committee with no specific named title or role."@en;
+        skos:notation          "SDN:B05::MEM";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Member"@en .
+
+<http://vocab.nerc.ac.uk/collection/B05/current/VIC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B05::VIC";
+        dc:date                "2014-06-08 13:51:03.0";
+        dc:identifier          "SDN:B05::VIC";
+        pav:authoredOn         "2014-06-08 13:51:03.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B05/current/VIC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Person immediately subordinate to a chairman who assists the Chair and assumes the role in the Chair's absence"@en;
+        skos:notation          "SDN:B05::VIC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Vice Chair"@en .
+
+<http://vocab.nerc.ac.uk/collection/B05/current/FOR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B05::FOR";
+        dc:date                "2014-07-23 15:13:32.0";
+        dc:identifier          "SDN:B05::FOR";
+        pav:authoredOn         "2014-07-23 15:13:32.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B05/current/FOR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Member of a governance or committee who held the role of chair in the past but no longer does so."@en;
+        skos:notation          "SDN:B05::FOR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Former Chair"@en .
+
+<http://vocab.nerc.ac.uk/collection/B05/current/PER/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B05::PER";
+        dc:date                "2014-06-08 13:51:03.0";
+        dc:identifier          "SDN:B05::PER";
+        pav:authoredOn         "2014-06-08 13:51:03.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B05/current/PER/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Member of a governance or committee with a specific management and administrative role."@en;
+        skos:notation          "SDN:B05::PER";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Permanent Secretary"@en .
+
+<http://vocab.nerc.ac.uk/collection/B05/current/SCI/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B05::SCI";
+        dc:date                "2014-07-23 15:13:32.0";
+        dc:identifier          "SDN:B05::SCI";
+        pav:authoredOn         "2014-07-23 15:13:32.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B05/current/SCI/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Member of a governance or committee whose role is to provide scientific or technical advice."@en;
+        skos:notation          "SDN:B05::SCI";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Scientific Advisor"@en .
+
+<http://vocab.nerc.ac.uk/collection/B05/current/CHA/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B05::CHA";
+        dc:date                "2014-06-08 13:51:03.0";
+        dc:identifier          "SDN:B05::CHA";
+        pav:authoredOn         "2014-06-08 13:51:03.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B05/current/CHA/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Member of a governance or committee responsible for overseeing roles, assigning work, acting as spokesperson and managing meetings."@en;
+        skos:notation          "SDN:B05::CHA";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Chair"@en .
+
+<http://vocab.nerc.ac.uk/collection/B05/current/PRO/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B05::PRO";
+        dc:date                "2014-06-08 13:51:03.0";
+        dc:identifier          "SDN:B05::PRO";
+        pav:authoredOn         "2014-06-08 13:51:03.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B05/current/PRO/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Person responsible for planning and executing a project."@en;
+        skos:notation          "SDN:B05::PRO";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Project Manager"@en .
+
+<http://vocab.nerc.ac.uk/collection/B05/current/DIG/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B05::DIG";
+        dc:date                "2014-06-08 13:51:03.0";
+        dc:identifier          "SDN:B05::DIG";
+        pav:authoredOn         "2014-06-08 13:51:03.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B05/current/DIG/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Person responsible for the management of a specific type of geographical dataset(s)."@en;
+        skos:notation          "SDN:B05::DIG";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Digital Atlas Manager"@en .
+
+<http://vocab.nerc.ac.uk/collection/B05/current/CHI/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B05::CHI";
+        dc:date                "2014-06-08 13:51:03.0";
+        dc:identifier          "SDN:B05::CHI";
+        pav:authoredOn         "2014-06-08 13:51:03.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B05/current/CHI/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Person responsible for managing the creation and/or maintenance of a publication."@en;
+        skos:notation          "SDN:B05::CHI";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Chief Editor"@en .
+
+<http://vocab.nerc.ac.uk/collection/B05/current/OBS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B05::OBS";
+        dc:date                "2014-07-23 15:13:32.0";
+        dc:identifier          "SDN:B05::OBS";
+        pav:authoredOn         "2014-07-23 15:13:32.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B05/current/OBS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Member of a governance or committee who has no voting rights on issues the governance or committee decide by vote."@en;
+        skos:notation          "SDN:B05::OBS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Observer"@en .
+
+<http://vocab.nerc.ac.uk/collection/B05/current/SEC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:B05::SEC";
+        dc:date                "2014-07-23 15:13:32.0";
+        dc:identifier          "SDN:B05::SEC";
+        pav:authoredOn         "2014-07-23 15:13:32.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/B05/current/SEC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Member of a governance or committee with a specific management and administrative role."@en;
+        skos:notation          "SDN:B05::SEC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Secretary"@en .
+
+<http://vocab.nerc.ac.uk/collection/B05/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used within the data centre";
+        dc:alternative          "Governance roles";
+        dc:creator              "British Oceanographic Data Centre";
+        dc:date                 "2014-07-24 02:00:03.0";
+        dc:description          "Terms used by BODC to describe roles that may be given to people within a governance structure.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "BODC governance roles";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "British Oceanographic Data Centre";
+        owl:versionInfo         "3";
+        skos:altLabel           "Governance roles";
+        skos:member             <http://vocab.nerc.ac.uk/collection/B05/current/MEM/> , <http://vocab.nerc.ac.uk/collection/B05/current/VIC/> , <http://vocab.nerc.ac.uk/collection/B05/current/FOR/> , <http://vocab.nerc.ac.uk/collection/B05/current/PER/> , <http://vocab.nerc.ac.uk/collection/B05/current/SCI/> , <http://vocab.nerc.ac.uk/collection/B05/current/CHA/> , <http://vocab.nerc.ac.uk/collection/B05/current/PRO/> , <http://vocab.nerc.ac.uk/collection/B05/current/DIG/> , <http://vocab.nerc.ac.uk/collection/B05/current/CHI/> , <http://vocab.nerc.ac.uk/collection/B05/current/SEC/> , <http://vocab.nerc.ac.uk/collection/B05/current/OBS/>;
+        skos:prefLabel          "BODC governance roles" .

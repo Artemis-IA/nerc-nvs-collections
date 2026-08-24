@@ -1,0 +1,640 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/W01/current/011/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::011";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::011";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/011/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Altitude is the (geometric) height above the geoid, which is the reference geopotential surface. The geoid is similar to mean sea level."@en;
+        skos:notation          "SDN:W01::011";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Altitude"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/008/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::008";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::008";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/008/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The range of the measurement (in metres)."@en;
+        skos:notation          "SDN:W01::008";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Measurement range"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::001";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::001";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/001/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/W02/current/005/>;
+        skos:definition        "In Sensor Web Enablement, system type allows a physical sensor to be described with spatial and temporl attributes"@en;
+        skos:notation          "SDN:W01::001";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "System type"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/031/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::031";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::031";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/031/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "For example, a research vessel deployed on a cruise"@en;
+        skos:notation          "SDN:W01::031";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Survey"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/021/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::021";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::021";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/021/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The maximum capacity of something to last or withstand wear and tear, without giving way."@en;
+        skos:notation          "SDN:W01::021";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Maximum endurance"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/013/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::013";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::013";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/013/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The position of the platform."@en;
+        skos:notation          "SDN:W01::013";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Position"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/033/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::033";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::033";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/033/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Cruise identifier"@en;
+        skos:notation          "SDN:W01::033";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Cruise ID"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/014/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::014";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::014";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/014/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The geolocation of the vessel in an instant."@en;
+        skos:notation          "SDN:W01::014";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Navigation data"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/024/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::024";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::024";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/024/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The SeaBird instrument."@en;
+        skos:notation          "SDN:W01::024";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sea-bird electronics"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/002/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::002";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::002";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/002/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/W02/current/006/>;
+        skos:definition        "In Sensor Web Enablement, the sensor application is the purpose for which the sensor was deployed within the environment"@en;
+        skos:notation          "SDN:W01::002";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sensor application"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/023/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::023";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::023";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/023/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The level of chlorophyll in the water"@en;
+        skos:notation          "SDN:W01::023";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Chlorophyll concentration in the water sample"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/012/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::012";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::012";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/012/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Orientation of a platform carrying an object of interest (such as a sensor). The exact reference frame whose orientation is given should be defined by an engineering datum attached to the platform."@en;
+        skos:notation          "SDN:W01::012";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Attitude"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/004/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::004";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::004";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/004/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/W02/current/001/>;
+        skos:definition        "Properties of a measurement which may be quantified"@en;
+        skos:notation          "SDN:W01::004";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Measurement properties"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/034/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::034";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::034";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/034/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Cruise name"@en;
+        skos:notation          "SDN:W01::034";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Cruise Name"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/022/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::022";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::022";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/022/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The maximum rate at which vessel moves or operates working."@en;
+        skos:notation          "SDN:W01::022";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Maximum working speed"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/032/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::032";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::032";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/032/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The status of the navigation."@en;
+        skos:notation          "SDN:W01::032";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Navigation status"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/026/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::026";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::026";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/026/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Hardware system which have the navigation information."@en;
+        skos:notation          "SDN:W01::026";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Navigation system"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/010/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::010";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::010";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/010/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/W02/current/002/> , <http://vocab.nerc.ac.uk/collection/W02/current/004/> , <http://vocab.nerc.ac.uk/collection/W02/current/003/>;
+        skos:definition        " A coordinate system or frame of reference that is only expected to function over a small region or a restricted region of space or spacetime"@en;
+        skos:notation          "SDN:W01::010";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Local reference frame"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/020/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::020";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::020";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/020/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A distinctive attributes or aspect of operations of the vessel."@en;
+        skos:notation          "SDN:W01::020";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Operational features"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/009/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::009";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::009";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/009/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The spring that maintains tension during operation."@en;
+        skos:notation          "SDN:W01::009";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Spring tension"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/016/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::016";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::016";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/016/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The measurement or distance from one end to the other (in metres)."@en;
+        skos:notation          "SDN:W01::016";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Length"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/030/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::030";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::030";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/030/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The date and time at which the sampling is taken."@en;
+        skos:notation          "SDN:W01::030";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sampling time"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/019/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::019";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::019";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/019/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The vertical distance from the water to the bottom of the boat (in metres)."@en;
+        skos:notation          "SDN:W01::019";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Design draft"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/029/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::029";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::029";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/029/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Observation whose result is a Record. OGC 10-026 (ISO 19156:2011)"@en;
+        skos:notation          "SDN:W01::029";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "OM_complex_observation"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/006/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::006";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::006";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/006/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Time at which an observation result applies to the property of the feature."@en;
+        skos:notation          "SDN:W01::006";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Observation time"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/017/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::017";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::017";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/017/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The physical properties that defines an specific tool."@en;
+        skos:notation          "SDN:W01::017";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Platform physical properties"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/028/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::028";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::028";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/028/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The vessel site seen as the shape of the observation (a 3D box ) in a specific time. Is the Volume of air and water that is been observed. As the vessel is a moving object a Dynamic Feature has been chose to describe the FOI."@en;
+        skos:notation          "SDN:W01::028";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Vessel site"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/027/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::027";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::027";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/027/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Time at which an observation result applies to the property of the feature. This is often the time of interaction by a sampling procedure or observation procedure with a real-world feature"@en;
+        skos:notation          "SDN:W01::027";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Phenomenon time"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/005/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::005";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::005";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/005/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The exact point (center of a reference frame) whose location is given should be defined by an engineering datum attached to the sensor."@en;
+        skos:notation          "SDN:W01::005";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Location"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/015/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::015";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::015";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/015/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The electronic parts to determinate the ship's position."@en;
+        skos:notation          "SDN:W01::015";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Positioning system"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/018/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::018";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::018";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/018/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The width at the widest point (in metres)."@en;
+        skos:notation          "SDN:W01::018";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Beam"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/025/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::025";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::025";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/025/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Corrections applied to reduce the data to a common scale throughout the record."@en;
+        skos:notation          "SDN:W01::025";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Turner designs"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/007/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::007";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::007";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/007/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0001/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Accuracy is closeness of measurement to the true value."@en;
+        skos:notation          "SDN:W01::007";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Accuracy"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/035/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::035";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::035";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/035/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS02/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS07/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS09/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS06/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS04/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS10/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS11/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS05/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS08/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS01/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS03/>;
+        skos:definition        "Scientific thematic area. Using terms used to classify SeaDataNet Agreed Parameter Groups to provide topic/theme level terms in a hierarchical parameter discovery interface."@en;
+        skos:notation          "SDN:W01::035";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Survey discipline"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/003/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W01::003";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W01::003";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W01/current/003/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/L05/current/LAB28/> , <http://vocab.nerc.ac.uk/collection/L05/current/COLCMP/> , <http://vocab.nerc.ac.uk/collection/L05/current/387/> , <http://vocab.nerc.ac.uk/collection/L05/current/BLUMS/> , <http://vocab.nerc.ac.uk/collection/L05/current/EQUIL/> , <http://vocab.nerc.ac.uk/collection/L05/current/85/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB41/> , <http://vocab.nerc.ac.uk/collection/L05/current/CSEM/> , <http://vocab.nerc.ac.uk/collection/L05/current/PERMON/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB39/> , <http://vocab.nerc.ac.uk/collection/L05/current/359/> , <http://vocab.nerc.ac.uk/collection/L05/current/MOD01/> , <http://vocab.nerc.ac.uk/collection/L05/current/TFSAMP/> , <http://vocab.nerc.ac.uk/collection/L05/current/66/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB31/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB34/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB08/> , <http://vocab.nerc.ac.uk/collection/L05/current/LBTG/> , <http://vocab.nerc.ac.uk/collection/L05/current/380/> , <http://vocab.nerc.ac.uk/collection/L05/current/ICEP/> , <http://vocab.nerc.ac.uk/collection/L05/current/361/> , <http://vocab.nerc.ac.uk/collection/L05/current/182/> , <http://vocab.nerc.ac.uk/collection/L05/current/133/> , <http://vocab.nerc.ac.uk/collection/L05/current/151/> , <http://vocab.nerc.ac.uk/collection/L05/current/91/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB09/> , <http://vocab.nerc.ac.uk/collection/L05/current/90/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB29/> , <http://vocab.nerc.ac.uk/collection/L05/current/MOD05/> , <http://vocab.nerc.ac.uk/collection/L05/current/310/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB13/> , <http://vocab.nerc.ac.uk/collection/L05/current/60/> , <http://vocab.nerc.ac.uk/collection/L05/current/14/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB32/> , <http://vocab.nerc.ac.uk/collection/L05/current/EMSR/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB07/> , <http://vocab.nerc.ac.uk/collection/L05/current/55/> , <http://vocab.nerc.ac.uk/collection/L05/current/MOD08/> , <http://vocab.nerc.ac.uk/collection/L05/current/83/> , <http://vocab.nerc.ac.uk/collection/L05/current/131/> , <http://vocab.nerc.ac.uk/collection/L05/current/54/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB26/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB22/> , <http://vocab.nerc.ac.uk/collection/L05/current/358/> , <http://vocab.nerc.ac.uk/collection/L05/current/377/> , <http://vocab.nerc.ac.uk/collection/L05/current/155/> , <http://vocab.nerc.ac.uk/collection/L05/current/MOD04/> , <http://vocab.nerc.ac.uk/collection/L05/current/SBAG/> , <http://vocab.nerc.ac.uk/collection/L05/current/FLXT/> , <http://vocab.nerc.ac.uk/collection/L05/current/EXHL/> , <http://vocab.nerc.ac.uk/collection/L05/current/FLXS/> , <http://vocab.nerc.ac.uk/collection/L05/current/MVBR/> , <http://vocab.nerc.ac.uk/collection/L05/current/GIAG/> , <http://vocab.nerc.ac.uk/collection/L05/current/BOMR/> , <http://vocab.nerc.ac.uk/collection/L05/current/ARAG/> , <http://vocab.nerc.ac.uk/collection/L05/current/AQPL/> , <http://vocab.nerc.ac.uk/collection/L05/current/121/> , <http://vocab.nerc.ac.uk/collection/L05/current/367/> , <http://vocab.nerc.ac.uk/collection/L05/current/CHRP/> , <http://vocab.nerc.ac.uk/collection/L05/current/352/> , <http://vocab.nerc.ac.uk/collection/L05/current/VSHC/> , <http://vocab.nerc.ac.uk/collection/L05/current/378/> , <http://vocab.nerc.ac.uk/collection/L05/current/57/> , <http://vocab.nerc.ac.uk/collection/L05/current/313/> , <http://vocab.nerc.ac.uk/collection/L05/current/370/> , <http://vocab.nerc.ac.uk/collection/L05/current/59/> , <http://vocab.nerc.ac.uk/collection/L05/current/65/> , <http://vocab.nerc.ac.uk/collection/L05/current/82/> , <http://vocab.nerc.ac.uk/collection/L05/current/301/> , <http://vocab.nerc.ac.uk/collection/L05/current/124/> , <http://vocab.nerc.ac.uk/collection/L05/current/21/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB40/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB19/> , <http://vocab.nerc.ac.uk/collection/L05/current/53/> , <http://vocab.nerc.ac.uk/collection/L05/current/12/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB18/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB25/> , <http://vocab.nerc.ac.uk/collection/L05/current/303/> , <http://vocab.nerc.ac.uk/collection/L05/current/MOD07/> , <http://vocab.nerc.ac.uk/collection/L05/current/183/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB14/> , <http://vocab.nerc.ac.uk/collection/L05/current/EXLH/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB24/> , <http://vocab.nerc.ac.uk/collection/L05/current/999/> , <http://vocab.nerc.ac.uk/collection/L05/current/58/> , <http://vocab.nerc.ac.uk/collection/L05/current/373/> , <http://vocab.nerc.ac.uk/collection/L05/current/372/> , <http://vocab.nerc.ac.uk/collection/L05/current/371/> , <http://vocab.nerc.ac.uk/collection/L05/current/13/> , <http://vocab.nerc.ac.uk/collection/L05/current/305/> , <http://vocab.nerc.ac.uk/collection/L05/current/383/> , <http://vocab.nerc.ac.uk/collection/L05/current/FFES/> , <http://vocab.nerc.ac.uk/collection/L05/current/180/> , <http://vocab.nerc.ac.uk/collection/L05/current/63/> , <http://vocab.nerc.ac.uk/collection/L05/current/MMIS/> , <http://vocab.nerc.ac.uk/collection/L05/current/MOD02/> , <http://vocab.nerc.ac.uk/collection/L05/current/MOD06/> , <http://vocab.nerc.ac.uk/collection/L05/current/376/> , <http://vocab.nerc.ac.uk/collection/L05/current/116/> , <http://vocab.nerc.ac.uk/collection/L05/current/135/> , <http://vocab.nerc.ac.uk/collection/L05/current/364/> , <http://vocab.nerc.ac.uk/collection/L05/current/366/> , <http://vocab.nerc.ac.uk/collection/L05/current/365/> , <http://vocab.nerc.ac.uk/collection/L05/current/374/> , <http://vocab.nerc.ac.uk/collection/L05/current/MOD03/> , <http://vocab.nerc.ac.uk/collection/L05/current/360/> , <http://vocab.nerc.ac.uk/collection/L05/current/POS23/> , <http://vocab.nerc.ac.uk/collection/L05/current/POS22/> , <http://vocab.nerc.ac.uk/collection/L05/current/POS05/> , <http://vocab.nerc.ac.uk/collection/L05/current/POS09/> , <http://vocab.nerc.ac.uk/collection/L05/current/POS07/> , <http://vocab.nerc.ac.uk/collection/L05/current/POS06/> , <http://vocab.nerc.ac.uk/collection/L05/current/POS10/> , <http://vocab.nerc.ac.uk/collection/L05/current/POS18/> , <http://vocab.nerc.ac.uk/collection/L05/current/POS16/> , <http://vocab.nerc.ac.uk/collection/L05/current/POS15/> , <http://vocab.nerc.ac.uk/collection/L05/current/POS17/> , <http://vocab.nerc.ac.uk/collection/L05/current/POS26/> , <http://vocab.nerc.ac.uk/collection/L05/current/POS21/> , <http://vocab.nerc.ac.uk/collection/L05/current/POS24/> , <http://vocab.nerc.ac.uk/collection/L05/current/357/> , <http://vocab.nerc.ac.uk/collection/L05/current/POS13/> , <http://vocab.nerc.ac.uk/collection/L05/current/POS12/> , <http://vocab.nerc.ac.uk/collection/L05/current/POS11/> , <http://vocab.nerc.ac.uk/collection/L05/current/384/> , <http://vocab.nerc.ac.uk/collection/L05/current/184/> , <http://vocab.nerc.ac.uk/collection/L05/current/POS08/> , <http://vocab.nerc.ac.uk/collection/L05/current/159/> , <http://vocab.nerc.ac.uk/collection/L05/current/363/> , <http://vocab.nerc.ac.uk/collection/L05/current/382/> , <http://vocab.nerc.ac.uk/collection/L05/current/103/> , <http://vocab.nerc.ac.uk/collection/L05/current/56/> , <http://vocab.nerc.ac.uk/collection/L05/current/50/> , <http://vocab.nerc.ac.uk/collection/L05/current/POS14/> , <http://vocab.nerc.ac.uk/collection/L05/current/307/> , <http://vocab.nerc.ac.uk/collection/L05/current/132/> , <http://vocab.nerc.ac.uk/collection/L05/current/SNWG/> , <http://vocab.nerc.ac.uk/collection/L05/current/112/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB38/> , <http://vocab.nerc.ac.uk/collection/L05/current/64/> , <http://vocab.nerc.ac.uk/collection/L05/current/152/> , <http://vocab.nerc.ac.uk/collection/L05/current/81/> , <http://vocab.nerc.ac.uk/collection/L05/current/84/> , <http://vocab.nerc.ac.uk/collection/L05/current/32/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB11/> , <http://vocab.nerc.ac.uk/collection/L05/current/62/> , <http://vocab.nerc.ac.uk/collection/L05/current/181/> , <http://vocab.nerc.ac.uk/collection/L05/current/POS01/> , <http://vocab.nerc.ac.uk/collection/L05/current/POS20/> , <http://vocab.nerc.ac.uk/collection/L05/current/114/> , <http://vocab.nerc.ac.uk/collection/L05/current/150/> , <http://vocab.nerc.ac.uk/collection/L05/current/67/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB30/> , <http://vocab.nerc.ac.uk/collection/L05/current/TRTG/> , <http://vocab.nerc.ac.uk/collection/L05/current/185/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB17/> , <http://vocab.nerc.ac.uk/collection/L05/current/355/> , <http://vocab.nerc.ac.uk/collection/L05/current/356/> , <http://vocab.nerc.ac.uk/collection/L05/current/POS19/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB15/> , <http://vocab.nerc.ac.uk/collection/L05/current/304/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB02/> , <http://vocab.nerc.ac.uk/collection/L05/current/11/> , <http://vocab.nerc.ac.uk/collection/L05/current/ATRANS/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB03/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB23/> , <http://vocab.nerc.ac.uk/collection/L05/current/SPRK/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB42/> , <http://vocab.nerc.ac.uk/collection/L05/current/306/> , <http://vocab.nerc.ac.uk/collection/L05/current/381/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB27/> , <http://vocab.nerc.ac.uk/collection/L05/current/ERTQ/> , <http://vocab.nerc.ac.uk/collection/L05/current/NATS/> , <http://vocab.nerc.ac.uk/collection/L05/current/123/> , <http://vocab.nerc.ac.uk/collection/L05/current/353/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB35/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB21/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB33/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB36/> , <http://vocab.nerc.ac.uk/collection/L05/current/368/> , <http://vocab.nerc.ac.uk/collection/L05/current/68/> , <http://vocab.nerc.ac.uk/collection/L05/current/154/> , <http://vocab.nerc.ac.uk/collection/L05/current/375/> , <http://vocab.nerc.ac.uk/collection/L05/current/362/> , <http://vocab.nerc.ac.uk/collection/L05/current/153/> , <http://vocab.nerc.ac.uk/collection/L05/current/SNAG/> , <http://vocab.nerc.ac.uk/collection/L05/current/385/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB10/> , <http://vocab.nerc.ac.uk/collection/L05/current/52/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB01/> , <http://vocab.nerc.ac.uk/collection/L05/current/101/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB05/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB06/> , <http://vocab.nerc.ac.uk/collection/L05/current/309/> , <http://vocab.nerc.ac.uk/collection/L05/current/302/> , <http://vocab.nerc.ac.uk/collection/L05/current/30/> , <http://vocab.nerc.ac.uk/collection/L05/current/31/> , <http://vocab.nerc.ac.uk/collection/L05/current/69/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB16/> , <http://vocab.nerc.ac.uk/collection/L05/current/61/> , <http://vocab.nerc.ac.uk/collection/L05/current/311/> , <http://vocab.nerc.ac.uk/collection/L05/current/111/> , <http://vocab.nerc.ac.uk/collection/L05/current/386/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB37/> , <http://vocab.nerc.ac.uk/collection/L05/current/POS25/> , <http://vocab.nerc.ac.uk/collection/L05/current/POS02/> , <http://vocab.nerc.ac.uk/collection/L05/current/POS03/> , <http://vocab.nerc.ac.uk/collection/L05/current/351/> , <http://vocab.nerc.ac.uk/collection/L05/current/51/> , <http://vocab.nerc.ac.uk/collection/L05/current/33/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB12/> , <http://vocab.nerc.ac.uk/collection/L05/current/102/> , <http://vocab.nerc.ac.uk/collection/L05/current/115/> , <http://vocab.nerc.ac.uk/collection/L05/current/186/> , <http://vocab.nerc.ac.uk/collection/L05/current/308/> , <http://vocab.nerc.ac.uk/collection/L05/current/354/> , <http://vocab.nerc.ac.uk/collection/L05/current/110/> , <http://vocab.nerc.ac.uk/collection/L05/current/158/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB04/> , <http://vocab.nerc.ac.uk/collection/L05/current/LAB20/> , <http://vocab.nerc.ac.uk/collection/L05/current/122/> , <http://vocab.nerc.ac.uk/collection/L05/current/369/> , <http://vocab.nerc.ac.uk/collection/L05/current/CCOV/> , <http://vocab.nerc.ac.uk/collection/L05/current/POS04/> , <http://vocab.nerc.ac.uk/collection/L05/current/388/> , <http://vocab.nerc.ac.uk/collection/L05/current/113/> , <http://vocab.nerc.ac.uk/collection/L05/current/24/> , <http://vocab.nerc.ac.uk/collection/L05/current/22/> , <http://vocab.nerc.ac.uk/collection/L05/current/23/> , <http://vocab.nerc.ac.uk/collection/L05/current/379/> , <http://vocab.nerc.ac.uk/collection/L05/current/130/> , <http://vocab.nerc.ac.uk/collection/L05/current/312/> , <http://vocab.nerc.ac.uk/collection/L05/current/156/> , <http://vocab.nerc.ac.uk/collection/L05/current/157/> , <http://vocab.nerc.ac.uk/collection/L05/current/350/> , <http://vocab.nerc.ac.uk/collection/L05/current/134/>;
+        skos:definition        "Terms used to classify groups of sensors, instruments, sources of algorithmically computed data (numerical models) or samplers (collectors of water, SPM, sediment, rock, air or biota samples)."@en;
+        skos:notation          "SDN:W01::003";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "SeaDataNet device category"@en .
+
+<http://vocab.nerc.ac.uk/collection/W01/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the EU SeaDataNet project implemented as consultation between BODC and the members of the SeaDataNet Technical Task Team";
+        dc:alternative          "SDN SWE type";
+        dc:creator              "SeaDataNet";
+        dc:date                 "2015-01-05 10:03:22.0";
+        dc:description          "Vocabulary in support of SeaDataNet's implementation of OGC Sensor Web Enablement. This is the top level vocabulary with many narrower concepts from other vocabularies.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "SeaDataNet Sensor Web Enablement and SensorML type vocabulary";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "SeaDataNet";
+        owl:versionInfo         "0";
+        skos:altLabel           "SDN SWE type";
+        skos:member             <http://vocab.nerc.ac.uk/collection/W01/current/011/> , <http://vocab.nerc.ac.uk/collection/W01/current/008/> , <http://vocab.nerc.ac.uk/collection/W01/current/001/> , <http://vocab.nerc.ac.uk/collection/W01/current/031/> , <http://vocab.nerc.ac.uk/collection/W01/current/021/> , <http://vocab.nerc.ac.uk/collection/W01/current/013/> , <http://vocab.nerc.ac.uk/collection/W01/current/033/> , <http://vocab.nerc.ac.uk/collection/W01/current/014/> , <http://vocab.nerc.ac.uk/collection/W01/current/024/> , <http://vocab.nerc.ac.uk/collection/W01/current/002/> , <http://vocab.nerc.ac.uk/collection/W01/current/023/> , <http://vocab.nerc.ac.uk/collection/W01/current/012/> , <http://vocab.nerc.ac.uk/collection/W01/current/004/> , <http://vocab.nerc.ac.uk/collection/W01/current/034/> , <http://vocab.nerc.ac.uk/collection/W01/current/022/> , <http://vocab.nerc.ac.uk/collection/W01/current/032/> , <http://vocab.nerc.ac.uk/collection/W01/current/026/> , <http://vocab.nerc.ac.uk/collection/W01/current/010/> , <http://vocab.nerc.ac.uk/collection/W01/current/020/> , <http://vocab.nerc.ac.uk/collection/W01/current/009/> , <http://vocab.nerc.ac.uk/collection/W01/current/016/> , <http://vocab.nerc.ac.uk/collection/W01/current/030/> , <http://vocab.nerc.ac.uk/collection/W01/current/019/> , <http://vocab.nerc.ac.uk/collection/W01/current/029/> , <http://vocab.nerc.ac.uk/collection/W01/current/006/> , <http://vocab.nerc.ac.uk/collection/W01/current/017/> , <http://vocab.nerc.ac.uk/collection/W01/current/028/> , <http://vocab.nerc.ac.uk/collection/W01/current/027/> , <http://vocab.nerc.ac.uk/collection/W01/current/005/> , <http://vocab.nerc.ac.uk/collection/W01/current/015/> , <http://vocab.nerc.ac.uk/collection/W01/current/018/> , <http://vocab.nerc.ac.uk/collection/W01/current/025/> , <http://vocab.nerc.ac.uk/collection/W01/current/007/> , <http://vocab.nerc.ac.uk/collection/W01/current/003/> , <http://vocab.nerc.ac.uk/collection/W01/current/035/>;
+        skos:prefLabel          "SeaDataNet Sensor Web Enablement and SensorML type vocabulary" .

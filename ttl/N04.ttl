@@ -1,0 +1,157 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/N04/current/5/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N04::5";
+        dc:date                "2007-05-16 12:49:54.0";
+        dc:identifier          "SDN:N04::5";
+        pav:authoredOn         "2007-05-16 12:49:54.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N04/current/5/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ExtMetadata";
+        skos:definition        "Pointer to the MOLES record for the object via the appropriate service."@en;
+        skos:notation          "SDN:N04::5";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "extended metadata"@en .
+
+<http://vocab.nerc.ac.uk/collection/N04/current/1/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N04::1";
+        dc:date                "2007-05-16 12:49:54.0";
+        dc:identifier          "SDN:N04::1";
+        pav:authoredOn         "2007-05-16 12:49:54.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N04/current/1/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "ObjectPage";
+        skos:definition        "Descriptive home page for the referenced object"@en;
+        skos:notation          "SDN:N04::1";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "object home page"@en .
+
+<http://vocab.nerc.ac.uk/collection/N04/current/3/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N04::3";
+        dc:date                "2007-05-16 12:49:54.0";
+        dc:identifier          "SDN:N04::3";
+        pav:authoredOn         "2007-05-16 12:49:54.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N04/current/3/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "DataPage";
+        skos:definition        "Pointer to a page which will allow downloading of data."@en;
+        skos:notation          "SDN:N04::3";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "data home page"@en .
+
+<http://vocab.nerc.ac.uk/collection/N04/current/2/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N04::2";
+        dc:date                "2007-05-16 12:49:54.0";
+        dc:identifier          "SDN:N04::2";
+        pav:authoredOn         "2007-05-16 12:49:54.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N04/current/2/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "DataURL";
+        skos:definition        "Pointer direct to the dataset instantiation."@en;
+        skos:notation          "SDN:N04::2";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "data uniform resource locator"@en .
+
+<http://vocab.nerc.ac.uk/collection/N04/current/4/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N04::4";
+        dc:date                "2007-05-16 12:49:54.0";
+        dc:identifier          "SDN:N04::4";
+        pav:authoredOn         "2007-05-16 12:49:54.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N04/current/4/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "CuratorPage";
+        skos:definition        "Home page of data curator."@en;
+        skos:notation          "SDN:N04::4";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "curator home page"@en .
+
+<http://vocab.nerc.ac.uk/collection/N04/current/6/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N04::6";
+        dc:date                "2007-05-16 12:49:54.0";
+        dc:identifier          "SDN:N04::6";
+        pav:authoredOn         "2007-05-16 12:49:54.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N04/current/6/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "MetadataSource";
+        skos:definition        "Pointer to an original metadata record imported into MOLES."@en;
+        skos:notation          "SDN:N04::6";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "original metadata source"@en .
+
+<http://vocab.nerc.ac.uk/collection/N04/current/7/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:N04::7";
+        dc:date                "2007-08-17 16:48:13.0";
+        dc:identifier          "SDN:N04::7";
+        pav:authoredOn         "2007-08-17 16:48:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/N04/current/7/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/N04/current/7/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "NumSim Page";
+        skos:definition        "Pointer to a NumSim record via an appropriate service."@en;
+        skos:notation          "SDN:N04::7";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "NumSim description"@en .
+
+<http://vocab.nerc.ac.uk/collection/N04/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used for cross-centre information infrastructure in NERC. Current (2011) manifestation is the NERC SIS metadata subgroup";
+        dc:alternative          "NDG on-line references";
+        dc:creator              "Natural Environment Research Council";
+        dc:date                 "2007-08-18 02:00:04.0";
+        dc:description          "Terms describing types of on-line references in NERC DataGrid service bindings";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "NERC DataGrid on-line reference types";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Natural Environment Research Council";
+        owl:versionInfo         "3";
+        skos:altLabel           "NDG on-line references";
+        skos:member             <http://vocab.nerc.ac.uk/collection/N04/current/5/> , <http://vocab.nerc.ac.uk/collection/N04/current/1/> , <http://vocab.nerc.ac.uk/collection/N04/current/3/> , <http://vocab.nerc.ac.uk/collection/N04/current/2/> , <http://vocab.nerc.ac.uk/collection/N04/current/7/> , <http://vocab.nerc.ac.uk/collection/N04/current/6/> , <http://vocab.nerc.ac.uk/collection/N04/current/4/>;
+        skos:prefLabel          "NERC DataGrid on-line reference types" .

@@ -1,0 +1,88 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/C40/current/PEAC03/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C40::PEAC03";
+        dc:date                "2009-09-29 12:12:36.0";
+        dc:identifier          "SDN:C40::PEAC03";
+        pav:authoredOn         "2009-09-29 12:12:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C40/current/PEAC03/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The pollution event was observed directly by a reliable source and could be clearly observed by the human eye"@en;
+        skos:notation          "SDN:C40::PEAC03";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Confirmed"@en .
+
+<http://vocab.nerc.ac.uk/collection/C40/current/PEAC01/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C40::PEAC01";
+        dc:date                "2009-09-29 12:12:36.0";
+        dc:identifier          "SDN:C40::PEAC01";
+        pav:authoredOn         "2009-09-29 12:12:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C40/current/PEAC01/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The pollution event observation was not from an authoratative source and/or the pollution could not be clearly identified"@en;
+        skos:notation          "SDN:C40::PEAC01";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Doubtful"@en .
+
+<http://vocab.nerc.ac.uk/collection/C40/current/PEAC02/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C40::PEAC02";
+        dc:date                "2009-09-29 12:12:36.0";
+        dc:identifier          "SDN:C40::PEAC02";
+        pav:authoredOn         "2009-09-29 12:12:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C40/current/PEAC02/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "There is a greater than 50% chance that the pollution event is real given the source of the information and the conditions underwhich it was identified"@en;
+        skos:notation          "SDN:C40::PEAC02";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Probable"@en .
+
+<http://vocab.nerc.ac.uk/collection/C40/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "A group of European countries plus the European Commission who work together to monitor pollution incidents at sea and combat marine pollution incidents.";
+        dc:alternative          "POLREP accuracy";
+        dc:creator              "Bonn Agreement";
+        dc:date                 "2009-09-30 02:01:08.0";
+        dc:description          "Terms used to classify the accuracy and reliablity of pollution reports filed under the Bonn Agreement.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Bonn Agreement pollution report accuracy";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Bonn Agreement";
+        owl:versionInfo         "1";
+        skos:altLabel           "POLREP accuracy";
+        skos:member             <http://vocab.nerc.ac.uk/collection/C40/current/PEAC02/> , <http://vocab.nerc.ac.uk/collection/C40/current/PEAC01/> , <http://vocab.nerc.ac.uk/collection/C40/current/PEAC03/>;
+        skos:prefLabel          "Bonn Agreement pollution report accuracy" .

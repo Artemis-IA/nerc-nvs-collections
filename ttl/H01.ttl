@@ -1,0 +1,225 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/H01/current/H0100001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H01::H0100001";
+        dc:date                "2023-07-03 12:11:27.0";
+        dc:identifier          "SDN:H01::H0100001";
+        pav:authoredOn         "2023-07-03 12:11:27.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H01/current/H0100001/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/H01/current/H0100001/1/> , <http://vocab.nerc.ac.uk/collection/H01/current/H0100001/2/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "3";
+        skos:altLabel          "items";
+        skos:definition        "Term deprecated on 2023/07/03 as agreed https://github.com/nvs-vocabs/H01/issues/3. Description was:A generic term for any kind of micro-litter item made of any kind of plastic material."@en;
+        skos:notation          "SDN:H01::H0100001";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "microplastic items"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITTYPW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITTYPS/> .
+
+<http://vocab.nerc.ac.uk/collection/H01/current/H0100002/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H01::H0100002";
+        dc:date                "2023-07-10 14:46:50.0";
+        dc:identifier          "SDN:H01::H0100002";
+        pav:authoredOn         "2023-07-10 14:46:50.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H01/current/H0100002/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/H01/current/H0100002/3/> , <http://vocab.nerc.ac.uk/collection/H01/current/H0100002/2/> , <http://vocab.nerc.ac.uk/collection/H01/current/H0100002/1/>;
+        pav:version            "4";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "4";
+        skos:altLabel          "";
+        skos:definition        "Irregularly-shaped micro-litter particles with broken off edges that may be rounded or angular."@en;
+        skos:notation          "SDN:H01::H0100002";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "fragments"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITTYPW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITTYPS/> .
+
+<http://vocab.nerc.ac.uk/collection/H01/current/H0100005/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H01::H0100005";
+        dc:date                "2023-07-24 16:05:06.0";
+        dc:identifier          "SDN:H01::H0100005";
+        pav:authoredOn         "2023-07-24 16:05:06.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H01/current/H0100005/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/H01/current/H0100005/1/> , <http://vocab.nerc.ac.uk/collection/H01/current/H0100005/3/> , <http://vocab.nerc.ac.uk/collection/H01/current/H0100005/2/>;
+        pav:version            "4";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "4";
+        skos:altLabel          "";
+        skos:definition        "Thin planar micro-litter particles of arbitrarily limited maximum thickness, in which the thickness is very small compared to the length and width (adapted from ISO definition for film https://www.iso.org/obp/ui/#iso:std:iso:5148:ed-1:v1:en:term:3.1). In the micro-litter nomenclature, particles of type \"films\" are more flexible than particles of type \"fragments\" with the latter tending to break easily (Isobe et al 2019)."@en;
+        skos:notation          "SDN:H01::H0100005";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "films"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITTYPW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITTYPS/> .
+
+<http://vocab.nerc.ac.uk/collection/H01/current/H0100003/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H01::H0100003";
+        dc:date                "2022-06-28 10:20:49.0";
+        dc:identifier          "SDN:H01::H0100003";
+        pav:authoredOn         "2022-06-28 10:20:49.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H01/current/H0100003/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/H01/current/H0100003/1/> , <http://vocab.nerc.ac.uk/collection/H01/current/H0100003/2/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "";
+        skos:definition        "Micro-litter particles from industrial origin only. In comparison with granules, pellets are usually flat on one side, rough surface and irregular, round shapes. Normally bigger in size."@en;
+        skos:notation          "SDN:H01::H0100003";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "pellets"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITTYPW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITTYPS/> .
+
+<http://vocab.nerc.ac.uk/collection/H01/current/H0100008/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H01::H0100008";
+        dc:date                "2022-06-28 10:20:52.0";
+        dc:identifier          "SDN:H01::H0100008";
+        pav:authoredOn         "2022-06-28 10:20:52.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H01/current/H0100008/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/H01/current/H0100008/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "2";
+        skos:altLabel          "natural fibres/rubber";
+        skos:definition        "Term deprecated on 2022/06/28 following review of the H01 categories; see https://github.com/nvs-vocabs/EMODnetChemVocabs/issues/19. Filaments of non-plastic material such as natural fibres or rubber that are present in micro-litter samples."@en;
+        skos:notation          "SDN:H01::H0100008";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "non-plastic filaments (natural fibres, rubber)"@en .
+
+<http://vocab.nerc.ac.uk/collection/H01/current/H0100006/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H01::H0100006";
+        dc:date                "2023-07-04 13:10:13.0";
+        dc:identifier          "SDN:H01::H0100006";
+        pav:authoredOn         "2023-07-04 13:10:13.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H01/current/H0100006/5/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/H01/current/H0100006/4/> , <http://vocab.nerc.ac.uk/collection/H01/current/H0100006/2/> , <http://vocab.nerc.ac.uk/collection/H01/current/H0100006/3/> , <http://vocab.nerc.ac.uk/collection/H01/current/H0100006/1/>;
+        pav:version            "5";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "5";
+        skos:altLabel          "";
+        skos:definition        "Flexible micro-litter particles in which material cells are all or partly intercommunicating (adapted from ISO definition for foam (https://www.iso.org/obp/ui/#iso:std:iso:tr:20342:-7:ed-1:v1:en)."@en;
+        skos:notation          "SDN:H01::H0100006";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "foams"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITTYPW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITTYPS/> .
+
+<http://vocab.nerc.ac.uk/collection/H01/current/H0100009/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H01::H0100009";
+        dc:date                "2022-07-20 14:41:36.0";
+        dc:identifier          "SDN:H01::H0100009";
+        pav:authoredOn         "2022-07-20 14:41:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H01/current/H0100009/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/H01/current/H0100009/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:definition        "Micro-litter particles with smooth spherical shape. In comparison with pellets, they have a rounder shape and are smaller in size (adapted from [Matiddi et al, 2021](https://accedacris.ulpgc.es/bitstream/10553/114417/1/Report_Monitoring-microlitter-ingestion-in-marine-fish.pdf))."@en;
+        skos:notation          "SDN:H01::H0100009";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "granules"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITTYPW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITTYPS/> .
+
+<http://vocab.nerc.ac.uk/collection/H01/current/H0100007/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H01::H0100007";
+        dc:date                "2022-06-28 10:20:54.0";
+        dc:identifier          "SDN:H01::H0100007";
+        pav:authoredOn         "2022-06-28 10:20:54.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H01/current/H0100007/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/H01/current/H0100007/1/> , <http://vocab.nerc.ac.uk/collection/H01/current/H0100007/2/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "true";
+        owl:versionInfo        "3";
+        skos:altLabel          "non-plastic";
+        skos:definition        "Term deprecated on 2022/06/28 following review of the H01 categories; see https://github.com/nvs-vocabs/EMODnetChemVocabs/issues/19. A generic term for any kind of micro-litter item that is not made of plastic."@en;
+        skos:notation          "SDN:H01::H0100007";
+        skos:note              "deprecated"@en;
+        skos:prefLabel         "non-plastic man-made micro-particles (e.g. glass, metal, tar)"@en .
+
+<http://vocab.nerc.ac.uk/collection/H01/current/H0100010/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H01::H0100010";
+        dc:date                "2023-07-03 12:11:38.0";
+        dc:identifier          "SDN:H01::H0100010";
+        pav:authoredOn         "2023-07-03 12:11:38.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H01/current/H0100010/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A term to be used when the micro-litter morphologic type has not been defined."@en;
+        skos:notation          "SDN:H01::H0100010";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Undefined micro-litter items"@en .
+
+<http://vocab.nerc.ac.uk/collection/H01/current/H0100004/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:H01::H0100004";
+        dc:date                "2022-06-28 10:23:40.0";
+        dc:identifier          "SDN:H01::H0100004";
+        pav:authoredOn         "2022-06-28 10:23:40.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/H01/current/H0100004/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/H01/current/H0100004/2/> , <http://vocab.nerc.ac.uk/collection/H01/current/H0100004/1/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "";
+        skos:definition        "Slender thread-like micro-litter particles."@en;
+        skos:notation          "SDN:H01::H0100004";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "filaments"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITTYPW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITTYPS/> .
+
+<http://vocab.nerc.ac.uk/collection/H01/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "A European project consortium aimed at the creation of data products using chemical data amassed through SeaDataNet. The governance is loosely defined as the scientific expertise within the consortium with no formal processes defined.";
+        rdfs:seeAlso            <https://github.com/nvs-vocabs/H01>;
+        dc:alternative          "Microlitter_type";
+        dc:creator              "EMODnet Chemistry Lot";
+        dc:date                 "2023-07-25 03:00:01.0";
+        dc:description          "Controlled vocabulary defining the terms that may be used for micro-litter particle types in the EMODnet Chemistry data reporting system. The categories only reflect types based on morphological criteria (e.g. pellets, fragments, etc.) and all reference to the material they were made of was removed from this vocabulary as agreed in https://nvs-vocabs/EMODnetChemVocabs#19.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "EMODnet micro-litter types";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "EMODnet Chemistry Lot";
+        owl:versionInfo         "10";
+        skos:altLabel           "Microlitter_type";
+        skos:member             <http://vocab.nerc.ac.uk/collection/H01/current/H0100001/> , <http://vocab.nerc.ac.uk/collection/H01/current/H0100002/> , <http://vocab.nerc.ac.uk/collection/H01/current/H0100005/> , <http://vocab.nerc.ac.uk/collection/H01/current/H0100003/> , <http://vocab.nerc.ac.uk/collection/H01/current/H0100008/> , <http://vocab.nerc.ac.uk/collection/H01/current/H0100006/> , <http://vocab.nerc.ac.uk/collection/H01/current/H0100009/> , <http://vocab.nerc.ac.uk/collection/H01/current/H0100007/> , <http://vocab.nerc.ac.uk/collection/H01/current/H0100010/> , <http://vocab.nerc.ac.uk/collection/H01/current/H0100004/>;
+        skos:prefLabel          "EMODnet micro-litter types" .

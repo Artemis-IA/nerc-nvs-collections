@@ -1,0 +1,2548 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Water/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Water";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Water";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Water/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/Utility/>;
+        skos:definition        "Water utilities consist of pipes, mains, reservoirs, etc. that make up the network for distribution of potable water to the public."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Water";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Water System"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Channels/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Channels";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Channels";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Channels/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/Navigation/>;
+        skos:definition        "A navigation channel is a pathway of deep water (either natural or maintained by dredging) marked by buoys and followed by ships for safety and"@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Channels";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Channels"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/ShorelandManagementUnits/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::ShorelandManagementUnits";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::ShorelandManagementUnits";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/ShorelandManagementUnits/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/EstuaryManagementPlans/>;
+        skos:definition        "Goal 17 requires that cities and counties establish a \"coastal shoreland boundary\" on lands bordering coastal waters, including estuaries. Lands within the boundary are to be planned and managed to recognize their relationship with, and importance to, coastal waters. The coastal shorelands boundary around estuaries must be a minimum of fifty feet upland of the estuary shoreline. The shoreline, or the upper limit of the estuary, is either the line of nonaquatic vegetation or mean higher high water, whichever is higher. The boundary must extend upland to include the following areas and resources: * Areas subject to ocean flooding; * Areas of geologic instability; * Riparian vegetation; * Significant shoreland and wetland biological habitats; * Areas needed for water-dependent and water-related uses, including dredged material disposal and mitigation sites; and * Areas of exceptional aesthetic or scenic quality."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::ShorelandManagementUnits";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Shoreland management units"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/EstuaryClassifications/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::EstuaryClassifications";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::EstuaryClassifications";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/EstuaryClassifications/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/Goal16/>;
+        skos:definition        "To maintain diversity among Oregon's estuaries, Goal 16 directs the Land Conservation and Development Commission to set overall limits on the amount of development that can occur in each estuary. The classification sets an upper limit on the types and intensities of development that can occur and serves as a guide to preparation of plans for each estuary."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::EstuaryClassifications";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Estuary classifications"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Reef/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Reef";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Reef";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Reef/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/Habitat/>;
+        skos:definition        "Underwater structure formed by biotic (e.g. coral reefs) or abiotic (e.g. rocky reefs) processes. Reefs enhance physical complexity of the sea floor and often attract a diverse assemblage of organisms, especially fish."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Reef";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Reef"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/AquaticBed/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::AquaticBed";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::AquaticBed";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/AquaticBed/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/Habitat/>;
+        skos:definition        "Aquatic beds include both subtidal and intertidal algal and eelgrass beds that frequently occur in bay and slough estuarine subsystems. These communities probably represent a significant portion of the primary production in Oregon estuaries."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::AquaticBed";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Aquatic Bed"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/RockyIntertidal/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::RockyIntertidal";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::RockyIntertidal";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/RockyIntertidal/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/Habitat/>;
+        skos:definition        "Rocky shoreline areas that fall between the lowest and highest tidelines. haracterized by high wave action, constant submersion and exposure, changing temperature and salinity, and the occurrence of tidepools."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::RockyIntertidal";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Rocky Intertidal"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Employment/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Employment";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Employment";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Employment/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A03/current/CommunityVulnerability/>;
+        skos:definition        "Patterns of job availability and job sector diversity in a local economy."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Employment";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Employment"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Cadastre/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Cadastre";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Cadastre";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Cadastre/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A03/current/LandOwnership/>;
+        skos:definition        "A cadastre is a comprehensive register of the real property of a country, and commonly includes details of the ownership, the tenure, the precise location, the dimensions and area, and the value of individual parcels of land."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Cadastre";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Cadastre"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/HazardEducationOutreach/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::HazardEducationOutreach";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::HazardEducationOutreach";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/HazardEducationOutreach/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A03/current/HazardAvoidance/>;
+        skos:definition        "Public education and outreach efforts relating to mitigating the effects known hazards."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::HazardEducationOutreach";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Hazard Education and Outreach"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Demographics/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Demographics";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Demographics";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Demographics/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A04/current/Demographics/> , <http://vocab.nerc.ac.uk/collection/A03/current/CommunityVulnerability/>;
+        skos:definition        "Community demographics or demographic data refers to selected population characteristics as used in government. Commonly-used demographics include race, age, income, disabilities, mobility (in terms of travel time to work or number of vehicles available), educational attainment, home ownership, employment status, and even location. Distributions of values within a demographic variable, and across households, are both of interest, as well as trends over time."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Demographics";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Demographics"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/NationalParks/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::NationalParks";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::NationalParks";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/NationalParks/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A03/current/PublicLands/>;
+        skos:definition        "Land held by the US federal National Park Service."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::NationalParks";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "National Park"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/CountyParks/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::CountyParks";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::CountyParks";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/CountyParks/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A03/current/PublicLands/>;
+        skos:definition        "Land held by the local County parks."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::CountyParks";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "County Park"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/AverageMinimumTemperature/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::AverageMinimumTemperature";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::AverageMinimumTemperature";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/AverageMinimumTemperature/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Natural_Processes/> , <http://vocab.nerc.ac.uk/collection/A03/current/Climate/>;
+        skos:definition        "Average Minimum Temperature"@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::AverageMinimumTemperature";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Average Minimum Temperature"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/MarineTransportationInfrastructure/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::MarineTransportationInfrastructure";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::MarineTransportationInfrastructure";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/MarineTransportationInfrastructure/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/Transportation/> , <http://vocab.nerc.ac.uk/collection/A04/current/MarineTransport/>;
+        skos:definition        "Marine transport consists of ports and marinas terminals used for the transfer of people and goods between land and sea, as well as the navigation bouys channels and tow-lanes that comprise the sea transportation network it self."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::MarineTransportationInfrastructure";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Marine Transportation"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/MarineProtectedArea/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::MarineProtectedArea";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::MarineProtectedArea";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/MarineProtectedArea/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A03/current/Conservation/>;
+        skos:definition        "Marine Protected Area (MPA) is often used as an umbrella term covering a wide range of marine areas with some level of restriction to protect living, non-living, cultural, and/or historic resources"@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::MarineProtectedArea";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Marine Protected Area"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Hospital/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Hospital";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Hospital";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Hospital/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A01/current/Emergency_Response_and_Disaster_Recovery/> , <http://vocab.nerc.ac.uk/collection/A03/current/Facilities/>;
+        skos:definition        "A hospital is an institution for health care, often but not always providing for longer-term patient stays."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Hospital";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Hospitals"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Police/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Police";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Police";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Police/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Emergency_Response_and_Disaster_Recovery/> , <http://vocab.nerc.ac.uk/collection/A03/current/Facilities/>;
+        skos:definition        "A police facility is directly owned and operated by and/or for local police forces that shelters police equipment and personnel, and facilitates training and operations."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Police";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Police"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Fire/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Fire";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Fire";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Fire/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Emergency_Response_and_Disaster_Recovery/> , <http://vocab.nerc.ac.uk/collection/A03/current/Facilities/>;
+        skos:definition        "A fire station is a structure or other area set aside for storage of firefighting apparatus (i.e, fire engines and related vehicles), personal protective equipment, firehose, fire extinguishers, and other fire extinguishing equipment."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Fire";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Fire Stations"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Hachery/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Hachery";
+        dc:date                "2016-01-13 16:57:52.0";
+        dc:identifier          "SDN:A02::Hachery";
+        pav:authoredOn         "2016-01-13 16:57:52.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Hachery/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/A02/current/Hachery/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/Aquaculture/>;
+        skos:definition        "Fish Hatcheries are used to cultivate and breed a large number of fish in an enclosed environment, typically involving manual labor. Hatcheries release the juvenile fish into a river, lake or the ocean to support commercial, tribal, or recreational fishing or to supplement the natural numbers of threatened or endangered species."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Hachery";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Hatchery"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/BathyContours/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::BathyContours";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::BathyContours";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/BathyContours/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A04/current/DepthContours/> , <http://vocab.nerc.ac.uk/collection/A01/current/Sediment_Budget/> , <http://vocab.nerc.ac.uk/collection/A03/current/Bathymetry/>;
+        skos:definition        "Bathymetric contours (or depth contours or isobaths) are lines/curves connecting points depicting equal elevation (height) of the ocean floor"@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/A04/current/DepthContours/>;
+        skos:notation          "SDN:A02::BathyContours";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Bathymetric contours"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Sounding/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Sounding";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Sounding";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Sounding/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Sediment_Budget/> , <http://vocab.nerc.ac.uk/collection/A03/current/Bathymetry/>;
+        skos:definition        "Sounding is a historical nautical term for measuring a depth."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Sounding";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sounding"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/BoundingHeadland/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::BoundingHeadland";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::BoundingHeadland";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/BoundingHeadland/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Sediment_Budget/> , <http://vocab.nerc.ac.uk/collection/A03/current/LittoralCell/>;
+        skos:definition        "Headland or cape that defines a boundary between one littoral cell and an adjacent cell."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::BoundingHeadland";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Bounding Headland"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Kelp/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Kelp";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Kelp";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Kelp/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/Flora/>;
+        skos:definition        "Kelp are large seaweeds (algae), belonging to the brown algae and classified in the order Laminariales. Kelp grows in underwater forests (kelp forests) in clear, shallow oceans, requiring cold nutrient-rich water."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Kelp";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Kelp"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/BeneficialUse/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::BeneficialUse";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::BeneficialUse";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/BeneficialUse/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A01/current/Sediment_Budget/> , <http://vocab.nerc.ac.uk/collection/A03/current/DredgeMaterialDisposal/>;
+        skos:definition        "Beneficial use of uncontaminated dredged materials. Such use may include habitat construction, beach nourishment, or other necessary and permitted fill activies."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::BeneficialUse";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Beneficial use of dredged materials"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Zones/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Zones";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Zones";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Zones/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Emergency_Response_and_Disaster_Recovery/> , <http://vocab.nerc.ac.uk/collection/A03/current/Evacuation/>;
+        skos:definition        "Evacuation Zones from which the public should exodus in the event of a specifc hazard warning."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Zones";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Evacuation Zones"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/SmallCraftAdvisory/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::SmallCraftAdvisory";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::SmallCraftAdvisory";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/SmallCraftAdvisory/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/PublicHealth/>;
+        skos:definition        "The Small Craft Advisory is a U.S. Coast Guard warning to small craft boaters in Coastal Waters and Nearshore areas of forecasts for sustained winds, frequent gusts, or sea/wave conditions that could be hazardous to small boats. On the west coast of the U.S. this type of advisory is issued when conditions exceed a threshold of sustained winds of 21 to 33 knots, potentially in combination with wave heights exceeding 10 feet."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::SmallCraftAdvisory";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Small Craft Advisory"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/BeachClosure/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::BeachClosure";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::BeachClosure";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/BeachClosure/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Emergency_Response_and_Disaster_Recovery/> , <http://vocab.nerc.ac.uk/collection/A03/current/PublicHealth/>;
+        skos:definition        "A beach closure might occur anytime there is a known sewage or chemical spill impacting ocean waters. when water contact may cause humans to become ill. When a beach is closed, a public agency advises beach users to avoid all contact with ocean water in the closure area and where closure signs are posted."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::BeachClosure";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Beach closure"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/ShellfishHarvestBan/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::ShellfishHarvestBan";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::ShellfishHarvestBan";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/ShellfishHarvestBan/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A03/current/PublicHealth/>;
+        skos:definition        "From time to time the state may ban the harvesting of shellfish due to elevated potential for paralytic shellfish poisoning. A closure would includes shellfish on beaches, rocks, jetties and at the entrances to bays. Shellfish contaminated with PSP toxins can cause minor to severe illness or even death to people who eat them."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::ShellfishHarvestBan";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Shellfish harvest ban"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Routes/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Routes";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Routes";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Routes/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Emergency_Response_and_Disaster_Recovery/> , <http://vocab.nerc.ac.uk/collection/A03/current/Evacuation/>;
+        skos:definition        "The path designated for the safest routes away from an emergency situation."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Routes";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Evacuation Route"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Relocation/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Relocation";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Relocation";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Relocation/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/HazardAvoidance/>;
+        skos:definition        "Act of moving critical infrastructure or other development out of harms way when a hazard is know to occur in a particular location."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Relocation";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Relocation"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/HabitatRefuge/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::HabitatRefuge";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::HabitatRefuge";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/HabitatRefuge/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A03/current/RockyShoreDesignations/>;
+        skos:definition        "Habitat Refuges are areas that are needed to maintain the health of the rocky shore ecosystem. While protection of habitat values of individual sites is important, protection of the aggregate of all sites is essential."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::HabitatRefuge";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Habitat Refuge"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/PrivateProperty/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::PrivateProperty";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::PrivateProperty";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/PrivateProperty/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A04/current/Property/> , <http://vocab.nerc.ac.uk/collection/A03/current/LossOfLand/>;
+        skos:definition        "Real property owned by individuals, trusts, corporations or other non-public bodies."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::PrivateProperty";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Private Property"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/DesignatedPublicAccess/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::DesignatedPublicAccess";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::DesignatedPublicAccess";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/DesignatedPublicAccess/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A03/current/Goal17/>;
+        skos:definition        "Locations designated in local plans as points at which the public may access the ocean shore and coastal waters."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::DesignatedPublicAccess";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Designated Public Coastal Access"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/AverageMaximumTemperature/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::AverageMaximumTemperature";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::AverageMaximumTemperature";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/AverageMaximumTemperature/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Natural_Processes/> , <http://vocab.nerc.ac.uk/collection/A03/current/Climate/>;
+        skos:definition        "Average Maximum Temperature"@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::AverageMaximumTemperature";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Average Maximum Temperature"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/ShorelandOverlays/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::ShorelandOverlays";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::ShorelandOverlays";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/ShorelandOverlays/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/Goal17/>;
+        skos:definition        "Coastal Shorelands in Oregon are defined as Those areas immediately adjacent to the ocean, all estuaries and associated wetlands, and all coastal lakes."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::ShorelandOverlays";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Shoreland Overlays"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Shelters/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Shelters";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Shelters";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Shelters/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Emergency_Response_and_Disaster_Recovery/> , <http://vocab.nerc.ac.uk/collection/A03/current/Evacuation/>;
+        skos:definition        "Safe locations designated by local or regional authorities as places where evacuees may receive temporary food, shelter, and other emergency services."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Shelters";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Emergency Shelters"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Zoning/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Zoning";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Zoning";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Zoning/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A03/current/ComprehensivePlans/>;
+        skos:definition        "Zoning is a term used in urban planning for a system of land-use regulation. The word is derived from the practice of designating permitted uses of land based on mapped zones which separate one set of (potentially conflicting) land uses from another."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Zoning";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Zoning"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/RelativeErosionRiskZones/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::RelativeErosionRiskZones";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::RelativeErosionRiskZones";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/RelativeErosionRiskZones/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/LittoralCellManagementPlans/> , <http://vocab.nerc.ac.uk/collection/A04/current/ErosionRisk/>;
+        skos:definition        "These erosion risk zone mapping focuses on identifying minimum and maximum potential erosion distances for bluffs and dune backed shorelines. For both bluff and dune backed beaches, four zones are defined, an active hazard zone characterized by existing, active erosion processes, and three zones of potential future erosion, high, moderate, and low risk zones that respectively depict decreasing risks of becoming active in the future."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::RelativeErosionRiskZones";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Relative Erosion Risk Zones"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Lakes/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Lakes";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Lakes";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Lakes/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/Hydrography/>;
+        skos:definition        "A Lake is a considerable inland body of water, not part of the ocean, situated at the bottom of a topographic basin."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Lakes";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Lake"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/RiversStreams/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::RiversStreams";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::RiversStreams";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/RiversStreams/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/Hydrography/>;
+        skos:definition        "A stream is a body of water with a current, confined within a bed and stream-banks. A river is a natural stream of water, usually freshwater, flowing toward an ocean, a lake, or another stream."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/A04/current/Rivers/>;
+        skos:notation          "SDN:A02::RiversStreams";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Rivers and Streams"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/StructureElevation/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::StructureElevation";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::StructureElevation";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/StructureElevation/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/HazardMitigation/>;
+        skos:definition        "Elevation of a structure above a specified vertical datum."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::StructureElevation";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Structure Elevation"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Flood/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Flood";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Flood";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Flood/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A03/current/Natural/> , <http://vocab.nerc.ac.uk/collection/A01/current/Natural_Processes/> , <http://vocab.nerc.ac.uk/collection/A01/current/Shoreline_Erosion_Flooding_and_Submergence/>;
+        skos:definition        "A flood is an overflow of an expanse of water that submerges land."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/I03/current/Coastal_Flooding/>;
+        skos:notation          "SDN:A02::Flood";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Flood"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Landslide/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Landslide";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Landslide";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Landslide/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Natural_Processes/> , <http://vocab.nerc.ac.uk/collection/A01/current/Shoreline_Erosion_Flooding_and_Submergence/> , <http://vocab.nerc.ac.uk/collection/A03/current/Natural/>;
+        skos:definition        "A landslide is a geological phenomenon which includes a wide range of ground movement, such as rock falls, deep failure of slopes and shallow debris flows, which can occur in offshore, coastal and onshore environments."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Landslide";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Landslide"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Electric/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Electric";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Electric";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Electric/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/Gas/>;
+        skos:definition        "Electric utilities are the infrastructure needed in the generation, transmission, and distribution of electricity to a community."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Electric";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Electric Utilities"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/WildernessAreas/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::WildernessAreas";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::WildernessAreas";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/WildernessAreas/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/Conservation/>;
+        skos:definition        "A wilderness area is a region where the land is in a natural state; where impacts from human activities are minimal"@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::WildernessAreas";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Wilderness Area"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Data/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Data";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Data";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Data/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/Utility/>;
+        skos:definition        "Data utilities consist of optical fiber cables (and the nodes between them) used by telecommunications companies to transmit telephone signals, Internet communication, and cable television signals."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Data";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Data Cables"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Estuary/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Estuary";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Estuary";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Estuary/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/ShorelineGeomorphology/>;
+        skos:definition        "An estuary is a semi-enclosed coastal body of water with one or more rivers or streams flowing into it, where salt water is measurably diluted with fresh water from the land. Estuaries are often associated with high rates of biological productivity."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Estuary";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Estuary"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/AveragePrecipitation/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::AveragePrecipitation";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::AveragePrecipitation";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/AveragePrecipitation/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Natural_Processes/> , <http://vocab.nerc.ac.uk/collection/A03/current/Climate/>;
+        skos:definition        "Precipitation is any product of the condensation of atmospheric water vapor that is deposited on the earth's surface."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::AveragePrecipitation";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Average Precipitation"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/A04/current/RainfallDistribution/> .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Permits/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Permits";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Permits";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Permits/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A03/current/ComprehensivePlans/>;
+        skos:definition        "A permit is a form of license or permission granted by a government entity to a person wishing to perform some form of regulated activity."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Permits";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Permit"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/BLMLands/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::BLMLands";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::BLMLands";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/BLMLands/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A03/current/PublicLands/>;
+        skos:definition        "Land held by the US federal Bureau of Land Management."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::BLMLands";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "BLM Land"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/BuildingCodes/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::BuildingCodes";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::BuildingCodes";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/BuildingCodes/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A03/current/HazardMitigation/>;
+        skos:definition        "Government standards that dictate the engineering levels that a construction project must meet in order to result in a structure that is considered safe."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::BuildingCodes";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Building Codes"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/SedimentSource/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::SedimentSource";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::SedimentSource";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/SedimentSource/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Sediment_Budget/> , <http://vocab.nerc.ac.uk/collection/A03/current/LittoralCell/>;
+        skos:definition        "A sediment source is a location within a littoral cell system that feeds new sediment into the sediment budget of the cell. Rivers, bluffs, dunes, and the inner shelf are examples of potential sources of sediment."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::SedimentSource";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sediment Sink"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/StatutoryVegetationLine/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::StatutoryVegetationLine";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::StatutoryVegetationLine";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/StatutoryVegetationLine/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A03/current/Goal18/>;
+        skos:definition        "A line described in Oregon law which marks the upland edge of the Ocean Shores Recreation Area, commonly thought of as the public beach."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::StatutoryVegetationLine";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Statutory Vegetation Line"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/LandUse/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::LandUse";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::LandUse";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/LandUse/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/A04/current/LandUse/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/ComprehensivePlans/>;
+        skos:definition        "Patterns of human use of the landscape."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::LandUse";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Land Use"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Erosion/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Erosion";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Erosion";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Erosion/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A04/current/CoastalErosion/> , <http://vocab.nerc.ac.uk/collection/A03/current/Natural/> , <http://vocab.nerc.ac.uk/collection/A01/current/Shoreline_Erosion_Flooding_and_Submergence/> , <http://vocab.nerc.ac.uk/collection/A01/current/Natural_Processes/> , <http://vocab.nerc.ac.uk/collection/A01/current/Sediment_Budget/>;
+        skos:definition        "Erosion is the carrying away or displacement of solids (sediment, soil, rock and other particles) usually by the agents of currents such as, wind, water, or ice by downward or down-slope movement in response to gravity. Erosion is an intrinsic natural process but in many places it is increased by human land use. Poor land use practices include deforestation, overgrazing, unmanaged construction activity and other activities that involve removal of vegetation."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/A04/current/CoastalErosion/> , <http://vocab.nerc.ac.uk/collection/I03/current/Coastal_Erosion/>;
+        skos:notation          "SDN:A02::Erosion";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Erosion"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Reservations/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Reservations";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Reservations";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Reservations/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A03/current/Jurisdictions/>;
+        skos:definition        "Reservations (or Trust Lands) are areas of land managed by Native American tribes under the United States Department of the Interior's Bureau of Indian Affairs, within which Tribes have a form of sovereignty that allows for laws within the reservation to differ from those in the surrounding area."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Reservations";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Indian Reservations"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/ShoreProtectiveStructureEligibility/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::ShoreProtectiveStructureEligibility";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::ShoreProtectiveStructureEligibility";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/ShoreProtectiveStructureEligibility/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A03/current/LittoralCellManagementPlans/>;
+        skos:definition        "The status of whether or not a parcel is eligible for a permit to construct a shore protective structure. Cirteria for eligibility are stated in Goal 18."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::ShoreProtectiveStructureEligibility";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Shore Protective Structure Eligibility"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/DuneGrading/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::DuneGrading";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::DuneGrading";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/DuneGrading/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A03/current/BeachDuneOverlays/> , <http://vocab.nerc.ac.uk/collection/A01/current/Shoreline_Erosion_Flooding_and_Submergence/> , <http://vocab.nerc.ac.uk/collection/A01/current/Habitat_Alteration/> , <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A01/current/Human_Activity/> , <http://vocab.nerc.ac.uk/collection/A01/current/Sediment_Budget/>;
+        skos:definition        "Lowering the elevation of the contours of a dune to prevent sand inundation of structures. Only allowed in areas committed to development or within an acknowledged urban growth boundary and only as part of an overall plan for managing foredune grading."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::DuneGrading";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Dune Grading"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/DuneRestoration/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::DuneRestoration";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::DuneRestoration";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/DuneRestoration/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A03/current/BeachDuneOverlays/> , <http://vocab.nerc.ac.uk/collection/A01/current/Shoreline_Accretion_Shoaling_and_Emergence/> , <http://vocab.nerc.ac.uk/collection/A01/current/Habitat_Alteration/> , <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A01/current/Human_Activity/> , <http://vocab.nerc.ac.uk/collection/A01/current/Sediment_Budget/>;
+        skos:definition        "Dune protection and restoration usually involves a combination of sand fencing and planting of vegetation to stabilize the dune and to capture blowing sand to increase dune elevations."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::DuneRestoration";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Dune Restoration"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/StructureProtection/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::StructureProtection";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::StructureProtection";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/StructureProtection/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A01/current/Human_Activity/> , <http://vocab.nerc.ac.uk/collection/A03/current/HazardMitigation/>;
+        skos:definition        "Protection of a structure from geologic hazard such as erosion, landslide or flooding."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::StructureProtection";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Structure Protection"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Seawalls/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Seawalls";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Seawalls";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Seawalls/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A03/current/ShoreStabilization/> , <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A01/current/Human_Activity/> , <http://vocab.nerc.ac.uk/collection/I03/current/Artificial_Structure/>;
+        skos:definition        "A seawall is a form of hard coastal defence constructed to reduce the effects of strong waves in inland property."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Seawalls";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Seawall"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/ChannelDeepening/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::ChannelDeepening";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::ChannelDeepening";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/ChannelDeepening/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Human_Activity/> , <http://vocab.nerc.ac.uk/collection/A01/current/Sediment_Budget/> , <http://vocab.nerc.ac.uk/collection/A03/current/SedimentManagement/>;
+        skos:definition        "Dredging on a navigation channel for marine safety or accomodation of larger vessels."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::ChannelDeepening";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Channel deepening"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Wastewater/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Wastewater";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Wastewater";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Wastewater/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Human_Activity/> , <http://vocab.nerc.ac.uk/collection/A03/current/Pollution/>;
+        skos:definition        "Wastewater is any water that has been adversely affected in quality by anthropogenic influence. It comprises liquid waste discharged by domestic residences, commercial properties, industry, and/or agriculture and can encompass a wide range of potential contaminants and concentrations."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Wastewater";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Wastewater"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Counties/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Counties";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Counties";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Counties/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A03/current/Jurisdictions/>;
+        skos:definition        "County Lines refer to the defined boundaries of a county (within which a county government has authority to enforce ordinaces). In Oregon, all lands that are outside of City Limits fall under County jurisdiction. Lands within City Limits are under both County and City authorities."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Counties";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "County Lines"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/MarineGardens/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::MarineGardens";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::MarineGardens";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/MarineGardens/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A03/current/RockyShoreDesignations/>;
+        skos:definition        "Marine Gardens are primarily intertidal areas intended to be focal points for visitors seeking to enjoy or learn about intertidal resources. These areas will be specially promoted and managed for visitor use with special emphasis on marine education programs."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::MarineGardens";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Marine Garden"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Education/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Education";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Education";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Education/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A03/current/Research/>;
+        skos:definition        "Public Education"@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Education";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Public Education"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/SeaLevelRise/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::SeaLevelRise";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::SeaLevelRise";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/SeaLevelRise/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Natural_Processes/> , <http://vocab.nerc.ac.uk/collection/A01/current/Shoreline_Erosion_Flooding_and_Submergence/> , <http://vocab.nerc.ac.uk/collection/A03/current/Climate/>;
+        skos:definition        "Sea-level rise is an increase in sea level, relative to a suitable reference surface."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::SeaLevelRise";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sea Level Rise"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/StateParks/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::StateParks";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::StateParks";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/StateParks/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A03/current/PublicLands/>;
+        skos:definition        "Land held by the state Department of Parks and Recreation."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::StateParks";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "State park"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Watershed/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Watershed";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Watershed";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Watershed/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/Hydrography/>;
+        skos:definition        "A watershed is a term for a drainage basin: an extent of land where water from rain or snow melt drains downhill into a body of water, such as a river, lake, reservoir, estuary, wetland, sea or ocean."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Watershed";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Watersheds"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/HighSurfAdvisory/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::HighSurfAdvisory";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::HighSurfAdvisory";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/HighSurfAdvisory/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Shoreline_Erosion_Flooding_and_Submergence/> , <http://vocab.nerc.ac.uk/collection/A03/current/PublicHealth/>;
+        skos:definition        "A High Surf Advisory means that large waves will affect beaches in the advisory area, producing rip currents and localized beach erosion."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::HighSurfAdvisory";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "High Surf Advisory"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Sewage/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Sewage";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Sewage";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Sewage/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Human_Activity/> , <http://vocab.nerc.ac.uk/collection/A03/current/Facilities/> , <http://vocab.nerc.ac.uk/collection/I03/current/Artificial_Structure/>;
+        skos:definition        "Sewage treatment plants, or domestic wastewater treatment plants, perform the function of removing contaminants from wastewater, both runoff (effluents) and domestic."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Sewage";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sewage"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Lighthouses/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Lighthouses";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Lighthouses";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Lighthouses/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/Navigation/>;
+        skos:definition        "A lighthouse is a tower, building or, framework designed to emit light from a system of lamps and lenses, and used as an aid to navigation and to pilots at sea."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Lighthouses";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Lighthouse"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/RipRap/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::RipRap";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::RipRap";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/RipRap/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A03/current/ShoreStabilization/> , <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A01/current/Human_Activity/> , <http://vocab.nerc.ac.uk/collection/I03/current/Artificial_Structure/>;
+        skos:definition        "RipRap is large rock or other material used to armor shorelines against erosion. Riprap reduces erosion by resisting the forces of hydraulic attack and dissipating the energy of flowing water or waves."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::RipRap";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "RipRap"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Buoys/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Buoys";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Buoys";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Buoys/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/Navigation/>;
+        skos:definition        "A buoy aids pilotage by marking a maritime channel, hazard or administrative area to allow boats and ships to navigate safely."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Buoys";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Buoy"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Tourism/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Tourism";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Tourism";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Tourism/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/Economy/>;
+        skos:definition        "Tourism is travel for predominantly recreational or leisure purposes or the provision of services to support this leisure travel"@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Tourism";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Tourism"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/StateLines/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::StateLines";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::StateLines";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/StateLines/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A03/current/Jurisdictions/>;
+        skos:definition        "Refers to the defined boundary of a US state (within which a state government has authority to enforce ordinaces)."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::StateLines";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "State Lines"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/AccessSiteGain/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::AccessSiteGain";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::AccessSiteGain";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/AccessSiteGain/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A03/current/PublicAccessMaintainance/>;
+        skos:definition        "Acquisition (gain) of location for public access to coastal waters: In Oregon, local comprehensive plans must provide for appropriate public access to and recreational use of coastal waters."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::AccessSiteGain";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Acquisition of Public Access"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/ForestServiceLands/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::ForestServiceLands";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::ForestServiceLands";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/ForestServiceLands/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A03/current/PublicLands/>;
+        skos:definition        "Land held by the US federal Forest Service."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::ForestServiceLands";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Forest Service Land"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Tsunami/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Tsunami";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Tsunami";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Tsunami/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Natural_Processes/> , <http://vocab.nerc.ac.uk/collection/A01/current/Shoreline_Erosion_Flooding_and_Submergence/> , <http://vocab.nerc.ac.uk/collection/A03/current/Natural/>;
+        skos:definition        "A tsunami is a series of waves created when a body of water, such as an ocean, is rapidly displaced."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Tsunami";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Tsunami"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/UrbanGrowth/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::UrbanGrowth";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::UrbanGrowth";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/UrbanGrowth/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A03/current/Issues/>;
+        skos:definition        "Physical expansion of urban areas into adjacent non-urbanized landscapes."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/A04/current/DevelopmentRate/>;
+        skos:notation          "SDN:A02::UrbanGrowth";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Urban Growth"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Ports/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Ports";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Ports";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Ports/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A03/current/Facilities/> , <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/>;
+        skos:definition        "Generally a port is a facility for receiving ships and transferring cargo. In Oregon, Port districts are a form of local government, that can also hold properties for local economic development."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/A04/current/ShippingPorts/> , <http://vocab.nerc.ac.uk/collection/A04/current/Marinas/> , <http://vocab.nerc.ac.uk/collection/A04/current/CommercialFerryPorts/> , <http://vocab.nerc.ac.uk/collection/A04/current/LocalFerryPorts/>;
+        skos:notation          "SDN:A02::Ports";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Ports"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/RailTransportationInfrastructure/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::RailTransportationInfrastructure";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::RailTransportationInfrastructure";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/RailTransportationInfrastructure/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/Transportation/>;
+        skos:definition        "Rail transport is the transport of passengers and goods by means of vehicles specially designed to run along railways or railroads."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/A04/current/Railways/>;
+        skos:notation          "SDN:A02::RailTransportationInfrastructure";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Railroads"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Gravel/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Gravel";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Gravel";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Gravel/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/Beach/> , <http://vocab.nerc.ac.uk/collection/A04/current/SoilTypes/>;
+        skos:definition        "Beach composed of gravel: loose rock that is larger than two millimeters (2mm) in its largest dimension (about 1/12 of an inch) and no more than 63 millimeters (about 2.5 inches)"@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Gravel";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Gravel beach"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/MediumCoarse/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::MediumCoarse";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::MediumCoarse";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/MediumCoarse/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/Beach/> , <http://vocab.nerc.ac.uk/collection/A04/current/SoilTypes/>;
+        skos:definition        "Beach composed of meadium to coarse grained sand: In USA, sand is commonly divided into five sub-categories based on size: very fine sand (1/16 - 1/8 mm diameter), fine sand (1/8 mm - 1/4 mm), medium sand (1/4 mm - 1/2 mm), coarse sand (1/2 mm - 1 mm), and very coarse sand (1 mm - 2 mm)."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::MediumCoarse";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Medium to Coarse-grained sandy beach"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/MixedSandGravel/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::MixedSandGravel";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::MixedSandGravel";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/MixedSandGravel/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/Beach/> , <http://vocab.nerc.ac.uk/collection/A04/current/SoilTypes/>;
+        skos:definition        "Beach composed of mixed sand and gravel: In USA, sand is commonly divided into five sub-categories based on size: very fine sand (1/16 - 1/8 mm diameter), fine sand (1/8 mm - 1/4 mm), medium sand (1/4 mm - 1/2 mm), coarse sand (1/2 mm - 1 mm), and very coarse sand (1 mm - 2 mm). Gravel is typically loose rock that is larger than two millimeters (2mm) in its largest dimension (about 1/12 of an inch) and no more than 63 millimeters (about 2.5 inches)"@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::MixedSandGravel";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Mixed sand and gravel beach"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/CoastGuardStations/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::CoastGuardStations";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::CoastGuardStations";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/CoastGuardStations/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Emergency_Response_and_Disaster_Recovery/> , <http://vocab.nerc.ac.uk/collection/A03/current/EmergencyService/>;
+        skos:definition        "Location out of which the US Coast gaurd operates. Mission of the US Coast Guard is to protect the public, the environment, and the United States economic and security interests in any maritime region in which those interests may be at risk, including international waters and America's coasts, ports, and inland waterways."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::CoastGuardStations";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Coast Guard Station"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/DigitalElevationModel/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::DigitalElevationModel";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::DigitalElevationModel";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/DigitalElevationModel/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Sediment_Budget/> , <http://vocab.nerc.ac.uk/collection/A03/current/Topography/>;
+        skos:definition        "a digital representation of ground surface topography or terrain."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::DigitalElevationModel";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Digital Elevation Model"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Benchmark/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Benchmark";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Benchmark";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Benchmark/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Sediment_Budget/> , <http://vocab.nerc.ac.uk/collection/A03/current/Topography/>;
+        skos:definition        "A benchmark is a point of reference for a measurement."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Benchmark";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Benchmark"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/TopoContour/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::TopoContour";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::TopoContour";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/TopoContour/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Sediment_Budget/> , <http://vocab.nerc.ac.uk/collection/A03/current/Topography/>;
+        skos:definition        "Topographic contours (or elevation contours or isobaths) are lines/curves connecting points depicting equal elevation (height) of the surface of land"@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::TopoContour";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Topographic contour"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Jetties/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Jetties";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Jetties";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Jetties/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A03/current/ShoreStabilization/> , <http://vocab.nerc.ac.uk/collection/I03/current/Artificial_Structure/> , <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A01/current/Human_Activity/> , <http://vocab.nerc.ac.uk/collection/A04/current/JettiesPiersQuays/>;
+        skos:definition        "A jetty is a shore-perpendicular manmade structure usually constructed from boulders, and typically placed at locations that require shoreline stabilization (such as on either side of a river mouth)."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Jetties";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Jetty"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/BeachNourishment/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::BeachNourishment";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::BeachNourishment";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/BeachNourishment/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A01/current/Human_Activity/> , <http://vocab.nerc.ac.uk/collection/A03/current/SedimentManagement/>;
+        skos:definition        "Placement of sand on or near a beach for the purpose of augmenting the local sediment budget and in many cases widening the beach or providing a greater buffer against erosion."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::BeachNourishment";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Beach Nourishment"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/TerritorialSea/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::TerritorialSea";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::TerritorialSea";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/TerritorialSea/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A03/current/Goal19/>;
+        skos:definition        "The ocean and seafloor area from mean low water seaward three nautical miles."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::TerritorialSea";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Territorial Sea"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Rain/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Rain";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Rain";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Rain/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Natural_Processes/> , <http://vocab.nerc.ac.uk/collection/A03/current/Weather/>;
+        skos:definition        "Rain is a type of precipitation, that forms when separate drops of water fall to the Earth from clouds."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/A04/current/Rainfall/>;
+        skos:notation          "SDN:A02::Rain";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Rain"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Winds/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Winds";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Winds";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Winds/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A04/current/Wind/> , <http://vocab.nerc.ac.uk/collection/A01/current/Natural_Processes/> , <http://vocab.nerc.ac.uk/collection/A03/current/Weather/>;
+        skos:definition        "Wind is the flow of atmospheric air over the earth's surface. When a difference in pressure exists between two adjacent air masses, the air tends to flow from the region of high pressure to the region of low pressure."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/A04/current/Wind/>;
+        skos:notation          "SDN:A02::Winds";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Winds"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Waves/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Waves";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Waves";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Waves/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A04/current/WavesAndTides/> , <http://vocab.nerc.ac.uk/collection/A03/current/Weather/> , <http://vocab.nerc.ac.uk/collection/A01/current/Natural_Processes/> , <http://vocab.nerc.ac.uk/collection/A01/current/Shoreline_Erosion_Flooding_and_Submergence/>;
+        skos:definition        "A wave is a disturbance that propagates through space and time, usually with transference of energy."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/A04/current/WaveHeights/>;
+        skos:notation          "SDN:A02::Waves";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Waves"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/OceanShoresRecreationArea/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::OceanShoresRecreationArea";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::OceanShoresRecreationArea";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/OceanShoresRecreationArea/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A04/current/Recreation/> , <http://vocab.nerc.ac.uk/collection/A03/current/Goal18/>;
+        skos:definition        "the land lying between extreme low tide of the Pacific Ocean and the statutory vegetation line established and described by ORS 390.770, except for those beach portions abutting a park area."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::OceanShoresRecreationArea";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Ocean Shores Recreation Area"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Soil/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Soil";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Soil";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Soil/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A04/current/Soils/> , <http://vocab.nerc.ac.uk/collection/A03/current/Geophysical/> , <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A01/current/Sediment_Budget/>;
+        skos:definition        "Soil is the naturally occurring, unconsolidated or loose covering of broken rock particles and decaying organic matter on the surface of the Earth, capable of supporting life."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/A04/current/Soils/>;
+        skos:notation          "SDN:A02::Soil";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Soil"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/OceanFloorGeology/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::OceanFloorGeology";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::OceanFloorGeology";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/OceanFloorGeology/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A03/current/Geophysical/> , <http://vocab.nerc.ac.uk/collection/A04/current/TerrestrialGeology/> , <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A01/current/Sediment_Budget/>;
+        skos:definition        "Ocean Floor Geology studies the composition, structure, physical properties, history, and the processes that shape the ocean floor"@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/A04/current/Bedrock/>;
+        skos:notation          "SDN:A02::OceanFloorGeology";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Ocean Floor Geology"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/GeologicFault/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::GeologicFault";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::GeologicFault";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/GeologicFault/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/Geophysical/>;
+        skos:definition        "A Geologic Fault is a planar rock fracture which shows evidence of relative movement"@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::GeologicFault";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Geologic Fault"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/EarthSurfaceGeology/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::EarthSurfaceGeology";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::EarthSurfaceGeology";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/EarthSurfaceGeology/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A04/current/SurfaceGeology/> , <http://vocab.nerc.ac.uk/collection/A01/current/Natural_Processes/> , <http://vocab.nerc.ac.uk/collection/A03/current/Geophysical/>;
+        skos:definition        "Earth surface geology studies the composition, structure, physical properties, history, and the processes that shape Earth's components"@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/A04/current/SurfaceGeology/>;
+        skos:notation          "SDN:A02::EarthSurfaceGeology";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Earth Surface Geology"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/EstuaryManagementUnits/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::EstuaryManagementUnits";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::EstuaryManagementUnits";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/EstuaryManagementUnits/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/EstuaryManagementPlans/>;
+        skos:definition        "Estuary plans divide each estuary into a number of different zones or areas called management units. Management units are discrete geographic areas, defined by biophysical characteristics and features, within which particular uses and activities are promoted, encouraged, protected, or enhanced, and others are discouraged, restricted, or prohibited. Estuary plans identify appropriate uses for each estuary management unit. Goals 16 directs what kinds of areas are to be included in each management unit and what kinds of uses can be allowed in each type of management unit."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::EstuaryManagementUnits";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Estuary Management Units"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/TowBoatLanes/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::TowBoatLanes";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::TowBoatLanes";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/TowBoatLanes/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/Navigation/>;
+        skos:definition        "Lanes of mutually agreed upon tow lane areas, as agreed by Tow boat operators and local fixed gear fishermen. Prior to the establishment of such lanes it was not uncommon for tugs to collide with crabbing gear, causing damage to hulls and propulsion systems and losses of costly crab pots."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::TowBoatLanes";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Tow Boat Lanes"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Military/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Military";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Military";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Military/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/Facilities/>;
+        skos:definition        "A military base is a facility directly owned and operated by and/or for the military or one of its branches that shelters military equipment and personnel, and facilitates training and operations."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Military";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Military Installations"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Eelgrass/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Eelgrass";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Eelgrass";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Eelgrass/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/Flora/>;
+        skos:definition        "Eelgrass is a common name for Zostera - a small genus of widely distributed seagrasses. Zostera is found on sandy substrates or in estuaries submerged or partially floating. Most Zostera are perennial. They have long, bright green, ribbon-like leaves, about 1 cm wide."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Eelgrass";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Eelgrass"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/RockyShore/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::RockyShore";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::RockyShore";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/RockyShore/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/I03/current/Bedrock_Coast/> , <http://vocab.nerc.ac.uk/collection/A03/current/Shoreline/> , <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A04/current/NaturalCoastalFeatures/>;
+        skos:definition        "Rocky shores are areas of bedrock exposed between the extreme high and extreme low tide levels on the seashore."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/I03/current/Bedrock_Coast/>;
+        skos:notation          "SDN:A02::RockyShore";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Rocky Shore"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Flat/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Flat";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Flat";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Flat/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A04/current/NaturalCoastalFeatures/> , <http://vocab.nerc.ac.uk/collection/A03/current/Shoreline/>;
+        skos:definition        "Flats are coastal wetlands that form when mud and sand is deposited by the tides or rivers, sea and oceans. They are broad mud flats which are exposed to the air at low tide and flooded by a mix of salt and fresh waters at high tide, found in sheltered areas such as bays, lagoons, and estuaries."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Flat";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Flat"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/IntertidalWetlands/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::IntertidalWetlands";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::IntertidalWetlands";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/IntertidalWetlands/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A03/current/Habitat/> , <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A04/current/NaturalCoastalFeatures/> , <http://vocab.nerc.ac.uk/collection/I03/current/Wetland/>;
+        skos:definition        "An intertidal wetland is an environment at the interface between truly terrestrial ecosystems and aquatic systems, in this case coastal tidal systems."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::IntertidalWetlands";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Intertidal Wetlands"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Bluff/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Bluff";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Bluff";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Bluff/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/I03/current/Bluff/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A04/current/NaturalCoastalFeatures/> , <http://vocab.nerc.ac.uk/collection/A03/current/PublicTrustResources/>;
+        skos:definition        "A bluff is a very steep and broad hill or small cliff, frequently next to a river or ocean"@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Bluff";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Bluff"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Dune/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Dune";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Dune";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Dune/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A04/current/NaturalCoastalFeatures/> , <http://vocab.nerc.ac.uk/collection/A03/current/PublicTrustResources/>;
+        skos:definition        "A dune is a hill of sand built by aeolian processes. Coastal areas often have one or more sets of dunes running parallel to the shoreline directly inland from the beach. In most cases the dunes are important in protecting the land against potential ravages by storm waves from the sea."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Dune";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Dune"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/CityParks/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::CityParks";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::CityParks";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/CityParks/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A03/current/PublicLands/>;
+        skos:definition        "Land held by the city government parks department"@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::CityParks";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "City park"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Fishing/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Fishing";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Fishing";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Fishing/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Human_Activity/> , <http://vocab.nerc.ac.uk/collection/A03/current/MarineIndustry/>;
+        skos:definition        "Fishing is the activity of hunting for fish by hooking (e.g. using trolls or longlines), trapping (e.g. using pots), or gathering (e.g. using trawls or seines)."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Fishing";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Fishing"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/BeachProfiles/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::BeachProfiles";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::BeachProfiles";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/BeachProfiles/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Shoreline_Accretion_Shoaling_and_Emergence/> , <http://vocab.nerc.ac.uk/collection/A01/current/Shoreline_Erosion_Flooding_and_Submergence/> , <http://vocab.nerc.ac.uk/collection/A01/current/Sediment_Budget/> , <http://vocab.nerc.ac.uk/collection/A04/current/CoastalGeology/> , <http://vocab.nerc.ac.uk/collection/A03/current/FieldScience/>;
+        skos:definition        "In beach morphology monitoring beach elevation is measured at specific intervals along shore-perpendicular lines."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::BeachProfiles";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Beach Profile"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/NatureConservancy/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::NatureConservancy";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::NatureConservancy";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/NatureConservancy/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A03/current/Conservation/>;
+        skos:definition        "";
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::NatureConservancy";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Nature Conservancy"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/ShorelineEmergencyAccess/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::ShorelineEmergencyAccess";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::ShorelineEmergencyAccess";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/ShorelineEmergencyAccess/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Emergency_Response_and_Disaster_Recovery/> , <http://vocab.nerc.ac.uk/collection/A04/current/Access/> , <http://vocab.nerc.ac.uk/collection/A03/current/EmergencyService/>;
+        skos:definition        "Location of coastal access which is capable of allowing access to the beach/shoreline or water for various forms of emergency rescue vehicles/equipment."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::ShorelineEmergencyAccess";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Shoreline Emergency Access"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Docks/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Docks";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Docks";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Docks/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/Structures/>;
+        skos:definition        "a fixed platform, commonly on pilings, where boats are loaded and unloaded"@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Docks";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Dock"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/ResearchReserves/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::ResearchReserves";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::ResearchReserves";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/ResearchReserves/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A03/current/RockyShoreDesignations/>;
+        skos:definition        "Research Reserves are needed to identify and manage areas suitable or being used for scientific study or research including baseline study, monitoring, or applied research. However, designation of Research Reserves is not intended to limit research or study exclusively to these areas."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::ResearchReserves";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Research Reserve"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/RoadTransportationInfrastructure/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::RoadTransportationInfrastructure";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::RoadTransportationInfrastructure";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/RoadTransportationInfrastructure/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/Transportation/>;
+        skos:definition        "A road is an identifiable route, way or path between two or more places. Roads are typically smoothed, paved, or otherwise prepared to allow easy travel."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/A04/current/Roads/>;
+        skos:notation          "SDN:A02::RoadTransportationInfrastructure";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Roads"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/AccessSiteLoss/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::AccessSiteLoss";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::AccessSiteLoss";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/AccessSiteLoss/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A03/current/PublicAccessMaintainance/>;
+        skos:definition        "Loss of location for public access to coastal waters: In Oregon, local comprehensive plans must provide for appropriate public access to and recreational use of coastal waters."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::AccessSiteLoss";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Loss of Public Access"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Mammals/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Mammals";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Mammals";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Mammals/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/Fauna/>;
+        skos:definition        "Mammals (class Mammalia) are a class of warm-blooded vertebrate animals"@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Mammals";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Mammals"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Birds/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Birds";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Birds";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Birds/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A03/current/Fauna/> , <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/>;
+        skos:definition        "Birds (class Aves) are bipedal, warm-blooded, vertebrate animals that lay eggs."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/A04/current/BirdLifeInternational/> , <http://vocab.nerc.ac.uk/collection/A04/current/BirdWatchIreland/>;
+        skos:notation          "SDN:A02::Birds";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Birds"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/Shellfish/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::Shellfish";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::Shellfish";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/Shellfish/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/Aquaculture/>;
+        skos:definition        "Refers most commonly to bivalves such as clams, oysters or mussels."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::Shellfish";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Shellfish"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/CityLimits/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::CityLimits";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::CityLimits";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/CityLimits/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A03/current/Jurisdictions/>;
+        skos:definition        "The term city limits refers to the defined boundary of a city (within which a city government has authority to enforce ordinaces)."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::CityLimits";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "City Limits"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/AirTransportationInfrastructure/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::AirTransportationInfrastructure";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::AirTransportationInfrastructure";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/AirTransportationInfrastructure/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/Transportation/>;
+        skos:definition        "Air transportation infrastructure comprises primarily airport locations and runway configurations."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::AirTransportationInfrastructure";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Airport"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/OilSpill/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::OilSpill";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::OilSpill";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/OilSpill/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Emergency_Response_and_Disaster_Recovery/> , <http://vocab.nerc.ac.uk/collection/A01/current/Human_Activity/> , <http://vocab.nerc.ac.uk/collection/A03/current/Pollution/> , <http://vocab.nerc.ac.uk/collection/A01/current/Habitat_Alteration/>;
+        skos:definition        "An oil spill is the release of a liquid petroleum hydrocarbon into the coastal or marine environment due to human activity."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::OilSpill";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Oil Spill"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/BathyGrid/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::BathyGrid";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::BathyGrid";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/BathyGrid/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A03/current/Bathymetry/> , <http://vocab.nerc.ac.uk/collection/A01/current/Sediment_Budget/> , <http://vocab.nerc.ac.uk/collection/A04/current/BathymetryRaster/>;
+        skos:definition        "A Bathymetric grid is a geographic information sytem file that contains depth information for a given area. One average depth value is recorded for each grid cell of a given area."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/A04/current/BathymetryRaster/>;
+        skos:notation          "SDN:A02::BathyGrid";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Bathymetric Grid"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/FineGrained/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::FineGrained";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::FineGrained";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/FineGrained/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A03/current/Beach/> , <http://vocab.nerc.ac.uk/collection/A04/current/SoilTypes/>;
+        skos:definition        "Beach composed of fine sand: In USA, sand is commonly divided into five sub-categories based on size: very fine sand (1/16 - 1/8 mm diameter), fine sand (1/8 mm - 1/4 mm), medium sand (1/4 mm - 1/2 mm), coarse sand (1/2 mm - 1 mm), and very coarse sand (1 mm - 2 mm)."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::FineGrained";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Fine-grained sandy beach"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/LIDARSurvey/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::LIDARSurvey";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::LIDARSurvey";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/LIDARSurvey/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Sediment_Budget/> , <http://vocab.nerc.ac.uk/collection/A03/current/FieldScience/> , <http://vocab.nerc.ac.uk/collection/A04/current/LIDAR/>;
+        skos:definition        "LIDAR (Light Detection and Ranging) is an optical remote sensing technology that measures properties of scattered light to find range and/or other information of a distant target."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::LIDARSurvey";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "LIDAR Surveys"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/OceanStewardshipArea/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::OceanStewardshipArea";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::OceanStewardshipArea";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/OceanStewardshipArea/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Legislation_and_Policy/> , <http://vocab.nerc.ac.uk/collection/A03/current/Goal19/>;
+        skos:definition        "The State of Oregon has interests in the conservation of ocean resources in an Ocean Stewardship Area, an ocean area where natural phenomena and human uses can affect uses and resources of Oregon's territorial sea. The Ocean Stewardship Area includes the state's territorial sea, the continental margin seaward to the toe of the continental slope, and adjacent ocean areas."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::OceanStewardshipArea";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Ocean Stewardship Area"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/ShoreProtectiveStructures/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::ShoreProtectiveStructures";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::ShoreProtectiveStructures";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/ShoreProtectiveStructures/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A03/current/Structures/> , <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> , <http://vocab.nerc.ac.uk/collection/A04/current/CoastalDefenceStructures/>;
+        skos:definition        "Structures built to \"armour\" the shoreline against erosion caused by wave attack."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/A04/current/CoastalDefenceStructures/>;
+        skos:notation          "SDN:A02::ShoreProtectiveStructures";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Shoreline Protective Structures"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/SedimentSink/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:A02::SedimentSink";
+        dc:date                "2011-08-15 11:58:51.0";
+        dc:identifier          "SDN:A02::SedimentSink";
+        pav:authoredOn         "2011-08-15 11:58:51.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/A02/current/SedimentSink/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:broader           <http://vocab.nerc.ac.uk/collection/A01/current/Sediment_Budget/> , <http://vocab.nerc.ac.uk/collection/A03/current/LittoralCell/>;
+        skos:definition        "A Sediment sink is a location to which sediment is \"lost\" from a littoral cell budget, in the sense that it is removed to such a depth or distance that is cannot return to the littoral system through natural contidions. Bays, dunes, the offshore, dredging and mining sites are potential examples of sediment sinks."@en;
+        skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> , <http://vocab.nerc.ac.uk/scheme/OCACETHES/current/>;
+        skos:notation          "SDN:A02::SedimentSink";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Seawall"@en .
+
+<http://vocab.nerc.ac.uk/collection/A02/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "State government authority for the Oregon Coastal Atlas.";
+        dc:alternative          "OCA Coastal Erosion markup terms";
+        dc:creator              "Oregon State Coastal Management Program";
+        dc:date                 "2016-01-14 02:00:02.0";
+        dc:description          "Terms used at all hierarchical levels in the Oregon Coastal Atlas for coastal erosion layers, datasets and discovery.";
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "Oregon Coastal Atlas Coastal Erosion Thesaurus markup terms";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "Oregon State Coastal Management Program";
+        owl:versionInfo         "4";
+        skos:altLabel           "OCA Coastal Erosion markup terms";
+        skos:member             <http://vocab.nerc.ac.uk/collection/A02/current/Water/> , <http://vocab.nerc.ac.uk/collection/A02/current/Channels/> , <http://vocab.nerc.ac.uk/collection/A02/current/ShorelandManagementUnits/> , <http://vocab.nerc.ac.uk/collection/A02/current/EstuaryClassifications/> , <http://vocab.nerc.ac.uk/collection/A02/current/Reef/> , <http://vocab.nerc.ac.uk/collection/A02/current/AquaticBed/> , <http://vocab.nerc.ac.uk/collection/A02/current/RockyIntertidal/> , <http://vocab.nerc.ac.uk/collection/A02/current/Employment/> , <http://vocab.nerc.ac.uk/collection/A02/current/Cadastre/> , <http://vocab.nerc.ac.uk/collection/A02/current/HazardEducationOutreach/> , <http://vocab.nerc.ac.uk/collection/A02/current/Demographics/> , <http://vocab.nerc.ac.uk/collection/A02/current/NationalParks/> , <http://vocab.nerc.ac.uk/collection/A02/current/CountyParks/> , <http://vocab.nerc.ac.uk/collection/A02/current/AverageMinimumTemperature/> , <http://vocab.nerc.ac.uk/collection/A02/current/MarineTransportationInfrastructure/> , <http://vocab.nerc.ac.uk/collection/A02/current/MarineProtectedArea/> , <http://vocab.nerc.ac.uk/collection/A02/current/Hospital/> , <http://vocab.nerc.ac.uk/collection/A02/current/Police/> , <http://vocab.nerc.ac.uk/collection/A02/current/Fire/> , <http://vocab.nerc.ac.uk/collection/A02/current/Hachery/> , <http://vocab.nerc.ac.uk/collection/A02/current/BathyContours/> , <http://vocab.nerc.ac.uk/collection/A02/current/Sounding/> , <http://vocab.nerc.ac.uk/collection/A02/current/BoundingHeadland/> , <http://vocab.nerc.ac.uk/collection/A02/current/Kelp/> , <http://vocab.nerc.ac.uk/collection/A02/current/BeneficialUse/> , <http://vocab.nerc.ac.uk/collection/A02/current/Zones/> , <http://vocab.nerc.ac.uk/collection/A02/current/SmallCraftAdvisory/> , <http://vocab.nerc.ac.uk/collection/A02/current/BeachClosure/> , <http://vocab.nerc.ac.uk/collection/A02/current/ShellfishHarvestBan/> , <http://vocab.nerc.ac.uk/collection/A02/current/Routes/> , <http://vocab.nerc.ac.uk/collection/A02/current/Relocation/> , <http://vocab.nerc.ac.uk/collection/A02/current/HabitatRefuge/> , <http://vocab.nerc.ac.uk/collection/A02/current/PrivateProperty/> , <http://vocab.nerc.ac.uk/collection/A02/current/DesignatedPublicAccess/> , <http://vocab.nerc.ac.uk/collection/A02/current/AverageMaximumTemperature/> , <http://vocab.nerc.ac.uk/collection/A02/current/ShorelandOverlays/> , <http://vocab.nerc.ac.uk/collection/A02/current/Shelters/> , <http://vocab.nerc.ac.uk/collection/A02/current/Zoning/> , <http://vocab.nerc.ac.uk/collection/A02/current/RelativeErosionRiskZones/> , <http://vocab.nerc.ac.uk/collection/A02/current/Lakes/> , <http://vocab.nerc.ac.uk/collection/A02/current/RiversStreams/> , <http://vocab.nerc.ac.uk/collection/A02/current/StructureElevation/> , <http://vocab.nerc.ac.uk/collection/A02/current/Flood/> , <http://vocab.nerc.ac.uk/collection/A02/current/Landslide/> , <http://vocab.nerc.ac.uk/collection/A02/current/Electric/> , <http://vocab.nerc.ac.uk/collection/A02/current/WildernessAreas/> , <http://vocab.nerc.ac.uk/collection/A02/current/Data/> , <http://vocab.nerc.ac.uk/collection/A02/current/Estuary/> , <http://vocab.nerc.ac.uk/collection/A02/current/AveragePrecipitation/> , <http://vocab.nerc.ac.uk/collection/A02/current/Permits/> , <http://vocab.nerc.ac.uk/collection/A02/current/BLMLands/> , <http://vocab.nerc.ac.uk/collection/A02/current/BuildingCodes/> , <http://vocab.nerc.ac.uk/collection/A02/current/SedimentSource/> , <http://vocab.nerc.ac.uk/collection/A02/current/StatutoryVegetationLine/> , <http://vocab.nerc.ac.uk/collection/A02/current/LandUse/> , <http://vocab.nerc.ac.uk/collection/A02/current/Erosion/> , <http://vocab.nerc.ac.uk/collection/A02/current/Reservations/> , <http://vocab.nerc.ac.uk/collection/A02/current/ShoreProtectiveStructureEligibility/> , <http://vocab.nerc.ac.uk/collection/A02/current/DuneGrading/> , <http://vocab.nerc.ac.uk/collection/A02/current/DuneRestoration/> , <http://vocab.nerc.ac.uk/collection/A02/current/StructureProtection/> , <http://vocab.nerc.ac.uk/collection/A02/current/Seawalls/> , <http://vocab.nerc.ac.uk/collection/A02/current/ChannelDeepening/> , <http://vocab.nerc.ac.uk/collection/A02/current/Wastewater/> , <http://vocab.nerc.ac.uk/collection/A02/current/Counties/> , <http://vocab.nerc.ac.uk/collection/A02/current/MarineGardens/> , <http://vocab.nerc.ac.uk/collection/A02/current/Education/> , <http://vocab.nerc.ac.uk/collection/A02/current/SeaLevelRise/> , <http://vocab.nerc.ac.uk/collection/A02/current/StateParks/> , <http://vocab.nerc.ac.uk/collection/A02/current/Watershed/> , <http://vocab.nerc.ac.uk/collection/A02/current/HighSurfAdvisory/> , <http://vocab.nerc.ac.uk/collection/A02/current/Sewage/> , <http://vocab.nerc.ac.uk/collection/A02/current/Lighthouses/> , <http://vocab.nerc.ac.uk/collection/A02/current/RipRap/> , <http://vocab.nerc.ac.uk/collection/A02/current/Buoys/> , <http://vocab.nerc.ac.uk/collection/A02/current/Tourism/> , <http://vocab.nerc.ac.uk/collection/A02/current/StateLines/> , <http://vocab.nerc.ac.uk/collection/A02/current/AccessSiteGain/> , <http://vocab.nerc.ac.uk/collection/A02/current/ForestServiceLands/> , <http://vocab.nerc.ac.uk/collection/A02/current/Tsunami/> , <http://vocab.nerc.ac.uk/collection/A02/current/UrbanGrowth/> , <http://vocab.nerc.ac.uk/collection/A02/current/Ports/> , <http://vocab.nerc.ac.uk/collection/A02/current/RailTransportationInfrastructure/> , <http://vocab.nerc.ac.uk/collection/A02/current/Gravel/> , <http://vocab.nerc.ac.uk/collection/A02/current/MediumCoarse/> , <http://vocab.nerc.ac.uk/collection/A02/current/MixedSandGravel/> , <http://vocab.nerc.ac.uk/collection/A02/current/CoastGuardStations/> , <http://vocab.nerc.ac.uk/collection/A02/current/DigitalElevationModel/> , <http://vocab.nerc.ac.uk/collection/A02/current/Benchmark/> , <http://vocab.nerc.ac.uk/collection/A02/current/TopoContour/> , <http://vocab.nerc.ac.uk/collection/A02/current/Jetties/> , <http://vocab.nerc.ac.uk/collection/A02/current/BeachNourishment/> , <http://vocab.nerc.ac.uk/collection/A02/current/TerritorialSea/> , <http://vocab.nerc.ac.uk/collection/A02/current/Rain/> , <http://vocab.nerc.ac.uk/collection/A02/current/Winds/> , <http://vocab.nerc.ac.uk/collection/A02/current/Waves/> , <http://vocab.nerc.ac.uk/collection/A02/current/OceanShoresRecreationArea/> , <http://vocab.nerc.ac.uk/collection/A02/current/Soil/> , <http://vocab.nerc.ac.uk/collection/A02/current/OceanFloorGeology/> , <http://vocab.nerc.ac.uk/collection/A02/current/GeologicFault/> , <http://vocab.nerc.ac.uk/collection/A02/current/EarthSurfaceGeology/> , <http://vocab.nerc.ac.uk/collection/A02/current/EstuaryManagementUnits/> , <http://vocab.nerc.ac.uk/collection/A02/current/TowBoatLanes/> , <http://vocab.nerc.ac.uk/collection/A02/current/Military/> , <http://vocab.nerc.ac.uk/collection/A02/current/Eelgrass/> , <http://vocab.nerc.ac.uk/collection/A02/current/RockyShore/> , <http://vocab.nerc.ac.uk/collection/A02/current/Flat/> , <http://vocab.nerc.ac.uk/collection/A02/current/IntertidalWetlands/> , <http://vocab.nerc.ac.uk/collection/A02/current/Bluff/> , <http://vocab.nerc.ac.uk/collection/A02/current/Dune/> , <http://vocab.nerc.ac.uk/collection/A02/current/CityParks/> , <http://vocab.nerc.ac.uk/collection/A02/current/Fishing/> , <http://vocab.nerc.ac.uk/collection/A02/current/BeachProfiles/> , <http://vocab.nerc.ac.uk/collection/A02/current/NatureConservancy/> , <http://vocab.nerc.ac.uk/collection/A02/current/ShorelineEmergencyAccess/> , <http://vocab.nerc.ac.uk/collection/A02/current/Docks/> , <http://vocab.nerc.ac.uk/collection/A02/current/ResearchReserves/> , <http://vocab.nerc.ac.uk/collection/A02/current/RoadTransportationInfrastructure/> , <http://vocab.nerc.ac.uk/collection/A02/current/AccessSiteLoss/> , <http://vocab.nerc.ac.uk/collection/A02/current/Mammals/> , <http://vocab.nerc.ac.uk/collection/A02/current/Birds/> , <http://vocab.nerc.ac.uk/collection/A02/current/Shellfish/> , <http://vocab.nerc.ac.uk/collection/A02/current/CityLimits/> , <http://vocab.nerc.ac.uk/collection/A02/current/AirTransportationInfrastructure/> , <http://vocab.nerc.ac.uk/collection/A02/current/OilSpill/> , <http://vocab.nerc.ac.uk/collection/A02/current/BathyGrid/> , <http://vocab.nerc.ac.uk/collection/A02/current/FineGrained/> , <http://vocab.nerc.ac.uk/collection/A02/current/LIDARSurvey/> , <http://vocab.nerc.ac.uk/collection/A02/current/SedimentSink/> , <http://vocab.nerc.ac.uk/collection/A02/current/ShoreProtectiveStructures/> , <http://vocab.nerc.ac.uk/collection/A02/current/OceanStewardshipArea/>;
+        skos:prefLabel          "Oregon Coastal Atlas Coastal Erosion Thesaurus markup terms" .

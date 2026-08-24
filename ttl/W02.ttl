@@ -1,0 +1,146 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/W02/current/005/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W02::005";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W02::005";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W02/current/005/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A kind of system type."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/W01/current/001/>;
+        skos:notation          "SDN:W02::005";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Sensor system"@en .
+
+<http://vocab.nerc.ac.uk/collection/W02/current/006/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W02::006";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W02::006";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W02/current/006/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "A kind of Sensor application."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/W01/current/002/>;
+        skos:notation          "SDN:W02::006";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Geophysical surveying"@en .
+
+<http://vocab.nerc.ac.uk/collection/W02/current/001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W02::001";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W02::001";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W02/current/001/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "Number of tracks per second."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/W01/current/004/>;
+        skos:notation          "SDN:W02::001";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "sampling rate"@en .
+
+<http://vocab.nerc.ac.uk/collection/W02/current/003/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W02::003";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W02::003";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W02/current/003/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The axis y."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/W01/current/010/>;
+        skos:notation          "SDN:W02::003";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "y"@en .
+
+<http://vocab.nerc.ac.uk/collection/W02/current/004/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W02::004";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W02::004";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W02/current/004/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The axis z."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/W01/current/010/>;
+        skos:notation          "SDN:W02::004";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "z"@en .
+
+<http://vocab.nerc.ac.uk/collection/W02/current/002/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:W02::002";
+        dc:date                "2014-12-19 00:00:00.0";
+        dc:identifier          "SDN:W02::002";
+        pav:authoredOn         "2014-12-19 00:00:00.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/W02/current/002/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "";
+        skos:definition        "The axis x."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/W01/current/010/>;
+        skos:notation          "SDN:W02::002";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "x"@en .
+
+<http://vocab.nerc.ac.uk/collection/W02/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used in the EU SeaDataNet project implemented as consultation between BODC and the members of the SeaDataNet Technical Task Team";
+        dc:alternative          "SDN SWE sub-type";
+        dc:creator              "SeaDataNet";
+        dc:date                 "2015-01-05 10:05:18.0";
+        dc:description          "Vocabulary in support of SeaDataNet's (SDN) implementation of OGC Sensor Web Enablement (SWE). This is the lower level SDN SEW specific vocabulary.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "SeaDataNet Sensor Web Enablement and SensorML sub-type vocabulary";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "SeaDataNet";
+        owl:versionInfo         "0";
+        skos:altLabel           "SDN SWE sub-type";
+        skos:member             <http://vocab.nerc.ac.uk/collection/W02/current/005/> , <http://vocab.nerc.ac.uk/collection/W02/current/006/> , <http://vocab.nerc.ac.uk/collection/W02/current/001/> , <http://vocab.nerc.ac.uk/collection/W02/current/003/> , <http://vocab.nerc.ac.uk/collection/W02/current/002/> , <http://vocab.nerc.ac.uk/collection/W02/current/004/>;
+        skos:prefLabel          "SeaDataNet Sensor Web Enablement and SensorML sub-type vocabulary" .

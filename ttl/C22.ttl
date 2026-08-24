@@ -1,0 +1,217 @@
+PREFIX cpm:    <http://purl.org/voc/cpm#>
+PREFIX dc:     <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX dce:    <http://purl.org/dc/elements/1.1/>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX grg:    <http://www.isotc211.org/schemas/grg/>
+PREFIX iop:    <https://w3id.org/iadopt/ont#>
+PREFIX ns0:    <http://www.w3.org/ns/dx/conneg/altr#>
+PREFIX ns1:    <http://www.w3.org/ns/dx/prof/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX pav:    <http://purl.org/pav/>
+PREFIX prov:   <https://www.w3.org/ns/prov#>
+PREFIX puv:    <https://w3id.org/env/puv#>
+PREFIX qudt:   <https://qudt.org/2.1/schema/qudt#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg:    <http://purl.org/linked-data/registry#>
+PREFIX semapv: <http://w3id.org/semapv/vocab/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX sssom:  <https://w3id.org/sssom/schema/>
+PREFIX void:   <http://rdfs.org/ns/void#>
+
+<http://vocab.nerc.ac.uk/collection/C22/current/6/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C22::6";
+        dc:date                "2012-04-17 15:58:36.0";
+        dc:identifier          "SDN:C22::6";
+        pav:authoredOn         "2012-04-17 15:58:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C22/current/6/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C22/current/6/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "part_full";
+        skos:definition        "The bottle seals were observed to be incorrectly seated and the bottle was only part full of water on recovery."@en;
+        skos:notation          "SDN:C22::6";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Partial sample loss"@en .
+
+<http://vocab.nerc.ac.uk/collection/C22/current/1/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C22::1";
+        dc:date                "2012-04-17 15:58:36.0";
+        dc:identifier          "SDN:C22::1";
+        pav:authoredOn         "2012-04-17 15:58:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C22/current/1/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C22/current/1/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "burst";
+        skos:definition        "The filter in an in-situ sampling pump physically ruptured during sample resulting in an unquantifiable loss of sampled material."@en;
+        skos:notation          "SDN:C22::1";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Filter burst"@en .
+
+<http://vocab.nerc.ac.uk/collection/C22/current/5/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C22::5";
+        dc:date                "2012-04-17 15:58:36.0";
+        dc:identifier          "SDN:C22::5";
+        pav:authoredOn         "2012-04-17 15:58:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C22/current/5/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C22/current/5/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "leak";
+        skos:definition        "Water was reported to be escaping from the bottle as the rosette was being recovered."@en;
+        skos:notation          "SDN:C22::5";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Bottle leak"@en .
+
+<http://vocab.nerc.ac.uk/collection/C22/current/3/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C22::3";
+        dc:date                "2012-09-11 12:02:55.0";
+        dc:identifier          "SDN:C22::3";
+        pav:authoredOn         "2012-09-11 12:02:55.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C22/current/3/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C22/current/3/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "misfire";
+        skos:definition        "The feedback indicator on the deck unit reported that the bottle closure command had failed. General Oceanics deck units used on NERC vessels in the 80s and 90s were renowned for reporting misfires when the bottle had been closed. This flag is also suitable for when a trigger command is mistakenly sent to a bottle that has previously been fired."@en;
+        skos:notation          "SDN:C22::3";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Bottle misfire"@en .
+
+<http://vocab.nerc.ac.uk/collection/C22/current/7/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C22::7";
+        dc:date                "2012-08-22 09:19:49.0";
+        dc:identifier          "SDN:C22::7";
+        pav:authoredOn         "2012-08-22 09:19:49.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C22/current/7/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C22/current/7/2/> , <http://vocab.nerc.ac.uk/collection/C22/current/7/1/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "no_sample";
+        skos:definition        "Either the bottle was found to contain no sample on recovery or there was no bottle fitted to the rosette position fired (but SBE35 record may exist)."@en;
+        skos:notation          "SDN:C22::7";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "No sample"@en .
+
+<http://vocab.nerc.ac.uk/collection/C22/current/0/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C22::0";
+        dc:date                "2012-04-17 15:58:36.0";
+        dc:identifier          "SDN:C22::0";
+        pav:authoredOn         "2012-04-17 15:58:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C22/current/0/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C22/current/0/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "OK";
+        skos:definition        "The sampling event occurred without any incident being reported to BODC."@en;
+        skos:notation          "SDN:C22::0";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "No problem reported"@en .
+
+<http://vocab.nerc.ac.uk/collection/C22/current/4/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C22::4";
+        dc:date                "2012-04-17 15:59:48.0";
+        dc:identifier          "SDN:C22::4";
+        pav:authoredOn         "2012-04-17 15:59:48.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C22/current/4/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C22/current/4/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "firing_order_error";
+        skos:definition        "During the sampling deployment the bottle was fired in an order other than incrementing rosette position. Indicative of the potential for errors in the assignment of bottle firing depth, especially with General Oceanics rosettes."@en;
+        skos:notation          "SDN:C22::4";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Bottles fired in incorrect order"@en .
+
+<http://vocab.nerc.ac.uk/collection/C22/current/2/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C22::2";
+        dc:date                "2012-04-17 15:58:36.0";
+        dc:identifier          "SDN:C22::2";
+        pav:authoredOn         "2012-04-17 15:58:36.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C22/current/2/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C22/current/2/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "leakage_contamination";
+        skos:definition        "Analytical evidence (e.g. surface water salinity measured on a sample collected at depth) indicates that the water sample has been contaminated by water from depths other than the depths of sampling."@en;
+        skos:notation          "SDN:C22::2";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Leakage contamination"@en .
+
+<http://vocab.nerc.ac.uk/collection/C22/current/8/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C22::8";
+        dc:date                "2012-08-22 09:20:23.0";
+        dc:identifier          "SDN:C22::8";
+        pav:authoredOn         "2012-08-22 09:20:23.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C22/current/8/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/C22/current/8/1/> , <http://vocab.nerc.ac.uk/collection/C22/current/8/3/> , <http://vocab.nerc.ac.uk/collection/C22/current/8/2/>;
+        pav:version            "4";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "4";
+        skos:altLabel          "suspect_depth";
+        skos:definition        "There is reason to doubt the accuracy of the sampling depth associated with the sample."@en;
+        skos:notation          "SDN:C22::8";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Questionable depth"@en .
+
+<http://vocab.nerc.ac.uk/collection/C22/current/9/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:C22::9";
+        dc:date                "2012-08-08 14:50:04.0";
+        dc:identifier          "SDN:C22::9";
+        pav:authoredOn         "2012-08-08 14:50:04.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/C22/current/9/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "vent_open";
+        skos:definition        "The bottle air vent had not been closed prior to deployment giving rise to a risk of sample contamination through leakage."@en;
+        skos:notation          "SDN:C22::9";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Vent left open"@en .
+
+<http://vocab.nerc.ac.uk/collection/C22/current/>
+        rdf:type                skos:Collection;
+        rdfs:comment            "Governance for vocabularies used within the data centre";
+        dc:alternative          "BODC water flags";
+        dc:creator              "British Oceanographic Data Centre";
+        dc:date                 "2012-09-12 02:00:03.0";
+        dc:description          "Terms and associated codes used by BODC to attach standardised qualifying information to individual water samples in the BODC sample schema.";
+        dc:license              <https://creativecommons.org/licenses/by/4.0/>;
+        dc:publisher            "Natural Environment Research Council";
+        dc:title                "BODC water sample qualification flags";
+        grg:RE_RegisterManager  "British Oceanographic Data Centre";
+        grg:RE_RegisterOwner    "British Oceanographic Data Centre";
+        owl:versionInfo         "5";
+        skos:altLabel           "BODC water flags";
+        skos:member             <http://vocab.nerc.ac.uk/collection/C22/current/6/> , <http://vocab.nerc.ac.uk/collection/C22/current/1/> , <http://vocab.nerc.ac.uk/collection/C22/current/5/> , <http://vocab.nerc.ac.uk/collection/C22/current/3/> , <http://vocab.nerc.ac.uk/collection/C22/current/7/> , <http://vocab.nerc.ac.uk/collection/C22/current/0/> , <http://vocab.nerc.ac.uk/collection/C22/current/4/> , <http://vocab.nerc.ac.uk/collection/C22/current/2/> , <http://vocab.nerc.ac.uk/collection/C22/current/9/> , <http://vocab.nerc.ac.uk/collection/C22/current/8/>;
+        skos:prefLabel          "BODC water sample qualification flags" .
