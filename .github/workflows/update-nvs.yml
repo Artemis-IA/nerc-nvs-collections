@@ -1,0 +1,109 @@
+---
+name: Update NVS collections
+
+on:
+  schedule:
+    # Run daily at 12:00 UTC (13:00 CET) to catch NVS updates published ~11:00 GMT
+    - cron: '0 12 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-nvs
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Download all NVS collections in Turtle format
+        run: |
+          bash download_nvs_turtle.sh
+
+      - name: Detect changes
+        id: changes
+        run: |
+          # Stage all files to detect changes
+          git add -A
+
+          # Check if there are staged changes
+          if git diff --cached --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No changes detected."
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            # Get list of changed .ttl files (collection IDs only)
+            CHANGED_FILES=$(git diff --cached --name-only --diff-filter=M -- 'ttl/*.ttl' | sed 's|ttl/||;s|\.ttl||' | sort | tr '\n' ' ')
+            ADDED_FILES=$(git diff --cached --name-only --diff-filter=A -- 'ttl/*.ttl' | sed 's|ttl/||;s|\.ttl||' | sort | tr '\n' ' ')
+            DELETED_FILES=$(git diff --cached --name-only --diff-filter=D -- 'ttl/*.ttl' | sed 's|ttl/||;s|\.ttl||' | sort | tr '\n' ' ')
+
+            echo "changed_collections=${CHANGED_FILES}" >> $GITHUB_OUTPUT
+            echo "added_collections=${ADDED_FILES}" >> $GITHUB_OUTPUT
+            echo "deleted_collections=${DELETED_FILES}" >> $GITHUB_OUTPUT
+
+            MODIFIED_COUNT=$(git diff --cached --name-only --diff-filter=M -- 'ttl/*.ttl' | wc -l)
+            ADDED_COUNT=$(git diff --cached --name-only --diff-filter=A -- 'ttl/*.ttl' | wc -l)
+            DELETED_COUNT=$(git diff --cached --name-only --diff-filter=D -- 'ttl/*.ttl' | wc -l)
+
+            echo "Modified: $MODIFIED_COUNT collections"
+            echo "Added: $ADDED_COUNT collections"
+            echo "Deleted: $DELETED_COUNT collections"
+
+            # Also check non-ttl files (scripts, reports, etc.)
+            OTHER_CHANGED=$(git diff --cached --name-only -- ':!ttl/*.ttl' | wc -l)
+            echo "Other files changed: $OTHER_CHANGED"
+          fi
+
+      - name: Commit changes
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          MODIFIED="${{ steps.changes.outputs.changed_collections }}"
+          ADDED="${{ steps.changes.outputs.added_collections }}"
+          DELETED="${{ steps.changes.outputs.deleted_collections }}"
+
+          # Build commit message
+          MSG="Auto-update NVS collections ($(date -u '+%Y-%m-%d'))"
+          BODY=""
+
+          if [ -n "$MODIFIED" ] && [ "$MODIFIED" != " " ]; then
+            BODY="${BODY}\nUpdated collections: ${MODIFIED}\n"
+          fi
+          if [ -n "$ADDED" ] && [ "$ADDED" != " " ]; then
+            BODY="${BODY}\nNew collections: ${ADDED}\n"
+          fi
+          if [ -n "$DELETED" ] && [ "$DELETED" != " " ]; then
+            BODY="${BODY}\nRemoved collections: ${DELETED}\n"
+          fi
+
+          BODY="${BODY}\nSource: https://vocab.nerc.ac.uk/\nTriggered by GitHub Actions daily cron."
+
+          git commit -m "$(printf "${MSG}\n\n${BODY}")"
+
+      - name: Push changes
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git push origin main
+
+      - name: Summary
+        if: always()
+        run: |
+          if [ "${{ steps.changes.outputs.changed }}" == "true" ]; then
+            echo "✅ Update committed and pushed."
+            echo "Modified: ${{ steps.changes.outputs.changed_collections }}"
+            echo "Added: ${{ steps.changes.outputs.added_collections }}"
+            echo "Deleted: ${{ steps.changes.outputs.deleted_collections }}"
+          else
+            echo "ℹ️ No changes detected. All 311 collections are up to date."
+          fi
