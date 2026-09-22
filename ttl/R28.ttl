@@ -20,75 +20,56 @@ PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
 PREFIX sssom:  <https://w3id.org/sssom/schema/>
 PREFIX void:   <http://rdfs.org/ns/void#>
 
-<http://vocab.nerc.ac.uk/collection/R28/current/CB0002/>
+<http://vocab.nerc.ac.uk/collection/R28/current/CB0016/>
         rdf:type               skos:Concept;
-        dce:identifier         "SDN:R28::CB0002";
-        dc:date                "2023-06-22 12:52:35.0";
-        dc:identifier          "SDN:R28::CB0002";
-        pav:authoredOn         "2023-06-22 12:52:35.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R28/current/CB0002/1/>;
+        dce:identifier         "SDN:R28::CB0016";
+        dc:date                "2026-09-21 09:56:33.0";
+        dc:identifier          "SDN:R28::CB0016";
+        pav:authoredOn         "2026-09-21 09:56:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R28/current/CB0016/1/>;
         pav:version            "1";
         void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
         owl:deprecated         "false";
         owl:versionInfo        "1";
-        skos:altLabel          "N2";
-        skos:definition        "Seabird Navis 2nd generation controller board. Controls functions such as integrating the sensor data streams, operating the buoyancy engine, and passing the telemetry to the iridium transmitter."@en;
-        skos:notation          "SDN:R28::CB0002";
+        skos:altLabel          "APF8";
+        skos:definition        "The APF8 controller board manufactured by Teledyne Webb was used in APEX floats between around 1990-2008. Early APF8 controller board firmware was programmed to truncate all negative surface pressure values to zero."@en;
+        skos:notation          "SDN:R28::CB0016";
         skos:note              "accepted"@en;
-        skos:prefLabel         "N2"@en .
+        skos:prefLabel         "APF8"@en .
 
-<http://vocab.nerc.ac.uk/collection/R28/current/CB0011/>
+<http://vocab.nerc.ac.uk/collection/R28/current/CB0014/>
         rdf:type               skos:Concept;
-        dce:identifier         "SDN:R28::CB0011";
-        dc:date                "2026-01-26 14:08:04.0";
-        dc:identifier          "SDN:R28::CB0011";
-        pav:authoredOn         "2026-01-26 14:08:04.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R28/current/CB0011/1/>;
+        dce:identifier         "SDN:R28::CB0014";
+        dc:date                "2026-09-21 09:56:33.0";
+        dc:identifier          "SDN:R28::CB0014";
+        pav:authoredOn         "2026-09-21 09:56:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R28/current/CB0014/1/>;
         pav:version            "1";
         void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
         owl:deprecated         "false";
         owl:versionInfo        "1";
-        skos:altLabel          "I538";
-        skos:definition        "Used in certain types of NKE Argo floats as secondary controller board (PROVOR_CTS3-DO, PROVOR_CTS3.1-DO, PROVOR_DO-I, PROVOR_II_CTS3_PROVBIOA, PROVOR_II_CTS3_PROVBIOB, PROVOR_II_CTS3_PROVCARBON, PROVOR_II_CTS3_PROVNUTS)"@en;
-        skos:notation          "SDN:R28::CB0011";
+        skos:altLabel          "APF11";
+        skos:definition        "The APF11 controller board manufactured by Teledyne Webb for APEX floats controls the air and buoyancy pumps and interfaces with the GPS receiver, the Iridium modem, the CTD, and any additionally installed science sensors. It also includes the float's microcomputer, an internal clock, operational firmware and program and data memory, and it inputs and processes signals from a leak detector and internal temperature, pressure and humidity sensors. APF11 accommodates up to eight sensors, in addition to the conductivity, temperature and depth (CTD) sensors http://www.teledynemarine.com/news/enabling-apex-to-do-more-teledyne-webb-research-releases-apf-11-controller-and-firmware."@en;
+        skos:notation          "SDN:R28::CB0014";
         skos:note              "accepted"@en;
-        skos:prefLabel         "I538"@en;
-        skos:related           <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_II/> .
+        skos:prefLabel         "APF11"@en .
 
-<http://vocab.nerc.ac.uk/collection/R28/current/CB0003/>
+<http://vocab.nerc.ac.uk/collection/R28/current/CB0004/>
         rdf:type               skos:Concept;
-        dce:identifier         "SDN:R28::CB0003";
+        dce:identifier         "SDN:R28::CB0004";
         dc:date                "2023-06-22 12:52:35.0";
-        dc:identifier          "SDN:R28::CB0003";
+        dc:identifier          "SDN:R28::CB0004";
         pav:authoredOn         "2023-06-22 12:52:35.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R28/current/CB0003/1/>;
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R28/current/CB0004/1/>;
         pav:version            "1";
         void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
         owl:deprecated         "false";
         owl:versionInfo        "1";
-        skos:altLabel          "GG32";
+        skos:altLabel          "HC12";
         skos:definition        "Controller board fitted to certain types of SOLO Argo floats."@en;
-        skos:notation          "SDN:R28::CB0003";
+        skos:notation          "SDN:R28::CB0004";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GG32"@en .
-
-<http://vocab.nerc.ac.uk/collection/R28/current/CB0012/>
-        rdf:type               skos:Concept;
-        dce:identifier         "SDN:R28::CB0012";
-        dc:date                "2026-01-26 14:08:04.0";
-        dc:identifier          "SDN:R28::CB0012";
-        pav:authoredOn         "2026-01-26 14:08:04.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R28/current/CB0012/1/>;
-        pav:version            "1";
-        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
-        owl:deprecated         "false";
-        owl:versionInfo        "1";
-        skos:altLabel          "CAMAT256";
-        skos:definition        "Used in certain types of NKE Argo floats as secondary controller board (ARVOR_CM, PROVOR_III_CTS4)"@en;
-        skos:notation          "SDN:R28::CB0012";
-        skos:note              "accepted"@en;
-        skos:prefLabel         "CAMAT256"@en;
-        skos:related           <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_III/> , <http://vocab.nerc.ac.uk/collection/R23/current/ARVOR_C/> .
+        skos:prefLabel         "HC12"@en .
 
 <http://vocab.nerc.ac.uk/collection/R28/current/CB0009/>
         rdf:type               skos:Concept;
@@ -108,95 +89,56 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:prefLabel         "SIVOR"@en;
         skos:related           <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR/> .
 
-<http://vocab.nerc.ac.uk/collection/R28/current/CB0005/>
+<http://vocab.nerc.ac.uk/collection/R28/current/CB0017/>
         rdf:type               skos:Concept;
-        dce:identifier         "SDN:R28::CB0005";
-        dc:date                "2026-01-26 14:08:04.0";
-        dc:identifier          "SDN:R28::CB0005";
-        pav:authoredOn         "2026-01-26 14:08:04.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R28/current/CB0005/2/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R28/current/CB0005/1/>;
-        pav:version            "2";
-        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
-        owl:deprecated         "false";
-        owl:versionInfo        "2";
-        skos:altLabel          "I535";
-        skos:definition        "Used in certain types of NKE Argo floats as primary controller board (ARVOR, ARVOR_C, ARVOR_D, PROVOR_CTS3.1, PROVOR_CTS3.1-DO, PROVOR_III_CTS4, PROVOR_DO-I)."@en;
-        skos:notation          "SDN:R28::CB0005";
-        skos:note              "accepted"@en;
-        skos:prefLabel         "I535"@en;
-        skos:related           <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR/> , <http://vocab.nerc.ac.uk/collection/R23/current/ARVOR/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_III/> , <http://vocab.nerc.ac.uk/collection/R23/current/ARVOR_D/> , <http://vocab.nerc.ac.uk/collection/R23/current/ARVOR_C/> .
-
-<http://vocab.nerc.ac.uk/collection/R28/current/CB0004/>
-        rdf:type               skos:Concept;
-        dce:identifier         "SDN:R28::CB0004";
-        dc:date                "2023-06-22 12:52:35.0";
-        dc:identifier          "SDN:R28::CB0004";
-        pav:authoredOn         "2023-06-22 12:52:35.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R28/current/CB0004/1/>;
+        dce:identifier         "SDN:R28::CB0017";
+        dc:date                "2026-09-21 09:56:33.0";
+        dc:identifier          "SDN:R28::CB0017";
+        pav:authoredOn         "2026-09-21 09:56:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R28/current/CB0017/1/>;
         pav:version            "1";
         void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
         owl:deprecated         "false";
         owl:versionInfo        "1";
-        skos:altLabel          "HC12";
-        skos:definition        "Controller board fitted to certain types of SOLO Argo floats."@en;
-        skos:notation          "SDN:R28::CB0004";
+        skos:altLabel          "APF7";
+        skos:definition        "The APF7 controller board manufactured by Teledyne Webb is a legacy board found in older APEX floats to manage data logging and transmissions through the ARGOS satellite network.  Surface pressure from APF7 controller boards was truncated to zero."@en;
+        skos:notation          "SDN:R28::CB0017";
         skos:note              "accepted"@en;
-        skos:prefLabel         "HC12"@en .
+        skos:prefLabel         "APF7"@en .
 
-<http://vocab.nerc.ac.uk/collection/R28/current/CB0001/>
+<http://vocab.nerc.ac.uk/collection/R28/current/CB0015/>
         rdf:type               skos:Concept;
-        dce:identifier         "SDN:R28::CB0001";
-        dc:date                "2023-06-22 12:52:35.0";
-        dc:identifier          "SDN:R28::CB0001";
-        pav:authoredOn         "2023-06-22 12:52:35.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R28/current/CB0001/1/>;
+        dce:identifier         "SDN:R28::CB0015";
+        dc:date                "2026-09-21 09:56:33.0";
+        dc:identifier          "SDN:R28::CB0015";
+        pav:authoredOn         "2026-09-21 09:56:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R28/current/CB0015/1/>;
         pav:version            "1";
         void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
         owl:deprecated         "false";
         owl:versionInfo        "1";
-        skos:altLabel          "N1";
-        skos:definition        "Seabird Navis 1st generation controller board. Controls functions such as integrating the sensor data streams, operating the buoyancy engine, and passing the telemetry to the iridium transmitter."@en;
-        skos:notation          "SDN:R28::CB0001";
+        skos:altLabel          "APF9";
+        skos:definition        "The APF9 controller board manufactured by Teledyne Webb controls the air and buoyancy pumps and interfaces with the GPS receiver, the Iridium modem, the CTD, and any additionally installed science sensors. It also includes the float's microcomputer, an internal clock, operational firmware and program and data memory, and it inputs and processes signals from a leak detector and internal temperature, pressure and humidity sensors. APF9 controller boards were used in APEX floats manufactured between around 2008-2017."@en;
+        skos:notation          "SDN:R28::CB0015";
         skos:note              "accepted"@en;
-        skos:prefLabel         "N1"@en .
+        skos:prefLabel         "APF9"@en .
 
-<http://vocab.nerc.ac.uk/collection/R28/current/CB0006/>
+<http://vocab.nerc.ac.uk/collection/R28/current/CB0019/>
         rdf:type               skos:Concept;
-        dce:identifier         "SDN:R28::CB0006";
-        dc:date                "2026-01-26 14:08:04.0";
-        dc:identifier          "SDN:R28::CB0006";
-        pav:authoredOn         "2026-01-26 14:08:04.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R28/current/CB0006/2/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R28/current/CB0006/1/>;
-        pav:version            "2";
-        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
-        owl:deprecated         "false";
-        owl:versionInfo        "2";
-        skos:altLabel          "OSEAN";
-        skos:definition        "Used in certain types of NKE Argo floats as secondary controller board (PROVOR_IV_CTS5)."@en;
-        skos:notation          "SDN:R28::CB0006";
-        skos:note              "accepted"@en;
-        skos:prefLabel         "OSEAN"@en;
-        skos:related           <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_IV/> .
-
-<http://vocab.nerc.ac.uk/collection/R28/current/CB0013/>
-        rdf:type               skos:Concept;
-        dce:identifier         "SDN:R28::CB0013";
-        dc:date                "2026-01-26 14:08:04.0";
-        dc:identifier          "SDN:R28::CB0013";
-        pav:authoredOn         "2026-01-26 14:08:04.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R28/current/CB0013/1/>;
+        dce:identifier         "SDN:R28::CB0019";
+        dc:date                "2026-09-21 09:56:33.0";
+        dc:identifier          "SDN:R28::CB0019";
+        pav:authoredOn         "2026-09-21 09:56:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R28/current/CB0019/1/>;
         pav:version            "1";
         void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
         owl:deprecated         "false";
         owl:versionInfo        "1";
-        skos:altLabel          "PFV2";
-        skos:definition        "Used in certain types of NKE Argo floats as primary controller board (ARVOR)."@en;
-        skos:notation          "SDN:R28::CB0013";
+        skos:altLabel          "APF5";
+        skos:definition        "The APF5 controller board manufactured by Teledyne Webb is a legacy board found in older APEX floats to manage data logging and transmissions through the ARGOS satellite network. Surface pressure from APF5 controller boards was truncated to zero."@en;
+        skos:notation          "SDN:R28::CB0019";
         skos:note              "accepted"@en;
-        skos:prefLabel         "PFV2"@en;
-        skos:related           <http://vocab.nerc.ac.uk/collection/R23/current/ARVOR2/> , <http://vocab.nerc.ac.uk/collection/R23/current/ARVOR/> .
+        skos:prefLabel         "APF5"@en .
 
 <http://vocab.nerc.ac.uk/collection/R28/current/CB0010/>
         rdf:type               skos:Concept;
@@ -215,6 +157,23 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:note              "accepted"@en;
         skos:prefLabel         "I458"@en;
         skos:related           <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR/> .
+
+<http://vocab.nerc.ac.uk/collection/R28/current/CB0003/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R28::CB0003";
+        dc:date                "2023-06-22 12:52:35.0";
+        dc:identifier          "SDN:R28::CB0003";
+        pav:authoredOn         "2023-06-22 12:52:35.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R28/current/CB0003/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "GG32";
+        skos:definition        "Controller board fitted to certain types of SOLO Argo floats."@en;
+        skos:notation          "SDN:R28::CB0003";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "GG32"@en .
 
 <http://vocab.nerc.ac.uk/collection/R28/current/CB0007/>
         rdf:type               skos:Concept;
@@ -235,6 +194,95 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:prefLabel         "USEA"@en;
         skos:related           <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_V/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_V_JUMBO/> .
 
+<http://vocab.nerc.ac.uk/collection/R28/current/CB0005/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R28::CB0005";
+        dc:date                "2026-01-26 14:08:04.0";
+        dc:identifier          "SDN:R28::CB0005";
+        pav:authoredOn         "2026-01-26 14:08:04.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R28/current/CB0005/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R28/current/CB0005/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "I535";
+        skos:definition        "Used in certain types of NKE Argo floats as primary controller board (ARVOR, ARVOR_C, ARVOR_D, PROVOR_CTS3.1, PROVOR_CTS3.1-DO, PROVOR_III_CTS4, PROVOR_DO-I)."@en;
+        skos:notation          "SDN:R28::CB0005";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "I535"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R23/current/ARVOR/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_III/> , <http://vocab.nerc.ac.uk/collection/R23/current/ARVOR_C/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR/> , <http://vocab.nerc.ac.uk/collection/R23/current/ARVOR_D/> .
+
+<http://vocab.nerc.ac.uk/collection/R28/current/CB0011/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R28::CB0011";
+        dc:date                "2026-01-26 14:08:04.0";
+        dc:identifier          "SDN:R28::CB0011";
+        pav:authoredOn         "2026-01-26 14:08:04.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R28/current/CB0011/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "I538";
+        skos:definition        "Used in certain types of NKE Argo floats as secondary controller board (PROVOR_CTS3-DO, PROVOR_CTS3.1-DO, PROVOR_DO-I, PROVOR_II_CTS3_PROVBIOA, PROVOR_II_CTS3_PROVBIOB, PROVOR_II_CTS3_PROVCARBON, PROVOR_II_CTS3_PROVNUTS)"@en;
+        skos:notation          "SDN:R28::CB0011";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "I538"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_II/> .
+
+<http://vocab.nerc.ac.uk/collection/R28/current/CB0001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R28::CB0001";
+        dc:date                "2023-06-22 12:52:35.0";
+        dc:identifier          "SDN:R28::CB0001";
+        pav:authoredOn         "2023-06-22 12:52:35.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R28/current/CB0001/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "N1";
+        skos:definition        "Seabird Navis 1st generation controller board. Controls functions such as integrating the sensor data streams, operating the buoyancy engine, and passing the telemetry to the iridium transmitter."@en;
+        skos:notation          "SDN:R28::CB0001";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "N1"@en .
+
+<http://vocab.nerc.ac.uk/collection/R28/current/CB0012/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R28::CB0012";
+        dc:date                "2026-01-26 14:08:04.0";
+        dc:identifier          "SDN:R28::CB0012";
+        pav:authoredOn         "2026-01-26 14:08:04.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R28/current/CB0012/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "CAMAT256";
+        skos:definition        "Used in certain types of NKE Argo floats as secondary controller board (ARVOR_CM, PROVOR_III_CTS4)"@en;
+        skos:notation          "SDN:R28::CB0012";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "CAMAT256"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_III/> , <http://vocab.nerc.ac.uk/collection/R23/current/ARVOR_C/> .
+
+<http://vocab.nerc.ac.uk/collection/R28/current/CB0002/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R28::CB0002";
+        dc:date                "2023-06-22 12:52:35.0";
+        dc:identifier          "SDN:R28::CB0002";
+        pav:authoredOn         "2023-06-22 12:52:35.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R28/current/CB0002/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "N2";
+        skos:definition        "Seabird Navis 2nd generation controller board. Controls functions such as integrating the sensor data streams, operating the buoyancy engine, and passing the telemetry to the iridium transmitter."@en;
+        skos:notation          "SDN:R28::CB0002";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "N2"@en .
+
 <http://vocab.nerc.ac.uk/collection/R28/current/CB0008/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R28::CB0008";
@@ -252,7 +300,61 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:R28::CB0008";
         skos:note              "accepted"@en;
         skos:prefLabel         "APMT"@en;
-        skos:related           <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_V/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_V_JUMBO/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_IV/> .
+        skos:related           <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_IV/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_V/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_V_JUMBO/> .
+
+<http://vocab.nerc.ac.uk/collection/R28/current/CB0013/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R28::CB0013";
+        dc:date                "2026-01-26 14:08:04.0";
+        dc:identifier          "SDN:R28::CB0013";
+        pav:authoredOn         "2026-01-26 14:08:04.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R28/current/CB0013/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "PFV2";
+        skos:definition        "Used in certain types of NKE Argo floats as primary controller board (ARVOR)."@en;
+        skos:notation          "SDN:R28::CB0013";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "PFV2"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R23/current/ARVOR2/> , <http://vocab.nerc.ac.uk/collection/R23/current/ARVOR/> .
+
+<http://vocab.nerc.ac.uk/collection/R28/current/CB0018/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R28::CB0018";
+        dc:date                "2026-09-21 09:56:33.0";
+        dc:identifier          "SDN:R28::CB0018";
+        pav:authoredOn         "2026-09-21 09:56:33.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R28/current/CB0018/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "APF6";
+        skos:definition        "The APF6 controller board manufactured by Teledyne Webb is a legacy board found in older APEX floats to manage data logging and transmissions through the ARGOS satellite network. Surface pressure from APF6 controller boards was truncated to zero."@en;
+        skos:notation          "SDN:R28::CB0018";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "APF6"@en .
+
+<http://vocab.nerc.ac.uk/collection/R28/current/CB0006/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R28::CB0006";
+        dc:date                "2026-01-26 14:08:04.0";
+        dc:identifier          "SDN:R28::CB0006";
+        pav:authoredOn         "2026-01-26 14:08:04.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R28/current/CB0006/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R28/current/CB0006/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "OSEAN";
+        skos:definition        "Used in certain types of NKE Argo floats as secondary controller board (PROVOR_IV_CTS5)."@en;
+        skos:notation          "SDN:R28::CB0006";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "OSEAN"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_IV/> .
 
 <http://vocab.nerc.ac.uk/collection/R28/current/>
         rdf:type                skos:Collection;
@@ -260,13 +362,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         rdfs:seeAlso            <https://github.com/OneArgo/ArgoVocabs>;
         dc:alternative          "CONTROLLER_BOARD_TYPE";
         dc:creator              "Argo Data Management Team";
-        dc:date                 "2026-01-27 02:00:01.0";
+        dc:date                 "2026-09-22 03:00:01.0";
         dc:description          "List of Argo floats controller board types and generations. Argo netCDF variables CONTROLLER_BOARD_TYPE_PRIMARY and, when needed, CONTROLLER_BOARD_TYPE_SECONDARY, are populated by R28 altLabel.";
         dc:publisher            "Natural Environment Research Council";
         dc:title                "Argo controller board types and generations";
         grg:RE_RegisterManager  "British Oceanographic Data Centre";
         grg:RE_RegisterOwner    "Argo Data Management Team";
-        owl:versionInfo         "2";
+        owl:versionInfo         "3";
         skos:altLabel           "CONTROLLER_BOARD_TYPE";
-        skos:member             <http://vocab.nerc.ac.uk/collection/R28/current/CB0002/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0011/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0003/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0012/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0009/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0005/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0004/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0001/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0006/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0013/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0010/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0008/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0007/>;
+        skos:member             <http://vocab.nerc.ac.uk/collection/R28/current/CB0016/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0014/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0004/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0009/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0017/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0015/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0019/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0010/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0003/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0007/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0005/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0011/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0001/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0012/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0002/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0008/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0013/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0006/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0018/>;
         skos:prefLabel          "Argo controller board types and generations" .
