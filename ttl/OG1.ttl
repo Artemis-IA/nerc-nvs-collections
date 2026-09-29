@@ -1114,6 +1114,63 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:prefLabel         "Sea water potential temperature"@en;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> .
 
+<http://vocab.nerc.ac.uk/collection/OG1/current/TEMP_NITR/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::TEMP_NITR";
+        dc:date                "2026-09-24 11:40:19.0";
+        dc:identifier          "SDN:OG1::TEMP_NITR";
+        pav:authoredOn         "2026-09-24 11:40:19.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/TEMP_NITR/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/NITMPR01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "TEMP_NITR";
+        skos:definition        "The temperature at which the measurement of nitrate (+nitrite dependent on analytical methodology) concentration was made by the nitrate (+nitrite) sensor."@en;
+        skos:notation          "SDN:OG1::TEMP_NITR";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Temperature of nitrate (+nitrite) determination"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/TEMP_TOTALK/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::TEMP_TOTALK";
+        dc:date                "2026-09-24 11:40:21.0";
+        dc:identifier          "SDN:OG1::TEMP_TOTALK";
+        pav:authoredOn         "2026-09-24 11:40:21.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/TEMP_TOTALK/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/ALKTMP01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "TEMP_TOTALK";
+        skos:definition        "The temperature at which the measurement of total alkalinity was made by the total alkalinity sensor."@en;
+        skos:notation          "SDN:OG1::TEMP_TOTALK";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Temperature of total alkalinity determination"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/TEMP_PHOS/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::TEMP_PHOS";
+        dc:date                "2026-09-24 11:40:20.0";
+        dc:identifier          "SDN:OG1::TEMP_PHOS";
+        pav:authoredOn         "2026-09-24 11:40:20.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/TEMP_PHOS/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/PHTMPR01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "TEMP_PHOS";
+        skos:definition        "The temperature at which the measurement of phosphate concentration was made by the phosphate sensor."@en;
+        skos:notation          "SDN:OG1::TEMP_PHOS";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Temperature of phosphate determination"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> .
+
 <http://vocab.nerc.ac.uk/collection/OG1/current/TEMP2/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:OG1::TEMP2";
@@ -1133,6 +1190,25 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:prefLabel         "Sea temperature in-situ ITS-90 scale (second sensor)"@en;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> .
 
+<http://vocab.nerc.ac.uk/collection/OG1/current/TEMP_DIC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::TEMP_DIC";
+        dc:date                "2026-09-24 11:40:22.0";
+        dc:identifier          "SDN:OG1::TEMP_DIC";
+        pav:authoredOn         "2026-09-24 11:40:22.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/TEMP_DIC/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/TCO2TP01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "TEMP_DIC";
+        skos:definition        "The temperature at which the measurement of dissolved inorganic carbon concentration was made by the dissolved inorganic carbon sensor."@en;
+        skos:notation          "SDN:OG1::TEMP_DIC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Temperature of dissolved inorganic carbon determination"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> .
+
 <http://vocab.nerc.ac.uk/collection/OG1/current/TEMP_CNDC/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:OG1::TEMP_CNDC";
@@ -1150,6 +1226,25 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:OG1::TEMP_CNDC";
         skos:note              "accepted"@en;
         skos:prefLabel         "Internal temperature of the conductivity cell"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/TEMP_PH/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::TEMP_PH";
+        dc:date                "2026-09-24 11:40:25.0";
+        dc:identifier          "SDN:OG1::TEMP_PH";
+        pav:authoredOn         "2026-09-24 11:40:25.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/TEMP_PH/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/PHTXPR01/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "TEMP_PH";
+        skos:definition        "The temperature at which the measurement of pH was made by the pH sensor."@en;
+        skos:notation          "SDN:OG1::TEMP_PH";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Temperature of pH determination"@en;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> .
 
 <http://vocab.nerc.ac.uk/collection/OG1/current/TEMPDOXY/>
@@ -2188,6 +2283,45 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:prefLabel         "Dissolved oxygen"@en;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/KGUM/> .
 
+<http://vocab.nerc.ac.uk/collection/OG1/current/TOTALK/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::TOTALK";
+        dc:date                "2026-09-24 11:40:15.0";
+        dc:identifier          "SDN:OG1::TOTALK";
+        pav:authoredOn         "2026-09-24 11:40:15.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/TOTALK/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/ALKYLOC1/>;
+        owl:versionInfo        "1";
+        skos:altLabel          "TOTALK";
+        skos:definition        "A measurement of the concentration of all alkaline substances dissolved in the water that can both attract and release hydrogen ions."@en;
+        skos:notation          "SDN:OG1::TOTALK";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Total alkalinity of the water body"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/KGUM/> .
+
+<http://vocab.nerc.ac.uk/collection/OG1/current/DIC/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:OG1::DIC";
+        dc:date                "2026-09-25 14:46:58.0";
+        dc:identifier          "SDN:OG1::DIC";
+        pav:authoredOn         "2026-09-25 14:46:58.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/OG1/current/DIC/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/OG1/current/DIC/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/TCO2LOC1/>;
+        owl:versionInfo        "2";
+        skos:altLabel          "DIC";
+        skos:definition        "The total amount of inorganic carbon species dissolved in water."@en;
+        skos:notation          "SDN:OG1::DIC";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Dissolved inorganic carbon concentration of the water body"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/KGUM/> .
+
 <http://vocab.nerc.ac.uk/collection/OG1/current/MLPLDOXY/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:OG1::MLPLDOXY";
@@ -2310,13 +2444,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         rdfs:comment            "An international team set up to co-ordinate and harmonise glider data management on a global scale.";
         dc:alternative          "OG PUV";
         dc:creator              "OceanGliders Data Management Task Team";
-        dc:date                 "2026-05-23 03:00:01.0";
+        dc:date                 "2026-09-26 03:00:02.0";
         dc:description          "Terms in this vocabulary are under the content governance of the OceanGliders Data Management Task Team (OGDMTT) on behalf of the OceanGliders community. Terms describe measured phenomena within the OceanGliders format.";
         dc:publisher            "Natural Environment Research Council";
         dc:title                "OceanGliders Parameter Usage Vocabulary";
         grg:RE_RegisterManager  "British Oceanographic Data Centre";
         grg:RE_RegisterOwner    "OceanGliders Data Management Task Team";
-        owl:versionInfo         "32";
+        owl:versionInfo         "34";
         skos:altLabel           "OG PUV";
-        skos:member             <http://vocab.nerc.ac.uk/collection/OG1/current/BBP880/> , <http://vocab.nerc.ac.uk/collection/OG1/current/DPAR/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BBP/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PPOXDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/REDOX_POTENTIAL_CORR/> , <http://vocab.nerc.ac.uk/collection/OG1/current/CNDC/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BETA880/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ED412/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BETA650/> , <http://vocab.nerc.ac.uk/collection/OG1/current/WCUR_X/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ED443/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BETABBP/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PRES/> , <http://vocab.nerc.ac.uk/collection/OG1/current/LON_GPS/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BBP700/> , <http://vocab.nerc.ac.uk/collection/OG1/current/RELVBD/> , <http://vocab.nerc.ac.uk/collection/OG1/current/OIL_VOL/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PRES_ENG/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BETA470/> , <http://vocab.nerc.ac.uk/collection/OG1/current/WCUR_Y/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ED655/> , <http://vocab.nerc.ac.uk/collection/OG1/current/LAT/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BBP470/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ED555/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BETA532/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PHASE/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PRES2/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TIMEYO/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ED/> , <http://vocab.nerc.ac.uk/collection/OG1/current/VLTDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/LAT_GPS/> , <http://vocab.nerc.ac.uk/collection/OG1/current/CPITMPOS/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TIMEDF/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ED532/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ED490/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BETA700/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PPDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/MOLDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PHDEDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TVLTDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/NCNTTUR1/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BBP650/> , <http://vocab.nerc.ac.uk/collection/OG1/current/CNDC2/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TIME/> , <http://vocab.nerc.ac.uk/collection/OG1/current/CDOM/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PHYCOCYANIN/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BBP412/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TURB/> , <http://vocab.nerc.ac.uk/collection/OG1/current/FREQDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PH_IN_SITU_TOTAL/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BBP715/> , <http://vocab.nerc.ac.uk/collection/OG1/current/LON/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PHYC/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BBP532/> , <http://vocab.nerc.ac.uk/collection/OG1/current/FDOM/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ED380/> , <http://vocab.nerc.ac.uk/collection/OG1/current/THETA/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TEMP2/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TEMP_CNDC/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TEMPDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/OXYSAT/> , <http://vocab.nerc.ac.uk/collection/OG1/current/SOUNDVEL/> , <http://vocab.nerc.ac.uk/collection/OG1/current/WATER_VELOC_FINAL_V/> , <http://vocab.nerc.ac.uk/collection/OG1/current/WATER_VELOC_FINAL_U/> , <http://vocab.nerc.ac.uk/collection/OG1/current/DPHDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BPHDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/C1PHDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ROLL/> , <http://vocab.nerc.ac.uk/collection/OG1/current/C2PHDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/RPHDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/HEADING/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TPHDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PITCH/> , <http://vocab.nerc.ac.uk/collection/OG1/current/HEADINGTN/> , <http://vocab.nerc.ac.uk/collection/OG1/current/SIGTHETA/> , <http://vocab.nerc.ac.uk/collection/OG1/current/POTDENS0/> , <http://vocab.nerc.ac.uk/collection/OG1/current/DENSITY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/SIGMA_T/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PHOS/> , <http://vocab.nerc.ac.uk/collection/OG1/current/NITRATE_NITRITE/> , <http://vocab.nerc.ac.uk/collection/OG1/current/EDLAM380/> , <http://vocab.nerc.ac.uk/collection/OG1/current/RSHEAR_SD/> , <http://vocab.nerc.ac.uk/collection/OG1/current/EDLAM443/> , <http://vocab.nerc.ac.uk/collection/OG1/current/RTHERTUR_SD2/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ENLEVEL/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TCPURADP/> , <http://vocab.nerc.ac.uk/collection/OG1/current/GLCOMPH/> , <http://vocab.nerc.ac.uk/collection/OG1/current/RTHERTUR_SD/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PSAL/> , <http://vocab.nerc.ac.uk/collection/OG1/current/RTHERTUR_MN2/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TCNTDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/RTHERTUR_MN/> , <http://vocab.nerc.ac.uk/collection/OG1/current/VBD/> , <http://vocab.nerc.ac.uk/collection/OG1/current/EDLAM/> , <http://vocab.nerc.ac.uk/collection/OG1/current/EDLAM490/> , <http://vocab.nerc.ac.uk/collection/OG1/current/COR_FACT/> , <http://vocab.nerc.ac.uk/collection/OG1/current/EDLAM555/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ROLMPOS/> , <http://vocab.nerc.ac.uk/collection/OG1/current/CROLMPOS/> , <http://vocab.nerc.ac.uk/collection/OG1/current/RSHEAR_SD2/> , <http://vocab.nerc.ac.uk/collection/OG1/current/EDLAM412/> , <http://vocab.nerc.ac.uk/collection/OG1/current/CYCLEENG/> , <http://vocab.nerc.ac.uk/collection/OG1/current/FLUOPHYC/> , <http://vocab.nerc.ac.uk/collection/OG1/current/FLUOCDOM/> , <http://vocab.nerc.ac.uk/collection/OG1/current/LCNTDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/RAWDPAR/> , <http://vocab.nerc.ac.uk/collection/OG1/current/FLUOCHLA/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TCPUCHLA/> , <http://vocab.nerc.ac.uk/collection/OG1/current/RBBP700/> , <http://vocab.nerc.ac.uk/collection/OG1/current/NBSAMP/> , <http://vocab.nerc.ac.uk/collection/OG1/current/CNTDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PITMPOS/> , <http://vocab.nerc.ac.uk/collection/OG1/current/DOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/MLPLDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/DIST_ALT/> , <http://vocab.nerc.ac.uk/collection/OG1/current/DEPTH/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TEMP/> , <http://vocab.nerc.ac.uk/collection/OG1/current/CHLA/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ALTITUDE/>;
+        skos:member             <http://vocab.nerc.ac.uk/collection/OG1/current/BBP880/> , <http://vocab.nerc.ac.uk/collection/OG1/current/DPAR/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BBP/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PPOXDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/REDOX_POTENTIAL_CORR/> , <http://vocab.nerc.ac.uk/collection/OG1/current/CNDC/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BETA880/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ED412/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BETA650/> , <http://vocab.nerc.ac.uk/collection/OG1/current/WCUR_X/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ED443/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BETABBP/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PRES/> , <http://vocab.nerc.ac.uk/collection/OG1/current/LON_GPS/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BBP700/> , <http://vocab.nerc.ac.uk/collection/OG1/current/RELVBD/> , <http://vocab.nerc.ac.uk/collection/OG1/current/OIL_VOL/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PRES_ENG/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BETA470/> , <http://vocab.nerc.ac.uk/collection/OG1/current/WCUR_Y/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ED655/> , <http://vocab.nerc.ac.uk/collection/OG1/current/LAT/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BBP470/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ED555/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BETA532/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PHASE/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PRES2/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TIMEYO/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ED/> , <http://vocab.nerc.ac.uk/collection/OG1/current/VLTDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/LAT_GPS/> , <http://vocab.nerc.ac.uk/collection/OG1/current/CPITMPOS/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TIMEDF/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ED532/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ED490/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BETA700/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PPDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/MOLDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PHDEDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TVLTDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/NCNTTUR1/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BBP650/> , <http://vocab.nerc.ac.uk/collection/OG1/current/CNDC2/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TIME/> , <http://vocab.nerc.ac.uk/collection/OG1/current/CDOM/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PHYCOCYANIN/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BBP412/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TURB/> , <http://vocab.nerc.ac.uk/collection/OG1/current/FREQDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PH_IN_SITU_TOTAL/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BBP715/> , <http://vocab.nerc.ac.uk/collection/OG1/current/LON/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PHYC/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BBP532/> , <http://vocab.nerc.ac.uk/collection/OG1/current/FDOM/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ED380/> , <http://vocab.nerc.ac.uk/collection/OG1/current/THETA/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TEMP_NITR/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TEMP_TOTALK/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TEMP_PHOS/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TEMP2/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TEMP_DIC/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TEMP_CNDC/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TEMP_PH/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TEMPDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/OXYSAT/> , <http://vocab.nerc.ac.uk/collection/OG1/current/SOUNDVEL/> , <http://vocab.nerc.ac.uk/collection/OG1/current/WATER_VELOC_FINAL_V/> , <http://vocab.nerc.ac.uk/collection/OG1/current/WATER_VELOC_FINAL_U/> , <http://vocab.nerc.ac.uk/collection/OG1/current/DPHDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/BPHDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/C1PHDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ROLL/> , <http://vocab.nerc.ac.uk/collection/OG1/current/C2PHDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/RPHDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/HEADING/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TPHDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PITCH/> , <http://vocab.nerc.ac.uk/collection/OG1/current/HEADINGTN/> , <http://vocab.nerc.ac.uk/collection/OG1/current/SIGTHETA/> , <http://vocab.nerc.ac.uk/collection/OG1/current/POTDENS0/> , <http://vocab.nerc.ac.uk/collection/OG1/current/DENSITY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/SIGMA_T/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PHOS/> , <http://vocab.nerc.ac.uk/collection/OG1/current/NITRATE_NITRITE/> , <http://vocab.nerc.ac.uk/collection/OG1/current/EDLAM380/> , <http://vocab.nerc.ac.uk/collection/OG1/current/RSHEAR_SD/> , <http://vocab.nerc.ac.uk/collection/OG1/current/EDLAM443/> , <http://vocab.nerc.ac.uk/collection/OG1/current/RTHERTUR_SD2/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ENLEVEL/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TCPURADP/> , <http://vocab.nerc.ac.uk/collection/OG1/current/GLCOMPH/> , <http://vocab.nerc.ac.uk/collection/OG1/current/RTHERTUR_SD/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PSAL/> , <http://vocab.nerc.ac.uk/collection/OG1/current/RTHERTUR_MN2/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TCNTDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/RTHERTUR_MN/> , <http://vocab.nerc.ac.uk/collection/OG1/current/VBD/> , <http://vocab.nerc.ac.uk/collection/OG1/current/EDLAM/> , <http://vocab.nerc.ac.uk/collection/OG1/current/EDLAM490/> , <http://vocab.nerc.ac.uk/collection/OG1/current/COR_FACT/> , <http://vocab.nerc.ac.uk/collection/OG1/current/EDLAM555/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ROLMPOS/> , <http://vocab.nerc.ac.uk/collection/OG1/current/CROLMPOS/> , <http://vocab.nerc.ac.uk/collection/OG1/current/RSHEAR_SD2/> , <http://vocab.nerc.ac.uk/collection/OG1/current/EDLAM412/> , <http://vocab.nerc.ac.uk/collection/OG1/current/CYCLEENG/> , <http://vocab.nerc.ac.uk/collection/OG1/current/FLUOPHYC/> , <http://vocab.nerc.ac.uk/collection/OG1/current/FLUOCDOM/> , <http://vocab.nerc.ac.uk/collection/OG1/current/LCNTDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/RAWDPAR/> , <http://vocab.nerc.ac.uk/collection/OG1/current/FLUOCHLA/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TCPUCHLA/> , <http://vocab.nerc.ac.uk/collection/OG1/current/RBBP700/> , <http://vocab.nerc.ac.uk/collection/OG1/current/NBSAMP/> , <http://vocab.nerc.ac.uk/collection/OG1/current/CNTDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/PITMPOS/> , <http://vocab.nerc.ac.uk/collection/OG1/current/DOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TOTALK/> , <http://vocab.nerc.ac.uk/collection/OG1/current/DIC/> , <http://vocab.nerc.ac.uk/collection/OG1/current/MLPLDOXY/> , <http://vocab.nerc.ac.uk/collection/OG1/current/DIST_ALT/> , <http://vocab.nerc.ac.uk/collection/OG1/current/DEPTH/> , <http://vocab.nerc.ac.uk/collection/OG1/current/TEMP/> , <http://vocab.nerc.ac.uk/collection/OG1/current/CHLA/> , <http://vocab.nerc.ac.uk/collection/OG1/current/ALTITUDE/>;
         skos:prefLabel          "OceanGliders Parameter Usage Vocabulary" .
