@@ -842,6 +842,24 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:note              "accepted"@en;
         skos:prefLabel         "Argo NORWAY"@en .
 
+<http://vocab.nerc.ac.uk/collection/R41/current/R4100006/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R41::R4100006";
+        dc:date                "2026-09-29 09:30:42.0";
+        dc:identifier          "SDN:R41::R4100006";
+        pav:authoredOn         "2026-09-29 09:30:42.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R41/current/R4100006/2/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R41/current/R4100006/1/>;
+        pav:version            "2";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "2";
+        skos:altLabel          "Argo BULGARIA";
+        skos:definition        "Bulgarian Argo program led by IO-BAS."@en;
+        skos:notation          "SDN:R41::R4100006";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Argo BULGARIA"@en .
+
 <http://vocab.nerc.ac.uk/collection/R41/current/R4100044/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R41::R4100044";
@@ -1221,36 +1239,19 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:note              "accepted"@en;
         skos:prefLabel         "Argo PMEL-NOAA"@en .
 
-<http://vocab.nerc.ac.uk/collection/R41/current/R4100006/>
-        rdf:type               skos:Concept;
-        dce:identifier         "SDN:R41::R4100006";
-        dc:date                "2026-03-19 11:04:26.0";
-        dc:identifier          "SDN:R41::R4100006";
-        pav:authoredOn         "2026-03-19 11:04:26.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R41/current/R4100006/1/>;
-        pav:version            "1";
-        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
-        owl:deprecated         "false";
-        owl:versionInfo        "1";
-        skos:altLabel          "Argo Bulgaria";
-        skos:definition        "Bulgarian Argo program led by IO-BAS."@en;
-        skos:notation          "SDN:R41::R4100006";
-        skos:note              "accepted"@en;
-        skos:prefLabel         "Argo BULGARIA"@en .
-
 <http://vocab.nerc.ac.uk/collection/R41/current/>
         rdf:type                skos:Collection;
         rdfs:comment            "Governance for vocabularies managed by the Global Ocean Observing System (GOOS) under OceanOPS (https://www.ocean-ops.org) and hosted on the NERC Vocabulary Server (NVS).";
         rdfs:seeAlso            <https://github.com/OneArgo/ArgoVocabs>;
         dc:alternative          "PROGRAM_NAME";
         dc:creator              "GOOS/OceanOPS Vocabulary Governance";
-        dc:date                 "2026-05-01 03:00:00.0";
+        dc:date                 "2026-09-30 03:00:01.0";
         dc:description          "List of Argo floats managed under the same lead agency. A program is bound to one country, one or several agencies with defined roles, and has contact points with defined roles. The same agency can implement multiple programs. Some cases such as EuroArgo (European Research Infrastructure Consortium) use a multinational agency and \"Europe\" as country. Argo netCDF variable PROGRAM_NAME is populated by R41 prefLabel.";
         dc:publisher            "Natural Environment Research Council";
         dc:title                "Argo program name";
         grg:RE_RegisterManager  "British Oceanographic Data Centre";
         grg:RE_RegisterOwner    "GOOS/OceanOPS Vocabulary Governance";
-        owl:versionInfo         "5";
+        owl:versionInfo         "6";
         skos:altLabel           "PROGRAM_NAME";
-        skos:member             <http://vocab.nerc.ac.uk/collection/R41/current/R4100037/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100033/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100056/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100023/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100005/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100058/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100059/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100071/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100047/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100070/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100014/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100066/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100031/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100034/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100028/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100003/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100069/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100017/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100024/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100026/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100045/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100049/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100013/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100067/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100001/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100063/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100040/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100002/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100054/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100050/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100055/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100051/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100060/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100015/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100043/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100018/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100004/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100011/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100008/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100036/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100032/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100022/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100039/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100007/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100041/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100025/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100021/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100048/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100044/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100029/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100064/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100035/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100010/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100065/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100042/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100016/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100061/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100012/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100046/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100020/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100009/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100027/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100052/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100057/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100053/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100030/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100019/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100038/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100062/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100006/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100068/>;
+        skos:member             <http://vocab.nerc.ac.uk/collection/R41/current/R4100037/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100033/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100056/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100023/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100005/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100058/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100059/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100071/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100047/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100070/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100014/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100066/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100031/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100034/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100028/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100003/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100069/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100017/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100024/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100026/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100045/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100049/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100013/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100067/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100001/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100063/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100040/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100002/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100054/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100050/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100055/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100051/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100060/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100015/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100043/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100018/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100004/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100011/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100008/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100036/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100032/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100022/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100039/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100007/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100041/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100025/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100021/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100048/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100006/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100044/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100029/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100064/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100035/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100010/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100065/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100042/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100016/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100061/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100012/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100046/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100020/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100009/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100027/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100052/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100057/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100053/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100030/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100019/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100038/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100068/> , <http://vocab.nerc.ac.uk/collection/R41/current/R4100062/>;
         skos:prefLabel          "Argo program name" .

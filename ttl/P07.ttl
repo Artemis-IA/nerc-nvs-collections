@@ -2934,7 +2934,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "\"Mole concentration\" means number of moles per unit volume, also called \"molarity\", and is used in the construction \"mole_concentration_of_X_in_Y\", where X is a material constituent of Y. A chemical species or biological group denoted by X may be described by a single term such as \"nitrogen\" or a phrase such as \"nox_expressed_as_nitrogen\". \"Organic mercury\" describes a family of chemical species in which mercury atoms are covalently bonded to carbon-containing groups, forming organomercury compounds. Phytoplankton are algae that grow where there is sufficient light to support photosynthesis."@en;
         skos:notation          "SDN:P07::5MZTQQI6";
         skos:note              "accepted"@en;
-        skos:prefLabel         "mole_concentration_of_organic_mercury_in_phytoplankton"@en .
+        skos:prefLabel         "mole_concentration_of_organic_mercury_in_phytoplankton"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/MLM3/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0249/>
         rdf:type               skos:Concept;
@@ -3546,7 +3547,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:P07::TEHQ4X3K";
         skos:note              "accepted"@en;
         skos:prefLabel         "mass_concentration_of_mesopelagic_fish_expressed_as_wet_weight_in_sea_water"@en;
-        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UGMC/> .
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UKMC/> , <http://vocab.nerc.ac.uk/collection/P06/current/UGMC/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/CF12N42/>
         rdf:type               skos:Concept;
@@ -3666,7 +3667,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "Sea ice area fraction is area of the sea surface occupied by sea ice. It is also called \"sea ice concentration\". \"Sea ice\" means all ice floating in the sea which has formed from freezing sea water, rather than by other processes such as calving of land ice to form icebergs. \"Area fraction\" is the fraction of a grid cell's horizontal area that has some characteristic of interest. It is evaluated as the area of interest divided by the grid cell area, or if the cell_methods restricts the evaluation to some portion of that grid cell (e.g. \"where sea_ice\"), then it is the area of interest divided by the area of the identified portion. It may be expressed as a fraction, a percentage, or any other dimensionless representation of a fraction. Unless indicated, a quantity is assumed to apply to the whole area of each horizontal grid box. The qualifier \"where_\" type specifies instead that the quantity applies only to the part of the grid box of the named type. The value is equal to the sea_ice_area_fraction where it is at or above the threshold. Otherwise, the value is zero. The area threshold value must be specified by supplying a coordinate variable or scalar coordinate variable with the standard name of sea_ice_area_fraction."@en;
         skos:notation          "SDN:P07::TDQ7P6DJ";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sea_ice_area_fraction_where_at_or_above_threshold"@en .
+        skos:prefLabel         "sea_ice_area_fraction_where_at_or_above_threshold"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/CFV7N17/>
         rdf:type               skos:Concept;
@@ -4099,7 +4101,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "\"Mole concentration\" means number of moles per unit volume, also called \"molarity\", and is used in the construction \"mole_concentration_of_X_in_Y\", where X is a material constituent of Y. A chemical species or biological group denoted by X may be described by a single term such as \"nitrogen\" or a phrase such as \"nox_expressed_as_nitrogen\". \"Organic mercury\" describes a family of chemical species in which mercury atoms are covalently bonded to carbon-containing groups, forming organomercury compounds."@en;
         skos:notation          "SDN:P07::73M4QDTF";
         skos:note              "accepted"@en;
-        skos:prefLabel         "mole_concentration_of_organic_mercury_in_sea_water"@en .
+        skos:prefLabel         "mole_concentration_of_organic_mercury_in_sea_water"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/MLM3/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0470/>
         rdf:type               skos:Concept;
@@ -5743,7 +5746,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "Fractional saturation is the ratio of some measure of concentration to the saturated value of the same quantity. Above 1 the solution is supersaturated, below 1 the solution is undersaturated, at 1 it is at the equilibrium. Calcite is a mineral that is a polymorph of calcium carbonate. The chemical formula of calcite is CaCO3. Standard names also exist for aragonite, another polymorph of calcium carbonate. This variable is also referred to as calcite saturation state."@en;
         skos:notation          "SDN:P07::EKV6A6ZU";
         skos:note              "accepted"@en;
-        skos:prefLabel         "fractional_saturation_of_calcite_in_sea_water"@en .
+        skos:prefLabel         "fractional_saturation_of_calcite_in_sea_water"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/89F3RRUS/>
         rdf:type               skos:Concept;
@@ -10725,7 +10729,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:P07::36UW7DBQ";
         skos:note              "accepted"@en;
         skos:prefLabel         "ocean_mass_content_of_demersal_fish_expressed_as_wet_weight"@en;
-        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UGMS/> .
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/KMP2/> , <http://vocab.nerc.ac.uk/collection/P06/current/UGMS/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/91ED54E3/>
         rdf:type               skos:Concept;
@@ -13256,7 +13260,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:P07::CVWA4OGB";
         skos:note              "accepted"@en;
         skos:prefLabel         "mass_concentration_of_small_pelagic_fish_expressed_as_wet_weight_in_sea_water"@en;
-        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UGMC/> .
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UKMC/> , <http://vocab.nerc.ac.uk/collection/P06/current/UGMC/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/CF12N721/>
         rdf:type               skos:Concept;
@@ -19435,7 +19439,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "\"Floating ice\" means all floating ice, including frozen sea water, frozen lake water, shelf ice, and calved land ice. \"X_area\" means the horizontal area occupied by X within the grid cell. The extent of an individual grid cell is defined by the horizontal coordinates and any associated coordinate bounds or by a string valued auxiliary coordinate variable with a standard name of \"region\"."@en;
         skos:notation          "SDN:P07::NEFOQK44";
         skos:note              "accepted"@en;
-        skos:prefLabel         "floating_ice_area"@en .
+        skos:prefLabel         "floating_ice_area"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UMSQ/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/7MW01FJO/>
         rdf:type               skos:Concept;
@@ -20195,7 +20200,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:P07::G1IP6NWI";
         skos:note              "accepted"@en;
         skos:prefLabel         "mass_concentration_of_large_pelagic_fish_expressed_as_wet_weight_in_sea_water"@en;
-        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UGMC/> .
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UKMC/> , <http://vocab.nerc.ac.uk/collection/P06/current/UGMC/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0239/>
         rdf:type               skos:Concept;
@@ -23506,7 +23511,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:P07::889V9VVB";
         skos:note              "accepted"@en;
         skos:prefLabel         "mass_concentration_of_demersal_fish_expressed_as_wet_weight_in_sea_water"@en;
-        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UGMC/> .
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UKMC/> , <http://vocab.nerc.ac.uk/collection/P06/current/UGMC/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/CFV10N17/>
         rdf:type               skos:Concept;
@@ -24952,7 +24957,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "\"Mole concentration\" means number of moles per unit volume, also called \"molarity\", and is used in the construction \"mole_concentration_of_X_in_Y\", where X is a material constituent of Y. A chemical species or biological group denoted by X may be described by a single term such as \"nitrogen\" or a phrase such as \"nox_expressed_as_nitrogen\". \"Organic mercury\" describes a family of chemical species in which mercury atoms are covalently bonded to carbon-containing groups, forming organomercury compounds. The phrase \"in_fish\" refers to fish tissue considered as the biological medium in which the quantity is measured."@en;
         skos:notation          "SDN:P07::Y29X1EMG";
         skos:note              "accepted"@en;
-        skos:prefLabel         "mole_concentration_of_organic_mercury_in_fish"@en .
+        skos:prefLabel         "mole_concentration_of_organic_mercury_in_fish"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/MLM3/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/UM50UKPG/>
         rdf:type               skos:Concept;
@@ -27903,7 +27909,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "\"Floating ice\" means all floating ice, including frozen sea water, frozen lake water, shelf ice, and calved land ice. \"Area fraction\" is the fraction of a grid cell's horizontal area that has some characteristic of interest. It is evaluated as the area of interest divided by the grid cell area, or if the cell_methods restricts the evaluation to some portion of that grid cell (e.g. \"where sea_ice\"), then it is the area of interest divided by the area of the identified portion. It may be expressed as a fraction, a percentage, or any other dimensionless representation of a fraction. The value is equal to the floating_ice_area where floating_ice_area_fraction is at or above the threshold. Otherwise, the value is zero. The area threshold value must be specified by supplying a coordinate variable or scalar coordinate variable with the standard name of floating_ice_area_fraction."@en;
         skos:notation          "SDN:P07::E7MIND8M";
         skos:note              "accepted"@en;
-        skos:prefLabel         "floating_ice_area_with_floating_ice_area_fraction_at_or_above_threshold"@en .
+        skos:prefLabel         "floating_ice_area_with_floating_ice_area_fraction_at_or_above_threshold"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UMSQ/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/CF12N262/>
         rdf:type               skos:Concept;
@@ -28972,7 +28979,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:P07::O0YEG6TL";
         skos:note              "accepted"@en;
         skos:prefLabel         "mass_concentration_of_bathypelagic_fish_expressed_as_wet_weight_in_sea_water"@en;
-        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UGMC/> .
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UKMC/> , <http://vocab.nerc.ac.uk/collection/P06/current/UGMC/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/1D2ZXEC8/>
         rdf:type               skos:Concept;
@@ -31276,7 +31283,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "\"Mole concentration\" means number of moles per unit volume, also called \"molarity\", and is used in the construction \"mole_concentration_of_X_in_Y\", where X is a material constituent of Y. A chemical species or biological group denoted by X may be described by a single term such as \"nitrogen\" or a phrase such as \"nox_expressed_as_nitrogen\". \"Dissolved oxidized mercury\" refers to mercury ions present in water in dissolved form, often as free ions or partially dissociated salts, or as complexes with other dissolved molecules."@en;
         skos:notation          "SDN:P07::P1YH97PL";
         skos:note              "accepted"@en;
-        skos:prefLabel         "mole_concentration_of_dissolved_oxidized_mercury_in_sea_water"@en .
+        skos:prefLabel         "mole_concentration_of_dissolved_oxidized_mercury_in_sea_water"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/MLM3/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/3AM7R1YB/>
         rdf:type               skos:Concept;
@@ -32997,7 +33005,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:P07::WB8FZZ5U";
         skos:note              "accepted"@en;
         skos:prefLabel         "ocean_mass_content_of_large_pelagic_fish_expressed_as_wet_weight"@en;
-        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UGMS/> .
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/KMP2/> , <http://vocab.nerc.ac.uk/collection/P06/current/UGMS/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/CFV10N5/>
         rdf:type               skos:Concept;
@@ -35912,7 +35920,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "\"Mole concentration\" means number of moles per unit volume, also called \"molarity\", and is used in the construction \"mole_concentration_of_X_in_Y\", where X is a material constituent of Y. A chemical species or biological group denoted by X may be described by a single term such as \"nitrogen\" or a phrase such as \"nox_expressed_as_nitrogen\". \"Oxidized mercury\" refers to mercury in its ionic form, which may be directly emitted to the environment or formed through the oxidation of elemental mercury."@en;
         skos:notation          "SDN:P07::IXD7UM16";
         skos:note              "accepted"@en;
-        skos:prefLabel         "mole_concentration_of_oxidized_mercury_in_sea_water"@en .
+        skos:prefLabel         "mole_concentration_of_oxidized_mercury_in_sea_water"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/MLM3/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/02CJPZDE/>
         rdf:type               skos:Concept;
@@ -36145,7 +36154,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "\"Mole concentration\" means number of moles per unit volume, also called \"molarity\", and is used in the construction \"mole_concentration_of_X_in_Y\", where X is a material constituent of Y. A chemical species or biological group denoted by X may be described by a single term such as \"nitrogen\" or a phrase such as \"nox_expressed_as_nitrogen\". \"Dissolved elemental mercury\" refers to mercury in its neutral form, a gaseous species that is dissolved in water. It can be measured as dissolved gaseous mercury."@en;
         skos:notation          "SDN:P07::OC8S50RH";
         skos:note              "accepted"@en;
-        skos:prefLabel         "mole_concentration_of_dissolved_elemental_mercury_in_sea_water"@en .
+        skos:prefLabel         "mole_concentration_of_dissolved_elemental_mercury_in_sea_water"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/MLM3/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/O119RLKY/>
         rdf:type               skos:Concept;
@@ -39290,7 +39300,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "\"Mole concentration\" means number of moles per unit volume, also called \"molarity\", and is used in the construction \"mole_concentration_of_X_in_Y\", where X is a material constituent of Y. A chemical species or biological group denoted by X may be described by a single term such as \"nitrogen\" or a phrase such as \"nox_expressed_as_nitrogen\". \"Oxidized mercury\" refers to mercury in its ionic form, which may be directly emitted to the environment or formed through the oxidation of elemental mercury. Phytoplankton are algae that grow where there is sufficient light to support photosynthesis."@en;
         skos:notation          "SDN:P07::GM5YDTAL";
         skos:note              "accepted"@en;
-        skos:prefLabel         "mole_concentration_of_oxidized_mercury_in_phytoplankton"@en .
+        skos:prefLabel         "mole_concentration_of_oxidized_mercury_in_phytoplankton"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/MLM3/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/RUYKFXTZ/>
         rdf:type               skos:Concept;
@@ -41034,7 +41045,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "\"Mole concentration\" means number of moles per unit volume, also called \"molarity\", and is used in the construction \"mole_concentration_of_X_in_Y\", where X is a material constituent of Y. A chemical species or biological group denoted by X may be described by a single term such as \"nitrogen\" or a phrase such as \"nox_expressed_as_nitrogen\". \"Organic mercury\" describes a family of chemical species in which mercury atoms are covalently bonded to carbon-containing groups, forming organomercury compounds. \"Zooplankton\" means the total zooplankton population, with components such as mesozooplankton, microzooplankton and miscellaneous zooplankton."@en;
         skos:notation          "SDN:P07::FUQM22MG";
         skos:note              "accepted"@en;
-        skos:prefLabel         "mole_concentration_of_organic_mercury_in_zooplankton"@en .
+        skos:prefLabel         "mole_concentration_of_organic_mercury_in_zooplankton"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/MLM3/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/HI8WIKL2/>
         rdf:type               skos:Concept;
@@ -43645,7 +43657,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "\"Mole concentration\" means number of moles per unit volume, also called \"molarity\", and is used in the construction \"mole_concentration_of_X_in_Y\", where X is a material constituent of Y. A chemical species or biological group denoted by X may be described by a single term such as \"nitrogen\" or a phrase such as \"nox_expressed_as_nitrogen\". \"Dissolved organic mercury\" refers to mercury that is covalently bonded to carbon (organic forms) and present in water in dissolved form, often occuring as ionic species or as complexes with dissolved molecules."@en;
         skos:notation          "SDN:P07::FNXTSNHY";
         skos:note              "accepted"@en;
-        skos:prefLabel         "mole_concentration_of_dissolved_organic_mercury_in_sea_water"@en .
+        skos:prefLabel         "mole_concentration_of_dissolved_organic_mercury_in_sea_water"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/MLM3/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/V2C3911E/>
         rdf:type               skos:Concept;
@@ -51971,7 +51984,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "\"Sea ice\" means all ice floating in the sea which has formed from freezing sea water, rather than by other processes such as calving of land ice to form icebergs. Sea ice area fraction is area of the sea surface occupied by sea ice. It is also called \"sea ice concentration\". \"Area fraction\" is the fraction of a grid cell's horizontal area that has some characteristic of interest. It is evaluated as the area of interest divided by the grid cell area, or if the cell_methods restricts the evaluation to some portion of that grid cell (e.g. \"where sea_ice\"), then it is the area of interest divided by the area of the identified portion. It may be expressed as a fraction, a percentage, or any other dimensionless representation of a fraction. The value is equal to the sea_ice_area where sea_ice_area_fraction is at or above the threshold. Otherwise, the value is zero. The area threshold value must be specified by supplying a coordinate variable or scalar coordinate variable with the standard name of sea_ice_area_fraction."@en;
         skos:notation          "SDN:P07::EQG6STBZ";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sea_ice_area_with_sea_ice_area_fraction_at_or_above_threshold"@en .
+        skos:prefLabel         "sea_ice_area_with_sea_ice_area_fraction_at_or_above_threshold"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UMSQ/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/MPWU7SAM/>
         rdf:type               skos:Concept;
@@ -52190,7 +52204,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "The river_channel represents a body of water flowing along a natural channel and storage refers to the amount of water stored in that channel. The quantity includes unsalted liquid water."@en;
         skos:notation          "SDN:P07::SYLZJDPO";
         skos:note              "accepted"@en;
-        skos:prefLabel         "water_volume_contained_in_river_channel"@en .
+        skos:prefLabel         "water_volume_contained_in_river_channel"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/MCUB/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/I1LQOQOL/>
         rdf:type               skos:Concept;
@@ -52410,7 +52425,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "\"Mass concentration\" means mass per unit volume and is used in the construction \"mass_concentration_of_X_in_Y\", where X is a material constituent of Y. A chemical species or biological group denoted by X may be described by a single term such as \"nitrogen\" or a phrase such as \"nox_expressed_as_nitrogen\". Phytoplankton are algae that grow where there is sufficient light to support photosynthesis. The phrase \"expressed_as\" is used in the construction \"A_expressed_as_B\", where B is a chemical constituent of A. It means that the quantity indicated by the standard name is calculated solely with respect to the B contained in A, neglecting all other chemical constituents of A. Standard names also exist for the mass concentration of a number of components that make up the total phytoplankton population, such as diatoms, diazotrophs, calcareous phytoplankton, picophytoplankton and miscellaneous phytoplankton."@en;
         skos:notation          "SDN:P07::GE3BVM66";
         skos:note              "accepted"@en;
-        skos:prefLabel         "mass_concentration_of_phytoplankton_expressed_as_carbon_in_sea_water"@en .
+        skos:prefLabel         "mass_concentration_of_phytoplankton_expressed_as_carbon_in_sea_water"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UKMC/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/PQAKJ77P/>
         rdf:type               skos:Concept;
@@ -56023,7 +56039,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:P07::QY06XVNL";
         skos:note              "accepted"@en;
         skos:prefLabel         "ocean_mass_content_of_bathypelagic_fish_expressed_as_wet_weight"@en;
-        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UGMS/> .
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/KMP2/> , <http://vocab.nerc.ac.uk/collection/P06/current/UGMS/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/CFV13N3/>
         rdf:type               skos:Concept;
@@ -59996,7 +60012,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "\"Mole concentration\" means number of moles per unit volume, also called \"molarity\", and is used in the construction \"mole_concentration_of_X_in_Y\", where X is a material constituent of Y. A chemical species or biological group denoted by X may be described by a single term such as \"nitrogen\" or a phrase such as \"nox_expressed_as_nitrogen\". Particulate means suspended solids of all sizes. \"Organic carbon\" describes a family of chemical species and is the term used in standard names for all species belonging to the family that are represented within a given model. Where possible, the data variable should be accompanied by a complete description of the species represented, for example, by using a comment attribute. The phrase \"expressed_as\" is used in the construction \"A_expressed_as_B\", where B is a chemical constituent of A. It means that the quantity indicated by the standard name is calculated solely with respect to the B contained in A, neglecting all other chemical constituents of A."@en;
         skos:notation          "SDN:P07::QUS44RG0";
         skos:note              "accepted"@en;
-        skos:prefLabel         "mole_concentration_of_particulate_organic_carbon_expressed_as_carbon_in_sea_water"@en .
+        skos:prefLabel         "mole_concentration_of_particulate_organic_carbon_expressed_as_carbon_in_sea_water"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/MLM3/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/CDGDCCCD/>
         rdf:type               skos:Concept;
@@ -61928,7 +61945,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:P07::GTTTDBLZ";
         skos:note              "accepted"@en;
         skos:prefLabel         "ocean_mass_content_of_small_pelagic_fish_expressed_as_wet_weight"@en;
-        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UGMS/> .
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/KMP2/> , <http://vocab.nerc.ac.uk/collection/P06/current/UGMS/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/CF12N180/>
         rdf:type               skos:Concept;
@@ -62145,7 +62162,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "\"Mole concentration\" means number of moles per unit volume, also called \"molarity\", and is used in the construction \"mole_concentration_of_X_in_Y\", where X is a material constituent of Y. A chemical species or biological group denoted by X may be described by a single term such as \"nitrogen\" or a phrase such as \"nox_expressed_as_nitrogen\". Particulate means suspended solids of all sizes. \"Organic mercury\" describes a family of chemical species in which mercury atoms are covalently bonded to carbon-containing groups, forming organomercury compounds."@en;
         skos:notation          "SDN:P07::O9V0FJK1";
         skos:note              "accepted"@en;
-        skos:prefLabel         "mole_concentration_of_particulate_organic_mercury_in_sea_water"@en .
+        skos:prefLabel         "mole_concentration_of_particulate_organic_mercury_in_sea_water"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/MLM3/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/JIJGJHII/>
         rdf:type               skos:Concept;
@@ -70417,7 +70435,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "\"Mole concentration\" means number of moles per unit volume, also called \"molarity\", and is used in the construction \"mole_concentration_of_X_in_Y\", where X is a material constituent of Y. A chemical species or biological group denoted by X may be described by a single term such as \"nitrogen\" or a phrase such as \"nox_expressed_as_nitrogen\". \"Oxidized mercury\" refers to mercury in its ionic form, which may be directly emitted to the environment or formed through the oxidation of elemental mercury. \"Zooplankton\" means the total zooplankton population, with components such as mesozooplankton, microzooplankton and miscellaneous zooplankton."@en;
         skos:notation          "SDN:P07::KSBCA8FG";
         skos:note              "accepted"@en;
-        skos:prefLabel         "mole_concentration_of_oxidized_mercury_in_zooplankton"@en .
+        skos:prefLabel         "mole_concentration_of_oxidized_mercury_in_zooplankton"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/MLM3/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/556S8S17/>
         rdf:type               skos:Concept;
@@ -70717,7 +70736,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:P07::GOF95M8G";
         skos:note              "accepted"@en;
         skos:prefLabel         "ocean_mass_content_of_mesopelagic_fish_expressed_as_wet_weight"@en;
-        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UGMS/> .
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/KMP2/> , <http://vocab.nerc.ac.uk/collection/P06/current/UGMS/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0541/>
         rdf:type               skos:Concept;
@@ -75964,7 +75983,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "\"Floating ice\" means all floating ice, including frozen sea water, frozen lake water, shelf ice, and calved land ice. \"Area fraction\" is the fraction of a grid cell's horizontal area that has some characteristic of interest. It is evaluated as the area of interest divided by the grid cell area, or if the cell_methods restricts the evaluation to some portion of that grid cell (e.g. \"where sea_ice\"), then it is the area of interest divided by the area of the identified portion. It may be expressed as a fraction, a percentage, or any other dimensionless representation of a fraction. Unless indicated, a quantity is assumed to apply to the whole area of each horizontal grid box. The qualifier \"where_\" type specifies instead that the quantity applies only to the part of the grid box of the named type. The value is equal to the floating_ice_area_fraction where it is at or above the threshold. Otherwise, the value is zero. The area threshold value must be specified by supplying a coordinate variable or scalar coordinate variable with the standard name of floating_ice_area_fraction."@en;
         skos:notation          "SDN:P07::KK3YXMQZ";
         skos:note              "accepted"@en;
-        skos:prefLabel         "floating_ice_area_fraction_where_at_or_above_threshold"@en .
+        skos:prefLabel         "floating_ice_area_fraction_where_at_or_above_threshold"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0677/>
         rdf:type               skos:Concept;
@@ -78817,7 +78837,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "\"Mole concentration\" means number of moles per unit volume, also called \"molarity\", and is used in the construction \"mole_concentration_of_X_in_Y\", where X is a material constituent of Y. A chemical species or biological group denoted by X may be described by a single term such as \"nitrogen\" or a phrase such as \"nox_expressed_as_nitrogen\". \"Organic mercury\" describes a family of chemical species in which mercury atoms are covalently bonded to carbon-containing groups, forming organomercury compounds. \"Phycosphere\" refers to the microenvironment surrounding phytoplankton cells."@en;
         skos:notation          "SDN:P07::ZXWYNG5P";
         skos:note              "accepted"@en;
-        skos:prefLabel         "mole_concentration_of_organic_mercury_in_phycosphere"@en .
+        skos:prefLabel         "mole_concentration_of_organic_mercury_in_phycosphere"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/MLM3/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/PE5DISHK/>
         rdf:type               skos:Concept;
@@ -80225,7 +80246,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:P07::XY16HWNE";
         skos:note              "accepted"@en;
         skos:prefLabel         "mass_concentration_of_immature_individuals_of_biological_taxon_expressed_as_wet_weight_in_sea_water"@en;
-        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UGMC/> .
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UKMC/> , <http://vocab.nerc.ac.uk/collection/P06/current/UGMC/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/KBKBXYAD/>
         rdf:type               skos:Concept;
@@ -81573,7 +81594,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "\"Mole concentration\" means number of moles per unit volume, also called \"molarity\", and is used in the construction \"mole_concentration_of_X_in_Y\", where X is a material constituent of Y. A chemical species or biological group denoted by X may be described by a single term such as \"nitrogen\" or a phrase such as \"nox_expressed_as_nitrogen\". \"Oxidized mercury\" refers to mercury in its ionic form, which may be directly emitted to the environment or formed through the oxidation of elemental mercury. \"in_fish\" refers to fish tissue considered as the biological medium in which the quantity is measured."@en;
         skos:notation          "SDN:P07::6J6T7LZP";
         skos:note              "accepted"@en;
-        skos:prefLabel         "mole_concentration_of_oxidized_mercury_in_fish"@en .
+        skos:prefLabel         "mole_concentration_of_oxidized_mercury_in_fish"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/MLM3/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/B954IGKE/>
         rdf:type               skos:Concept;
@@ -86899,7 +86921,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         pav:version            "2";
         void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
         owl:deprecated         "true";
-        owl:sameAs             <http://vocab.nerc.ac.uk/standard_name/probability_of_mass_concentration_of_volcanic_ash_in_air_above_threshold/>;
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P07/current/3MFK5ESJ/> , <http://vocab.nerc.ac.uk/standard_name/probability_of_mass_concentration_of_volcanic_ash_in_air_above_threshold/>;
         owl:versionInfo        "2";
         skos:altLabel          "";
         skos:definition        "\"probability_of_X_above_threshold\" means the chance that X is above the threshold. Space and time coordinates must be used to indicate the area and time to which a probability applies. \"Mass concentration\" means mass per unit volume and is used in the construction \"mass_concentration_of_X_in_Y\", where X is a material constituent of Y. A chemical species or biological group denoted by X may be described by a single term such as \"nitrogen\" or a phrase such as \"nox_expressed_as_nitrogen\". \"Volcanic ash\" means the fine-grained products of explosive volcanic eruptions, such as minerals or crystals, older fragmented rock (e.g. andesite) and glass. Particles within a volcanic ash cloud have diameters less than 2 mm. \"Volcanic ash\" does not include non-volcanic dust. It must have a coordinate variable or scalar coordinate variable with the standard name of mass_concentration_of_volcanic_ash_in_air to supply the threshold(s)."@en;
@@ -97278,7 +97300,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "\"Floating ice\" means all floating ice, including frozen sea water, frozen lake water, shelf ice, and calved land ice. \"Area fraction\" is the fraction of a grid cell's horizontal area that has some characteristic of interest. It is evaluated as the area of interest divided by the grid cell area, or if the cell_methods restricts the evaluation to some portion of that grid cell (e.g. \"where sea_ice\"), then it is the area of interest divided by the area of the identified portion. It may be expressed as a fraction, a percentage, or any other dimensionless representation of a fraction."@en;
         skos:notation          "SDN:P07::VQHW0V0R";
         skos:note              "accepted"@en;
-        skos:prefLabel         "floating_ice_area_fraction"@en .
+        skos:prefLabel         "floating_ice_area_fraction"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0696/>
         rdf:type               skos:Concept;
@@ -99198,7 +99221,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:P07::CAEP7HDI";
         skos:note              "accepted"@en;
         skos:prefLabel         "mass_concentration_of_biological_taxon_expressed_as_wet_weight_in_sea_water"@en;
-        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UGMC/> .
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UKMC/> , <http://vocab.nerc.ac.uk/collection/P06/current/UGMC/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/R3Z9T14A/>
         rdf:type               skos:Concept;
@@ -100901,7 +100924,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:P07::775ZJ0F5";
         skos:note              "accepted"@en;
         skos:prefLabel         "ocean_mass_content_of_immature_individuals_of_biological_taxon_expressed_as_wet_weight"@en;
-        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UGMS/> .
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/KMP2/> , <http://vocab.nerc.ac.uk/collection/P06/current/UGMS/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/LVG0I14K/>
         rdf:type               skos:Concept;
@@ -101759,7 +101782,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:P07::PXKN80UB";
         skos:note              "accepted"@en;
         skos:prefLabel         "ocean_mass_content_of_biological_taxon_expressed_as_wet_weight"@en;
-        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UGMS/> .
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/KMP2/> , <http://vocab.nerc.ac.uk/collection/P06/current/UGMS/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/2XXHRQ6K/>
         rdf:type               skos:Concept;
@@ -103685,7 +103708,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "See Appendix D of the CF convention for information about parametric vertical coordinates."@en;
         skos:notation          "SDN:P07::LRI067PY";
         skos:note              "accepted"@en;
-        skos:prefLabel         "atmosphere_hybrid_sigma_ln_pressure_coordinate"@en .
+        skos:prefLabel         "atmosphere_hybrid_sigma_ln_pressure_coordinate"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/3HWMM33G/>
         rdf:type               skos:Concept;
@@ -104899,7 +104923,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "Reduced Gaussian indices indicate the latitude and longitude location of cells, including their cell bounds, of a reduced Gaussian grid on a sphere. The relationship between reduced gaussian indices and latitude and longitude is described by the grid_mapping variable with a grid_mapping_name of \"reduced_gaussian\", that must be attached to the data variable as described in Chapter 5.6 of the CF Convention. A reduced gaussian index variable must have an integer data type."@en;
         skos:notation          "SDN:P07::7OOYYKZS";
         skos:note              "accepted"@en;
-        skos:prefLabel         "reduced_gaussian_index"@en .
+        skos:prefLabel         "reduced_gaussian_index"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/65JVZ0FI/>
         rdf:type               skos:Concept;
@@ -107452,7 +107477,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "Fractional saturation is the ratio of some measure of concentration to the saturated value of the same quantity. Above 1 the solution is supersaturated, below 1 the solution is undersaturated, at 1 it is at the equilibrium. Aragonite is a mineral that is a polymorph of calcium carbonate. The chemical formula of aragonite is CaCO3. Standard names also exist for calcite, another polymorph of calcium carbonate. This variable is also referred to as aragonite saturation state."@en;
         skos:notation          "SDN:P07::6DZR0CFP";
         skos:note              "accepted"@en;
-        skos:prefLabel         "fractional_saturation_of_aragonite_in_sea_water"@en .
+        skos:prefLabel         "fractional_saturation_of_aragonite_in_sea_water"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0285/>
         rdf:type               skos:Concept;
@@ -108075,7 +108101,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:P07::0IFTNCTW";
         skos:note              "accepted"@en;
         skos:prefLabel         "mass_concentration_of_mature_individuals_of_biological_taxon_expressed_as_wet_weight_in_sea_water"@en;
-        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UGMC/> .
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UKMC/> , <http://vocab.nerc.ac.uk/collection/P06/current/UGMC/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/P40R70T2/>
         rdf:type               skos:Concept;
@@ -111043,13 +111069,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         pav:version            "1";
         void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
         owl:deprecated         "false";
-        owl:sameAs             <http://vocab.nerc.ac.uk/standard_name/probability_of_mass_concentration_of_volcanic_ash_in_air_at_or_above_threshold/>;
+        owl:sameAs             <http://vocab.nerc.ac.uk/standard_name/probability_of_mass_concentration_of_volcanic_ash_in_air_at_or_above_threshold/> , <http://vocab.nerc.ac.uk/collection/P07/current/O1Z99660/>;
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "\"probability_of_X_at_or_above_threshold\" means the chance that X is at or above the threshold. Space and time coordinates must be used to indicate the area and time to which a probability applies. \"Mass concentration\" means mass per unit volume and is used in the construction \"mass_concentration_of_X_in_Y\", where X is a material constituent of Y. A chemical species or biological group denoted by X may be described by a single term such as \"nitrogen\" or a phrase such as \"nox_expressed_as_nitrogen\". \"Volcanic ash\" means the fine-grained products of explosive volcanic eruptions, such as minerals or crystals, older fragmented rock (e.g. andesite) and glass. Particles within a volcanic ash cloud have diameters less than 2 mm. \"Volcanic ash\" does not include non-volcanic dust. It must have a coordinate variable or scalar coordinate variable with the standard name of mass_concentration_of_volcanic_ash_in_air to supply the threshold(s)."@en;
         skos:notation          "SDN:P07::3MFK5ESJ";
         skos:note              "accepted"@en;
-        skos:prefLabel         "probability_of_mass_concentration_of_volcanic_ash_in_air_at_or_above_threshold"@en .
+        skos:prefLabel         "probability_of_mass_concentration_of_volcanic_ash_in_air_at_or_above_threshold"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0369/>
         rdf:type               skos:Concept;
@@ -112861,7 +112888,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:P07::EWJHAWB4";
         skos:note              "accepted"@en;
         skos:prefLabel         "ocean_mass_content_of_mature_individuals_of_biological_taxon_expressed_as_wet_weight"@en;
-        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UGMS/> .
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/KMP2/> , <http://vocab.nerc.ac.uk/collection/P06/current/UGMS/> .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/TI8IXZUA/>
         rdf:type               skos:Concept;
