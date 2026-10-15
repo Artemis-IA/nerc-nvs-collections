@@ -14,7 +14,7 @@
     dcterms:conformsTo <https://w3id.org/env/puv>,
         <https://w3id.org/iadopt/ont> ;
     dcterms:creator "British Oceanographic Data Centre" ;
-    dcterms:date "2026-09-25 03:00:01.0" ;
+    dcterms:date "2026-10-15 03:00:01.0" ;
     dcterms:description "Terms built using the BODC parameter semantic model designed to describe individual measured phenomena. May be used to mark up sets of data such as a NetCDF array or spreadsheet column. Units must be specified when using a P01 code. The P06 unit that is linked to individual P01 in the NVS is the one used in BODC's systems but external users can use any appropriate units." ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:publisher "Natural Environment Research Council" ;
@@ -23,7 +23,7 @@
     grg:RE_RegisterOwner "British Oceanographic Data Centre" ;
     rdfs:comment "Governance for vocabularies used within the data centre" ;
     rdfs:seeAlso <https://github.com/nvs-vocabs/P01> ;
-    owl:versionInfo "1384" ;
+    owl:versionInfo "1385" ;
     skos:altLabel "BODC PUV" ;
     skos:member <http://vocab.nerc.ac.uk/collection/P01/current/1IPSWF45/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/2IPSWF45/>,
@@ -33658,6 +33658,10 @@
         <http://vocab.nerc.ac.uk/collection/P01/current/PCGDAP04/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/PCGDAP05/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/PCGDAP06/>,
+        <http://vocab.nerc.ac.uk/collection/P01/current/PCGDAP07/>,
+        <http://vocab.nerc.ac.uk/collection/P01/current/PCGDAP08/>,
+        <http://vocab.nerc.ac.uk/collection/P01/current/PCGDAP09/>,
+        <http://vocab.nerc.ac.uk/collection/P01/current/PCGDAP10/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/PCGDSA01/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/PCGDSTEK/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/PCGDWR01/>,
@@ -848856,6 +848860,98 @@
         <http://vocab.nerc.ac.uk/collection/S02/current/S025/>,
         <http://vocab.nerc.ac.uk/collection/S04/current/S04264/> ;
     iop:hasMatrix <http://vocab.nerc.ac.uk/collection/S21/current/S21S027/> .
+
+<http://vocab.nerc.ac.uk/collection/P01/current/PCGDAP07/> rdf:type skos:Concept ;
+    dc:identifier "SDN:P01::PCGDAP07" ;
+    dcterms:date "2026-10-14 14:16:07.0" ;
+    dcterms:identifier "SDN:P01::PCGDAP07" ;
+    pav:authoredOn "2026-10-14 14:16:07.0" ;
+    pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/P01/current/PCGDAP07/1/> ;
+    pav:version "1" ;
+    void:inDataset <http://vocab.nerc.ac.uk/.well-known/void> ;
+    owl:deprecated "false" ;
+    owl:versionInfo "1" ;
+    skos:altLabel "ISEcoord_PG1" ;
+    skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/TMES/>,
+        <http://vocab.nerc.ac.uk/collection/S06/current/S0600018/>,
+        <http://vocab.nerc.ac.uk/collection/S26/current/MAT00640/>,
+        <http://vocab.nerc.ac.uk/collection/S29/current/PE001594/> ;
+    skos:definition "The percentage of velocity measurements, within a single ensemble, that have been transformed using accepted signal returns from 3 beams by a moored acoustic doppler current profiler (ADCP)."@en ;
+    skos:notation "SDN:P01::PCGDAP07" ;
+    skos:note "accepted"@en ;
+    skos:prefLabel "Proportion of accepted velocity data per ensemble (3-beam solution) in the water body by moored acoustic doppler current profiler (ADCP)"@en ;
+    skos:related <http://vocab.nerc.ac.uk/collection/P06/current/UPCT/>,
+        <http://vocab.nerc.ac.uk/collection/S02/current/S028/>,
+        <http://vocab.nerc.ac.uk/collection/S04/current/S04264/> .
+
+<http://vocab.nerc.ac.uk/collection/P01/current/PCGDAP08/> rdf:type skos:Concept ;
+    dc:identifier "SDN:P01::PCGDAP08" ;
+    dcterms:date "2026-10-14 14:16:07.0" ;
+    dcterms:identifier "SDN:P01::PCGDAP08" ;
+    pav:authoredOn "2026-10-14 14:16:07.0" ;
+    pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/P01/current/PCGDAP08/1/> ;
+    pav:version "1" ;
+    void:inDataset <http://vocab.nerc.ac.uk/.well-known/void> ;
+    owl:deprecated "false" ;
+    owl:versionInfo "1" ;
+    skos:altLabel "ISEcoord_PG2" ;
+    skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/TMES/>,
+        <http://vocab.nerc.ac.uk/collection/S06/current/S0600018/>,
+        <http://vocab.nerc.ac.uk/collection/S26/current/MAT00640/>,
+        <http://vocab.nerc.ac.uk/collection/S29/current/PE001595/> ;
+    skos:definition "The percentage of velocity measurements, within a single ensemble, that have been transformed using accepted signal returns from 4 beams and then failed the error velocity test by a moored acoustic doppler current profiler (ADCP)."@en ;
+    skos:notation "SDN:P01::PCGDAP08" ;
+    skos:note "accepted"@en ;
+    skos:prefLabel "Proportion of rejected velocity data per ensemble (based on error velocity test) in the water body by moored acoustic doppler current profiler (ADCP)"@en ;
+    skos:related <http://vocab.nerc.ac.uk/collection/P06/current/UPCT/>,
+        <http://vocab.nerc.ac.uk/collection/S02/current/S028/>,
+        <http://vocab.nerc.ac.uk/collection/S04/current/S04264/> .
+
+<http://vocab.nerc.ac.uk/collection/P01/current/PCGDAP09/> rdf:type skos:Concept ;
+    dc:identifier "SDN:P01::PCGDAP09" ;
+    dcterms:date "2026-10-14 14:16:07.0" ;
+    dcterms:identifier "SDN:P01::PCGDAP09" ;
+    pav:authoredOn "2026-10-14 14:16:07.0" ;
+    pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/P01/current/PCGDAP09/1/> ;
+    pav:version "1" ;
+    void:inDataset <http://vocab.nerc.ac.uk/.well-known/void> ;
+    owl:deprecated "false" ;
+    owl:versionInfo "1" ;
+    skos:altLabel "ISEcoord_PG3" ;
+    skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/TMES/>,
+        <http://vocab.nerc.ac.uk/collection/S06/current/S0600018/>,
+        <http://vocab.nerc.ac.uk/collection/S26/current/MAT00640/>,
+        <http://vocab.nerc.ac.uk/collection/S29/current/PE001596/> ;
+    skos:definition "The percentage of velocity measurements, within a single ensemble, that could not be transformed due to a lack of acceptable signal returns from 2 or more beams by a moored acoustic doppler current profiler (ADCP)."@en ;
+    skos:notation "SDN:P01::PCGDAP09" ;
+    skos:note "accepted"@en ;
+    skos:prefLabel "Proportion of rejected velocity data per ensemble (due to lack of acceptable signal returns) in the water body by moored acoustic doppler current profiler (ADCP)"@en ;
+    skos:related <http://vocab.nerc.ac.uk/collection/P06/current/UPCT/>,
+        <http://vocab.nerc.ac.uk/collection/S02/current/S028/>,
+        <http://vocab.nerc.ac.uk/collection/S04/current/S04264/> .
+
+<http://vocab.nerc.ac.uk/collection/P01/current/PCGDAP10/> rdf:type skos:Concept ;
+    dc:identifier "SDN:P01::PCGDAP10" ;
+    dcterms:date "2026-10-14 14:16:07.0" ;
+    dcterms:identifier "SDN:P01::PCGDAP10" ;
+    pav:authoredOn "2026-10-14 14:16:07.0" ;
+    pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/P01/current/PCGDAP10/1/> ;
+    pav:version "1" ;
+    void:inDataset <http://vocab.nerc.ac.uk/.well-known/void> ;
+    owl:deprecated "false" ;
+    owl:versionInfo "1" ;
+    skos:altLabel "ISEcoord_PG4" ;
+    skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/TMES/>,
+        <http://vocab.nerc.ac.uk/collection/S06/current/S0600018/>,
+        <http://vocab.nerc.ac.uk/collection/S26/current/MAT00640/>,
+        <http://vocab.nerc.ac.uk/collection/S29/current/PE001597/> ;
+    skos:definition "The percentage of velocity measurements, within a single ensemble, that have been transformed using accepted signal returns from 4 beams and then passed the error velocity test by a moored acoustic doppler current profiler (ADCP)."@en ;
+    skos:notation "SDN:P01::PCGDAP10" ;
+    skos:note "accepted"@en ;
+    skos:prefLabel "Proportion of accepted velocity data per ensemble (4-beam solution) in the water body by moored acoustic doppler current profiler (ADCP)"@en ;
+    skos:related <http://vocab.nerc.ac.uk/collection/P06/current/UPCT/>,
+        <http://vocab.nerc.ac.uk/collection/S02/current/S028/>,
+        <http://vocab.nerc.ac.uk/collection/S04/current/S04264/> .
 
 <http://vocab.nerc.ac.uk/collection/P01/current/PCGDSA01/> rdf:type skos:Concept ;
     dc:identifier "SDN:P01::PCGDSA01" ;
