@@ -56,6 +56,24 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:note              "accepted"@en;
         skos:prefLabel         "/[length]/[time]"@en .
 
+<http://vocab.nerc.ac.uk/collection/P24/current/MSPTIME/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P24::MSPTIME";
+        dc:date                "2026-10-19 09:57:18.0";
+        dc:identifier          "SDN:P24::MSPTIME";
+        pav:authoredOn         "2026-10-19 09:57:18.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P24/current/MSPTIME/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "[M]/[T]";
+        skos:definition        "The fundamental dimension of heaviness per the fundamental dimension of time."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P06/current/KGPH/>;
+        skos:notation          "SDN:P24::MSPTIME";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "[mass]/[time]"@en .
+
 <http://vocab.nerc.ac.uk/collection/P24/current/RADPERL/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:P24::RADPERL";
@@ -218,6 +236,24 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:P24::PERVOLPERTIME";
         skos:note              "accepted"@en;
         skos:prefLabel         "/[length*length*length]/[time]"@en .
+
+<http://vocab.nerc.ac.uk/collection/P24/current/MSPLENGTH/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:P24::MSPLENGTH";
+        dc:date                "2026-10-19 09:55:38.0";
+        dc:identifier          "SDN:P24::MSPLENGTH";
+        pav:authoredOn         "2026-10-19 09:55:38.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/P24/current/MSPLENGTH/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "[M]/[L]";
+        skos:definition        "The fundamental dimension of heaviness per the fundamental dimension of length."@en;
+        skos:narrower          <http://vocab.nerc.ac.uk/collection/P06/current/KGMR/>;
+        skos:notation          "SDN:P24::MSPLENGTH";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "[mass]/[length]"@en .
 
 <http://vocab.nerc.ac.uk/collection/P24/current/PERMASS/>
         rdf:type               skos:Concept;
@@ -989,14 +1025,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         rdfs:comment            "Governance for vocabularies used within the data centre";
         dc:alternative          "Dimensions";
         dc:creator              "British Oceanographic Data Centre";
-        dc:date                 "2026-04-14 03:00:01.0";
+        dc:date                 "2026-10-20 03:00:00.0";
         dc:description          "Classification concepts for units of measure based upon the fundamental SI quantities upon which they are based.";
         dc:license              <https://creativecommons.org/licenses/by/4.0/>;
         dc:publisher            "Natural Environment Research Council";
         dc:title                "Units of measure dimensions";
         grg:RE_RegisterManager  "British Oceanographic Data Centre";
         grg:RE_RegisterOwner    "British Oceanographic Data Centre";
-        owl:versionInfo         "23";
+        owl:versionInfo         "24";
         skos:altLabel           "Dimensions";
-        skos:member             <http://vocab.nerc.ac.uk/collection/P24/current/MSPVOLLENGTH/> , <http://vocab.nerc.ac.uk/collection/P24/current/PERLENGTHPERTIME/> , <http://vocab.nerc.ac.uk/collection/P24/current/RADPERL/> , <http://vocab.nerc.ac.uk/collection/P24/current/MPERLPERT/> , <http://vocab.nerc.ac.uk/collection/P24/current/MOLPAREA/> , <http://vocab.nerc.ac.uk/collection/P24/current/MSPRTMSQ/> , <http://vocab.nerc.ac.uk/collection/P24/current/MOLPMASSPTIME/> , <http://vocab.nerc.ac.uk/collection/P24/current/MOLPMOL/> , <http://vocab.nerc.ac.uk/collection/P24/current/MPMPTPPFD/> , <http://vocab.nerc.ac.uk/collection/P24/current/TIMEPERLENGTH/> , <http://vocab.nerc.ac.uk/collection/P24/current/PERVOLPERTIME/> , <http://vocab.nerc.ac.uk/collection/P24/current/PERMASS/> , <http://vocab.nerc.ac.uk/collection/P24/current/MOLPTIME/> , <http://vocab.nerc.ac.uk/collection/P24/current/MOLPAREAPTIME/> , <http://vocab.nerc.ac.uk/collection/P24/current/AREAPVOL/> , <http://vocab.nerc.ac.uk/collection/P24/current/PERLENGTHPERLENGTH/> , <http://vocab.nerc.ac.uk/collection/P24/current/A/> , <http://vocab.nerc.ac.uk/collection/P24/current/POWER/> , <http://vocab.nerc.ac.uk/collection/P24/current/PERLENGTH/> , <http://vocab.nerc.ac.uk/collection/P24/current/FORCEPAREA/> , <http://vocab.nerc.ac.uk/collection/P24/current/VOLPERMASS/> , <http://vocab.nerc.ac.uk/collection/P24/current/MSPVOLTIME/> , <http://vocab.nerc.ac.uk/collection/P24/current/JPMOL/> , <http://vocab.nerc.ac.uk/collection/P24/current/ENERGY/> , <http://vocab.nerc.ac.uk/collection/P24/current/PERAREAPERTIME/> , <http://vocab.nerc.ac.uk/collection/P24/current/PERTIMEVOL/> , <http://vocab.nerc.ac.uk/collection/P24/current/PERMOLPVOL/> , <http://vocab.nerc.ac.uk/collection/P24/current/MSPAREATIME/> , <http://vocab.nerc.ac.uk/collection/P24/current/MPMPTIME/> , <http://vocab.nerc.ac.uk/collection/P24/current/TIME/> , <http://vocab.nerc.ac.uk/collection/P24/current/SIEMPM/> , <http://vocab.nerc.ac.uk/collection/P24/current/MOLPVOLPTIME/> , <http://vocab.nerc.ac.uk/collection/P24/current/MOL/> , <http://vocab.nerc.ac.uk/collection/P24/current/AREAPERTIME/> , <http://vocab.nerc.ac.uk/collection/P24/current/SPEED/> , <http://vocab.nerc.ac.uk/collection/P24/current/VOLVOL/> , <http://vocab.nerc.ac.uk/collection/P24/current/NMASS/> , <http://vocab.nerc.ac.uk/collection/P24/current/PERVOL/> , <http://vocab.nerc.ac.uk/collection/P24/current/AREA/> , <http://vocab.nerc.ac.uk/collection/P24/current/PERAREA/> , <http://vocab.nerc.ac.uk/collection/P24/current/RAD/> , <http://vocab.nerc.ac.uk/collection/P24/current/MOLPVOL/> , <http://vocab.nerc.ac.uk/collection/P24/current/NASSMASS/> , <http://vocab.nerc.ac.uk/collection/P24/current/DIMLESS/> , <http://vocab.nerc.ac.uk/collection/P24/current/VOL/> , <http://vocab.nerc.ac.uk/collection/P24/current/KELVIN/> , <http://vocab.nerc.ac.uk/collection/P24/current/PERTIME/> , <http://vocab.nerc.ac.uk/collection/P24/current/POWAREA/> , <http://vocab.nerc.ac.uk/collection/P24/current/MSPAREA/> , <http://vocab.nerc.ac.uk/collection/P24/current/LENGTH/> , <http://vocab.nerc.ac.uk/collection/P24/current/MSPVOL/> , <http://vocab.nerc.ac.uk/collection/P24/current/MOLPMASS/>;
+        skos:member             <http://vocab.nerc.ac.uk/collection/P24/current/MSPVOLLENGTH/> , <http://vocab.nerc.ac.uk/collection/P24/current/PERLENGTHPERTIME/> , <http://vocab.nerc.ac.uk/collection/P24/current/MSPTIME/> , <http://vocab.nerc.ac.uk/collection/P24/current/RADPERL/> , <http://vocab.nerc.ac.uk/collection/P24/current/MPERLPERT/> , <http://vocab.nerc.ac.uk/collection/P24/current/MOLPAREA/> , <http://vocab.nerc.ac.uk/collection/P24/current/MSPRTMSQ/> , <http://vocab.nerc.ac.uk/collection/P24/current/MOLPMASSPTIME/> , <http://vocab.nerc.ac.uk/collection/P24/current/MOLPMOL/> , <http://vocab.nerc.ac.uk/collection/P24/current/MPMPTPPFD/> , <http://vocab.nerc.ac.uk/collection/P24/current/TIMEPERLENGTH/> , <http://vocab.nerc.ac.uk/collection/P24/current/PERVOLPERTIME/> , <http://vocab.nerc.ac.uk/collection/P24/current/MSPLENGTH/> , <http://vocab.nerc.ac.uk/collection/P24/current/PERMASS/> , <http://vocab.nerc.ac.uk/collection/P24/current/MOLPTIME/> , <http://vocab.nerc.ac.uk/collection/P24/current/MOLPAREAPTIME/> , <http://vocab.nerc.ac.uk/collection/P24/current/AREAPVOL/> , <http://vocab.nerc.ac.uk/collection/P24/current/PERLENGTHPERLENGTH/> , <http://vocab.nerc.ac.uk/collection/P24/current/A/> , <http://vocab.nerc.ac.uk/collection/P24/current/POWER/> , <http://vocab.nerc.ac.uk/collection/P24/current/PERLENGTH/> , <http://vocab.nerc.ac.uk/collection/P24/current/FORCEPAREA/> , <http://vocab.nerc.ac.uk/collection/P24/current/VOLPERMASS/> , <http://vocab.nerc.ac.uk/collection/P24/current/MSPVOLTIME/> , <http://vocab.nerc.ac.uk/collection/P24/current/JPMOL/> , <http://vocab.nerc.ac.uk/collection/P24/current/ENERGY/> , <http://vocab.nerc.ac.uk/collection/P24/current/PERAREAPERTIME/> , <http://vocab.nerc.ac.uk/collection/P24/current/PERTIMEVOL/> , <http://vocab.nerc.ac.uk/collection/P24/current/PERMOLPVOL/> , <http://vocab.nerc.ac.uk/collection/P24/current/MSPAREATIME/> , <http://vocab.nerc.ac.uk/collection/P24/current/MPMPTIME/> , <http://vocab.nerc.ac.uk/collection/P24/current/TIME/> , <http://vocab.nerc.ac.uk/collection/P24/current/SIEMPM/> , <http://vocab.nerc.ac.uk/collection/P24/current/MOLPVOLPTIME/> , <http://vocab.nerc.ac.uk/collection/P24/current/MOL/> , <http://vocab.nerc.ac.uk/collection/P24/current/AREAPERTIME/> , <http://vocab.nerc.ac.uk/collection/P24/current/SPEED/> , <http://vocab.nerc.ac.uk/collection/P24/current/VOLVOL/> , <http://vocab.nerc.ac.uk/collection/P24/current/NMASS/> , <http://vocab.nerc.ac.uk/collection/P24/current/PERVOL/> , <http://vocab.nerc.ac.uk/collection/P24/current/AREA/> , <http://vocab.nerc.ac.uk/collection/P24/current/PERAREA/> , <http://vocab.nerc.ac.uk/collection/P24/current/RAD/> , <http://vocab.nerc.ac.uk/collection/P24/current/MOLPVOL/> , <http://vocab.nerc.ac.uk/collection/P24/current/NASSMASS/> , <http://vocab.nerc.ac.uk/collection/P24/current/DIMLESS/> , <http://vocab.nerc.ac.uk/collection/P24/current/VOL/> , <http://vocab.nerc.ac.uk/collection/P24/current/KELVIN/> , <http://vocab.nerc.ac.uk/collection/P24/current/PERTIME/> , <http://vocab.nerc.ac.uk/collection/P24/current/POWAREA/> , <http://vocab.nerc.ac.uk/collection/P24/current/MSPAREA/> , <http://vocab.nerc.ac.uk/collection/P24/current/LENGTH/> , <http://vocab.nerc.ac.uk/collection/P24/current/MSPVOL/> , <http://vocab.nerc.ac.uk/collection/P24/current/MOLPMASS/>;
         skos:prefLabel          "Units of measure dimensions" .
