@@ -14,7 +14,7 @@
     dcterms:conformsTo <https://w3id.org/env/puv>,
         <https://w3id.org/iadopt/ont> ;
     dcterms:creator "British Oceanographic Data Centre" ;
-    dcterms:date "2026-10-15 03:00:01.0" ;
+    dcterms:date "2026-10-22 03:00:06.0" ;
     dcterms:description "Terms built using the BODC parameter semantic model designed to describe individual measured phenomena. May be used to mark up sets of data such as a NetCDF array or spreadsheet column. Units must be specified when using a P01 code. The P06 unit that is linked to individual P01 in the NVS is the one used in BODC's systems but external users can use any appropriate units." ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:publisher "Natural Environment Research Council" ;
@@ -23,7 +23,7 @@
     grg:RE_RegisterOwner "British Oceanographic Data Centre" ;
     rdfs:comment "Governance for vocabularies used within the data centre" ;
     rdfs:seeAlso <https://github.com/nvs-vocabs/P01> ;
-    owl:versionInfo "1385" ;
+    owl:versionInfo "1386" ;
     skos:altLabel "BODC PUV" ;
     skos:member <http://vocab.nerc.ac.uk/collection/P01/current/1IPSWF45/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/2IPSWF45/>,
@@ -39897,6 +39897,7 @@
         <http://vocab.nerc.ac.uk/collection/P01/current/SQNEGCP2/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/SQNEGCP4/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/SQNOIRCN/>,
+        <http://vocab.nerc.ac.uk/collection/P01/current/SQPLPR01/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/SR26GSPS/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/SR2DTTSS/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/SR3DTTSS/>,
@@ -998627,6 +998628,26 @@
     skos:prefLabel "Sequence number (connection attempt) by Iridium telecommunications"@en ;
     skos:related <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> ;
     iop:hasMatrix <http://vocab.nerc.ac.uk/collection/S21/current/S21S017/> .
+
+<http://vocab.nerc.ac.uk/collection/P01/current/SQPLPR01/> rdf:type skos:Concept ;
+    dc:identifier "SDN:P01::SQPLPR01" ;
+    dcterms:date "2026-10-21 09:54:12.0" ;
+    dcterms:identifier "SDN:P01::SQPLPR01" ;
+    pav:authoredOn "2026-10-21 09:54:12.0" ;
+    pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/P01/current/SQPLPR01/1/> ;
+    pav:version "1" ;
+    void:inDataset <http://vocab.nerc.ac.uk/.well-known/void> ;
+    owl:deprecated "false" ;
+    owl:versionInfo "1" ;
+    skos:altLabel "SeqNo_platform_profile" ;
+    skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/ACYC/>,
+        <http://vocab.nerc.ac.uk/collection/S06/current/S0600275/>,
+        <http://vocab.nerc.ac.uk/collection/S29/current/PE001598/> ;
+    skos:definition "A numeric value indicating the relative position of a platform's profile through any kind of matrix in a sampling event consisting of multiple successive profiles."@en ;
+    skos:notation "SDN:P01::SQPLPR01" ;
+    skos:note "accepted"@en ;
+    skos:prefLabel "Sequence number of platform's profile"@en ;
+    skos:related <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/P01/current/SR26GSPS/> rdf:type skos:Concept ;
     dc:identifier "SDN:P01::SR26GSPS" ;
