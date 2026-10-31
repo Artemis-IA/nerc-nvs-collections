@@ -14,7 +14,7 @@
     dcterms:conformsTo <https://w3id.org/env/puv>,
         <https://w3id.org/iadopt/ont> ;
     dcterms:creator "British Oceanographic Data Centre" ;
-    dcterms:date "2026-10-22 03:00:06.0" ;
+    dcterms:date "2026-10-31 02:00:01.0" ;
     dcterms:description "Terms built using the BODC parameter semantic model designed to describe individual measured phenomena. May be used to mark up sets of data such as a NetCDF array or spreadsheet column. Units must be specified when using a P01 code. The P06 unit that is linked to individual P01 in the NVS is the one used in BODC's systems but external users can use any appropriate units." ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:publisher "Natural Environment Research Council" ;
@@ -23,7 +23,7 @@
     grg:RE_RegisterOwner "British Oceanographic Data Centre" ;
     rdfs:comment "Governance for vocabularies used within the data centre" ;
     rdfs:seeAlso <https://github.com/nvs-vocabs/P01> ;
-    owl:versionInfo "1386" ;
+    owl:versionInfo "1387" ;
     skos:altLabel "BODC PUV" ;
     skos:member <http://vocab.nerc.ac.uk/collection/P01/current/1IPSWF45/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/2IPSWF45/>,
@@ -5832,6 +5832,7 @@
         <http://vocab.nerc.ac.uk/collection/P01/current/BROTURO9/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/BRTRALI7/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/BRXXWBIC/>,
+        <http://vocab.nerc.ac.uk/collection/P01/current/BRXXWBMS/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/BRY00669/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/BRY10164/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/BRYLLIU6/>,
@@ -9392,6 +9393,7 @@
         <http://vocab.nerc.ac.uk/collection/P01/current/CCU56060/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/CCU56069/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/CCUSED01/>,
+        <http://vocab.nerc.ac.uk/collection/P01/current/CCWBMS04/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/CCWBXX01/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/CCWDSID1/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/CCXTXXP1/>,
@@ -18857,6 +18859,8 @@
         <http://vocab.nerc.ac.uk/collection/P01/current/HFERYLI8/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/HFICKEL4/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/HFITANI5/>,
+        <http://vocab.nerc.ac.uk/collection/P01/current/HFITHIU1/>,
+        <http://vocab.nerc.ac.uk/collection/P01/current/HFITHIU2/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/HFITHIU5/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/HFITNA08/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/HFITRAT7/>,
@@ -18891,6 +18895,8 @@
         <http://vocab.nerc.ac.uk/collection/P01/current/HFRNSD01/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/HFRNUN01/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/HFRNV001/>,
+        <http://vocab.nerc.ac.uk/collection/P01/current/HFROMID1/>,
+        <http://vocab.nerc.ac.uk/collection/P01/current/HFROMID2/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/HFROMID8/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/HFROMIU2/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/HFRSDC01/>,
@@ -37944,6 +37950,8 @@
         <http://vocab.nerc.ac.uk/collection/P01/current/RWS00161/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/RWS00162/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/RWS00163/>,
+        <http://vocab.nerc.ac.uk/collection/P01/current/RWS00164/>,
+        <http://vocab.nerc.ac.uk/collection/P01/current/RWS00165/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/RWSPM001/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/RWSPM002/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/RWSPM003/>,
@@ -185953,6 +185961,30 @@
         <http://vocab.nerc.ac.uk/collection/S03/current/S0393/>,
         <http://vocab.nerc.ac.uk/collection/S04/current/S04240/> .
 
+<http://vocab.nerc.ac.uk/collection/P01/current/BRXXWBMS/> rdf:type skos:Concept ;
+    dc:identifier "SDN:P01::BRXXWBMS" ;
+    dcterms:date "2026-10-30 14:48:56.0" ;
+    dcterms:identifier "SDN:P01::BRXXWBMS" ;
+    pav:authoredOn "2026-10-30 14:48:56.0" ;
+    pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/P01/current/BRXXWBMS/1/> ;
+    pav:version "1" ;
+    void:inDataset <http://vocab.nerc.ac.uk/.well-known/void> ;
+    owl:deprecated "false" ;
+    owl:versionInfo "1" ;
+    skos:altLabel "Br-_water<0.4/0.45um_ICPMS" ;
+    skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/HLWC/>,
+        <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
+        <http://vocab.nerc.ac.uk/collection/S26/current/MAT00563/>,
+        <http://vocab.nerc.ac.uk/collection/S27/current/CS003119/> ;
+    skos:definition "Quantity or mass of the specified substance measured in a specified volume of a sample from any body of fresh or salt water passed through a 0.4um or 0.45um filter and analysed by the specified method."@en ;
+    skos:notation "SDN:P01::BRXXWBMS" ;
+    skos:note "accepted"@en ;
+    skos:prefLabel "Concentration of bromide {Br- CAS 24959-67-9} per unit volume of the water body [dissolved plus reactive particulate <0.4/0.45um phase] by filtration and inductively-coupled plasma mass spectrometry"@en ;
+    skos:related <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
+        <http://vocab.nerc.ac.uk/collection/S02/current/S053/>,
+        <http://vocab.nerc.ac.uk/collection/S03/current/S0393/>,
+        <http://vocab.nerc.ac.uk/collection/S04/current/S04236/> .
+
 <http://vocab.nerc.ac.uk/collection/P01/current/BRY00669/> rdf:type skos:Concept ;
     dc:identifier "SDN:P01::BRY00669" ;
     dcterms:date "2025-07-10 16:46:21.0" ;
@@ -275785,6 +275817,30 @@
     skos:related <http://vocab.nerc.ac.uk/collection/P06/current/UUKG/>,
         <http://vocab.nerc.ac.uk/collection/S02/current/S055/> ;
     iop:hasMatrix <http://vocab.nerc.ac.uk/collection/S21/current/S21S022/> .
+
+<http://vocab.nerc.ac.uk/collection/P01/current/CCWBMS04/> rdf:type skos:Concept ;
+    dc:identifier "SDN:P01::CCWBMS04" ;
+    dcterms:date "2026-10-30 14:48:56.0" ;
+    dcterms:identifier "SDN:P01::CCWBMS04" ;
+    pav:authoredOn "2026-10-30 14:48:56.0" ;
+    pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/P01/current/CCWBMS04/1/> ;
+    pav:version "1" ;
+    void:inDataset <http://vocab.nerc.ac.uk/.well-known/void> ;
+    owl:deprecated "false" ;
+    owl:versionInfo "1" ;
+    skos:altLabel "Cs_water<0.4/0.45_ICPMS" ;
+    skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MTWD/>,
+        <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
+        <http://vocab.nerc.ac.uk/collection/S26/current/MAT00563/>,
+        <http://vocab.nerc.ac.uk/collection/S27/current/CS003115/> ;
+    skos:definition "Quantity or mass of the specified substance measured in a specified volume of a sample from any body of fresh or salt water passed through a 0.4um or 0.45um filter and analysed by the specified method."@en ;
+    skos:notation "SDN:P01::CCWBMS04" ;
+    skos:note "accepted"@en ;
+    skos:prefLabel "Concentration of caesium {Cs CAS 7440-46-2} per unit volume of the water body [dissolved plus reactive particulate <0.4/0.45um phase] by filtration and inductively-coupled plasma mass spectrometry"@en ;
+    skos:related <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
+        <http://vocab.nerc.ac.uk/collection/S02/current/S053/>,
+        <http://vocab.nerc.ac.uk/collection/S03/current/S0393/>,
+        <http://vocab.nerc.ac.uk/collection/S04/current/S04236/> .
 
 <http://vocab.nerc.ac.uk/collection/P01/current/CCWBXX01/> rdf:type skos:Concept ;
     dc:identifier "SDN:P01::CCWBXX01" ;
@@ -500320,6 +500376,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "Mg_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MTHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS002981/> ;
@@ -500342,6 +500399,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "Tl_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MTHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS003132/> ;
@@ -500364,6 +500422,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "As_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MDHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS002328/> ;
@@ -500386,6 +500445,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "Ba_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MTHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS002335/> ;
@@ -500408,6 +500468,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "Cd_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MTHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS002363/> ;
@@ -500430,6 +500491,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "Ca_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MTHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS002921/> ;
@@ -500480,6 +500542,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "Cs_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MTHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS003115/> ;
@@ -500502,6 +500565,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "Be_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MTHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS003266/> ;
@@ -500524,6 +500588,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "Ni_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MTHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS002566/> ;
@@ -500546,6 +500611,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "Ti_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MTHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS002918/> ;
@@ -500555,6 +500621,54 @@
     skos:prefLabel "Concentration of titanium {Ti CAS 7440-32-6} per unit volume of hydrothermal fluid [dissolved plus reactive particulate <0.4/0.45um phase]"@en ;
     skos:related <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/>,
         <http://vocab.nerc.ac.uk/collection/S02/current/S052/> .
+
+<http://vocab.nerc.ac.uk/collection/P01/current/HFITHIU1/> rdf:type skos:Concept ;
+    dc:identifier "SDN:P01::HFITHIU1" ;
+    dcterms:date "2026-10-30 14:48:56.0" ;
+    dcterms:identifier "SDN:P01::HFITHIU1" ;
+    pav:authoredOn "2026-10-30 14:48:56.0" ;
+    pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/P01/current/HFITHIU1/1/> ;
+    pav:version "1" ;
+    void:inDataset <http://vocab.nerc.ac.uk/.well-known/void> ;
+    owl:deprecated "false" ;
+    owl:versionInfo "1" ;
+    skos:altLabel "Li_HyFluid<0.4/0.45_IC" ;
+    skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MTHF/>,
+        <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
+        <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
+        <http://vocab.nerc.ac.uk/collection/S27/current/CS002552/> ;
+    skos:definition "The concentration of the specified analyte in hydrothermal fluid passed through a 0.4um or 0.45um filter and analysed by the specified method."@en ;
+    skos:notation "SDN:P01::HFITHIU1" ;
+    skos:note "accepted"@en ;
+    skos:prefLabel "Concentration of lithium {Li CAS 7439-93-2} per unit volume of hydrothermal fluid [dissolved plus reactive particulate <0.4/0.45um phase] by filtration and ion chromatography"@en ;
+    skos:related <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
+        <http://vocab.nerc.ac.uk/collection/S02/current/S052/>,
+        <http://vocab.nerc.ac.uk/collection/S03/current/S0393/>,
+        <http://vocab.nerc.ac.uk/collection/S04/current/S04240/> .
+
+<http://vocab.nerc.ac.uk/collection/P01/current/HFITHIU2/> rdf:type skos:Concept ;
+    dc:identifier "SDN:P01::HFITHIU2" ;
+    dcterms:date "2026-10-30 14:48:56.0" ;
+    dcterms:identifier "SDN:P01::HFITHIU2" ;
+    pav:authoredOn "2026-10-30 14:48:56.0" ;
+    pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/P01/current/HFITHIU2/1/> ;
+    pav:version "1" ;
+    void:inDataset <http://vocab.nerc.ac.uk/.well-known/void> ;
+    owl:deprecated "false" ;
+    owl:versionInfo "1" ;
+    skos:altLabel "Li_HyFluid<0.4/0.45_ICPMS" ;
+    skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MTHF/>,
+        <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
+        <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
+        <http://vocab.nerc.ac.uk/collection/S27/current/CS002552/> ;
+    skos:definition "The concentration of the specified analyte in hydrothermal fluid passed through a 0.4um or 0.45um filter and analysed by the specified method."@en ;
+    skos:notation "SDN:P01::HFITHIU2" ;
+    skos:note "accepted"@en ;
+    skos:prefLabel "Concentration of lithium {Li CAS 7439-93-2} per unit volume of hydrothermal fluid [dissolved plus reactive particulate <0.4/0.45um phase] by filtration and inductively-coupled plasma mass spectrometry"@en ;
+    skos:related <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
+        <http://vocab.nerc.ac.uk/collection/S02/current/S052/>,
+        <http://vocab.nerc.ac.uk/collection/S03/current/S0393/>,
+        <http://vocab.nerc.ac.uk/collection/S04/current/S04236/> .
 
 <http://vocab.nerc.ac.uk/collection/P01/current/HFITHIU5/> rdf:type skos:Concept ;
     dc:identifier "SDN:P01::HFITHIU5" ;
@@ -500568,6 +500682,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "Li_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MTHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS002552/> ;
@@ -500590,6 +500705,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "Sn_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MTHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS003004/> ;
@@ -500612,6 +500728,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "NO3-_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/NUHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS002879/> ;
@@ -500662,6 +500779,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "Pb_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MTHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS002545/> ;
@@ -500684,6 +500802,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "Cl-_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/HLHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS002905/> ;
@@ -500706,6 +500825,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "Al_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MTHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS002991/> ;
@@ -500728,6 +500848,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "totMn_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MTHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS000305/> ;
@@ -500750,6 +500871,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "Co_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MTHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS002447/> ;
@@ -500772,6 +500894,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "Cu_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MTHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS002454/> ;
@@ -500794,6 +500917,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "B_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MDHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS003263/> ;
@@ -500816,6 +500940,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "K_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MTHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS002923/> ;
@@ -500838,6 +500963,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "U_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MTHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS003112/> ;
@@ -500860,6 +500986,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "HCO3_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/CCHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS003328/> ;
@@ -501277,6 +501404,54 @@
     iop:hasObjectOfInterest <http://vocab.nerc.ac.uk/collection/S18/current/S1800022/> ;
     iop:hasProperty <http://vocab.nerc.ac.uk/collection/S06/current/S0600154/> .
 
+<http://vocab.nerc.ac.uk/collection/P01/current/HFROMID1/> rdf:type skos:Concept ;
+    dc:identifier "SDN:P01::HFROMID1" ;
+    dcterms:date "2026-10-30 14:48:56.0" ;
+    dcterms:identifier "SDN:P01::HFROMID1" ;
+    pav:authoredOn "2026-10-30 14:48:56.0" ;
+    pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/P01/current/HFROMID1/1/> ;
+    pav:version "1" ;
+    void:inDataset <http://vocab.nerc.ac.uk/.well-known/void> ;
+    owl:deprecated "false" ;
+    owl:versionInfo "1" ;
+    skos:altLabel "Br-_HyFluid<0.4/0.45_IC" ;
+    skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/HLHF/>,
+        <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
+        <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
+        <http://vocab.nerc.ac.uk/collection/S27/current/CS003119/> ;
+    skos:definition "The concentration of the specified analyte in hydrothermal fluid passed through a 0.4um or 0.45um filter and analysed by the specified method."@en ;
+    skos:notation "SDN:P01::HFROMID1" ;
+    skos:note "accepted"@en ;
+    skos:prefLabel "Concentration of bromide {Br- CAS 24959-67-9} per unit volume of hydrothermal fluid [dissolved plus reactive particulate <0.4/0.45um phase] by filtration and ion chromatography"@en ;
+    skos:related <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
+        <http://vocab.nerc.ac.uk/collection/S02/current/S052/>,
+        <http://vocab.nerc.ac.uk/collection/S03/current/S0393/>,
+        <http://vocab.nerc.ac.uk/collection/S04/current/S04240/> .
+
+<http://vocab.nerc.ac.uk/collection/P01/current/HFROMID2/> rdf:type skos:Concept ;
+    dc:identifier "SDN:P01::HFROMID2" ;
+    dcterms:date "2026-10-30 14:48:56.0" ;
+    dcterms:identifier "SDN:P01::HFROMID2" ;
+    pav:authoredOn "2026-10-30 14:48:56.0" ;
+    pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/P01/current/HFROMID2/1/> ;
+    pav:version "1" ;
+    void:inDataset <http://vocab.nerc.ac.uk/.well-known/void> ;
+    owl:deprecated "false" ;
+    owl:versionInfo "1" ;
+    skos:altLabel "Br-_HyFluid<0.4/0.45_ICPMS" ;
+    skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/HLHF/>,
+        <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
+        <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
+        <http://vocab.nerc.ac.uk/collection/S27/current/CS003119/> ;
+    skos:definition "The concentration of the specified analyte in hydrothermal fluid passed through a 0.4um or 0.45um filter and analysed by the specified method."@en ;
+    skos:notation "SDN:P01::HFROMID2" ;
+    skos:note "accepted"@en ;
+    skos:prefLabel "Concentration of bromide {Br- CAS 24959-67-9} per unit volume of hydrothermal fluid [dissolved plus reactive particulate <0.4/0.45um phase] by filtration and inductively-coupled plasma mass spectrometry"@en ;
+    skos:related <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
+        <http://vocab.nerc.ac.uk/collection/S02/current/S052/>,
+        <http://vocab.nerc.ac.uk/collection/S03/current/S0393/>,
+        <http://vocab.nerc.ac.uk/collection/S04/current/S04236/> .
+
 <http://vocab.nerc.ac.uk/collection/P01/current/HFROMID8/> rdf:type skos:Concept ;
     dc:identifier "SDN:P01::HFROMID8" ;
     dcterms:date "2026-04-16 14:11:49.0" ;
@@ -501289,6 +501464,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "Br-_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/HLHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS003119/> ;
@@ -501311,6 +501487,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "Cr_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MTHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS002377/> ;
@@ -501516,6 +501693,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "Se_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MDHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS002608/> ;
@@ -501538,6 +501716,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "Si_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/SIHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS003151/> ;
@@ -501560,6 +501739,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "Na_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MTHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS002904/> ;
@@ -501582,6 +501762,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "Sr_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MTHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS002622/> ;
@@ -501604,6 +501785,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "SO4(2-)_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/SPHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS002976/> ;
@@ -501626,6 +501808,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "totFe_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MTHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS000284/> ;
@@ -501648,6 +501831,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "Sb_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MDHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS002962/> ;
@@ -501670,6 +501854,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "Rb_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MTHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS003116/> ;
@@ -501692,6 +501877,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "F-_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/HLHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS003120/> ;
@@ -501714,6 +501900,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "V_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MTHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS002664/> ;
@@ -501736,6 +501923,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "Mo_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MTHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS003003/> ;
@@ -501758,6 +501946,7 @@
     owl:versionInfo "1" ;
     skos:altLabel "Zn_HyFluid<0.4/0.45" ;
     skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MTHF/>,
+        <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
         <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
         <http://vocab.nerc.ac.uk/collection/S26/current/MAT02007/>,
         <http://vocab.nerc.ac.uk/collection/S27/current/CS002678/> ;
@@ -951312,6 +951501,52 @@
     skos:prefLabel "Concentration of arsenic {As CAS 7440-38-2} per unit volume of the water body [unknown phase]"@en ;
     skos:related <http://vocab.nerc.ac.uk/collection/P06/current/UPNM/>,
         <http://vocab.nerc.ac.uk/collection/S02/current/S053/> .
+
+<http://vocab.nerc.ac.uk/collection/P01/current/RWS00164/> rdf:type skos:Concept ;
+    dc:identifier "SDN:P01::RWS00164" ;
+    dcterms:date "2026-10-30 14:48:56.0" ;
+    dcterms:identifier "SDN:P01::RWS00164" ;
+    pav:authoredOn "2026-10-30 14:48:56.0" ;
+    pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/P01/current/RWS00164/1/> ;
+    pav:version "1" ;
+    void:inDataset <http://vocab.nerc.ac.uk/.well-known/void> ;
+    owl:deprecated "false" ;
+    owl:versionInfo "1" ;
+    skos:altLabel "Li_Unfilt_IC" ;
+    skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MTWT/>,
+        <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
+        <http://vocab.nerc.ac.uk/collection/S26/current/MAT00633/>,
+        <http://vocab.nerc.ac.uk/collection/S27/current/CS002552/> ;
+    skos:definition "Quantity or mass of the specified substance measured in a specified volume of an unfiltered sample from any body of fresh or salt water and analysed by the specified method."@en ;
+    skos:notation "SDN:P01::RWS00164" ;
+    skos:note "accepted"@en ;
+    skos:prefLabel "Concentration of lithium {Li CAS 7439-93-2} per unit volume of the water body [dissolved plus reactive particulate phase] by ion chromatography"@en ;
+    skos:related <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
+        <http://vocab.nerc.ac.uk/collection/S02/current/S053/>,
+        <http://vocab.nerc.ac.uk/collection/S04/current/S04240/> .
+
+<http://vocab.nerc.ac.uk/collection/P01/current/RWS00165/> rdf:type skos:Concept ;
+    dc:identifier "SDN:P01::RWS00165" ;
+    dcterms:date "2026-10-30 14:48:56.0" ;
+    dcterms:identifier "SDN:P01::RWS00165" ;
+    pav:authoredOn "2026-10-30 14:48:56.0" ;
+    pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/P01/current/RWS00165/1/> ;
+    pav:version "1" ;
+    void:inDataset <http://vocab.nerc.ac.uk/.well-known/void> ;
+    owl:deprecated "false" ;
+    owl:versionInfo "1" ;
+    skos:altLabel "Li_Unfilt_ICPMS" ;
+    skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/MTWT/>,
+        <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
+        <http://vocab.nerc.ac.uk/collection/S26/current/MAT00633/>,
+        <http://vocab.nerc.ac.uk/collection/S27/current/CS002552/> ;
+    skos:definition "Quantity or mass of the specified substance measured in a specified volume of an unfiltered sample from any body of fresh or salt water and analysed by the specified method."@en ;
+    skos:notation "SDN:P01::RWS00165" ;
+    skos:note "accepted"@en ;
+    skos:prefLabel "Concentration of lithium {Li CAS 7439-93-2} per unit volume of the water body [dissolved plus reactive particulate phase] by inductively-coupled plasma mass spectrometry"@en ;
+    skos:related <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/>,
+        <http://vocab.nerc.ac.uk/collection/S02/current/S053/>,
+        <http://vocab.nerc.ac.uk/collection/S04/current/S04236/> .
 
 <http://vocab.nerc.ac.uk/collection/P01/current/RWSPM001/> rdf:type skos:Concept ;
     dc:identifier "SDN:P01::RWSPM001" ;
