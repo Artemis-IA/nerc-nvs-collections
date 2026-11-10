@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Level 4";
+        skos:altLabel          "niveau 4"@fr ;
         skos:definition        "Model output or results from analyses of lower level data,  e.g.,  variables  derived  from multiple  measurements."@en;
+        skos:definition        "Sortie de modèle ou résultats d'analyses de données de niveau inférieur, par ex. variables dérivées de mesures multiples."@fr ;
         skos:notation          "SDN:E02::4";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Level 4"@en .
+        skos:prefLabel         "Level 4"@en ;
+        skos:prefLabel         "niveau 4"@fr .
 
 <http://vocab.nerc.ac.uk/collection/E02/current/1B/>
         rdf:type               skos:Concept;
@@ -49,10 +52,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Level 1B";
+        skos:altLabel          "niveau 1B"@fr ;
         skos:definition        "Level 1A data that have been processed to sensor units (not all instruments have Level 1B data products)."@en;
+        skos:definition        "Données de niveau 1A traitées dans les unités du capteur (tous les instruments n'ont pas de produits de données de niveau 1B)."@fr ;
         skos:notation          "SDN:E02::1B";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Level 1B"@en .
+        skos:prefLabel         "Level 1B"@en ;
+        skos:prefLabel         "niveau 1B"@fr .
 
 <http://vocab.nerc.ac.uk/collection/E02/current/2/>
         rdf:type               skos:Concept;
@@ -66,10 +72,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Level 2";
+        skos:altLabel          "niveau 2"@fr ;
         skos:definition        "Derived geophysical variables at the same resolution and location as the Level 1 source data."@en;
+        skos:definition        "Variables géophysiques dérivées à la même résolution et au même emplacement que les données sources de niveau 1."@fr ;
         skos:notation          "SDN:E02::2";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Level 2"@en .
+        skos:prefLabel         "Level 2"@en ;
+        skos:prefLabel         "niveau 2"@fr .
 
 <http://vocab.nerc.ac.uk/collection/E02/current/1A/>
         rdf:type               skos:Concept;
@@ -83,10 +92,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Level 1A";
+        skos:altLabel          "niveau 1A"@fr ;
         skos:definition        "Reconstructed,  unprocessed  instrument  data  at  full resolution, time-referenced, and annotated with ancillary information, including radiometric and geometric calibration coefficients and georeferencing parameters, e.g., platform ephemeris, computed and appended but not applied to the Level 0 data."@en;
+        skos:definition        "Données d'instrument reconstruits, non traitées, à résolution complète, référencées dans le temps et annotées d'informations auxiliaires, incluant les coefficients d'étalonnage radiométrique et géométrique et les paramètres de géoréférencement, par ex. l'éphéméride de la plateforme, calculés et ajoutés mais non appliqués aux données de niveau 0."@fr ;
         skos:notation          "SDN:E02::1A";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Level 1A"@en .
+        skos:prefLabel         "Level 1A"@en ;
+        skos:prefLabel         "niveau 1A"@fr .
 
 <http://vocab.nerc.ac.uk/collection/E02/current/3/>
         rdf:type               skos:Concept;
@@ -100,10 +112,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Level 3";
+        skos:altLabel          "niveau 3"@fr ;
         skos:definition        "Variables mapped on uniform space-time grids, usually with some completeness and consistency."@en;
+        skos:definition        "Variables cartographiées sur des grilles espace-temps uniformes, généralement avec une certaine complétude et cohérence."@fr ;
         skos:notation          "SDN:E02::3";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Level 3"@en .
+        skos:prefLabel         "Level 3"@en ;
+        skos:prefLabel         "niveau 3"@fr .
 
 <http://vocab.nerc.ac.uk/collection/E02/current/0/>
         rdf:type               skos:Concept;
@@ -117,10 +132,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Level 0";
+        skos:altLabel          "niveau 0"@fr ;
         skos:definition        "Reconstructed, unprocessed instrument/payload data at full resolution; any and all communications artifacts, e.g., synchronization frames, communications headers, duplicate data removed. In most cases these data are provided  by Earth Observing System (EOS) Data and Operations Systems  (EDOS)  to  a Distributed Active Archive Center (DAAC)  as  Production  Data Sets  for  processing  to  the  Science  Data  Processing  Segments  (SDPs)  in  the  DAAC  or  by the  Science Investigator-led Processing  Systems  (SIPSs) to produce the higher-level products."@en;
+        skos:definition        "Données d'instrument/charge utile reconstruits, non traitées, à résolution complète ; tous les artefacts de communication, par ex. trames de synchronisation, en-têtes de communication, données en double, supprimés. Dans la plupart des cas, ces données sont fournies par les Earth Observing System (EOS) Data and Operations Systems (EDOS) à un Distributed Active Archive Center (DAAC) sous forme de Production Data Sets pour traitement par les Science Data Processing Segments (SDPs) du DAAC, ou par les Science Investigator-led Processing Systems (SIPSs) pour produire les produits de niveau supérieur."@fr ;
         skos:notation          "SDN:E02::0";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Level 0"@en .
+        skos:prefLabel         "Level 0"@en ;
+        skos:prefLabel         "niveau 0"@fr .
 
 <http://vocab.nerc.ac.uk/collection/E02/current/>
         rdf:type                skos:Collection;
@@ -135,5 +153,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "National Aeronautics and Space Administration";
         owl:versionInfo         "2";
         skos:altLabel           "Processing Levels for EOS SDPs";
+        skos:altLabel           "niveaux de traitement pour les SDP EOS"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/E02/current/4/> , <http://vocab.nerc.ac.uk/collection/E02/current/1B/> , <http://vocab.nerc.ac.uk/collection/E02/current/2/> , <http://vocab.nerc.ac.uk/collection/E02/current/0/> , <http://vocab.nerc.ac.uk/collection/E02/current/3/> , <http://vocab.nerc.ac.uk/collection/E02/current/1A/>;
-        skos:prefLabel          "Processing Levels for Earth Observing System Standard Data Products" .
+        skos:prefLabel          "Processing Levels for Earth Observing System Standard Data Products" ;
+        skos:prefLabel          "niveaux de traitement pour les produits de données standard du Earth Observing System"@fr .

@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "1-dimensional topological complex that is planar. (A planar graph is a graph that can be drawn in a plane in such a way that no two edges intersect except at a vertex.)"@en;
+        skos:definition        "Complexe topologique unidimensionnel qui est planaire. (Un graphe planaire est un graphe qui peut être dessiné dans un plan de sorte qu'aucune paire d'arêtes ne s'intersecte sauf en un sommet.)"@fr ;
         skos:notation          "SDN:G28::003";
         skos:note              "accepted"@en;
-        skos:prefLabel         "planarGraph"@en .
+        skos:prefLabel         "planarGraph"@en ;
+        skos:prefLabel         "planarGraph (graphe planaire)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G28/current/002/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "1-dimensional topological complex --  commonly called  chain-node  topology"@en;
+        skos:definition        "Complexe topologique unidimensionnel — communément appelé topologie chaîne-nœud."@fr ;
         skos:notation          "SDN:G28::002";
         skos:note              "accepted"@en;
-        skos:prefLabel         "topology1D"@en .
+        skos:prefLabel         "topology1D"@en ;
+        skos:prefLabel         "topology1D (topologie 1D)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G28/current/004/>
         rdf:type               skos:Concept;
@@ -67,9 +71,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "2-dimensional topological complex that is planar. (A 2-dimensional topological complex is commonly called  full topology  in a cartographic 2D environment.)"@en;
+        skos:definition        "Complexe topologique bidimensionnel qui est planaire. (Un complexe topologique bidimensionnel est communément appelé topologie complète dans un environnement cartographique 2D.)"@fr ;
         skos:notation          "SDN:G28::004";
         skos:note              "accepted"@en;
-        skos:prefLabel         "fullPlanarGraph"@en .
+        skos:prefLabel         "fullPlanarGraph"@en ;
+        skos:prefLabel         "fullPlanarGraph (graphe planaire complet)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G28/current/005/>
         rdf:type               skos:Concept;
@@ -84,9 +90,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "1-dimensional topological complex that is isomorphic to a subset of a surface. (A geometric complex is isomorphic to a topological complex if their elements are in a one-to-one, dimensional-and boundry-preserving correspondence to one another.)"@en;
+        skos:definition        "Complexe topologique unidimensionnel isomorphe à un sous-ensemble d'une surface. (Un complexe géométrique est isomorphe à un complexe topologique si leurs éléments sont en correspondance biunivoque, préservant la dimension et la frontière, les uns avec les autres.)"@fr ;
         skos:notation          "SDN:G28::005";
         skos:note              "accepted"@en;
-        skos:prefLabel         "surfaceGraph"@en .
+        skos:prefLabel         "surfaceGraph"@en ;
+        skos:prefLabel         "surfaceGraph (graphe de surface)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G28/current/006/>
         rdf:type               skos:Concept;
@@ -101,9 +109,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "2-dimensional topological complex that is isomorphic to a subset of a surface"@en;
+        skos:definition        "Complexe topologique bidimensionnel isomorphe à un sous-ensemble d'une surface."@fr ;
         skos:notation          "SDN:G28::006";
         skos:note              "accepted"@en;
-        skos:prefLabel         "fullSurfaceGraph"@en .
+        skos:prefLabel         "fullSurfaceGraph"@en ;
+        skos:prefLabel         "fullSurfaceGraph (graphe de surface complet)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G28/current/001/>
         rdf:type               skos:Concept;
@@ -118,9 +128,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Geometry objects without any additional structure which describes topology"@en;
+        skos:definition        "Objets géométriques sans structure supplémentaire décrivant la topologie."@fr ;
         skos:notation          "SDN:G28::001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "geometryOnly"@en .
+        skos:prefLabel         "geometryOnly"@en ;
+        skos:prefLabel         "geometryOnly (géométrie seule)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G28/current/008/>
         rdf:type               skos:Concept;
@@ -135,9 +147,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Complete coverage of a 3D Euclidean coordinate space"@en;
+        skos:definition        "Couverture complète d'un espace de coordonnées euclidien 3D."@fr ;
         skos:notation          "SDN:G28::008";
         skos:note              "accepted"@en;
-        skos:prefLabel         "fullTopology3D"@en .
+        skos:prefLabel         "fullTopology3D"@en ;
+        skos:prefLabel         "fullTopology3D (topologie 3D complète)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G28/current/009/>
         rdf:type               skos:Concept;
@@ -152,9 +166,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Topological complex without any specified geometric realisation"@en;
+        skos:definition        "Complexe topologique sans aucune réalisation géométrique spécifiée."@fr ;
         skos:notation          "SDN:G28::009";
         skos:note              "accepted"@en;
-        skos:prefLabel         "abstract"@en .
+        skos:prefLabel         "abstract"@en ;
+        skos:prefLabel         "abstract (abstrait)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G28/current/007/>
         rdf:type               skos:Concept;
@@ -169,9 +185,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "3-dimensional topological complex. (A topological complex is a collection of topological primitives that are closed under the boundary operations.)"@en;
+        skos:definition        "Complexe topologique tridimensionnel. (Un complexe topologique est une collection de primitives topologiques closes sous les opérations de frontière.)"@fr ;
         skos:notation          "SDN:G28::007";
         skos:note              "accepted"@en;
-        skos:prefLabel         "topology3D"@en .
+        skos:prefLabel         "topology3D"@en ;
+        skos:prefLabel         "topology3D (topologie 3D)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G28/current/>
         rdf:type                skos:Collection;
@@ -186,5 +204,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "International Organization for Standardization";
         owl:versionInfo         "1";
         skos:altLabel           "MD_TopologyLevelCode";
+        skos:altLabel           "MD_TopologyLevelCode (code de niveau de topologie)"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/G28/current/003/> , <http://vocab.nerc.ac.uk/collection/G28/current/002/> , <http://vocab.nerc.ac.uk/collection/G28/current/004/> , <http://vocab.nerc.ac.uk/collection/G28/current/005/> , <http://vocab.nerc.ac.uk/collection/G28/current/006/> , <http://vocab.nerc.ac.uk/collection/G28/current/001/> , <http://vocab.nerc.ac.uk/collection/G28/current/007/> , <http://vocab.nerc.ac.uk/collection/G28/current/009/> , <http://vocab.nerc.ac.uk/collection/G28/current/008/>;
-        skos:prefLabel          "MD_TopologyLevelCode" .
+        skos:prefLabel          "MD_TopologyLevelCode" ;
+        skos:prefLabel          "MD_TopologyLevelCode (code de niveau de topologie)"@fr .

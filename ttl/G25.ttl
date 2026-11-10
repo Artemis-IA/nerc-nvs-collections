@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Information applies to non-geographic data"@en;
+        skos:definition        "L'information s'applique à des données non géographiques."@fr ;
         skos:notation          "SDN:G25::007";
         skos:note              "accepted"@en;
-        skos:prefLabel         "nonGeographicDataset"@en .
+        skos:prefLabel         "nonGeographicDataset"@en ;
+        skos:prefLabel         "nonGeographicDataset (jeu de données non géographique)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G25/current/010/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Information applies to a feature type"@en;
+        skos:definition        "L'information s'applique à un type d'entité géographique."@fr ;
         skos:notation          "SDN:G25::010";
         skos:note              "accepted"@en;
-        skos:prefLabel         "featureType"@en .
+        skos:prefLabel         "featureType"@en ;
+        skos:prefLabel         "featureType (type d'entité géographique)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G25/current/002/>
         rdf:type               skos:Concept;
@@ -67,9 +71,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Information applies to the characteristic of a feature"@en;
+        skos:definition        "L'information s'applique à la caractéristique d'une entité géographique."@fr ;
         skos:notation          "SDN:G25::002";
         skos:note              "accepted"@en;
-        skos:prefLabel         "attributeType"@en .
+        skos:prefLabel         "attributeType"@en ;
+        skos:prefLabel         "attributeType (type d'attribut)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G25/current/011/>
         rdf:type               skos:Concept;
@@ -84,9 +90,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Information applies to a property type"@en;
+        skos:definition        "L'information s'applique à un type de propriété."@fr ;
         skos:notation          "SDN:G25::011";
         skos:note              "accepted"@en;
-        skos:prefLabel         "propertyType"@en .
+        skos:prefLabel         "propertyType"@en ;
+        skos:prefLabel         "propertyType (type de propriété)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G25/current/009/>
         rdf:type               skos:Concept;
@@ -101,9 +109,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Information applies to a feature"@en;
+        skos:definition        "L'information s'applique à une entité géographique."@fr ;
         skos:notation          "SDN:G25::009";
         skos:note              "accepted"@en;
-        skos:prefLabel         "feature"@en .
+        skos:prefLabel         "feature"@en ;
+        skos:prefLabel         "feature (entité géographique)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G25/current/006/>
         rdf:type               skos:Concept;
@@ -118,9 +128,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Information applies to the series"@en;
+        skos:definition        "L'information s'applique à la série."@fr ;
         skos:notation          "SDN:G25::006";
         skos:note              "accepted"@en;
-        skos:prefLabel         "series"@en .
+        skos:prefLabel         "series"@en ;
+        skos:prefLabel         "série"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G25/current/001/>
         rdf:type               skos:Concept;
@@ -135,9 +147,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Information applies to the attribute class"@en;
+        skos:definition        "L'information s'applique à la classe d'attribut."@fr ;
         skos:notation          "SDN:G25::001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "attribute"@en .
+        skos:prefLabel         "attribute"@en ;
+        skos:prefLabel         "attribute (attribut)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G25/current/016/>
         rdf:type               skos:Concept;
@@ -152,9 +166,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Information applies to a tile, a spatial subset of geographic data"@en;
+        skos:definition        "L'information s'applique à une tuile, un sous-ensemble spatial de données géographiques."@fr ;
         skos:notation          "SDN:G25::016";
         skos:note              "accepted"@en;
-        skos:prefLabel         "tile"@en .
+        skos:prefLabel         "tile"@en ;
+        skos:prefLabel         "tile (tuile)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G25/current/005/>
         rdf:type               skos:Concept;
@@ -169,9 +185,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Information applies to the dataset"@en;
+        skos:definition        "L'information s'applique au jeu de données."@fr ;
         skos:notation          "SDN:G25::005";
         skos:note              "accepted"@en;
-        skos:prefLabel         "dataset"@en .
+        skos:prefLabel         "dataset"@en ;
+        skos:prefLabel         "dataset (jeu de données)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G25/current/>
         rdf:type                skos:Collection;
@@ -186,5 +204,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "International Organization for Standardization";
         owl:versionInfo         "1";
         skos:altLabel           "MD_ScopeCode";
+        skos:altLabel           "MD_ScopeCode (code de portée)"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/G25/current/007/> , <http://vocab.nerc.ac.uk/collection/G25/current/010/> , <http://vocab.nerc.ac.uk/collection/G25/current/002/> , <http://vocab.nerc.ac.uk/collection/G25/current/011/> , <http://vocab.nerc.ac.uk/collection/G25/current/009/> , <http://vocab.nerc.ac.uk/collection/G25/current/006/> , <http://vocab.nerc.ac.uk/collection/G25/current/005/> , <http://vocab.nerc.ac.uk/collection/G25/current/016/> , <http://vocab.nerc.ac.uk/collection/G25/current/001/>;
-        skos:prefLabel          "MD_ScopeCode" .
+        skos:prefLabel          "MD_ScopeCode" ;
+        skos:prefLabel          "MD_ScopeCode (code de portée)"@fr .

@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "video";
+        skos:altLabel          "vidéo"@fr ;
         skos:definition        "scene from a video recording"@en;
+        skos:definition        "scène issue d'un enregistrement vidéo"@fr ;
         skos:notation          "SDN:G30::006";
         skos:note              "accepted"@en;
-        skos:prefLabel         "video"@en .
+        skos:prefLabel         "video"@en ;
+        skos:prefLabel         "vidéo"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G30/current/001/>
         rdf:type               skos:Concept;
@@ -49,10 +52,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "vector";
+        skos:altLabel          "vectoriel"@fr ;
         skos:definition        "vector data is used to represent geographic data"@en;
+        skos:definition        "des données vectorielles sont utilisées pour représenter des données géographiques"@fr ;
         skos:notation          "SDN:G30::001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "vector"@en .
+        skos:prefLabel         "vector"@en ;
+        skos:prefLabel         "vectoriel"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G30/current/005/>
         rdf:type               skos:Concept;
@@ -66,10 +72,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "stereoModel";
+        skos:altLabel          "stereoModel (modèle stéréoscopique)"@fr ;
         skos:definition        "three-dimensional view formed by the intersecting homologous rays of an overlapping pair of images"@en;
+        skos:definition        "vue tridimensionnelle formée par les rayons homologues sécants d'une paire d'images se chevauchant"@fr ;
         skos:notation          "SDN:G30::005";
         skos:note              "accepted"@en;
-        skos:prefLabel         "stereoModel"@en .
+        skos:prefLabel         "stereoModel"@en ;
+        skos:prefLabel         "stereoModel (modèle stéréoscopique)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G30/current/002/>
         rdf:type               skos:Concept;
@@ -83,10 +92,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "grid";
+        skos:altLabel          "grille"@fr ;
         skos:definition        "grid data is used to represent geographic data"@en;
+        skos:definition        "des données en grille sont utilisées pour représenter des données géographiques"@fr ;
         skos:notation          "SDN:G30::002";
         skos:note              "accepted"@en;
-        skos:prefLabel         "grid"@en .
+        skos:prefLabel         "grid"@en ;
+        skos:prefLabel         "grille"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G30/current/003/>
         rdf:type               skos:Concept;
@@ -100,10 +112,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "textTable";
+        skos:altLabel          "texte/tableau"@fr ;
         skos:definition        "textual or tabular data is used to represent geographic data"@en;
+        skos:definition        "des données textuelles ou tabulaires sont utilisées pour représenter des données géographiques"@fr ;
         skos:notation          "SDN:G30::003";
         skos:note              "accepted"@en;
-        skos:prefLabel         "textTable"@en .
+        skos:prefLabel         "textTable"@en ;
+        skos:prefLabel         "texte/tableau"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G30/current/004/>
         rdf:type               skos:Concept;
@@ -117,10 +132,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "tin";
+        skos:altLabel          "tin (réseau triangulé irrégulier)"@fr ;
         skos:definition        "triangulated irregular network"@en;
+        skos:definition        "réseau triangulé irrégulier"@fr ;
         skos:notation          "SDN:G30::004";
         skos:note              "accepted"@en;
-        skos:prefLabel         "tin"@en .
+        skos:prefLabel         "tin"@en ;
+        skos:prefLabel         "tin (réseau triangulé irrégulier)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G30/current/>
         rdf:type                skos:Collection;
@@ -136,5 +154,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "British Oceanographic Data Centre";
         owl:versionInfo         "1";
         skos:altLabel           "MD_SpatialRepresentationTypeCode";
+        skos:altLabel           "MD_SpatialRepresentationTypeCode (code de type de représentation spatiale)"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/G30/current/006/> , <http://vocab.nerc.ac.uk/collection/G30/current/001/> , <http://vocab.nerc.ac.uk/collection/G30/current/005/> , <http://vocab.nerc.ac.uk/collection/G30/current/002/> , <http://vocab.nerc.ac.uk/collection/G30/current/004/> , <http://vocab.nerc.ac.uk/collection/G30/current/003/>;
-        skos:prefLabel          "MD_SpatialRepresentationTypeCode (DO NOT USE - use G26 instead)" .
+        skos:prefLabel          "MD_SpatialRepresentationTypeCode (DO NOT USE - use G26 instead)" ;
+        skos:prefLabel          "MD_SpatialRepresentationTypeCode (ne pas utiliser — utiliser G26 à la place)"@fr .

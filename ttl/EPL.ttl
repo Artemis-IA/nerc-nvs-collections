@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "One-dimensional distribution of a specific parameter, without variations on the temporal or depth dimensions resulting from model or analysis output that uses data of Level 2 and/or 3 as input. Data products of this level represent the distribution of a single parameter derived from multiple measurements. Data are aggregated and undergo some level of geo-processing and spatial or temporal interpolation to cover data gaps and/or solve data discrepancies."@en;
+        skos:definition        "Distribution unidimensionnelle d'un paramètre spécifique, sans variations sur les dimensions temporelle ou de profondeur, résultant d'une sortie de modèle ou d'analyse utilisant des données de niveau 2 et/ou 3 en entrée. Les produits de données de ce niveau représentent la distribution d'un paramètre unique dérivé de mesures multiples. Les données sont agrégées et subissent un certain niveau de géo-traitement et d'interpolation spatiale ou temporelle pour combler les lacunes de données et/ou résoudre les écarts de données."@fr ;
         skos:notation          "SDN:EPL::L5A";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Level 5A"@en .
+        skos:prefLabel         "Level 5A"@en ;
+        skos:prefLabel         "niveau 5A"@fr .
 
 <http://vocab.nerc.ac.uk/collection/EPL/current/L1/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Full resolution data reconstructed with calibration coefficients, geo and time-referenced."@en;
+        skos:definition        "Données reconstruites à résolution complète avec coefficients d'étalonnage, géoréférencées et référencées dans le temps."@fr ;
         skos:notation          "SDN:EPL::L1";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Level 1"@en .
+        skos:prefLabel         "Level 1"@en ;
+        skos:prefLabel         "niveau 1"@fr .
 
 <http://vocab.nerc.ac.uk/collection/EPL/current/L5B/>
         rdf:type               skos:Concept;
@@ -67,9 +71,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Two-dimensional distribution of a specific parameter, with variations on the spatial or temporal/depth dimensions resulting from model or analysis output that uses data of Level 2 and/or 3 as input. Data products of this level represent the distribution of a single parameter derived from multiple measurements. Data are aggregated and undergo some level of geo-processing and spatial or temporal interpolation to cover data gaps and/or solve data discrepancies."@en;
+        skos:definition        "Distribution bidimensionnelle d'un paramètre spécifique, avec variations sur les dimensions spatiales ou temporelles/de profondeur, résultant d'une sortie de modèle ou d'analyse utilisant des données de niveau 2 et/ou 3 en entrée. Les produits de données de ce niveau représentent la distribution d'un paramètre unique dérivé de mesures multiples. Les données sont agrégées et subissent un certain niveau de géo-traitement et d'interpolation spatiale ou temporelle pour combler les lacunes de données et/ou résoudre les écarts de données."@fr ;
         skos:notation          "SDN:EPL::L5B";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Level 5B"@en .
+        skos:prefLabel         "Level 5B"@en ;
+        skos:prefLabel         "niveau 5B"@fr .
 
 <http://vocab.nerc.ac.uk/collection/EPL/current/L2/>
         rdf:type               skos:Concept;
@@ -84,9 +90,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Geo- and time-referenced processed (derived) data with a minimum QC. Near-real time (NRT) with full spatial and/or temporal resolution."@en;
+        skos:definition        "Données traitées (dérivées) géoréférencées et référencées dans le temps avec un CQ minimal. Quasi temps réel (NRT) avec résolution spatiale et/ou temporelle complète."@fr ;
         skos:notation          "SDN:EPL::L2";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Level 2"@en .
+        skos:prefLabel         "Level 2"@en ;
+        skos:prefLabel         "niveau 2"@fr .
 
 <http://vocab.nerc.ac.uk/collection/EPL/current/L5C/>
         rdf:type               skos:Concept;
@@ -101,9 +109,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Three-dimensional distribution of a specific parameter resulting from model or analysis output that uses data of Level 2 and/or 3 as input. Data products of this level represent the distribution of a single parameter derived from multiple measurements. Data are aggregated and undergo some level of geo-processing and spatial or temporal interpolation to cover data gaps and/or solve data discrepancies."@en;
+        skos:definition        "Distribution tridimensionnelle d'un paramètre spécifique résultant d'une sortie de modèle ou d'analyse utilisant des données de niveau 2 et/ou 3 en entrée. Les produits de données de ce niveau représentent la distribution d'un paramètre unique dérivé de mesures multiples. Les données sont agrégées et subissent un certain niveau de géo-traitement et d'interpolation spatiale ou temporelle pour combler les lacunes de données et/ou résoudre les écarts de données."@fr ;
         skos:notation          "SDN:EPL::L5C";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Level 5C"@en .
+        skos:prefLabel         "Level 5C"@en ;
+        skos:prefLabel         "niveau 5C"@fr .
 
 <http://vocab.nerc.ac.uk/collection/EPL/current/L0/>
         rdf:type               skos:Concept;
@@ -118,9 +128,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Raw data. Unprocessed instrument data at full resolution, including synchronisation methods (e.g. elimination of CTD up-down duplicates) and excluding communication artefacts."@en;
+        skos:definition        "Données brutes. Données d'instrument non traitées à résolution complète, incluant les méthodes de synchronisation (par ex. élimination des doublons CTD montée-descente) et excluant les artefacts de communication."@fr ;
         skos:notation          "SDN:EPL::L0";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Level 0"@en .
+        skos:prefLabel         "Level 0"@en ;
+        skos:prefLabel         "niveau 0"@fr .
 
 <http://vocab.nerc.ac.uk/collection/EPL/current/L4/>
         rdf:type               skos:Concept;
@@ -135,9 +147,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Collated data from different measurements, samples and/or sources that have been integrated in a data system by means of standardisation and/or categorisation, and subset or otherwise selected or derived to fulfil a specific requirement. Data can represent numerical values and presence/absence of a category or entity. Integration of datasets at this level enables further QC based on parameter to parameter relationships (e.g. TS diagrams)."@en;
+        skos:definition        "Données colligées de mesures, d'échantillons et/ou de sources différentes, intégrées dans un système de données par standardisation et/ou catégorisation, et sous-ensemble ou autrement sélectionnées ou dérivées pour répondre à un besoin spécifique. Les données peuvent représenter des valeurs numériques et la présence/absence d'une catégorie ou entité. L'intégration de jeux de données à ce niveau permet un CQ supplémentaire basé sur les relations paramètre à paramètre (par ex. diagrammes TS)."@fr ;
         skos:notation          "SDN:EPL::L4";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Level 4"@en .
+        skos:prefLabel         "Level 4"@en ;
+        skos:prefLabel         "niveau 4"@fr .
 
 <http://vocab.nerc.ac.uk/collection/EPL/current/L6/>
         rdf:type               skos:Concept;
@@ -152,9 +166,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Derived information from multi-variable model or analysis that has Level 5 data products and/or Level 2-3 data as input. These input data and data products might have been gathered or developed by the thematic lot itself, by other thematic lots or third parties."@en;
+        skos:definition        "Information dérivée d'un modèle ou d'une analyse multi-variablels ayant des produits de données de niveau 5 et/ou des données de niveau 2-3 en entrée. Ces données d'entrée et produits de données peuvent avoir été recueillis ou développés par le lot thématique lui-même, par d'autres lots thématiques ou par des tiers."@fr ;
         skos:notation          "SDN:EPL::L6";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Level 6"@en .
+        skos:prefLabel         "Level 6"@en ;
+        skos:prefLabel         "niveau 6"@fr .
 
 <http://vocab.nerc.ac.uk/collection/EPL/current/L3/>
         rdf:type               skos:Concept;
@@ -169,9 +185,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Delayed mode data with further QC, usually with some completeness, consistency and space/time uniformity. Data QC checks may include comparison with historical data and/or Level 5 products such as climatologies or gridded data."@en;
+        skos:definition        "Données en mode différé avec CQ supplémentaire, généralement avec une certaine complétude, cohérence et uniformité espace/temps. Les contrôles de CQ des données peuvent inclure une comparaison avec des données historiques et/ou des produits de niveau 5 tels que des climatologies ou des données en grille."@fr ;
         skos:notation          "SDN:EPL::L3";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Level 3"@en .
+        skos:prefLabel         "Level 3"@en ;
+        skos:prefLabel         "niveau 3"@fr .
 
 <http://vocab.nerc.ac.uk/collection/EPL/current/>
         rdf:type                skos:Collection;
@@ -188,5 +206,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "MEDIN Standards Group";
         owl:versionInfo         "1";
         skos:altLabel           "EMODnet Processing Levels";
+        skos:altLabel           "niveaux de traitement EMODnet"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/EPL/current/L5A/> , <http://vocab.nerc.ac.uk/collection/EPL/current/L1/> , <http://vocab.nerc.ac.uk/collection/EPL/current/L5B/> , <http://vocab.nerc.ac.uk/collection/EPL/current/L2/> , <http://vocab.nerc.ac.uk/collection/EPL/current/L5C/> , <http://vocab.nerc.ac.uk/collection/EPL/current/L0/> , <http://vocab.nerc.ac.uk/collection/EPL/current/L4/> , <http://vocab.nerc.ac.uk/collection/EPL/current/L6/> , <http://vocab.nerc.ac.uk/collection/EPL/current/L3/>;
-        skos:prefLabel          "Processing Levels for EMODnet Data and Data Products" .
+        skos:prefLabel          "Processing Levels for EMODnet Data and Data Products" ;
+        skos:prefLabel          "niveaux de traitement pour les données et produits de données EMODnet"@fr .

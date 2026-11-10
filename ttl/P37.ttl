@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Mixed Gregorian/Julian calendar, as implemented in the Unidata Udunits software, in which dates prior to 15th October 1582 are assumed to use  the Julian calendar. Dates on or after 15th October 1582 are assumed to use the Gregorian calendar."@en;
+        skos:definition        "Calendrier grégorien/julien mixte, tel qu'implémenté dans le logiciel Unidata Udunits, dans lequel les dates antérieures au 15 octobre 1582 sont supposées utiliser le calendrier julien. Les dates au 15 octobre 1582 ou après sont supposées utiliser le calendrier grégorien."@fr ;
         skos:notation          "SDN:P37::standard";
         skos:note              "accepted"@en;
-        skos:prefLabel         "standard"@en .
+        skos:prefLabel         "standard"@en ;
+        skos:prefLabel         "standard"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P37/current/365_day/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Gregorian calendar without leap years, i.e., all years are 365 days long."@en;
+        skos:definition        "Calendrier grégorien sans années bissextiles, c.-à-d. toutes les années font 365 jours."@fr ;
         skos:notation          "SDN:P37::365_day";
         skos:note              "accepted"@en;
-        skos:prefLabel         "365_day"@en .
+        skos:prefLabel         "365_day"@en ;
+        skos:prefLabel         "365_day (année de 365 jours)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P37/current/proleptic_gregorian/>
         rdf:type               skos:Concept;
@@ -67,9 +71,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A Gregorian calendar extended to dates before the 15th of October 1582. That is, a year is a leap year if either: (i) it is divisible by 4 but not by 100; (ii) it is divisible by 400."@en;
+        skos:definition        "Un calendrier grégorien étendu aux dates antérieures au 15 octobre 1582. C.-à-d. une année est bissextile si : (i) elle est divisible par 4 mais pas par 100 ; (ii) elle est divisible par 400."@fr ;
         skos:notation          "SDN:P37::proleptic_gregorian";
         skos:note              "accepted"@en;
-        skos:prefLabel         "proleptic_gregorian"@en .
+        skos:prefLabel         "proleptic_gregorian"@en ;
+        skos:prefLabel         "proleptic_gregorian (grégorien proléptique)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P37/current/gregorian/>
         rdf:type               skos:Concept;
@@ -84,9 +90,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Mixed Gregorian/Julian calendar, as implemented in the Unidata Udunits software, in which dates prior to 15th October 1582 are assumed to use  the Julian calendar. Dates on or after 15th October 1582 are assumed to use the Gregorian calendar."@en;
+        skos:definition        "Calendrier grégorien/julien mixte, tel qu'implémenté dans le logiciel Unidata Udunits, dans lequel les dates antérieures au 15 octobre 1582 sont supposées utiliser le calendrier julien. Les dates au 15 octobre 1582 ou après sont supposées utiliser le calendrier grégorien."@fr ;
         skos:notation          "SDN:P37::gregorian";
         skos:note              "accepted"@en;
-        skos:prefLabel         "gregorian"@en .
+        skos:prefLabel         "gregorian"@en ;
+        skos:prefLabel         "grégorien"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P37/current/noleap/>
         rdf:type               skos:Concept;
@@ -101,9 +109,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Gregorian calendar without leap years, i.e., all years are 365 days long."@en;
+        skos:definition        "Calendrier grégorien sans années bissextiles, c.-à-d. toutes les années font 365 jours."@fr ;
         skos:notation          "SDN:P37::noleap";
         skos:note              "accepted"@en;
-        skos:prefLabel         "noleap"@en .
+        skos:prefLabel         "noleap"@en ;
+        skos:prefLabel         "noleap (sans bissextile)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P37/current/all_leap/>
         rdf:type               skos:Concept;
@@ -118,9 +128,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Gregorian calendar with every year being a leap year, i.e., all years are 366 days long."@en;
+        skos:definition        "Calendrier grégorien où chaque année est bissextile, c.-à-d. toutes les années font 366 jours."@fr ;
         skos:notation          "SDN:P37::all_leap";
         skos:note              "accepted"@en;
-        skos:prefLabel         "all_leap"@en .
+        skos:prefLabel         "all_leap"@en ;
+        skos:prefLabel         "all_leap (tout bissextile)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P37/current/360_day/>
         rdf:type               skos:Concept;
@@ -135,9 +147,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "All years are 360 days divided into 30 day months."@en;
+        skos:definition        "Toutes les années font 360 jours divisés en mois de 30 jours."@fr ;
         skos:notation          "SDN:P37::360_day";
         skos:note              "accepted"@en;
-        skos:prefLabel         "360_day"@en .
+        skos:prefLabel         "360_day"@en ;
+        skos:prefLabel         "360_day (année de 360 jours)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P37/current/julian/>
         rdf:type               skos:Concept;
@@ -152,9 +166,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Julian calendar."@en;
+        skos:definition        "Calendrier julien."@fr ;
         skos:notation          "SDN:P37::julian";
         skos:note              "accepted"@en;
-        skos:prefLabel         "julian"@en .
+        skos:prefLabel         "julian"@en ;
+        skos:prefLabel         "julien"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P37/current/none/>
         rdf:type               skos:Concept;
@@ -169,9 +185,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "No calendar."@en;
+        skos:definition        "Pas de calendrier."@fr ;
         skos:notation          "SDN:P37::none";
         skos:note              "accepted"@en;
-        skos:prefLabel         "none"@en .
+        skos:prefLabel         "none"@en ;
+        skos:prefLabel         "aucun"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P37/current/366_day/>
         rdf:type               skos:Concept;
@@ -186,9 +204,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Gregorian calendar with every year being a leap year, i.e., all years are 366 days long."@en;
+        skos:definition        "Calendrier grégorien où chaque année est bissextile, c.-à-d. toutes les années font 366 jours."@fr ;
         skos:notation          "SDN:P37::366_day";
         skos:note              "accepted"@en;
-        skos:prefLabel         "366_day"@en .
+        skos:prefLabel         "366_day"@en ;
+        skos:prefLabel         "366_day (année de 366 jours)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P37/current/>
         rdf:type                skos:Collection;
@@ -203,5 +223,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Climate and Forecast Standard Names Committee";
         owl:versionInfo         "1";
         skos:altLabel           "CF Calendars";
+        skos:altLabel           "calendriers CF"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/P37/current/standard/> , <http://vocab.nerc.ac.uk/collection/P37/current/365_day/> , <http://vocab.nerc.ac.uk/collection/P37/current/proleptic_gregorian/> , <http://vocab.nerc.ac.uk/collection/P37/current/gregorian/> , <http://vocab.nerc.ac.uk/collection/P37/current/noleap/> , <http://vocab.nerc.ac.uk/collection/P37/current/all_leap/> , <http://vocab.nerc.ac.uk/collection/P37/current/360_day/> , <http://vocab.nerc.ac.uk/collection/P37/current/366_day/> , <http://vocab.nerc.ac.uk/collection/P37/current/none/> , <http://vocab.nerc.ac.uk/collection/P37/current/julian/>;
-        skos:prefLabel          "Climate and Forecast Calendars" .
+        skos:prefLabel          "Climate and Forecast Calendars" ;
+        skos:prefLabel          "calendriers Climate and Forecast"@fr .
