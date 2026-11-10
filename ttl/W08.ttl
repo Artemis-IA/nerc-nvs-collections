@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Relevant contact information about the person or organisation that owns a device or system."@en;
+        skos:definition        "Informations de contact pertinentes concernant la personne ou l'organisation propriétaire d'un dispositif ou d'un système."@fr ;
         skos:notation          "SDN:W08::CONT0002";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Owner"@en .
+        skos:prefLabel         "Owner"@en ;
+        skos:prefLabel         "propriétaire"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W08/current/CONT0005/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Relevant contact information about the person in charge of the technical coordination of the system architecture and hosted components."@en;
+        skos:definition        "Informations de contact pertinentes concernant la personne chargée de la coordination technique de l'architecture du système et des composants hébergés."@fr ;
         skos:notation          "SDN:W08::CONT0005";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Technical Coordinator"@en .
+        skos:prefLabel         "Technical Coordinator"@en ;
+        skos:prefLabel         "coordinateur technique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W08/current/CONT0004/>
         rdf:type               skos:Concept;
@@ -67,9 +71,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Relevant contact information about the person or organisation that is the primarily responsible for the system observation results."@en;
+        skos:definition        "Informations de contact pertinentes concernant la personne ou l'organisation principalement responsable des résultats d'observation du système."@fr ;
         skos:notation          "SDN:W08::CONT0004";
         skos:note              "accepted"@en;
-        skos:prefLabel         "PI"@en .
+        skos:prefLabel         "PI"@en ;
+        skos:prefLabel         "PI (investigateur principal)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W08/current/CONT0003/>
         rdf:type               skos:Concept;
@@ -85,9 +91,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "2";
         skos:altLabel          "";
         skos:definition        "Relevant contact information about the person or organisation that operates a device or system. Includes operators that are responsible for the deployment of sensors and operators that control the functioning of sensors such as its calibration."@en;
+        skos:definition        "Informations de contact pertinentes concernant la personne ou l'organisation qui exploite un dispositif ou un système. Comprend les opérateurs responsables du déploiement des capteurs et les opérateurs qui contrôlent le fonctionnement des capteurs, tels que son étalonnage."@fr ;
         skos:notation          "SDN:W08::CONT0003";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Operator"@en .
+        skos:prefLabel         "Operator"@en ;
+        skos:prefLabel         "opérateur"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W08/current/CONT0007/>
         rdf:type               skos:Concept;
@@ -102,9 +110,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Relevant contact information for an individual or organisation which provides skilled or specialised services relevant to a device or system to another individual or organisation."@en;
+        skos:definition        "Informations de contact pertinentes pour un individu ou une organisation qui fournit des services qualifiés ou spécialisés pertinents pour un dispositif ou un système à un autre individu ou une autre organisation."@fr ;
         skos:notation          "SDN:W08::CONT0007";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Service Provider"@en .
+        skos:prefLabel         "Service Provider"@en ;
+        skos:prefLabel         "fournisseur de services"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W08/current/CONT0001/>
         rdf:type               skos:Concept;
@@ -119,9 +129,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Relevant contact information about the person or organisation that builds or develops a device or system."@en;
+        skos:definition        "Informations de contact pertinentes concernant la personne ou l'organisation qui construit ou développe un dispositif ou un système."@fr ;
         skos:notation          "SDN:W08::CONT0001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Manufacturer"@en .
+        skos:prefLabel         "Manufacturer"@en ;
+        skos:prefLabel         "fabricant"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W08/current/CONT0006/>
         rdf:type               skos:Concept;
@@ -136,9 +148,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Relevant contact information about the person or organisation that is responsible for the archiving, quality control and quality assurance of data."@en;
+        skos:definition        "Informations de contact pertinentes concernant la personne ou l'organisation responsable de l'archivage, du contrôle qualité et de l'assurance qualité des données."@fr ;
         skos:notation          "SDN:W08::CONT0006";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Data scientist"@en .
+        skos:prefLabel         "Data scientist"@en ;
+        skos:prefLabel         "scientifique des données"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W08/current/>
         rdf:type                skos:Collection;
@@ -153,5 +167,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Sensor Web Enablement Marine Profiles";
         owl:versionInfo         "3";
         skos:altLabel           "SensorML Contacts";
+        skos:altLabel           "contacts SensorML"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/W08/current/CONT0002/> , <http://vocab.nerc.ac.uk/collection/W08/current/CONT0005/> , <http://vocab.nerc.ac.uk/collection/W08/current/CONT0004/> , <http://vocab.nerc.ac.uk/collection/W08/current/CONT0003/> , <http://vocab.nerc.ac.uk/collection/W08/current/CONT0006/> , <http://vocab.nerc.ac.uk/collection/W08/current/CONT0001/> , <http://vocab.nerc.ac.uk/collection/W08/current/CONT0007/>;
-        skos:prefLabel          "SensorML Contact Section Terms" .
+        skos:prefLabel          "SensorML Contact Section Terms" ;
+        skos:prefLabel          "termes de la section contacts SensorML"@fr .

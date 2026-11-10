@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "bad";
+        skos:altLabel          "mauvais"@fr ;
         skos:definition        "The data object (such as a seismic section) quality is so poor that it cannot be exploited"@en;
+        skos:definition        "La qualité de l'objet de données (tel qu'une section sismique) est si mauvaise qu'il ne peut pas être exploité."@fr ;
         skos:notation          "SDN:L31::4";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Not usable"@en .
+        skos:prefLabel         "Not usable"@en ;
+        skos:prefLabel         "non utilisable"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L31/current/1/>
         rdf:type               skos:Concept;
@@ -49,10 +52,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "good";
+        skos:altLabel          "bon"@fr ;
         skos:definition        "The data object (such as a seismic section) shows many signals and almost no noises"@en;
+        skos:definition        "L'objet de données (tel qu'une section sismique) montre de nombreux signaux et presque pas de bruit."@fr ;
         skos:notation          "SDN:L31::1";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Good seismic section"@en .
+        skos:prefLabel         "Good seismic section"@en ;
+        skos:prefLabel         "bonne section sismique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L31/current/2/>
         rdf:type               skos:Concept;
@@ -66,10 +72,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "fair";
+        skos:altLabel          "passable"@fr ;
         skos:definition        "The data object (such as a seismic section)is noisy but the noise does not obliterate signals so they can be followed"@en;
+        skos:definition        "L'objet de données (tel qu'une section sismique) est bruité mais le bruit n'efface pas les signaux qui peuvent être suivis."@fr ;
         skos:notation          "SDN:L31::2";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Fair seismic section"@en .
+        skos:prefLabel         "Fair seismic section"@en ;
+        skos:prefLabel         "section sismique passable"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L31/current/3/>
         rdf:type               skos:Concept;
@@ -83,10 +92,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "poor";
+        skos:altLabel          "médiocre"@fr ;
         skos:definition        "Problems with acquisition parameter settings, or noise , or geological settings do not allow signals in the data object (such as a seismic section) to be highlighted"@en;
+        skos:definition        "Des problèmes avec les paramètres d'acquisition, ou le bruit, ou le contexte géologique ne permettent pas de faire ressortir les signaux dans l'objet de données (tel qu'une section sismique)."@fr ;
         skos:notation          "SDN:L31::3";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Poor seismic section"@en .
+        skos:prefLabel         "Poor seismic section"@en ;
+        skos:prefLabel         "section sismique médiocre"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L31/current/0/>
         rdf:type               skos:Concept;
@@ -100,10 +112,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "unknown";
+        skos:altLabel          "inconnu"@fr ;
         skos:definition        "No quality control procedures have been applied to the data object (such as a seismic section). This is the initial status for all data objects entering the working archive."@en;
+        skos:definition        "Aucune procédure de contrôle qualité n'a été appliquée à l'objet de données (tel qu'une section sismique). C'est le statut initial de tous les objets de données entrant dans l'archive de travail."@fr ;
         skos:notation          "SDN:L31::0";
         skos:note              "accepted"@en;
-        skos:prefLabel         "No quality control"@en .
+        skos:prefLabel         "No quality control"@en ;
+        skos:prefLabel         "pas de contrôle qualité"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L31/current/>
         rdf:type                skos:Collection;
@@ -118,5 +133,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Geo-Seas";
         owl:versionInfo         "1";
         skos:altLabel           "Geo-Seas object flags";
+        skos:altLabel           "drapeaux d'objets Geo-Seas"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/L31/current/4/> , <http://vocab.nerc.ac.uk/collection/L31/current/1/> , <http://vocab.nerc.ac.uk/collection/L31/current/0/> , <http://vocab.nerc.ac.uk/collection/L31/current/3/> , <http://vocab.nerc.ac.uk/collection/L31/current/2/>;
-        skos:prefLabel          "Geo-Seas data object quality flags" .
+        skos:prefLabel          "Geo-Seas data object quality flags" ;
+        skos:prefLabel          "drapeaux de qualité des objets de données Geo-Seas"@fr .

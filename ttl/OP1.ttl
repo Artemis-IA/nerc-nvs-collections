@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The practice is defined and informally documented and the practice is repeatable by the practice creator."@en;
+        skos:definition        "La pratique est définie et documentée de manière informelle et est reproductible par son créateur."@fr ;
         skos:notation          "SDN:OP1::OPL2";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Repeatable"@en .
+        skos:prefLabel         "Repeatable"@en ;
+        skos:prefLabel         "reproductible"@fr .
 
 <http://vocab.nerc.ac.uk/collection/OP1/current/OPL5/>
         rdf:type               skos:Concept;
@@ -49,10 +51,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "best practice";
+        skos:altLabel          "meilleure pratique"@fr ;
         skos:definition        "The practice has been reviewed by an internal or external multi-institutional Expert Panel or Expert Working Group, and that review has been documented in either the document or elsewhere; the practice is approved and published by an ocean-focused organization or organizational unit. Practice is adopted at least regionally. Practice includes either a defined process or a clear description of how quality is assessed. Practice has specific methods or approaches to implement user feedback and approve updates. Practice documentation includes or references training materials relevant to the practice."@en;
+        skos:definition        "La pratique a été examinée par un comité d'experts ou groupe de travail d'experts multi-institutionnel interne ou externe, et cet examen a été documenté dans le document ou ailleurs ; la pratique est approuvée et publiée par une organisation ou une unité organisationnelle axée sur l'océan. La pratique est adoptée au moins à l'échelle régionale. La pratique comprend soit un processus défini, soit une description claire de la façon dont la qualité est évaluée. La pratique comporte des méthodes ou approches spécifiques pour mettre en œuvre les retours des utilisateurs et approuver les mises à jour. La documentation de la pratique inclut ou référence des supports de formation pertinents pour la pratique."@fr ;
         skos:notation          "SDN:OP1::OPL5";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Sustained"@en .
+        skos:prefLabel         "Sustained"@en ;
+        skos:prefLabel         "durable"@fr .
 
 <http://vocab.nerc.ac.uk/collection/OP1/current/OPL1/>
         rdf:type               skos:Concept;
@@ -67,9 +72,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The practice is ad hoc with some documentation."@en;
+        skos:definition        "La pratique est empirique (ad hoc) avec une documentation partielle."@fr ;
         skos:notation          "SDN:OP1::OPL1";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Formation"@en .
+        skos:prefLabel         "Formation"@en ;
+        skos:prefLabel         "en formation"@fr .
 
 <http://vocab.nerc.ac.uk/collection/OP1/current/OPL3/>
         rdf:type               skos:Concept;
@@ -83,10 +90,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "good practice";
+        skos:altLabel          "bonne pratique"@fr ;
         skos:definition        "The practice is formally documented and described by metadata which both conform at least to some existing guidelines. Practice documentation is openly available in a sustained repository with a permanent identifier such as a DOI or ISBN. Practice documentation is sufficient for replication by a practitioner with prior experience using similar practices."@en;
+        skos:definition        "La pratique est formellement documentée et décrite par des métadonnées qui satisfont toutes deux au moins à certaines directives existantes. La documentation de la pratique est librement disponible dans un dépôt pérenne avec un identifiant permanent tel qu'un DOI ou un ISBN. La documentation de la pratique est suffisante pour être reproduite par un praticien ayant une expérience préalable de pratiques similaires."@fr ;
         skos:notation          "SDN:OP1::OPL3";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Documented"@en .
+        skos:prefLabel         "Documented"@en ;
+        skos:prefLabel         "documentée"@fr .
 
 <http://vocab.nerc.ac.uk/collection/OP1/current/OPL4/>
         rdf:type               skos:Concept;
@@ -100,10 +110,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "better practice";
+        skos:altLabel          "pratique améliorée"@fr ;
         skos:definition        "The practice is actively used by multiple institutions. Practice documentation includes or references specific procedures for practitioners to confirm their proper implementation of the practice. Practice documentation is sufficient for the key outcomes of the practice to be understood and used by stakeholders without detailed knowledge of this and similar practices. A Mechanism(s) is available for evolution of practice and its documentation through feedback contact information (e.g. emails), review meetings or other means for user feedback. Practice documentation uses consistent document structure and descriptive information (metadata) that follow recognized international or regional documentation."@en;
+        skos:definition        "La pratique est activement utilisée par plusieurs institutions. La documentation de la pratique inclut ou référence des procédures spécifiques permettant aux praticiens de confirmer leur bonne mise en œuvre de la pratique. La documentation de la pratique est suffisante pour que les résultats clés de la pratique soient compris et utilisés par les parties prenantes sans connaissance détaillée de cette pratique et de pratiques similaires. Un ou plusieurs mécanismes sont disponibles pour l'évolution de la pratique et de sa documentation par le biais d'informations de contact pour les retours (par ex. e-mails), de réunions d'examen ou d'autres moyens de retour utilisateur. La documentation de la pratique utilise une structure de document cohérente et des informations descriptives (métadonnées) conformes à des normes internationales ou régionales de documentation reconnues."@fr ;
         skos:notation          "SDN:OP1::OPL4";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Adopted"@en .
+        skos:prefLabel         "Adopted"@en ;
+        skos:prefLabel         "adoptée"@fr .
 
 <http://vocab.nerc.ac.uk/collection/OP1/current/>
         rdf:type                skos:Collection;
@@ -120,5 +133,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Institute of Electrical and Electronics Engineers";
         owl:versionInfo         "1";
         skos:altLabel           "OPM Levels";
+        skos:altLabel           "niveaux OPM"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/OP1/current/OPL2/> , <http://vocab.nerc.ac.uk/collection/OP1/current/OPL5/> , <http://vocab.nerc.ac.uk/collection/OP1/current/OPL1/> , <http://vocab.nerc.ac.uk/collection/OP1/current/OPL3/> , <http://vocab.nerc.ac.uk/collection/OP1/current/OPL4/>;
-        skos:prefLabel          "Ocean Practices Maturity Levels" .
+        skos:prefLabel          "Ocean Practices Maturity Levels" ;
+        skos:prefLabel          "niveaux de maturité des pratiques océaniques"@fr .

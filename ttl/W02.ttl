@@ -33,10 +33,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A kind of system type."@en;
+        skos:definition        "Un type de système."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/W01/current/001/>;
         skos:notation          "SDN:W02::005";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Sensor system"@en .
+        skos:prefLabel         "Sensor system"@en ;
+        skos:prefLabel         "système de capteurs"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W02/current/006/>
         rdf:type               skos:Concept;
@@ -51,10 +53,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A kind of Sensor application."@en;
+        skos:definition        "Un type d'application de capteur."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/W01/current/002/>;
         skos:notation          "SDN:W02::006";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Geophysical surveying"@en .
+        skos:prefLabel         "Geophysical surveying"@en ;
+        skos:prefLabel         "levés géophysiques"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W02/current/001/>
         rdf:type               skos:Concept;
@@ -69,10 +73,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Number of tracks per second."@en;
+        skos:definition        "Nombre de pistes par seconde."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/W01/current/004/>;
         skos:notation          "SDN:W02::001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sampling rate"@en .
+        skos:prefLabel         "sampling rate"@en ;
+        skos:prefLabel         "fréquence d'échantillonnage"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W02/current/003/>
         rdf:type               skos:Concept;
@@ -87,10 +93,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The axis y."@en;
+        skos:definition        "L'axe y."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/W01/current/010/>;
         skos:notation          "SDN:W02::003";
         skos:note              "accepted"@en;
-        skos:prefLabel         "y"@en .
+        skos:prefLabel         "y"@en ;
+        skos:prefLabel         "y"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W02/current/004/>
         rdf:type               skos:Concept;
@@ -105,10 +113,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The axis z."@en;
+        skos:definition        "L'axe z."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/W01/current/010/>;
         skos:notation          "SDN:W02::004";
         skos:note              "accepted"@en;
-        skos:prefLabel         "z"@en .
+        skos:prefLabel         "z"@en ;
+        skos:prefLabel         "z"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W02/current/002/>
         rdf:type               skos:Concept;
@@ -123,10 +133,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The axis x."@en;
+        skos:definition        "L'axe x."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/W01/current/010/>;
         skos:notation          "SDN:W02::002";
         skos:note              "accepted"@en;
-        skos:prefLabel         "x"@en .
+        skos:prefLabel         "x"@en ;
+        skos:prefLabel         "x"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W02/current/>
         rdf:type                skos:Collection;
@@ -142,5 +154,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "SeaDataNet";
         owl:versionInfo         "0";
         skos:altLabel           "SDN SWE sub-type";
+        skos:altLabel           "sous-type SDN SWE"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/W02/current/005/> , <http://vocab.nerc.ac.uk/collection/W02/current/006/> , <http://vocab.nerc.ac.uk/collection/W02/current/001/> , <http://vocab.nerc.ac.uk/collection/W02/current/003/> , <http://vocab.nerc.ac.uk/collection/W02/current/002/> , <http://vocab.nerc.ac.uk/collection/W02/current/004/>;
-        skos:prefLabel          "SeaDataNet Sensor Web Enablement and SensorML sub-type vocabulary" .
+        skos:prefLabel          "SeaDataNet Sensor Web Enablement and SensorML sub-type vocabulary" ;
+        skos:prefLabel          "vocabulaire de sous-types Sensor Web Enablement et SensorML SeaDataNet"@fr .

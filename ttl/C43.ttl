@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "unknown";
+        skos:altLabel          "inconnu"@fr ;
         skos:definition        "The correct value is not known to, or not computable by, the sender of this data. However, the correct value probably exists."@en;
+        skos:definition        "La valeur correcte n'est pas connue du, ou pas calculable par, l'expéditeur de ces données. Cependant, la valeur correcte existe probablement."@fr ;
         skos:notation          "SDN:C43::UNK";
         skos:note              "accepted"@en;
-        skos:prefLabel         "unknown"@en .
+        skos:prefLabel         "unknown"@en ;
+        skos:prefLabel         "inconnu"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C43/current/SML/>
         rdf:type               skos:Concept;
@@ -49,10 +52,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "small";
+        skos:altLabel          "petit"@fr ;
         skos:definition        "A spill with a quantity of less than a litre such as deck runoff."@en;
+        skos:definition        "Un déversement d'une quantité inférieure à un litre, tel que le ruissellement de pont."@fr ;
         skos:notation          "SDN:C43::SML";
         skos:note              "accepted"@en;
-        skos:prefLabel         "small"@en .
+        skos:prefLabel         "small"@en ;
+        skos:prefLabel         "petit"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C43/current/XXL/>
         rdf:type               skos:Concept;
@@ -66,10 +72,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "very large";
+        skos:altLabel          "très grand"@fr ;
         skos:definition        "A spill with a quantity in excess of a thousand metric tonnes such as the cargo of an oil tanker."@en;
+        skos:definition        "Un déversement d'une quantité supérieure à mille tonnes métriques, tel que la cargaison d'un pétrolier."@fr ;
         skos:notation          "SDN:C43::XXL";
         skos:note              "accepted"@en;
-        skos:prefLabel         "very large"@en .
+        skos:prefLabel         "very large"@en ;
+        skos:prefLabel         "très grand"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C43/current/LRG/>
         rdf:type               skos:Concept;
@@ -83,10 +92,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "large";
+        skos:altLabel          "grand"@fr ;
         skos:definition        "A spill with a quantity of between one and a thousand metric tonnes such as the contents of a ship fuel tank."@en;
+        skos:definition        "Un déversement d'une quantité comprise entre une et mille tonnes métriques, tel que le contenu d'un réservoir de carburant de navire."@fr ;
         skos:notation          "SDN:C43::LRG";
         skos:note              "accepted"@en;
-        skos:prefLabel         "large"@en .
+        skos:prefLabel         "large"@en ;
+        skos:prefLabel         "grand"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C43/current/MED/>
         rdf:type               skos:Concept;
@@ -100,10 +112,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "medium";
+        skos:altLabel          "moyen"@fr ;
         skos:definition        "A spill with a quantity of between a litre and a metric tonne such as the result of tank flushing."@en;
+        skos:definition        "Un déversement d'une quantité comprise entre un litre et une tonne métrique, tel que le résultat d'un rinçage de cuve."@fr ;
         skos:notation          "SDN:C43::MED";
         skos:note              "accepted"@en;
-        skos:prefLabel         "medium"@en .
+        skos:prefLabel         "medium"@en ;
+        skos:prefLabel         "moyen"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C43/current/>
         rdf:type                skos:Collection;
@@ -119,5 +134,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "British Oceanographic Data Centre";
         owl:versionInfo         "1";
         skos:altLabel           "Oilspill quantity";
+        skos:altLabel           "quantité de déversement pétrolier"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/C43/current/UNK/> , <http://vocab.nerc.ac.uk/collection/C43/current/SML/> , <http://vocab.nerc.ac.uk/collection/C43/current/XXL/> , <http://vocab.nerc.ac.uk/collection/C43/current/MED/> , <http://vocab.nerc.ac.uk/collection/C43/current/LRG/>;
-        skos:prefLabel          "BODC oilspill quantity" .
+        skos:prefLabel          "BODC oilspill quantity" ;
+        skos:prefLabel          "quantité de déversement pétrolier BODC"@fr .

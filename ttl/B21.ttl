@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "European level"@en;
+        skos:definition        "Niveau européen."@fr ;
         skos:notation          "SDN:B21::B21001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "European"@en .
+        skos:prefLabel         "European"@en ;
+        skos:prefLabel         "européen"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B21/current/B21003/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Country level"@en;
+        skos:definition        "Niveau national."@fr ;
         skos:notation          "SDN:B21::B21003";
         skos:note              "accepted"@en;
-        skos:prefLabel         "National"@en .
+        skos:prefLabel         "National"@en ;
+        skos:prefLabel         "national"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B21/current/B21006/>
         rdf:type               skos:Concept;
@@ -67,9 +71,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Sub regional level within a country"@en;
+        skos:definition        "Niveau sous-régional au sein d'un pays."@fr ;
         skos:notation          "SDN:B21::B21006";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Local"@en .
+        skos:prefLabel         "Local"@en ;
+        skos:prefLabel         "local"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B21/current/B21005/>
         rdf:type               skos:Concept;
@@ -84,9 +90,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Sub national level across countries"@en;
+        skos:definition        "Niveau sous-national à travers les pays."@fr ;
         skos:notation          "SDN:B21::B21005";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Regional(Transboundary)"@en .
+        skos:prefLabel         "Regional(Transboundary)"@en ;
+        skos:prefLabel         "régional(transfrontalier)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B21/current/B21004/>
         rdf:type               skos:Concept;
@@ -101,9 +109,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Sub national  level within a country"@en;
+        skos:definition        "Niveau sous-national au sein d'un pays."@fr ;
         skos:notation          "SDN:B21::B21004";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Regional"@en .
+        skos:prefLabel         "Regional"@en ;
+        skos:prefLabel         "régional"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B21/current/B21002/>
         rdf:type               skos:Concept;
@@ -118,9 +128,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Worldwide"@en;
+        skos:definition        "Mondial."@fr ;
         skos:notation          "SDN:B21::B21002";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Global"@en .
+        skos:prefLabel         "Global"@en ;
+        skos:prefLabel         "mondial"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B21/current/B21007/>
         rdf:type               skos:Concept;
@@ -135,9 +147,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Sub regional level across countries"@en;
+        skos:definition        "Niveau sous-régional à travers les pays."@fr ;
         skos:notation          "SDN:B21::B21007";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Local(Transboundary)"@en .
+        skos:prefLabel         "Local(Transboundary)"@en ;
+        skos:prefLabel         "local(transfrontalier)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B21/current/>
         rdf:type                skos:Collection;
@@ -153,5 +167,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "British Oceanographic Data Centre";
         owl:versionInfo         "1";
         skos:altLabel           "cspscales";
+        skos:altLabel           "cspscales (échelles CSP)"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/B21/current/B21001/> , <http://vocab.nerc.ac.uk/collection/B21/current/B21003/> , <http://vocab.nerc.ac.uk/collection/B21/current/B21006/> , <http://vocab.nerc.ac.uk/collection/B21/current/B21005/> , <http://vocab.nerc.ac.uk/collection/B21/current/B21004/> , <http://vocab.nerc.ac.uk/collection/B21/current/B21007/> , <http://vocab.nerc.ac.uk/collection/B21/current/B21002/>;
-        skos:prefLabel          "Celtic Seas Partnership scale" .
+        skos:prefLabel          "Celtic Seas Partnership scale" ;
+        skos:prefLabel          "échelle du Celtic Seas Partnership"@fr .

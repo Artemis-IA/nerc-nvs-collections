@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Data need to be generated or updated"@en;
+        skos:definition        "Les données doivent être générées ou mises à jour."@fr ;
         skos:notation          "SDN:G22::006";
         skos:note              "accepted"@en;
-        skos:prefLabel         "required"@en .
+        skos:prefLabel         "required"@en ;
+        skos:prefLabel         "requis"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G22/current/004/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Data are continually being updated"@en;
+        skos:definition        "Les données sont continuellement mises à jour."@fr ;
         skos:notation          "SDN:G22::004";
         skos:note              "accepted"@en;
-        skos:prefLabel         "onGoing"@en .
+        skos:prefLabel         "onGoing"@en ;
+        skos:prefLabel         "en cours"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G22/current/001/>
         rdf:type               skos:Concept;
@@ -67,9 +71,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Production of the data has been completed"@en;
+        skos:definition        "La production des données est terminée."@fr ;
         skos:notation          "SDN:G22::001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "completed"@en .
+        skos:prefLabel         "completed"@en ;
+        skos:prefLabel         "terminé"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G22/current/007/>
         rdf:type               skos:Concept;
@@ -84,9 +90,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Data are currently in the process of being created"@en;
+        skos:definition        "Les données sont actuellement en cours de création."@fr ;
         skos:notation          "SDN:G22::007";
         skos:note              "accepted"@en;
-        skos:prefLabel         "underDevelopment"@en .
+        skos:prefLabel         "underDevelopment"@en ;
+        skos:prefLabel         "en développement"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G22/current/005/>
         rdf:type               skos:Concept;
@@ -101,9 +109,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Fixed date has been established upon or by which the data will be created or updated"@en;
+        skos:definition        "Une date fixe a été établie à laquelle ou avant laquelle les données seront créées ou mises à jour."@fr ;
         skos:notation          "SDN:G22::005";
         skos:note              "accepted"@en;
-        skos:prefLabel         "planned"@en .
+        skos:prefLabel         "planned"@en ;
+        skos:prefLabel         "planifié"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G22/current/002/>
         rdf:type               skos:Concept;
@@ -118,9 +128,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Data have been stored in an offline storage facility"@en;
+        skos:definition        "Les données ont été stockées dans une installation de stockage hors ligne."@fr ;
         skos:notation          "SDN:G22::002";
         skos:note              "accepted"@en;
-        skos:prefLabel         "historicalArchive"@en .
+        skos:prefLabel         "historicalArchive"@en ;
+        skos:prefLabel         "archive historique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G22/current/003/>
         rdf:type               skos:Concept;
@@ -135,9 +147,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Data are no longer relevant"@en;
+        skos:definition        "Les données ne sont plus pertinentes."@fr ;
         skos:notation          "SDN:G22::003";
         skos:note              "accepted"@en;
-        skos:prefLabel         "obsolete"@en .
+        skos:prefLabel         "obsolete"@en ;
+        skos:prefLabel         "obsolète"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G22/current/>
         rdf:type                skos:Collection;
@@ -152,5 +166,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "International Organization for Standardization";
         owl:versionInfo         "1";
         skos:altLabel           "MD_ProgressCode";
+        skos:altLabel           "MD_ProgressCode (code d'avancement)"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/G22/current/006/> , <http://vocab.nerc.ac.uk/collection/G22/current/004/> , <http://vocab.nerc.ac.uk/collection/G22/current/001/> , <http://vocab.nerc.ac.uk/collection/G22/current/007/> , <http://vocab.nerc.ac.uk/collection/G22/current/003/> , <http://vocab.nerc.ac.uk/collection/G22/current/002/> , <http://vocab.nerc.ac.uk/collection/G22/current/005/>;
-        skos:prefLabel          "MD_ProgressCode" .
+        skos:prefLabel          "MD_ProgressCode" ;
+        skos:prefLabel          "MD_ProgressCode (code d'avancement)"@fr .

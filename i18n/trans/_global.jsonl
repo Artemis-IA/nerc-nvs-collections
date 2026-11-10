@@ -2659,3 +2659,219 @@
 {"k": "label", "en": "composite", "fr": "composite"}
 {"k": "label", "en": "MD_GeometricObjectTypeCode", "fr": "MD_GeometricObjectTypeCode (code de type d'objet géométrique)"}
 {"k": "label", "en": "GEMINI", "fr": "GEMINI"}
+{"k": "definition", "en": "The resource is not directly accessible and may only be obtained by submitting a request to the data centre or through a mediated access process.", "fr": "La ressource n'est pas directement accessible et ne peut être obtenue qu'en soumettant une demande au centre de données ou via un processus d'accès médié."}
+{"k": "label", "en": "access by request", "fr": "accès sur demande"}
+{"k": "definition", "en": "The resource has been permanently removed and is no longer available. The metadata record is retained as a tombstone or historical record.", "fr": "La ressource a été définitivement supprimée et n'est plus disponible. L'enregistrement de métadonnées est conservé comme pierre tombale ou trace historique."}
+{"k": "label", "en": "permanently unavailable", "fr": "définitivement indisponible"}
+{"k": "definition", "en": "Access to the resource is limited to users who have been authorised by the data custodian or data owner in accordance with applicable policies, agreements, or licensing conditions.", "fr": "L'accès à la ressource est limité aux utilisateurs autorisés par le conservateur ou le propriétaire des données conformément aux politiques, accords ou conditions de licence applicables."}
+{"k": "label", "en": "restricted to authorised users", "fr": "restreint aux utilisateurs autorisés"}
+{"k": "definition", "en": "Access to the resource is not subject to any access limitations and is available to all users without restriction.", "fr": "L'accès à la ressource ne fait l'objet d'aucune limitation et est disponible pour tous les utilisateurs sans restriction."}
+{"k": "label", "en": "unrestricted access", "fr": "accès non restreint"}
+{"k": "definition", "en": "Access to the resource is limited to users who have created a user account or registered with the service providing access to the resource.", "fr": "L'accès à la ressource est limité aux utilisateurs ayant créé un compte utilisateur ou s'étant enregistrés auprès du service donnant accès à la ressource."}
+{"k": "label", "en": "registered access", "fr": "accès enregistré"}
+{"k": "definition", "en": "Access to the resource is restricted until a specified date or the occurrence of a defined condition, after which access may be granted in accordance with applicable policies or licensing conditions.", "fr": "L'accès à la ressource est restreint jusqu'à une date spécifiée ou la survenue d'une condition définie, après quoi l'accès peut être accordé conformément aux politiques ou conditions de licence applicables."}
+{"k": "label", "en": "embargo", "fr": "embargo"}
+{"k": "label", "en": "EDS Access Limitation Vocabulary", "fr": "vocabulaire de limitation d'accès EDS"}
+{"k": "label", "en": "Environmental Data Service (EDS) Access Limitation Vocabulary", "fr": "vocabulaire de limitation d'accès du Environmental Data Service (EDS)"}
+{"k": "definition", "en": "Beidou transmission system", "fr": "Système de transmission Beidou."}
+{"k": "label", "en": "Beidou transmission system", "fr": "système de transmission Beidou"}
+{"k": "definition", "en": "Argos transmission system", "fr": "Système de transmission Argos."}
+{"k": "label", "en": "Argos transmission system", "fr": "système de transmission Argos"}
+{"k": "label", "en": "ORBCOMM", "fr": "ORBCOMM"}
+{"k": "definition", "en": "Orbcomm transmission system", "fr": "Système de transmission Orbcomm."}
+{"k": "label", "en": "Orbcomm transmission system", "fr": "système de transmission Orbcomm"}
+{"k": "definition", "en": "Iridium transmission system", "fr": "Système de transmission Iridium."}
+{"k": "label", "en": "Iridium transmission system", "fr": "système de transmission Iridium"}
+{"k": "label", "en": "TRANS_SYSTEM", "fr": "TRANS_SYSTEM (système de transmission)"}
+{"k": "label", "en": "Argo transmission systems", "fr": "systèmes de transmission Argo"}
+{"k": "label", "en": "Secondary MC", "fr": "MC secondaire"}
+{"k": "definition", "en": "Measurement codes marking a recommended cycle timing variable. These are used to determine trajectory estimates for a range of float types.", "fr": "Codes de mesure marquant une variable de timing de cycle recommandée. Ils sont utilisés pour déterminer les estimations de trajectoire pour une gamme de types de flotteurs."}
+{"k": "label", "en": "Secondary Measurement Codes (MC)", "fr": "codes de mesure secondaires (MC)"}
+{"k": "label", "en": "Relative Generic Codes", "fr": "codes génériques relatifs"}
+{"k": "definition", "en": "Measurement codes marking measurements recorded while transitioning towards a primary or secondary measurement code, or taken as part of a surface sequence of in-water or in-air samples. If 'MC' is defined as a primary or secondary measurement code, relative generic codes 'RGENC' correspond to all codes falling within the (MC-15) and (MC-10) range, and within the (MC-6) and (MC-1) range; i.e. (MC-16) < RGENC < (MC-9) and (MC-7) <RGENC < MC. Moreover, RGENC also correspond to MC+10 and MC+11 for MCs of either 600, 700 or 800. The definitions for relative generic codes are purposely broad, so that they may be associated with trajectory measurements recorded by a wide range of different float types.", "fr": "Codes de mesure marquant des mesures enregistrées pendant la transition vers un code de mesure primaire ou secondaire, ou prises dans le cadre d'une séquence de surface d'échantillons en eau ou dans l'air. Si « MC » est défini comme un code de mesure primaire ou secondaire, les codes génériques relatifs « RGENC » correspondent à tous les codes compris dans les plages (MC-15) et (MC-10), et dans les plages (MC-6) et (MC-1) ; c.-à-d. (MC-16) < RGENC < (MC-9) et (MC-7) < RGENC < MC. De plus, RGENC correspond également à MC+10 et MC+11 pour les MC de 600, 700 ou 800. Les définitions des codes génériques relatifs sont volontairement larges, afin de pouvoir être associées à des mesures de trajectoire enregistrées par une large gamme de types de flotteurs différents."}
+{"k": "label", "en": "Primary MC", "fr": "MC primaire"}
+{"k": "definition", "en": "Measurement codes marking a mandatory cycle timing variable. These are essential to determine trajectory estimates for all float types.", "fr": "Codes de mesure marquant une variable de timing de cycle obligatoire. Ils sont essentiels pour déterminer les estimations de trajectoire pour tous les types de flotteurs."}
+{"k": "label", "en": "Primary Measurement Codes (MC)", "fr": "codes de mesure primaires (MC)"}
+{"k": "label", "en": "Relative Specific Codes", "fr": "codes spécifiques relatifs"}
+{"k": "definition", "en": "Measurement codes reserved for unique timing events which are not repeated anywhere else within a float's cycle. If 'MC' is defined as a primary or secondary measurement code, relative specific codes 'RSPEC' generally fall anywhere within the (MC+1) and (MC+25) range; i.e. MC < RSPEC < (MC+26). However, please note that a RSPEC may not be associated with an MC at all. Each relative specific code is unique, and is matched with a trajectory measurement that is generally recorded by a limited number of float types.", "fr": "Codes de mesure réservés à des événements de timing uniques qui ne sont répétés nulle part ailleurs dans le cycle d'un flotteur. Si « MC » est défini comme un code de mesure primaire ou secondaire, les codes spécifiques relatifs « RSPEC » se situent généralement dans la plage (MC+1) à (MC+25) ; c.-à-d. MC < RSPEC < (MC+26). Veuillez toutefois noter qu'un RSPEC peut ne pas être associé à un MC du tout. Chaque code spécifique relatif est unique et est associé à une mesure de trajectoire généralement enregistrée par un nombre limité de types de flotteurs."}
+{"k": "label", "en": "MEASUREMENT_CODE_CATEGORY", "fr": "MEASUREMENT_CODE_CATEGORY (catégorie de code de mesure)"}
+{"k": "label", "en": "Argo measurement code categories", "fr": "catégories de codes de mesure Argo"}
+{"k": "definition", "en": "Roll", "fr": "Roulis."}
+{"k": "label", "en": "Phase 3", "fr": "phase 3"}
+{"k": "definition", "en": "Pitch change", "fr": "Variation de tangage."}
+{"k": "label", "en": "Phase 1", "fr": "phase 1"}
+{"k": "definition", "en": "Roll back (to centre)", "fr": "Retour en roulis (vers le centre)."}
+{"k": "label", "en": "Phase 5", "fr": "phase 5"}
+{"k": "definition", "en": "Passive mode (waiting)", "fr": "Mode passif (attente)."}
+{"k": "label", "en": "Phase 6", "fr": "phase 6"}
+{"k": "definition", "en": "Variable Buoyancy Device (VBD) change", "fr": "Variation du dispositif de flottabilité variable (VBD)."}
+{"k": "label", "en": "Phase 2", "fr": "phase 2"}
+{"k": "definition", "en": "Turning (passive)", "fr": "Rotation (passive)."}
+{"k": "label", "en": "Phase 4", "fr": "phase 4"}
+{"k": "label", "en": "Seaglider Phase Settings", "fr": "réglages de phase Seaglider"}
+{"k": "label", "en": "Seaglider Guidance and Control Phase Settings", "fr": "réglages de phase de guidage et de contrôle Seaglider"}
+{"k": "definition", "en": "A kind of system type.", "fr": "Un type de système."}
+{"k": "label", "en": "Sensor system", "fr": "système de capteurs"}
+{"k": "definition", "en": "A kind of Sensor application.", "fr": "Un type d'application de capteur."}
+{"k": "label", "en": "Geophysical surveying", "fr": "levés géophysiques"}
+{"k": "definition", "en": "Number of tracks per second.", "fr": "Nombre de pistes par seconde."}
+{"k": "label", "en": "sampling rate", "fr": "fréquence d'échantillonnage"}
+{"k": "definition", "en": "The axis y.", "fr": "L'axe y."}
+{"k": "label", "en": "y", "fr": "y"}
+{"k": "definition", "en": "The axis z.", "fr": "L'axe z."}
+{"k": "label", "en": "z", "fr": "z"}
+{"k": "definition", "en": "The axis x.", "fr": "L'axe x."}
+{"k": "label", "en": "x", "fr": "x"}
+{"k": "label", "en": "SDN SWE sub-type", "fr": "sous-type SDN SWE"}
+{"k": "label", "en": "SeaDataNet Sensor Web Enablement and SensorML sub-type vocabulary", "fr": "vocabulaire de sous-types Sensor Web Enablement et SensorML SeaDataNet"}
+{"k": "definition", "en": "The correct value is not known to, or not computable by, the sender of this data. However, the correct value probably exists.", "fr": "La valeur correcte n'est pas connue du, ou pas calculable par, l'expéditeur de ces données. Cependant, la valeur correcte existe probablement."}
+{"k": "label", "en": "small", "fr": "petit"}
+{"k": "definition", "en": "A spill with a quantity of less than a litre such as deck runoff.", "fr": "Un déversement d'une quantité inférieure à un litre, tel que le ruissellement de pont."}
+{"k": "label", "en": "very large", "fr": "très grand"}
+{"k": "definition", "en": "A spill with a quantity in excess of a thousand metric tonnes such as the cargo of an oil tanker.", "fr": "Un déversement d'une quantité supérieure à mille tonnes métriques, tel que la cargaison d'un pétrolier."}
+{"k": "label", "en": "large", "fr": "grand"}
+{"k": "definition", "en": "A spill with a quantity of between one and a thousand metric tonnes such as the contents of a ship fuel tank.", "fr": "Un déversement d'une quantité comprise entre une et mille tonnes métriques, tel que le contenu d'un réservoir de carburant de navire."}
+{"k": "label", "en": "medium", "fr": "moyen"}
+{"k": "definition", "en": "A spill with a quantity of between a litre and a metric tonne such as the result of tank flushing.", "fr": "Un déversement d'une quantité comprise entre un litre et une tonne métrique, tel que le résultat d'un rinçage de cuve."}
+{"k": "label", "en": "Oilspill quantity", "fr": "quantité de déversement pétrolier"}
+{"k": "label", "en": "BODC oilspill quantity", "fr": "quantité de déversement pétrolier BODC"}
+{"k": "definition", "en": "The practice is defined and informally documented and the practice is repeatable by the practice creator.", "fr": "La pratique est définie et documentée de manière informelle et est reproductible par son créateur."}
+{"k": "label", "en": "Repeatable", "fr": "reproductible"}
+{"k": "label", "en": "best practice", "fr": "meilleure pratique"}
+{"k": "definition", "en": "The practice has been reviewed by an internal or external multi-institutional Expert Panel or Expert Working Group, and that review has been documented in either the document or elsewhere; the practice is approved and published by an ocean-focused organization or organizational unit. Practice is adopted at least regionally. Practice includes either a defined process or a clear description of how quality is assessed. Practice has specific methods or approaches to implement user feedback and approve updates. Practice documentation includes or references training materials relevant to the practice.", "fr": "La pratique a été examinée par un comité d'experts ou groupe de travail d'experts multi-institutionnel interne ou externe, et cet examen a été documenté dans le document ou ailleurs ; la pratique est approuvée et publiée par une organisation ou une unité organisationnelle axée sur l'océan. La pratique est adoptée au moins à l'échelle régionale. La pratique comprend soit un processus défini, soit une description claire de la façon dont la qualité est évaluée. La pratique comporte des méthodes ou approches spécifiques pour mettre en œuvre les retours des utilisateurs et approuver les mises à jour. La documentation de la pratique inclut ou référence des supports de formation pertinents pour la pratique."}
+{"k": "label", "en": "Sustained", "fr": "durable"}
+{"k": "definition", "en": "The practice is ad hoc with some documentation.", "fr": "La pratique est empirique (ad hoc) avec une documentation partielle."}
+{"k": "label", "en": "Formation", "fr": "en formation"}
+{"k": "label", "en": "good practice", "fr": "bonne pratique"}
+{"k": "definition", "en": "The practice is formally documented and described by metadata which both conform at least to some existing guidelines. Practice documentation is openly available in a sustained repository with a permanent identifier such as a DOI or ISBN. Practice documentation is sufficient for replication by a practitioner with prior experience using similar practices.", "fr": "La pratique est formellement documentée et décrite par des métadonnées qui satisfont toutes deux au moins à certaines directives existantes. La documentation de la pratique est librement disponible dans un dépôt pérenne avec un identifiant permanent tel qu'un DOI ou un ISBN. La documentation de la pratique est suffisante pour être reproduite par un praticien ayant une expérience préalable de pratiques similaires."}
+{"k": "label", "en": "Documented", "fr": "documentée"}
+{"k": "label", "en": "better practice", "fr": "pratique améliorée"}
+{"k": "definition", "en": "The practice is actively used by multiple institutions. Practice documentation includes or references specific procedures for practitioners to confirm their proper implementation of the practice. Practice documentation is sufficient for the key outcomes of the practice to be understood and used by stakeholders without detailed knowledge of this and similar practices. A Mechanism(s) is available for evolution of practice and its documentation through feedback contact information (e.g. emails), review meetings or other means for user feedback. Practice documentation uses consistent document structure and descriptive information (metadata) that follow recognized international or regional documentation.", "fr": "La pratique est activement utilisée par plusieurs institutions. La documentation de la pratique inclut ou référence des procédures spécifiques permettant aux praticiens de confirmer leur bonne mise en œuvre de la pratique. La documentation de la pratique est suffisante pour que les résultats clés de la pratique soient compris et utilisés par les parties prenantes sans connaissance détaillée de cette pratique et de pratiques similaires. Un ou plusieurs mécanismes sont disponibles pour l'évolution de la pratique et de sa documentation par le biais d'informations de contact pour les retours (par ex. e-mails), de réunions d'examen ou d'autres moyens de retour utilisateur. La documentation de la pratique utilise une structure de document cohérente et des informations descriptives (métadonnées) conformes à des normes internationales ou régionales de documentation reconnues."}
+{"k": "label", "en": "Adopted", "fr": "adoptée"}
+{"k": "label", "en": "OPM Levels", "fr": "niveaux OPM"}
+{"k": "label", "en": "Ocean Practices Maturity Levels", "fr": "niveaux de maturité des pratiques océaniques"}
+{"k": "label", "en": "Biosphere", "fr": "biosphère"}
+{"k": "label", "en": "Paleoclimate", "fr": "paléoclimat"}
+{"k": "label", "en": "Climate Indicators", "fr": "indicateurs climatiques"}
+{"k": "label", "en": "Spectral/Engineering", "fr": "spectral/ingénierie"}
+{"k": "label", "en": "Sun-earth Interactions", "fr": "interactions soleil-Terre"}
+{"k": "label", "en": "Agriculture", "fr": "agriculture"}
+{"k": "label", "en": "Human Dimensions", "fr": "dimensions humaines"}
+{"k": "label", "en": "Hydrosphere", "fr": "hydrosphère"}
+{"k": "label", "en": "Cryosphere", "fr": "cryosphère"}
+{"k": "label", "en": "Atmosphere", "fr": "atmosphère"}
+{"k": "label", "en": "Land Surface", "fr": "surface terrestre"}
+{"k": "label", "en": "Oceans", "fr": "océans"}
+{"k": "label", "en": "Solid Earth", "fr": "Terre solide"}
+{"k": "label", "en": "GCMD topics", "fr": "sujets GCMD"}
+{"k": "label", "en": "Global Change Master Directory Science Keyword topics", "fr": "sujets de mots-clés scientifiques du Global Change Master Directory"}
+{"k": "definition", "en": "European level", "fr": "Niveau européen."}
+{"k": "label", "en": "European", "fr": "européen"}
+{"k": "definition", "en": "Country level", "fr": "Niveau national."}
+{"k": "label", "en": "National", "fr": "national"}
+{"k": "definition", "en": "Sub regional level within a country", "fr": "Niveau sous-régional au sein d'un pays."}
+{"k": "label", "en": "Local", "fr": "local"}
+{"k": "definition", "en": "Sub national level across countries", "fr": "Niveau sous-national à travers les pays."}
+{"k": "label", "en": "Regional(Transboundary)", "fr": "régional(transfrontalier)"}
+{"k": "definition", "en": "Sub national  level within a country", "fr": "Niveau sous-national au sein d'un pays."}
+{"k": "label", "en": "Regional", "fr": "régional"}
+{"k": "definition", "en": "Worldwide", "fr": "Mondial."}
+{"k": "label", "en": "Global", "fr": "mondial"}
+{"k": "definition", "en": "Sub regional level across countries", "fr": "Niveau sous-régional à travers les pays."}
+{"k": "label", "en": "Local(Transboundary)", "fr": "local(transfrontalier)"}
+{"k": "label", "en": "cspscales", "fr": "cspscales (échelles CSP)"}
+{"k": "label", "en": "Celtic Seas Partnership scale", "fr": "échelle du Celtic Seas Partnership"}
+{"k": "definition", "en": "Data need to be generated or updated", "fr": "Les données doivent être générées ou mises à jour."}
+{"k": "label", "en": "required", "fr": "requis"}
+{"k": "definition", "en": "Data are continually being updated", "fr": "Les données sont continuellement mises à jour."}
+{"k": "label", "en": "onGoing", "fr": "en cours"}
+{"k": "definition", "en": "Production of the data has been completed", "fr": "La production des données est terminée."}
+{"k": "label", "en": "completed", "fr": "terminé"}
+{"k": "definition", "en": "Data are currently in the process of being created", "fr": "Les données sont actuellement en cours de création."}
+{"k": "label", "en": "underDevelopment", "fr": "en développement"}
+{"k": "definition", "en": "Fixed date has been established upon or by which the data will be created or updated", "fr": "Une date fixe a été établie à laquelle ou avant laquelle les données seront créées ou mises à jour."}
+{"k": "label", "en": "planned", "fr": "planifié"}
+{"k": "definition", "en": "Data have been stored in an offline storage facility", "fr": "Les données ont été stockées dans une installation de stockage hors ligne."}
+{"k": "label", "en": "historicalArchive", "fr": "archive historique"}
+{"k": "definition", "en": "Data are no longer relevant", "fr": "Les données ne sont plus pertinentes."}
+{"k": "label", "en": "obsolete", "fr": "obsolète"}
+{"k": "label", "en": "MD_ProgressCode", "fr": "MD_ProgressCode (code d'avancement)"}
+{"k": "label", "en": "bad", "fr": "mauvais"}
+{"k": "definition", "en": "The data object (such as a seismic section) quality is so poor that it cannot be exploited", "fr": "La qualité de l'objet de données (tel qu'une section sismique) est si mauvaise qu'il ne peut pas être exploité."}
+{"k": "label", "en": "Not usable", "fr": "non utilisable"}
+{"k": "label", "en": "good", "fr": "bon"}
+{"k": "definition", "en": "The data object (such as a seismic section) shows many signals and almost no noises", "fr": "L'objet de données (tel qu'une section sismique) montre de nombreux signaux et presque pas de bruit."}
+{"k": "label", "en": "Good seismic section", "fr": "bonne section sismique"}
+{"k": "label", "en": "fair", "fr": "passable"}
+{"k": "definition", "en": "The data object (such as a seismic section)is noisy but the noise does not obliterate signals so they can be followed", "fr": "L'objet de données (tel qu'une section sismique) est bruité mais le bruit n'efface pas les signaux qui peuvent être suivis."}
+{"k": "label", "en": "Fair seismic section", "fr": "section sismique passable"}
+{"k": "label", "en": "poor", "fr": "médiocre"}
+{"k": "definition", "en": "Problems with acquisition parameter settings, or noise , or geological settings do not allow signals in the data object (such as a seismic section) to be highlighted", "fr": "Des problèmes avec les paramètres d'acquisition, ou le bruit, ou le contexte géologique ne permettent pas de faire ressortir les signaux dans l'objet de données (tel qu'une section sismique)."}
+{"k": "label", "en": "Poor seismic section", "fr": "section sismique médiocre"}
+{"k": "definition", "en": "No quality control procedures have been applied to the data object (such as a seismic section). This is the initial status for all data objects entering the working archive.", "fr": "Aucune procédure de contrôle qualité n'a été appliquée à l'objet de données (tel qu'une section sismique). C'est le statut initial de tous les objets de données entrant dans l'archive de travail."}
+{"k": "label", "en": "No quality control", "fr": "pas de contrôle qualité"}
+{"k": "label", "en": "Geo-Seas object flags", "fr": "drapeaux d'objets Geo-Seas"}
+{"k": "label", "en": "Geo-Seas data object quality flags", "fr": "drapeaux de qualité des objets de données Geo-Seas"}
+{"k": "definition", "en": "Specimens identified as having both male and female reproductive organs", "fr": "Spécimens identifiés comme ayant à la fois des organes reproducteurs mâles et femelles."}
+{"k": "label", "en": "hermaphrodite", "fr": "hermaphrodite"}
+{"k": "definition", "en": "The biological entity definition does not include a sexual category as a component.", "fr": "La définition de l'entité biologique n'inclut pas de catégorie sexuelle comme composante."}
+{"k": "label", "en": "not specified", "fr": "non spécifié"}
+{"k": "definition", "en": "Females have been grouped together with specimens whose sex cannot be reliably determined.", "fr": "Les femelles ont été regroupées avec les spécimens dont le sexe ne peut être déterminé de manière fiable."}
+{"k": "label", "en": "female+indeterminate", "fr": "femelle+indéterminé"}
+{"k": "definition", "en": "The sample comprises a mixture of identified male and female specimens.", "fr": "L'échantillon comprend un mélange de spécimens mâles et femelles identifiés."}
+{"k": "label", "en": "male+female", "fr": "mâle+femelle"}
+{"k": "definition", "en": "The taxonomist was unable to reliably determine the sex of the specimens.", "fr": "Le taxonomiste n'a pas pu déterminer de manière fiable le sexe des spécimens."}
+{"k": "definition", "en": "The sample (which may be a single specimen) comprises specimens identified as female.", "fr": "L'échantillon (qui peut être un spécimen unique) comprend des spécimens identifiés comme femelles."}
+{"k": "label", "en": "female", "fr": "femelle"}
+{"k": "definition", "en": "The sample (which may be a single specimen) comprises specimens identified as male.", "fr": "L'échantillon (qui peut être un spécimen unique) comprend des spécimens identifiés comme mâles."}
+{"k": "label", "en": "male", "fr": "mâle"}
+{"k": "label", "en": "Biological entity sex", "fr": "sexe de l'entité biologique"}
+{"k": "label", "en": "BODC parameter semantic model biological entity sex category terms", "fr": "termes de catégorie de sexe de l'entité biologique du modèle sémantique des paramètres BODC"}
+{"k": "definition", "en": "Relevant contact information about the person or organisation that owns a device or system.", "fr": "Informations de contact pertinentes concernant la personne ou l'organisation propriétaire d'un dispositif ou d'un système."}
+{"k": "label", "en": "Owner", "fr": "propriétaire"}
+{"k": "definition", "en": "Relevant contact information about the person in charge of the technical coordination of the system architecture and hosted components.", "fr": "Informations de contact pertinentes concernant la personne chargée de la coordination technique de l'architecture du système et des composants hébergés."}
+{"k": "label", "en": "Technical Coordinator", "fr": "coordinateur technique"}
+{"k": "definition", "en": "Relevant contact information about the person or organisation that is the primarily responsible for the system observation results.", "fr": "Informations de contact pertinentes concernant la personne ou l'organisation principalement responsable des résultats d'observation du système."}
+{"k": "label", "en": "PI", "fr": "PI (investigateur principal)"}
+{"k": "definition", "en": "Relevant contact information about the person or organisation that operates a device or system. Includes operators that are responsible for the deployment of sensors and operators that control the functioning of sensors such as its calibration.", "fr": "Informations de contact pertinentes concernant la personne ou l'organisation qui exploite un dispositif ou un système. Comprend les opérateurs responsables du déploiement des capteurs et les opérateurs qui contrôlent le fonctionnement des capteurs, tels que son étalonnage."}
+{"k": "label", "en": "Operator", "fr": "opérateur"}
+{"k": "definition", "en": "Relevant contact information for an individual or organisation which provides skilled or specialised services relevant to a device or system to another individual or organisation.", "fr": "Informations de contact pertinentes pour un individu ou une organisation qui fournit des services qualifiés ou spécialisés pertinents pour un dispositif ou un système à un autre individu ou une autre organisation."}
+{"k": "label", "en": "Service Provider", "fr": "fournisseur de services"}
+{"k": "definition", "en": "Relevant contact information about the person or organisation that builds or develops a device or system.", "fr": "Informations de contact pertinentes concernant la personne ou l'organisation qui construit ou développe un dispositif ou un système."}
+{"k": "label", "en": "Manufacturer", "fr": "fabricant"}
+{"k": "definition", "en": "Relevant contact information about the person or organisation that is responsible for the archiving, quality control and quality assurance of data.", "fr": "Informations de contact pertinentes concernant la personne ou l'organisation responsable de l'archivage, du contrôle qualité et de l'assurance qualité des données."}
+{"k": "label", "en": "Data scientist", "fr": "scientifique des données"}
+{"k": "label", "en": "SensorML Contacts", "fr": "contacts SensorML"}
+{"k": "label", "en": "SensorML Contact Section Terms", "fr": "termes de la section contacts SensorML"}
+{"k": "label", "en": "MBES low frequency", "fr": "MBES basse fréquence"}
+{"k": "definition", "en": "Frequencies lower than 100 kHz, similar to 1+2%d.", "fr": "Fréquences inférieures à 100 kHz, similaire à 1+2%d."}
+{"k": "label", "en": "Low frequency multi-beam echosounder", "fr": "échosondeur multifaisceaux basse fréquence"}
+{"k": "label", "en": "SBES low frequency", "fr": "SBES basse fréquence"}
+{"k": "definition", "en": "Includes satellite derived bathy (SDB), similar to 2+5%d.", "fr": "Comprend le bathymétrique dérivé de satellite (SDB), similaire à 2+5%d."}
+{"k": "label", "en": "Low frequency single-beam echosounder", "fr": "échosondeur monofaisceau basse fréquence"}
+{"k": "label", "en": "SBES high frequency", "fr": "SBES haute fréquence"}
+{"k": "definition", "en": "Includes Lidar.", "fr": "Comprend le Lidar."}
+{"k": "label", "en": "High frequency single-beam echosounder", "fr": "échosondeur monofaisceau haute fréquence"}
+{"k": "definition", "en": "Unknown, or may include plummet or lead line methods.", "fr": "Inconnu, ou peut inclure des méthodes au plomb ou à la ligne de sonde."}
+{"k": "label", "en": "MBES high frequency", "fr": "MBES haute fréquence"}
+{"k": "definition", "en": "Frequencies higher than 100 kHz, 1+0.5%d.", "fr": "Fréquences supérieures à 100 kHz, 1+0.5%d."}
+{"k": "label", "en": "High frequency multi-beam echosounder", "fr": "échosondeur multifaisceaux haute fréquence"}
+{"k": "label", "en": "EMODnet Bathy QI_Vertical", "fr": "QI_Vertical bathymétrie EMODnet"}
+{"k": "label", "en": "EMODnet Bathymetry Quality Indicators of vertical accuracy (QI_Vertical)", "fr": "indicateurs de qualité EMODnet Bathymetry de la précision verticale (QI_Vertical)"}
+{"k": "label", "en": "nearSymm", "fr": "nearSymm (quasi-symétrique)"}
+{"k": "definition", "en": "Folk and Ward or Krumbein sediment grain-size  skewness coefficient +0.10 to -0.10", "fr": "Coefficient d'asymétrie (skewness) granulométrique des sédiments Folk et Ward ou Krumbein de +0,10 à -0,10."}
+{"k": "label", "en": "near symmetrical", "fr": "quasi-symétrique"}
+{"k": "label", "en": "finSkew", "fr": "finSkew (asymétrie fine)"}
+{"k": "definition", "en": "Folk and Ward or Krumbein sediment grain-size  skewness coefficient +0.30 to +0.10", "fr": "Coefficient d'asymétrie granulométrique des sédiments Folk et Ward ou Krumbein de +0,30 à +0,10."}
+{"k": "label", "en": "fine skewed", "fr": "asymétrie fine"}
+{"k": "label", "en": "strFinSkew", "fr": "strFinSkew (forte asymétrie fine)"}
+{"k": "definition", "en": "Folk and Ward or Krumbein sediment grain-size skewness coefficient >+0.30", "fr": "Coefficient d'asymétrie granulométrique des sédiments Folk et Ward ou Krumbein > +0,30."}
+{"k": "label", "en": "strongly fine skewed", "fr": "forte asymétrie fine"}
+{"k": "label", "en": "strCoarSkew", "fr": "strCoarSkew (forte asymétrie grossière)"}
+{"k": "definition", "en": "Folk and Ward or Krumbein sediment grain-size  skewness coefficient <-0.30", "fr": "Coefficient d'asymétrie granulométrique des sédiments Folk et Ward ou Krumbein < -0,30."}
+{"k": "label", "en": "strongly coarse skewed", "fr": "forte asymétrie grossière"}
+{"k": "label", "en": "coarSkew", "fr": "coarSkew (asymétrie grossière)"}
+{"k": "definition", "en": "Folk and Ward or Krumbein sediment grain-size  skewness coefficient -0.10 to -0.30", "fr": "Coefficient d'asymétrie granulométrique des sédiments Folk et Ward ou Krumbein de -0,10 à -0,30."}
+{"k": "label", "en": "coarse skewed", "fr": "asymétrie grossière"}
+{"k": "label", "en": "Geo-Seas skewness descriptors", "fr": "descripteurs d'asymétrie Geo-Seas"}
+{"k": "label", "en": "Geo-Seas sediment grain-size skewness descriptors", "fr": "descripteurs d'asymétrie granulométrique des sédiments Geo-Seas"}

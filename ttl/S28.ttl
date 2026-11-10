@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Roll"@en;
+        skos:definition        "Roulis."@fr ;
         skos:notation          "SDN:S28::S28003";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Phase 3"@en .
+        skos:prefLabel         "Phase 3"@en ;
+        skos:prefLabel         "phase 3"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S28/current/S28001/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Pitch change"@en;
+        skos:definition        "Variation de tangage."@fr ;
         skos:notation          "SDN:S28::S28001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Phase 1"@en .
+        skos:prefLabel         "Phase 1"@en ;
+        skos:prefLabel         "phase 1"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S28/current/S28005/>
         rdf:type               skos:Concept;
@@ -67,9 +71,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Roll back (to centre)"@en;
+        skos:definition        "Retour en roulis (vers le centre)."@fr ;
         skos:notation          "SDN:S28::S28005";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Phase 5"@en .
+        skos:prefLabel         "Phase 5"@en ;
+        skos:prefLabel         "phase 5"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S28/current/S28006/>
         rdf:type               skos:Concept;
@@ -84,9 +90,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Passive mode (waiting)"@en;
+        skos:definition        "Mode passif (attente)."@fr ;
         skos:notation          "SDN:S28::S28006";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Phase 6"@en .
+        skos:prefLabel         "Phase 6"@en ;
+        skos:prefLabel         "phase 6"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S28/current/S28002/>
         rdf:type               skos:Concept;
@@ -101,9 +109,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Variable Buoyancy Device (VBD) change"@en;
+        skos:definition        "Variation du dispositif de flottabilité variable (VBD)."@fr ;
         skos:notation          "SDN:S28::S28002";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Phase 2"@en .
+        skos:prefLabel         "Phase 2"@en ;
+        skos:prefLabel         "phase 2"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S28/current/S28004/>
         rdf:type               skos:Concept;
@@ -118,9 +128,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Turning (passive)"@en;
+        skos:definition        "Rotation (passive)."@fr ;
         skos:notation          "SDN:S28::S28004";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Phase 4"@en .
+        skos:prefLabel         "Phase 4"@en ;
+        skos:prefLabel         "phase 4"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S28/current/>
         rdf:type                skos:Collection;
@@ -136,5 +148,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "British Oceanographic Data Centre";
         owl:versionInfo         "1";
         skos:altLabel           "Seaglider Phase Settings";
+        skos:altLabel           "réglages de phase Seaglider"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/S28/current/S28003/> , <http://vocab.nerc.ac.uk/collection/S28/current/S28001/> , <http://vocab.nerc.ac.uk/collection/S28/current/S28005/> , <http://vocab.nerc.ac.uk/collection/S28/current/S28006/> , <http://vocab.nerc.ac.uk/collection/S28/current/S28004/> , <http://vocab.nerc.ac.uk/collection/S28/current/S28002/>;
-        skos:prefLabel          "Seaglider Guidance and Control Phase Settings" .
+        skos:prefLabel          "Seaglider Guidance and Control Phase Settings" ;
+        skos:prefLabel          "réglages de phase de guidage et de contrôle Seaglider"@fr .

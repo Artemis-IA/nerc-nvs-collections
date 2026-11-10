@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Secondary MC";
+        skos:altLabel          "MC secondaire"@fr ;
         skos:definition        "Measurement codes marking a recommended cycle timing variable. These are used to determine trajectory estimates for a range of float types."@en;
+        skos:definition        "Codes de mesure marquant une variable de timing de cycle recommandée. Ils sont utilisés pour déterminer les estimations de trajectoire pour une gamme de types de flotteurs."@fr ;
         skos:notation          "SDN:RMC::SECMC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Secondary Measurement Codes (MC)"@en .
+        skos:prefLabel         "Secondary Measurement Codes (MC)"@en ;
+        skos:prefLabel         "codes de mesure secondaires (MC)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/RMC/current/RGENC/>
         rdf:type               skos:Concept;
@@ -50,10 +53,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "4";
         skos:altLabel          "Relative Generic Codes";
+        skos:altLabel          "codes génériques relatifs"@fr ;
         skos:definition        "Measurement codes marking measurements recorded while transitioning towards a primary or secondary measurement code, or taken as part of a surface sequence of in-water or in-air samples. If 'MC' is defined as a primary or secondary measurement code, relative generic codes 'RGENC' correspond to all codes falling within the (MC-15) and (MC-10) range, and within the (MC-6) and (MC-1) range; i.e. (MC-16) < RGENC < (MC-9) and (MC-7) <RGENC < MC. Moreover, RGENC also correspond to MC+10 and MC+11 for MCs of either 600, 700 or 800. The definitions for relative generic codes are purposely broad, so that they may be associated with trajectory measurements recorded by a wide range of different float types."@en;
+        skos:definition        "Codes de mesure marquant des mesures enregistrées pendant la transition vers un code de mesure primaire ou secondaire, ou prises dans le cadre d'une séquence de surface d'échantillons en eau ou dans l'air. Si « MC » est défini comme un code de mesure primaire ou secondaire, les codes génériques relatifs « RGENC » correspondent à tous les codes compris dans les plages (MC-15) et (MC-10), et dans les plages (MC-6) et (MC-1) ; c.-à-d. (MC-16) < RGENC < (MC-9) et (MC-7) < RGENC < MC. De plus, RGENC correspond également à MC+10 et MC+11 pour les MC de 600, 700 ou 800. Les définitions des codes génériques relatifs sont volontairement larges, afin de pouvoir être associées à des mesures de trajectoire enregistrées par une large gamme de types de flotteurs différents."@fr ;
         skos:notation          "SDN:RMC::RGENC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Relative Generic Codes"@en .
+        skos:prefLabel         "Relative Generic Codes"@en ;
+        skos:prefLabel         "codes génériques relatifs"@fr .
 
 <http://vocab.nerc.ac.uk/collection/RMC/current/PRIMC/>
         rdf:type               skos:Concept;
@@ -67,10 +73,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Primary MC";
+        skos:altLabel          "MC primaire"@fr ;
         skos:definition        "Measurement codes marking a mandatory cycle timing variable. These are essential to determine trajectory estimates for all float types."@en;
+        skos:definition        "Codes de mesure marquant une variable de timing de cycle obligatoire. Ils sont essentiels pour déterminer les estimations de trajectoire pour tous les types de flotteurs."@fr ;
         skos:notation          "SDN:RMC::PRIMC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Primary Measurement Codes (MC)"@en .
+        skos:prefLabel         "Primary Measurement Codes (MC)"@en ;
+        skos:prefLabel         "codes de mesure primaires (MC)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/RMC/current/RSPEC/>
         rdf:type               skos:Concept;
@@ -84,11 +93,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Relative Specific Codes";
+        skos:altLabel          "codes spécifiques relatifs"@fr ;
         skos:definition        "Measurement codes reserved for unique timing events which are not repeated anywhere else within a float's cycle. If 'MC' is defined as a primary or secondary measurement code, relative specific codes 'RSPEC' generally fall anywhere within the (MC+1) and (MC+25) range; i.e. MC < RSPEC < (MC+26). However, please note that a RSPEC may not be associated with an MC at all. Each relative specific code is unique, and is matched with a trajectory measurement that is generally recorded by a limited number of float types."@en;
+        skos:definition        "Codes de mesure réservés à des événements de timing uniques qui ne sont répétés nulle part ailleurs dans le cycle d'un flotteur. Si « MC » est défini comme un code de mesure primaire ou secondaire, les codes spécifiques relatifs « RSPEC » se situent généralement dans la plage (MC+1) à (MC+25) ; c.-à-d. MC < RSPEC < (MC+26). Veuillez toutefois noter qu'un RSPEC peut ne pas être associé à un MC du tout. Chaque code spécifique relatif est unique et est associé à une mesure de trajectoire généralement enregistrée par un nombre limité de types de flotteurs."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R15/current/704/> , <http://vocab.nerc.ac.uk/collection/R15/current/702/>;
         skos:notation          "SDN:RMC::RSPEC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Relative Specific Codes"@en .
+        skos:prefLabel         "Relative Specific Codes"@en ;
+        skos:prefLabel         "codes spécifiques relatifs"@fr .
 
 <http://vocab.nerc.ac.uk/collection/RMC/current/>
         rdf:type                skos:Collection;
@@ -104,5 +116,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Argo Data Management Team";
         owl:versionInfo         "2";
         skos:altLabel           "MEASUREMENT_CODE_CATEGORY";
+        skos:altLabel           "MEASUREMENT_CODE_CATEGORY (catégorie de code de mesure)"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/RMC/current/SECMC/> , <http://vocab.nerc.ac.uk/collection/RMC/current/RGENC/> , <http://vocab.nerc.ac.uk/collection/RMC/current/RSPEC/> , <http://vocab.nerc.ac.uk/collection/RMC/current/PRIMC/>;
-        skos:prefLabel          "Argo measurement code categories" .
+        skos:prefLabel          "Argo measurement code categories" ;
+        skos:prefLabel          "catégories de codes de mesure Argo"@fr .

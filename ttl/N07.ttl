@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The resource is not directly accessible and may only be obtained by submitting a request to the data centre or through a mediated access process."@en;
+        skos:definition        "La ressource n'est pas directement accessible et ne peut être obtenue qu'en soumettant une demande au centre de données ou via un processus d'accès médié."@fr ;
         skos:notation          "SDN:N07::REQA";
         skos:note              "accepted"@en;
-        skos:prefLabel         "access by request"@en .
+        skos:prefLabel         "access by request"@en ;
+        skos:prefLabel         "accès sur demande"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N07/current/PUNA/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The resource has been permanently removed and is no longer available. The metadata record is retained as a tombstone or historical record."@en;
+        skos:definition        "La ressource a été définitivement supprimée et n'est plus disponible. L'enregistrement de métadonnées est conservé comme pierre tombale ou trace historique."@fr ;
         skos:notation          "SDN:N07::PUNA";
         skos:note              "accepted"@en;
-        skos:prefLabel         "permanently unavailable"@en .
+        skos:prefLabel         "permanently unavailable"@en ;
+        skos:prefLabel         "définitivement indisponible"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N07/current/RAUT/>
         rdf:type               skos:Concept;
@@ -67,9 +71,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Access to the resource is limited to users who have been authorised by the data custodian or data owner in accordance with applicable policies, agreements, or licensing conditions."@en;
+        skos:definition        "L'accès à la ressource est limité aux utilisateurs autorisés par le conservateur ou le propriétaire des données conformément aux politiques, accords ou conditions de licence applicables."@fr ;
         skos:notation          "SDN:N07::RAUT";
         skos:note              "accepted"@en;
-        skos:prefLabel         "restricted to authorised users"@en .
+        skos:prefLabel         "restricted to authorised users"@en ;
+        skos:prefLabel         "restreint aux utilisateurs autorisés"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N07/current/UNRS/>
         rdf:type               skos:Concept;
@@ -84,9 +90,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Access to the resource is not subject to any access limitations and is available to all users without restriction."@en;
+        skos:definition        "L'accès à la ressource ne fait l'objet d'aucune limitation et est disponible pour tous les utilisateurs sans restriction."@fr ;
         skos:notation          "SDN:N07::UNRS";
         skos:note              "accepted"@en;
-        skos:prefLabel         "unrestricted access"@en .
+        skos:prefLabel         "unrestricted access"@en ;
+        skos:prefLabel         "accès non restreint"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N07/current/RACC/>
         rdf:type               skos:Concept;
@@ -101,9 +109,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Access to the resource is limited to users who have created a user account or registered with the service providing access to the resource."@en;
+        skos:definition        "L'accès à la ressource est limité aux utilisateurs ayant créé un compte utilisateur ou s'étant enregistrés auprès du service donnant accès à la ressource."@fr ;
         skos:notation          "SDN:N07::RACC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "registered access"@en .
+        skos:prefLabel         "registered access"@en ;
+        skos:prefLabel         "accès enregistré"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N07/current/EMBG/>
         rdf:type               skos:Concept;
@@ -118,9 +128,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Access to the resource is restricted until a specified date or the occurrence of a defined condition, after which access may be granted in accordance with applicable policies or licensing conditions."@en;
+        skos:definition        "L'accès à la ressource est restreint jusqu'à une date spécifiée ou la survenue d'une condition définie, après quoi l'accès peut être accordé conformément aux politiques ou conditions de licence applicables."@fr ;
         skos:notation          "SDN:N07::EMBG";
         skos:note              "accepted"@en;
-        skos:prefLabel         "embargo"@en .
+        skos:prefLabel         "embargo"@en ;
+        skos:prefLabel         "embargo"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N07/current/>
         rdf:type                skos:Collection;
@@ -136,5 +148,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Environmental Data Service Vocabulary Governance";
         owl:versionInfo         "1";
         skos:altLabel           "EDS Access Limitation Vocabulary";
+        skos:altLabel           "vocabulaire de limitation d'accès EDS"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/N07/current/REQA/> , <http://vocab.nerc.ac.uk/collection/N07/current/PUNA/> , <http://vocab.nerc.ac.uk/collection/N07/current/RAUT/> , <http://vocab.nerc.ac.uk/collection/N07/current/UNRS/> , <http://vocab.nerc.ac.uk/collection/N07/current/EMBG/> , <http://vocab.nerc.ac.uk/collection/N07/current/RACC/>;
-        skos:prefLabel          "Environmental Data Service (EDS) Access Limitation Vocabulary" .
+        skos:prefLabel          "Environmental Data Service (EDS) Access Limitation Vocabulary" ;
+        skos:prefLabel          "vocabulaire de limitation d'accès du Environmental Data Service (EDS)"@fr .

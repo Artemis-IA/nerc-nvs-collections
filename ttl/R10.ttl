@@ -33,10 +33,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "BEIDOU";
+        skos:altLabel          "BEIDOU"@fr ;
         skos:definition        "Beidou transmission system"@en;
+        skos:definition        "Système de transmission Beidou."@fr ;
         skos:notation          "SDN:R10::BEIDOU";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Beidou transmission system"@en .
+        skos:prefLabel         "Beidou transmission system"@en ;
+        skos:prefLabel         "système de transmission Beidou"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R10/current/ARGOS/>
         rdf:type               skos:Concept;
@@ -50,10 +53,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "ARGOS";
+        skos:altLabel          "ARGOS"@fr ;
         skos:definition        "Argos transmission system"@en;
+        skos:definition        "Système de transmission Argos."@fr ;
         skos:notation          "SDN:R10::ARGOS";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Argos transmission system"@en .
+        skos:prefLabel         "Argos transmission system"@en ;
+        skos:prefLabel         "système de transmission Argos"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R10/current/ORBCOMM/>
         rdf:type               skos:Concept;
@@ -67,10 +73,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "ORBCOMM";
+        skos:altLabel          "ORBCOMM"@fr ;
         skos:definition        "Orbcomm transmission system"@en;
+        skos:definition        "Système de transmission Orbcomm."@fr ;
         skos:notation          "SDN:R10::ORBCOMM";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Orbcomm transmission system"@en .
+        skos:prefLabel         "Orbcomm transmission system"@en ;
+        skos:prefLabel         "système de transmission Orbcomm"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R10/current/IRIDIUM/>
         rdf:type               skos:Concept;
@@ -84,10 +93,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "IRIDIUM";
+        skos:altLabel          "IRIDIUM"@fr ;
         skos:definition        "Iridium transmission system"@en;
+        skos:definition        "Système de transmission Iridium."@fr ;
         skos:notation          "SDN:R10::IRIDIUM";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Iridium transmission system"@en .
+        skos:prefLabel         "Iridium transmission system"@en ;
+        skos:prefLabel         "système de transmission Iridium"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R10/current/>
         rdf:type                skos:Collection;
@@ -103,5 +115,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Argo Data Management Team";
         owl:versionInfo         "3";
         skos:altLabel           "TRANS_SYSTEM";
+        skos:altLabel           "TRANS_SYSTEM (système de transmission)"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/R10/current/BEIDOU/> , <http://vocab.nerc.ac.uk/collection/R10/current/ARGOS/> , <http://vocab.nerc.ac.uk/collection/R10/current/IRIDIUM/> , <http://vocab.nerc.ac.uk/collection/R10/current/ORBCOMM/>;
-        skos:prefLabel          "Argo transmission systems" .
+        skos:prefLabel          "Argo transmission systems" ;
+        skos:prefLabel          "systèmes de transmission Argo"@fr .

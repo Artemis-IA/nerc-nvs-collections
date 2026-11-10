@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "MBES low frequency";
+        skos:altLabel          "MBES basse fréquence"@fr ;
         skos:definition        "Frequencies lower than 100 kHz, similar to 1+2%d."@en;
+        skos:definition        "Fréquences inférieures à 100 kHz, similaire à 1+2%d."@fr ;
         skos:notation          "SDN:BQ2::2";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Low frequency multi-beam echosounder"@en .
+        skos:prefLabel         "Low frequency multi-beam echosounder"@en ;
+        skos:prefLabel         "échosondeur multifaisceaux basse fréquence"@fr .
 
 <http://vocab.nerc.ac.uk/collection/BQ2/current/1/>
         rdf:type               skos:Concept;
@@ -49,10 +52,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "SBES low frequency";
+        skos:altLabel          "SBES basse fréquence"@fr ;
         skos:definition        "Includes satellite derived bathy (SDB), similar to 2+5%d."@en;
+        skos:definition        "Comprend le bathymétrique dérivé de satellite (SDB), similaire à 2+5%d."@fr ;
         skos:notation          "SDN:BQ2::1";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Low frequency single-beam echosounder"@en .
+        skos:prefLabel         "Low frequency single-beam echosounder"@en ;
+        skos:prefLabel         "échosondeur monofaisceau basse fréquence"@fr .
 
 <http://vocab.nerc.ac.uk/collection/BQ2/current/3/>
         rdf:type               skos:Concept;
@@ -66,10 +72,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "SBES high frequency";
+        skos:altLabel          "SBES haute fréquence"@fr ;
         skos:definition        "Includes Lidar."@en;
+        skos:definition        "Comprend le Lidar."@fr ;
         skos:notation          "SDN:BQ2::3";
         skos:note              "accepted"@en;
-        skos:prefLabel         "High frequency single-beam echosounder"@en .
+        skos:prefLabel         "High frequency single-beam echosounder"@en ;
+        skos:prefLabel         "échosondeur monofaisceau haute fréquence"@fr .
 
 <http://vocab.nerc.ac.uk/collection/BQ2/current/0/>
         rdf:type               skos:Concept;
@@ -83,10 +92,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Unknown";
+        skos:altLabel          "inconnu"@fr ;
         skos:definition        "Unknown, or may include plummet or lead line methods."@en;
+        skos:definition        "Inconnu, ou peut inclure des méthodes au plomb ou à la ligne de sonde."@fr ;
         skos:notation          "SDN:BQ2::0";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Unknown"@en .
+        skos:prefLabel         "Unknown"@en ;
+        skos:prefLabel         "inconnu"@fr .
 
 <http://vocab.nerc.ac.uk/collection/BQ2/current/4/>
         rdf:type               skos:Concept;
@@ -100,10 +112,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "MBES high frequency";
+        skos:altLabel          "MBES haute fréquence"@fr ;
         skos:definition        "Frequencies higher than 100 kHz, 1+0.5%d."@en;
+        skos:definition        "Fréquences supérieures à 100 kHz, 1+0.5%d."@fr ;
         skos:notation          "SDN:BQ2::4";
         skos:note              "accepted"@en;
-        skos:prefLabel         "High frequency multi-beam echosounder"@en .
+        skos:prefLabel         "High frequency multi-beam echosounder"@en ;
+        skos:prefLabel         "échosondeur multifaisceaux haute fréquence"@fr .
 
 <http://vocab.nerc.ac.uk/collection/BQ2/current/>
         rdf:type                skos:Collection;
@@ -118,5 +133,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "EMODnet Bathymetry Lot";
         owl:versionInfo         "1";
         skos:altLabel           "EMODnet Bathy QI_Vertical";
+        skos:altLabel           "QI_Vertical bathymétrie EMODnet"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/BQ2/current/2/> , <http://vocab.nerc.ac.uk/collection/BQ2/current/1/> , <http://vocab.nerc.ac.uk/collection/BQ2/current/4/> , <http://vocab.nerc.ac.uk/collection/BQ2/current/0/> , <http://vocab.nerc.ac.uk/collection/BQ2/current/3/>;
-        skos:prefLabel          "EMODnet Bathymetry Quality Indicators of vertical accuracy (QI_Vertical)" .
+        skos:prefLabel          "EMODnet Bathymetry Quality Indicators of vertical accuracy (QI_Vertical)" ;
+        skos:prefLabel          "indicateurs de qualité EMODnet Bathymetry de la précision verticale (QI_Vertical)"@fr .

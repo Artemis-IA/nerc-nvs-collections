@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "nearSymm";
+        skos:altLabel          "nearSymm (quasi-symétrique)"@fr ;
         skos:definition        "Folk and Ward or Krumbein sediment grain-size  skewness coefficient +0.10 to -0.10"@en;
+        skos:definition        "Coefficient d'asymétrie (skewness) granulométrique des sédiments Folk et Ward ou Krumbein de +0,10 à -0,10."@fr ;
         skos:notation          "SDN:GS5::nearsymm";
         skos:note              "accepted"@en;
-        skos:prefLabel         "near symmetrical"@en .
+        skos:prefLabel         "near symmetrical"@en ;
+        skos:prefLabel         "quasi-symétrique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GS5/current/fskew/>
         rdf:type               skos:Concept;
@@ -49,10 +52,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "finSkew";
+        skos:altLabel          "finSkew (asymétrie fine)"@fr ;
         skos:definition        "Folk and Ward or Krumbein sediment grain-size  skewness coefficient +0.30 to +0.10"@en;
+        skos:definition        "Coefficient d'asymétrie granulométrique des sédiments Folk et Ward ou Krumbein de +0,30 à +0,10."@fr ;
         skos:notation          "SDN:GS5::fskew";
         skos:note              "accepted"@en;
-        skos:prefLabel         "fine skewed"@en .
+        skos:prefLabel         "fine skewed"@en ;
+        skos:prefLabel         "asymétrie fine"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GS5/current/sfskew/>
         rdf:type               skos:Concept;
@@ -66,10 +72,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "strFinSkew";
+        skos:altLabel          "strFinSkew (forte asymétrie fine)"@fr ;
         skos:definition        "Folk and Ward or Krumbein sediment grain-size skewness coefficient >+0.30"@en;
+        skos:definition        "Coefficient d'asymétrie granulométrique des sédiments Folk et Ward ou Krumbein > +0,30."@fr ;
         skos:notation          "SDN:GS5::sfskew";
         skos:note              "accepted"@en;
-        skos:prefLabel         "strongly fine skewed"@en .
+        skos:prefLabel         "strongly fine skewed"@en ;
+        skos:prefLabel         "forte asymétrie fine"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GS5/current/scskew/>
         rdf:type               skos:Concept;
@@ -83,10 +92,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "strCoarSkew";
+        skos:altLabel          "strCoarSkew (forte asymétrie grossière)"@fr ;
         skos:definition        "Folk and Ward or Krumbein sediment grain-size  skewness coefficient <-0.30"@en;
+        skos:definition        "Coefficient d'asymétrie granulométrique des sédiments Folk et Ward ou Krumbein < -0,30."@fr ;
         skos:notation          "SDN:GS5::scskew";
         skos:note              "accepted"@en;
-        skos:prefLabel         "strongly coarse skewed"@en .
+        skos:prefLabel         "strongly coarse skewed"@en ;
+        skos:prefLabel         "forte asymétrie grossière"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GS5/current/cskew/>
         rdf:type               skos:Concept;
@@ -100,10 +112,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "coarSkew";
+        skos:altLabel          "coarSkew (asymétrie grossière)"@fr ;
         skos:definition        "Folk and Ward or Krumbein sediment grain-size  skewness coefficient -0.10 to -0.30"@en;
+        skos:definition        "Coefficient d'asymétrie granulométrique des sédiments Folk et Ward ou Krumbein de -0,10 à -0,30."@fr ;
         skos:notation          "SDN:GS5::cskew";
         skos:note              "accepted"@en;
-        skos:prefLabel         "coarse skewed"@en .
+        skos:prefLabel         "coarse skewed"@en ;
+        skos:prefLabel         "asymétrie grossière"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GS5/current/>
         rdf:type                skos:Collection;
@@ -118,5 +133,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Geo-Seas";
         owl:versionInfo         "1";
         skos:altLabel           "Geo-Seas skewness descriptors";
+        skos:altLabel           "descripteurs d'asymétrie Geo-Seas"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/GS5/current/nearsymm/> , <http://vocab.nerc.ac.uk/collection/GS5/current/fskew/> , <http://vocab.nerc.ac.uk/collection/GS5/current/cskew/> , <http://vocab.nerc.ac.uk/collection/GS5/current/scskew/> , <http://vocab.nerc.ac.uk/collection/GS5/current/sfskew/>;
-        skos:prefLabel          "Geo-Seas sediment grain-size skewness descriptors" .
+        skos:prefLabel          "Geo-Seas sediment grain-size skewness descriptors" ;
+        skos:prefLabel          "descripteurs d'asymétrie granulométrique des sédiments Geo-Seas"@fr .
