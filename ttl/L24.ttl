@@ -33,10 +33,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "true";
         owl:versionInfo        "2";
         skos:altLabel          "JSON";
+        skos:altLabel          "JSON"@fr ;
         skos:definition        "JSON, JavaScript Object Notation) is an open standard file format that is human-readable and used for exchanging data in text format. It stores and transmits key value pairs in objects and ordered lists in arrays which are human and machine readable. It is compatible across programming languages such as JavaScript, Python, and Java."@en;
+        skos:definition        "JSON, JavaScript Object Notation) est un format de fichier standard ouvert, lisible par l'humain, utilisé pour l'échange de données au format texte. Il stocke et transmet des paires clé-valeur dans des objets et des listes ordonnées dans des tableaux, lisibles par l'humain et la machine. Il est compatible avec plusieurs langages de programmation tels que JavaScript, Python et Java."@fr ;
         skos:notation          "SDN:L24::JSON";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "JavaScript Object Notation"@en .
+        skos:prefLabel         "JavaScript Object Notation"@en ;
+        skos:prefLabel         "JavaScript Object Notation"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/NETCDF-4/>
         rdf:type               skos:Concept;
@@ -51,10 +54,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "true";
         owl:versionInfo        "2";
         skos:altLabel          "NetCDF-4";
+        skos:altLabel          "NetCDF-4"@fr ;
         skos:definition        "Network Common Data Form (netCDF) is a self-describing and machine-independent binary format. It bundles data arrays with metadata and is structured using dimensions, variables, and attributes. It is used for storing and sharing multidimensional scientific data. This version (4) allows for larger file sizes, data compression, and nested groups."@en;
+        skos:definition        "Network Common Data Form (netCDF) est un format binaire auto-descriptif et indépendant de la machine. Il regroupe des tableaux de données avec leurs métadonnées et est structuré à l'aide de dimensions, de variables et d'attributs. Il est utilisé pour stocker et partager des données scientifiques multidimensionnelles. Cette version (4) permet des tailles de fichiers plus grandes, la compression des données et des groupes imbriqués."@fr ;
         skos:notation          "SDN:L24::NETCDF-4";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Network Common Data Format Version 4"@en .
+        skos:prefLabel         "Network Common Data Format Version 4"@en ;
+        skos:prefLabel         "Network Common Data Format Version 4"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/GEODATABASE/>
         rdf:type               skos:Concept;
@@ -69,10 +75,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "true";
         owl:versionInfo        "2";
         skos:altLabel          "geodatabase";
+        skos:altLabel          "geodatabase"@fr ;
         skos:definition        "Geodatabase is a proprietary GIS file format used by Esri ArcGIS. It physically stores geographic information using a database management system or file system. It has an information model, for representing and managing geographic information, software logic, for working with the geographic data and shapefiles, CAD files, TINs, grids, etc., and a transaction model, for managing GIS data workflows."@en;
+        skos:definition        "Geodatabase est un format de fichier SIG propriétaire utilisé par Esri ArcGIS. Il stocke physiquement les informations géographiques à l'aide d'un système de gestion de base de données ou d'un système de fichiers. Il possède un modèle d'information pour représenter et gérer les informations géographiques, une logique logicielle pour travailler avec les données géographiques et les shapefiles, fichiers CAO, TIN, grilles, etc., et un modèle transactionnel pour gérer les flux de travail SIG."@fr ;
         skos:notation          "SDN:L24::GEODATABASE";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Esri Geodatabase"@en .
+        skos:prefLabel         "Esri Geodatabase"@en ;
+        skos:prefLabel         "Esri Geodatabase"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/GEOPACKAGE/>
         rdf:type               skos:Concept;
@@ -87,10 +96,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "true";
         owl:versionInfo        "2";
         skos:altLabel          "GPKG";
+        skos:altLabel          "GPKG"@fr ;
         skos:definition        "GeoPackage (GPKG) is an open, non-proprietary, platform-independent and standards-based data format for geographic information system. It is an SQLite database file with a specific database schema. It stores vector features, tile matrix sets of imagery and raster maps, schema and metadata."@en;
+        skos:definition        "GeoPackage (GPKG) est un format de données ouvert, non propriétaire, indépendant de la plateforme et basé sur des standards pour les systèmes d'information géographique. C'est un fichier de base de données SQLite avec un schéma de base de données spécifique. Il stocke des entités vectorielles, des ensembles de matrices de tuiles d'imagerie et de cartes raster, un schéma et des métadonnées."@fr ;
         skos:notation          "SDN:L24::GEOPACKAGE";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "GeoPackage"@en .
+        skos:prefLabel         "GeoPackage"@en ;
+        skos:prefLabel         "GeoPackage"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/GEOJSON/>
         rdf:type               skos:Concept;
@@ -105,10 +117,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "true";
         owl:versionInfo        "2";
         skos:altLabel          "GeoJSON";
+        skos:altLabel          "GeoJSON"@fr ;
         skos:definition        "GeoJSON is an open, non-proprietary standard format designed for representing simple geographical features, along with their non-spatial attributes. It is a dialect based on the JavaScript Object Notation (JSON). The features include points, line strings, polygons, and multiple collections of these types. GeoJSON features can also be used to define and describe conceptual or abstract features, such as mobile service coverage or urban planning data."@en;
+        skos:definition        "GeoJSON est un format standard ouvert et non propriétaire conçu pour représenter des entités géographiques simples, ainsi que leurs attributs non spatiaux. C'est un dialecte basé sur la JavaScript Object Notation (JSON). Les entités incluent des points, des lignes, des polygones et des collections multiples de ces types. Les entités GeoJSON peuvent aussi être utilisées pour définir et décrire des entités conceptuelles ou abstraites, telles que la couverture de services mobiles ou les données d'urbanisme."@fr ;
         skos:notation          "SDN:L24::GEOJSON";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "JavaScript Object Notation for Geographical Features"@en .
+        skos:prefLabel         "JavaScript Object Notation for Geographical Features"@en ;
+        skos:prefLabel         "JavaScript Object Notation for Geographical Features"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/GRID/>
         rdf:type               skos:Concept;
@@ -123,10 +138,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "true";
         owl:versionInfo        "2";
         skos:altLabel          "grid";
+        skos:altLabel          "grille"@fr ;
         skos:definition        "An Esri grid is a raster GIS file format developed by Esri. There are two file options, either a proprietary binary format, also known as an ARC/INFO GRID, ARC GRID and many other variations, or a non-proprietary ASCII format, also known as an ARC/INFO ASCII GRID."@en;
+        skos:definition        "Une grille Esri est un format de fichier SIG raster développé par Esri. Il existe deux options de fichier : soit un format binaire propriétaire, aussi connu sous les noms ARC/INFO GRID, ARC GRID et de nombreuses autres variantes, soit un format ASCII non propriétaire, aussi connu sous le nom d'ARC/INFO ASCII GRID."@fr ;
         skos:notation          "SDN:L24::GRID";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Esri Grid"@en .
+        skos:prefLabel         "Esri Grid"@en ;
+        skos:prefLabel         "Esri Grid"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/INAPP/>
         rdf:type               skos:Concept;
@@ -140,10 +158,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Inapplicable";
+        skos:altLabel          "Non applicable"@fr ;
         skos:definition        "There is no possible value for the data transport format, such as when a CDI record at some stage during its development cycle is not associated with a data file."@en;
+        skos:definition        "Il n'y a pas de valeur possible pour le format de transport des données, par exemple lorsqu'un enregistrement CDI à un stade de son cycle de développement n'est associé à aucun fichier de données."@fr ;
         skos:notation          "SDN:L24::INAPP";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Inapplicable"@en .
+        skos:prefLabel         "Inapplicable"@en ;
+        skos:prefLabel         "Non applicable"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/NETCDF/>
         rdf:type               skos:Concept;
@@ -158,10 +179,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "true";
         owl:versionInfo        "2";
         skos:altLabel          "NetCDF";
+        skos:altLabel          "NetCDF"@fr ;
         skos:definition        "Network Common Data Form (netCDF) is a self-describing and machine-independent binary format. It bundles data arrays with metadata and is structured using dimensions, variables, and attributes. It is used for storing and sharing multidimensional scientific data."@en;
+        skos:definition        "Network Common Data Form (netCDF) est un format binaire auto-descriptif et indépendant de la machine. Il regroupe des tableaux de données avec leurs métadonnées et est structuré à l'aide de dimensions, de variables et d'attributs. Il est utilisé pour stocker et partager des données scientifiques multidimensionnelles."@fr ;
         skos:notation          "SDN:L24::NETCDF";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Network Common Data Format"@en .
+        skos:prefLabel         "Network Common Data Format"@en ;
+        skos:prefLabel         "Network Common Data Format"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/HDF5/>
         rdf:type               skos:Concept;
@@ -176,10 +200,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "true";
         owl:versionInfo        "2";
         skos:altLabel          "HDF5";
+        skos:altLabel          "HDF5"@fr ;
         skos:definition        "HDF5 is an open source file format which supports multidimensional arrays, raster images, tables, and documents (e.g. PDF). It is self-describing and machine-independent, and is used to store complex, heterogeneous data and metadata. It is built for fast I/O processing and storage."@en;
+        skos:definition        "HDF5 est un format de fichier open source qui prend en charge les tableaux multidimensionnels, les images raster, les tables et les documents (par ex. PDF). Il est auto-descriptif et indépendant de la machine, et sert à stocker des données et métadonnées complexes et hétérogènes. Il est conçu pour un traitement et un stockage d'E/S rapides."@fr ;
         skos:notation          "SDN:L24::HDF5";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Hierarchical Data Format Version 5"@en .
+        skos:prefLabel         "Hierarchical Data Format Version 5"@en ;
+        skos:prefLabel         "Hierarchical Data Format Version 5"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/KML/>
         rdf:type               skos:Concept;
@@ -194,10 +221,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "true";
         owl:versionInfo        "2";
         skos:altLabel          "KML";
+        skos:altLabel          "KML"@fr ;
         skos:definition        "KML is an open standard file format designed to display geographic data on 2D and 3D maps using XML notation. The files are human and machine readable, and can describe pinpoint locations, polygons, images, 3D models, and add image overlays. It also contains display information for software applications."@en;
+        skos:definition        "KML est un format de fichier standard ouvert conçu pour afficher des données géographiques sur des cartes 2D et 3D en utilisant la notation XML. Les fichiers sont lisibles par l'humain et la machine, et peuvent décrire des emplacements ponctuels, des polygones, des images, des modèles 3D et ajouter des superpositions d'images. Il contient aussi des informations d'affichage pour les applications logicielles."@fr ;
         skos:notation          "SDN:L24::KML";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Keyhole Markup Language"@en .
+        skos:prefLabel         "Keyhole Markup Language"@en ;
+        skos:prefLabel         "Keyhole Markup Language"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/PDF/>
         rdf:type               skos:Concept;
@@ -212,10 +242,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "true";
         owl:versionInfo        "2";
         skos:altLabel          "PDF";
+        skos:altLabel          "PDF"@fr ;
         skos:definition        "PDF is an open standard file format (as of 2008) developed by Adobe to present documents, including text formatting and images, in a manner independent of application software, hardware, and operating systems. It is based on the PostScript language, where each file is self-contained, in that it contains all necessary elements such as text, fonts, vector graphics, raster images and other information needed to display it."@en;
+        skos:definition        "PDF est un format de fichier standard ouvert (depuis 2008) développé par Adobe pour présenter des documents, incluant la mise en forme du texte et les images, de manière indépendante des logiciels applicatifs, du matériel et des systèmes d'exploitation. Il est basé sur le langage PostScript, où chaque fichier est autonome, contenant tous les éléments nécessaires tels que le texte, les polices, les graphiques vectoriels, les images raster et les autres informations requises pour l'afficher."@fr ;
         skos:notation          "SDN:L24::PDF";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Portable Document Format"@en .
+        skos:prefLabel         "Portable Document Format"@en ;
+        skos:prefLabel         "Portable Document Format"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/HDF4/>
         rdf:type               skos:Concept;
@@ -230,10 +263,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "true";
         owl:versionInfo        "2";
         skos:altLabel          "HDF4";
+        skos:altLabel          "HDF4"@fr ;
         skos:definition        "HDF4 is an open source file format which supports multidimensional arrays, raster images, and tables. It is self-describing and machine-independent, and is used to store complex, heterogeneous data and metadata. It has a maximum file size of 2 GB. It is still supported and used, however it is not the recommended HDF format."@en;
+        skos:definition        "HDF4 est un format de fichier open source qui prend en charge les tableaux multidimensionnels, les images raster et les tables. Il est auto-descriptif et indépendant de la machine, et sert à stocker des données et métadonnées complexes et hétérogènes. Sa taille de fichier maximale est de 2 Go. Il est toujours pris en charge et utilisé, bien qu'il ne soit pas le format HDF recommandé."@fr ;
         skos:notation          "SDN:L24::HDF4";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Hierarchical Data Format Version 4"@en .
+        skos:prefLabel         "Hierarchical Data Format Version 4"@en ;
+        skos:prefLabel         "Hierarchical Data Format Version 4"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/ASCII/>
         rdf:type               skos:Concept;
@@ -248,10 +284,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "true";
         owl:versionInfo        "2";
         skos:altLabel          "ASCII";
+        skos:altLabel          "ASCII"@fr ;
         skos:definition        "ASCII is a character encoding standard that uses unique binary codes to represent letters, numbers, punctuation, and other characters. ASCII codes represent text in a standardised way to minimise compatibility issues across different computers, telecommunications equipment, and other devices."@en;
+        skos:definition        "ASCII est un standard d'encodage de caractères qui utilise des codes binaires uniques pour représenter les lettres, les nombres, la ponctuation et les autres caractères. Les codes ASCII représentent le texte de manière standardisée pour minimiser les problèmes de compatibilité entre différents ordinateurs, équipements de télécommunications et autres appareils."@fr ;
         skos:notation          "SDN:L24::ASCII";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "American Standard Code for Information Interchange"@en .
+        skos:prefLabel         "American Standard Code for Information Interchange"@en ;
+        skos:prefLabel         "American Standard Code for Information Interchange"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/EXCEL/>
         rdf:type               skos:Concept;
@@ -266,10 +305,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "true";
         owl:versionInfo        "2";
         skos:altLabel          "Excel";
+        skos:altLabel          "Excel"@fr ;
         skos:definition        "Excel is a spreadsheet developed by Microsoft for Windows, macOS, Android and iOS. These spreadsheets can handle data, formulas, charts, pivot tables, macros (Excel uses visual basic for applications (VBA)), and images. Excel refers to various proprietary file formats that are produced exclusively by Microsoft Windows, such as xlsx, xlsm, xlsb, and xls. Some file formats are based on XML (e.g. xlsx), whilst others are binary formats (e.g. xls)."@en;
+        skos:definition        "Excel est un tableur développé par Microsoft pour Windows, macOS, Android et iOS. Ces tableurs peuvent traiter des données, des formules, des graphiques, des tableaux croisés dynamiques, des macros (Excel utilise Visual Basic for Applications (VBA)) et des images. Excel désigne divers formats de fichier propriétaires produits exclusivement par Microsoft Windows, tels que xlsx, xlsm, xlsb et xls. Certains formats de fichier sont basés sur XML (par ex. xlsx), tandis que d'autres sont des formats binaires (par ex. xls)."@fr ;
         skos:notation          "SDN:L24::EXCEL";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Microsoft Excel"@en .
+        skos:prefLabel         "Microsoft Excel"@en ;
+        skos:prefLabel         "Microsoft Excel"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/JPEG-2000/>
         rdf:type               skos:Concept;
@@ -284,10 +326,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "true";
         owl:versionInfo        "2";
         skos:altLabel          "JPEG_2000";
+        skos:altLabel          "JPEG_2000"@fr ;
         skos:definition        "JPEG 2000 (JP2) is an image compression standard and coding system that is based on a discrete wavelet transform. It is not supported on web pages as of 2024."@en;
+        skos:definition        "JPEG 2000 (JP2) est un standard de compression d'images et un système de codage basé sur une transformée en ondelettes discrète. Il n'est pas pris en charge sur les pages web en 2024."@fr ;
         skos:notation          "SDN:L24::JPEG-2000";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "JPEG 2000"@en .
+        skos:prefLabel         "JPEG 2000"@en ;
+        skos:prefLabel         "JPEG 2000"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/TSV/>
         rdf:type               skos:Concept;
@@ -302,10 +347,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "true";
         owl:versionInfo        "2";
         skos:altLabel          "TSV";
+        skos:altLabel          "TSV"@fr ;
         skos:definition        "An ASCII plain text data format for storing tabular data. Each line is a record with fields that are separated by a tab."@en;
+        skos:definition        "Un format de données texte brut ASCII pour stocker des données tabulaires. Chaque ligne est un enregistrement dont les champs sont séparés par une tabulation."@fr ;
         skos:notation          "SDN:L24::TSV";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Tab-separated values"@en .
+        skos:prefLabel         "Tab-separated values"@en ;
+        skos:prefLabel         "Tab-separated values"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/KMZ/>
         rdf:type               skos:Concept;
@@ -320,10 +368,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "true";
         owl:versionInfo        "2";
         skos:altLabel          "KMZ";
+        skos:altLabel          "KMZ"@fr ;
         skos:definition        "A KMZ file is a compressed archive that consists of a main KML file, plus any desired supporting files, which can be embedded imagery, icons or 3D models . It requires the use of a GIS tool for visualisation."@en;
+        skos:definition        "Un fichier KMZ est une archive compressée composée d'un fichier KML principal, plus tout fichier de support souhaité, qui peut inclure de l'imagerie, des icônes ou des modèles 3D intégrés. Il nécessite l'utilisation d'un outil SIG pour la visualisation."@fr ;
         skos:notation          "SDN:L24::KMZ";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Keyhole Markup Language Zipped"@en .
+        skos:prefLabel         "Keyhole Markup Language Zipped"@en ;
+        skos:prefLabel         "Keyhole Markup Language Zipped"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/CSV/>
         rdf:type               skos:Concept;
@@ -338,10 +389,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "true";
         owl:versionInfo        "2";
         skos:altLabel          "CSV";
+        skos:altLabel          "CSV"@fr ;
         skos:definition        "An ASCII plain text data format for storing tabular data. Each line is a record with fields that are separated by a comma."@en;
+        skos:definition        "Un format de données texte brut ASCII pour stocker des données tabulaires. Chaque ligne est un enregistrement dont les champs sont séparés par une virgule."@fr ;
         skos:notation          "SDN:L24::CSV";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Comma-separated values"@en .
+        skos:prefLabel         "Comma-separated values"@en ;
+        skos:prefLabel         "Comma-separated values"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/NETCDF-3/>
         rdf:type               skos:Concept;
@@ -356,10 +410,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "true";
         owl:versionInfo        "2";
         skos:altLabel          "NetCDF-3";
+        skos:altLabel          "NetCDF-3"@fr ;
         skos:definition        "Network Common Data Form (netCDF) is a self-describing and machine-independent binary format. It bundles data arrays with metadata and is structured using dimensions, variables, and attributes. It is used for storing and sharing multidimensional scientific data. This version (3) can refer to the classic model (CDF-1), the CDF-2 which allows for more flexibility with variables and data sizes, or CDF-5 which allows for larger integer and unsigned integer data."@en;
+        skos:definition        "Network Common Data Form (netCDF) est un format binaire auto-descriptif et indépendant de la machine. Il regroupe des tableaux de données avec leurs métadonnées et est structuré à l'aide de dimensions, de variables et d'attributs. Il est utilisé pour stocker et partager des données scientifiques multidimensionnelles. Cette version (3) peut désigner le modèle classique (CDF-1), le CDF-2 qui permet plus de flexibilité avec les variables et les tailles de données, ou le CDF-5 qui permet des données entières et entières non signées plus grandes."@fr ;
         skos:notation          "SDN:L24::NETCDF-3";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Network Common Data Format Version 3"@en .
+        skos:prefLabel         "Network Common Data Format Version 3"@en ;
+        skos:prefLabel         "Network Common Data Format Version 3"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/SHP/>
         rdf:type               skos:Concept;
@@ -373,10 +430,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Shapefile";
+        skos:altLabel          "Shapefile"@fr ;
         skos:definition        "A popular geospatial vector data format for geographic information system software developed and regulated by ESRI."@en;
+        skos:definition        "Un format de données vectorielles géospatiales populaire pour les logiciels de système d'information géographique, développé et réglementé par ESRI."@fr ;
         skos:notation          "SDN:L24::SHP";
         skos:note              "accepted"@en;
         skos:prefLabel         "ESRI Shapefile Format"@en;
+        skos:prefLabel         "ESRI Shapefile Format"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/001/> .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/UKOAP190/>
@@ -391,10 +451,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "UKOOA P1-90";
+        skos:altLabel          "UKOOA P1-90"@fr ;
         skos:definition        "A standard format designed for raw marine positioning and ancillary data exchange widely used by industry especially for seismic surveys (http://www.epsg.org/Exchange/P1.pdf)."@en;
+        skos:definition        "Un format standard conçu pour l'échange de données brutes de positionnement marine et de données annexes, largement utilisé par l'industrie en particulier pour les études sismiques (http://www.epsg.org/Exchange/P1.pdf)."@fr ;
         skos:notation          "SDN:L24::UKOAP190";
         skos:note              "accepted"@en;
         skos:prefLabel         "United Kingdom Offshore Operators Association P1-90"@en;
+        skos:prefLabel         "United Kingdom Offshore Operators Association P1-90"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/001/> .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/SODV/>
@@ -409,10 +472,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Sediment_microlitter_ODV";
+        skos:altLabel          "Sediment_microlitter_ODV"@fr ;
         skos:definition        "A variant of the ODV ASCII format to enable Data Centers to exchange microlitter in sediments data using the SeaDataNet infrastructure. It contains all the elements required to describe microlitter in sediments."@en;
+        skos:definition        "Une variante du format ODV ASCII permettant aux centres de données d'échanger des données de micro-déchets dans les sédiments via l'infrastructure SeaDataNet. Il contient tous les éléments requis pour décrire les micro-déchets dans les sédiments."@fr ;
         skos:notation          "SDN:L24::SODV";
         skos:note              "accepted"@en;
         skos:prefLabel         "Sediment micro-litter ODV format"@en;
+        skos:prefLabel         "Sediment micro-litter ODV format"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/003/> .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/MODV/>
@@ -428,10 +494,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "3";
         skos:altLabel          "Floating_microlitter_ODV";
+        skos:altLabel          "Floating_microlitter_ODV"@fr ;
         skos:definition        "A variant of the Biological ODV format to enable Data Centers to exchange floating microlitter data using the SeaDataNet infrastructure. It contains all the required elements to describe the floating microlitter observation."@en;
+        skos:definition        "Une variante du format ODV biologique permettant aux centres de données d'échanger des données de micro-déchets flottants via l'infrastructure SeaDataNet. Il contient tous les éléments requis pour décrire l'observation de micro-déchets flottants."@fr ;
         skos:notation          "SDN:L24::MODV";
         skos:note              "accepted"@en;
         skos:prefLabel         "Floating micro-litter ODV format"@en;
+        skos:prefLabel         "Floating micro-litter ODV format"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/003/> .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/EBL/>
@@ -446,10 +515,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Beach_litter";
+        skos:altLabel          "Beach_litter"@fr ;
         skos:definition        "A standard data format in Excel formulated by EMODnet Chemistry in cooperation with TSG-ML and EU-JRC and derived from OSPAR/MCS guidelines and practices. It is used for reporting and classifying beach litter monitoring data. Excel variants are permitted."@en;
+        skos:definition        "Un format de données standard dans Excel formulé par EMODnet Chemistry en coopération avec TSG-ML et EU-JRC et dérivé des directives et pratiques OSPAR/MCS. Il est utilisé pour le rapport et la classification des données de surveillance des déchets de plage. Les variantes Excel sont autorisées."@fr ;
         skos:notation          "SDN:L24::EBL";
         skos:note              "accepted"@en;
         skos:prefLabel         "EMODnet Beach litter data format"@en;
+        skos:prefLabel         "EMODnet Beach litter data format"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/003/> .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/BODV/>
@@ -464,10 +536,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Biological_ODV";
+        skos:altLabel          "Biological_ODV"@fr ;
         skos:definition        "A variant of the ODV ASCII format to enable Data Centers to exchange biological (taxon-based) data using the SeaDataNet infrastructure. It contains all the elements required to allow conversion to the Darwin Core format and is therefore compatible with formats used by e.g. EMODNet Biology, (Eur)OBIS and GBIF."@en;
+        skos:definition        "Une variante du format ODV ASCII permettant aux centres de données d'échanger des données biologiques (basées sur les taxons) via l'infrastructure SeaDataNet. Il contient tous les éléments requis pour permettre la conversion au format Darwin Core et est donc compatible avec les formats utilisés par ex. EMODNet Biology, (Eur)OBIS et GBIF."@fr ;
         skos:notation          "SDN:L24::BODV";
         skos:note              "accepted"@en;
         skos:prefLabel         "Biological ODV"@en;
+        skos:prefLabel         "Biological ODV"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/003/> .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/ODV/>
@@ -483,10 +558,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "ODV";
+        skos:altLabel          "ODV"@fr ;
         skos:definition        "SeaDataNet extension of the Ocean Data View ASCII upload format with additional semantics embedded. Designed for profiles and point time series. For taxon-based data and micro-litter data please use the specially designed ODV variants."@en;
+        skos:definition        "Extension SeaDataNet du format de téléversement ASCII d'Ocean Data View avec une sémantique supplémentaire intégrée. Conçu pour les profils et les séries temporelles ponctuelles. Pour les données basées sur les taxons et les données de micro-déchets, veuillez utiliser les variantes ODV spécialement conçues."@fr ;
         skos:notation          "SDN:L24::ODV";
         skos:note              "accepted"@en;
         skos:prefLabel         "Ocean Data View ASCII input"@en;
+        skos:prefLabel         "Ocean Data View ASCII input"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/C10/current/TRAJ/> , <http://vocab.nerc.ac.uk/collection/G26/current/003/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPTRAJ/> , <http://vocab.nerc.ac.uk/collection/C10/current/PPROF/> , <http://vocab.nerc.ac.uk/collection/C10/current/POLYSER/> , <http://vocab.nerc.ac.uk/collection/C10/current/POINT/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPPOINT/> , <http://vocab.nerc.ac.uk/collection/C10/current/PDPROF/> , <http://vocab.nerc.ac.uk/collection/C10/current/PROFSER/> , <http://vocab.nerc.ac.uk/collection/C10/current/DPROF/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPPPROF/> , <http://vocab.nerc.ac.uk/collection/C10/current/PROFCOLL/> , <http://vocab.nerc.ac.uk/collection/C10/current/TRAJ3D/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPDPROF/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPECSER/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPPDPROF/> .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/MEDATLAS/>
@@ -501,10 +579,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "MEDATLAS";
+        skos:altLabel          "MEDATLAS"@fr ;
         skos:definition        "SeaDataNet extension of the Mediterrannean community ASCII format with additional semantics embedded.  Designed for profiles and point time series."@en;
+        skos:definition        "Extension SeaDataNet du format ASCII de la communauté méditerranéenne avec une sémantique supplémentaire intégrée. Conçu pour les profils et les séries temporelles ponctuelles."@fr ;
         skos:notation          "SDN:L24::MEDATLAS";
         skos:note              "accepted"@en;
         skos:prefLabel         "MEDATLAS ASCII"@en;
+        skos:prefLabel         "MEDATLAS ASCII"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/003/> .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/ESFL/>
@@ -519,10 +600,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Sea_floor_litter";
+        skos:altLabel          "Sea_floor_litter"@fr ;
         skos:definition        "A standard data format in excel formulated by EMODnet Chemistry in cooperation with TSG-ML and EU-JRC and derived from DATRAS- ICES Database of trawl surveys practices and guidelines for North and Western European seas and MEDITS practices and guidelines for the Mediterranean sea. It is used for reporting and classifying benthic litter monitoring data from fish trawl surveys. Excel variants are allowed."@en;
+        skos:definition        "Un format de données standard dans Excel formulé par EMODnet Chemistry en coopération avec TSG-ML et EU-JRC et dérivé des pratiques et directives DATRAS - ICES Database of trawl surveys pour les mers du Nord et d'Europe occidentale et des pratiques et directives MEDITS pour la mer Méditerranée. Il est utilisé pour le rapport et la classification des données de surveillance des déchets benthiques issues des études par chalutages. Les variantes Excel sont autorisées."@fr ;
         skos:notation          "SDN:L24::ESFL";
         skos:note              "accepted"@en;
         skos:prefLabel         "EMODnet Sea-floor litter data format"@en;
+        skos:prefLabel         "EMODnet Sea-floor litter data format"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/003/> .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/CFPOINT/>
@@ -537,10 +621,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "CF1.6_NetCDF";
+        skos:altLabel          "CF1.6_NetCDF"@fr ;
         skos:definition        "SeaDataNet extension of the Climate and Forecast (http://www.cfconventions.org/) version 1.6 standard binary format for point data with additional semantics embedded.  Designed for profiles, time series and trajectories."@en;
+        skos:definition        "Extension SeaDataNet du format binaire standard Climate and Forecast (http://www.cfconventions.org/) version 1.6 pour les données ponctuelles avec une sémantique supplémentaire intégrée. Conçu pour les profils, les séries temporelles et les trajectoires."@fr ;
         skos:notation          "SDN:L24::CFPOINT";
         skos:note              "accepted"@en;
         skos:prefLabel         "Climate and Forecast Point Data NetCDF"@en;
+        skos:prefLabel         "Climate and Forecast Point Data NetCDF"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/003/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPTRAJ/> , <http://vocab.nerc.ac.uk/collection/C10/current/PPROF/> , <http://vocab.nerc.ac.uk/collection/C10/current/POINT/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPPOINT/> , <http://vocab.nerc.ac.uk/collection/C10/current/PDPROF/> , <http://vocab.nerc.ac.uk/collection/C10/current/DPROF/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPPPROF/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPDPROF/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPPDPROF/> , <http://vocab.nerc.ac.uk/collection/C10/current/TRAJ/> .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/CF/>
@@ -556,10 +643,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "3";
         skos:altLabel          "CF_NetCDF";
+        skos:altLabel          "CF_NetCDF"@fr ;
         skos:definition        "SeaDataNet extension of the Climate and Forecast (http://www.cfconventions.org/) version 1.5 standard binary format with additional semantics embedded.  Designed for gridded data."@en;
+        skos:definition        "Extension SeaDataNet du format binaire standard Climate and Forecast (http://www.cfconventions.org/) version 1.5 avec une sémantique supplémentaire intégrée. Conçu pour les données grillées."@fr ;
         skos:notation          "SDN:L24::CF";
         skos:note              "accepted"@en;
         skos:prefLabel         "Climate and Forecast NetCDF"@en;
+        skos:prefLabel         "Climate and Forecast NetCDF"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/002/> , <http://vocab.nerc.ac.uk/collection/C10/current/SPGRID/> , <http://vocab.nerc.ac.uk/collection/C10/current/CSPGRID/> .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/XTF/>
@@ -574,10 +664,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "XTF";
+        skos:altLabel          "XTF"@fr ;
         skos:definition        "A Triton Imaging Incorporated file format for recording hydrographic survey data, widely used for sidescan sonar."@en;
+        skos:definition        "Un format de fichier de Triton Imaging Incorporated pour l'enregistrement des données d'études hydrographiques, largement utilisé pour le sonar latéral."@fr ;
         skos:notation          "SDN:L24::XTF";
         skos:note              "accepted"@en;
         skos:prefLabel         "eXtended Triton Format"@en;
+        skos:prefLabel         "eXtended Triton Format"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/002/> .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/SEGY/>
@@ -592,10 +685,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "SEG Y";
+        skos:altLabel          "SEG Y"@fr ;
         skos:definition        "A standard data format developed by the Society of Exploration Geophysicists for exchanging seismics data (http://www.seg.org/SEGportalWEBproject/prod/SEG-Publications/Pub-Technical-Standards/Documents/seg_y_rev1.pdf)."@en;
+        skos:definition        "Un format de données standard développé par la Society of Exploration Geophysicists pour l'échange de données sismiques (http://www.seg.org/SEGportalWEBproject/prod/SEG-Publications/Pub-Technical-Standards/Documents/seg_y_rev1.pdf)."@fr ;
         skos:notation          "SDN:L24::SEGY";
         skos:note              "accepted"@en;
         skos:prefLabel         "Society of Exploration Geophysicists SEG Y"@en;
+        skos:prefLabel         "Society of Exploration Geophysicists SEG Y"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/002/> .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/TIFF/>
@@ -610,10 +706,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "TIFF";
+        skos:altLabel          "TIFF"@fr ;
         skos:definition        "A standard format for the storage of images originally developed by Aldus, but under the control of Adobe Systems since 2009."@en;
+        skos:definition        "Un format standard pour le stockage d'images, développé à l'origine par Aldus, mais sous le contrôle d'Adobe Systems depuis 2009."@fr ;
         skos:notation          "SDN:L24::TIFF";
         skos:note              "accepted"@en;
         skos:prefLabel         "Tagged Image File Format"@en;
+        skos:prefLabel         "Tagged Image File Format"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/002/> .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/BAG/>
@@ -628,10 +727,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "BAG";
+        skos:altLabel          "BAG"@fr ;
         skos:definition        "A global, non-proprietary, open source exchange format created to facilitate the processing and storage of large volume multibeam sonar data. It is developed by the Open Navigation Surface Working Group."@en;
+        skos:definition        "Un format d'échange global, non propriétaire, open source, créé pour faciliter le traitement et le stockage de gros volumes de données de sondeur multifaisceaux. Il est développé par l'Open Navigation Surface Working Group."@fr ;
         skos:notation          "SDN:L24::BAG";
         skos:note              "accepted"@en;
         skos:prefLabel         "Bathymetric Attributed Grid format"@en;
+        skos:prefLabel         "Bathymetric Attributed Grid format"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/002/> .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/XYZ/>
@@ -646,10 +748,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "XYZ";
+        skos:altLabel          "XYZ"@fr ;
         skos:definition        "XYZ comma separated format (longitude, latitude, depth), designed for gridded data from bathymetric surveys and Digital Terrain Models."@en;
+        skos:definition        "Format XYZ à valeurs séparées par des virgules (longitude, latitude, profondeur), conçu pour les données grillées issues des études bathymétriques et des Modèles Numériques de Terrain."@fr ;
         skos:notation          "SDN:L24::XYZ";
         skos:note              "accepted"@en;
         skos:prefLabel         "XYZ ASCII"@en;
+        skos:prefLabel         "XYZ ASCII"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/002/> .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/PNG/>
@@ -664,10 +769,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "PNG";
+        skos:altLabel          "PNG"@fr ;
         skos:definition        "A standard bit-mapped image format employing lossless compression for the storage of images."@en;
+        skos:definition        "Un format d'image standard bitmap employant une compression sans perte pour le stockage des images."@fr ;
         skos:notation          "SDN:L24::PNG";
         skos:note              "accepted"@en;
         skos:prefLabel         "Portable Network Graphics"@en;
+        skos:prefLabel         "Portable Network Graphics"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/002/> .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/GEOTIFF/>
@@ -682,10 +790,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "GEOTIFF";
+        skos:altLabel          "GEOTIFF"@fr ;
         skos:definition        "A public domain metadata standard which allows georeferencing information to be embedded within a TIFF file. The potential additional information includes map projection, coordinate systems, ellipsoids, datums, and other attributes to establish the exact spatial reference for the file."@en;
+        skos:definition        "Un standard de métadonnées du domaine public qui permet d'intégrer des informations de géoréférencement dans un fichier TIFF. Les informations additionnelles potentielles incluent la projection cartographique, les systèmes de coordonnées, les ellipsoïdes, les repères et d'autres attributs pour établir la référence spatiale exacte du fichier."@fr ;
         skos:notation          "SDN:L24::GEOTIFF";
         skos:note              "accepted"@en;
         skos:prefLabel         "Georeferenced Tagged Image File Format"@en;
+        skos:prefLabel         "Georeferenced Tagged Image File Format"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/G26/current/002/> .
 
 <http://vocab.nerc.ac.uk/collection/L24/current/>
@@ -702,5 +813,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "SeaDataNet";
         owl:versionInfo         "13";
         skos:altLabel           "SDN formats";
+        skos:altLabel           "SDN formats"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/L24/current/JSON/> , <http://vocab.nerc.ac.uk/collection/L24/current/NETCDF-4/> , <http://vocab.nerc.ac.uk/collection/L24/current/GEODATABASE/> , <http://vocab.nerc.ac.uk/collection/L24/current/GEOPACKAGE/> , <http://vocab.nerc.ac.uk/collection/L24/current/GEOJSON/> , <http://vocab.nerc.ac.uk/collection/L24/current/GRID/> , <http://vocab.nerc.ac.uk/collection/L24/current/INAPP/> , <http://vocab.nerc.ac.uk/collection/L24/current/NETCDF/> , <http://vocab.nerc.ac.uk/collection/L24/current/HDF5/> , <http://vocab.nerc.ac.uk/collection/L24/current/KML/> , <http://vocab.nerc.ac.uk/collection/L24/current/PDF/> , <http://vocab.nerc.ac.uk/collection/L24/current/HDF4/> , <http://vocab.nerc.ac.uk/collection/L24/current/ASCII/> , <http://vocab.nerc.ac.uk/collection/L24/current/EXCEL/> , <http://vocab.nerc.ac.uk/collection/L24/current/JPEG-2000/> , <http://vocab.nerc.ac.uk/collection/L24/current/TSV/> , <http://vocab.nerc.ac.uk/collection/L24/current/KMZ/> , <http://vocab.nerc.ac.uk/collection/L24/current/CSV/> , <http://vocab.nerc.ac.uk/collection/L24/current/NETCDF-3/> , <http://vocab.nerc.ac.uk/collection/L24/current/SHP/> , <http://vocab.nerc.ac.uk/collection/L24/current/UKOAP190/> , <http://vocab.nerc.ac.uk/collection/L24/current/SODV/> , <http://vocab.nerc.ac.uk/collection/L24/current/MODV/> , <http://vocab.nerc.ac.uk/collection/L24/current/EBL/> , <http://vocab.nerc.ac.uk/collection/L24/current/BODV/> , <http://vocab.nerc.ac.uk/collection/L24/current/ODV/> , <http://vocab.nerc.ac.uk/collection/L24/current/MEDATLAS/> , <http://vocab.nerc.ac.uk/collection/L24/current/ESFL/> , <http://vocab.nerc.ac.uk/collection/L24/current/CFPOINT/> , <http://vocab.nerc.ac.uk/collection/L24/current/CF/> , <http://vocab.nerc.ac.uk/collection/L24/current/XTF/> , <http://vocab.nerc.ac.uk/collection/L24/current/SEGY/> , <http://vocab.nerc.ac.uk/collection/L24/current/TIFF/> , <http://vocab.nerc.ac.uk/collection/L24/current/BAG/> , <http://vocab.nerc.ac.uk/collection/L24/current/XYZ/> , <http://vocab.nerc.ac.uk/collection/L24/current/GEOTIFF/> , <http://vocab.nerc.ac.uk/collection/L24/current/PNG/>;
-        skos:prefLabel          "SeaDataNet data transport formats" .
+        skos:prefLabel          "SeaDataNet data transport formats" ;
+        skos:prefLabel          "SeaDataNet data transport formats"@fr .

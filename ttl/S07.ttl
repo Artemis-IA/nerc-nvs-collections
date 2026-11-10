@@ -32,11 +32,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "avg_max";
+        skos:altLabel          "avg_max"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "A value representing the average maximum for a time interval provided elsewhere in the metadata. For example the average of the maximum values recorded on the same Day Of Year over a decade. The method for calculating means varies depending on the type of observations being made."@en;
+        skos:definition        "Une valeur représentant le maximum moyen pour un intervalle de temps fourni ailleurs dans les métadonnées. Par exemple la moyenne des valeurs maximales enregistrées le même jour de l'année sur une décennie. La méthode de calcul des moyennes varie selon le type d'observations effectuées."@fr ;
         skos:notation          "SDN:S07::S0700027";
         skos:note              "accepted"@en;
-        skos:prefLabel         "mean maximum"@en .
+        skos:prefLabel         "mean maximum"@en ;
+        skos:prefLabel         "maximum moyen"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700001/>
         rdf:type               skos:Concept;
@@ -68,11 +71,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "hist_max";
+        skos:altLabel          "hist_max"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "A value representing the largest maximum for a time interval provided elsewhere in the metadata. For example the largest of the maximum values recorded on the same Day Of Year over a decade."@en;
+        skos:definition        "Une valeur représentant le plus grand maximum pour un intervalle de temps fourni ailleurs dans les métadonnées. Par exemple le plus grand des maximums enregistrés le même jour de l'année sur une décennie."@fr ;
         skos:notation          "SDN:S07::S0700025";
         skos:note              "accepted"@en;
-        skos:prefLabel         "historic maximum"@en .
+        skos:prefLabel         "historic maximum"@en ;
+        skos:prefLabel         "maximum historique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700028/>
         rdf:type               skos:Concept;
@@ -86,11 +92,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "avg_min";
+        skos:altLabel          "avg_min"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "A value representing the average minimum for a time interval provided elsewhere in the metadata. For example the average of the minimum values recorded on the same Day Of Year over a decade. The method for calculating means varies depending on the type of observations being made."@en;
+        skos:definition        "Une valeur représentant le minimum moyen pour un intervalle de temps fourni ailleurs dans les métadonnées. Par exemple la moyenne des valeurs minimales enregistrées le même jour de l'année sur une décennie. La méthode de calcul des moyennes varie selon le type d'observations effectuées."@fr ;
         skos:notation          "SDN:S07::S0700028";
         skos:note              "accepted"@en;
-        skos:prefLabel         "mean minimum"@en .
+        skos:prefLabel         "mean minimum"@en ;
+        skos:prefLabel         "minimum moyen"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700026/>
         rdf:type               skos:Concept;
@@ -104,11 +113,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "hist_min";
+        skos:altLabel          "hist_min"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "A value representing the smallest minimum for a time interval provided elsewhere in the metadata. For example the smallest of the maximum values recorded on the same Day Of Year over a decade."@en;
+        skos:definition        "Une valeur représentant le plus petit minimum pour un intervalle de temps fourni ailleurs dans les métadonnées. Par exemple le plus petit des maximums enregistrés le même jour de l'année sur une décennie."@fr ;
         skos:notation          "SDN:S07::S0700026";
         skos:note              "accepted"@en;
-        skos:prefLabel         "historic minimum"@en .
+        skos:prefLabel         "historic minimum"@en ;
+        skos:prefLabel         "minimum historique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700006/>
         rdf:type               skos:Concept;
@@ -124,9 +136,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "No statistic has been explicitly specified for the parameter entity."@en;
+        skos:definition        "Aucune statistique n'a été explicitement spécifiée pour l'entité paramètre."@fr ;
         skos:notation          "SDN:S07::S0700006";
         skos:note              "accepted"@en;
-        skos:prefLabel         "not specified"@en .
+        skos:prefLabel         "not specified"@en ;
+        skos:prefLabel         "non spécifié"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700044/>
         rdf:type               skos:Concept;
@@ -141,9 +155,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The largest value recorded within any continuous period of two minutes as specified elsewhere in the metadata."@en;
+        skos:definition        "La plus grande valeur enregistrée dans toute période continue de deux minutes comme spécifié ailleurs dans les métadonnées."@fr ;
         skos:notation          "SDN:S07::S0700044";
         skos:note              "accepted"@en;
         skos:prefLabel         "2-minute maximum"@en;
+        skos:prefLabel         "maximum sur 2 minutes"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/EWSTMX01/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700051/>
@@ -159,9 +175,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The square root of the average of the squares of deviations about the mean of a set of data recorded within any continuous period of 10 minutes as specified elsewhere in the metadata."@en;
+        skos:definition        "La racine carrée de la moyenne des carrés des écarts par rapport à la moyenne d'un ensemble de données enregistré dans toute période continue de 10 minutes comme spécifié ailleurs dans les métadonnées."@fr ;
         skos:notation          "SDN:S07::S0700051";
         skos:note              "accepted"@en;
         skos:prefLabel         "10-minute standard deviation"@en;
+        skos:prefLabel         "écart-type sur 10 minutes"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/EWSBLDSD/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700018/>
@@ -178,9 +196,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "A value representing the average over a thirty minute time interval. The method for calculating the mean may vary depending on the type of observations being made."@en;
+        skos:definition        "Une valeur représentant la moyenne sur un intervalle de trente minutes. La méthode de calcul de la moyenne peut varier selon le type d'observations effectuées."@fr ;
         skos:notation          "SDN:S07::S0700018";
         skos:note              "accepted"@en;
         skos:prefLabel         "30-minute mean"@en;
+        skos:prefLabel         "moyenne sur 30 minutes"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/ASLVNM30/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700050/>
@@ -196,9 +216,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The smallest value recorded within any continuous period of 10 minutes as specified elsewhere in the metadata."@en;
+        skos:definition        "La plus petite valeur enregistrée dans toute période continue de 10 minutes comme spécifié ailleurs dans les métadonnées."@fr ;
         skos:notation          "SDN:S07::S0700050";
         skos:note              "accepted"@en;
         skos:prefLabel         "10-minute minimum"@en;
+        skos:prefLabel         "minimum sur 10 minutes"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/EWSBLMIN/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700015/>
@@ -213,11 +235,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "yearly mean";
+        skos:altLabel          "yearly mean"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "A value representing the average over one year. The method for calculating annual means varies depending on the type of observations being made."@en;
+        skos:definition        "Une valeur représentant la moyenne sur un an. La méthode de calcul des moyennes annuelles varie selon le type d'observations effectuées."@fr ;
         skos:notation          "SDN:S07::S0700015";
         skos:note              "accepted"@en;
         skos:prefLabel         "annual mean"@en;
+        skos:prefLabel         "moyenne annuelle"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/ASLVMNYR/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700048/>
@@ -233,9 +258,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The largest value recorded within any continuous period of thirty seconds as specified elsewhere in the metadata."@en;
+        skos:definition        "La plus grande valeur enregistrée dans toute période continue de trente secondes comme spécifié ailleurs dans les métadonnées."@fr ;
         skos:notation          "SDN:S07::S0700048";
         skos:note              "accepted"@en;
         skos:prefLabel         "30-second maximum"@en;
+        skos:prefLabel         "maximum sur 30 secondes"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/EWS30S01/> , <http://vocab.nerc.ac.uk/collection/P01/current/EWD30S01/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700036/>
@@ -252,9 +279,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "The value below which 95 percent of the observations may be found."@en;
+        skos:definition        "La valeur en dessous de laquelle 95 pour cent des observations peuvent se trouver."@fr ;
         skos:notation          "SDN:S07::S0700036";
         skos:note              "accepted"@en;
         skos:prefLabel         "95th percentile"@en;
+        skos:prefLabel         "95e percentile"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/PC95SSXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/PC95PSXX/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700035/>
@@ -271,9 +300,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "The value below which 75 percent of the observations may be found."@en;
+        skos:definition        "La valeur en dessous de laquelle 75 pour cent des observations peuvent se trouver."@fr ;
         skos:notation          "SDN:S07::S0700035";
         skos:note              "accepted"@en;
         skos:prefLabel         "75th percentile"@en;
+        skos:prefLabel         "75e percentile"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/PC75SSXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/PC75PSXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/PC75ISXX/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700031/>
@@ -290,9 +321,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "The value below which 10 percent of the observations may be found."@en;
+        skos:definition        "La valeur en dessous de laquelle 10 pour cent des observations peuvent se trouver."@fr ;
         skos:notation          "SDN:S07::S0700031";
         skos:note              "accepted"@en;
         skos:prefLabel         "10th percentile"@en;
+        skos:prefLabel         "10e percentile"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/PC10PSNC/> , <http://vocab.nerc.ac.uk/collection/P01/current/PC10PSXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/PC10SPMX/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700023/>
@@ -307,11 +340,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "daily_avg";
+        skos:altLabel          "daily_avg"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "A value representing the average over a period of 24 hours. The method for calculating daily means varies depending on the type of observations being made."@en;
+        skos:definition        "Une valeur représentant la moyenne sur une période de 24 heures. La méthode de calcul des moyennes journalières varie selon le type d'observations effectuées."@fr ;
         skos:notation          "SDN:S07::S0700023";
         skos:note              "accepted"@en;
         skos:prefLabel         "daily mean"@en;
+        skos:prefLabel         "moyenne journalière"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/ASLVMNDY/> , <http://vocab.nerc.ac.uk/collection/P01/current/FLOWCABV/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700029/>
@@ -328,9 +364,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "A measure quantifying the degree of asymetry of a frequency distribution."@en;
+        skos:definition        "Une mesure quantifiant le degré d'asymétrie d'une distribution de fréquence."@fr ;
         skos:notation          "SDN:S07::S0700029";
         skos:note              "accepted"@en;
         skos:prefLabel         "skewness"@en;
+        skos:prefLabel         "asymétrie"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/SKGSSSXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/SKGSPSXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/SKGSPSPM/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700046/>
@@ -346,9 +384,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The largest value recorded within any continuous period of one minute as specified elsewhere in the metadata."@en;
+        skos:definition        "La plus grande valeur enregistrée dans toute période continue d'une minute comme spécifié ailleurs dans les métadonnées."@fr ;
         skos:notation          "SDN:S07::S0700046";
         skos:note              "accepted"@en;
         skos:prefLabel         "1-minute maximum"@en;
+        skos:prefLabel         "maximum sur 1 minute"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/EWS1MX01/> , <http://vocab.nerc.ac.uk/collection/P01/current/EWD1MX01/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700021/>
@@ -365,9 +405,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "A value representing the average over a one minute time interval. The method for calculating the mean may vary depending on the type of observations being made."@en;
+        skos:definition        "Une valeur représentant la moyenne sur un intervalle d'une minute. La méthode de calcul de la moyenne peut varier selon le type d'observations effectuées."@fr ;
         skos:notation          "SDN:S07::S0700021";
         skos:note              "accepted"@en;
         skos:prefLabel         "1-minute mean"@en;
+        skos:prefLabel         "moyenne sur 1 minute"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/EWSONE01/> , <http://vocab.nerc.ac.uk/collection/P01/current/EWDONE01/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700041/>
@@ -384,9 +426,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "The most frequent value in a frequency distribution."@en;
+        skos:definition        "La valeur la plus fréquente dans une distribution de fréquence."@fr ;
         skos:notation          "SDN:S07::S0700041";
         skos:note              "accepted"@en;
         skos:prefLabel         "mode"@en;
+        skos:prefLabel         "mode"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MOGSPSXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/MOGSSSXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/MOGSISXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/MOGSPSPM/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700052/>
@@ -402,9 +446,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A coefficient used to describe the distribution of grain sizes in a sample of unconsolidated material, derived from the standard deviation of grain-size distributions. Indicates uniformity."@en;
+        skos:definition        "Un coefficient utilisé pour décrire la distribution des tailles de grains dans un échantillon de matériau non consolidé, dérivé de l'écart-type des distributions de tailles de grains. Indique l'uniformité."@fr ;
         skos:notation          "SDN:S07::S0700052";
         skos:note              "accepted"@en;
         skos:prefLabel         "sorting coefficient"@en;
+        skos:prefLabel         "coefficient de tri"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/SCGSPSXX/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700047/>
@@ -420,9 +466,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The largest value recorded within any continuous period of ten seconds as specified elsewhere in the metadata."@en;
+        skos:definition        "La plus grande valeur enregistrée dans toute période continue de dix secondes comme spécifié ailleurs dans les métadonnées."@fr ;
         skos:notation          "SDN:S07::S0700047";
         skos:note              "accepted"@en;
         skos:prefLabel         "10-second maximum"@en;
+        skos:prefLabel         "maximum sur 10 secondes"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/EWS10S01/> , <http://vocab.nerc.ac.uk/collection/P01/current/EWD10S01/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700037/>
@@ -439,9 +487,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "The value below which 90 percent of the observations may be found."@en;
+        skos:definition        "La valeur en dessous de laquelle 90 pour cent des observations peuvent se trouver."@fr ;
         skos:notation          "SDN:S07::S0700037";
         skos:note              "accepted"@en;
         skos:prefLabel         "90th percentile"@en;
+        skos:prefLabel         "90e percentile"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/PC90SSXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/PC90PSXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/PC90PSNC/> , <http://vocab.nerc.ac.uk/collection/P01/current/PC95ISXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/PC90SPMX/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700034/>
@@ -458,9 +508,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "The value below which 5 percent of the observations may be found."@en;
+        skos:definition        "La valeur en dessous de laquelle 5 pour cent des observations peuvent se trouver."@fr ;
         skos:notation          "SDN:S07::S0700034";
         skos:note              "accepted"@en;
         skos:prefLabel         "5th percentile"@en;
+        skos:prefLabel         "5e percentile"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/PC05PSXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/PC05SSXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/PC05ISXX/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700033/>
@@ -477,9 +529,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "The value below which 25 percent of the observations may be found."@en;
+        skos:definition        "La valeur en dessous de laquelle 25 pour cent des observations peuvent se trouver."@fr ;
         skos:notation          "SDN:S07::S0700033";
         skos:note              "accepted"@en;
         skos:prefLabel         "25th percentile"@en;
+        skos:prefLabel         "25e percentile"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/PC25SSXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/PC25PSXX/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700039/>
@@ -496,9 +550,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "The value below which 1 percent of the observations may be found."@en;
+        skos:definition        "La valeur en dessous de laquelle 1 pour cent des observations peuvent se trouver."@fr ;
         skos:notation          "SDN:S07::S0700039";
         skos:note              "accepted"@en;
         skos:prefLabel         "1st percentile"@en;
+        skos:prefLabel         "1er percentile"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/PC01SSXX/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700009/>
@@ -515,9 +571,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700011/>;
         skos:definition        "The standard error (or standard uncertainty) scaled to a given level of confidence by multiplying the value by a coverage factor."@en;
+        skos:definition        "L'erreur standard (ou incertitude standard) mise à l'échelle à un niveau de confiance donné en multipliant la valeur par un facteur d'élargissement."@fr ;
         skos:notation          "SDN:S07::S0700009";
         skos:note              "accepted"@en;
         skos:prefLabel         "expanded uncertainty"@en;
+        skos:prefLabel         "incertitude élargie"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/APOUX066/> , <http://vocab.nerc.ac.uk/collection/P01/current/APOUX013/> , <http://vocab.nerc.ac.uk/collection/P01/current/APOUX001/> , <http://vocab.nerc.ac.uk/collection/P01/current/C37CGSXU/> , <http://vocab.nerc.ac.uk/collection/P01/current/APOUX052/> , <http://vocab.nerc.ac.uk/collection/P01/current/APOUX137/> , <http://vocab.nerc.ac.uk/collection/P01/current/APOUX002/> , <http://vocab.nerc.ac.uk/collection/P01/current/APOUX138/> , <http://vocab.nerc.ac.uk/collection/P01/current/APOUX043/> , <http://vocab.nerc.ac.uk/collection/P01/current/ACAUX043/> , <http://vocab.nerc.ac.uk/collection/P01/current/ACAUX138/> , <http://vocab.nerc.ac.uk/collection/P01/current/ACAUX137/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700017/>
@@ -534,9 +592,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "A value representing the average over one hour. The method for calculating hourly means varies depending on the type of observations being made."@en;
+        skos:definition        "Une valeur représentant la moyenne sur une heure. La méthode de calcul des moyennes horaires varie selon le type d'observations effectuées."@fr ;
         skos:notation          "SDN:S07::S0700017";
         skos:note              "accepted"@en;
         skos:prefLabel         "hourly mean"@en;
+        skos:prefLabel         "moyenne horaire"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/ASLVNM60/> , <http://vocab.nerc.ac.uk/collection/P01/current/ASLVNL60/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700014/>
@@ -553,9 +613,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "The squared deviation of a random variable from its mean."@en;
+        skos:definition        "L'écart quadratique d'une variable aléatoire par rapport à sa moyenne."@fr ;
         skos:notation          "SDN:S07::S0700014";
         skos:note              "accepted"@en;
         skos:prefLabel         "variance"@en;
+        skos:prefLabel         "variance"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/TVARTP01/> , <http://vocab.nerc.ac.uk/collection/P01/current/HFRVA001/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700030/>
@@ -572,9 +634,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "A measure quantifying the sharpness (the extent to which a curve is peaked) of a frequency distribution."@en;
+        skos:definition        "Une mesure quantifiant l'acuité (le degré auquel une courbe est pointue) d'une distribution de fréquence."@fr ;
         skos:notation          "SDN:S07::S0700030";
         skos:note              "accepted"@en;
         skos:prefLabel         "kurtosis"@en;
+        skos:prefLabel         "kurtosis"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/KRGSPSXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/KRTSSSXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/KRGSSSXX/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700049/>
@@ -590,9 +654,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A value representing the average over a twenty minute time interval. The method for calculating the mean may vary depending on the type of observations being made."@en;
+        skos:definition        "Une valeur représentant la moyenne sur un intervalle de vingt minutes. La méthode de calcul de la moyenne peut varier selon le type d'observations effectuées."@fr ;
         skos:notation          "SDN:S07::S0700049";
         skos:note              "accepted"@en;
         skos:prefLabel         "20-minute mean"@en;
+        skos:prefLabel         "moyenne sur 20 minutes"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/ERWDSO02/> , <http://vocab.nerc.ac.uk/collection/P01/current/EWDASO02/> , <http://vocab.nerc.ac.uk/collection/P01/current/FVIDSOP2/> , <http://vocab.nerc.ac.uk/collection/P01/current/LHFLSOP1/> , <http://vocab.nerc.ac.uk/collection/P01/current/SHFLSOP1/> , <http://vocab.nerc.ac.uk/collection/P01/current/ERWSSO02/> , <http://vocab.nerc.ac.uk/collection/P01/current/EWSBSO04/> , <http://vocab.nerc.ac.uk/collection/P01/current/EWSBSO03/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700040/>
@@ -607,11 +673,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "median";
+        skos:altLabel          "median (médiane)"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "The mid-point of a frequency distribution."@en;
+        skos:definition        "Le point médian d'une distribution de fréquence."@fr ;
         skos:notation          "SDN:S07::S0700040";
         skos:note              "accepted"@en;
         skos:prefLabel         "50th percentile"@en;
+        skos:prefLabel         "50e percentile"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/PC50PSXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/PC50PSNC/> , <http://vocab.nerc.ac.uk/collection/P01/current/PC50SSXX/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700045/>
@@ -627,9 +696,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The largest value recorded within any continuous period of ten minutes as specified elsewhere in the metadata."@en;
+        skos:definition        "La plus grande valeur enregistrée dans toute période continue de dix minutes comme spécifié ailleurs dans les métadonnées."@fr ;
         skos:notation          "SDN:S07::S0700045";
         skos:note              "accepted"@en;
         skos:prefLabel         "10-minute maximum"@en;
+        skos:prefLabel         "maximum sur 10 minutes"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/EWSTEMX1/> , <http://vocab.nerc.ac.uk/collection/P01/current/EWSTEMX2/> , <http://vocab.nerc.ac.uk/collection/P01/current/EWSBLMAX/> , <http://vocab.nerc.ac.uk/collection/P01/current/EWDMAX01/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700004/>
@@ -646,9 +717,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "The midpoint of a series of numbers."@en;
+        skos:definition        "Le point médian d'une série de nombres."@fr ;
         skos:notation          "SDN:S07::S0700004";
         skos:note              "accepted"@en;
         skos:prefLabel         "median"@en;
+        skos:prefLabel         "median (médiane)"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/SWSAREAM/> , <http://vocab.nerc.ac.uk/collection/P01/current/FLOAREAM/> , <http://vocab.nerc.ac.uk/collection/P01/current/FLRAREAM/> , <http://vocab.nerc.ac.uk/collection/P01/current/FWSAREAM/> , <http://vocab.nerc.ac.uk/collection/P01/current/DMMD2141/> , <http://vocab.nerc.ac.uk/collection/P01/current/DMMD7969/> , <http://vocab.nerc.ac.uk/collection/P01/current/MSAGIXPZ/> , <http://vocab.nerc.ac.uk/collection/P01/current/MDGSISXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/MDGSPSPM/> , <http://vocab.nerc.ac.uk/collection/P01/current/MDGSCCXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/ALATZMED/> , <http://vocab.nerc.ac.uk/collection/P01/current/ALONZMED/> , <http://vocab.nerc.ac.uk/collection/P01/current/POCMED10/> , <http://vocab.nerc.ac.uk/collection/P01/current/PRESPMED/> , <http://vocab.nerc.ac.uk/collection/P01/current/ADEPZMED/> , <http://vocab.nerc.ac.uk/collection/P01/current/TEMPSMED/> , <http://vocab.nerc.ac.uk/collection/P01/current/PSALSMED/> , <http://vocab.nerc.ac.uk/collection/P01/current/CORGZMED/> , <http://vocab.nerc.ac.uk/collection/P01/current/SED50VIS/> , <http://vocab.nerc.ac.uk/collection/P01/current/MDGSPSXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/MDGSSSXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/MDGSPPXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/SND50VIS/> , <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZMED/> , <http://vocab.nerc.ac.uk/collection/P01/current/NTRAKMED/> , <http://vocab.nerc.ac.uk/collection/P01/current/P539DMMD/> , <http://vocab.nerc.ac.uk/collection/P01/current/P701DMMD/> , <http://vocab.nerc.ac.uk/collection/P01/current/P700DMMD/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700013/>
@@ -664,11 +737,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "lower error";
+        skos:altLabel          "lower error"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "A generic term for the parameter that characterizes the dispersion of the values below the reported value that could reasonably be attributed to a measurand with an asymetrical distribution; uncertainty derivation should be described in the usage metadata."@en;
+        skos:definition        "Un terme générique pour le paramètre qui caractérise la dispersion des valeurs en dessous de la valeur rapportée qui pourraient raisonnablement être attribuées à un mesurande à distribution asymétrique ; la dérivation de l'incertitude devrait être décrite dans les métadonnées d'utilisation."@fr ;
         skos:notation          "SDN:S07::S0700013";
         skos:note              "accepted"@en;
         skos:prefLabel         "lower uncertainty"@en;
+        skos:prefLabel         "incertitude inférieure"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/LTM01414/> , <http://vocab.nerc.ac.uk/collection/P01/current/LTM00990/> , <http://vocab.nerc.ac.uk/collection/P01/current/LTM01919/> , <http://vocab.nerc.ac.uk/collection/P01/current/LTM02424/> , <http://vocab.nerc.ac.uk/collection/P01/current/LTM02929/> , <http://vocab.nerc.ac.uk/collection/P01/current/SDLFCLE6/> , <http://vocab.nerc.ac.uk/collection/P01/current/LTM00440/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700002/>
@@ -704,9 +780,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "The standard deviation divided by the square root of the sample size."@en;
+        skos:definition        "L'écart-type divisé par la racine carrée de la taille de l'échantillon."@fr ;
         skos:notation          "SDN:S07::S0700008";
         skos:note              "accepted"@en;
         skos:prefLabel         "standard error"@en;
+        skos:prefLabel         "erreur standard"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/FASEEE19/> , <http://vocab.nerc.ac.uk/collection/P01/current/FASEEE13/> , <http://vocab.nerc.ac.uk/collection/P01/current/FASEEE11/> , <http://vocab.nerc.ac.uk/collection/P01/current/FASEEE27/> , <http://vocab.nerc.ac.uk/collection/P01/current/FASEEE18/> , <http://vocab.nerc.ac.uk/collection/P01/current/FASEEE24/> , <http://vocab.nerc.ac.uk/collection/P01/current/FASEEE02/> , <http://vocab.nerc.ac.uk/collection/P01/current/FASEEE04/> , <http://vocab.nerc.ac.uk/collection/P01/current/FASEEE17/> , <http://vocab.nerc.ac.uk/collection/P01/current/FASEEE15/> , <http://vocab.nerc.ac.uk/collection/P01/current/FASEEE03/> , <http://vocab.nerc.ac.uk/collection/P01/current/FASEEE10/> , <http://vocab.nerc.ac.uk/collection/P01/current/FASEEE14/> , <http://vocab.nerc.ac.uk/collection/P01/current/FASEEE05/> , <http://vocab.nerc.ac.uk/collection/P01/current/FASEEE12/> , <http://vocab.nerc.ac.uk/collection/P01/current/FASEEE26/> , <http://vocab.nerc.ac.uk/collection/P01/current/FASEEE23/> , <http://vocab.nerc.ac.uk/collection/P01/current/FASEEE09/> , <http://vocab.nerc.ac.uk/collection/P01/current/FASEEE20/> , <http://vocab.nerc.ac.uk/collection/P01/current/FASEEE01/> , <http://vocab.nerc.ac.uk/collection/P01/current/FASEEE21/> , <http://vocab.nerc.ac.uk/collection/P01/current/FASEEE08/> , <http://vocab.nerc.ac.uk/collection/P01/current/FASEEE16/> , <http://vocab.nerc.ac.uk/collection/P01/current/FASEEE06/> , <http://vocab.nerc.ac.uk/collection/P01/current/FASEEE07/> , <http://vocab.nerc.ac.uk/collection/P01/current/FASEEE22/> , <http://vocab.nerc.ac.uk/collection/P01/current/PRSEIOD2/> , <http://vocab.nerc.ac.uk/collection/P01/current/PRSECHL2/> , <http://vocab.nerc.ac.uk/collection/P01/current/PRSEDI02/> , <http://vocab.nerc.ac.uk/collection/P01/current/PRSEIOD1/> , <http://vocab.nerc.ac.uk/collection/P01/current/PRSECHL1/> , <http://vocab.nerc.ac.uk/collection/P01/current/PRSEDI01/> , <http://vocab.nerc.ac.uk/collection/P01/current/OITHPRSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/X5A3582A/> , <http://vocab.nerc.ac.uk/collection/P01/current/KB7A2007/> , <http://vocab.nerc.ac.uk/collection/P01/current/L37B3A77/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTM02222/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTM00220/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTM01212/> , <http://vocab.nerc.ac.uk/collection/P01/current/SDLFCVE6/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTM01717/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTM00770/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTM02727/> , <http://vocab.nerc.ac.uk/collection/P01/current/SECOUV09/> , <http://vocab.nerc.ac.uk/collection/P01/current/NDSE02MS/> , <http://vocab.nerc.ac.uk/collection/P01/current/NDKGSEMS/> , <http://vocab.nerc.ac.uk/collection/P01/current/ET34SPP2/> , <http://vocab.nerc.ac.uk/collection/P01/current/ET34SPD2/> , <http://vocab.nerc.ac.uk/collection/P01/current/SE234TH4/> , <http://vocab.nerc.ac.uk/collection/P01/current/SO10IGD2/> , <http://vocab.nerc.ac.uk/collection/P01/current/ET34GPD2/> , <http://vocab.nerc.ac.uk/collection/P01/current/SE234TH5/> , <http://vocab.nerc.ac.uk/collection/P01/current/SO10IGD9/> , <http://vocab.nerc.ac.uk/collection/P01/current/SO10IGP2/> , <http://vocab.nerc.ac.uk/collection/P01/current/SO10IGP8/> , <http://vocab.nerc.ac.uk/collection/P01/current/SERA224U/> , <http://vocab.nerc.ac.uk/collection/P01/current/ET34SPP9/> , <http://vocab.nerc.ac.uk/collection/P01/current/SE37GSTX/> , <http://vocab.nerc.ac.uk/collection/P01/current/SE37GSD5/> , <http://vocab.nerc.ac.uk/collection/P01/current/ET34SPD9/> , <http://vocab.nerc.ac.uk/collection/P01/current/SE37GSD2/> , <http://vocab.nerc.ac.uk/collection/P01/current/S3HHMXTX/> , <http://vocab.nerc.ac.uk/collection/P01/current/ET34GSP2/> , <http://vocab.nerc.ac.uk/collection/P01/current/SENXCP0B/> , <http://vocab.nerc.ac.uk/collection/P01/current/SENXNP0A/> , <http://vocab.nerc.ac.uk/collection/P01/current/SENXCP0A/> , <http://vocab.nerc.ac.uk/collection/P01/current/SENXNP0B/> , <http://vocab.nerc.ac.uk/collection/P01/current/SENXNP0C/> , <http://vocab.nerc.ac.uk/collection/P01/current/SENXCP0C/> , <http://vocab.nerc.ac.uk/collection/P01/current/SENXCP0E/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSERTFBL/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSEREWHF/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSERRVHF/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSERNSHF/> , <http://vocab.nerc.ac.uk/collection/P01/current/SEPU240T/> , <http://vocab.nerc.ac.uk/collection/P01/current/CDSEICP2/> , <http://vocab.nerc.ac.uk/collection/P01/current/TH230SDP/> , <http://vocab.nerc.ac.uk/collection/P01/current/TH230ER8/> , <http://vocab.nerc.ac.uk/collection/P01/current/TH230ER4/> , <http://vocab.nerc.ac.uk/collection/P01/current/T230STER/> , <http://vocab.nerc.ac.uk/collection/P01/current/T230TLSD/> , <http://vocab.nerc.ac.uk/collection/P01/current/THKG0ER6/> , <http://vocab.nerc.ac.uk/collection/P01/current/THKG0ER5/> , <http://vocab.nerc.ac.uk/collection/P01/current/TH230SE4/> , <http://vocab.nerc.ac.uk/collection/P01/current/SETH230K/> , <http://vocab.nerc.ac.uk/collection/P01/current/TH230SE8/> , <http://vocab.nerc.ac.uk/collection/P01/current/T23002SD/> , <http://vocab.nerc.ac.uk/collection/P01/current/TH230ER6/> , <http://vocab.nerc.ac.uk/collection/P01/current/TH230ER5/> , <http://vocab.nerc.ac.uk/collection/P01/current/SNECMXXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/SHECMXXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/CUPSINSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/CDPSINSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/MNPSINSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/TIPSUSSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/NDPSUSSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/CUPSUSSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/COPSUSSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/COPSINSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/NDPSINSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/NIPSINSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/TIPSINSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/NIPSUSSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/CDPSUSSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/MNPSUSSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/SETCCNXT/> , <http://vocab.nerc.ac.uk/collection/P01/current/ACMGASE1/> , <http://vocab.nerc.ac.uk/collection/P01/current/ECMGXX01/> , <http://vocab.nerc.ac.uk/collection/P01/current/ECNAXX01/> , <http://vocab.nerc.ac.uk/collection/P01/current/ACKARSE2/> , <http://vocab.nerc.ac.uk/collection/P01/current/ACMGASE2/> , <http://vocab.nerc.ac.uk/collection/P01/current/ECKXXX01/> , <http://vocab.nerc.ac.uk/collection/P01/current/ACKARSE1/> , <http://vocab.nerc.ac.uk/collection/P01/current/ACNAASE1/> , <http://vocab.nerc.ac.uk/collection/P01/current/ACNAASE2/> , <http://vocab.nerc.ac.uk/collection/P01/current/XTE4GSXT/> , <http://vocab.nerc.ac.uk/collection/P01/current/ET30APXT/> , <http://vocab.nerc.ac.uk/collection/P01/current/EXT0APXT/> , <http://vocab.nerc.ac.uk/collection/P01/current/SU35GSXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/SB14GSXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/S37CGSXT/> , <http://vocab.nerc.ac.uk/collection/P01/current/THPSUSSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/THPSINSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/PHEOSE01/> , <http://vocab.nerc.ac.uk/collection/P01/current/SA28GSXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/ETHCAPXT/> , <http://vocab.nerc.ac.uk/collection/P01/current/ALPSUSSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/ALPSINSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/ALSELGD5/> , <http://vocab.nerc.ac.uk/collection/P01/current/ACCAASE2/> , <http://vocab.nerc.ac.uk/collection/P01/current/ECCAXX01/> , <http://vocab.nerc.ac.uk/collection/P01/current/ACCAASE1/> , <http://vocab.nerc.ac.uk/collection/P01/current/SEPU239T/> , <http://vocab.nerc.ac.uk/collection/P01/current/PHPSINSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/PHPSUSSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/ST28GSPS/> , <http://vocab.nerc.ac.uk/collection/P01/current/DSETH228/> , <http://vocab.nerc.ac.uk/collection/P01/current/PSETH228/> , <http://vocab.nerc.ac.uk/collection/P01/current/SL14GSXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/IDATSPSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/IIDECVSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/S41CSPXT/> , <http://vocab.nerc.ac.uk/collection/P01/current/S41CGSXT/> , <http://vocab.nerc.ac.uk/collection/P01/current/SDND237T/> , <http://vocab.nerc.ac.uk/collection/P01/current/DFEFICSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/FEPSUSSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/FESEICP2/> , <http://vocab.nerc.ac.uk/collection/P01/current/FEPSINSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/FESECLDX/> , <http://vocab.nerc.ac.uk/collection/P01/current/AGPSINSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/AGPSUSSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/SL12GSXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFEE21/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFGE16/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFGE07/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFEE02/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFGE12/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFGE20/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFGE26/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFGE21/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFEE19/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFGE04/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFGE17/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFEE26/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFEE03/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFGE13/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFGE27/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFEE22/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFEE06/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFGE23/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFGE08/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFEE13/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFGE01/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFGE14/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFEE07/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFGE22/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFEE23/> , <http://vocab.nerc.ac.uk/collection/P01/current/TNCFGE01/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFEE16/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFGE09/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFGE02/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFEE04/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFGE18/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFEE10/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFEE01/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFGE24/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFGE25/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFEE27/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFGE03/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFEE09/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFEE08/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFGE10/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFEE14/> , <http://vocab.nerc.ac.uk/collection/P01/current/TNCFEE01/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFEE17/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFGE05/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFGE19/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFEE11/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFEE12/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFEE24/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFEE18/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFEE20/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFGE15/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFGE06/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFEE25/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFGE11/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFEE15/> , <http://vocab.nerc.ac.uk/collection/P01/current/FACFEE05/> , <http://vocab.nerc.ac.uk/collection/P01/current/TNSEEE01/> , <http://vocab.nerc.ac.uk/collection/P01/current/SENIMATX/> , <http://vocab.nerc.ac.uk/collection/P01/current/SETNCOD1/> , <http://vocab.nerc.ac.uk/collection/P01/current/YTPSINSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/YTPSUSSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/ACCLASE2/> , <http://vocab.nerc.ac.uk/collection/P01/current/ACCLASE1/> , <http://vocab.nerc.ac.uk/collection/P01/current/ECCLXX01/> , <http://vocab.nerc.ac.uk/collection/P01/current/SE38GSD2/> , <http://vocab.nerc.ac.uk/collection/P01/current/SE38GSTX/> , <http://vocab.nerc.ac.uk/collection/P01/current/TCCNCERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/PBPSUSSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/PBPSINSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/PSDINC01/> , <http://vocab.nerc.ac.uk/collection/P01/current/SE90GSTX/> , <http://vocab.nerc.ac.uk/collection/P01/current/SE90GSD2/> , <http://vocab.nerc.ac.uk/collection/P01/current/DCPERIP1/> , <http://vocab.nerc.ac.uk/collection/P01/current/TCSEEE01/> , <http://vocab.nerc.ac.uk/collection/P01/current/SECOCAXT/> , <http://vocab.nerc.ac.uk/collection/P01/current/SERA228U/> , <http://vocab.nerc.ac.uk/collection/P01/current/ZNPSINSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/ZNSEICP2/> , <http://vocab.nerc.ac.uk/collection/P01/current/ZNPSUSSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/R226228E/> , <http://vocab.nerc.ac.uk/collection/P01/current/SEURAPXT/> , <http://vocab.nerc.ac.uk/collection/P01/current/SETRAPXT/> , <http://vocab.nerc.ac.uk/collection/P01/current/FELSCVE6/> , <http://vocab.nerc.ac.uk/collection/P01/current/SEIRAMDP/> , <http://vocab.nerc.ac.uk/collection/P01/current/ARTH02SD/> , <http://vocab.nerc.ac.uk/collection/P01/current/ARTHTTSD/> , <http://vocab.nerc.ac.uk/collection/P01/current/OPCNWERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/SENXCN0C/> , <http://vocab.nerc.ac.uk/collection/P01/current/SENXNN0C/> , <http://vocab.nerc.ac.uk/collection/P01/current/IASEIIP1/> , <http://vocab.nerc.ac.uk/collection/P01/current/NAUEROP1/> , <http://vocab.nerc.ac.uk/collection/P01/current/SENXCN0B/> , <http://vocab.nerc.ac.uk/collection/P01/current/INASEKP2/> , <http://vocab.nerc.ac.uk/collection/P01/current/SENXCN0A/> , <http://vocab.nerc.ac.uk/collection/P01/current/SENXNN0A/> , <http://vocab.nerc.ac.uk/collection/P01/current/SEAMHOTX/> , <http://vocab.nerc.ac.uk/collection/P01/current/SENXCN0E/> , <http://vocab.nerc.ac.uk/collection/P01/current/SENXNN0B/> , <http://vocab.nerc.ac.uk/collection/P01/current/ST208GSX/> , <http://vocab.nerc.ac.uk/collection/P01/current/ACSUASE1/> , <http://vocab.nerc.ac.uk/collection/P01/current/ECSO4X01/> , <http://vocab.nerc.ac.uk/collection/P01/current/ACSUASE2/> , <http://vocab.nerc.ac.uk/collection/P01/current/SENZMATX/> , <http://vocab.nerc.ac.uk/collection/P01/current/SORCPLP5/> , <http://vocab.nerc.ac.uk/collection/P01/current/CRINTSE4/> , <http://vocab.nerc.ac.uk/collection/P01/current/NRSEC00A/> , <http://vocab.nerc.ac.uk/collection/P01/current/SEGPLDPX/> , <http://vocab.nerc.ac.uk/collection/P01/current/SESRLDPJ/> , <http://vocab.nerc.ac.uk/collection/P01/current/CRINTSE2/> , <http://vocab.nerc.ac.uk/collection/P01/current/SESNLDPN/> , <http://vocab.nerc.ac.uk/collection/P01/current/SENPLDPX/> , <http://vocab.nerc.ac.uk/collection/P01/current/SESGLDPJ/> , <http://vocab.nerc.ac.uk/collection/P01/current/SESGLDPL/> , <http://vocab.nerc.ac.uk/collection/P01/current/CRINTSE1/> , <http://vocab.nerc.ac.uk/collection/P01/current/SESRLDPL/> , <http://vocab.nerc.ac.uk/collection/P01/current/SESNLDPK/> , <http://vocab.nerc.ac.uk/collection/P01/current/SESRLDPN/> , <http://vocab.nerc.ac.uk/collection/P01/current/SESNLDPM/> , <http://vocab.nerc.ac.uk/collection/P01/current/SORCPXP5/> , <http://vocab.nerc.ac.uk/collection/P01/current/SESGLDPN/> , <http://vocab.nerc.ac.uk/collection/P01/current/CRINTSE3/> , <http://vocab.nerc.ac.uk/collection/P01/current/SESGLDPP/> , <http://vocab.nerc.ac.uk/collection/P01/current/SESNLDPJ/> , <http://vocab.nerc.ac.uk/collection/P01/current/CRINTSE5/> , <http://vocab.nerc.ac.uk/collection/P01/current/SORCPVP5/> , <http://vocab.nerc.ac.uk/collection/P01/current/NRSEC00C/> , <http://vocab.nerc.ac.uk/collection/P01/current/SESRLDPP/> , <http://vocab.nerc.ac.uk/collection/P01/current/SERPROPX/> , <http://vocab.nerc.ac.uk/collection/P01/current/SESRLDPK/> , <http://vocab.nerc.ac.uk/collection/P01/current/NRSEC00B/> , <http://vocab.nerc.ac.uk/collection/P01/current/SESRLDPM/> , <http://vocab.nerc.ac.uk/collection/P01/current/SERPRSPX/> , <http://vocab.nerc.ac.uk/collection/P01/current/SESNLDPL/> , <http://vocab.nerc.ac.uk/collection/P01/current/CRINTSE6/> , <http://vocab.nerc.ac.uk/collection/P01/current/SESGLDPK/> , <http://vocab.nerc.ac.uk/collection/P01/current/SERPLDPX/> , <http://vocab.nerc.ac.uk/collection/P01/current/NRSEC00E/> , <http://vocab.nerc.ac.uk/collection/P01/current/SESGLDPM/> , <http://vocab.nerc.ac.uk/collection/P01/current/SESNLDPP/> , <http://vocab.nerc.ac.uk/collection/P01/current/STNROXTX/> , <http://vocab.nerc.ac.uk/collection/P01/current/BAPSINSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/CBABA004/> , <http://vocab.nerc.ac.uk/collection/P01/current/BAPSUSSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/SB10IGP2/> , <http://vocab.nerc.ac.uk/collection/P01/current/SB10IGP8/> , <http://vocab.nerc.ac.uk/collection/P01/current/SB10IGD2/> , <http://vocab.nerc.ac.uk/collection/P01/current/SX10IGXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/SB10IGD9/> , <http://vocab.nerc.ac.uk/collection/P01/current/SX10GSXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/SL10GSXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/SL10GSPS/> , <http://vocab.nerc.ac.uk/collection/P01/current/SL10IGXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/P210STER/> , <http://vocab.nerc.ac.uk/collection/P01/current/LEUCRESE/> , <http://vocab.nerc.ac.uk/collection/P01/current/PAKG1ER5/> , <http://vocab.nerc.ac.uk/collection/P01/current/PAKG1ER6/> , <http://vocab.nerc.ac.uk/collection/P01/current/PA23SDPA/> , <http://vocab.nerc.ac.uk/collection/P01/current/PA02KGSD/> , <http://vocab.nerc.ac.uk/collection/P01/current/PA231ER6/> , <http://vocab.nerc.ac.uk/collection/P01/current/PA231SE4/> , <http://vocab.nerc.ac.uk/collection/P01/current/PA231ER4/> , <http://vocab.nerc.ac.uk/collection/P01/current/PA231ER5/> , <http://vocab.nerc.ac.uk/collection/P01/current/PA04KGSD/> , <http://vocab.nerc.ac.uk/collection/P01/current/PA231ER8/> , <http://vocab.nerc.ac.uk/collection/P01/current/PA231SE8/> , <http://vocab.nerc.ac.uk/collection/P01/current/INSEIIP1/> , <http://vocab.nerc.ac.uk/collection/P01/current/INNSEKP2/> , <http://vocab.nerc.ac.uk/collection/P01/current/NNUEROP1/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSDEGCD1/> , <http://vocab.nerc.ac.uk/collection/P01/current/SEOCCOD1/> , <http://vocab.nerc.ac.uk/collection/P01/current/SEOCCOTX/> , <http://vocab.nerc.ac.uk/collection/P01/current/EBABA002/> , <http://vocab.nerc.ac.uk/collection/P01/current/HF176SEC/> , <http://vocab.nerc.ac.uk/collection/P01/current/CD112SEM/> , <http://vocab.nerc.ac.uk/collection/P01/current/ECA87001/> , <http://vocab.nerc.ac.uk/collection/P01/current/DTA87001/> , <http://vocab.nerc.ac.uk/collection/P01/current/S3HEMXDG/> , <http://vocab.nerc.ac.uk/collection/P01/current/EN53CRSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/ENE87010/> , <http://vocab.nerc.ac.uk/collection/P01/current/ND143SEC/> , <http://vocab.nerc.ac.uk/collection/P01/current/CDESEICP/> , <http://vocab.nerc.ac.uk/collection/P01/current/NDSECH1Z/> , <http://vocab.nerc.ac.uk/collection/P01/current/S13CMITX/> , <http://vocab.nerc.ac.uk/collection/P01/current/NDCHUR02/> , <http://vocab.nerc.ac.uk/collection/P01/current/VAPSINSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/VAPSUSSE/> , <http://vocab.nerc.ac.uk/collection/P01/current/ATNH3S91/> , <http://vocab.nerc.ac.uk/collection/P01/current/ACNH4SE2/> , <http://vocab.nerc.ac.uk/collection/P01/current/ACNITSE1/> , <http://vocab.nerc.ac.uk/collection/P01/current/ACNH4SE1/> , <http://vocab.nerc.ac.uk/collection/P01/current/ACNITSE2/> , <http://vocab.nerc.ac.uk/collection/P01/current/ECNH4X01/> , <http://vocab.nerc.ac.uk/collection/P01/current/ECNO3X01/> , <http://vocab.nerc.ac.uk/collection/P01/current/SEUCAPXT/> , <http://vocab.nerc.ac.uk/collection/P01/current/SESASCFX/> , <http://vocab.nerc.ac.uk/collection/P01/current/SESASCCX/> , <http://vocab.nerc.ac.uk/collection/P01/current/SESASCBX/> , <http://vocab.nerc.ac.uk/collection/P01/current/SE09GSD2/> , <http://vocab.nerc.ac.uk/collection/P01/current/SE09GSTX/> , <http://vocab.nerc.ac.uk/collection/P01/current/SERA223U/> , <http://vocab.nerc.ac.uk/collection/P01/current/SR26GSPS/> , <http://vocab.nerc.ac.uk/collection/P01/current/SERA226U/> , <http://vocab.nerc.ac.uk/collection/P01/current/R26EGSXT/> , <http://vocab.nerc.ac.uk/collection/P01/current/EU34APXT/> , <http://vocab.nerc.ac.uk/collection/P01/current/TNCNCERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/SECURAAC/> , <http://vocab.nerc.ac.uk/collection/P01/current/SECURAYY/> , <http://vocab.nerc.ac.uk/collection/P01/current/SECURAAA/> , <http://vocab.nerc.ac.uk/collection/P01/current/TCCFGE01/> , <http://vocab.nerc.ac.uk/collection/P01/current/SECURP2C/> , <http://vocab.nerc.ac.uk/collection/P01/current/SECURAZZ/> , <http://vocab.nerc.ac.uk/collection/P01/current/PCUEIIP5/> , <http://vocab.nerc.ac.uk/collection/P01/current/SNCEROPN/> , <http://vocab.nerc.ac.uk/collection/P01/current/SCUEIIPF/> , <http://vocab.nerc.ac.uk/collection/P01/current/SCUEIIPQ/> , <http://vocab.nerc.ac.uk/collection/P01/current/TCCFEE01/> , <http://vocab.nerc.ac.uk/collection/P01/current/SNCEROPC/> , <http://vocab.nerc.ac.uk/collection/P01/current/PCUEIIP4/> , <http://vocab.nerc.ac.uk/collection/P01/current/SECURAXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/NCUEROP6/> , <http://vocab.nerc.ac.uk/collection/P01/current/SNCEROPA/> , <http://vocab.nerc.ac.uk/collection/P01/current/SECURAAB/> , <http://vocab.nerc.ac.uk/collection/P01/current/ICCNCAER/> , <http://vocab.nerc.ac.uk/collection/P01/current/STNRDCTX/> , <http://vocab.nerc.ac.uk/collection/P01/current/TH232SD8/> , <http://vocab.nerc.ac.uk/collection/P01/current/TH232SE4/> , <http://vocab.nerc.ac.uk/collection/P01/current/T23202SD/> , <http://vocab.nerc.ac.uk/collection/P01/current/T232TLSD/> , <http://vocab.nerc.ac.uk/collection/P01/current/T232STER/> , <http://vocab.nerc.ac.uk/collection/P01/current/THKG2ER6/> , <http://vocab.nerc.ac.uk/collection/P01/current/TH232SDP/> , <http://vocab.nerc.ac.uk/collection/P01/current/THKG2ER5/> , <http://vocab.nerc.ac.uk/collection/P01/current/T23245SD/> , <http://vocab.nerc.ac.uk/collection/P01/current/TH232SE8/> , <http://vocab.nerc.ac.uk/collection/P01/current/TH232SD7/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLSEFLP1/> , <http://vocab.nerc.ac.uk/collection/P01/current/SCUEIIPG/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700003/>
@@ -722,6 +800,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "average";
+        skos:altLabel          "average"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "Assumed to be the arithmetic mean (the sum of a set of measurements divided by the sample size) unless explicitly qualified by a subgroup term such as geometric."@en , "Moyenne arithmétique (somme des valeurs de l'échantillon divisée par la taille de l'échantillon), sauf s'il est explicitement spécifié qu'il s'agit d'un autre type de moyenne (e.g. géométrique)."@fr;
         skos:notation          "SDN:S07::S0700003";
@@ -743,9 +822,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "The value below which 16 percent of the observations may be found."@en;
+        skos:definition        "La valeur en dessous de laquelle 16 pour cent des observations peuvent se trouver."@fr ;
         skos:notation          "SDN:S07::S0700032";
         skos:note              "accepted"@en;
         skos:prefLabel         "16th percentile"@en;
+        skos:prefLabel         "16e percentile"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/PC16SSXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/PC16PSXX/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700010/>
@@ -761,11 +842,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "propagated error";
+        skos:altLabel          "propagated error"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700011/>;
         skos:definition        "A mathematical combination of several individual estimated, calculated or measured uncertainties; uncertainty derivation should be described in the usage metadata."@en;
+        skos:definition        "Une combinaison mathématique de plusieurs incertitudes individuelles estimées, calculées ou mesurées ; la dérivation de l'incertitude devrait être décrite dans les métadonnées d'utilisation."@fr ;
         skos:notation          "SDN:S07::S0700010";
         skos:note              "accepted"@en;
         skos:prefLabel         "combined uncertainty"@en;
+        skos:prefLabel         "incertitude combinée"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/DCMUC017/> , <http://vocab.nerc.ac.uk/collection/P01/current/HLAUC018/> , <http://vocab.nerc.ac.uk/collection/P01/current/NDKG06MS/> , <http://vocab.nerc.ac.uk/collection/P01/current/T234ER53/> , <http://vocab.nerc.ac.uk/collection/P01/current/MXTX3HER/> , <http://vocab.nerc.ac.uk/collection/P01/current/E234THDX/> , <http://vocab.nerc.ac.uk/collection/P01/current/T234ER02/> , <http://vocab.nerc.ac.uk/collection/P01/current/E234THPX/> , <http://vocab.nerc.ac.uk/collection/P01/current/T234ERTX/> , <http://vocab.nerc.ac.uk/collection/P01/current/T234ER01/> , <http://vocab.nerc.ac.uk/collection/P01/current/HLAUC017/> , <http://vocab.nerc.ac.uk/collection/P01/current/TH230XU2/> , <http://vocab.nerc.ac.uk/collection/P01/current/TH230U04/> , <http://vocab.nerc.ac.uk/collection/P01/current/TH230XU4/> , <http://vocab.nerc.ac.uk/collection/P01/current/TH230U02/> , <http://vocab.nerc.ac.uk/collection/P01/current/DCMUC016/> , <http://vocab.nerc.ac.uk/collection/P01/current/DCMUC009/> , <http://vocab.nerc.ac.uk/collection/P01/current/DCMUC006/> , <http://vocab.nerc.ac.uk/collection/P01/current/DCMUC001/> , <http://vocab.nerc.ac.uk/collection/P01/current/DCMUC003/> , <http://vocab.nerc.ac.uk/collection/P01/current/HLAUC016/> , <http://vocab.nerc.ac.uk/collection/P01/current/NECNMAER/> , <http://vocab.nerc.ac.uk/collection/P01/current/HECNMAER/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLA77002/> , <http://vocab.nerc.ac.uk/collection/P01/current/CCA77028/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLA77013/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLA77034/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTI77042/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSC77040/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLA77017/> , <http://vocab.nerc.ac.uk/collection/P01/current/CNI77037/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLA77016/> , <http://vocab.nerc.ac.uk/collection/P01/current/CCH77031/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLA77014/> , <http://vocab.nerc.ac.uk/collection/P01/current/CCO77030/> , <http://vocab.nerc.ac.uk/collection/P01/current/CMA77035/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLA77005/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLA77003/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLA77010/> , <http://vocab.nerc.ac.uk/collection/P01/current/CCO77032/> , <http://vocab.nerc.ac.uk/collection/P01/current/CCE77029/> , <http://vocab.nerc.ac.uk/collection/P01/current/CNE77036/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLA77004/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTH77041/> , <http://vocab.nerc.ac.uk/collection/P01/current/CAL77026/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTO77038/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLA77008/> , <http://vocab.nerc.ac.uk/collection/P01/current/IICECSV1/> , <http://vocab.nerc.ac.uk/collection/P01/current/IIDECVU4/> , <http://vocab.nerc.ac.uk/collection/P01/current/IICECSV2/> , <http://vocab.nerc.ac.uk/collection/P01/current/IIDECVU2/> , <http://vocab.nerc.ac.uk/collection/P01/current/IDATSPCE/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLA77009/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLA77012/> , <http://vocab.nerc.ac.uk/collection/P01/current/HLAUC015/> , <http://vocab.nerc.ac.uk/collection/P01/current/CIR77033/> , <http://vocab.nerc.ac.uk/collection/P01/current/CYT77044/> , <http://vocab.nerc.ac.uk/collection/P01/current/TBMAUCUF/> , <http://vocab.nerc.ac.uk/collection/P01/current/HLAUC003/> , <http://vocab.nerc.ac.uk/collection/P01/current/CIMAUCUF/> , <http://vocab.nerc.ac.uk/collection/P01/current/HLAUC006/> , <http://vocab.nerc.ac.uk/collection/P01/current/HLAUC005/> , <http://vocab.nerc.ac.uk/collection/P01/current/HLAUC008/> , <http://vocab.nerc.ac.uk/collection/P01/current/DIMAUCUF/> , <http://vocab.nerc.ac.uk/collection/P01/current/IDOAUCUF/> , <http://vocab.nerc.ac.uk/collection/P01/current/HLAUC002/> , <http://vocab.nerc.ac.uk/collection/P01/current/HLAUC001/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLE77039/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLA77006/> , <http://vocab.nerc.ac.uk/collection/P01/current/CZI77045/> , <http://vocab.nerc.ac.uk/collection/P01/current/CBA77027/> , <http://vocab.nerc.ac.uk/collection/P01/current/HLAUC014/> , <http://vocab.nerc.ac.uk/collection/P01/current/PA231XU4/> , <http://vocab.nerc.ac.uk/collection/P01/current/PA231U04/> , <http://vocab.nerc.ac.uk/collection/P01/current/PA231XU2/> , <http://vocab.nerc.ac.uk/collection/P01/current/PA231U02/> , <http://vocab.nerc.ac.uk/collection/P01/current/DCMUC010/> , <http://vocab.nerc.ac.uk/collection/P01/current/DCMUC002/> , <http://vocab.nerc.ac.uk/collection/P01/current/DCMUC036/> , <http://vocab.nerc.ac.uk/collection/P01/current/DCMUC004/> , <http://vocab.nerc.ac.uk/collection/P01/current/DCMUC008/> , <http://vocab.nerc.ac.uk/collection/P01/current/DHE3XXER/> , <http://vocab.nerc.ac.uk/collection/P01/current/NDCHUR03/> , <http://vocab.nerc.ac.uk/collection/P01/current/EIR87003/> , <http://vocab.nerc.ac.uk/collection/P01/current/DCMUC019/> , <http://vocab.nerc.ac.uk/collection/P01/current/DCMUC018/> , <http://vocab.nerc.ac.uk/collection/P01/current/DCMUC020/> , <http://vocab.nerc.ac.uk/collection/P01/current/DCMUC023/> , <http://vocab.nerc.ac.uk/collection/P01/current/DCMUC021/> , <http://vocab.nerc.ac.uk/collection/P01/current/T23245CU/> , <http://vocab.nerc.ac.uk/collection/P01/current/T23202CU/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLA77011/> , <http://vocab.nerc.ac.uk/collection/P01/current/D14CMIER/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLA77007/> , <http://vocab.nerc.ac.uk/collection/P01/current/HLAUC013/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLA77015/> , <http://vocab.nerc.ac.uk/collection/P01/current/HLAUC012/> , <http://vocab.nerc.ac.uk/collection/P01/current/CVA77043/> , <http://vocab.nerc.ac.uk/collection/P01/current/NDCHUR05/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700012/>
@@ -781,11 +865,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "upper error";
+        skos:altLabel          "upper error"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "A generic term for the parameter that characterizes the dispersion of the values above the reported value that could reasonably be attributed to a measurand with an asymetrical distribution; uncertainty derivation should be described in the usage metadata."@en;
+        skos:definition        "Un terme générique pour le paramètre qui caractérise la dispersion des valeurs au-dessus de la valeur rapportée qui pourraient raisonnablement être attribuées à un mesurande à distribution asymétrique ; la dérivation de l'incertitude devrait être décrite dans les métadonnées d'utilisation."@fr ;
         skos:notation          "SDN:S07::S0700012";
         skos:note              "accepted"@en;
         skos:prefLabel         "upper uncertainty"@en;
+        skos:prefLabel         "incertitude supérieure"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/SDLFCUE6/> , <http://vocab.nerc.ac.uk/collection/P01/current/LTM01010/> , <http://vocab.nerc.ac.uk/collection/P01/current/LTM02525/> , <http://vocab.nerc.ac.uk/collection/P01/current/LTM03030/> , <http://vocab.nerc.ac.uk/collection/P01/current/LTM01515/> , <http://vocab.nerc.ac.uk/collection/P01/current/LTM00550/> , <http://vocab.nerc.ac.uk/collection/P01/current/LTM02020/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700038/>
@@ -802,9 +889,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "The value below which 84 percent of the observations may be found."@en;
+        skos:definition        "La valeur en dessous de laquelle 84 pour cent des observations peuvent se trouver."@fr ;
         skos:notation          "SDN:S07::S0700038";
         skos:note              "accepted"@en;
         skos:prefLabel         "84th percentile"@en;
+        skos:prefLabel         "84e percentile"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/PC84PSXX/> , <http://vocab.nerc.ac.uk/collection/P01/current/PC84SSXX/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700011/>
@@ -820,12 +909,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "error";
+        skos:altLabel          "error"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "A generic term for the parameter that characterizes the dispersion of the values that could reasonably be attributed to a measurand; uncertainty derivation should be described in the usage metadata."@en;
+        skos:definition        "Un terme générique pour le paramètre qui caractérise la dispersion des valeurs qui pourraient raisonnablement être attribuées à un mesurande ; la dérivation de l'incertitude devrait être décrite dans les métadonnées d'utilisation."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/S07/current/S0700009/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700010/>;
         skos:notation          "SDN:S07::S0700011";
         skos:note              "accepted"@en;
         skos:prefLabel         "uncertainty"@en;
+        skos:prefLabel         "incertitude"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MDMAPER3/> , <http://vocab.nerc.ac.uk/collection/P01/current/MDMAPER1/> , <http://vocab.nerc.ac.uk/collection/P01/current/MDMAPER2/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88081/> , <http://vocab.nerc.ac.uk/collection/P01/current/A238MS02/> , <http://vocab.nerc.ac.uk/collection/P01/current/A238UCER/> , <http://vocab.nerc.ac.uk/collection/P01/current/RAU224GF/> , <http://vocab.nerc.ac.uk/collection/P01/current/U236KG02/> , <http://vocab.nerc.ac.uk/collection/P01/current/TH234BC8/> , <http://vocab.nerc.ac.uk/collection/P01/current/RAU22408/> , <http://vocab.nerc.ac.uk/collection/P01/current/U236238U/> , <http://vocab.nerc.ac.uk/collection/P01/current/TH234BC2/> , <http://vocab.nerc.ac.uk/collection/P01/current/CUR17075/> , <http://vocab.nerc.ac.uk/collection/P01/current/HFRNUN01/> , <http://vocab.nerc.ac.uk/collection/P01/current/HFREUN01/> , <http://vocab.nerc.ac.uk/collection/P01/current/HFRUN001/> , <http://vocab.nerc.ac.uk/collection/P01/current/CDCONIC3/> , <http://vocab.nerc.ac.uk/collection/P01/current/I129KG02/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTH87007/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTH87006/> , <http://vocab.nerc.ac.uk/collection/P01/current/CXE77006/> , <http://vocab.nerc.ac.uk/collection/P01/current/NEERMASS/> , <http://vocab.nerc.ac.uk/collection/P01/current/HEERMASS/> , <http://vocab.nerc.ac.uk/collection/P01/current/CKR77004/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLA17025/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLA17087/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLA17015/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLA17089/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLA17021/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLA17019/> , <http://vocab.nerc.ac.uk/collection/P01/current/CMO87031/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88055/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTI88103/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88096/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88084/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88252/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88072/> , <http://vocab.nerc.ac.uk/collection/P01/current/CCH88243/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88058/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88002/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88086/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88090/> , <http://vocab.nerc.ac.uk/collection/P01/current/CCO88245/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88069/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88066/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88074/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88064/> , <http://vocab.nerc.ac.uk/collection/P01/current/CNE88253/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88054/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88092/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTO88251/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88046/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88048/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSC88098/> , <http://vocab.nerc.ac.uk/collection/P01/current/CCA88240/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88095/> , <http://vocab.nerc.ac.uk/collection/P01/current/CCO88242/> , <http://vocab.nerc.ac.uk/collection/P01/current/CNI88254/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88001/> , <http://vocab.nerc.ac.uk/collection/P01/current/CCE88241/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88062/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88050/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88082/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88075/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88088/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88004/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTI88100/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLA88248/> , <http://vocab.nerc.ac.uk/collection/P01/current/CMA88250/> , <http://vocab.nerc.ac.uk/collection/P01/current/CAN88258/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88044/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88042/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88094/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88057/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88006/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTH88102/> , <http://vocab.nerc.ac.uk/collection/P01/current/CST88101/> , <http://vocab.nerc.ac.uk/collection/P01/current/CAL88237/> , <http://vocab.nerc.ac.uk/collection/P01/current/CZI88107/> , <http://vocab.nerc.ac.uk/collection/P01/current/TBCCXERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTO88255/> , <http://vocab.nerc.ac.uk/collection/P01/current/UAC22708/> , <http://vocab.nerc.ac.uk/collection/P01/current/UAC227GF/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLA17029/> , <http://vocab.nerc.ac.uk/collection/P01/current/UTH228GF/> , <http://vocab.nerc.ac.uk/collection/P01/current/UTH22808/> , <http://vocab.nerc.ac.uk/collection/P01/current/ALONZERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/ALATZERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLI88249/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLA17017/> , <http://vocab.nerc.ac.uk/collection/P01/current/ABE77008/> , <http://vocab.nerc.ac.uk/collection/P01/current/ABEAT009/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLA17033/> , <http://vocab.nerc.ac.uk/collection/P01/current/FEICPMS4/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTO88246/> , <http://vocab.nerc.ac.uk/collection/P01/current/UDFEFACH/> , <http://vocab.nerc.ac.uk/collection/P01/current/NTOTWERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/CRU88257/> , <http://vocab.nerc.ac.uk/collection/P01/current/MDONPERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/PHOSZERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/NTRIZERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/SLCAZERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/CCH88052/> , <http://vocab.nerc.ac.uk/collection/P01/current/OPHSVERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLE88256/> , <http://vocab.nerc.ac.uk/collection/P01/current/TTPBKG02/> , <http://vocab.nerc.ac.uk/collection/P01/current/ARGOXERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/NTOTZERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/MDMAPERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/C0202031/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88059/> , <http://vocab.nerc.ac.uk/collection/P01/current/ACRA228V/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLA17023/> , <http://vocab.nerc.ac.uk/collection/P01/current/ZNICPMS3/> , <http://vocab.nerc.ac.uk/collection/P01/current/CZI88106/> , <http://vocab.nerc.ac.uk/collection/P01/current/ARPBXX04/> , <http://vocab.nerc.ac.uk/collection/P01/current/ARPBXX10/> , <http://vocab.nerc.ac.uk/collection/P01/current/ARPBXX06/> , <http://vocab.nerc.ac.uk/collection/P01/current/ARPBXX12/> , <http://vocab.nerc.ac.uk/collection/P01/current/ARPBXX08/> , <http://vocab.nerc.ac.uk/collection/P01/current/ARPBXX02/> , <http://vocab.nerc.ac.uk/collection/P01/current/CAR77002/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSE88099/> , <http://vocab.nerc.ac.uk/collection/P01/current/AMONZERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSU88079/> , <http://vocab.nerc.ac.uk/collection/P01/current/NTRAKERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/NTRAZERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/NTRZZERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/CCA88244/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTI88331/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88287/> , <http://vocab.nerc.ac.uk/collection/P01/current/CCO88280/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTI88295/> , <http://vocab.nerc.ac.uk/collection/P01/current/CCH88309/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLA88283/> , <http://vocab.nerc.ac.uk/collection/P01/current/CAN88326/> , <http://vocab.nerc.ac.uk/collection/P01/current/CZI88335/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSU88322/> , <http://vocab.nerc.ac.uk/collection/P01/current/CAN88293/> , <http://vocab.nerc.ac.uk/collection/P01/current/CZI88301/> , <http://vocab.nerc.ac.uk/collection/P01/current/CST88329/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTO88286/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTO88317/> , <http://vocab.nerc.ac.uk/collection/P01/current/CMA88285/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLE88324/> , <http://vocab.nerc.ac.uk/collection/P01/current/CCA88310/> , <http://vocab.nerc.ac.uk/collection/P01/current/CAL88371/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSO88318/> , <http://vocab.nerc.ac.uk/collection/P01/current/CZI88302/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTI88298/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTI88328/> , <http://vocab.nerc.ac.uk/collection/P01/current/CCA88305/> , <http://vocab.nerc.ac.uk/collection/P01/current/CCE88306/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTH88330/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSE88294/> , <http://vocab.nerc.ac.uk/collection/P01/current/CSE88327/> , <http://vocab.nerc.ac.uk/collection/P01/current/CRU88292/> , <http://vocab.nerc.ac.uk/collection/P01/current/CAL88277/> , <http://vocab.nerc.ac.uk/collection/P01/current/CCE88375/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLE88291/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTH88297/> , <http://vocab.nerc.ac.uk/collection/P01/current/CNE88319/> , <http://vocab.nerc.ac.uk/collection/P01/current/CCH88307/> , <http://vocab.nerc.ac.uk/collection/P01/current/CCO88308/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLI88315/> , <http://vocab.nerc.ac.uk/collection/P01/current/CCO88311/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTO88281/> , <http://vocab.nerc.ac.uk/collection/P01/current/CZI88334/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTO88312/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLA88314/> , <http://vocab.nerc.ac.uk/collection/P01/current/CNI88321/> , <http://vocab.nerc.ac.uk/collection/P01/current/CCA88374/> , <http://vocab.nerc.ac.uk/collection/P01/current/CMA88316/> , <http://vocab.nerc.ac.uk/collection/P01/current/CCA88279/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTO88323/> , <http://vocab.nerc.ac.uk/collection/P01/current/CCH88377/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTO88290/> , <http://vocab.nerc.ac.uk/collection/P01/current/CRU88325/> , <http://vocab.nerc.ac.uk/collection/P01/current/CNE88288/> , <http://vocab.nerc.ac.uk/collection/P01/current/CST88296/> , <http://vocab.nerc.ac.uk/collection/P01/current/CNI88289/> , <http://vocab.nerc.ac.uk/collection/P01/current/CCO88376/> , <http://vocab.nerc.ac.uk/collection/P01/current/CNI88320/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLI88284/> , <http://vocab.nerc.ac.uk/collection/P01/current/DOXATERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/OURTOERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/ERRPIVMI/> , <http://vocab.nerc.ac.uk/collection/P01/current/SFINTERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/AOUXXERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/ERRPRSPX/> , <http://vocab.nerc.ac.uk/collection/P01/current/R02ETERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/ERRPROPX/> , <http://vocab.nerc.ac.uk/collection/P01/current/ERRPIVSP/> , <http://vocab.nerc.ac.uk/collection/P01/current/ERRPIVOP/> , <http://vocab.nerc.ac.uk/collection/P01/current/ERRP18ON/> , <http://vocab.nerc.ac.uk/collection/P01/current/CRINTERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/R02SFERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/CBA88304/> , <http://vocab.nerc.ac.uk/collection/P01/current/CBA88373/> , <http://vocab.nerc.ac.uk/collection/P01/current/CBA88239/> , <http://vocab.nerc.ac.uk/collection/P01/current/BPRDCERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/LEUCRERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/CPR87008/> , <http://vocab.nerc.ac.uk/collection/P01/current/TCO2MSUC/> , <http://vocab.nerc.ac.uk/collection/P01/current/TCO2ZERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/ALKYUCKG/> , <http://vocab.nerc.ac.uk/collection/P01/current/PHXXZERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/FEUNCLDX/> , <http://vocab.nerc.ac.uk/collection/P01/current/ORGPDERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/CORGZERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/DOCGZERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/D66ZNL0U/> , <http://vocab.nerc.ac.uk/collection/P01/current/DTENRICQ/> , <http://vocab.nerc.ac.uk/collection/P01/current/DTESDIDP/> , <http://vocab.nerc.ac.uk/collection/P01/current/CDENRICQ/> , <http://vocab.nerc.ac.uk/collection/P01/current/EZI87004/> , <http://vocab.nerc.ac.uk/collection/P01/current/ENE87002/> , <http://vocab.nerc.ac.uk/collection/P01/current/CDESDIDP/> , <http://vocab.nerc.ac.uk/collection/P01/current/D66ZNL04/> , <http://vocab.nerc.ac.uk/collection/P01/current/FPINTERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/CVA88333/> , <http://vocab.nerc.ac.uk/collection/P01/current/CVA88105/> , <http://vocab.nerc.ac.uk/collection/P01/current/CVA88300/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLA17027/> , <http://vocab.nerc.ac.uk/collection/P01/current/CNI88077/> , <http://vocab.nerc.ac.uk/collection/P01/current/CUR88299/> , <http://vocab.nerc.ac.uk/collection/P01/current/CUR88104/> , <http://vocab.nerc.ac.uk/collection/P01/current/CUR88332/> , <http://vocab.nerc.ac.uk/collection/P01/current/CGA88313/> , <http://vocab.nerc.ac.uk/collection/P01/current/CGA88282/> , <http://vocab.nerc.ac.uk/collection/P01/current/CGA88247/> , <http://vocab.nerc.ac.uk/collection/P01/current/SAGEPAMT/> , <http://vocab.nerc.ac.uk/collection/P01/current/ADEPZERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/PRESPERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/CPHLZERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLA17088/> , <http://vocab.nerc.ac.uk/collection/P01/current/TEMPSERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/POCTHU07/> , <http://vocab.nerc.ac.uk/collection/P01/current/POCTHU50/> , <http://vocab.nerc.ac.uk/collection/P01/current/PSALSERR/> , <http://vocab.nerc.ac.uk/collection/P01/current/CLA17031/> , <http://vocab.nerc.ac.uk/collection/P01/current/ACRA226V/> , <http://vocab.nerc.ac.uk/collection/P01/current/RAU223GF/> , <http://vocab.nerc.ac.uk/collection/P01/current/RAU22308/> , <http://vocab.nerc.ac.uk/collection/P01/current/CAR88278/> , <http://vocab.nerc.ac.uk/collection/P01/current/CAR88372/> , <http://vocab.nerc.ac.uk/collection/P01/current/CAR88238/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700005/>
@@ -879,9 +971,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The smallest value recorded on any continuous period of 1 hour as specified elsewhere in the metadata."@en;
+        skos:definition        "La plus petite valeur enregistrée sur toute période continue de 1 heure comme spécifié ailleurs dans les métadonnées."@fr ;
         skos:notation          "SDN:S07::S0700043";
         skos:note              "accepted"@en;
         skos:prefLabel         "hourly minimum"@en;
+        skos:prefLabel         "minimum horaire"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/CTMPMN01/> , <http://vocab.nerc.ac.uk/collection/P01/current/CRLHNZ01/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700019/>
@@ -898,9 +992,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "A value representing the average over a ten minute time interval. The method for calculating the mean may vary depending on the type of observations being made."@en;
+        skos:definition        "Une valeur représentant la moyenne sur un intervalle de dix minutes. La méthode de calcul de la moyenne peut varier selon le type d'observations effectuées."@fr ;
         skos:notation          "SDN:S07::S0700019";
         skos:note              "accepted"@en;
         skos:prefLabel         "10-minute mean"@en;
+        skos:prefLabel         "moyenne sur 10 minutes"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/ASLVNL10/> , <http://vocab.nerc.ac.uk/collection/P01/current/CATAVT10/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTMP1001/> , <http://vocab.nerc.ac.uk/collection/P01/current/TWSTRL01/> , <http://vocab.nerc.ac.uk/collection/P01/current/EWSBLD02/> , <http://vocab.nerc.ac.uk/collection/P01/current/EWSBLD01/> , <http://vocab.nerc.ac.uk/collection/P01/current/EWSTEN02/> , <http://vocab.nerc.ac.uk/collection/P01/current/EWSTEN01/> , <http://vocab.nerc.ac.uk/collection/P01/current/CREL1002/> , <http://vocab.nerc.ac.uk/collection/P01/current/CREL1001/> , <http://vocab.nerc.ac.uk/collection/P01/current/EWDALD01/> , <http://vocab.nerc.ac.uk/collection/P01/current/EWDTEN02/> , <http://vocab.nerc.ac.uk/collection/P01/current/EWDTEN01/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700042/>
@@ -916,9 +1012,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The largest value recorded on any continuous period of 1 hour as specified elsewhere in the metadata."@en;
+        skos:definition        "La plus grande valeur enregistrée sur toute période continue de 1 heure comme spécifié ailleurs dans les métadonnées."@fr ;
         skos:notation          "SDN:S07::S0700042";
         skos:note              "accepted"@en;
         skos:prefLabel         "hourly maximum"@en;
+        skos:prefLabel         "maximum horaire"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/CTMPMX01/> , <http://vocab.nerc.ac.uk/collection/P01/current/ESSAMX01/> , <http://vocab.nerc.ac.uk/collection/P01/current/CRLHXZ01/> , <http://vocab.nerc.ac.uk/collection/P01/current/ERWDMX01/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700016/>
@@ -935,9 +1033,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "A value representing the average over one month. The method for calculating monthly means varies depending on the type of observations being made."@en;
+        skos:definition        "Une valeur représentant la moyenne sur un mois. La méthode de calcul des moyennes mensuelles varie selon le type d'observations effectuées."@fr ;
         skos:notation          "SDN:S07::S0700016";
         skos:note              "accepted"@en;
         skos:prefLabel         "monthly mean"@en;
+        skos:prefLabel         "moyenne mensuelle"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/CPHLMMMO/> , <http://vocab.nerc.ac.uk/collection/P01/current/ASLVMNMO/> , <http://vocab.nerc.ac.uk/collection/P01/current/CALMOD01/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700024/>
@@ -952,11 +1052,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "daily_min";
+        skos:altLabel          "daily_min"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "The smallest value recorded on a single date or any continuous period of 24 hours as specified elsewhere in the metadata."@en;
+        skos:definition        "La plus petite valeur enregistrée sur une date unique ou toute période continue de 24 heures comme spécifié ailleurs dans les métadonnées."@fr ;
         skos:notation          "SDN:S07::S0700024";
         skos:note              "accepted"@en;
         skos:prefLabel         "daily minimum"@en;
+        skos:prefLabel         "minimum journalier"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/CTMPDMNB/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTMPDMNA/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700020/>
@@ -973,9 +1076,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "A value representing the average over a two minute time interval. The method for calculating the mean may vary depending on the type of observations being made."@en;
+        skos:definition        "Une valeur représentant la moyenne sur un intervalle de deux minutes. La méthode de calcul de la moyenne peut varier selon le type d'observations effectuées."@fr ;
         skos:notation          "SDN:S07::S0700020";
         skos:note              "accepted"@en;
         skos:prefLabel         "2-minute mean"@en;
+        skos:prefLabel         "moyenne sur 2 minutes"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/CATAVTO2/> , <http://vocab.nerc.ac.uk/collection/P01/current/EWSTAV01/> , <http://vocab.nerc.ac.uk/collection/P01/current/EWDTAV01/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/S0700022/>
@@ -990,11 +1095,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "daily_max";
+        skos:altLabel          "daily_max"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/S01/current/S0112/>;
         skos:definition        "The largest value recorded on a single date or any continuous period of 24 hours as specified elsewhere in the metadata."@en;
+        skos:definition        "La plus grande valeur enregistrée sur une date unique ou toute période continue de 24 heures comme spécifié ailleurs dans les métadonnées."@fr ;
         skos:notation          "SDN:S07::S0700022";
         skos:note              "accepted"@en;
         skos:prefLabel         "daily maximum"@en;
+        skos:prefLabel         "maximum journalier"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/CTMPDMXA/> , <http://vocab.nerc.ac.uk/collection/P01/current/CTMPDMXB/> .
 
 <http://vocab.nerc.ac.uk/collection/S07/current/>
@@ -1012,5 +1120,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "British Oceanographic Data Centre";
         owl:versionInfo         "16";
         skos:altLabel           "Parameter statistic";
+        skos:altLabel           "Parameter statistic"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/S07/current/S0700027/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700001/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700025/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700028/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700026/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700006/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700044/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700051/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700018/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700050/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700015/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700048/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700036/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700035/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700031/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700023/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700029/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700046/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700021/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700041/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700052/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700047/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700037/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700034/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700033/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700039/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700009/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700017/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700014/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700030/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700049/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700040/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700045/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700004/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700013/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700002/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700008/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700003/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700032/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700010/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700012/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700038/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700011/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700005/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700007/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700043/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700019/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700042/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700016/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700024/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700020/> , <http://vocab.nerc.ac.uk/collection/S07/current/S0700022/>;
-        skos:prefLabel          "BODC parameter semantic model parameter statistic" .
+        skos:prefLabel          "BODC parameter semantic model parameter statistic" ;
+        skos:prefLabel          "statistique de paramètre du modèle sémantique des paramètres BODC"@fr .

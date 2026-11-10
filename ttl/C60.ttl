@@ -33,10 +33,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             puv:statistic;
         owl:versionInfo        "1";
         skos:altLabel          "hasStatisticModifier";
+        skos:altLabel          "hasStatisticModifier"@fr ;
         skos:definition        "Parameter Usage Vocabulary ontology property used to link a variable identifier, label or description to a statistical modifier if applicable."@en;
+        skos:definition        "Propriété d'ontologie du Parameter Usage Vocabulary utilisée pour lier un identifiant, libellé ou description de variable à un modificateur statistique le cas échéant."@fr ;
         skos:notation          "SDN:C60::HST";
         skos:note              "accepted"@en;
-        skos:prefLabel         "puv#statistic"@en .
+        skos:prefLabel         "puv#statistic"@en ;
+        skos:prefLabel         "puv#statistic"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/EAR/>
         rdf:type               skos:Concept;
@@ -50,10 +53,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "earlierVersionOf";
+        skos:altLabel          "earlierVersionOf"@fr ;
         skos:definition        "The subject is an earlier version of the object"@en;
+        skos:definition        "Le sujet est une version antérieure de l'objet"@fr ;
         skos:notation          "SDN:C60::EAR";
         skos:note              "accepted"@en;
-        skos:prefLabel         "earlier-version-of"@en .
+        skos:prefLabel         "earlier-version-of"@en ;
+        skos:prefLabel         "earlier-version-of"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/MIN/>
         rdf:type               skos:Concept;
@@ -68,10 +74,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             skos:related;
         owl:versionInfo        "1";
         skos:altLabel          "minorMatch";
+        skos:altLabel          "minorMatch"@fr ;
         skos:definition        "The set of resources properly indexed against the predicate shares between 0 and 50 per cent of its members with the set of resources properly indexed against the object. SKOS mapping vocabulary term."@en;
+        skos:definition        "L'ensemble des ressources correctement indexées par le prédicat partage entre 0 et 50 pour cent de ses membres avec l'ensemble des ressources correctement indexées par l'objet. Terme du vocabulaire de mapping SKOS."@fr ;
         skos:notation          "SDN:C60::MIN";
         skos:note              "accepted"@en;
-        skos:prefLabel         "has-minor-match"@en .
+        skos:prefLabel         "has-minor-match"@en ;
+        skos:prefLabel         "has-minor-match"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/DER/>
         rdf:type               skos:Concept;
@@ -85,10 +94,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "derivedVersionOf";
+        skos:altLabel          "derivedVersionOf"@fr ;
         skos:definition        "The subject has been derived from the object in some way"@en;
+        skos:definition        "Le sujet a été dérivé de l'objet d'une certaine manière"@fr ;
         skos:notation          "SDN:C60::DER";
         skos:note              "accepted"@en;
-        skos:prefLabel         "derived-version-of"@en .
+        skos:prefLabel         "derived-version-of"@en ;
+        skos:prefLabel         "derived-version-of"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/MAJ/>
         rdf:type               skos:Concept;
@@ -103,10 +115,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "majorMatch";
+        skos:altLabel          "majorMatch"@fr ;
         skos:definition        "The set of resources properly indexed against the predicate shares more than 50 per cent of its members with the set of resources properly indexed against the object. SKOS mapping vocabulary term."@en;
+        skos:definition        "L'ensemble des ressources correctement indexées par le prédicat partage plus de 50 pour cent de ses membres avec l'ensemble des ressources correctement indexées par l'objet. Terme du vocabulaire de mapping SKOS."@fr ;
         skos:notation          "SDN:C60::MAJ";
         skos:note              "accepted"@en;
-        skos:prefLabel         "has-major-match"@en .
+        skos:prefLabel         "has-major-match"@en ;
+        skos:prefLabel         "has-major-match"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/SUC/>
         rdf:type               skos:Concept;
@@ -121,10 +136,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "successorTo";
+        skos:altLabel          "successorTo"@fr ;
         skos:definition        "The subject is an activity inheriting attributes from the object whose start depends on the finish of the object"@en;
+        skos:definition        "Le sujet est une activité héritant des attributs de l'objet dont le début dépend de la fin de l'objet"@fr ;
         skos:notation          "SDN:C60::SUC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "successor-to"@en .
+        skos:prefLabel         "successor-to"@en ;
+        skos:prefLabel         "successor-to"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/COM/>
         rdf:type               skos:Concept;
@@ -139,10 +157,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "componentOf";
+        skos:altLabel          "componentOf"@fr ;
         skos:definition        "The subject formed a constituent component of the object (although the subject may exist in its own right, in this case, it was deployed as part of the object)."@en;
+        skos:definition        "Le sujet a formé un composant constituant de l'objet (bien que le sujet puisse exister en propre, dans ce cas il a été déployé comme partie de l'objet)."@fr ;
         skos:notation          "SDN:C60::COM";
         skos:note              "accepted"@en;
-        skos:prefLabel         "component-of"@en .
+        skos:prefLabel         "component-of"@en ;
+        skos:prefLabel         "component-of"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/IHC/>
         rdf:type               skos:Concept;
@@ -157,10 +178,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             iop:hasConstraint;
         owl:versionInfo        "1";
         skos:altLabel          "hasConstraint";
+        skos:altLabel          "hasConstraint"@fr ;
         skos:definition        "I-ADOPT framework ontology property linking the variable to a constraint component."@en;
+        skos:definition        "Propriété d'ontologie du framework I-ADOPT liant la variable à un composant de contrainte."@fr ;
         skos:notation          "SDN:C60::IHC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "iop#hasConstraint"@en .
+        skos:prefLabel         "iop#hasConstraint"@en ;
+        skos:prefLabel         "iop#hasConstraint"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/INC/>
         rdf:type               skos:Concept;
@@ -174,10 +198,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "includes";
+        skos:altLabel          "includes"@fr ;
         skos:definition        "The subject is made up in part by the object"@en;
+        skos:definition        "Le sujet est en partie composé de l'objet"@fr ;
         skos:notation          "SDN:C60::INC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "includes"@en .
+        skos:prefLabel         "includes"@en ;
+        skos:prefLabel         "includes"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/CMP/>
         rdf:type               skos:Concept;
@@ -191,10 +218,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "complements";
+        skos:altLabel          "complements"@fr ;
         skos:definition        "The subject shares enough attributes with the object that it is probable both will be of equal interest to a user or customer"@en;
+        skos:definition        "Le sujet partage suffisamment d'attributs avec l'objet qu'il est probable que les deux présentent un intérêt égal pour un utilisateur ou un client"@fr ;
         skos:notation          "SDN:C60::CMP";
         skos:note              "accepted"@en;
-        skos:prefLabel         "complements"@en .
+        skos:prefLabel         "complements"@en ;
+        skos:prefLabel         "complements"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/IAO/>
         rdf:type               skos:Concept;
@@ -209,10 +239,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             iop:hasApplicableObjectOfInterest;
         owl:versionInfo        "1";
         skos:altLabel          "hasApplicableObjectOfInterest";
+        skos:altLabel          "hasApplicableObjectOfInterest"@fr ;
         skos:definition        "I-ADOPT ontology object property linking a VariableSet to one or more applicable ObjectOfInterest."@en;
+        skos:definition        "Propriété objet d'ontologie I-ADOPT liant un VariableSet à un ou plusieurs ObjectOfInterest applicables."@fr ;
         skos:notation          "SDN:C60::IAO";
         skos:note              "accepted"@en;
-        skos:prefLabel         "iop#hasApplicableObjectOfInterest"@en .
+        skos:prefLabel         "iop#hasApplicableObjectOfInterest"@en ;
+        skos:prefLabel         "iop#hasApplicableObjectOfInterest"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/DBY/>
         rdf:type               skos:Concept;
@@ -227,10 +260,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "describedBy";
+        skos:altLabel          "describedBy"@fr ;
         skos:definition        "An important attribute of the subject  is specified by the object."@en;
+        skos:definition        "Un attribut important du sujet est spécifié par l'objet."@fr ;
         skos:notation          "SDN:C60::DBY";
         skos:note              "accepted"@en;
-        skos:prefLabel         "described_by"@en .
+        skos:prefLabel         "described_by"@en ;
+        skos:prefLabel         "described_by"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/HUN/>
         rdf:type               skos:Concept;
@@ -244,10 +280,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "hasUnits";
+        skos:altLabel          "hasUnits"@fr ;
         skos:definition        "The subject phenomenon may be stored in the object units."@en;
+        skos:definition        "Le phénomène sujet peut être stocké dans les unités de l'objet."@fr ;
         skos:notation          "SDN:C60::HUN";
         skos:note              "accepted"@en;
-        skos:prefLabel         "has-units-of"@en .
+        skos:prefLabel         "has-units-of"@en ;
+        skos:prefLabel         "has-units-of"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/IAM/>
         rdf:type               skos:Concept;
@@ -262,10 +301,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             iop:hasApplicableMatrix;
         owl:versionInfo        "1";
         skos:altLabel          "hasApplicableMatrix";
+        skos:altLabel          "hasApplicableMatrix"@fr ;
         skos:definition        "I-ADOPT ontology object property linking a VariableSet to one or more applicable Matrix."@en;
+        skos:definition        "Propriété objet d'ontologie I-ADOPT liant un VariableSet à une ou plusieurs Matrix applicables."@fr ;
         skos:notation          "SDN:C60::IAM";
         skos:note              "accepted"@en;
-        skos:prefLabel         "iop#hasApplicableMatrix"@en .
+        skos:prefLabel         "iop#hasApplicableMatrix"@en ;
+        skos:prefLabel         "iop#hasApplicableMatrix"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/IHM/>
         rdf:type               skos:Concept;
@@ -280,10 +322,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             iop:hasMatrix;
         owl:versionInfo        "1";
         skos:altLabel          "hasMatrix";
+        skos:altLabel          "hasMatrix"@fr ;
         skos:definition        "I-ADOPT framework ontology property linking the variable to a matrix entity."@en;
+        skos:definition        "Propriété d'ontologie du framework I-ADOPT liant la variable à une entité matrice."@fr ;
         skos:notation          "SDN:C60::IHM";
         skos:note              "accepted"@en;
-        skos:prefLabel         "iop#hasMatrix"@en .
+        skos:prefLabel         "iop#hasMatrix"@en ;
+        skos:prefLabel         "iop#hasMatrix"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/SCM/>
         rdf:type               skos:Concept;
@@ -297,10 +342,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "subcomponentOf";
+        skos:altLabel          "subcomponentOf"@fr ;
         skos:definition        "The subject forms a constituent component of the object (and cannot exist independently of the object)."@en;
+        skos:definition        "Le sujet forme un composant constituant de l'objet (et ne peut pas exister indépendamment de l'objet)."@fr ;
         skos:notation          "SDN:C60::SCM";
         skos:note              "accepted"@en;
-        skos:prefLabel         "subcomponent-of"@en .
+        skos:prefLabel         "subcomponent-of"@en ;
+        skos:prefLabel         "subcomponent-of"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/BRD/>
         rdf:type               skos:Concept;
@@ -316,10 +364,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             skos:narrower;
         owl:versionInfo        "2";
         skos:altLabel          "narrowMatch";
+        skos:altLabel          "narrowMatch"@fr ;
         skos:definition        "The set of resources properly indexed against the predicate is a superset of the set of resources properly indexed against the object. SKOS mapping vocabulary term conceptually the same as 'broader than'."@en;
+        skos:definition        "L'ensemble des ressources correctement indexées par le prédicat est un sur-ensemble de l'ensemble des ressources correctement indexées par l'objet. Terme du vocabulaire de mapping SKOS, conceptuellement identique à « plus étroit que »."@fr ;
         skos:notation          "SDN:C60::BRD";
         skos:note              "accepted"@en;
-        skos:prefLabel         "has-narrow-match"@en .
+        skos:prefLabel         "has-narrow-match"@en ;
+        skos:prefLabel         "has-narrow-match"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/ICO/>
         rdf:type               skos:Concept;
@@ -334,10 +385,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             iop:hasContextObject;
         owl:versionInfo        "1";
         skos:altLabel          "hasContextObject";
+        skos:altLabel          "hasContextObject"@fr ;
         skos:definition        "I-ADOPT framework ontology property linking the variable to a context object."@en;
+        skos:definition        "Propriété d'ontologie du framework I-ADOPT liant la variable à un objet de contexte."@fr ;
         skos:notation          "SDN:C60::ICO";
         skos:note              "accepted"@en;
-        skos:prefLabel         "iop#hasContextObject"@en .
+        skos:prefLabel         "iop#hasContextObject"@en ;
+        skos:prefLabel         "iop#hasContextObject"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/SYN/>
         rdf:type               skos:Concept;
@@ -353,10 +407,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             owl:sameAs;
         owl:versionInfo        "3";
         skos:altLabel          "exactMatch";
+        skos:altLabel          "exactMatch"@fr ;
         skos:definition        "The set of resources properly indexed against the predicate is identical to the set of resources properly indexed against the object. SKOS mapping vocabulary term."@en;
+        skos:definition        "L'ensemble des ressources correctement indexées par le prédicat est identique à l'ensemble des ressources correctement indexées par l'objet. Terme du vocabulaire de mapping SKOS."@fr ;
         skos:notation          "SDN:C60::SYN";
         skos:note              "accepted"@en;
-        skos:prefLabel         "has-exact-match"@en .
+        skos:prefLabel         "has-exact-match"@en ;
+        skos:prefLabel         "has-exact-match"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/HMX/>
         rdf:type               skos:Concept;
@@ -371,10 +428,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             puv:matrix;
         owl:versionInfo        "1";
         skos:altLabel          "hasMatrix";
+        skos:altLabel          "hasMatrix"@fr ;
         skos:definition        "Parameter Usage Vocabulary ontology property used to link a variable identifier, label or description to a matrix when applicable."@en;
+        skos:definition        "Propriété d'ontologie du Parameter Usage Vocabulary utilisée pour lier un identifiant, libellé ou description de variable à une matrice le cas échéant."@fr ;
         skos:notation          "SDN:C60::HMX";
         skos:note              "accepted"@en;
-        skos:prefLabel         "puv#matrix"@en .
+        skos:prefLabel         "puv#matrix"@en ;
+        skos:prefLabel         "puv#matrix"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/SIM/>
         rdf:type               skos:Concept;
@@ -389,10 +449,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             skos:closeMatch;
         owl:versionInfo        "1";
         skos:altLabel          "similarTo";
+        skos:altLabel          "similarTo"@fr ;
         skos:definition        "The subject and the object share major characteristics"@en;
+        skos:definition        "Le sujet et l'objet partagent des caractéristiques majeures"@fr ;
         skos:notation          "SDN:C60::SIM";
         skos:note              "accepted"@en;
-        skos:prefLabel         "similar-to"@en .
+        skos:prefLabel         "similar-to"@en ;
+        skos:prefLabel         "similar-to"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/HPP/>
         rdf:type               skos:Concept;
@@ -407,10 +470,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             puv:property;
         owl:versionInfo        "1";
         skos:altLabel          "hasProperty";
+        skos:altLabel          "hasProperty"@fr ;
         skos:definition        "Parameter Usage Vocabulary ontology property used to link a variable identifier, label or description to the property or attribute that is being measured, which must be associated with either an object of interest or a matrix or both."@en;
+        skos:definition        "Propriété d'ontologie du Parameter Usage Vocabulary utilisée pour lier un identifiant, libellé ou description de variable à la propriété ou l'attribut qui est mesuré, qui doit être associé soit à un objet d'intérêt, soit à une matrice, soit aux deux."@fr ;
         skos:notation          "SDN:C60::HPP";
         skos:note              "accepted"@en;
-        skos:prefLabel         "puv#property"@en .
+        skos:prefLabel         "puv#property"@en ;
+        skos:prefLabel         "puv#property"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/IAP/>
         rdf:type               skos:Concept;
@@ -425,10 +491,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             iop:hasApplicableProperty;
         owl:versionInfo        "1";
         skos:altLabel          "hasApplicableProperty";
+        skos:altLabel          "hasApplicableProperty"@fr ;
         skos:definition        "I-ADOPT ontology object property linking a VariableSet to one or more applicable Property."@en;
+        skos:definition        "Propriété objet d'ontologie I-ADOPT liant un VariableSet à une ou plusieurs Property applicables."@fr ;
         skos:notation          "SDN:C60::IAP";
         skos:note              "accepted"@en;
-        skos:prefLabel         "iop#hasApplicableProperty"@en .
+        skos:prefLabel         "iop#hasApplicableProperty"@en ;
+        skos:prefLabel         "iop#hasApplicableProperty"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/IHO/>
         rdf:type               skos:Concept;
@@ -443,10 +512,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             iop:hasObjectOfInterest;
         owl:versionInfo        "1";
         skos:altLabel          "hasObjectOfInterest";
+        skos:altLabel          "hasObjectOfInterest"@fr ;
         skos:definition        "I-ADOPT framework ontology property linking the variable to its object of interest."@en;
+        skos:definition        "Propriété d'ontologie du framework I-ADOPT liant la variable à son objet d'intérêt."@fr ;
         skos:notation          "SDN:C60::IHO";
         skos:note              "accepted"@en;
-        skos:prefLabel         "iop#hasObjectOfInterest"@en .
+        skos:prefLabel         "iop#hasObjectOfInterest"@en ;
+        skos:prefLabel         "iop#hasObjectOfInterest"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/TYP/>
         rdf:type               skos:Concept;
@@ -461,10 +533,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             rdf:type;
         owl:versionInfo        "1";
         skos:altLabel          "type";
+        skos:altLabel          "type"@fr ;
         skos:definition        "rdf:type is an instance of rdf:Property that is used to state that a resource is an instance of a class."@en;
+        skos:definition        "rdf:type est une instance de rdf:Property utilisée pour affirmer qu'une ressource est une instance d'une classe."@fr ;
         skos:notation          "SDN:C60::TYP";
         skos:note              "accepted"@en;
-        skos:prefLabel         "rdf#type"@en .
+        skos:prefLabel         "rdf#type"@en ;
+        skos:prefLabel         "rdf#type"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/QTK/>
         rdf:type               skos:Concept;
@@ -480,10 +555,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             qudt:hasQuantityKind;
         owl:versionInfo        "2";
         skos:altLabel          "quantitykind";
+        skos:altLabel          "quantitykind"@fr ;
         skos:definition        "Property from the QUDT ontology."@en;
+        skos:definition        "Propriété de l'ontologie QUDT."@fr ;
         skos:notation          "SDN:C60::QTK";
         skos:note              "accepted"@en;
-        skos:prefLabel         "qudt#hasQuantityKind"@en .
+        skos:prefLabel         "qudt#hasQuantityKind"@en ;
+        skos:prefLabel         "qudt#hasQuantityKind"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/CAM/>
         rdf:type               skos:Concept;
@@ -497,10 +575,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "activityOf";
+        skos:altLabel          "activityOf"@fr ;
         skos:definition        "The subject was an activity within the object"@en;
+        skos:definition        "Le sujet était une activité à l'intérieur de l'objet"@fr ;
         skos:notation          "SDN:C60::CAM";
         skos:note              "accepted"@en;
-        skos:prefLabel         "activity-of"@en .
+        skos:prefLabel         "activity-of"@en ;
+        skos:prefLabel         "activity-of"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/IAC/>
         rdf:type               skos:Concept;
@@ -515,10 +596,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             iop:hasApplicableContextObject;
         owl:versionInfo        "1";
         skos:altLabel          "hasApplicableContextObject";
+        skos:altLabel          "hasApplicableContextObject"@fr ;
         skos:definition        "I-ADOPT ontology object property linking a VariableSet to one or more applicable ContextObject."@en;
+        skos:definition        "Propriété objet d'ontologie I-ADOPT liant un VariableSet à un ou plusieurs ContextObject applicables."@fr ;
         skos:notation          "SDN:C60::IAC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "iop#hasApplicableContextObject"@en .
+        skos:prefLabel         "iop#hasApplicableContextObject"@en ;
+        skos:prefLabel         "iop#hasApplicableContextObject"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/HCO/>
         rdf:type               skos:Concept;
@@ -533,10 +617,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             puv:chemicalObject;
         owl:versionInfo        "1";
         skos:altLabel          "hasChemicalObject";
+        skos:altLabel          "hasChemicalObject"@fr ;
         skos:definition        "Parameter Usage Vocabulary ontology property that is used to link a variable identifier, label or description to its chemical object of interest when applicable."@en;
+        skos:definition        "Propriété d'ontologie du Parameter Usage Vocabulary utilisée pour lier un identifiant, libellé ou description de variable à son objet chimique d'intérêt le cas échéant."@fr ;
         skos:notation          "SDN:C60::HCO";
         skos:note              "accepted"@en;
-        skos:prefLabel         "puv#chemicalObject"@en .
+        skos:prefLabel         "puv#chemicalObject"@en ;
+        skos:prefLabel         "puv#chemicalObject"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/PRE/>
         rdf:type               skos:Concept;
@@ -550,10 +637,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "predecessorOf";
+        skos:altLabel          "predecessorOf"@fr ;
         skos:definition        "The subject is an activity passing attributes to the object whose finish is required for the object to start"@en;
+        skos:definition        "Le sujet est une activité transmettant des attributs à l'objet dont la fin est requise pour que l'objet commence"@fr ;
         skos:notation          "SDN:C60::PRE";
         skos:note              "accepted"@en;
-        skos:prefLabel         "predecessor-of"@en .
+        skos:prefLabel         "predecessor-of"@en ;
+        skos:prefLabel         "predecessor-of"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/INV/>
         rdf:type               skos:Concept;
@@ -568,10 +658,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "inverse";
+        skos:altLabel          "inverse"@fr ;
         skos:definition        "The subject has precisely the opposite meaning to the object."@en;
+        skos:definition        "Le sujet a exactement le sens opposé à l'objet."@fr ;
         skos:notation          "SDN:C60::INV";
         skos:note              "accepted"@en;
-        skos:prefLabel         "inverse"@en .
+        skos:prefLabel         "inverse"@en ;
+        skos:prefLabel         "inverse"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/NAR/>
         rdf:type               skos:Concept;
@@ -587,10 +680,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             skos:broader;
         owl:versionInfo        "2";
         skos:altLabel          "broadMatch";
+        skos:altLabel          "broadMatch"@fr ;
         skos:definition        "The set of resources properly indexed against the predicate is a subset of the set of resources properly indexed against the object. SKOS mapping vocabulary term conceptually the same as 'narrower than'"@en;
+        skos:definition        "L'ensemble des ressources correctement indexées par le prédicat est un sous-ensemble de l'ensemble des ressources correctement indexées par l'objet. Terme du vocabulaire de mapping SKOS, conceptuellement identique à « plus large que »."@fr ;
         skos:notation          "SDN:C60::NAR";
         skos:note              "accepted"@en;
-        skos:prefLabel         "has-broad-match"@en .
+        skos:prefLabel         "has-broad-match"@en ;
+        skos:prefLabel         "has-broad-match"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/DSC/>
         rdf:type               skos:Concept;
@@ -605,10 +701,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "describes";
+        skos:altLabel          "describes"@fr ;
         skos:definition        "The subject is an important descriptive attribute of the object."@en;
+        skos:definition        "Le sujet est un attribut descriptif important de l'objet."@fr ;
         skos:notation          "SDN:C60::DSC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "describes"@en .
+        skos:prefLabel         "describes"@en ;
+        skos:prefLabel         "describes"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/BUN/>
         rdf:type               skos:Concept;
@@ -623,10 +722,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "3";
         skos:altLabel          "unitsOf";
+        skos:altLabel          "unitsOf"@fr ;
         skos:definition        "The subject describes the measurement unit in which a measured values of the phenomenon described by the object term is stored."@en;
+        skos:definition        "Le sujet décrit l'unité de mesure dans laquelle une valeur mesurée du phénomène décrit par le terme objet est stockée."@fr ;
         skos:notation          "SDN:C60::BUN";
         skos:note              "accepted"@en;
-        skos:prefLabel         "is-units-of"@en .
+        skos:prefLabel         "is-units-of"@en ;
+        skos:prefLabel         "is-units-of"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/IHP/>
         rdf:type               skos:Concept;
@@ -641,10 +743,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             iop:hasProperty;
         owl:versionInfo        "1";
         skos:altLabel          "hasProperty";
+        skos:altLabel          "hasProperty"@fr ;
         skos:definition        "I-ADOPT framework ontology property linking the variable to its property component."@en;
+        skos:definition        "Propriété d'ontologie du framework I-ADOPT liant la variable à son composant propriété."@fr ;
         skos:notation          "SDN:C60::IHP";
         skos:note              "accepted"@en;
-        skos:prefLabel         "iop#hasProperty"@en .
+        skos:prefLabel         "iop#hasProperty"@en ;
+        skos:prefLabel         "iop#hasProperty"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/VAR/>
         rdf:type               skos:Concept;
@@ -658,10 +763,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "variantOf";
+        skos:altLabel          "variantOf"@fr ;
         skos:definition        "The subject is a variant of the object (the subject and object share the same attributes, but the values/settings of the attributes may differ)"@en;
+        skos:definition        "Le sujet est une variante de l'objet (le sujet et l'objet partagent les mêmes attributs, mais les valeurs/paramètres des attributs peuvent différer)"@fr ;
         skos:notation          "SDN:C60::VAR";
         skos:note              "accepted"@en;
-        skos:prefLabel         "variant-of"@en .
+        skos:prefLabel         "variant-of"@en ;
+        skos:prefLabel         "variant-of"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C60/current/>
         rdf:type                skos:Collection;
@@ -677,5 +785,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "British Oceanographic Data Centre";
         owl:versionInfo         "13";
         skos:altLabel           "NDG term relationships";
+        skos:altLabel           "NDG term relationships"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/C60/current/HST/> , <http://vocab.nerc.ac.uk/collection/C60/current/EAR/> , <http://vocab.nerc.ac.uk/collection/C60/current/MIN/> , <http://vocab.nerc.ac.uk/collection/C60/current/DER/> , <http://vocab.nerc.ac.uk/collection/C60/current/MAJ/> , <http://vocab.nerc.ac.uk/collection/C60/current/SUC/> , <http://vocab.nerc.ac.uk/collection/C60/current/COM/> , <http://vocab.nerc.ac.uk/collection/C60/current/IHC/> , <http://vocab.nerc.ac.uk/collection/C60/current/INC/> , <http://vocab.nerc.ac.uk/collection/C60/current/CMP/> , <http://vocab.nerc.ac.uk/collection/C60/current/IAO/> , <http://vocab.nerc.ac.uk/collection/C60/current/DBY/> , <http://vocab.nerc.ac.uk/collection/C60/current/HUN/> , <http://vocab.nerc.ac.uk/collection/C60/current/IAM/> , <http://vocab.nerc.ac.uk/collection/C60/current/IHM/> , <http://vocab.nerc.ac.uk/collection/C60/current/SCM/> , <http://vocab.nerc.ac.uk/collection/C60/current/BRD/> , <http://vocab.nerc.ac.uk/collection/C60/current/ICO/> , <http://vocab.nerc.ac.uk/collection/C60/current/SYN/> , <http://vocab.nerc.ac.uk/collection/C60/current/HMX/> , <http://vocab.nerc.ac.uk/collection/C60/current/SIM/> , <http://vocab.nerc.ac.uk/collection/C60/current/HPP/> , <http://vocab.nerc.ac.uk/collection/C60/current/IAP/> , <http://vocab.nerc.ac.uk/collection/C60/current/IHO/> , <http://vocab.nerc.ac.uk/collection/C60/current/TYP/> , <http://vocab.nerc.ac.uk/collection/C60/current/QTK/> , <http://vocab.nerc.ac.uk/collection/C60/current/CAM/> , <http://vocab.nerc.ac.uk/collection/C60/current/IAC/> , <http://vocab.nerc.ac.uk/collection/C60/current/HCO/> , <http://vocab.nerc.ac.uk/collection/C60/current/PRE/> , <http://vocab.nerc.ac.uk/collection/C60/current/INV/> , <http://vocab.nerc.ac.uk/collection/C60/current/NAR/> , <http://vocab.nerc.ac.uk/collection/C60/current/DSC/> , <http://vocab.nerc.ac.uk/collection/C60/current/BUN/> , <http://vocab.nerc.ac.uk/collection/C60/current/VAR/> , <http://vocab.nerc.ac.uk/collection/C60/current/IHP/>;
-        skos:prefLabel          "NERC DataGrid vocabulary term relationships" .
+        skos:prefLabel          "NERC DataGrid vocabulary term relationships" ;
+        skos:prefLabel          "NERC DataGrid vocabulary term relationships"@fr .
