@@ -1,0 +1,104 @@
+{"i": 0, "fr": "Identifie une variable qui définit une correspondance de grille."}
+{"i": 1, "fr": "grid_mapping"}
+{"i": 2, "fr": "Fournit un exemple d'année bissextile pour un calendrier défini par l'utilisateur. On suppose que toutes les années qui diffèrent de cette année par un multiple de quatre sont aussi des années bissextiles."}
+{"i": 3, "fr": "leap_year"}
+{"i": 4, "fr": "Identifie les variables qui contiennent des aires ou volumes de cellules."}
+{"i": 5, "fr": "cell_measures"}
+{"i": 6, "fr": "Indique le nom standard, issu de la table des noms standards, des valeurs de coordonnées verticales calculées, calculées selon la formule de la définition."}
+{"i": 7, "fr": "computed_standard_name"}
+{"i": 8, "fr": "Plus petite valeur valide d'une variable."}
+{"i": 9, "fr": "valid_min"}
+{"i": 10, "fr": "Références qui décrivent les données ou les méthodes utilisées pour les produire."}
+{"i": 11, "fr": "references"}
+{"i": 12, "fr": "Nom des conventions suivies par le jeu de données."}
+{"i": 13, "fr": "Conventions"}
+{"i": 14, "fr": "Utiliser en conjonction avec flag_values pour fournir des mots ou des phrases descriptives pour chaque valeur de drapeau. Si des phrases de plusieurs mots sont utilisées pour décrire les valeurs de drapeau, les mots à l'intérieur d'une phrase doivent être reliés par des traits de soulignement."}
+{"i": 15, "fr": "flag_meanings"}
+{"i": 16, "fr": "Identifie une variable indiquant le nombre de nœuds par géométrie."}
+{"i": 17, "fr": "node_count"}
+{"i": 18, "fr": "Identifie les variables de coordonnées auxiliaires, les variables d'étiquette et les variables de coordonnées alternatives."}
+{"i": 19, "fr": "coordinates"}
+{"i": 20, "fr": "Calendrier utilisé pour l'encodage des axes temporels."}
+{"i": 21, "fr": "calendar"}
+{"i": 22, "fr": "Méthode de production des données originales."}
+{"i": 23, "fr": "Identifie une variable qui définit la géométrie."}
+{"i": 24, "fr": "geometry"}
+{"i": 25, "fr": "Informations diverses sur les données ou les méthodes utilisées pour les produire."}
+{"i": 26, "fr": "comment"}
+{"i": 27, "fr": "Fournit une liste des valeurs de drapeau. Utiliser en conjonction avec flag_meanings."}
+{"i": 28, "fr": "flag_values"}
+{"i": 29, "fr": "Spécifie la longueur de chaque mois dans une année non bissextile pour un calendrier défini par l'utilisateur."}
+{"i": 30, "fr": "month_lengths"}
+{"i": 31, "fr": "Plus grande valeur valide d'une variable."}
+{"i": 32, "fr": "valid_max"}
+{"i": 33, "fr": "Identifie une variable indiquant si des parties de polygone sont des anneaux intérieurs (c.-à-d. des trous) ou non."}
+{"i": 34, "fr": "interior_ring"}
+{"i": 35, "fr": "Si une variable de données avec un modificateur de nom standard standard_error a cet attribut, cela indique que les valeurs sont le multiple déclaré d'une erreur standard."}
+{"i": 36, "fr": "standard_error_multiplier"}
+{"i": 37, "fr": "Identifie les axes de latitude, longitude, vertical ou temporel."}
+{"i": 38, "fr": "axis"}
+{"i": 39, "fr": "Indique que les coordonnées ont été compressées par échantillonnage et identifie les variables de coordonnées de points d'ancrage et leurs variables d'interpolation associées."}
+{"i": 40, "fr": "coordinate_interpolation"}
+{"i": 41, "fr": "Un attribut qui identifie une variable de comptage et nomme la dimension d'échantillonnage à laquelle il s'applique. La variable de comptage indique que la représentation de tableau irrégulier contigu est utilisée pour un ensemble de fonctionnalités."}
+{"i": 42, "fr": "sample_dimension"}
+{"i": 43, "fr": "S'il est présent pour une variable, les données doivent être multipliées par ce facteur après leur lecture par une application. Voir aussi l'attribut add_offset. Dans les cas où il existe une forte contrainte sur la taille du jeu de données, il est permis de compresser les variables de coordonnées (en utilisant add_offset et/ou scale_factor), mais cela n'est pas recommandé en général."}
+{"i": 44, "fr": "scale_factor"}
+{"i": 45, "fr": "Un attribut qui identifie une variable d'index et nomme la dimension d'instance à laquelle il s'applique. La variable d'index indique que la représentation de tableau irrégulier indexé est utilisée pour un ensemble de fonctionnalités."}
+{"i": 46, "fr": "instance_dimension"}
+{"i": 47, "fr": "Identifie une variable qui contient des données étroitement associées, par ex. les incertitudes de mesure des données d'instrument."}
+{"i": 48, "fr": "ancillary_variables"}
+{"i": 49, "fr": "Une valeur ou des valeurs utilisées pour représenter des données manquantes ou indéfinies. Permis pour les variables de coordonnées auxiliaires mais non permis pour les variables de coordonnées."}
+{"i": 50, "fr": "missing_value"}
+{"i": 51, "fr": "Identifie les rôles des variables qui identifient les fonctionnalités dans les géométries d'échantillonnage discret."}
+{"i": 52, "fr": "cf_role"}
+{"i": 53, "fr": "Direction de l'augmentation de la valeur de la coordonnée verticale."}
+{"i": 54, "fr": "positive"}
+{"i": 55, "fr": "Identifie les variables qui correspondent aux termes d'une formule."}
+{"i": 56, "fr": "formula_terms"}
+{"i": 57, "fr": "Liste des applications qui ont modifié les données originales."}
+{"i": 58, "fr": "history"}
+{"i": 59, "fr": "Identifie les variables qui sont nommées par les attributs cell_measures dans le fichier mais qui ne sont pas présentes dans le fichier."}
+{"i": 60, "fr": "external_variables"}
+{"i": 61, "fr": "Identifie une variable de nœud de coordonnée."}
+{"i": 62, "fr": "nodes"}
+{"i": 63, "fr": "Plus petites et plus grandes valeurs valides d'une variable."}
+{"i": 64, "fr": "valid_range"}
+{"i": 65, "fr": "Où les données originales ont été produites."}
+{"i": 66, "fr": "institution"}
+{"i": 67, "fr": "Un nom standard qui référence une description du contenu d'une variable dans la table des noms standards."}
+{"i": 68, "fr": "standard_name"}
+{"i": 69, "fr": "Identifie une variable de climatologie."}
+{"i": 70, "fr": "climatology"}
+{"i": 71, "fr": "Enregistre la méthode utilisée pour dériver des données qui représentent les valeurs de cellule."}
+{"i": 72, "fr": "cell_methods"}
+{"i": 73, "fr": "Indique le type de géométrie présente."}
+{"i": 74, "fr": "geometry_type"}
+{"i": 75, "fr": "Spécifie le type de géométrie d'échantillonnage discret à laquelle appartiennent les données dans la portée de cet attribut, et implique que toutes les variables de données dans la portée de cet attribut contiennent des ensembles de fonctionnalités de ce type."}
+{"i": 76, "fr": "Un nom descriptif qui indique le contenu d'une variable. Ce nom n'est pas standardisé."}
+{"i": 77, "fr": "long_name"}
+{"i": 78, "fr": "Identifie une variable fournissant le nombre de nœuds par partie de géométrie."}
+{"i": 79, "fr": "part_node_count"}
+{"i": 80, "fr": "S'il est présent pour une variable, ce nombre doit être ajouté aux données après leur lecture par une application. Si les attributs scale_factor et add_offset sont tous les deux présents, les données sont d'abord mises à l'échelle avant que l'offset ne soit ajouté. Dans les cas où il existe une forte contrainte sur la taille du jeu de données, il est permis de compresser les variables de coordonnées (en utilisant add_offset et/ou scale_factor), mais cela n'est pas recommandé en général."}
+{"i": 81, "fr": "add_offset"}
+{"i": 82, "fr": "Les plus petites et les plus grandes valeurs valides non manquantes se produisant dans la variable."}
+{"i": 83, "fr": "actual_range"}
+{"i": 84, "fr": "Unités du contenu d'une variable."}
+{"i": 85, "fr": "units"}
+{"i": 86, "fr": "Spécifie quel mois est allongé d'un jour dans les années bissextiles pour un calendrier défini par l'utilisateur."}
+{"i": 87, "fr": "leap_month"}
+{"i": 88, "fr": "Brève description du contenu du fichier."}
+{"i": 89, "fr": "title"}
+{"i": 90, "fr": "Fournit une liste de champs de bits exprimant des drapeaux booléens ou énumérés."}
+{"i": 91, "fr": "flag_masks"}
+{"i": 92, "fr": "Enregistre les dimensions qui ont été compressées par rassemblement."}
+{"i": 93, "fr": "compress"}
+{"i": 94, "fr": "Identifie les variables qui contiennent des coordonnées de nœuds de géométrie."}
+{"i": 95, "fr": "node_coordinates"}
+{"i": 96, "fr": "Identifie les dimensions qui définissent une variable de domaine."}
+{"i": 97, "fr": "dimensions"}
+{"i": 98, "fr": "Identifie une variable de limite."}
+{"i": 99, "fr": "bounds"}
+{"i": 100, "fr": "Une valeur utilisée pour représenter des données manquantes ou indéfinies. Permis pour les variables de coordonnées auxiliaires mais non permis pour les variables de coordonnées."}
+{"i": 101, "fr": "_FillValue"}
+{"i": 102, "fr": "Attributs CF"}
+{"i": 103, "fr": "Noms d'attributs Climate and Forecast"}

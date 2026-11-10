@@ -33,10 +33,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "kilometres";
+        skos:altLabel          "kilomètres"@fr ;
         skos:definition        "The distance in kilometres covered by the platform during which the measurement or sampling is continuously taking place."@en;
+        skos:definition        "La distance en kilomètres parcourue par la plateforme pendant laquelle la mesure ou l'échantillonnage se déroule en continu."@fr ;
         skos:notation          "SDN:L18::CSRU004";
         skos:note              "accepted"@en;
-        skos:prefLabel         "track kilometres"@en .
+        skos:prefLabel         "track kilometres"@en ;
+        skos:prefLabel         "kilomètres de piste"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L18/current/CSRU018/>
         rdf:type               skos:Concept;
@@ -50,10 +53,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "image series";
+        skos:altLabel          "série d'images"@fr ;
         skos:definition        "The count of image collections such as films, video tapes and digital video files."@en;
+        skos:definition        "Le nombre de collections d'images telles que films, bandes vidéo et fichiers vidéo numériques."@fr ;
         skos:notation          "SDN:L18::CSRU018";
         skos:note              "accepted"@en;
-        skos:prefLabel         "number of image series"@en .
+        skos:prefLabel         "number of image series"@en ;
+        skos:prefLabel         "nombre de séries d'images"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L18/current/CSRU019/>
         rdf:type               skos:Concept;
@@ -67,10 +73,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "images";
+        skos:altLabel          "images"@fr ;
         skos:definition        "The count of discrete images such as photographs or digital image files."@en;
+        skos:definition        "Le nombre d'images discrètes telles que photographies ou fichiers image numériques."@fr ;
         skos:notation          "SDN:L18::CSRU019";
         skos:note              "accepted"@en;
-        skos:prefLabel         "number of images"@en .
+        skos:prefLabel         "number of images"@en ;
+        skos:prefLabel         "nombre d'images"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L18/current/CSRU006/>
         rdf:type               skos:Concept;
@@ -84,10 +93,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "samples";
+        skos:altLabel          "échantillons"@fr ;
         skos:definition        "The count of discrete material collections of air, water, sediment, rock or biota obtained for subsequent measurement."@en;
+        skos:definition        "Le nombre de collections discrètes de matière d'air, d'eau, de sédiment, de roche ou de biote obtenues pour mesure ultérieure."@fr ;
         skos:notation          "SDN:L18::CSRU006";
         skos:note              "accepted"@en;
-        skos:prefLabel         "number of samples"@en .
+        skos:prefLabel         "number of samples"@en ;
+        skos:prefLabel         "nombre d'échantillons"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L18/current/CSRU027/>
         rdf:type               skos:Concept;
@@ -101,10 +113,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "flights";
+        skos:altLabel          "vols"@fr ;
         skos:definition        "The count of aircraft activities such as overflights associated with a cruise."@en;
+        skos:definition        "Le nombre d'activités aériennes telles que les survols associés à une campagne."@fr ;
         skos:notation          "SDN:L18::CSRU027";
         skos:note              "accepted"@en;
-        skos:prefLabel         "number of flights"@en .
+        skos:prefLabel         "number of flights"@en ;
+        skos:prefLabel         "nombre de vols"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L18/current/CSRU016/>
         rdf:type               skos:Concept;
@@ -118,10 +133,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "litres";
+        skos:altLabel          "litres"@fr ;
         skos:definition        "The volume expressed in litres of samples obtained."@en;
+        skos:definition        "Le volume exprimé en litres d'échantillons obtenus."@fr ;
         skos:notation          "SDN:L18::CSRU016";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sample litres"@en .
+        skos:prefLabel         "sample litres"@en ;
+        skos:prefLabel         "litres d'échantillon"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L18/current/CSRU007/>
         rdf:type               skos:Concept;
@@ -135,10 +153,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "profiles";
+        skos:altLabel          "profils"@fr ;
         skos:definition        "Sets of vertically distributed measurements or sample collections at a fixed location."@en;
+        skos:definition        "Ensembles de mesures ou de collections d'échantillons distribuées verticalement à un emplacement fixe."@fr ;
         skos:notation          "SDN:L18::CSRU007";
         skos:note              "accepted"@en;
-        skos:prefLabel         "number of profiles"@en .
+        skos:prefLabel         "number of profiles"@en ;
+        skos:prefLabel         "nombre de profils"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L18/current/CSRU017/>
         rdf:type               skos:Concept;
@@ -152,10 +173,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "gigabytes";
+        skos:altLabel          "gigaoctets"@fr ;
         skos:definition        "The volume of information accumulated on a computer resulting from the measurement expressed in gigabytes (1048576 8-bit bytes)."@en;
+        skos:definition        "Le volume d'information accumulé sur un ordinateur résultant de la mesure, exprimé en gigaoctets (1048576 octets de 8 bits)."@fr ;
         skos:notation          "SDN:L18::CSRU017";
         skos:note              "accepted"@en;
-        skos:prefLabel         "data volume in gigabytes"@en .
+        skos:prefLabel         "data volume in gigabytes"@en ;
+        skos:prefLabel         "volume de données en gigaoctets"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L18/current/CSRU005/>
         rdf:type               skos:Concept;
@@ -169,10 +193,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "hauls";
+        skos:altLabel          "traits"@fr ;
         skos:definition        "The count of the deployments of sampling devices that collect biological samples including plankton nets, trawls, sledges and dredges."@en;
+        skos:definition        "Le nombre de déploiements d'appareils d'échantillonnage qui collectent des échantillons biologiques incluant filets à plancton, chaluts, traîneaux et dragues."@fr ;
         skos:notation          "SDN:L18::CSRU005";
         skos:note              "accepted"@en;
-        skos:prefLabel         "number of hauls"@en .
+        skos:prefLabel         "number of hauls"@en ;
+        skos:prefLabel         "nombre de traits"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L18/current/CSRU008/>
         rdf:type               skos:Concept;
@@ -186,10 +213,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "cores";
+        skos:altLabel          "carottes"@fr ;
         skos:definition        "The count of whole cylindrical samples of rocks or mud collected that contain material from varying depths below the seabed."@en;
+        skos:definition        "Le nombre d'échantillons cylindriques entiers de roches ou de vase collectés contenant de la matière de profondeurs variables sous le fond marin."@fr ;
         skos:notation          "SDN:L18::CSRU008";
         skos:note              "accepted"@en;
-        skos:prefLabel         "number of cores"@en .
+        skos:prefLabel         "number of cores"@en ;
+        skos:prefLabel         "nombre de carottes"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L18/current/CSRU002/>
         rdf:type               skos:Concept;
@@ -203,10 +233,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "days";
+        skos:altLabel          "jours"@fr ;
         skos:definition        "The period of time expressed in calendar days (86400 seconds) during which the measurement or sampling is continuously taking place."@en;
+        skos:definition        "La période de temps exprimée en jours calendaires (86400 secondes) pendant laquelle la mesure ou l'échantillonnage se déroule en continu."@fr ;
         skos:notation          "SDN:L18::CSRU002";
         skos:note              "accepted"@en;
-        skos:prefLabel         "activity duration in days"@en .
+        skos:prefLabel         "activity duration in days"@en ;
+        skos:prefLabel         "durée d'activité en jours"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L18/current/CSRU024/>
         rdf:type               skos:Concept;
@@ -220,10 +253,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "surveys";
+        skos:altLabel          "campagnes"@fr ;
         skos:definition        "The count of discrete areas of seabed or discrete volumes of the water column in which measurements or observations were made."@en;
+        skos:definition        "Le nombre de zones discrètes de fond marin ou de volumes discrets de la colonne d'eau dans lesquelles des mesures ou observations ont été faites."@fr ;
         skos:notation          "SDN:L18::CSRU024";
         skos:note              "accepted"@en;
-        skos:prefLabel         "number of surveys"@en .
+        skos:prefLabel         "number of surveys"@en ;
+        skos:prefLabel         "nombre de campagnes"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L18/current/CSRU012/>
         rdf:type               skos:Concept;
@@ -237,10 +273,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "dives";
+        skos:altLabel          "plongées"@fr ;
         skos:definition        "The count of journeys from surface to depth and back again by subsurface platforms deployed from the cruise, including ROVs, AUVs and human divers."@en;
+        skos:definition        "Le nombre de trajets de la surface à la profondeur et retour par des plateformes sous-marines déployées depuis la campagne, incluant ROV, AUV et plongeurs humains."@fr ;
         skos:notation          "SDN:L18::CSRU012";
         skos:note              "accepted"@en;
-        skos:prefLabel         "number of dives"@en .
+        skos:prefLabel         "number of dives"@en ;
+        skos:prefLabel         "nombre de plongées"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L18/current/CSRU013/>
         rdf:type               skos:Concept;
@@ -254,10 +293,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "experiments";
+        skos:altLabel          "expériences"@fr ;
         skos:definition        "The count of sample processing and measurement procedures undertaken, such as incubation or settling velocity experiments."@en;
+        skos:definition        "Le nombre de procédures de traitement d'échantillons et de mesure entreprises, telles que des expériences d'incubation ou de vitesse de décantation."@fr ;
         skos:notation          "SDN:L18::CSRU013";
         skos:note              "accepted"@en;
-        skos:prefLabel         "number of experiments"@en .
+        skos:prefLabel         "number of experiments"@en ;
+        skos:prefLabel         "nombre d'expériences"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L18/current/CSRU010/>
         rdf:type               skos:Concept;
@@ -271,10 +313,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "months";
+        skos:altLabel          "mois"@fr ;
         skos:definition        "The period of time expressed in calendar months during which the measurement or sampling is continuously taking place."@en;
+        skos:definition        "La période de temps exprimée en mois calendaires pendant laquelle la mesure ou l'échantillonnage se déroule en continu."@fr ;
         skos:notation          "SDN:L18::CSRU010";
         skos:note              "accepted"@en;
-        skos:prefLabel         "activity months"@en .
+        skos:prefLabel         "activity months"@en ;
+        skos:prefLabel         "mois d'activité"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L18/current/CSRU025/>
         rdf:type               skos:Concept;
@@ -288,10 +333,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "deployments";
+        skos:altLabel          "déploiements"@fr ;
         skos:definition        "The count of the times a piece of equipment was deposited into the sea or atmosphere for recovery during the cruise, by a subsequent cruise or possibly never."@en;
+        skos:definition        "Le nombre de fois où un équipement a été déposé en mer ou dans l'atmosphère pour récupération lors de la campagne, par une campagne ultérieure ou possiblement jamais."@fr ;
         skos:notation          "SDN:L18::CSRU025";
         skos:note              "accepted"@en;
-        skos:prefLabel         "number of deployments"@en .
+        skos:prefLabel         "number of deployments"@en ;
+        skos:prefLabel         "nombre de déploiements"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L18/current/CSRU026/>
         rdf:type               skos:Concept;
@@ -305,10 +353,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "recoveries";
+        skos:altLabel          "récupérations"@fr ;
         skos:definition        "The count of the times a piece of equipment deposited into the sea or atmosphere by a previous cruise was recovered."@en;
+        skos:definition        "Le nombre de fois où un équipement déposé en mer ou dans l'atmosphère par une campagne précédente a été récupéré."@fr ;
         skos:notation          "SDN:L18::CSRU026";
         skos:note              "accepted"@en;
-        skos:prefLabel         "number of recoveries"@en .
+        skos:prefLabel         "number of recoveries"@en ;
+        skos:prefLabel         "nombre de récupérations"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L18/current/CSRU009/>
         rdf:type               skos:Concept;
@@ -322,10 +373,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "measurements";
+        skos:altLabel          "mesures"@fr ;
         skos:definition        "The count of determinations of the size or magnitude of something."@en;
+        skos:definition        "Le nombre de déterminations de la taille ou de l'amplitude de quelque chose."@fr ;
         skos:notation          "SDN:L18::CSRU009";
         skos:note              "accepted"@en;
-        skos:prefLabel         "number of measurements"@en .
+        skos:prefLabel         "number of measurements"@en ;
+        skos:prefLabel         "nombre de mesures"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L18/current/CSRU020/>
         rdf:type               skos:Concept;
@@ -339,10 +393,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "specimens";
+        skos:altLabel          "spécimens"@fr ;
         skos:definition        "The count of individual organisms obtained."@en;
+        skos:definition        "Le nombre d'organismes individuels obtenus."@fr ;
         skos:notation          "SDN:L18::CSRU020";
         skos:note              "accepted"@en;
-        skos:prefLabel         "number of specimens"@en .
+        skos:prefLabel         "number of specimens"@en ;
+        skos:prefLabel         "nombre de spécimens"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L18/current/CSRU022/>
         rdf:type               skos:Concept;
@@ -356,10 +413,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "lines";
+        skos:altLabel          "lignes"@fr ;
         skos:definition        "The count of discrete subsets of the platform path during which a specified set of measurements or observations were made"@en;
+        skos:definition        "Le nombre de sous-ensembles discrets du chemin de la plateforme pendant lesquels un ensemble de mesures ou observations spécifié a été fait"@fr ;
         skos:notation          "SDN:L18::CSRU022";
         skos:note              "accepted"@en;
-        skos:prefLabel         "number of track lines"@en .
+        skos:prefLabel         "number of track lines"@en ;
+        skos:prefLabel         "nombre de lignes de piste"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L18/current/CSRU001/>
         rdf:type               skos:Concept;
@@ -373,10 +433,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "stations";
+        skos:altLabel          "stations"@fr ;
         skos:definition        "The count of point locations at which measurements or samples were taken."@en;
+        skos:definition        "Le nombre d'emplacements ponctuels où des mesures ou échantillons ont été pris."@fr ;
         skos:notation          "SDN:L18::CSRU001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "number of stations"@en .
+        skos:prefLabel         "number of stations"@en ;
+        skos:prefLabel         "nombre de stations"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L18/current/CSRU003/>
         rdf:type               skos:Concept;
@@ -390,10 +453,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "hours";
+        skos:altLabel          "heures"@fr ;
         skos:definition        "The period of time expressed in hours (3600 seconds) during which the measurement or sampling is continuously taking place."@en;
+        skos:definition        "La période de temps exprimée en heures (3600 secondes) pendant laquelle la mesure ou l'échantillonnage se déroule en continu."@fr ;
         skos:notation          "SDN:L18::CSRU003";
         skos:note              "accepted"@en;
-        skos:prefLabel         "activity duration in hours"@en .
+        skos:prefLabel         "activity duration in hours"@en ;
+        skos:prefLabel         "durée d'activité en heures"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L18/current/CSRU011/>
         rdf:type               skos:Concept;
@@ -407,10 +473,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "observations";
+        skos:altLabel          "observations"@fr ;
         skos:definition        "The count of discrete periods of time during which something is measured or watched."@en;
+        skos:definition        "Le nombre de périodes de temps discrètes pendant lesquelles quelque chose est mesuré ou observé."@fr ;
         skos:notation          "SDN:L18::CSRU011";
         skos:note              "accepted"@en;
-        skos:prefLabel         "number of observations"@en .
+        skos:prefLabel         "number of observations"@en ;
+        skos:prefLabel         "nombre d'observations"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L18/current/CSRU014/>
         rdf:type               skos:Concept;
@@ -424,10 +493,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "baskets";
+        skos:altLabel          "casiers"@fr ;
         skos:definition        "The count of standard containers filled with fish.  Each basket is roughly equal to a 45kg sample weight."@en;
+        skos:definition        "Le nombre de conteneurs standard remplis de poisson. Chaque casier équivaut approximativement à un poids d'échantillon de 45 kg."@fr ;
         skos:notation          "SDN:L18::CSRU014";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sample baskets"@en .
+        skos:prefLabel         "sample baskets"@en ;
+        skos:prefLabel         "casiers d'échantillon"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L18/current/CSRU021/>
         rdf:type               skos:Concept;
@@ -441,10 +513,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "species";
+        skos:altLabel          "espèces"@fr ;
         skos:definition        "The count of different taxonomic groups capable of interbreeding obtained."@en;
+        skos:definition        "Le nombre de différents groupes taxonomiques capables de se reproduire obtenus."@fr ;
         skos:notation          "SDN:L18::CSRU021";
         skos:note              "accepted"@en;
-        skos:prefLabel         "number of species"@en .
+        skos:prefLabel         "number of species"@en ;
+        skos:prefLabel         "nombre d'espèces"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L18/current/CSRU023/>
         rdf:type               skos:Concept;
@@ -458,10 +533,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "square_kilometres";
+        skos:altLabel          "kilomètres carrés"@fr ;
         skos:definition        "The area, usually of seabed, surveyed during the cruise expressed in square kilometres."@en;
+        skos:definition        "La surface, généralement de fond marin, explorée pendant la campagne, exprimée en kilomètres carrés."@fr ;
         skos:notation          "SDN:L18::CSRU023";
         skos:note              "accepted"@en;
-        skos:prefLabel         "survey square kilometres"@en .
+        skos:prefLabel         "survey square kilometres"@en ;
+        skos:prefLabel         "kilomètres carrés de campagne"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L18/current/CSRU015/>
         rdf:type               skos:Concept;
@@ -475,10 +553,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "kilograms";
+        skos:altLabel          "kilogrammes"@fr ;
         skos:definition        "The mass expressed in kilograms of samples obtained."@en;
+        skos:definition        "La masse exprimée en kilogrammes d'échantillons obtenus."@fr ;
         skos:notation          "SDN:L18::CSRU015";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sample kilograms"@en .
+        skos:prefLabel         "sample kilograms"@en ;
+        skos:prefLabel         "kilogrammes d'échantillon"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L18/current/>
         rdf:type                skos:Collection;
@@ -494,5 +575,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "SeaDataNet";
         owl:versionInfo         "1";
         skos:altLabel           "CSR units";
+        skos:altLabel           "unités CSR"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/L18/current/CSRU004/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU018/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU019/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU006/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU027/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU016/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU007/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU017/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU005/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU008/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU002/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU024/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU012/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU013/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU010/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU025/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU026/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU009/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU020/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU022/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU001/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU003/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU011/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU014/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU021/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU015/> , <http://vocab.nerc.ac.uk/collection/L18/current/CSRU023/>;
-        skos:prefLabel          "SeaDataNet Cruise Summary Report quantification units" .
+        skos:prefLabel          "SeaDataNet Cruise Summary Report quantification units" ;
+        skos:prefLabel          "unités de quantification du rapport de synthèse de campagne SeaDataNet"@fr .

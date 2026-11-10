@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Identifies a variable that defines a grid mapping."@en;
+        skos:definition        "Identifie une variable qui définit une correspondance de grille."@fr ;
         skos:notation          "SDN:P31::grid_mapping";
         skos:note              "accepted"@en;
-        skos:prefLabel         "grid_mapping"@en .
+        skos:prefLabel         "grid_mapping"@en ;
+        skos:prefLabel         "grid_mapping"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/leap_year/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Provides an example of a leap year for a user defined calendar. It is assumed that all years that differ from this year by a multiple of four are also leap years."@en;
+        skos:definition        "Fournit un exemple d'année bissextile pour un calendrier défini par l'utilisateur. On suppose que toutes les années qui diffèrent de cette année par un multiple de quatre sont aussi des années bissextiles."@fr ;
         skos:notation          "SDN:P31::leap_year";
         skos:note              "accepted"@en;
-        skos:prefLabel         "leap_year"@en .
+        skos:prefLabel         "leap_year"@en ;
+        skos:prefLabel         "leap_year"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/cell_measures/>
         rdf:type               skos:Concept;
@@ -67,9 +71,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Identifies variables that contain cell areas or volumes."@en;
+        skos:definition        "Identifie les variables qui contiennent des aires ou volumes de cellules."@fr ;
         skos:notation          "SDN:P31::cell_measures";
         skos:note              "accepted"@en;
-        skos:prefLabel         "cell_measures"@en .
+        skos:prefLabel         "cell_measures"@en ;
+        skos:prefLabel         "cell_measures"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/computed_standard_name/>
         rdf:type               skos:Concept;
@@ -84,9 +90,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Indicates the standard name, from the standard name table, of the computed vertical coordinate values, computed according to the formula in the definition."@en;
+        skos:definition        "Indique le nom standard, issu de la table des noms standards, des valeurs de coordonnées verticales calculées, calculées selon la formule de la définition."@fr ;
         skos:notation          "SDN:P31::computed_standard_name";
         skos:note              "accepted"@en;
-        skos:prefLabel         "computed_standard_name"@en .
+        skos:prefLabel         "computed_standard_name"@en ;
+        skos:prefLabel         "computed_standard_name"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/valid_min/>
         rdf:type               skos:Concept;
@@ -101,9 +109,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Smallest valid value of a variable."@en;
+        skos:definition        "Plus petite valeur valide d'une variable."@fr ;
         skos:notation          "SDN:P31::valid_min";
         skos:note              "accepted"@en;
-        skos:prefLabel         "valid_min"@en .
+        skos:prefLabel         "valid_min"@en ;
+        skos:prefLabel         "valid_min"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/references/>
         rdf:type               skos:Concept;
@@ -118,9 +128,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "References that describe the data or methods used to produce it."@en;
+        skos:definition        "Références qui décrivent les données ou les méthodes utilisées pour les produire."@fr ;
         skos:notation          "SDN:P31::references";
         skos:note              "accepted"@en;
-        skos:prefLabel         "references"@en .
+        skos:prefLabel         "references"@en ;
+        skos:prefLabel         "references"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/Conventions/>
         rdf:type               skos:Concept;
@@ -135,9 +147,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Name of the conventions followed by the dataset."@en;
+        skos:definition        "Nom des conventions suivies par le jeu de données."@fr ;
         skos:notation          "SDN:P31::Conventions";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Conventions"@en .
+        skos:prefLabel         "Conventions"@en ;
+        skos:prefLabel         "Conventions"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/flag_meanings/>
         rdf:type               skos:Concept;
@@ -152,9 +166,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Use in conjunction with flag_values to provide descriptive words or phrases for each flag value. If multi-word phrases are used to describe the flag values, then the words within a phrase should be connected with underscores."@en;
+        skos:definition        "Utiliser en conjonction avec flag_values pour fournir des mots ou des phrases descriptives pour chaque valeur de drapeau. Si des phrases de plusieurs mots sont utilisées pour décrire les valeurs de drapeau, les mots à l'intérieur d'une phrase doivent être reliés par des traits de soulignement."@fr ;
         skos:notation          "SDN:P31::flag_meanings";
         skos:note              "accepted"@en;
-        skos:prefLabel         "flag_meanings"@en .
+        skos:prefLabel         "flag_meanings"@en ;
+        skos:prefLabel         "flag_meanings"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/node_count/>
         rdf:type               skos:Concept;
@@ -169,9 +185,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Identifies a variable indicating the count of nodes per geometry."@en;
+        skos:definition        "Identifie une variable indiquant le nombre de nœuds par géométrie."@fr ;
         skos:notation          "SDN:P31::node_count";
         skos:note              "accepted"@en;
-        skos:prefLabel         "node_count"@en .
+        skos:prefLabel         "node_count"@en ;
+        skos:prefLabel         "node_count"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/coordinates/>
         rdf:type               skos:Concept;
@@ -186,9 +204,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Identifies auxiliary coordinate variables, label variables, and alternate coordinate variables."@en;
+        skos:definition        "Identifie les variables de coordonnées auxiliaires, les variables d'étiquette et les variables de coordonnées alternatives."@fr ;
         skos:notation          "SDN:P31::coordinates";
         skos:note              "accepted"@en;
-        skos:prefLabel         "coordinates"@en .
+        skos:prefLabel         "coordinates"@en ;
+        skos:prefLabel         "coordinates"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/calendar/>
         rdf:type               skos:Concept;
@@ -203,9 +223,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Calendar used for encoding time axes."@en;
+        skos:definition        "Calendrier utilisé pour l'encodage des axes temporels."@fr ;
         skos:notation          "SDN:P31::calendar";
         skos:note              "accepted"@en;
-        skos:prefLabel         "calendar"@en .
+        skos:prefLabel         "calendar"@en ;
+        skos:prefLabel         "calendar"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/source/>
         rdf:type               skos:Concept;
@@ -220,9 +242,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Method of production of the original data."@en;
+        skos:definition        "Méthode de production des données originales."@fr ;
         skos:notation          "SDN:P31::source";
         skos:note              "accepted"@en;
-        skos:prefLabel         "source"@en .
+        skos:prefLabel         "source"@en ;
+        skos:prefLabel         "source"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/geometry/>
         rdf:type               skos:Concept;
@@ -237,9 +261,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Identifies a variable that defines geometry."@en;
+        skos:definition        "Identifie une variable qui définit la géométrie."@fr ;
         skos:notation          "SDN:P31::geometry";
         skos:note              "accepted"@en;
-        skos:prefLabel         "geometry"@en .
+        skos:prefLabel         "geometry"@en ;
+        skos:prefLabel         "geometry"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/comment/>
         rdf:type               skos:Concept;
@@ -254,9 +280,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Miscellaneous information about the data or methods used to produce it."@en;
+        skos:definition        "Informations diverses sur les données ou les méthodes utilisées pour les produire."@fr ;
         skos:notation          "SDN:P31::comment";
         skos:note              "accepted"@en;
-        skos:prefLabel         "comment"@en .
+        skos:prefLabel         "comment"@en ;
+        skos:prefLabel         "comment"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/flag_values/>
         rdf:type               skos:Concept;
@@ -271,9 +299,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Provides a list of the flag values. Use in conjunction with flag_meanings."@en;
+        skos:definition        "Fournit une liste des valeurs de drapeau. Utiliser en conjonction avec flag_meanings."@fr ;
         skos:notation          "SDN:P31::flag_values";
         skos:note              "accepted"@en;
-        skos:prefLabel         "flag_values"@en .
+        skos:prefLabel         "flag_values"@en ;
+        skos:prefLabel         "flag_values"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/month_lengths/>
         rdf:type               skos:Concept;
@@ -288,9 +318,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Specifies the length of each month in a non-leap year for a user defined calendar."@en;
+        skos:definition        "Spécifie la longueur de chaque mois dans une année non bissextile pour un calendrier défini par l'utilisateur."@fr ;
         skos:notation          "SDN:P31::month_lengths";
         skos:note              "accepted"@en;
-        skos:prefLabel         "month_lengths"@en .
+        skos:prefLabel         "month_lengths"@en ;
+        skos:prefLabel         "month_lengths"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/valid_max/>
         rdf:type               skos:Concept;
@@ -305,9 +337,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Largest valid value of a variable."@en;
+        skos:definition        "Plus grande valeur valide d'une variable."@fr ;
         skos:notation          "SDN:P31::valid_max";
         skos:note              "accepted"@en;
-        skos:prefLabel         "valid_max"@en .
+        skos:prefLabel         "valid_max"@en ;
+        skos:prefLabel         "valid_max"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/interior_ring/>
         rdf:type               skos:Concept;
@@ -322,9 +356,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Identifies a variable that indicates if polygon parts are interior rings (i.e., holes) or not."@en;
+        skos:definition        "Identifie une variable indiquant si des parties de polygone sont des anneaux intérieurs (c.-à-d. des trous) ou non."@fr ;
         skos:notation          "SDN:P31::interior_ring";
         skos:note              "accepted"@en;
-        skos:prefLabel         "interior_ring"@en .
+        skos:prefLabel         "interior_ring"@en ;
+        skos:prefLabel         "interior_ring"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/standard_error_multiplier/>
         rdf:type               skos:Concept;
@@ -339,9 +375,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "If a data variable with a standard_name modifier of standard_error has this attribute, it indicates that the values are the stated multiple of one standard error."@en;
+        skos:definition        "Si une variable de données avec un modificateur de nom standard standard_error a cet attribut, cela indique que les valeurs sont le multiple déclaré d'une erreur standard."@fr ;
         skos:notation          "SDN:P31::standard_error_multiplier";
         skos:note              "accepted"@en;
-        skos:prefLabel         "standard_error_multiplier"@en .
+        skos:prefLabel         "standard_error_multiplier"@en ;
+        skos:prefLabel         "standard_error_multiplier"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/axis/>
         rdf:type               skos:Concept;
@@ -356,9 +394,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Identifies latitude, longitude, vertical, or time axes."@en;
+        skos:definition        "Identifie les axes de latitude, longitude, vertical ou temporel."@fr ;
         skos:notation          "SDN:P31::axis";
         skos:note              "accepted"@en;
-        skos:prefLabel         "axis"@en .
+        skos:prefLabel         "axis"@en ;
+        skos:prefLabel         "axis"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/coordinate_interpolation/>
         rdf:type               skos:Concept;
@@ -373,9 +413,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Indicates that coordinates have been compressed by sampling and identifies the tie point coordinate variables and their associated interpolation variables."@en;
+        skos:definition        "Indique que les coordonnées ont été compressées par échantillonnage et identifie les variables de coordonnées de points d'ancrage et leurs variables d'interpolation associées."@fr ;
         skos:notation          "SDN:P31::coordinate_interpolation";
         skos:note              "accepted"@en;
-        skos:prefLabel         "coordinate_interpolation"@en .
+        skos:prefLabel         "coordinate_interpolation"@en ;
+        skos:prefLabel         "coordinate_interpolation"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/sample_dimension/>
         rdf:type               skos:Concept;
@@ -390,9 +432,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "An attribute which identifies a count variable and names the sample dimension to which it applies. The count variable indicates that the contiguous ragged array representation is being used for a collection of features."@en;
+        skos:definition        "Un attribut qui identifie une variable de comptage et nomme la dimension d'échantillonnage à laquelle il s'applique. La variable de comptage indique que la représentation de tableau irrégulier contigu est utilisée pour un ensemble de fonctionnalités."@fr ;
         skos:notation          "SDN:P31::sample_dimension";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sample_dimension"@en .
+        skos:prefLabel         "sample_dimension"@en ;
+        skos:prefLabel         "sample_dimension"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/scale_factor/>
         rdf:type               skos:Concept;
@@ -407,9 +451,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "If present for a variable, the data are to be multiplied by this factor after the data are read by an application. See also the add_offset attribute. In cases where there is a strong constraint on dataset size, it is allowed to pack the coordinate variables (using add_offset and/or scale_factor), but this is not recommended in general."@en;
+        skos:definition        "S'il est présent pour une variable, les données doivent être multipliées par ce facteur après leur lecture par une application. Voir aussi l'attribut add_offset. Dans les cas où il existe une forte contrainte sur la taille du jeu de données, il est permis de compresser les variables de coordonnées (en utilisant add_offset et/ou scale_factor), mais cela n'est pas recommandé en général."@fr ;
         skos:notation          "SDN:P31::scale_factor";
         skos:note              "accepted"@en;
-        skos:prefLabel         "scale_factor"@en .
+        skos:prefLabel         "scale_factor"@en ;
+        skos:prefLabel         "scale_factor"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/instance_dimension/>
         rdf:type               skos:Concept;
@@ -424,9 +470,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "An attribute which identifies an index variable and names the instance dimension to which it applies. The index variable indicates that the indexed ragged array representation is being used for a collection of features."@en;
+        skos:definition        "Un attribut qui identifie une variable d'index et nomme la dimension d'instance à laquelle il s'applique. La variable d'index indique que la représentation de tableau irrégulier indexé est utilisée pour un ensemble de fonctionnalités."@fr ;
         skos:notation          "SDN:P31::instance_dimension";
         skos:note              "accepted"@en;
-        skos:prefLabel         "instance_dimension"@en .
+        skos:prefLabel         "instance_dimension"@en ;
+        skos:prefLabel         "instance_dimension"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/ancillary_variables/>
         rdf:type               skos:Concept;
@@ -441,9 +489,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Identifies a variable that contains closely associated data, e.g., the measurement uncertainties of instrument data."@en;
+        skos:definition        "Identifie une variable qui contient des données étroitement associées, par ex. les incertitudes de mesure des données d'instrument."@fr ;
         skos:notation          "SDN:P31::ancillary_variables";
         skos:note              "accepted"@en;
-        skos:prefLabel         "ancillary_variables"@en .
+        skos:prefLabel         "ancillary_variables"@en ;
+        skos:prefLabel         "ancillary_variables"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/missing_value/>
         rdf:type               skos:Concept;
@@ -458,9 +508,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A value or values used to represent missing or undefined data. Allowed for auxiliary coordinate variables but not allowed for coordinate variables."@en;
+        skos:definition        "Une valeur ou des valeurs utilisées pour représenter des données manquantes ou indéfinies. Permis pour les variables de coordonnées auxiliaires mais non permis pour les variables de coordonnées."@fr ;
         skos:notation          "SDN:P31::missing_value";
         skos:note              "accepted"@en;
-        skos:prefLabel         "missing_value"@en .
+        skos:prefLabel         "missing_value"@en ;
+        skos:prefLabel         "missing_value"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/cf_role/>
         rdf:type               skos:Concept;
@@ -475,9 +527,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Identifies the roles of variables that identify features in discrete sampling geometries"@en;
+        skos:definition        "Identifie les rôles des variables qui identifient les fonctionnalités dans les géométries d'échantillonnage discret."@fr ;
         skos:notation          "SDN:P31::cf_role";
         skos:note              "accepted"@en;
-        skos:prefLabel         "cf_role"@en .
+        skos:prefLabel         "cf_role"@en ;
+        skos:prefLabel         "cf_role"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/positive/>
         rdf:type               skos:Concept;
@@ -492,9 +546,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Direction of increasing vertical coordinate value."@en;
+        skos:definition        "Direction de l'augmentation de la valeur de la coordonnée verticale."@fr ;
         skos:notation          "SDN:P31::positive";
         skos:note              "accepted"@en;
-        skos:prefLabel         "positive"@en .
+        skos:prefLabel         "positive"@en ;
+        skos:prefLabel         "positive"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/formula_terms/>
         rdf:type               skos:Concept;
@@ -509,9 +565,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Identifies variables that correspond to the terms in a formula."@en;
+        skos:definition        "Identifie les variables qui correspondent aux termes d'une formule."@fr ;
         skos:notation          "SDN:P31::formula_terms";
         skos:note              "accepted"@en;
-        skos:prefLabel         "formula_terms"@en .
+        skos:prefLabel         "formula_terms"@en ;
+        skos:prefLabel         "formula_terms"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/history/>
         rdf:type               skos:Concept;
@@ -526,9 +584,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "List of the applications that have modified the original data."@en;
+        skos:definition        "Liste des applications qui ont modifié les données originales."@fr ;
         skos:notation          "SDN:P31::history";
         skos:note              "accepted"@en;
-        skos:prefLabel         "history"@en .
+        skos:prefLabel         "history"@en ;
+        skos:prefLabel         "history"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/external_variables/>
         rdf:type               skos:Concept;
@@ -543,9 +603,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Identifies variables which are named by cell_measures attributes in the file but which are not present in the file."@en;
+        skos:definition        "Identifie les variables qui sont nommées par les attributs cell_measures dans le fichier mais qui ne sont pas présentes dans le fichier."@fr ;
         skos:notation          "SDN:P31::external_variables";
         skos:note              "accepted"@en;
-        skos:prefLabel         "external_variables"@en .
+        skos:prefLabel         "external_variables"@en ;
+        skos:prefLabel         "external_variables"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/nodes/>
         rdf:type               skos:Concept;
@@ -560,9 +622,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Identifies a coordinate node variable."@en;
+        skos:definition        "Identifie une variable de nœud de coordonnée."@fr ;
         skos:notation          "SDN:P31::nodes";
         skos:note              "accepted"@en;
-        skos:prefLabel         "nodes"@en .
+        skos:prefLabel         "nodes"@en ;
+        skos:prefLabel         "nodes"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/valid_range/>
         rdf:type               skos:Concept;
@@ -577,9 +641,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Smallest and largest valid values of a variable."@en;
+        skos:definition        "Plus petites et plus grandes valeurs valides d'une variable."@fr ;
         skos:notation          "SDN:P31::valid_range";
         skos:note              "accepted"@en;
-        skos:prefLabel         "valid_range"@en .
+        skos:prefLabel         "valid_range"@en ;
+        skos:prefLabel         "valid_range"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/institution/>
         rdf:type               skos:Concept;
@@ -594,9 +660,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Where the original data was produced."@en;
+        skos:definition        "Où les données originales ont été produites."@fr ;
         skos:notation          "SDN:P31::institution";
         skos:note              "accepted"@en;
-        skos:prefLabel         "institution"@en .
+        skos:prefLabel         "institution"@en ;
+        skos:prefLabel         "institution"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/standard_name/>
         rdf:type               skos:Concept;
@@ -611,9 +679,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A standard name that references a description of a variable's content in the standard name table."@en;
+        skos:definition        "Un nom standard qui référence une description du contenu d'une variable dans la table des noms standards."@fr ;
         skos:notation          "SDN:P31::standard_name";
         skos:note              "accepted"@en;
-        skos:prefLabel         "standard_name"@en .
+        skos:prefLabel         "standard_name"@en ;
+        skos:prefLabel         "standard_name"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/climatology/>
         rdf:type               skos:Concept;
@@ -628,9 +698,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Identifies a climatology variable."@en;
+        skos:definition        "Identifie une variable de climatologie."@fr ;
         skos:notation          "SDN:P31::climatology";
         skos:note              "accepted"@en;
-        skos:prefLabel         "climatology"@en .
+        skos:prefLabel         "climatology"@en ;
+        skos:prefLabel         "climatology"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/cell_methods/>
         rdf:type               skos:Concept;
@@ -645,9 +717,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Records the method used to derive data that represents cell values."@en;
+        skos:definition        "Enregistre la méthode utilisée pour dériver des données qui représentent les valeurs de cellule."@fr ;
         skos:notation          "SDN:P31::cell_methods";
         skos:note              "accepted"@en;
-        skos:prefLabel         "cell_methods"@en .
+        skos:prefLabel         "cell_methods"@en ;
+        skos:prefLabel         "cell_methods"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/geometry_type/>
         rdf:type               skos:Concept;
@@ -662,9 +736,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Indicates the type of geometry present."@en;
+        skos:definition        "Indique le type de géométrie présente."@fr ;
         skos:notation          "SDN:P31::geometry_type";
         skos:note              "accepted"@en;
-        skos:prefLabel         "geometry_type"@en .
+        skos:prefLabel         "geometry_type"@en ;
+        skos:prefLabel         "geometry_type"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/featureType/>
         rdf:type               skos:Concept;
@@ -679,9 +755,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Specifies the type of discrete sampling geometry to which the data in the scope of this attribute belongs, and implies that all data variables in the scope of this attribute contain collections of features of that type."@en;
+        skos:definition        "Spécifie le type de géométrie d'échantillonnage discret à laquelle appartiennent les données dans la portée de cet attribut, et implique que toutes les variables de données dans la portée de cet attribut contiennent des ensembles de fonctionnalités de ce type."@fr ;
         skos:notation          "SDN:P31::featureType";
         skos:note              "accepted"@en;
-        skos:prefLabel         "featureType"@en .
+        skos:prefLabel         "featureType"@en ;
+        skos:prefLabel         "featureType (type d'entité géographique)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/long_name/>
         rdf:type               skos:Concept;
@@ -696,9 +774,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A descriptive name that indicates a variable's content. This name is not standardized."@en;
+        skos:definition        "Un nom descriptif qui indique le contenu d'une variable. Ce nom n'est pas standardisé."@fr ;
         skos:notation          "SDN:P31::long_name";
         skos:note              "accepted"@en;
-        skos:prefLabel         "long_name"@en .
+        skos:prefLabel         "long_name"@en ;
+        skos:prefLabel         "long_name"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/part_node_count/>
         rdf:type               skos:Concept;
@@ -713,9 +793,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Identifies a variable providing the count of nodes per geometry part."@en;
+        skos:definition        "Identifie une variable fournissant le nombre de nœuds par partie de géométrie."@fr ;
         skos:notation          "SDN:P31::part_node_count";
         skos:note              "accepted"@en;
-        skos:prefLabel         "part_node_count"@en .
+        skos:prefLabel         "part_node_count"@en ;
+        skos:prefLabel         "part_node_count"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/add_offset/>
         rdf:type               skos:Concept;
@@ -730,9 +812,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "If present for a variable, this number is to be added to the data after it is read by an application. If both scale_factor and add_offset attributes are present, the data are first scaled before the offset is added. In cases where there is a strong constraint on dataset size, it is allowed to pack the coordinate variables (using add_offset and/or scale_factor), but this is not recommended in general."@en;
+        skos:definition        "S'il est présent pour une variable, ce nombre doit être ajouté aux données après leur lecture par une application. Si les attributs scale_factor et add_offset sont tous les deux présents, les données sont d'abord mises à l'échelle avant que l'offset ne soit ajouté. Dans les cas où il existe une forte contrainte sur la taille du jeu de données, il est permis de compresser les variables de coordonnées (en utilisant add_offset et/ou scale_factor), mais cela n'est pas recommandé en général."@fr ;
         skos:notation          "SDN:P31::add_offset";
         skos:note              "accepted"@en;
-        skos:prefLabel         "add_offset"@en .
+        skos:prefLabel         "add_offset"@en ;
+        skos:prefLabel         "add_offset"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/actual_range/>
         rdf:type               skos:Concept;
@@ -747,9 +831,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The smallest and the largest valid non-missing values occurring in the variable."@en;
+        skos:definition        "Les plus petites et les plus grandes valeurs valides non manquantes se produisant dans la variable."@fr ;
         skos:notation          "SDN:P31::actual_range";
         skos:note              "accepted"@en;
-        skos:prefLabel         "actual_range"@en .
+        skos:prefLabel         "actual_range"@en ;
+        skos:prefLabel         "actual_range"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/units/>
         rdf:type               skos:Concept;
@@ -764,9 +850,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Units of a variable's content."@en;
+        skos:definition        "Unités du contenu d'une variable."@fr ;
         skos:notation          "SDN:P31::units";
         skos:note              "accepted"@en;
-        skos:prefLabel         "units"@en .
+        skos:prefLabel         "units"@en ;
+        skos:prefLabel         "units"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/leap_month/>
         rdf:type               skos:Concept;
@@ -781,9 +869,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Specifies which month is lengthened by a day in leap years for a user defined calendar."@en;
+        skos:definition        "Spécifie quel mois est allongé d'un jour dans les années bissextiles pour un calendrier défini par l'utilisateur."@fr ;
         skos:notation          "SDN:P31::leap_month";
         skos:note              "accepted"@en;
-        skos:prefLabel         "leap_month"@en .
+        skos:prefLabel         "leap_month"@en ;
+        skos:prefLabel         "leap_month"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/title/>
         rdf:type               skos:Concept;
@@ -798,9 +888,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Short description of the file contents."@en;
+        skos:definition        "Brève description du contenu du fichier."@fr ;
         skos:notation          "SDN:P31::title";
         skos:note              "accepted"@en;
-        skos:prefLabel         "title"@en .
+        skos:prefLabel         "title"@en ;
+        skos:prefLabel         "title"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/flag_masks/>
         rdf:type               skos:Concept;
@@ -815,9 +907,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Provides a list of bit fields expressing Boolean or enumerated flags."@en;
+        skos:definition        "Fournit une liste de champs de bits exprimant des drapeaux booléens ou énumérés."@fr ;
         skos:notation          "SDN:P31::flag_masks";
         skos:note              "accepted"@en;
-        skos:prefLabel         "flag_masks"@en .
+        skos:prefLabel         "flag_masks"@en ;
+        skos:prefLabel         "flag_masks"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/compress/>
         rdf:type               skos:Concept;
@@ -832,9 +926,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Records dimensions which have been compressed by gathering."@en;
+        skos:definition        "Enregistre les dimensions qui ont été compressées par rassemblement."@fr ;
         skos:notation          "SDN:P31::compress";
         skos:note              "accepted"@en;
-        skos:prefLabel         "compress"@en .
+        skos:prefLabel         "compress"@en ;
+        skos:prefLabel         "compress"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/node_coordinates/>
         rdf:type               skos:Concept;
@@ -849,9 +945,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Identifies variables that contain geometry node coordinates."@en;
+        skos:definition        "Identifie les variables qui contiennent des coordonnées de nœuds de géométrie."@fr ;
         skos:notation          "SDN:P31::node_coordinates";
         skos:note              "accepted"@en;
-        skos:prefLabel         "node_coordinates"@en .
+        skos:prefLabel         "node_coordinates"@en ;
+        skos:prefLabel         "node_coordinates"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/dimensions/>
         rdf:type               skos:Concept;
@@ -866,9 +964,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Identifies the dimensions that define a domain variable."@en;
+        skos:definition        "Identifie les dimensions qui définissent une variable de domaine."@fr ;
         skos:notation          "SDN:P31::dimensions";
         skos:note              "accepted"@en;
-        skos:prefLabel         "dimensions"@en .
+        skos:prefLabel         "dimensions"@en ;
+        skos:prefLabel         "dimensions"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/bounds/>
         rdf:type               skos:Concept;
@@ -883,9 +983,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Identifies a boundary variable."@en;
+        skos:definition        "Identifie une variable de limite."@fr ;
         skos:notation          "SDN:P31::bounds";
         skos:note              "accepted"@en;
-        skos:prefLabel         "bounds"@en .
+        skos:prefLabel         "bounds"@en ;
+        skos:prefLabel         "bounds"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/_FillValue/>
         rdf:type               skos:Concept;
@@ -900,9 +1002,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A value used to represent missing or undefined data. Allowed for auxiliary coordinate variables but not allowed for coordinate variables."@en;
+        skos:definition        "Une valeur utilisée pour représenter des données manquantes ou indéfinies. Permis pour les variables de coordonnées auxiliaires mais non permis pour les variables de coordonnées."@fr ;
         skos:notation          "SDN:P31::_FillValue";
         skos:note              "accepted"@en;
-        skos:prefLabel         "_FillValue"@en .
+        skos:prefLabel         "_FillValue"@en ;
+        skos:prefLabel         "_FillValue"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P31/current/>
         rdf:type                skos:Collection;
@@ -918,5 +1022,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Climate and Forecast Standard Names Committee";
         owl:versionInfo         "1";
         skos:altLabel           "CF Attributes";
+        skos:altLabel           "Attributs CF"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/P31/current/grid_mapping/> , <http://vocab.nerc.ac.uk/collection/P31/current/leap_year/> , <http://vocab.nerc.ac.uk/collection/P31/current/cell_measures/> , <http://vocab.nerc.ac.uk/collection/P31/current/computed_standard_name/> , <http://vocab.nerc.ac.uk/collection/P31/current/valid_min/> , <http://vocab.nerc.ac.uk/collection/P31/current/references/> , <http://vocab.nerc.ac.uk/collection/P31/current/Conventions/> , <http://vocab.nerc.ac.uk/collection/P31/current/flag_meanings/> , <http://vocab.nerc.ac.uk/collection/P31/current/node_count/> , <http://vocab.nerc.ac.uk/collection/P31/current/coordinates/> , <http://vocab.nerc.ac.uk/collection/P31/current/calendar/> , <http://vocab.nerc.ac.uk/collection/P31/current/source/> , <http://vocab.nerc.ac.uk/collection/P31/current/geometry/> , <http://vocab.nerc.ac.uk/collection/P31/current/comment/> , <http://vocab.nerc.ac.uk/collection/P31/current/flag_values/> , <http://vocab.nerc.ac.uk/collection/P31/current/month_lengths/> , <http://vocab.nerc.ac.uk/collection/P31/current/valid_max/> , <http://vocab.nerc.ac.uk/collection/P31/current/interior_ring/> , <http://vocab.nerc.ac.uk/collection/P31/current/standard_error_multiplier/> , <http://vocab.nerc.ac.uk/collection/P31/current/axis/> , <http://vocab.nerc.ac.uk/collection/P31/current/coordinate_interpolation/> , <http://vocab.nerc.ac.uk/collection/P31/current/sample_dimension/> , <http://vocab.nerc.ac.uk/collection/P31/current/scale_factor/> , <http://vocab.nerc.ac.uk/collection/P31/current/instance_dimension/> , <http://vocab.nerc.ac.uk/collection/P31/current/ancillary_variables/> , <http://vocab.nerc.ac.uk/collection/P31/current/missing_value/> , <http://vocab.nerc.ac.uk/collection/P31/current/cf_role/> , <http://vocab.nerc.ac.uk/collection/P31/current/positive/> , <http://vocab.nerc.ac.uk/collection/P31/current/formula_terms/> , <http://vocab.nerc.ac.uk/collection/P31/current/history/> , <http://vocab.nerc.ac.uk/collection/P31/current/external_variables/> , <http://vocab.nerc.ac.uk/collection/P31/current/nodes/> , <http://vocab.nerc.ac.uk/collection/P31/current/valid_range/> , <http://vocab.nerc.ac.uk/collection/P31/current/institution/> , <http://vocab.nerc.ac.uk/collection/P31/current/standard_name/> , <http://vocab.nerc.ac.uk/collection/P31/current/climatology/> , <http://vocab.nerc.ac.uk/collection/P31/current/cell_methods/> , <http://vocab.nerc.ac.uk/collection/P31/current/geometry_type/> , <http://vocab.nerc.ac.uk/collection/P31/current/featureType/> , <http://vocab.nerc.ac.uk/collection/P31/current/long_name/> , <http://vocab.nerc.ac.uk/collection/P31/current/part_node_count/> , <http://vocab.nerc.ac.uk/collection/P31/current/add_offset/> , <http://vocab.nerc.ac.uk/collection/P31/current/actual_range/> , <http://vocab.nerc.ac.uk/collection/P31/current/units/> , <http://vocab.nerc.ac.uk/collection/P31/current/leap_month/> , <http://vocab.nerc.ac.uk/collection/P31/current/title/> , <http://vocab.nerc.ac.uk/collection/P31/current/flag_masks/> , <http://vocab.nerc.ac.uk/collection/P31/current/compress/> , <http://vocab.nerc.ac.uk/collection/P31/current/node_coordinates/> , <http://vocab.nerc.ac.uk/collection/P31/current/dimensions/> , <http://vocab.nerc.ac.uk/collection/P31/current/_FillValue/> , <http://vocab.nerc.ac.uk/collection/P31/current/bounds/>;
-        skos:prefLabel          "Climate and Forecast Attribute Names" .
+        skos:prefLabel          "Climate and Forecast Attribute Names" ;
+        skos:prefLabel          "Noms d'attributs Climate and Forecast"@fr .
