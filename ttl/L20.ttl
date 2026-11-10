@@ -33,10 +33,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "missing";
+        skos:altLabel          "missing (manquant)"@fr ;
         skos:definition        "The data value is missing. There should be no accompanying value in ODV format files. The accompanying value in SeaDataNet NetCDF data must be the absent data representation specified by the _FillValue parameter attribute and lie outside the range of data not flagged bad (4) or probably bad (3)."@en;
+        skos:definition        "La valeur de données est manquante. Il ne devrait y avoir aucune valeur associée dans les fichiers au format ODV. La valeur associée dans les données NetCDF SeaDataNet doit être la représentation de données absentes spécifiée par l'attribut de paramètre _FillValue et se situer en dehors de la plage de données non signalées comme mauvaises (4) ou probablement mauvaises (3)."@fr ;
         skos:notation          "SDN:L20::9";
         skos:note              "accepted"@en;
-        skos:prefLabel         "missing value"@en .
+        skos:prefLabel         "missing value"@en ;
+        skos:prefLabel         "valeur manquante"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L20/current/0/>
         rdf:type               skos:Concept;
@@ -50,10 +53,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "none";
+        skos:altLabel          "aucun"@fr ;
         skos:definition        "No quality control procedures have been applied to the data value. This is the initial status for all data values entering the working archive."@en;
+        skos:definition        "Aucune procédure de contrôle qualité n'a été appliquée à la valeur de données. C'est le statut initial de toutes les valeurs de données entrant dans l'archive de travail."@fr ;
         skos:notation          "SDN:L20::0";
         skos:note              "accepted"@en;
-        skos:prefLabel         "no quality control"@en .
+        skos:prefLabel         "no quality control"@en ;
+        skos:prefLabel         "pas de contrôle qualité"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L20/current/6/>
         rdf:type               skos:Concept;
@@ -68,10 +74,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "4";
         skos:altLabel          "BD";
+        skos:altLabel          "BD"@fr ;
         skos:definition        "The level of the measured phenomenon was less than the limit of detection (LoD) for the method employed to measure it. The accompanying value is the detection limit for the technique or zero if that value is unknown."@en;
+        skos:definition        "Le niveau du phénomène mesuré était inférieur à la limite de détection (LoD) pour la méthode employée pour le mesurer. La valeur associée est la limite de détection pour la technique ou zéro si cette valeur est inconnue."@fr ;
         skos:notation          "SDN:L20::6";
         skos:note              "accepted"@en;
-        skos:prefLabel         "value below detection"@en .
+        skos:prefLabel         "value below detection"@en ;
+        skos:prefLabel         "valeur sous la détection"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L20/current/7/>
         rdf:type               skos:Concept;
@@ -86,10 +95,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "excess";
+        skos:altLabel          "excess"@fr ;
         skos:definition        "The level of the measured phenomenon was too large to be quantified by the technique employed to measure it.  The accompanying value is the measurement limit for the technique."@en;
+        skos:definition        "Le niveau du phénomène mesuré était trop grand pour être quantifié par la technique employée pour le mesurer. La valeur associée est la limite de mesure pour la technique."@fr ;
         skos:notation          "SDN:L20::7";
         skos:note              "accepted"@en;
-        skos:prefLabel         "value in excess"@en .
+        skos:prefLabel         "value in excess"@en ;
+        skos:prefLabel         "valeur en excès"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L20/current/B/>
         rdf:type               skos:Concept;
@@ -104,10 +116,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "nominal";
+        skos:altLabel          "nominal"@fr ;
         skos:definition        "The data value is a numerical data value that was the intended or targeted value rather than the measured value (e.g. instrument target depth)."@en;
+        skos:definition        "La valeur de données est une valeur numérique qui était la valeur prévue ou ciblée plutôt que la valeur mesurée (par ex. profondeur cible de l'instrument)."@fr ;
         skos:notation          "SDN:L20::B";
         skos:note              "accepted"@en;
-        skos:prefLabel         "nominal value"@en .
+        skos:prefLabel         "nominal value"@en ;
+        skos:prefLabel         "valeur nominale"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L20/current/8/>
         rdf:type               skos:Concept;
@@ -121,10 +136,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "interpolated";
+        skos:altLabel          "interpolated (interpolée)"@fr ;
         skos:definition        "This value has been derived by interpolation from other values in the data object."@en;
+        skos:definition        "Cette valeur a été dérivée par interpolation à partir d'autres valeurs dans l'objet de données."@fr ;
         skos:notation          "SDN:L20::8";
         skos:note              "accepted"@en;
-        skos:prefLabel         "interpolated value"@en .
+        skos:prefLabel         "interpolated value"@en ;
+        skos:prefLabel         "valeur interpolée"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L20/current/1/>
         rdf:type               skos:Concept;
@@ -139,10 +157,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "good";
+        skos:altLabel          "bon"@fr ;
         skos:definition        "Good quality data value that is not part of any identified malfunction and has been verified as consistent with real phenomena during the quality control process."@en;
+        skos:definition        "Valeur de données de bonne qualité qui ne fait pas partie d'un dysfonctionnement identifié et a été vérifiée comme cohérente avec les phénomènes réels pendant le processus de contrôle qualité."@fr ;
         skos:notation          "SDN:L20::1";
         skos:note              "accepted"@en;
-        skos:prefLabel         "good value"@en .
+        skos:prefLabel         "good value"@en ;
+        skos:prefLabel         "bonne valeur"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L20/current/3/>
         rdf:type               skos:Concept;
@@ -156,10 +177,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "probably_bad";
+        skos:altLabel          "probably_bad (probablement mauvaise)"@fr ;
         skos:definition        "Data value recognised as unusual during quality control that forms part of a feature that is probably inconsistent with real phenomena."@en;
+        skos:definition        "Valeur de données reconnue comme inhabituelle pendant le contrôle qualité qui forme partie d'une anomalie probablement incohérente avec les phénomènes réels."@fr ;
         skos:notation          "SDN:L20::3";
         skos:note              "accepted"@en;
-        skos:prefLabel         "probably bad value"@en .
+        skos:prefLabel         "probably bad value"@en ;
+        skos:prefLabel         "valeur probablement mauvaise"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L20/current/5/>
         rdf:type               skos:Concept;
@@ -173,10 +197,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "changed";
+        skos:altLabel          "changed (modifiée)"@fr ;
         skos:definition        "Data value adjusted during quality control.  Best practice strongly recommends that the value before the change be preserved in the data or its accompanying metadata."@en;
+        skos:definition        "Valeur de données ajustée pendant le contrôle qualité. Les bonnes pratiques recommandent fortement que la valeur avant le changement soit préservée dans les données ou leurs métadonnées associées."@fr ;
         skos:notation          "SDN:L20::5";
         skos:note              "accepted"@en;
-        skos:prefLabel         "changed value"@en .
+        skos:prefLabel         "changed value"@en ;
+        skos:prefLabel         "valeur modifiée"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L20/current/Q/>
         rdf:type               skos:Concept;
@@ -191,10 +218,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "BelowLOQ";
+        skos:altLabel          "BelowLOQ"@fr ;
         skos:definition        "The level of the measured phenomenon was less than the limit of quantification (LoQ). The accompanying value is the limit of quantification for the analytical method."@en;
+        skos:definition        "Le niveau du phénomène mesuré était inférieur à la limite de quantification (LoQ). La valeur associée est la limite de quantification pour la méthode analytique."@fr ;
         skos:notation          "SDN:L20::Q";
         skos:note              "accepted"@en;
-        skos:prefLabel         "value below limit of quantification"@en .
+        skos:prefLabel         "value below limit of quantification"@en ;
+        skos:prefLabel         "valeur sous la limite de quantification"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L20/current/2/>
         rdf:type               skos:Concept;
@@ -208,10 +238,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "probably_good";
+        skos:altLabel          "probably_good (probablement bonne)"@fr ;
         skos:definition        "Data value that is probably consistent with real phenomena but this is unconfirmed or data value forming part of a malfunction that is considered too small to affect the overall quality of the data object of which it is a part."@en;
+        skos:definition        "Valeur de données probablement cohérente avec les phénomènes réels mais non confirmée, ou valeur de données formant partie d'un dysfonctionnement considéré comme trop petit pour affecter la qualité globale de l'objet de données dont elle fait partie."@fr ;
         skos:notation          "SDN:L20::2";
         skos:note              "accepted"@en;
-        skos:prefLabel         "probably good value"@en .
+        skos:prefLabel         "probably good value"@en ;
+        skos:prefLabel         "valeur probablement bonne"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L20/current/4/>
         rdf:type               skos:Concept;
@@ -225,10 +258,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "bad";
+        skos:altLabel          "mauvais"@fr ;
         skos:definition        "An obviously erroneous data value."@en;
+        skos:definition        "Une valeur de données manifestement erronée."@fr ;
         skos:notation          "SDN:L20::4";
         skos:note              "accepted"@en;
-        skos:prefLabel         "bad value"@en .
+        skos:prefLabel         "bad value"@en ;
+        skos:prefLabel         "mauvaise valeur"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L20/current/A/>
         rdf:type               skos:Concept;
@@ -242,10 +278,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "ID_uncertain";
+        skos:altLabel          "ID_uncertain (identification incertaine)"@fr ;
         skos:definition        "There is uncertainty in the description of the measured phenomenon associated with the value such as chemical species or biological entity."@en;
+        skos:definition        "Il y a une incertitude dans la description du phénomène mesuré associé à la valeur, telle qu'une espèce chimique ou une entité biologique."@fr ;
         skos:notation          "SDN:L20::A";
         skos:note              "accepted"@en;
-        skos:prefLabel         "value phenomenon uncertain"@en .
+        skos:prefLabel         "value phenomenon uncertain"@en ;
+        skos:prefLabel         "phénomène de valeur incertain"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L20/current/>
         rdf:type                skos:Collection;
@@ -262,5 +301,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "SeaDataNet";
         owl:versionInfo         "8";
         skos:altLabel           "SeaDataNet flags";
+        skos:altLabel           "drapeaux SeaDataNet"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/L20/current/9/> , <http://vocab.nerc.ac.uk/collection/L20/current/0/> , <http://vocab.nerc.ac.uk/collection/L20/current/6/> , <http://vocab.nerc.ac.uk/collection/L20/current/7/> , <http://vocab.nerc.ac.uk/collection/L20/current/B/> , <http://vocab.nerc.ac.uk/collection/L20/current/8/> , <http://vocab.nerc.ac.uk/collection/L20/current/1/> , <http://vocab.nerc.ac.uk/collection/L20/current/3/> , <http://vocab.nerc.ac.uk/collection/L20/current/5/> , <http://vocab.nerc.ac.uk/collection/L20/current/Q/> , <http://vocab.nerc.ac.uk/collection/L20/current/2/> , <http://vocab.nerc.ac.uk/collection/L20/current/4/> , <http://vocab.nerc.ac.uk/collection/L20/current/A/>;
-        skos:prefLabel          "SeaDataNet measurand qualifier flags" .
+        skos:prefLabel          "SeaDataNet measurand qualifier flags" ;
+        skos:prefLabel          "drapeaux de qualificatif de grandeur mesurée SeaDataNet"@fr .

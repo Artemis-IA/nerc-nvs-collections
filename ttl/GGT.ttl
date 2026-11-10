@@ -34,9 +34,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
         skos:definition        "Predicted based on helicopter/flight-derived gravity data"@en;
+        skos:definition        "Prédite à partir de données de gravité dérivées d'hélicoptère/de vol"@fr ;
         skos:notation          "SDN:GGT::TIN45";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_type_identifier_45"@en .
+        skos:prefLabel         "GEBCO_type_identifier_45"@en ;
+        skos:prefLabel         "GEBCO_type_identifier_45 (prédite gravité hélico/vol)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGT/current/TIN11/>
         rdf:type               skos:Concept;
@@ -52,9 +54,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
         skos:definition        "Multibeam - depth value collected by a multibeam echo-sounder"@en;
+        skos:definition        "Multi-faisceaux - valeur de profondeur collectée par un écho-sondeur multi-faisceaux"@fr ;
         skos:notation          "SDN:GGT::TIN11";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_type_identifier_11"@en .
+        skos:prefLabel         "GEBCO_type_identifier_11"@en ;
+        skos:prefLabel         "GEBCO_type_identifier_11 (multi-faisceaux)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGT/current/TIN44/>
         rdf:type               skos:Concept;
@@ -71,9 +75,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
         skos:definition        "Depth value at this location is based on bathymetric depths from multiple sources, including measured and derived data, and included within a gridded data set where interpolation between sounding points is guided by satellite-derived gravity data"@en;
+        skos:definition        "La valeur de profondeur à cet emplacement est basée sur des profondeurs bathymétriques de sources multiples, incluant des données mesurées et dérivées, et incluse dans un jeu de données maillé où l'interpolation entre les points de sonage est guidée par des données de gravité dérivées de satellites"@fr ;
         skos:notation          "SDN:GGT::TIN44";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_type_identifier_44"@en .
+        skos:prefLabel         "GEBCO_type_identifier_44"@en ;
+        skos:prefLabel         "GEBCO_type_identifier_44 (sources multiples)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGT/current/TIN14/>
         rdf:type               skos:Concept;
@@ -89,9 +95,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
         skos:definition        "ENC sounding - depth value extracted from an Electronic Navigation Chart (ENC)"@en;
+        skos:definition        "Sonage ENC - valeur de profondeur extraite d'une carte marine électronique (ENC)"@fr ;
         skos:notation          "SDN:GGT::TIN14";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_type_identifier_14"@en .
+        skos:prefLabel         "GEBCO_type_identifier_14"@en ;
+        skos:prefLabel         "GEBCO_type_identifier_14 (sonage ENC)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGT/current/TIN47/>
         rdf:type               skos:Concept;
@@ -107,9 +115,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
         skos:definition        "Depth derived from grounded Argo float data"@en;
+        skos:definition        "Profondeur dérivée de données de flotteurs Argo échoués"@fr ;
         skos:notation          "SDN:GGT::TIN47";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_type_identifier_47"@en .
+        skos:prefLabel         "GEBCO_type_identifier_47"@en ;
+        skos:prefLabel         "GEBCO_type_identifier_47 (flotteurs Argo)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGT/current/TIN13/>
         rdf:type               skos:Concept;
@@ -125,9 +135,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
         skos:definition        "Isolated sounding - depth value that is not part of a regular survey or trackline"@en;
+        skos:definition        "Sonage isolé - valeur de profondeur ne faisant pas partie d'un levé ou d'une route régulière"@fr ;
         skos:notation          "SDN:GGT::TIN13";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_type_identifier_13"@en .
+        skos:prefLabel         "GEBCO_type_identifier_13"@en ;
+        skos:prefLabel         "GEBCO_type_identifier_13 (sonage isolé)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGT/current/TIN16/>
         rdf:type               skos:Concept;
@@ -143,9 +155,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
         skos:definition        "Depth measured by optical light sensor"@en;
+        skos:definition        "Profondeur mesurée par capteur de lumière optique"@fr ;
         skos:notation          "SDN:GGT::TIN16";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_type_identifier_16"@en .
+        skos:prefLabel         "GEBCO_type_identifier_16"@en ;
+        skos:prefLabel         "GEBCO_type_identifier_16 (capteur optique)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGT/current/TIN71/>
         rdf:type               skos:Concept;
@@ -161,9 +175,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
         skos:definition        "Unknown source - depth value from an unknown source"@en;
+        skos:definition        "Source inconnue - valeur de profondeur d'une source inconnue"@fr ;
         skos:notation          "SDN:GGT::TIN71";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_type_identifier_71"@en .
+        skos:prefLabel         "GEBCO_type_identifier_71"@en ;
+        skos:prefLabel         "GEBCO_type_identifier_71 (source inconnue)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGT/current/TIN41/>
         rdf:type               skos:Concept;
@@ -179,9 +195,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
         skos:definition        "Interpolated based on a computer algorithm - depth value is an interpolated value based on a computer algorithm (e.g. Generic Mapping Tools)"@en;
+        skos:definition        "Interpolée à partir d'un algorithme informatique - la valeur de profondeur est une valeur interpolée basée sur un algorithme informatique (par ex. Generic Mapping Tools)"@fr ;
         skos:notation          "SDN:GGT::TIN41";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_type_identifier_41"@en .
+        skos:prefLabel         "GEBCO_type_identifier_41"@en ;
+        skos:prefLabel         "GEBCO_type_identifier_41 (interpolation algorithme)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGT/current/TIN0/>
         rdf:type               skos:Concept;
@@ -197,9 +215,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
         skos:definition        "Land"@en;
+        skos:definition        "Terre"@fr ;
         skos:notation          "SDN:GGT::TIN0";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_type_identifier_0"@en .
+        skos:prefLabel         "GEBCO_type_identifier_0"@en ;
+        skos:prefLabel         "GEBCO_type_identifier_0 (terre)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGT/current/TIN43/>
         rdf:type               skos:Concept;
@@ -215,9 +235,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
         skos:definition        "Digital bathymetric contours from ENCs - depth value taken from bathymetric contours from an Electronic Navigation Chart (ENC)"@en;
+        skos:definition        "Courbes bathymétriques numériques issues d'ENC - valeur de profondeur extraite de courbes bathymétriques d'une carte marine électronique (ENC)"@fr ;
         skos:notation          "SDN:GGT::TIN43";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_type_identifier_43"@en .
+        skos:prefLabel         "GEBCO_type_identifier_43"@en ;
+        skos:prefLabel         "GEBCO_type_identifier_43 (courbes bathymétriques ENC)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGT/current/TIN17/>
         rdf:type               skos:Concept;
@@ -233,9 +255,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
         skos:definition        "Combination of direct measurement methods"@en;
+        skos:definition        "Combinaison de méthodes de mesure directes"@fr ;
         skos:notation          "SDN:GGT::TIN17";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_type_identifier_17"@en .
+        skos:prefLabel         "GEBCO_type_identifier_17"@en ;
+        skos:prefLabel         "GEBCO_type_identifier_17 (combinaison directe)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGT/current/TIN46/>
         rdf:type               skos:Concept;
@@ -251,9 +275,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
         skos:definition        "Depth estimated by calculating the draft of a grounded iceberg using satellite-derived freeboard measurement"@en;
+        skos:definition        "Profondeur estimée en calculant le tirant d'eau d'un iceberg échoué utilisant une mesure de franc-bord dérivée de satellite"@fr ;
         skos:notation          "SDN:GGT::TIN46";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_type_identifier_46"@en .
+        skos:prefLabel         "GEBCO_type_identifier_46"@en ;
+        skos:prefLabel         "GEBCO_type_identifier_46 (iceberg)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGT/current/TIN15/>
         rdf:type               skos:Concept;
@@ -269,9 +295,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
         skos:definition        "Lidar - depth derived from a bathymetric lidar sensor"@en;
+        skos:definition        "Lidar - profondeur dérivée d'un capteur lidar bathymétrique"@fr ;
         skos:notation          "SDN:GGT::TIN15";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_type_identifier_15"@en .
+        skos:prefLabel         "GEBCO_type_identifier_15"@en ;
+        skos:prefLabel         "GEBCO_type_identifier_15 (lidar)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGT/current/TIN48/>
         rdf:type               skos:Concept;
@@ -287,9 +315,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
         skos:definition        "Depth measured by animal-borne data loggers"@en;
+        skos:definition        "Profondeur mesurée par des enregistreurs de données portés par des animaux"@fr ;
         skos:notation          "SDN:GGT::TIN48";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_type_identifier_48"@en .
+        skos:prefLabel         "GEBCO_type_identifier_48"@en ;
+        skos:prefLabel         "GEBCO_type_identifier_48 (enregistreurs animaux)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGT/current/TIN10/>
         rdf:type               skos:Concept;
@@ -305,9 +335,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
         skos:definition        "Singlebeam - depth value collected by a single beam echo-sounder"@en;
+        skos:definition        "Mono-faisceau - valeur de profondeur collectée par un écho-sondeur mono-faisceau"@fr ;
         skos:notation          "SDN:GGT::TIN10";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_type_identifier_10"@en .
+        skos:prefLabel         "GEBCO_type_identifier_10"@en ;
+        skos:prefLabel         "GEBCO_type_identifier_10 (mono-faisceau)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGT/current/TIN40/>
         rdf:type               skos:Concept;
@@ -323,9 +355,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
         skos:definition        "Predicted based on satellite-derived gravity data - depth value is an interpolated value guided by satellite-derived gravity data"@en;
+        skos:definition        "Prédite à partir de données de gravité dérivées de satellites - la valeur de profondeur est une valeur interpolée guidée par des données de gravité dérivées de satellites"@fr ;
         skos:notation          "SDN:GGT::TIN40";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_type_identifier_40"@en .
+        skos:prefLabel         "GEBCO_type_identifier_40"@en ;
+        skos:prefLabel         "GEBCO_type_identifier_40 (prédite gravité satellite)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGT/current/TIN72/>
         rdf:type               skos:Concept;
@@ -341,9 +375,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
         skos:definition        "Steering points - depth value used to constrain the grid in areas of poor data coverage"@en;
+        skos:definition        "Points de pilotage - valeur de profondeur utilisée pour contraindre la grille dans les zones de faible couverture de données"@fr ;
         skos:notation          "SDN:GGT::TIN72";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_type_identifier_72"@en .
+        skos:prefLabel         "GEBCO_type_identifier_72"@en ;
+        skos:prefLabel         "GEBCO_type_identifier_72 (points de pilotage)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGT/current/TIN12/>
         rdf:type               skos:Concept;
@@ -359,9 +395,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
         skos:definition        "Seismic - depth value collected by seismic methods"@en;
+        skos:definition        "Sismique - valeur de profondeur collectée par des méthodes sismiques"@fr ;
         skos:notation          "SDN:GGT::TIN12";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_type_identifier_12"@en .
+        skos:prefLabel         "GEBCO_type_identifier_12"@en ;
+        skos:prefLabel         "GEBCO_type_identifier_12 (sismique)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGT/current/TIN42/>
         rdf:type               skos:Concept;
@@ -377,9 +415,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
         skos:definition        "Digital bathymetric contours from charts - depth value taken from a bathymetric contour data set"@en;
+        skos:definition        "Courbes bathymétriques numériques issues de cartes - valeur de profondeur extraite d'un jeu de données de courbes bathymétriques"@fr ;
         skos:notation          "SDN:GGT::TIN42";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_type_identifier_42"@en .
+        skos:prefLabel         "GEBCO_type_identifier_42"@en ;
+        skos:prefLabel         "GEBCO_type_identifier_42 (courbes bathymétriques cartes)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGT/current/TIN70/>
         rdf:type               skos:Concept;
@@ -395,9 +435,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/>;
         skos:definition        "Pre-generated grid - depth value is taken from a pre-generated grid that is based on mixed source data types, e.g. single beam, multibeam, interpolation etc."@en;
+        skos:definition        "Grille pré-générée — la valeur de profondeur est extraite d'une grille pré-générée basée sur des types de sources de données mixtes, par ex. mono-faisceau, multi-faisceaux, interpolation, etc."@fr ;
         skos:notation          "SDN:GGT::TIN70";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_type_identifier_70"@en .
+        skos:prefLabel         "GEBCO_type_identifier_70"@en ;
+        skos:prefLabel         "GEBCO_type_identifier_70"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGT/current/>
         rdf:type                skos:Collection;
@@ -412,5 +454,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Nippon Foundation-GEBCO Seabed 2030 Project Team";
         owl:versionInfo         "4";
         skos:altLabel           "GEBCO TID";
+        skos:altLabel           "GEBCO TID (identifiant de type de données sources)"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/GGT/current/TIN45/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN11/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN44/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN14/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN47/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN13/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN16/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN71/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN41/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN0/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN43/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN17/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN46/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN15/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN48/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN10/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN40/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN72/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN70/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN42/> , <http://vocab.nerc.ac.uk/collection/GGT/current/TIN12/>;
-        skos:prefLabel          "GEBCO Grid Source Data Type Identifier" .
+        skos:prefLabel          "GEBCO Grid Source Data Type Identifier" ;
+        skos:prefLabel          "identifiant de type de données sources de la grille GEBCO"@fr .

@@ -33,10 +33,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/CVLTRP01/>;
         owl:versionInfo        "1";
         skos:altLabel          "total_irradiance";
+        skos:altLabel          "total_irradiance (irradiance totale)"@fr ;
         skos:definition        "";
         skos:notation          "SDN:B39::ptir";
         skos:note              "accepted"@en;
         skos:prefLabel         "port total irradiance"@en;
+        skos:prefLabel         "irradiance totale bâbord"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UVP5/> .
 
 <http://vocab.nerc.ac.uk/collection/B39/current/stir/>
@@ -56,6 +58,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:B39::stir";
         skos:note              "accepted"@en;
         skos:prefLabel         "starboard total irradiance"@en;
+        skos:prefLabel         "irradiance totale tribord"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UVP5/> .
 
 <http://vocab.nerc.ac.uk/collection/B39/current/fluorescence/>
@@ -71,10 +74,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/FVLTWS01/>;
         owl:versionInfo        "1";
         skos:altLabel          "fluorescence_in_sea_water";
+        skos:altLabel          "fluorescence_in_sea_water (fluorescence en eau de mer)"@fr ;
         skos:definition        "";
         skos:notation          "SDN:B39::fluorescence";
         skos:note              "accepted"@en;
         skos:prefLabel         "fluorescence"@en;
+        skos:prefLabel         "fluorescence"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UVLT/> .
 
 <http://vocab.nerc.ac.uk/collection/B39/current/spar/>
@@ -94,6 +99,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:B39::spar";
         skos:note              "accepted"@en;
         skos:prefLabel         "starboard photosynthetically active radiation"@en;
+        skos:prefLabel         "rayonnement photosynthétiquement actif tribord"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UVP5/> .
 
 <http://vocab.nerc.ac.uk/collection/B39/current/ppar/>
@@ -109,10 +115,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/DVLTRPSD/>;
         owl:versionInfo        "1";
         skos:altLabel          "photosynthetically_active_radiation";
+        skos:altLabel          "photosynthetically_active_radiation (rayonnement photosynthétiquement actif)"@fr ;
         skos:definition        "";
         skos:notation          "SDN:B39::ppar";
         skos:note              "accepted"@en;
         skos:prefLabel         "port photosynthetically active radiation"@en;
+        skos:prefLabel         "rayonnement photosynthétiquement actif bâbord"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UVP5/> .
 
 <http://vocab.nerc.ac.uk/collection/B39/current/relwindspeed/>
@@ -128,10 +136,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/ERWSSS01/>;
         owl:versionInfo        "1";
         skos:altLabel          "wind_speed";
+        skos:altLabel          "wind_speed (vitesse du vent)"@fr ;
         skos:definition        "";
         skos:notation          "SDN:B39::relwindspeed";
         skos:note              "accepted"@en;
         skos:prefLabel         "ship relative wind speed"@en;
+        skos:prefLabel         "vitesse du vent relative au navire"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UKNT/> .
 
 <http://vocab.nerc.ac.uk/collection/B39/current/time/>
@@ -152,6 +162,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:B39::time";
         skos:note              "accepted"@en;
         skos:prefLabel         "time as days since 1899-12-30T00:00:00Z"@en;
+        skos:prefLabel         "temps en jours depuis 1899-12-30T00:00:00Z"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UTAA/> .
 
 <http://vocab.nerc.ac.uk/collection/B39/current/logfa/>
@@ -171,6 +182,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:B39::logfa";
         skos:note              "accepted"@en;
         skos:prefLabel         "speed through water"@en;
+        skos:prefLabel         "vitesse dans l'eau"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UKNT/> .
 
 <http://vocab.nerc.ac.uk/collection/B39/current/relwinddir/>
@@ -186,10 +198,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/ERWDSS01/>;
         owl:versionInfo        "1";
         skos:altLabel          "wind_from_direction";
+        skos:altLabel          "wind_from_direction (direction d'où vient le vent)"@fr ;
         skos:definition        "";
         skos:notation          "SDN:B39::relwinddir";
         skos:note              "accepted"@en;
         skos:prefLabel         "ship relative wind direction"@en;
+        skos:prefLabel         "direction du vent relative au navire"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UAAA/> .
 
 <http://vocab.nerc.ac.uk/collection/B39/current/conduct/>
@@ -205,10 +219,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0394/> , <http://vocab.nerc.ac.uk/collection/P01/current/CNDCSG01/>;
         owl:versionInfo        "1";
         skos:altLabel          "sea_water_electrical_conductivity";
+        skos:altLabel          "sea_water_electrical_conductivity (conductivité électrique de l'eau de mer)"@fr ;
         skos:definition        "";
         skos:notation          "SDN:B39::conduct";
         skos:note              "accepted"@en;
         skos:prefLabel         "sea surface conductivity"@en;
+        skos:prefLabel         "conductivité de surface de la mer"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UECA/> .
 
 <http://vocab.nerc.ac.uk/collection/B39/current/longitude/>
@@ -224,10 +240,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0554/> , <http://vocab.nerc.ac.uk/collection/P01/current/ALONGP01/>;
         owl:versionInfo        "1";
         skos:altLabel          "longitude";
+        skos:altLabel          "longitude"@fr ;
         skos:definition        "";
         skos:notation          "SDN:B39::longitude";
         skos:note              "accepted"@en;
         skos:prefLabel         "longitude"@en;
+        skos:prefLabel         "longitude"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/DEGE/> .
 
 <http://vocab.nerc.ac.uk/collection/B39/current/gndspeed/>
@@ -243,10 +261,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0445/> , <http://vocab.nerc.ac.uk/collection/P01/current/APSAGP01/>;
         owl:versionInfo        "1";
         skos:altLabel          "platform_speed_wrt_ground";
+        skos:altLabel          "platform_speed_wrt_ground (vitesse de la plateforme par rapport au sol)"@fr ;
         skos:definition        "";
         skos:notation          "SDN:B39::gndspeed";
         skos:note              "accepted"@en;
         skos:prefLabel         "speed over the ground"@en;
+        skos:prefLabel         "vitesse par rapport au sol"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UKNT/> .
 
 <http://vocab.nerc.ac.uk/collection/B39/current/truewindspeed/>
@@ -266,6 +286,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:B39::truewindspeed";
         skos:note              "accepted"@en;
         skos:prefLabel         "earth relative wind speed"@en;
+        skos:prefLabel         "vitesse du vent relative à la Terre"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UKNT/> .
 
 <http://vocab.nerc.ac.uk/collection/B39/current/seatemp/>
@@ -281,10 +302,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0381/> , <http://vocab.nerc.ac.uk/collection/P01/current/TEMPSU01/>;
         owl:versionInfo        "1";
         skos:altLabel          "sea_surface_temperature";
+        skos:altLabel          "sea_surface_temperature (température de surface de la mer)"@fr ;
         skos:definition        "";
         skos:notation          "SDN:B39::seatemp";
         skos:note              "accepted"@en;
         skos:prefLabel         "sea surface temperature"@en;
+        skos:prefLabel         "température de surface de la mer"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> .
 
 <http://vocab.nerc.ac.uk/collection/B39/current/heading/>
@@ -300,10 +323,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0439/> , <http://vocab.nerc.ac.uk/collection/P01/current/HEADCM01/>;
         owl:versionInfo        "1";
         skos:altLabel          "platform_orientation";
+        skos:altLabel          "platform_orientation (orientation de la plateforme)"@fr ;
         skos:definition        "";
         skos:notation          "SDN:B39::heading";
         skos:note              "accepted"@en;
         skos:prefLabel         "ships heading"@en;
+        skos:prefLabel         "cap du navire"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UABB/> .
 
 <http://vocab.nerc.ac.uk/collection/B39/current/latitude/>
@@ -319,10 +344,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0600/> , <http://vocab.nerc.ac.uk/collection/P01/current/ALATGP01/>;
         owl:versionInfo        "1";
         skos:altLabel          "latitude";
+        skos:altLabel          "latitude"@fr ;
         skos:definition        "";
         skos:notation          "SDN:B39::latitude";
         skos:note              "accepted"@en;
         skos:prefLabel         "latitude"@en;
+        skos:prefLabel         "latitude"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/DEGN/> .
 
 <http://vocab.nerc.ac.uk/collection/B39/current/airtemp/>
@@ -338,10 +365,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0023/> , <http://vocab.nerc.ac.uk/collection/P01/current/CDTAZZ01/>;
         owl:versionInfo        "1";
         skos:altLabel          "air_temperature";
+        skos:altLabel          "air_temperature (température de l'air)"@fr ;
         skos:definition        "";
         skos:notation          "SDN:B39::airtemp";
         skos:note              "accepted"@en;
         skos:prefLabel         "air temperature"@en;
+        skos:prefLabel         "température de l'air"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> .
 
 <http://vocab.nerc.ac.uk/collection/B39/current/truewinddir/>
@@ -361,6 +390,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:B39::truewinddir";
         skos:note              "accepted"@en;
         skos:prefLabel         "earthrelativewinddirection"@en;
+        skos:prefLabel         "earthrelativewinddirection (direction du vent relative à la Terre)"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UABB/> .
 
 <http://vocab.nerc.ac.uk/collection/B39/current/pressure/>
@@ -376,10 +406,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0015/> , <http://vocab.nerc.ac.uk/collection/P01/current/CAPHTU01/>;
         owl:versionInfo        "1";
         skos:altLabel          "air_pressure";
+        skos:altLabel          "air_pressure (pression atmosphérique)"@fr ;
         skos:definition        "";
         skos:notation          "SDN:B39::pressure";
         skos:note              "accepted"@en;
         skos:prefLabel         "air pressure"@en;
+        skos:prefLabel         "pression atmosphérique"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/HPAX/> .
 
 <http://vocab.nerc.ac.uk/collection/B39/current/salin/>
@@ -395,10 +427,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0376/> , <http://vocab.nerc.ac.uk/collection/P01/current/PSALSU01/>;
         owl:versionInfo        "1";
         skos:altLabel          "sea_surface_salinity";
+        skos:altLabel          "sea_surface_salinity (salinité de surface de la mer)"@fr ;
         skos:definition        "";
         skos:notation          "SDN:B39::salin";
         skos:note              "accepted"@en;
         skos:prefLabel         "sea surface salinity"@en;
+        skos:prefLabel         "salinité de surface de la mer"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/B39/current/humidity/>
@@ -414,10 +448,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0413/> , <http://vocab.nerc.ac.uk/collection/P01/current/CRELZZ01/>;
         owl:versionInfo        "1";
         skos:altLabel          "relative_humidity";
+        skos:altLabel          "relative_humidity (humidité relative)"@fr ;
         skos:definition        "";
         skos:notation          "SDN:B39::humidity";
         skos:note              "accepted"@en;
         skos:prefLabel         "relative humidity"@en;
+        skos:prefLabel         "humidité relative"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPCT/> .
 
 <http://vocab.nerc.ac.uk/collection/B39/current/gndcourse/>
@@ -433,10 +469,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0481/> , <http://vocab.nerc.ac.uk/collection/P01/current/APDAGP01/>;
         owl:versionInfo        "1";
         skos:altLabel          "platform_course";
+        skos:altLabel          "platform_course (cap de la plateforme)"@fr ;
         skos:definition        "";
         skos:notation          "SDN:B39::gndcourse";
         skos:note              "accepted"@en;
         skos:prefLabel         "course over the ground"@en;
+        skos:prefLabel         "cap par rapport au sol"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UABB/> .
 
 <http://vocab.nerc.ac.uk/collection/B39/current/>
@@ -453,5 +491,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "British Oceanographic Data Centre";
         owl:versionInfo         "3";
         skos:altLabel           "NMF-SS underway NetCDF variable names";
+        skos:altLabel           "noms de variables NetCDF de route NMF-SS"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/B39/current/ptir/> , <http://vocab.nerc.ac.uk/collection/B39/current/stir/> , <http://vocab.nerc.ac.uk/collection/B39/current/fluorescence/> , <http://vocab.nerc.ac.uk/collection/B39/current/spar/> , <http://vocab.nerc.ac.uk/collection/B39/current/ppar/> , <http://vocab.nerc.ac.uk/collection/B39/current/relwindspeed/> , <http://vocab.nerc.ac.uk/collection/B39/current/time/> , <http://vocab.nerc.ac.uk/collection/B39/current/logfa/> , <http://vocab.nerc.ac.uk/collection/B39/current/relwinddir/> , <http://vocab.nerc.ac.uk/collection/B39/current/conduct/> , <http://vocab.nerc.ac.uk/collection/B39/current/longitude/> , <http://vocab.nerc.ac.uk/collection/B39/current/gndspeed/> , <http://vocab.nerc.ac.uk/collection/B39/current/truewindspeed/> , <http://vocab.nerc.ac.uk/collection/B39/current/seatemp/> , <http://vocab.nerc.ac.uk/collection/B39/current/heading/> , <http://vocab.nerc.ac.uk/collection/B39/current/latitude/> , <http://vocab.nerc.ac.uk/collection/B39/current/airtemp/> , <http://vocab.nerc.ac.uk/collection/B39/current/truewinddir/> , <http://vocab.nerc.ac.uk/collection/B39/current/pressure/> , <http://vocab.nerc.ac.uk/collection/B39/current/salin/> , <http://vocab.nerc.ac.uk/collection/B39/current/gndcourse/> , <http://vocab.nerc.ac.uk/collection/B39/current/humidity/>;
-        skos:prefLabel          "NMF-SS Research Vessel underway variable NetCDF vocabulary" .
+        skos:prefLabel          "NMF-SS Research Vessel underway variable NetCDF vocabulary" ;
+        skos:prefLabel          "vocabulaire NetCDF de variables de route de navire de recherche NMF-SS"@fr .
