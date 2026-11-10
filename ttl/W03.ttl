@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Instrument or platform is supplied to a third-party for a limited period of time."@en;
+        skos:definition        "L'instrument ou la plateforme est fourni à un tiers pour une durée limitée."@fr ;
         skos:notation          "SDN:W03::W030005";
         skos:note              "accepted"@en;
-        skos:prefLabel         "LoanStart"@en .
+        skos:prefLabel         "LoanStart"@en ;
+        skos:prefLabel         "début de prêt"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W03/current/W030008/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Instrument or platform is returned to service following correction of a malfunction."@en;
+        skos:definition        "L'instrument ou la plateforme est remis en service après correction d'un dysfonctionnement."@fr ;
         skos:notation          "SDN:W03::W030008";
         skos:note              "accepted"@en;
-        skos:prefLabel         "RepairEnd"@en .
+        skos:prefLabel         "RepairEnd"@en ;
+        skos:prefLabel         "fin de réparation"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W03/current/W030014/>
         rdf:type               skos:Concept;
@@ -67,9 +71,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Instrument or platform is raised to a higher standard by specific improvements such as adding or replacing components."@en;
+        skos:definition        "L'instrument ou la plateforme est amélioré à un niveau supérieur par des améliorations spécifiques telles que l'ajout ou le remplacement de composants."@fr ;
         skos:notation          "SDN:W03::W030014";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Upgrade"@en .
+        skos:prefLabel         "Upgrade"@en ;
+        skos:prefLabel         "mise à niveau"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W03/current/W030001/>
         rdf:type               skos:Concept;
@@ -84,9 +90,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Instrument or platform is delivered to the owner."@en;
+        skos:definition        "L'instrument ou la plateforme est livré au propriétaire."@fr ;
         skos:notation          "SDN:W03::W030001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Delivery"@en .
+        skos:prefLabel         "Delivery"@en ;
+        skos:prefLabel         "livraison"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W03/current/W030006/>
         rdf:type               skos:Concept;
@@ -101,9 +109,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Instrument or platform is returned by a third party."@en;
+        skos:definition        "L'instrument ou la plateforme est retourné par un tiers."@fr ;
         skos:notation          "SDN:W03::W030006";
         skos:note              "accepted"@en;
-        skos:prefLabel         "LoanEnd"@en .
+        skos:prefLabel         "LoanEnd"@en ;
+        skos:prefLabel         "fin de prêt"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W03/current/W030010/>
         rdf:type               skos:Concept;
@@ -118,9 +128,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Instrument or platform is under maintainance."@en;
+        skos:definition        "L'instrument ou la plateforme est en maintenance."@fr ;
         skos:notation          "SDN:W03::W030010";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Maintenance"@en .
+        skos:prefLabel         "Maintenance"@en ;
+        skos:prefLabel         "maintenance"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W03/current/W030002/>
         rdf:type               skos:Concept;
@@ -135,9 +147,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Placement of an instrument or platform to where it will make measurements."@en;
+        skos:definition        "Placement d'un instrument ou d'une plateforme là où il effectuera des mesures."@fr ;
         skos:notation          "SDN:W03::W030002";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Deployment"@en .
+        skos:prefLabel         "Deployment"@en ;
+        skos:prefLabel         "déploiement"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W03/current/W030011/>
         rdf:type               skos:Concept;
@@ -152,9 +166,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Instrument or platform is lost."@en;
+        skos:definition        "L'instrument ou la plateforme est perdu."@fr ;
         skos:notation          "SDN:W03::W030011";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Loss"@en .
+        skos:prefLabel         "Loss"@en ;
+        skos:prefLabel         "perte"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W03/current/W030015/>
         rdf:type               skos:Concept;
@@ -170,9 +186,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/W03/current/W030003/>;
         skos:definition        "A calibration performed by the manufacturer of the device or system."@en;
+        skos:definition        "Un étalonnage effectué par le fabricant du dispositif ou du système."@fr ;
         skos:notation          "SDN:W03::W030015";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Manufacturer's calibration"@en .
+        skos:prefLabel         "Manufacturer's calibration"@en ;
+        skos:prefLabel         "étalonnage du fabricant"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W03/current/W030017/>
         rdf:type               skos:Concept;
@@ -188,9 +206,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/W03/current/W030003/>;
         skos:definition        "A calibration performed by an accredited authority or laboratory, normally for compliance with national or international quality standards, procedures or guidelines."@en;
+        skos:definition        "Un étalonnage effectué par une autorité ou un laboratoire accrédité, normalement pour la conformité aux normes, procédures ou directives qualité nationales ou internationales."@fr ;
         skos:notation          "SDN:W03::W030017";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Accredited authority or laboratory calibration"@en .
+        skos:prefLabel         "Accredited authority or laboratory calibration"@en ;
+        skos:prefLabel         "étalonnage par autorité ou laboratoire accrédité"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W03/current/W030016/>
         rdf:type               skos:Concept;
@@ -206,9 +226,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/W03/current/W030003/>;
         skos:definition        "A calibration performed against discrete in-situ measurements, such as from water-bottle samples."@en;
+        skos:definition        "Un étalonnage effectué par rapport à des mesures in situ discrètes, par exemple à partir d'échantillons de flacons."@fr ;
         skos:notation          "SDN:W03::W030016";
         skos:note              "accepted"@en;
-        skos:prefLabel         "In-situ calibration"@en .
+        skos:prefLabel         "In-situ calibration"@en ;
+        skos:prefLabel         "étalonnage in situ"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W03/current/W030003/>
         rdf:type               skos:Concept;
@@ -224,10 +246,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "An event in the life of a sensor or instrument in which the coefficients used to convert its outputs into engineering units, or improve its accuracy, are determined and applied."@en;
+        skos:definition        "Un événement dans la vie d'un capteur ou d'un instrument au cours duquel les coefficients utilisés pour convertir ses sorties en unités techniques, ou améliorer son exactitude, sont déterminés et appliqués."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/W03/current/W030016/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030017/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030015/>;
         skos:notation          "SDN:W03::W030003";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Calibration"@en .
+        skos:prefLabel         "Calibration"@en ;
+        skos:prefLabel         "étalonnage"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W03/current/W030012/>
         rdf:type               skos:Concept;
@@ -242,9 +266,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Instrument or platform is withdrawn from service."@en;
+        skos:definition        "L'instrument ou la plateforme est retiré du service."@fr ;
         skos:notation          "SDN:W03::W030012";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Decommissioning"@en .
+        skos:prefLabel         "Decommissioning"@en ;
+        skos:prefLabel         "démantèlement"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W03/current/W030009/>
         rdf:type               skos:Concept;
@@ -259,9 +285,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Unexpected malfunction of instrument or platform."@en;
+        skos:definition        "Dysfonctionnement inattendu de l'instrument ou de la plateforme."@fr ;
         skos:notation          "SDN:W03::W030009";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Failure"@en .
+        skos:prefLabel         "Failure"@en ;
+        skos:prefLabel         "panne"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W03/current/W030004/>
         rdf:type               skos:Concept;
@@ -276,9 +304,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Return of an instrument or platform from where it has made measurements."@en;
+        skos:definition        "Retour d'un instrument ou d'une plateforme de là où il a effectué des mesures."@fr ;
         skos:notation          "SDN:W03::W030004";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Recovery"@en .
+        skos:prefLabel         "Recovery"@en ;
+        skos:prefLabel         "récupération"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W03/current/W030007/>
         rdf:type               skos:Concept;
@@ -293,9 +323,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Instrument or platform is taken out of service for correction of a malfunction."@en;
+        skos:definition        "L'instrument ou la plateforme est retiré du service pour correction d'un dysfonctionnement."@fr ;
         skos:notation          "SDN:W03::W030007";
         skos:note              "accepted"@en;
-        skos:prefLabel         "RepairStart"@en .
+        skos:prefLabel         "RepairStart"@en ;
+        skos:prefLabel         "début de réparation"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W03/current/W030013/>
         rdf:type               skos:Concept;
@@ -310,9 +342,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Instrument or platform is under repair."@en;
+        skos:definition        "L'instrument ou la plateforme est en réparation."@fr ;
         skos:notation          "SDN:W03::W030013";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Repair"@en .
+        skos:prefLabel         "Repair"@en ;
+        skos:prefLabel         "réparation"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W03/current/>
         rdf:type                skos:Collection;
@@ -328,5 +362,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Sensor Web Enablement Marine Profiles";
         owl:versionInfo         "2";
         skos:altLabel           "SensorML Event Types";
+        skos:altLabel           "types d'événements SensorML"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/W03/current/W030005/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030008/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030014/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030001/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030006/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030010/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030002/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030011/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030015/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030017/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030016/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030003/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030012/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030009/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030004/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030013/> , <http://vocab.nerc.ac.uk/collection/W03/current/W030007/>;
-        skos:prefLabel          "SensorML History Event Types" .
+        skos:prefLabel          "SensorML History Event Types" ;
+        skos:prefLabel          "types d'événements d'historique SensorML"@fr .
