@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The person or organisation that builds or develops a device or system."@en;
+        skos:definition        "La personne ou l'organisation qui construit ou développe un dispositif ou un système."@fr ;
         skos:notation          "SDN:W07::IDEN0012";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Manufacturer"@en .
+        skos:prefLabel         "Manufacturer"@en ;
+        skos:prefLabel         "fabricant"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0002/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The name of a sensor or platform described in plain language."@en;
+        skos:definition        "Le nom d'un capteur ou d'une plateforme décrit en langage courant."@fr ;
         skos:notation          "SDN:W07::IDEN0002";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Long name"@en .
+        skos:prefLabel         "Long name"@en ;
+        skos:prefLabel         "nom long"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0001/>
         rdf:type               skos:Concept;
@@ -67,9 +71,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A collection of standardised identifiers and metadata for platform instances that is governed by International Council for the Exploration of the Sea (ICES)."@en;
+        skos:definition        "Un ensemble d'identifiants normalisés et de métadonnées pour les instances de plateformes, gouverné par le Conseil international pour l'exploration de la mer (CIEM/ICES)."@fr ;
         skos:notation          "SDN:W07::IDEN0001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "ICES code"@en .
+        skos:prefLabel         "ICES code"@en ;
+        skos:prefLabel         "code CIEM"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0007/>
         rdf:type               skos:Concept;
@@ -84,9 +90,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Universally Unique Identifier (UUID)."@en;
+        skos:definition        "Identifiant universellement unique (UUID)."@fr ;
         skos:notation          "SDN:W07::IDEN0007";
         skos:note              "accepted"@en;
-        skos:prefLabel         "UUID"@en .
+        skos:prefLabel         "UUID"@en ;
+        skos:prefLabel         "UUID"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0011/>
         rdf:type               skos:Concept;
@@ -101,9 +109,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The special use or purpose of a system or device."@en;
+        skos:definition        "L'usage ou le but particulier d'un système ou d'un dispositif."@fr ;
         skos:notation          "SDN:W07::IDEN0011";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Application domain"@en .
+        skos:prefLabel         "Application domain"@en ;
+        skos:prefLabel         "domaine d'application"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0004/>
         rdf:type               skos:Concept;
@@ -119,9 +129,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "2";
         skos:altLabel          "";
         skos:definition        "A name or number, usually assigned by the manufacturer, which identifies the unique design of a system or device that is usually mass-produced."@en;
+        skos:definition        "Un nom ou un numéro, généralement attribué par le fabricant, identifiant la conception unique d'un système ou d'un dispositif généralement produit en série."@fr ;
         skos:notation          "SDN:W07::IDEN0004";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Model number"@en .
+        skos:prefLabel         "Model number"@en ;
+        skos:prefLabel         "numéro de modèle"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0014/>
         rdf:type               skos:Concept;
@@ -135,10 +147,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "GEOSS_UUID";
+        skos:altLabel          "GEOSS_UUID"@fr ;
         skos:definition        "A universally unique identifier for GEOSS resources."@en;
+        skos:definition        "Un identifiant universellement unique pour les ressources GEOSS."@fr ;
         skos:notation          "SDN:W07::IDEN0014";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEOSS Registry identifier"@en .
+        skos:prefLabel         "GEOSS Registry identifier"@en ;
+        skos:prefLabel         "identifiant du registre GEOSS"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0010/>
         rdf:type               skos:Concept;
@@ -153,9 +168,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The unique identifier for the radio telecommunications transmitting station associated with a ship."@en;
+        skos:definition        "L'identifiant unique de la station d'émission radioélectrique associée à un navire."@fr ;
         skos:notation          "SDN:W07::IDEN0010";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Call Sign"@en .
+        skos:prefLabel         "Call Sign"@en ;
+        skos:prefLabel         "indicatif d'appel"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0013/>
         rdf:type               skos:Concept;
@@ -170,9 +187,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "An identification that refers to a specific form or variation of a system or device model."@en;
+        skos:definition        "Une identification qui fait référence à une forme ou variante spécifique d'un modèle de système ou de dispositif."@fr ;
         skos:notation          "SDN:W07::IDEN0013";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Version"@en .
+        skos:prefLabel         "Version"@en ;
+        skos:prefLabel         "version"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0003/>
         rdf:type               skos:Concept;
@@ -187,9 +206,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A term which identifies the unique design of a system or device that is usually mass-produced. The physical characteristics and capabilities will be the same for all products made to that design."@en;
+        skos:definition        "Un terme identifiant la conception unique d'un système ou d'un dispositif généralement produit en série. Les caractéristiques physiques et les capacités seront identiques pour tous les produits fabriqués selon cette conception."@fr ;
         skos:notation          "SDN:W07::IDEN0003";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Model name"@en .
+        skos:prefLabel         "Model name"@en ;
+        skos:prefLabel         "nom de modèle"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0006/>
         rdf:type               skos:Concept;
@@ -204,9 +225,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "An alternative or abbreviation of the Long Name."@en;
+        skos:definition        "Une alternative ou abréviation du nom long."@fr ;
         skos:notation          "SDN:W07::IDEN0006";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Short name"@en .
+        skos:prefLabel         "Short name"@en ;
+        skos:prefLabel         "nom court"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0005/>
         rdf:type               skos:Concept;
@@ -221,9 +244,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A unique number which identifies an instance of a specific device or system model."@en;
+        skos:definition        "Un numéro unique identifiant une instance d'un modèle de dispositif ou de système spécifique."@fr ;
         skos:notation          "SDN:W07::IDEN0005";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Serial number"@en .
+        skos:prefLabel         "Serial number"@en ;
+        skos:prefLabel         "numéro de série"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0008/>
         rdf:type               skos:Concept;
@@ -239,9 +264,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "2";
         skos:altLabel          "";
         skos:definition        "A numeric identification code that is attached to a platform or sensor, which is exclusive to that particular entity."@en;
+        skos:definition        "Un code d'identification numérique attaché à une plateforme ou un capteur, exclusif à cette entité particulière."@fr ;
         skos:notation          "SDN:W07::IDEN0008";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Unique ID"@en .
+        skos:prefLabel         "Unique ID"@en ;
+        skos:prefLabel         "identifiant unique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0009/>
         rdf:type               skos:Concept;
@@ -256,9 +283,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Identifiers allocated to ocean platforms reporting on GTS. These identifiers are allocated depending upon platform type, and deployment area. Considered platform types are drifting buoys, moored buoys, ocean reference sites, gliders, profiling floats (e.g. Argo), and marine animals equipped with instrumentation for measuring geo-physical variables."@en;
+        skos:definition        "Identifiants attribués aux plateformes océaniques rapportant sur le GTS. Ces identifiants sont attribués selon le type de plateforme et la zone de déploiement. Les types de plateformes considérés sont les bouées dérivantes, les bouées amarrées, les sites de référence océaniques, les planeurs, les flotteurs profilants (par ex. Argo) et les animaux marins équipés d'instrumentation pour mesurer des variables géophysiques."@fr ;
         skos:notation          "SDN:W07::IDEN0009";
         skos:note              "accepted"@en;
-        skos:prefLabel         "WMO platform number"@en .
+        skos:prefLabel         "WMO platform number"@en ;
+        skos:prefLabel         "numéro de plateforme OMM"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0015/>
         rdf:type               skos:Concept;
@@ -273,9 +302,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "An identifier, assigned by a third party (for example, a controlled vocabulary), which defines the unique design of a system or device that is usually mass-produced. The physical characteristics and capabilities will be the same for all product instances made to that design, barring subsequent physical modifications and changes in configuration modes of specific instrument instances of the design."@en;
+        skos:definition        "Un identifiant, attribué par un tiers (par exemple un vocabulaire contrôlé), définissant la conception unique d'un système ou d'un dispositif généralement produit en série. Les caractéristiques physiques et les capacités seront identiques pour toutes les instances de produits fabriquées selon cette conception, sauf modifications physiques ultérieures et changements de modes de configuration d'instances d'instruments spécifiques de la conception."@fr ;
         skos:notation          "SDN:W07::IDEN0015";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Model ID"@en .
+        skos:prefLabel         "Model ID"@en ;
+        skos:prefLabel         "identifiant de modèle"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W07/current/>
         rdf:type                skos:Collection;
@@ -291,5 +322,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Sensor Web Enablement Marine Profiles";
         owl:versionInfo         "4";
         skos:altLabel           "SensorML Identifications";
+        skos:altLabel           "identifications SensorML"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0012/> , <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0002/> , <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0001/> , <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0007/> , <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0011/> , <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0004/> , <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0014/> , <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0010/> , <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0013/> , <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0003/> , <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0006/> , <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0005/> , <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0008/> , <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0015/> , <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0009/>;
-        skos:prefLabel          "SensorML Identification Section Terms" .
+        skos:prefLabel          "SensorML Identification Section Terms" ;
+        skos:prefLabel          "termes de section d'identification SensorML"@fr .

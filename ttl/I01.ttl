@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "{\"discipline\": \"Meteorological products\",\"category\": \"moisture\",\"parameter\": \"Precipitation type\",\"units\": \"Kg m-2\"}"@en;
+        skos:definition        "{\"discipline\": \"Produits météorologiques\", \"category\": \"humidité\", \"parameter\": \"Type de précipitation\", \"units\": \"Kg m-2\"}"@fr ;
         skos:notation          "SDN:I01::0.1.19";
         skos:note              "accepted"@en;
         skos:prefLabel         "Precipitation type"@en;
+        skos:prefLabel         "Type de précipitation"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/KMP2/> .
 
 <http://vocab.nerc.ac.uk/collection/I01/current/0.6.1/>
@@ -52,9 +54,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "{\"discipline\": \"Meteorological products\",\"category\": \"cloud\",\"parameter\": \"Total cloud cover\",\"units\": \"%\"}"@en;
+        skos:definition        "{\"discipline\": \"Produits météorologiques\", \"category\": \"nébulosité\", \"parameter\": \"Couverture nuageuse totale\", \"units\": \"%\"}"@fr ;
         skos:notation          "SDN:I01::0.6.1";
         skos:note              "accepted"@en;
         skos:prefLabel         "Total cloud cover"@en;
+        skos:prefLabel         "Couverture nuageuse totale"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPCT/> .
 
 <http://vocab.nerc.ac.uk/collection/I01/current/0.4.9/>
@@ -71,9 +75,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "{\"discipline\": \"Meteorological products\",\"category\": \"short-wave radiation\",\"parameter\": \"Net short wave radiation flux\",\"units\": \"W m-2\"}"@en;
+        skos:definition        "{\"discipline\": \"Produits météorologiques\", \"category\": \"rayonnement ondes courtes\", \"parameter\": \"Flux de rayonnement ondes courtes net\", \"units\": \"W m-2\"}"@fr ;
         skos:notation          "SDN:I01::0.4.9";
         skos:note              "accepted"@en;
         skos:prefLabel         "Net short wave radiation flux"@en;
+        skos:prefLabel         "Flux de rayonnement ondes courtes net"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UFAA/> .
 
 <http://vocab.nerc.ac.uk/collection/I01/current/0.5.5/>
@@ -90,9 +96,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "{\"discipline\": \"Meteorological products\",\"category\": \"long-wave radiation\",\"parameter\": \"Net long wave radiation flux\",\"units\": \"W m-2\"}"@en;
+        skos:definition        "{\"discipline\": \"Produits météorologiques\", \"category\": \"rayonnement ondes longues\", \"parameter\": \"Flux de rayonnement ondes longues net\", \"units\": \"W m-2\"}"@fr ;
         skos:notation          "SDN:I01::0.5.5";
         skos:note              "accepted"@en;
         skos:prefLabel         "Net long wave radiation flux"@en;
+        skos:prefLabel         "Flux de rayonnement ondes longues net"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UFAA/> .
 
 <http://vocab.nerc.ac.uk/collection/I01/current/0.1.6/>
@@ -109,9 +117,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "{\"discipline\": \"Meteorological products\",\"category\": \"moisture\",\"parameter\": \"Evaporation\",\"units\": \"Kg m-2\"}"@en;
+        skos:definition        "{\"discipline\": \"Produits météorologiques\", \"category\": \"humidité\", \"parameter\": \"Évaporation\", \"units\": \"Kg m-2\"}"@fr ;
         skos:notation          "SDN:I01::0.1.6";
         skos:note              "accepted"@en;
         skos:prefLabel         "Evaporation"@en;
+        skos:prefLabel         "Évaporation"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/KMP2/> .
 
 <http://vocab.nerc.ac.uk/collection/I01/current/0.1.11/>
@@ -128,9 +138,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "{\"discipline\": \"Meteorological products\",\"category\": \"moisture\",\"parameter\": \"Snow depth\",\"units\": \"(Code table 4.201)\"}"@en;
+        skos:definition        "{\"discipline\": \"Produits météorologiques\", \"category\": \"humidité\", \"parameter\": \"Hauteur de neige\", \"units\": \"(Code table 4.201)\"}"@fr ;
         skos:notation          "SDN:I01::0.1.11";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Snow depth"@en .
+        skos:prefLabel         "Snow depth"@en ;
+        skos:prefLabel         "Hauteur de neige"@fr .
 
 <http://vocab.nerc.ac.uk/collection/I01/current/0.4.3/>
         rdf:type               skos:Concept;
@@ -146,9 +158,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "{\"discipline\": \"Meteorological products\",\"category\": \"short-wave radiation\",\"parameter\": \"Global radiation flux\",\"units\": \"W m-2\"}"@en;
+        skos:definition        "{\"discipline\": \"Produits météorologiques\", \"category\": \"rayonnement ondes courtes\", \"parameter\": \"Flux de rayonnement global\", \"units\": \"W m-2\"}"@fr ;
         skos:notation          "SDN:I01::0.4.3";
         skos:note              "accepted"@en;
         skos:prefLabel         "Global radiation flux"@en;
+        skos:prefLabel         "Flux de rayonnement global"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UFAA/> .
 
 <http://vocab.nerc.ac.uk/collection/I01/current/0.2.1/>
@@ -165,9 +179,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "{\"discipline\": \"Meteorological products\",\"category\": \"momentum\",\"parameter\": \"Wind speed\",\"units\": \"m s-1\"}"@en;
+        skos:definition        "{\"discipline\": \"Produits météorologiques\", \"category\": \"quantité de mouvement\", \"parameter\": \"Vitesse du vent\", \"units\": \"m s-1\"}"@fr ;
         skos:notation          "SDN:I01::0.2.1";
         skos:note              "accepted"@en;
         skos:prefLabel         "Wind speed"@en;
+        skos:prefLabel         "Vitesse du vent"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UVAA/> .
 
 <http://vocab.nerc.ac.uk/collection/I01/current/0.0.0/>
@@ -184,9 +200,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "{\"discipline\": \"Meteorological products\",\"category\": \"temperature\",\"parameter\": \"Temperature\",\"units\": \"K\"}"@en;
+        skos:definition        "{\"discipline\": \"Produits météorologiques\", \"category\": \"température\", \"parameter\": \"Température\", \"units\": \"K\"}"@fr ;
         skos:notation          "SDN:I01::0.0.0";
         skos:note              "accepted"@en;
         skos:prefLabel         "Temperature"@en;
+        skos:prefLabel         "Température"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPKA/> .
 
 <http://vocab.nerc.ac.uk/collection/I01/current/0.19.0/>
@@ -203,9 +221,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "{\"discipline\": \"Meteorological products\",\"category\": \"physical atmospheric\",\"parameter\": \"Visibility\",\"units\": \"m\"}"@en;
+        skos:definition        "{\"discipline\": \"Produits météorologiques\", \"category\": \"atmosphère physique\", \"parameter\": \"Visibilité\", \"units\": \"m\"}"@fr ;
         skos:notation          "SDN:I01::0.19.0";
         skos:note              "accepted"@en;
         skos:prefLabel         "Visibility"@en;
+        skos:prefLabel         "Visibilité"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/ULAA/> .
 
 <http://vocab.nerc.ac.uk/collection/I01/current/0.1.52/>
@@ -222,9 +242,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "{\"discipline\": \"Meteorological products\",\"category\": \"moisture\",\"parameter\": \"Total precipitation rate\",\"units\": \"Kg m-2 s-1\", \"note\": \"Total precipitation/snowfall rate stands for the sum of convective and large-scale precipitation/snowfall rate\"}"@en;
+        skos:definition        "{\"discipline\": \"Produits météorologiques\", \"category\": \"humidité\", \"parameter\": \"Taux de précipitation total\", \"units\": \"Kg m-2 s-1\", \"note\": \"Le taux de précipitation/neige total représente la somme des taux de précipitation/neige convectifs et à grande échelle\"}"@fr ;
         skos:notation          "SDN:I01::0.1.52";
         skos:note              "accepted"@en;
         skos:prefLabel         "Total precipitation rate"@en;
+        skos:prefLabel         "Taux de précipitation total"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/KSP2/> .
 
 <http://vocab.nerc.ac.uk/collection/I01/current/0.2.0/>
@@ -241,9 +263,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "{\"discipline\": \"Meteorological products\",\"category\": \"momentum\",\"parameter\": \"Wind direction (from which blowing)\",\"units\": \"degree true\"}"@en;
+        skos:definition        "{\"discipline\": \"Produits météorologiques\", \"category\": \"quantité de mouvement\", \"parameter\": \"Direction du vent (d'où il souffle)\", \"units\": \"degree true\"}"@fr ;
         skos:notation          "SDN:I01::0.2.0";
         skos:note              "accepted"@en;
         skos:prefLabel         "Wind direction (from which blowing)"@en;
+        skos:prefLabel         "Direction du vent (d'où il souffle)"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UABB/> .
 
 <http://vocab.nerc.ac.uk/collection/I01/current/0.2.22/>
@@ -260,9 +284,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "{\"discipline\": \"Meteorological products\",\"category\": \"momentum\",\"parameter\": \"Wind speed (gust)\",\"units\": \"m s-1\"}"@en;
+        skos:definition        "{\"discipline\": \"Produits météorologiques\", \"category\": \"quantité de mouvement\", \"parameter\": \"Vitesse du vent (rafale)\", \"units\": \"m s-1\"}"@fr ;
         skos:notation          "SDN:I01::0.2.22";
         skos:note              "accepted"@en;
         skos:prefLabel         "Wind speed (gust)"@en;
+        skos:prefLabel         "Vitesse du vent (rafale)"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UVAA/> .
 
 <http://vocab.nerc.ac.uk/collection/I01/current/0.1.1/>
@@ -279,9 +305,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "{\"discipline\": \"Meteorological products\",\"category\": \"moisture\",\"parameter\": \"Relative humidity\",\"units\": \"%\"}"@en;
+        skos:definition        "{\"discipline\": \"Produits météorologiques\", \"category\": \"humidité\", \"parameter\": \"Humidité relative\", \"units\": \"%\"}"@fr ;
         skos:notation          "SDN:I01::0.1.1";
         skos:note              "accepted"@en;
         skos:prefLabel         "Relative humidity"@en;
+        skos:prefLabel         "Humidité relative"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPCT/> .
 
 <http://vocab.nerc.ac.uk/collection/I01/current/0.3.1/>
@@ -298,9 +326,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "{\"discipline\": \"Meteorological products\",\"category\": \"mass\",\"parameter\": \"Pressure reduced to MSL\",\"units\": \"Pa\"}"@en;
+        skos:definition        "{\"discipline\": \"Produits météorologiques\", \"category\": \"masse\", \"parameter\": \"Pression ramenée au niveau moyen de la mer\", \"units\": \"Pa\"}"@fr ;
         skos:notation          "SDN:I01::0.3.1";
         skos:note              "accepted"@en;
         skos:prefLabel         "Pressure reduced to MSL"@en;
+        skos:prefLabel         "Pression ramenée au niveau moyen de la mer"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/PASX/> .
 
 <http://vocab.nerc.ac.uk/collection/I01/current/>
@@ -316,5 +346,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "World Meteorological Organisation";
         owl:versionInfo         "1";
         skos:altLabel           "GRIB Table 4.2";
+        skos:altLabel           "table GRIB 4.2"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/I01/current/0.1.19/> , <http://vocab.nerc.ac.uk/collection/I01/current/0.6.1/> , <http://vocab.nerc.ac.uk/collection/I01/current/0.4.9/> , <http://vocab.nerc.ac.uk/collection/I01/current/0.5.5/> , <http://vocab.nerc.ac.uk/collection/I01/current/0.1.6/> , <http://vocab.nerc.ac.uk/collection/I01/current/0.1.11/> , <http://vocab.nerc.ac.uk/collection/I01/current/0.4.3/> , <http://vocab.nerc.ac.uk/collection/I01/current/0.2.1/> , <http://vocab.nerc.ac.uk/collection/I01/current/0.0.0/> , <http://vocab.nerc.ac.uk/collection/I01/current/0.19.0/> , <http://vocab.nerc.ac.uk/collection/I01/current/0.1.52/> , <http://vocab.nerc.ac.uk/collection/I01/current/0.2.0/> , <http://vocab.nerc.ac.uk/collection/I01/current/0.3.1/> , <http://vocab.nerc.ac.uk/collection/I01/current/0.1.1/> , <http://vocab.nerc.ac.uk/collection/I01/current/0.2.22/>;
-        skos:prefLabel          "Subset of GRIB Table 4.2 - Parameter number by product discipline and parameter category" .
+        skos:prefLabel          "Subset of GRIB Table 4.2 - Parameter number by product discipline and parameter category" ;
+        skos:prefLabel          "Sous-ensemble de la table GRIB 4.2 - Numéro de paramètre par discipline de produit et catégorie de paramètre"@fr .

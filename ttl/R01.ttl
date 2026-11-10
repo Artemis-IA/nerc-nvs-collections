@@ -33,10 +33,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "true";
         owl:versionInfo        "2";
         skos:altLabel          "BTRAJ";
+        skos:altLabel          "BTRAJ"@fr ;
         skos:definition        "Argo float trajectory file containing CTD pressure data and data from one or more biogeochemical (BGC) parameters (dissolved oxygen, nitrate, pH, chlorophyll-a, particle backscatter, irradiance)."@en;
+        skos:definition        "Fichier de trajectoire de flotteur Argo contenant des données CTD de pression et des données d'un ou plusieurs paramètres biogéochimiques (BGC) (oxygène dissous, nitrate, pH, chlorophylle-a, rétrodiffusion de particules, rayonnement)."@fr ;
         skos:notation          "SDN:R01::BTRAJ";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "B-Argo trajectory"@en .
+        skos:prefLabel         "B-Argo trajectory"@en ;
+        skos:prefLabel         "trajectoire B-Argo"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R01/current/TRAJ/>
         rdf:type               skos:Concept;
@@ -50,10 +53,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "TRAJ";
+        skos:altLabel          "TRAJ"@fr ;
         skos:definition        "Argo float trajectory file containing CTD sensors data (pressure, temperature, conductivity, salinity)."@en;
+        skos:definition        "Fichier de trajectoire de flotteur Argo contenant les données des capteurs CTD (pression, température, conductivité, salinité)."@fr ;
         skos:notation          "SDN:R01::TRAJ";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Argo trajectory"@en .
+        skos:prefLabel         "Argo trajectory"@en ;
+        skos:prefLabel         "trajectoire Argo"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R01/current/MTRAJ/>
         rdf:type               skos:Concept;
@@ -68,10 +74,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "true";
         owl:versionInfo        "2";
         skos:altLabel          "MTRAJ";
+        skos:altLabel          "MTRAJ"@fr ;
         skos:definition        "Argo float trajectory file containing CTD sensors data (pressure, temperature, conductivity, salinity) and data from one or more biogeochemical (BGC) parameters (dissolved oxygen, nitrate, pH, chlorophyll-a, particle backscatter, irradiance), retaining all temporal sampling schemes."@en;
+        skos:definition        "Fichier de trajectoire de flotteur Argo contenant les données des capteurs CTD (pression, température, conductivité, salinité) et des données d'un ou plusieurs paramètres biogéochimiques (BGC) (oxygène dissous, nitrate, pH, chlorophylle-a, rétrodiffusion de particules, rayonnement), en conservant tous les schémas d'échantillonnage temporel."@fr ;
         skos:notation          "SDN:R01::MTRAJ";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Argo trajectory merged"@en .
+        skos:prefLabel         "Argo trajectory merged"@en ;
+        skos:prefLabel         "trajectoire Argo fusionnée"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R01/current/META/>
         rdf:type               skos:Concept;
@@ -86,10 +95,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "META";
+        skos:altLabel          "META"@fr ;
         skos:definition        "File containing descriptive information about an Argo float."@en;
+        skos:definition        "Fichier contenant des informations descriptives sur un flotteur Argo."@fr ;
         skos:notation          "SDN:R01::META";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Argo meta-data"@en .
+        skos:prefLabel         "Argo meta-data"@en ;
+        skos:prefLabel         "métadonnées Argo"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R01/current/MPROF/>
         rdf:type               skos:Concept;
@@ -104,10 +116,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "true";
         owl:versionInfo        "2";
         skos:altLabel          "MPROF";
+        skos:altLabel          "MPROF"@fr ;
         skos:definition        "Argo float vertical profile file containing CTD sensors data (pressure, temperature, conductivity, salinity) and data from one or more biogeochemical (BGC) parameters (dissolved oxygen, nitrate, pH, chlorophyll-a, particle backscatter, irradiance), retaining all vertical sampling schemes."@en;
+        skos:definition        "Fichier de profil vertical de flotteur Argo contenant les données des capteurs CTD (pression, température, conductivité, salinité) et des données d'un ou plusieurs paramètres biogéochimiques (BGC) (oxygène dissous, nitrate, pH, chlorophylle-a, rétrodiffusion de particules, rayonnement), en conservant tous les schémas d'échantillonnage vertical."@fr ;
         skos:notation          "SDN:R01::MPROF";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Argo profile merged"@en .
+        skos:prefLabel         "Argo profile merged"@en ;
+        skos:prefLabel         "profil Argo fusionné"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R01/current/SPROF/>
         rdf:type               skos:Concept;
@@ -121,10 +136,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "SPROF";
+        skos:altLabel          "SPROF"@fr ;
         skos:definition        "Argo float vertical profile file containing CTD sensors data (pressure, temperature, conductivity, salinity) and one or more biogeochemical (BGC) parameters data (dissolved oxygen, nitrate, pH, chlorophyll-a, particle backscatter, irradiance), interpolated onto common pressure levels."@en;
+        skos:definition        "Fichier de profil vertical de flotteur Argo contenant les données des capteurs CTD (pression, température, conductivité, salinité) et les données d'un ou plusieurs paramètres biogéochimiques (BGC) (oxygène dissous, nitrate, pH, chlorophylle-a, rétrodiffusion de particules, rayonnement), interpolées sur des niveaux de pression communs."@fr ;
         skos:notation          "SDN:R01::SPROF";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Argo synthetic profile"@en .
+        skos:prefLabel         "Argo synthetic profile"@en ;
+        skos:prefLabel         "profil synthétique Argo"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R01/current/BPROF/>
         rdf:type               skos:Concept;
@@ -138,10 +156,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "BPROF";
+        skos:altLabel          "BPROF"@fr ;
         skos:definition        "Argo float vertical profile file containing CTD pressure data and data from one or more biogeochemical (BGC) parameters (dissolved oxygen, nitrate, pH, chlorophyll-a, particle backscatter, irradiance)."@en;
+        skos:definition        "Fichier de profil vertical de flotteur Argo contenant des données CTD de pression et des données d'un ou plusieurs paramètres biogéochimiques (BGC) (oxygène dissous, nitrate, pH, chlorophylle-a, rétrodiffusion de particules, rayonnement)."@fr ;
         skos:notation          "SDN:R01::BPROF";
         skos:note              "accepted"@en;
-        skos:prefLabel         "B-Argo profile"@en .
+        skos:prefLabel         "B-Argo profile"@en ;
+        skos:prefLabel         "profil B-Argo"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R01/current/TECH/>
         rdf:type               skos:Concept;
@@ -155,10 +176,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "TECH";
+        skos:altLabel          "TECH"@fr ;
         skos:definition        "File containing technical information about an Argo float."@en;
+        skos:definition        "Fichier contenant des informations techniques sur un flotteur Argo."@fr ;
         skos:notation          "SDN:R01::TECH";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Argo technical data"@en .
+        skos:prefLabel         "Argo technical data"@en ;
+        skos:prefLabel         "données techniques Argo"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R01/current/METAAUX/>
         rdf:type               skos:Concept;
@@ -173,10 +197,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "METAAUX";
+        skos:altLabel          "METAAUX"@fr ;
         skos:definition        "File containing descriptive information about an Argo float, for floats reporting non standard auxiliary features."@en;
+        skos:definition        "Fichier contenant des informations descriptives sur un flotteur Argo, pour les flotteurs rapportant des fonctionnalités auxiliaires non standard."@fr ;
         skos:notation          "SDN:R01::METAAUX";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Argo auxiliary meta-data"@en .
+        skos:prefLabel         "Argo auxiliary meta-data"@en ;
+        skos:prefLabel         "métadonnées auxiliaires Argo"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R01/current/PROF/>
         rdf:type               skos:Concept;
@@ -190,10 +217,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "PROF";
+        skos:altLabel          "PROF"@fr ;
         skos:definition        "Argo float vertical profile file containing CTD sensors data (pressure, temperature, conductivity, salinity)."@en;
+        skos:definition        "Fichier de profil vertical de flotteur Argo contenant les données des capteurs CTD (pression, température, conductivité, salinité)."@fr ;
         skos:notation          "SDN:R01::PROF";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Argo profile"@en .
+        skos:prefLabel         "Argo profile"@en ;
+        skos:prefLabel         "profil Argo"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R01/current/>
         rdf:type                skos:Collection;
@@ -209,5 +239,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Argo Data Management Team";
         owl:versionInfo         "5";
         skos:altLabel           "DATA_TYPE";
+        skos:altLabel           "DATA_TYPE"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/R01/current/BTRAJ/> , <http://vocab.nerc.ac.uk/collection/R01/current/TRAJ/> , <http://vocab.nerc.ac.uk/collection/R01/current/MTRAJ/> , <http://vocab.nerc.ac.uk/collection/R01/current/META/> , <http://vocab.nerc.ac.uk/collection/R01/current/MPROF/> , <http://vocab.nerc.ac.uk/collection/R01/current/SPROF/> , <http://vocab.nerc.ac.uk/collection/R01/current/BPROF/> , <http://vocab.nerc.ac.uk/collection/R01/current/TECH/> , <http://vocab.nerc.ac.uk/collection/R01/current/PROF/> , <http://vocab.nerc.ac.uk/collection/R01/current/METAAUX/>;
-        skos:prefLabel          "Argo data type" .
+        skos:prefLabel          "Argo data type" ;
+        skos:prefLabel          "type de données Argo"@fr .
