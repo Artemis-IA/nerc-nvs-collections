@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The lower boundary of the ocean."@en;
+        skos:definition        "La limite inférieure de l'océan."@fr ;
         skos:notation          "SDN:P38::sea_floor";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sea_floor"@en .
+        skos:prefLabel         "sea_floor"@en ;
+        skos:prefLabel         "sea_floor"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P38/current/ocean_layer/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Layer\"\" means any layer with upper and lower boundaries that have constant values in some vertical coordinate. There must be a vertical coordinate variable indicating the extent of the layer(s). If the layers are model layers, the vertical coordinate can be model_level_number, but it is recommended to specify a physical coordinate (in a scalar or auxiliary coordinate variable) as well."@en;
+        skos:definition        "« Layer » signifie toute couche dont les limites supérieure et inférieure ont des valeurs constantes dans une coordonnée verticale donnée. Il doit exister une variable de coordonnée verticale indiquant l'étendue de la ou des couche(s). Si les couches sont des couches de modèle, la coordonnée verticale peut être model_level_number, mais il est recommandé de spécifier aussi une coordonnée physique (dans une variable de coordonnée scalaire ou auxiliaire)."@fr ;
         skos:notation          "SDN:P38::ocean_layer";
         skos:note              "accepted"@en;
-        skos:prefLabel         "ocean_layer"@en .
+        skos:prefLabel         "ocean_layer"@en ;
+        skos:prefLabel         "ocean_layer"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P38/current/convective_cloud_top/>
         rdf:type               skos:Concept;
@@ -67,9 +71,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The top of the highest convective cloud."@en;
+        skos:definition        "Le sommet du nuage convectif le plus élevé."@fr ;
         skos:notation          "SDN:P38::convective_cloud_top";
         skos:note              "accepted"@en;
-        skos:prefLabel         "convective_cloud_top"@en .
+        skos:prefLabel         "convective_cloud_top"@en ;
+        skos:prefLabel         "convective_cloud_top"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P38/current/reference_ellipsoid/>
         rdf:type               skos:Concept;
@@ -84,9 +90,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A reference ellipsoid is a regular mathematical figure that approximates the irregular shape of the geoid. A number of reference ellipsoids are defined for use in the field of geodesy."@en;
+        skos:definition        "Un ellipsoïde de référence est une figure mathématique régulière qui approxime la forme irrégulière du géoïde. Un certain nombre d'ellipsoïdes de référence sont définis pour usage dans le domaine de la géodésie."@fr ;
         skos:notation          "SDN:P38::reference_ellipsoid";
         skos:note              "accepted"@en;
-        skos:prefLabel         "reference_ellipsoid"@en .
+        skos:prefLabel         "reference_ellipsoid"@en ;
+        skos:prefLabel         "reference_ellipsoid"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P38/current/atmosphere_boundary_layer/>
         rdf:type               skos:Concept;
@@ -101,9 +109,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The (atmosphere) planetary boundary layer."@en;
+        skos:definition        "La couche limite planétaire (de l'atmosphère)."@fr ;
         skos:notation          "SDN:P38::atmosphere_boundary_layer";
         skos:note              "accepted"@en;
-        skos:prefLabel         "atmosphere_boundary_layer"@en .
+        skos:prefLabel         "atmosphere_boundary_layer"@en ;
+        skos:prefLabel         "atmosphere_boundary_layer"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P38/current/bedrock/>
         rdf:type               skos:Concept;
@@ -118,9 +128,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Bedrock is the solid Earth surface beneath land ice or ocean water."@en;
+        skos:definition        "Le substrat rocheux est la surface solide de la Terre sous la glace continentale ou l'eau océanique."@fr ;
         skos:notation          "SDN:P38::bedrock";
         skos:note              "accepted"@en;
-        skos:prefLabel         "bedrock"@en .
+        skos:prefLabel         "bedrock"@en ;
+        skos:prefLabel         "bedrock"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P38/current/convective_cloud_base/>
         rdf:type               skos:Concept;
@@ -135,9 +147,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The base of the lowest convective cloud."@en;
+        skos:definition        "La base du nuage convectif le plus bas."@fr ;
         skos:notation          "SDN:P38::convective_cloud_base";
         skos:note              "accepted"@en;
-        skos:prefLabel         "convective_cloud_base"@en .
+        skos:prefLabel         "convective_cloud_base"@en ;
+        skos:prefLabel         "convective_cloud_base"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P38/current/sea_level/>
         rdf:type               skos:Concept;
@@ -152,9 +166,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "sea_level means mean sea level, which is close to the geoid in sea areas."@en;
+        skos:definition        "sea_level signifie le niveau moyen de la mer, qui est proche du géoïde dans les zones marines."@fr ;
         skos:notation          "SDN:P38::sea_level";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sea_level"@en .
+        skos:prefLabel         "sea_level"@en ;
+        skos:prefLabel         "sea_level"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P38/current/ocean_rigid_lid/>
         rdf:type               skos:Concept;
@@ -169,9 +185,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The upper surface of an ocean model, assuming that it is bounded above by a rigid lid."@en;
+        skos:definition        "La surface supérieure d'un modèle océanique, en supposant qu'elle est bornée au-dessus par un couvercle rigide."@fr ;
         skos:notation          "SDN:P38::ocean_rigid_lid";
         skos:note              "accepted"@en;
-        skos:prefLabel         "ocean_rigid_lid"@en .
+        skos:prefLabel         "ocean_rigid_lid"@en ;
+        skos:prefLabel         "ocean_rigid_lid"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P38/current/ocean_mixed_layer/>
         rdf:type               skos:Concept;
@@ -186,9 +204,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The ocean mixed layer is the upper part of the ocean, regarded as being well-mixed."@en;
+        skos:definition        "La couche de mélange océanique est la partie supérieure de l'océan, considérée comme bien mélangée."@fr ;
         skos:notation          "SDN:P38::ocean_mixed_layer";
         skos:note              "accepted"@en;
-        skos:prefLabel         "ocean_mixed_layer"@en .
+        skos:prefLabel         "ocean_mixed_layer"@en ;
+        skos:prefLabel         "ocean_mixed_layer"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P38/current/toa/>
         rdf:type               skos:Concept;
@@ -203,9 +223,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Abbreviation for top of atmosphere."@en;
+        skos:definition        "Abréviation de top of atmosphere (sommet de l'atmosphère)."@fr ;
         skos:notation          "SDN:P38::toa";
         skos:note              "accepted"@en;
-        skos:prefLabel         "toa"@en .
+        skos:prefLabel         "toa"@en ;
+        skos:prefLabel         "toa"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P38/current/ocean/>
         rdf:type               skos:Concept;
@@ -220,9 +242,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The vertical region between the sea surface and the sea floor."@en;
+        skos:definition        "La région verticale entre la surface de la mer et le fond marin."@fr ;
         skos:notation          "SDN:P38::ocean";
         skos:note              "accepted"@en;
-        skos:prefLabel         "ocean"@en .
+        skos:prefLabel         "ocean"@en ;
+        skos:prefLabel         "ocean"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P38/current/freezing_level/>
         rdf:type               skos:Concept;
@@ -237,9 +261,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The vertical location of the zero degrees Celsius isotherm."@en;
+        skos:definition        "L'emplacement vertical de l'isotherme zéro degré Celsius."@fr ;
         skos:notation          "SDN:P38::freezing_level";
         skos:note              "accepted"@en;
-        skos:prefLabel         "freezing_level"@en .
+        skos:prefLabel         "freezing_level"@en ;
+        skos:prefLabel         "freezing_level"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P38/current/canopy/>
         rdf:type               skos:Concept;
@@ -254,9 +280,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Canopy means the plant or vegetation canopy."@en;
+        skos:definition        "Canopy signifie la canopée des plantes ou de la végétation."@fr ;
         skos:notation          "SDN:P38::canopy";
         skos:note              "accepted"@en;
-        skos:prefLabel         "canopy"@en .
+        skos:prefLabel         "canopy"@en ;
+        skos:prefLabel         "canopy"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P38/current/atmosphere_layer/>
         rdf:type               skos:Concept;
@@ -271,9 +299,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Layer means any layer with upper and lower boundaries that have constant values in some vertical coordinate. There must be a vertical coordinate variable indicating the extent of the layer(s). If the layers are model layers, the vertical coordinate can be model_level_number, but it is recommended to specify a physical coordinate (in a scalar or auxiliary coordinate variable) as well."@en;
+        skos:definition        "Layer signifie toute couche dont les limites supérieure et inférieure ont des valeurs constantes dans une coordonnée verticale donnée. Il doit exister une variable de coordonnée verticale indiquant l'étendue de la ou des couche(s). Si les couches sont des couches de modèle, la coordonnée verticale peut être model_level_number, mais il est recommandé de spécifier aussi une coordonnée physique (dans une variable de coordonnée scalaire ou auxiliaire)."@fr ;
         skos:notation          "SDN:P38::atmosphere_layer";
         skos:note              "accepted"@en;
-        skos:prefLabel         "atmosphere_layer"@en .
+        skos:prefLabel         "atmosphere_layer"@en ;
+        skos:prefLabel         "atmosphere_layer"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P38/current/cloud_base/>
         rdf:type               skos:Concept;
@@ -288,9 +318,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The base of the lowest cloud."@en;
+        skos:definition        "La base du nuage le plus bas."@fr ;
         skos:notation          "SDN:P38::cloud_base";
         skos:note              "accepted"@en;
-        skos:prefLabel         "cloud_base"@en .
+        skos:prefLabel         "cloud_base"@en ;
+        skos:prefLabel         "cloud_base"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P38/current/cloud_top/>
         rdf:type               skos:Concept;
@@ -305,9 +337,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The top of the highest cloud."@en;
+        skos:definition        "Le sommet du nuage le plus élevé."@fr ;
         skos:notation          "SDN:P38::cloud_top";
         skos:note              "accepted"@en;
-        skos:prefLabel         "cloud_top"@en .
+        skos:prefLabel         "cloud_top"@en ;
+        skos:prefLabel         "cloud_top"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P38/current/permafrost_layer/>
         rdf:type               skos:Concept;
@@ -322,9 +356,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Permafrost is soil or rock that has remained at a temperature at or below zero degrees Celsius throughout the seasonal cycle for two or more years."@en;
+        skos:definition        "Le pergélisol est le sol ou la roche qui est resté à une température égale ou inférieure à zéro degré Celsius tout au long du cycle saisonnier pendant deux ans ou plus."@fr ;
         skos:notation          "SDN:P38::permafrost_layer";
         skos:note              "accepted"@en;
-        skos:prefLabel         "permafrost_layer"@en .
+        skos:prefLabel         "permafrost_layer"@en ;
+        skos:prefLabel         "permafrost_layer"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P38/current/soil_layer/>
         rdf:type               skos:Concept;
@@ -339,9 +375,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Layer means any layer with upper and lower boundaries that have constant values in some vertical coordinate. There must be a vertical coordinate variable indicating the extent of the layer(s). If the layers are model layers, the vertical coordinate can be model_level_number, but it is recommended to specify a physical coordinate (in a scalar or auxiliary coordinate variable) as well. Quantities defined for a soil layer must have a vertical coordinate variable with boundaries indicating the extent of the layer(s)."@en;
+        skos:definition        "Layer signifie toute couche dont les limites supérieure et inférieure ont des valeurs constantes dans une coordonnée verticale donnée. Il doit exister une variable de coordonnée verticale indiquant l'étendue de la ou des couche(s). Si les couches sont des couches de modèle, la coordonnée verticale peut être model_level_number, mais il est recommandé de spécifier aussi une coordonnée physique (dans une variable de coordonnée scalaire ou auxiliaire). Les quantités définies pour une couche de sol doivent avoir une variable de coordonnée verticale avec des limites indiquant l'étendue de la ou des couche(s)."@fr ;
         skos:notation          "SDN:P38::soil_layer";
         skos:note              "accepted"@en;
-        skos:prefLabel         "soil_layer"@en .
+        skos:prefLabel         "soil_layer"@en ;
+        skos:prefLabel         "soil_layer"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P38/current/tropopause/>
         rdf:type               skos:Concept;
@@ -356,9 +394,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The upper boundary of the troposphere."@en;
+        skos:definition        "La limite supérieure de la troposphère."@fr ;
         skos:notation          "SDN:P38::tropopause";
         skos:note              "accepted"@en;
-        skos:prefLabel         "tropopause"@en .
+        skos:prefLabel         "tropopause"@en ;
+        skos:prefLabel         "tropopause"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P38/current/equilibrium_line/>
         rdf:type               skos:Concept;
@@ -373,9 +413,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The equilibrium line is the locus of points on a land ice surface at which ice accumulation balances ice ablation over the year."@en;
+        skos:definition        "La ligne d'équilibre est le lieu des points à la surface d'une glace continentale où l'accumulation de glace équilibre l'ablation de glace sur l'année."@fr ;
         skos:notation          "SDN:P38::equilibrium_line";
         skos:note              "accepted"@en;
-        skos:prefLabel         "equilibrium_line"@en .
+        skos:prefLabel         "equilibrium_line"@en ;
+        skos:prefLabel         "equilibrium_line"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P38/current/ionosphere/>
         rdf:type               skos:Concept;
@@ -390,9 +432,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The vertical region of the atmosphere that is ionized by solar and cosmic radiation, usually at an altitude of between 75 and 1000 km above the surface of the Earth."@en;
+        skos:definition        "La région verticale de l'atmosphère qui est ionisée par le rayonnement solaire et cosmique, généralement à une altitude comprise entre 75 et 1000 km au-dessus de la surface de la Terre."@fr ;
         skos:notation          "SDN:P38::ionosphere";
         skos:note              "accepted"@en;
-        skos:prefLabel         "ionosphere"@en .
+        skos:prefLabel         "ionosphere"@en ;
+        skos:prefLabel         "ionosphere"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P38/current/middle_atmosphere/>
         rdf:type               skos:Concept;
@@ -407,9 +451,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The vertical region comprising the troposphere and the stratosphere together."@en;
+        skos:definition        "La région verticale comprenant ensemble la troposphère et la stratosphère."@fr ;
         skos:notation          "SDN:P38::middle_atmosphere";
         skos:note              "accepted"@en;
-        skos:prefLabel         "middle_atmosphere"@en .
+        skos:prefLabel         "middle_atmosphere"@en ;
+        skos:prefLabel         "middle_atmosphere"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P38/current/geoid/>
         rdf:type               skos:Concept;
@@ -424,9 +470,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The geoid is a surface of constant geopotential with which mean sea level would coincide if the ocean were at rest."@en;
+        skos:definition        "Le géoïde est une surface de géopotentiel constant avec laquelle le niveau moyen de la mer coïnciderait si l'océan était au repos."@fr ;
         skos:notation          "SDN:P38::geoid";
         skos:note              "accepted"@en;
-        skos:prefLabel         "geoid"@en .
+        skos:prefLabel         "geoid"@en ;
+        skos:prefLabel         "geoid"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P38/current/atmosphere/>
         rdf:type               skos:Concept;
@@ -441,9 +489,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The vertical region between the surface of the Earth and the top of the atmosphere."@en;
+        skos:definition        "La région verticale entre la surface de la Terre et le sommet de l'atmosphère."@fr ;
         skos:notation          "SDN:P38::atmosphere";
         skos:note              "accepted"@en;
-        skos:prefLabel         "atmosphere"@en .
+        skos:prefLabel         "atmosphere"@en ;
+        skos:prefLabel         "atmosphère"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P38/current/troposphere/>
         rdf:type               skos:Concept;
@@ -458,9 +508,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The vertical region between the surface of the Earth and the tropopause."@en;
+        skos:definition        "La région verticale entre la surface de la Terre et la tropopause."@fr ;
         skos:notation          "SDN:P38::troposphere";
         skos:note              "accepted"@en;
-        skos:prefLabel         "troposphere"@en .
+        skos:prefLabel         "troposphere"@en ;
+        skos:prefLabel         "troposphere"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P38/current/stratosphere/>
         rdf:type               skos:Concept;
@@ -475,9 +527,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The vertical region between the tropopause and the stratopause."@en;
+        skos:definition        "La région verticale entre la tropopause et la stratopause."@fr ;
         skos:notation          "SDN:P38::stratosphere";
         skos:note              "accepted"@en;
-        skos:prefLabel         "stratosphere"@en .
+        skos:prefLabel         "stratosphere"@en ;
+        skos:prefLabel         "stratosphere"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P38/current/surface/>
         rdf:type               skos:Concept;
@@ -492,9 +546,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The lower boundary of the atmosphere."@en;
+        skos:definition        "La limite inférieure de l'atmosphère."@fr ;
         skos:notation          "SDN:P38::surface";
         skos:note              "accepted"@en;
-        skos:prefLabel         "surface"@en .
+        skos:prefLabel         "surface"@en ;
+        skos:prefLabel         "surface"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P38/current/>
         rdf:type                skos:Collection;
@@ -509,5 +565,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Climate and Forecast Standard Names Committee";
         owl:versionInfo         "1";
         skos:altLabel           "CF Vertical Coverages";
+        skos:altLabel           "couvertures verticales CF"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/P38/current/sea_floor/> , <http://vocab.nerc.ac.uk/collection/P38/current/ocean_layer/> , <http://vocab.nerc.ac.uk/collection/P38/current/convective_cloud_top/> , <http://vocab.nerc.ac.uk/collection/P38/current/reference_ellipsoid/> , <http://vocab.nerc.ac.uk/collection/P38/current/atmosphere_boundary_layer/> , <http://vocab.nerc.ac.uk/collection/P38/current/bedrock/> , <http://vocab.nerc.ac.uk/collection/P38/current/convective_cloud_base/> , <http://vocab.nerc.ac.uk/collection/P38/current/sea_level/> , <http://vocab.nerc.ac.uk/collection/P38/current/ocean_rigid_lid/> , <http://vocab.nerc.ac.uk/collection/P38/current/ocean_mixed_layer/> , <http://vocab.nerc.ac.uk/collection/P38/current/toa/> , <http://vocab.nerc.ac.uk/collection/P38/current/ocean/> , <http://vocab.nerc.ac.uk/collection/P38/current/freezing_level/> , <http://vocab.nerc.ac.uk/collection/P38/current/canopy/> , <http://vocab.nerc.ac.uk/collection/P38/current/atmosphere_layer/> , <http://vocab.nerc.ac.uk/collection/P38/current/cloud_base/> , <http://vocab.nerc.ac.uk/collection/P38/current/cloud_top/> , <http://vocab.nerc.ac.uk/collection/P38/current/permafrost_layer/> , <http://vocab.nerc.ac.uk/collection/P38/current/soil_layer/> , <http://vocab.nerc.ac.uk/collection/P38/current/tropopause/> , <http://vocab.nerc.ac.uk/collection/P38/current/equilibrium_line/> , <http://vocab.nerc.ac.uk/collection/P38/current/ionosphere/> , <http://vocab.nerc.ac.uk/collection/P38/current/middle_atmosphere/> , <http://vocab.nerc.ac.uk/collection/P38/current/geoid/> , <http://vocab.nerc.ac.uk/collection/P38/current/atmosphere/> , <http://vocab.nerc.ac.uk/collection/P38/current/surface/> , <http://vocab.nerc.ac.uk/collection/P38/current/stratosphere/> , <http://vocab.nerc.ac.uk/collection/P38/current/troposphere/>;
-        skos:prefLabel          "Climate and Forecast Vertical Co-ordinate Coverages" .
+        skos:prefLabel          "Climate and Forecast Vertical Co-ordinate Coverages" ;
+        skos:prefLabel          "couvertures de co-ordonnée verticale Climate and Forecast"@fr .

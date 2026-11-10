@@ -33,10 +33,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             <http://vocab.nerc.ac.uk/collection/R15/current/600/>;
         owl:versionInfo        "1";
         skos:altLabel          "ASCENT_END";
+        skos:altLabel          "ASCENT_END"@fr ;
         skos:definition        "Time at which the float reaches the surface."@en;
+        skos:definition        "Heure à laquelle le flotteur atteint la surface."@fr ;
         skos:notation          "SDN:RTV::AET";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Ascent End Time"@en .
+        skos:prefLabel         "Ascent End Time"@en ;
+        skos:prefLabel         "heure de fin de montée"@fr .
 
 <http://vocab.nerc.ac.uk/collection/RTV/current/DAST/>
         rdf:type               skos:Concept;
@@ -51,10 +54,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             <http://vocab.nerc.ac.uk/collection/R15/current/550/>;
         owl:versionInfo        "1";
         skos:altLabel          "DEEP_ASCENT_START";
+        skos:altLabel          "DEEP_ASCENT_START"@fr ;
         skos:definition        "Time at which the float begins its rise to drift pressure. This variable is typically used for floats that profile on descent."@en;
+        skos:definition        "Heure à laquelle le flotteur commence sa remontée vers la pression de dérive. Cette variable est typiquement utilisée pour les flotteurs qui profilent en descente."@fr ;
         skos:notation          "SDN:RTV::DAST";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Deep Ascent Start Time"@en .
+        skos:prefLabel         "Deep Ascent Start Time"@en ;
+        skos:prefLabel         "heure de début de remontée profonde"@fr .
 
 <http://vocab.nerc.ac.uk/collection/RTV/current/FMT/>
         rdf:type               skos:Concept;
@@ -69,10 +75,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             <http://vocab.nerc.ac.uk/collection/R15/current/702/>;
         owl:versionInfo        "1";
         skos:altLabel          "FIRST_MESSAGE";
+        skos:altLabel          "FIRST_MESSAGE"@fr ;
         skos:definition        "Time of the first message received."@en;
+        skos:definition        "Heure du premier message reçu."@fr ;
         skos:notation          "SDN:RTV::FMT";
         skos:note              "accepted"@en;
-        skos:prefLabel         "First Message Time"@en .
+        skos:prefLabel         "First Message Time"@en ;
+        skos:prefLabel         "heure du premier message"@fr .
 
 <http://vocab.nerc.ac.uk/collection/RTV/current/AST/>
         rdf:type               skos:Concept;
@@ -87,10 +96,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             <http://vocab.nerc.ac.uk/collection/R15/current/500/>;
         owl:versionInfo        "1";
         skos:altLabel          "ASCENT_START";
+        skos:altLabel          "ASCENT_START"@fr ;
         skos:definition        "Time at which the float begins its return to the surface."@en;
+        skos:definition        "Heure à laquelle le flotteur commence son retour à la surface."@fr ;
         skos:notation          "SDN:RTV::AST";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Ascent Start Time"@en .
+        skos:prefLabel         "Ascent Start Time"@en ;
+        skos:prefLabel         "heure de début de montée"@fr .
 
 <http://vocab.nerc.ac.uk/collection/RTV/current/TST/>
         rdf:type               skos:Concept;
@@ -105,10 +117,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             <http://vocab.nerc.ac.uk/collection/R15/current/700/>;
         owl:versionInfo        "1";
         skos:altLabel          "TRANSMISSION_START";
+        skos:altLabel          "TRANSMISSION_START"@fr ;
         skos:definition        "Time at which the float begins transmitting."@en;
+        skos:definition        "Heure à laquelle le flotteur commence à transmettre."@fr ;
         skos:notation          "SDN:RTV::TST";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Transmission Start Time"@en .
+        skos:prefLabel         "Transmission Start Time"@en ;
+        skos:prefLabel         "heure de début de transmission"@fr .
 
 <http://vocab.nerc.ac.uk/collection/RTV/current/DDET/>
         rdf:type               skos:Concept;
@@ -123,10 +138,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             <http://vocab.nerc.ac.uk/collection/R15/current/400/>;
         owl:versionInfo        "1";
         skos:altLabel          "DEEP_DESCENT_END";
+        skos:altLabel          "DEEP_DESCENT_END"@fr ;
         skos:definition        "Time at which the float first approaches within 3% of the eventual deep drift or profile pressure. This variable is based on pressure only, and can be measured or estimated by fall-rate."@en;
+        skos:definition        "Heure à laquelle le flotteur approche pour la première fois à moins de 3 % de la pression de dérive profonde ou de profil finale. Cette variable est basée uniquement sur la pression, et peut être mesurée ou estimée par la vitesse de chute."@fr ;
         skos:notation          "SDN:RTV::DDET";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Deep Descent End Time"@en .
+        skos:prefLabel         "Deep Descent End Time"@en ;
+        skos:prefLabel         "heure de fin de descente profonde"@fr .
 
 <http://vocab.nerc.ac.uk/collection/RTV/current/FLT/>
         rdf:type               skos:Concept;
@@ -140,10 +158,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "FIRST_LOCATION";
+        skos:altLabel          "FIRST_LOCATION"@fr ;
         skos:definition        "Time of the first location received."@en;
+        skos:definition        "Heure de la première position reçue."@fr ;
         skos:notation          "SDN:RTV::FLT";
         skos:note              "accepted"@en;
         skos:prefLabel         "First Location Time"@en;
+        skos:prefLabel         "heure de la première position"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R15/current/703/> .
 
 <http://vocab.nerc.ac.uk/collection/RTV/current/LLT/>
@@ -158,10 +179,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "LAST_LOCATION";
+        skos:altLabel          "LAST_LOCATION"@fr ;
         skos:definition        "Time of the last location received."@en;
+        skos:definition        "Heure de la dernière position reçue."@fr ;
         skos:notation          "SDN:RTV::LLT";
         skos:note              "accepted"@en;
         skos:prefLabel         "Last Location Time"@en;
+        skos:prefLabel         "heure de la dernière position"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R15/current/703/> .
 
 <http://vocab.nerc.ac.uk/collection/RTV/current/DST/>
@@ -177,10 +201,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             <http://vocab.nerc.ac.uk/collection/R15/current/100/>;
         owl:versionInfo        "1";
         skos:altLabel          "DESCENT_START";
+        skos:altLabel          "DESCENT_START"@fr ;
         skos:definition        "Time at which the float leaves the surface and begins the descent."@en;
+        skos:definition        "Heure à laquelle le flotteur quitte la surface et commence la descente."@fr ;
         skos:notation          "SDN:RTV::DST";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Descent Start Time"@en .
+        skos:prefLabel         "Descent Start Time"@en ;
+        skos:prefLabel         "heure de début de descente"@fr .
 
 <http://vocab.nerc.ac.uk/collection/RTV/current/DPST/>
         rdf:type               skos:Concept;
@@ -195,10 +222,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             <http://vocab.nerc.ac.uk/collection/R15/current/450/>;
         owl:versionInfo        "1";
         skos:altLabel          "DEEP_PARK_START";
+        skos:altLabel          "DEEP_PARK_START"@fr ;
         skos:definition        "Time at which the float transitions to a deep park drift mission. This variable is only defined if the float is expected to enter a deep drift phase; it does not apply to cases of accidental drift at deep pressure, caused by bottom hits or buoyancy issues for example."@en;
+        skos:definition        "Heure à laquelle le flotteur passe à une mission de dérive en stationnement profond. Cette variable n'est définie que si le flotteur doit entrer dans une phase de dérive profonde ; elle ne s'applique pas aux cas de dérive accidentelle à pression profonde, causée par des chocs de fond ou des problèmes de flottabilité par exemple."@fr ;
         skos:notation          "SDN:RTV::DPST";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Deep Park Start Time"@en .
+        skos:prefLabel         "Deep Park Start Time"@en ;
+        skos:prefLabel         "heure de début de stationnement profond"@fr .
 
 <http://vocab.nerc.ac.uk/collection/RTV/current/FST/>
         rdf:type               skos:Concept;
@@ -213,10 +243,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             <http://vocab.nerc.ac.uk/collection/R15/current/150/>;
         owl:versionInfo        "1";
         skos:altLabel          "FIRST_STABILIZATION";
+        skos:altLabel          "FIRST_STABILIZATION"@fr ;
         skos:definition        "Time at which the float first becomes water-neutral."@en;
+        skos:definition        "Heure à laquelle le flotteur devient pour la première fois neutre en eau."@fr ;
         skos:notation          "SDN:RTV::FST";
         skos:note              "accepted"@en;
-        skos:prefLabel         "First Stabilization Time"@en .
+        skos:prefLabel         "First Stabilization Time"@en ;
+        skos:prefLabel         "heure de première stabilisation"@fr .
 
 <http://vocab.nerc.ac.uk/collection/RTV/current/TET/>
         rdf:type               skos:Concept;
@@ -231,10 +264,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             <http://vocab.nerc.ac.uk/collection/R15/current/800/>;
         owl:versionInfo        "1";
         skos:altLabel          "TRANSMISSION_END";
+        skos:altLabel          "TRANSMISSION_END"@fr ;
         skos:definition        "Time at which the float stops transmitting."@en;
+        skos:definition        "Heure à laquelle le flotteur cesse de transmettre."@fr ;
         skos:notation          "SDN:RTV::TET";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Transmission End Time"@en .
+        skos:prefLabel         "Transmission End Time"@en ;
+        skos:prefLabel         "heure de fin de transmission"@fr .
 
 <http://vocab.nerc.ac.uk/collection/RTV/current/LMT/>
         rdf:type               skos:Concept;
@@ -249,10 +285,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             <http://vocab.nerc.ac.uk/collection/R15/current/704/>;
         owl:versionInfo        "1";
         skos:altLabel          "LAST_MESSAGE";
+        skos:altLabel          "LAST_MESSAGE"@fr ;
         skos:definition        "Time of the last message received."@en;
+        skos:definition        "Heure du dernier message reçu."@fr ;
         skos:notation          "SDN:RTV::LMT";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Last Message Time"@en .
+        skos:prefLabel         "Last Message Time"@en ;
+        skos:prefLabel         "heure du dernier message"@fr .
 
 <http://vocab.nerc.ac.uk/collection/RTV/current/DET/>
         rdf:type               skos:Concept;
@@ -267,10 +306,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             <http://vocab.nerc.ac.uk/collection/R15/current/200/>;
         owl:versionInfo        "1";
         skos:altLabel          "DESCENT_END";
+        skos:altLabel          "DESCENT_END"@fr ;
         skos:definition        "Time at which the float first approaches within 3% of the eventual drift pressure, whether it is transitioning from the surface or from a deep profile. In case the float overshoots the drift pressure on descent, the Descent End Time (DET) corresponds to the time of the overshoot. This variable is based on pressure only, and can be measured or estimated by fall-rate."@en;
+        skos:definition        "Heure à laquelle le flotteur approche pour la première fois à moins de 3 % de la pression de dérive finale, qu'il transite depuis la surface ou depuis un profil profond. Si le flotteur dépasse la pression de dérive en descente, la Descent End Time (DET) correspond à l'heure du dépassement. Cette variable est basée uniquement sur la pression, et peut être mesurée ou estimée par la vitesse de chute."@fr ;
         skos:notation          "SDN:RTV::DET";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Descent End Time"@en .
+        skos:prefLabel         "Descent End Time"@en ;
+        skos:prefLabel         "heure de fin de descente"@fr .
 
 <http://vocab.nerc.ac.uk/collection/RTV/current/PST/>
         rdf:type               skos:Concept;
@@ -285,10 +327,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             <http://vocab.nerc.ac.uk/collection/R15/current/250/>;
         owl:versionInfo        "1";
         skos:altLabel          "PARK_START";
+        skos:altLabel          "PARK_START"@fr ;
         skos:definition        "Time at which the float transitions to its Park or Drift mission. This variable is estimated either by an onboard descent timer (e.g. SOLO floats) or by pressure measurements (e.g. PROVOR floats)."@en;
+        skos:definition        "Heure à laquelle le flotteur passe à sa mission de stationnement ou de dérive. Cette variable est estimée soit par un minuteur de descente embarqué (par ex. flotteurs SOLO), soit par des mesures de pression (par ex. flotteurs PROVOR)."@fr ;
         skos:notation          "SDN:RTV::PST";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Park Start Time"@en .
+        skos:prefLabel         "Park Start Time"@en ;
+        skos:prefLabel         "heure de début de stationnement"@fr .
 
 <http://vocab.nerc.ac.uk/collection/RTV/current/PET/>
         rdf:type               skos:Concept;
@@ -303,10 +348,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             <http://vocab.nerc.ac.uk/collection/R15/current/300/>;
         owl:versionInfo        "1";
         skos:altLabel          "PARK_END";
+        skos:altLabel          "PARK_END"@fr ;
         skos:definition        "Time at which the float exists from its Park or Drift mission. The float may then rise to the surface or sink to profile depth."@en;
+        skos:definition        "Heure à laquelle le flotteur sort de sa mission de stationnement ou de dérive. Le flotteur peut alors remonter à la surface ou descendre à la profondeur de profilage."@fr ;
         skos:notation          "SDN:RTV::PET";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Park End Time"@en .
+        skos:prefLabel         "Park End Time"@en ;
+        skos:prefLabel         "heure de fin de stationnement"@fr .
 
 <http://vocab.nerc.ac.uk/collection/RTV/current/>
         rdf:type                skos:Collection;
@@ -322,5 +370,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Argo Data Management Team";
         owl:versionInfo         "1";
         skos:altLabel           "CYCLE_TIMING_VARIABLE";
+        skos:altLabel           "CYCLE_TIMING_VARIABLE"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/RTV/current/AET/> , <http://vocab.nerc.ac.uk/collection/RTV/current/DAST/> , <http://vocab.nerc.ac.uk/collection/RTV/current/FMT/> , <http://vocab.nerc.ac.uk/collection/RTV/current/AST/> , <http://vocab.nerc.ac.uk/collection/RTV/current/TST/> , <http://vocab.nerc.ac.uk/collection/RTV/current/DDET/> , <http://vocab.nerc.ac.uk/collection/RTV/current/FLT/> , <http://vocab.nerc.ac.uk/collection/RTV/current/LLT/> , <http://vocab.nerc.ac.uk/collection/RTV/current/DST/> , <http://vocab.nerc.ac.uk/collection/RTV/current/DPST/> , <http://vocab.nerc.ac.uk/collection/RTV/current/FST/> , <http://vocab.nerc.ac.uk/collection/RTV/current/TET/> , <http://vocab.nerc.ac.uk/collection/RTV/current/LMT/> , <http://vocab.nerc.ac.uk/collection/RTV/current/DET/> , <http://vocab.nerc.ac.uk/collection/RTV/current/PET/> , <http://vocab.nerc.ac.uk/collection/RTV/current/PST/>;
-        skos:prefLabel          "Argo float cycle timing variables" .
+        skos:prefLabel          "Argo float cycle timing variables" ;
+        skos:prefLabel          "variables temporelles de cycle des flotteurs Argo"@fr .
