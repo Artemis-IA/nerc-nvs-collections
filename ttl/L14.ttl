@@ -33,10 +33,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "suspended";
+        skos:altLabel          "suspendue"@fr ;
         skos:definition        "The activity is non-operational. The intention is that operations will resume at some stage."@en;
+        skos:definition        "L'activité n'est pas opérationnelle. L'intention est que les opérations reprennent à un moment donné."@fr ;
         skos:notation          "SDN:L14::IR";
         skos:note              "accepted"@en;
-        skos:prefLabel         "suspended"@en .
+        skos:prefLabel         "suspended"@en ;
+        skos:prefLabel         "suspendue"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L14/current/ON/>
         rdf:type               skos:Concept;
@@ -50,10 +53,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "operational";
+        skos:altLabel          "opérationnelle"@fr ;
         skos:definition        "The activity is operational with no date specified for operations to cease."@en;
+        skos:definition        "L'activité est opérationnelle sans date spécifiée pour la cessation des opérations."@fr ;
         skos:notation          "SDN:L14::ON";
         skos:note              "accepted"@en;
-        skos:prefLabel         "operational"@en .
+        skos:prefLabel         "operational"@en ;
+        skos:prefLabel         "opérationnelle"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L14/current/CA/>
         rdf:type               skos:Concept;
@@ -67,10 +73,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "cancelled";
+        skos:altLabel          "annulée"@fr ;
         skos:definition        "The activity was planned but never became operational."@en;
+        skos:definition        "L'activité était prévue mais n'est jamais devenue opérationnelle."@fr ;
         skos:notation          "SDN:L14::CA";
         skos:note              "accepted"@en;
-        skos:prefLabel         "cancelled"@en .
+        skos:prefLabel         "cancelled"@en ;
+        skos:prefLabel         "annulée"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L14/current/ZZ/>
         rdf:type               skos:Concept;
@@ -84,10 +93,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "unknown";
+        skos:altLabel          "inconnu"@fr ;
         skos:definition        "The status of the activity is not known and not computable by the sender of this data."@en;
+        skos:definition        "Le statut de l'activité n'est pas connu et ne peut pas être calculé par l'expéditeur de ces données."@fr ;
         skos:notation          "SDN:L14::ZZ";
         skos:note              "accepted"@en;
-        skos:prefLabel         "unknown"@en .
+        skos:prefLabel         "unknown"@en ;
+        skos:prefLabel         "inconnu"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L14/current/OR/>
         rdf:type               skos:Concept;
@@ -101,10 +113,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "operational2suspended";
+        skos:altLabel          "operational2suspended (opérationnelle vers suspendue)"@fr ;
         skos:definition        "The activity is operational but a date is known when operations will cease.  The intention is that operations will resume after a period of inactivity."@en;
+        skos:definition        "L'activité est opérationnelle mais une date est connue à laquelle les opérations cesseront. L'intention est que les opérations reprennent après une période d'inactivité."@fr ;
         skos:notation          "SDN:L14::OR";
         skos:note              "accepted"@en;
-        skos:prefLabel         "operational becoming suspended"@en .
+        skos:prefLabel         "operational becoming suspended"@en ;
+        skos:prefLabel         "opérationnelle devenant suspendue"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L14/current/PO/>
         rdf:type               skos:Concept;
@@ -118,10 +133,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "pre-operational";
+        skos:altLabel          "pré-opérationnelle"@fr ;
         skos:definition        "The activity is under development and not yet in operational use."@en;
+        skos:definition        "L'activité est en développement et pas encore en utilisation opérationnelle."@fr ;
         skos:notation          "SDN:L14::PO";
         skos:note              "accepted"@en;
-        skos:prefLabel         "pre-operational"@en .
+        skos:prefLabel         "pre-operational"@en ;
+        skos:prefLabel         "pré-opérationnelle"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L14/current/OP/>
         rdf:type               skos:Concept;
@@ -135,10 +153,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "operational2terminated";
+        skos:altLabel          "operational2terminated (opérationnelle vers résiliée)"@fr ;
         skos:definition        "The activity is operational but a date is known when operations will cease permanently."@en;
+        skos:definition        "L'activité est opérationnelle mais une date est connue à laquelle les opérations cesseront définitivement."@fr ;
         skos:notation          "SDN:L14::OP";
         skos:note              "accepted"@en;
-        skos:prefLabel         "operational becoming terminated"@en .
+        skos:prefLabel         "operational becoming terminated"@en ;
+        skos:prefLabel         "opérationnelle devenant résiliée"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L14/current/IA/>
         rdf:type               skos:Concept;
@@ -152,10 +173,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "terminated";
+        skos:altLabel          "résiliée"@fr ;
         skos:definition        "The activity is non-operational with no planned resumption of operation."@en;
+        skos:definition        "L'activité n'est pas opérationnelle sans reprise d'exploitation planifiée."@fr ;
         skos:notation          "SDN:L14::IA";
         skos:note              "accepted"@en;
-        skos:prefLabel         "terminated"@en .
+        skos:prefLabel         "terminated"@en ;
+        skos:prefLabel         "résiliée"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L14/current/>
         rdf:type                skos:Collection;
@@ -171,5 +195,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "SeaDataNet";
         owl:versionInfo         "3";
         skos:altLabel           "SDN Activity Operational Stati";
+        skos:altLabel           "statuts opérationnels d'activité SDN"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/L14/current/IR/> , <http://vocab.nerc.ac.uk/collection/L14/current/ON/> , <http://vocab.nerc.ac.uk/collection/L14/current/CA/> , <http://vocab.nerc.ac.uk/collection/L14/current/ZZ/> , <http://vocab.nerc.ac.uk/collection/L14/current/OR/> , <http://vocab.nerc.ac.uk/collection/L14/current/PO/> , <http://vocab.nerc.ac.uk/collection/L14/current/IA/> , <http://vocab.nerc.ac.uk/collection/L14/current/OP/>;
-        skos:prefLabel          "SeaDataNet Activity Operational Stati" .
+        skos:prefLabel          "SeaDataNet Activity Operational Stati" ;
+        skos:prefLabel          "statuts opérationnels d'activité SeaDataNet"@fr .
