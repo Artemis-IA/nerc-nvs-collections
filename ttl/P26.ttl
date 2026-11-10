@@ -32,12 +32,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "spatialSensorGeometryModelAdjustmentService";
+        skos:altLabel          "spatialSensorGeometryModelAdjustmentService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
         skos:definition        "Service that adjusts sensor geometry models to improve the match of the image with other images and/or known ground positions."@en;
+        skos:definition        "Service qui ajuste les modèles de géométrie des capteurs pour améliorer la correspondance de l'image avec d'autres images et/ou des positions au sol connues."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::407";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Sensor geometry model adjustment service (spatialSensorGeometryModelAdjustmentService)"@en .
+        skos:prefLabel         "Sensor geometry model adjustment service (spatialSensorGeometryModelAdjustmentService)"@en ;
+        skos:prefLabel         "Sensor geometry model adjustment service (spatialSensorGeometryModelAdjustmentService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/413/>
         rdf:type               skos:Concept;
@@ -51,12 +54,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "spatialFeatureManipulationService";
+        skos:altLabel          "spatialFeatureManipulationService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
         skos:definition        "Register one feature to another, an image, or another data set or coordinate set; correcting for relative translation shifts, rotational differences, scale differences, and perspective differences. Verify that all features in the Feature Collection are topologically consistent according to the topology rules of the Feature Collection, and identifies and/or corrects any inconsistencies that are discovered."@en;
+        skos:definition        "Enregistrer une entité sur une autre, une image, ou un autre jeu de données ou ensemble de coordonnées ; corriger les décalages de translation relatifs, les différences de rotation, d'échelle et de perspective. Vérifier que toutes les entités de la collection d'entités sont topologiquement cohérentes selon les règles de topologie de la collection d'entités, et identifier et/ou corriger les incohérences découvertes."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::413";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Feature manipulation services (spatialFeatureManipulationService)"@en .
+        skos:prefLabel         "Feature manipulation services (spatialFeatureManipulationService)"@en ;
+        skos:prefLabel         "Services de manipulation d'entités (spatialFeatureManipulationService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/801/>
         rdf:type               skos:Concept;
@@ -70,12 +76,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "comEncodingService";
+        skos:altLabel          "comEncodingService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/800/>;
         skos:definition        "Service that provides implementation of an encoding rule and provides an interface to encoding and decoding functionality."@en;
+        skos:definition        "Service qui fournit l'implémentation d'une règle d'encodage et une interface aux fonctionnalités d'encodage et de décodage."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::801";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Encoding service (comEncodingService)"@en .
+        skos:prefLabel         "Encoding service (comEncodingService)"@en ;
+        skos:prefLabel         "Service d'encodage (comEncodingService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/406/>
         rdf:type               skos:Concept;
@@ -89,12 +98,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "spatialOrthorectificationService";
+        skos:altLabel          "spatialOrthorectificationService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
         skos:definition        "A rectification service that removes image tilt and displacement due to terrain elevation."@en;
+        skos:definition        "Service de rectification qui supprime l'inclinaison et le déplacement de l'image dus au relief du terrain."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::406";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Orthorectification service (spatialOrthorectificationService)"@en .
+        skos:prefLabel         "Orthorectification service (spatialOrthorectificationService)"@en ;
+        skos:prefLabel         "Service d'ortho-rectification (spatialOrthorectificationService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/412/>
         rdf:type               skos:Concept;
@@ -108,12 +120,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "spatialDimensionMeasurementService";
+        skos:altLabel          "spatialDimensionMeasurementService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
         skos:definition        "Service to compute dimensions of objects visible in an image or other geodata."@en;
+        skos:definition        "Service de calcul des dimensions d'objets visibles dans une image ou d'autres données géographiques."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::412";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Dimension measurement service (spatialDimensionMeasurementService)"@en .
+        skos:prefLabel         "Dimension measurement service (spatialDimensionMeasurementService)"@en ;
+        skos:prefLabel         "Service de mesure de dimensions (spatialDimensionMeasurementService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/806/>
         rdf:type               skos:Concept;
@@ -127,12 +142,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "comRemoteFileAndExecutableManagement";
+        skos:altLabel          "comRemoteFileAndExecutableManagement"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/800/>;
         skos:definition        "Service that provides access to secondary storage of geographic features as if it were local to the client."@en;
+        skos:definition        "Service qui donne accès au stockage secondaire d'entités géographiques comme s'il était local au client."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::806";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Remote file and executable management (comRemoteFileAndExecutableManagement)"@en .
+        skos:prefLabel         "Remote file and executable management (comRemoteFileAndExecutableManagement)"@en ;
+        skos:prefLabel         "Gestion de fichiers et exécutables distants (comRemoteFileAndExecutableManagement)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/507/>
         rdf:type               skos:Concept;
@@ -146,12 +164,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "thematicGeographicInformationExtractionService";
+        skos:altLabel          "thematicGeographicInformationExtractionService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/500/>;
         skos:definition        "Services supporting the extraction of feature and terrain information from remotely sensed and scanned images."@en;
+        skos:definition        "Services permettant l'extraction d'informations sur les entités et le terrain à partir d'images de télédétection et numérisées."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::507";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Geographic information extraction services (thematicGeographicInformationExtractionService)"@en .
+        skos:prefLabel         "Geographic information extraction services (thematicGeographicInformationExtractionService)"@en ;
+        skos:prefLabel         "Services d'extraction d'informations géographiques (thematicGeographicInformationExtractionService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/508/>
         rdf:type               skos:Concept;
@@ -165,12 +186,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "thematicImageProcessingService";
+        skos:altLabel          "thematicImageProcessingService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/500/>;
         skos:definition        "Service to change the values of thematic attributes of an image using a mathematical function."@en;
+        skos:definition        "Service de modification des valeurs des attributs thématiques d'une image au moyen d'une fonction mathématique."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::508";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Image processing service (thematicImageProcessingService)"@en .
+        skos:prefLabel         "Image processing service (thematicImageProcessingService)"@en ;
+        skos:prefLabel         "Service de traitement d'image (thematicImageProcessingService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/514/>
         rdf:type               skos:Concept;
@@ -184,12 +208,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "thematicObjectDetectionService";
+        skos:altLabel          "thematicObjectDetectionService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/500/>;
         skos:definition        "Service to detect real-world objects in an image."@en;
+        skos:definition        "Service de détection d'objets du monde réel dans une image."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::514";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Object detection service (thematicObjectDetectionService)"@en .
+        skos:prefLabel         "Object detection service (thematicObjectDetectionService)"@en ;
+        skos:prefLabel         "Service de détection d'objets (thematicObjectDetectionService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/501/>
         rdf:type               skos:Concept;
@@ -203,12 +230,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "thematicGoparameterCalculationService";
+        skos:altLabel          "thematicGoparameterCalculationService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/500/>;
         skos:definition        "Service to derive application-oriented quantitative results that are not available from the raw data itself."@en;
+        skos:definition        "Service de calcul de résultats quantitatifs orientés application qui ne sont pas disponibles dans les données brutes elles-mêmes."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::501";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Geoparameter calculation service (thematicGoparameterCalculationService)"@en .
+        skos:prefLabel         "Geoparameter calculation service (thematicGoparameterCalculationService)"@en ;
+        skos:prefLabel         "Service de calcul de géoparamètres (thematicGoparameterCalculationService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/513/>
         rdf:type               skos:Concept;
@@ -222,12 +252,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "thematicMultibandImageManipulationService";
+        skos:altLabel          "thematicMultibandImageManipulationService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/500/>;
         skos:definition        "Services that modify an image using the multiple bands of the image."@en;
+        skos:definition        "Services qui modifient une image en utilisant ses différentes bandes."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::513";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Multiband image manipulation (thematicMultibandImageManipulationService)"@en .
+        skos:prefLabel         "Multiband image manipulation (thematicMultibandImageManipulationService)"@en ;
+        skos:prefLabel         "Manipulation d'images multibandes (thematicMultibandImageManipulationService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/418/>
         rdf:type               skos:Concept;
@@ -241,12 +274,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "spatialProximityAnalysisService";
+        skos:altLabel          "spatialProximityAnalysisService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
         skos:definition        "Given a position or geographic feature, finds all objects with a given set of attributes that are located within a user-specified distance of the position or feature."@en;
+        skos:definition        "Étant donné une position ou une entité géographique, trouve tous les objets ayant un ensemble d'attributs donné situés dans une distance spécifiée par l'utilisateur de la position ou de l'entité."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::418";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Proximity analysis service (spatialProximityAnalysisService)"@en .
+        skos:prefLabel         "Proximity analysis service (spatialProximityAnalysisService)"@en ;
+        skos:prefLabel         "Service d'analyse de proximité (spatialProximityAnalysisService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/405/>
         rdf:type               skos:Concept;
@@ -260,12 +296,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "spatialRectificationService";
+        skos:altLabel          "spatialRectificationService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
         skos:definition        "Service for transforming an image into a perpendicular parallel projection and therefore a constant scale."@en;
+        skos:definition        "Service de transformation d'une image en projection parallèle orthogonale et donc à échelle constante."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::405";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Rectification service (spatialRectificationService)"@en .
+        skos:prefLabel         "Rectification service (spatialRectificationService)"@en ;
+        skos:prefLabel         "Service de rectification (spatialRectificationService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/411/>
         rdf:type               skos:Concept;
@@ -279,12 +318,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "spatialTilingChangeService";
+        skos:altLabel          "spatialTilingChangeService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
         skos:definition        "Service that changes the tiling of geographic data."@en;
+        skos:definition        "Service qui modifie la trame (tuilage) des données géographiques."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::411";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Tiling change service (spatialTilingChangeService)"@en .
+        skos:prefLabel         "Tiling change service (spatialTilingChangeService)"@en ;
+        skos:prefLabel         "Service de modification du tuilage (spatialTilingChangeService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/506/>
         rdf:type               skos:Concept;
@@ -298,12 +340,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "thematicChangeDetectionService";
+        skos:altLabel          "thematicChangeDetectionService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/500/>;
         skos:definition        "Service to find differences between two data sets that represent the same geographical area at different times."@en;
+        skos:definition        "Service de détection des différences entre deux jeux de données représentant la même zone géographique à des moments différents."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::506";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Change detection service (thematicChangeDetectionService)"@en .
+        skos:prefLabel         "Change detection service (thematicChangeDetectionService)"@en ;
+        skos:prefLabel         "Service de détection de changements (thematicChangeDetectionService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/107/>
         rdf:type               skos:Concept;
@@ -317,12 +362,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "humanGeographicFeatureEditor";
+        skos:altLabel          "humanGeographicFeatureEditor"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/100/>;
         skos:definition        "Geographic viewer that allows a user to interact with feature data."@en;
+        skos:definition        "Visionneuse géographique permettant à un utilisateur d'interagir avec des données d'entités."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::107";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Geographic feature editor (humanGeographicFeatureEditor)"@en .
+        skos:prefLabel         "Geographic feature editor (humanGeographicFeatureEditor)"@en ;
+        skos:prefLabel         "Éditeur d'entités géographiques (humanGeographicFeatureEditor)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/108/>
         rdf:type               skos:Concept;
@@ -336,12 +384,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "humanGeographicSymbolEditor";
+        skos:altLabel          "humanGeographicSymbolEditor"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/100/>;
         skos:definition        "Client service that allows a human to select and manage symbol libraries."@en;
+        skos:definition        "Service client permettant à un utilisateur de sélectionner et gérer des bibliothèques de symboles."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::108";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Geographic symbol editor (humanGeographicSymbolEditor)"@en .
+        skos:prefLabel         "Geographic symbol editor (humanGeographicSymbolEditor)"@en ;
+        skos:prefLabel         "Éditeur de symboles géographiques (humanGeographicSymbolEditor)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/101/>
         rdf:type               skos:Concept;
@@ -355,12 +406,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "humanCatalogueViewer";
+        skos:altLabel          "humanCatalogueViewer"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/100/>;
         skos:definition        "Client service that allows a user to interact with a catalogue to locate, browse, and manage metadata about geographic data or geographic services."@en;
+        skos:definition        "Service client permettant à un utilisateur d'interagir avec un catalogue pour localiser, parcourir et gérer les métadonnées relatives aux données ou services géographiques."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::101";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Catalogue viewer (humanCatalogueViewer)"@en .
+        skos:prefLabel         "Catalogue viewer (humanCatalogueViewer)"@en ;
+        skos:prefLabel         "Visionneuse de catalogue (humanCatalogueViewer)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/109/>
         rdf:type               skos:Concept;
@@ -374,12 +428,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "humanFeatureGeneralizationEditor";
+        skos:altLabel          "humanFeatureGeneralizationEditor"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/100/>;
         skos:definition        "Client service that allows a user to modify the cartographic characteristics of a feature or feature collection by simplifying its visualisation, while maintaining its salient elements - the spatial equivalent of simplification."@en;
+        skos:definition        "Service client permettant à un utilisateur de modifier les caractéristiques cartographiques d'une entité ou d'une collection d'entités en simplifiant sa visualisation, tout en conservant ses éléments saillants - l'équivalent spatial de la simplification."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::109";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Feature generalisation editor (humanFeatureGeneralizationEditor)"@en .
+        skos:prefLabel         "Feature generalisation editor (humanFeatureGeneralizationEditor)"@en ;
+        skos:prefLabel         "Éditeur de généralisation d'entités (humanFeatureGeneralizationEditor)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/102/>
         rdf:type               skos:Concept;
@@ -393,12 +450,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "humanGeographicViewer";
+        skos:altLabel          "humanGeographicViewer"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/100/>;
         skos:definition        "Client service that allows a user to view one or more feature collections or coverages."@en;
+        skos:definition        "Service client permettant à un utilisateur de visualiser une ou plusieurs collections d'entités ou couvertures."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::102";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Geographic viewer (humanGeographicViewer)"@en .
+        skos:prefLabel         "Geographic viewer (humanGeographicViewer)"@en ;
+        skos:prefLabel         "Visionneuse géographique (humanGeographicViewer)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/512/>
         rdf:type               skos:Concept;
@@ -412,12 +472,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "thematicImageSynthesisService";
+        skos:altLabel          "thematicImageSynthesisService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/500/>;
         skos:definition        "Services for creating or transforming images using computer-based spatial models, perspective transformations, and manipulations of image characteristics to improve visibility, sharpen resolution, and/or reduce the effects of cloud cover or haze."@en;
+        skos:definition        "Services de création ou de transformation d'images utilisant des modèles spatiaux informatiques, des transformations perspectives et des manipulations de caractéristiques d'image pour améliorer la visibilité, augmenter la résolution et/ou réduire les effets de la couverture nuageuse ou du voile."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::512";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Image synthesis services (thematicImageSynthesisService)"@en .
+        skos:prefLabel         "Image synthesis services (thematicImageSynthesisService)"@en ;
+        skos:prefLabel         "Services de synthèse d'images (thematicImageSynthesisService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/805/>
         rdf:type               skos:Concept;
@@ -431,12 +494,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "comMessagingService";
+        skos:altLabel          "comMessagingService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/800/>;
         skos:definition        "Service that allows multiple users to simultaneously view, comment about, and request edits of feature collections."@en;
+        skos:definition        "Service permettant à plusieurs utilisateurs de visualiser, commenter et demander des modifications de collections d'entités simultanément."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::805";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Messaging service (comMessagingService)"@en .
+        skos:prefLabel         "Messaging service (comMessagingService)"@en ;
+        skos:prefLabel         "Service de messagerie (comMessagingService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/417/>
         rdf:type               skos:Concept;
@@ -450,12 +516,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "spatialPositioningService";
+        skos:altLabel          "spatialPositioningService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
         skos:definition        "Service provided by a position-providing device to use, obtain and unambiguously interpret position information, and determines whether the results meet the requirements of the use."@en;
+        skos:definition        "Service fourni par un dispositif de positionnement pour utiliser, obtenir et interpréter sans ambiguïté les informations de position, et qui détermine si les résultats répondent aux exigences de l'utilisation."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::417";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Positioning service (spatialPositioningService)"@en .
+        skos:prefLabel         "Positioning service (spatialPositioningService)"@en ;
+        skos:prefLabel         "Service de positionnement (spatialPositioningService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/404/>
         rdf:type               skos:Concept;
@@ -469,12 +538,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "spatialImageCoordinateConversionService";
+        skos:altLabel          "spatialImageCoordinateConversionService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
         skos:definition        "A coordinate transformation or coordinate conversion service to change the coordinate reference system for an image."@en;
+        skos:definition        "Service de transformation ou de conversion de coordonnées pour modifier le système de référence des coordonnées d'une image."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::404";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Image coordinate conversion service (spatialImageCoordinateConversionService)"@en .
+        skos:prefLabel         "Image coordinate conversion service (spatialImageCoordinateConversionService)"@en ;
+        skos:prefLabel         "Service de conversion de coordonnées d'image (spatialImageCoordinateConversionService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/410/>
         rdf:type               skos:Concept;
@@ -488,12 +560,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "spatialSamplingService";
+        skos:altLabel          "spatialSamplingService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
         skos:definition        "Service that extracts data from an input using a consistent sampling scheme either by geographic location or by grid coordinates."@en;
+        skos:definition        "Service qui extrait des données d'une entrée selon un schéma d'échantillonnage cohérent, par position géographique ou par coordonnées de grille."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::410";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Sampling service (spatialSamplingService)"@en .
+        skos:prefLabel         "Sampling service (spatialSamplingService)"@en ;
+        skos:prefLabel         "Service d'échantillonnage (spatialSamplingService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/601/>
         rdf:type               skos:Concept;
@@ -507,12 +582,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "temporalReferenceSystemTransformationService";
+        skos:altLabel          "temporalReferenceSystemTransformationService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/600/>;
         skos:definition        "Service to change the values of temporal instances from one temporal reference system to another temporal reference system."@en;
+        skos:definition        "Service de modification des valeurs d'instants temporels d'un système de référence temporel à un autre."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::601";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Temporal reference system transformation service (temporalReferenceSystemTransformationService)"@en .
+        skos:prefLabel         "Temporal reference system transformation service (temporalReferenceSystemTransformationService)"@en ;
+        skos:prefLabel         "Service de transformation de système de référence temporel (temporalReferenceSystemTransformationService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/602/>
         rdf:type               skos:Concept;
@@ -526,12 +604,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "temporalSubsettingService";
+        skos:altLabel          "temporalSubsettingService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/600/>;
         skos:definition        "Service that extracts data from an input in a continuous interval based on temporal position values."@en;
+        skos:definition        "Service qui extrait des données d'une entrée sur un intervalle continu en fonction des valeurs de position temporelle."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::602";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Subsetting service (temporalSubsettingService)"@en .
+        skos:prefLabel         "Subsetting service (temporalSubsettingService)"@en ;
+        skos:prefLabel         "Service de sous-ensemble (temporalSubsettingService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/603/>
         rdf:type               skos:Concept;
@@ -545,12 +626,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "temporalSamplingService";
+        skos:altLabel          "temporalSamplingService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/600/>;
         skos:definition        "Service that extracts data from an input using a consistent sampling scheme based on temporal position values."@en;
+        skos:definition        "Service qui extrait des données d'une entrée selon un schéma d'échantillonnage cohérent en fonction des valeurs de position temporelle."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::603";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Sampling service (temporalSamplingService)"@en .
+        skos:prefLabel         "Sampling service (temporalSamplingService)"@en ;
+        skos:prefLabel         "Service d'échantillonnage (temporalSamplingService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/106/>
         rdf:type               skos:Concept;
@@ -564,12 +648,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "humanWorkflowEnactmentManager";
+        skos:altLabel          "humanWorkflowEnactmentManager"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/100/>;
         skos:definition        "Provides user interaction with a workflow enactment service."@en;
+        skos:definition        "Fournit l'interaction utilisateur avec un service d'exécution de flux de travail."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::106";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Workflow enactment manager (humanWorkflowEnactmentManager)"@en .
+        skos:prefLabel         "Workflow enactment manager (humanWorkflowEnactmentManager)"@en ;
+        skos:prefLabel         "Gestionnaire d'exécution de flux de travail (humanWorkflowEnactmentManager)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/505/>
         rdf:type               skos:Concept;
@@ -583,12 +670,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "thematicSpatialCountingService";
+        skos:altLabel          "thematicSpatialCountingService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/500/>;
         skos:definition        "Service that counts geographic features."@en;
+        skos:definition        "Service qui compte les entités géographiques."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::505";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Spatial counting service (thematicSpatialCountingService)"@en .
+        skos:prefLabel         "Spatial counting service (thematicSpatialCountingService)"@en ;
+        skos:prefLabel         "Service de comptage spatial (thematicSpatialCountingService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/511/>
         rdf:type               skos:Concept;
@@ -602,12 +692,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "thematicImageUnderstandingService";
+        skos:altLabel          "thematicImageUnderstandingService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/500/>;
         skos:definition        "Services that provide automated image change detection, registered image differencing, significance-ofdifference analysis and display, and area-based and model-based differencing."@en;
+        skos:definition        "Services de détection automatisée des changements dans les images, de différenciation d'images enregistrées, d'analyse et d'affichage de la significativité des différences, et de différenciation par zone et par modèle."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::511";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Image understanding services (thematicImageUnderstandingService)"@en .
+        skos:prefLabel         "Image understanding services (thematicImageUnderstandingService)"@en ;
+        skos:prefLabel         "Services de compréhension d'image (thematicImageUnderstandingService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/804/>
         rdf:type               skos:Concept;
@@ -621,12 +714,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "comGeographicFormatConversionService";
+        skos:altLabel          "comGeographicFormatConversionService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/800/>;
         skos:definition        "Service that converts from one geographic data format to another."@en;
+        skos:definition        "Service qui convertit d'un format de données géographiques à un autre."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::804";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Geographic format conversion service (comGeographicFormatConversionService)"@en .
+        skos:prefLabel         "Geographic format conversion service (comGeographicFormatConversionService)"@en ;
+        skos:prefLabel         "Service de conversion de format géographique (comGeographicFormatConversionService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/416/>
         rdf:type               skos:Concept;
@@ -640,12 +736,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "spatialRouteDeterminationService";
+        skos:altLabel          "spatialRouteDeterminationService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
         skos:definition        "Service to determine the optimal path between two specified points based on the input parameters and properties contained in the Feature Collection."@en;
+        skos:definition        "Service de détermination du chemin optimal entre deux points spécifiés en fonction des paramètres d'entrée et des propriétés contenus dans la collection d'entités."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::416";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Route determination service (spatialRouteDeterminationService)"@en .
+        skos:prefLabel         "Route determination service (spatialRouteDeterminationService)"@en ;
+        skos:prefLabel         "Service de détermination d'itinéraire (spatialRouteDeterminationService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/403/>
         rdf:type               skos:Concept;
@@ -659,12 +758,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "spatialCoverageVectorConversionService";
+        skos:altLabel          "spatialCoverageVectorConversionService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
         skos:definition        "Service to change the spatial representation from a coverage schema to a vector schema, or vice versa."@en;
+        skos:definition        "Service de modification de la représentation spatiale d'un schéma de couverture vers un schéma vectoriel, ou inversement."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::403";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Coverage/vector conversion service (spatialCoverageVectorConversionService)"@en .
+        skos:prefLabel         "Coverage/vector conversion service (spatialCoverageVectorConversionService)"@en ;
+        skos:prefLabel         "Service de conversion couverture/vectoriel (spatialCoverageVectorConversionService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/209/>
         rdf:type               skos:Concept;
@@ -678,12 +780,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "infoGazetteerService";
+        skos:altLabel          "infoGazetteerService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/200/>;
         skos:definition        "Service that provides access to a directory of instances of a class or classes of real-world phenomena containing some information regarding position."@en;
+        skos:definition        "Service qui donne accès à un répertoire d'instances d'une ou plusieurs classes de phénomènes du monde réel contenant des informations sur la position."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::209";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Gazetteer service (infoGazetteerService)"@en .
+        skos:prefLabel         "Gazetteer service (infoGazetteerService)"@en ;
+        skos:prefLabel         "Service de gazetteer (infoGazetteerService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/201/>
         rdf:type               skos:Concept;
@@ -697,12 +802,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "infoFeatureAccessService";
+        skos:altLabel          "infoFeatureAccessService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/200/>;
         skos:definition        "Service that provides a client access to and management of a feature store."@en;
+        skos:definition        "Service qui donne à un client accès à une base d'entités et sa gestion."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::201";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Feature access service (infoFeatureAccessService)"@en .
+        skos:prefLabel         "Feature access service (infoFeatureAccessService)"@en ;
+        skos:prefLabel         "Service d'accès aux entités (infoFeatureAccessService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/204/>
         rdf:type               skos:Concept;
@@ -716,12 +824,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "infoSensorDescriptionService";
+        skos:altLabel          "infoSensorDescriptionService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/200/>;
         skos:definition        "Service that provides the description of a coverage sensor, including sensor location and orientation, as well as the sensor's geometric, dynamic, and radiometric characteristics for geo-processing purposes."@en;
+        skos:definition        "Service qui fournit la description d'un capteur de couverture, incluant la position et l'orientation du capteur ainsi que ses caractéristiques géométriques, dynamiques et radiométriques aux fins de géo-traitement."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::204";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Sensor description service (infoSensorDescriptionService)"@en .
+        skos:prefLabel         "Sensor description service (infoSensorDescriptionService)"@en ;
+        skos:prefLabel         "Service de description de capteur (infoSensorDescriptionService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/207/>
         rdf:type               skos:Concept;
@@ -735,12 +846,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "infoCatalogueService";
+        skos:altLabel          "infoCatalogueService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/200/>;
         skos:definition        "Service that provides discovery and management services on a store of metadata about instances."@en;
+        skos:definition        "Service qui fournit des services de découverte et de gestion sur un magasin de métadonnées relatives aux instances."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::207";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Catalogue service (infoCatalogueService)"@en .
+        skos:prefLabel         "Catalogue service (infoCatalogueService)"@en ;
+        skos:prefLabel         "Service de catalogue (infoCatalogueService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/208/>
         rdf:type               skos:Concept;
@@ -754,12 +868,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "infoRegistryService";
+        skos:altLabel          "infoRegistryService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/200/>;
         skos:definition        "Service that provides access to store of metadata about types."@en;
+        skos:definition        "Service qui donne accès à un magasin de métadonnées relatives aux types."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::208";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Registry Service (infoRegistryService)"@en .
+        skos:prefLabel         "Registry Service (infoRegistryService)"@en ;
+        skos:prefLabel         "Service de registre (infoRegistryService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/210/>
         rdf:type               skos:Concept;
@@ -773,12 +890,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "infoOrderHandlingService";
+        skos:altLabel          "infoOrderHandlingService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/200/>;
         skos:definition        "Service that provides a client with the ability to order products from a provider."@en;
+        skos:definition        "Service qui permet à un client de commander des produits auprès d'un fournisseur."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::210";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Order handling service (infoOrderHandlingService)"@en .
+        skos:prefLabel         "Order handling service (infoOrderHandlingService)"@en ;
+        skos:prefLabel         "Service de gestion des commandes (infoOrderHandlingService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/202/>
         rdf:type               skos:Concept;
@@ -792,12 +912,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "infoMapAccessService";
+        skos:altLabel          "infoMapAccessService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/200/>;
         skos:definition        "Service that provides a client access to a geographic graphics, i.e. pictures of geographic data."@en;
+        skos:definition        "Service qui donne à un client accès à des représentations graphiques géographiques, c'est-à-dire des images de données géographiques."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::202";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Map access service (infoMapAccessService)"@en .
+        skos:prefLabel         "Map access service (infoMapAccessService)"@en ;
+        skos:prefLabel         "Service d'accès aux cartes (infoMapAccessService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/203/>
         rdf:type               skos:Concept;
@@ -811,12 +934,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "infoCoverageAccessService";
+        skos:altLabel          "infoCoverageAccessService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/200/>;
         skos:definition        "Service that provides a client access to and management of a coverage store."@en;
+        skos:definition        "Service qui donne à un client accès à une base de couvertures et sa gestion."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::203";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Coverage access service (infoCoverageAccessService)"@en .
+        skos:prefLabel         "Coverage access service (infoCoverageAccessService)"@en ;
+        skos:prefLabel         "Service d'accès aux couvertures (infoCoverageAccessService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/105/>
         rdf:type               skos:Concept;
@@ -830,12 +956,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "humanChainDefinitionEditor";
+        skos:altLabel          "humanChainDefinitionEditor"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/100/>;
         skos:definition        "Provides user interaction with a chain definition service."@en;
+        skos:definition        "Fournit l'interaction utilisateur avec un service de définition de chaîne."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::105";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Chain definition editor (humanChainDefinitionEditor)"@en .
+        skos:prefLabel         "Chain definition editor (humanChainDefinitionEditor)"@en ;
+        skos:prefLabel         "Éditeur de définition de chaîne (humanChainDefinitionEditor)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/504/>
         rdf:type               skos:Concept;
@@ -849,12 +978,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "thematicSubsettingService";
+        skos:altLabel          "thematicSubsettingService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/500/>;
         skos:definition        "Service that extracts data from an input based on parameter values."@en;
+        skos:definition        "Service qui extrait des données d'une entrée en fonction des valeurs de paramètres."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::504";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Subsetting service (thematicSubsettingService)"@en .
+        skos:prefLabel         "Subsetting service (thematicSubsettingService)"@en ;
+        skos:prefLabel         "Service de sous-ensemble (thematicSubsettingService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/510/>
         rdf:type               skos:Concept;
@@ -868,12 +1000,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "thematicImageManipulationService";
+        skos:altLabel          "thematicImageManipulationService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/500/>;
         skos:definition        "Services for manipulating data values in images: changing colour and contrast values, applying various filters, manipulating image resolution, noise removal, 'striping', systematic-radiometric corrections, atmospheric attenuation, changes in scene illumination, etc."@en;
+        skos:definition        "Services de manipulation des valeurs de données dans les images : modification des valeurs de couleur et de contraste, application de divers filtres, manipulation de la résolution d'image, réduction du bruit, « striations », corrections radiométriques systématiques, atténuation atmosphérique, modifications de l'éclairage de la scène, etc."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::510";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Image Manipulation Services (thematicImageManipulationService)"@en .
+        skos:prefLabel         "Image Manipulation Services (thematicImageManipulationService)"@en ;
+        skos:prefLabel         "Services de manipulation d'images (thematicImageManipulationService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/803/>
         rdf:type               skos:Concept;
@@ -887,12 +1022,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "comGeographicCompressionService";
+        skos:altLabel          "comGeographicCompressionService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/800/>;
         skos:definition        "Service that converts spatial portions of a feature collection to and from compressed form."@en;
+        skos:definition        "Service qui convertit les portions spatiales d'une collection d'entités vers et depuis une forme compressée."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::803";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Geographic compression service (comGeographicCompressionService)"@en .
+        skos:prefLabel         "Geographic compression service (comGeographicCompressionService)"@en ;
+        skos:prefLabel         "Service de compression géographique (comGeographicCompressionService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/409/>
         rdf:type               skos:Concept;
@@ -906,12 +1044,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "spatialSubsettingService";
+        skos:altLabel          "spatialSubsettingService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
         skos:definition        "Service that extracts data from an input in a continuous spatial region either by geographic location or by grid coordinates."@en;
+        skos:definition        "Service qui extrait des données d'une entrée dans une région spatiale continue, par position géographique ou par coordonnées de grille."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::409";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Subsetting service (spatialSubsettingService)"@en .
+        skos:prefLabel         "Subsetting service (spatialSubsettingService)"@en ;
+        skos:prefLabel         "Service de sous-ensemble (spatialSubsettingService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/206/>
         rdf:type               skos:Concept;
@@ -925,12 +1066,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "infoFeatureTypeService";
+        skos:altLabel          "infoFeatureTypeService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/200/>;
         skos:definition        "Service that provides a client to access to and management of a store of feature type definitions."@en;
+        skos:definition        "Service qui donne à un client accès à un magasin de définitions de types d'entités et sa gestion."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::206";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Feature type service (infoFeatureTypeService)"@en .
+        skos:prefLabel         "Feature type service (infoFeatureTypeService)"@en ;
+        skos:prefLabel         "Service de types d'entités (infoFeatureTypeService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/415/>
         rdf:type               skos:Concept;
@@ -944,12 +1088,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "spatialFeatureGeneralizationService";
+        skos:altLabel          "spatialFeatureGeneralizationService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
         skos:definition        "Service that reduces spatial variation in a feature collection to increase the effectiveness of communication by counteracting the undesirable effects of data reduction."@en;
+        skos:definition        "Service qui réduit la variation spatiale dans une collection d'entités pour accroître l'efficacité de la communication en contrebalançant les effets indésirables de la réduction des données."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::415";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Feature generalisation service (spatialFeatureGeneralizationService)"@en .
+        skos:prefLabel         "Feature generalisation service (spatialFeatureGeneralizationService)"@en ;
+        skos:prefLabel         "Service de généralisation d'entités (spatialFeatureGeneralizationService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/402/>
         rdf:type               skos:Concept;
@@ -963,12 +1110,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "spatialCoordinateTransformationService";
+        skos:altLabel          "spatialCoordinateTransformationService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
         skos:definition        "Service to change coordinates from a coordinate reference system based on one datum to a coordinate reference system based on a second datum."@en;
+        skos:definition        "Service de modification des coordonnées d'un système de référence des coordonnées fondé sur un référentiel à un système fondé sur un second référentiel."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::402";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Coordinate transformation service (spatialCoordinateTransformationService)"@en .
+        skos:prefLabel         "Coordinate transformation service (spatialCoordinateTransformationService)"@en ;
+        skos:prefLabel         "Service de transformation de coordonnées (spatialCoordinateTransformationService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/104/>
         rdf:type               skos:Concept;
@@ -982,12 +1132,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "humanServiceEditor";
+        skos:altLabel          "humanServiceEditor"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/100/>;
         skos:definition        "Client service that allows a user to control geographic processing services."@en;
+        skos:definition        "Service client permettant à un utilisateur de contrôler les services de traitement géographique."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::104";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Service editor (humanServiceEditor)"@en .
+        skos:prefLabel         "Service editor (humanServiceEditor)"@en ;
+        skos:prefLabel         "Éditeur de service (humanServiceEditor)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/516/>
         rdf:type               skos:Concept;
@@ -1001,12 +1154,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "thematicGeocodingService";
+        skos:altLabel          "thematicGeocodingService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/500/>;
         skos:definition        "Service to augment location-based text references with geographic coordinates (or some other spatial reference)."@en;
+        skos:definition        "Service d'enrichissement de références textuelles basées sur la localisation par des coordonnées géographiques (ou une autre référence spatiale)."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::516";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Geocoding service (thematicGeocodingService)"@en .
+        skos:prefLabel         "Geocoding service (thematicGeocodingService)"@en ;
+        skos:prefLabel         "Service de géocodage (thematicGeocodingService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/110/>
         rdf:type               skos:Concept;
@@ -1020,12 +1176,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "humanGeographicDataStructureViewer";
+        skos:altLabel          "humanGeographicDataStructureViewer"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/100/>;
         skos:definition        "Client service that allows a user to access part of data set to see its internal structure."@en;
+        skos:definition        "Service client permettant à un utilisateur d'accéder à une partie d'un jeu de données pour en voir la structure interne."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::110";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Geographic data-structure viewer (humanGeographicDataStructureViewer)"@en .
+        skos:prefLabel         "Geographic data-structure viewer (humanGeographicDataStructureViewer)"@en ;
+        skos:prefLabel         "Visionneuse de structure de données géographiques (humanGeographicDataStructureViewer)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/503/>
         rdf:type               skos:Concept;
@@ -1039,12 +1198,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "thematicFeatureGeneralizationService";
+        skos:altLabel          "thematicFeatureGeneralizationService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/500/>;
         skos:definition        "Service that generalises feature types in a feature collection to increase the effectiveness of communication by counteracting the undesirable effects of data reduction."@en;
+        skos:definition        "Service qui généralise les types d'entités dans une collection d'entités pour accroître l'efficacité de la communication en contrebalançant les effets indésirables de la réduction des données."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::503";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Feature generalisation service (thematicFeatureGeneralizationService)"@en .
+        skos:prefLabel         "Feature generalisation service (thematicFeatureGeneralizationService)"@en ;
+        skos:prefLabel         "Service de généralisation d'entités (thematicFeatureGeneralizationService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/301/>
         rdf:type               skos:Concept;
@@ -1058,12 +1220,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "chainDefinitionService";
+        skos:altLabel          "chainDefinitionService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/300/>;
         skos:definition        "Service to define a chain and to enable it to be executed by the workflow enactment service."@en;
+        skos:definition        "Service de définition d'une chaîne et de sa prise en charge par le service d'exécution de flux de travail."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::301";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Chain definition service (chainDefinitionService)"@en .
+        skos:prefLabel         "Chain definition service (chainDefinitionService)"@en ;
+        skos:prefLabel         "Service de définition de chaîne (chainDefinitionService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/303/>
         rdf:type               skos:Concept;
@@ -1077,12 +1242,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "subscriptionService";
+        skos:altLabel          "subscriptionService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/300/>;
         skos:definition        "Service to allow clients to register for notification about events."@en;
+        skos:definition        "Service permettant aux clients de s'abonner aux notifications d'événements."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::303";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Subscription service (subscriptionService)"@en .
+        skos:prefLabel         "Subscription service (subscriptionService)"@en ;
+        skos:prefLabel         "Service d'abonnement (subscriptionService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/302/>
         rdf:type               skos:Concept;
@@ -1096,12 +1264,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "workflowEnactmentService";
+        skos:altLabel          "workflowEnactmentService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/300/>;
         skos:definition        "The workflow enactment service interprets a chain and controls the instantiation of services and sequencing of activities."@en;
+        skos:definition        "Le service d'exécution de flux de travail interprète une chaîne et contrôle l'instanciation des services et le séquencement des activités."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::302";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Workflow enactment service (workflowEnactmentService)"@en .
+        skos:prefLabel         "Workflow enactment service (workflowEnactmentService)"@en ;
+        skos:prefLabel         "Service d'exécution de flux de travail (workflowEnactmentService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/300/>
         rdf:type               skos:Concept;
@@ -1115,11 +1286,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "taskManagementService";
+        skos:altLabel          "taskManagementService"@fr ;
         skos:definition        "Unspecified"@en;
+        skos:definition        "Non spécifié"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P26/current/302/> , <http://vocab.nerc.ac.uk/collection/P26/current/303/> , <http://vocab.nerc.ac.uk/collection/P26/current/301/>;
         skos:notation          "SDN:P26::300";
         skos:note              "accepted"@en;
         skos:prefLabel         "Geographic workflow/task management services (taskManagementService)"@en;
+        skos:prefLabel         "Services de gestion de flux de travail/tâches géographiques (taskManagementService)"@fr ;
         skos:topConceptOf      <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/> .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/800/>
@@ -1134,11 +1308,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "comService";
+        skos:altLabel          "comService"@fr ;
         skos:definition        "Unspecified"@en;
+        skos:definition        "Non spécifié"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P26/current/802/> , <http://vocab.nerc.ac.uk/collection/P26/current/803/> , <http://vocab.nerc.ac.uk/collection/P26/current/804/> , <http://vocab.nerc.ac.uk/collection/P26/current/805/> , <http://vocab.nerc.ac.uk/collection/P26/current/806/> , <http://vocab.nerc.ac.uk/collection/P26/current/801/>;
         skos:notation          "SDN:P26::800";
         skos:note              "accepted"@en;
         skos:prefLabel         "Geographic communication services (comService)"@en;
+        skos:prefLabel         "Services de communication géographique (comService)"@fr ;
         skos:topConceptOf      <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/> .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/802/>
@@ -1153,12 +1330,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "comTransferService";
+        skos:altLabel          "comTransferService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/800/>;
         skos:definition        "Service that provides implementation of one or more transfer protocols, which allows data transfer between distributed information systems over offline or online communication media."@en;
+        skos:definition        "Service qui fournit l'implémentation d'un ou plusieurs protocoles de transfert, permettant le transfert de données entre systèmes d'information distribués via des supports de communication hors ligne ou en ligne."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::802";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Transfer service (comTransferService)"@en .
+        skos:prefLabel         "Transfer service (comTransferService)"@en ;
+        skos:prefLabel         "Service de transfert (comTransferService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/408/>
         rdf:type               skos:Concept;
@@ -1172,12 +1352,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "spatialImageGeometryModelConversionService";
+        skos:altLabel          "spatialImageGeometryModelConversionService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
         skos:definition        "Service that converts sensor geometry models into a different but equivalent sensor geometry model."@en;
+        skos:definition        "Service qui convertit les modèles de géométrie de capteur en un modèle de géométrie de capteur différent mais équivalent."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::408";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Image geometry model conversion service (spatialImageGeometryModelConversionService)"@en .
+        skos:prefLabel         "Image geometry model conversion service (spatialImageGeometryModelConversionService)"@en ;
+        skos:prefLabel         "Service de conversion de modèle de géométrie d'image (spatialImageGeometryModelConversionService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/205/>
         rdf:type               skos:Concept;
@@ -1191,12 +1374,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "infoProductAccessService";
+        skos:altLabel          "infoProductAccessService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/200/>;
         skos:definition        "Service that provides access to and management of a geographic product store."@en;
+        skos:definition        "Service qui donne accès à un magasin de produits géographiques et sa gestion."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::205";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Product access service (infoProductAccessService)"@en .
+        skos:prefLabel         "Product access service (infoProductAccessService)"@en ;
+        skos:prefLabel         "Service d'accès aux produits (infoProductAccessService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/414/>
         rdf:type               skos:Concept;
@@ -1210,12 +1396,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "spatialFeatureMatchingService";
+        skos:altLabel          "spatialFeatureMatchingService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
         skos:definition        "Service that determines which features and portions of features represent the same real world entity from multiple data sources, e.g., edge matching and limited conflation."@en;
+        skos:definition        "Service qui détermine quelles entités et quelles portions d'entités représentent la même entité du monde réel à partir de sources de données multiples, ex. la correspondance des bords et la fusion limitée."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::414";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Feature matching service (spatialFeatureMatchingService)"@en .
+        skos:prefLabel         "Feature matching service (spatialFeatureMatchingService)"@en ;
+        skos:prefLabel         "Service de mise en correspondance d'entités (spatialFeatureMatchingService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/200/>
         rdf:type               skos:Concept;
@@ -1229,11 +1418,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "infoManagementService";
+        skos:altLabel          "infoManagementService"@fr ;
         skos:definition        "Unspecified"@en;
+        skos:definition        "Non spécifié"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P26/current/209/> , <http://vocab.nerc.ac.uk/collection/P26/current/201/> , <http://vocab.nerc.ac.uk/collection/P26/current/204/> , <http://vocab.nerc.ac.uk/collection/P26/current/211/> , <http://vocab.nerc.ac.uk/collection/P26/current/205/> , <http://vocab.nerc.ac.uk/collection/P26/current/206/> , <http://vocab.nerc.ac.uk/collection/P26/current/203/> , <http://vocab.nerc.ac.uk/collection/P26/current/202/> , <http://vocab.nerc.ac.uk/collection/P26/current/210/> , <http://vocab.nerc.ac.uk/collection/P26/current/208/> , <http://vocab.nerc.ac.uk/collection/P26/current/207/>;
         skos:notation          "SDN:P26::200";
         skos:note              "accepted"@en;
         skos:prefLabel         "Geographic model/information management service (infoManagementService)"@en;
+        skos:prefLabel         "Service de gestion de modèle/information géographique (infoManagementService)"@fr ;
         skos:topConceptOf      <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/> .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/211/>
@@ -1248,12 +1440,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "infoStandingOrderService";
+        skos:altLabel          "infoStandingOrderService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/200/>;
         skos:definition        "Order handling service that allows a user to request that a product over a geographic area be disseminated when it becomes available."@en;
+        skos:definition        "Service de gestion des commandes permettant à un utilisateur de demander la diffusion d'un produit sur une zone géographique dès sa disponibilité."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::211";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Standing order service (infoStandingOrderService)"@en .
+        skos:prefLabel         "Standing order service (infoStandingOrderService)"@en ;
+        skos:prefLabel         "Service de commande permanente (infoStandingOrderService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/600/>
         rdf:type               skos:Concept;
@@ -1267,11 +1462,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "temporalProcessingService";
+        skos:altLabel          "temporalProcessingService"@fr ;
         skos:definition        "Unspecified"@en;
+        skos:definition        "Non spécifié"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P26/current/604/> , <http://vocab.nerc.ac.uk/collection/P26/current/603/> , <http://vocab.nerc.ac.uk/collection/P26/current/602/> , <http://vocab.nerc.ac.uk/collection/P26/current/601/>;
         skos:notation          "SDN:P26::600";
         skos:note              "accepted"@en;
         skos:prefLabel         "Geographic processing services - temporal (temporalProcessingService)"@en;
+        skos:prefLabel         "Services de traitement géographique - temporel (temporalProcessingService)"@fr ;
         skos:topConceptOf      <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/> .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/604/>
@@ -1286,12 +1484,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "temporalProximityAnalysisService";
+        skos:altLabel          "temporalProximityAnalysisService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/600/>;
         skos:definition        "Given a temporal interval or event, find all objects with a given set of attributes that are located within a userspecified interval from the interval or event."@en;
+        skos:definition        "Étant donné un intervalle ou un événement temporel, trouve tous les objets ayant un ensemble d'attributs donné situés dans un intervalle spécifié par l'utilisateur par rapport à l'intervalle ou à l'événement."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::604";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Temporal proximity analysis service (temporalProximityAnalysisService)"@en .
+        skos:prefLabel         "Temporal proximity analysis service (temporalProximityAnalysisService)"@en ;
+        skos:prefLabel         "Service d'analyse de proximité temporelle (temporalProximityAnalysisService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/400/>
         rdf:type               skos:Concept;
@@ -1305,11 +1506,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "spatialProcessingService";
+        skos:altLabel          "spatialProcessingService"@fr ;
         skos:definition        "Unspecified"@en;
+        skos:definition        "Non spécifié"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P26/current/407/> , <http://vocab.nerc.ac.uk/collection/P26/current/413/> , <http://vocab.nerc.ac.uk/collection/P26/current/406/> , <http://vocab.nerc.ac.uk/collection/P26/current/412/> , <http://vocab.nerc.ac.uk/collection/P26/current/418/> , <http://vocab.nerc.ac.uk/collection/P26/current/405/> , <http://vocab.nerc.ac.uk/collection/P26/current/411/> , <http://vocab.nerc.ac.uk/collection/P26/current/417/> , <http://vocab.nerc.ac.uk/collection/P26/current/404/> , <http://vocab.nerc.ac.uk/collection/P26/current/410/> , <http://vocab.nerc.ac.uk/collection/P26/current/401/> , <http://vocab.nerc.ac.uk/collection/P26/current/414/> , <http://vocab.nerc.ac.uk/collection/P26/current/408/> , <http://vocab.nerc.ac.uk/collection/P26/current/402/> , <http://vocab.nerc.ac.uk/collection/P26/current/415/> , <http://vocab.nerc.ac.uk/collection/P26/current/409/> , <http://vocab.nerc.ac.uk/collection/P26/current/403/> , <http://vocab.nerc.ac.uk/collection/P26/current/416/>;
         skos:notation          "SDN:P26::400";
         skos:note              "accepted"@en;
         skos:prefLabel         "Geographic processing services - spatial (spatialProcessingService)"@en;
+        skos:prefLabel         "Services de traitement géographique - spatial (spatialProcessingService)"@fr ;
         skos:topConceptOf      <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/> .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/401/>
@@ -1324,12 +1528,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "spatialCoordinateConversionService";
+        skos:altLabel          "spatialCoordinateConversionService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/400/>;
         skos:definition        "Service to change coordinates from one coordinate system to another coordinate system that is related to the same datum."@en;
+        skos:definition        "Service de modification des coordonnées d'un système de coordonnées à un autre système de coordonnées lié au même référentiel."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::401";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Coordinate conversion service (spatialCoordinateConversionService)"@en .
+        skos:prefLabel         "Coordinate conversion service (spatialCoordinateConversionService)"@en ;
+        skos:prefLabel         "Service de conversion de coordonnées (spatialCoordinateConversionService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/702/>
         rdf:type               skos:Concept;
@@ -1343,12 +1550,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "metadataGeographicAnnotationService";
+        skos:altLabel          "metadataGeographicAnnotationService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/700/>;
         skos:definition        "Services to add ancillary information to an image or a feature in a feature collection."@en;
+        skos:definition        "Services d'ajout d'informations auxiliaires à une image ou à une entité dans une collection d'entités."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::702";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Geographic annotation services (metadataGeographicAnnotationService)"@en .
+        skos:prefLabel         "Geographic annotation services (metadataGeographicAnnotationService)"@en ;
+        skos:prefLabel         "Services d'annotation géographique (metadataGeographicAnnotationService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/701/>
         rdf:type               skos:Concept;
@@ -1362,12 +1572,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "metadataStatisticalCalculationService";
+        skos:altLabel          "metadataStatisticalCalculationService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/700/>;
         skos:definition        "Service to calculate the statistics of a data set."@en;
+        skos:definition        "Service de calcul des statistiques d'un jeu de données."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::701";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Statistical calculation service (metadataStatisticalCalculationService)"@en .
+        skos:prefLabel         "Statistical calculation service (metadataStatisticalCalculationService)"@en ;
+        skos:prefLabel         "Service de calcul statistique (metadataStatisticalCalculationService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/700/>
         rdf:type               skos:Concept;
@@ -1381,11 +1594,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "metadataProcessingService";
+        skos:altLabel          "metadataProcessingService"@fr ;
         skos:definition        "Unspecified"@en;
+        skos:definition        "Non spécifié"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P26/current/701/> , <http://vocab.nerc.ac.uk/collection/P26/current/702/>;
         skos:notation          "SDN:P26::700";
         skos:note              "accepted"@en;
         skos:prefLabel         "Geographic processing services - metadata (metadataProcessingService)"@en;
+        skos:prefLabel         "Services de traitement géographique - métadonnées (metadataProcessingService)"@fr ;
         skos:topConceptOf      <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/> .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/509/>
@@ -1400,12 +1616,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "thematicReducedResolutionGenerationService";
+        skos:altLabel          "thematicReducedResolutionGenerationService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/500/>;
         skos:definition        "Service that reduces the resolution of an image."@en;
+        skos:definition        "Service qui réduit la résolution d'une image."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::509";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Reduced resolution generation service (thematicReducedResolutionGenerationService)"@en .
+        skos:prefLabel         "Reduced resolution generation service (thematicReducedResolutionGenerationService)"@en ;
+        skos:prefLabel         "Service de génération à résolution réduite (thematicReducedResolutionGenerationService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/100/>
         rdf:type               skos:Concept;
@@ -1419,11 +1638,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "humanInteractionService";
+        skos:altLabel          "humanInteractionService"@fr ;
         skos:definition        "Unspecified"@en;
+        skos:definition        "Non spécifié"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P26/current/107/> , <http://vocab.nerc.ac.uk/collection/P26/current/108/> , <http://vocab.nerc.ac.uk/collection/P26/current/103/> , <http://vocab.nerc.ac.uk/collection/P26/current/110/> , <http://vocab.nerc.ac.uk/collection/P26/current/104/> , <http://vocab.nerc.ac.uk/collection/P26/current/105/> , <http://vocab.nerc.ac.uk/collection/P26/current/106/> , <http://vocab.nerc.ac.uk/collection/P26/current/102/> , <http://vocab.nerc.ac.uk/collection/P26/current/109/> , <http://vocab.nerc.ac.uk/collection/P26/current/101/>;
         skos:notation          "SDN:P26::100";
         skos:note              "accepted"@en;
         skos:prefLabel         "Geographic human interaction services (humanInteractionService)"@en;
+        skos:prefLabel         "Services d'interaction humaine géographique (humanInteractionService)"@fr ;
         skos:topConceptOf      <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/> .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/103/>
@@ -1438,12 +1660,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "humanGeographicSpreadsheetViewer";
+        skos:altLabel          "humanGeographicSpreadsheetViewer"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/100/>;
         skos:definition        "Client service that allows a user to interact with multiple data objects and to request calculations similar to an arithmetic spreadsheet but extended to geographic data."@en;
+        skos:definition        "Service client permettant à un utilisateur d'interagir avec plusieurs objets de données et de demander des calculs similaires à un tableur arithmétique mais étendus aux données géographiques."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::103";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Geographic spreadsheet viewer (humanGeographicSpreadsheetViewer)"@en .
+        skos:prefLabel         "Geographic spreadsheet viewer (humanGeographicSpreadsheetViewer)"@en ;
+        skos:prefLabel         "Visionneuse tableur géographique (humanGeographicSpreadsheetViewer)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/515/>
         rdf:type               skos:Concept;
@@ -1457,12 +1682,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "thematicGeoparsingService";
+        skos:altLabel          "thematicGeoparsingService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/500/>;
         skos:definition        "Service to scan text documents for location-based references, such as a place names, addresses, postal codes, etc., in preparation for passage to a geocoding service."@en;
+        skos:definition        "Service de repérage dans les documents textuels de références basées sur la localisation, comme des noms de lieux, adresses, codes postaux, etc., en préparation du passage à un service de géocodage."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::515";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Geoparsing service (thematicGeoparsingService)"@en .
+        skos:prefLabel         "Geoparsing service (thematicGeoparsingService)"@en ;
+        skos:prefLabel         "Service de géoparsage (thematicGeoparsingService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/500/>
         rdf:type               skos:Concept;
@@ -1476,11 +1704,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "thematicProcessingService";
+        skos:altLabel          "thematicProcessingService"@fr ;
         skos:definition        "Unspecified"@en;
+        skos:definition        "Non spécifié"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P26/current/507/> , <http://vocab.nerc.ac.uk/collection/P26/current/508/> , <http://vocab.nerc.ac.uk/collection/P26/current/514/> , <http://vocab.nerc.ac.uk/collection/P26/current/501/> , <http://vocab.nerc.ac.uk/collection/P26/current/513/> , <http://vocab.nerc.ac.uk/collection/P26/current/506/> , <http://vocab.nerc.ac.uk/collection/P26/current/512/> , <http://vocab.nerc.ac.uk/collection/P26/current/505/> , <http://vocab.nerc.ac.uk/collection/P26/current/502/> , <http://vocab.nerc.ac.uk/collection/P26/current/515/> , <http://vocab.nerc.ac.uk/collection/P26/current/509/> , <http://vocab.nerc.ac.uk/collection/P26/current/503/> , <http://vocab.nerc.ac.uk/collection/P26/current/516/> , <http://vocab.nerc.ac.uk/collection/P26/current/510/> , <http://vocab.nerc.ac.uk/collection/P26/current/504/> , <http://vocab.nerc.ac.uk/collection/P26/current/511/>;
         skos:notation          "SDN:P26::500";
         skos:note              "accepted"@en;
         skos:prefLabel         "Geographic processing services - thematic (thematicProcessingService)"@en;
+        skos:prefLabel         "Services de traitement géographique - thématique (thematicProcessingService)"@fr ;
         skos:topConceptOf      <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/> .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/502/>
@@ -1495,12 +1726,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "thematicClassificationService";
+        skos:altLabel          "thematicClassificationService"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P26/current/500/>;
         skos:definition        "Service to classify regions of geographic data based on thematic attributes."@en;
+        skos:definition        "Service de classification des régions de données géographiques en fonction d'attributs thématiques."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/ISO_GST/current/>;
         skos:notation          "SDN:P26::502";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Thematic classification service (thematicClassificationService)"@en .
+        skos:prefLabel         "Thematic classification service (thematicClassificationService)"@en ;
+        skos:prefLabel         "Service de classification thématique (thematicClassificationService)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P26/current/>
         rdf:type                skos:Collection;
@@ -1515,5 +1749,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "International Organization for Standardization";
         owl:versionInfo         "1";
         skos:altLabel           "ISO19119 services taxonomy";
+        skos:altLabel           "ISO19119 services taxonomy"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/P26/current/407/> , <http://vocab.nerc.ac.uk/collection/P26/current/413/> , <http://vocab.nerc.ac.uk/collection/P26/current/801/> , <http://vocab.nerc.ac.uk/collection/P26/current/406/> , <http://vocab.nerc.ac.uk/collection/P26/current/412/> , <http://vocab.nerc.ac.uk/collection/P26/current/806/> , <http://vocab.nerc.ac.uk/collection/P26/current/507/> , <http://vocab.nerc.ac.uk/collection/P26/current/508/> , <http://vocab.nerc.ac.uk/collection/P26/current/514/> , <http://vocab.nerc.ac.uk/collection/P26/current/501/> , <http://vocab.nerc.ac.uk/collection/P26/current/513/> , <http://vocab.nerc.ac.uk/collection/P26/current/418/> , <http://vocab.nerc.ac.uk/collection/P26/current/405/> , <http://vocab.nerc.ac.uk/collection/P26/current/411/> , <http://vocab.nerc.ac.uk/collection/P26/current/506/> , <http://vocab.nerc.ac.uk/collection/P26/current/107/> , <http://vocab.nerc.ac.uk/collection/P26/current/108/> , <http://vocab.nerc.ac.uk/collection/P26/current/101/> , <http://vocab.nerc.ac.uk/collection/P26/current/109/> , <http://vocab.nerc.ac.uk/collection/P26/current/102/> , <http://vocab.nerc.ac.uk/collection/P26/current/512/> , <http://vocab.nerc.ac.uk/collection/P26/current/805/> , <http://vocab.nerc.ac.uk/collection/P26/current/417/> , <http://vocab.nerc.ac.uk/collection/P26/current/404/> , <http://vocab.nerc.ac.uk/collection/P26/current/410/> , <http://vocab.nerc.ac.uk/collection/P26/current/601/> , <http://vocab.nerc.ac.uk/collection/P26/current/602/> , <http://vocab.nerc.ac.uk/collection/P26/current/603/> , <http://vocab.nerc.ac.uk/collection/P26/current/106/> , <http://vocab.nerc.ac.uk/collection/P26/current/505/> , <http://vocab.nerc.ac.uk/collection/P26/current/511/> , <http://vocab.nerc.ac.uk/collection/P26/current/804/> , <http://vocab.nerc.ac.uk/collection/P26/current/416/> , <http://vocab.nerc.ac.uk/collection/P26/current/403/> , <http://vocab.nerc.ac.uk/collection/P26/current/209/> , <http://vocab.nerc.ac.uk/collection/P26/current/201/> , <http://vocab.nerc.ac.uk/collection/P26/current/204/> , <http://vocab.nerc.ac.uk/collection/P26/current/207/> , <http://vocab.nerc.ac.uk/collection/P26/current/208/> , <http://vocab.nerc.ac.uk/collection/P26/current/210/> , <http://vocab.nerc.ac.uk/collection/P26/current/202/> , <http://vocab.nerc.ac.uk/collection/P26/current/203/> , <http://vocab.nerc.ac.uk/collection/P26/current/105/> , <http://vocab.nerc.ac.uk/collection/P26/current/504/> , <http://vocab.nerc.ac.uk/collection/P26/current/510/> , <http://vocab.nerc.ac.uk/collection/P26/current/803/> , <http://vocab.nerc.ac.uk/collection/P26/current/409/> , <http://vocab.nerc.ac.uk/collection/P26/current/206/> , <http://vocab.nerc.ac.uk/collection/P26/current/415/> , <http://vocab.nerc.ac.uk/collection/P26/current/402/> , <http://vocab.nerc.ac.uk/collection/P26/current/104/> , <http://vocab.nerc.ac.uk/collection/P26/current/516/> , <http://vocab.nerc.ac.uk/collection/P26/current/110/> , <http://vocab.nerc.ac.uk/collection/P26/current/503/> , <http://vocab.nerc.ac.uk/collection/P26/current/301/> , <http://vocab.nerc.ac.uk/collection/P26/current/303/> , <http://vocab.nerc.ac.uk/collection/P26/current/302/> , <http://vocab.nerc.ac.uk/collection/P26/current/300/> , <http://vocab.nerc.ac.uk/collection/P26/current/800/> , <http://vocab.nerc.ac.uk/collection/P26/current/802/> , <http://vocab.nerc.ac.uk/collection/P26/current/408/> , <http://vocab.nerc.ac.uk/collection/P26/current/205/> , <http://vocab.nerc.ac.uk/collection/P26/current/414/> , <http://vocab.nerc.ac.uk/collection/P26/current/200/> , <http://vocab.nerc.ac.uk/collection/P26/current/211/> , <http://vocab.nerc.ac.uk/collection/P26/current/600/> , <http://vocab.nerc.ac.uk/collection/P26/current/604/> , <http://vocab.nerc.ac.uk/collection/P26/current/400/> , <http://vocab.nerc.ac.uk/collection/P26/current/401/> , <http://vocab.nerc.ac.uk/collection/P26/current/702/> , <http://vocab.nerc.ac.uk/collection/P26/current/701/> , <http://vocab.nerc.ac.uk/collection/P26/current/700/> , <http://vocab.nerc.ac.uk/collection/P26/current/509/> , <http://vocab.nerc.ac.uk/collection/P26/current/100/> , <http://vocab.nerc.ac.uk/collection/P26/current/103/> , <http://vocab.nerc.ac.uk/collection/P26/current/502/> , <http://vocab.nerc.ac.uk/collection/P26/current/500/> , <http://vocab.nerc.ac.uk/collection/P26/current/515/>;
-        skos:prefLabel          "ISO19119 geographic services taxonomy" .
+        skos:prefLabel          "ISO19119 geographic services taxonomy" ;
+        skos:prefLabel          "ISO19119 geographic services taxonomy"@fr .
