@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "week2month";
+        skos:altLabel          "semaine à sub-mois"@fr ;
         skos:definition        "Sampling interval is one week or longer, but shorter than one month.  Sampling frequency is weekly or less, but greater than monthly."@en;
+        skos:definition        "L'intervalle d'échantillonnage est d'une semaine ou plus, mais inférieur à un mois. La fréquence d'échantillonnage est hebdomadaire ou inférieure, mais supérieure à mensuelle."@fr ;
         skos:notation          "SDN:L03::6";
         skos:note              "accepted"@en;
-        skos:prefLabel         "week to sub-month"@en .
+        skos:prefLabel         "week to sub-month"@en ;
+        skos:prefLabel         "semaine à sub-mois"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L03/current/4/>
         rdf:type               skos:Concept;
@@ -49,10 +52,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "hour2day";
+        skos:altLabel          "heure à sub-jour"@fr ;
         skos:definition        "Sampling interval is one hour or longer, but shorter than one day.  Sampling frequency is hourly or less, but greater than daily."@en;
+        skos:definition        "L'intervalle d'échantillonnage est d'une heure ou plus, mais inférieur à un jour. La fréquence d'échantillonnage est horaire ou inférieure, mais supérieure à quotidienne."@fr ;
         skos:notation          "SDN:L03::4";
         skos:note              "accepted"@en;
-        skos:prefLabel         "hour to sub-day"@en .
+        skos:prefLabel         "hour to sub-day"@en ;
+        skos:prefLabel         "heure à sub-jour"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L03/current/7/>
         rdf:type               skos:Concept;
@@ -66,10 +72,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "month2year";
+        skos:altLabel          "mois à sub-an"@fr ;
         skos:definition        "Sampling interval is one month or longer, but shorter than one year.  Sampling frequency is monthly or less, but greater than yearly."@en;
+        skos:definition        "L'intervalle d'échantillonnage est d'un mois ou plus, mais inférieur à un an. La fréquence d'échantillonnage est mensuelle ou inférieure, mais supérieure à annuelle."@fr ;
         skos:notation          "SDN:L03::7";
         skos:note              "accepted"@en;
-        skos:prefLabel         "month to sub-year"@en .
+        skos:prefLabel         "month to sub-year"@en ;
+        skos:prefLabel         "mois à sub-an"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L03/current/13/>
         rdf:type               skos:Concept;
@@ -83,10 +92,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "annual";
+        skos:altLabel          "année à sub-décennie"@fr ;
         skos:definition        "Sampling interval is one year or longer, but shorter than ten years.  Sampling frequency is yearly or less, but greater than decadal."@en;
+        skos:definition        "L'intervalle d'échantillonnage est d'un an ou plus, mais inférieur à dix ans. La fréquence d'échantillonnage est annuelle ou inférieure, mais supérieure à décennale."@fr ;
         skos:notation          "SDN:L03::13";
         skos:note              "accepted"@en;
-        skos:prefLabel         "year to sub-decade"@en .
+        skos:prefLabel         "year to sub-decade"@en ;
+        skos:prefLabel         "année à sub-décennie"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L03/current/0/>
         rdf:type               skos:Concept;
@@ -100,10 +112,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "indeterminate";
+        skos:altLabel          "indéterminé"@fr ;
         skos:definition        "No regular sampling interval exists because measurements are made at irregular and unpredictable times."@en;
+        skos:definition        "Aucun intervalle d'échantillonnage régulier n'existe car les mesures sont effectuées à des moments irréguliers et imprévisibles."@fr ;
         skos:notation          "SDN:L03::0";
         skos:note              "accepted"@en;
-        skos:prefLabel         "indeterminate"@en .
+        skos:prefLabel         "indeterminate"@en ;
+        skos:prefLabel         "indéterminé"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L03/current/98/>
         rdf:type               skos:Concept;
@@ -118,10 +133,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "NA";
+        skos:altLabel          "NA"@fr ;
         skos:definition        "There is no meaningful sampling interval either because measurements have not not repreated (e.g. sediment core measurements) or measurements have been averaged along a spatial axis (e.g. binned CTD data)."@en;
+        skos:definition        "Il n'existe pas d'intervalle d'échantillonnage significatif, soit parce que les mesures n'ont pas été répétées (par ex. mesures sur carottes de sédiment), soit parce que les mesures ont été moyennées le long d'un axe spatial (par ex. données CTD binned)."@fr ;
         skos:notation          "SDN:L03::98";
         skos:note              "accepted"@en;
-        skos:prefLabel         "inapplicable"@en .
+        skos:prefLabel         "inapplicable"@en ;
+        skos:prefLabel         "non applicable"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L03/current/15/>
         rdf:type               skos:Concept;
@@ -135,10 +153,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "decadal";
+        skos:altLabel          "décennal"@fr ;
         skos:definition        "Sampling interval is 10 years or more.  Sampling frequency is less than or equal to decadal."@en;
+        skos:definition        "L'intervalle d'échantillonnage est de 10 ans ou plus. La fréquence d'échantillonnage est inférieure ou égale à décennale."@fr ;
         skos:notation          "SDN:L03::15";
         skos:note              "accepted"@en;
-        skos:prefLabel         "decadal"@en .
+        skos:prefLabel         "decadal"@en ;
+        skos:prefLabel         "décennal"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L03/current/1/>
         rdf:type               skos:Concept;
@@ -152,10 +173,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "sub-second";
+        skos:altLabel          "sub-seconde"@fr ;
         skos:definition        "Sampling interval is less than a second.  Sampling frequency is greater than one hertz."@en;
+        skos:definition        "L'intervalle d'échantillonnage est inférieur à une seconde. La fréquence d'échantillonnage est supérieure à un hertz."@fr ;
         skos:notation          "SDN:L03::1";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sub-second"@en .
+        skos:prefLabel         "sub-second"@en ;
+        skos:prefLabel         "sub-seconde"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L03/current/5/>
         rdf:type               skos:Concept;
@@ -169,10 +193,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "day2week";
+        skos:altLabel          "jour à sub-semaine"@fr ;
         skos:definition        "Sampling interval is one day or longer, but shorter than one week.  Sampling frequency is daily or less, but greater than weekly."@en;
+        skos:definition        "L'intervalle d'échantillonnage est d'un jour ou plus, mais inférieur à une semaine. La fréquence d'échantillonnage est quotidienne ou inférieure, mais supérieure à hebdomadaire."@fr ;
         skos:notation          "SDN:L03::5";
         skos:note              "accepted"@en;
-        skos:prefLabel         "day to sub-week"@en .
+        skos:prefLabel         "day to sub-week"@en ;
+        skos:prefLabel         "jour à sub-semaine"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L03/current/2/>
         rdf:type               skos:Concept;
@@ -186,10 +213,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "second2minute";
+        skos:altLabel          "seconde à sub-minute"@fr ;
         skos:definition        "Sampling interval is one second or longer, but shorter than one minute.  Sampling frequency is 1 hertz or less, but greater than 1/60 hertz."@en;
+        skos:definition        "L'intervalle d'échantillonnage est d'une seconde ou plus, mais inférieur à une minute. La fréquence d'échantillonnage est de 1 hertz ou moins, mais supérieure à 1/60 hertz."@fr ;
         skos:notation          "SDN:L03::2";
         skos:note              "accepted"@en;
-        skos:prefLabel         "second to sub-minute"@en .
+        skos:prefLabel         "second to sub-minute"@en ;
+        skos:prefLabel         "seconde à sub-minute"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L03/current/99/>
         rdf:type               skos:Concept;
@@ -203,10 +233,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "unknown";
+        skos:altLabel          "inconnu"@fr ;
         skos:definition        "A regular sampling interval probably exists but is not known to, or computable by, the information provider."@en;
+        skos:definition        "Un intervalle d'échantillonnage régulier existe probablement mais n'est pas connu du fournisseur d'information, ou n'est pas calculable par lui."@fr ;
         skos:notation          "SDN:L03::99";
         skos:note              "accepted"@en;
-        skos:prefLabel         "unknown"@en .
+        skos:prefLabel         "unknown"@en ;
+        skos:prefLabel         "inconnu"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L03/current/3/>
         rdf:type               skos:Concept;
@@ -220,10 +253,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "minute2hour";
+        skos:altLabel          "minute2hour (code : minute à sub-heure)"@fr ;
         skos:definition        "Sampling interval is one minute or longer, but shorter than one hour.  Sampling frequency is 1/60 hertz or less, but greater than 1/3600 hertz."@en;
+        skos:definition        "L'intervalle d'échantillonnage est d'une minute ou plus, mais inférieur à une heure. La fréquence d'échantillonnage est de 1/60 hertz ou moins, mais supérieure à 1/3600 hertz."@fr ;
         skos:notation          "SDN:L03::3";
         skos:note              "accepted"@en;
-        skos:prefLabel         "minute to sub-hour"@en .
+        skos:prefLabel         "minute to sub-hour"@en ;
+        skos:prefLabel         "minute à sub-heure"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L03/current/>
         rdf:type                skos:Collection;
@@ -239,5 +275,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "SeaDataNet";
         owl:versionInfo         "3";
         skos:altLabel           "SeaDataNet Measurement Periodicity";
+        skos:altLabel           "périodicité de mesure SeaDataNet"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/L03/current/6/> , <http://vocab.nerc.ac.uk/collection/L03/current/4/> , <http://vocab.nerc.ac.uk/collection/L03/current/7/> , <http://vocab.nerc.ac.uk/collection/L03/current/13/> , <http://vocab.nerc.ac.uk/collection/L03/current/0/> , <http://vocab.nerc.ac.uk/collection/L03/current/98/> , <http://vocab.nerc.ac.uk/collection/L03/current/15/> , <http://vocab.nerc.ac.uk/collection/L03/current/1/> , <http://vocab.nerc.ac.uk/collection/L03/current/5/> , <http://vocab.nerc.ac.uk/collection/L03/current/2/> , <http://vocab.nerc.ac.uk/collection/L03/current/3/> , <http://vocab.nerc.ac.uk/collection/L03/current/99/>;
-        skos:prefLabel          "SeaDataNet Measurement Periodicity Categories" .
+        skos:prefLabel          "SeaDataNet Measurement Periodicity Categories" ;
+        skos:prefLabel          "catégories de périodicité de mesure SeaDataNet"@fr .

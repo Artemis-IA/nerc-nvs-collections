@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "An activity performed by a system and consisting of a sequence of punctuated actions (including malfunctions and deliberate actions)."@en;
+        skos:definition        "Activité effectuée par un système et consistant en une séquence d'actions ponctuées (y compris les dysfonctionnements et les actions délibérées)."@fr ;
         skos:notation          "SDN:W11::ECLS0001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Event process"@en .
+        skos:prefLabel         "Event process"@en ;
+        skos:prefLabel         "processus d'événement"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W11/current/ECLS0003/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A temporal punctuation (like a step, a phase, a moment) in an ongoing process which can be deliberate or incidental; for instance 'Start', 'End', 'Failure'."@en;
+        skos:definition        "Ponctuation temporelle (comme une étape, une phase, un moment) dans un processus en cours, qui peut être délibérée ou fortuite ; par exemple « Début », « Fin », « Échec »."@fr ;
         skos:notation          "SDN:W11::ECLS0003";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Event action"@en .
+        skos:prefLabel         "Event action"@en ;
+        skos:prefLabel         "action d'événement"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W11/current/ECLS0002/>
         rdf:type               skos:Concept;
@@ -67,9 +71,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The primary scientific purpose of the event (e.g. a given scientific activity preferably selected from a controlled vocabulary)."@en;
+        skos:definition        "L'objectif scientifique principal de l'événement (par ex. une activité scientifique donnée, de préférence choisie dans un vocabulaire contrôlé)."@fr ;
         skos:notation          "SDN:W11::ECLS0002";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Event subject"@en .
+        skos:prefLabel         "Event subject"@en ;
+        skos:prefLabel         "sujet d'événement"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W11/current/>
         rdf:type                skos:Collection;
@@ -85,5 +91,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Sensor Web Enablement Marine Profiles";
         owl:versionInfo         "1";
         skos:altLabel           "SensorML Event Classification";
+        skos:altLabel           "classification des événements SensorML"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/W11/current/ECLS0001/> , <http://vocab.nerc.ac.uk/collection/W11/current/ECLS0002/> , <http://vocab.nerc.ac.uk/collection/W11/current/ECLS0003/>;
-        skos:prefLabel          "SensorML Event Classification Terms" .
+        skos:prefLabel          "SensorML Event Classification Terms" ;
+        skos:prefLabel          "termes de classification des événements SensorML"@fr .

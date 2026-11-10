@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "leptokurtic";
+        skos:altLabel          "leptocurtique"@fr ;
         skos:definition        "Sharp-peaked sediment grain-size distribution with a positive Folk and Ward or Krumbein sediment grain-size kurtosis coefficient"@en;
+        skos:definition        "Distribution granulométrique des sédiments à pic aigu avec un coefficient d'aplatissement (kurtosis) Folk et Ward ou Krumbein positif."@fr ;
         skos:notation          "SDN:GS6::leptokur";
         skos:note              "accepted"@en;
-        skos:prefLabel         "leptokurtic"@en .
+        skos:prefLabel         "leptokurtic"@en ;
+        skos:prefLabel         "leptocurtique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GS6/current/mesokur/>
         rdf:type               skos:Concept;
@@ -49,10 +52,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "mesokurtic";
+        skos:altLabel          "mésocurtique"@fr ;
         skos:definition        "Normal-peaked sediment grain-size distribution with a zero Folk and Ward or Krumbein sediment grain-size kurtosis coefficient"@en;
+        skos:definition        "Distribution granulométrique des sédiments à pic normal avec un coefficient d'aplatissement Folk et Ward ou Krumbein nul."@fr ;
         skos:notation          "SDN:GS6::mesokur";
         skos:note              "accepted"@en;
-        skos:prefLabel         "mesokurtic"@en .
+        skos:prefLabel         "mesokurtic"@en ;
+        skos:prefLabel         "mésocurtique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GS6/current/platykur/>
         rdf:type               skos:Concept;
@@ -66,10 +72,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "platykurtic";
+        skos:altLabel          "platycurtique"@fr ;
         skos:definition        "Flat-peaked sediment grain-size distribution with a negative Folk and Ward or Krumbein sediment grain-size kurtosis coefficient"@en;
+        skos:definition        "Distribution granulométrique des sédiments à pic plat avec un coefficient d'aplatissement Folk et Ward ou Krumbein négatif."@fr ;
         skos:notation          "SDN:GS6::platykur";
         skos:note              "accepted"@en;
-        skos:prefLabel         "platykurtic"@en .
+        skos:prefLabel         "platykurtic"@en ;
+        skos:prefLabel         "platycurtique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GS6/current/>
         rdf:type                skos:Collection;
@@ -84,5 +93,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Geo-Seas";
         owl:versionInfo         "1";
         skos:altLabel           "Geo-Seas kurtosis descriptors";
+        skos:altLabel           "descripteurs d'aplatissement Geo-Seas"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/GS6/current/platykur/> , <http://vocab.nerc.ac.uk/collection/GS6/current/mesokur/> , <http://vocab.nerc.ac.uk/collection/GS6/current/leptokur/>;
-        skos:prefLabel          "Geo-Seas sediment grain-size kurtosis descriptors" .
+        skos:prefLabel          "Geo-Seas sediment grain-size kurtosis descriptors" ;
+        skos:prefLabel          "descripteurs d'aplatissement granulométrique des sédiments Geo-Seas"@fr .

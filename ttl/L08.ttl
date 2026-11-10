@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "SDN_licence";
+        skos:altLabel          "licence SeaDataNet"@fr ;
         skos:definition        "Access to the data and usage are as specified in the SeaDataNet data policy and licence agreement"@en;
+        skos:definition        "L'accès aux données et leur utilisation sont tels que spécifiés dans la politique des données et l'accord de licence SeaDataNet."@fr ;
         skos:notation          "SDN:L08::LS";
         skos:note              "accepted"@en;
-        skos:prefLabel         "SeaDataNet licence"@en .
+        skos:prefLabel         "SeaDataNet licence"@en ;
+        skos:prefLabel         "licence SeaDataNet"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L08/current/OG/>
         rdf:type               skos:Concept;
@@ -49,10 +52,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "organisation";
+        skos:altLabel          "organisation"@fr ;
         skos:definition        "The data are unrestricted to members of an organisation or a virtual organisation (such as project or cruise participants) but restricted to anybody else."@en;
+        skos:definition        "Les données ne sont pas restreintes aux membres d'une organisation ou d'une organisation virtuelle (telle que les participants à un projet ou à une campagne) mais sont restreintes à toute autre personne."@fr ;
         skos:notation          "SDN:L08::OG";
         skos:note              "accepted"@en;
-        skos:prefLabel         "organisation"@en .
+        skos:prefLabel         "organisation"@en ;
+        skos:prefLabel         "organisation"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L08/current/CB/>
         rdf:type               skos:Concept;
@@ -66,10 +72,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "CC BY 4.0";
+        skos:altLabel          "CC BY 4.0"@fr ;
         skos:definition        "The data are available under the Creative Commons Attribution 4.0 International Public License (https://creativecommons.org/licenses/by/4.0/)."@en;
+        skos:definition        "Les données sont disponibles sous la licence publique Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/)."@fr ;
         skos:notation          "SDN:L08::CB";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Creative Commons Attribution 4.0 International"@en .
+        skos:prefLabel         "Creative Commons Attribution 4.0 International"@en ;
+        skos:prefLabel         "Creative Commons Attribution 4.0 International"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L08/current/NC/>
         rdf:type               skos:Concept;
@@ -83,10 +92,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "distribution_charge";
+        skos:altLabel          "frais de distribution"@fr ;
         skos:definition        "A charge is made to cover the costs of delivering data to the user."@en;
+        skos:definition        "Des frais sont facturés pour couvrir les coûts de livraison des données à l'utilisateur."@fr ;
         skos:notation          "SDN:L08::NC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "distribution cost charge"@en .
+        skos:prefLabel         "distribution cost charge"@en ;
+        skos:prefLabel         "frais de coût de distribution"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L08/current/MO/>
         rdf:type               skos:Concept;
@@ -100,10 +112,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "moratorium";
+        skos:altLabel          "moratoire"@fr ;
         skos:definition        "Data are initially restricted, but the access condition relaxes to academic or unrestricted once a specified period of time after an event (such as collection, publication, completion of QC procedures or project cessation) has elapsed."@en;
+        skos:definition        "Les données sont initialement restreintes, mais la condition d'accès s'assouplit vers académique ou non restreint une fois qu'une période spécifiée après un événement (tel que la collecte, la publication, l'achèvement des procédures de CQ ou la cessation du projet) s'est écoulée."@fr ;
         skos:notation          "SDN:L08::MO";
         skos:note              "accepted"@en;
-        skos:prefLabel         "moratorium"@en .
+        skos:prefLabel         "moratorium"@en ;
+        skos:prefLabel         "moratoire"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L08/current/FE/>
         rdf:type               skos:Concept;
@@ -117,10 +132,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "commercial_charge";
+        skos:altLabel          "frais commerciaux"@fr ;
         skos:definition        "A charge significantly exceeding the cost of data collection and delivery is made for usage of the data."@en;
+        skos:definition        "Des frais dépassant significativement le coût de collecte et de livraison des données sont facturés pour l'utilisation des données."@fr ;
         skos:notation          "SDN:L08::FE";
         skos:note              "accepted"@en;
-        skos:prefLabel         "commercial charge"@en .
+        skos:prefLabel         "commercial charge"@en ;
+        skos:prefLabel         "frais commerciaux"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L08/current/UN/>
         rdf:type               skos:Concept;
@@ -134,10 +152,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "unrestricted";
+        skos:altLabel          "non restreint"@fr ;
         skos:definition        "The data are freely available to anybody and may be used for any purpose. Usage acknowledgement may be required."@en;
+        skos:definition        "Les données sont librement disponibles pour tous et peuvent être utilisées à toute fin. Une mention d'utilisation peut être requise."@fr ;
         skos:notation          "SDN:L08::UN";
         skos:note              "accepted"@en;
-        skos:prefLabel         "unrestricted"@en .
+        skos:prefLabel         "unrestricted"@en ;
+        skos:prefLabel         "non restreint"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L08/current/UK/>
         rdf:type               skos:Concept;
@@ -151,10 +172,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "unknown";
+        skos:altLabel          "inconnu"@fr ;
         skos:definition        "The correct value is not known to and not computable by the creator of this information. However a correct value probably exists."@en;
+        skos:definition        "La valeur correcte n'est pas connue du créateur de cette information et n'est pas calculable par lui. Une valeur correcte existe toutefois probablement."@fr ;
         skos:notation          "SDN:L08::UK";
         skos:note              "accepted"@en;
-        skos:prefLabel         "unknown"@en .
+        skos:prefLabel         "unknown"@en ;
+        skos:prefLabel         "inconnu"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L08/current/NA/>
         rdf:type               skos:Concept;
@@ -168,10 +192,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "none";
+        skos:altLabel          "aucun"@fr ;
         skos:definition        "Access to the data cannot be negotiated."@en;
+        skos:definition        "L'accès aux données ne peut pas être négocié."@fr ;
         skos:notation          "SDN:L08::NA";
         skos:note              "accepted"@en;
-        skos:prefLabel         "no access"@en .
+        skos:prefLabel         "no access"@en ;
+        skos:prefLabel         "aucun accès"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L08/current/LI/>
         rdf:type               skos:Concept;
@@ -185,10 +212,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "licence";
+        skos:altLabel          "licence"@fr ;
         skos:definition        "Conditions of supply and usage of the data are specified in a formal agreement."@en;
+        skos:definition        "Les conditions de fourniture et d'utilisation des données sont spécifiées dans un accord formel."@fr ;
         skos:notation          "SDN:L08::LI";
         skos:note              "accepted"@en;
-        skos:prefLabel         "licence"@en .
+        skos:prefLabel         "licence"@en ;
+        skos:prefLabel         "licence"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L08/current/CC/>
         rdf:type               skos:Concept;
@@ -202,10 +232,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "collection_charge";
+        skos:altLabel          "frais de collecte"@fr ;
         skos:definition        "A charge is made related to the cost of collecting the data."@en;
+        skos:definition        "Des frais sont facturés en rapport avec le coût de collecte des données."@fr ;
         skos:notation          "SDN:L08::CC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "collection cost charge"@en .
+        skos:prefLabel         "collection cost charge"@en ;
+        skos:prefLabel         "frais de coût de collecte"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L08/current/RS/>
         rdf:type               skos:Concept;
@@ -220,10 +253,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "restricted";
+        skos:altLabel          "restreint"@fr ;
         skos:definition        "The data are witheld from general circulation and disclosure but access may be obtained on a case-by-case basis through negotiation."@en;
+        skos:definition        "Les données sont retenues de la circulation et de la divulgation générales mais l'accès peut être obtenu au cas par cas par négociation."@fr ;
         skos:notation          "SDN:L08::RS";
         skos:note              "accepted"@en;
-        skos:prefLabel         "by negotiation"@en .
+        skos:prefLabel         "by negotiation"@en ;
+        skos:prefLabel         "sur négociation"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L08/current/SR/>
         rdf:type               skos:Concept;
@@ -237,10 +273,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "academic";
+        skos:altLabel          "académique"@fr ;
         skos:definition        "The data are freely available for research and education purposes.  Usage acknowledgement is usually expected."@en;
+        skos:definition        "Les données sont librement disponibles à des fins de recherche et d'enseignement. Une mention d'utilisation est généralement attendue."@fr ;
         skos:notation          "SDN:L08::SR";
         skos:note              "accepted"@en;
-        skos:prefLabel         "academic"@en .
+        skos:prefLabel         "academic"@en ;
+        skos:prefLabel         "académique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L08/current/CA/>
         rdf:type               skos:Concept;
@@ -254,10 +293,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "CC BY 3.0";
+        skos:altLabel          "CC BY 3.0"@fr ;
         skos:definition        "The data are available under the Creative Commons Attribution 3.0 Unported Public License (https://creativecommons.org/licenses/by/3.0/)."@en;
+        skos:definition        "Les données sont disponibles sous la licence publique Creative Commons Attribution 3.0 Unported (https://creativecommons.org/licenses/by/3.0/)."@fr ;
         skos:notation          "SDN:L08::CA";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Creative Commons Attribution 3.0 Unported"@en .
+        skos:prefLabel         "Creative Commons Attribution 3.0 Unported"@en ;
+        skos:prefLabel         "Creative Commons Attribution 3.0 Unported"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L08/current/>
         rdf:type                skos:Collection;
@@ -273,5 +315,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "SeaDataNet";
         owl:versionInfo         "5";
         skos:altLabel           "SeaDataNet Data Access Policies";
+        skos:altLabel           "politiques d'accès aux données SeaDataNet"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/L08/current/LS/> , <http://vocab.nerc.ac.uk/collection/L08/current/OG/> , <http://vocab.nerc.ac.uk/collection/L08/current/CB/> , <http://vocab.nerc.ac.uk/collection/L08/current/NC/> , <http://vocab.nerc.ac.uk/collection/L08/current/MO/> , <http://vocab.nerc.ac.uk/collection/L08/current/FE/> , <http://vocab.nerc.ac.uk/collection/L08/current/UN/> , <http://vocab.nerc.ac.uk/collection/L08/current/UK/> , <http://vocab.nerc.ac.uk/collection/L08/current/NA/> , <http://vocab.nerc.ac.uk/collection/L08/current/LI/> , <http://vocab.nerc.ac.uk/collection/L08/current/CC/> , <http://vocab.nerc.ac.uk/collection/L08/current/RS/> , <http://vocab.nerc.ac.uk/collection/L08/current/CA/> , <http://vocab.nerc.ac.uk/collection/L08/current/SR/>;
-        skos:prefLabel          "SeaDataNet Data Access Restriction Policies" .
+        skos:prefLabel          "SeaDataNet Data Access Restriction Policies" ;
+        skos:prefLabel          "politiques de restriction d'accès aux données SeaDataNet"@fr .

@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Element is required when a specific condition is met"@en;
+        skos:definition        "L'élément est requis lorsqu'une condition spécifique est remplie."@fr ;
         skos:notation          "SDN:G20::003";
         skos:note              "accepted"@en;
-        skos:prefLabel         "conditional"@en .
+        skos:prefLabel         "conditional"@en ;
+        skos:prefLabel         "conditionnel"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G20/current/001/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Element is always required"@en;
+        skos:definition        "L'élément est toujours requis."@fr ;
         skos:notation          "SDN:G20::001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "mandatory"@en .
+        skos:prefLabel         "mandatory"@en ;
+        skos:prefLabel         "obligatoire"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G20/current/002/>
         rdf:type               skos:Concept;
@@ -67,9 +71,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Element is not required"@en;
+        skos:definition        "L'élément n'est pas requis."@fr ;
         skos:notation          "SDN:G20::002";
         skos:note              "accepted"@en;
-        skos:prefLabel         "optional"@en .
+        skos:prefLabel         "optional"@en ;
+        skos:prefLabel         "facultatif"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G20/current/>
         rdf:type                skos:Collection;
@@ -84,5 +90,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "International Organization for Standardization";
         owl:versionInfo         "1";
         skos:altLabel           "MD_ObligationCode";
+        skos:altLabel           "MD_ObligationCode (code d'obligation)"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/G20/current/002/> , <http://vocab.nerc.ac.uk/collection/G20/current/001/> , <http://vocab.nerc.ac.uk/collection/G20/current/003/>;
-        skos:prefLabel          "MD_ObligationCode" .
+        skos:prefLabel          "MD_ObligationCode" ;
+        skos:prefLabel          "MD_ObligationCode (code d'obligation)"@fr .

@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Unknown";
+        skos:altLabel          "inconnu"@fr ;
         skos:definition        "Purpose of the survey is unknown, for example a historical survey with no associated information."@en;
+        skos:definition        "L'objectif de la campagne est inconnu, par exemple une campagne historique sans information associée."@fr ;
         skos:notation          "SDN:BQ3::0";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Unknown"@en .
+        skos:prefLabel         "Unknown"@en ;
+        skos:prefLabel         "inconnu"@fr .
 
 <http://vocab.nerc.ac.uk/collection/BQ3/current/3/>
         rdf:type               skos:Concept;
@@ -49,10 +52,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Hydro_surv";
+        skos:altLabel          "Hydro_surv (campagne hydrographique)"@fr ;
         skos:definition        "";
         skos:notation          "SDN:BQ3::3";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Hydrographic survey or compatible with hydrographic standards"@en .
+        skos:prefLabel         "Hydrographic survey or compatible with hydrographic standards"@en ;
+        skos:prefLabel         "campagne hydrographique ou compatible avec les normes hydrographiques"@fr .
 
 <http://vocab.nerc.ac.uk/collection/BQ3/current/1/>
         rdf:type               skos:Concept;
@@ -66,10 +71,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Transit_opp";
+        skos:altLabel          "Transit_opp (transit et/ou occasionnel)"@fr ;
         skos:definition        "";
         skos:notation          "SDN:BQ3::1";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Transit and/or opportunity"@en .
+        skos:prefLabel         "Transit and/or opportunity"@en ;
+        skos:prefLabel         "transit et/ou occasionnel"@fr .
 
 <http://vocab.nerc.ac.uk/collection/BQ3/current/2/>
         rdf:type               skos:Concept;
@@ -83,10 +90,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Bathy_morph";
+        skos:altLabel          "Bathy_morph (bathymétrique ou morphologique)"@fr ;
         skos:definition        "";
         skos:notation          "SDN:BQ3::2";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Bathymetric or morphologic survey"@en .
+        skos:prefLabel         "Bathymetric or morphologic survey"@en ;
+        skos:prefLabel         "campagne bathymétrique ou morphologique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/BQ3/current/>
         rdf:type                skos:Collection;
@@ -101,5 +110,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "EMODnet Bathymetry Lot";
         owl:versionInfo         "1";
         skos:altLabel           "EMODnet Bathy QI_Purpose";
+        skos:altLabel           "QI_Purpose bathymétrie EMODnet"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/BQ3/current/0/> , <http://vocab.nerc.ac.uk/collection/BQ3/current/2/> , <http://vocab.nerc.ac.uk/collection/BQ3/current/1/> , <http://vocab.nerc.ac.uk/collection/BQ3/current/3/>;
-        skos:prefLabel          "EMODnet Bathymetry Quality Indicators of survey purpose (QI_Purpose)" .
+        skos:prefLabel          "EMODnet Bathymetry Quality Indicators of survey purpose (QI_Purpose)" ;
+        skos:prefLabel          "indicateurs de qualité EMODnet Bathymetry de l'objectif de campagne (QI_Purpose)"@fr .

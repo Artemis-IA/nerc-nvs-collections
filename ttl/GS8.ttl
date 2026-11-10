@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "ActSeisRefr";
+        skos:altLabel          "ActSeisRefr (sismique réfraction active)"@fr ;
         skos:definition        "The elucidation of geological structure by quantifying the refration of waves from from artificial sources (such as explosions) far away from the measurement site by sub-surface layers."@en;
+        skos:definition        "La mise en évidence de la structure géologique par la quantification de la réfraction des ondes provenant de sources artificielles (telles que des explosions) éloignées du site de mesure par les couches du sous-sol."@fr ;
         skos:notation          "SDN:GS8::ACSR";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Active seismic refraction"@en .
+        skos:prefLabel         "Active seismic refraction"@en ;
+        skos:prefLabel         "Sismique réfraction active"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GS8/current/SRFR/>
         rdf:type               skos:Concept;
@@ -49,10 +52,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "SeisRefr";
+        skos:altLabel          "SeisRefr (sismique réfraction)"@fr ;
         skos:definition        "The elucidation of geological structure by quantifying the refration of waves from a high energy source by sub-surface layers."@en;
+        skos:definition        "La mise en évidence de la structure géologique par la quantification de la réfraction des ondes provenant d'une source à haute énergie par les couches du sous-sol."@fr ;
         skos:notation          "SDN:GS8::SRFR";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Seismic refraction"@en .
+        skos:prefLabel         "Seismic refraction"@en ;
+        skos:prefLabel         "sismique-réfraction"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GS8/current/PASR/>
         rdf:type               skos:Concept;
@@ -66,10 +72,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "PassSeisRefr";
+        skos:altLabel          "PassSeisRefr (sismique réfraction passive)"@fr ;
         skos:definition        "The elucidation of geological structure by quantifying the refration of waves from naturally occurring low frequency earth movements (e.g. earthquakes) by sub-surface layers ."@en;
+        skos:definition        "La mise en évidence de la structure géologique par la quantification de la réfraction des ondes provenant de mouvements telluriques naturels de basse fréquence (par ex. séismes) par les couches du sous-sol."@fr ;
         skos:notation          "SDN:GS8::PASR";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Passive seismic refraction"@en .
+        skos:prefLabel         "Passive seismic refraction"@en ;
+        skos:prefLabel         "Sismique réfraction passive"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GS8/current/SRFL/>
         rdf:type               skos:Concept;
@@ -83,10 +92,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "SeisRefl";
+        skos:altLabel          "SeisRefl (sismique réflexion)"@fr ;
         skos:definition        "The elucidation of geological structure by quantifying the proportion of waves from a high energy source reflected by sub-surface layers."@en;
+        skos:definition        "La mise en évidence de la structure géologique par la quantification de la proportion d'ondes d'une source à haute énergie réfléchies par les couches du sous-sol."@fr ;
         skos:notation          "SDN:GS8::SRFL";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Seismic reflection"@en .
+        skos:prefLabel         "Seismic reflection"@en ;
+        skos:prefLabel         "Sismique réflexion"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GS8/current/SSCN/>
         rdf:type               skos:Concept;
@@ -100,10 +112,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "SideScan";
+        skos:altLabel          "SideScan (balayage latéral)"@fr ;
         skos:definition        "A technique for mapping the morphology of the seafloor using a sonar swath projected sideways from a towed underwater vehicle."@en;
+        skos:definition        "Technique de cartographie de la morphologie du fond marin utilisant une fauchée de sonar projetée latéralement depuis un engin sous-marin remorqué."@fr ;
         skos:notation          "SDN:GS8::SSCN";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Side-scan sonar"@en .
+        skos:prefLabel         "Side-scan sonar"@en ;
+        skos:prefLabel         "Sonar latéral"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GS8/current/>
         rdf:type                skos:Collection;
@@ -118,5 +133,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Geo-Seas";
         owl:versionInfo         "1";
         skos:altLabel           "Seismic Methods";
+        skos:altLabel           "méthodes sismiques"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/GS8/current/ACSR/> , <http://vocab.nerc.ac.uk/collection/GS8/current/SRFR/> , <http://vocab.nerc.ac.uk/collection/GS8/current/SSCN/> , <http://vocab.nerc.ac.uk/collection/GS8/current/SRFL/> , <http://vocab.nerc.ac.uk/collection/GS8/current/PASR/>;
-        skos:prefLabel          "Geo-Seas Seismic Methods" .
+        skos:prefLabel          "Geo-Seas Seismic Methods" ;
+        skos:prefLabel          "méthodes sismiques Geo-Seas"@fr .

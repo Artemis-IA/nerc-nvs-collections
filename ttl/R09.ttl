@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "GALILEO";
+        skos:altLabel          "GALILEO"@fr ;
         skos:definition        "Galileo navigation satellite system"@en;
+        skos:definition        "Système de navigation par satellites Galileo."@fr ;
         skos:notation          "SDN:R09::GALILEO";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Galileo navigation satellite system"@en .
+        skos:prefLabel         "Galileo navigation satellite system"@en ;
+        skos:prefLabel         "système de navigation par satellites Galileo"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R09/current/BEIDOU/>
         rdf:type               skos:Concept;
@@ -49,10 +52,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "BEIDOU";
+        skos:altLabel          "BEIDOU"@fr ;
         skos:definition        "Beidou navigation satellite system"@en;
+        skos:definition        "Système de navigation par satellites Beidou."@fr ;
         skos:notation          "SDN:R09::BEIDOU";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Beidou navigation satellite system"@en .
+        skos:prefLabel         "Beidou navigation satellite system"@en ;
+        skos:prefLabel         "système de navigation par satellites Beidou"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R09/current/GLONASS/>
         rdf:type               skos:Concept;
@@ -66,10 +72,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "GLONASS";
+        skos:altLabel          "GLONASS (système russe de navigation par satellites)"@fr ;
         skos:definition        "GLONASS navigation satellite system"@en;
+        skos:definition        "Système de navigation par satellites GLONASS."@fr ;
         skos:notation          "SDN:R09::GLONASS";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GLONASS navigation satellite system"@en .
+        skos:prefLabel         "GLONASS navigation satellite system"@en ;
+        skos:prefLabel         "système de navigation par satellites GLONASS"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R09/current/NONE/>
         rdf:type               skos:Concept;
@@ -83,10 +92,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "NONE";
+        skos:altLabel          "AUCUN"@fr ;
         skos:definition        "For profile file only: if an estimated position is based on two or more positioning systems, or if the estimation does not rely on information from positioning systems."@en;
+        skos:definition        "Pour le fichier profil uniquement : si une position estimée est basée sur deux systèmes de positionnement ou plus, ou si l'estimation ne repose pas sur des informations de systèmes de positionnement."@fr ;
         skos:notation          "SDN:R09::NONE";
         skos:note              "accepted"@en;
-        skos:prefLabel         "More than one system used or none available"@en .
+        skos:prefLabel         "More than one system used or none available"@en ;
+        skos:prefLabel         "plusieurs systèmes utilisés ou aucun disponible"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R09/current/IRIDIUM/>
         rdf:type               skos:Concept;
@@ -100,10 +112,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "IRIDIUM";
+        skos:altLabel          "IRIDIUM"@fr ;
         skos:definition        "Iridium positioning system"@en;
+        skos:definition        "Système de positionnement Iridium."@fr ;
         skos:notation          "SDN:R09::IRIDIUM";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Iridium positioning system"@en .
+        skos:prefLabel         "Iridium positioning system"@en ;
+        skos:prefLabel         "système de positionnement Iridium"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R09/current/RAFOS/>
         rdf:type               skos:Concept;
@@ -117,10 +132,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "RAFOS";
+        skos:altLabel          "RAFOS"@fr ;
         skos:definition        "RAFOS positioning system"@en;
+        skos:definition        "Système de positionnement RAFOS."@fr ;
         skos:notation          "SDN:R09::RAFOS";
         skos:note              "accepted"@en;
-        skos:prefLabel         "RAFOS positioning system"@en .
+        skos:prefLabel         "RAFOS positioning system"@en ;
+        skos:prefLabel         "système de positionnement RAFOS"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R09/current/GNSS/>
         rdf:type               skos:Concept;
@@ -134,10 +152,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "GNSS";
+        skos:altLabel          "GNSS"@fr ;
         skos:definition        "Global Navigation Satellite System"@en;
+        skos:definition        "Système de navigation par satellites mondial (GNSS)."@fr ;
         skos:notation          "SDN:R09::GNSS";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Global Navigation Satellite System"@en .
+        skos:prefLabel         "Global Navigation Satellite System"@en ;
+        skos:prefLabel         "système de navigation par satellites mondial (GNSS)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R09/current/ARGOS/>
         rdf:type               skos:Concept;
@@ -151,10 +172,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "ARGOS";
+        skos:altLabel          "ARGOS"@fr ;
         skos:definition        "Argos positioning system"@en;
+        skos:definition        "Système de positionnement Argos."@fr ;
         skos:notation          "SDN:R09::ARGOS";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Argos positioning system"@en .
+        skos:prefLabel         "Argos positioning system"@en ;
+        skos:prefLabel         "système de positionnement Argos"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R09/current/GPS/>
         rdf:type               skos:Concept;
@@ -168,10 +192,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "GPS";
+        skos:altLabel          "GPS (système de positionnement par satellites)"@fr ;
         skos:definition        "GPS positioning system"@en;
+        skos:definition        "Système de positionnement GPS."@fr ;
         skos:notation          "SDN:R09::GPS";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GPS positioning system"@en .
+        skos:prefLabel         "GPS positioning system"@en ;
+        skos:prefLabel         "système de positionnement GPS"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R09/current/>
         rdf:type                skos:Collection;
@@ -187,5 +214,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Argo Data Management Team";
         owl:versionInfo         "1";
         skos:altLabel           "POSITIONING_SYSTEM";
+        skos:altLabel           "POSITIONING_SYSTEM (système de positionnement)"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/R09/current/GALILEO/> , <http://vocab.nerc.ac.uk/collection/R09/current/BEIDOU/> , <http://vocab.nerc.ac.uk/collection/R09/current/GLONASS/> , <http://vocab.nerc.ac.uk/collection/R09/current/NONE/> , <http://vocab.nerc.ac.uk/collection/R09/current/IRIDIUM/> , <http://vocab.nerc.ac.uk/collection/R09/current/RAFOS/> , <http://vocab.nerc.ac.uk/collection/R09/current/GNSS/> , <http://vocab.nerc.ac.uk/collection/R09/current/GPS/> , <http://vocab.nerc.ac.uk/collection/R09/current/ARGOS/>;
-        skos:prefLabel          "Argo positioning system" .
+        skos:prefLabel          "Argo positioning system" ;
+        skos:prefLabel          "système de positionnement Argo"@fr .

@@ -33,10 +33,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "NERC_DDC";
+        skos:altLabel          "NERC_DDC (NERC Designated Data Centres)"@fr ;
         skos:definition        "Portal for the formally designated data management bodies within the Natural Environment Research Council."@en;
+        skos:definition        "Portail des organismes de gestion des données formellement désignés au sein du Natural Environment Research Council."@fr ;
         skos:notation          "SDN:N01::NDGO0003";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Natural Environment Research Council Designated Data Centres"@en .
+        skos:prefLabel         "Natural Environment Research Council Designated Data Centres"@en ;
+        skos:prefLabel         "centres de données désignés du Natural Environment Research Council"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N01/current/NDGO0001/>
         rdf:type               skos:Concept;
@@ -51,10 +54,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "3";
         skos:altLabel          "MEDIN";
+        skos:altLabel          "MEDIN (Marine Environmental Data and Information Network)"@fr ;
         skos:definition        "Portal for a partnership of public and private sector organisations working to provide harmonised stewardship and access to marine data and information, and so facilitate improved management of the seas around the UK."@en;
+        skos:definition        "Portail d'un partenariat d'organisations des secteurs public et privé travaillant à fournir une gestion et un accès harmonisés aux données et informations marines, afin de faciliter une meilleure gestion des mers autour du Royaume-Uni."@fr ;
         skos:notation          "SDN:N01::NDGO0001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Marine Environmental Data and Information Network"@en .
+        skos:prefLabel         "Marine Environmental Data and Information Network"@en ;
+        skos:prefLabel         "réseau de données et d'informations sur l'environnement marin (MEDIN)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N01/current/NDGO0005/>
         rdf:type               skos:Concept;
@@ -68,10 +74,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "DATA_GOV";
+        skos:altLabel          "DATA_GOV (data.gov.uk)"@fr ;
         skos:definition        "Portal for the UK national spatial data infrastructure"@en;
+        skos:definition        "Portail de l'infrastructure nationale de données spatiales du Royaume-Uni."@fr ;
         skos:notation          "SDN:N01::NDGO0005";
         skos:note              "accepted"@en;
-        skos:prefLabel         "data.gov.uk"@en .
+        skos:prefLabel         "data.gov.uk"@en ;
+        skos:prefLabel         "data.gov.uk"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N01/current/>
         rdf:type                skos:Collection;
@@ -87,5 +96,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "British Oceanographic Data Centre";
         owl:versionInfo         "4";
         skos:altLabel           "Availability";
+        skos:altLabel           "disponibilité"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/N01/current/NDGO0003/> , <http://vocab.nerc.ac.uk/collection/N01/current/NDGO0005/> , <http://vocab.nerc.ac.uk/collection/N01/current/NDGO0001/>;
-        skos:prefLabel          "MEDIN metadata record availability" .
+        skos:prefLabel          "MEDIN metadata record availability" ;
+        skos:prefLabel          "disponibilité de l'enregistrement de métadonnées MEDIN"@fr .

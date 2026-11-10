@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Code value with no quantitative meaning, used to represent a physical quantity"@en;
+        skos:definition        "Valeur de code sans signification quantitative, utilisée pour représenter une quantité physique."@fr ;
         skos:notation          "SDN:G11::002";
         skos:note              "accepted"@en;
-        skos:prefLabel         "thematicClassification"@en .
+        skos:prefLabel         "thematicClassification"@en ;
+        skos:prefLabel         "classification thématique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G11/current/003/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Value in physical units of the quantity being measured"@en;
+        skos:definition        "Valeur en unités physiques de la grandeur mesurée."@fr ;
         skos:notation          "SDN:G11::003";
         skos:note              "accepted"@en;
-        skos:prefLabel         "physicalMeasurement"@en .
+        skos:prefLabel         "physicalMeasurement"@en ;
+        skos:prefLabel         "mesure physique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G11/current/001/>
         rdf:type               skos:Concept;
@@ -67,9 +71,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Meaningful numerical representation of a physical parameter that is not the actual value of the physical parameter"@en;
+        skos:definition        "Représentation numérique significative d'un paramètre physique qui n'est pas la valeur réelle du paramètre physique."@fr ;
         skos:notation          "SDN:G11::001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "image"@en .
+        skos:prefLabel         "image"@en ;
+        skos:prefLabel         "image"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G11/current/>
         rdf:type                skos:Collection;
@@ -84,5 +90,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "International Organization for Standardization";
         owl:versionInfo         "1";
         skos:altLabel           "MD_CoverageContentTypeCode";
+        skos:altLabel           "MD_CoverageContentTypeCode (code de type de contenu de couverture)"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/G11/current/001/> , <http://vocab.nerc.ac.uk/collection/G11/current/003/> , <http://vocab.nerc.ac.uk/collection/G11/current/002/>;
-        skos:prefLabel          "MD_CoverageContentTypeCode" .
+        skos:prefLabel          "MD_CoverageContentTypeCode" ;
+        skos:prefLabel          "MD_CoverageContentTypeCode (code de type de contenu de couverture)"@fr .

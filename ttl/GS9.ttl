@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "2DSeisRefl";
+        skos:altLabel          "2DSeisRefl (sismique réflexion 2D)"@fr ;
         skos:definition        "The elucidation of structure beneath sea-bed determined by the reflection of seismic energy along a single track."@en;
+        skos:definition        "La mise en évidence de la structure sous le fond marin déterminée par la réflexion de l'énergie sismique le long d'une seule trajectoire."@fr ;
         skos:notation          "SDN:GS9::SR2D";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Two-dimensional seismic reflection"@en .
+        skos:prefLabel         "Two-dimensional seismic reflection"@en ;
+        skos:prefLabel         "Sismique réflexion bidimensionnelle"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GS9/current/SR4D/>
         rdf:type               skos:Concept;
@@ -49,10 +52,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "4DSeisImag";
+        skos:altLabel          "4DSeisImag (imagerie sismique 4D)"@fr ;
         skos:definition        "The elucidation of structure beneath sea-bed determined by the reflection of seismic energy acquired in multiple surveys at different times but with the aim of comparing and amalgamating them."@en;
+        skos:definition        "La mise en évidence de la structure sous le fond marin déterminée par la réflexion de l'énergie sismique acquise lors de campagnes multiples à des moments différents, dans le but de les comparer et de les fusionner."@fr ;
         skos:notation          "SDN:GS9::SR4D";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Four-dimensional seismic imaging"@en .
+        skos:prefLabel         "Four-dimensional seismic imaging"@en ;
+        skos:prefLabel         "imagerie sismique quadrimensionnelle"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GS9/current/SR3D/>
         rdf:type               skos:Concept;
@@ -66,10 +72,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "3DSeisRefl";
+        skos:altLabel          "3DSeisRefl (sismique réflexion 3D)"@fr ;
         skos:definition        "The elucidation of structure beneath sea-bed determined by the reflection of seismic energy along multiple parallel tracks."@en;
+        skos:definition        "La mise en évidence de la structure sous le fond marin déterminée par la réflexion de l'énergie sismique le long de trajectoires parallèles multiples."@fr ;
         skos:notation          "SDN:GS9::SR3D";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Three-dimensional seismic reflection"@en .
+        skos:prefLabel         "Three-dimensional seismic reflection"@en ;
+        skos:prefLabel         "Sismique réflexion tridimensionnelle"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GS9/current/>
         rdf:type                skos:Collection;
@@ -84,5 +93,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Geo-Seas";
         owl:versionInfo         "1";
         skos:altLabel           "Seismic Dimensionality";
+        skos:altLabel           "dimensionnalité sismique"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/GS9/current/SR3D/> , <http://vocab.nerc.ac.uk/collection/GS9/current/SR4D/> , <http://vocab.nerc.ac.uk/collection/GS9/current/SR2D/>;
-        skos:prefLabel          "Geo-Seas Seismic Survey Dimensionality" .
+        skos:prefLabel          "Geo-Seas Seismic Survey Dimensionality" ;
+        skos:prefLabel          "dimensionnalité des campagnes sismiques Geo-Seas"@fr .

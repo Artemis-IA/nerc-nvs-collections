@@ -34,9 +34,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "5";
         skos:altLabel          "";
         skos:definition        "An organisation which forms part of a project consortium . A  project consortium is an association of two or more organisations with the objective of participating in a common activity or pooling their resources for achieving a common goal."@en;
+        skos:definition        "Une organisation qui fait partie d'un consortium de projet. Un consortium de projet est une association de deux organisations ou plus ayant pour objectif de participer à une activité commune ou de mettre en commun leurs ressources pour atteindre un objectif commun."@fr ;
         skos:notation          "SDN:C59::CONMEM";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Project Member"@en .
+        skos:prefLabel         "Project Member"@en ;
+        skos:prefLabel         "membre du projet"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C59/current/DATM/>
         rdf:type               skos:Concept;
@@ -51,9 +53,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "An organisation which has data management responsibility for a project."@en;
+        skos:definition        "Une organisation qui a la responsabilité de la gestion des données d'un projet."@fr ;
         skos:notation          "SDN:C59::DATM";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Project Data Management"@en .
+        skos:prefLabel         "Project Data Management"@en ;
+        skos:prefLabel         "gestion des données du projet"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C59/current/FUND/>
         rdf:type               skos:Concept;
@@ -69,9 +73,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "2";
         skos:altLabel          "";
         skos:definition        "An organisation responsible for providing the funding to a project."@en;
+        skos:definition        "Une organisation responsable de la fourniture du financement d'un projet."@fr ;
         skos:notation          "SDN:C59::FUND";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Project Funding body"@en .
+        skos:prefLabel         "Project Funding body"@en ;
+        skos:prefLabel         "organisme de financement du projet"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C59/current/CONLEAD/>
         rdf:type               skos:Concept;
@@ -87,9 +93,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "8";
         skos:altLabel          "";
         skos:definition        "The organisation responsible for the overall planning and management of a project  This is either the lead organisation in a consortium or the organisation solely responsible for the project. A project consortium is an association of two or more organisations with the objective of participating in a common activity or pooling their resources for achieving a common goal."@en;
+        skos:definition        "L'organisation responsable de la planification et de la gestion globales d'un projet. Il s'agit soit de l'organisation chef de file d'un consortium, soit de l'organisation seule responsable du projet. Un consortium de projet est une association de deux organisations ou plus ayant pour objectif de participer à une activité commune ou de mettre en commun leurs ressources pour atteindre un objectif commun."@fr ;
         skos:notation          "SDN:C59::CONLEAD";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Project Lead"@en .
+        skos:prefLabel         "Project Lead"@en ;
+        skos:prefLabel         "chef de file du projet"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C59/current/>
         rdf:type                skos:Collection;
@@ -105,5 +113,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "British Oceanographic Data Centre";
         owl:versionInfo         "4";
         skos:altLabel           "Organisation roles";
+        skos:altLabel           "rôles d'organisation"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/C59/current/CONMEM/> , <http://vocab.nerc.ac.uk/collection/C59/current/DATM/> , <http://vocab.nerc.ac.uk/collection/C59/current/CONLEAD/> , <http://vocab.nerc.ac.uk/collection/C59/current/FUND/>;
-        skos:prefLabel          "BODC organisation roles within activities and projects" .
+        skos:prefLabel          "BODC organisation roles within activities and projects" ;
+        skos:prefLabel          "rôles d'organisation BODC au sein des activités et des projets"@fr .

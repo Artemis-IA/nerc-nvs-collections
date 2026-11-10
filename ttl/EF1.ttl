@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Areas where there is clear evidence of spawning activity, including areas of known spawning aggregations or with high concentration of eggs."@en;
+        skos:definition        "Zones où il existe des preuves claires d'activité de frai, y compris les zones d'agrégations de frai connues ou à forte concentration d'œufs."@fr ;
         skos:notation          "SDN:EF1::SwG";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Spawning grounds"@en .
+        skos:prefLabel         "Spawning grounds"@en ;
+        skos:prefLabel         "zones de frai"@fr .
 
 <http://vocab.nerc.ac.uk/collection/EF1/current/MiC/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Routes heavily used by highly mobile species between seasonal habitats during their lifecycle."@en;
+        skos:definition        "Routes très empruntées par les espèces très mobiles entre les habitats saisonniers au cours de leur cycle de vie."@fr ;
         skos:notation          "SDN:EF1::MiC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Migration corridors"@en .
+        skos:prefLabel         "Migration corridors"@en ;
+        skos:prefLabel         "corridors de migration"@fr .
 
 <http://vocab.nerc.ac.uk/collection/EF1/current/FeeG/>
         rdf:type               skos:Concept;
@@ -67,9 +71,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Areas where there is clear evidence that they are favorite feeding grounds, leading to important fish aggregations."@en;
+        skos:definition        "Zones où il existe des preuves claires qu'il s'agit de zones d'alimentation favorites, conduisant à d'importantes agrégations de poissons."@fr ;
         skos:notation          "SDN:EF1::FeeG";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Feeding/foraging grounds"@en .
+        skos:prefLabel         "Feeding/foraging grounds"@en ;
+        skos:prefLabel         "zones d'alimentation/recherche de nourriture"@fr .
 
 <http://vocab.nerc.ac.uk/collection/EF1/current/NuG/>
         rdf:type               skos:Concept;
@@ -84,9 +90,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Areas where there is clear evidence of heavy concentrations of fish below minimum conservation reference size."@en;
+        skos:definition        "Zones où il existe des preuves claires de fortes concentrations de poissons en dessous de la taille de référence minimale de conservation."@fr ;
         skos:notation          "SDN:EF1::NuG";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Nursery grounds"@en .
+        skos:prefLabel         "Nursery grounds"@en ;
+        skos:prefLabel         "zones de nurserie"@fr .
 
 <http://vocab.nerc.ac.uk/collection/EF1/current/>
         rdf:type                skos:Collection;
@@ -101,5 +109,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "EMODnet Seabed Habitats Lot";
         owl:versionInfo         "1";
         skos:altLabel           "EMODnet SeaHab Essential Fish Habitat";
+        skos:altLabel           "habitat essentiel des poissons EMODnet SeaHab"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/EF1/current/SwG/> , <http://vocab.nerc.ac.uk/collection/EF1/current/NuG/> , <http://vocab.nerc.ac.uk/collection/EF1/current/FeeG/> , <http://vocab.nerc.ac.uk/collection/EF1/current/MiC/>;
-        skos:prefLabel          "EMODnet Seabed Habitats Essential Fish Habitat (EFH) vocabulary" .
+        skos:prefLabel          "EMODnet Seabed Habitats Essential Fish Habitat (EFH) vocabulary" ;
+        skos:prefLabel          "vocabulaire des habitats essentiels des poissons (EFH) EMODnet Seabed Habitats"@fr .
