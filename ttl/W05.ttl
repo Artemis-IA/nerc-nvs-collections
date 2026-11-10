@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "InPow";
+        skos:altLabel          "InPow"@fr ;
         skos:definition        "The amount of electricity fed into a system."@en;
+        skos:definition        "La quantité d'électricité injectée dans un système."@fr ;
         skos:notation          "SDN:W05::CHAR0008";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Input power range"@en .
+        skos:prefLabel         "Input power range"@en ;
+        skos:prefLabel         "plage de puissance d'entrée"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0009/>
         rdf:type               skos:Concept;
@@ -49,10 +52,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "ElCurr";
+        skos:altLabel          "ElCurr"@fr ;
         skos:definition        "The kind of electron flow through a conductor (i.e. direct current, alternating current)."@en;
+        skos:definition        "Le type de flux d'électrons à travers un conducteur (c.-à-d. courant continu, courant alternatif)."@fr ;
         skos:notation          "SDN:W05::CHAR0009";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Electrical current type"@en .
+        skos:prefLabel         "Electrical current type"@en ;
+        skos:prefLabel         "type de courant électrique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0002/>
         rdf:type               skos:Concept;
@@ -66,10 +72,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "L";
+        skos:altLabel          "L"@fr ;
         skos:definition        "The measured extent (distance) of the longest dimension of an object."@en;
+        skos:definition        "L'étendue mesurée (distance) de la plus grande dimension d'un objet."@fr ;
         skos:notation          "SDN:W05::CHAR0002";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Length"@en .
+        skos:prefLabel         "Length"@en ;
+        skos:prefLabel         "longueur"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0003/>
         rdf:type               skos:Concept;
@@ -83,10 +92,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "H";
+        skos:altLabel          "H"@fr ;
         skos:definition        "The measured extent (distance) from the base to the top of an object."@en;
+        skos:definition        "L'étendue mesurée (distance) de la base au sommet d'un objet."@fr ;
         skos:notation          "SDN:W05::CHAR0003";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Height"@en .
+        skos:prefLabel         "Height"@en ;
+        skos:prefLabel         "hauteur"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0010/>
         rdf:type               skos:Concept;
@@ -100,10 +112,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "DatStorTyp";
+        skos:altLabel          "DatStorTyp"@fr ;
         skos:definition        "Recording media that are used to retain digital data."@en;
+        skos:definition        "Supports d'enregistrement utilisés pour conserver des données numériques."@fr ;
         skos:notation          "SDN:W05::CHAR0010";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Data storage type"@en .
+        skos:prefLabel         "Data storage type"@en ;
+        skos:prefLabel         "type de stockage de données"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0007/>
         rdf:type               skos:Concept;
@@ -118,9 +133,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The method of communication used to send information from a device or system to shore (e.g. ARGOS, IRIDIUM, Acoustic, Cabled)."@en;
+        skos:definition        "La méthode de communication utilisée pour envoyer des informations d'un dispositif ou système vers la côte (par ex. ARGOS, IRIDIUM, acoustique, câblé)."@fr ;
         skos:notation          "SDN:W05::CHAR0007";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Transmission mode"@en .
+        skos:prefLabel         "Transmission mode"@en ;
+        skos:prefLabel         "mode de transmission"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0004/>
         rdf:type               skos:Concept;
@@ -134,10 +151,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "W";
+        skos:altLabel          "W"@fr ;
         skos:definition        "The measured extent (distance) of an object that is at right angles to the length."@en;
+        skos:definition        "L'étendue mesurée (distance) d'un objet perpendiculaire à la longueur."@fr ;
         skos:notation          "SDN:W05::CHAR0004";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Width"@en .
+        skos:prefLabel         "Width"@en ;
+        skos:prefLabel         "largeur"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0005/>
         rdf:type               skos:Concept;
@@ -152,9 +172,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The casing type of a device or system."@en;
+        skos:definition        "Le type de boîtier d'un dispositif ou système."@fr ;
         skos:notation          "SDN:W05::CHAR0005";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Housing material"@en .
+        skos:prefLabel         "Housing material"@en ;
+        skos:prefLabel         "matériau du boîtier"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0001/>
         rdf:type               skos:Concept;
@@ -169,9 +191,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The mass or heaviness of an object on Earth."@en;
+        skos:definition        "La masse ou lourdeur d'un objet sur Terre."@fr ;
         skos:notation          "SDN:W05::CHAR0001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Weight"@en .
+        skos:prefLabel         "Weight"@en ;
+        skos:prefLabel         "poids"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0006/>
         rdf:type               skos:Concept;
@@ -186,9 +210,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The capacity or memory space of a device or system."@en;
+        skos:definition        "La capacité ou l'espace mémoire d'un dispositif ou système."@fr ;
         skos:notation          "SDN:W05::CHAR0006";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Data storage"@en .
+        skos:prefLabel         "Data storage"@en ;
+        skos:prefLabel         "stockage de données"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W05/current/>
         rdf:type                skos:Collection;
@@ -203,5 +229,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Sensor Web Enablement Marine Profiles";
         owl:versionInfo         "3";
         skos:altLabel           "SensorML Characteristics";
+        skos:altLabel           "caractéristiques SensorML"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0008/> , <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0009/> , <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0002/> , <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0003/> , <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0010/> , <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0007/> , <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0004/> , <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0006/> , <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0001/> , <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0005/>;
-        skos:prefLabel          "SensorML Characteristic Section Terms" .
+        skos:prefLabel          "SensorML Characteristic Section Terms" ;
+        skos:prefLabel          "termes de section des caractéristiques SensorML"@fr .

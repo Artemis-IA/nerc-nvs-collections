@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A provider of input to a project on a mutual co-operation basis without formal involvement in the project."@en;
+        skos:definition        "Un fournisseur d'apport à un projet sur une base de coopération mutuelle sans implication formelle dans le projet."@fr ;
         skos:notation          "SDN:C87::CO";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Project collaborator"@en .
+        skos:prefLabel         "Project collaborator"@en ;
+        skos:prefLabel         "collaborateur de projet"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C87/current/PD/>
         rdf:type               skos:Concept;
@@ -49,10 +51,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "RA";
+        skos:altLabel          "RA"@fr ;
         skos:definition        "Persons employed as researchers on a project, usually the line management responsibility of the principal investigator or a co-investigator."@en;
+        skos:definition        "Personnes employées comme chercheuses sur un projet, généralement sous la responsabilité hiérarchique du chercheur principal ou d'un co-chercheur."@fr ;
         skos:notation          "SDN:C87::PD";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Project research assistant"@en .
+        skos:prefLabel         "Project research assistant"@en ;
+        skos:prefLabel         "assistant de recherche de projet"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C87/current/PG/>
         rdf:type               skos:Concept;
@@ -66,10 +71,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "PGRA";
+        skos:altLabel          "PGRA"@fr ;
         skos:definition        "Persons researching as part of a project as part of their work towards an academic degree.  This will usually be a PhD student, but could also be a masters student or even an undergraduate contributing through their degree work."@en;
+        skos:definition        "Personnes menant des recherches dans le cadre d'un projet dans le cadre de leur travail vers un diplôme académique. Il s'agit généralement d'un doctorant, mais peut aussi être un étudiant de master ou même un undergraduate contribuant par son travail de diplôme."@fr ;
         skos:notation          "SDN:C87::PG";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Project research student"@en .
+        skos:prefLabel         "Project research student"@en ;
+        skos:prefLabel         "étudiant chercheur de projet"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C87/current/SM/>
         rdf:type               skos:Concept;
@@ -84,9 +92,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Persons serving on a project scientific steering committee,"@en;
+        skos:definition        "Personnes siégeant au comité de pilotage scientifique d'un projet,"@fr ;
         skos:notation          "SDN:C87::SM";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Project scientific steering committee member"@en .
+        skos:prefLabel         "Project scientific steering committee member"@en ;
+        skos:prefLabel         "membre du comité de pilotage scientifique du projet"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C87/current/CI/>
         rdf:type               skos:Concept;
@@ -100,10 +110,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Project Co-I";
+        skos:altLabel          "Project Co-I"@fr ;
         skos:definition        "The persons responsible for the planning, direction and management of a sub-component of a project.  Termed a work package leader in EU projects."@en;
+        skos:definition        "Les personnes responsables de la planification, de la direction et de la gestion d'une sous-composante d'un projet. Appelé responsable de lot de travail dans les projets UE."@fr ;
         skos:notation          "SDN:C87::CI";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Project co-investigator"@en .
+        skos:prefLabel         "Project co-investigator"@en ;
+        skos:prefLabel         "co-chercheur de projet"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C87/current/PA/>
         rdf:type               skos:Concept;
@@ -118,9 +131,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Project secretariat members providing administrative support to the project without management responsibility."@en;
+        skos:definition        "Membres du secrétariat de projet fournissant un support administratif au projet sans responsabilité de gestion."@fr ;
         skos:notation          "SDN:C87::PA";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Project administrator"@en .
+        skos:prefLabel         "Project administrator"@en ;
+        skos:prefLabel         "administrateur de projet"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C87/current/PI/>
         rdf:type               skos:Concept;
@@ -134,10 +149,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Project PI";
+        skos:altLabel          "Project PI"@fr ;
         skos:definition        "The person or persons responsible for the overall planning, direction and management of the project.  This role is termed the project co-ordinator in EU projects."@en;
+        skos:definition        "La ou les personnes responsables de la planification, de la direction et de la gestion globales du projet. Ce rôle est appelé coordinateur de projet dans les projets UE."@fr ;
         skos:notation          "SDN:C87::PI";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Project principal investigator"@en .
+        skos:prefLabel         "Project principal investigator"@en ;
+        skos:prefLabel         "chercheur principal du projet"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C87/current/MP/>
         rdf:type               skos:Concept;
@@ -152,9 +170,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Person with particular responsibility for accuracy and completeness of metadata, data quality and the short-term data access and security and assuring the long-term stewardship of the data collected during the project, but has no IPR interest in those data."@en;
+        skos:definition        "Personne ayant une responsabilité particulière quant à l'exactitude et à la complétude des métadonnées, à la qualité des données et à l'accès et la sécurité des données à court terme et assurant la gestion à long terme des données collectées pendant le projet, mais n'ayant aucun intérêt en PI sur ces données."@fr ;
         skos:notation          "SDN:C87::MP";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Project data manager"@en .
+        skos:prefLabel         "Project data manager"@en ;
+        skos:prefLabel         "gestionnaire de données du projet"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C87/current/RA/>
         rdf:type               skos:Concept;
@@ -169,9 +189,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A person who is responsible for preparation, operation and/or maintenance of shipboard, laboratory or deployed scientific instrumentation, but has no IPR interest in the data returned by that instrumentation."@en;
+        skos:definition        "Une personne responsable de la préparation, de l'exploitation et/ou de la maintenance d'instrumentation scientifique embarquée, de laboratoire ou déployée, mais n'ayant aucun intérêt en PI sur les données produites par cette instrumentation."@fr ;
         skos:notation          "SDN:C87::RA";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Project technician"@en .
+        skos:prefLabel         "Project technician"@en ;
+        skos:prefLabel         "technicien de projet"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C87/current/SC/>
         rdf:type               skos:Concept;
@@ -186,9 +208,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The person chairing the project scientific steering committee."@en;
+        skos:definition        "La personne présidant le comité de pilotage scientifique du projet."@fr ;
         skos:notation          "SDN:C87::SC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Project scientific steering committee chair"@en .
+        skos:prefLabel         "Project scientific steering committee chair"@en ;
+        skos:prefLabel         "président du comité de pilotage scientifique du projet"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C87/current/PM/>
         rdf:type               skos:Concept;
@@ -203,9 +227,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Project secretariat member with management responsibilities for the project."@en;
+        skos:definition        "Membre du secrétariat de projet avec des responsabilités de gestion pour le projet."@fr ;
         skos:notation          "SDN:C87::PM";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Project manager"@en .
+        skos:prefLabel         "Project manager"@en ;
+        skos:prefLabel         "chef de projet"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C87/current/DP/>
         rdf:type               skos:Concept;
@@ -219,10 +245,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Dataset PI";
+        skos:altLabel          "Dataset PI"@fr ;
         skos:definition        "The person responsible for a specified subset of the data collected during a project and who holds the IPR for that subset of the data."@en;
+        skos:definition        "La personne responsable d'un sous-ensemble spécifié des données collectées pendant un projet et qui détient la PI pour ce sous-ensemble de données."@fr ;
         skos:notation          "SDN:C87::DP";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Project dataset principal investigator"@en .
+        skos:prefLabel         "Project dataset principal investigator"@en ;
+        skos:prefLabel         "chercheur principal du jeu de données du projet"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C87/current/>
         rdf:type                skos:Collection;
@@ -238,5 +267,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "British Oceanographic Data Centre";
         owl:versionInfo         "0";
         skos:altLabel           "BODC project roles";
+        skos:altLabel           "rôles de projet BODC"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/C87/current/CO/> , <http://vocab.nerc.ac.uk/collection/C87/current/PD/> , <http://vocab.nerc.ac.uk/collection/C87/current/PG/> , <http://vocab.nerc.ac.uk/collection/C87/current/SM/> , <http://vocab.nerc.ac.uk/collection/C87/current/CI/> , <http://vocab.nerc.ac.uk/collection/C87/current/PA/> , <http://vocab.nerc.ac.uk/collection/C87/current/PI/> , <http://vocab.nerc.ac.uk/collection/C87/current/MP/> , <http://vocab.nerc.ac.uk/collection/C87/current/RA/> , <http://vocab.nerc.ac.uk/collection/C87/current/SC/> , <http://vocab.nerc.ac.uk/collection/C87/current/DP/> , <http://vocab.nerc.ac.uk/collection/C87/current/PM/>;
-        skos:prefLabel          "BODC project roles" .
+        skos:prefLabel          "BODC project roles" ;
+        skos:prefLabel          "rôles de projet BODC"@fr .

@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Use of the resource is permitted for any purpose and by any user, without restriction, in accordance with the applicable licence or usage policy."@en;
+        skos:definition        "L'utilisation de la ressource est permise à toute fin et par tout utilisateur, sans restriction, conformément à la licence ou à la politique d'utilisation applicable."@fr ;
         skos:notation          "SDN:N08::OPEN";
         skos:note              "accepted"@en;
-        skos:prefLabel         "open use permitted"@en .
+        skos:prefLabel         "open use permitted"@en ;
+        skos:prefLabel         "utilisation ouverte autorisée"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N08/current/ACAD/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Use of the resource is permitted for academic research purposes in accordance with the applicable licence or usage policy."@en;
+        skos:definition        "L'utilisation de la ressource est permise à des fins de recherche académique, conformément à la licence ou à la politique d'utilisation applicable."@fr ;
         skos:notation          "SDN:N08::ACAD";
         skos:note              "accepted"@en;
-        skos:prefLabel         "academic use permitted"@en .
+        skos:prefLabel         "academic use permitted"@en ;
+        skos:prefLabel         "utilisation académique autorisée"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N08/current/UNCL/>
         rdf:type               skos:Concept;
@@ -67,9 +71,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Use of the resource may be subject to licence or policy terms in which permitted uses, prohibitions, or conditions of use are not clearly defined. No specific permissions, restrictions, or obligations can be reliably inferred."@en;
+        skos:definition        "L'utilisation de la ressource peut être soumise à des conditions de licence ou de politique dans lesquelles les utilisations permises, les interdictions ou les conditions d'utilisation ne sont pas clairement définies. Aucune permission, restriction ou obligation spécifique ne peut être déduite de manière fiable."@fr ;
         skos:notation          "SDN:N08::UNCL";
         skos:note              "accepted"@en;
-        skos:prefLabel         "use conditions unclear"@en .
+        skos:prefLabel         "use conditions unclear"@en ;
+        skos:prefLabel         "conditions d'utilisation floues"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N08/current/PERS/>
         rdf:type               skos:Concept;
@@ -84,9 +90,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Use of the resource is permitted for personal or private purposes, in accordance with the applicable licence or usage policy."@en;
+        skos:definition        "L'utilisation de la ressource est permise à des fins personnelles ou privées, conformément à la licence ou à la politique d'utilisation applicable."@fr ;
         skos:notation          "SDN:N08::PERS";
         skos:note              "accepted"@en;
-        skos:prefLabel         "personal use permitted"@en .
+        skos:prefLabel         "personal use permitted"@en ;
+        skos:prefLabel         "utilisation personnelle autorisée"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N08/current/COMM/>
         rdf:type               skos:Concept;
@@ -101,9 +109,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Use of the resource is permitted for commercial purposes or financial gain, in accordance with the applicable licence, usage policy, or fee requirements."@en;
+        skos:definition        "L'utilisation de la ressource est permise à des fins commerciales ou de gain financier, conformément à la licence, à la politique d'utilisation ou aux exigences de redevance applicables."@fr ;
         skos:notation          "SDN:N08::COMM";
         skos:note              "accepted"@en;
-        skos:prefLabel         "commercial use permitted"@en .
+        skos:prefLabel         "commercial use permitted"@en ;
+        skos:prefLabel         "utilisation commerciale autorisée"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N08/current/DERI/>
         rdf:type               skos:Concept;
@@ -118,9 +128,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Use of the resource is permitted to create derivative products or outputs, in accordance with the applicable licence or usage policy."@en;
+        skos:definition        "L'utilisation de la ressource est permise pour créer des produits ou sorties dérivés, conformément à la licence ou à la politique d'utilisation applicable."@fr ;
         skos:notation          "SDN:N08::DERI";
         skos:note              "accepted"@en;
-        skos:prefLabel         "derivative outputs permitted"@en .
+        skos:prefLabel         "derivative outputs permitted"@en ;
+        skos:prefLabel         "produits dérivés autorisés"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N08/current/NCOM/>
         rdf:type               skos:Concept;
@@ -135,9 +147,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Use of the resource is restricted to non-commercial purposes; use for commercial purposes is not permitted, in accordance with the applicable licence or usage policy."@en;
+        skos:definition        "L'utilisation de la ressource est limitée à des fins non commerciales ; l'utilisation à des fins commerciales n'est pas permise, conformément à la licence ou à la politique d'utilisation applicable."@fr ;
         skos:notation          "SDN:N08::NCOM";
         skos:note              "accepted"@en;
-        skos:prefLabel         "use restricted to non-commercial purposes"@en .
+        skos:prefLabel         "use restricted to non-commercial purposes"@en ;
+        skos:prefLabel         "utilisation limitée à des fins non commerciales"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N08/current/NODS/>
         rdf:type               skos:Concept;
@@ -152,9 +166,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Use of the resource is permitted only for the grantee and may not be redistributed or shared with third parties without explicit permission from the data owner or provider."@en;
+        skos:definition        "L'utilisation de la ressource est permise uniquement au bénéficiaire et ne peut être redistribuée ou partagée avec des tiers sans permission explicite du propriétaire ou fournisseur des données."@fr ;
         skos:notation          "SDN:N08::NODS";
         skos:note              "accepted"@en;
-        skos:prefLabel         "onward distribution prohibited"@en .
+        skos:prefLabel         "onward distribution prohibited"@en ;
+        skos:prefLabel         "redistribution ultérieure interdite"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N08/current/ATTR/>
         rdf:type               skos:Concept;
@@ -169,9 +185,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Use of the resource is permitted provided that the data source is acknowledged in accordance with the applicable licence or citation guidance."@en;
+        skos:definition        "L'utilisation de la ressource est permise à condition que la source des données soit mentionnée conformément à la licence ou aux recommandations de citation applicables."@fr ;
         skos:notation          "SDN:N08::ATTR";
         skos:note              "accepted"@en;
-        skos:prefLabel         "attribution required"@en .
+        skos:prefLabel         "attribution required"@en ;
+        skos:prefLabel         "attribution requise"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N08/current/SHAR/>
         rdf:type               skos:Concept;
@@ -186,9 +204,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Use of the resource is permitted only if any derivative products or outputs are made available under the same or a compatible licence as the original resource, in accordance with the applicable licence or usage policy."@en;
+        skos:definition        "L'utilisation de la ressource est permise uniquement si tout produit ou sortie dérivé est rendu disponible sous la même licence ou une licence compatible que la ressource originale, conformément à la licence ou à la politique d'utilisation applicable."@fr ;
         skos:notation          "SDN:N08::SHAR";
         skos:note              "accepted"@en;
-        skos:prefLabel         "share-alike required"@en .
+        skos:prefLabel         "share-alike required"@en ;
+        skos:prefLabel         "partage à l'identique requis"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N08/current/INTU/>
         rdf:type               skos:Concept;
@@ -203,9 +223,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Use of the resource is restricted to internal purposes within the specified organisation or project, in accordance with applicable policies or agreements."@en;
+        skos:definition        "L'utilisation de la ressource est limitée à des fins internes au sein de l'organisation ou du projet spécifié, conformément aux politiques ou accords applicables."@fr ;
         skos:notation          "SDN:N08::INTU";
         skos:note              "accepted"@en;
-        skos:prefLabel         "use restricted to internal purposes"@en .
+        skos:prefLabel         "use restricted to internal purposes"@en ;
+        skos:prefLabel         "utilisation limitée à des fins internes"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N08/current/EDUC/>
         rdf:type               skos:Concept;
@@ -220,9 +242,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Use of the resource is permitted for teaching, training, or instructional purposes, in accordance with the applicable licence or usage policy."@en;
+        skos:definition        "L'utilisation de la ressource est permise à des fins d'enseignement, de formation ou d'instruction, conformément à la licence ou à la politique d'utilisation applicable."@fr ;
         skos:notation          "SDN:N08::EDUC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "educational use permitted"@en .
+        skos:prefLabel         "educational use permitted"@en ;
+        skos:prefLabel         "utilisation éducative autorisée"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N08/current/POLI/>
         rdf:type               skos:Concept;
@@ -237,9 +261,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Use of the resource is permitted internally within organisations to support policy development, decision-making, or governmental operations, in accordance with applicable licence or usage policy."@en;
+        skos:definition        "L'utilisation de la ressource est permise en interne au sein d'organisations pour soutenir le développement de politiques, la prise de décision ou les opérations gouvernementales, conformément à la licence ou à la politique d'utilisation applicable."@fr ;
         skos:notation          "SDN:N08::POLI";
         skos:note              "accepted"@en;
-        skos:prefLabel         "policy use permitted"@en .
+        skos:prefLabel         "policy use permitted"@en ;
+        skos:prefLabel         "utilisation politique autorisée"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N08/current/DPTR/>
         rdf:type               skos:Concept;
@@ -254,9 +280,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Distribution of derivative products or outputs created from the resource is not permitted without explicit permission from the data owner or provider."@en;
+        skos:definition        "La distribution de produits ou sorties dérivés créés à partir de la ressource n'est pas permise sans permission explicite du propriétaire ou fournisseur des données."@fr ;
         skos:notation          "SDN:N08::DPTR";
         skos:note              "accepted"@en;
-        skos:prefLabel         "derived product distribution restricted"@en .
+        skos:prefLabel         "derived product distribution restricted"@en ;
+        skos:prefLabel         "distribution de produits dérivés restreinte"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N08/current/>
         rdf:type                skos:Collection;
@@ -272,5 +300,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Environmental Data Service Vocabulary Governance";
         owl:versionInfo         "1";
         skos:altLabel           "EDS Use Conditions Vocabulary";
+        skos:altLabel           "vocabulaire des conditions d'utilisation EDS"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/N08/current/OPEN/> , <http://vocab.nerc.ac.uk/collection/N08/current/ACAD/> , <http://vocab.nerc.ac.uk/collection/N08/current/UNCL/> , <http://vocab.nerc.ac.uk/collection/N08/current/PERS/> , <http://vocab.nerc.ac.uk/collection/N08/current/COMM/> , <http://vocab.nerc.ac.uk/collection/N08/current/DERI/> , <http://vocab.nerc.ac.uk/collection/N08/current/NCOM/> , <http://vocab.nerc.ac.uk/collection/N08/current/NODS/> , <http://vocab.nerc.ac.uk/collection/N08/current/ATTR/> , <http://vocab.nerc.ac.uk/collection/N08/current/SHAR/> , <http://vocab.nerc.ac.uk/collection/N08/current/INTU/> , <http://vocab.nerc.ac.uk/collection/N08/current/EDUC/> , <http://vocab.nerc.ac.uk/collection/N08/current/DPTR/> , <http://vocab.nerc.ac.uk/collection/N08/current/POLI/>;
-        skos:prefLabel          "Environmental Data Service (EDS) Use Conditions Vocabulary" .
+        skos:prefLabel          "Environmental Data Service (EDS) Use Conditions Vocabulary" ;
+        skos:prefLabel          "vocabulaire des conditions d'utilisation du service de données environnementales (EDS)"@fr .

@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "CPT borehole";
+        skos:altLabel          "CPT borehole (sondage CPT)"@fr ;
         skos:definition        "A geotechnical site investigation where a narrow shaft is drilled into a substrate to a pre-selected depth and then, at that depth, an instrumented cone with tip facing down is pushed into the base of the borehole at a controlled rate (also known as borehole cone penetration testing)."@en;
+        skos:definition        "Une investigation de site géotechnique où un puits étroit est foré dans un substrat jusqu'à une profondeur présélectionnée puis, à cette profondeur, un cône instrumenté orienté vers le bas est enfoncé dans la base du sondage à une vitesse contrôlée (également connu sous le nom de test de pénétration au cône en sondage)."@fr ;
         skos:notation          "SDN:M16::INVEST_CPTBORE";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Cone penetration test borehole investigation"@en .
+        skos:prefLabel         "Cone penetration test borehole investigation"@en ;
+        skos:prefLabel         "investigation de sondage par test de pénétration au cône"@fr .
 
 <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_PISTON/>
         rdf:type               skos:Concept;
@@ -49,10 +52,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Piston core";
+        skos:altLabel          "carottier à piston"@fr ;
         skos:definition        "A geotechnical site investigation carried out with the intention of recovering samples from seafloor substrate using a sampling technique which consists of a heavy weight, above a long metal tube and secured by a trigger arm. When the metal tube impacts the seabed, the trigger arm is released and the heavy weight falls, strikes the metal tube and drives it deep into the seafloor"@en;
+        skos:definition        "Une investigation de site géotechnique réalisée dans le but de prélever des échantillons du substrat du fond marin à l'aide d'une technique d'échantillonnage consistant en un poids lourd, au-dessus d'un long tube métallique et fixé par un bras déclencheur. Lorsque le tube métallique impacte le fond marin, le bras déclencheur est libéré et le poids lourd tombe, frappe le tube métallique et l'enfonce profondément dans le fond marin."@fr ;
         skos:notation          "SDN:M16::INVEST_PISTON";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Piston core investigation"@en .
+        skos:prefLabel         "Piston core investigation"@en ;
+        skos:prefLabel         "investigation par carottier à piston"@fr .
 
 <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_BEDCPT/>
         rdf:type               skos:Concept;
@@ -66,10 +72,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Seabed CPT";
+        skos:altLabel          "Seabed CPT (CPT fond marin)"@fr ;
         skos:definition        "A geotechnical site investigation where a rig is lowered to the seafloor which contains a mechanical system that forces an instrumented cone with tip down into the seabed at a controlled rate."@en;
+        skos:definition        "Une investigation de site géotechnique où un appareil est descendu jusqu'au fond marin contenant un système mécanique qui force un cône instrumenté orienté vers le bas dans le fond marin à une vitesse contrôlée."@fr ;
         skos:notation          "SDN:M16::INVEST_BEDCPT";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Seabed cone penetration test investigation"@en .
+        skos:prefLabel         "Seabed cone penetration test investigation"@en ;
+        skos:prefLabel         "investigation par test de pénétration au cône sur le fond marin"@fr .
 
 <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_BOX/>
         rdf:type               skos:Concept;
@@ -83,10 +92,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Box core";
+        skos:altLabel          "Box core (carottage boîte)"@fr ;
         skos:definition        "A geotechnical site investigation carried out with the intention of recovering soft sediment samples from the seafloor using a sampling technique consisting of a weighted box which penetrates into the seabed to a depth which depends on its descent rate, and has a blade which closes the base of the box after penetration, thus collecting the sample."@en;
+        skos:definition        "Une investigation de site géotechnique réalisée dans le but de prélever des échantillons de sédiment meuble du fond marin à l'aide d'une technique d'échantillonnage consistant en une boîte lestée qui pénètre dans le fond marin sur une profondeur dépendant de sa vitesse de descente, et qui possède une lame fermant la base de la boîte après la pénétration, collectant ainsi l'échantillon."@fr ;
         skos:notation          "SDN:M16::INVEST_BOX";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Box core investigation"@en .
+        skos:prefLabel         "Box core investigation"@en ;
+        skos:prefLabel         "investigation par carottage boîte"@fr .
 
 <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_VIBR/>
         rdf:type               skos:Concept;
@@ -100,10 +112,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Vibrocore";
+        skos:altLabel          "vibrocarottier"@fr ;
         skos:definition        "A geotechnical site investigation carried out with the intention of recovering samples from the seabed using a sampling technique in which a large diameter tube is vibrated into substrate while oscillating."@en;
+        skos:definition        "Une investigation de site géotechnique réalisée dans le but de prélever des échantillons du fond marin à l'aide d'une technique d'échantillonnage dans laquelle un tube de grand diamètre est vibré dans le substrat en oscillant."@fr ;
         skos:notation          "SDN:M16::INVEST_VIBR";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Vibrocore  investigation"@en .
+        skos:prefLabel         "Vibrocore  investigation"@en ;
+        skos:prefLabel         "investigation par vibrocarottier"@fr .
 
 <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_GRAB/>
         rdf:type               skos:Concept;
@@ -117,10 +132,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Grab investigation";
+        skos:altLabel          "Grab investigation (investigation par benne)"@fr ;
         skos:definition        "A geotechnical site investigation carried out with the intention of recovering sediment samples from the seabed using a device which consists of a bucket or pair of buckets or similar containers which rotate on impact with the seabed, either through a spring trigger or through human intervention and scoop out a sample of sediment."@en;
+        skos:definition        "Une investigation de site géotechnique réalisée dans le but de prélever des échantillons de sédiment du fond marin à l'aide d'un dispositif consistant en un godet ou une paire de godets ou des conteneurs similaires qui pivotent au contact du fond marin, soit par déclenchement à ressort soit par intervention humaine, et prélèvent un échantillon de sédiment."@fr ;
         skos:notation          "SDN:M16::INVEST_GRAB";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Grab investigation"@en .
+        skos:prefLabel         "Grab investigation"@en ;
+        skos:prefLabel         "Grab investigation (investigation par benne)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_COMPBORE/>
         rdf:type               skos:Concept;
@@ -134,10 +152,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Composite borehole";
+        skos:altLabel          "Composite borehole (sondage composite)"@fr ;
         skos:definition        "A geotechnical site investigation where a narrow shaft is drilled into a substrate with the intention of performing both sampling of soil or rock and in-situ testing such as insertion of instrumented cones into the substrate."@en;
+        skos:definition        "Une investigation de site géotechnique où un puits étroit est foré dans un substrat dans le but d'effectuer à la fois l'échantillonnage du sol ou de la roche et des essais in situ tels que l'insertion de cônes instrumentés dans le substrat."@fr ;
         skos:notation          "SDN:M16::INVEST_COMPBORE";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Composite borehole investigation"@en .
+        skos:prefLabel         "Composite borehole investigation"@en ;
+        skos:prefLabel         "investigation de sondage composite"@fr .
 
 <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_SPECBORE/>
         rdf:type               skos:Concept;
@@ -151,10 +172,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Specialist borehole";
+        skos:altLabel          "Specialist borehole (sondage spécialisé)"@fr ;
         skos:definition        "A geotechnical site investigation where anarrow shaft is drilled into a substrate for specialist in-situ testing which excludes penetration tests by instrumented cones."@en;
+        skos:definition        "Une investigation de site géotechnique où un puits étroit est foré dans un substrat pour des essais in situ spécialisés excluant les tests de pénétration par cônes instrumentés."@fr ;
         skos:notation          "SDN:M16::INVEST_SPECBORE";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Specialist borehole investigation"@en .
+        skos:prefLabel         "Specialist borehole investigation"@en ;
+        skos:prefLabel         "investigation de sondage spécialisé"@fr .
 
 <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_SAMPBORE/>
         rdf:type               skos:Concept;
@@ -168,10 +192,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Sample borehole";
+        skos:altLabel          "Sample borehole (sondage d'échantillonnage)"@fr ;
         skos:definition        "A geotechnical site investigation consisting of a narrow shaft drilled into a substrate solely to obtain soil or rock samples"@en;
+        skos:definition        "Une investigation de site géotechnique consistant en un puits étroit foré dans un substrat uniquement pour obtenir des échantillons de sol ou de roche."@fr ;
         skos:notation          "SDN:M16::INVEST_SAMPBORE";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Sample borehole investigation"@en .
+        skos:prefLabel         "Sample borehole investigation"@en ;
+        skos:prefLabel         "investigation de sondage d'échantillonnage"@fr .
 
 <http://vocab.nerc.ac.uk/collection/M16/current/>
         rdf:type                skos:Collection;
@@ -186,5 +213,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "MEDIN Standards Group";
         owl:versionInfo         "1";
         skos:altLabel           "Geotech site investigation type";
+        skos:altLabel           "type d'investigation de site géotechnique"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_CPTBORE/> , <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_PISTON/> , <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_BEDCPT/> , <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_BOX/> , <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_VIBR/> , <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_GRAB/> , <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_SAMPBORE/> , <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_SPECBORE/> , <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_COMPBORE/>;
-        skos:prefLabel          "Type of geotechnical investigation carried out at a site" .
+        skos:prefLabel          "Type of geotechnical investigation carried out at a site" ;
+        skos:prefLabel          "type d'investigation géotechnique réalisée sur un site"@fr .
