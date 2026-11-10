@@ -34,9 +34,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "NB_SAMPLE_DURAFET";
         skos:definition        "Not Used. Number of samples in each pressure bin. Local_Attributes:{long_name:Number of samples in each pressure bin; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_SHORT}. Properties:{category:ic; data_type:short}."@en;
+        skos:definition        "Non utilisé. Nombre d'échantillons dans chaque tranche de pression Local_Attributes:{long_name:Nombre d'échantillons dans chaque tranche de pression; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_SHORT}. Properties:{category:ic; data_type:short}."@fr ;
         skos:notation          "SDN:R03::NB_SAMPLE_DURAFET";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Number of DURAFET samples in each pressure bin"@en .
+        skos:prefLabel         "Number of DURAFET samples in each pressure bin"@en ;
+        skos:prefLabel         "Nombre d'échantillons DURAFET dans chaque tranche de pression"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/DOWN_IRRADIANCE665/>
         rdf:type               skos:Concept;
@@ -51,9 +53,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "DOWN_IRRADIANCE665";
         skos:definition        "Downwelling irradiance at 665 nm wavelength, reported by OCR504 sensor (unit conversion). Local_Attributes:{long_name:Downwelling irradiance at 665 nanometers; standard_name:-; units:W/m^2/nm; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}."@en;
+        skos:definition        "Irradiance descendante à 665 nm de longueur d'onde (capteur OCR504) (conversion d'unité). Local_Attributes:{long_name:Irradiance descendante à 665 nanomètres; standard_name:-; units:W/m^2/nm; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}."@fr ;
         skos:notation          "SDN:R03::DOWN_IRRADIANCE665";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Downwelling irradiance at 665 nanometers"@en .
+        skos:prefLabel         "Downwelling irradiance at 665 nanometers"@en ;
+        skos:prefLabel         "Irradiance descendante à 665 nanomètres"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_IRRADIANCE665/>
         rdf:type               skos:Concept;
@@ -68,9 +72,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "RAW_DOWNWELLING_IRRADIANCE665";
         skos:definition        "Raw downwelling irradiance signal at 665 nm wavelength. Local_Attributes:{long_name:Raw downwelling irradiance at 665 nanometers; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_DOUBLE}. Properties:{category:ib; data_type:double}"@en;
+        skos:definition        "Signal brut d'irradiance descendante à 665 nm de longueur d'onde. Local_Attributes:{long_name:Irradiance descendante brute à 665 nanomètres; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_DOUBLE}. Properties:{category:ib; data_type:double}"@fr ;
         skos:notation          "SDN:R03::RAW_DOWNWELLING_IRRADIANCE665";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Raw downwelling irradiance at 665 nanometers"@en .
+        skos:prefLabel         "Raw downwelling irradiance at 665 nanometers"@en ;
+        skos:prefLabel         "Irradiance descendante brute à 665 nanomètres"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_OCR/>
         rdf:type               skos:Concept;
@@ -86,9 +92,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "NB_SAMPLE_OCR";
         skos:definition        "Not Used. Number of samples in each pressure bin. Local_Attributes:{long_name:Number of samples in each pressure bin; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_SHORT}. Properties:{category:ic; data_type:short}."@en;
+        skos:definition        "Non utilisé. Nombre d'échantillons dans chaque tranche de pression Local_Attributes:{long_name:Nombre d'échantillons dans chaque tranche de pression; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_SHORT}. Properties:{category:ic; data_type:short}."@fr ;
         skos:notation          "SDN:R03::NB_SAMPLE_OCR";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Number of OCR samples in each pressure bin"@en .
+        skos:prefLabel         "Number of OCR samples in each pressure bin"@en ;
+        skos:prefLabel         "Nombre d'échantillons OCR dans chaque tranche de pression"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_ISUS/>
         rdf:type               skos:Concept;
@@ -104,9 +112,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "NB_SAMPLE_ISUS";
         skos:definition        "Not Used. Number of samples in each pressure bin. Local_Attributes:{long_name:Number of samples in each pressure bin; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_SHORT}. Properties:{category:ic; data_type:short}."@en;
+        skos:definition        "Non utilisé. Nombre d'échantillons dans chaque tranche de pression Local_Attributes:{long_name:Nombre d'échantillons dans chaque tranche de pression; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_SHORT}. Properties:{category:ic; data_type:short}."@fr ;
         skos:notation          "SDN:R03::NB_SAMPLE_ISUS";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Number of ISUS samples in each pressure bin"@en .
+        skos:prefLabel         "Number of ISUS samples in each pressure bin"@en ;
+        skos:prefLabel         "Nombre d'échantillons ISUS dans chaque tranche de pression"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_STM/>
         rdf:type               skos:Concept;
@@ -122,9 +132,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "NB_SAMPLE_STM";
         skos:definition        "Not Used. Number of samples in each pressure bin. Local_Attributes:{long_name:Number of samples in each pressure bin; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_SHORT}. Properties:{category:ic; data_type:short}."@en;
+        skos:definition        "Non utilisé. Nombre d'échantillons dans chaque tranche de pression Local_Attributes:{long_name:Nombre d'échantillons dans chaque tranche de pression; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_SHORT}. Properties:{category:ic; data_type:short}."@fr ;
         skos:notation          "SDN:R03::NB_SAMPLE_STM";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Number of STM samples in each pressure bin"@en .
+        skos:prefLabel         "Number of STM samples in each pressure bin"@en ;
+        skos:prefLabel         "Nombre d'échantillons STM dans chaque tranche de pression"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_SFET/>
         rdf:type               skos:Concept;
@@ -140,9 +152,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "2";
         skos:altLabel          "NB_SAMPLE_SFET";
         skos:definition        "Number of SFET samples in each pressure bin. Local_Attributes:{long_name:Number of samples in each pressure bin for the SFET; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_SHORT}. Properties:{category:ib; data_type:short}"@en;
+        skos:definition        "Nombre d'échantillons SFET dans chaque tranche de pression. Local_Attributes:{long_name:Nombre d'échantillons dans chaque tranche de pression pour le SFET; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_SHORT}. Properties:{category:ib; data_type:short}"@fr ;
         skos:notation          "SDN:R03::NB_SAMPLE_SFET";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Number of samples in each pressure bin for the SFET"@en .
+        skos:prefLabel         "Number of samples in each pressure bin for the SFET"@en ;
+        skos:prefLabel         "Nombre d'échantillons dans chaque tranche de pression pour le SFET"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_OPTODE/>
         rdf:type               skos:Concept;
@@ -158,9 +172,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "NB_SAMPLE_OPTODE";
         skos:definition        "Not Used. Number of samples in each pressure bin. Local_Attributes:{long_name:Number of samples in each pressure bin; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_SHORT}. Properties:{category:ic; data_type:short}."@en;
+        skos:definition        "Non utilisé. Nombre d'échantillons dans chaque tranche de pression Local_Attributes:{long_name:Nombre d'échantillons dans chaque tranche de pression; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_SHORT}. Properties:{category:ic; data_type:short}."@fr ;
         skos:notation          "SDN:R03::NB_SAMPLE_OPTODE";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Number of optode samples in each pressure bin"@en .
+        skos:prefLabel         "Number of optode samples in each pressure bin"@en ;
+        skos:prefLabel         "Nombre d'échantillons optode dans chaque tranche de pression"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_CTD/>
         rdf:type               skos:Concept;
@@ -176,9 +192,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "NB_SAMPLE_CTD";
         skos:definition        "Number of CTD samples in each pressure bin. Local_Attributes:{long_name:Number of samples in each pressure bin for the CTD; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_SHORT}. Properties:{category:ic; data_type:short}"@en;
+        skos:definition        "Nombre d'échantillons CTD dans chaque tranche de pression. Local_Attributes:{long_name:Nombre d'échantillons dans chaque tranche de pression pour la CTD; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_SHORT}. Properties:{category:ic; data_type:short}"@fr ;
         skos:notation          "SDN:R03::NB_SAMPLE_CTD";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Number of samples in each pressure bin for the CTD"@en .
+        skos:prefLabel         "Number of samples in each pressure bin for the CTD"@en ;
+        skos:prefLabel         "Nombre d'échantillons dans chaque tranche de pression pour la CTD"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_IRRADIANCE670/>
         rdf:type               skos:Concept;
@@ -193,9 +211,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "RAW_DOWNWELLING_IRRADIANCE670";
         skos:definition        "Raw downwelling irradiance signal at 670 nm wavelength. Local_Attributes:{long_name:Raw downwelling irradiance at 670 nanometers; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_DOUBLE}. Properties:{category:ib; data_type:double}"@en;
+        skos:definition        "Signal brut d'irradiance descendante à 670 nm de longueur d'onde. Local_Attributes:{long_name:Irradiance descendante brute à 670 nanomètres; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_DOUBLE}. Properties:{category:ib; data_type:double}"@fr ;
         skos:notation          "SDN:R03::RAW_DOWNWELLING_IRRADIANCE670";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Raw downwelling irradiance at 670 nanometers"@en .
+        skos:prefLabel         "Raw downwelling irradiance at 670 nanometers"@en ;
+        skos:prefLabel         "Irradiance descendante brute à 670 nanomètres"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_MCOMS/>
         rdf:type               skos:Concept;
@@ -211,9 +231,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "4";
         skos:altLabel          "NB_SAMPLE_MCOMS";
         skos:definition        "Number of samples in each pressure bin. Local_Attributes:{long_name:Number of samples in each pressure bin; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_SHORT}. Properties:{category:ic; data_type:short}."@en;
+        skos:definition        "Nombre d'échantillons dans chaque tranche de pression Local_Attributes:{long_name:Nombre d'échantillons dans chaque tranche de pression; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_SHORT}. Properties:{category:ic; data_type:short}."@fr ;
         skos:notation          "SDN:R03::NB_SAMPLE_MCOMS";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Number of MCOMS samples in each pressure bin"@en .
+        skos:prefLabel         "Number of MCOMS samples in each pressure bin"@en ;
+        skos:prefLabel         "Nombre d'échantillons MCOMS dans chaque tranche de pression"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/DOWN_IRRADIANCE670/>
         rdf:type               skos:Concept;
@@ -228,9 +250,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "DOWN_IRRADIANCE670";
         skos:definition        "Downwelling irradiance at 670 nm wavelength, reported by OCR504 sensor (unit conversion). Local_Attributes:{long_name:Downwelling irradiance at 670 nanometers; standard_name:-; units:W/m^2/nm; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@en;
+        skos:definition        "Irradiance descendante à 670 nm de longueur d'onde (capteur OCR504) (conversion d'unité). Local_Attributes:{long_name:Irradiance descendante à 670 nanomètres; standard_name:-; units:W/m^2/nm; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@fr ;
         skos:notation          "SDN:R03::DOWN_IRRADIANCE670";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Downwelling irradiance at 670 nanometers"@en .
+        skos:prefLabel         "Downwelling irradiance at 670 nanometers"@en ;
+        skos:prefLabel         "Irradiance descendante à 670 nanomètres"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_SUNA/>
         rdf:type               skos:Concept;
@@ -246,9 +270,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "NB_SAMPLE_SUNA";
         skos:definition        "Not Used. Number of samples in each pressure bin. Local_Attributes:{long_name:Number of samples in each pressure bin; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_SHORT}. Properties:{category:ic; data_type:short}."@en;
+        skos:definition        "Non utilisé. Nombre d'échantillons dans chaque tranche de pression Local_Attributes:{long_name:Nombre d'échantillons dans chaque tranche de pression; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_SHORT}. Properties:{category:ic; data_type:short}."@fr ;
         skos:notation          "SDN:R03::NB_SAMPLE_SUNA";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Number of SUNA samples in each pressure bin"@en .
+        skos:prefLabel         "Number of SUNA samples in each pressure bin"@en ;
+        skos:prefLabel         "Nombre d'échantillons SUNA dans chaque tranche de pression"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_ECO/>
         rdf:type               skos:Concept;
@@ -264,9 +290,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "NB_SAMPLE_ECO";
         skos:definition        "Not Used. Number of samples in each pressure bin. Local_Attributes:{long_name:Number of samples in each pressure bin; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_SHORT}. Properties:{category:ic; data_type:short}."@en;
+        skos:definition        "Non utilisé. Nombre d'échantillons dans chaque tranche de pression Local_Attributes:{long_name:Nombre d'échantillons dans chaque tranche de pression; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_SHORT}. Properties:{category:ic; data_type:short}."@fr ;
         skos:notation          "SDN:R03::NB_SAMPLE_ECO";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Number of ECO samples in each pressure bin"@en .
+        skos:prefLabel         "Number of ECO samples in each pressure bin"@en ;
+        skos:prefLabel         "Nombre d'échantillons ECO dans chaque tranche de pression"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_CROVER/>
         rdf:type               skos:Concept;
@@ -282,9 +310,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "NB_SAMPLE_CROVER";
         skos:definition        "Not Used. Number of samples in each pressure bin. Local_Attributes:{long_name:Number of samples in each pressure bin; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_SHORT}. Properties:{category:ic; data_type:short}."@en;
+        skos:definition        "Non utilisé. Nombre d'échantillons dans chaque tranche de pression Local_Attributes:{long_name:Nombre d'échantillons dans chaque tranche de pression; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_SHORT}. Properties:{category:ic; data_type:short}."@fr ;
         skos:notation          "SDN:R03::NB_SAMPLE_CROVER";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Number of c-Rover samples in each pressure bin"@en .
+        skos:prefLabel         "Number of c-Rover samples in each pressure bin"@en ;
+        skos:prefLabel         "Nombre d'échantillons c-Rover dans chaque tranche de pression"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/CHLA_FLUORESCENCE/>
         rdf:type               skos:Concept;
@@ -300,9 +330,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "CHLA_FLUORESCENCE";
         skos:definition        "Chlorophyll fluorescence in relative unit with factory calibration Local_Attributes:{long_name:Chlorophyll fluorescence with factory calibration; standard_name:-; units:ru; valid_min:-0.2f; valid_max:100.f; fill_value:99999.f}. Properties:{category:b; data_type:float}"@en;
+        skos:definition        "Fluorescence de la chlorophylle en unité relative avec calibration d'usine Local_Attributes:{long_name:Fluorescence de la chlorophylle avec calibration d'usine; standard_name:-; units:ru; valid_min:-0.2f; valid_max:100.f; fill_value:99999.f}. Properties:{category:b; data_type:float}"@fr ;
         skos:notation          "SDN:R03::CHLA_FLUORESCENCE";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Chlorophyll fluorescence with factory calibration"@en .
+        skos:prefLabel         "Chlorophyll fluorescence with factory calibration"@en ;
+        skos:prefLabel         "Fluorescence de la chlorophylle avec calibration d'usine"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/BDOWN_IRRADIANCE665/>
         rdf:type               skos:Concept;
@@ -318,6 +350,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "deprecated_for_incorrect_id";
         skos:definition        "Downwelling irradiance at 665 nm wavelength, reported by OCR504 sensor (unit conversion). Local_Attributes:{long_name:Downwelling irradiance at 665 nanometers; standard_name:-; units:W/m^2/nm; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@en;
+        skos:definition        "Irradiance descendante à 665 nm de longueur d'onde (capteur OCR504) (conversion d'unité). Local_Attributes:{long_name:Irradiance descendante à 665 nanomètres; standard_name:-; units:W/m^2/nm; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@fr ;
         skos:notation          "SDN:R03::BDOWN_IRRADIANCE665";
         skos:note              "deprecated"@en;
         skos:prefLabel         "deprecated_for_incorrect_id"@en .
@@ -336,9 +369,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "NB_SAMPLE_CYC";
         skos:definition        "Not Used. Number of samples in each pressure bin. Local_Attributes:{long_name:Number of samples in each pressure bin; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_SHORT}. Properties:{category:ic; data_type:short}."@en;
+        skos:definition        "Non utilisé. Nombre d'échantillons dans chaque tranche de pression Local_Attributes:{long_name:Nombre d'échantillons dans chaque tranche de pression; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_SHORT}. Properties:{category:ic; data_type:short}."@fr ;
         skos:notation          "SDN:R03::NB_SAMPLE_CYC";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Number of CYCLOPS samples in each pressure bin"@en .
+        skos:prefLabel         "Number of CYCLOPS samples in each pressure bin"@en ;
+        skos:prefLabel         "Nombre d'échantillons CYCLOPS dans chaque tranche de pression"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_CNDC/>
         rdf:type               skos:Concept;
@@ -355,9 +390,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "TEMP_CNDC";
         skos:definition        "Internal temperature of the conductivity cell. Local_Attributes:{long_name:Internal temperature of the conductivity cell; standard_name:-; units:degree_Celsius; valid_min:-2.f; valid_max:40.f; fill_value:99999.f}. Properties:{category:ic; data_type:float}"@en;
+        skos:definition        "Température interne de la cellule de conductivité Local_Attributes:{long_name:Température interne de la cellule de conductivité; standard_name:-; units:degree_Celsius; valid_min:-2.f; valid_max:40.f; fill_value:99999.f}. Properties:{category:ic; data_type:float}"@fr ;
         skos:notation          "SDN:R03::TEMP_CNDC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Internal temperature of the conductivity cell"@en .
+        skos:prefLabel         "Internal temperature of the conductivity cell"@en ;
+        skos:prefLabel         "Température interne de la cellule de conductivité"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/PH_IN_SITU_FREE/>
         rdf:type               skos:Concept;
@@ -374,9 +411,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "PH_IN_SITU_FREE";
         skos:definition        "pH against the free scale (pH based on free proton concentration). Local_Attributes:{long_name:pH; standard_name:-; units:dimensionless; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "pH selon l'échelle libre (pH basé sur la concentration en protons libres) Local_Attributes:{long_name:pH; standard_name:-; units:dimensionless; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::PH_IN_SITU_FREE";
         skos:note              "accepted"@en;
         skos:prefLabel         "pH (free scale)"@en;
+        skos:prefLabel         "pH (échelle libre)"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUPH/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/PH_IN_SITU_TOTAL/>
@@ -394,9 +433,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "PH_IN_SITU_TOTAL";
         skos:definition        "pH against the total scale (pH based on free proton concentration and proton associated with SO4 2- ion). Local_Attributes:{long_name:pH; standard_name:sea_water_ph_reported_on_total_scale; units:dimensionless; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@en;
+        skos:definition        "pH selon l'échelle totale (pH basé sur la concentration en protons libres et en protons associés à l'ion SO4 2-) Local_Attributes:{long_name:pH; standard_name:sea_water_ph_reported_on_total_scale; units:dimensionless; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@fr ;
         skos:notation          "SDN:R03::PH_IN_SITU_TOTAL";
         skos:note              "accepted"@en;
         skos:prefLabel         "pH (total scale)"@en;
+        skos:prefLabel         "pH (échelle totale)"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUPH/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/PH_IN_SITU_SEAWATER/>
@@ -414,9 +455,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "PH_IN_SITU_SEAWATER";
         skos:definition        "pH against the seawater scale (pH based on free proton concentration and proton associated with SO4 2- and F- ions). Local_Attributes:{long_name:pH; standard_name:-; units:dimensionless; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "pH selon l'échelle de l'eau de mer (pH basé sur la concentration en protons libres et en protons associés aux ions SO4 2- et F-) Local_Attributes:{long_name:pH; standard_name:-; units:dimensionless; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::PH_IN_SITU_SEAWATER";
         skos:note              "accepted"@en;
         skos:prefLabel         "pH (seawater scale)"@en;
+        skos:prefLabel         "pH (échelle de l'eau de mer)"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUPH/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/DOWNWELLING_PAR/>
@@ -434,9 +477,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "DOWNWELLING_PAR";
         skos:definition        "Downwelling Photosynthetically Available Radiation (PAR). Local_Attributes:{long_name:Downwelling photosynthetic available radiation; standard_name:downwelling_photosynthetic_photon_flux_in_sea_water; units:microMoleQuanta/m^2/sec; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@en;
+        skos:definition        "Rayonnement photosynthétique disponible descendant (PAR) Local_Attributes:{long_name:Rayonnement photosynthétique disponible descendant; standard_name:downwelling_photosynthetic_photon_flux_in_sea_water; units:microMoleQuanta/m^2/sec; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@fr ;
         skos:notation          "SDN:R03::DOWNWELLING_PAR";
         skos:note              "accepted"@en;
         skos:prefLabel         "Downwelling photosynthetic available radiation"@en;
+        skos:prefLabel         "Rayonnement photosynthétique disponible descendant"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UMES/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_VOLTAGE_DOXY/>
@@ -454,9 +499,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "4";
         skos:altLabel          "TEMP_VOLTAGE_DOXY";
         skos:definition        "Raw temperature signal (voltage) from the thermistor of dissolved oxygen sensor, reported by the SBE63 sensor. Local_Attributes:{long_name:Thermistor voltage reported by oxygen sensor; standard_name:-; units:volt; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Signal de température brut (voltage) de la thermistance du capteur d'oxygène dissous, mesuré par le capteur SBE63 Local_Attributes:{long_name:Voltage de thermistance mesuré par le capteur d'oxygène; standard_name:-; units:volt; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::TEMP_VOLTAGE_DOXY";
         skos:note              "accepted"@en;
         skos:prefLabel         "Thermistor voltage reported by oxygen sensor"@en;
+        skos:prefLabel         "Voltage de thermistance mesuré par le capteur d'oxygène"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UVLT/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/VRS_PH/>
@@ -474,9 +521,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "VRS_PH";
         skos:definition        "Raw output signal from pH sensor, equating to the potential between the transistor source and the reference electrode. Local_Attributes:{long_name:Voltage difference between reference and source from pH sensor; standard_name:-; units:volt; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Signal de sortie brut du capteur pH, équivalent au potentiel entre la source du transistor et l'électrode de référence Local_Attributes:{long_name:Différence de voltage entre référence et source du capteur pH; standard_name:-; units:volt; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::VRS_PH";
         skos:note              "accepted"@en;
         skos:prefLabel         "Voltage difference between reference and source from pH sensor"@en;
+        skos:prefLabel         "Différence de voltage entre référence et source du capteur pH"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UVLT/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/VK_PH/>
@@ -493,9 +542,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "VK_PH";
         skos:definition        "Counter electrode signal from pH sensor. Local_Attributes:{long_name:Counter electrode voltage of pH sensor; standard_name:-; units:volt; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Signal de contre-électrode du capteur pH Local_Attributes:{long_name:Voltage de contre-électrode du capteur pH; standard_name:-; units:volt; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::VK_PH";
         skos:note              "accepted"@en;
         skos:prefLabel         "Counter electrode voltage of pH sensor"@en;
+        skos:prefLabel         "Voltage de contre-électrode du capteur pH"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UVLT/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/VOLTAGE_DOXY/>
@@ -513,9 +564,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "VOLTAGE_DOXY";
         skos:definition        "Raw output signal from dissolved oxygen sensor. Local_Attributes:{long_name:Voltage reported by oxygen sensor; standard_name:-; units:volt; valid_min:0.f; valid_max:100.f; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Signal de sortie brut du capteur d'oxygène dissous Local_Attributes:{long_name:Voltage mesuré par le capteur d'oxygène; standard_name:-; units:volt; valid_min:0.f; valid_max:100.f; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::VOLTAGE_DOXY";
         skos:note              "accepted"@en;
         skos:prefLabel         "Voltage reported by oxygen sensor"@en;
+        skos:prefLabel         "Voltage mesuré par le capteur d'oxygène"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UVLT/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/IK_PH/>
@@ -532,9 +585,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "IK_PH";
         skos:definition        "Counter electrode current from pH sensor. Local_Attributes:{long_name:Counter electrode current of pH sensor; standard_name:-; units:nanoampere; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Courant de contre-électrode du capteur pH Local_Attributes:{long_name:Courant de contre-électrode du capteur pH; standard_name:-; units:nanoampere; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::IK_PH";
         skos:note              "accepted"@en;
         skos:prefLabel         "Counter electrode current of pH sensor"@en;
+        skos:prefLabel         "Courant de contre-électrode du capteur pH"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/NAMP/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/IB_PH/>
@@ -551,9 +606,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "IB_PH";
         skos:definition        "Base current of pH sensor chip. Local_Attributes:{long_name:Base current of pH sensor; standard_name:-; units:nanoampere; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Courant de base de la puce du capteur pH Local_Attributes:{long_name:Courant de base du capteur pH; standard_name:-; units:nanoampere; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::IB_PH";
         skos:note              "accepted"@en;
         skos:prefLabel         "Base current of pH sensor"@en;
+        skos:prefLabel         "Courant de base du capteur pH"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/NAMP/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/PHASE_DELAY_DOXY/>
@@ -570,9 +627,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "PHASE_DELAY_DOXY";
         skos:definition        "Raw phase delay by optode, reported by SBE63 optode sensor. Local_Attributes:{long_name:Phase delay reported by oxygen sensor; standard_name:-; units:microsecond; valid_min:0.f; valid_max:99999.f; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Retard de phase brut de l'optode, mesuré par le capteur optode SBE63 Local_Attributes:{long_name:Retard de phase mesuré par le capteur d'oxygène; standard_name:-; units:microsecond; valid_min:0.f; valid_max:99999.f; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::PHASE_DELAY_DOXY";
         skos:note              "accepted"@en;
         skos:prefLabel         "Phase delay reported by oxygen sensor"@en;
+        skos:prefLabel         "Retard de phase mesuré par le capteur d'oxygène"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/USEC/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/PPOX_DOXY/>
@@ -590,9 +649,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "PPOX_DOXY";
         skos:definition        "Oxygen partial pressure, alternative oxygen quantity of oxygen optodes (for in-air measurements). Local_Attributes:{long_name:Partial pressure of oxygen; standard_name:-; units:millibar; valid_min:-5.f; valid_max:5000.f; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Pression partielle d'oxygène, quantité d'oxygène alternative des optodes à oxygène (pour mesures hors de l'eau) Local_Attributes:{long_name:Pression partielle d'oxygène; standard_name:-; units:millibar; valid_min:-5.f; valid_max:5000.f; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::PPOX_DOXY";
         skos:note              "accepted"@en;
         skos:prefLabel         "Partial pressure of oxygen"@en;
+        skos:prefLabel         "Pression partielle d'oxygène"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPBB/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/PRES/>
@@ -610,9 +671,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "PRES";
         skos:definition        "The force per unit area exerted by the water column on a pressure sensor, corrected to read zero at sea level. Local_Attributes:{long_name:Sea water pressure, equals 0 at sea-level; standard_name:sea_water_pressure; units:decibar; valid_min:0.f; valid_max:12000.f; fill_value:99999.f}. Properties:{category:c; data_type:float}"@en;
+        skos:definition        "Force par unité de surface exercée par la colonne d'eau sur un capteur de pression, corrigée pour lire zéro au niveau de la mer Local_Attributes:{long_name:Pression de l'eau de mer, égale à 0 au niveau de la mer; standard_name:sea_water_pressure; units:decibar; valid_min:0.f; valid_max:12000.f; fill_value:99999.f}. Properties:{category:c; data_type:float}"@fr ;
         skos:notation          "SDN:R03::PRES";
         skos:note              "accepted"@en;
         skos:prefLabel         "Sea water pressure, equals 0 at sea-level"@en;
+        skos:prefLabel         "Pression de l'eau de mer, égale à 0 au niveau de la mer"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPDB/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/CNDC/>
@@ -630,9 +693,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "CNDC";
         skos:definition        "Measure of seawater electrical conductivity. Local_Attributes:{long_name:Electrical conductivity; standard_name:sea_water_electrical_conductivity; units:mhos/m; valid_min:0.f; valid_max:8.5f; fill_value:99999.f}. Properties:{category:ic; data_type:float}"@en;
+        skos:definition        "Mesure de la conductivité électrique de l'eau de mer Local_Attributes:{long_name:Conductivité électrique; standard_name:sea_water_electrical_conductivity; units:mhos/m; valid_min:0.f; valid_max:8.5f; fill_value:99999.f}. Properties:{category:ic; data_type:float}"@fr ;
         skos:notation          "SDN:R03::CNDC";
         skos:note              "accepted"@en;
         skos:prefLabel         "Electrical conductivity"@en;
+        skos:prefLabel         "Conductivité électrique"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UECA/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/MTIME/>
@@ -649,9 +714,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "MTIME";
         skos:definition        "Fractional day of the individual measurement relative to JULD of the station. Local_Attributes:{long_name:Fractional day of the individual measurement relative to JULD of the station; standard_name:-; units:days; valid_min:-3; valid_max:3; fill_value:999999}. Properties:{category:ic; data_type:double}"@en;
+        skos:definition        "Jour fractionnaire de la mesure individuelle par rapport au JULD de la station Local_Attributes:{long_name:Jour fractionnaire de la mesure individuelle par rapport au JULD de la station; standard_name:-; units:days; valid_min:-3; valid_max:3; fill_value:999999}. Properties:{category:ic; data_type:double}"@fr ;
         skos:notation          "SDN:R03::MTIME";
         skos:note              "accepted"@en;
         skos:prefLabel         "Fractional day of the individual measurement relative to JULD of the station"@en;
+        skos:prefLabel         "Jour fractionnaire de la mesure individuelle par rapport au JULD de la station"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UTAA/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/CP660/>
@@ -669,9 +736,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "CP660";
         skos:definition        "Particle beam attenuation at 660 nm wavelength, reported by C-Rover sensor. Local_Attributes:{long_name:Particle beam attenuation at 660 nanometers; standard_name:-; units:m-1; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@en;
+        skos:definition        "Atténuation du faisceau par les particules à 660 nm de longueur d'onde (capteur C-Rover). Local_Attributes:{long_name:Atténuation du faisceau par les particules à 660 nanomètres; standard_name:-; units:m-1; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@fr ;
         skos:notation          "SDN:R03::CP660";
         skos:note              "accepted"@en;
         skos:prefLabel         "Particle beam attenuation at 660 nanometers"@en;
+        skos:prefLabel         "Atténuation du faisceau par les particules à 660 nanomètres"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPRM/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/CP/>
@@ -689,9 +758,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "CP";
         skos:definition        "Particle beam attenuation at unspecified wavelength, reported by C-Rover sensor. Local_Attributes:{long_name:Particle beam attenuation at x nanometers; standard_name:-; units:m-1; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@en;
+        skos:definition        "Atténuation du faisceau par les particules à longueur d'onde non spécifiée (capteur C-Rover). Local_Attributes:{long_name:Atténuation du faisceau par les particules à longueur d'onde non spécifiée; standard_name:-; units:m-1; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@fr ;
         skos:notation          "SDN:R03::CP";
         skos:note              "accepted"@en;
         skos:prefLabel         "Particle beam attenuation at x nanometers"@en;
+        skos:prefLabel         "Atténuation du faisceau par les particules à longueur d'onde non spécifiée"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPRM/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/UP_RADIANCE555/>
@@ -709,9 +780,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "UP_RADIANCE555";
         skos:definition        "Upwelling radiance at 555 nm wavelength, reported by OCR504 sensor (unit conversion). Local_Attributes:{long_name:Upwelling radiance at 555 nanometers; standard_name:upwelling_radiance_in_sea_water; units:W/m^2/nm/sr; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@en;
+        skos:definition        "Radiance ascendante à 555 nm de longueur d'onde (capteur OCR504) (conversion d'unité). Local_Attributes:{long_name:Radiance ascendante à 555 nanomètres; standard_name:upwelling_radiance_in_sea_water; units:W/m^2/nm/sr; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@fr ;
         skos:notation          "SDN:R03::UP_RADIANCE555";
         skos:note              "accepted"@en;
         skos:prefLabel         "Upwelling radiance at 555 nanometers"@en;
+        skos:prefLabel         "Radiance ascendante à 555 nanomètres"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UWNS/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/UP_RADIANCE/>
@@ -728,9 +801,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "UP_RADIANCE";
         skos:definition        "Upwelling radiance at unspecified wavelength, reported by OCR504 sensor (unit conversion). Local_Attributes:{long_name:Upwelling radiance at x nanometers; standard_name:upwelling_radiance_in_sea_water; units:W/m^2/nm/sr; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@en;
+        skos:definition        "Radiance ascendante à longueur d'onde non spécifiée (capteur OCR504) (conversion d'unité). Local_Attributes:{long_name:Radiance ascendante à longueur d'onde non spécifiée; standard_name:upwelling_radiance_in_sea_water; units:W/m^2/nm/sr; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@fr ;
         skos:notation          "SDN:R03::UP_RADIANCE";
         skos:note              "accepted"@en;
         skos:prefLabel         "Upwelling radiance at x nanometers"@en;
+        skos:prefLabel         "Radiance ascendante à longueur d'onde non spécifiée"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UWNS/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/UP_RADIANCE443/>
@@ -748,9 +823,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "UP_RADIANCE443";
         skos:definition        "Upwelling radiance at 443 nm wavelength, reported by OCR504 sensor (unit conversion). Local_Attributes:{long_name:Upwelling radiance at 443 nanometers; standard_name:upwelling_radiance_in_sea_water; units:W/m^2/nm/sr; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@en;
+        skos:definition        "Radiance ascendante à 443 nm de longueur d'onde (capteur OCR504) (conversion d'unité). Local_Attributes:{long_name:Radiance ascendante à 443 nanomètres; standard_name:upwelling_radiance_in_sea_water; units:W/m^2/nm/sr; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@fr ;
         skos:notation          "SDN:R03::UP_RADIANCE443";
         skos:note              "accepted"@en;
         skos:prefLabel         "Upwelling radiance at 443 nanometers"@en;
+        skos:prefLabel         "Radiance ascendante à 443 nanomètres"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UWNS/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/UP_RADIANCE412/>
@@ -768,9 +845,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "UP_RADIANCE412";
         skos:definition        "Upwelling radiance at 412 nm wavelength, reported by OCR504 sensor (unit conversion). Local_Attributes:{long_name:Upwelling radiance at 412 nanometers; standard_name:upwelling_radiance_in_sea_water; units:W/m^2/nm/sr; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@en;
+        skos:definition        "Radiance ascendante à 412 nm de longueur d'onde (capteur OCR504) (conversion d'unité). Local_Attributes:{long_name:Radiance ascendante à 412 nanomètres; standard_name:upwelling_radiance_in_sea_water; units:W/m^2/nm/sr; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@fr ;
         skos:notation          "SDN:R03::UP_RADIANCE412";
         skos:note              "accepted"@en;
         skos:prefLabel         "Upwelling radiance at 412 nanometers"@en;
+        skos:prefLabel         "Radiance ascendante à 412 nanomètres"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UWNS/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/UP_RADIANCE490/>
@@ -788,9 +867,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "UP_RADIANCE490";
         skos:definition        "Upwelling radiance at 490 nm wavelength, reported by OCR504 sensor (unit conversion). Local_Attributes:{long_name:Upwelling radiance at 490 nanometers; standard_name:upwelling_radiance_in_sea_water; units:W/m^2/nm/sr; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@en;
+        skos:definition        "Radiance ascendante à 490 nm de longueur d'onde (capteur OCR504) (conversion d'unité). Local_Attributes:{long_name:Radiance ascendante à 490 nanomètres; standard_name:upwelling_radiance_in_sea_water; units:W/m^2/nm/sr; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@fr ;
         skos:notation          "SDN:R03::UP_RADIANCE490";
         skos:note              "accepted"@en;
         skos:prefLabel         "Upwelling radiance at 490 nanometers"@en;
+        skos:prefLabel         "Radiance ascendante à 490 nanomètres"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UWNS/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/CDOM/>
@@ -808,9 +889,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "CDOM";
         skos:definition        "Coloured dissolved organic matter (CDOM) concentration. Local_Attributes:{long_name:Concentration of coloured dissolved organic matter in sea water; standard_name:-; units:ppb; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@en;
+        skos:definition        "Concentration en matière organique dissoute colorée (MODC) Local_Attributes:{long_name:Concentration en matière organique dissoute colorée dans l'eau de mer; standard_name:-; units:ppb; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@fr ;
         skos:notation          "SDN:R03::CDOM";
         skos:note              "accepted"@en;
         skos:prefLabel         "Concentration of coloured dissolved organic matter in sea water"@en;
+        skos:prefLabel         "Concentration en matière organique dissoute colorée dans l'eau de mer"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPPB/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/DOWN_IRRADIANCE/>
@@ -828,9 +911,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "DOWN_IRRADIANCE";
         skos:definition        "Downwelling irradiance at unspecified wavelength, reported by OCR504 sensor (unit conversion). Local_Attributes:{long_name:Downwelling irradiance at x nanometers; standard_name:-; units:W/m^2/nm; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@en;
+        skos:definition        "Irradiance descendante à longueur d'onde non spécifiée (capteur OCR504) (conversion d'unité). Local_Attributes:{long_name:Irradiance descendante à longueur d'onde non spécifiée; standard_name:-; units:W/m^2/nm; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@fr ;
         skos:notation          "SDN:R03::DOWN_IRRADIANCE";
         skos:note              "accepted"@en;
         skos:prefLabel         "Downwelling irradiance at x nanometers"@en;
+        skos:prefLabel         "Irradiance descendante à longueur d'onde non spécifiée"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UWNM/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/DOWN_IRRADIANCE412/>
@@ -848,9 +933,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "DOWN_IRRADIANCE412";
         skos:definition        "Downwelling irradiance at 412 nm wavelength, reported by OCR504 sensor (unit conversion). Local_Attributes:{long_name:Downwelling irradiance at 412 nanometers; standard_name:-; units:W/m^2/nm; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@en;
+        skos:definition        "Irradiance descendante à 412 nm de longueur d'onde (capteur OCR504) (conversion d'unité). Local_Attributes:{long_name:Irradiance descendante à 412 nanomètres; standard_name:-; units:W/m^2/nm; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@fr ;
         skos:notation          "SDN:R03::DOWN_IRRADIANCE412";
         skos:note              "accepted"@en;
         skos:prefLabel         "Downwelling irradiance at 412 nanometers"@en;
+        skos:prefLabel         "Irradiance descendante à 412 nanomètres"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UWNM/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/DOWN_IRRADIANCE490/>
@@ -868,9 +955,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "DOWN_IRRADIANCE490";
         skos:definition        "Downwelling irradiance at 490 nm wavelength, reported by OCR504 sensor (unit conversion). Local_Attributes:{long_name:Downwelling irradiance at 490 nanometers; standard_name:-; units:W/m^2/nm; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@en;
+        skos:definition        "Irradiance descendante à 490 nm de longueur d'onde (capteur OCR504) (conversion d'unité). Local_Attributes:{long_name:Irradiance descendante à 490 nanomètres; standard_name:-; units:W/m^2/nm; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@fr ;
         skos:notation          "SDN:R03::DOWN_IRRADIANCE490";
         skos:note              "accepted"@en;
         skos:prefLabel         "Downwelling irradiance at 490 nanometers"@en;
+        skos:prefLabel         "Irradiance descendante à 490 nanomètres"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UWNM/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/DOWN_IRRADIANCE443/>
@@ -888,9 +977,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "DOWN_IRRADIANCE443";
         skos:definition        "Downwelling irradiance at 443 nm wavelength, reported by OCR504 sensor (unit conversion). Local_Attributes:{long_name:Downwelling irradiance at 443 nanometers; standard_name:-; units:W/m^2/nm; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@en;
+        skos:definition        "Irradiance descendante à 443 nm de longueur d'onde (capteur OCR504) (conversion d'unité). Local_Attributes:{long_name:Irradiance descendante à 443 nanomètres; standard_name:-; units:W/m^2/nm; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@fr ;
         skos:notation          "SDN:R03::DOWN_IRRADIANCE443";
         skos:note              "accepted"@en;
         skos:prefLabel         "Downwelling irradiance at 443 nanometers"@en;
+        skos:prefLabel         "Irradiance descendante à 443 nanomètres"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UWNM/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/DOWN_IRRADIANCE380/>
@@ -908,9 +999,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "DOWN_IRRADIANCE380";
         skos:definition        "Downwelling irradiance at 380 nm wavelength, reported by OCR504 sensor (unit conversion). Local_Attributes:{long_name:Downwelling irradiance at 380 nanometers; standard_name:-; units:W/m^2/nm; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@en;
+        skos:definition        "Irradiance descendante à 380 nm de longueur d'onde (capteur OCR504) (conversion d'unité). Local_Attributes:{long_name:Irradiance descendante à 380 nanomètres; standard_name:-; units:W/m^2/nm; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@fr ;
         skos:notation          "SDN:R03::DOWN_IRRADIANCE380";
         skos:note              "accepted"@en;
         skos:prefLabel         "Downwelling irradiance at 380 nanometers"@en;
+        skos:prefLabel         "Irradiance descendante à 380 nanomètres"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UWNM/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/DOWN_IRRADIANCE555/>
@@ -928,9 +1021,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "DOWN_IRRADIANCE555";
         skos:definition        "Downwelling irradiance at 555 nm wavelength, reported by OCR504 sensor (unit conversion). Local_Attributes:{long_name:Downwelling irradiance at 555 nanometers; standard_name:-; units:W/m^2/nm; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@en;
+        skos:definition        "Irradiance descendante à 555 nm de longueur d'onde (capteur OCR504) (conversion d'unité). Local_Attributes:{long_name:Irradiance descendante à 555 nanomètres; standard_name:-; units:W/m^2/nm; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@fr ;
         skos:notation          "SDN:R03::DOWN_IRRADIANCE555";
         skos:note              "accepted"@en;
         skos:prefLabel         "Downwelling irradiance at 555 nanometers"@en;
+        skos:prefLabel         "Irradiance descendante à 555 nanomètres"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UWNM/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/FREQUENCY_DOXY/>
@@ -948,9 +1043,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "FREQUENCY_DOXY";
         skos:definition        "Raw output signal from dissolved oxygen sensor. Local_Attributes:{long_name:Frequency reported by oxygen sensor; standard_name:-; units:hertz; valid_min:0.f; valid_max:25000.f; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Signal de sortie brut du capteur d'oxygène dissous Local_Attributes:{long_name:Fréquence mesurée par le capteur d'oxygène; standard_name:-; units:hertz; valid_min:0.f; valid_max:25000.f; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::FREQUENCY_DOXY";
         skos:note              "accepted"@en;
         skos:prefLabel         "Frequency reported by oxygen sensor"@en;
+        skos:prefLabel         "Fréquence mesurée par le capteur d'oxygène"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UTHZ/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/BBP700/>
@@ -968,9 +1065,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "BBP700";
         skos:definition        "Particle backscattering at 700 nm wavelength, reported by ECO3 sensor. Local_Attributes:{long_name:Particle backscattering at 700 nanometers; standard_name:-; units:m-1; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@en;
+        skos:definition        "Rétrodiffusion des particules à 700 nm de longueur d'onde (capteur ECO3). Local_Attributes:{long_name:Rétrodiffusion des particules à 700 nanomètres; standard_name:-; units:m-1; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@fr ;
         skos:notation          "SDN:R03::BBP700";
         skos:note              "accepted"@en;
         skos:prefLabel         "Particle backscattering at 700 nanometers"@en;
+        skos:prefLabel         "Rétrodiffusion des particules à 700 nanomètres"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPRM/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/BBP/>
@@ -988,9 +1087,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "BBP";
         skos:definition        "Particle backscattering at unspecified wavelength, reported by ECO3 sensor. Local_Attributes:{long_name:Particle backscattering at x nanometers; standard_name:-; units:m-1; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@en;
+        skos:definition        "Rétrodiffusion des particules à longueur d'onde non spécifiée (capteur ECO3). Local_Attributes:{long_name:Rétrodiffusion des particules à longueur d'onde non spécifiée; standard_name:-; units:m-1; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@fr ;
         skos:notation          "SDN:R03::BBP";
         skos:note              "accepted"@en;
         skos:prefLabel         "Particle backscattering at x nanometers"@en;
+        skos:prefLabel         "Rétrodiffusion des particules à longueur d'onde non spécifiée"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPRM/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/BBP532/>
@@ -1008,9 +1109,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "BBP532";
         skos:definition        "Particle backscattering at 532 nm wavelength, reported by ECO3 sensor. Local_Attributes:{long_name:Particle backscattering at 532 nanometers; standard_name:-; units:m-1; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@en;
+        skos:definition        "Rétrodiffusion des particules à 532 nm de longueur d'onde (capteur ECO3). Local_Attributes:{long_name:Rétrodiffusion des particules à 532 nanomètres; standard_name:-; units:m-1; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@fr ;
         skos:notation          "SDN:R03::BBP532";
         skos:note              "accepted"@en;
         skos:prefLabel         "Particle backscattering at 532 nanometers"@en;
+        skos:prefLabel         "Rétrodiffusion des particules à 532 nanomètres"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPRM/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/BBP470/>
@@ -1028,9 +1131,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "BBP470";
         skos:definition        "Particle backscattering at 470 nm wavelength, reported by ECO3 sensor. Local_Attributes:{long_name:Particle backscattering at 470 nanometers; standard_name:-; units:m-1; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@en;
+        skos:definition        "Rétrodiffusion des particules à 470 nm de longueur d'onde (capteur ECO3). Local_Attributes:{long_name:Rétrodiffusion des particules à 470 nanomètres; standard_name:-; units:m-1; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@fr ;
         skos:notation          "SDN:R03::BBP470";
         skos:note              "accepted"@en;
         skos:prefLabel         "Particle backscattering at 470 nanometers"@en;
+        skos:prefLabel         "Rétrodiffusion des particules à 470 nanomètres"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPRM/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_SPECTROPHOTOMETER_NITRATE/>
@@ -1047,9 +1152,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "TEMP_SPECTROPHOTOMETER_NITRATE";
         skos:definition        "Spectrometer temperature of nitrate sensor, reported by the SUNA sensor from Remocean floats. Local_Attributes:{long_name:Temperature of the spectrometer; standard_name:-; units:degree_Celsius; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Température du spectromètre du capteur de nitrate, mesurée par le capteur SUNA des flotteurs Remocean Local_Attributes:{long_name:Température du spectromètre; standard_name:-; units:degree_Celsius; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::TEMP_SPECTROPHOTOMETER_NITRATE";
         skos:note              "accepted"@en;
         skos:prefLabel         "Temperature of the spectrometer"@en;
+        skos:prefLabel         "Température du spectromètre"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_DOXY/>
@@ -1067,9 +1174,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "TEMP_DOXY";
         skos:definition        "Temperature from thermistor on dissolved oxygen sensor, expressed against the International Temperature Scale 1990 (ITS-90) calibration standard. Local_Attributes:{long_name:Sea temperature from oxygen sensor ITS-90 scale; standard_name:temperature_of_sensor_for_oxygen_in_sea_water; units:degree_Celsius; valid_min:-2.f; valid_max:40.f; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Température de la thermistance du capteur d'oxygène dissous, exprimée selon l'étalon international de température 1990 (ITS-90) Local_Attributes:{long_name:Température de l'eau de mer du capteur d'oxygène, échelle ITS-90; standard_name:temperature_of_sensor_for_oxygen_in_sea_water; units:degree_Celsius; valid_min:-2.f; valid_max:40.f; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::TEMP_DOXY";
         skos:note              "accepted"@en;
         skos:prefLabel         "Sea temperature from oxygen sensor ITS-90 scale"@en;
+        skos:prefLabel         "Température de l'eau de mer du capteur d'oxygène, échelle ITS-90"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_PH/>
@@ -1086,9 +1195,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "TEMP_PH";
         skos:definition        "Temperature of seawater, reported by the pH sensor. Local_Attributes:{long_name:Sea temperature from pH sensor; standard_name:-; units:degree_Celsius; valid_min:-2.f; valid_max:40.f; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Température de l'eau de mer, mesurée par le capteur pH Local_Attributes:{long_name:Température de l'eau de mer du capteur pH; standard_name:-; units:degree_Celsius; valid_min:-2.f; valid_max:40.f; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::TEMP_PH";
         skos:note              "accepted"@en;
         skos:prefLabel         "Sea temperature from pH sensor"@en;
+        skos:prefLabel         "Température de l'eau de mer du capteur pH"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_NITRATE/>
@@ -1105,9 +1216,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "TEMP_NITRATE";
         skos:definition        "Internal temperature of the nitrate sensor, reported by the SUNA sensor from Remocean floats. Local_Attributes:{long_name:Internal temperature of the SUNA sensor; standard_name:-; units:degree_Celsius; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Température interne du capteur de nitrate, mesurée par le capteur SUNA des flotteurs Remocean Local_Attributes:{long_name:Température interne du capteur SUNA; standard_name:-; units:degree_Celsius; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::TEMP_NITRATE";
         skos:note              "accepted"@en;
         skos:prefLabel         "Internal temperature of the SUNA sensor"@en;
+        skos:prefLabel         "Température interne du capteur SUNA"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/HUMIDITY_NITRATE/>
@@ -1124,9 +1237,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "HUMIDITY_NITRATE";
         skos:definition        "Relative humidity inside the nitrate sensor (If > 50% there is a leak), reported by the SUNA sensor from Remocean floats. Local_Attributes:{long_name:Relative humidity inside the SUNA sensor (If > 50% There is a leak); standard_name:-; units:percent; valid_min:0.f; valid_max:100.f; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Humidité relative à l'intérieur du capteur de nitrate (si > 50 %, il y a une fuite), mesurée par le capteur SUNA des flotteurs Remocean Local_Attributes:{long_name:Humidité relative à l'intérieur du capteur SUNA (si > 50 %, il y a une fuite); standard_name:-; units:percent; valid_min:0.f; valid_max:100.f; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::HUMIDITY_NITRATE";
         skos:note              "accepted"@en;
         skos:prefLabel         "Relative humidity inside the SUNA sensor (If > 50% There is a leak)"@en;
+        skos:prefLabel         "Humidité relative à l'intérieur du capteur SUNA (si > 50 %, il y a une fuite)"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPCT/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/C1PHASE_DOXY/>
@@ -1143,9 +1258,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "4";
         skos:altLabel          "C1PHASE_DOXY";
         skos:definition        "Uncalibrated blue excitation light phase shift, reported by Aanderaa optode 4330/4330F sensor. Local_Attributes:{long_name:Uncalibrated phase shift reported by oxygen sensor; standard_name:-; units:degree; valid_min:10.f; valid_max:70.f; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Décalage de phase de la lumière d'excitation bleue non calibré, mesuré par le capteur optode Aanderaa 4330/4330F Local_Attributes:{long_name:Décalage de phase non calibré mesuré par le capteur d'oxygène; standard_name:-; units:degree; valid_min:10.f; valid_max:70.f; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::C1PHASE_DOXY";
         skos:note              "accepted"@en;
         skos:prefLabel         "Uncalibrated blue excitation light phase shift reported by Aanderaa optode 4330/4330F"@en;
+        skos:prefLabel         "Décalage de phase de la lumière d'excitation bleue non calibré mesuré par l'optode Aanderaa 4330/4330F"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UAAA/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/TPHASE_DOXY/>
@@ -1163,9 +1280,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "4";
         skos:altLabel          "TPHASE_DOXY";
         skos:definition        "Uncalibrated temperature compensated phase shift, reported by Aanderaa 4330 and 4330F optode sensors. Local_Attributes:{long_name:Uncalibrated phase shift reported by oxygen sensor; standard_name:-; units:degree; valid_min:10.f; valid_max:70.f; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Décalage de phase compensé en température non calibré, mesuré par les capteurs optodes Aanderaa 4330 et 4330F Local_Attributes:{long_name:Décalage de phase non calibré mesuré par le capteur d'oxygène; standard_name:-; units:degree; valid_min:10.f; valid_max:70.f; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::TPHASE_DOXY";
         skos:note              "accepted"@en;
         skos:prefLabel         "Uncalibrated phase shift reported by oxygen sensor"@en;
+        skos:prefLabel         "Décalage de phase non calibré mesuré par le capteur d'oxygène"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UAAA/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/TILT/>
@@ -1182,9 +1301,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "TILT";
         skos:definition        "Inclination of the float axis in respect to the local vertical. Local_Attributes:{long_name:Inclination of the float axis in respect to the local vertical; standard_name:-; units:degree; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Inclinaison de l'axe du flotteur par rapport à la verticale locale Local_Attributes:{long_name:Inclinaison de l'axe du flotteur par rapport à la verticale locale; standard_name:-; units:degree; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::TILT";
         skos:note              "accepted"@en;
         skos:prefLabel         "Inclination of the float axis in respect to the local vertical"@en;
+        skos:prefLabel         "Inclinaison de l'axe du flotteur par rapport à la verticale locale"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UAAA/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/C2PHASE_DOXY/>
@@ -1202,9 +1323,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "4";
         skos:altLabel          "C2PHASE_DOXY";
         skos:definition        "Uncalibrated red excitation light phase shift, reported by Aanderaa optode 4330/4330F sensor. Local_Attributes:{long_name:Uncalibrated phase shift reported by oxygen sensor; standard_name:-; units:degree; valid_min:0.f; valid_max:15.f; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Décalage de phase de la lumière d'excitation rouge non calibré, mesuré par le capteur optode Aanderaa 4330/4330F Local_Attributes:{long_name:Décalage de phase non calibré mesuré par le capteur d'oxygène; standard_name:-; units:degree; valid_min:0.f; valid_max:15.f; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::C2PHASE_DOXY";
         skos:note              "accepted"@en;
         skos:prefLabel         "Uncalibrated red excitation light phase shift reported by Aanderaa optode 4330/4330F"@en;
+        skos:prefLabel         "Décalage de phase de la lumière d'excitation rouge non calibré mesuré par l'optode Aanderaa 4330/4330F"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UAAA/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/RPHASE_DOXY/>
@@ -1222,9 +1345,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "4";
         skos:altLabel          "RPHASE_DOXY";
         skos:definition        "Uncalibrated red excitation light phase shift, reported by Aanderaa optode 3830. Local_Attributes:{long_name:Uncalibrated red phase shift reported by oxygen sensor; standard_name:-; units:degree; valid_min:10.f; valid_max:70.f; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Décalage de phase de la lumière d'excitation rouge non calibré, mesuré par le capteur optode Aanderaa 3830 Local_Attributes:{long_name:Décalage de phase rouge non calibré mesuré par le capteur d'oxygène; standard_name:-; units:degree; valid_min:10.f; valid_max:70.f; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::RPHASE_DOXY";
         skos:note              "accepted"@en;
         skos:prefLabel         "Uncalibrated red phase shift reported by oxygen sensor"@en;
+        skos:prefLabel         "Décalage de phase rouge non calibré mesuré par le capteur d'oxygène"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UAAA/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/BPHASE_DOXY/>
@@ -1242,9 +1367,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "4";
         skos:altLabel          "BPHASE_DOXY";
         skos:definition        "Uncalibrated blue excitation light phase shift, reported by Aanderaa optode 3830 sensor. Local_Attributes:{long_name:Uncalibrated phase shift reported by oxygen sensor; standard_name:-; units:degree; valid_min:10.f; valid_max:70.f; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Décalage de phase de la lumière d'excitation bleue non calibré, mesuré par le capteur optode Aanderaa 3830 Local_Attributes:{long_name:Décalage de phase non calibré mesuré par le capteur d'oxygène; standard_name:-; units:degree; valid_min:10.f; valid_max:70.f; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::BPHASE_DOXY";
         skos:note              "accepted"@en;
         skos:prefLabel         "Uncalibrated blue excitation light phase shift reported by Aanderaa optode 3830"@en;
+        skos:prefLabel         "Décalage de phase de la lumière d'excitation bleue non calibré mesuré par l'optode Aanderaa 3830"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UAAA/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/DPHASE_DOXY/>
@@ -1262,9 +1389,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "DPHASE_DOXY";
         skos:definition        "Calibrated phase, reported by Aanderaa optode 3830 sensor. Local_Attributes:{long_name:Calibrated phase shift reported by oxygen sensor; standard_name:-; units:degree; valid_min:10.f; valid_max:70.f; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Phase calibrée, mesurée par le capteur optode Aanderaa 3830 Local_Attributes:{long_name:Décalage de phase calibré mesuré par le capteur d'oxygène; standard_name:-; units:degree; valid_min:10.f; valid_max:70.f; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::DPHASE_DOXY";
         skos:note              "accepted"@en;
         skos:prefLabel         "Calibrated phase shift reported by oxygen sensor"@en;
+        skos:prefLabel         "Décalage de phase calibré mesuré par le capteur d'oxygène"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UAAA/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/MOLAR_DOXY/>
@@ -1282,9 +1411,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "4";
         skos:altLabel          "MOLAR_DOXY";
         skos:definition        "Dissolved oxygen concentration uncorrected for salinity and pressure effects. Local_Attributes:{long_name:Uncompensated (pressure and salinity) oxygen concentration reported by the oxygen sensor; standard_name:mole_concentration_of_dissolved_molecular_oxygen_in_sea_water; units:micromole/l; valid_min:0.f; valid_max:650.f; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Concentration en oxygène dissous non corrigée des effets de salinité et de pression Local_Attributes:{long_name:Concentration en oxygène non compensée (pression et salinité) mesurée par le capteur d'oxygène; standard_name:mole_concentration_of_dissolved_molecular_oxygen_in_sea_water; units:micromole/l; valid_min:0.f; valid_max:650.f; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::MOLAR_DOXY";
         skos:note              "accepted"@en;
         skos:prefLabel         "Uncompensated (pressure and salinity) oxygen concentration reported by the oxygen sensor"@en;
+        skos:prefLabel         "Concentration en oxygène non compensée (pression et salinité) mesurée par le capteur d'oxygène"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/MOLAR_NITRATE/>
@@ -1302,9 +1433,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "MOLAR_NITRATE";
         skos:definition        "Nitrate concentration, reported by the SUNA sensor. Local_Attributes:{long_name:Nitrate; standard_name:-; units:micromole/l; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Concentration en nitrate, mesurée par le capteur SUNA Local_Attributes:{long_name:Nitrate; standard_name:-; units:micromole/l; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::MOLAR_NITRATE";
         skos:note              "accepted"@en;
         skos:prefLabel         "Molar nitrate"@en;
+        skos:prefLabel         "Nitrate molaire"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/BETA_BACKSCATTERING700/>
@@ -1322,9 +1455,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "BETA_BACKSCATTERING700";
         skos:definition        "Raw backscattering signal from backscattering meter at 700 nm wavelength, reported by ECO3 or FLBB sensors. Local_Attributes:{long_name:Total angle specific volume from backscattering sensor at 700 nanometers; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Signal brut de rétrodiffusion du diffusomètre à 700 nm de longueur d'onde (capteurs ECO3 ou FLBB). Local_Attributes:{long_name:Volume spécifique angulaire total du capteur de rétrodiffusion à 700 nanomètres; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::BETA_BACKSCATTERING700";
         skos:note              "accepted"@en;
         skos:prefLabel         "Total angle specific volume from backscattering sensor at 700 nanometers"@en;
+        skos:prefLabel         "Volume spécifique angulaire total du capteur de rétrodiffusion à 700 nanomètres"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/BETA_BACKSCATTERING470/>
@@ -1342,9 +1477,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "BETA_BACKSCATTERING470";
         skos:definition        "Raw backscattering signal from backscattering meter at 470 nm wavelength, reported by ECO3 or FLBB sensors. Local_Attributes:{long_name:Total angle specific volume from backscattering sensor at 470 nanometers; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Signal brut de rétrodiffusion du diffusomètre à 470 nm de longueur d'onde (capteurs ECO3 ou FLBB). Local_Attributes:{long_name:Volume spécifique angulaire total du capteur de rétrodiffusion à 470 nanomètres; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::BETA_BACKSCATTERING470";
         skos:note              "accepted"@en;
         skos:prefLabel         "Total angle specific volume from backscattering sensor at 470 nanometers"@en;
+        skos:prefLabel         "Volume spécifique angulaire total du capteur de rétrodiffusion à 470 nanomètres"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/SIDE_SCATTERING_TURBIDITY/>
@@ -1362,9 +1499,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "SIDE_SCATTERING_TURBIDITY";
         skos:definition        "Raw turbidity signal from side scattering sensor, reported by FLNTU sensor. Local_Attributes:{long_name:Turbidity signal from side scattering sensor; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Signal brut de turbidité du capteur de diffusion latérale, mesuré par le capteur FLNTU Local_Attributes:{long_name:Signal de turbidité du capteur de diffusion latérale; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::SIDE_SCATTERING_TURBIDITY";
         skos:note              "accepted"@en;
         skos:prefLabel         "Turbidity signal from side scattering sensor"@en;
+        skos:prefLabel         "Signal de turbidité du capteur de diffusion latérale"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/PSAL/>
@@ -1382,9 +1521,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "PSAL";
         skos:definition        "Practical salinity of the water body by conductivity cell and computation using the UNESCO 1983 algorithm. Local_Attributes:{long_name:Practical salinity; standard_name:sea_water_salinity; units:psu; valid_min:2.f; valid_max:41.f; fill_value:99999.f}. Properties:{category:c; data_type:float}"@en;
+        skos:definition        "Salinité pratique du milieu par cellule de conductivité et calcul selon l'algorithme UNESCO 1983 Local_Attributes:{long_name:Salinité pratique; standard_name:sea_water_salinity; units:psu; valid_min:2.f; valid_max:41.f; fill_value:99999.f}. Properties:{category:c; data_type:float}"@fr ;
         skos:notation          "SDN:R03::PSAL";
         skos:note              "accepted"@en;
         skos:prefLabel         "Practical salinity"@en;
+        skos:prefLabel         "Salinité pratique"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/TRANSMITTANCE_PARTICLE_BEAM_ATTENUATION/>
@@ -1402,9 +1543,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "TRANSMITTANCE_PARTICLE_BEAM_ATTENUATION";
         skos:definition        "Raw beam attenuation signal from transmissometer sensor at unspecified wavelength. Local_Attributes:{long_name:Beam attenuation from transmissometer sensor at x nanometers; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Signal brut d'atténuation du faisceau du capteur transmissomètre à longueur d'onde non spécifiée. Local_Attributes:{long_name:Atténuation du faisceau du capteur transmissomètre à longueur d'onde non spécifiée; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::TRANSMITTANCE_PARTICLE_BEAM_ATTENUATION";
         skos:note              "accepted"@en;
         skos:prefLabel         "Beam attenuation from transmissometer sensor at x nanometers"@en;
+        skos:prefLabel         "Atténuation du faisceau du capteur transmissomètre à longueur d'onde non spécifiée"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/RAW_UPWELLING_RADIANCE412/>
@@ -1421,9 +1564,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "RAW_UPWELLING_RADIANCE412";
         skos:definition        "Raw upwelling radiance signal at 412 nm wavelength, reported by OCR504 sensor. Local_Attributes:{long_name:Raw upwelling radiance at 412 nanometers; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_DOUBLE}. Properties:{category:ib; data_type:double}"@en;
+        skos:definition        "Signal brut de radiance ascendante à 412 nm de longueur d'onde (capteur OCR504). Local_Attributes:{long_name:Radiance ascendante brute à 412 nanomètres; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_DOUBLE}. Properties:{category:ib; data_type:double}"@fr ;
         skos:notation          "SDN:R03::RAW_UPWELLING_RADIANCE412";
         skos:note              "accepted"@en;
         skos:prefLabel         "Raw upwelling radiance at 412 nanometers"@en;
+        skos:prefLabel         "Radiance ascendante brute à 412 nanomètres"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/COUNT_DOXY/>
@@ -1441,9 +1586,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "COUNT_DOXY";
         skos:definition        "Raw output signal from dissolved oxygen sensor. Local_Attributes:{long_name:Count reported by oxygen sensor; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Signal de sortie brut du capteur d'oxygène dissous Local_Attributes:{long_name:Comptage mesuré par le capteur d'oxygène; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::COUNT_DOXY";
         skos:note              "accepted"@en;
         skos:prefLabel         "Count reported by oxygen sensor"@en;
+        skos:prefLabel         "Comptage mesuré par le capteur d'oxygène"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_IRRADIANCE490/>
@@ -1461,9 +1608,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "RAW_DOWNWELLING_IRRADIANCE490";
         skos:definition        "Raw downwelling irradiance signal at 490 nm wavelength. Local_Attributes:{long_name:Raw downwelling irradiance at 490 nanometers; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_DOUBLE}. Properties:{category:ib; data_type:double}"@en;
+        skos:definition        "Signal brut d'irradiance descendante à 490 nm de longueur d'onde. Local_Attributes:{long_name:Irradiance descendante brute à 490 nanomètres; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_DOUBLE}. Properties:{category:ib; data_type:double}"@fr ;
         skos:notation          "SDN:R03::RAW_DOWNWELLING_IRRADIANCE490";
         skos:note              "accepted"@en;
         skos:prefLabel         "Raw downwelling irradiance at 490 nanometers"@en;
+        skos:prefLabel         "Irradiance descendante brute à 490 nanomètres"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/TRANSMITTANCE_PARTICLE_BEAM_ATTENUATION660/>
@@ -1481,9 +1630,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "TRANSMITTANCE_PARTICLE_BEAM_ATTENUATION660";
         skos:definition        "Raw beam attenuation signal from transmissometer sensor at 660 nm wavelength. Local_Attributes:{long_name:Beam attenuation from transmissometer sensor at 660 nanometers; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Signal brut d'atténuation du faisceau du capteur transmissomètre à 660 nm de longueur d'onde. Local_Attributes:{long_name:Atténuation du faisceau du capteur transmissomètre à 660 nanomètres; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::TRANSMITTANCE_PARTICLE_BEAM_ATTENUATION660";
         skos:note              "accepted"@en;
         skos:prefLabel         "Beam attenuation from transmissometer sensor at 660 nanometers"@en;
+        skos:prefLabel         "Atténuation du faisceau du capteur transmissomètre à 660 nanomètres"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/UV_INTENSITY_DARK_NITRATE/>
@@ -1501,9 +1652,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "UV_INTENSITY_DARK_NITRATE";
         skos:definition        "Raw ultra-violet (UV) flux signal in darkness from nitrate sensor. Average of all 256 dark counts, reported by the SUNA sensor. Local_Attributes:{long_name:Intensity of ultra violet flux dark measurement from nitrate sensor; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Signal brut de flux ultra-violet (UV) à l'obscurité du capteur de nitrate. Moyenne de tous les comptes d'obscurité sur 256, mesurée par le capteur SUNA Local_Attributes:{long_name:Intensité de la mesure de flux ultra-violet à l'obscurité du capteur de nitrate; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::UV_INTENSITY_DARK_NITRATE";
         skos:note              "accepted"@en;
         skos:prefLabel         "Intensity of ultra violet flux dark measurement from nitrate sensor"@en;
+        skos:prefLabel         "Intensité de la mesure de flux ultra-violet à l'obscurité du capteur de nitrate"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/LED_FLASHING_COUNT_DOXY/>
@@ -1520,9 +1673,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "LED_FLASHING_COUNT_DOXY";
         skos:definition        "Light-Emitting Diode (LED) flashing frequency from dissolved oxygen sensor, reported by ARO-FT optode sensor. Local_Attributes:{long_name:Number of times oxygen sensor flashing to measure oxygen; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_DOUBLE}. Properties:{category:ib; data_type:double}"@en;
+        skos:definition        "Fréquence de clignotement de la diode électroluminescente (LED) du capteur d'oxygène dissous, mesurée par le capteur optode ARO-FT Local_Attributes:{long_name:Nombre de clignotements du capteur d'oxygène pour mesurer l'oxygène; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_DOUBLE}. Properties:{category:ib; data_type:double}"@fr ;
         skos:notation          "SDN:R03::LED_FLASHING_COUNT_DOXY";
         skos:note              "accepted"@en;
         skos:prefLabel         "Number of times oxygen sensor flashing to measure oxygen"@en;
+        skos:prefLabel         "Nombre de clignotements du capteur d'oxygène pour mesurer l'oxygène"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/UV_INTENSITY_NITRATE/>
@@ -1540,9 +1695,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "4";
         skos:altLabel          "UV_INTENSITY_NITRATE";
         skos:definition        "Raw ultra-violet (UV) flux signal from nitrate sensor. Measurement in counts proportional to light intensity. Multi-spectral parameter requiring an extra N_VALUESxxx dimension in the NetCDF files; xxx is a number between 0 and 255 representing the number of wavelengths transmitted. Local_Attributes:{long_name:Intensity of ultra violet flux from nitrate sensor; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float; extra_dim:[N_VALUES]}"@en;
+        skos:definition        "Signal brut de flux ultra-violet (UV) du capteur de nitrate. Mesure en comptes proportionnels à l'intensité lumineuse. Paramètre multispectral nécessitant une dimension N_VALUESxxx supplémentaire dans les fichiers NetCDF ; xxx est un nombre entre 0 et 255 représentant le nombre de longueurs d'onde transmises Local_Attributes:{long_name:Intensité du flux ultra-violet du capteur de nitrate; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float; extra_dim:[N_VALUES]}"@fr ;
         skos:notation          "SDN:R03::UV_INTENSITY_NITRATE";
         skos:note              "accepted"@en;
         skos:prefLabel         "Intensity of ultra violet flux from nitrate sensor"@en;
+        skos:prefLabel         "Intensité du flux ultra-violet du capteur de nitrate"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/FLUORESCENCE_CDOM/>
@@ -1560,9 +1717,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "FLUORESCENCE_CDOM";
         skos:definition        "Raw fluorescence signal from coloured dissolved organic matter (CDOM) sensor, reported by ECO3 sensor. Local_Attributes:{long_name:Raw fluorescence from coloured dissolved organic matter sensor; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Signal brut de fluorescence du capteur de matière organique dissoute colorée (MODC), mesuré par le capteur ECO3 Local_Attributes:{long_name:Fluorescence brute du capteur de matière organique dissoute colorée; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::FLUORESCENCE_CDOM";
         skos:note              "accepted"@en;
         skos:prefLabel         "Raw fluorescence from coloured dissolved organic matter sensor"@en;
+        skos:prefLabel         "Fluorescence brute du capteur de matière organique dissoute colorée"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/RAW_UPWELLING_RADIANCE555/>
@@ -1579,9 +1738,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "RAW_UPWELLING_RADIANCE555";
         skos:definition        "Raw upwelling radiance signal at 555 nm wavelength, reported by OCR504 sensor. Local_Attributes:{long_name:Raw upwelling radiance at 555 nanometers; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_DOUBLE}. Properties:{category:ib; data_type:double}"@en;
+        skos:definition        "Signal brut de radiance ascendante à 555 nm de longueur d'onde (capteur OCR504). Local_Attributes:{long_name:Radiance ascendante brute à 555 nanomètres; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_DOUBLE}. Properties:{category:ib; data_type:double}"@fr ;
         skos:notation          "SDN:R03::RAW_UPWELLING_RADIANCE555";
         skos:note              "accepted"@en;
         skos:prefLabel         "Raw upwelling radiance at 555 nanometers"@en;
+        skos:prefLabel         "Radiance ascendante brute à 555 nanomètres"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE/>
@@ -1599,9 +1760,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "NB_SAMPLE";
         skos:definition        "Not Used. Number of samples in each pressure bin. Local_Attributes:{long_name:Number of samples in each pressure bin; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_SHORT}. Properties:{category:ic; data_type:short}."@en;
+        skos:definition        "Non utilisé. Nombre d'échantillons dans chaque tranche de pression Local_Attributes:{long_name:Nombre d'échantillons dans chaque tranche de pression; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_SHORT}. Properties:{category:ic; data_type:short}."@fr ;
         skos:notation          "SDN:R03::NB_SAMPLE";
         skos:note              "deprecated"@en;
         skos:prefLabel         "Number of samples in bin"@en;
+        skos:prefLabel         "Nombre d'échantillons par tranche"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_IRRADIANCE380/>
@@ -1619,9 +1782,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "RAW_DOWNWELLING_IRRADIANCE380";
         skos:definition        "Raw downwelling irradiance signal at 380 nm wavelength. Local_Attributes:{long_name:Raw downwelling irradiance at 380 nanometers; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_DOUBLE}. Properties:{category:ib; data_type:double}"@en;
+        skos:definition        "Signal brut d'irradiance descendante à 380 nm de longueur d'onde. Local_Attributes:{long_name:Irradiance descendante brute à 380 nanomètres; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_DOUBLE}. Properties:{category:ib; data_type:double}"@fr ;
         skos:notation          "SDN:R03::RAW_DOWNWELLING_IRRADIANCE380";
         skos:note              "accepted"@en;
         skos:prefLabel         "Raw downwelling irradiance at 380 nanometers"@en;
+        skos:prefLabel         "Irradiance descendante brute à 380 nanomètres"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_IRRADIANCE412/>
@@ -1639,9 +1804,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "RAW_DOWNWELLING_IRRADIANCE412";
         skos:definition        "Raw downwelling irradiance signal at 412 nm wavelength. Local_Attributes:{long_name:Raw downwelling irradiance at 412 nanometers; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_DOUBLE}. Properties:{category:ib; data_type:double}"@en;
+        skos:definition        "Signal brut d'irradiance descendante à 412 nm de longueur d'onde. Local_Attributes:{long_name:Irradiance descendante brute à 412 nanomètres; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_DOUBLE}. Properties:{category:ib; data_type:double}"@fr ;
         skos:notation          "SDN:R03::RAW_DOWNWELLING_IRRADIANCE412";
         skos:note              "accepted"@en;
         skos:prefLabel         "Raw downwelling irradiance at 412 nanometers"@en;
+        skos:prefLabel         "Irradiance descendante brute à 412 nanomètres"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_IRRADIANCE/>
@@ -1659,9 +1826,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "RAW_DOWNWELLING_IRRADIANCE";
         skos:definition        "Raw downwelling irradiance signal at unspecified wavelength. Local_Attributes:{long_name:Raw downwelling irradiance at x nanometers; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_DOUBLE}. Properties:{category:ib; data_type:double}"@en;
+        skos:definition        "Signal brut d'irradiance descendante à longueur d'onde non spécifiée. Local_Attributes:{long_name:Irradiance descendante brute à longueur d'onde non spécifiée; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_DOUBLE}. Properties:{category:ib; data_type:double}"@fr ;
         skos:notation          "SDN:R03::RAW_DOWNWELLING_IRRADIANCE";
         skos:note              "accepted"@en;
         skos:prefLabel         "Raw downwelling irradiance at x nanometers"@en;
+        skos:prefLabel         "Irradiance descendante brute à longueur d'onde non spécifiée"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/BETA_BACKSCATTERING/>
@@ -1679,9 +1848,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "BETA_BACKSCATTERING";
         skos:definition        "Raw backscattering signal from backscattering meter at unspecified wavelength, reported by ECO3 or FLBB sensors. Local_Attributes:{long_name:Total angle specific volume from backscattering sensor at x nanometers; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Signal brut de rétrodiffusion du diffusomètre à longueur d'onde non spécifiée (capteurs ECO3 ou FLBB). Local_Attributes:{long_name:Volume spécifique angulaire total du capteur de rétrodiffusion à longueur d'onde non spécifiée; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::BETA_BACKSCATTERING";
         skos:note              "accepted"@en;
         skos:prefLabel         "Total angle specific volume from backscattering sensor at x nanometers"@en;
+        skos:prefLabel         "Volume spécifique angulaire total du capteur de rétrodiffusion à longueur d'onde non spécifiée"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/RAW_UPWELLING_RADIANCE/>
@@ -1698,9 +1869,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "RAW_UPWELLING_RADIANCE";
         skos:definition        "Raw upwelling radiance signal at unspecified wavelength, reported by OCR504 sensor. Local_Attributes:{long_name:Raw upwelling radiance at x nanometers; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_DOUBLE}. Properties:{category:ib; data_type:double}"@en;
+        skos:definition        "Signal brut de radiance ascendante à longueur d'onde non spécifiée (capteur OCR504). Local_Attributes:{long_name:Radiance ascendante brute à longueur d'onde non spécifiée; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_DOUBLE}. Properties:{category:ib; data_type:double}"@fr ;
         skos:notation          "SDN:R03::RAW_UPWELLING_RADIANCE";
         skos:note              "accepted"@en;
         skos:prefLabel         "Raw upwelling radiance at x nanometers"@en;
+        skos:prefLabel         "Radiance ascendante brute à longueur d'onde non spécifiée"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/RAW_UPWELLING_RADIANCE443/>
@@ -1717,9 +1890,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "RAW_UPWELLING_RADIANCE443";
         skos:definition        "Raw upwelling radiance signal at 443 nm wavelength, reported by OCR504 sensor. Local_Attributes:{long_name:Raw upwelling radiance at 443 nanometers; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_DOUBLE}. Properties:{category:ib; data_type:double}"@en;
+        skos:definition        "Signal brut de radiance ascendante à 443 nm de longueur d'onde (capteur OCR504). Local_Attributes:{long_name:Radiance ascendante brute à 443 nanomètres; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_DOUBLE}. Properties:{category:ib; data_type:double}"@fr ;
         skos:notation          "SDN:R03::RAW_UPWELLING_RADIANCE443";
         skos:note              "accepted"@en;
         skos:prefLabel         "Raw upwelling radiance at 443 nanometers"@en;
+        skos:prefLabel         "Radiance ascendante brute à 443 nanomètres"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_IRRADIANCE443/>
@@ -1737,9 +1912,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "RAW_DOWNWELLING_IRRADIANCE443";
         skos:definition        "Raw downwelling irradiance signal at 443 nm wavelength. Local_Attributes:{long_name:Raw downwelling irradiance at 443 nanometers; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_DOUBLE}. Properties:{category:ib; data_type:double}"@en;
+        skos:definition        "Signal brut d'irradiance descendante à 443 nm de longueur d'onde. Local_Attributes:{long_name:Irradiance descendante brute à 443 nanomètres; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_DOUBLE}. Properties:{category:ib; data_type:double}"@fr ;
         skos:notation          "SDN:R03::RAW_DOWNWELLING_IRRADIANCE443";
         skos:note              "accepted"@en;
         skos:prefLabel         "Raw downwelling irradiance at 443 nanometers"@en;
+        skos:prefLabel         "Irradiance descendante brute à 443 nanomètres"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/UV_INTENSITY_DARK_SEAWATER_NITRATE/>
@@ -1757,9 +1934,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "UV_INTENSITY_DARK_SEAWATER_NITRATE";
         skos:definition        "Raw ultra-violet (UV) flux signal in seawater and darkness from nitrate sensor. From light absorption on pixels at shortest wavelengths of array, reported by the SUNA sensor. Local_Attributes:{long_name:Intensity of ultra-violet flux dark sea water from nitrate sensor; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Signal brut de flux ultra-violet (UV) dans l'eau de mer et à l'obscurité du capteur de nitrate. Issu de l'absorption lumineuse sur les pixels aux plus courtes longueurs d'onde du réseau, mesuré par le capteur SUNA Local_Attributes:{long_name:Intensité du flux ultra-violet dans l'eau de mer à l'obscurité du capteur de nitrate; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::UV_INTENSITY_DARK_SEAWATER_NITRATE";
         skos:note              "accepted"@en;
         skos:prefLabel         "Intensity of ultra-violet flux dark sea water from nitrate sensor"@en;
+        skos:prefLabel         "Intensité du flux ultra-violet dans l'eau de mer à l'obscurité du capteur de nitrate"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/FLUORESCENCE_CHLA/>
@@ -1777,9 +1956,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "FLUORESCENCE_CHLA";
         skos:definition        "Raw fluorescence signal from chlorophyll-a fluorometer, reported by ECO3, FLNTU and FLBB sensors. Local_Attributes:{long_name:Chlorophyll-A signal from fluorescence sensor; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Signal brut de fluorescence du fluoromètre à chlorophylle-a, mesuré par les capteurs ECO3, FLNTU et FLBB Local_Attributes:{long_name:Signal de chlorophylle-a du capteur de fluorescence; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::FLUORESCENCE_CHLA";
         skos:note              "accepted"@en;
         skos:prefLabel         "Chlorophyll-A signal from fluorescence sensor"@en;
+        skos:prefLabel         "Signal de chlorophylle-a du capteur de fluorescence"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/FIT_ERROR_NITRATE/>
@@ -1797,9 +1978,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "FIT_ERROR_NITRATE";
         skos:definition        "Calibration fit error of nitrate, SUNA sensro key variable in QC. Local_Attributes:{long_name:Nitrate fit error; standard_name:-; units:dimensionless; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Erreur d'ajustement de la calibration du nitrate, variable clé du capteur SUNA en contrôle qualité Local_Attributes:{long_name:Erreur d'ajustement du nitrate; standard_name:-; units:dimensionless; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::FIT_ERROR_NITRATE";
         skos:note              "accepted"@en;
         skos:prefLabel         "Nitrate fit error"@en;
+        skos:prefLabel         "Erreur d'ajustement du nitrate"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_PAR/>
@@ -1817,9 +2000,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "RAW_DOWNWELLING_PAR";
         skos:definition        "Raw downwelling photosynthetically available radiation (PAR) signal. Local_Attributes:{long_name:Raw downwelling photosynthetic available radiation; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_DOUBLE}. Properties:{category:ib; data_type:double}"@en;
+        skos:definition        "Signal brut de rayonnement photosynthétique disponible descendant (PAR) Local_Attributes:{long_name:Rayonnement photosynthétique disponible descendant brut; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_DOUBLE}. Properties:{category:ib; data_type:double}"@fr ;
         skos:notation          "SDN:R03::RAW_DOWNWELLING_PAR";
         skos:note              "accepted"@en;
         skos:prefLabel         "Raw downwelling photosynthetic available radiation"@en;
+        skos:prefLabel         "Rayonnement photosynthétique disponible descendant brut"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_IRRADIANCE555/>
@@ -1837,9 +2022,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "RAW_DOWNWELLING_IRRADIANCE555";
         skos:definition        "Raw downwelling irradiance signal at 555 nm wavelength. Local_Attributes:{long_name:Raw downwelling irradiance at 555 nanometers; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_DOUBLE}. Properties:{category:ib; data_type:double}"@en;
+        skos:definition        "Signal brut d'irradiance descendante à 555 nm de longueur d'onde. Local_Attributes:{long_name:Irradiance descendante brute à 555 nanomètres; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_DOUBLE}. Properties:{category:ib; data_type:double}"@fr ;
         skos:notation          "SDN:R03::RAW_DOWNWELLING_IRRADIANCE555";
         skos:note              "accepted"@en;
         skos:prefLabel         "Raw downwelling irradiance at 555 nanometers"@en;
+        skos:prefLabel         "Irradiance descendante brute à 555 nanomètres"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_COUNT_DOXY/>
@@ -1856,9 +2043,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "TEMP_COUNT_DOXY";
         skos:definition        "Raw temperature signal from thermistor on dissolved oxygen sensor. Local_Attributes:{long_name:Count which is expressive of uncalibrated temperature value reported by oxygen sensor; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Signal de température brut de la thermistance du capteur d'oxygène dissous Local_Attributes:{long_name:Comptage représentatif de la valeur de température non calibrée rapportée par le capteur d'oxygène; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::TEMP_COUNT_DOXY";
         skos:note              "accepted"@en;
         skos:prefLabel         "Count which is expressive of uncalibrated temperature value reported by oxygen sensor"@en;
+        skos:prefLabel         "Comptage représentatif de la valeur de température non calibrée rapportée par le capteur d'oxygène"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/RAW_UPWELLING_RADIANCE490/>
@@ -1875,9 +2064,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "RAW_UPWELLING_RADIANCE490";
         skos:definition        "Raw upwelling radiance signal at 490 nm wavelength, reported by OCR504 sensor. Local_Attributes:{long_name:Raw upwelling radiance at 490 nanometers; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_DOUBLE}. Properties:{category:ib; data_type:double}"@en;
+        skos:definition        "Signal brut de radiance ascendante à 490 nm de longueur d'onde (capteur OCR504). Local_Attributes:{long_name:Radiance ascendante brute à 490 nanomètres; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:NC_FILL_DOUBLE}. Properties:{category:ib; data_type:double}"@fr ;
         skos:notation          "SDN:R03::RAW_UPWELLING_RADIANCE490";
         skos:note              "accepted"@en;
         skos:prefLabel         "Raw upwelling radiance at 490 nanometers"@en;
+        skos:prefLabel         "Radiance ascendante brute à 490 nanomètres"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/BETA_BACKSCATTERING532/>
@@ -1895,9 +2086,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "BETA_BACKSCATTERING532";
         skos:definition        "Raw backscattering signal from backscattering meter at 532 nm wavelength, reported by ECO3 or FLBB sensors. Local_Attributes:{long_name:Total angle specific volume from backscattering sensor at 532 nanometers; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Signal brut de rétrodiffusion du diffusomètre à 532 nm de longueur d'onde (capteurs ECO3 ou FLBB). Local_Attributes:{long_name:Volume spécifique angulaire total du capteur de rétrodiffusion à 532 nanomètres; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::BETA_BACKSCATTERING532";
         skos:note              "accepted"@en;
         skos:prefLabel         "Total angle specific volume from backscattering sensor at 532 nanometers"@en;
+        skos:prefLabel         "Volume spécifique angulaire total du capteur de rétrodiffusion à 532 nanomètres"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_CPU_CHLA/>
@@ -1915,9 +2108,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "4";
         skos:altLabel          "TEMP_CPU_CHLA";
         skos:definition        "Raw temperature signalfrom thermistor on backscattering meter and/or fluorometer, reported by FLBB sensor. Local_Attributes:{long_name:Thermistor signal from backscattering sensor; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Signal de température brut de la thermistance du diffusomètre et/ou du fluoromètre, mesuré par le capteur FLBB Local_Attributes:{long_name:Signal de thermistance du capteur de rétrodiffusion; standard_name:-; units:count; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::TEMP_CPU_CHLA";
         skos:note              "accepted"@en;
         skos:prefLabel         "Thermistor signal from backscattering sensor"@en;
+        skos:prefLabel         "Signal de thermistance du capteur de rétrodiffusion"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/DOXY/>
@@ -1935,9 +2130,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "DOXY";
         skos:definition        "Dissolved oxygen concentration. Local_Attributes:{long_name:Dissolved oxygen; standard_name:moles_of_oxygen_per_unit_mass_in_sea_water; units:micromole/kg; valid_min:-5.f; valid_max:600.f; fill_value:99999.f}. Properties:{category:b; data_type:float}"@en;
+        skos:definition        "Concentration en oxygène dissous Local_Attributes:{long_name:Oxygène dissous; standard_name:moles_of_oxygen_per_unit_mass_in_sea_water; units:micromole/kg; valid_min:-5.f; valid_max:600.f; fill_value:99999.f}. Properties:{category:b; data_type:float}"@fr ;
         skos:notation          "SDN:R03::DOXY";
         skos:note              "accepted"@en;
         skos:prefLabel         "Dissolved oxygen"@en;
+        skos:prefLabel         "Oxygène dissous"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/KGUM/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/NITRATE/>
@@ -1955,9 +2152,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "NITRATE";
         skos:definition        "Nitrate concentration. Local_Attributes:{long_name:Nitrate; standard_name:moles_of_nitrate_per_unit_mass_in_sea_water; units:micromole/kg; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@en;
+        skos:definition        "Concentration en nitrate Local_Attributes:{long_name:Nitrate; standard_name:moles_of_nitrate_per_unit_mass_in_sea_water; units:micromole/kg; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@fr ;
         skos:notation          "SDN:R03::NITRATE";
         skos:note              "accepted"@en;
         skos:prefLabel         "Nitrate"@en;
+        skos:prefLabel         "nitrate"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/KGUM/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/BISULFIDE/>
@@ -1975,9 +2174,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "BISULFIDE";
         skos:definition        "Bisulfide concentration (umol/kg). Local_Attributes:{long_name:Bisulfide; standard_name:-; units:micromole/kg; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@en;
+        skos:definition        "Concentration en bisulfure (µmol/kg) Local_Attributes:{long_name:Bisulfure; standard_name:-; units:micromole/kg; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@fr ;
         skos:notation          "SDN:R03::BISULFIDE";
         skos:note              "accepted"@en;
         skos:prefLabel         "Bisulfide"@en;
+        skos:prefLabel         "Bisulfure"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/KGUM/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/MLPL_DOXY/>
@@ -1995,9 +2196,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "MLPL_DOXY";
         skos:definition        "Dissolved oxygen concentration uncorrected for salinity and pressure effects. Local_Attributes:{long_name:Oxygen concentration reported by the oxygen sensor; standard_name:-; units:ml/l; valid_min:0.f; valid_max:650.f; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:definition        "Concentration en oxygène dissous non corrigée des effets de salinité et de pression Local_Attributes:{long_name:Concentration en oxygène mesurée par le capteur d'oxygène; standard_name:-; units:ml/l; valid_min:0.f; valid_max:650.f; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@fr ;
         skos:notation          "SDN:R03::MLPL_DOXY";
         skos:note              "accepted"@en;
         skos:prefLabel         "Oxygen concentration reported by the oxygen sensor"@en;
+        skos:prefLabel         "Concentration en oxygène mesurée par le capteur d'oxygène"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UMLL/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/TURBIDITY/>
@@ -2015,9 +2218,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "TURBIDITY";
         skos:definition        "Turbidity of seawater. Local_Attributes:{long_name:Sea water turbidity; standard_name:sea_water_turbidity; units:ntu; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@en;
+        skos:definition        "Turbidité de l'eau de mer Local_Attributes:{long_name:Turbidité de l'eau de mer; standard_name:sea_water_turbidity; units:ntu; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@fr ;
         skos:notation          "SDN:R03::TURBIDITY";
         skos:note              "accepted"@en;
         skos:prefLabel         "Sea water turbidity"@en;
+        skos:prefLabel         "Turbidité de l'eau de mer"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/USTU/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/CHLA/>
@@ -2035,9 +2240,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "CHLA";
         skos:definition        "Chlorophyll-a concentration (mg/m^3), reported by ECO3 sensor. Local_Attributes:{long_name:Chlorophyll-A; standard_name:mass_concentration_of_chlorophyll_a_in_sea_water; units:mg/m3; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@en;
+        skos:definition        "Concentration en chlorophylle-a (mg/m³), mesurée par le capteur ECO3 Local_Attributes:{long_name:Chlorophylle-a; standard_name:mass_concentration_of_chlorophyll_a_in_sea_water; units:mg/m3; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:b; data_type:float}"@fr ;
         skos:notation          "SDN:R03::CHLA";
         skos:note              "accepted"@en;
         skos:prefLabel         "Chlorophyll-A"@en;
+        skos:prefLabel         "Chlorophylle-a"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UMMC/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/TEMP/>
@@ -2055,9 +2262,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "TEMP";
         skos:definition        "Temperature of the water body expressed against the International Temperature Scale 1990 (ITS-90) calibration standard. Local_Attributes:{long_name:Sea temperature in-situ ITS-90 scale; standard_name:sea_water_temperature; units:degree_Celsius; valid_min:-2.5f; valid_max:40.f; fill_value:99999.f}. Properties:{category:c; data_type:float}"@en;
+        skos:definition        "Température du milieu, exprimée selon l'étalon international de température 1990 (ITS-90) Local_Attributes:{long_name:Température de l'eau de mer in situ, échelle ITS-90; standard_name:sea_water_temperature; units:degree_Celsius; valid_min:-2.5f; valid_max:40.f; fill_value:99999.f}. Properties:{category:c; data_type:float}"@fr ;
         skos:notation          "SDN:R03::TEMP";
         skos:note              "accepted"@en;
         skos:prefLabel         "Sea temperature in-situ ITS-90 scale"@en;
+        skos:prefLabel         "Température de l'eau de mer in situ, échelle ITS-90"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/>
@@ -2075,4 +2284,5 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo         "17";
         skos:altLabel           "PARAMETER";
         skos:member             <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_DURAFET/> , <http://vocab.nerc.ac.uk/collection/R03/current/DOWN_IRRADIANCE665/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_IRRADIANCE665/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_OCR/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_ISUS/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_STM/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_SFET/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_OPTODE/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_CTD/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_IRRADIANCE670/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_MCOMS/> , <http://vocab.nerc.ac.uk/collection/R03/current/DOWN_IRRADIANCE670/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_SUNA/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_ECO/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_CROVER/> , <http://vocab.nerc.ac.uk/collection/R03/current/CHLA_FLUORESCENCE/> , <http://vocab.nerc.ac.uk/collection/R03/current/BDOWN_IRRADIANCE665/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_CYC/> , <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_CNDC/> , <http://vocab.nerc.ac.uk/collection/R03/current/PH_IN_SITU_FREE/> , <http://vocab.nerc.ac.uk/collection/R03/current/PH_IN_SITU_TOTAL/> , <http://vocab.nerc.ac.uk/collection/R03/current/PH_IN_SITU_SEAWATER/> , <http://vocab.nerc.ac.uk/collection/R03/current/DOWNWELLING_PAR/> , <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_VOLTAGE_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/VRS_PH/> , <http://vocab.nerc.ac.uk/collection/R03/current/VK_PH/> , <http://vocab.nerc.ac.uk/collection/R03/current/VOLTAGE_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/IK_PH/> , <http://vocab.nerc.ac.uk/collection/R03/current/IB_PH/> , <http://vocab.nerc.ac.uk/collection/R03/current/PHASE_DELAY_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/PPOX_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/PRES/> , <http://vocab.nerc.ac.uk/collection/R03/current/CNDC/> , <http://vocab.nerc.ac.uk/collection/R03/current/MTIME/> , <http://vocab.nerc.ac.uk/collection/R03/current/CP660/> , <http://vocab.nerc.ac.uk/collection/R03/current/CP/> , <http://vocab.nerc.ac.uk/collection/R03/current/UP_RADIANCE555/> , <http://vocab.nerc.ac.uk/collection/R03/current/UP_RADIANCE/> , <http://vocab.nerc.ac.uk/collection/R03/current/UP_RADIANCE443/> , <http://vocab.nerc.ac.uk/collection/R03/current/UP_RADIANCE412/> , <http://vocab.nerc.ac.uk/collection/R03/current/UP_RADIANCE490/> , <http://vocab.nerc.ac.uk/collection/R03/current/CDOM/> , <http://vocab.nerc.ac.uk/collection/R03/current/DOWN_IRRADIANCE/> , <http://vocab.nerc.ac.uk/collection/R03/current/DOWN_IRRADIANCE412/> , <http://vocab.nerc.ac.uk/collection/R03/current/DOWN_IRRADIANCE490/> , <http://vocab.nerc.ac.uk/collection/R03/current/DOWN_IRRADIANCE443/> , <http://vocab.nerc.ac.uk/collection/R03/current/DOWN_IRRADIANCE380/> , <http://vocab.nerc.ac.uk/collection/R03/current/DOWN_IRRADIANCE555/> , <http://vocab.nerc.ac.uk/collection/R03/current/FREQUENCY_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/BBP700/> , <http://vocab.nerc.ac.uk/collection/R03/current/BBP/> , <http://vocab.nerc.ac.uk/collection/R03/current/BBP532/> , <http://vocab.nerc.ac.uk/collection/R03/current/BBP470/> , <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_SPECTROPHOTOMETER_NITRATE/> , <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_PH/> , <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_NITRATE/> , <http://vocab.nerc.ac.uk/collection/R03/current/HUMIDITY_NITRATE/> , <http://vocab.nerc.ac.uk/collection/R03/current/C1PHASE_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/TPHASE_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/TILT/> , <http://vocab.nerc.ac.uk/collection/R03/current/C2PHASE_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/RPHASE_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/BPHASE_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/DPHASE_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/MOLAR_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/MOLAR_NITRATE/> , <http://vocab.nerc.ac.uk/collection/R03/current/BETA_BACKSCATTERING700/> , <http://vocab.nerc.ac.uk/collection/R03/current/BETA_BACKSCATTERING470/> , <http://vocab.nerc.ac.uk/collection/R03/current/SIDE_SCATTERING_TURBIDITY/> , <http://vocab.nerc.ac.uk/collection/R03/current/PSAL/> , <http://vocab.nerc.ac.uk/collection/R03/current/TRANSMITTANCE_PARTICLE_BEAM_ATTENUATION/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_UPWELLING_RADIANCE412/> , <http://vocab.nerc.ac.uk/collection/R03/current/COUNT_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_IRRADIANCE490/> , <http://vocab.nerc.ac.uk/collection/R03/current/TRANSMITTANCE_PARTICLE_BEAM_ATTENUATION660/> , <http://vocab.nerc.ac.uk/collection/R03/current/UV_INTENSITY_DARK_NITRATE/> , <http://vocab.nerc.ac.uk/collection/R03/current/LED_FLASHING_COUNT_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/UV_INTENSITY_NITRATE/> , <http://vocab.nerc.ac.uk/collection/R03/current/FLUORESCENCE_CDOM/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_UPWELLING_RADIANCE555/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_IRRADIANCE380/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_IRRADIANCE412/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_IRRADIANCE/> , <http://vocab.nerc.ac.uk/collection/R03/current/BETA_BACKSCATTERING/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_UPWELLING_RADIANCE/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_UPWELLING_RADIANCE443/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_IRRADIANCE443/> , <http://vocab.nerc.ac.uk/collection/R03/current/UV_INTENSITY_DARK_SEAWATER_NITRATE/> , <http://vocab.nerc.ac.uk/collection/R03/current/FLUORESCENCE_CHLA/> , <http://vocab.nerc.ac.uk/collection/R03/current/FIT_ERROR_NITRATE/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_PAR/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_IRRADIANCE555/> , <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_COUNT_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_UPWELLING_RADIANCE490/> , <http://vocab.nerc.ac.uk/collection/R03/current/BETA_BACKSCATTERING532/> , <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_CPU_CHLA/> , <http://vocab.nerc.ac.uk/collection/R03/current/DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/NITRATE/> , <http://vocab.nerc.ac.uk/collection/R03/current/BISULFIDE/> , <http://vocab.nerc.ac.uk/collection/R03/current/MLPL_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/TURBIDITY/> , <http://vocab.nerc.ac.uk/collection/R03/current/TEMP/> , <http://vocab.nerc.ac.uk/collection/R03/current/CHLA/>;
-        skos:prefLabel          "Argo parameter codes" .
+        skos:prefLabel          "Argo parameter codes" ;
+        skos:prefLabel          "Codes de paramètres Argo"@fr .
