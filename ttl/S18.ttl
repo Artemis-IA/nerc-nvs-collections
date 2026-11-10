@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The upper filter in a cascade or sequential filtration setup designed to exclude material retained by the filter. Only material and liquid that pass through the filter are used in the analyses."@en;
+        skos:definition        "Le filtre supérieur d'un montage de filtration en cascade ou séquentielle, conçu pour exclure la matière retenue par le filtre. Seule la matière et le liquide qui traversent le filtre sont utilisés dans les analyses."@fr ;
         skos:notation          "SDN:S18::S1800122";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sampling processor (upper filter)"@en .
+        skos:prefLabel         "sampling processor (upper filter)"@en ;
+        skos:prefLabel         "processeur d'échantillonnage (filtre supérieur)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800063/>
         rdf:type               skos:Concept;
@@ -67,6 +69,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Ratio of the two specified isotopes."@en;
+        skos:definition        "Rapport des deux isotopes spécifiés."@fr ;
         skos:notation          "SDN:S18::S1800078";
         skos:note              "accepted"@en;
         skos:prefLabel         "uranium-238/uranium-236"@en .
@@ -85,9 +88,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "";
         skos:definition        "An amount of water flowing over the crest of a coastal structure (such as a seawall, dike, breakwater etc) due to wave action. Wave overtopping events can be assessed by measuring individual occurences or counts, measuring the volume V per overtopping wave, or by measuring the mean discharge q over a certain time interval and per meter run."@en;
+        skos:definition        "Quantité d'eau déferlant par-dessus la crête d'un ouvrage côtier (comme un mur de mer, une digue, une digue de protection etc.) sous l'effet de l'action des vagues. Les événements de franchissement par les vagues peuvent être évalués en mesurant les occurrences ou comptages individuels, en mesurant le volume V par vague franchissante, ou en mesurant le débit moyen q sur un certain intervalle de temps et par mètre de linéaire."@fr ;
         skos:notation          "SDN:S18::S1800162";
         skos:note              "accepted"@en;
-        skos:prefLabel         "wave overtopping events"@en .
+        skos:prefLabel         "wave overtopping events"@en ;
+        skos:prefLabel         "événements de franchissement par les vagues"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800107/>
         rdf:type               skos:Concept;
@@ -102,9 +107,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The route along which a sample was collected or an observation was made, such as a beach transect, the track of a sampling net through water, or the track of a benthic sampler along the seafloor. It can also include the passage or transit between sampling or observation locations."@en;
+        skos:definition        "Le parcours le long duquel un échantillon a été collecté ou une observation effectuée, comme un transect de plage, la trajectoire d'un filet d'échantillonnage dans l'eau, ou la trajectoire d'un préleveur benthique le long du fond marin. Il peut aussi inclure le passage ou le transit entre les lieux d'échantillonnage ou d'observation."@fr ;
         skos:notation          "SDN:S18::S1800107";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sampling track"@en .
+        skos:prefLabel         "sampling track"@en ;
+        skos:prefLabel         "parcours d'échantillonnage"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800048/>
         rdf:type               skos:Concept;
@@ -119,9 +126,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to a sample from the atmosphere that has been heated as part of the analytical procedure."@en;
+        skos:definition        "Un échantillon atmosphérique qui a été chauffé dans le cadre de la procédure analytique."@fr ;
         skos:notation          "SDN:S18::S1800048";
         skos:note              "accepted"@en;
-        skos:prefLabel         "heated atmosphere sample"@en .
+        skos:prefLabel         "heated atmosphere sample"@en ;
+        skos:prefLabel         "échantillon atmosphérique chauffé"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800153/>
         rdf:type               skos:Concept;
@@ -136,9 +145,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The solid state of water produced by the freezing of liquid water or water vapour. Generic term to be used when type of ice cannot be determined."@en;
+        skos:definition        "L'état solide de l'eau produit par la congélation d'eau liquide ou de vapeur d'eau. Terme générique à utiliser lorsque le type de glace ne peut pas être déterminé."@fr ;
         skos:notation          "SDN:S18::S1800153";
         skos:note              "accepted"@en;
-        skos:prefLabel         "ice"@en .
+        skos:prefLabel         "ice"@en ;
+        skos:prefLabel         "glace"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800004/>
         rdf:type               skos:Concept;
@@ -153,11 +164,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "EM";
+        skos:altLabel          "EM"@fr ;
         skos:definition        "The waves or particles (photons) of the electromagnetic field that propagate through space carrying energy; it includes radio waves, microwaves, infrared, (visible) light, ultraviolet, X-radiation and gamma radiation."@en;
+        skos:definition        "Les ondes ou particules (photons) du champ électromagnétique qui se propagent dans l'espace en transportant de l'énergie ; cela inclut les ondes radio, les micro-ondes, l'infrarouge, la lumière (visible), l'ultraviolet, les rayons X et les rayons gamma."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/S29/current/PE000960/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001190/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000637/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001030/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000652/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000663/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000999/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001144/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001043/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001054/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001037/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000786/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000795/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001121/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001004/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001218/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000840/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000898/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001107/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001225/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001023/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001073/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000865/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001009/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000801/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000888/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000959/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000976/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000670/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000989/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000693/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001145/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000767/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000902/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001031/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000913/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000718/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000700/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001185/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001196/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001222/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000953/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000783/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000640/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001160/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001079/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000741/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001133/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000748/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001024/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000848/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000891/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000802/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000784/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000977/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000707/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000926/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001085/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000694/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000842/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000853/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000736/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000836/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001173/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000632/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001092/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001110/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000645/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000809/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001138/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000699/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000914/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000927/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001012/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000682/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001147/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001029/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000896/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000770/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000633/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001166/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000708/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000742/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000944/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000830/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000626/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000749/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000850/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001017/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001026/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000995/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000909/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001140/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000980/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000775/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000903/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000878/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000613/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001033/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000687/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000932/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000606/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000823/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000791/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000723/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001119/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001087/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000696/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001000/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001062/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001126/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001141/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001135/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000757/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000884/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000972/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001014/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000777/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000893/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000763/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000985/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000904/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001159/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000979/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000996/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001150/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000614/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000772/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000744/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000811/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001075/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000838/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001094/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000668/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000993/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000758/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001020/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000684/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001050/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000881/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000894/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000780/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000608/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001176/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000690/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001068/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000732/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000832/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001169/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001122/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001128/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001019/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000973/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000882/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000982/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000805/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000760/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000773/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000966/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001056/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000689/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000940/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000906/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000934/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000725/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000616/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001162/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000813/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000819/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001143/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001181/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001192/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000954/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001007/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001022/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000874/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001045/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000970/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000887/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000806/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001204/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000761/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001157/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000622/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000692/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000702/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000713/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000789/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001115/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000935/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001109/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001124/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001081/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000753/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000975/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001131/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001182/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000766/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000676/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000968/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000921/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000814/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001205/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000610/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000855/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001010/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000617/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001090/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000664/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001112/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001199/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000875/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000647/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000658/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000673/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000868/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000680/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000754/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000870/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001038/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000936/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000890/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001064/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000727/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000715/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000827/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000653/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000962/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001083/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000956/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000792/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001001/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000856/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001188/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000648/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000678/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001052/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000661/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000872/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000929/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001039/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001165/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001048/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001059/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001202/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000797/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000930/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000721/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001100/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000612/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000618/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000635/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001117/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000815/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000845/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001097/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000751/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001071/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001084/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001041/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000650/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000779/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000911/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000998/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000924/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001153/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001036/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000785/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000931/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001172/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000655/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001105/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000666/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001118/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000794/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001120/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000833/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000987/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000810/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000938/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001102/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000729/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000851/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000817/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000864/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000964/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000847/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000858/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001003/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001195/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000643/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000958/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001148/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000656/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000667/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000901/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000912/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001027/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000919/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000782/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000988/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001078/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001178/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000990/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000939/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000706/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000717/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000734/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000747/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000638/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001099/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001103/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001184/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001221/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000852/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000835/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000952/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000861/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000711/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000697/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001149/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000925/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000808/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000818/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000624/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001044/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001055/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000787/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001226/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000644/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001179/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000841/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000735/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001137/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000750/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000907/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001146/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001028/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001080/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000605/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000895/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000859/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000889/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000994/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001219/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000788/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000920/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000698/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000943/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000625/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000719/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000822/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000790/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001060/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001186/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001197/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001223/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000877/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000641/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000768/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000803/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001032/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000639/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000686/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001134/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001016/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000983/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001025/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000908/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000695/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000774/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001061/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001161/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000892/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001198/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001086/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000843/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000854/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000737/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000849/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000679/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001013/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000984/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001093/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000978/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000991/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000756/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000769/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000771/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001167/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000915/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000928/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001074/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000945/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001174/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000683/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001187/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001224/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000730/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000743/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000634/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001139/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000837/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000880/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001018/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000607/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001067/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000981/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000776/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000620/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000992/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000804/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000731/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001155/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001168/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000831/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000627/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000740/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000933/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000724/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000946/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001175/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001088/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000965/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001127/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000905/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000997/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000688/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000916/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001142/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001191/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001136/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000885/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000812/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000899/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000825/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000621/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001156/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000615/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000738/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000630/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001006/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001021/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000873/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001015/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000764/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000839/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000886/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000986/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001095/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000669/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001180/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000691/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001069/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000701/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000759/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000712/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001108/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000685/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001076/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001049/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001040/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001051/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001203/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000866/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001130/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000628/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000675/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000967/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001123/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000739/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001129/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000752/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000974/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001163/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000765/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001200/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001057/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000733/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000941/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000947/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001220/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001111/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000629/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000726/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000646/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000657/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001077/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001008/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000826/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000867/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000971/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000807/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000762/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000955/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001193/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001063/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000672/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000820/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000714/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000709/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001046/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001151/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001164/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001058/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000623/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001158/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001201/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000942/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001132/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001194/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001116/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000677/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000660/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000871/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001125/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000961/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000844/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001082/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001034/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000720/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000703/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000922/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000821/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000949/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001047/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001096/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000796/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000659/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001070/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001170/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001183/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001005/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000869/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001011/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001091/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000665/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000910/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001206/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000923/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001035/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001065/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001152/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000674/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000681/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000778/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001104/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000793/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000704/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001113/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001189/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000862/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000937/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000728/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000828/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000745/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001171/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000755/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000654/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000963/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000857/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000969/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000957/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000722/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001053/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000816/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000829/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001066/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001002/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001089/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000798/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000642/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000781/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001101/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001177/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000619/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000636/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000649/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000651/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000662/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001114/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000863/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000746/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000846/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000918/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001154/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000897/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000900/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001042/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000710/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000705/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000716/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001106/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001098/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000951/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000834/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001072/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000860/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000800/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000876/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000883/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000948/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000950/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000917/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000879/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000631/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000609/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000824/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000671/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000799/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE000611/>;
         skos:notation          "SDN:S18::S1800004";
         skos:note              "accepted"@en;
-        skos:prefLabel         "electromagnetic radiation"@en .
+        skos:prefLabel         "electromagnetic radiation"@en ;
+        skos:prefLabel         "rayonnement électromagnétique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800039/>
         rdf:type               skos:Concept;
@@ -172,9 +186,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to a CO2 gas standard exiting a detector."@en;
+        skos:definition        "Une référence de gaz CO2 sortant d'un détecteur."@fr ;
         skos:notation          "SDN:S18::S1800039";
         skos:note              "accepted"@en;
-        skos:prefLabel         "CO2 gas standard at detector outlet"@en .
+        skos:prefLabel         "CO2 gas standard at detector outlet"@en ;
+        skos:prefLabel         "référence de gaz CO2 à la sortie du détecteur"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800132/>
         rdf:type               skos:Concept;
@@ -189,9 +205,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A location or facility at which measurements or samples were taken."@en;
+        skos:definition        "Un lieu ou une installation où des mesures ou des échantillons ont été effectués."@fr ;
         skos:notation          "SDN:S18::S1800132";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sampling station"@en .
+        skos:prefLabel         "sampling station"@en ;
+        skos:prefLabel         "station d'échantillonnage"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800095/>
         rdf:type               skos:Concept;
@@ -206,9 +224,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The linear polar co-ordinate of a vector measurement."@en;
+        skos:definition        "La coordonnée polaire linéaire d'une mesure vectorielle."@fr ;
         skos:notation          "SDN:S18::S1800095";
         skos:note              "accepted"@en;
-        skos:prefLabel         "radial vector"@en .
+        skos:prefLabel         "radial vector"@en ;
+        skos:prefLabel         "vecteur radial"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800150/>
         rdf:type               skos:Concept;
@@ -223,9 +243,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A device that captures electromagnetic waves and converts them into a detectable form (e.g. in high frequency radar systems). Can refer to a single antenna element or a whole receiving system."@en;
+        skos:definition        "Un dispositif qui capte les ondes électromagnétiques et les convertit en une forme détectable (par ex. dans les systèmes radar à haute fréquence). Peut désigner un élément d'antenne unique ou un système de réception complet."@fr ;
         skos:notation          "SDN:S18::S1800150";
         skos:note              "accepted"@en;
-        skos:prefLabel         "receiving antenna"@en .
+        skos:prefLabel         "receiving antenna"@en ;
+        skos:prefLabel         "antenne de réception"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800091/>
         rdf:type               skos:Concept;
@@ -240,9 +262,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The movement of air."@en;
+        skos:definition        "Le mouvement de l'air."@fr ;
         skos:notation          "SDN:S18::S1800091";
         skos:note              "accepted"@en;
-        skos:prefLabel         "airflow"@en .
+        skos:prefLabel         "airflow"@en ;
+        skos:prefLabel         "écoulement d'air"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800165/>
         rdf:type               skos:Concept;
@@ -257,9 +281,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to the determination of phosphate."@en;
+        skos:definition        "La détermination du phosphate."@fr ;
         skos:notation          "SDN:S18::S1800165";
         skos:note              "accepted"@en;
-        skos:prefLabel         "phosphate determination"@en .
+        skos:prefLabel         "phosphate determination"@en ;
+        skos:prefLabel         "détermination du phosphate"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800028/>
         rdf:type               skos:Concept;
@@ -274,10 +300,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A measurement made by a fluorometer. A fluorometer is set up to generate the wavelength of light to excite the analyte of interest, to selectively transmit the wavelength of light emitted and to measure the intensity of the emitted light."@en;
+        skos:definition        "Une mesure effectuée par un fluorimètre. Un fluorimètre est configuré pour générer la longueur d'onde lumineuse excitant l'analyte d'intérêt, pour transmettre sélectivement la longueur d'onde lumineuse émise et pour mesurer l'intensité de la lumière émise."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/S29/current/PE001289/>;
         skos:notation          "SDN:S18::S1800028";
         skos:note              "accepted"@en;
-        skos:prefLabel         "fluorescence measurement"@en .
+        skos:prefLabel         "fluorescence measurement"@en ;
+        skos:prefLabel         "mesure de fluorescence"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800121/>
         rdf:type               skos:Concept;
@@ -292,9 +320,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The biological organisms used in the analysis."@en;
+        skos:definition        "Les organismes biologiques utilisés dans l'analyse."@fr ;
         skos:notation          "SDN:S18::S1800121";
         skos:note              "accepted"@en;
-        skos:prefLabel         "analysed biological entities"@en .
+        skos:prefLabel         "analysed biological entities"@en ;
+        skos:prefLabel         "entités biologiques analysées"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800161/>
         rdf:type               skos:Concept;
@@ -309,9 +339,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Items of unknown or unidentifiable origin."@en;
+        skos:definition        "Objets d'origine inconnue ou non identifiable."@fr ;
         skos:notation          "SDN:S18::S1800161";
         skos:note              "accepted"@en;
-        skos:prefLabel         "unidentified items"@en .
+        skos:prefLabel         "unidentified items"@en ;
+        skos:prefLabel         "objets non identifiés"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800098/>
         rdf:type               skos:Concept;
@@ -326,9 +358,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "C:N";
         skos:definition        "Ratio of elemental carbon to elemental nitrogen."@en;
+        skos:definition        "Rapport du carbone élémentaire à l'azote élémentaire."@fr ;
         skos:notation          "SDN:S18::S1800098";
         skos:note              "accepted"@en;
-        skos:prefLabel         "carbon/nitrogen"@en .
+        skos:prefLabel         "carbon/nitrogen"@en ;
+        skos:prefLabel         "carbone/azote"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800106/>
         rdf:type               skos:Concept;
@@ -343,9 +377,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to the vertical trajectory of a measuring instrument."@en;
+        skos:definition        "La trajectoire verticale d'un instrument de mesure."@fr ;
         skos:notation          "SDN:S18::S1800106";
         skos:note              "accepted"@en;
-        skos:prefLabel         "instrument's profile"@en .
+        skos:prefLabel         "instrument's profile"@en ;
+        skos:prefLabel         "profil de l'instrument"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800047/>
         rdf:type               skos:Concept;
@@ -360,9 +396,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to the phase of equilibration used as a technique to estimate gas concentrations in liquid samples."@en;
+        skos:definition        "La phase d'équilibration utilisée comme technique pour estimer les concentrations gazeuses dans des échantillons liquides."@fr ;
         skos:notation          "SDN:S18::S1800047";
         skos:note              "accepted"@en;
-        skos:prefLabel         "equilibration"@en .
+        skos:prefLabel         "equilibration"@en ;
+        skos:prefLabel         "équilibration"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800025/>
         rdf:type               skos:Concept;
@@ -394,9 +432,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to the CO2 gas standard in the LI-COR gas analyser."@en;
+        skos:definition        "La référence de gaz CO2 dans l'analyseur de gaz LI-COR."@fr ;
         skos:notation          "SDN:S18::S1800044";
         skos:note              "accepted"@en;
-        skos:prefLabel         "CO2 gas standard in LI-COR"@en .
+        skos:prefLabel         "CO2 gas standard in LI-COR"@en ;
+        skos:prefLabel         "référence de gaz CO2 dans le LI-COR"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800115/>
         rdf:type               skos:Concept;
@@ -411,9 +451,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A structure or vehicle that serves as a base for deploying sampling or sensing equipment."@en;
+        skos:definition        "Une structure ou un véhicule servant de base pour déployer un équipement d'échantillonnage ou de détection."@fr ;
         skos:notation          "SDN:S18::S1800115";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sampling platform"@en .
+        skos:prefLabel         "sampling platform"@en ;
+        skos:prefLabel         "plateforme d'échantillonnage"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800015/>
         rdf:type               skos:Concept;
@@ -428,9 +470,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A grouping of particles (cells) defined by statistical methods based on the similarity of their individual scattering and natural or artificial fluorescence properties."@en;
+        skos:definition        "Un regroupement de particules (cellules) défini par des méthodes statistiques fondées sur la similarité de leurs propriétés individuelles de diffusion et de fluorescence naturelle ou artificielle."@fr ;
         skos:notation          "SDN:S18::S1800015";
         skos:note              "accepted"@en;
-        skos:prefLabel         "flow cytometry cluster"@en .
+        skos:prefLabel         "flow cytometry cluster"@en ;
+        skos:prefLabel         "cluster de cytométrie de flux"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800071/>
         rdf:type               skos:Concept;
@@ -445,6 +489,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Ratio of the two specified isotopes."@en;
+        skos:definition        "Rapport des deux isotopes spécifiés."@fr ;
         skos:notation          "SDN:S18::S1800071";
         skos:note              "accepted"@en;
         skos:prefLabel         "thorium-230/thorium-232"@en .
@@ -462,9 +507,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to the equilibrated marine sample exiting the detector."@en;
+        skos:definition        "L'échantillon marin équilibré sortant du détecteur."@fr ;
         skos:notation          "SDN:S18::S1800040";
         skos:note              "accepted"@en;
-        skos:prefLabel         "equilibrated marine sample at detector outlet"@en .
+        skos:prefLabel         "equilibrated marine sample at detector outlet"@en ;
+        skos:prefLabel         "échantillon marin équilibré à la sortie du détecteur"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800168/>
         rdf:type               skos:Concept;
@@ -479,9 +526,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to the vertical trajectory of a measuring platform."@en;
+        skos:definition        "La trajectoire verticale d'une plateforme de mesure."@fr ;
         skos:notation          "SDN:S18::S1800168";
         skos:note              "accepted"@en;
-        skos:prefLabel         "platform's profile"@en .
+        skos:prefLabel         "platform's profile"@en ;
+        skos:prefLabel         "profil de la plateforme"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800088/>
         rdf:type               skos:Concept;
@@ -496,6 +545,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "129I/127I";
         skos:definition        "Ratio of the two specified isotopes."@en;
+        skos:definition        "Rapport des deux isotopes spécifiés."@fr ;
         skos:notation          "SDN:S18::S1800088";
         skos:note              "accepted"@en;
         skos:prefLabel         "iodine-129/iodine-127"@en .
@@ -514,10 +564,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "2";
         skos:altLabel          "";
         skos:definition        "Point in time and space marking the beginning of a sampling event."@en;
+        skos:definition        "Point dans le temps et l'espace marquant le début d'un événement d'échantillonnage."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/S29/current/PE001300/>;
         skos:notation          "SDN:S18::S1800031";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sampling event start"@en .
+        skos:prefLabel         "sampling event start"@en ;
+        skos:prefLabel         "début de l'événement d'échantillonnage"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800112/>
         rdf:type               skos:Concept;
@@ -532,9 +584,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A topographic or bathymetric feature of the seafloor, coastline or terrestrial land surface created by physical, chemical or biological processes, such as beaches, dunes, bedforms, seamounts and ridges."@en;
+        skos:definition        "Une particularité topographique ou bathymétrique du fond marin, du littoral ou de la surface terrestre créée par des processus physiques, chimiques ou biologiques, comme les plages, dunes, formes de fond, monts sous-marins et rides."@fr ;
         skos:notation          "SDN:S18::S1800112";
         skos:note              "accepted"@en;
-        skos:prefLabel         "geomorphological feature"@en .
+        skos:prefLabel         "geomorphological feature"@en ;
+        skos:prefLabel         "élément géomorphologique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800159/>
         rdf:type               skos:Concept;
@@ -549,9 +603,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Small pieces of dead organic material of animal, plant, fungal, or microbial origin, or detached and broken down fragments of a structure of organic origin."@en;
+        skos:definition        "Petits morceaux de matière organique morte d'origine animale, végétale, fongique ou microbienne, ou fragments détachés et décomposés d'une structure d'origine organique."@fr ;
         skos:notation          "SDN:S18::S1800159";
         skos:note              "accepted"@en;
-        skos:prefLabel         "organic detritus"@en .
+        skos:prefLabel         "organic detritus"@en ;
+        skos:prefLabel         "détritus organique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800142/>
         rdf:type               skos:Concept;
@@ -566,9 +622,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The layer of sediment between the apparent redox potential discontinuity (aRPD) and the sediment-water interface."@en;
+        skos:definition        "La couche de sédiment comprise entre la discontinuité apparente de potentiel redox (aRPD) et l'interface sédiment-eau."@fr ;
         skos:notation          "SDN:S18::S1800142";
         skos:note              "accepted"@en;
-        skos:prefLabel         "layer above aRPD"@en .
+        skos:prefLabel         "layer above aRPD"@en ;
+        skos:prefLabel         "couche au-dessus de l'aRPD"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800083/>
         rdf:type               skos:Concept;
@@ -583,6 +641,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Ratio of the two specified isotopes."@en;
+        skos:definition        "Rapport des deux isotopes spécifiés."@fr ;
         skos:notation          "SDN:S18::S1800083";
         skos:note              "accepted"@en;
         skos:prefLabel         "uranium-234/uranium-238"@en .
@@ -600,9 +659,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Method used to divide the sample into sub-samples."@en;
+        skos:definition        "Méthode utilisée pour diviser l'échantillon en sous-échantillons."@fr ;
         skos:notation          "SDN:S18::S1800120";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sub-sampling protocol"@en .
+        skos:prefLabel         "sub-sampling protocol"@en ;
+        skos:prefLabel         "protocole de sous-échantillonnage"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800109/>
         rdf:type               skos:Concept;
@@ -617,9 +678,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Term to be used when the property reported is a characteristic of a survey (for example its area, its duration). A survey is a sampling activity which can be made up of a single or multiple sampling events."@en;
+        skos:definition        "Terme à utiliser lorsque la propriété rapportée est une caractéristique d'une campagne (par exemple sa superficie, sa durée). Une campagne est une activité d'échantillonnage qui peut être composée d'un ou de plusieurs événements d'échantillonnage."@fr ;
         skos:notation          "SDN:S18::S1800109";
         skos:note              "accepted"@en;
-        skos:prefLabel         "survey"@en .
+        skos:prefLabel         "survey"@en ;
+        skos:prefLabel         "campagne"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800007/>
         rdf:type               skos:Concept;
@@ -634,10 +697,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A device used to collect physical samples."@en;
+        skos:definition        "Un dispositif utilisé pour collecter des échantillons physiques."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/S29/current/PE001237/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001236/>;
         skos:notation          "SDN:S18::S1800007";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sample collector"@en .
+        skos:prefLabel         "sample collector"@en ;
+        skos:prefLabel         "collecteur d'échantillons"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800156/>
         rdf:type               skos:Concept;
@@ -652,9 +717,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "All of the high intensity, highly directional, short (milliseconds) sounds detected by an instrument."@en;
+        skos:definition        "L'ensemble des sons intenses, très directionnels et courts (millisecondes) détectés par un instrument."@fr ;
         skos:notation          "SDN:S18::S1800156";
         skos:note              "accepted"@en;
-        skos:prefLabel         "total clicks detected"@en .
+        skos:prefLabel         "total clicks detected"@en ;
+        skos:prefLabel         "clics totaux détectés"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800008/>
         rdf:type               skos:Concept;
@@ -669,9 +736,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "FWS";
         skos:definition        "The signal generated by photons scattered in a frontal angle by a particle when crossing a laser beam of a flow cytometer."@en;
+        skos:definition        "Le signal généré par les photons diffusés dans un angle frontal par une particule lors de la traversée d'un faisceau laser d'un cytomètre en flux."@fr ;
         skos:notation          "SDN:S18::S1800008";
         skos:note              "accepted"@en;
-        skos:prefLabel         "forward light scatter pulse"@en .
+        skos:prefLabel         "forward light scatter pulse"@en ;
+        skos:prefLabel         "impulsion de diffusion avant de la lumière"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800043/>
         rdf:type               skos:Concept;
@@ -686,9 +755,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to the atmosphere sample exiting the detector."@en;
+        skos:definition        "L'échantillon atmosphérique sortant du détecteur."@fr ;
         skos:notation          "SDN:S18::S1800043";
         skos:note              "accepted"@en;
-        skos:prefLabel         "atmosphere sample at detector outlet"@en .
+        skos:prefLabel         "atmosphere sample at detector outlet"@en ;
+        skos:prefLabel         "échantillon atmosphérique à la sortie du détecteur"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800042/>
         rdf:type               skos:Concept;
@@ -703,9 +774,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to the atmosphere sample entering the detector."@en;
+        skos:definition        "L'échantillon atmosphérique entrant dans le détecteur."@fr ;
         skos:notation          "SDN:S18::S1800042";
         skos:note              "accepted"@en;
-        skos:prefLabel         "atmosphere sample at detector inlet"@en .
+        skos:prefLabel         "atmosphere sample at detector inlet"@en ;
+        skos:prefLabel         "échantillon atmosphérique à l'entrée du détecteur"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800016/>
         rdf:type               skos:Concept;
@@ -720,10 +793,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Raw signal generated by a measuring instrument."@en;
+        skos:definition        "Signal brut généré par un instrument de mesure."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/S29/current/PE001281/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001279/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001280/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001287/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001282/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001278/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001288/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001285/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001283/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001286/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001284/>;
         skos:notation          "SDN:S18::S1800016";
         skos:note              "accepted"@en;
-        skos:prefLabel         "instrument output"@en .
+        skos:prefLabel         "instrument output"@en ;
+        skos:prefLabel         "sortie de l'instrument"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800037/>
         rdf:type               skos:Concept;
@@ -738,9 +813,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to the temperature determination of a central processing unit."@en;
+        skos:definition        "La détermination de la température d'une unité centrale de traitement."@fr ;
         skos:notation          "SDN:S18::S1800037";
         skos:note              "accepted"@en;
-        skos:prefLabel         "CPU temperature determination"@en .
+        skos:prefLabel         "CPU temperature determination"@en ;
+        skos:prefLabel         "détermination de la température du CPU"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800148/>
         rdf:type               skos:Concept;
@@ -755,9 +832,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to the water sample in the equilibrating vessel used as part of the analytical procedure."@en;
+        skos:definition        "L'échantillon d'eau dans le vase d'équilibration utilisé dans le cadre de la procédure analytique."@fr ;
         skos:notation          "SDN:S18::S1800148";
         skos:note              "accepted"@en;
-        skos:prefLabel         "water in equilibrator"@en .
+        skos:prefLabel         "water in equilibrator"@en ;
+        skos:prefLabel         "eau dans l'équilibreur"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800013/>
         rdf:type               skos:Concept;
@@ -772,9 +851,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "FLG";
         skos:definition        "The signal detected when a particle containing a green fluorescent material such as an artificial dye for example, passes in front of a blue laser beam."@en;
+        skos:definition        "Le signal détecté lorsqu'une particule contenant un matériau vert fluorescent, comme une teinture artificielle par exemple, passe devant un faisceau laser bleu."@fr ;
         skos:notation          "SDN:S18::S1800013";
         skos:note              "accepted"@en;
-        skos:prefLabel         "green fluorescence pulse"@en .
+        skos:prefLabel         "green fluorescence pulse"@en ;
+        skos:prefLabel         "impulsion de fluorescence verte"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800066/>
         rdf:type               skos:Concept;
@@ -789,9 +870,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to a condition (typically temperature) within an instrumentation setup."@en;
+        skos:definition        "Une condition (typiquement la température) au sein d'un montage instrumental."@fr ;
         skos:notation          "SDN:S18::S1800066";
         skos:note              "accepted"@en;
-        skos:prefLabel         "instrument"@en .
+        skos:prefLabel         "instrument"@en ;
+        skos:prefLabel         "instrument"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800164/>
         rdf:type               skos:Concept;
@@ -806,9 +889,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to the determination of nitrate (+nitrite depending on analytical methodology)."@en;
+        skos:definition        "La détermination du nitrate (+ nitrite selon la méthodologie analytique)."@fr ;
         skos:notation          "SDN:S18::S1800164";
         skos:note              "accepted"@en;
-        skos:prefLabel         "nitrate (+nitrite) determination"@en .
+        skos:prefLabel         "nitrate (+nitrite) determination"@en ;
+        skos:prefLabel         "détermination du nitrate (+ nitrite)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800124/>
         rdf:type               skos:Concept;
@@ -823,9 +908,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Equipment used to sort biological or geological material. The material that remain on the sieve are discarded."@en;
+        skos:definition        "Équipement utilisé pour trier de la matière biologique ou géologique. La matière qui reste sur le tamis est rejetée."@fr ;
         skos:notation          "SDN:S18::S1800124";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sampling processor (upper sieve)"@en .
+        skos:prefLabel         "sampling processor (upper sieve)"@en ;
+        skos:prefLabel         "processeur d'échantillonnage (tamis supérieur)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800051/>
         rdf:type               skos:Concept;
@@ -840,9 +927,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to the determination of dissolved organic carbon (DOC)."@en;
+        skos:definition        "La détermination du carbone organique dissous (DOC)."@fr ;
         skos:notation          "SDN:S18::S1800051";
         skos:note              "accepted"@en;
-        skos:prefLabel         "DOC determination"@en .
+        skos:prefLabel         "DOC determination"@en ;
+        skos:prefLabel         "détermination du DOC"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800141/>
         rdf:type               skos:Concept;
@@ -857,9 +946,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "TEP";
         skos:definition        "Extracellular acidic polysaccharides produced by phytoplankton and bacteria in water bodies that are important for the biogeochemical cycling of elements."@en;
+        skos:definition        "Polysaccharides acides extracellulaires produits par le phytoplancton et les bactéries dans les masses d'eau, importants pour le cycle biogéochimique des éléments."@fr ;
         skos:notation          "SDN:S18::S1800141";
         skos:note              "accepted"@en;
-        skos:prefLabel         "transparent exopolymer particle"@en .
+        skos:prefLabel         "transparent exopolymer particle"@en ;
+        skos:prefLabel         "particule d'exopolymère transparent"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800097/>
         rdf:type               skos:Concept;
@@ -874,9 +965,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The smallest addressable element of a digital image."@en;
+        skos:definition        "Le plus petit élément adressable d'une image numérique."@fr ;
         skos:notation          "SDN:S18::S1800097";
         skos:note              "accepted"@en;
-        skos:prefLabel         "pixel"@en .
+        skos:prefLabel         "pixel"@en ;
+        skos:prefLabel         "pixel"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800005/>
         rdf:type               skos:Concept;
@@ -908,9 +1001,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to water molecules suspended in air."@en;
+        skos:definition        "Des molécules d'eau en suspension dans l'air."@fr ;
         skos:notation          "SDN:S18::S1800103";
         skos:note              "accepted"@en;
-        skos:prefLabel         "water vapour"@en .
+        skos:prefLabel         "water vapour"@en ;
+        skos:prefLabel         "vapeur d'eau"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800075/>
         rdf:type               skos:Concept;
@@ -925,6 +1020,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Ratio of the two specified isotopes."@en;
+        skos:definition        "Rapport des deux isotopes spécifiés."@fr ;
         skos:notation          "SDN:S18::S1800075";
         skos:note              "accepted"@en;
         skos:prefLabel         "polonium-210/lead-210"@en .
@@ -942,9 +1038,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A device that converts electrical signals into electromagnetic waves for sending information (e.g. in high frequency radar systems). Can refer to a single antenna element or a whole transmitting system."@en;
+        skos:definition        "Un dispositif qui convertit des signaux électriques en ondes électromagnétiques pour transmettre des informations (par ex. dans les systèmes radar à haute fréquence). Peut désigner un élément d'antenne unique ou un système d'émission complet."@fr ;
         skos:notation          "SDN:S18::S1800151";
         skos:note              "accepted"@en;
-        skos:prefLabel         "transmitting antenna"@en .
+        skos:prefLabel         "transmitting antenna"@en ;
+        skos:prefLabel         "antenne d'émission"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800024/>
         rdf:type               skos:Concept;
@@ -959,9 +1057,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "An assemblage of animals and plants together with their abiotic environment."@en;
+        skos:definition        "Un ensemble d'animaux et de plantes ensemble avec leur environnement abiotique."@fr ;
         skos:notation          "SDN:S18::S1800024";
         skos:note              "accepted"@en;
-        skos:prefLabel         "habitat"@en .
+        skos:prefLabel         "habitat"@en ;
+        skos:prefLabel         "habitat"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800118/>
         rdf:type               skos:Concept;
@@ -976,9 +1076,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Method used to preserve the samples after collection and prior to analysis."@en;
+        skos:definition        "Méthode utilisée pour conserver les échantillons après collecte et avant analyse."@fr ;
         skos:notation          "SDN:S18::S1800118";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sample preservation method"@en .
+        skos:prefLabel         "sample preservation method"@en ;
+        skos:prefLabel         "méthode de conservation de l'échantillon"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800002/>
         rdf:type               skos:Concept;
@@ -1011,9 +1113,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to the determination of total inorganic carbon dissolved in a water body."@en;
+        skos:definition        "La détermination du carbone inorganique total dissous dans une masse d'eau."@fr ;
         skos:notation          "SDN:S18::S1800056";
         skos:note              "accepted"@en;
-        skos:prefLabel         "dissolved total inorganic carbon {TCO2} determination"@en .
+        skos:prefLabel         "dissolved total inorganic carbon {TCO2} determination"@en ;
+        skos:prefLabel         "détermination du carbone inorganique total dissous {TCO2}"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800127/>
         rdf:type               skos:Concept;
@@ -1028,9 +1132,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Subsamples, or repeated processing, of a parent sample, to capture variation in handling of each replicate, or simply to repeat the processing."@en;
+        skos:definition        "Sous-échantillons, ou traitements répétés, d'un échantillon parent, afin de capter la variation de manipulation de chaque réplicat, ou simplement de répéter le traitement."@fr ;
         skos:notation          "SDN:S18::S1800127";
         skos:note              "accepted"@en;
-        skos:prefLabel         "technical replicate"@en .
+        skos:prefLabel         "technical replicate"@en ;
+        skos:prefLabel         "réplicat technique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800057/>
         rdf:type               skos:Concept;
@@ -1045,9 +1151,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to the determination of total dissolved iron."@en;
+        skos:definition        "La détermination du fer dissous total."@fr ;
         skos:notation          "SDN:S18::S1800057";
         skos:note              "accepted"@en;
-        skos:prefLabel         "total iron determination"@en .
+        skos:prefLabel         "total iron determination"@en ;
+        skos:prefLabel         "détermination du fer total"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800126/>
         rdf:type               skos:Concept;
@@ -1062,9 +1170,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Biologically distinct samples that are collected in parallel to capture random biological variation."@en;
+        skos:definition        "Échantillons biologiquement distincts collectés en parallèle pour capter la variation biologique aléatoire."@fr ;
         skos:notation          "SDN:S18::S1800126";
         skos:note              "accepted"@en;
-        skos:prefLabel         "biological replicate"@en .
+        skos:prefLabel         "biological replicate"@en ;
+        skos:prefLabel         "réplicat biologique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800033/>
         rdf:type               skos:Concept;
@@ -1079,9 +1189,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A vehicle pulling an instrument or another platform."@en;
+        skos:definition        "Un véhicule tractant un instrument ou une autre plateforme."@fr ;
         skos:notation          "SDN:S18::S1800033";
         skos:note              "accepted"@en;
-        skos:prefLabel         "towing platform"@en .
+        skos:prefLabel         "towing platform"@en ;
+        skos:prefLabel         "plateforme de remorquage"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800034/>
         rdf:type               skos:Concept;
@@ -1096,10 +1208,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A platform from which measurements are made."@en;
+        skos:definition        "Une plateforme à partir de laquelle des mesures sont effectuées."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/S29/current/PE001314/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001312/>;
         skos:notation          "SDN:S18::S1800034";
         skos:note              "accepted"@en;
-        skos:prefLabel         "measurement platform"@en .
+        skos:prefLabel         "measurement platform"@en ;
+        skos:prefLabel         "plateforme de mesure"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800069/>
         rdf:type               skos:Concept;
@@ -1114,9 +1228,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to the hardware unit of a sensor or a set of sensors."@en;
+        skos:definition        "L'unité matérielle d'un capteur ou d'un ensemble de capteurs."@fr ;
         skos:notation          "SDN:S18::S1800069";
         skos:note              "accepted"@en;
-        skos:prefLabel         "readout module"@en .
+        skos:prefLabel         "readout module"@en ;
+        skos:prefLabel         "module de lecture"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800010/>
         rdf:type               skos:Concept;
@@ -1131,9 +1247,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "FLR";
         skos:definition        "The signal detected when a particle containing a red fluorescent material such as chlorophyll-a or phycocyanin for instance, passes in front of a blue to red laser beam."@en;
+        skos:definition        "Le signal détecté lorsqu'une particule contenant un matériau rouge fluorescent comme la chlorophylle-a ou la phycocyanine par exemple, passe devant un faisceau laser bleu à rouge."@fr ;
         skos:notation          "SDN:S18::S1800010";
         skos:note              "accepted"@en;
-        skos:prefLabel         "red fluorescence pulse"@en .
+        skos:prefLabel         "red fluorescence pulse"@en ;
+        skos:prefLabel         "impulsion de fluorescence rouge"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800065/>
         rdf:type               skos:Concept;
@@ -1148,9 +1266,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to the quantification of total alkalinity in a water sample."@en;
+        skos:definition        "La quantification de l'alcalinité totale dans un échantillon d'eau."@fr ;
         skos:notation          "SDN:S18::S1800065";
         skos:note              "accepted"@en;
-        skos:prefLabel         "total alkalinity determination"@en .
+        skos:prefLabel         "total alkalinity determination"@en ;
+        skos:prefLabel         "détermination de l'alcalinité totale"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800086/>
         rdf:type               skos:Concept;
@@ -1165,9 +1285,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "Corg/N";
         skos:definition        "Ratio of organic carbon to total nitrogen."@en;
+        skos:definition        "Rapport du carbone organique à l'azote total."@fr ;
         skos:notation          "SDN:S18::S1800086";
         skos:note              "accepted"@en;
-        skos:prefLabel         "organic carbon/nitrogen"@en .
+        skos:prefLabel         "organic carbon/nitrogen"@en ;
+        skos:prefLabel         "carbone organique/azote"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800050/>
         rdf:type               skos:Concept;
@@ -1182,9 +1304,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to the water sample at the top of the equilibrating vessel used as part of the analytical procedure."@en;
+        skos:definition        "L'échantillon d'eau au sommet d'un vase d'équilibration utilisé dans le cadre de la procédure analytique."@fr ;
         skos:notation          "SDN:S18::S1800050";
         skos:note              "accepted"@en;
-        skos:prefLabel         "water at equilibrator top"@en .
+        skos:prefLabel         "water at equilibrator top"@en ;
+        skos:prefLabel         "eau au sommet de l'équilibreur"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800157/>
         rdf:type               skos:Concept;
@@ -1199,9 +1323,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "High intensity, highly directional, short (milliseconds) sounds that fit certain criteria of frequency and direction."@en;
+        skos:definition        "Sons intenses, très directionnels et courts (millisecondes) qui satisfont à certains critères de fréquence et de direction."@fr ;
         skos:notation          "SDN:S18::S1800157";
         skos:note              "accepted"@en;
-        skos:prefLabel         "filtered clicks"@en .
+        skos:prefLabel         "filtered clicks"@en ;
+        skos:prefLabel         "clics filtrés"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800154/>
         rdf:type               skos:Concept;
@@ -1217,9 +1343,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "2";
         skos:altLabel          "";
         skos:definition        "The isolation in containing enclosure such as bottles or specialised chambers of a sample for a given duration under in situ, simulated in situ or controlled experimental conditions."@en;
+        skos:definition        "L'isolement dans une enceinte de confinement telle que des bouteilles ou des chambres spécialisées d'un échantillon pendant une durée donnée dans des conditions in situ, simulant l'in situ ou expérimentales contrôlées."@fr ;
         skos:notation          "SDN:S18::S1800154";
         skos:note              "accepted"@en;
-        skos:prefLabel         "incubation"@en .
+        skos:prefLabel         "incubation"@en ;
+        skos:prefLabel         "incubation"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800135/>
         rdf:type               skos:Concept;
@@ -1234,9 +1362,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to the solid surface underlying a sea or an ocean"@en;
+        skos:definition        "La surface solide sous-jacente à une mer ou un océan"@fr ;
         skos:notation          "SDN:S18::S1800135";
         skos:note              "accepted"@en;
-        skos:prefLabel         "seafloor"@en .
+        skos:prefLabel         "seafloor"@en ;
+        skos:prefLabel         "fond marin"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800082/>
         rdf:type               skos:Concept;
@@ -1251,6 +1381,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Ratio of the two specified isotopes."@en;
+        skos:definition        "Rapport des deux isotopes spécifiés."@fr ;
         skos:notation          "SDN:S18::S1800082";
         skos:note              "accepted"@en;
         skos:prefLabel         "thorium-232/thorium-230"@en .
@@ -1268,9 +1399,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to a condition (typically temperature) within an infrared radiometer. Applies to a location in the radiometer case."@en;
+        skos:definition        "Une condition (typiquement la température) au sein d'un radiomètre infrarouge. S'applique à un emplacement dans le boîtier du radiomètre."@fr ;
         skos:notation          "SDN:S18::S1800133";
         skos:note              "accepted"@en;
-        skos:prefLabel         "radiometer case"@en .
+        skos:prefLabel         "radiometer case"@en ;
+        skos:prefLabel         "boîtier du radiomètre"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800074/>
         rdf:type               skos:Concept;
@@ -1285,6 +1418,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Ratio of the two specified isotopes."@en;
+        skos:definition        "Rapport des deux isotopes spécifiés."@fr ;
         skos:notation          "SDN:S18::S1800074";
         skos:note              "accepted"@en;
         skos:prefLabel         "radium-228/radium-226"@en .
@@ -1302,9 +1436,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to the quantification of oxygen gas."@en;
+        skos:definition        "La quantification du gaz oxygène."@fr ;
         skos:notation          "SDN:S18::S1800060";
         skos:note              "accepted"@en;
-        skos:prefLabel         "oxygen determination"@en .
+        skos:prefLabel         "oxygen determination"@en ;
+        skos:prefLabel         "détermination de l'oxygène"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800046/>
         rdf:type               skos:Concept;
@@ -1319,9 +1455,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to the atmosphere in the LI-COR gas analyser."@en;
+        skos:definition        "L'atmosphère dans l'analyseur de gaz LI-COR."@fr ;
         skos:notation          "SDN:S18::S1800046";
         skos:note              "accepted"@en;
-        skos:prefLabel         "atmosphere sample in LI-COR"@en .
+        skos:prefLabel         "atmosphere sample in LI-COR"@en ;
+        skos:prefLabel         "échantillon atmosphérique dans le LI-COR"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800116/>
         rdf:type               skos:Concept;
@@ -1336,9 +1474,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Equipment designed to collect physical samples."@en;
+        skos:definition        "Équipement conçu pour collecter des échantillons physiques."@fr ;
         skos:notation          "SDN:S18::S1800116";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sampling instrument"@en .
+        skos:prefLabel         "sampling instrument"@en ;
+        skos:prefLabel         "instrument d'échantillonnage"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800101/>
         rdf:type               skos:Concept;
@@ -1353,9 +1493,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Energy transferred to or from a thermodynamic system, by means of convection, conduction, radiation or friction."@en;
+        skos:definition        "Énergie transférée vers ou depuis un système thermodynamique, par convection, conduction, rayonnement ou frottement."@fr ;
         skos:notation          "SDN:S18::S1800101";
         skos:note              "accepted"@en;
-        skos:prefLabel         "heat"@en .
+        skos:prefLabel         "heat"@en ;
+        skos:prefLabel         "chaleur"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800001/>
         rdf:type               skos:Concept;
@@ -1370,10 +1512,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "This semantic element is not required for the parameter being described."@en;
+        skos:definition        "Cet élément sémantique n'est pas requis pour le paramètre décrit."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/S29/current/PE001298/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001305/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001299/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001303/>;
         skos:notation          "SDN:S18::S1800001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "not applicable"@en .
+        skos:prefLabel         "not applicable"@en ;
+        skos:prefLabel         "sans objet"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800092/>
         rdf:type               skos:Concept;
@@ -1406,9 +1550,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to a single particle."@en;
+        skos:definition        "Une particule unique."@fr ;
         skos:notation          "SDN:S18::S1800100";
         skos:note              "accepted"@en;
-        skos:prefLabel         "single particle"@en .
+        skos:prefLabel         "single particle"@en ;
+        skos:prefLabel         "particule unique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800041/>
         rdf:type               skos:Concept;
@@ -1423,9 +1569,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to the equilibrated marine sample entering the detector."@en;
+        skos:definition        "L'échantillon marin équilibré entrant dans le détecteur."@fr ;
         skos:notation          "SDN:S18::S1800041";
         skos:note              "accepted"@en;
-        skos:prefLabel         "equilibrated marine sample at detector inlet"@en .
+        skos:prefLabel         "equilibrated marine sample at detector inlet"@en ;
+        skos:prefLabel         "échantillon marin équilibré à l'entrée du détecteur"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800089/>
         rdf:type               skos:Concept;
@@ -1440,9 +1588,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to whole or broken shells as found in, for example, marine sediments or sedimentary rocks."@en;
+        skos:definition        "Des coquilles entières ou brisées telles qu'on les trouve par exemple dans les sédiments marins ou les roches sédimentaires."@fr ;
         skos:notation          "SDN:S18::S1800089";
         skos:note              "accepted"@en;
-        skos:prefLabel         "shells and shell fragments"@en .
+        skos:prefLabel         "shells and shell fragments"@en ;
+        skos:prefLabel         "coquilles et fragments de coquilles"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800054/>
         rdf:type               skos:Concept;
@@ -1475,9 +1625,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "2";
         skos:altLabel          "";
         skos:definition        "The lower filter in a cascade or sequential filtration setup designed to exclude material retained by the filter. Only the material collected on the filter is used in the analysis."@en;
+        skos:definition        "Le filtre inférieur d'un montage de filtration en cascade ou séquentielle, conçu pour exclure la matière retenue par le filtre. Seule la matière collectée sur le filtre est utilisée dans l'analyse."@fr ;
         skos:notation          "SDN:S18::S1800125";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sampling processor (lower filter)"@en .
+        skos:prefLabel         "sampling processor (lower filter)"@en ;
+        skos:prefLabel         "processeur d'échantillonnage (filtre inférieur)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800147/>
         rdf:type               skos:Concept;
@@ -1492,9 +1644,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The accumulation of calcium salts into cells or body tissue as a result of a biologically-mediated process."@en;
+        skos:definition        "L'accumulation de sels de calcium dans les cellules ou les tissus corporels à la suite d'un processus biologiquement médié."@fr ;
         skos:notation          "SDN:S18::S1800147";
         skos:note              "accepted"@en;
-        skos:prefLabel         "calcification"@en .
+        skos:prefLabel         "calcification"@en ;
+        skos:prefLabel         "calcification"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800167/>
         rdf:type               skos:Concept;
@@ -1509,9 +1663,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A group of values that represent the measured rate and direction of matter (e.g. current velocity measurements from a moored ADCP) that fall outside of acceptance criteria specified elsewhere."@en;
+        skos:definition        "Un groupe de valeurs représentant le taux et la direction mesurés du déplacement de matière (par ex. mesures de vitesse de courant d'un ADCP amarré) qui tombent en dehors des critères d'acceptation spécifiés ailleurs."@fr ;
         skos:notation          "SDN:S18::S1800167";
         skos:note              "accepted"@en;
-        skos:prefLabel         "rejected velocity data per ensemble"@en .
+        skos:prefLabel         "rejected velocity data per ensemble"@en ;
+        skos:prefLabel         "données de vitesse rejetées par ensemble"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800139/>
         rdf:type               skos:Concept;
@@ -1526,9 +1682,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "aRPD";
         skos:definition        "A transition of sediment colour in the seabed used as an indicator of a change in dissolved oxygen content from oxidized surface sediment to reduced deeper sediment."@en;
+        skos:definition        "Une transition de couleur du sédiment dans le fond marin utilisée comme indicateur d'un changement de teneur en oxygène dissous, passant du sédiment oxydé en surface au sédiment réduit plus profond."@fr ;
         skos:notation          "SDN:S18::S1800139";
         skos:note              "accepted"@en;
-        skos:prefLabel         "apparent redox potential discontinuity"@en .
+        skos:prefLabel         "apparent redox potential discontinuity"@en ;
+        skos:prefLabel         "discontinuité apparente de potentiel redox"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800110/>
         rdf:type               skos:Concept;
@@ -1543,9 +1701,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Term to be used when the property reported is a characteristic of what a sample needs to be in order to be considered representative like e.g. a size threshold below which a sample is no longer representative."@en;
+        skos:definition        "Terme à utiliser lorsque la propriété rapportée est une caractéristique de ce qu'un échantillon doit être pour être considéré comme représentatif, par ex. un seuil de taille en dessous duquel un échantillon n'est plus représentatif."@fr ;
         skos:notation          "SDN:S18::S1800110";
         skos:note              "accepted"@en;
-        skos:prefLabel         "representative sample"@en .
+        skos:prefLabel         "representative sample"@en ;
+        skos:prefLabel         "échantillon représentatif"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800144/>
         rdf:type               skos:Concept;
@@ -1560,9 +1720,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The upper surface layer of a water body where light is sufficient to support photosynthesis."@en;
+        skos:definition        "La couche superficielle d'une masse d'eau où la lumière est suffisante pour supporter la photosynthèse."@fr ;
         skos:notation          "SDN:S18::S1800144";
         skos:note              "accepted"@en;
-        skos:prefLabel         "euphotic zone"@en .
+        skos:prefLabel         "euphotic zone"@en ;
+        skos:prefLabel         "zone euphotique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800049/>
         rdf:type               skos:Concept;
@@ -1577,9 +1739,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to the water sample at the base of an equilibrating vessel used as part of the analytical procedure."@en;
+        skos:definition        "L'échantillon d'eau au fond d'un vase d'équilibration utilisé dans le cadre de la procédure analytique."@fr ;
         skos:notation          "SDN:S18::S1800049";
         skos:note              "accepted"@en;
-        skos:prefLabel         "water at equilibrator base"@en .
+        skos:prefLabel         "water at equilibrator base"@en ;
+        skos:prefLabel         "eau au fond de l'équilibreur"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800018/>
         rdf:type               skos:Concept;
@@ -1594,9 +1758,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "not available"@en;
+        skos:definition        "non disponible"@fr ;
         skos:notation          "SDN:S18::S1800018";
         skos:note              "accepted"@en;
-        skos:prefLabel         "electronics supply"@en .
+        skos:prefLabel         "electronics supply"@en ;
+        skos:prefLabel         "alimentation électronique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800160/>
         rdf:type               skos:Concept;
@@ -1611,9 +1777,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Unspecified objects (whole or fragments) made of matter of mineral or man-made origin."@en;
+        skos:definition        "Objets non spécifiés (entiers ou fragments) constitués de matière d'origine minérale ou anthropique."@fr ;
         skos:notation          "SDN:S18::S1800160";
         skos:note              "accepted"@en;
-        skos:prefLabel         "inorganic items"@en .
+        skos:prefLabel         "inorganic items"@en ;
+        skos:prefLabel         "objets inorganiques"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800059/>
         rdf:type               skos:Concept;
@@ -1628,9 +1796,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to the determination of macro-nutrients."@en;
+        skos:definition        "La détermination des macronutriments."@fr ;
         skos:notation          "SDN:S18::S1800059";
         skos:note              "accepted"@en;
-        skos:prefLabel         "nutrient determination"@en .
+        skos:prefLabel         "nutrient determination"@en ;
+        skos:prefLabel         "détermination des nutriments"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800081/>
         rdf:type               skos:Concept;
@@ -1645,6 +1815,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Ratio of the two specified isotopes."@en;
+        skos:definition        "Rapport des deux isotopes spécifiés."@fr ;
         skos:notation          "SDN:S18::S1800081";
         skos:note              "accepted"@en;
         skos:prefLabel         "lead-208/lead-207"@en .
@@ -1662,9 +1833,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "An instrument or instrument system from which measurements are made."@en;
+        skos:definition        "Un instrument ou système instrumental à partir duquel des mesures sont effectuées."@fr ;
         skos:notation          "SDN:S18::S1800130";
         skos:note              "accepted"@en;
-        skos:prefLabel         "measurement device"@en .
+        skos:prefLabel         "measurement device"@en ;
+        skos:prefLabel         "dispositif de mesure"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800166/>
         rdf:type               skos:Concept;
@@ -1679,9 +1852,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A group of values that represent the measured rate and direction of matter (e.g. current velocity measurements from a moored ADCP) that fall within acceptance criteria specified elsewhere."@en;
+        skos:definition        "Un groupe de valeurs représentant le taux et la direction mesurés du déplacement de matière (par ex. mesures de vitesse de courant d'un ADCP amarré) qui tombent dans les critères d'acceptation spécifiés ailleurs."@fr ;
         skos:notation          "SDN:S18::S1800166";
         skos:note              "accepted"@en;
-        skos:prefLabel         "accepted velocity data per ensemble"@en .
+        skos:prefLabel         "accepted velocity data per ensemble"@en ;
+        skos:prefLabel         "données de vitesse acceptées par ensemble"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800084/>
         rdf:type               skos:Concept;
@@ -1696,6 +1871,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Ratio of the two specified isotopes."@en;
+        skos:definition        "Rapport des deux isotopes spécifiés."@fr ;
         skos:notation          "SDN:S18::S1800084";
         skos:note              "accepted"@en;
         skos:prefLabel         "lead-207/lead-204"@en .
@@ -1713,9 +1889,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The liquid phase plus any dissolved material and suspended solids making up the body of rivers or streams. Rivers and streams are defined as being upstream of the tidal limit."@en;
+        skos:definition        "La phase liquide plus toute matière dissoute et les solides en suspension constituant le cours des rivières ou cours d'eau. Les rivières et cours d'eau sont définis comme situés en amont de la limite de marée."@fr ;
         skos:notation          "SDN:S18::S1800113";
         skos:note              "accepted"@en;
-        skos:prefLabel         "river water"@en .
+        skos:prefLabel         "river water"@en ;
+        skos:prefLabel         "eau de rivière"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800011/>
         rdf:type               skos:Concept;
@@ -1730,9 +1908,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "FLO";
         skos:definition        "The signal detected when a particle containing orange fluorescent material such as phycoerythrin for instance, passes in front of a blue to green laser beam. Phycoerythrin emits in the yellow and orange bandwidths."@en;
+        skos:definition        "Le signal détecté lorsqu'une particule contenant un matériau orange fluorescent comme la phycoérythrine par exemple, passe devant un faisceau laser bleu à vert. La phycoérythrine émet dans les bandes jaune et orange."@fr ;
         skos:notation          "SDN:S18::S1800011";
         skos:note              "accepted"@en;
-        skos:prefLabel         "orange fluorescence pulse"@en .
+        skos:prefLabel         "orange fluorescence pulse"@en ;
+        skos:prefLabel         "impulsion de fluorescence orange"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800017/>
         rdf:type               skos:Concept;
@@ -1747,9 +1927,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Power provided by an electric battery."@en;
+        skos:definition        "Puissance fournie par une batterie électrique."@fr ;
         skos:notation          "SDN:S18::S1800017";
         skos:note              "accepted"@en;
-        skos:prefLabel         "battery output"@en .
+        skos:prefLabel         "battery output"@en ;
+        skos:prefLabel         "sortie de batterie"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800104/>
         rdf:type               skos:Concept;
@@ -1764,9 +1946,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A glass cell containing electrodes, usually platinum, used to measure the electrical conductivity of the liquid occupying the cell."@en;
+        skos:definition        "Une cellule en verre contenant des électrodes, généralement en platine, utilisée pour mesurer la conductivité électrique du liquide occupant la cellule."@fr ;
         skos:notation          "SDN:S18::S1800104";
         skos:note              "accepted"@en;
-        skos:prefLabel         "conductivity cell"@en .
+        skos:prefLabel         "conductivity cell"@en ;
+        skos:prefLabel         "cellule de conductivité"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800145/>
         rdf:type               skos:Concept;
@@ -1781,9 +1965,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The oil used within the buoyancy engine of a platform such as a glider. Movement of oil between the internal and external reservoirs of the buoyancy engine results in ascent or descent of the the platform. Used to control the flight or buoyancy of the platform."@en;
+        skos:definition        "L'huile utilisée dans le moteur de flottabilité d'une plateforme telle qu'un planeur. Le déplacement d'huile entre les réservoirs interne et externe du moteur de flottabilité entraîne la montée ou la descente de la plateforme. Utilisée pour contrôler le vol ou la flottabilité de la plateforme."@fr ;
         skos:notation          "SDN:S18::S1800145";
         skos:note              "accepted"@en;
-        skos:prefLabel         "buoyancy control oil"@en .
+        skos:prefLabel         "buoyancy control oil"@en ;
+        skos:prefLabel         "huile de contrôle de flottabilité"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800052/>
         rdf:type               skos:Concept;
@@ -1798,9 +1984,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to the determination of P-wave propagation speed."@en;
+        skos:definition        "La détermination de la vitesse de propagation des ondes P."@fr ;
         skos:notation          "SDN:S18::S1800052";
         skos:note              "accepted"@en;
-        skos:prefLabel         "P-wave propagation speed measurement"@en .
+        skos:prefLabel         "P-wave propagation speed measurement"@en ;
+        skos:prefLabel         "mesure de la vitesse de propagation des ondes P"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800134/>
         rdf:type               skos:Concept;
@@ -1815,9 +2003,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to a condition (typically temperature) within an infrared radiometer. Applies to a location in the radiometer dome."@en;
+        skos:definition        "Une condition (typiquement la température) au sein d'un radiomètre infrarouge. S'applique à un emplacement dans le dôme du radiomètre."@fr ;
         skos:notation          "SDN:S18::S1800134";
         skos:note              "accepted"@en;
-        skos:prefLabel         "radiometer dome"@en .
+        skos:prefLabel         "radiometer dome"@en ;
+        skos:prefLabel         "dôme du radiomètre"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800055/>
         rdf:type               skos:Concept;
@@ -1832,9 +2022,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to the determination of the density of a water body."@en;
+        skos:definition        "La détermination de la densité d'une masse d'eau."@fr ;
         skos:notation          "SDN:S18::S1800055";
         skos:note              "accepted"@en;
-        skos:prefLabel         "density determination"@en .
+        skos:prefLabel         "density determination"@en ;
+        skos:prefLabel         "détermination de la densité"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800128/>
         rdf:type               skos:Concept;
@@ -1849,9 +2041,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Samples collected independently over a timeframe, specifically collected to estimate changes to the subject of interest over that timeframe."@en;
+        skos:definition        "Échantillons collectés indépendamment sur une période, spécifiquement collectés pour estimer les évolutions du sujet d'intérêt sur cette période."@fr ;
         skos:notation          "SDN:S18::S1800128";
         skos:note              "accepted"@en;
-        skos:prefLabel         "temporal replicate"@en .
+        skos:prefLabel         "temporal replicate"@en ;
+        skos:prefLabel         "réplicat temporel"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800030/>
         rdf:type               skos:Concept;
@@ -1866,10 +2060,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Also called depth cells, ADCP bins are regularly spaced and contiguous segments dividing the section of water column that is covered by the instrument and over which data are averaged."@en;
+        skos:definition        "Aussi appelées cellules de profondeur, les cases ADCP sont des segments régulièrement espacés et contigus divisant la section de colonne d'eau couverte par l'instrument et sur laquelle les données sont moyennées."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/S29/current/PE001304/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001296/>;
         skos:notation          "SDN:S18::S1800030";
         skos:note              "accepted"@en;
-        skos:prefLabel         "ADCP bin"@en .
+        skos:prefLabel         "ADCP bin"@en ;
+        skos:prefLabel         "case ADCP"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800137/>
         rdf:type               skos:Concept;
@@ -1884,9 +2080,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Method used to analyse the samples."@en;
+        skos:definition        "Méthode utilisée pour analyser les échantillons."@fr ;
         skos:notation          "SDN:S18::S1800137";
         skos:note              "accepted"@en;
-        skos:prefLabel         "analytical method"@en .
+        skos:prefLabel         "analytical method"@en ;
+        skos:prefLabel         "méthode analytique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800058/>
         rdf:type               skos:Concept;
@@ -1901,9 +2099,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to the determination of divalent manganese."@en;
+        skos:definition        "La détermination du manganèse divalent."@fr ;
         skos:notation          "SDN:S18::S1800058";
         skos:note              "accepted"@en;
-        skos:prefLabel         "divalent manganese determination"@en .
+        skos:prefLabel         "divalent manganese determination"@en ;
+        skos:prefLabel         "détermination du manganèse divalent"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800090/>
         rdf:type               skos:Concept;
@@ -1918,9 +2118,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to a condition (e.g. temperature) of a pressure measurement."@en;
+        skos:definition        "Une condition (par ex. la température) d'une mesure de pression."@fr ;
         skos:notation          "SDN:S18::S1800090";
         skos:note              "accepted"@en;
-        skos:prefLabel         "pressure measurement"@en .
+        skos:prefLabel         "pressure measurement"@en ;
+        skos:prefLabel         "mesure de pression"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800136/>
         rdf:type               skos:Concept;
@@ -1935,9 +2137,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Regularly spaced and contiguous segments dividing the section of atmosphere that is covered by the LIDAR instrument and over which data are averaged."@en;
+        skos:definition        "Segments régulièrement espacés et contigus divisant la section d'atmosphère couverte par l'instrument LIDAR et sur laquelle les données sont moyennées."@fr ;
         skos:notation          "SDN:S18::S1800136";
         skos:note              "accepted"@en;
-        skos:prefLabel         "LIDAR bin"@en .
+        skos:prefLabel         "LIDAR bin"@en ;
+        skos:prefLabel         "case LIDAR"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800093/>
         rdf:type               skos:Concept;
@@ -1952,9 +2156,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Actions and processes caused by humans."@en;
+        skos:definition        "Actions et processus causés par les humains."@fr ;
         skos:notation          "SDN:S18::S1800093";
         skos:note              "accepted"@en;
-        skos:prefLabel         "human activity"@en .
+        skos:prefLabel         "human activity"@en ;
+        skos:prefLabel         "activité humaine"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800119/>
         rdf:type               skos:Concept;
@@ -1969,9 +2175,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Method used to extract the analysed sample from its matrix."@en;
+        skos:definition        "Méthode utilisée pour extraire l'échantillon analysé de sa matrice."@fr ;
         skos:notation          "SDN:S18::S1800119";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sample extraction method"@en .
+        skos:prefLabel         "sample extraction method"@en ;
+        skos:prefLabel         "méthode d'extraction de l'échantillon"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800021/>
         rdf:type               skos:Concept;
@@ -1986,9 +2194,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The liquid phase plus any dissolved material and suspended solids making up any body of water, such as oceans, rivers, streams, lakes, ponds or puddles."@en;
+        skos:definition        "La phase liquide plus toute matière dissoute et les solides en suspension constituant toute masse d'eau, comme les océans, rivières, cours d'eau, lacs, étangs ou flaques."@fr ;
         skos:notation          "SDN:S18::S1800021";
         skos:note              "accepted"@en;
-        skos:prefLabel         "water"@en .
+        skos:prefLabel         "water"@en ;
+        skos:prefLabel         "eau"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800020/>
         rdf:type               skos:Concept;
@@ -2003,9 +2213,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "not available"@en;
+        skos:definition        "non disponible"@fr ;
         skos:notation          "SDN:S18::S1800020";
         skos:note              "accepted"@en;
-        skos:prefLabel         "solar panel output"@en .
+        skos:prefLabel         "solar panel output"@en ;
+        skos:prefLabel         "sortie de panneau solaire"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800062/>
         rdf:type               skos:Concept;
@@ -2020,9 +2232,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to the membrane of the oxygen sensor."@en;
+        skos:definition        "La membrane du capteur d'oxygène."@fr ;
         skos:notation          "SDN:S18::S1800062";
         skos:note              "accepted"@en;
-        skos:prefLabel         "oxygen sensor membrane"@en .
+        skos:prefLabel         "oxygen sensor membrane"@en ;
+        skos:prefLabel         "membrane du capteur d'oxygène"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800099/>
         rdf:type               skos:Concept;
@@ -2037,9 +2251,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A disk, divided into black and white quarters, used to gauge water clarity by measuring the depth at which it is no longer visible from the surface."@en;
+        skos:definition        "Un disque divisé en quartiers noirs et blancs, utilisé pour évaluer la clarté de l'eau en mesurant la profondeur à laquelle il n'est plus visible depuis la surface."@fr ;
         skos:notation          "SDN:S18::S1800099";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Secchi disk"@en .
+        skos:prefLabel         "Secchi disk"@en ;
+        skos:prefLabel         "disque de Secchi"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800102/>
         rdf:type               skos:Concept;
@@ -2054,9 +2270,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to the continuous flow of gas that passes through one or more sensors."@en;
+        skos:definition        "Le flux continu de gaz qui traverse un ou plusieurs capteurs."@fr ;
         skos:notation          "SDN:S18::S1800102";
         skos:note              "accepted"@en;
-        skos:prefLabel         "analysed gas stream"@en .
+        skos:prefLabel         "analysed gas stream"@en ;
+        skos:prefLabel         "flux de gaz analysé"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800023/>
         rdf:type               skos:Concept;
@@ -2070,10 +2288,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "tar";
+        skos:altLabel          "tar (utilitaire d'archivage)"@fr ;
         skos:definition        "Weathered oil conglomerations found in the environment as a result of natural and anthropogenic oil pollution."@en;
+        skos:definition        "Concrétions d'huile altérées trouvées dans l'environnement à la suite d'une pollution pétrolière naturelle et anthropique."@fr ;
         skos:notation          "SDN:S18::S1800023";
         skos:note              "accepted"@en;
-        skos:prefLabel         "tar residues"@en .
+        skos:prefLabel         "tar residues"@en ;
+        skos:prefLabel         "résidus de goudron"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800045/>
         rdf:type               skos:Concept;
@@ -2088,9 +2309,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to the equilibrated marine sample in the LI-COR gas analyser."@en;
+        skos:definition        "L'échantillon marin équilibré dans l'analyseur de gaz LI-COR."@fr ;
         skos:notation          "SDN:S18::S1800045";
         skos:note              "accepted"@en;
-        skos:prefLabel         "equilibrated marine sample in LI-COR"@en .
+        skos:prefLabel         "equilibrated marine sample in LI-COR"@en ;
+        skos:prefLabel         "échantillon marin équilibré dans le LI-COR"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800026/>
         rdf:type               skos:Concept;
@@ -2105,9 +2328,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The reworking of sediments by animals or plants."@en;
+        skos:definition        "Le remaniement des sédiments par des animaux ou des plantes."@fr ;
         skos:notation          "SDN:S18::S1800026";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sediment bioturbation"@en .
+        skos:prefLabel         "sediment bioturbation"@en ;
+        skos:prefLabel         "bioturbation des sédiments"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800108/>
         rdf:type               skos:Concept;
@@ -2122,9 +2347,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Term to be used when the property reported is a characteristic of a sample (for example its volume, its wet weight, its dry weight). A sample is a representative part of a larger whole or group."@en;
+        skos:definition        "Terme à utiliser lorsque la propriété rapportée est une caractéristique d'un échantillon (par exemple son volume, son poids humide, son poids sec). Un échantillon est une partie représentative d'un tout ou d'un groupe plus grand."@fr ;
         skos:notation          "SDN:S18::S1800108";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sample"@en .
+        skos:prefLabel         "sample"@en ;
+        skos:prefLabel         "échantillon"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800029/>
         rdf:type               skos:Concept;
@@ -2139,9 +2366,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A portion of transmitted sound that is scattered back towards its source by organisms or particles in the water body, and detected by the intrument's receiver."@en;
+        skos:definition        "Une portion du son émis diffusée en retour vers sa source par des organismes ou des particules dans la masse d'eau, et détectée par le récepteur de l'instrument."@fr ;
         skos:notation          "SDN:S18::S1800029";
         skos:note              "accepted"@en;
-        skos:prefLabel         "acoustic signal returns"@en .
+        skos:prefLabel         "acoustic signal returns"@en ;
+        skos:prefLabel         "retours de signal acoustique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800012/>
         rdf:type               skos:Concept;
@@ -2156,9 +2385,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "FLY";
         skos:definition        "The signal detected when a particle containing a yellow fluorescent material such as phycoerythrin for instance, passes in front of a blue to green laser beam. Phycoerythrin emits in the yellow and orange bandwidths."@en;
+        skos:definition        "Le signal détecté lorsqu'une particule contenant un matériau jaune fluorescent comme la phycoérythrine par exemple, passe devant un faisceau laser bleu à vert. La phycoérythrine émet dans les bandes jaune et orange."@fr ;
         skos:notation          "SDN:S18::S1800012";
         skos:note              "accepted"@en;
-        skos:prefLabel         "yellow fluorescence pulse"@en .
+        skos:prefLabel         "yellow fluorescence pulse"@en ;
+        skos:prefLabel         "impulsion de fluorescence jaune"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800061/>
         rdf:type               skos:Concept;
@@ -2173,9 +2404,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to the condition at the time of the chemical fixation of the oxygen molecules by addition of reagents prior to analysis."@en;
+        skos:definition        "La condition au moment de la fixation chimique des molécules d'oxygène par ajout de réactifs avant l'analyse."@fr ;
         skos:notation          "SDN:S18::S1800061";
         skos:note              "accepted"@en;
-        skos:prefLabel         "oxygen fixation"@en .
+        skos:prefLabel         "oxygen fixation"@en ;
+        skos:prefLabel         "fixation de l'oxygène"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800140/>
         rdf:type               skos:Concept;
@@ -2190,9 +2423,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The boundary between the sediment layer and the overlying water in a water body."@en;
+        skos:definition        "La limite entre la couche de sédiment et l'eau sus-jacente dans une masse d'eau."@fr ;
         skos:notation          "SDN:S18::S1800140";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sediment-water interface"@en .
+        skos:prefLabel         "sediment-water interface"@en ;
+        skos:prefLabel         "interface eau-sédiment"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800053/>
         rdf:type               skos:Concept;
@@ -2207,9 +2442,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to the calibration procedure or conditions of an instrument or a method."@en;
+        skos:definition        "La procédure ou les conditions d'étalonnage d'un instrument ou d'une méthode."@fr ;
         skos:notation          "SDN:S18::S1800053";
         skos:note              "accepted"@en;
-        skos:prefLabel         "calibration"@en .
+        skos:prefLabel         "calibration"@en ;
+        skos:prefLabel         "étalonnage"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800143/>
         rdf:type               skos:Concept;
@@ -2224,9 +2461,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "An oceanic or limnological range of depths which active turbulence has homogenised."@en;
+        skos:definition        "Une gamme de profondeurs océaniques ou limnologiques que la turbulence active a homogénéisée."@fr ;
         skos:notation          "SDN:S18::S1800143";
         skos:note              "accepted"@en;
-        skos:prefLabel         "mixed layer"@en .
+        skos:prefLabel         "mixed layer"@en ;
+        skos:prefLabel         "couche mixte"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800094/>
         rdf:type               skos:Concept;
@@ -2241,10 +2480,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The distinct operating stage recognised following the deployment of a glider platform into water and prior to recovery. The term is used for glider platforms capable of sub-surface travel."@en;
+        skos:definition        "L'étape de fonctionnement distincte reconnue après le déploiement d'une plateforme planeur dans l'eau et avant sa récupération. Le terme est utilisé pour les plateformes planeur capables de voyager en subsurface."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/S29/current/PE001436/>;
         skos:notation          "SDN:S18::S1800094";
         skos:note              "accepted"@en;
-        skos:prefLabel         "glider phase"@en .
+        skos:prefLabel         "glider phase"@en ;
+        skos:prefLabel         "phase du planeur"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800064/>
         rdf:type               skos:Concept;
@@ -2259,9 +2500,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to the determination of the CO2 partial pressure in a water sample."@en;
+        skos:definition        "La détermination de la pression partielle de CO2 dans un échantillon d'eau."@fr ;
         skos:notation          "SDN:S18::S1800064";
         skos:note              "accepted"@en;
-        skos:prefLabel         "pCO2 determination"@en .
+        skos:prefLabel         "pCO2 determination"@en ;
+        skos:prefLabel         "détermination de la pCO2"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800123/>
         rdf:type               skos:Concept;
@@ -2276,9 +2519,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Equipment used to sort biological or geological material. Only the material that remains on the sieve is used in the analyses."@en;
+        skos:definition        "Équipement utilisé pour trier de la matière biologique ou géologique. Seule la matière qui reste sur le tamis est utilisée dans les analyses."@fr ;
         skos:notation          "SDN:S18::S1800123";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sampling processor (lower sieve)"@en .
+        skos:prefLabel         "sampling processor (lower sieve)"@en ;
+        skos:prefLabel         "processeur d'échantillonnage (tamis inférieur)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800036/>
         rdf:type               skos:Concept;
@@ -2293,10 +2538,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Any sound other than the sound signal from a specific source, or acoustic and non-acoustic interferences from the measuring device."@en;
+        skos:definition        "Tout son autre que le signal sonore d'une source spécifique, ou interférences acoustiques et non acoustiques du dispositif de mesure."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/S29/current/PE001426/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001422/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001416/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001413/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001417/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001407/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001412/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001410/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001406/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001428/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001430/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001424/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001433/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001409/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001418/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001427/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001408/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001425/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001411/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001420/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001421/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001419/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001432/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001423/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001414/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001431/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001429/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001415/>;
         skos:notation          "SDN:S18::S1800036";
         skos:note              "accepted"@en;
-        skos:prefLabel         "ambient noise"@en .
+        skos:prefLabel         "ambient noise"@en ;
+        skos:prefLabel         "bruit ambiant"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800067/>
         rdf:type               skos:Concept;
@@ -2311,9 +2558,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to an optical cell within an instrumentation setup."@en;
+        skos:definition        "Une cellule optique au sein d'un montage instrumental."@fr ;
         skos:notation          "SDN:S18::S1800067";
         skos:note              "accepted"@en;
-        skos:prefLabel         "optical cell"@en .
+        skos:prefLabel         "optical cell"@en ;
+        skos:prefLabel         "cellule optique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800077/>
         rdf:type               skos:Concept;
@@ -2328,6 +2577,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Ratio of the two specified isotopes."@en;
+        skos:definition        "Rapport des deux isotopes spécifiés."@fr ;
         skos:notation          "SDN:S18::S1800077";
         skos:note              "accepted"@en;
         skos:prefLabel         "lead-206/lead-207"@en .
@@ -2345,9 +2595,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Computer program used to process data."@en;
+        skos:definition        "Programme informatique utilisé pour traiter les données."@fr ;
         skos:notation          "SDN:S18::S1800149";
         skos:note              "accepted"@en;
-        skos:prefLabel         "analytical software"@en .
+        skos:prefLabel         "analytical software"@en ;
+        skos:prefLabel         "logiciel analytique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800131/>
         rdf:type               skos:Concept;
@@ -2362,9 +2614,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The liquid content of solid precipitation that has accumulated on the ground (snow depth). The accumulation may consist of snow, ice formed by freezing precipitation, freezing liquid precipitation, or ice formed by the refreezing of melted snow. (Source: US National Weather Service Glossary)"@en;
+        skos:definition        "La teneur en liquide des précipitations solides accumulées au sol (hauteur de neige). L'accumulation peut consister en neige, glace formée par des précipitations verglaçantes, précipitations liquides gelées, ou glace formée par le regel de neige fondue. (Source : US National Weather Service Glossary)"@fr ;
         skos:notation          "SDN:S18::S1800131";
         skos:note              "accepted"@en;
-        skos:prefLabel         "liquid water equivalent"@en .
+        skos:prefLabel         "liquid water equivalent"@en ;
+        skos:prefLabel         "équivalent eau liquide"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800096/>
         rdf:type               skos:Concept;
@@ -2380,9 +2634,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "";
         skos:definition        "The uppermost layer of water bodies representing a thin boundary layer between the hydrosphere (mainly the ocean) and the atmosphere. It is nominally defined as the top 1000 micrometres (or 1 millimetre) of the water's surface. Some observation methods like e.g. radiometry, distinguish between the skin (upper 10 - 20 micrometres below the air-sea interface) and the subskin (a sub-layer that is at a depth of approximately 1 - 1.5 millimetres below the air-sea interface)."@en;
+        skos:definition        "La couche la plus supérieure des masses d'eau représentant une fine couche limite entre l'hydrosphère (principalement l'océan) et l'atmosphère. Elle est définie nominalement comme le millimètre supérieur (1000 micromètres) de la surface de l'eau. Certaines méthodes d'observation comme la radiométrie distinguent la peau (10 - 20 micromètres sous l'interface air-mer) et la sous-peau (sous-couche à une profondeur d'environ 1 - 1,5 millimètre sous l'interface air-mer)."@fr ;
         skos:notation          "SDN:S18::S1800096";
         skos:note              "accepted"@en;
-        skos:prefLabel         "surface microlayer"@en .
+        skos:prefLabel         "surface microlayer"@en ;
+        skos:prefLabel         "microlayer de surface"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800085/>
         rdf:type               skos:Concept;
@@ -2397,9 +2653,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "3H/H";
         skos:definition        "Ratio of tritium over hydrogen. This ratio is usually expressed in Tritium Units (TU) defined as 1 TU = 1 3H atom per 10^18 H atoms."@en;
+        skos:definition        "Rapport du tritium sur l'hydrogène. Ce rapport est généralement exprimé en unités de tritium (TU) définies comme 1 TU = 1 atome 3H pour 10^18 atomes H."@fr ;
         skos:notation          "SDN:S18::S1800085";
         skos:note              "accepted"@en;
-        skos:prefLabel         "tritium/hydrogen"@en .
+        skos:prefLabel         "tritium/hydrogen"@en ;
+        skos:prefLabel         "tritium/hydrogène"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800027/>
         rdf:type               skos:Concept;
@@ -2414,9 +2672,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The physical structure of sediments."@en;
+        skos:definition        "La structure physique des sédiments."@fr ;
         skos:notation          "SDN:S18::S1800027";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sediment bedding and lamination"@en .
+        skos:prefLabel         "sediment bedding and lamination"@en ;
+        skos:prefLabel         "litage et lamination des sédiments"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800111/>
         rdf:type               skos:Concept;
@@ -2431,9 +2691,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to the transmission of a sound by an instrument."@en;
+        skos:definition        "La transmission d'un son par un instrument."@fr ;
         skos:notation          "SDN:S18::S1800111";
         skos:note              "accepted"@en;
-        skos:prefLabel         "acoustic signal emissions"@en .
+        skos:prefLabel         "acoustic signal emissions"@en ;
+        skos:prefLabel         "émissions de signal acoustique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800068/>
         rdf:type               skos:Concept;
@@ -2448,9 +2710,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to sensors attached to one or several optical cells within an instrumentation setup."@en;
+        skos:definition        "Des capteurs attachés à une ou plusieurs cellules optiques au sein d'un montage instrumental."@fr ;
         skos:notation          "SDN:S18::S1800068";
         skos:note              "accepted"@en;
-        skos:prefLabel         "optical cell sensors"@en .
+        skos:prefLabel         "optical cell sensors"@en ;
+        skos:prefLabel         "capteurs de cellule optique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800032/>
         rdf:type               skos:Concept;
@@ -2466,10 +2730,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "2";
         skos:altLabel          "";
         skos:definition        "Point in time and space marking the end of a sampling event."@en;
+        skos:definition        "Point dans le temps et l'espace marquant la fin d'un événement d'échantillonnage."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/S29/current/PE001297/>;
         skos:notation          "SDN:S18::S1800032";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sampling event end"@en .
+        skos:prefLabel         "sampling event end"@en ;
+        skos:prefLabel         "fin de l'événement d'échantillonnage"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800114/>
         rdf:type               skos:Concept;
@@ -2484,9 +2750,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Areas of water where aquatic animals spawn, or produce their eggs."@en;
+        skos:definition        "Zones d'eau où les animaux aquatiques se reproduisent ou pondent leurs œufs."@fr ;
         skos:notation          "SDN:S18::S1800114";
         skos:note              "accepted"@en;
-        skos:prefLabel         "spawning grounds"@en .
+        skos:prefLabel         "spawning grounds"@en ;
+        skos:prefLabel         "zones de fraie"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800138/>
         rdf:type               skos:Concept;
@@ -2501,9 +2769,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Equipment designed to qualitatively and/or quantitatively measure the composition, properties, structure of substances or samples."@en;
+        skos:definition        "Équipement conçu pour mesurer qualitativement et/ou quantitativement la composition, les propriétés, la structure de substances ou d'échantillons."@fr ;
         skos:notation          "SDN:S18::S1800138";
         skos:note              "accepted"@en;
-        skos:prefLabel         "analytical instrument"@en .
+        skos:prefLabel         "analytical instrument"@en ;
+        skos:prefLabel         "instrument analytique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800035/>
         rdf:type               skos:Concept;
@@ -2518,9 +2788,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Location in space of an entity."@en;
+        skos:definition        "Position dans l'espace d'une entité."@fr ;
         skos:notation          "SDN:S18::S1800035";
         skos:note              "accepted"@en;
-        skos:prefLabel         "position"@en .
+        skos:prefLabel         "position"@en ;
+        skos:prefLabel         "position"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800117/>
         rdf:type               skos:Concept;
@@ -2535,9 +2807,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Method used to obtain the samples used for the analysis."@en;
+        skos:definition        "Méthode utilisée pour obtenir les échantillons servant à l'analyse."@fr ;
         skos:notation          "SDN:S18::S1800117";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sampling method"@en .
+        skos:prefLabel         "sampling method"@en ;
+        skos:prefLabel         "méthode d'échantillonnage"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800038/>
         rdf:type               skos:Concept;
@@ -2552,9 +2826,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to a CO2 gas standard entering a detector."@en;
+        skos:definition        "Une référence de gaz CO2 entrant dans un détecteur."@fr ;
         skos:notation          "SDN:S18::S1800038";
         skos:note              "accepted"@en;
-        skos:prefLabel         "CO2 gas standard at detector inlet"@en .
+        skos:prefLabel         "CO2 gas standard at detector inlet"@en ;
+        skos:prefLabel         "référence de gaz CO2 à l'entrée du détecteur"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800163/>
         rdf:type               skos:Concept;
@@ -2569,9 +2845,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "An item or entity that has been identified, classified and labelled either by a human or a machine learning algorithm."@en;
+        skos:definition        "Un élément ou une entité qui a été identifié, classé et étiqueté soit par un humain soit par un algorithme d'apprentissage automatique."@fr ;
         skos:notation          "SDN:S18::S1800163";
         skos:note              "accepted"@en;
-        skos:prefLabel         "recognised object"@en .
+        skos:prefLabel         "recognised object"@en ;
+        skos:prefLabel         "objet reconnu"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800105/>
         rdf:type               skos:Concept;
@@ -2586,9 +2864,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A measurement or set of measurements on a sample or sub-sample."@en;
+        skos:definition        "Une mesure ou un ensemble de mesures sur un échantillon ou sous-échantillon."@fr ;
         skos:notation          "SDN:S18::S1800105";
         skos:note              "accepted"@en;
-        skos:prefLabel         "analysis"@en .
+        skos:prefLabel         "analysis"@en ;
+        skos:prefLabel         "analyse"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800070/>
         rdf:type               skos:Concept;
@@ -2603,9 +2883,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The property relates to one or a set of conditions attached to a measurement."@en;
+        skos:definition        "Une ou un ensemble de conditions attachées à une mesure."@fr ;
         skos:notation          "SDN:S18::S1800070";
         skos:note              "accepted"@en;
-        skos:prefLabel         "measurement"@en .
+        skos:prefLabel         "measurement"@en ;
+        skos:prefLabel         "mesure"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800146/>
         rdf:type               skos:Concept;
@@ -2620,9 +2902,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The taking in or absorption of carbon by cellular organisms or organs."@en;
+        skos:definition        "La fixation ou absorption de carbone par des organismes ou organes cellulaires."@fr ;
         skos:notation          "SDN:S18::S1800146";
         skos:note              "accepted"@en;
-        skos:prefLabel         "carbon uptake"@en .
+        skos:prefLabel         "carbon uptake"@en ;
+        skos:prefLabel         "fixation de carbone"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800152/>
         rdf:type               skos:Concept;
@@ -2637,9 +2921,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "AOU";
         skos:definition        "The difference between the measured dissolved oxygen concentration and its equilibrium saturation concentration in water with the same physical and chemical properties."@en;
+        skos:definition        "La différence entre la concentration mesurée en oxygène dissous et sa concentration de saturation à l'équilibre dans une eau aux mêmes propriétés physiques et chimiques."@fr ;
         skos:notation          "SDN:S18::S1800152";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Apparent Oxygen Utilisation"@en .
+        skos:prefLabel         "Apparent Oxygen Utilisation"@en ;
+        skos:prefLabel         "Utilisation apparente de l'oxygène"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800073/>
         rdf:type               skos:Concept;
@@ -2654,6 +2940,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Ratio of the two specified isotopes."@en;
+        skos:definition        "Rapport des deux isotopes spécifiés."@fr ;
         skos:notation          "SDN:S18::S1800073";
         skos:note              "accepted"@en;
         skos:prefLabel         "lead-206/lead-204"@en .
@@ -2671,9 +2958,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "DPM";
         skos:definition        "Term commonly used in the study of marine mammal vocalisations (but could have wider application) which indicates if an individual of a specific species or group of species was detected within a sampling minute (1 for detected, 0 for undetected)."@en;
+        skos:definition        "Terme couramment utilisé dans l'étude des vocalisations des mammifères marins (mais pouvant avoir une application plus large) qui indique si un individu d'une espèce ou d'un groupe d'espèces donné a été détecté au cours d'une minute d'échantillonnage (1 pour détecté, 0 pour non détecté)."@fr ;
         skos:notation          "SDN:S18::S1800155";
         skos:note              "accepted"@en;
-        skos:prefLabel         "detection positive minutes"@en .
+        skos:prefLabel         "detection positive minutes"@en ;
+        skos:prefLabel         "minutes de détection positives"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800129/>
         rdf:type               skos:Concept;
@@ -2688,9 +2977,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Samples collected independently over some area, specifically collected to estimate statistical information about that area."@en;
+        skos:definition        "Échantillons collectés indépendamment sur une zone, spécifiquement collectés pour estimer des informations statistiques sur cette zone."@fr ;
         skos:notation          "SDN:S18::S1800129";
         skos:note              "accepted"@en;
-        skos:prefLabel         "spatial replicate"@en .
+        skos:prefLabel         "spatial replicate"@en ;
+        skos:prefLabel         "réplicat spatial"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800076/>
         rdf:type               skos:Concept;
@@ -2705,6 +2996,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Ratio of the two specified isotopes."@en;
+        skos:definition        "Rapport des deux isotopes spécifiés."@fr ;
         skos:notation          "SDN:S18::S1800076";
         skos:note              "accepted"@en;
         skos:prefLabel         "lead-208/lead-204"@en .
@@ -2722,6 +3014,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Ratio of the two specified isotopes."@en;
+        skos:definition        "Rapport des deux isotopes spécifiés."@fr ;
         skos:notation          "SDN:S18::S1800072";
         skos:note              "accepted"@en;
         skos:prefLabel         "neodymium-143/neodymium-144"@en .
@@ -2739,9 +3032,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Vibrations propagated in an elastic or viscous medium."@en;
+        skos:definition        "Vibrations se propageant dans un milieu élastique ou visqueux."@fr ;
         skos:notation          "SDN:S18::S1800158";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sound"@en .
+        skos:prefLabel         "sound"@en ;
+        skos:prefLabel         "son"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800079/>
         rdf:type               skos:Concept;
@@ -2756,6 +3051,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Ratio of the two specified isotopes."@en;
+        skos:definition        "Rapport des deux isotopes spécifiés."@fr ;
         skos:notation          "SDN:S18::S1800079";
         skos:note              "accepted"@en;
         skos:prefLabel         "uranium-236/uranium-238"@en .
@@ -2773,9 +3069,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Large irregular particles formed by the coagulation of smaller particles in a suspension."@en;
+        skos:definition        "Grosses particules irrégulières formées par la coagulation de particules plus petites dans une suspension."@fr ;
         skos:notation          "SDN:S18::S1800003";
         skos:note              "accepted"@en;
-        skos:prefLabel         "aggregates"@en .
+        skos:prefLabel         "aggregates"@en ;
+        skos:prefLabel         "aggregates"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800006/>
         rdf:type               skos:Concept;
@@ -2790,10 +3088,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Refers to waves observed at the surface of water bodies."@en;
+        skos:definition        "Fait référence aux ondes observées à la surface des masses d'eau."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/S29/current/PE001213/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001291/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001231/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001227/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001232/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001234/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001244/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001209/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001290/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001233/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001293/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001294/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001228/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001210/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001207/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001230/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001215/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001211/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001212/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001292/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001214/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001229/>;
         skos:notation          "SDN:S18::S1800006";
         skos:note              "accepted"@en;
-        skos:prefLabel         "waves"@en .
+        skos:prefLabel         "waves"@en ;
+        skos:prefLabel         "vagues"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800080/>
         rdf:type               skos:Concept;
@@ -2808,6 +3108,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Ratio of the two specified isotopes."@en;
+        skos:definition        "Rapport des deux isotopes spécifiés."@fr ;
         skos:notation          "SDN:S18::S1800080";
         skos:note              "accepted"@en;
         skos:prefLabel         "lead-208/lead-206"@en .
@@ -2825,9 +3126,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "SWS";
         skos:definition        "The signal generated by photons scattered at 90 degrees to the laser beam direction by a particle when crossing a laser beam of a flow cytometer."@en;
+        skos:definition        "Le signal généré par les photons diffusés à 90 degrés par rapport à la direction du faisceau laser par une particule lors de la traversée d'un faisceau laser d'un cytomètre en flux."@fr ;
         skos:notation          "SDN:S18::S1800009";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sideward light scatter pulse"@en .
+        skos:prefLabel         "sideward light scatter pulse"@en ;
+        skos:prefLabel         "impulsion de diffusion latérale de la lumière"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/S1800022/>
         rdf:type               skos:Concept;
@@ -2861,10 +3164,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "4";
         skos:altLabel          "";
         skos:definition        "Air motion relative to the Earth's surface. Unless otherwise specified, only the horizontal component is considered. [International Meteorological Vocabulary, WMO - No. 182]"@en;
+        skos:definition        "Mouvement de l'air par rapport à la surface de la Terre. Sauf indication contraire, seule la composante horizontale est considérée. [International Meteorological Vocabulary, WMO - No. 182]"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/S29/current/PE001257/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001251/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001249/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001253/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001250/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001247/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001255/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001245/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001248/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001252/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001256/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001254/>;
         skos:notation          "SDN:S18::S1800014";
         skos:note              "accepted"@en;
-        skos:prefLabel         "wind"@en .
+        skos:prefLabel         "wind"@en ;
+        skos:prefLabel         "vent"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/>
         rdf:type                skos:Collection;
@@ -2882,4 +3187,5 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo         "84";
         skos:altLabel           "Physical entity";
         skos:member             <http://vocab.nerc.ac.uk/collection/S18/current/S1800122/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800063/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800078/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800162/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800107/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800048/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800153/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800004/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800039/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800132/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800095/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800150/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800091/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800165/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800028/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800121/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800161/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800098/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800106/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800047/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800025/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800044/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800115/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800015/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800071/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800040/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800168/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800088/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800031/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800112/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800159/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800142/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800083/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800120/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800109/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800007/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800156/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800008/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800043/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800042/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800016/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800037/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800148/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800013/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800066/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800164/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800124/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800051/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800141/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800097/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800005/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800103/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800075/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800151/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800024/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800118/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800002/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800056/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800127/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800057/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800126/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800033/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800034/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800069/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800010/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800065/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800086/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800050/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800157/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800154/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800135/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800082/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800133/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800074/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800060/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800046/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800116/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800101/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800001/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800092/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800100/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800041/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800089/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800054/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800125/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800147/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800167/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800139/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800110/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800144/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800049/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800018/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800160/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800059/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800081/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800130/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800166/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800084/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800113/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800011/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800017/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800104/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800145/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800052/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800134/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800055/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800128/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800030/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800137/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800058/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800090/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800136/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800093/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800119/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800021/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800020/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800062/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800099/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800102/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800023/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800045/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800026/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800108/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800029/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800012/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800061/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800140/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800053/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800143/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800094/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800064/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800123/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800036/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800067/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800077/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800149/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800131/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800096/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800085/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800027/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800111/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800068/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800032/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800114/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800138/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800035/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800117/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800038/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800163/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800105/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800070/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800146/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800152/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800073/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800155/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800129/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800076/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800072/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800158/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800079/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800003/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800006/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800080/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800009/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800022/> , <http://vocab.nerc.ac.uk/collection/S18/current/S1800014/>;
-        skos:prefLabel          "BODC parameter semantic model physical entity names" .
+        skos:prefLabel          "BODC parameter semantic model physical entity names" ;
+        skos:prefLabel          "noms des entités physiques du modèle sémantique des paramètres BODC"@fr .
