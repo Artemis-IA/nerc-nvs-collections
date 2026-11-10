@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "internal_vacuum";
+        skos:altLabel          "internal_vacuum"@fr ;
         skos:definition        "Issues with the internal vacuum have been identified."@en;
+        skos:definition        "Des problèmes avec le vide interne ont été identifiés."@fr ;
         skos:notation          "SDN:R31::internal_vacuum";
         skos:note              "accepted"@en;
-        skos:prefLabel         "internal vacuum"@en .
+        skos:prefLabel         "internal vacuum"@en ;
+        skos:prefLabel         "vide interne"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R31/current/grounded/>
         rdf:type               skos:Concept;
@@ -49,10 +52,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "grounded";
+        skos:altLabel          "grounded"@fr ;
         skos:definition        "Single or repeated groundings at the seafloor may have resulted in the premature loss of the float."@en;
+        skos:definition        "Un ou plusieurs échouages sur le fond marin peuvent avoir entraîné la perte prématurée du flotteur."@fr ;
         skos:notation          "SDN:R31::grounded";
         skos:note              "accepted"@en;
-        skos:prefLabel         "grounded"@en .
+        skos:prefLabel         "grounded"@en ;
+        skos:prefLabel         "grounded"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R31/current/beached/>
         rdf:type               skos:Concept;
@@ -66,10 +72,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "beached";
+        skos:altLabel          "beached"@fr ;
         skos:definition        "The float beached at the coastline."@en;
+        skos:definition        "Le flotteur s'est échoué sur le littoral."@fr ;
         skos:notation          "SDN:R31::beached";
         skos:note              "accepted"@en;
-        skos:prefLabel         "beached"@en .
+        skos:prefLabel         "beached"@en ;
+        skos:prefLabel         "beached"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R31/current/recovered_intentional/>
         rdf:type               skos:Concept;
@@ -83,10 +92,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "recovered_intentional";
+        skos:altLabel          "recovered_intentional"@fr ;
         skos:definition        "The float was recovered deliberately as a result of an Argo community initiative."@en;
+        skos:definition        "Le flotteur a été récupéré délibérément dans le cadre d'une initiative de la communauté Argo."@fr ;
         skos:notation          "SDN:R31::recovered_intentional";
         skos:note              "accepted"@en;
-        skos:prefLabel         "recovered intentional"@en .
+        skos:prefLabel         "recovered intentional"@en ;
+        skos:prefLabel         "récupéré intentionnellement"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R31/current/battery_failure/>
         rdf:type               skos:Concept;
@@ -100,10 +112,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "battery_failure";
+        skos:altLabel          "battery_failure"@fr ;
         skos:definition        "The float exhausted its battery after an unexpected level of operation at sea."@en;
+        skos:definition        "Le flotteur a épuisé sa batterie après un niveau de fonctionnement en mer imprévu."@fr ;
         skos:notation          "SDN:R31::battery_failure";
         skos:note              "accepted"@en;
-        skos:prefLabel         "battery failure"@en .
+        skos:prefLabel         "battery failure"@en ;
+        skos:prefLabel         "panne de batterie"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R31/current/transfer_ownership/>
         rdf:type               skos:Concept;
@@ -117,10 +132,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "transfer_ownership";
+        skos:altLabel          "transfer_ownership"@fr ;
         skos:definition        "The float mission has been closed due to a transfer of ownership of the float during its mission (country, program, institution, etc)."@en;
+        skos:definition        "La mission du flotteur a été clôturée en raison d'un transfert de propriété du flotteur pendant sa mission (pays, programme, institution, etc.)."@fr ;
         skos:notation          "SDN:R31::transfer_ownership";
         skos:note              "accepted"@en;
-        skos:prefLabel         "transfer ownership"@en .
+        skos:prefLabel         "transfer ownership"@en ;
+        skos:prefLabel         "transfert de propriété"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R31/current/recovered_unintentional/>
         rdf:type               skos:Concept;
@@ -134,10 +152,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "recovered_unintentional";
+        skos:altLabel          "recovered_unintentional"@fr ;
         skos:definition        "The float was picked up by a ship (fishermen, etc)."@en;
+        skos:definition        "Le flotteur a été récupéré par un navire (pêcheurs, etc.)."@fr ;
         skos:notation          "SDN:R31::recovered_unintentional";
         skos:note              "accepted"@en;
-        skos:prefLabel         "recovered unintentional"@en .
+        skos:prefLabel         "recovered unintentional"@en ;
+        skos:prefLabel         "récupéré non intentionnellement"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R31/current/sensor_other/>
         rdf:type               skos:Concept;
@@ -151,10 +172,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "sensor_other";
+        skos:altLabel          "sensor_other"@fr ;
         skos:definition        "The defect of any other sensor than CTD equipping the float resulted in the float being inoperant."@en;
+        skos:definition        "Le défaut de tout autre capteur que la CTD équipant le flotteur a rendu le flotteur inopérant."@fr ;
         skos:notation          "SDN:R31::sensor_other";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sensor other"@en .
+        skos:prefLabel         "sensor other"@en ;
+        skos:prefLabel         "autre capteur"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R31/current/sensor_ctd/>
         rdf:type               skos:Concept;
@@ -168,10 +192,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "sensor_ctd";
+        skos:altLabel          "sensor_ctd"@fr ;
         skos:definition        "The defect of the primary CTD sensor equipping the float resulted in the float being inoperant."@en;
+        skos:definition        "Le défaut du capteur CTD principal équipant le flotteur a rendu le flotteur inopérant."@fr ;
         skos:notation          "SDN:R31::sensor_ctd";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sensor ctd"@en .
+        skos:prefLabel         "sensor ctd"@en ;
+        skos:prefLabel         "capteur ctd"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R31/current/iced/>
         rdf:type               skos:Concept;
@@ -185,10 +212,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "iced";
+        skos:altLabel          "iced"@fr ;
         skos:definition        "The float permanently left under sea ice."@en;
+        skos:definition        "Le flotteur est resté définitivement sous la banquise."@fr ;
         skos:notation          "SDN:R31::iced";
         skos:note              "accepted"@en;
-        skos:prefLabel         "iced"@en .
+        skos:prefLabel         "iced"@en ;
+        skos:prefLabel         "iced"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R31/current/unchecked/>
         rdf:type               skos:Concept;
@@ -202,10 +232,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "unchecked";
+        skos:altLabel          "unchecked"@fr ;
         skos:definition        "Default value - no investigation on the float ending cause has been conducted yet."@en;
+        skos:definition        "Valeur par défaut - aucune investigation sur la cause de fin du flotteur n'a encore été menée."@fr ;
         skos:notation          "SDN:R31::unchecked";
         skos:note              "accepted"@en;
-        skos:prefLabel         "unchecked"@en .
+        skos:prefLabel         "unchecked"@en ;
+        skos:prefLabel         "unchecked"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R31/current/manual/>
         rdf:type               skos:Concept;
@@ -219,10 +252,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "manual";
+        skos:altLabel          "manual"@fr ;
         skos:definition        "Use of downlink to terminate the float mission."@en;
+        skos:definition        "Utilisation du downlink pour terminer la mission du flotteur."@fr ;
         skos:notation          "SDN:R31::manual";
         skos:note              "accepted"@en;
-        skos:prefLabel         "manual"@en .
+        skos:prefLabel         "manual"@en ;
+        skos:prefLabel         "manual"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R31/current/deployment/>
         rdf:type               skos:Concept;
@@ -236,10 +272,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "deployment";
+        skos:altLabel          "deployment"@fr ;
         skos:definition        "Issues with the deployment procedure resulted in the loss of the float (e.g. shocks, unwanted items left attached to the float, etc)."@en;
+        skos:definition        "Des problèmes avec la procédure de déploiement ont entraîné la perte du flotteur (par ex. chocs, objets indésirables restés attachés au flotteur, etc.)."@fr ;
         skos:notation          "SDN:R31::deployment";
         skos:note              "accepted"@en;
-        skos:prefLabel         "deployment"@en .
+        skos:prefLabel         "deployment"@en ;
+        skos:prefLabel         "deployment"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R31/current/buoyancy/>
         rdf:type               skos:Concept;
@@ -253,10 +292,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "buoyancy";
+        skos:altLabel          "buoyancy"@fr ;
         skos:definition        "Issues with the hydraulic components or hydraulic behaviour have been identified."@en;
+        skos:definition        "Des problèmes avec les composants hydrauliques ou le comportement hydraulique ont été identifiés."@fr ;
         skos:notation          "SDN:R31::buoyancy";
         skos:note              "accepted"@en;
-        skos:prefLabel         "buoyancy"@en .
+        skos:prefLabel         "buoyancy"@en ;
+        skos:prefLabel         "buoyancy"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R31/current/software_issues/>
         rdf:type               skos:Concept;
@@ -270,10 +312,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "software_issues";
+        skos:altLabel          "software_issues"@fr ;
         skos:definition        "Issues with the software have been identified."@en;
+        skos:definition        "Des problèmes avec le logiciel ont été identifiés."@fr ;
         skos:notation          "SDN:R31::software_issues";
         skos:note              "accepted"@en;
-        skos:prefLabel         "software issues"@en .
+        skos:prefLabel         "software issues"@en ;
+        skos:prefLabel         "problèmes logiciels"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R31/current/telemetry/>
         rdf:type               skos:Concept;
@@ -287,10 +332,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "telemetry";
+        skos:altLabel          "telemetry"@fr ;
         skos:definition        "Telemetry issues have been identified."@en;
+        skos:definition        "Des problèmes de télémétrie ont été identifiés."@fr ;
         skos:notation          "SDN:R31::telemetry";
         skos:note              "accepted"@en;
-        skos:prefLabel         "telemetry"@en .
+        skos:prefLabel         "telemetry"@en ;
+        skos:prefLabel         "telemetry"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R31/current/unknown/>
         rdf:type               skos:Concept;
@@ -304,10 +352,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "unknown";
+        skos:altLabel          "inconnu"@fr ;
         skos:definition        "The ending cause of the float was not determined after analyses."@en;
+        skos:definition        "La cause de fin du flotteur n'a pas été déterminée après analyses."@fr ;
         skos:notation          "SDN:R31::unknown";
         skos:note              "accepted"@en;
-        skos:prefLabel         "unknown"@en .
+        skos:prefLabel         "unknown"@en ;
+        skos:prefLabel         "inconnu"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R31/current/battery_end_of/>
         rdf:type               skos:Concept;
@@ -321,10 +372,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "battery_end_of";
+        skos:altLabel          "battery_end_of"@fr ;
         skos:definition        "The float exhausted its battery after an expected level of operation at sea (close to theoretical lifetime)."@en;
+        skos:definition        "Le flotteur a épuisé sa batterie après un niveau de fonctionnement en mer attendu (proche de la durée de vie théorique)."@fr ;
         skos:notation          "SDN:R31::battery_end_of";
         skos:note              "accepted"@en;
-        skos:prefLabel         "battery end of"@en .
+        skos:prefLabel         "battery end of"@en ;
+        skos:prefLabel         "fin de batterie"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R31/current/location/>
         rdf:type               skos:Concept;
@@ -338,10 +392,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "location";
+        skos:altLabel          "location"@fr ;
         skos:definition        "Positioning issues (e.g. GPS hardware or firmware) have been identified."@en;
+        skos:definition        "Des problèmes de positionnement (par ex. matériel ou firmware GPS) ont été identifiés."@fr ;
         skos:notation          "SDN:R31::location";
         skos:note              "accepted"@en;
-        skos:prefLabel         "location"@en .
+        skos:prefLabel         "location"@en ;
+        skos:prefLabel         "location"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R31/current/stuck_on_surface/>
         rdf:type               skos:Concept;
@@ -355,10 +412,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "stuck_on_surface";
+        skos:altLabel          "stuck_on_surface"@fr ;
         skos:definition        "The float ended its life drifting at surface."@en;
+        skos:definition        "Le flotteur a terminé sa vie en dérivant à la surface."@fr ;
         skos:notation          "SDN:R31::stuck_on_surface";
         skos:note              "accepted"@en;
-        skos:prefLabel         "stuck on surface"@en .
+        skos:prefLabel         "stuck on surface"@en ;
+        skos:prefLabel         "bloqué en surface"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R31/current/ballast/>
         rdf:type               skos:Concept;
@@ -372,10 +432,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "ballast";
+        skos:altLabel          "ballast"@fr ;
         skos:definition        "Ballast issues have been identified (e.g. loss of external ballast, etc)."@en;
+        skos:definition        "Des problèmes de lest ont été identifiés (par ex. perte de lest externe, etc.)."@fr ;
         skos:notation          "SDN:R31::ballast";
         skos:note              "accepted"@en;
-        skos:prefLabel         "ballast"@en .
+        skos:prefLabel         "ballast"@en ;
+        skos:prefLabel         "ballast"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R31/current/bluetooth/>
         rdf:type               skos:Concept;
@@ -389,10 +452,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "bluetooth";
+        skos:altLabel          "bluetooth"@fr ;
         skos:definition        "Bluetooth problem."@en;
+        skos:definition        "Problème Bluetooth."@fr ;
         skos:notation          "SDN:R31::bluetooth";
         skos:note              "accepted"@en;
-        skos:prefLabel         "bluetooth"@en .
+        skos:prefLabel         "bluetooth"@en ;
+        skos:prefLabel         "bluetooth"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R31/current/leak/>
         rdf:type               skos:Concept;
@@ -406,10 +472,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "leak";
+        skos:altLabel          "leak (fuite)"@fr ;
         skos:definition        "Leak in the float resulted in the damage of the float."@en;
+        skos:definition        "Une fuite dans le flotteur a entraîné l'endommagement du flotteur."@fr ;
         skos:notation          "SDN:R31::leak";
         skos:note              "accepted"@en;
-        skos:prefLabel         "leak"@en .
+        skos:prefLabel         "leak"@en ;
+        skos:prefLabel         "leak (fuite)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R31/current/hardware_other/>
         rdf:type               skos:Concept;
@@ -423,10 +492,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "hardware_other";
+        skos:altLabel          "hardware_other"@fr ;
         skos:definition        "Miscellaneous hardware issues (e.g. anode corrosion, etc)."@en;
+        skos:definition        "Problèmes matériels divers (par ex. corrosion d'anode, etc.)."@fr ;
         skos:notation          "SDN:R31::hardware_other";
         skos:note              "accepted"@en;
-        skos:prefLabel         "hardware other"@en .
+        skos:prefLabel         "hardware other"@en ;
+        skos:prefLabel         "autre matériel"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R31/current/electrical/>
         rdf:type               skos:Concept;
@@ -440,10 +512,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "electrical";
+        skos:altLabel          "electrical"@fr ;
         skos:definition        "Electrical issues with the float or sensor have been identified."@en;
+        skos:definition        "Des problèmes électriques avec le flotteur ou le capteur ont été identifiés."@fr ;
         skos:notation          "SDN:R31::electrical";
         skos:note              "accepted"@en;
-        skos:prefLabel         "electrical"@en .
+        skos:prefLabel         "electrical"@en ;
+        skos:prefLabel         "electrical"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R31/current/>
         rdf:type                skos:Collection;
@@ -459,5 +534,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Argo Data Management Team";
         owl:versionInfo         "1";
         skos:altLabel           "ENDING_CAUSE";
+        skos:altLabel           "ENDING_CAUSE"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/R31/current/internal_vacuum/> , <http://vocab.nerc.ac.uk/collection/R31/current/grounded/> , <http://vocab.nerc.ac.uk/collection/R31/current/beached/> , <http://vocab.nerc.ac.uk/collection/R31/current/recovered_intentional/> , <http://vocab.nerc.ac.uk/collection/R31/current/battery_failure/> , <http://vocab.nerc.ac.uk/collection/R31/current/transfer_ownership/> , <http://vocab.nerc.ac.uk/collection/R31/current/recovered_unintentional/> , <http://vocab.nerc.ac.uk/collection/R31/current/sensor_other/> , <http://vocab.nerc.ac.uk/collection/R31/current/sensor_ctd/> , <http://vocab.nerc.ac.uk/collection/R31/current/iced/> , <http://vocab.nerc.ac.uk/collection/R31/current/unchecked/> , <http://vocab.nerc.ac.uk/collection/R31/current/manual/> , <http://vocab.nerc.ac.uk/collection/R31/current/deployment/> , <http://vocab.nerc.ac.uk/collection/R31/current/buoyancy/> , <http://vocab.nerc.ac.uk/collection/R31/current/software_issues/> , <http://vocab.nerc.ac.uk/collection/R31/current/telemetry/> , <http://vocab.nerc.ac.uk/collection/R31/current/unknown/> , <http://vocab.nerc.ac.uk/collection/R31/current/battery_end_of/> , <http://vocab.nerc.ac.uk/collection/R31/current/location/> , <http://vocab.nerc.ac.uk/collection/R31/current/stuck_on_surface/> , <http://vocab.nerc.ac.uk/collection/R31/current/ballast/> , <http://vocab.nerc.ac.uk/collection/R31/current/bluetooth/> , <http://vocab.nerc.ac.uk/collection/R31/current/leak/> , <http://vocab.nerc.ac.uk/collection/R31/current/electrical/> , <http://vocab.nerc.ac.uk/collection/R31/current/hardware_other/>;
-        skos:prefLabel          "Argo float ending cause" .
+        skos:prefLabel          "Argo float ending cause" ;
+        skos:prefLabel          "cause de fin de flotteur Argo"@fr .

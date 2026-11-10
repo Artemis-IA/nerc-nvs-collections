@@ -7359,3 +7359,609 @@
 {"k": "label", "en": "SeaDataNet device category", "fr": "catégorie d'appareil SeaDataNet"}
 {"k": "label", "en": "SDN SWE type", "fr": "type SWE SDN"}
 {"k": "label", "en": "SeaDataNet Sensor Web Enablement and SensorML type vocabulary", "fr": "vocabulaire de type SeaDataNet Sensor Web Enablement et SensorML"}
+{"k": "label", "en": "Sect_Ser", "fr": "Sect_Ser"}
+{"k": "definition", "en": "The series has a single set of measurements valid along the whole of a fixed section (e.g. flow from a submarine cable) and fixed elevation or elevation range varying with time. Time and data parameters are stored along the primary dimension (rank 1). Position and the z co-ordinate(s) (depth or height) are stored in metadata.", "fr": "La série a un seul ensemble de mesures valides le long de toute une section fixe (par ex. flux depuis un câble sous-marin) et à une élévation fixe ou une plage d'élévation variant avec le temps. Le temps et les paramètres de données sont stockés le long de la dimension primaire (rang 1). La position et les coordonnées z (profondeur ou hauteur) sont stockées en métadonnées."}
+{"k": "label", "en": "Section time series", "fr": "série temporelle de section"}
+{"k": "label", "en": "Traj", "fr": "Traj"}
+{"k": "definition", "en": "The series has measurements at a single fixed elevation varying with both position and time. Time and horizontal spatial (e.g. latitude and longitude) coordinates together with data are stored along the primary dimension (rank 1). The z co-ordinate (depth or height) is stored in metadata.", "fr": "La série a des mesures à une seule élévation fixe variant à la fois avec la position et le temps. Le temps et les coordonnées spatiales horizontales (par ex. latitude et longitude) ainsi que les données sont stockés le long de la dimension primaire (rang 1). La coordonnée z (profondeur ou hauteur) est stockée en métadonnées."}
+{"k": "label", "en": "Trajectory", "fr": "trajectoire"}
+{"k": "label", "en": "Comp_Grid", "fr": "Comp_Grid"}
+{"k": "definition", "en": "The series has data stored in a 2D array, having cycle number as the primary dimension (rank 1) variable and both latitude and longitude as the secondary dimension (rank 0) variables. Used in BODC for compact storage of spatial grids in QXF.", "fr": "La série a des données stockées dans un tableau 2D, ayant le numéro de cycle comme variable de dimension primaire (rang 1) et à la fois la latitude et la longitude comme variables de dimension secondaire (rang 0). Utilisé chez BODC pour le stockage compact de grilles spatiales en QXF."}
+{"k": "label", "en": "Compressed spatial grid", "fr": "grille spatiale compressée"}
+{"k": "label", "en": "SP_Prof_PandD", "fr": "SP_Prof_PandD"}
+{"k": "definition", "en": "The series has a single set of instantaneous measurements at a fixed position and elevation.  Z co-ordinates are included along the primary dimension (rank 1) as both pressure and depth. Time and position are stored as metadata. This is to cover series that would be a profile if there was more than one point.", "fr": "La série a un seul ensemble de mesures instantanées à une position et une élévation fixes. Les coordonnées z sont incluses le long de la dimension primaire (rang 1) à la fois comme pression et profondeur. Le temps et la position sont stockés en métadonnées. Cela couvre les séries qui seraient un profil s'il y avait plus d'un point."}
+{"k": "label", "en": "Single point Profile with pressure and depth", "fr": "profil à point unique avec pression et profondeur"}
+{"k": "label", "en": "Spec_Ser", "fr": "Spec_Ser"}
+{"k": "definition", "en": "The series has a set of measurements at a fixed position and multiple but fixed z co-ordinate values that are not elevation (e.g. frequency or size class) varying with time. Time is stored along the primary dimension (rank 1) and the z co-ordinate along the secondary dimension (rank 0). The data parameters are 2D arrays (rank 2). Position is stored in metadata.", "fr": "La série a un ensemble de mesures à une position fixe et plusieurs mais fixes valeurs de coordonnées z qui ne sont pas une élévation (par ex. fréquence ou classe de taille) variant avec le temps. Le temps est stocké le long de la dimension primaire (rang 1) et la coordonnée z le long de la dimension secondaire (rang 0). Les paramètres de données sont des tableaux 2D (rang 2). La position est stockée en métadonnées."}
+{"k": "label", "en": "Spectrum time series", "fr": "série temporelle de spectre"}
+{"k": "label", "en": "SP_Prof_D", "fr": "SP_Prof_D"}
+{"k": "definition", "en": "The series has a single set of instantaneous measurements at a fixed position and elevation.  Z co-ordinates are included along the primary dimension (rank 1) as depth. Time and position are stored as metadata. This is to cover series that would be a profile if there was more than one point.", "fr": "La série a un seul ensemble de mesures instantanées à une position et une élévation fixes. Les coordonnées z sont incluses le long de la dimension primaire (rang 1) comme profondeur. Le temps et la position sont stockés en métadonnées. Cela couvre les séries qui seraient un profil s'il y avait plus d'un point."}
+{"k": "label", "en": "Single point Profile with depth", "fr": "profil à point unique avec profondeur"}
+{"k": "label", "en": "Yo_Yo", "fr": "Yo_Yo"}
+{"k": "definition", "en": "The series has a set of measurements at a fixed position with elevation continuously varying (values potentially different for each oscillation) over time. QXF must include both a time channel and a z co-ordinate channel on the primary (rank 1) dimension along with the data parameters. Examples are wire-crawler moorings and repeated CTD casts that have neither been binned nor split into discrete profiles. Position is held in metadata.", "fr": "La série a un ensemble de mesures à une position fixe avec une élévation variant en continu (valeurs potentiellement différentes pour chaque oscillation) au cours du temps. Le QXF doit inclure à la fois un canal temporel et un canal de coordonnée z sur la dimension primaire (rang 1) ainsi que les paramètres de données. Exemples : mouillages à câble rampant et sondages CTD répétés qui n'ont ni été binnings ni scindés en profils discrets. La position est conservée en métadonnées."}
+{"k": "label", "en": "Repeated continuous profiles", "fr": "profils continus répétés"}
+{"k": "label", "en": "Traj_3D", "fr": "Traj_3D"}
+{"k": "definition", "en": "The series has measurements at independently varying position and elevation as a function of time. Time, horizontal (e.g. latitude and longitude) and vertical (e.g. depth/height) coordinates together with data are stored along the primary dimension (rank 1). 2D trajectories may be stored as this feature type by including a z co-ordinate array set to a constant value.", "fr": "La série a des mesures à position et élévation variant indépendamment en fonction du temps. Le temps, les coordonnées horizontales (par ex. latitude et longitude) et verticales (par ex. profondeur/hauteur) ainsi que les données sont stockés le long de la dimension primaire (rang 1). Les trajectoires 2D peuvent être stockées comme ce type d'entité en incluant un ensemble de coordonnées z fixé à une valeur constante."}
+{"k": "label", "en": "Three Dimensional Trajectory", "fr": "trajectoire tridimensionnelle"}
+{"k": "label", "en": "2D_Spec_Ser", "fr": "2D_Spec_Ser"}
+{"k": "definition", "en": "The series is a time series of measurements in which each measurement has two dimensions such as directional wave spectra. In CF-compliant NetCDF this example data type would be stored in a 3D array with co-ordinates time, frequency and direction. As QXF is limited to two dimensions the data are stored in a 2D array with time as a rank 1 variable and two rank 0 variables (frequency and direction) that are both required to describe a single row. So, for directional wave spectra with 10 frequencies, 10 direction bins and 50 time steps the CF array would have dimensions (50,10,10) and the QXF array (50,100). Position and z co-ordinate are stored in metadata.", "fr": "La série est une série temporelle de mesures où chaque mesure a deux dimensions telles que les spectres de vagues directionnels. Dans un NetCDF conforme CF, ce type de données d'exemple serait stocké dans un tableau 3D avec les coordonnées temps, fréquence et direction. Le QXF étant limité à deux dimensions, les données sont stockées dans un tableau 2D avec le temps comme variable de rang 1 et deux variables de rang 0 (fréquence et direction) qui sont toutes deux requises pour décrire une seule ligne. Ainsi, pour des spectres de vagues directionnels avec 10 fréquences, 10 classes de direction et 50 pas de temps, le tableau CF aurait les dimensions (50,10,10) et le tableau QXF (50,100). La position et la coordonnée z sont stockées en métadonnées."}
+{"k": "label", "en": "Two-dimensional spectrum time series", "fr": "série temporelle de spectre bidimensionnel"}
+{"k": "label", "en": "Prof_Coll", "fr": "Prof_Coll"}
+{"k": "definition", "en": "The series has sets of measurements at multiple but constant elevations varying with both position and time. Time and horizontal spatial (e.g. latitude and longitude) coordinates are stored along the primary dimension (rank 1) with a z co-ordinate (depth or height) stored along the secondary dimension (rank 0). Data parameters are in 2D arrays (rank 2).", "fr": "La série a des ensembles de mesures à plusieurs mais constantes élévations variant à la fois avec la position et le temps. Le temps et les coordonnées spatiales horizontales (par ex. latitude et longitude) sont stockés le long de la dimension primaire (rang 1) avec une coordonnée z (profondeur ou hauteur) stockée le long de la dimension secondaire (rang 0). Les paramètres de données sont en tableaux 2D (rang 2)."}
+{"k": "label", "en": "Profile collection", "fr": "collection de profils"}
+{"k": "label", "en": "Spec_Prof", "fr": "Spec_Prof"}
+{"k": "definition", "en": "The series has a set of measurements at a fixed position and time but varying depths. Each measurement constitutes a spectrum with a non-spatial variable (e.g. grain size or bin number) on the secondary dimension (rank 0). The primary dimension (rank 1) includes a z co-ordinate (depth). Time and position are held as metadata.", "fr": "La série a un ensemble de mesures à une position et un temps fixes mais à des profondeurs variables. Chaque mesure constitue un spectre avec une variable non spatiale (par ex. taille de grain ou numéro de classe) sur la dimension secondaire (rang 0). La dimension primaire (rang 1) inclut une coordonnée z (profondeur). Le temps et la position sont conservés en métadonnées."}
+{"k": "label", "en": "Spectrum profile", "fr": "profil de spectre"}
+{"k": "label", "en": "SP_Prof_P", "fr": "SP_Prof_P"}
+{"k": "definition", "en": "The series has a single set of instantaneous measurements at a fixed position and elevation.  Data and z co-ordinate (as pressure) are included along the primary dimension (rank 1). Time and position are stored as metadata. This is to cover series that would be a profile if there was more than one point.", "fr": "La série a un seul ensemble de mesures instantanées à une position et une élévation fixes. Les données et la coordonnée z (en pression) sont incluses le long de la dimension primaire (rang 1). Le temps et la position sont stockés en métadonnées. Cela couvre les séries qui seraient un profil s'il y avait plus d'un point."}
+{"k": "label", "en": "Single point Profile with pressure", "fr": "profil à point unique avec pression"}
+{"k": "label", "en": "Grid", "fr": "Grid"}
+{"k": "definition", "en": "The series has one set of measurements per parameter stored in a 2-D array described by two co-ordinate variables that are horizontal spatial co-ordinates (e.g. latitude and longitude) with longitude along the primary dimension (rank 1) and latitude along the secondary (rank 0).  Measurements could either be a single time-snapshot or considered time-independent.", "fr": "La série a un ensemble de mesures par paramètre stocké dans un tableau 2D décrit par deux variables de coordonnées qui sont des coordonnées spatiales horizontales (par ex. latitude et longitude) avec la longitude le long de la dimension primaire (rang 1) et la latitude le long de la dimension secondaire (rang 0). Les mesures peuvent être soit un instantané unique dans le temps soit être considérées comme indépendantes du temps."}
+{"k": "label", "en": "Spatial Grid", "fr": "grille spatiale"}
+{"k": "label", "en": "Comp_Grid_Ser", "fr": "Comp_Grid_Ser"}
+{"k": "definition", "en": "The series has data stored in a set of 2D arrays along a time dimension (i.e. a time series of compressed grids). Each has cycle number as the primary dimension variable and both latitude and longitude as the secondary dimension variables. Used in BODC for compact storage of spatial grid series (e.g. OSCR data) in QXF.", "fr": "La série a des données stockées dans un ensemble de tableaux 2D le long d'une dimension temporelle (c.-à-d. une série temporelle de grilles compressées). Chacun a le numéro de cycle comme variable de dimension primaire et à la fois la latitude et la longitude comme variables de dimension secondaire. Utilisé chez BODC pour le stockage compact de séries de grilles spatiales (par ex. données OSCR) en QXF."}
+{"k": "label", "en": "Compressed spatial grid series", "fr": "série de grilles spatiales compressées"}
+{"k": "label", "en": "Prof_D", "fr": "Prof_D"}
+{"k": "definition", "en": "The series has a single set of instantaneous measurements at a fixed position over a vertical range (z).  Z co-ordinates are included along the primary dimension (rank 1) as depth. Time and position are stored as metadata.", "fr": "La série a un seul ensemble de mesures instantanées à une position fixe sur une plage verticale (z). Les coordonnées z sont incluses le long de la dimension primaire (rang 1) comme profondeur. Le temps et la position sont stockés en métadonnées."}
+{"k": "label", "en": "Profile with depth", "fr": "profil avec profondeur"}
+{"k": "label", "en": "Prof_Ser", "fr": "Prof_Ser"}
+{"k": "definition", "en": "The series has a set of measurements at a fixed position and multiple but fixed elevations at different times. Time is stored along the primary dimension (rank 1). The z co-ordinate (depth/height) is stored along the secondary dimension (rank 0). Horizontal spatial co-ordinates (e.g. latitude and longitude) are stored in metadata.", "fr": "La série a un ensemble de mesures à une position fixe et plusieurs mais fixes élévations à des moments différents. Le temps est stocké le long de la dimension primaire (rang 1). La coordonnée z (profondeur/hauteur) est stockée le long de la dimension secondaire (rang 0). Les coordonnées spatiales horizontales (par ex. latitude et longitude) sont stockées en métadonnées."}
+{"k": "label", "en": "Profile time series", "fr": "série temporelle de profils"}
+{"k": "label", "en": "VD_Prof_Ser", "fr": "VD_Prof_Ser"}
+{"k": "definition", "en": "The series has a set of measurements over time at a fixed point (position stored in metadata) and at multiple depths that can possibly vary from measurement to measurement. Each measurement constitutes a spectrum with a non-spatial variable (generally bin number) on the secondary (rank 0) dimension. The primary (rank 1) dimension includes the time variable. The z co-ordinate (depth or height) is carried with the data variables as 2D (rank 2) arrays.", "fr": "La série a un ensemble de mesures au cours du temps à un point fixe (position stockée en métadonnées) et à plusieurs profondeurs qui peuvent varier d'une mesure à l'autre. Chaque mesure constitue un spectre avec une variable non spatiale (généralement le numéro de classe) sur la dimension secondaire (rang 0). La dimension primaire (rang 1) inclut la variable temporelle. La coordonnée z (profondeur ou hauteur) est portée avec les variables de données en tableaux 2D (rang 2)."}
+{"k": "label", "en": "Variable-depth profile time series", "fr": "série temporelle de profils à profondeur variable"}
+{"k": "label", "en": "Spec_Traj", "fr": "Spec_Traj"}
+{"k": "definition", "en": "The series has a set of measurements at a fixed depth but variable times and locations. Each measurement constitutes a spectrum with a non-spatial variable (e.g. grain size or bin number) on the secondary dimension (rank 0). The primary dimension (rank 1) includes position and time variables, but no depth variable. Depth is stored in metadata.", "fr": "La série a un ensemble de mesures à une profondeur fixe mais des temps et emplacements variables. Chaque mesure constitue un spectre avec une variable non spatiale (par ex. taille de grain ou numéro de classe) sur la dimension secondaire (rang 0). La dimension primaire (rang 1) inclut les variables de position et de temps, mais pas de variable de profondeur. La profondeur est stockée en métadonnées."}
+{"k": "label", "en": "Spectrum trajectory", "fr": "trajectoire de spectre"}
+{"k": "label", "en": "Prof_PandD", "fr": "Prof_PandD"}
+{"k": "definition", "en": "The series has a single set of instantaneous measurements at a fixed position over a vertical range (z).  Z co-ordinates are included along the primary dimension (rank 1) as both pressure and depth. Time and position are stored as metadata.", "fr": "La série a un seul ensemble de mesures instantanées à une position fixe sur une plage verticale (z). Les coordonnées z sont incluses le long de la dimension primaire (rang 1) à la fois comme pression et profondeur. Le temps et la position sont stockés en métadonnées."}
+{"k": "label", "en": "Profile with pressure and depth", "fr": "profil avec pression et profondeur"}
+{"k": "label", "en": "SP_Point_Ser", "fr": "SP_Point_Ser"}
+{"k": "definition", "en": "The series has a single set of measurements at a fixed position, elevation and time. Time and data parameters are stored along the primary dimension (rank 1). Position and the z co-ordinate (depth or height) are stored in metadata. This is to cover series that would be a time series i.e. POINT if there was more than one point.", "fr": "La série a un seul ensemble de mesures à une position, une élévation et un temps fixes. Le temps et les paramètres de données sont stockés le long de la dimension primaire (rang 1). La position et la coordonnée z (profondeur ou hauteur) sont stockées en métadonnées. Cela couvre les séries qui seraient une série temporelle c.-à-d. POINT s'il y avait plus d'un point."}
+{"k": "label", "en": "Single point Point time series", "fr": "série temporelle de point unique"}
+{"k": "label", "en": "VD_Prof_Coll", "fr": "VD_Prof_Coll"}
+{"k": "definition", "en": "The series has a set of measurements along a trajectory (variable times and locations) at multiple depths that can possibly vary from measurement to measurement. Each measurement constitutes a spectrum with a non-spatial variable (generally bin number) on the secondary (rank 0) dimension. The primary (rank 1) dimension includes position and time variables. The z co-ordinate (depth or height) is carried with the data variables as 2D (rank 2) arrays.", "fr": "La série a un ensemble de mesures le long d'une trajectoire (temps et emplacements variables) à plusieurs profondeurs qui peuvent varier d'une mesure à l'autre. Chaque mesure constitue un spectre avec une variable non spatiale (généralement le numéro de classe) sur la dimension secondaire (rang 0). La dimension primaire (rang 1) inclut les variables de position et de temps. La coordonnée z (profondeur ou hauteur) est portée avec les variables de données en tableaux 2D (rang 2)."}
+{"k": "label", "en": "Variable-depth profile collection", "fr": "collection de profils à profondeur variable"}
+{"k": "label", "en": "Spec_Traj_3D", "fr": "Spec_Traj_3D"}
+{"k": "definition", "en": "The series has a set of measurements at variable times, depths and locations. Each measurement constitutes a spectrum with a non-spatial variable (e.g. grain size or bin number) on the secondary (rank 0)dimension. The primary (rank 1) dimension includes position, time variables and depth variable.", "fr": "La série a un ensemble de mesures à des temps, profondeurs et emplacements variables. Chaque mesure constitue un spectre avec une variable non spatiale (par ex. taille de grain ou numéro de classe) sur la dimension secondaire (rang 0). La dimension primaire (rang 1) inclut les variables de position, de temps et de profondeur."}
+{"k": "label", "en": "Spectrum three-dimensional trajectory", "fr": "trajectoire tridimensionnelle de spectre"}
+{"k": "label", "en": "Point_Ser", "fr": "Point_Ser"}
+{"k": "definition", "en": "The series has a single set of measurements at a fixed position and elevation varying with time. Time and data parameters are stored along the primary dimension (rank 1). Position and the z co-ordinate (depth or height) are stored in metadata.", "fr": "La série a un seul ensemble de mesures à une position fixe et une élévation variant avec le temps. Le temps et les paramètres de données sont stockés le long de la dimension primaire (rang 1). La position et la coordonnée z (profondeur ou hauteur) sont stockées en métadonnées."}
+{"k": "label", "en": "Point time series", "fr": "série temporelle de point"}
+{"k": "label", "en": "Poly_Ser", "fr": "Poly_Ser"}
+{"k": "definition", "en": "The series has a single set of measurements valid along the whole of a fixed area (e.g. flow from a submarine cable that has been relocated during the series) and fixed elevation or elevation range varying with time. Time and data parameters are stored along the primary dimension (rank 1). Position and the z co-ordinate(s) (depth or height) are stored in metadata.", "fr": "La série a un seul ensemble de mesures valides le long de toute une zone fixe (par ex. flux depuis un câble sous-marin qui a été déplacé pendant la série) et à une élévation fixe ou une plage d'élévation variant avec le temps. Le temps et les paramètres de données sont stockés le long de la dimension primaire (rang 1). La position et les coordonnées z (profondeur ou hauteur) sont stockées en métadonnées."}
+{"k": "label", "en": "Polygon time series", "fr": "série temporelle de polygone"}
+{"k": "label", "en": "Prof_P", "fr": "Prof_P"}
+{"k": "definition", "en": "The series has a single set of instantaneous measurements at a fixed position over a vertical range (z).  Data and z co-ordinate (as pressure) are included along the primary dimension (rank 1). Time and position are stored as metadata.", "fr": "La série a un seul ensemble de mesures instantanées à une position fixe sur une plage verticale (z). Les données et la coordonnée z (en pression) sont incluses le long de la dimension primaire (rang 1). Le temps et la position sont stockés en métadonnées."}
+{"k": "label", "en": "Profile with pressure", "fr": "profil avec pression"}
+{"k": "label", "en": "SP_Traj", "fr": "SP_Traj"}
+{"k": "definition", "en": "The series has measurements at a single fixed elevation, position and time. Time and horizontal spatial (e.g. latitude and longitude) coordinates together with data are stored along the primary dimension (rank 1). The z co-ordinate (depth or height) is stored in metadata. This is to cover series that would be TRAJ if there was more than one point.", "fr": "La série a des mesures à une seule élévation, position et temps fixes. Le temps et les coordonnées spatiales horizontales (par ex. latitude et longitude) ainsi que les données sont stockés le long de la dimension primaire (rang 1). La coordonnée z (profondeur ou hauteur) est stockée en métadonnées. Cela couvre les séries qui seraient TRAJ s'il y avait plus d'un point."}
+{"k": "label", "en": "Single point Trajectory", "fr": "trajectoire à point unique"}
+{"k": "label", "en": "BODC series features", "fr": "types d'entités de séries BODC"}
+{"k": "label", "en": "BODC series feature types", "fr": "types d'entités de séries du modèle sémantique des paramètres BODC"}
+{"k": "definition", "en": "Research activities carried out for the purpose of furthering our understanding of the marine environment", "fr": "Activités de recherche menées dans le but de faire progresser notre compréhension de l'environnement marin"}
+{"k": "label", "en": "Marine research (including physical sampling and remote sensing techniques)", "fr": "Recherche marine (incluant l'échantillonnage physique et les techniques de télédétection)"}
+{"k": "definition", "en": "Defence activities undertaken for the purpose of national security.", "fr": "Activités de défense entreprises dans le but de la sécurité nationale."}
+{"k": "label", "en": "Military activities", "fr": "Activités militaires"}
+{"k": "definition", "en": "Thermal or nuclear effluent from power stations", "fr": "Effluents thermiques ou nucléaires des centrales électriques"}
+{"k": "label", "en": "Power station thermal and nuclear discharges", "fr": "Rejets thermiques et nucléaires des centrales électriques"}
+{"k": "definition", "en": "The release of unwanted liquid pollutants from industrial and agricultural sources", "fr": "Le rejet de polluants liquides indésirables depuis des sources industrielles et agricoles"}
+{"k": "label", "en": "Industrial and agricultural liquid discharges", "fr": "Rejets liquides industriels et agricoles"}
+{"k": "definition", "en": "The release of solid waste consisting of everyday items discarded by the public", "fr": "Le rejet de déchets solides consistant en objets du quotidien abandonnés par le public"}
+{"k": "label", "en": "Municipal waste", "fr": "Déchets municipaux"}
+{"k": "definition", "en": "The release of waste matter such as faeces or dirty water from sewage treatment facilities", "fr": "Le rejet de matières résiduaires telles que des excréments ou de l'eau sale depuis des installations de traitement des eaux usées"}
+{"k": "label", "en": "Sewerage disposal", "fr": "Évacuation des égouts"}
+{"k": "definition", "en": "The release of unwanted gaseous by-products of human activities", "fr": "Le rejet de sous-produits gazeux indésirables des activités humaines"}
+{"k": "label", "en": "Waste gas emissions", "fr": "Émissions de gaz résiduaires"}
+{"k": "definition", "en": "The targeted removal of fish species using static hooks and lines that are left in place for a period of time before being recovered to retrieve the caught fish. Example gear types: hand and pole lines (LHP) and long lines (LL, LLD, LLS) (classifications from United Nations Food and Agriculture Organisation International Standard Statistical Classification of Fishing Gear (ISSCFG))", "fr": "Le prélèvement ciblé d'espèces de poissons utilisant des hameçons et lignes statiques laissés en place pendant une période avant d'être récupérés pour récupérer les poissons capturés. Types d'engins exemples : lignes à main et à canne (LHP) et palangres (LL, LLD, LLS) (classifications de la classification statistique internationale normalisée des engins de pêche de l'Organisation des Nations unies pour l'alimentation et l'agriculture (ISSCFG))"}
+{"k": "label", "en": "Fishing - lines", "fr": "Pêche - lignes"}
+{"k": "definition", "en": "The targeted removal of fish species (usually for commercial purposes) using mobile mid-water gears deployed in the water column. Example gear types: mid-water otter trawls (OTM) and mid-water pair trawls (PTM) (classifications from United Nations Food and Agriculture Organisation International Standard Statistical Classification of Fishing Gear (ISSCFG))", "fr": "Le prélèvement ciblé d'espèces de poissons (généralement à des fins commerciales) utilisant des engins pélagiques mobiles déployés dans la colonne d'eau. Types d'engins exemples : chaluts pélagiques à Panels (OTM) et chaluts pélagiques en paire (PTM) (classifications de la classification statistique internationale normalisée des engins de pêche de l'Organisation des Nations unies pour l'alimentation et l'agriculture (ISSCFG))"}
+{"k": "label", "en": "Fishing - pelagic trawling", "fr": "Pêche - chalutage pélagique"}
+{"k": "definition", "en": "The commercialization of new products based on the exploitation of useful organic compounds from biological resources.", "fr": "La commercialisation de nouveaux produits basés sur l'exploitation de composés organiques utiles issus des ressources biologiques."}
+{"k": "label", "en": "Extraction of genetic resources e.g. bioprospecting and maerl (blue technology)", "fr": "Extraction de ressources génétiques par ex. bioprospection et maerl (technologie bleue)"}
+{"k": "definition", "en": "The targeted removal of fish species for recreational purposes only", "fr": "Le prélèvement ciblé d'espèces de poissons à des fins récréatives uniquement"}
+{"k": "label", "en": "Fishing - recreational", "fr": "Pêche - récréative"}
+{"k": "definition", "en": "The targeted removal of fish species (usually for commercial purposes) using towed trawls in contact with or close to the sea floor. Example gear types: otter trawls (OT, OTB, OTT), pair trawls (PTB), beam trawls (TBB) and nephrop trawls (TBN) (classifications from United Nations Food and Agriculture Organisation International Standard Statistical Classification of Fishing Gear (ISSCFG))", "fr": "Le prélèvement ciblé d'espèces de poissons (généralement à des fins commerciales) utilisant des chaluts tractés en contact avec ou près du fond marin. Types d'engins exemples : chaluts à Panels (OT, OTB, OTT), chaluts en paire (PTB), chaluts à perches (TBB) et chaluts à langoustines (TBN) (classifications de la classification statistique internationale normalisée des engins de pêche de l'Organisation des Nations unies pour l'alimentation et l'agriculture (ISSCFG))"}
+{"k": "label", "en": "Fishing - demersal trawling", "fr": "Pêche - chalutage démersal"}
+{"k": "definition", "en": "The targeted removal of fish species (usually for commercial purposes) through the process of dredging. Example gear types: boat dredges (DRB) and mechanised dredges (HMD) (classifications from United Nations Food and Agriculture Organisation International Standard Statistical Classification of Fishing Gear (ISSCFG))", "fr": "Le prélèvement ciblé d'espèces de poissons (généralement à des fins commerciales) par le procédé de dragage. Types d'engins exemples : dragues de navire (DRB) et dragues mécanisées (HMD) (classifications de la classification statistique internationale normalisée des engins de pêche de l'Organisation des Nations unies pour l'alimentation et l'agriculture (ISSCFG))"}
+{"k": "label", "en": "Fishing - dredging", "fr": "Pêche - dragage"}
+{"k": "definition", "en": "The targeted removal of fish species using portable traps that are left in place for a period of time before being recovered to retrieve the caught fish. Example gear types: traps (not specified) (FIX) and pots (FPO) (classifications from United Nations Food and Agriculture Organisation International Standard Statistical Classification of Fishing Gear (ISSCFG))", "fr": "Le prélèvement ciblé d'espèces de poissons utilisant des pièges portables laissés en place pendant une période avant d'être récupérés pour récupérer les poissons capturés. Types d'engins exemples : pièges (non spécifiés) (FIX) et casiers (FPO) (classifications de la classification statistique internationale normalisée des engins de pêche de l'Organisation des Nations unies pour l'alimentation et l'agriculture (ISSCFG))"}
+{"k": "label", "en": "Fishing - traps (potting/creeling)", "fr": "Pêche - pièges (casier)"}
+{"k": "definition", "en": "The gathering and removal of wild seaweed and other sea based foods.", "fr": "La cueillette et le prélèvement d'algues sauvages et autres aliments marins."}
+{"k": "label", "en": "Harvesting - seaweed and other sea-based food", "fr": "Récolte - algues et autres aliments marins"}
+{"k": "definition", "en": "The targeted removal of fish species (usually for commercial purposes) using seines (a large fishing net that hangs vertically in the water by means of floats at the top and weights at the bottom). Example gear types: purse seines (PS), beach seines (SB), Danish seines (SDN), pair seines (SPR), Scottish seines (SSC) and seines (not specified) (SX) (classifications from United Nations Food and Agriculture Organisation International Standard Statistical Classification of Fishing Gear (ISSCFG))", "fr": "Le prélèvement ciblé d'espèces de poissons (généralement à des fins commerciales) utilisant des sennes (un grand filet de pêche qui pend verticalement dans l'eau au moyen de flotteurs en haut et de lests en bas). Types d'engins exemples : sennes à poche (PS), sennes de plage (SB), sennes danoises (SDN), sennes en paire (SPR), sennes écossaises (SSC) et sennes (non spécifiées) (SX) (classifications de la classification statistique internationale normalisée des engins de pêche de l'Organisation des Nations unies pour l'alimentation et l'agriculture (ISSCFG))"}
+{"k": "label", "en": "Fishing - seines", "fr": "Pêche - sennes"}
+{"k": "definition", "en": "The targeted removal of fish species using static nets that are left in place for a period of time before being recovered to retrieve the caught fish. Example gear types: gillnets (GEN, GN, GNC, GND, GNS, GTR) and boat operated lift nets (LNB) (classifications from United Nations Food and Agriculture Organisation International Standard Statistical Classification of Fishing Gear (ISSCFG))", "fr": "Le prélèvement ciblé d'espèces de poissons utilisant des filets statiques laissés en place pendant une période avant d'être récupérés pour récupérer les poissons capturés. Types d'engins exemples : filets maillants (GEN, GN, GNC, GND, GNS, GTR) et filets à levage opérés par navire (LNB) (classifications de la classification statistique internationale normalisée des engins de pêche de l'Organisation des Nations unies pour l'alimentation et l'agriculture (ISSCFG))"}
+{"k": "label", "en": "Fishing - nets (static)", "fr": "Pêche - filets (statiques)"}
+{"k": "definition", "en": "The modification of the marine environment for the purpose of nature conservation", "fr": "La modification de l'environnement marin dans le but de la conservation de la nature"}
+{"k": "label", "en": "Conservation and environmental protection (artificial reefs etc.)", "fr": "Conservation et protection de l'environnement (récifs artificiels etc.)"}
+{"k": "definition", "en": "The construction and operation of cables (telecommunications and power) and pipelines laid on the sea floor", "fr": "La construction et l'exploitation de câbles (télécommunications et énergie) et de pipelines posés sur le fond marin"}
+{"k": "label", "en": "Submarine cable and pipeline operations", "fr": "Opérations de câbles et pipelines sous-marins"}
+{"k": "definition", "en": "The deposition/ injection of natural gases or carbon into identified submarine storage sites.", "fr": "Le dépôt/injection de gaz naturels ou de carbone dans des sites de stockage sous-marins identifiés."}
+{"k": "label", "en": "Gas storage operations (carbon capture and natural gas storage)", "fr": "Opérations de stockage de gaz (captage de carbone et stockage de gaz naturel)"}
+{"k": "definition", "en": "Historic anthropogenic structures such as wrecks, sculptures and foundations", "fr": "Structures anthropiques historiques telles que les épaves, sculptures et fondations"}
+{"k": "label", "en": "Cultural and heritage sites (e.g. wrecks, sculptures, foundations etc.)", "fr": "Sites culturels et patrimoniaux (par ex. épaves, sculptures, fondations etc.)"}
+{"k": "definition", "en": "The farming (enhanced production) of fin-fish under controlled conditions.", "fr": "L'élevage (production augmentée) de poissons à nageoires dans des conditions contrôlées."}
+{"k": "label", "en": "Aquaculture - fin fish", "fr": "Aquaculture - poissons à nageoires"}
+{"k": "definition", "en": "The farming (enhanced production) of shellfish under controlled conditions.", "fr": "L'élevage (production augmentée) de coquillages dans des conditions contrôlées."}
+{"k": "label", "en": "Aquaculture - shellfish", "fr": "Aquaculture - coquillages"}
+{"k": "definition", "en": "The farming (enhanced production) of macro-algae under controlled conditions.", "fr": "L'élevage (production augmentée) de macroalgues dans des conditions contrôlées."}
+{"k": "label", "en": "Aquaculture - macro algae", "fr": "Aquaculture - macroalgues"}
+{"k": "definition", "en": "The construction of facilities to harbour vessels", "fr": "La construction d'installations pour abriter les navires"}
+{"k": "label", "en": "Coastal docks, ports and marinas", "fr": "Quais, ports et marinas côtiers"}
+{"k": "definition", "en": "The alteration of the state of the coastline and/or seabed for the purpose of land use or defence", "fr": "L'altération de l'état du littoral et/ou du fond marin dans le but d'usage des terres ou de défense"}
+{"k": "label", "en": "Coastal defence and land claim protection (including beach replenishment)", "fr": "Défense côtière et protection de la reprise de terrain (incluant le rechargement des plages)"}
+{"k": "definition", "en": "The construction and operation of devices designed to harness tidal power", "fr": "La construction et l'exploitation de dispositifs conçus pour exploiter l'énergie des marées"}
+{"k": "label", "en": "Renewable energy - tidal (excluding cables)", "fr": "Énergie renouvelable - marée (câbles exclus)"}
+{"k": "definition", "en": "The construction and operation of offshore wind farms", "fr": "La construction et l'exploitation de parcs éoliens offshore"}
+{"k": "label", "en": "Renewable energy - wind (excluding cables)", "fr": "Énergie renouvelable - éolien (câbles exclus)"}
+{"k": "definition", "en": "Activities associated with the extraction of marine hydrocarbons including: exploration, construction, operation and decommissioning", "fr": "Activités associées à l'extraction d'hydrocarbures marins incluant : exploration, construction, exploitation et démantèlement"}
+{"k": "label", "en": "Marine hydrocarbon extraction (excluding pipelines)", "fr": "Extraction d'hydrocarbures marins (pipelines exclus)"}
+{"k": "definition", "en": "The construction and operation of devices designed to harness wave energy", "fr": "La construction et l'exploitation de dispositifs conçus pour exploiter l'énergie des vagues"}
+{"k": "label", "en": "Renewable energy - wave (excluding cables)", "fr": "Énergie renouvelable - houle (câbles exclus)"}
+{"k": "definition", "en": "Activities associated with designated tourist sites such as public beaches and holiday resorts", "fr": "Activités associées aux sites touristiques désignés tels que les plages publiques et les stations balnéaires"}
+{"k": "label", "en": "Coastal tourist sites", "fr": "Sites touristiques côtiers"}
+{"k": "definition", "en": "Any maritime activity expressly undertaken for the purpose of enjoyment, amusement or pleasure. Examples include: boating, yachting, diving etc.", "fr": "Toute activité maritime expressément entreprise dans le but de plaisir, amusement ou divertissement. Exemples : plaisance, yachting, plongée etc."}
+{"k": "label", "en": "Recreational activities", "fr": "Activités récréatives"}
+{"k": "definition", "en": "The disposal of dredge materials originating from the seabed", "fr": "L'élimination de matériaux de dragage provenant du fond marin"}
+{"k": "label", "en": "Dredge and spoil disposal", "fr": "Dépôt d'élimination de dragages et déblais"}
+{"k": "definition", "en": "The extraction of aggregate materials (sand, gravel and crushed rock) from the seabed for economic profit i.e. use in the construction industry.", "fr": "L'extraction de matériaux agrégats (sable, gravier et roche concassée) du fond marin à des fins de profit économique c.-à-d. usage dans l'industrie de la construction."}
+{"k": "label", "en": "Extraction - sand and gravel (aggregates)", "fr": "Extraction - sable et gravier (agrégats)"}
+{"k": "definition", "en": "The extraction of materials from the seabed expressly for the purpose of aiding navigation. This includes both capital and maintenance dredging.", "fr": "L'extraction de matériaux du fond marin expressément dans le but d'aider à la navigation. Cela inclut le dragage capital et d'entretien."}
+{"k": "label", "en": "Extraction - navigational dredging (capital and maintenance)", "fr": "Extraction - dragage de navigation (capital et entretien)"}
+{"k": "definition", "en": "The extraction of stone or other materials from quarries (typically large, deep pits) situated directly on the coast.", "fr": "L'extraction de pierre ou autres matériaux de carrières (typiquement de grandes fosses profondes) situées directement sur la côte."}
+{"k": "label", "en": "Extraction - rock or mineral (coastal quarrying)", "fr": "Extraction - roche ou minéral (exploitation côtière de carrières)"}
+{"k": "definition", "en": "The temporary or permanent removal of water from the marine environment", "fr": "Le prélèvement temporaire ou permanent d'eau de l'environnement marin"}
+{"k": "label", "en": "Extraction - water (abstraction)", "fr": "Extraction - eau (prélèvement)"}
+{"k": "definition", "en": "The operation of vessels within port e.g. mooring, beaching, launching, anchoring etc.", "fr": "L'exploitation des navires dans le port par ex. amarrage, échouage, lancement, mouillage etc."}
+{"k": "label", "en": "Shipping - port operations", "fr": "Navigation maritime - opérations portuaires"}
+{"k": "definition", "en": "The passage or transport of vessels at sea.", "fr": "Le passage ou le transport de navires en mer."}
+{"k": "label", "en": "Shipping - general", "fr": "Navigation maritime - général"}
+{"k": "label", "en": "JNCC human activity standard list", "fr": "liste standard JNCC d'activités humaines"}
+{"k": "label", "en": "JNCC standard list of human activities in the marine environment", "fr": "liste standard JNCC des activités humaines dans l'environnement marin"}
+{"k": "label", "en": "gibraltar_strait", "fr": "détroit de Gibraltar"}
+{"k": "label", "en": "indonesian_throughflow", "fr": "courant indonésien"}
+{"k": "label", "en": "fram_strait", "fr": "détroit de Fram"}
+{"k": "label", "en": "lake_chad", "fr": "lac Tchad"}
+{"k": "label", "en": "english_channel", "fr": "Manche"}
+{"k": "label", "en": "northern_hemisphere", "fr": "hémisphère nord"}
+{"k": "label", "en": "mozambique_channel", "fr": "canal du Mozambique"}
+{"k": "label", "en": "windward_passage", "fr": "passage Windward"}
+{"k": "definition", "en": "The atlantic_arctic_ocean region comprises the entire geographic region covered by both the Atlantic and Arctic oceans.", "fr": "La région atlantic_arctic_ocean comprend l'ensemble de la région géographique couverte à la fois par les océans Atlantique et Arctique."}
+{"k": "label", "en": "atlantic_artic_ocean", "fr": "océan Atlantique-Arctique"}
+{"k": "label", "en": "lake_baykal", "fr": "lac Baïkal"}
+{"k": "label", "en": "great_lakes", "fr": "Grands Lacs"}
+{"k": "label", "en": "canadian_archipelago", "fr": "archipel canadien"}
+{"k": "label", "en": "iceland_faroe_channel", "fr": "canal Islande-Féroé"}
+{"k": "label", "en": "taiwan_luzon_straits", "fr": "détroits de Taïwan-Luzon"}
+{"k": "label", "en": "global_ocean", "fr": "océan global"}
+{"k": "definition", "en": "A biogeographic region of sea, comprising the tropical waters of the Indian Ocean, the tropical western and central Pacific Ocean, and the seas connecting the two around Indonesia. The indo_pacific_ocean region does not include the temperate and polar regions of the Indian and Pacific oceans, nor the tropical eastern Pacific. This is distinct from the indian_pacific_ocean region.", "fr": "Une région biogéographique de mer, comprenant les eaux tropicales de l'océan Indien, l'ouest et le centre tropicaux de l'océan Pacifique et les mers reliant les deux autour de l'Indonésie. La région indo_pacific_ocean n'inclut pas les régions tempérées et polaires des océans Indien et Pacifique, ni le Pacifique oriental tropical. Cela est distinct de la région indian_pacific_ocean."}
+{"k": "label", "en": "indo_pacific_ocean", "fr": "océan Indopacifique"}
+{"k": "label", "en": "lake_malawi", "fr": "lac Malawi"}
+{"k": "label", "en": "drake_passage", "fr": "passage de Drake"}
+{"k": "definition", "en": "The indian_pacific_ocean region comprises the entire geographic region covered by both the Indian and Pacific oceans. This is distinct from the indo_pacific_ocean region.", "fr": "La région indian_pacific_ocean comprend l'ensemble de la région géographique couverte à la fois par les océans Indien et Pacifique. Cela est distinct de la région indo_pacific_ocean."}
+{"k": "label", "en": "indian_pacific_ocean", "fr": "océan Indien-Pacifique"}
+{"k": "label", "en": "greenland", "fr": "Groenland"}
+{"k": "label", "en": "central_america", "fr": "Amérique centrale"}
+{"k": "label", "en": "bering_strait", "fr": "détroit de Béring"}
+{"k": "label", "en": "contiguous_united_states", "fr": "États-Unis contigus"}
+{"k": "label", "en": "lake_victoria", "fr": "lac Victoria"}
+{"k": "label", "en": "faroe_scotland_channel", "fr": "canal Féroé-Écosse"}
+{"k": "label", "en": "denmark_strait", "fr": "détroit du Danemark"}
+{"k": "label", "en": "lake_tanganyika", "fr": "lac Tanganyika"}
+{"k": "label", "en": "florida_bahamas_strait", "fr": "détroit de Floride-Bahamas"}
+{"k": "label", "en": "barents_opening", "fr": "ouverture de Barents"}
+{"k": "label", "en": "global_land", "fr": "terre globale"}
+{"k": "label", "en": "pacific_equatorial_undercurrent", "fr": "sous-courant équatorial du Pacifique"}
+{"k": "label", "en": "southern_hemisphere", "fr": "hémisphère sud"}
+{"k": "label", "en": "davis_strait", "fr": "détroit de Davis"}
+{"k": "label", "en": "north_sea", "fr": "mer du Nord"}
+{"k": "label", "en": "southern_ocean", "fr": "océan Austral"}
+{"k": "label", "en": "arabian_sea", "fr": "mer d'Arabie"}
+{"k": "label", "en": "atlantic_ocean", "fr": "océan Atlantique"}
+{"k": "label", "en": "weddell_sea", "fr": "mer de Weddell"}
+{"k": "label", "en": "chukchi_sea", "fr": "mer des Tchouktches"}
+{"k": "label", "en": "indian_ocean", "fr": "océan Indien"}
+{"k": "label", "en": "ross_sea", "fr": "mer de Ross"}
+{"k": "label", "en": "norwegian_sea", "fr": "mer de Norvège"}
+{"k": "label", "en": "yellow_sea", "fr": "mer Jaune"}
+{"k": "label", "en": "asia", "fr": "Asie"}
+{"k": "label", "en": "gulf_of_mexico", "fr": "golfe du Mexique"}
+{"k": "label", "en": "beaufort_sea", "fr": "mer de Beaufort"}
+{"k": "label", "en": "east_china_sea", "fr": "mer de Chine orientale"}
+{"k": "label", "en": "aral_sea", "fr": "mer d'Aral"}
+{"k": "label", "en": "caribbean_sea", "fr": "mer des Caraïbes"}
+{"k": "label", "en": "south_china_sea", "fr": "mer de Chine méridionale"}
+{"k": "label", "en": "persian_gulf", "fr": "golfe Persique"}
+{"k": "label", "en": "black_sea", "fr": "mer Noire"}
+{"k": "label", "en": "antarctica", "fr": "Antarctique"}
+{"k": "label", "en": "arctic_ocean", "fr": "océan Arctique"}
+{"k": "label", "en": "baltic_sea", "fr": "mer Baltique"}
+{"k": "label", "en": "bering_sea", "fr": "mer de Béring"}
+{"k": "label", "en": "europe", "fr": "Europe"}
+{"k": "label", "en": "eurasia", "fr": "Eurasie"}
+{"k": "label", "en": "north_america", "fr": "Amérique du Nord"}
+{"k": "label", "en": "barents_sea", "fr": "mer de Barents"}
+{"k": "label", "en": "africa", "fr": "Afrique"}
+{"k": "label", "en": "south_america", "fr": "Amérique du Sud"}
+{"k": "label", "en": "irish_sea", "fr": "mer d'Irlande"}
+{"k": "label", "en": "gulf_of_alaska", "fr": "golfe d'Alaska"}
+{"k": "label", "en": "sea_of_okhotsk", "fr": "mer d'Okhotsk"}
+{"k": "label", "en": "red_sea", "fr": "mer Rouge"}
+{"k": "label", "en": "caspian_sea", "fr": "mer Caspienne"}
+{"k": "label", "en": "mediterranean_sea", "fr": "mer Méditerranée"}
+{"k": "label", "en": "hudson_bay", "fr": "baie d'Hudson"}
+{"k": "label", "en": "bellingshausen_sea", "fr": "mer de Bellingshausen"}
+{"k": "label", "en": "pacific_ocean", "fr": "océan Pacifique"}
+{"k": "label", "en": "sea_of_japan", "fr": "mer du Japon"}
+{"k": "label", "en": "australia", "fr": "Australie"}
+{"k": "label", "en": "global", "fr": "global"}
+{"k": "label", "en": "CF Region Names", "fr": "noms de régions CF"}
+{"k": "label", "en": "Climate and Forecast Standardized Region Names", "fr": "noms de régions normalisés Climate and Forecast"}
+{"k": "label", "en": "Test 13", "fr": "Test 13"}
+{"k": "definition", "en": "Stuck Value test. Test binary ID = 8192", "fr": "Test de valeur bloquée. ID binaire du test = 8192"}
+{"k": "label", "en": "Stuck Value test", "fr": "test de valeur bloquée"}
+{"k": "label", "en": "Test 23", "fr": "Test 23"}
+{"k": "definition", "en": "Interim rtqc flag scheme for data deeper than 2000 dbar. Test binary ID = 8388608", "fr": "Schéma de drapeaux rtqc intérimaire pour données plus profondes que 2000 dbar. ID binaire du test = 8388608"}
+{"k": "label", "en": "Interim rtqc flag scheme for data deeper than 2000 dbar", "fr": "schéma de drapeaux rtqc intérimaire pour données plus profondes que 2000 dbar"}
+{"k": "label", "en": "Test 25", "fr": "Test 25"}
+{"k": "definition", "en": "MEDian with a Distance (MEDD) test. Test binary ID = 33554432", "fr": "Test MEDD (MEDian with a Distance). ID binaire du test = 33554432"}
+{"k": "label", "en": "MEDD test", "fr": "test MEDD"}
+{"k": "label", "en": "Test 9", "fr": "Test 9"}
+{"k": "definition", "en": "Spike test. Test binary ID = 512", "fr": "Test de pic. ID binaire du test = 512"}
+{"k": "label", "en": "Spike test", "fr": "test de pic"}
+{"k": "label", "en": "Test 11", "fr": "Test 11"}
+{"k": "definition", "en": "Gradient test. Test binary ID = 2048", "fr": "Test de gradient. ID binaire du test = 2048"}
+{"k": "label", "en": "Gradient test", "fr": "test de gradient"}
+{"k": "label", "en": "Test 7", "fr": "Test 7"}
+{"k": "definition", "en": "Regional Global Parameter test. Test binary ID = 128", "fr": "Test de paramètre régional global. ID binaire du test = 128"}
+{"k": "label", "en": "Regional Global Parameter test", "fr": "test de paramètre régional global"}
+{"k": "label", "en": "Test 2", "fr": "Test 2"}
+{"k": "definition", "en": "Impossible Date test. Test binary ID = 4", "fr": "Test de date impossible. ID binaire du test = 4"}
+{"k": "label", "en": "Impossible Date test", "fr": "test de date impossible"}
+{"k": "label", "en": "Test 18", "fr": "Test 18"}
+{"k": "definition", "en": "Frozen profile test. Test binary ID = 261144", "fr": "Test de profil gelé. ID binaire du test = 261144"}
+{"k": "label", "en": "Frozen profile test", "fr": "test de profil gelé"}
+{"k": "label", "en": "Test 16", "fr": "Test 16"}
+{"k": "definition", "en": "Gross Salinity or Temperature Sensor Drift test. Test binary ID = 65536", "fr": "Test de dérive grossière des capteurs de salinité ou température. ID binaire du test = 65536"}
+{"k": "label", "en": "Gross Salinity or Temperature Sensor Drift test", "fr": "test de dérive grossière des capteurs de salinité ou température"}
+{"k": "label", "en": "Test 17", "fr": "Test 17"}
+{"k": "definition", "en": "Visual QC test. Test binary ID = 131072", "fr": "Test de contrôle qualité visuel. ID binaire du test = 131072"}
+{"k": "label", "en": "Visual QC test", "fr": "test de contrôle qualité visuel"}
+{"k": "label", "en": "Test 26", "fr": "Test 26"}
+{"k": "definition", "en": "TEMP_CNDC test applied to RBRargo3|2K, test added in July 2022. CTD data (< 2000 dbar) (TEMP_CNDC is used in the long timescale thermal inertia correction for RBR salinity data. This test aims to identify vertical profiles where TEMP_CNDC is of bad quality and thus unsuitable for use in the real-time adjustment of RBR salinity data.) Test 26 binary id = 67 108 864.", "fr": "Test TEMP_CNDC appliqué à RBRargo3|2K, test ajouté en juillet 2022. Données CTD (< 2000 dbar) (TEMP_CNDC est utilisé dans la correction d'inertie thermique à long terme pour les données de salinité RBR. Ce test vise à identifier les profils verticaux où TEMP_CNDC est de mauvaise qualité et donc inadapté à l'ajustement en temps réel des données de salinité RBR.) ID binaire du test 26 = 67 108 864."}
+{"k": "label", "en": "TEMP_CNDC test applied to RBRargo3 2K", "fr": "test TEMP_CNDC appliqué à RBRargo3 2K"}
+{"k": "label", "en": "Test 3", "fr": "Test 3"}
+{"k": "definition", "en": "Impossible Location test. Test binary ID = 8", "fr": "Test de position impossible. ID binaire du test = 8"}
+{"k": "label", "en": "Impossible Location test", "fr": "test de position impossible"}
+{"k": "label", "en": "Test 14", "fr": "Test 14"}
+{"k": "definition", "en": "Density Inversion test. Test binary ID = 16384", "fr": "Test d'inversion de densité. ID binaire du test = 16384"}
+{"k": "label", "en": "Density Inversion test", "fr": "test d'inversion de densité"}
+{"k": "label", "en": "Test 4", "fr": "Test 4"}
+{"k": "definition", "en": "Position on Land test. Test binary ID = 16", "fr": "Test de position à terre. ID binaire du test = 16"}
+{"k": "label", "en": "Position on Land test", "fr": "test de position à terre"}
+{"k": "label", "en": "Test 24", "fr": "Test 24"}
+{"k": "definition", "en": "Interim rtqc flag scheme for data from experimental sensors. Test binary ID = 16777216", "fr": "Schéma de drapeaux rtqc intérimaire pour données de capteurs expérimentaux. ID binaire du test = 16777216"}
+{"k": "label", "en": "Interim rtqc flag scheme for data from experimental sensors", "fr": "schéma de drapeaux rtqc intérimaire pour données de capteurs expérimentaux"}
+{"k": "label", "en": "Test 1", "fr": "Test 1"}
+{"k": "definition", "en": "Platform Identification test. Test binary ID = 2", "fr": "Test d'identification de plateforme. ID binaire du test = 2"}
+{"k": "label", "en": "Platform Identification test", "fr": "test d'identification de plateforme"}
+{"k": "label", "en": "Test 12", "fr": "Test 12"}
+{"k": "definition", "en": "Digit Rollover test. Test binary ID = 4096", "fr": "Test de retournement de chiffre. ID binaire du test = 4096"}
+{"k": "label", "en": "Digit Rollover test", "fr": "test de retournement de chiffre"}
+{"k": "label", "en": "Test 5", "fr": "Test 5"}
+{"k": "definition", "en": "Impossible Speed test. Test binary ID = 32", "fr": "Test de vitesse impossible. ID binaire du test = 32"}
+{"k": "label", "en": "Impossible Speed test", "fr": "test de vitesse impossible"}
+{"k": "label", "en": "Test 15", "fr": "Test 15"}
+{"k": "definition", "en": "Supplemental sensor exclusion list test. Test binary ID = 32768", "fr": "Test de liste d'exclusion des capteurs supplémentaires. ID binaire du test = 32768"}
+{"k": "label", "en": "Supplemental sensor exclusion list test", "fr": "test de liste d'exclusion des capteurs supplémentaires"}
+{"k": "label", "en": "Test 21", "fr": "Test 21"}
+{"k": "definition", "en": "Near-surface unpumped CTD salinity test. Test binary ID = 2097152", "fr": "Test de salinité CTD non pompée près de la surface. ID binaire du test = 2097152"}
+{"k": "label", "en": "Near-surface unpumped CTD salinity test", "fr": "test de salinité CTD non pompée près de la surface"}
+{"k": "label", "en": "Test 10", "fr": "Test 10"}
+{"k": "definition", "en": "Top and Bottom Spike test. Test binary ID = 1024", "fr": "Test de pic haut et bas. ID binaire du test = 1024"}
+{"k": "label", "en": "Top and Bottom Spike test", "fr": "test de pic haut et bas"}
+{"k": "label", "en": "Test 8", "fr": "Test 8"}
+{"k": "definition", "en": "Pressure Increasing test. Test binary ID = 256", "fr": "Test de pression croissante. ID binaire du test = 256"}
+{"k": "label", "en": "Pressure Increasing test", "fr": "test de pression croissante"}
+{"k": "label", "en": "Test 20", "fr": "Test 20"}
+{"k": "definition", "en": "Questionable Argos position test. Test binary ID = 1048576", "fr": "Test de position Argos douteuse. ID binaire du test = 1048576"}
+{"k": "label", "en": "Questionable Argos position test", "fr": "test de position Argos douteuse"}
+{"k": "label", "en": "Test 6", "fr": "Test 6"}
+{"k": "definition", "en": "Global Range test. Test binary ID = 64", "fr": "Test de plage globale. ID binaire du test = 64"}
+{"k": "label", "en": "Global Range test", "fr": "test de plage globale"}
+{"k": "label", "en": "Test 19", "fr": "Test 19"}
+{"k": "definition", "en": "Deepest pressure test. Test binary ID = 524288", "fr": "Test de pression maximale. ID binaire du test = 524288"}
+{"k": "label", "en": "Deepest pressure test", "fr": "test de pression maximale"}
+{"k": "label", "en": "Test 22", "fr": "Test 22"}
+{"k": "definition", "en": "Near-surface mixed air/water test. Test binary ID = 4194304", "fr": "Test de mélange air/eau près de la surface. ID binaire du test = 4194304"}
+{"k": "label", "en": "Near-surface mixed air/water test", "fr": "test de mélange air/eau près de la surface"}
+{"k": "label", "en": "RTQC_TESTID", "fr": "RTQC_TESTID"}
+{"k": "label", "en": "Argo real-time quality-control test identifiers", "fr": "identifiants de tests de contrôle qualité en temps réel Argo"}
+{"k": "label", "en": "internal_vacuum", "fr": "internal_vacuum"}
+{"k": "definition", "en": "Issues with the internal vacuum have been identified.", "fr": "Des problèmes avec le vide interne ont été identifiés."}
+{"k": "label", "en": "internal vacuum", "fr": "vide interne"}
+{"k": "label", "en": "grounded", "fr": "grounded"}
+{"k": "definition", "en": "Single or repeated groundings at the seafloor may have resulted in the premature loss of the float.", "fr": "Un ou plusieurs échouages sur le fond marin peuvent avoir entraîné la perte prématurée du flotteur."}
+{"k": "label", "en": "beached", "fr": "beached"}
+{"k": "definition", "en": "The float beached at the coastline.", "fr": "Le flotteur s'est échoué sur le littoral."}
+{"k": "label", "en": "recovered_intentional", "fr": "recovered_intentional"}
+{"k": "definition", "en": "The float was recovered deliberately as a result of an Argo community initiative.", "fr": "Le flotteur a été récupéré délibérément dans le cadre d'une initiative de la communauté Argo."}
+{"k": "label", "en": "recovered intentional", "fr": "récupéré intentionnellement"}
+{"k": "label", "en": "battery_failure", "fr": "battery_failure"}
+{"k": "definition", "en": "The float exhausted its battery after an unexpected level of operation at sea.", "fr": "Le flotteur a épuisé sa batterie après un niveau de fonctionnement en mer imprévu."}
+{"k": "label", "en": "battery failure", "fr": "panne de batterie"}
+{"k": "label", "en": "transfer_ownership", "fr": "transfer_ownership"}
+{"k": "definition", "en": "The float mission has been closed due to a transfer of ownership of the float during its mission (country, program, institution, etc).", "fr": "La mission du flotteur a été clôturée en raison d'un transfert de propriété du flotteur pendant sa mission (pays, programme, institution, etc.)."}
+{"k": "label", "en": "transfer ownership", "fr": "transfert de propriété"}
+{"k": "label", "en": "recovered_unintentional", "fr": "recovered_unintentional"}
+{"k": "definition", "en": "The float was picked up by a ship (fishermen, etc).", "fr": "Le flotteur a été récupéré par un navire (pêcheurs, etc.)."}
+{"k": "label", "en": "recovered unintentional", "fr": "récupéré non intentionnellement"}
+{"k": "label", "en": "sensor_other", "fr": "sensor_other"}
+{"k": "definition", "en": "The defect of any other sensor than CTD equipping the float resulted in the float being inoperant.", "fr": "Le défaut de tout autre capteur que la CTD équipant le flotteur a rendu le flotteur inopérant."}
+{"k": "label", "en": "sensor other", "fr": "autre capteur"}
+{"k": "label", "en": "sensor_ctd", "fr": "sensor_ctd"}
+{"k": "definition", "en": "The defect of the primary CTD sensor equipping the float resulted in the float being inoperant.", "fr": "Le défaut du capteur CTD principal équipant le flotteur a rendu le flotteur inopérant."}
+{"k": "label", "en": "sensor ctd", "fr": "capteur ctd"}
+{"k": "label", "en": "iced", "fr": "iced"}
+{"k": "definition", "en": "The float permanently left under sea ice.", "fr": "Le flotteur est resté définitivement sous la banquise."}
+{"k": "label", "en": "unchecked", "fr": "unchecked"}
+{"k": "definition", "en": "Default value - no investigation on the float ending cause has been conducted yet.", "fr": "Valeur par défaut - aucune investigation sur la cause de fin du flotteur n'a encore été menée."}
+{"k": "label", "en": "manual", "fr": "manual"}
+{"k": "definition", "en": "Use of downlink to terminate the float mission.", "fr": "Utilisation du downlink pour terminer la mission du flotteur."}
+{"k": "label", "en": "deployment", "fr": "deployment"}
+{"k": "definition", "en": "Issues with the deployment procedure resulted in the loss of the float (e.g. shocks, unwanted items left attached to the float, etc).", "fr": "Des problèmes avec la procédure de déploiement ont entraîné la perte du flotteur (par ex. chocs, objets indésirables restés attachés au flotteur, etc.)."}
+{"k": "label", "en": "buoyancy", "fr": "buoyancy"}
+{"k": "definition", "en": "Issues with the hydraulic components or hydraulic behaviour have been identified.", "fr": "Des problèmes avec les composants hydrauliques ou le comportement hydraulique ont été identifiés."}
+{"k": "label", "en": "software_issues", "fr": "software_issues"}
+{"k": "definition", "en": "Issues with the software have been identified.", "fr": "Des problèmes avec le logiciel ont été identifiés."}
+{"k": "label", "en": "software issues", "fr": "problèmes logiciels"}
+{"k": "label", "en": "telemetry", "fr": "telemetry"}
+{"k": "definition", "en": "Telemetry issues have been identified.", "fr": "Des problèmes de télémétrie ont été identifiés."}
+{"k": "definition", "en": "The ending cause of the float was not determined after analyses.", "fr": "La cause de fin du flotteur n'a pas été déterminée après analyses."}
+{"k": "label", "en": "battery_end_of", "fr": "battery_end_of"}
+{"k": "definition", "en": "The float exhausted its battery after an expected level of operation at sea (close to theoretical lifetime).", "fr": "Le flotteur a épuisé sa batterie après un niveau de fonctionnement en mer attendu (proche de la durée de vie théorique)."}
+{"k": "label", "en": "battery end of", "fr": "fin de batterie"}
+{"k": "definition", "en": "Positioning issues (e.g. GPS hardware or firmware) have been identified.", "fr": "Des problèmes de positionnement (par ex. matériel ou firmware GPS) ont été identifiés."}
+{"k": "label", "en": "stuck_on_surface", "fr": "stuck_on_surface"}
+{"k": "definition", "en": "The float ended its life drifting at surface.", "fr": "Le flotteur a terminé sa vie en dérivant à la surface."}
+{"k": "label", "en": "stuck on surface", "fr": "bloqué en surface"}
+{"k": "label", "en": "ballast", "fr": "ballast"}
+{"k": "definition", "en": "Ballast issues have been identified (e.g. loss of external ballast, etc).", "fr": "Des problèmes de lest ont été identifiés (par ex. perte de lest externe, etc.)."}
+{"k": "label", "en": "bluetooth", "fr": "bluetooth"}
+{"k": "definition", "en": "Bluetooth problem.", "fr": "Problème Bluetooth."}
+{"k": "definition", "en": "Leak in the float resulted in the damage of the float.", "fr": "Une fuite dans le flotteur a entraîné l'endommagement du flotteur."}
+{"k": "label", "en": "hardware_other", "fr": "hardware_other"}
+{"k": "definition", "en": "Miscellaneous hardware issues (e.g. anode corrosion, etc).", "fr": "Problèmes matériels divers (par ex. corrosion d'anode, etc.)."}
+{"k": "label", "en": "hardware other", "fr": "autre matériel"}
+{"k": "label", "en": "electrical", "fr": "electrical"}
+{"k": "definition", "en": "Electrical issues with the float or sensor have been identified.", "fr": "Des problèmes électriques avec le flotteur ou le capteur ont été identifiés."}
+{"k": "label", "en": "ENDING_CAUSE", "fr": "ENDING_CAUSE"}
+{"k": "label", "en": "Argo float ending cause", "fr": "cause de fin de flotteur Argo"}
+{"k": "label", "en": "NMMA", "fr": "NMMA"}
+{"k": "definition", "en": "A vertical datum based on the mean sea level at Alicante, Spain (Nivel Medio del Mar en Alicante NMMA)", "fr": "Un référentiel vertical basé sur le niveau moyen de la mer à Alicante, Espagne (Nivel Medio del Mar en Alicante NMMA)"}
+{"k": "label", "en": "Alicante Mean Sea Level datum", "fr": "référentiel du niveau moyen de la mer d'Alicante"}
+{"k": "definition", "en": "The time reference is midnight UTC at the start of the day.", "fr": "La référence temporelle est minuit UTC au début du jour."}
+{"k": "label", "en": "start of day 00:00:00 UT", "fr": "début du jour 00:00:00 UT"}
+{"k": "definition", "en": "The entity is defined relative to the sea surface elevation averaged over the duration of the observation.", "fr": "L'entité est définie par rapport à l'élévation de la surface de la mer moyennée sur la durée de l'observation."}
+{"k": "label", "en": "averaged sea level", "fr": "niveau moyen de la mer"}
+{"k": "definition", "en": "The reference is the rigid structure of a physical object that is a tool, an implement or a sampling/measuring device.", "fr": "La référence est la structure rigide d'un objet physique qui est un outil, un instrument ou un dispositif d'échantillonnage/mesure."}
+{"k": "label", "en": "instrument frame", "fr": "référentiel de l'instrument"}
+{"k": "definition", "en": "A vertical datum used in large parts of Western Europe. Also known as Amsterdam Ordnance Datum. NAP stands for Normaal Amsterdams Peil.", "fr": "Un référentiel vertical utilisé dans de grandes parties de l'Europe occidentale. Aussi connu sous le nom d'Amsterdam Ordnance Datum. NAP signifie Normaal Amsterdams Peil."}
+{"k": "label", "en": "NAP datum", "fr": "référentiel NAP"}
+{"k": "definition", "en": "A geographic grid reference system used in Ireland based on 1965 Datum and the Airy Modified Ellipsoid.", "fr": "Un système de référence de grille géographique utilisé en Irlande basé sur le datum 1965 et l'ellipsoïde d'Airy modifié."}
+{"k": "label", "en": "Irish Grid Reference System", "fr": "système de référence Irish Grid"}
+{"k": "definition", "en": "The time reference is midnight UTC on the 1st January 1970.", "fr": "La référence temporelle est minuit UTC le 1er janvier 1970."}
+{"k": "label", "en": "1970-01-01T00:00:00Z", "fr": "1970-01-01T00:00:00Z"}
+{"k": "definition", "en": "The World Geodetic System 1984 datum.", "fr": "Le référentiel du World Geodetic System 1984."}
+{"k": "label", "en": "WGS84", "fr": "WGS84"}
+{"k": "definition", "en": "The time reference is midnight UTC on the 1st January 1900.", "fr": "La référence temporelle est minuit UTC le 1er janvier 1900."}
+{"k": "label", "en": "1900-01-01T00:00:00Z", "fr": "1900-01-01T00:00:00Z"}
+{"k": "definition", "en": "The entity is defined relative to the moving platform (e.g. a ship) for speed and True North for direction.", "fr": "L'entité est définie par rapport à la plateforme mobile (par ex. un navire) pour la vitesse et au nord vrai pour la direction."}
+{"k": "label", "en": "moving platform and True North", "fr": "plateforme mobile et nord vrai"}
+{"k": "definition", "en": "A vertical datum based on the mean sea level for a period of minimal 2 days converted to a many-year average based on measurements taken at the specified location.", "fr": "Un référentiel vertical basé sur le niveau moyen de la mer pour une période minimale de 2 jours converti en moyenne pluriannuelle basée sur des mesures prises à l'emplacement spécifié."}
+{"k": "label", "en": "Rijkswaterstaat Mean Sea Level", "fr": "niveau moyen de la mer Rijkswaterstaat"}
+{"k": "definition", "en": "An unspecified chart datum.", "fr": "Un référentiel de carte non spécifié."}
+{"k": "label", "en": "Chart Datum", "fr": "référentiel de carte"}
+{"k": "definition", "en": "A vertical datum based on the arithmetic mean of hourly heights observed over the National Tidal Datum Epoch. Shorter series are specified in the name; e.g. monthly mean sea level and yearly mean sea level. Adapted from https://tidesandcurrents.noaa.gov/datum_options.html", "fr": "Un référentiel vertical basé sur la moyenne arithmétique des hauteurs horaires observées sur la période de référence du datum tidal national. Les séries plus courtes sont spécifiées dans le nom ; par ex. niveau moyen de la mer mensuel et annuel. Adapté de https://tidesandcurrents.noaa.gov/datum_options.html"}
+{"k": "label", "en": "Lowest Astronomical Tide datum", "fr": "référentiel de la marée astronomique la plus basse"}
+{"k": "definition", "en": "A vertical datum based on the low water plane specified by UK Admiralty. This approximates to Lowest Astonomical Tide but the two are not exactly the same in some geographical areas.", "fr": "Un référentiel vertical basé sur le plan de basses eaux spécifié par l'Amirauté britannique. Cela approxime la marée astronomique la plus basse mais les deux ne sont pas exactement identiques dans certaines zones géographiques."}
+{"k": "label", "en": "UK Admiralty Chart Datum", "fr": "référentiel de carte de l'Amirauté britannique"}
+{"k": "definition", "en": "The measurement is given relative to the instrument's zero.", "fr": "La mesure est donnée par rapport au zéro de l'instrument."}
+{"k": "label", "en": "instrument zero", "fr": "zéro de l'instrument"}
+{"k": "definition", "en": "The reference is the time of the last reading set.", "fr": "La référence est le moment du dernier jeu de lectures."}
+{"k": "label", "en": "last reading set", "fr": "dernier jeu de lectures"}
+{"k": "definition", "en": "Not available", "fr": "Non disponible"}
+{"k": "label", "en": "Okioc Reference Level datum", "fr": "référentiel Okioc Reference Level"}
+{"k": "definition", "en": "A datum that has not been specified.", "fr": "Un référentiel qui n'a pas été spécifié."}
+{"k": "label", "en": "unspecified datum", "fr": "référentiel non spécifié"}
+{"k": "definition", "en": "The reference is the start of the platform dive.", "fr": "La référence est le début de la plongée de la plateforme."}
+{"k": "label", "en": "start of dive", "fr": "début de plongée"}
+{"k": "label", "en": "Normal Low Water datum", "fr": "référentiel Normal Low Water"}
+{"k": "definition", "en": "The sea surface elevation at the time of the observation.", "fr": "L'élévation de la surface de la mer au moment de l'observation."}
+{"k": "label", "en": "instantaneous sea level", "fr": "niveau de la mer instantané"}
+{"k": "definition", "en": "The reference is a physical object that is a tool, an implement or a sampling/measuring device.", "fr": "La référence est un objet physique qui est un outil, un instrument ou un dispositif d'échantillonnage/mesure."}
+{"k": "definition", "en": "The entity is defined relative to the sea surface elevation averaged over a long period of time which approximates to the Earth's geoid.", "fr": "L'entité est définie par rapport à l'élévation de la surface de la mer moyennée sur une longue période de temps qui approxime le géoïde de la Terre."}
+{"k": "label", "en": "mean sea level", "fr": "niveau moyen de la mer"}
+{"k": "definition", "en": "The time reference is midnight UTC on the 1st January 1950.", "fr": "La référence temporelle est minuit UTC le 1er janvier 1950."}
+{"k": "label", "en": "1950-01-01T00:00:00Z", "fr": "1950-01-01T00:00:00Z"}
+{"k": "label", "en": "Mean Water Height", "fr": "Mean Water Height"}
+{"k": "definition", "en": "A vertical datum based on the mean sea level of the tide gauge at Malin Head, County Donegal. It was adopted as the national datum in 1970 from readings taken between 1960 and 1969 and all heights on national grid maps are measured above this datum.", "fr": "Un référentiel vertical basé sur le niveau moyen de la mer du marégraphe de Malin Head, comté de Donegal. Il a été adopté comme référentiel national en 1970 à partir de relevés pris entre 1960 et 1969 et toutes les hauteurs des cartes nationales de la grille sont mesurées au-dessus de ce référentiel."}
+{"k": "label", "en": "Ordnance Datum Malin", "fr": "Ordnance Datum Malin"}
+{"k": "definition", "en": "A datum provided elsewhere in the data model.", "fr": "Un référentiel fourni ailleurs dans le modèle de données."}
+{"k": "label", "en": "datum specified elsewhere", "fr": "référentiel spécifié ailleurs"}
+{"k": "definition", "en": "The entity is defined relative to the instrument (e.g. a radar) and True North for direction.", "fr": "L'entité est définie par rapport à l'instrument (par ex. un radar) et au nord vrai pour la direction."}
+{"k": "label", "en": "instrument and True North", "fr": "instrument et nord vrai"}
+{"k": "label", "en": "Mean Sea Level datum", "fr": "référentiel Mean Sea Level"}
+{"k": "definition", "en": "A vertical datum based on the mean sea level at Newlyn in Cornwall averaged between 1915 and 1921 used for the elevation of the zero metres contour on UK Ordnance Survey maps.", "fr": "Un référentiel vertical basé sur le niveau moyen de la mer de Newlyn en Cornouailles moyenné entre 1915 et 1921, utilisé pour l'élévation du contour zéro mètre sur les cartes de l'Ordnance Survey britannique."}
+{"k": "label", "en": "Ordnance Datum Newlyn", "fr": "Ordnance Datum Newlyn"}
+{"k": "definition", "en": "The Ordnance Survey Great Britain 1936 datum based on the Airy 1830 ellipsoid.", "fr": "Le référentiel Ordnance Survey Great Britain 1936 basé sur l'ellipsoïde Airy 1830."}
+{"k": "label", "en": "OSGB36", "fr": "OSGB36"}
+{"k": "definition", "en": "The entity is defined relative to the direction indicated by a magnetic needle or compass.", "fr": "L'entité est définie par rapport à la direction indiquée par une aiguille aimantée ou une boussole."}
+{"k": "label", "en": "magnetic north", "fr": "nord magnétique"}
+{"k": "definition", "en": "The entity is defined relative to the sea surface elevation averaged over a period long enough to eliminate tidal signals.", "fr": "L'entité est définie par rapport à l'élévation de la surface de la mer moyennée sur une période suffisamment longue pour éliminer les signaux de marée."}
+{"k": "label", "en": "sea level", "fr": "niveau de la mer"}
+{"k": "definition", "en": "The entity is defined relative to the moving platform (e.g. a ship).", "fr": "L'entité est définie par rapport à la plateforme mobile (par ex. un navire)."}
+{"k": "label", "en": "moving platform and heading", "fr": "plateforme mobile et cap"}
+{"k": "definition", "en": "The entity is defined relative to the platform from which the measurement is made.", "fr": "L'entité est définie par rapport à la plateforme depuis laquelle la mesure est faite."}
+{"k": "label", "en": "moving platform", "fr": "plateforme mobile"}
+{"k": "definition", "en": "The entity is defined relative to the direction towards the geographic North Pole.", "fr": "L'entité est définie par rapport à la direction vers le pôle Nord géographique."}
+{"k": "label", "en": "True North", "fr": "nord vrai"}
+{"k": "definition", "en": "The measurement is defined relative to the water as in, for example, speed through water.", "fr": "La mesure est définie par rapport à l'eau comme dans, par exemple, la vitesse par rapport à l'eau."}
+{"k": "label", "en": "water", "fr": "eau"}
+{"k": "definition", "en": "The entity is defined relative to the solid surface of the earth.", "fr": "L'entité est définie par rapport à la surface solide de la terre."}
+{"k": "label", "en": "ground surface", "fr": "surface du sol"}
+{"k": "definition", "en": "The entity is defined relative to the surface of the bed of a water body.", "fr": "L'entité est définie par rapport à la surface du lit d'une masse d'eau."}
+{"k": "label", "en": "bed surface", "fr": "surface du lit"}
+{"k": "definition", "en": "This semantic element is not required for the parameter being described.", "fr": "Cet élément sémantique n'est pas requis pour le paramètre décrit."}
+{"k": "definition", "en": "The reference level is a pressure of 1 micropascal.", "fr": "Le niveau de référence est une pression de 1 micropascal."}
+{"k": "label", "en": "1 micropascal", "fr": "1 micropascal"}
+{"k": "label", "en": "Physical entity datum names", "fr": "noms de référentiels d'entités physiques"}
+{"k": "label", "en": "BODC parameter semantic model physical entity datum names", "fr": "noms de référentiels d'entités physiques du modèle sémantique des paramètres BODC"}
+{"k": "definition", "en": "The sphere is characterised as being deficient in dissolved oxygen.", "fr": "La sphère est caractérisée comme étant déficiente en oxygène dissous."}
+{"k": "label", "en": "anoxic layer", "fr": "couche anoxique"}
+{"k": "definition", "en": "There is no appropriate value for the categorisation of the sphere. In other words, there is no qualifying information required for the sphere.", "fr": "Il n'y a pas de valeur appropriée pour la catégorisation de la sphère. En d'autres termes, il n'y a pas d'information qualifiante requise pour la sphère."}
+{"k": "definition", "en": "The sphere is characterised as having dissolved oxygen available.", "fr": "La sphère est caractérisée comme ayant de l'oxygène dissous disponible."}
+{"k": "label", "en": "oxygenated layer", "fr": "couche oxygénée"}
+{"k": "definition", "en": "There is no information about the fraction analysed.", "fr": "Il n'y a pas d'information sur la fraction analysée."}
+{"k": "label", "en": "(unknown fraction)", "fr": "(fraction inconnue)"}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) is categorised as comprising particles between 63 microns and 4 millimetres.", "fr": "La sphère solide (sédiment ou MES) est catégorisée comme comprenant des particules entre 63 microns et 4 millimètres."}
+{"k": "label", "en": "63-4000um", "fr": "63-4000um"}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) is categorised as comprising particles between 2.5 and 500 microns.", "fr": "La sphère solide (sédiment ou MES) est catégorisée comme comprenant des particules entre 2,5 et 500 microns."}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) is categorised as comprising particles between 1.25 and 250 microns.", "fr": "La sphère solide (sédiment ou MES) est catégorisée comme comprenant des particules entre 1,25 et 250 microns."}
+{"k": "label", "en": "1.25-250um", "fr": "1.25-250um"}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) comprises particles retained by a GF/C glass fibre filter, which means nominally larger than 1.2um.", "fr": "La sphère solide (sédiment ou MES) comprend des particules retenues par un filtre en fibre de verre GF/C, ce qui signifie nominalement supérieur à 1,2 µm."}
+{"k": "label", "en": ">GF/C", "fr": ">GF/C"}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) is categorised as comprising particles between 630 microns and 1.25 millimetres.", "fr": "La sphère solide (sédiment ou MES) est catégorisée comme comprenant des particules entre 630 microns et 1,25 millimètres."}
+{"k": "label", "en": "630-1250um", "fr": "630-1250um"}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) is categorised as comprising particles larger than 50 microns.", "fr": "La sphère solide (sédiment ou MES) est catégorisée comme comprenant des particules de taille supérieure à 50 microns."}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) is categorised as comprising particles larger than 2 millimetres.", "fr": "La sphère solide (sédiment ou MES) est catégorisée comme comprenant des particules de taille supérieure à 2 millimètres."}
+{"k": "label", "en": ">2000um", "fr": ">2000um"}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) is categorised as comprising particles between 4 and 256 millimetres.", "fr": "La sphère solide (sédiment ou MES) est catégorisée comme comprenant des particules entre 4 et 256 millimètres."}
+{"k": "label", "en": "4000-256000um", "fr": "4000-256000um"}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) is categorised as comprising particles between 1.2 and 250 microns.", "fr": "La sphère solide (sédiment ou MES) est catégorisée comme comprenant des particules entre 1,2 et 250 microns."}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) is categorised as comprising particles between 5 and 10 millimetres.", "fr": "La sphère solide (sédiment ou MES) est catégorisée comme comprenant des particules entre 5 et 10 millimètres."}
+{"k": "label", "en": "5000-10000um", "fr": "5000-10000um"}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) is categorised as comprising particles between 160 and 315 microns.", "fr": "La sphère solide (sédiment ou MES) est catégorisée comme comprenant des particules entre 160 et 315 microns."}
+{"k": "label", "en": "160-315um", "fr": "160-315um"}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) is categorised as comprising particles between 3.9 and 63 microns.", "fr": "La sphère solide (sédiment ou MES) est catégorisée comme comprenant des particules entre 3,9 et 63 microns."}
+{"k": "label", "en": "3.9-63um", "fr": "3.9-63um"}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) is categorised as comprising particles smaller than 1 millimetre.", "fr": "La sphère solide (sédiment ou MES) est catégorisée comme comprenant des particules de taille inférieure à 1 millimètre."}
+{"k": "label", "en": "<1000um", "fr": "<1000um"}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) is categorised as comprising particles smaller than 62 microns.", "fr": "La sphère solide (sédiment ou MES) est catégorisée comme comprenant des particules de taille inférieure à 62 microns."}
+{"k": "label", "en": "<62um", "fr": "<62um"}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) is categorised as comprising particles between 3.15 and 4.25 millimetres.", "fr": "La sphère solide (sédiment ou MES) est catégorisée comme comprenant des particules entre 3,15 et 4,25 millimètres."}
+{"k": "label", "en": "40000-70000um", "fr": "40000-70000um"}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) is categorised as comprising particles between 1.25 and 2.5 millimetres.", "fr": "La sphère solide (sédiment ou MES) est catégorisée comme comprenant des particules entre 1,25 et 2,5 millimètres."}
+{"k": "label", "en": "1250-2500um", "fr": "1250-2500um"}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) is categorised as comprising particles smaller than 250 microns.", "fr": "La sphère solide (sédiment ou MES) est catégorisée comme comprenant des particules de taille inférieure à 250 microns."}
+{"k": "label", "en": "<250um", "fr": "<250um"}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) is categorised as comprising particles between 1.0 and 500 microns.", "fr": "La sphère solide (sédiment ou MES) est catégorisée comme comprenant des particules entre 1,0 et 500 microns."}
+{"k": "label", "en": "1.0-500um", "fr": "1.0-500um"}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) is categorised as comprising particles between 50 and 100 microns.", "fr": "La sphère solide (sédiment ou MES) est catégorisée comme comprenant des particules entre 50 et 100 microns."}
+{"k": "label", "en": "50-100um", "fr": "50-100um"}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) is categorised as comprising particles between 140 and 250 microns.", "fr": "La sphère solide (sédiment ou MES) est catégorisée comme comprenant des particules entre 140 et 250 microns."}
+{"k": "label", "en": "140-250um", "fr": "140-250um"}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) is categorised as comprising particles between 2.5 and 5 millimetres.", "fr": "La sphère solide (sédiment ou MES) est catégorisée comme comprenant des particules entre 2,5 et 5 millimètres."}
+{"k": "label", "en": "2500-5000um", "fr": "2500-5000um"}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) is categorised as comprising particles between 100 and 140 microns.", "fr": "La sphère solide (sédiment ou MES) est catégorisée comme comprenant des particules entre 100 et 140 microns."}
+{"k": "label", "en": "100-140um", "fr": "100-140um"}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) is categorised as comprising particles between 63 microns and 2 millimetres.", "fr": "La sphère solide (sédiment ou MES) est catégorisée comme comprenant des particules entre 63 microns et 2 millimètres."}
+{"k": "label", "en": "63-2000um", "fr": "63-2000um"}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) is categorised as comprising particles smaller than 20 microns.", "fr": "La sphère solide (sédiment ou MES) est catégorisée comme comprenant des particules de taille inférieure à 20 microns."}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) is categorised as comprising particles between 63 microns and 256 millimetres.", "fr": "La sphère solide (sédiment ou MES) est catégorisée comme comprenant des particules entre 63 microns et 256 millimètres."}
+{"k": "label", "en": "63-256000um", "fr": "63-256000um"}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) is categorised as comprising particles smaller than 5 microns.", "fr": "La sphère solide (sédiment ou MES) est catégorisée comme comprenant des particules de taille inférieure à 5 microns."}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) is categorised as comprising particles larger than 150 microns.", "fr": "La sphère solide (sédiment ou MES) est catégorisée comme comprenant des particules de taille supérieure à 150 microns."}
+{"k": "label", "en": ">150um", "fr": ">150um"}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) is categorised as comprising particles between 20 and 40 millimetres.", "fr": "La sphère solide (sédiment ou MES) est catégorisée comme comprenant des particules entre 20 et 40 millimètres."}
+{"k": "label", "en": "20000-40000um", "fr": "20000-40000um"}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) is categorised as comprising particles smaller than 500 microns.", "fr": "La sphère solide (sédiment ou MES) est catégorisée comme comprenant des particules de taille inférieure à 500 microns."}
+{"k": "label", "en": "<500um", "fr": "<500um"}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) is categorised as comprising particles between 315 and 630 microns.", "fr": "La sphère solide (sédiment ou MES) est catégorisée comme comprenant des particules entre 315 et 630 microns."}
+{"k": "label", "en": "315-630um", "fr": "315-630um"}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) is categorised as comprising particles between 10 and 20 millimetres.", "fr": "La sphère solide (sédiment ou MES) est catégorisée comme comprenant des particules entre 10 et 20 millimètres."}
+{"k": "label", "en": "10000-20000um", "fr": "10000-20000um"}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) is categorised as comprising particles smaller than 90 microns.", "fr": "La sphère solide (sédiment ou MES) est catégorisée comme comprenant des particules de taille inférieure à 90 microns."}
+{"k": "label", "en": "<90um", "fr": "<90um"}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) is categorised as comprising particles between 63 microns and 1 millimetre.", "fr": "La sphère solide (sédiment ou MES) est catégorisée comme comprenant des particules entre 63 microns et 1 millimètre."}
+{"k": "label", "en": "63-1000um", "fr": "63-1000um"}
+{"k": "definition", "en": "The solid sphere (sediment or SPM) is categorised as comprising particles between 20 and 200 millimetres.", "fr": "La sphère solide (sédiment ou MES) est catégorisée comme comprenant des particules entre 20 et 200 millimètres."}
+{"k": "label", "en": "20000-200000um", "fr": "20000-200000um"}
+{"k": "label", "en": "Sphere subgroup names", "fr": "noms de sous-groupes de sphères"}
+{"k": "label", "en": "BODC parameter semantic model sphere subgroup names", "fr": "noms de sous-groupes de sphères du modèle sémantique des paramètres BODC"}
+{"k": "label", "en": "Radiation belt modelling", "fr": "modélisation de la ceinture de radiations"}
+{"k": "label", "en": "Ice chemistry", "fr": "chimie de la glace"}
+{"k": "label", "en": "Space physics", "fr": "physique spatiale"}
+{"k": "label", "en": "Climate modelling", "fr": "modélisation du climat"}
+{"k": "definition", "en": "The scientific evidence that the world's climate is changing is extensive and clear. Understanding the role of the Polar Regions in climate change is not only a huge scientific challenge but also an urgent priority for society.", "fr": "Les preuves scientifiques que le climat mondial change sont abondantes et claires. Comprendre le rôle des régions polaires dans le changement climatique n'est pas seulement un immense défi scientifique mais aussi une priorité urgente pour la société."}
+{"k": "label", "en": "Climate & climate change", "fr": "climat et changement climatique"}
+{"k": "label", "en": "Volcanic processes", "fr": "processus volcaniques"}
+{"k": "label", "en": "Living and working in Antarctica", "fr": "vivre et travailler en Antarctique"}
+{"k": "label", "en": "Sea-ice extent", "fr": "étendue de la banquise"}
+{"k": "definition", "en": "\"Satellite technologies help scientists tackle some of the biggest environmental questions facing society. Innovative use of atmospheric, climate, ice and oceanographic data provides decision-makers in government and business with vital evidence to help them meet major environmental challenges. State-of-the art systems, capable of mapping the geology, monitoring sea-ice conditions, changes in surface temperature and concentrations of greenhouse gases reveal the changes in the Antarctic and Arctic.\"", "fr": "Les technologies satellitaires aident les scientifiques à aborder certaines des plus grandes questions environnementales auxquelles la société est confrontée. L'utilisation innovante des données atmosphériques, climatiques, glaciaires et océanographiques fournit aux décideurs gouvernementaux et commerciaux des preuves vitales pour les aider à relever les grands défis environnementaux. Des systèmes de pointe, capables de cartographier la géologie, de surveiller les conditions de banquise, les changements de température de surface et les concentrations de gaz à effet de serre révèlent les changements en Antarctique et dans l'Arctique."}
+{"k": "label", "en": "Earth observation", "fr": "observation de la Terre"}
+{"k": "label", "en": "Ecosystem scale processes", "fr": "processus à l'échelle des écosystèmes"}
+{"k": "label", "en": "Quaternary science", "fr": "science du Quaternaire"}
+{"k": "label", "en": "Animal science", "fr": "science animale"}
+{"k": "label", "en": "Palaeoenvironments", "fr": "paléoenvironnements"}
+{"k": "label", "en": "Glacier flow", "fr": "écoulement des glaciers"}
+{"k": "label", "en": "Endocrinology", "fr": "endocrinologie"}
+{"k": "label", "en": "Geoelectric field", "fr": "champ géoélectrique"}
+{"k": "label", "en": "Biogeochemical cycles", "fr": "cycles biogéochimiques"}
+{"k": "label", "en": "Sun-earth connections", "fr": "connexions Soleil-Terre"}
+{"k": "label", "en": "Past climate", "fr": "climat passé"}
+{"k": "label", "en": "Ocean circulation", "fr": "circulation océanique"}
+{"k": "label", "en": "Genetics & development", "fr": "génétique et développement"}
+{"k": "label", "en": "Remote sensing", "fr": "télédétection"}
+{"k": "definition", "en": "\"Antarctica organisms live in the coldest and driest conditions in the world, and only the hardiest organisms can survive there. Low temperatures and lack of moisture limits the release of nutrients through rock weathering and processes of soil development. Some primary production occurs in the ice free zones, mostly by various types of bacteria, algae, lichens, and mosses.\"", "fr": "Les organismes antarctiques vivent dans les conditions les plus froides et les plus sèches du monde, et seuls les organismes les plus robustes peuvent y survivre. Les basses températures et le manque d'humidité limitent la libération de nutriments par l'altération des roches et les processus de développement des sols. Une certaine production primaire se produit dans les zones libres de glace, principalement par divers types de bactéries, algues, lichens et mousses."}
+{"k": "label", "en": "Terrestrial & freshwater environments", "fr": "environnements terrestres et d'eau douce"}
+{"k": "label", "en": "Topographic mapping", "fr": "cartographie topographique"}
+{"k": "label", "en": "Ice cores", "fr": "carottes de glace"}
+{"k": "definition", "en": "Changes to the Antarctic and Greenland ice sheets affects sea level all over the world.", "fr": "Les changements des calottes glaciaires antarctique et groenlandaise affectent le niveau de la mer dans le monde entier."}
+{"k": "label", "en": "Sea-level rise", "fr": "élévation du niveau de la mer"}
+{"k": "label", "en": "Mantle & core processes", "fr": "processus du manteau et du noyau"}
+{"k": "label", "en": "Space debris", "fr": "débris spatiaux"}
+{"k": "definition", "en": "\"Over the past 40 years, ice cores have revealed more about climate change than any other scientific technique. Over the last few decades, satellites have detected changes to the amount of sea ice that covers the polar oceans. Since 1979 summer sea-ice extent in the Arctic has reduced at 10% per decade. Some major glaciers that drain the Antarctic and Greenland ice sheets have accelerated by as much as 50%.\"", "fr": "Au cours des 40 dernières années, les carottes de glace ont révélé plus sur le changement climatique que toute autre technique scientifique. Au cours des dernières décennies, les satellites ont détecté des changements dans la quantité de banquise qui couvre les océans polaires. Depuis 1979, l'étendue de la banquise estivale dans l'Arctique a diminué de 10 % par décennie. Certains grands glaciers qui alimentent les calottes glaciaires antarctique et groenlandaise se sont accélérés jusqu'à 50 %."}
+{"k": "label", "en": "Ice & ice-movement", "fr": "glace et mouvement de la glace"}
+{"k": "label", "en": "Land-ocean interactions", "fr": "interactions terre-océan"}
+{"k": "label", "en": "Ice-sheet modelling", "fr": "modélisation des calottes glaciaires"}
+{"k": "label", "en": "Sediment/sedimentary processes", "fr": "processus sédimentaires"}
+{"k": "label", "en": "Regional weather & extreme events", "fr": "météo régionale et événements extrêmes"}
+{"k": "definition", "en": "Understanding Antarctic and Arctic marine ecosystems by exploring biodiversity and resilience to environmental change is critical for making policy decisions that will lead to effective stewardship and sustainable management of marine resources. This strand of research combines existing long-term data with new field-based and experimental observations to explore the impact of environmental change on marine ecosystems.", "fr": "Comprendre les écosystèmes marins antarctiques et arctiques en explorant la biodiversité et la résilience au changement environnemental est essentiel pour prendre des décisions politiques qui mèneront à une gestion efficace et durable des ressources marines. Ce domaine de recherche combine les données à long terme existantes avec de nouvelles observations de terrain et expérimentales pour explorer l'impact du changement environnemental sur les écosystèmes marins."}
+{"k": "label", "en": "Marine ecosystems", "fr": "écosystèmes marins"}
+{"k": "label", "en": "Properties of earth materials", "fr": "propriétés des matériaux terrestres"}
+{"k": "label", "en": "Geohazards", "fr": "géorisques"}
+{"k": "label", "en": "Plant science", "fr": "science des plantes"}
+{"k": "label", "en": "Conservation ecology", "fr": "écologie de la conservation"}
+{"k": "label", "en": "Ecotoxicology", "fr": "écotoxicologie"}
+{"k": "label", "en": "Community ecology", "fr": "écologie des communautés"}
+{"k": "label", "en": "Population genetics/evolution", "fr": "génétique/évolution des populations"}
+{"k": "label", "en": "Systematics & taxonomy", "fr": "systématique et taxonomie"}
+{"k": "label", "en": "Behavioural ecology", "fr": "écologie comportementale"}
+{"k": "definition", "en": "\"Polar oceans influence the entire Earth System in all areas, including the seas around the UK. The polar oceans have an enormous capacity to store and redistribute fresh water, heat, carbon dioxide and other climatically-important substances. Oceanographic studies help make more accurate predictions about global impacts.\"", "fr": "Les océans polaires influencent l'ensemble du système Terre dans tous les domaines, y compris les mers autour du Royaume-Uni. Les océans polaires ont une capacité énorme de stocker et de redistribuer l'eau douce, la chaleur, le dioxyde de carbone et d'autres substances climatiquement importantes. Les études océanographiques aident à faire des prévisions plus précises sur les impacts mondiaux."}
+{"k": "label", "en": "Oceanography", "fr": "océanographie"}
+{"k": "label", "en": "Ocean-atmosphere interactions", "fr": "interactions océan-atmosphère"}
+{"k": "label", "en": "Wave particle interactions", "fr": "interactions particules-vagues"}
+{"k": "label", "en": "Earth resources", "fr": "ressources terrestres"}
+{"k": "definition", "en": "\"Exploring the climate history and the geological structure and evolution of the rocks and mountains of Antarctica�s continental interior provides clues to past, present and future environmental change. Under-ice lakes, mountain chains buried by up to 4km ice, and sea bed sediments surrounding the frozen continent provide an unparalleled record of how the Earth�s climate has changed over millions of years.\"", "fr": "Explorer l'histoire climatique et la structure géologique et l'évolution des roches et montagnes de l'intérieur continental de l'Antarctique fournit des indices sur les changements environnementaux passés, présents et futurs. Les lacs sous-glaciaires, les chaînes de montagnes enfouies sous jusqu'à 4 km de glace et les sédiments du fond marin entourant le continent gelé fournissent un record sans équivalent de la façon dont le climat de la Terre a changé au cours de millions d'années."}
+{"k": "label", "en": "Geosciences", "fr": "géosciences"}
+{"k": "label", "en": "Tectonic processes", "fr": "processus tectoniques"}
+{"k": "label", "en": "Natural hazards", "fr": "risques naturels"}
+{"k": "definition", "en": "\"Antarctica is a natural laboratory for studying the small number of plant and animal species that live in communities. Microbial life, invisible to the naked eye, plays a vital role in Antarctic ecosystems. State-of-the-art genetic methods to study the DNA of these microbes may lead to discoveries that could help in the production of new antibiotics and other compounds.\"", "fr": "L'Antarctique est un laboratoire naturel pour étudier le petit nombre d'espèces animales et végétales qui vivent en communautés. La vie microbienne, invisible à l'œil nu, joue un rôle vital dans les écosystèmes antarctiques. Des méthodes génétiques de pointe pour étudier l'ADN de ces microbes peuvent mener à des découvertes qui pourraient aider à la production de nouveaux antibiotiques et autres composés."}
+{"k": "label", "en": "Ecology & biodiversity", "fr": "écologie et biodiversité"}
+{"k": "label", "en": "Population ecology", "fr": "écologie des populations"}
+{"k": "label", "en": "Clouds and aerosols", "fr": "nuages et aérosols"}
+{"k": "label", "en": "Boundary layer meteorology", "fr": "météorologie de la couche limite"}
+{"k": "label", "en": "Radiative processes & effects", "fr": "processus et effets radiatifs"}
+{"k": "label", "en": "Upper atmosphere processes & geospace", "fr": "processus de la haute atmosphère et géoespace"}
+{"k": "definition", "en": "\"Investigating physical and chemical changes in atmospheric circulation, ozone depletion, temperatures and sea-ice extent in both Polar Regions can help determine how much of the observed change is due to human activity and how much is a result of natural factors. Unique chemical processes occur in the atmosphere above Antarctica and the Arctic reveal much about our changing world.\"", "fr": "L'étude des changements physiques et chimiques de la circulation atmosphérique, de l'appauvrissement de l'ozone, des températures et de l'étendue de la banquise dans les deux régions polaires peut aider à déterminer quelle part du changement observé est due à l'activité humaine et quelle part est le résultat de facteurs naturels. Des processus chimiques uniques se produisent dans l'atmosphère au-dessus de l'Antarctique et de l'Arctique révèlent beaucoup sur notre monde changeant."}
+{"k": "label", "en": "Atmospheric physics & chemistry", "fr": "physique et chimie atmosphériques"}
+{"k": "label", "en": "Tropospheric processes", "fr": "processus troposphériques"}
+{"k": "label", "en": "Stratospheric processes", "fr": "processus stratosphériques"}
+{"k": "label", "en": "Ozone monitoring", "fr": "surveillance de l'ozone"}
+{"k": "definition", "en": "\"Geomagnetic storms (space weather) are rapidly becoming one of the biggest potential threats to modern society. They can cause serious damage to power grids, communications satellites and other vital infrastructure.\"", "fr": "Les orages géomagnétiques (météo spatiale) deviennent rapidement l'une des plus grandes menaces potentielles pour la société moderne. Ils peuvent causer de sérieux dommages aux réseaux électriques, satellites de communication et autres infrastructures vitales."}
+{"k": "label", "en": "Space weather", "fr": "météo spatiale"}
+{"k": "label", "en": "Magnetic storms & substorms", "fr": "orages magnétiques et sous-orages"}
+{"k": "label", "en": "BAS research topics", "fr": "sujets de recherche BAS"}
+{"k": "label", "en": "British Antarctic Survey research topics", "fr": "sujets de recherche du British Antarctic Survey"}

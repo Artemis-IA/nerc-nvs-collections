@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "NMMA";
+        skos:altLabel          "NMMA"@fr ;
         skos:definition        "A vertical datum based on the mean sea level at Alicante, Spain (Nivel Medio del Mar en Alicante NMMA)"@en;
+        skos:definition        "Un référentiel vertical basé sur le niveau moyen de la mer à Alicante, Espagne (Nivel Medio del Mar en Alicante NMMA)"@fr ;
         skos:notation          "SDN:S20::S2000040";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Alicante Mean Sea Level datum"@en .
+        skos:prefLabel         "Alicante Mean Sea Level datum"@en ;
+        skos:prefLabel         "référentiel du niveau moyen de la mer d'Alicante"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000020/>
         rdf:type               skos:Concept;
@@ -50,9 +53,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The time reference is midnight UTC at the start of the day."@en;
+        skos:definition        "La référence temporelle est minuit UTC au début du jour."@fr ;
         skos:notation          "SDN:S20::S2000020";
         skos:note              "accepted"@en;
-        skos:prefLabel         "start of day 00:00:00 UT"@en .
+        skos:prefLabel         "start of day 00:00:00 UT"@en ;
+        skos:prefLabel         "début du jour 00:00:00 UT"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000009/>
         rdf:type               skos:Concept;
@@ -67,9 +72,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The entity is defined relative to the sea surface elevation averaged over the duration of the observation."@en;
+        skos:definition        "L'entité est définie par rapport à l'élévation de la surface de la mer moyennée sur la durée de l'observation."@fr ;
         skos:notation          "SDN:S20::S2000009";
         skos:note              "accepted"@en;
-        skos:prefLabel         "averaged sea level"@en .
+        skos:prefLabel         "averaged sea level"@en ;
+        skos:prefLabel         "niveau moyen de la mer"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000042/>
         rdf:type               skos:Concept;
@@ -84,9 +91,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The reference is the rigid structure of a physical object that is a tool, an implement or a sampling/measuring device."@en;
+        skos:definition        "La référence est la structure rigide d'un objet physique qui est un outil, un instrument ou un dispositif d'échantillonnage/mesure."@fr ;
         skos:notation          "SDN:S20::S2000042";
         skos:note              "accepted"@en;
-        skos:prefLabel         "instrument frame"@en .
+        skos:prefLabel         "instrument frame"@en ;
+        skos:prefLabel         "référentiel de l'instrument"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000035/>
         rdf:type               skos:Concept;
@@ -101,9 +110,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A vertical datum used in large parts of Western Europe. Also known as Amsterdam Ordnance Datum. NAP stands for Normaal Amsterdams Peil."@en;
+        skos:definition        "Un référentiel vertical utilisé dans de grandes parties de l'Europe occidentale. Aussi connu sous le nom d'Amsterdam Ordnance Datum. NAP signifie Normaal Amsterdams Peil."@fr ;
         skos:notation          "SDN:S20::S2000035";
         skos:note              "accepted"@en;
-        skos:prefLabel         "NAP datum"@en .
+        skos:prefLabel         "NAP datum"@en ;
+        skos:prefLabel         "référentiel NAP"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000017/>
         rdf:type               skos:Concept;
@@ -118,9 +129,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A geographic grid reference system used in Ireland based on 1965 Datum and the Airy Modified Ellipsoid."@en;
+        skos:definition        "Un système de référence de grille géographique utilisé en Irlande basé sur le datum 1965 et l'ellipsoïde d'Airy modifié."@fr ;
         skos:notation          "SDN:S20::S2000017";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Irish Grid Reference System"@en .
+        skos:prefLabel         "Irish Grid Reference System"@en ;
+        skos:prefLabel         "système de référence Irish Grid"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000019/>
         rdf:type               skos:Concept;
@@ -135,9 +148,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The time reference is midnight UTC on the 1st January 1970."@en;
+        skos:definition        "La référence temporelle est minuit UTC le 1er janvier 1970."@fr ;
         skos:notation          "SDN:S20::S2000019";
         skos:note              "accepted"@en;
-        skos:prefLabel         "1970-01-01T00:00:00Z"@en .
+        skos:prefLabel         "1970-01-01T00:00:00Z"@en ;
+        skos:prefLabel         "1970-01-01T00:00:00Z"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000015/>
         rdf:type               skos:Concept;
@@ -153,9 +168,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "2";
         skos:altLabel          "";
         skos:definition        "The World Geodetic System 1984 datum."@en;
+        skos:definition        "Le référentiel du World Geodetic System 1984."@fr ;
         skos:notation          "SDN:S20::S2000015";
         skos:note              "accepted"@en;
-        skos:prefLabel         "WGS84"@en .
+        skos:prefLabel         "WGS84"@en ;
+        skos:prefLabel         "WGS84"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000022/>
         rdf:type               skos:Concept;
@@ -170,9 +187,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The time reference is midnight UTC on the 1st January 1900."@en;
+        skos:definition        "La référence temporelle est minuit UTC le 1er janvier 1900."@fr ;
         skos:notation          "SDN:S20::S2000022";
         skos:note              "accepted"@en;
-        skos:prefLabel         "1900-01-01T00:00:00Z"@en .
+        skos:prefLabel         "1900-01-01T00:00:00Z"@en ;
+        skos:prefLabel         "1900-01-01T00:00:00Z"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000004/>
         rdf:type               skos:Concept;
@@ -188,9 +207,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "4";
         skos:altLabel          "";
         skos:definition        "The entity is defined relative to the moving platform (e.g. a ship) for speed and True North for direction."@en;
+        skos:definition        "L'entité est définie par rapport à la plateforme mobile (par ex. un navire) pour la vitesse et au nord vrai pour la direction."@fr ;
         skos:notation          "SDN:S20::S2000004";
         skos:note              "accepted"@en;
-        skos:prefLabel         "moving platform and True North"@en .
+        skos:prefLabel         "moving platform and True North"@en ;
+        skos:prefLabel         "plateforme mobile et nord vrai"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000029/>
         rdf:type               skos:Concept;
@@ -205,9 +226,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A vertical datum based on the mean sea level for a period of minimal 2 days converted to a many-year average based on measurements taken at the specified location."@en;
+        skos:definition        "Un référentiel vertical basé sur le niveau moyen de la mer pour une période minimale de 2 jours converti en moyenne pluriannuelle basée sur des mesures prises à l'emplacement spécifié."@fr ;
         skos:notation          "SDN:S20::S2000029";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Rijkswaterstaat Mean Sea Level"@en .
+        skos:prefLabel         "Rijkswaterstaat Mean Sea Level"@en ;
+        skos:prefLabel         "niveau moyen de la mer Rijkswaterstaat"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000036/>
         rdf:type               skos:Concept;
@@ -223,9 +246,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "2";
         skos:altLabel          "";
         skos:definition        "An unspecified chart datum."@en;
+        skos:definition        "Un référentiel de carte non spécifié."@fr ;
         skos:notation          "SDN:S20::S2000036";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Chart Datum"@en .
+        skos:prefLabel         "Chart Datum"@en ;
+        skos:prefLabel         "référentiel de carte"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000027/>
         rdf:type               skos:Concept;
@@ -240,9 +265,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A vertical datum based on the arithmetic mean of hourly heights observed over the National Tidal Datum Epoch. Shorter series are specified in the name; e.g. monthly mean sea level and yearly mean sea level. Adapted from https://tidesandcurrents.noaa.gov/datum_options.html"@en;
+        skos:definition        "Un référentiel vertical basé sur la moyenne arithmétique des hauteurs horaires observées sur la période de référence du datum tidal national. Les séries plus courtes sont spécifiées dans le nom ; par ex. niveau moyen de la mer mensuel et annuel. Adapté de https://tidesandcurrents.noaa.gov/datum_options.html"@fr ;
         skos:notation          "SDN:S20::S2000027";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Lowest Astronomical Tide datum"@en .
+        skos:prefLabel         "Lowest Astronomical Tide datum"@en ;
+        skos:prefLabel         "référentiel de la marée astronomique la plus basse"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000030/>
         rdf:type               skos:Concept;
@@ -257,9 +284,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A vertical datum based on the low water plane specified by UK Admiralty. This approximates to Lowest Astonomical Tide but the two are not exactly the same in some geographical areas."@en;
+        skos:definition        "Un référentiel vertical basé sur le plan de basses eaux spécifié par l'Amirauté britannique. Cela approxime la marée astronomique la plus basse mais les deux ne sont pas exactement identiques dans certaines zones géographiques."@fr ;
         skos:notation          "SDN:S20::S2000030";
         skos:note              "accepted"@en;
-        skos:prefLabel         "UK Admiralty Chart Datum"@en .
+        skos:prefLabel         "UK Admiralty Chart Datum"@en ;
+        skos:prefLabel         "référentiel de carte de l'Amirauté britannique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000039/>
         rdf:type               skos:Concept;
@@ -275,9 +304,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "2";
         skos:altLabel          "";
         skos:definition        "The measurement is given relative to the instrument's zero."@en;
+        skos:definition        "La mesure est donnée par rapport au zéro de l'instrument."@fr ;
         skos:notation          "SDN:S20::S2000039";
         skos:note              "accepted"@en;
-        skos:prefLabel         "instrument zero"@en .
+        skos:prefLabel         "instrument zero"@en ;
+        skos:prefLabel         "zéro de l'instrument"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000023/>
         rdf:type               skos:Concept;
@@ -292,9 +323,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The reference is the time of the last reading set."@en;
+        skos:definition        "La référence est le moment du dernier jeu de lectures."@fr ;
         skos:notation          "SDN:S20::S2000023";
         skos:note              "accepted"@en;
-        skos:prefLabel         "last reading set"@en .
+        skos:prefLabel         "last reading set"@en ;
+        skos:prefLabel         "dernier jeu de lectures"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000032/>
         rdf:type               skos:Concept;
@@ -309,9 +342,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Not available"@en;
+        skos:definition        "Non disponible"@fr ;
         skos:notation          "SDN:S20::S2000032";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Okioc Reference Level datum"@en .
+        skos:prefLabel         "Okioc Reference Level datum"@en ;
+        skos:prefLabel         "référentiel Okioc Reference Level"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000033/>
         rdf:type               skos:Concept;
@@ -327,9 +362,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "2";
         skos:altLabel          "";
         skos:definition        "A datum that has not been specified."@en;
+        skos:definition        "Un référentiel qui n'a pas été spécifié."@fr ;
         skos:notation          "SDN:S20::S2000033";
         skos:note              "accepted"@en;
-        skos:prefLabel         "unspecified datum"@en .
+        skos:prefLabel         "unspecified datum"@en ;
+        skos:prefLabel         "référentiel non spécifié"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000021/>
         rdf:type               skos:Concept;
@@ -344,9 +381,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The reference is the start of the platform dive."@en;
+        skos:definition        "La référence est le début de la plongée de la plateforme."@fr ;
         skos:notation          "SDN:S20::S2000021";
         skos:note              "accepted"@en;
-        skos:prefLabel         "start of dive"@en .
+        skos:prefLabel         "start of dive"@en ;
+        skos:prefLabel         "début de plongée"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000031/>
         rdf:type               skos:Concept;
@@ -361,9 +400,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Not available"@en;
+        skos:definition        "Non disponible"@fr ;
         skos:notation          "SDN:S20::S2000031";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Normal Low Water datum"@en .
+        skos:prefLabel         "Normal Low Water datum"@en ;
+        skos:prefLabel         "référentiel Normal Low Water"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000010/>
         rdf:type               skos:Concept;
@@ -379,9 +420,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "2";
         skos:altLabel          "";
         skos:definition        "The sea surface elevation at the time of the observation."@en;
+        skos:definition        "L'élévation de la surface de la mer au moment de l'observation."@fr ;
         skos:notation          "SDN:S20::S2000010";
         skos:note              "accepted"@en;
-        skos:prefLabel         "instantaneous sea level"@en .
+        skos:prefLabel         "instantaneous sea level"@en ;
+        skos:prefLabel         "niveau de la mer instantané"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000025/>
         rdf:type               skos:Concept;
@@ -396,9 +439,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The reference is a physical object that is a tool, an implement or a sampling/measuring device."@en;
+        skos:definition        "La référence est un objet physique qui est un outil, un instrument ou un dispositif d'échantillonnage/mesure."@fr ;
         skos:notation          "SDN:S20::S2000025";
         skos:note              "accepted"@en;
-        skos:prefLabel         "instrument"@en .
+        skos:prefLabel         "instrument"@en ;
+        skos:prefLabel         "instrument"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000008/>
         rdf:type               skos:Concept;
@@ -413,9 +458,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The entity is defined relative to the sea surface elevation averaged over a long period of time which approximates to the Earth's geoid."@en;
+        skos:definition        "L'entité est définie par rapport à l'élévation de la surface de la mer moyennée sur une longue période de temps qui approxime le géoïde de la Terre."@fr ;
         skos:notation          "SDN:S20::S2000008";
         skos:note              "accepted"@en;
-        skos:prefLabel         "mean sea level"@en .
+        skos:prefLabel         "mean sea level"@en ;
+        skos:prefLabel         "niveau moyen de la mer"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000018/>
         rdf:type               skos:Concept;
@@ -430,9 +477,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The time reference is midnight UTC on the 1st January 1950."@en;
+        skos:definition        "La référence temporelle est minuit UTC le 1er janvier 1950."@fr ;
         skos:notation          "SDN:S20::S2000018";
         skos:note              "accepted"@en;
-        skos:prefLabel         "1950-01-01T00:00:00Z"@en .
+        skos:prefLabel         "1950-01-01T00:00:00Z"@en ;
+        skos:prefLabel         "1950-01-01T00:00:00Z"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000034/>
         rdf:type               skos:Concept;
@@ -447,9 +496,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Not available"@en;
+        skos:definition        "Non disponible"@fr ;
         skos:notation          "SDN:S20::S2000034";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Mean Water Height"@en .
+        skos:prefLabel         "Mean Water Height"@en ;
+        skos:prefLabel         "Mean Water Height"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000028/>
         rdf:type               skos:Concept;
@@ -464,9 +515,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A vertical datum based on the mean sea level of the tide gauge at Malin Head, County Donegal. It was adopted as the national datum in 1970 from readings taken between 1960 and 1969 and all heights on national grid maps are measured above this datum."@en;
+        skos:definition        "Un référentiel vertical basé sur le niveau moyen de la mer du marégraphe de Malin Head, comté de Donegal. Il a été adopté comme référentiel national en 1970 à partir de relevés pris entre 1960 et 1969 et toutes les hauteurs des cartes nationales de la grille sont mesurées au-dessus de ce référentiel."@fr ;
         skos:notation          "SDN:S20::S2000028";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Ordnance Datum Malin"@en .
+        skos:prefLabel         "Ordnance Datum Malin"@en ;
+        skos:prefLabel         "Ordnance Datum Malin"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000041/>
         rdf:type               skos:Concept;
@@ -482,9 +535,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "2";
         skos:altLabel          "";
         skos:definition        "A datum provided elsewhere in the data model."@en;
+        skos:definition        "Un référentiel fourni ailleurs dans le modèle de données."@fr ;
         skos:notation          "SDN:S20::S2000041";
         skos:note              "accepted"@en;
-        skos:prefLabel         "datum specified elsewhere"@en .
+        skos:prefLabel         "datum specified elsewhere"@en ;
+        skos:prefLabel         "référentiel spécifié ailleurs"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000026/>
         rdf:type               skos:Concept;
@@ -499,9 +554,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The entity is defined relative to the instrument (e.g. a radar) and True North for direction."@en;
+        skos:definition        "L'entité est définie par rapport à l'instrument (par ex. un radar) et au nord vrai pour la direction."@fr ;
         skos:notation          "SDN:S20::S2000026";
         skos:note              "accepted"@en;
-        skos:prefLabel         "instrument and True North"@en .
+        skos:prefLabel         "instrument and True North"@en ;
+        skos:prefLabel         "instrument et nord vrai"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000038/>
         rdf:type               skos:Concept;
@@ -516,9 +573,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A vertical datum based on the arithmetic mean of hourly heights observed over the National Tidal Datum Epoch. Shorter series are specified in the name; e.g. monthly mean sea level and yearly mean sea level. Adapted from https://tidesandcurrents.noaa.gov/datum_options.html"@en;
+        skos:definition        "Un référentiel vertical basé sur la moyenne arithmétique des hauteurs horaires observées sur la période de référence du datum tidal national. Les séries plus courtes sont spécifiées dans le nom ; par ex. niveau moyen de la mer mensuel et annuel. Adapté de https://tidesandcurrents.noaa.gov/datum_options.html"@fr ;
         skos:notation          "SDN:S20::S2000038";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Mean Sea Level datum"@en .
+        skos:prefLabel         "Mean Sea Level datum"@en ;
+        skos:prefLabel         "référentiel Mean Sea Level"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000037/>
         rdf:type               skos:Concept;
@@ -533,9 +592,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A vertical datum based on the mean sea level at Newlyn in Cornwall averaged between 1915 and 1921 used for the elevation of the zero metres contour on UK Ordnance Survey maps."@en;
+        skos:definition        "Un référentiel vertical basé sur le niveau moyen de la mer de Newlyn en Cornouailles moyenné entre 1915 et 1921, utilisé pour l'élévation du contour zéro mètre sur les cartes de l'Ordnance Survey britannique."@fr ;
         skos:notation          "SDN:S20::S2000037";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Ordnance Datum Newlyn"@en .
+        skos:prefLabel         "Ordnance Datum Newlyn"@en ;
+        skos:prefLabel         "Ordnance Datum Newlyn"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000016/>
         rdf:type               skos:Concept;
@@ -550,9 +611,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The Ordnance Survey Great Britain 1936 datum based on the Airy 1830 ellipsoid."@en;
+        skos:definition        "Le référentiel Ordnance Survey Great Britain 1936 basé sur l'ellipsoïde Airy 1830."@fr ;
         skos:notation          "SDN:S20::S2000016";
         skos:note              "accepted"@en;
-        skos:prefLabel         "OSGB36"@en .
+        skos:prefLabel         "OSGB36"@en ;
+        skos:prefLabel         "OSGB36"@fr .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000012/>
         rdf:type               skos:Concept;
@@ -567,9 +630,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The entity is defined relative to the direction indicated by a magnetic needle or compass."@en;
+        skos:definition        "L'entité est définie par rapport à la direction indiquée par une aiguille aimantée ou une boussole."@fr ;
         skos:notation          "SDN:S20::S2000012";
         skos:note              "accepted"@en;
         skos:prefLabel         "magnetic north"@en;
+        skos:prefLabel         "nord magnétique"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/S29/current/PE001309/> .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000007/>
@@ -585,9 +650,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The entity is defined relative to the sea surface elevation averaged over a period long enough to eliminate tidal signals."@en;
+        skos:definition        "L'entité est définie par rapport à l'élévation de la surface de la mer moyennée sur une période suffisamment longue pour éliminer les signaux de marée."@fr ;
         skos:notation          "SDN:S20::S2000007";
         skos:note              "accepted"@en;
         skos:prefLabel         "sea level"@en;
+        skos:prefLabel         "niveau de la mer"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/S29/current/PE001305/> .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000003/>
@@ -604,9 +671,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "4";
         skos:altLabel          "";
         skos:definition        "The entity is defined relative to the moving platform (e.g. a ship)."@en;
+        skos:definition        "L'entité est définie par rapport à la plateforme mobile (par ex. un navire)."@fr ;
         skos:notation          "SDN:S20::S2000003";
         skos:note              "accepted"@en;
         skos:prefLabel         "moving platform and heading"@en;
+        skos:prefLabel         "plateforme mobile et cap"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/S29/current/PE001256/> .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000013/>
@@ -622,9 +691,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The entity is defined relative to the platform from which the measurement is made."@en;
+        skos:definition        "L'entité est définie par rapport à la plateforme depuis laquelle la mesure est faite."@fr ;
         skos:notation          "SDN:S20::S2000013";
         skos:note              "accepted"@en;
         skos:prefLabel         "moving platform"@en;
+        skos:prefLabel         "plateforme mobile"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/S29/current/PE001313/> .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000002/>
@@ -641,9 +712,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "4";
         skos:altLabel          "";
         skos:definition        "The entity is defined relative to the direction towards the geographic North Pole."@en;
+        skos:definition        "L'entité est définie par rapport à la direction vers le pôle Nord géographique."@fr ;
         skos:notation          "SDN:S20::S2000002";
         skos:note              "accepted"@en;
         skos:prefLabel         "True North"@en;
+        skos:prefLabel         "nord vrai"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/S29/current/PE001247/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001248/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001252/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001249/> .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000014/>
@@ -659,9 +732,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The measurement is defined relative to the water as in, for example, speed through water."@en;
+        skos:definition        "La mesure est définie par rapport à l'eau comme dans, par exemple, la vitesse par rapport à l'eau."@fr ;
         skos:notation          "SDN:S20::S2000014";
         skos:note              "accepted"@en;
         skos:prefLabel         "water"@en;
+        skos:prefLabel         "eau"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/S29/current/PE001314/> .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000005/>
@@ -696,9 +771,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The entity is defined relative to the solid surface of the earth."@en;
+        skos:definition        "L'entité est définie par rapport à la surface solide de la terre."@fr ;
         skos:notation          "SDN:S20::S2000011";
         skos:note              "accepted"@en;
         skos:prefLabel         "ground surface"@en;
+        skos:prefLabel         "surface du sol"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/S29/current/PE001312/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001303/> .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000006/>
@@ -715,9 +792,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "";
         skos:definition        "The entity is defined relative to the surface of the bed of a water body."@en;
+        skos:definition        "L'entité est définie par rapport à la surface du lit d'une masse d'eau."@fr ;
         skos:notation          "SDN:S20::S2000006";
         skos:note              "accepted"@en;
         skos:prefLabel         "bed surface"@en;
+        skos:prefLabel         "surface du lit"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/S29/current/PE001304/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001298/> .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000001/>
@@ -733,9 +812,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "This semantic element is not required for the parameter being described."@en;
+        skos:definition        "Cet élément sémantique n'est pas requis pour le paramètre décrit."@fr ;
         skos:notation          "SDN:S20::S2000001";
         skos:note              "accepted"@en;
         skos:prefLabel         "not applicable"@en;
+        skos:prefLabel         "non applicable"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/S29/current/PE001434/> .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/S2000024/>
@@ -751,9 +832,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The reference level is a pressure of 1 micropascal."@en;
+        skos:definition        "Le niveau de référence est une pression de 1 micropascal."@fr ;
         skos:notation          "SDN:S20::S2000024";
         skos:note              "accepted"@en;
         skos:prefLabel         "1 micropascal"@en;
+        skos:prefLabel         "1 micropascal"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/S29/current/PE001426/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001422/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001416/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001413/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001417/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001407/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001412/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001410/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001406/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001428/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001430/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001424/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001433/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001421/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001419/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001432/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001423/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001414/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001431/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001429/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001415/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001420/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001411/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001425/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001408/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001427/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001418/> , <http://vocab.nerc.ac.uk/collection/S29/current/PE001409/> .
 
 <http://vocab.nerc.ac.uk/collection/S20/current/>
@@ -771,5 +854,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "British Oceanographic Data Centre";
         owl:versionInfo         "17";
         skos:altLabel           "Physical entity datum names";
+        skos:altLabel           "noms de référentiels d'entités physiques"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/S20/current/S2000040/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000020/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000009/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000042/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000035/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000017/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000019/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000015/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000022/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000004/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000029/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000036/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000027/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000030/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000039/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000023/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000032/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000033/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000021/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000031/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000010/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000025/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000008/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000018/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000034/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000028/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000041/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000026/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000038/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000037/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000016/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000012/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000007/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000003/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000013/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000002/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000014/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000005/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000011/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000006/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000001/> , <http://vocab.nerc.ac.uk/collection/S20/current/S2000024/>;
-        skos:prefLabel          "BODC parameter semantic model physical entity datum names" .
+        skos:prefLabel          "BODC parameter semantic model physical entity datum names" ;
+        skos:prefLabel          "noms de référentiels d'entités physiques du modèle sémantique des paramètres BODC"@fr .
