@@ -49,14 +49,21 @@ def learn(vocab: str, frag_path: str):
             continue
         rec = json.loads(line)
         i, fr = rec.get("i"), rec.get("fr")
-        if fr is None:
-            skipped += 1
-            continue
         if not (0 <= i < len(todo)):
             print(f"{vocab}: index {i} hors bornes (todo a {len(todo)})")
             continue
         t = todo[i]
         key = (KIND[t["prop"]], t["en"])
+        if fr is None:
+            # null = segment relu, volontairement non traduit (URL, code…) :
+            # mémorisé dans la base pour ne plus réapparaître dans les todos.
+            if key in db:
+                skipped += 1
+                continue
+            added += 1
+            db[key] = None
+            new_entries.append({"k": key[0], "en": key[1], "fr": None})
+            continue
         if key in db:
             if db[key] != fr:
                 conflicts += 1

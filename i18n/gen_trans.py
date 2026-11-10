@@ -37,11 +37,12 @@ def gen(vocab: str, db: dict, write: bool = True):
     for i, s in enumerate(segs):
         if not s["en"].strip():
             continue  # segment vide -> rien à traduire ni à injecter
-        fr = db.get((KIND[s["prop"]], s["en"]))
-        if fr is None:
+        key = (KIND[s["prop"]], s["en"])
+        if key not in db:
             todo.append({"i": i, "prop": s["prop"], "en": s["en"]})
-        else:
-            trans_lines.append({"i": i, "fr": fr})
+        elif db[key] is not None:
+            trans_lines.append({"i": i, "fr": db[key]})
+        # db[key] is None -> relu et volontairement ignoré : ni todo ni trans
     if write:
         (TRANS / f"{vocab}.jsonl").write_text(
             "".join(json.dumps(t, ensure_ascii=False) + "\n" for t in trans_lines),
