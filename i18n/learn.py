@@ -75,19 +75,21 @@ def learn(vocab: str, frag_path: str):
             added += 1
         db[key] = fr
         new_entries.append({"k": key[0], "en": key[1], "fr": fr})
-    # réécrit la base complète (dédup + ordre stable)
+    # réécrit la base complète (dédup + ordre stable) ; db[] contient la
+    # valeur finale (le dernier fragment gagne en cas de conflit)
     seen = set()
-    lines = []
+    keys = []
     for k, en in order:
-        if (k, en) in seen:
-            continue
-        seen.add((k, en))
-        lines.append(json.dumps({"k": k, "en": en, "fr": db[(k, en)]}, ensure_ascii=False))
+        if (k, en) not in seen:
+            seen.add((k, en))
+            keys.append((k, en))
     for e in new_entries:
         key = (e["k"], e["en"])
         if key not in seen:
             seen.add(key)
-            lines.append(json.dumps(e, ensure_ascii=False))
+            keys.append(key)
+    lines = [json.dumps({"k": k[0], "en": k[1], "fr": db[(k[0], k[1])]},
+                        ensure_ascii=False) for k in keys]
     DB.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"{vocab}: +{added} entrées DB ({conflicts} conflits, {skipped} déjà présents/null)")
     return added, conflicts
