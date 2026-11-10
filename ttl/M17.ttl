@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Box core sample";
+        skos:altLabel          "carottage boîte"@fr ;
         skos:definition        "A sample of soft sediment recovered from the seafloor using a sampling technique consisting of a weighted box which penetrates into the seabed to a depth which depends on its descent rate, and has a blade which closes the base of the box after penetration, thus collecting the sample."@en;
+        skos:definition        "Un échantillon de sédiment meuble prélevé sur le fond marin à l'aide d'une technique d'échantillonnage consistant en une boîte lestée qui pénètre dans le fond marin sur une profondeur dépendant de sa vitesse de descente, et qui possède une lame fermant la base de la boîte après la pénétration, collectant ainsi l'échantillon."@fr ;
         skos:notation          "SDN:M17::SAMP_BOX";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Box core sample"@en .
+        skos:prefLabel         "Box core sample"@en ;
+        skos:prefLabel         "carottage boîte"@fr .
 
 <http://vocab.nerc.ac.uk/collection/M17/current/SAMP_GRAB/>
         rdf:type               skos:Concept;
@@ -49,10 +52,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Grab sample";
+        skos:altLabel          "échantillon par benne"@fr ;
         skos:definition        "A sample of sediment recovered from the seabed using a device which consists of a bucket or pair of buckets or similar containers which rotate on impact with the seabed, either through a spring trigger or through human intervention and scoops out a sample of sediment."@en;
+        skos:definition        "Un échantillon de sédiment prélevé sur le fond marin à l'aide d'un dispositif consistant en un godet ou une paire de godets ou des conteneurs similaires qui pivotent au contact du fond marin, soit par déclenchement à ressort soit par intervention humaine, et prélevent un échantillon de sédiment."@fr ;
         skos:notation          "SDN:M17::SAMP_GRAB";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Grab sample"@en .
+        skos:prefLabel         "Grab sample"@en ;
+        skos:prefLabel         "échantillon par benne"@fr .
 
 <http://vocab.nerc.ac.uk/collection/M17/current/SAMP_PISTCOR/>
         rdf:type               skos:Concept;
@@ -66,10 +72,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Piston core";
+        skos:altLabel          "carottier à piston"@fr ;
         skos:definition        "A sample of material collected when a metal tube is pushed into the seafloor by a large weight which deploys on contact with the seabed."@en;
+        skos:definition        "Un échantillon de matériau collecté lorsqu'un tube métallique est enfoncé dans le fond marin par un poids important qui se déploie au contact du fond marin."@fr ;
         skos:notation          "SDN:M17::SAMP_PISTCOR";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Piston core"@en .
+        skos:prefLabel         "Piston core"@en ;
+        skos:prefLabel         "carottier à piston"@fr .
 
 <http://vocab.nerc.ac.uk/collection/M17/current/SAMP_PUSH/>
         rdf:type               skos:Concept;
@@ -83,10 +92,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Push sample";
+        skos:altLabel          "échantillon par poinçon"@fr ;
         skos:definition        "A sample of substrate collected at the base of a borehole using a sampling tube with a hydraulic ram which is connected to the deck of the vessel via a flexible umbilical. A steady pushing action then drives the tube into the base of the borehole to allow the sample to be collected."@en;
+        skos:definition        "Un échantillon de substrat collecté à la base d'un sondage à l'aide d'un tube d'échantillonnage muni d'un vérin hydraulique connecté au pont du navire via un ombilical flexible. Une action de poussée régulière enfonce alors le tube dans la base du sondage pour permettre la collecte de l'échantillon."@fr ;
         skos:notation          "SDN:M17::SAMP_PUSH";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Push sample"@en .
+        skos:prefLabel         "Push sample"@en ;
+        skos:prefLabel         "échantillon par poinçon"@fr .
 
 <http://vocab.nerc.ac.uk/collection/M17/current/SAMP_VIBR/>
         rdf:type               skos:Concept;
@@ -100,10 +112,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Vibrocore";
+        skos:altLabel          "vibrocarottier"@fr ;
         skos:definition        "A sample collected from the seabed using a sampling technique in which a large diameter tube is vibrated into substrate while oscillating."@en;
+        skos:definition        "Un échantillon collecté sur le fond marin à l'aide d'une technique d'échantillonnage dans laquelle un tube de grand diamètre est vibré dans le substrat en oscillant."@fr ;
         skos:notation          "SDN:M17::SAMP_VIBR";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Vibrocore"@en .
+        skos:prefLabel         "Vibrocore"@en ;
+        skos:prefLabel         "vibrocarottier"@fr .
 
 <http://vocab.nerc.ac.uk/collection/M17/current/SAMP_HAM/>
         rdf:type               skos:Concept;
@@ -117,10 +132,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Hammer sample";
+        skos:altLabel          "échantillon par marteau"@fr ;
         skos:definition        "A sample of substrate collected at the base of a borehole using a sampling tube which is attached to a rod with extensions to enable the tube to reach the base of the borehole. Energy through application of blows of a falling hammer to the sampling rods drives the tube into the base of the borehole to allow the sample to be collected."@en;
+        skos:definition        "Un échantillon de substrat collecté à la base d'un sondage à l'aide d'un tube d'échantillonnage fixé à une tige avec rallonges permettant au tube d'atteindre la base du sondage. L'énergie issue des coups d'un marteau tombant sur les tiges d'échantillonnage enfonce le tube dans la base du sondage pour permettre la collecte de l'échantillon."@fr ;
         skos:notation          "SDN:M17::SAMP_HAM";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Hammer sample"@en .
+        skos:prefLabel         "Hammer sample"@en ;
+        skos:prefLabel         "échantillon par marteau"@fr .
 
 <http://vocab.nerc.ac.uk/collection/M17/current/SAMP_PIST/>
         rdf:type               skos:Concept;
@@ -134,10 +152,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Piston sample";
+        skos:altLabel          "échantillon par piston"@fr ;
         skos:definition        "A sample of substrate is collected using a thin-walled metal tube with a piston at the tip, deployed at the base of a borehole. The metal tube slides into the substrate while the piston remains above it, creating a vacuum which assists the sample to enter the sampler."@en;
+        skos:definition        "Un échantillon de substrat est collecté à l'aide d'un tube métallique à paroi fine muni d'un piston à son extrémité, déployé à la base d'un sondage. Le tube métallique glisse dans le substrat tandis que le piston reste au-dessus, créant un vide qui aide l'échantillon à pénétrer dans l'échantillonneur."@fr ;
         skos:notation          "SDN:M17::SAMP_PIST";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Piston sample"@en .
+        skos:prefLabel         "Piston sample"@en ;
+        skos:prefLabel         "échantillon par piston"@fr .
 
 <http://vocab.nerc.ac.uk/collection/M17/current/SAMP_CORR/>
         rdf:type               skos:Concept;
@@ -151,10 +172,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Core run";
+        skos:altLabel          "carotte"@fr ;
         skos:definition        "A sample which consists of substrate material cut with a bit during drilling of a borehole and stored in a tubular housing known as a core barrel, which is located behind the drill head. The core barrel may consist of up to three layers of tube housing and can be lined with a plastic sleeve to ensure sample integrity. The length of the core run depends on the length of the core barrel."@en;
+        skos:definition        "Un échantillon consistant en du matériau de substrat coupé par un trépan lors du forage d'un sondage et stocké dans un boîtier tubulaire appelé carottier, situé derrière la tête de forage. Le carottier peut consister en jusqu'à trois couches de tubes et peut être garni d'un manchon plastique pour garantir l'intégrité de l'échantillon. La longueur de la carotte dépend de la longueur du carottier."@fr ;
         skos:notation          "SDN:M17::SAMP_CORR";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Core run"@en .
+        skos:prefLabel         "Core run"@en ;
+        skos:prefLabel         "carotte"@fr .
 
 <http://vocab.nerc.ac.uk/collection/M17/current/>
         rdf:type                skos:Collection;
@@ -169,5 +193,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "MEDIN Standards Group";
         owl:versionInfo         "1";
         skos:altLabel           "Geotech investigation sample type";
+        skos:altLabel           "type d'échantillon d'investigation géotechnique"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/M17/current/SAMP_BOX/> , <http://vocab.nerc.ac.uk/collection/M17/current/SAMP_GRAB/> , <http://vocab.nerc.ac.uk/collection/M17/current/SAMP_PISTCOR/> , <http://vocab.nerc.ac.uk/collection/M17/current/SAMP_PUSH/> , <http://vocab.nerc.ac.uk/collection/M17/current/SAMP_VIBR/> , <http://vocab.nerc.ac.uk/collection/M17/current/SAMP_CORR/> , <http://vocab.nerc.ac.uk/collection/M17/current/SAMP_PIST/> , <http://vocab.nerc.ac.uk/collection/M17/current/SAMP_HAM/>;
-        skos:prefLabel          "Type of sample collected during a geotechnical investigation" .
+        skos:prefLabel          "Type of sample collected during a geotechnical investigation" ;
+        skos:prefLabel          "type d'échantillon collecté lors d'une investigation géotechnique"@fr .

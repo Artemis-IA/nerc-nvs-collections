@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "3B";
+        skos:altLabel          "3B"@fr ;
         skos:definition        "Data have been processed with assumptions about the scales of variability or thermodynamic relationships; the data are normally reduced to regular space, time intervals with enhanced signal to noise (Level 3). Moreover, the data have been scrutinized and evaluated against a defined and documented set of measures; the process is often automated, and the measures are published and widely available (Class B)."@en;
+        skos:definition        "Les données ont été traitées avec des hypothèses sur les échelles de variabilité ou les relations thermodynamiques ; les données sont normalement réduites à des intervalles d'espace et de temps réguliers avec un rapport signal/bruit amélioré (niveau 3). De plus, les données ont été examinées et évaluées par rapport à un ensemble de mesures défini et documenté ; le processus est souvent automatisé et les mesures sont publiées et largement disponibles (classe B)."@fr ;
         skos:notation          "SDN:R06::3B";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Level 3, class B processing stage"@en .
+        skos:prefLabel         "Level 3, class B processing stage"@en ;
+        skos:prefLabel         "étape de traitement niveau 3, classe B"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R06/current/2C/>
         rdf:type               skos:Concept;
@@ -49,10 +52,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "2C";
+        skos:altLabel          "2C"@fr ;
         skos:definition        "Data have complete geospatial and temporal references; information may have been sub-sampled, averaged or compressed in other ways, but no assumptions of scales and variability or thermodynamic relationships have been used in the processing (Level 2). Moreover, the data have been scrutinized fully including intra-record and intra-dataset comparison and consistency checks; scientists have been involved in the evaluation, and brought latest knowledge to bear; the procedures are published, widely available and widely accepted (Class C)."@en;
+        skos:definition        "Les données ont des références géospatiales et temporelles complètes ; les informations peuvent avoir été sous-échantillonnées, moyennées ou compressées d'autres façons, mais aucune hypothèse d'échelles et de variabilité ou de relations thermodynamiques n'a été utilisée dans le traitement (niveau 2). De plus, les données ont été entièrement examinées incluant des comparaisons et vérifications de cohérence intra-enregistrement et intra-jeu de données ; des scientifiques ont été impliqués dans l'évaluation et ont apporté les connaissances les plus récentes ; les procédures sont publiées, largement disponibles et largement acceptées (classe C)."@fr ;
         skos:notation          "SDN:R06::2C";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Level 2, class C processing stage"@en .
+        skos:prefLabel         "Level 2, class C processing stage"@en ;
+        skos:prefLabel         "étape de traitement niveau 2, classe C"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R06/current/1A/>
         rdf:type               skos:Concept;
@@ -66,10 +72,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "1A";
+        skos:altLabel          "1A"@fr ;
         skos:definition        "Data have been converted to values independent of detailed instrument knowledge; automated calibrations may have been done; data may not have full geospatial and temporal referencing, but have sufficient information to uniquely reference the data to the point of measurement (Level 1). Moreover, no scrutiny, value judgement or intercomparisons were performed on the data; the records are derived directly from the input with no filtering or sub-sampling (Class A)."@en;
+        skos:definition        "Les données ont été converties en valeurs indépendantes de la connaissance détaillée de l'instrument ; des étalonnages automatisés peuvent avoir été effectués ; les données peuvent ne pas avoir de référencement géospatial et temporel complet, mais disposent de suffisamment d'informations pour référencer de manière unique les données au point de mesure (niveau 1). De plus, aucun examen, jugement de valeur ou intercomparaison n'a été effectué sur les données ; les enregistrements sont dérivés directement de l'entrée sans filtrage ni sous-échantillonnage (classe A)."@fr ;
         skos:notation          "SDN:R06::1A";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Level 1, class A processing stage"@en .
+        skos:prefLabel         "Level 1, class A processing stage"@en ;
+        skos:prefLabel         "étape de traitement niveau 1, classe A"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R06/current/3C/>
         rdf:type               skos:Concept;
@@ -83,10 +92,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "3C";
+        skos:altLabel          "3C"@fr ;
         skos:definition        "Data have been processed with assumptions about the scales of variability or thermodynamic relationships; the data are normally reduced to regular space, time intervals with enhanced signal to noise (Level 3). Moreover, the data have been scrutinized fully including intra-record and intra-dataset comparison and consistency checks; scientists have been involved in the evaluation, and brought latest knowledge to bear; the procedures are published, widely available and widely accepted (Class C)."@en;
+        skos:definition        "Les données ont été traitées avec des hypothèses sur les échelles de variabilité ou les relations thermodynamiques ; les données sont normalement réduites à des intervalles d'espace et de temps réguliers avec un rapport signal/bruit amélioré (niveau 3). De plus, les données ont été entièrement examinées incluant des comparaisons et vérifications de cohérence intra-enregistrement et intra-jeu de données ; des scientifiques ont été impliqués dans l'évaluation et ont apporté les connaissances les plus récentes ; les procédures sont publiées, largement disponibles et largement acceptées (classe C)."@fr ;
         skos:notation          "SDN:R06::3C";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Level 3, class C processing stage"@en .
+        skos:prefLabel         "Level 3, class C processing stage"@en ;
+        skos:prefLabel         "étape de traitement niveau 3, classe C"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R06/current/2CP/>
         rdf:type               skos:Concept;
@@ -100,10 +112,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "2C+";
+        skos:altLabel          "2C+"@fr ;
         skos:definition        "Data have complete geospatial and temporal references; information may have been sub-sampled, averaged or compressed in other ways, but no assumptions of scales and variability or thermodynamic relationships have been used in the processing (Level 2). Moreover, the data have been scrutinized fully including intra-record and intra-dataset comparison and consistency checks; scientists have been involved in the evaluation, and brought latest knowledge to bear; the procedures are published, widely available and widely accepted (Class C). In addition, the data are fully quality controlled and peer-reviewed, and are widely accepted as valid; documentation is complete and widely available."@en;
+        skos:definition        "Les données ont des références géospatiales et temporelles complètes ; les informations peuvent avoir été sous-échantillonnées, moyennées ou compressées d'autres façons, mais aucune hypothèse d'échelles et de variabilité ou de relations thermodynamiques n'a été utilisée dans le traitement (niveau 2). De plus, les données ont été entièrement examinées incluant des comparaisons et vérifications de cohérence intra-enregistrement et intra-jeu de données ; des scientifiques ont été impliqués dans l'évaluation et ont apporté les connaissances les plus récentes ; les procédures sont publiées, largement disponibles et largement acceptées (classe C). En outre, les données sont entièrement contrôlées en qualité et évaluées par les pairs, et sont largement acceptées comme valides ; la documentation est complète et largement disponible."@fr ;
         skos:notation          "SDN:R06::2CP";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Level 2, class C, subclass + processing stage"@en .
+        skos:prefLabel         "Level 2, class C, subclass + processing stage"@en ;
+        skos:prefLabel         "étape de traitement niveau 2, classe C, sous-classe +"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R06/current/0A/>
         rdf:type               skos:Concept;
@@ -117,10 +132,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "0A";
+        skos:altLabel          "0A"@fr ;
         skos:definition        "Data are the raw output from instruments, without calibration, and not necessarily converted to engineering units (Level 0). Moreover, no scrutiny, value judgement or intercomparisons were performed on the data; the records are derived directly from the input with no filtering or sub-sampling (Class A)."@en;
+        skos:definition        "Les données sont la sortie brute des instruments, sans étalonnage, et pas nécessairement converties en unités techniques (niveau 0). De plus, aucun examen, jugement de valeur ou intercomparaison n'a été effectué sur les données ; les enregistrements sont dérivés directement de l'entrée sans filtrage ni sous-échantillonnage (classe A)."@fr ;
         skos:notation          "SDN:R06::0A";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Level 0, class A processing stage"@en .
+        skos:prefLabel         "Level 0, class A processing stage"@en ;
+        skos:prefLabel         "étape de traitement niveau 0, classe A"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R06/current/2BP/>
         rdf:type               skos:Concept;
@@ -134,10 +152,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "2B+";
+        skos:altLabel          "2B+"@fr ;
         skos:definition        "Data have complete geospatial and temporal references; information may have been sub-sampled, averaged or compressed in other ways, but no assumptions of scales and variability or thermodynamic relationships have been used in the processing (Level 2). Moreover, the data have been scrutinized and evaluated against a defined and documented set of measures; the process is often automated, and the measures are published and widely available (Class B). In addition, the measures have been tested on independent data sets for completeness and robustness, and are widely accepted (Subclass +)."@en;
+        skos:definition        "Les données ont des références géospatiales et temporelles complètes ; les informations peuvent avoir été sous-échantillonnées, moyennées ou compressées d'autres façons, mais aucune hypothèse d'échelles et de variabilité ou de relations thermodynamiques n'a été utilisée dans le traitement (niveau 2). De plus, les données ont été examinées et évaluées par rapport à un ensemble de mesures défini et documenté ; le processus est souvent automatisé et les mesures sont publiées et largement disponibles (classe B). En outre, les mesures ont été testées sur des jeux de données indépendants pour leur complétude et leur robustesse, et sont largement acceptées (sous-classe +)."@fr ;
         skos:notation          "SDN:R06::2BP";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Level 2, class B, subclass + processing stage"@en .
+        skos:prefLabel         "Level 2, class B, subclass + processing stage"@en ;
+        skos:prefLabel         "étape de traitement niveau 2, classe B, sous-classe +"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R06/current/2B/>
         rdf:type               skos:Concept;
@@ -151,10 +172,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "2B";
+        skos:altLabel          "2B"@fr ;
         skos:definition        "Data have complete geospatial and temporal references; information may have been sub-sampled, averaged or compressed in other ways, but no assumptions of scales and variability or thermodynamic relationships have been used in the processing (Level 2). Moreover, the data have been scrutinized and evaluated against a defined and documented set of measures; the process is often automated, and the measures are published and widely available (Class B)."@en;
+        skos:definition        "Les données ont des références géospatiales et temporelles complètes ; les informations peuvent avoir été sous-échantillonnées, moyennées ou compressées d'autres façons, mais aucune hypothèse d'échelles et de variabilité ou de relations thermodynamiques n'a été utilisée dans le traitement (niveau 2). De plus, les données ont été examinées et évaluées par rapport à un ensemble de mesures défini et documenté ; le processus est souvent automatisé et les mesures sont publiées et largement disponibles (classe B)."@fr ;
         skos:notation          "SDN:R06::2B";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Level 2, class B processing stage"@en .
+        skos:prefLabel         "Level 2, class B processing stage"@en ;
+        skos:prefLabel         "étape de traitement niveau 2, classe B"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R06/current/>
         rdf:type                skos:Collection;
@@ -170,5 +194,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Argo Data Management Team";
         owl:versionInfo         "0";
         skos:altLabel           "DATA_STATE_INDICATOR";
+        skos:altLabel           "DATA_STATE_INDICATOR"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/R06/current/3B/> , <http://vocab.nerc.ac.uk/collection/R06/current/2C/> , <http://vocab.nerc.ac.uk/collection/R06/current/1A/> , <http://vocab.nerc.ac.uk/collection/R06/current/3C/> , <http://vocab.nerc.ac.uk/collection/R06/current/2CP/> , <http://vocab.nerc.ac.uk/collection/R06/current/0A/> , <http://vocab.nerc.ac.uk/collection/R06/current/2B/> , <http://vocab.nerc.ac.uk/collection/R06/current/2BP/>;
-        skos:prefLabel          "Argo data state indicators" .
+        skos:prefLabel          "Argo data state indicators" ;
+        skos:prefLabel          "indicateurs d'état des données Argo"@fr .

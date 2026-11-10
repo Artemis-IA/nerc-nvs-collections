@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "8";
+        skos:altLabel          "8"@fr ;
         skos:definition        "Estimated value (interpolated, extrapolated or other estimation)."@en;
+        skos:definition        "Valeur estimée (interpolée, extrapolée ou autre estimation)."@fr ;
         skos:notation          "SDN:RD2::8";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Estimated value"@en .
+        skos:prefLabel         "Estimated value"@en ;
+        skos:prefLabel         "valeur estimée"@fr .
 
 <http://vocab.nerc.ac.uk/collection/RD2/current/9/>
         rdf:type               skos:Concept;
@@ -50,10 +53,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "9";
+        skos:altLabel          "9"@fr ;
         skos:definition        "Missing value. Data parameter will record FillValue."@en;
+        skos:definition        "Valeur manquante. Le paramètre de données enregistrera FillValue."@fr ;
         skos:notation          "SDN:RD2::9";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Missing Value"@en .
+        skos:prefLabel         "Missing Value"@en ;
+        skos:prefLabel         "valeur manquante"@fr .
 
 <http://vocab.nerc.ac.uk/collection/RD2/current/2/>
         rdf:type               skos:Concept;
@@ -68,10 +74,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "2";
+        skos:altLabel          "2"@fr ;
         skos:definition        "Delayed-mode evaluation is based on insufficient information. An error estimate is supplied."@en;
+        skos:definition        "L'évaluation en mode différé repose sur des informations insuffisantes. Une estimation d'erreur est fournie."@fr ;
         skos:notation          "SDN:RD2::2";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Probably good data"@en .
+        skos:prefLabel         "Probably good data"@en ;
+        skos:prefLabel         "données probablement bonnes"@fr .
 
 <http://vocab.nerc.ac.uk/collection/RD2/current/3/>
         rdf:type               skos:Concept;
@@ -86,10 +95,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "3";
+        skos:altLabel          "3"@fr ;
         skos:definition        "An adjustment may (or may not) have been applied, but the value may still be bad. An error estimate is supplied."@en;
+        skos:definition        "Un ajustement peut (ou non) avoir été appliqué, mais la valeur peut encore être mauvaise. Une estimation d'erreur est fournie."@fr ;
         skos:notation          "SDN:RD2::3";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Probably bad data that are potentially adjustable"@en .
+        skos:prefLabel         "Probably bad data that are potentially adjustable"@en ;
+        skos:prefLabel         "données probablement mauvaises potentiellement ajustables"@fr .
 
 <http://vocab.nerc.ac.uk/collection/RD2/current/5/>
         rdf:type               skos:Concept;
@@ -103,10 +115,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "5";
+        skos:altLabel          "5"@fr ;
         skos:definition        "Value changed."@en;
+        skos:definition        "Valeur modifiée."@fr ;
         skos:notation          "SDN:RD2::5";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Value changed"@en .
+        skos:prefLabel         "Value changed"@en ;
+        skos:prefLabel         "valeur modifiée"@fr .
 
 <http://vocab.nerc.ac.uk/collection/RD2/current/4/>
         rdf:type               skos:Concept;
@@ -121,10 +136,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "4";
+        skos:altLabel          "4"@fr ;
         skos:definition        "Not adjustable. Adjusted data are replaced by FillValue."@en;
+        skos:definition        "Non ajustable. Les données ajustées sont remplacées par FillValue."@fr ;
         skos:notation          "SDN:RD2::4";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Bad data"@en .
+        skos:prefLabel         "Bad data"@en ;
+        skos:prefLabel         "données mauvaises"@fr .
 
 <http://vocab.nerc.ac.uk/collection/RD2/current/1/>
         rdf:type               skos:Concept;
@@ -139,10 +157,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "1";
+        skos:altLabel          "1"@fr ;
         skos:definition        "No adjustment is needed, or the adjusted value is statistically consistent with good quality reference data. An error estimate is supplied."@en;
+        skos:definition        "Aucun ajustement n'est nécessaire, ou la valeur ajustée est statistiquement cohérente avec des données de référence de bonne qualité. Une estimation d'erreur est fournie."@fr ;
         skos:notation          "SDN:RD2::1";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Good data"@en .
+        skos:prefLabel         "Good data"@en ;
+        skos:prefLabel         "données bonnes"@fr .
 
 <http://vocab.nerc.ac.uk/collection/RD2/current/0/>
         rdf:type               skos:Concept;
@@ -156,10 +177,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "0";
+        skos:altLabel          "0"@fr ;
         skos:definition        "No delayed-mode quality-control (QC) was performed."@en;
+        skos:definition        "Aucun contrôle qualité (QC) en mode différé n'a été effectué."@fr ;
         skos:notation          "SDN:RD2::0";
         skos:note              "accepted"@en;
-        skos:prefLabel         "No QC"@en .
+        skos:prefLabel         "No QC"@en ;
+        skos:prefLabel         "pas de QC"@fr .
 
 <http://vocab.nerc.ac.uk/collection/RD2/current/>
         rdf:type                skos:Collection;
@@ -175,5 +199,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Argo Data Management Team";
         owl:versionInfo         "1";
         skos:altLabel           "DM_QC_FLAG";
+        skos:altLabel           "DM_QC_FLAG"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/RD2/current/8/> , <http://vocab.nerc.ac.uk/collection/RD2/current/9/> , <http://vocab.nerc.ac.uk/collection/RD2/current/2/> , <http://vocab.nerc.ac.uk/collection/RD2/current/3/> , <http://vocab.nerc.ac.uk/collection/RD2/current/5/> , <http://vocab.nerc.ac.uk/collection/RD2/current/4/> , <http://vocab.nerc.ac.uk/collection/RD2/current/0/> , <http://vocab.nerc.ac.uk/collection/RD2/current/1/>;
-        skos:prefLabel          "Argo delayed-mode quality control measurement flags" .
+        skos:prefLabel          "Argo delayed-mode quality control measurement flags" ;
+        skos:prefLabel          "drapeaux de mesure de contrôle qualité en mode différé Argo"@fr .
