@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Specific type of information represented in the cell"@en;
+        skos:definition        "Type spécifique d'information représentée dans la cellule"@fr ;
         skos:notation          "SDN:V23::G11";
         skos:note              "accepted"@en;
-        skos:prefLabel         "MD_CoverageContentTypeCode"@en .
+        skos:prefLabel         "MD_CoverageContentTypeCode"@en ;
+        skos:prefLabel         "MD_CoverageContentTypeCode (code de type de contenu de couverture)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/V23/current/G22/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Status of the dataset or progress of a review"@en;
+        skos:definition        "Statut du jeu de données ou avancement d'une révision"@fr ;
         skos:notation          "SDN:V23::G22";
         skos:note              "accepted"@en;
-        skos:prefLabel         "MD_ProgressCode"@en .
+        skos:prefLabel         "MD_ProgressCode"@en ;
+        skos:prefLabel         "MD_ProgressCode (code d'avancement)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/V23/current/P05/>
         rdf:type               skos:Concept;
@@ -67,9 +71,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "High-level geographic data thematic classification to assist in the grouping and search of available geographic data sets. Can be used to group keywords as well. Listed examples are not exhaustive."@en;
+        skos:definition        "Classification thématique géographique de haut niveau pour assister le regroupement et la recherche de jeux de données géographiques disponibles. Peut aussi être utilisée pour regrouper les mots-clés. Les exemples listés ne sont pas exhaustifs."@fr ;
         skos:notation          "SDN:V23::P05";
         skos:note              "accepted"@en;
-        skos:prefLabel         "MD_TopicCategoryCode"@en .
+        skos:prefLabel         "MD_TopicCategoryCode"@en ;
+        skos:prefLabel         "MD_TopicCategoryCode"@fr .
 
 <http://vocab.nerc.ac.uk/collection/V23/current/G17/>
         rdf:type               skos:Concept;
@@ -84,9 +90,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Frequency with which modifications and deletions are made to the data after they are first produced"@en;
+        skos:definition        "Fréquence à laquelle des modifications et suppressions sont effectuées sur les données après leur production initiale"@fr ;
         skos:notation          "SDN:V23::G17";
         skos:note              "accepted"@en;
-        skos:prefLabel         "MD_MaintenanceFrequencyCode"@en .
+        skos:prefLabel         "MD_MaintenanceFrequencyCode"@en ;
+        skos:prefLabel         "MD_MaintenanceFrequencyCode (code de fréquence de maintenance)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/V23/current/G03/>
         rdf:type               skos:Concept;
@@ -101,9 +109,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Mode in which the data are represented"@en;
+        skos:definition        "Mode de représentation des données"@fr ;
         skos:notation          "SDN:V23::G03";
         skos:note              "accepted"@en;
-        skos:prefLabel         "CI_PresentationFormCode"@en .
+        skos:prefLabel         "CI_PresentationFormCode"@en ;
+        skos:prefLabel         "CI_PresentationFormCode (code de forme de présentation)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/V23/current/G13/>
         rdf:type               skos:Concept;
@@ -118,9 +128,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Name of the dimension"@en;
+        skos:definition        "Nom de la dimension"@fr ;
         skos:notation          "SDN:V23::G13";
         skos:note              "accepted"@en;
-        skos:prefLabel         "MD_DimensionNameTypeCode"@en .
+        skos:prefLabel         "MD_DimensionNameTypeCode"@en ;
+        skos:prefLabel         "MD_DimensionNameTypeCode"@fr .
 
 <http://vocab.nerc.ac.uk/collection/V23/current/G02/>
         rdf:type               skos:Concept;
@@ -136,9 +148,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "2";
         skos:altLabel          "";
         skos:definition        "Function performed by the resource"@en;
+        skos:definition        "Fonction assurée par la ressource"@fr ;
         skos:notation          "SDN:V23::G02";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "CI_OnLineFunctionCode"@en .
+        skos:prefLabel         "CI_OnLineFunctionCode"@en ;
+        skos:prefLabel         "CI_OnLineFunctionCode"@fr .
 
 <http://vocab.nerc.ac.uk/collection/V23/current/L19/>
         rdf:type               skos:Concept;
@@ -153,9 +167,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Methods used to group similar keywords"@en;
+        skos:definition        "Méthodes utilisées pour regrouper des mots-clés similaires"@fr ;
         skos:notation          "SDN:V23::L19";
         skos:note              "accepted"@en;
-        skos:prefLabel         "MD_KeywordTypeCode"@en .
+        skos:prefLabel         "MD_KeywordTypeCode"@en ;
+        skos:prefLabel         "MD_KeywordTypeCode"@fr .
 
 <http://vocab.nerc.ac.uk/collection/V23/current/G06/>
         rdf:type               skos:Concept;
@@ -170,9 +186,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Justification for the correlation of two datasets"@en;
+        skos:definition        "Justification de la corrélation de deux jeux de données"@fr ;
         skos:notation          "SDN:V23::G06";
         skos:note              "accepted"@en;
-        skos:prefLabel         "DS_AssociationTypeCode"@en .
+        skos:prefLabel         "DS_AssociationTypeCode"@en ;
+        skos:prefLabel         "DS_AssociationTypeCode (code de type d'association de jeu de données)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/V23/current/G15/>
         rdf:type               skos:Concept;
@@ -187,9 +205,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Code which indicates conditions which may affect the image"@en;
+        skos:definition        "Code indiquant les conditions qui peuvent affecter l'image"@fr ;
         skos:notation          "SDN:V23::G15";
         skos:note              "accepted"@en;
-        skos:prefLabel         "MD_ImagingConditionCode"@en .
+        skos:prefLabel         "MD_ImagingConditionCode"@en ;
+        skos:prefLabel         "MD_ImagingConditionCode"@fr .
 
 <http://vocab.nerc.ac.uk/collection/V23/current/G26/>
         rdf:type               skos:Concept;
@@ -204,9 +224,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Method used to represent geographic information in the dataset"@en;
+        skos:definition        "Méthode utilisée pour représenter l'information géographique dans le jeu de données"@fr ;
         skos:notation          "SDN:V23::G26";
         skos:note              "accepted"@en;
-        skos:prefLabel         "MD_SpatialRepresentationTypeCode"@en .
+        skos:prefLabel         "MD_SpatialRepresentationTypeCode"@en ;
+        skos:prefLabel         "MD_SpatialRepresentationTypeCode (code de type de représentation spatiale)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/V23/current/G10/>
         rdf:type               skos:Concept;
@@ -221,9 +243,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Name of the handling restrictions on the dataset"@en;
+        skos:definition        "Nom des restrictions de manipulation sur le jeu de données"@fr ;
         skos:notation          "SDN:V23::G10";
         skos:note              "accepted"@en;
-        skos:prefLabel         "MD_ClassificationCode"@en .
+        skos:prefLabel         "MD_ClassificationCode"@en ;
+        skos:prefLabel         "MD_ClassificationCode (code de classification)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/V23/current/G01/>
         rdf:type               skos:Concept;
@@ -238,9 +262,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Identification of when a given event occurred"@en;
+        skos:definition        "Identification du moment où un événement donné s'est produit"@fr ;
         skos:notation          "SDN:V23::G01";
         skos:note              "accepted"@en;
-        skos:prefLabel         "CI_DateTypeCode"@en .
+        skos:prefLabel         "CI_DateTypeCode"@en ;
+        skos:prefLabel         "CI_DateTypeCode (code de type de date)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/V23/current/G19/>
         rdf:type               skos:Concept;
@@ -255,9 +281,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Name of the medium"@en;
+        skos:definition        "Nom du support"@fr ;
         skos:notation          "SDN:V23::G19";
         skos:note              "accepted"@en;
-        skos:prefLabel         "MD_MediumNameCode"@en .
+        skos:prefLabel         "MD_MediumNameCode"@en ;
+        skos:prefLabel         "MD_MediumNameCode"@fr .
 
 <http://vocab.nerc.ac.uk/collection/V23/current/G21/>
         rdf:type               skos:Concept;
@@ -272,9 +300,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Point in a pixel corresponding to the Earth location of the pixel"@en;
+        skos:definition        "Point d'un pixel correspondant à l'emplacement terrestre du pixel"@fr ;
         skos:notation          "SDN:V23::G21";
         skos:note              "accepted"@en;
-        skos:prefLabel         "MD_PixelOrientationCode"@en .
+        skos:prefLabel         "MD_PixelOrientationCode"@en ;
+        skos:prefLabel         "MD_PixelOrientationCode (code d'orientation des pixels)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/V23/current/L02/>
         rdf:type               skos:Concept;
@@ -289,9 +319,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Name of point or vector objects used to locate zero-, one-, two-, or three-dimensional spatial locations in the dataset"@en;
+        skos:definition        "Nom des objets ponctuels ou vectoriels utilisés pour localiser des emplacements spatiaux de dimension zéro, une, deux ou trois dans le jeu de données"@fr ;
         skos:notation          "SDN:V23::L02";
         skos:note              "accepted"@en;
-        skos:prefLabel         "MD_GeometricObjectTypeCode"@en .
+        skos:prefLabel         "MD_GeometricObjectTypeCode"@en ;
+        skos:prefLabel         "MD_GeometricObjectTypeCode (code de type d'objet géométrique)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/V23/current/G20/>
         rdf:type               skos:Concept;
@@ -306,9 +338,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Obligation of the element or entity"@en;
+        skos:definition        "Obligation de l'élément ou de l'entité"@fr ;
         skos:notation          "SDN:V23::G20";
         skos:note              "accepted"@en;
-        skos:prefLabel         "MD_ObligationCode"@en .
+        skos:prefLabel         "MD_ObligationCode"@en ;
+        skos:prefLabel         "MD_ObligationCode (code d'obligation)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/V23/current/G08/>
         rdf:type               skos:Concept;
@@ -323,9 +357,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Code indicating whether grid data are points or area"@en;
+        skos:definition        "Code indiquant si les données de grille sont des points ou des surfaces"@fr ;
         skos:notation          "SDN:V23::G08";
         skos:note              "accepted"@en;
-        skos:prefLabel         "MD_CellGeometryCode"@en .
+        skos:prefLabel         "MD_CellGeometryCode"@en ;
+        skos:prefLabel         "MD_CellGeometryCode (code de géométrie de cellule)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/V23/current/G09/>
         rdf:type               skos:Concept;
@@ -340,9 +376,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Name of the character coding standard used in the resource"@en;
+        skos:definition        "Nom du standard de codage de caractères utilisé dans la ressource"@fr ;
         skos:notation          "SDN:V23::G09";
         skos:note              "accepted"@en;
-        skos:prefLabel         "MD_CharacterSetCode"@en .
+        skos:prefLabel         "MD_CharacterSetCode"@en ;
+        skos:prefLabel         "MD_CharacterSetCode"@fr .
 
 <http://vocab.nerc.ac.uk/collection/V23/current/G28/>
         rdf:type               skos:Concept;
@@ -357,9 +395,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Degree of complexity of the spatial relationships"@en;
+        skos:definition        "Degré de complexité des relations spatiales"@fr ;
         skos:notation          "SDN:V23::G28";
         skos:note              "accepted"@en;
-        skos:prefLabel         "MD_TopologyLevelCode"@en .
+        skos:prefLabel         "MD_TopologyLevelCode"@en ;
+        skos:prefLabel         "MD_TopologyLevelCode (code de niveau de topologie)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/V23/current/G12/>
         rdf:type               skos:Concept;
@@ -374,9 +414,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Datatype of element or entity"@en;
+        skos:definition        "Type de données de l'élément ou de l'entité"@fr ;
         skos:notation          "SDN:V23::G12";
         skos:note              "accepted"@en;
-        skos:prefLabel         "MD_DatatypeCode"@en .
+        skos:prefLabel         "MD_DatatypeCode"@en ;
+        skos:prefLabel         "MD_DatatypeCode"@fr .
 
 <http://vocab.nerc.ac.uk/collection/V23/current/G23/>
         rdf:type               skos:Concept;
@@ -391,9 +433,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Limitation(s) placed upon the access or use of the data"@en;
+        skos:definition        "Limitation(s) placée(s) sur l'accès ou l'utilisation des données"@fr ;
         skos:notation          "SDN:V23::G23";
         skos:note              "accepted"@en;
-        skos:prefLabel         "MD_RestrictionCode"@en .
+        skos:prefLabel         "MD_RestrictionCode"@en ;
+        skos:prefLabel         "MD_RestrictionCode"@fr .
 
 <http://vocab.nerc.ac.uk/collection/V23/current/L07/>
         rdf:type               skos:Concept;
@@ -408,9 +452,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Function performed by the resource"@en;
+        skos:definition        "Fonction assurée par la ressource"@fr ;
         skos:notation          "SDN:V23::L07";
         skos:note              "accepted"@en;
-        skos:prefLabel         "CI_OnLineFunctionCode"@en .
+        skos:prefLabel         "CI_OnLineFunctionCode"@en ;
+        skos:prefLabel         "CI_OnLineFunctionCode"@fr .
 
 <http://vocab.nerc.ac.uk/collection/V23/current/G07/>
         rdf:type               skos:Concept;
@@ -425,9 +471,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Type of aggregation activity in which datasets are related"@en;
+        skos:definition        "Type d'activité d'agrégation dans laquelle les jeux de données sont reliés"@fr ;
         skos:notation          "SDN:V23::G07";
         skos:note              "accepted"@en;
-        skos:prefLabel         "DS_InitiativeTypeCode"@en .
+        skos:prefLabel         "DS_InitiativeTypeCode"@en ;
+        skos:prefLabel         "DS_InitiativeTypeCode"@fr .
 
 <http://vocab.nerc.ac.uk/collection/V23/current/G25/>
         rdf:type               skos:Concept;
@@ -442,9 +490,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Class of information to which the referencing entity applies"@en;
+        skos:definition        "Classe d'information à laquelle l'entité de référence s'applique"@fr ;
         skos:notation          "SDN:V23::G25";
         skos:note              "accepted"@en;
-        skos:prefLabel         "MD_ScopeCode"@en .
+        skos:prefLabel         "MD_ScopeCode"@en ;
+        skos:prefLabel         "MD_ScopeCode (code de portée)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/V23/current/G18/>
         rdf:type               skos:Concept;
@@ -459,9 +509,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Method used to write to the medium"@en;
+        skos:definition        "Méthode utilisée pour écrire sur le support"@fr ;
         skos:notation          "SDN:V23::G18";
         skos:note              "accepted"@en;
-        skos:prefLabel         "MD_MediumFormatCode"@en .
+        skos:prefLabel         "MD_MediumFormatCode"@en ;
+        skos:prefLabel         "MD_MediumFormatCode (code de format de support)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/V23/current/G04/>
         rdf:type               skos:Concept;
@@ -476,9 +528,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Function performed by the responsible party"@en;
+        skos:definition        "Fonction assurée par la partie responsable"@fr ;
         skos:notation          "SDN:V23::G04";
         skos:note              "accepted"@en;
-        skos:prefLabel         "CI_RoleCode"@en .
+        skos:prefLabel         "CI_RoleCode"@en ;
+        skos:prefLabel         "CI_RoleCode"@fr .
 
 <http://vocab.nerc.ac.uk/collection/V23/current/G29/>
         rdf:type               skos:Concept;
@@ -493,9 +547,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Extension of MD_ScopeCode for the needs of GMX application schemas and in the context of a transfer"@en;
+        skos:definition        "Extension de MD_ScopeCode pour les besoins des schémas d'application GMX et dans le contexte d'un transfert"@fr ;
         skos:notation          "SDN:V23::G29";
         skos:note              "accepted"@en;
-        skos:prefLabel         "MX_ScopeCode"@en .
+        skos:prefLabel         "MX_ScopeCode"@en ;
+        skos:prefLabel         "MX_ScopeCode"@fr .
 
 <http://vocab.nerc.ac.uk/collection/V23/current/G05/>
         rdf:type               skos:Concept;
@@ -510,9 +566,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Type or method for evaluating an identified data quality measure"@en;
+        skos:definition        "Type ou méthode pour évaluer une mesure de qualité des données identifiée"@fr ;
         skos:notation          "SDN:V23::G05";
         skos:note              "accepted"@en;
-        skos:prefLabel         "DQ_EvaluationMethodTypeCode"@en .
+        skos:prefLabel         "DQ_EvaluationMethodTypeCode"@en ;
+        skos:prefLabel         "DQ_EvaluationMethodTypeCode (code de type de méthode d'évaluation de qualité)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/V23/current/>
         rdf:type                skos:Collection;
@@ -528,5 +586,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "SeaDataNet";
         owl:versionInfo         "3";
         skos:altLabel           "SDN GMX ISO";
+        skos:altLabel           "SDN GMX ISO"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/V23/current/G11/> , <http://vocab.nerc.ac.uk/collection/V23/current/G22/> , <http://vocab.nerc.ac.uk/collection/V23/current/P05/> , <http://vocab.nerc.ac.uk/collection/V23/current/G17/> , <http://vocab.nerc.ac.uk/collection/V23/current/G03/> , <http://vocab.nerc.ac.uk/collection/V23/current/G13/> , <http://vocab.nerc.ac.uk/collection/V23/current/G02/> , <http://vocab.nerc.ac.uk/collection/V23/current/L19/> , <http://vocab.nerc.ac.uk/collection/V23/current/G06/> , <http://vocab.nerc.ac.uk/collection/V23/current/G15/> , <http://vocab.nerc.ac.uk/collection/V23/current/G26/> , <http://vocab.nerc.ac.uk/collection/V23/current/G10/> , <http://vocab.nerc.ac.uk/collection/V23/current/G01/> , <http://vocab.nerc.ac.uk/collection/V23/current/G19/> , <http://vocab.nerc.ac.uk/collection/V23/current/G21/> , <http://vocab.nerc.ac.uk/collection/V23/current/L02/> , <http://vocab.nerc.ac.uk/collection/V23/current/G20/> , <http://vocab.nerc.ac.uk/collection/V23/current/G08/> , <http://vocab.nerc.ac.uk/collection/V23/current/G09/> , <http://vocab.nerc.ac.uk/collection/V23/current/G28/> , <http://vocab.nerc.ac.uk/collection/V23/current/G12/> , <http://vocab.nerc.ac.uk/collection/V23/current/G23/> , <http://vocab.nerc.ac.uk/collection/V23/current/L07/> , <http://vocab.nerc.ac.uk/collection/V23/current/G07/> , <http://vocab.nerc.ac.uk/collection/V23/current/G25/> , <http://vocab.nerc.ac.uk/collection/V23/current/G18/> , <http://vocab.nerc.ac.uk/collection/V23/current/G04/> , <http://vocab.nerc.ac.uk/collection/V23/current/G05/> , <http://vocab.nerc.ac.uk/collection/V23/current/G29/>;
-        skos:prefLabel          "SeaDataNet GMX and imported ISO Code List collections" .
+        skos:prefLabel          "SeaDataNet GMX and imported ISO Code List collections" ;
+        skos:prefLabel          "collections de listes de codes GMX SeaDataNet et ISO importées"@fr .
