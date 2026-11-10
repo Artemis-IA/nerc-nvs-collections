@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Stones";
+        skos:altLabel          "pierres"@fr ;
         skos:definition        "The corer returned loose stones rather than a sample of sediment."@en;
+        skos:definition        "Le carottier a rapporté des pierres meubles plutôt qu'un échantillon de sédiment."@fr ;
         skos:notation          "SDN:C72::S";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Stones"@en .
+        skos:prefLabel         "Stones"@en ;
+        skos:prefLabel         "pierres"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C72/current/F/>
         rdf:type               skos:Concept;
@@ -49,10 +52,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Failed";
+        skos:altLabel          "échec"@fr ;
         skos:definition        "The corer failed to return a sediment sample"@en;
+        skos:definition        "Le carottier n'a pas rapporté d'échantillon de sédiment."@fr ;
         skos:notation          "SDN:C72::F";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Failed"@en .
+        skos:prefLabel         "Failed"@en ;
+        skos:prefLabel         "échec"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C72/current/>
         rdf:type                skos:Collection;
@@ -68,5 +74,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "British Oceanographic Data Centre";
         owl:versionInfo         "0";
         skos:altLabel           "BODC core fail codes";
+        skos:altLabel           "codes d'échec de carottage BODC"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/C72/current/F/> , <http://vocab.nerc.ac.uk/collection/C72/current/S/>;
-        skos:prefLabel          "BODC core failure codes" .
+        skos:prefLabel          "BODC core failure codes" ;
+        skos:prefLabel          "codes d'échec de carottage BODC"@fr .

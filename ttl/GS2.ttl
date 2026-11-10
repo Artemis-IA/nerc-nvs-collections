@@ -34,9 +34,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "2";
         skos:altLabel          "";
         skos:definition        "Ratio of the amplitude of the displacement of a reflected wave to that of the incident wave."@en;
+        skos:definition        "Rapport entre l'amplitude du déplacement d'une onde réfléchie et celle de l'onde incidente."@fr ;
         skos:notation          "SDN:GS2::Reflcvty";
         skos:note              "accepted"@en;
-        skos:prefLabel         "reflectivity"@en .
+        skos:prefLabel         "reflectivity"@en ;
+        skos:prefLabel         "réflectivité"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GS2/current/BathyElv/>
         rdf:type               skos:Concept;
@@ -50,10 +52,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Bathy_Elev";
+        skos:altLabel          "Bathy_Elev (bathymétrie et élévation)"@fr ;
         skos:definition        "Depth of the water column or elevation of land surface relative to sea surface, geoid or other datum."@en;
+        skos:definition        "Profondeur de la colonne d'eau ou élévation de la surface terrestre par rapport au niveau de la mer, au géoïde ou à un autre référentiel."@fr ;
         skos:notation          "SDN:GS2::BathyElv";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Bathymetry and elevation"@en .
+        skos:prefLabel         "Bathymetry and elevation"@en ;
+        skos:prefLabel         "bathymétrie et élévation"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GS2/current/>
         rdf:type                skos:Collection;
@@ -68,5 +73,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "SeaDataNet";
         owl:versionInfo         "3";
         skos:altLabel           "observedProperty";
+        skos:altLabel           "observedProperty (propriété observée)"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/GS2/current/Reflcvty/> , <http://vocab.nerc.ac.uk/collection/GS2/current/BathyElv/>;
-        skos:prefLabel          "Geo-Seas observed properties" .
+        skos:prefLabel          "Geo-Seas observed properties" ;
+        skos:prefLabel          "propriétés observées Geo-Seas"@fr .

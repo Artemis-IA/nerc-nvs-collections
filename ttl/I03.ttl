@@ -32,6 +32,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Bedrock Shore";
+        skos:altLabel          "côte rocheuse"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/A04/current/Bedrock/> , <http://vocab.nerc.ac.uk/collection/A02/current/RockyShore/> , <http://vocab.nerc.ac.uk/collection/I03/current/Shore_Geomorphology/>;
         skos:definition        "Tipo de costa compuesta por roca madre expuesta. "@es , "Cote ou predominet l'erosion et ou apparait le substrat"@fr , "A shore type consisting of exposed bedrock"@en;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/WCATHES/current/>;
@@ -110,6 +111,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Coastal Flood";
+        skos:altLabel          "inondation côtière"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/A02/current/Flood/> , <http://vocab.nerc.ac.uk/collection/I03/current/Coastal_Hazard/> , <http://vocab.nerc.ac.uk/collection/A04/current/Flooding/> , <http://vocab.nerc.ac.uk/collection/A01/current/Shoreline_Erosion_Flooding_and_Submergence/>;
         skos:definition        "Elevation du niveau d'eau dans les zones cotieres due a des flux forts et prolonges de vent, d'eau ou de vagues."@fr , "Prolonged strong onshore flow of wind, water, or waves causing a rise in water level that floods coastal areas"@en , "Un prolongado viento fuerte desde el interior, mayor aportacion de agua o un oleaje alto causan un aumento en el nivel del agua que puede inundar las zonas costeras.  "@es;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/WCATHES/current/>;
@@ -210,6 +212,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Shoreline Geomorphology";
+        skos:altLabel          "géomorphologie du trait de côte"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/A04/current/CoastalGeomorphology/> , <http://vocab.nerc.ac.uk/collection/A03/current/ShorelineGeomorphology/> , <http://vocab.nerc.ac.uk/collection/A01/current/Natural_Processes/>;
         skos:definition        "The study of the morphological development and evolution of the shore of a coast as it acts under the influence of winds, waves, currents, and water level changes"@en , "Etude du developpement et de l'evolution morphologique (forme, relief) de la ligne de cote sous l'effet du vent, des vagues, des courents et de changements du niveau d'eau."@fr , "El estudio del desarrollo morfologico y la evolucion de la costa bajo la influencia del viento, olas, corrientes, y nivel del agua."@es;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/I03/current/Bedrock_Coast/> , <http://vocab.nerc.ac.uk/collection/I03/current/Low_Bank/> , <http://vocab.nerc.ac.uk/collection/I03/current/Beach/> , <http://vocab.nerc.ac.uk/collection/I03/current/Unclassified/> , <http://vocab.nerc.ac.uk/collection/A04/current/CoastalGeomorphology/> , <http://vocab.nerc.ac.uk/collection/I03/current/Bluff/> , <http://vocab.nerc.ac.uk/collection/I03/current/Wetland/> , <http://vocab.nerc.ac.uk/collection/A03/current/ShorelineGeomorphology/> , <http://vocab.nerc.ac.uk/collection/I03/current/Artificial_Structure/>;
@@ -269,6 +272,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:sameAs             <http://vocab.nerc.ac.uk/collection/A02/current/Bluff/>;
         owl:versionInfo        "1";
         skos:altLabel          "Promontory";
+        skos:altLabel          "promontoire"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/I03/current/Shore_Geomorphology/>;
         skos:definition        "A high steep bank or cliff"@en , "Pointe de terre, de relief eleve, qui s'avance dans la mer."@fr , "Un despenadero alto o acantilado."@es;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/WCATHES/current/>;
@@ -290,5 +294,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "University of Wisconsin Sea Grant Institute";
         owl:versionInfo         "1";
         skos:altLabel           "Wisconsin Coastal Atlas Vocabulary";
+        skos:altLabel           "vocabulaire de l'atlas côtier du Wisconsin"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/I03/current/Bedrock_Coast/> , <http://vocab.nerc.ac.uk/collection/I03/current/Low_Bank/> , <http://vocab.nerc.ac.uk/collection/I03/current/Beach/> , <http://vocab.nerc.ac.uk/collection/I03/current/Unclassified/> , <http://vocab.nerc.ac.uk/collection/I03/current/Coastal_Flooding/> , <http://vocab.nerc.ac.uk/collection/I03/current/Coastal_Erosion/> , <http://vocab.nerc.ac.uk/collection/I03/current/Coastal_Hazard/> , <http://vocab.nerc.ac.uk/collection/I03/current/Artificial_Structure/> , <http://vocab.nerc.ac.uk/collection/I03/current/Wetland/> , <http://vocab.nerc.ac.uk/collection/I03/current/Shore_Geomorphology/> , <http://vocab.nerc.ac.uk/collection/I03/current/Bluff/> , <http://vocab.nerc.ac.uk/collection/I03/current/Bluff_Toe/> , <http://vocab.nerc.ac.uk/collection/I03/current/Bluff_Top/>;
-        skos:prefLabel          "Wisconsin Coastal Atlas Vocabulary" .
+        skos:prefLabel          "Wisconsin Coastal Atlas Vocabulary" ;
+        skos:prefLabel          "vocabulaire de l'atlas côtier du Wisconsin"@fr .

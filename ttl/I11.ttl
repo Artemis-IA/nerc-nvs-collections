@@ -35,7 +35,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "";
         skos:notation          "SDN:I11::restriction";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Restriction"@en .
+        skos:prefLabel         "Restriction"@en ;
+        skos:prefLabel         "restriction"@fr .
 
 <http://vocab.nerc.ac.uk/collection/I11/current/management/>
         rdf:type               skos:Concept;
@@ -52,7 +53,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "";
         skos:notation          "SDN:I11::management";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Management"@en .
+        skos:prefLabel         "Management"@en ;
+        skos:prefLabel         "gestion"@fr .
 
 <http://vocab.nerc.ac.uk/collection/I11/current/protection/>
         rdf:type               skos:Concept;
@@ -69,7 +71,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "";
         skos:notation          "SDN:I11::protection";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Protection"@en .
+        skos:prefLabel         "Protection"@en ;
+        skos:prefLabel         "protection"@fr .
 
 <http://vocab.nerc.ac.uk/collection/I11/current/regulation/>
         rdf:type               skos:Concept;
@@ -86,7 +89,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "";
         skos:notation          "SDN:I11::regulation";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Regulation"@en .
+        skos:prefLabel         "Regulation"@en ;
+        skos:prefLabel         "réglementation"@fr .
 
 <http://vocab.nerc.ac.uk/collection/I11/current/permitOrLicence/>
         rdf:type               skos:Concept;
@@ -103,7 +107,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "";
         skos:notation          "SDN:I11::permitOrLicence";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Permit or licence"@en .
+        skos:prefLabel         "Permit or licence"@en ;
+        skos:prefLabel         "permis ou licence"@fr .
 
 <http://vocab.nerc.ac.uk/collection/I11/current/>
         rdf:type                skos:Collection;
@@ -118,5 +123,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "European Commission";
         owl:versionInfo         "1";
         skos:altLabel           "INSPIRE Control Type";
+        skos:altLabel           "type de contrôle INSPIRE"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/I11/current/restriction/> , <http://vocab.nerc.ac.uk/collection/I11/current/management/> , <http://vocab.nerc.ac.uk/collection/I11/current/permitOrLicence/> , <http://vocab.nerc.ac.uk/collection/I11/current/regulation/> , <http://vocab.nerc.ac.uk/collection/I11/current/protection/>;
-        skos:prefLabel          "INSPIRE Management and Reporting Control Type" .
+        skos:prefLabel          "INSPIRE Management and Reporting Control Type" ;
+        skos:prefLabel          "type de contrôle de gestion et de reporting INSPIRE"@fr .

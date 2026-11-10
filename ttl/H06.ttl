@@ -34,9 +34,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "2";
         skos:altLabel          "";
         skos:definition        "Term that qualifies micro-litter particles that allow light to travel through them either almost unaltered (transparent) or with some diffraction (translucent, translucid or semitransparent)."@en;
+        skos:definition        "Terme qualifiant les particules de micro-déchets qui laissent passer la lumière soit presque sans altération (transparent) soit avec une certaine diffraction (translucide ou semi-transparent)."@fr ;
         skos:notation          "SDN:H06::H06AA001";
         skos:note              "accepted"@en;
         skos:prefLabel         "transparent/translucent"@en;
+        skos:prefLabel         "transparent/translucide"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITROPW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITROPS/> .
 
 <http://vocab.nerc.ac.uk/collection/H06/current/H06AA002/>
@@ -52,9 +54,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Term that qualifies micro-litter particles that do not allow the light to travel through them."@en;
+        skos:definition        "Terme qualifiant les particules de micro-déchets qui ne laissent pas passer la lumière."@fr ;
         skos:notation          "SDN:H06::H06AA002";
         skos:note              "accepted"@en;
         skos:prefLabel         "opaque"@en;
+        skos:prefLabel         "opaque"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P01/current/MLITROPW/> , <http://vocab.nerc.ac.uk/collection/P01/current/MLITROPS/> .
 
 <http://vocab.nerc.ac.uk/collection/H06/current/>
@@ -71,5 +75,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "EMODnet Chemistry Lot";
         owl:versionInfo         "2";
         skos:altLabel           "Microlitter_transparency";
+        skos:altLabel           "Microlitter_transparency (transparence des micro-déchets)"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/H06/current/H06AA002/> , <http://vocab.nerc.ac.uk/collection/H06/current/H06AA001/>;
-        skos:prefLabel          "EMODnet micro-litter transparency classes" .
+        skos:prefLabel          "EMODnet micro-litter transparency classes" ;
+        skos:prefLabel          "classes de transparence des micro-déchets EMODnet"@fr .

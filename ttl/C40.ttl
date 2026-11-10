@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The pollution event was observed directly by a reliable source and could be clearly observed by the human eye"@en;
+        skos:definition        "L'événement de pollution a été observé directement par une source fiable et a pu être clairement observé à l'œil humain."@fr ;
         skos:notation          "SDN:C40::PEAC03";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Confirmed"@en .
+        skos:prefLabel         "Confirmed"@en ;
+        skos:prefLabel         "confirmé"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C40/current/PEAC01/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The pollution event observation was not from an authoratative source and/or the pollution could not be clearly identified"@en;
+        skos:definition        "L'observation de l'événement de pollution ne provenait pas d'une source faisant autorité et/ou la pollution n'a pas pu être clairement identifiée."@fr ;
         skos:notation          "SDN:C40::PEAC01";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Doubtful"@en .
+        skos:prefLabel         "Doubtful"@en ;
+        skos:prefLabel         "douteux"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C40/current/PEAC02/>
         rdf:type               skos:Concept;
@@ -67,9 +71,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "There is a greater than 50% chance that the pollution event is real given the source of the information and the conditions underwhich it was identified"@en;
+        skos:definition        "Il existe une probabilité supérieure à 50 % que l'événement de pollution soit réel, compte tenu de la source de l'information et des conditions dans lesquelles il a été identifié."@fr ;
         skos:notation          "SDN:C40::PEAC02";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Probable"@en .
+        skos:prefLabel         "Probable"@en ;
+        skos:prefLabel         "probable"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C40/current/>
         rdf:type                skos:Collection;
@@ -84,5 +90,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Bonn Agreement";
         owl:versionInfo         "1";
         skos:altLabel           "POLREP accuracy";
+        skos:altLabel           "précision POLREP"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/C40/current/PEAC02/> , <http://vocab.nerc.ac.uk/collection/C40/current/PEAC01/> , <http://vocab.nerc.ac.uk/collection/C40/current/PEAC03/>;
-        skos:prefLabel          "Bonn Agreement pollution report accuracy" .
+        skos:prefLabel          "Bonn Agreement pollution report accuracy" ;
+        skos:prefLabel          "précision du rapport de pollution de l'accord de Bonn"@fr .

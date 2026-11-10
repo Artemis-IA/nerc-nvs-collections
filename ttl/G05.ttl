@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Method of evaluating the quality of a dataset based on external knowledge"@en;
+        skos:definition        "Méthode d'évaluation de la qualité d'un jeu de données fondée sur des connaissances externes."@fr ;
         skos:notation          "SDN:G05::003";
         skos:note              "accepted"@en;
-        skos:prefLabel         "indirect"@en .
+        skos:prefLabel         "indirect"@en ;
+        skos:prefLabel         "indirecte"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G05/current/002/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Method of evaluating the quality of a dataset based on inspection of items within the dataset, where reference data external to the dataset being evaluated are required"@en;
+        skos:definition        "Méthode d'évaluation de la qualité d'un jeu de données fondée sur l'inspection d'éléments au sein du jeu de données, pour laquelle des données de référence externes au jeu évalué sont requises."@fr ;
         skos:notation          "SDN:G05::002";
         skos:note              "accepted"@en;
-        skos:prefLabel         "directExternal"@en .
+        skos:prefLabel         "directExternal"@en ;
+        skos:prefLabel         "directe externe"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G05/current/001/>
         rdf:type               skos:Concept;
@@ -67,9 +71,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Method of evaluating the quality of a dataset based on inspection of items within the dataset, where all data required are internal to the dataset being evaluated"@en;
+        skos:definition        "Méthode d'évaluation de la qualité d'un jeu de données fondée sur l'inspection d'éléments au sein du jeu de données, pour laquelle toutes les données requises sont internes au jeu évalué."@fr ;
         skos:notation          "SDN:G05::001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "directInternal"@en .
+        skos:prefLabel         "directInternal"@en ;
+        skos:prefLabel         "directe interne"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G05/current/>
         rdf:type                skos:Collection;
@@ -84,5 +90,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "International Organization for Standardization";
         owl:versionInfo         "1";
         skos:altLabel           "DQ_EvaluationMethodTypeCode";
+        skos:altLabel           "DQ_EvaluationMethodTypeCode (code de type de méthode d'évaluation de qualité)"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/G05/current/001/> , <http://vocab.nerc.ac.uk/collection/G05/current/002/> , <http://vocab.nerc.ac.uk/collection/G05/current/003/>;
-        skos:prefLabel          "DQ_EvaluationMethodTypeCode" .
+        skos:prefLabel          "DQ_EvaluationMethodTypeCode" ;
+        skos:prefLabel          "DQ_EvaluationMethodTypeCode (code de type de méthode d'évaluation de qualité)"@fr .

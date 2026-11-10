@@ -32,10 +32,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "transboundary_initiatives";
+        skos:altLabel          "initiatives transfrontalières"@fr ;
         skos:definition        "";
         skos:notation          "SDN:B22::B22003";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Transboundary projects, databases and supporting information"@en .
+        skos:prefLabel         "Transboundary projects, databases and supporting information"@en ;
+        skos:prefLabel         "projets, bases de données et informations d'appui transfrontaliers"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B22/current/B22002/>
         rdf:type               skos:Concept;
@@ -49,10 +51,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "statutory";
+        skos:altLabel          "statutaire"@fr ;
         skos:definition        "";
         skos:notation          "SDN:B22::B22002";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Statutory Transboundary Governance Mechanisms"@en .
+        skos:prefLabel         "Statutory Transboundary Governance Mechanisms"@en ;
+        skos:prefLabel         "mécanismes de gouvernance transfrontalière statutaires"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B22/current/B22001/>
         rdf:type               skos:Concept;
@@ -66,10 +70,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "informal";
+        skos:altLabel          "informel"@fr ;
         skos:definition        "";
         skos:notation          "SDN:B22::B22001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Informal Transboundary Forums"@en .
+        skos:prefLabel         "Informal Transboundary Forums"@en ;
+        skos:prefLabel         "forums transfrontaliers informels"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B22/current/>
         rdf:type                skos:Collection;
@@ -85,5 +91,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "British Oceanographic Data Centre";
         owl:versionInfo         "1";
         skos:altLabel           "cspgovernancemechanisms";
+        skos:altLabel           "mécanismes de gouvernance CSP (Celtic Seas Partnership)"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/B22/current/B22003/> , <http://vocab.nerc.ac.uk/collection/B22/current/B22001/> , <http://vocab.nerc.ac.uk/collection/B22/current/B22002/>;
-        skos:prefLabel          "Celtic Seas Partnership governance mechanisms" .
+        skos:prefLabel          "Celtic Seas Partnership governance mechanisms" ;
+        skos:prefLabel          "mécanismes de gouvernance du Celtic Seas Partnership"@fr .
