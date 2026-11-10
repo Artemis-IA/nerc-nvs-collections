@@ -1,0 +1,80 @@
+{"i":0,"fr":"Sect_Ser"}
+{"i":1,"fr":"La série a un seul ensemble de mesures valides le long de toute une section fixe (par ex. flux depuis un câble sous-marin) et à une élévation fixe ou une plage d'élévation variant avec le temps. Le temps et les paramètres de données sont stockés le long de la dimension primaire (rang 1). La position et les coordonnées z (profondeur ou hauteur) sont stockées en métadonnées."}
+{"i":2,"fr":"série temporelle de section"}
+{"i":3,"fr":"Traj"}
+{"i":4,"fr":"La série a des mesures à une seule élévation fixe variant à la fois avec la position et le temps. Le temps et les coordonnées spatiales horizontales (par ex. latitude et longitude) ainsi que les données sont stockés le long de la dimension primaire (rang 1). La coordonnée z (profondeur ou hauteur) est stockée en métadonnées."}
+{"i":5,"fr":"trajectoire"}
+{"i":6,"fr":"Comp_Grid"}
+{"i":7,"fr":"La série a des données stockées dans un tableau 2D, ayant le numéro de cycle comme variable de dimension primaire (rang 1) et à la fois la latitude et la longitude comme variables de dimension secondaire (rang 0). Utilisé chez BODC pour le stockage compact de grilles spatiales en QXF."}
+{"i":8,"fr":"grille spatiale compressée"}
+{"i":9,"fr":"SP_Prof_PandD"}
+{"i":10,"fr":"La série a un seul ensemble de mesures instantanées à une position et une élévation fixes. Les coordonnées z sont incluses le long de la dimension primaire (rang 1) à la fois comme pression et profondeur. Le temps et la position sont stockés en métadonnées. Cela couvre les séries qui seraient un profil s'il y avait plus d'un point."}
+{"i":11,"fr":"profil à point unique avec pression et profondeur"}
+{"i":12,"fr":"Spec_Ser"}
+{"i":13,"fr":"La série a un ensemble de mesures à une position fixe et plusieurs mais fixes valeurs de coordonnées z qui ne sont pas une élévation (par ex. fréquence ou classe de taille) variant avec le temps. Le temps est stocké le long de la dimension primaire (rang 1) et la coordonnée z le long de la dimension secondaire (rang 0). Les paramètres de données sont des tableaux 2D (rang 2). La position est stockée en métadonnées."}
+{"i":14,"fr":"série temporelle de spectre"}
+{"i":15,"fr":"SP_Prof_D"}
+{"i":16,"fr":"La série a un seul ensemble de mesures instantanées à une position et une élévation fixes. Les coordonnées z sont incluses le long de la dimension primaire (rang 1) comme profondeur. Le temps et la position sont stockés en métadonnées. Cela couvre les séries qui seraient un profil s'il y avait plus d'un point."}
+{"i":17,"fr":"profil à point unique avec profondeur"}
+{"i":18,"fr":"Yo_Yo"}
+{"i":19,"fr":"La série a un ensemble de mesures à une position fixe avec une élévation variant en continu (valeurs potentiellement différentes pour chaque oscillation) au cours du temps. Le QXF doit inclure à la fois un canal temporel et un canal de coordonnée z sur la dimension primaire (rang 1) ainsi que les paramètres de données. Exemples : mouillages à câble rampant et sondages CTD répétés qui n'ont ni été binnings ni scindés en profils discrets. La position est conservée en métadonnées."}
+{"i":20,"fr":"profils continus répétés"}
+{"i":21,"fr":"Traj_3D"}
+{"i":22,"fr":"La série a des mesures à position et élévation variant indépendamment en fonction du temps. Le temps, les coordonnées horizontales (par ex. latitude et longitude) et verticales (par ex. profondeur/hauteur) ainsi que les données sont stockés le long de la dimension primaire (rang 1). Les trajectoires 2D peuvent être stockées comme ce type d'entité en incluant un ensemble de coordonnées z fixé à une valeur constante."}
+{"i":23,"fr":"trajectoire tridimensionnelle"}
+{"i":24,"fr":"2D_Spec_Ser"}
+{"i":25,"fr":"La série est une série temporelle de mesures où chaque mesure a deux dimensions telles que les spectres de vagues directionnels. Dans un NetCDF conforme CF, ce type de données d'exemple serait stocké dans un tableau 3D avec les coordonnées temps, fréquence et direction. Le QXF étant limité à deux dimensions, les données sont stockées dans un tableau 2D avec le temps comme variable de rang 1 et deux variables de rang 0 (fréquence et direction) qui sont toutes deux requises pour décrire une seule ligne. Ainsi, pour des spectres de vagues directionnels avec 10 fréquences, 10 classes de direction et 50 pas de temps, le tableau CF aurait les dimensions (50,10,10) et le tableau QXF (50,100). La position et la coordonnée z sont stockées en métadonnées."}
+{"i":26,"fr":"série temporelle de spectre bidimensionnel"}
+{"i":27,"fr":"Prof_Coll"}
+{"i":28,"fr":"La série a des ensembles de mesures à plusieurs mais constantes élévations variant à la fois avec la position et le temps. Le temps et les coordonnées spatiales horizontales (par ex. latitude et longitude) sont stockés le long de la dimension primaire (rang 1) avec une coordonnée z (profondeur ou hauteur) stockée le long de la dimension secondaire (rang 0). Les paramètres de données sont en tableaux 2D (rang 2)."}
+{"i":29,"fr":"collection de profils"}
+{"i":30,"fr":"Spec_Prof"}
+{"i":31,"fr":"La série a un ensemble de mesures à une position et un temps fixes mais à des profondeurs variables. Chaque mesure constitue un spectre avec une variable non spatiale (par ex. taille de grain ou numéro de classe) sur la dimension secondaire (rang 0). La dimension primaire (rang 1) inclut une coordonnée z (profondeur). Le temps et la position sont conservés en métadonnées."}
+{"i":32,"fr":"profil de spectre"}
+{"i":33,"fr":"SP_Prof_P"}
+{"i":34,"fr":"La série a un seul ensemble de mesures instantanées à une position et une élévation fixes. Les données et la coordonnée z (en pression) sont incluses le long de la dimension primaire (rang 1). Le temps et la position sont stockés en métadonnées. Cela couvre les séries qui seraient un profil s'il y avait plus d'un point."}
+{"i":35,"fr":"profil à point unique avec pression"}
+{"i":36,"fr":"Grid"}
+{"i":37,"fr":"La série a un ensemble de mesures par paramètre stocké dans un tableau 2D décrit par deux variables de coordonnées qui sont des coordonnées spatiales horizontales (par ex. latitude et longitude) avec la longitude le long de la dimension primaire (rang 1) et la latitude le long de la dimension secondaire (rang 0). Les mesures peuvent être soit un instantané unique dans le temps soit être considérées comme indépendantes du temps."}
+{"i":38,"fr":"grille spatiale"}
+{"i":39,"fr":"Comp_Grid_Ser"}
+{"i":40,"fr":"La série a des données stockées dans un ensemble de tableaux 2D le long d'une dimension temporelle (c.-à-d. une série temporelle de grilles compressées). Chacun a le numéro de cycle comme variable de dimension primaire et à la fois la latitude et la longitude comme variables de dimension secondaire. Utilisé chez BODC pour le stockage compact de séries de grilles spatiales (par ex. données OSCR) en QXF."}
+{"i":41,"fr":"série de grilles spatiales compressées"}
+{"i":42,"fr":"Prof_D"}
+{"i":43,"fr":"La série a un seul ensemble de mesures instantanées à une position fixe sur une plage verticale (z). Les coordonnées z sont incluses le long de la dimension primaire (rang 1) comme profondeur. Le temps et la position sont stockés en métadonnées."}
+{"i":44,"fr":"profil avec profondeur"}
+{"i":45,"fr":"Prof_Ser"}
+{"i":46,"fr":"La série a un ensemble de mesures à une position fixe et plusieurs mais fixes élévations à des moments différents. Le temps est stocké le long de la dimension primaire (rang 1). La coordonnée z (profondeur/hauteur) est stockée le long de la dimension secondaire (rang 0). Les coordonnées spatiales horizontales (par ex. latitude et longitude) sont stockées en métadonnées."}
+{"i":47,"fr":"série temporelle de profils"}
+{"i":48,"fr":"VD_Prof_Ser"}
+{"i":49,"fr":"La série a un ensemble de mesures au cours du temps à un point fixe (position stockée en métadonnées) et à plusieurs profondeurs qui peuvent varier d'une mesure à l'autre. Chaque mesure constitue un spectre avec une variable non spatiale (généralement le numéro de classe) sur la dimension secondaire (rang 0). La dimension primaire (rang 1) inclut la variable temporelle. La coordonnée z (profondeur ou hauteur) est portée avec les variables de données en tableaux 2D (rang 2)."}
+{"i":50,"fr":"série temporelle de profils à profondeur variable"}
+{"i":51,"fr":"Spec_Traj"}
+{"i":52,"fr":"La série a un ensemble de mesures à une profondeur fixe mais des temps et emplacements variables. Chaque mesure constitue un spectre avec une variable non spatiale (par ex. taille de grain ou numéro de classe) sur la dimension secondaire (rang 0). La dimension primaire (rang 1) inclut les variables de position et de temps, mais pas de variable de profondeur. La profondeur est stockée en métadonnées."}
+{"i":53,"fr":"trajectoire de spectre"}
+{"i":54,"fr":"Prof_PandD"}
+{"i":55,"fr":"La série a un seul ensemble de mesures instantanées à une position fixe sur une plage verticale (z). Les coordonnées z sont incluses le long de la dimension primaire (rang 1) à la fois comme pression et profondeur. Le temps et la position sont stockés en métadonnées."}
+{"i":56,"fr":"profil avec pression et profondeur"}
+{"i":57,"fr":"SP_Point_Ser"}
+{"i":58,"fr":"La série a un seul ensemble de mesures à une position, une élévation et un temps fixes. Le temps et les paramètres de données sont stockés le long de la dimension primaire (rang 1). La position et la coordonnée z (profondeur ou hauteur) sont stockées en métadonnées. Cela couvre les séries qui seraient une série temporelle c.-à-d. POINT s'il y avait plus d'un point."}
+{"i":59,"fr":"série temporelle de point unique"}
+{"i":60,"fr":"VD_Prof_Coll"}
+{"i":61,"fr":"La série a un ensemble de mesures le long d'une trajectoire (temps et emplacements variables) à plusieurs profondeurs qui peuvent varier d'une mesure à l'autre. Chaque mesure constitue un spectre avec une variable non spatiale (généralement le numéro de classe) sur la dimension secondaire (rang 0). La dimension primaire (rang 1) inclut les variables de position et de temps. La coordonnée z (profondeur ou hauteur) est portée avec les variables de données en tableaux 2D (rang 2)."}
+{"i":62,"fr":"collection de profils à profondeur variable"}
+{"i":63,"fr":"Spec_Traj_3D"}
+{"i":64,"fr":"La série a un ensemble de mesures à des temps, profondeurs et emplacements variables. Chaque mesure constitue un spectre avec une variable non spatiale (par ex. taille de grain ou numéro de classe) sur la dimension secondaire (rang 0). La dimension primaire (rang 1) inclut les variables de position, de temps et de profondeur."}
+{"i":65,"fr":"trajectoire tridimensionnelle de spectre"}
+{"i":66,"fr":"Point_Ser"}
+{"i":67,"fr":"La série a un seul ensemble de mesures à une position fixe et une élévation variant avec le temps. Le temps et les paramètres de données sont stockés le long de la dimension primaire (rang 1). La position et la coordonnée z (profondeur ou hauteur) sont stockées en métadonnées."}
+{"i":68,"fr":"série temporelle de point"}
+{"i":69,"fr":"Poly_Ser"}
+{"i":70,"fr":"La série a un seul ensemble de mesures valides le long de toute une zone fixe (par ex. flux depuis un câble sous-marin qui a été déplacé pendant la série) et à une élévation fixe ou une plage d'élévation variant avec le temps. Le temps et les paramètres de données sont stockés le long de la dimension primaire (rang 1). La position et les coordonnées z (profondeur ou hauteur) sont stockées en métadonnées."}
+{"i":71,"fr":"série temporelle de polygone"}
+{"i":72,"fr":"Prof_P"}
+{"i":73,"fr":"La série a un seul ensemble de mesures instantanées à une position fixe sur une plage verticale (z). Les données et la coordonnée z (en pression) sont incluses le long de la dimension primaire (rang 1). Le temps et la position sont stockés en métadonnées."}
+{"i":74,"fr":"profil avec pression"}
+{"i":75,"fr":"SP_Traj"}
+{"i":76,"fr":"La série a des mesures à une seule élévation, position et temps fixes. Le temps et les coordonnées spatiales horizontales (par ex. latitude et longitude) ainsi que les données sont stockés le long de la dimension primaire (rang 1). La coordonnée z (profondeur ou hauteur) est stockée en métadonnées. Cela couvre les séries qui seraient TRAJ s'il y avait plus d'un point."}
+{"i":77,"fr":"trajectoire à point unique"}
+{"i":78,"fr":"types d'entités de séries BODC"}
+{"i":79,"fr":"types d'entités de séries du modèle sémantique des paramètres BODC"}

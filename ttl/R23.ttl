@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "ALAMO";
+        skos:altLabel          "ALAMO"@fr ;
         skos:definition        "ALAMO air-launched micro-observer float. PLATFORM_TYPE_KEY = 800"@en;
+        skos:definition        "Flotteur ALAMO lancé par avion (air-launched micro-observer). PLATFORM_TYPE_KEY = 800"@fr ;
         skos:notation          "SDN:R23::ALAMO";
         skos:note              "accepted"@en;
         skos:prefLabel         "ALAMO float"@en;
+        skos:prefLabel         "Flotteur ALAMO"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/MRV/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/ITP/>
@@ -50,10 +53,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "ITP";
+        skos:altLabel          "ITP"@fr ;
         skos:definition        "Ice Tethered Profiler (ITP). PLATFORM_TYPE_KEY = 901"@en;
+        skos:definition        "Ice Tethered Profiler (ITP). PLATFORM_TYPE_KEY = 901"@fr ;
         skos:notation          "SDN:R23::ITP";
         skos:note              "accepted"@en;
         skos:prefLabel         "ITP float"@en;
+        skos:prefLabel         "Flotteur ITP"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/WHOI/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/FLOAT/>
@@ -68,10 +74,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "FLOAT";
+        skos:altLabel          "FLOAT (flotteur)"@fr ;
         skos:definition        "Generic value when platform type unknown. PLATFORM_TYPE_KEY = 999"@en;
+        skos:definition        "Valeur générique lorsque le type de plateforme est inconnu. PLATFORM_TYPE_KEY = 999"@fr ;
         skos:notation          "SDN:R23::FLOAT";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Unknown platform type"@en .
+        skos:prefLabel         "Unknown platform type"@en ;
+        skos:prefLabel         "Type de plateforme inconnu"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/HM2000/>
         rdf:type               skos:Concept;
@@ -85,11 +94,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "HM2000";
+        skos:altLabel          "HM2000"@fr ;
         skos:definition        "HM2000 float. PLATFORM_TYPE_KEY = 700"@en;
+        skos:definition        "Flotteur HM2000. PLATFORM_TYPE_KEY = 700"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/870/>;
         skos:notation          "SDN:R23::HM2000";
         skos:note              "accepted"@en;
         skos:prefLabel         "HM2000 float"@en;
+        skos:prefLabel         "Flotteur HM2000"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/HSOE/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/PALACE/>
@@ -104,11 +116,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "PALACE";
+        skos:altLabel          "PALACE"@fr ;
         skos:definition        "PALACE float. PLATFORM_TYPE_KEY = 000"@en;
+        skos:definition        "Flotteur PALACE. PLATFORM_TYPE_KEY = 000"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/831/>;
         skos:notation          "SDN:R23::PALACE";
         skos:note              "accepted"@en;
         skos:prefLabel         "PALACE float"@en;
+        skos:prefLabel         "Flotteur PALACE"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/WRC/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/HM4000/>
@@ -123,11 +138,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "HM4000";
+        skos:altLabel          "HM4000"@fr ;
         skos:definition        "HM4000 float."@en;
+        skos:definition        "Flotteur HM4000."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/881/>;
         skos:notation          "SDN:R23::HM4000";
         skos:note              "accepted"@en;
         skos:prefLabel         "HM4000 float"@en;
+        skos:prefLabel         "Flotteur HM4000"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/QNLM/> , <http://vocab.nerc.ac.uk/collection/R24/current/LaoshanL/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/APEX_EM/>
@@ -142,11 +160,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "APEX_EM";
+        skos:altLabel          "APEX_EM"@fr ;
         skos:definition        "APEX electro-magnetic float, measuring velocity and mixing. PLATFORM_TYPE_KEY = 005"@en;
+        skos:definition        "Flotteur électromagnétique APEX, mesurant la vitesse et le mélange. PLATFORM_TYPE_KEY = 005"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/848/>;
         skos:notation          "SDN:R23::APEX_EM";
         skos:note              "accepted"@en;
         skos:prefLabel         "APEX electro-magnetic float"@en;
+        skos:prefLabel         "Flotteur électromagnétique APEX"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/TWR/> , <http://vocab.nerc.ac.uk/collection/R24/current/WRC/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_III_JUMBO/>
@@ -162,11 +183,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "PROVOR_III_JUMBO";
+        skos:altLabel          "PROVOR_III_JUMBO"@fr ;
         skos:definition        "PROVOR float with additional battery pack. PLATFORM_TYPE_KEY = 108."@en;
+        skos:definition        "Flotteur PROVOR avec batterie supplémentaire. PLATFORM_TYPE_KEY = 108."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/836/> , <http://vocab.nerc.ac.uk/collection/R08/current/891/> , <http://vocab.nerc.ac.uk/collection/R08/current/890/>;
         skos:notation          "SDN:R23::PROVOR_III_JUMBO";
         skos:note              "accepted"@en;
         skos:prefLabel         "PROVOR_III_JUMBO float"@en;
+        skos:prefLabel         "Flotteur PROVOR_III_JUMBO"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/NKE/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/POPS_PROVOR/>
@@ -181,11 +205,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "POPS_PROVOR";
+        skos:altLabel          "POPS_PROVOR"@fr ;
         skos:definition        "Polar Ocean Profiling System with a PROVOR float. PLATFORM_TYPE_KEY = 130"@en;
+        skos:definition        "Système de profilage de l'océan polaire avec un flotteur PROVOR. PLATFORM_TYPE_KEY = 130"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/843/>;
         skos:notation          "SDN:R23::POPS_PROVOR";
         skos:note              "accepted"@en;
         skos:prefLabel         "Polar Ocean Profiling System with a PROVOR float"@en;
+        skos:prefLabel         "Système de profilage de l'océan polaire avec un flotteur PROVOR"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/NKE/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/POPS_NEMO/>
@@ -200,11 +227,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "POPS_NEMO";
+        skos:altLabel          "POPS_NEMO"@fr ;
         skos:definition        "Polar Ocean Profiling System with a NEMO float. PLATFORM_TYPE_KEY = 430"@en;
+        skos:definition        "Système de profilage de l'océan polaire avec un flotteur NEMO. PLATFORM_TYPE_KEY = 430"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/843/>;
         skos:notation          "SDN:R23::POPS_NEMO";
         skos:note              "accepted"@en;
         skos:prefLabel         "POPS with NEMO float"@en;
+        skos:prefLabel         "POPS avec flotteur NEMO"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/OPTIMARE/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/NAVIS_A/>
@@ -219,11 +249,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "NAVIS_A";
+        skos:altLabel          "NAVIS_A"@fr ;
         skos:definition        "NAVIS_A float. PLATFORM_TYPE_KEY = 500"@en;
+        skos:definition        "Flotteur NAVIS_A. PLATFORM_TYPE_KEY = 500"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/863/>;
         skos:notation          "SDN:R23::NAVIS_A";
         skos:note              "accepted"@en;
         skos:prefLabel         "NAVIS_A float"@en;
+        skos:prefLabel         "Flotteur NAVIS_A"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/SBE/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/ALTO/>
@@ -238,11 +271,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "ALTO";
+        skos:altLabel          "ALTO"@fr ;
         skos:definition        "ALTO float. PLATFORM_TYPE_KEY = 205"@en;
+        skos:definition        "Flotteur ALTO. PLATFORM_TYPE_KEY = 205"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/876/> , <http://vocab.nerc.ac.uk/collection/R08/current/873/> , <http://vocab.nerc.ac.uk/collection/R08/current/875/>;
         skos:notation          "SDN:R23::ALTO";
         skos:note              "accepted"@en;
         skos:prefLabel         "ALTO float"@en;
+        skos:prefLabel         "Flotteur ALTO"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/MRV/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/SOLO_II/>
@@ -257,11 +293,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "SOLO_II";
+        skos:altLabel          "SOLO_II"@fr ;
         skos:definition        "SOLO-II float manufactured by Scripps Institution of Oceanography (SIO). PLATFORM_TYPE_KEY = 202"@en;
+        skos:definition        "Flotteur SOLO-II fabriqué par le Scripps Institution of Oceanography (SIO). PLATFORM_TYPE_KEY = 202"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/853/> , <http://vocab.nerc.ac.uk/collection/R08/current/879/>;
         skos:notation          "SDN:R23::SOLO_II";
         skos:note              "accepted"@en;
         skos:prefLabel         "SIO SOLO-II float"@en;
+        skos:prefLabel         "Flotteur SIO SOLO-II"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/SIO_IDG/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/NINJA_D/>
@@ -276,11 +315,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "NINJA_D";
+        skos:altLabel          "NINJA_D"@fr ;
         skos:definition        "Deep NINJA float. PLATFORM_TYPE_KEY = 320"@en;
+        skos:definition        "Flotteur NINJA profond. PLATFORM_TYPE_KEY = 320"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/864/>;
         skos:notation          "SDN:R23::NINJA_D";
         skos:note              "accepted"@en;
         skos:prefLabel         "Deep NINJA float"@en;
+        skos:prefLabel         "Flotteur NINJA profond"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/TSK/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/NAVIS_EBR/>
@@ -295,11 +337,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "NAVIS_EBR";
+        skos:altLabel          "NAVIS_EBR"@fr ;
         skos:definition        "NAVIS_EBR float. PLATFORM_TYPE_KEY = 501"@en;
+        skos:definition        "Flotteur NAVIS_EBR. PLATFORM_TYPE_KEY = 501"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/869/>;
         skos:notation          "SDN:R23::NAVIS_EBR";
         skos:note              "accepted"@en;
         skos:prefLabel         "NAVIS_EBR float"@en;
+        skos:prefLabel         "Flotteur NAVIS_EBR"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/SBE/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/SOLO_D_MRV/>
@@ -314,11 +359,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "SOLO_D_MRV";
+        skos:altLabel          "SOLO_D_MRV"@fr ;
         skos:definition        "DEEPSOLO MRV float. PLATFORM_TYPE_KEY = 221"@en;
+        skos:definition        "Flotteur DEEPSOLO MRV. PLATFORM_TYPE_KEY = 221"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/874/>;
         skos:notation          "SDN:R23::SOLO_D_MRV";
         skos:note              "accepted"@en;
         skos:prefLabel         "DEEPSOLO MRV float"@en;
+        skos:prefLabel         "Flotteur DEEPSOLO MRV"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/MRV/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/COPEX/>
@@ -333,11 +381,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "COPEX";
+        skos:altLabel          "COPEX"@fr ;
         skos:definition        "COPEX float. PLATFORM_TYPE_KEY = 701"@en;
+        skos:definition        "Flotteur COPEX. PLATFORM_TYPE_KEY = 701"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/871/>;
         skos:notation          "SDN:R23::COPEX";
         skos:note              "accepted"@en;
         skos:prefLabel         "COPEX float"@en;
+        skos:prefLabel         "Flotteur COPEX"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/NOTC/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/SOLO_BGC/>
@@ -352,11 +403,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "SOLO_BGC";
+        skos:altLabel          "SOLO_BGC"@fr ;
         skos:definition        "SOLO_BGC float manufactured by Scripps Institution of Oceanography (SIO). PLATFORM_TYPE_KEY = 206"@en;
+        skos:definition        "Flotteur SOLO_BGC fabriqué par le Scripps Institution of Oceanography (SIO). PLATFORM_TYPE_KEY = 206"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/887/> , <http://vocab.nerc.ac.uk/collection/R08/current/884/> , <http://vocab.nerc.ac.uk/collection/R08/current/886/> , <http://vocab.nerc.ac.uk/collection/R08/current/885/>;
         skos:notation          "SDN:R23::SOLO_BGC";
         skos:note              "accepted"@en;
         skos:prefLabel         "SOLO_BGC float"@en;
+        skos:prefLabel         "Flotteur SOLO_BGC"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/SIO_IDG/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/SOLO_BGC_MRV/>
@@ -371,11 +425,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "SOLO_BGC_MRV";
+        skos:altLabel          "SOLO_BGC_MRV"@fr ;
         skos:definition        "SOLO_BGC_MRV float manufactured by MRV. PLATFORM_TYPE_KEY = 207."@en;
+        skos:definition        "Flotteur SOLO_BGC_MRV fabriqué par MRV. PLATFORM_TYPE_KEY = 207."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/887/> , <http://vocab.nerc.ac.uk/collection/R08/current/886/>;
         skos:notation          "SDN:R23::SOLO_BGC_MRV";
         skos:note              "accepted"@en;
         skos:prefLabel         "SOLO_BGC_MRV float"@en;
+        skos:prefLabel         "Flotteur SOLO_BGC_MRV"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/MRV/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/SOLO_D/>
@@ -390,11 +447,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "SOLO_D";
+        skos:altLabel          "SOLO_D"@fr ;
         skos:definition        "Deep SOLO float. PLATFORM_TYPE_KEY = 220"@en;
+        skos:definition        "Flotteur SOLO profond. PLATFORM_TYPE_KEY = 220"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/862/>;
         skos:notation          "SDN:R23::SOLO_D";
         skos:note              "accepted"@en;
         skos:prefLabel         "Deep SOLO float"@en;
+        skos:prefLabel         "Flotteur SOLO profond"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/SIO_IDG/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_MT/>
@@ -409,11 +469,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "PROVOR_MT";
+        skos:altLabel          "PROVOR_MT"@fr ;
         skos:definition        "Metocean PROVOR float. PLATFORM_TYPE_KEY = 100"@en;
+        skos:definition        "Flotteur PROVOR météo-océanographique. PLATFORM_TYPE_KEY = 100"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/840/> , <http://vocab.nerc.ac.uk/collection/R08/current/842/> , <http://vocab.nerc.ac.uk/collection/R08/current/841/>;
         skos:notation          "SDN:R23::PROVOR_MT";
         skos:note              "accepted"@en;
         skos:prefLabel         "Metocean PROVOR float"@en;
+        skos:prefLabel         "Flotteur PROVOR météo-océanographique"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/METOCEAN/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/S2A/>
@@ -428,11 +491,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "S2A";
+        skos:altLabel          "S2A"@fr ;
         skos:definition        "S2-A float. PLATFORM_TYPE_KEY = 204"@en;
+        skos:definition        "Flotteur S2-A. PLATFORM_TYPE_KEY = 204"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/880/> , <http://vocab.nerc.ac.uk/collection/R08/current/854/>;
         skos:notation          "SDN:R23::S2A";
         skos:note              "accepted"@en;
         skos:prefLabel         "S2-A float"@en;
+        skos:prefLabel         "Flotteur S2-A"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/MRV/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/NOVA/>
@@ -447,11 +513,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "NOVA";
+        skos:altLabel          "NOVA"@fr ;
         skos:definition        "NOVA float. PLATFORM_TYPE_KEY = 600"@en;
+        skos:definition        "Flotteur NOVA. PLATFORM_TYPE_KEY = 600"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/865/>;
         skos:notation          "SDN:R23::NOVA";
         skos:note              "accepted"@en;
         skos:prefLabel         "NOVA float"@en;
+        skos:prefLabel         "Flotteur NOVA"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/METOCEAN/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/S2X/>
@@ -466,11 +535,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "S2X";
+        skos:altLabel          "S2X"@fr ;
         skos:definition        "S2X float designed for the US Navy. PLATFORM_TYPE_KEY = 203"@en;
+        skos:definition        "Flotteur S2X conçu pour la Marine américaine. PLATFORM_TYPE_KEY = 203"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/872/>;
         skos:notation          "SDN:R23::S2X";
         skos:note              "accepted"@en;
         skos:prefLabel         "S2X float"@en;
+        skos:prefLabel         "Flotteur S2X"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/MRV/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/APEX/>
@@ -485,11 +557,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "APEX";
+        skos:altLabel          "APEX"@fr ;
         skos:definition        "APEX float. PLATFORM_TYPE_KEY = 001"@en;
+        skos:definition        "Flotteur APEX. PLATFORM_TYPE_KEY = 001"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/846/> , <http://vocab.nerc.ac.uk/collection/R08/current/845/> , <http://vocab.nerc.ac.uk/collection/R08/current/847/> , <http://vocab.nerc.ac.uk/collection/R08/current/877/>;
         skos:notation          "SDN:R23::APEX";
         skos:note              "accepted"@en;
         skos:prefLabel         "APEX float"@en;
+        skos:prefLabel         "Flotteur APEX"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/TWR/> , <http://vocab.nerc.ac.uk/collection/R24/current/WRC/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/SOLO_W/>
@@ -504,11 +579,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "SOLO_W";
+        skos:altLabel          "SOLO_W"@fr ;
         skos:definition        "SOLO float manufactured by Woods Whole Oceanographic Institution (WHOI). PLATFORM_TYPE_KEY = 201"@en;
+        skos:definition        "Flotteur SOLO fabriqué par le Woods Whole Oceanographic Institution (WHOI). PLATFORM_TYPE_KEY = 201"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/850/> , <http://vocab.nerc.ac.uk/collection/R08/current/852/> , <http://vocab.nerc.ac.uk/collection/R08/current/851/>;
         skos:notation          "SDN:R23::SOLO_W";
         skos:note              "accepted"@en;
         skos:prefLabel         "WHOI SOLO float"@en;
+        skos:prefLabel         "Flotteur WHOI SOLO"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/WHOI/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/SOLO/>
@@ -523,11 +601,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "SOLO";
+        skos:altLabel          "SOLO"@fr ;
         skos:definition        "SOLO float manufactured by Scripps Institution of Oceanography (SIO). PLATFORM_TYPE_KEY = 200"@en;
+        skos:definition        "Flotteur SOLO fabriqué par le Scripps Institution of Oceanography (SIO). PLATFORM_TYPE_KEY = 200"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/850/> , <http://vocab.nerc.ac.uk/collection/R08/current/852/> , <http://vocab.nerc.ac.uk/collection/R08/current/851/>;
         skos:notation          "SDN:R23::SOLO";
         skos:note              "accepted"@en;
         skos:prefLabel         "SIO SOLO float"@en;
+        skos:prefLabel         "Flotteur SIO SOLO"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/SIO_IDG/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/XUANWU/>
@@ -543,11 +624,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "XUANWU";
+        skos:altLabel          "XUANWU"@fr ;
         skos:definition        "Xuanwu Deep float, also known as HM6000 float."@en;
+        skos:definition        "Flotteur Xuanwu Deep, également connu sous le nom de flotteur HM6000."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/882/>;
         skos:notation          "SDN:R23::XUANWU";
         skos:note              "accepted"@en;
         skos:prefLabel         "Xuanwu Deep float"@en;
+        skos:prefLabel         "Flotteur Xuanwu Deep"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/QNLM/> , <http://vocab.nerc.ac.uk/collection/R24/current/LaoshanL/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/NEMO/>
@@ -562,11 +646,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "NEMO";
+        skos:altLabel          "NEMO"@fr ;
         skos:definition        "NEMO float. PLATFORM_TYPE_KEY = 400"@en;
+        skos:definition        "Flotteur NEMO. PLATFORM_TYPE_KEY = 400"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/860/> , <http://vocab.nerc.ac.uk/collection/R08/current/861/> , <http://vocab.nerc.ac.uk/collection/R08/current/859/>;
         skos:notation          "SDN:R23::NEMO";
         skos:note              "accepted"@en;
         skos:prefLabel         "NEMO float"@en;
+        skos:prefLabel         "Flotteur NEMO"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/OPTIMARE/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/APEX_D/>
@@ -581,11 +668,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "APEX_D";
+        skos:altLabel          "APEX_D"@fr ;
         skos:definition        "Deep APEX float. PLATFORM_TYPE_KEY = 020"@en;
+        skos:definition        "Flotteur APEX profond. PLATFORM_TYPE_KEY = 020"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/849/> , <http://vocab.nerc.ac.uk/collection/R08/current/883/>;
         skos:notation          "SDN:R23::APEX_D";
         skos:note              "accepted"@en;
         skos:prefLabel         "Deep APEX float"@en;
+        skos:prefLabel         "Flotteur APEX profond"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/TWR/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/NINJA/>
@@ -600,11 +690,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "NINJA";
+        skos:altLabel          "NINJA"@fr ;
         skos:definition        "NINJA float. PLATFORM_TYPE_KEY = 300"@en;
+        skos:definition        "Flotteur NINJA. PLATFORM_TYPE_KEY = 300"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/855/> , <http://vocab.nerc.ac.uk/collection/R08/current/857/> , <http://vocab.nerc.ac.uk/collection/R08/current/856/> , <http://vocab.nerc.ac.uk/collection/R08/current/858/>;
         skos:notation          "SDN:R23::NINJA";
         skos:note              "accepted"@en;
         skos:prefLabel         "NINJA float"@en;
+        skos:prefLabel         "Flotteur NINJA"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R24/current/TSK/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/ARVOR_D/>
@@ -619,11 +712,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "ARVOR_D";
+        skos:altLabel          "ARVOR_D"@fr ;
         skos:definition        "Deep ARVOR float. PLATFORM_TYPE_KEY = 120"@en;
+        skos:definition        "Flotteur ARVOR profond. PLATFORM_TYPE_KEY = 120"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/838/>;
         skos:notation          "SDN:R23::ARVOR_D";
         skos:note              "accepted"@en;
         skos:prefLabel         "Deep ARVOR float"@en;
+        skos:prefLabel         "Flotteur ARVOR profond"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R28/current/CB0005/> , <http://vocab.nerc.ac.uk/collection/R24/current/NKE/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_II/>
@@ -638,11 +734,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "PROVOR_II";
+        skos:altLabel          "PROVOR_II"@fr ;
         skos:definition        "Dual board PROVOR float. PLATFORM_TYPE_KEY = 103"@en;
+        skos:definition        "Flotteur PROVOR double carte. PLATFORM_TYPE_KEY = 103"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/839/>;
         skos:notation          "SDN:R23::PROVOR_II";
         skos:note              "accepted"@en;
         skos:prefLabel         "Dual board PROVOR float"@en;
+        skos:prefLabel         "Flotteur PROVOR double carte"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R28/current/CB0011/> , <http://vocab.nerc.ac.uk/collection/R24/current/NKE/> , <http://vocab.nerc.ac.uk/collection/R24/current/MARTEC/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR/>
@@ -657,11 +756,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "PROVOR";
+        skos:altLabel          "PROVOR"@fr ;
         skos:definition        "PROVOR float. PLATFORM_TYPE_KEY = 101"@en;
+        skos:definition        "Flotteur PROVOR. PLATFORM_TYPE_KEY = 101"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/841/> , <http://vocab.nerc.ac.uk/collection/R08/current/840/> , <http://vocab.nerc.ac.uk/collection/R08/current/842/>;
         skos:notation          "SDN:R23::PROVOR";
         skos:note              "accepted"@en;
         skos:prefLabel         "PROVOR float"@en;
+        skos:prefLabel         "Flotteur PROVOR"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R28/current/CB0011/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0005/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0010/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0009/> , <http://vocab.nerc.ac.uk/collection/R24/current/NKE/> , <http://vocab.nerc.ac.uk/collection/R24/current/MARTEC/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/ARVOR_C/>
@@ -676,11 +778,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "ARVOR_C";
+        skos:altLabel          "ARVOR_C"@fr ;
         skos:definition        "Coastal ARVOR float. PLATFORM_TYPE_KEY = 110"@en;
+        skos:definition        "Flotteur ARVOR côtier. PLATFORM_TYPE_KEY = 110"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/837/>;
         skos:notation          "SDN:R23::ARVOR_C";
         skos:note              "accepted"@en;
         skos:prefLabel         "Coastal ARVOR float"@en;
+        skos:prefLabel         "Flotteur ARVOR côtier"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R28/current/CB0012/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0005/> , <http://vocab.nerc.ac.uk/collection/R24/current/NKE/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_III/>
@@ -695,11 +800,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "PROVOR_III";
+        skos:altLabel          "PROVOR_III"@fr ;
         skos:definition        "Dual board PROVOR CTS4 float. PLATFORM_TYPE_KEY = 104"@en;
+        skos:definition        "Flotteur PROVOR CTS4 double carte. PLATFORM_TYPE_KEY = 104"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/836/>;
         skos:notation          "SDN:R23::PROVOR_III";
         skos:note              "accepted"@en;
         skos:prefLabel         "Dual board PROVOR CTS4 float"@en;
+        skos:prefLabel         "Flotteur PROVOR CTS4 double carte"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R28/current/CB0012/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0005/> , <http://vocab.nerc.ac.uk/collection/R24/current/NKE/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_V_JUMBO/>
@@ -715,11 +823,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "PROVOR_V_JUMBO";
+        skos:altLabel          "PROVOR_V_JUMBO"@fr ;
         skos:definition        "PROVOR CTS5-USEA float with additional battery pack, USEA is the controller board type. PLATFORM_ TYPE_ KEY = 107"@en;
+        skos:definition        "Flotteur PROVOR CTS5-USEA avec batterie supplémentaire, USEA est le type de carte de contrôle. PLATFORM_ TYPE_ KEY = 107"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/888/> , <http://vocab.nerc.ac.uk/collection/R08/current/834/> , <http://vocab.nerc.ac.uk/collection/R08/current/889/>;
         skos:notation          "SDN:R23::PROVOR_V_JUMBO";
         skos:note              "accepted"@en;
         skos:prefLabel         "PROVOR_V_JUMBO float"@en;
+        skos:prefLabel         "Flotteur PROVOR_V_JUMBO"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R28/current/CB0008/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0007/> , <http://vocab.nerc.ac.uk/collection/R24/current/NKE/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_V/>
@@ -735,11 +846,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "PROVOR_V";
+        skos:altLabel          "PROVOR_V"@fr ;
         skos:definition        "PROVOR CTS5-USEA float, USEA is the controller board type. PLATFORM_ TYPE_ KEY = 106"@en;
+        skos:definition        "Flotteur PROVOR CTS5-USEA, USEA est le type de carte de contrôle. PLATFORM_ TYPE_ KEY = 106"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/834/>;
         skos:notation          "SDN:R23::PROVOR_V";
         skos:note              "accepted"@en;
         skos:prefLabel         "PROVOR_V float"@en;
+        skos:prefLabel         "Flotteur PROVOR_V"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R28/current/CB0008/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0007/> , <http://vocab.nerc.ac.uk/collection/R24/current/NKE/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/ARVOR/>
@@ -754,11 +868,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "ARVOR";
+        skos:altLabel          "ARVOR"@fr ;
         skos:definition        "ARVOR float. PLATFORM_TYPE_KEY = 102"@en;
+        skos:definition        "Flotteur ARVOR. PLATFORM_TYPE_KEY = 102"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/844/> , <http://vocab.nerc.ac.uk/collection/R08/current/878/>;
         skos:notation          "SDN:R23::ARVOR";
         skos:note              "accepted"@en;
         skos:prefLabel         "ARVOR float"@en;
+        skos:prefLabel         "Flotteur ARVOR"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R28/current/CB0013/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0005/> , <http://vocab.nerc.ac.uk/collection/R24/current/NKE/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/ARVOR2/>
@@ -773,11 +890,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "ARVOR2";
+        skos:altLabel          "ARVOR2"@fr ;
         skos:definition        "ARVOR2 float, PFV2 is the controller board type."@en;
+        skos:definition        "Flotteur ARVOR2, PFV2 est le type de carte de contrôle."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/844/> , <http://vocab.nerc.ac.uk/collection/R08/current/878/>;
         skos:notation          "SDN:R23::ARVOR2";
         skos:note              "accepted"@en;
         skos:prefLabel         "ARVOR 2 float"@en;
+        skos:prefLabel         "Flotteur ARVOR 2"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R28/current/CB0013/> , <http://vocab.nerc.ac.uk/collection/R24/current/NKE/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_IV/>
@@ -793,11 +913,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "3";
         skos:altLabel          "PROVOR_IV";
+        skos:altLabel          "PROVOR_IV"@fr ;
         skos:definition        "PROVOR CTS5-Payload float. PLATFORM_TYPE_KEY = 105"@en;
+        skos:definition        "Flotteur PROVOR CTS5-Payload. PLATFORM_TYPE_KEY = 105"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/R08/current/835/>;
         skos:notation          "SDN:R23::PROVOR_IV";
         skos:note              "accepted"@en;
         skos:prefLabel         "PROVOR CTS5-Payload float"@en;
+        skos:prefLabel         "Flotteur PROVOR CTS5-Payload"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/R28/current/CB0006/> , <http://vocab.nerc.ac.uk/collection/R28/current/CB0008/> , <http://vocab.nerc.ac.uk/collection/R24/current/NKE/> .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/>
@@ -814,5 +937,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Argo Data Management Team";
         owl:versionInfo         "11";
         skos:altLabel           "PLATFORM_TYPE";
+        skos:altLabel           "PLATFORM_TYPE"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/R23/current/ALAMO/> , <http://vocab.nerc.ac.uk/collection/R23/current/ITP/> , <http://vocab.nerc.ac.uk/collection/R23/current/FLOAT/> , <http://vocab.nerc.ac.uk/collection/R23/current/HM2000/> , <http://vocab.nerc.ac.uk/collection/R23/current/PALACE/> , <http://vocab.nerc.ac.uk/collection/R23/current/HM4000/> , <http://vocab.nerc.ac.uk/collection/R23/current/APEX_EM/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_III_JUMBO/> , <http://vocab.nerc.ac.uk/collection/R23/current/POPS_PROVOR/> , <http://vocab.nerc.ac.uk/collection/R23/current/POPS_NEMO/> , <http://vocab.nerc.ac.uk/collection/R23/current/NAVIS_A/> , <http://vocab.nerc.ac.uk/collection/R23/current/ALTO/> , <http://vocab.nerc.ac.uk/collection/R23/current/SOLO_II/> , <http://vocab.nerc.ac.uk/collection/R23/current/NINJA_D/> , <http://vocab.nerc.ac.uk/collection/R23/current/NAVIS_EBR/> , <http://vocab.nerc.ac.uk/collection/R23/current/SOLO_D_MRV/> , <http://vocab.nerc.ac.uk/collection/R23/current/COPEX/> , <http://vocab.nerc.ac.uk/collection/R23/current/SOLO_BGC/> , <http://vocab.nerc.ac.uk/collection/R23/current/SOLO_BGC_MRV/> , <http://vocab.nerc.ac.uk/collection/R23/current/SOLO_D/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_MT/> , <http://vocab.nerc.ac.uk/collection/R23/current/S2A/> , <http://vocab.nerc.ac.uk/collection/R23/current/NOVA/> , <http://vocab.nerc.ac.uk/collection/R23/current/S2X/> , <http://vocab.nerc.ac.uk/collection/R23/current/APEX/> , <http://vocab.nerc.ac.uk/collection/R23/current/SOLO_W/> , <http://vocab.nerc.ac.uk/collection/R23/current/SOLO/> , <http://vocab.nerc.ac.uk/collection/R23/current/XUANWU/> , <http://vocab.nerc.ac.uk/collection/R23/current/NEMO/> , <http://vocab.nerc.ac.uk/collection/R23/current/APEX_D/> , <http://vocab.nerc.ac.uk/collection/R23/current/NINJA/> , <http://vocab.nerc.ac.uk/collection/R23/current/ARVOR_D/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_II/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR/> , <http://vocab.nerc.ac.uk/collection/R23/current/ARVOR_C/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_III/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_V_JUMBO/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_V/> , <http://vocab.nerc.ac.uk/collection/R23/current/ARVOR/> , <http://vocab.nerc.ac.uk/collection/R23/current/PROVOR_IV/> , <http://vocab.nerc.ac.uk/collection/R23/current/ARVOR2/>;
-        skos:prefLabel          "Argo platform type" .
+        skos:prefLabel          "Argo platform type" ;
+        skos:prefLabel          "Type de plateforme Argo"@fr .

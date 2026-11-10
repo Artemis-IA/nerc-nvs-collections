@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Argo ARVOR";
+        skos:altLabel          "Argo ARVOR"@fr ;
         skos:definition        "An autonomous, self-ballasted, Argo profiling float. It provides temperature, salinity and pressure profiles up to 2000 m depth using a Sea-Bird SBE 41CP CTD. It is less bulky and lighter than traditional floats (19.5 kg), consisting of an antenna, float collar (25 cm dia.) and cylindrical hull (12 cm dia.) resulting in an overall length of 195 cm. It uses an ARGOS telemetry system and an oil ballast with pump and value for buoyancy. Positional accuracy is +/- 30 m."@en;
+        skos:definition        "Un flotteur de profilage Argo autonome, auto-lesté. Il fournit des profils de température, de salinité et de pression jusqu'à 2000 m de profondeur avec une CTD Sea-Bird SBE 41CP. Il est moins volumineux et plus léger que les flotteurs traditionnels (19,5 kg), consistant en une antenne, un collier de flotteur (25 cm de diamètre) et une coque cylindrique (12 cm de diamètre) pour une longueur totale de 195 cm. Il utilise un système de télémétrie ARGOS et un lest huileux avec pompe et soupape pour la flottabilité. La précision positionnelle est de +/- 30 m."@fr ;
         skos:notation          "SDN:B76::B7600010";
         skos:note              "accepted"@en;
-        skos:prefLabel         "NKE Instrumentation ARVOR autonomous profiling float"@en .
+        skos:prefLabel         "NKE Instrumentation ARVOR autonomous profiling float"@en ;
+        skos:prefLabel         "Flotteur de profilage autonome NKE Instrumentation ARVOR"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600015/>
         rdf:type               skos:Concept;
@@ -49,10 +52,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "NOC spar buoy";
+        skos:altLabel          "NOC spar buoy"@fr ;
         skos:definition        "A custom-built spar buoy platform designed to measure waves, wave breaking and whitecaps in-situ using capacitance wave wires. The main body of the buoy consists of two sealed sections of aluminium alloy tubing, with the lower section being 6 m long and 25 cm in diameter, and the upper section being 4 m long and 10 cm in diameter. The wave wires are mounted along the upper section and the buoy is ballasted so that the wires are half submerged, on average. A sealed dome is mounted at the top of the buoy, and this contains the cameras, buoy motion sensors, and electronics for the wave wires. The acoustic and optical systems are distributed along the length of the submerged sections, and have separate electronics housing near the base of the buoy. At the bottom of the spar are two hexagonal damping plates that act to increase the natural period of oscillation of the spar to about 30 s. The buoy has an overall length of 11 m and, including all instrumentation, a total weight in air of approximately 440 kg. It can carry enough batteries to operate for 5 days at a time."@en;
+        skos:definition        "Une bouée à mât fixe (spar buoy) construite sur mesure conçue pour mesurer les vagues, le déferlement des vagues et les têtes blanches in-situ à l'aide de fils capteurs de capacitance. Le corps principal de la bouée consiste en deux sections scellées de tube en alliage d'aluminium, la section inférieure faisant 6 m de long et 25 cm de diamètre, et la section supérieure 4 m de long et 10 cm de diamètre. Les fils capteurs sont montés le long de la section supérieure et la bouée est lestée pour que les fils soient mi-submergés en moyenne. Un dôme scellé est monté au sommet de la bouée, contenant les caméras, les capteurs de mouvement de la bouée et l'électronique pour les fils capteurs. Les systèmes acoustique et optique sont distribués le long des sections submergées et ont un boîtier électronique séparé près de la base de la bouée. Au bas du mât se trouvent deux plaques d'amortissement hexagonales qui agissent pour augmenter la période d'oscillation naturelle du mât à environ 30 s. La bouée a une longueur totale de 11 m et, instruments inclus, un poids total dans l'air d'environ 440 kg. Elle peut embarquer suffisamment de batteries pour fonctionner 5 jours à la fois."@fr ;
         skos:notation          "SDN:B76::B7600015";
         skos:note              "accepted"@en;
-        skos:prefLabel         "National Oceanography Centre [standard] spar buoy"@en .
+        skos:prefLabel         "National Oceanography Centre [standard] spar buoy"@en ;
+        skos:prefLabel         "Bouée à mât fixe [standard] du National Oceanography Centre"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600005/>
         rdf:type               skos:Concept;
@@ -66,10 +72,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "AUV";
+        skos:altLabel          "AUV"@fr ;
         skos:definition        "A generic term to describe an unmanned robot equipped with oceanographic sensors or sonar systems that travels underwater without operator intervention. It typically conducts underwater surveys such as detecting and mapping submerged wrecks, rocks, and obstructions that pose a hazard to navigation for commercial and recreational vessels."@en;
+        skos:definition        "Un terme générique pour décrire un robot sans pilote équipé de capteurs océanographiques ou de systèmes sonars qui se déplace sous l'eau sans intervention d'un opérateur. Il conduit typiquement des levés sous-marins tels que la détection et la cartographie d'épaves, de rochers et d'obstacles submergés qui constituent un danger pour la navigation des navires commerciaux et de plaisance."@fr ;
         skos:notation          "SDN:B76::B7600005";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Unspecified Autonomous Underwater Vehicle"@en .
+        skos:prefLabel         "Unspecified Autonomous Underwater Vehicle"@en ;
+        skos:prefLabel         "Véhicule sous-marin autonome non spécifié"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600016/>
         rdf:type               skos:Concept;
@@ -83,10 +92,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "NOC modified spar buoy";
+        skos:altLabel          "NOC modified spar buoy"@fr ;
         skos:definition        "Modified version of the standard spar buoy designed by the National Oceanography Centre (NOC) also known as Bubble Buoy. Strengthened and lengthened structure in order to carry acoustic resonators that measure sub-surface bubble populations."@en;
+        skos:definition        "Version modifiée de la bouée à mât fixe standard conçue par le National Oceanography Centre (NOC), également connue sous le nom de Bubble Buoy. Structure renforcée et allongée pour porter des résonateurs acoustiques qui mesurent les populations de bulles sous la surface."@fr ;
         skos:notation          "SDN:B76::B7600016";
         skos:note              "accepted"@en;
-        skos:prefLabel         "National Oceanography Centre [modified length and strength] {Bubble Buoy} spar buoy"@en .
+        skos:prefLabel         "National Oceanography Centre [modified length and strength] {Bubble Buoy} spar buoy"@en ;
+        skos:prefLabel         "Bouée à mât fixe [longueur et solidité modifiées] {Bubble Buoy} du National Oceanography Centre"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600008/>
         rdf:type               skos:Concept;
@@ -100,10 +112,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Coast moor";
+        skos:altLabel          "Coast moor"@fr ;
         skos:definition        "A generic term to describe a tethered platform equipped with oceanographic sensors that is located in the interface between the land and the ocean. The platform is located in a fixed position. Locations may include bays and estuaries."@en;
+        skos:definition        "Un terme générique pour décrire une plateforme amarée équipée de capteurs océanographiques située dans l'interface entre la terre et l'océan. La plateforme est à position fixe. Les emplacements peuvent inclure les baies et les estuaires."@fr ;
         skos:notation          "SDN:B76::B7600008";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Unspecified coastal mooring"@en .
+        skos:prefLabel         "Unspecified coastal mooring"@en ;
+        skos:prefLabel         "Mooring côtier non spécifié"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600018/>
         rdf:type               skos:Concept;
@@ -117,10 +132,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "PAP-3";
+        skos:altLabel          "PAP-3"@fr ;
         skos:definition        "A sub-surface, fixed-point sediment trap mooring that forms part of the Porcupine Abyssal Plain Sustained Observatory (PAP-SO). It is designed for particle flux and current measurements. The design has been in use since 1998."@en;
+        skos:definition        "Un amarrage de piège à sédiments sous-marin à point fixe qui fait partie du Porcupine Abyssal Plain Sustained Observatory (PAP-SO). Il est conçu pour les mesures de flux de particules et de courants. Le design est en usage depuis 1998."@fr ;
         skos:notation          "SDN:B76::B7600018";
         skos:note              "accepted"@en;
-        skos:prefLabel         "National Oceanography Centre PAP-3 mooring"@en .
+        skos:prefLabel         "National Oceanography Centre PAP-3 mooring"@en ;
+        skos:prefLabel         "Amarrage PAP-3 du National Oceanography Centre"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600007/>
         rdf:type               skos:Concept;
@@ -134,10 +152,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Lander";
+        skos:altLabel          "Lander"@fr ;
         skos:definition        "A generic term to describe a platform equipped with oceanographic sensors (such as a benthic lander) that is located on the seafloor."@en;
+        skos:definition        "Un terme générique pour décrire une plateforme équipée de capteurs océanographiques (comme un lander benthique) située sur le fond marin."@fr ;
         skos:notation          "SDN:B76::B7600007";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Unspecified seabed observatory"@en .
+        skos:prefLabel         "Unspecified seabed observatory"@en ;
+        skos:prefLabel         "Observatoire de fond marin non spécifié"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600044/>
         rdf:type               skos:Concept;
@@ -151,10 +172,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "EGIM";
+        skos:altLabel          "EGIM"@fr ;
         skos:definition        "A subsurface platform designed for seafloor and water column observation. Designed by the European Multidisciplinary Seafloor and water column Observatory (EMSO) European Research Infrastructure Consortium (ERIC) as part of the EMSODEV (EMSO Implementation and Operation: DEVelopment of Instrument Module) project. It contains a set of core sensors measuring seven Essential Ocean Variables: conductivity, temperature, pressure, dissolved oxygen, turbidity and optical backscatter, current velocity, and underwater sound. Embedded in an easy-to-deploy frame, the EGIM can be used in diverse implementation scenarios and multidisciplinary scientific purposes. It can be deployed on mooring lines, seabed stations both cabled and non-cabled, surface buoys, and can also be deployed as an independent system. It is depth-rated to 6000 m but is open to user customisation for shallower seas if required. https://doi.org/10.3389/fmars.2022.801033."@en;
+        skos:definition        "Une plateforme sous-marine conçue pour l'observation du fond marin et de la colonne d'eau. Conçue par le consortium EMSODEV (EMSO Implementation and Operation: DEVelopment of Instrument Module) du consortium de recherche européen EMSO (European Multidisciplinary Seafloor and water column Observatory ERIC). Elle contient un ensemble de capteurs de base mesurant sept Variables Océaniques Essentielles : conductivité, température, pression, oxygène dissous, turbidité et rétrodiffusion optique, vitesse du courant et son sous-marin. Intégré dans un châssis facile à déployer, l'EGIM peut être utilisé dans divers scénarios de mise en œuvre et à des fins scientifiques multidisciplinaires. Il peut être déployé sur des lignes d'amarrage, des stations de fond marin câblées et non câblées, des bouées de surface, et peut aussi être déployé comme système indépendant. Il est certifié jusqu'à 6000 m mais reste personnalisable pour des mers plus peu profondes si nécessaire. https://doi.org/10.3389/fmars.2022.801033."@fr ;
         skos:notation          "SDN:B76::B7600044";
         skos:note              "accepted"@en;
-        skos:prefLabel         "EMSO Generic Instrument Module"@en .
+        skos:prefLabel         "EMSO Generic Instrument Module"@en ;
+        skos:prefLabel         "EMSO Generic Instrument Module"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600011/>
         rdf:type               skos:Concept;
@@ -168,10 +192,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "CTG NuShuttle";
+        skos:altLabel          "CTG NuShuttle"@fr ;
         skos:definition        "A towed undulating vehicle capable of carrying a wide range of sensors, including: conductivity, temperature, pressure, chlorophyll, hydrocarbon, fluorescence, turbidity, optical transmittance, bioluminescence, nutrient, redox and dissolved oxygen sensors. Moreover, NuShuttle can be fitted with a mechanical plankton sampler or an optical plankton counter. This platform is designed to be towed at > 150 m depth, at speeds between 5 knots and 15 knots."@en;
+        skos:definition        "Un véhicule tracté ondulant capable de porter une large gamme de capteurs, incluant : conductivité, température, pression, chlorophylle, hydrocarbures, fluorescence, turbidité, transmittance optique, bioluminescence, nutriments, redox et capteurs d'oxygène dissous. De plus, NuShuttle peut être équipé d'un échantillonneur de plancton mécanique ou d'un compteur de plancton optique. Cette plateforme est conçue pour être tractée à > 150 m de profondeur, à des vitesses entre 5 et 15 nœuds."@fr ;
         skos:notation          "SDN:B76::B7600011";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Chelsea Technologies Group NuShuttle"@en .
+        skos:prefLabel         "Chelsea Technologies Group NuShuttle"@en ;
+        skos:prefLabel         "Chelsea Technologies Group NuShuttle"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600023/>
         rdf:type               skos:Concept;
@@ -185,10 +212,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "BlueROV2";
+        skos:altLabel          "BlueROV2"@fr ;
         skos:definition        "A remotely operated vehicle (ROV) produced by Blue Robotics in California, USA, that features various customizable features, sensors and accessories. It also makes use of open source software. It features a high definition (1080p, 30fps) wide-angle, low-light camera mounted to a tilt mechanism, and can be configured with 2 or 4 Lumen lights, providing up to 6000 lumens to illuminate the ocean depths. BlueROV2 is depth-rated to 100m, and can use 6 or 8 patented T200 thrusters providing a high thrust-to-weight ratio. The modular frame of BlueROV2 allows users to attach accessories such as a gripper, Ping360 scanning sonar, Blue Robotics Bar30 pressure/depth and temperature sensor, additional battery enclosures, a Fathom Tether (customizable from 25 to 300 m), and Fathom Spool."@en;
+        skos:definition        "Un véhicule sous-marin télécommandé (ROV) produit par Blue Robotics en Californie, USA, qui offre diverses fonctions, capteurs et accessoires personnalisables. Il utilise aussi des logiciels open source. Il est équipé d'une caméra grand angle haute définition (1080p, 30 fps) à faible luminosité montée sur un mécanisme d'inclinaison, et peut être configuré avec 2 ou 4 éclairages Lumen, fournissant jusqu'à 6000 lumens pour illuminer les profondeurs océaniques. BlueROV2 est certifié jusqu'à 100 m et peut utiliser 6 ou 8 propulseurs T200 brevetés offrant un rapport poussée/poids élevé. Le châssis modulaire de BlueROV2 permet aux utilisateurs d'attacher des accessoires tels qu'une pince, un sonar de balayage Ping360, un capteur de pression/profondeur et température Blue Robotics Bar30, des boîtiers de batteries supplémentaires, un câble Fathom (personnalisable de 25 à 300 m) et un enrouleur Fathom."@fr ;
         skos:notation          "SDN:B76::B7600023";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Blue Robotics BlueROV2 remotely operated vehicle"@en .
+        skos:prefLabel         "Blue Robotics BlueROV2 remotely operated vehicle"@en ;
+        skos:prefLabel         "Véhicule sous-marin télécommandé Blue Robotics BlueROV2"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600006/>
         rdf:type               skos:Concept;
@@ -202,10 +232,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Argo float";
+        skos:altLabel          "Argo float"@fr ;
         skos:definition        "A generic term to describe a float that is part of the Argo array. Argo floats are autonomous, free-drifting profiling floats. Typically, a float descends to a target depth to drift where they are stabilised by being neutrally buoyant. At an appropriate interval, the float pumps fluid into an external bladder and rises to the surface while measuring temperature and salinity. Satellites or GPS determine the position of the float at the surface, and it transmits its data to a satellite. The bladder then deflates and the float returns to its original density and sinks to drift until the cycle is repeated. The Argo array is currently comprised of several float models such as PROVOR or APEX."@en;
+        skos:definition        "Un terme générique pour décrire un flotteur faisant partie du réseau Argo. Les flotteurs Argo sont des flotteurs de profilage autonomes à dérive libre. Typiquement, un flotteur descend à une profondeur cible pour dériver où il est stabilisé par une flottabilité neutre. À un intervalle approprié, le flotteur pompe du fluide dans une vessie externe et remonte à la surface en mesurant température et salinité. Des satellites ou le GPS déterminent la position du flotteur en surface, et il transmet ses données à un satellite. La vessie se dégonfle alors et le flotteur retrouve sa densité initiale et coule pour dériver jusqu'à ce que le cycle se répète. Le réseau Argo est actuellement composé de plusieurs modèles de flotteurs tels que PROVOR ou APEX."@fr ;
         skos:notation          "SDN:B76::B7600006";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Unspecified Argo float"@en .
+        skos:prefLabel         "Unspecified Argo float"@en ;
+        skos:prefLabel         "Flotteur Argo non spécifié"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600012/>
         rdf:type               skos:Concept;
@@ -219,10 +252,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "BRIDGET";
+        skos:altLabel          "BRIDGET"@fr ;
         skos:definition        "A deep-tow vehicle developed jointly by the National Oceanography Centre and the University of Cambridge, designed to investigate and sample plumes from underwater volcanic vents. BRIDGET can be towed down to 5000 m depth, and may carry a wide range of sensors and samplers, including CTD, optical and chemical sensors, altimeter, heading and attitude sensors. All data is transmitted to the surface via the ship's deep tow conducting cable."@en;
+        skos:definition        "Un véhicule tracté en profondeur développé conjointement par le National Oceanography Centre et l'Université de Cambridge, conçu pour explorer et échantillonner les panaches des évents volcaniques sous-marins. BRIDGET peut être tracté jusqu'à 5000 m de profondeur et peut porter une large gamme de capteurs et échantillonneurs, incluant CTD, capteurs optiques et chimiques, altimètre, capteurs de cap et d'attitude. Toutes les données sont transmises à la surface via le câble de traction profonde du navire."@fr ;
         skos:notation          "SDN:B76::B7600012";
         skos:note              "accepted"@en;
-        skos:prefLabel         "BRIDGET"@en .
+        skos:prefLabel         "BRIDGET"@en ;
+        skos:prefLabel         "BRIDGET"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600034/>
         rdf:type               skos:Concept;
@@ -236,10 +272,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "UoW Seaglider SGX";
+        skos:altLabel          "UoW Seaglider SGX"@fr ;
         skos:definition        "An autonomous underwater vehicle (AUV) based on buoyancy, developed at the University of Washington for continuous, long-term measurement of oceanographic parameters at full ocean depth. It uses small changes in buoyancy and wings to achieve forward motion. The systems pitch and roll are controlled using adjustable ballast (the vehicle battery). Pitch and roll trim are automatic. The vehicle moves through the water in a saw-tooth like pattern and surfaces often to determine its position. Navigation is waypoint-based and accomplished using a combination of GPS fixes while on the surface and internal sensors that monitor the vehicle heading, depth and attitude during dives. The SGX features advanced navigation capabilities including under-ice behaviour. External sensors are constantly scanning the ocean to determine environmental properties. The glider is approximately 203 cm long with a maximum diameter of 29.5 cm. It has a nominal displacement of 70 kg and is rated to 1000 m depth. The nominal mission duration for SGX is 12 months with continuous sampling, which may be extended with periods of loitering. Maximum roll is 80 degrees. Typical speeds of 0.1 - 0.25 m/s horizontal, 0.1 m/s vertical."@en;
+        skos:definition        "Un véhicule sous-marin autonome (AUV) basé sur la flottabilité, développé à l'Université de Washington pour la mesure continue et à long terme des paramètres océanographiques à pleine profondeur océanique. Il utilise de petits changements de flottabilité et des ailes pour atteindre un mouvement vers l'avant. Les systèmes de tangage et de roulis sont contrôlés par lestage réglable (la batterie du véhicule). Le réglage du tangage et du roulis est automatique. Le véhicule se déplace dans l'eau selon un motif en dents de scie et fait surface souvent pour déterminer sa position. La navigation est basée sur des points de passage et réalisée par une combinaison de fixes GPS en surface et de capteurs internes surveillant le cap, la profondeur et l'attitude du véhicule pendant les plongées. Le SGX offre des capacités de navigation avancées incluant le comportement sous la glace. Des capteurs externes scannent constamment l'océan pour déterminer les propriétés environnementales. Le planeur mesure environ 203 cm de long avec un diamètre maximal de 29,5 cm. Il a un déplacement nominal de 70 kg et est certifié jusqu'à 1000 m. La durée de mission nominale du SGX est de 12 mois avec échantillonnage continu, extensible par des périodes d'attente. Le roulis maximal est de 80 degrés. Vitesses typiques : 0,1 - 0,25 m/s horizontal, 0,1 m/s vertical."@fr ;
         skos:notation          "SDN:B76::B7600034";
         skos:note              "accepted"@en;
-        skos:prefLabel         "University of Washington Seaglider SGX"@en .
+        skos:prefLabel         "University of Washington Seaglider SGX"@en ;
+        skos:prefLabel         "Planeur Seaglider SGX de l'Université de Washington"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600009/>
         rdf:type               skos:Concept;
@@ -253,10 +292,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Argo APEX Deep";
+        skos:altLabel          "Argo APEX Deep"@fr ;
         skos:definition        "An autonomous, neutrally-buoyant, Argo profiling float rated to 6000 m. Sphere-shaped (17 inch dia.), it consists of a depth-rated glass pressure vessel and buoyancy engine. It is fitted with a Sea-Bird SBE 61 CTD, Aanderaa 4831 oxygen optode and Iridium Circuit Switch/RUDICS telemetry system as standard. It can be fitted with optional Iridium Short Burst Data (SBD) telemetry and other environmental sensors, such as the Turner Designs Cyclops 6K fluorometer."@en;
+        skos:definition        "Un flotteur de profilage Argo autonome, à flottabilité neutre, certifié jusqu'à 6000 m. De forme sphérique (17 pouces de diamètre), il consiste en un réservoir de pression en verre certifié et un moteur de flottabilité. Il est équipé en standard d'une CTD Sea-Bird SBE 61, d'une optode à oxygène Aanderaa 4831 et d'un système de télémétrie Iridium Circuit Switch/RUDICS. Il peut être équipé en option de télémétrie Iridium Short Burst Data (SBD) et d'autres capteurs environnementaux, comme le fluorimètre Turner Designs Cyclops 6K."@fr ;
         skos:notation          "SDN:B76::B7600009";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Teledyne Webb Research APEX Deep autonomous profiling float"@en .
+        skos:prefLabel         "Teledyne Webb Research APEX Deep autonomous profiling float"@en ;
+        skos:prefLabel         "Flotteur de profilage autonome APEX Deep de Teledyne Webb Research"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600047/>
         rdf:type               skos:Concept;
@@ -270,10 +312,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Autosub5";
+        skos:altLabel          "Autosub5"@fr ;
         skos:definition        "A high-power work-class autonomous underwater vehicle (AUV) developed by the National Oceanography Centre, UK. Autosub5 has a depth rating of 6000 m and is designed to be ship-deployed with a mission range of less than 100 km and an operating time of up to 36 h. The vehicle can carry a wide range of sensors including multiple high-powered sensors such as camera systems, multibeam sonar systems, sidescan sonar, and sub bottom profilers. Power is provided by pressure-balanced lithium batteries and navigation is aided by a Doppler Velocity Log (DVL) and Acoustic Doppler Current Profiler (ADCP). Data are transmitted via Iridium SBD format messages and stored on an internal data logger. Vehicle control is achieved by redundant twin rear thrusters and 4 independent fins."@en;
+        skos:definition        "Un véhicule sous-marin autonome (AUV) de classe travail à haute puissance développé par le National Oceanography Centre, UK. Autosub5 a une certification de profondeur de 6000 m et est conçu pour être déployé depuis un navire avec une portée de mission de moins de 100 km et une durée d'opération jusqu'à 36 h. Le véhicule peut porter une large gamme de capteurs incluant plusieurs capteurs haute puissance tels que des systèmes de caméras, des systèmes sonar multifaisceaux, sonar latéral et profileurs de sous-sol. L'alimentation est fournie par des batteries lithium à compensation de pression et la navigation est aidée par un Doppler Velocity Log (DVL) et un profilomètre de courant Doppler acoustique (ADCP). Les données sont transmises via des messages au format Iridium SBD et stockées sur un enregistreur de données interne. Le contrôle du véhicule est assuré par des propulseurs arrière redondants jumelés et 4 ailerons indépendants."@fr ;
         skos:notation          "SDN:B76::B7600047";
         skos:note              "accepted"@en;
-        skos:prefLabel         "National Oceanography Centre Autosub5 autonomous underwater vehicle"@en .
+        skos:prefLabel         "National Oceanography Centre Autosub5 autonomous underwater vehicle"@en ;
+        skos:prefLabel         "Véhicule sous-marin autonome Autosub5 du National Oceanography Centre"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600046/>
         rdf:type               skos:Concept;
@@ -287,10 +332,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Geolux HydroStation";
+        skos:altLabel          "Geolux HydroStation"@fr ;
         skos:definition        "A compact, automated hydrological monitoring station designed to provide seamless integration of hydrological instruments with the datalogger, power supply system, and mounting accessories. It includes a solar panel and battery system, offering a completely self-sustaining power supply, along with a SmartObserver datalogger equipped with an integrated MPPT battery charger and communication module. Geolux radar instruments for water level and surface velocity measurement are also part of the package, with the option to extend the HydroStation with various third-party instruments such as water quality probes or meteorological sensors. The datalogger and battery are housed in a robust, IP68-rated enclosure that is both waterproof and vandal-proof."@en;
+        skos:definition        "Une station de surveillance hydrologique compacte et automatisée conçue pour offrir une intégration transparente des instruments hydrologiques avec l'enregistreur de données, le système d'alimentation et les accessoires de montage. Elle inclut un panneau solaire et un système de batteries, offrant une alimentation entièrement autonome, ainsi qu'un enregistreur de données SmartObserver équipé d'un chargeur de batterie MPPT intégré et d'un module de communication. Les instruments radar Geolux pour la mesure du niveau d'eau et de la vitesse de surface font aussi partie du package, avec l'option d'étendre la HydroStation avec divers instruments tiers tels que des sondes de qualité de l'eau ou des capteurs météorologiques. L'enregistreur de données et la batterie sont logés dans un boîtier robuste classé IP68, à la fois étanche et anti-vandalisme."@fr ;
         skos:notation          "SDN:B76::B7600046";
         skos:note              "accepted"@en;
         skos:prefLabel         "Geolux HydroStation hydrological monitoring station"@en;
+        skos:prefLabel         "Station de surveillance hydrologique Geolux HydroStation"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0404/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG02233/> .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600025/>
@@ -305,11 +353,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "iRobot Seaglider M1";
+        skos:altLabel          "iRobot Seaglider M1"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/27/>;
         skos:definition        "An autonomous underwater vehicle (AUV) based on buoyancy, initially developed at the University of Washington, but produced by iRobot under an exclusive 5-year licence from 2008-2013 for customers outside the Univsersity of Washington. It was developed for continuous, long-term measurement of oceanographic parameters. It uses small changes in buoyancy and wings to achieve forward motion. The systems pitch and roll are controlled using adjustable ballast (the vehicle battery). The vehicle moves through the water in a saw-tooth like pattern and surfaces often to determine its position. Navigation is accomplished using a combination of GPS fixes while on the surface and internal sensors that monitor the vehicle heading, depth and attitude during dives. External sensors are constantly scanning the ocean to determine environmental properties. The glider is 1.8 - 2 m long with a maximum diameter of 30 cm and antenna mast length between 43 cm and 1 m. It weighs 52 kg with a wing span of 1 m. It has a deployment range of 4600 km, deployment length of 10 months and an operating depth range between 50-1000 m. Maximum speed is 25 cm/s."@en;
+        skos:definition        "Un véhicule sous-marin autonome (AUV) basé sur la flottabilité, initialement développé à l'Université de Washington, puis produit par iRobot sous licence exclusive de 5 ans de 2008 à 2013 pour les clients hors de l'Université de Washington. Il a été développé pour la mesure continue et à long terme des paramètres océanographiques. Il utilise de petits changements de flottabilité et des ailes pour atteindre un mouvement vers l'avant. Les systèmes de tangage et de roulis sont contrôlés par lestage réglable (la batterie du véhicule). Le véhicule se déplace dans l'eau selon un motif en dents de scie et fait surface souvent pour déterminer sa position. La navigation est réalisée par une combinaison de fixes GPS en surface et de capteurs internes surveillant le cap, la profondeur et l'attitude du véhicule pendant les plongées. Des capteurs externes scannent constamment l'océan pour déterminer les propriétés environnementales. Le planeur mesure 1,8 - 2 m de long avec un diamètre maximal de 30 cm et une mât d'antenne entre 43 cm et 1 m. Il pèse 52 kg avec une envergure de 1 m. Il a une portée de déploiement de 4600 km, une durée de déploiement de 10 mois et une plage de profondeur d'opération entre 50 et 1000 m. Vitesse maximale : 25 cm/s."@fr ;
         skos:notation          "SDN:B76::B7600025";
         skos:note              "accepted"@en;
         skos:prefLabel         "iRobot Seaglider M1 glider"@en;
+        skos:prefLabel         "Planeur iRobot Seaglider M1"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0023/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG01747/> .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600001/>
@@ -324,11 +375,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Slocum G2";
+        skos:altLabel          "Slocum G2"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/27/>;
         skos:definition        "A long-range autonomous underwater vehicle (AUV) based on buoyancy. It is used for remote water column sampling. It uses hydraulic buoyancy change to alter the vehicle density in relation to the surrounding water thereby causing the vehicle to either float or sink. Given an appropriate dive or climb angle, the wings and body lift and convert some of this vertical motion into a forward saw tooth horizontal motion. Periodically, the glider surfaces and calls via Iridium Satellite Phone (anywhere in world) or Free Wave RF Modem (line of sight) in to Dockserver (auto attendant computer) to relay navigational fix, data and receive further instructions for command and control. The glider is capable of storm sampling and can be flown in a coordinated fleet. It is 1.5 m in length, has a hull diameter of 22 cm and mass of 54 kgs. It has an exchangeable payload (capacity up to 6 L) which is capable of housing a variety of environmental sensors such as nitrate and oxygen. It uses lithium or alkaline batteries. It has a deployment range of 600-6000 km, a deployment length of 15 days to 12 months and an operating depth range of 4-1000m. Navigation is via GPS waypoints, a pressure and altimeter sensor. Maximum speed is .35 m/s. It transmits via RF modem, Iridium (RUDICS), ARGOS or acoustic modem."@en;
+        skos:definition        "Un véhicule sous-marin autonome (AUV) à longue portée basé sur la flottabilité. Il est utilisé pour l'échantillonnage distant de la colonne d'eau. Il utilise un changement de flottabilité hydraulique pour modifier la densité du véhicule par rapport à l'eau environnante, ce qui fait flotter ou couler le véhicule. Avec un angle de plongée ou de montée approprié, les ailes et le corps produisent une portance et convertissent une partie de ce mouvement vertical en mouvement horizontal en dents de scie vers l'avant. Périodiquement, le planeur fait surface et appelle via téléphone satellite Iridium (n'importe où dans le monde) ou modem RF Free Wave (ligne de vue) vers Dockserver (ordinateur auto-standardiste) pour relayer le fix de navigation, les données et recevoir d'autres instructions de commande et contrôle. Le planeur est capable d'échantillonner en conditions de tempête et peut voler en flotte coordonnée. Il fait 1,5 m de long, a un diamètre de coque de 22 cm et une masse de 54 kg. Il a une charge utile interchangeable (capacité jusqu'à 6 L) capable d'accueillir une variété de capteurs environnementaux tels que nitrate et oxygène. Il utilise des batteries lithium ou alcalines. Il a une portée de déploiement de 600-6000 km, une durée de déploiement de 15 jours à 12 mois et une plage de profondeur d'opération de 4-1000 m. La navigation se fait par points de passage GPS, un capteur de pression et d'altimètre. Vitesse maximale : 0,35 m/s. Il transmet via modem RF, Iridium (RUDICS), ARGOS ou modem acoustique."@fr ;
         skos:notation          "SDN:B76::B7600001";
         skos:note              "accepted"@en;
         skos:prefLabel         "Teledyne Webb Research Slocum G2 glider"@en;
+        skos:prefLabel         "Planeur Teledyne Webb Research Slocum G2"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/B75/current/ORG01077/> , <http://vocab.nerc.ac.uk/collection/L35/current/MAN0020/> .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600029/>
@@ -343,11 +397,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Slocum G3S";
+        skos:altLabel          "Slocum G3S"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/27/>;
         skos:definition        "A long-range autonomous underwater vehicle (AUV) based on buoyancy. The G3S utilises the same features as the G3 glider but uses a new STM32 Processor. This replaces the Persistor processor used on the G3 glider in the Science and Flight Bays. The G3S is used for remote water column sampling. It uses hydraulic buoyancy change to alter the vehicle density in relation to the surrounding water thereby causing the vehicle to either float or sink. Given an appropriate dive or climb angle, the wings and body lift and convert some of this vertical motion into a forward saw tooth horizontal motion. Periodically, the glider surfaces and calls via Iridium Satellite Phone (anywhere in world) or Free Wave RF Modem (line of sight) in to Dockserver (auto attendant computer) to relay navigational fix, data and receive further instructions for command and control. The glider is capable of storm sampling and can be flown in a coordinated fleet. It is 1.5 m in length, has a hull diameter of 22 cm and mass of 55-70 kgs (dependent upon configuration). It has an exchangeable payload (capacity up to 6 L) which is capable of housing a variety of environmental sensors such as nitrate and oxygen. It uses lithium or alkaline batteries. It has a deployment range of 350-13000 km (dependent upon configuration), a deployment length of 15 days to 18 months (dependent upon configuration) and an operating depth range of 4-1000m. Navigation is via GPS waypoints, a pressure and altimeter sensor. Maximum speed is 0.35 m/s (0.68 knot) with the buoyancy engine and an average up to 0.5 m/s (1 knots) with full drive, with the thruster: Up to 1 m/s (2 knots). It transmits via RF modem, Iridium (RUDICS), ARGOS or acoustic modem. The new STM32L4 CPU processor utilises OpenRTOS running up to 120 MHz, with 8 Mbytes RAM and 32 Mbytes of flash memory."@en;
+        skos:definition        "Un véhicule sous-marin autonome (AUV) à longue portée basé sur la flottabilité. Le G3S utilise les mêmes caractéristiques que le planeur G3 mais avec un nouveau processeur STM32, qui remplace le processeur Persistor utilisé sur le planeur G3 dans les baies Science et Flight. Le G3S est utilisé pour l'échantillonnage distant de la colonne d'eau. Il utilise un changement de flottabilité hydraulique pour modifier la densité du véhicule par rapport à l'eau environnante, ce qui fait flotter ou couler le véhicule. Avec un angle de plongée ou de montée approprié, les ailes et le corps produisent une portance et convertissent une partie de ce mouvement vertical en mouvement horizontal en dents de scie vers l'avant. Périodiquement, le planeur fait surface et appelle via téléphone satellite Iridium (n'importe où dans le monde) ou modem RF Free Wave (ligne de vue) vers Dockserver (ordinateur auto-standardiste) pour relayer le fix de navigation, les données et recevoir d'autres instructions de commande et contrôle. Le planeur est capable d'échantillonner en conditions de tempête et peut voler en flotte coordonnée. Il fait 1,5 m de long, a un diamètre de coque de 22 cm et une masse de 55-70 kg (selon la configuration). Il a une charge utile interchangeable (capacité jusqu'à 6 L) capable d'accueillir une variété de capteurs environnementaux tels que nitrate et oxygène. Il utilise des batteries lithium ou alcalines. Il a une portée de déploiement de 350-13000 km (selon la configuration), une durée de déploiement de 15 jours à 18 mois (selon la configuration) et une plage de profondeur d'opération de 4-1000 m. La navigation se fait par points de passage GPS, un capteur de pression et d'altimètre. Vitesse maximale : 0,35 m/s (0,68 nœud) avec le moteur de flottabilité et une moyenne jusqu'à 0,5 m/s (1 nœud) avec la propulsion complète, avec le propulseur : jusqu'à 1 m/s (2 nœuds). Il transmet via modem RF, Iridium (RUDICS), ARGOS ou modem acoustique. Le nouveau processeur CPU STM32L4 utilise OpenRTOS jusqu'à 120 MHz, avec 8 Moctets de RAM et 32 Moctets de mémoire flash."@fr ;
         skos:notation          "SDN:B76::B7600029";
         skos:note              "accepted"@en;
         skos:prefLabel         "Teledyne Webb Research Slocum G3S glider"@en;
+        skos:prefLabel         "Planeur Teledyne Webb Research Slocum G3S"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/B75/current/ORG01077/> , <http://vocab.nerc.ac.uk/collection/L35/current/MAN0020/> .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600033/>
@@ -362,11 +419,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Slocum G3 shallow";
+        skos:altLabel          "Slocum G3 shallow"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/27/>;
         skos:definition        "A long-range autonomous underwater vehicle (AUV) based on buoyancy. It is the shallow-water version of the standard Slocum G3, optimised for shallow water operation due to its specialised pump, with a depth range from 4 to 150 m. It is used for remote water column sampling. It uses hydraulic buoyancy change to alter the vehicle density in relation to the surrounding water thereby causing the vehicle to either float or sink. Given an appropriate dive or climb angle, the wings and body lift and convert some of this vertical motion into a forward saw tooth horizontal motion. Periodically, the glider surfaces and calls via Iridium Satellite Phone (anywhere in world) or Free Wave RF Modem (line of sight) in to Dockserver (auto attendant computer) to relay navigational fix, data and receive further instructions for command and control. The glider is capable of storm sampling and can be flown in a coordinated fleet. It is 1.5 m in length, has a hull diameter of 22 cm and mass of 55-70 kgs (dependent upon configuration). It has an exchangeable payload (capacity up to 6 L) which is capable of housing a variety of environmental sensors such as nitrate and oxygen. It uses lithium or alkaline batteries. It has a deployment range of 350-13000 km (dependent upon configuration), a deployment length of 15 days to 18 months (dependent upon configuration) and an operating depth range of 4-150 m. Navigation is via GPS waypoints, a pressure and altimeter sensor. Maximum speed is 0.35 m/s (0.68 knot) with the buoyancy engine and an average up to 0.5 m/s (1 knots) with full drive, with the thruster: Up to 1 m/s (2 knots). It transmits via RF modem, Iridium (RUDICS), ARGOS or acoustic modem."@en;
+        skos:definition        "Un véhicule sous-marin autonome (AUV) à longue portée basé sur la flottabilité. C'est la version pour eaux peu profondes du Slocum G3 standard, optimisée pour l'opération en eau peu profonde grâce à sa pompe spécialisée, avec une plage de profondeur de 4 à 150 m. Il est utilisé pour l'échantillonnage distant de la colonne d'eau. Il utilise un changement de flottabilité hydraulique pour modifier la densité du véhicule par rapport à l'eau environnante, ce qui fait flotter ou couler le véhicule. Avec un angle de plongée ou de montée approprié, les ailes et le corps produisent une portance et convertissent une partie de ce mouvement vertical en mouvement horizontal en dents de scie vers l'avant. Périodiquement, le planeur fait surface et appelle via téléphone satellite Iridium (n'importe où dans le monde) ou modem RF Free Wave (ligne de vue) vers Dockserver (ordinateur auto-standardiste) pour relayer le fix de navigation, les données et recevoir d'autres instructions de commande et contrôle. Le planeur est capable d'échantillonner en conditions de tempête et peut voler en flotte coordonnée. Il fait 1,5 m de long, a un diamètre de coque de 22 cm et une masse de 55-70 kg (selon la configuration). Il a une charge utile interchangeable (capacité jusqu'à 6 L) capable d'accueillir une variété de capteurs environnementaux tels que nitrate et oxygène. Il utilise des batteries lithium ou alcalines. Il a une portée de déploiement de 350-13000 km (selon la configuration), une durée de déploiement de 15 jours à 18 mois (selon la configuration) et une plage de profondeur d'opération de 4-150 m. La navigation se fait par points de passage GPS, un capteur de pression et d'altimètre. Vitesse maximale : 0,35 m/s (0,68 nœud) avec le moteur de flottabilité et une moyenne jusqu'à 0,5 m/s (1 nœud) avec la propulsion complète, avec le propulseur : jusqu'à 1 m/s (2 nœuds). Il transmet via modem RF, Iridium (RUDICS), ARGOS ou modem acoustique."@fr ;
         skos:notation          "SDN:B76::B7600033";
         skos:note              "accepted"@en;
         skos:prefLabel         "Teledyne Webb Research Slocum G3 shallow glider"@en;
+        skos:prefLabel         "Planeur Teledyne Webb Research Slocum G3 shallow"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/B75/current/ORG01077/> , <http://vocab.nerc.ac.uk/collection/L35/current/MAN0020/> .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600013/>
@@ -382,11 +442,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "Slocum G1";
+        skos:altLabel          "Slocum G1"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/27/>;
         skos:definition        "A long-range autonomous underwater vehicle (AUV) based on buoyancy. It is used for remote water column sampling. It uses hydraulic buoyancy change to alter the vehicle density in relation to the surrounding water thereby causing the vehicle to either float or sink. Given an appropriate dive or climb angle, the wings and body lift and convert some of this vertical motion into a forward saw tooth horizontal motion. Periodically, the glider surfaces and calls via Iridium Satellite Phone (anywhere in world) or Free Wave RF Modem (line of sight) in to Dockserver (auto attendant computer) to relay navigational fix, data and receive further instructions for command and control. The glider is capable of storm sampling and can be flown in a coordinated fleet. It is 1.5 m in length, has a hull diameter of 22 cm and mass of 54 kgs. It has an exchangeable payload (capacity up to 6 L) which is capable of housing a variety of environmental sensors such as nitrate and oxygen. It uses lithium or alkaline batteries. It has a deployment range of 600-6000 km, a deployment length of 15 days to 12 months and an operating depth range of 4-1000m. Navigation is via GPS waypoints, a pressure and altimeter sensor. Maximum speed is .35 m/s. It transmits via RF modem, Iridium (RUDICS), ARGOS or acoustic modem."@en;
+        skos:definition        "Un véhicule sous-marin autonome (AUV) à longue portée basé sur la flottabilité. Il est utilisé pour l'échantillonnage distant de la colonne d'eau. Il utilise un changement de flottabilité hydraulique pour modifier la densité du véhicule par rapport à l'eau environnante, ce qui fait flotter ou couler le véhicule. Avec un angle de plongée ou de montée approprié, les ailes et le corps produisent une portance et convertissent une partie de ce mouvement vertical en mouvement horizontal en dents de scie vers l'avant. Périodiquement, le planeur fait surface et appelle via téléphone satellite Iridium (n'importe où dans le monde) ou modem RF Free Wave (ligne de vue) vers Dockserver (ordinateur auto-standardiste) pour relayer le fix de navigation, les données et recevoir d'autres instructions de commande et contrôle. Le planeur est capable d'échantillonner en conditions de tempête et peut voler en flotte coordonnée. Il fait 1,5 m de long, a un diamètre de coque de 22 cm et une masse de 54 kg. Il a une charge utile interchangeable (capacité jusqu'à 6 L) capable d'accueillir une variété de capteurs environnementaux tels que nitrate et oxygène. Il utilise des batteries lithium ou alcalines. Il a une portée de déploiement de 600-6000 km, une durée de déploiement de 15 jours à 12 mois et une plage de profondeur d'opération de 4-1000 m. La navigation se fait par points de passage GPS, un capteur de pression et d'altimètre. Vitesse maximale : 0,35 m/s. Il transmet via modem RF, Iridium (RUDICS), ARGOS ou modem acoustique."@fr ;
         skos:notation          "SDN:B76::B7600013";
         skos:note              "accepted"@en;
         skos:prefLabel         "Teledyne Webb Research Slocum G1 glider"@en;
+        skos:prefLabel         "Planeur Teledyne Webb Research Slocum G1"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/B75/current/ORG01077/> , <http://vocab.nerc.ac.uk/collection/L35/current/MAN0020/> .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600014/>
@@ -401,11 +464,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Slocum G3";
+        skos:altLabel          "Slocum G3"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/27/>;
         skos:definition        "A long-range autonomous underwater vehicle (AUV) based on buoyancy. It is used for remote water column sampling. It uses hydraulic buoyancy change to alter the vehicle density in relation to the surrounding water thereby causing the vehicle to either float or sink. Given an appropriate dive or climb angle, the wings and body lift and convert some of this vertical motion into a forward saw tooth horizontal motion. Periodically, the glider surfaces and calls via Iridium Satellite Phone (anywhere in world) or Free Wave RF Modem (line of sight) in to Dockserver (auto attendant computer) to relay navigational fix, data and receive further instructions for command and control. The glider is capable of storm sampling and can be flown in a coordinated fleet. It is 1.5 m in length, has a hull diameter of 22 cm and mass of 55-70 kgs (dependent upon configuration). It has an exchangeable payload (capacity up to 6 L) which is capable of housing a variety of environmental sensors such as nitrate and oxygen. It uses lithium or alkaline batteries. It has a deployment range of 350-13000 km (dependent upon configuration), a deployment length of 15 days to 18 months (dependent upon configuration) and an operating depth range of 4-1000m. Navigation is via GPS waypoints, a pressure and altimeter sensor. Maximum speed is 0.35 m/s (0.68 knot) with the buoyancy engine and an average up to 0.5 m/s (1 knots) with full drive, with the thruster: Up to 1 m/s (2 knots). It transmits via RF modem, Iridium (RUDICS), ARGOS or acoustic modem."@en;
+        skos:definition        "Un véhicule sous-marin autonome (AUV) à longue portée basé sur la flottabilité. Il est utilisé pour l'échantillonnage distant de la colonne d'eau. Il utilise un changement de flottabilité hydraulique pour modifier la densité du véhicule par rapport à l'eau environnante, ce qui fait flotter ou couler le véhicule. Avec un angle de plongée ou de montée approprié, les ailes et le corps produisent une portance et convertissent une partie de ce mouvement vertical en mouvement horizontal en dents de scie vers l'avant. Périodiquement, le planeur fait surface et appelle via téléphone satellite Iridium (n'importe où dans le monde) ou modem RF Free Wave (ligne de vue) vers Dockserver (ordinateur auto-standardiste) pour relayer le fix de navigation, les données et recevoir d'autres instructions de commande et contrôle. Le planeur est capable d'échantillonner en conditions de tempête et peut voler en flotte coordonnée. Il fait 1,5 m de long, a un diamètre de coque de 22 cm et une masse de 55-70 kg (selon la configuration). Il a une charge utile interchangeable (capacité jusqu'à 6 L) capable d'accueillir une variété de capteurs environnementaux tels que nitrate et oxygène. Il utilise des batteries lithium ou alcalines. Il a une portée de déploiement de 350-13000 km (selon la configuration), une durée de déploiement de 15 jours à 18 mois (selon la configuration) et une plage de profondeur d'opération de 4-1000 m. La navigation se fait par points de passage GPS, un capteur de pression et d'altimètre. Vitesse maximale : 0,35 m/s (0,68 nœud) avec le moteur de flottabilité et une moyenne jusqu'à 0,5 m/s (1 nœud) avec la propulsion complète, avec le propulseur : jusqu'à 1 m/s (2 nœuds). Il transmet via modem RF, Iridium (RUDICS), ARGOS ou modem acoustique."@fr ;
         skos:notation          "SDN:B76::B7600014";
         skos:note              "accepted"@en;
         skos:prefLabel         "Teledyne Webb Research Slocum G3 glider"@en;
+        skos:prefLabel         "Planeur Teledyne Webb Research Slocum G3"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/B75/current/ORG01077/> , <http://vocab.nerc.ac.uk/collection/L35/current/MAN0020/> .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600024/>
@@ -420,11 +486,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "UoW Seaglider M1";
+        skos:altLabel          "UoW Seaglider M1"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/27/>;
         skos:definition        "An autonomous underwater vehicle (AUV) based on buoyancy, developed at the University of Washington. It was developed for continuous, long-term measurement of oceanographic parameters. It uses small changes in buoyancy and wings to achieve forward motion. The systems pitch and roll are controlled using adjustable ballast (the vehicle battery). The vehicle moves through the water in a saw-tooth like pattern and surfaces often to determine its position. Navigation is accomplished using a combination of GPS fixes while on the surface and internal sensors that monitor the vehicle heading, depth and attitude during dives. External sensors are constantly scanning the ocean to determine environmental properties. The glider is 1.8 - 2 m long with a maximum diameter of 30 cm and antenna mast length between 43 cm and 1 m. It weighs 52 kg with a wing span of 1 m. It has a deployment range of 4600 km, deployment length of 10 months and an operating depth range between 50-1000 m. Maximum speed is 25 cm/s."@en;
+        skos:definition        "Un véhicule sous-marin autonome (AUV) basé sur la flottabilité, développé à l'Université de Washington. Il a été développé pour la mesure continue et à long terme des paramètres océanographiques. Il utilise de petits changements de flottabilité et des ailes pour atteindre un mouvement vers l'avant. Les systèmes de tangage et de roulis sont contrôlés par lestage réglable (la batterie du véhicule). Le véhicule se déplace dans l'eau selon un motif en dents de scie et fait surface souvent pour déterminer sa position. La navigation est réalisée par une combinaison de fixes GPS en surface et de capteurs internes surveillant le cap, la profondeur et l'attitude du véhicule pendant les plongées. Des capteurs externes scannent constamment l'océan pour déterminer les propriétés environnementales. Le planeur mesure 1,8 - 2 m de long avec un diamètre maximal de 30 cm et une mât d'antenne entre 43 cm et 1 m. Il pèse 52 kg avec une envergure de 1 m. Il a une portée de déploiement de 4600 km, une durée de déploiement de 10 mois et une plage de profondeur d'opération entre 50 et 1000 m. Vitesse maximale : 25 cm/s."@fr ;
         skos:notation          "SDN:B76::B7600024";
         skos:note              "accepted"@en;
         skos:prefLabel         "University of Washington Seaglider M1 glider"@en;
+        skos:prefLabel         "Planeur Seaglider M1 de l'Université de Washington"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0024/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG00142/> .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600043/>
@@ -439,11 +508,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "RAFOS float";
+        skos:altLabel          "Flotteur RAFOS"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/44/>;
         skos:definition        "A drifting subsurface float used to map deep ocean currents and deployed at a target range of depths known as the Sound Fixing and Ranging (SOFAR) channel. The RAFOS float acts as a receiver of pongs emitted at designated times by moored acoustic beacons at ranges of hundreds of kilometres away which provide real-time underwater tracking of the float. Widely used by Woods Hole Oceanographic Institution (WHOI), the floats comprise a 2 m glass tube to house the electronics, an acoustic hydrophone, a ballast weight, and is typically fitted with temperature, pressure, and dissolved oxygen sensors. The float is depth rated to 3000 m and can have a deployment life span of up to 2 years. At the end of its mission, a pre-programmed command from the float's microprocessor releases the ballast weight, allowing it to rise to the surface and transmit the acoustic tracking data to satellites. The RAFOS system for oceanographic current measurements was first developed by T. Rossby, D. Dorson, and J. Fontaine at the University of Rhode Island and published in 1986. Rossby, T., Dorson, D., and Fontaine, J. (1986) The RAFOS System. J. Atmos. Oceanic Technol., 3(4), 672–679. doi: 10.1175/1520-0426(1986)0032.0.CO;2."@en;
+        skos:definition        "Un flotteur sous-marin dérivant utilisé pour cartographier les courants de l'océan profond et déployé à une plage de profondeurs cible connue comme le canal Sound Fixing and Ranging (SOFAR). Le flotteur RAFOS agit comme récepteur de pongs émis à des moments désignés par des balises acoustiques amarrées à des distances de centaines de kilomètres, fournissant un suivi sous-marin en temps réel du flotteur. Largement utilisé par le Woods Hole Oceanographic Institution (WHOI), les flotteurs comprennent un tube de verre de 2 m abritant l'électronique, un hydrophone acoustique, un lest et sont typiquement équipés de capteurs de température, de pression et d'oxygène dissous. Le flotteur est certifié jusqu'à 3000 m et peut avoir une durée de vie de déploiement jusqu'à 2 ans. À la fin de sa mission, une commande pré-programmée du microprocesseur du flotteur libère le lest, lui permettant de remonter en surface et de transmettre les données de suivi acoustique aux satellites. Le système RAFOS pour les mesures de courants océaniques a été d'abord développé par T. Rossby, D. Dorson et J. Fontaine à l'Université de Rhode Island et publié en 1986. Rossby, T., Dorson, D., and Fontaine, J. (1986) The RAFOS System. J. Atmos. Oceanic Technol., 3(4), 672–679. doi: 10.1175/1520-0426(1986)0032.0.CO;2."@fr ;
         skos:notation          "SDN:B76::B7600043";
         skos:note              "accepted"@en;
         skos:prefLabel         "Unknown RAFOS drifting subsurface float - Rossby et al. (1986)"@en;
+        skos:prefLabel         "Flotteur sous-marin dérivant RAFOS inconnu - Rossby et al. (1986)"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/B75/current/UNSPEC/> , <http://vocab.nerc.ac.uk/collection/L35/current/MAN0002/> .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600035/>
@@ -458,11 +530,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Alseamar SeaExplorer X2";
+        skos:altLabel          "Alseamar SeaExplorer X2"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/27/>;
         skos:definition        "A long-range autonomous underwater vehicle (AUV) based on buoyancy. It is used for remote water column sampling. It uses hydraulic buoyancy change to alter the vehicle density in relation to the surrounding water thereby causing the vehicle to either float or sink. Given an appropriate dive or climb angle, the wings and body lift and convert some of this vertical motion into a forward saw tooth horizontal motion. Periodically, the glider surfaces and calls via Iridium Satellite Phone (anywhere in world) or Free Wave RF Modem (line of sight) in to landstation name GLIMPS 0auto attendant computer) to relay navigational fix, data and receive further instructions for command and control. The glider is capable of storm sampling and can be flown in a coordinated fleet. It is about 2 m in length (+0.8 m foldable antenna), has a hull diameter of about 23 cm and mass of 60 kg in the air. Wing span 65 cm. Ballast 1000 cc, 20 to 1000 m depth range of operation. Rechargeable battery. It transmits via RF modem, Iridium (RUDICS), ARGOS or acoustic modem."@en;
+        skos:definition        "Un véhicule sous-marin autonome (AUV) à longue portée basé sur la flottabilité. Il est utilisé pour l'échantillonnage distant de la colonne d'eau. Il utilise un changement de flottabilité hydraulique pour modifier la densité du véhicule par rapport à l'eau environnante, ce qui fait flotter ou couler le véhicule. Avec un angle de plongée ou de montée approprié, les ailes et le corps produisent une portance et convertissent une partie de ce mouvement vertical en mouvement horizontal en dents de scie vers l'avant. Périodiquement, le planeur fait surface et appelle via téléphone satellite Iridium (n'importe où dans le monde) ou modem RF Free Wave (ligne de vue) vers la station GLIMPS 0 (ordinateur auto-standardiste) pour relayer le fix de navigation, les données et recevoir d'autres instructions de commande et contrôle. Le planeur est capable d'échantillonner en conditions de tempête et peut voler en flotte coordonnée. Il mesure environ 2 m de long (+0,8 m d'antenne pliable), a un diamètre de coque d'environ 23 cm et une masse de 60 kg dans l'air. Envergure 65 cm. Lest 1000 cc, plage d'opération de 20 à 1000 m de profondeur. Batterie rechargeable. Il transmet via modem RF, Iridium (RUDICS), ARGOS ou modem acoustique."@fr ;
         skos:notation          "SDN:B76::B7600035";
         skos:note              "accepted"@en;
         skos:prefLabel         "Alseamar SeaExplorer X2 glider"@en;
+        skos:prefLabel         "Planeur Alseamar SeaExplorer X2"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0328/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG02100/> .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600037/>
@@ -477,11 +552,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Alseamar SeaExplorer X3 shallow";
+        skos:altLabel          "Alseamar SeaExplorer X3 shallow"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/27/>;
         skos:definition        "A long-range autonomous underwater vehicle (AUV) based on buoyancy, released in 2025 with updated electronics compared to the X2. It has a specific pump and ballast capacity to optimise flight in the shallow 5 to 200 m depth range. It is used for remote water column sampling. It uses hydraulic buoyancy change to alter the vehicle density in relation to the surrounding water thereby causing the vehicle to either float or sink. Given an appropriate dive or climb angle, the wings and body lift and convert some of this vertical motion into a forward saw tooth horizontal motion. Periodically, the glider surfaces and calls via Iridium Satellite Phone (anywhere in world) or Free Wave RF Modem (line of sight) in to landstation name GLIMPS 0auto attendant computer) to relay navigational fix, data and receive further instructions for command and control. The glider is capable of storm sampling and can be flown in a coordinated fleet. It is about 2.2 m in length (+0.8 m foldable antenna), has a hull diameter of about 23 cm and mass of 65 kg in the air. Wing span 65 cm. Ballast 1600 cc, 5m to 200 m depth range of operation. Rechargeable battery. It transmits via RF modem, Iridium (RUDICS), ARGOS or acoustic modem."@en;
+        skos:definition        "Un véhicule sous-marin autonome (AUV) à longue portée basé sur la flottabilité, sorti en 2025 avec une électronique mise à jour par rapport au X2. Il a une pompe spécifique et une capacité de lest optimisées pour le vol en eau peu profonde dans la plage de 5 à 200 m. Il est utilisé pour l'échantillonnage distant de la colonne d'eau. Il utilise un changement de flottabilité hydraulique pour modifier la densité du véhicule par rapport à l'eau environnante, ce qui fait flotter ou couler le véhicule. Avec un angle de plongée ou de montée approprié, les ailes et le corps produisent une portance et convertissent une partie de ce mouvement vertical en mouvement horizontal en dents de scie vers l'avant. Périodiquement, le planeur fait surface et appelle via téléphone satellite Iridium (n'importe où dans le monde) ou modem RF Free Wave (ligne de vue) vers la station GLIMPS 0 (ordinateur auto-standardiste) pour relayer le fix de navigation, les données et recevoir d'autres instructions de commande et contrôle. Le planeur est capable d'échantillonner en conditions de tempête et peut voler en flotte coordonnée. Il mesure environ 2,2 m de long (+0,8 m d'antenne pliable), a un diamètre de coque d'environ 23 cm et une masse de 65 kg dans l'air. Envergure 65 cm. Lest 1600 cc, plage d'opération de 5 m à 200 m de profondeur. Batterie rechargeable. Il transmet via modem RF, Iridium (RUDICS), ARGOS ou modem acoustique."@fr ;
         skos:notation          "SDN:B76::B7600037";
         skos:note              "accepted"@en;
         skos:prefLabel         "Alseamar SeaExplorer X3 shallow glider"@en;
+        skos:prefLabel         "Planeur Alseamar SeaExplorer X3 shallow"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0328/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG02100/> .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600036/>
@@ -496,11 +574,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Alseamar SeaExplorer X3";
+        skos:altLabel          "Alseamar SeaExplorer X3"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/27/>;
         skos:definition        "A long-range autonomous underwater vehicle (AUV) based on buoyancy, released in 2025 with updated electronics compared to the X2. It is used for remote water column sampling. It uses hydraulic buoyancy change to alter the vehicle density in relation to the surrounding water thereby causing the vehicle to either float or sink. Given an appropriate dive or climb angle, the wings and body lift and convert some of this vertical motion into a forward saw tooth horizontal motion. Periodically, the glider surfaces and calls via Iridium Satellite Phone (anywhere in world) or Free Wave RF Modem (line of sight) in to landstation name GLIMPS 0auto attendant computer) to relay navigational fix, data and receive further instructions for command and control. The glider is capable of storm sampling and can be flown in a coordinated fleet. It is about 2 m in length (+0.8 m foldable antenna), has a hull diameter of about 23 cm and mass of 60 kg in the air. Wing span 65 cm. Ballast 1000 cc, 20 m to 1250 m depth range of operation. Rechargeable battery. It transmits via RF modem, Iridium (RUDICS), ARGOS or acoustic modem."@en;
+        skos:definition        "Un véhicule sous-marin autonome (AUV) à longue portée basé sur la flottabilité, sorti en 2025 avec une électronique mise à jour par rapport au X2. Il est utilisé pour l'échantillonnage distant de la colonne d'eau. Il utilise un changement de flottabilité hydraulique pour modifier la densité du véhicule par rapport à l'eau environnante, ce qui fait flotter ou couler le véhicule. Avec un angle de plongée ou de montée approprié, les ailes et le corps produisent une portance et convertissent une partie de ce mouvement vertical en mouvement horizontal en dents de scie vers l'avant. Périodiquement, le planeur fait surface et appelle via téléphone satellite Iridium (n'importe où dans le monde) ou modem RF Free Wave (ligne de vue) vers la station GLIMPS 0 (ordinateur auto-standardiste) pour relayer le fix de navigation, les données et recevoir d'autres instructions de commande et contrôle. Le planeur est capable d'échantillonner en conditions de tempête et peut voler en flotte coordonnée. Il mesure environ 2 m de long (+0,8 m d'antenne pliable), a un diamètre de coque d'environ 23 cm et une masse de 60 kg dans l'air. Envergure 65 cm. Lest 1000 cc, plage d'opération de 20 m à 1250 m de profondeur. Batterie rechargeable. Il transmet via modem RF, Iridium (RUDICS), ARGOS ou modem acoustique."@fr ;
         skos:notation          "SDN:B76::B7600036";
         skos:note              "accepted"@en;
         skos:prefLabel         "Alseamar SeaExplorer X3 glider"@en;
+        skos:prefLabel         "Planeur Alseamar SeaExplorer X3"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0328/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG02100/> .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600030/>
@@ -516,11 +597,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "UoW Seaglider M6";
+        skos:altLabel          "UoW Seaglider M6"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/27/>;
         skos:definition        "An autonomous underwater vehicle (AUV) based on buoyancy. Initially developed at the University of Washington, it is now produced and developed by Kongsberg. The Seaglider M6 Deepglider is designed for continuous, long-term measurement of oceanographic parameters at full-ocean depth. It uses small changes in buoyancy and wings to achieve forward motion. The systems pitch and roll are controlled using adjustable ballast (the vehicle battery). The vehicle moves through the water in a saw-tooth like pattern and surfaces often to determine its position. Navigation is accomplished using a combination of GPS fixes while on the surface and internal sensors that monitor the vehicle heading, depth and attitude during dives. External sensors are constantly scanning the ocean to determine environmental properties. The glider is 1.8 m long with a maximum diameter of 30 cm and antenna mast length between 43 cm and 1 m. It weighs 52 kg with a wing span of 1 m. It has a maximum deployment range of 10000 km, enabling missions to last over a year. It has an operating depth range up to 6000 m. Maximum speed is 0.5 m/s. Glide angle is 14 - 45 degrees."@en;
+        skos:definition        "Un véhicule sous-marin autonome (AUV) basé sur la flottabilité. Initialement développé à l'Université de Washington, il est désormais produit et développé par Kongsberg. Le Seaglider M6 Deepglider est conçu pour la mesure continue et à long terme des paramètres océanographiques à pleine profondeur océanique. Il utilise de petits changements de flottabilité et des ailes pour atteindre un mouvement vers l'avant. Les systèmes de tangage et de roulis sont contrôlés par lestage réglable (la batterie du véhicule). Le véhicule se déplace dans l'eau selon un motif en dents de scie et fait surface souvent pour déterminer sa position. La navigation est réalisée par une combinaison de fixes GPS en surface et de capteurs internes surveillant le cap, la profondeur et l'attitude du véhicule pendant les plongées. Des capteurs externes scannent constamment l'océan pour déterminer les propriétés environnementales. Le planeur mesure 1,8 m de long avec un diamètre maximal de 30 cm et une mât d'antenne entre 43 cm et 1 m. Il pèse 52 kg avec une envergure de 1 m. Il a une portée de déploiement maximale de 10000 km, permettant des missions de plus d'un an. Il a une plage de profondeur d'opération jusqu'à 6000 m. Vitesse maximale : 0,5 m/s. Angle de plané : 14 - 45 degrés."@fr ;
         skos:notation          "SDN:B76::B7600030";
         skos:note              "accepted"@en;
         skos:prefLabel         "University of Washington Seaglider M6 Deepglider"@en;
+        skos:prefLabel         "Planeur Seaglider M6 Deepglider de l'Université de Washington"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/B75/current/ORG00360/> , <http://vocab.nerc.ac.uk/collection/L35/current/MAN0015/> .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600002/>
@@ -536,11 +620,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "KM Seaglider M1";
+        skos:altLabel          "KM Seaglider M1"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/27/>;
         skos:definition        "An autonomous underwater vehicle (AUV) based on buoyancy. It was initially developed by the University of Washington, but produced by iRobot under an exclusive 5-year licence from 2008-2013 for customers outside the Univserity of Washington. Since 2013 Kongsberg Maritime has held the licence to develop and produce the M1 Seaglider. It was developed for continuous, long-term measurement of oceanographic parameters. It uses small changes in buoyancy and wings to achieve forward motion. The systems pitch and roll are controlled using adjustable ballast (the vehicle battery). The vehicle moves through the water in a saw-tooth like pattern and surfaces often to determine its position. Navigation is accomplished using a combination of GPS fixes while on the surface and internal sensors that monitor the vehicle heading, depth and attitude during dives. External sensors are constantly scanning the ocean to determine environmental properties. The glider is 1.8 - 2 m long with a maximum diameter of 30 cm and antenna mast length between 43 cm and 1 m. It weighs 52 kg with a wing span of 1 m. It has a deployment range of 4600 km, deployment length of 10 months and an operating depth range between 50-1000 m. Maximum speed is 25 cm/s."@en;
+        skos:definition        "Un véhicule sous-marin autonome (AUV) basé sur la flottabilité. Il a été initialement développé par l'Université de Washington, puis produit par iRobot sous licence exclusive de 5 ans de 2008 à 2013 pour les clients hors de l'Université de Washington. Depuis 2013, Kongsberg Maritime détient la licence de développer et produire le Seaglider M1. Il a été développé pour la mesure continue et à long terme des paramètres océanographiques. Il utilise de petits changements de flottabilité et des ailes pour atteindre un mouvement vers l'avant. Les systèmes de tangage et de roulis sont contrôlés par lestage réglable (la batterie du véhicule). Le véhicule se déplace dans l'eau selon un motif en dents de scie et fait surface souvent pour déterminer sa position. La navigation est réalisée par une combinaison de fixes GPS en surface et de capteurs internes surveillant le cap, la profondeur et l'attitude du véhicule pendant les plongées. Des capteurs externes scannent constamment l'océan pour déterminer les propriétés environnementales. Le planeur mesure 1,8 - 2 m de long avec un diamètre maximal de 30 cm et une mât d'antenne entre 43 cm et 1 m. Il pèse 52 kg avec une envergure de 1 m. Il a une portée de déploiement de 4600 km, une durée de déploiement de 10 mois et une plage de profondeur d'opération entre 50 et 1000 m. Vitesse maximale : 25 cm/s."@fr ;
         skos:notation          "SDN:B76::B7600002";
         skos:note              "accepted"@en;
         skos:prefLabel         "Kongsberg Maritime Seaglider M1 glider"@en;
+        skos:prefLabel         "Planeur Kongsberg Maritime Seaglider M1"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/B75/current/ORG00360/> , <http://vocab.nerc.ac.uk/collection/L35/current/MAN0015/> .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600022/>
@@ -555,11 +642,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "BAS SUCS";
+        skos:altLabel          "BAS SUCS"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/11/>;
         skos:definition        "A camera system developed by the British Antarctic Survey (BAS). The system consists of an underwater tripod which holds an underwater housing unit fitted with a camera, electronics and a stand-alone light. The tripod is directly connected to a conductive cable via a Chinese finger. The cable is spooled from a platform on a small winch via a slip-ring connected to a deck unit. The deck unit is connected to a PC which runs a MatLab GUI to display and control the camera functions. The system works to depth up to 500m, showing a black and white live low resolution video stream and can take colour high resolution stills."@en;
+        skos:definition        "Un système de caméras développé par le British Antarctic Survey (BAS). Le système consiste en un trépied sous-marin qui porte un boîtier sous-marin équipé d'une caméra, d'électronique et d'une lumière autonome. Le trépied est directement connecté à un câble conducteur via un doigt chinois. Le câble est enroulé depuis une plateforme sur un petit treuil via un collecteur tournant connecté à une unité de pont. L'unité de pont est connectée à un PC qui exécute une GUI Matlab pour afficher et contrôler les fonctions de la caméra. Le système fonctionne jusqu'à une profondeur de 500 m, montrant un flux vidéo noir et blanc en direct basse résolution et peut prendre des photos couleur haute résolution."@fr ;
         skos:notation          "SDN:B76::B7600022";
         skos:note              "accepted"@en;
         skos:prefLabel         "British Antarctic Survey Shallow Underwater Camera System {SUCS} benthic node"@en;
+        skos:prefLabel         "Système de caméras sous-marines peu profondes {SUCS} British Antarctic Survey — nœud benthique"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/B75/current/ORG0015/> , <http://vocab.nerc.ac.uk/collection/L35/current/MAN0052/> .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600045/>
@@ -574,10 +664,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "netH2O B400";
+        skos:altLabel          "netH2O B400"@fr ;
         skos:definition        "A high-capacity battery powered buoy platform, suited to demanding coastal, open-water and research installations where larger battery capacity is required without a solar system, that can be configured with different sensors for data acquisition. The B400 has no solar photovoltaic equipment or solar harness; it uses stored battery energy for longer field operation under configured sampling and transmission schedules."@en;
+        skos:definition        "Une bouée à batterie à haute capacité, adaptée aux installations côtières, en eau ouverte et de recherche exigeantes où une capacité de batterie plus grande est requise sans système solaire, et qui peut être configurée avec différents capteurs pour l'acquisition de données. Le B400 n'a pas d'équipement photovoltaïque solaire ni de harnais solaire ; il utilise l'énergie stockée des batteries pour une opération prolongée sur le terrain selon les programmes d'échantillonnage et de transmission configurés."@fr ;
         skos:notation          "SDN:B76::B7600045";
         skos:note              "accepted"@en;
         skos:prefLabel         "Elements Works netH2O B400 smart buoy"@en;
+        skos:prefLabel         "Bouée intelligente netH2O B400 d'Elements Works"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0403/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG02234/> .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600026/>
@@ -592,11 +685,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "HYD Seaglider M1";
+        skos:altLabel          "HYD Seaglider M1"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/27/>;
         skos:definition        "An autonomous underwater vehicle (AUV) based on buoyancy. The term reflects Hydroid as licence holders to develop and produce the M1 Seaglider. The licence was previously owned by Kongsberg Maritime. The Seaglider is developed for continuous, long-term measurement of oceanographic parameters. It uses small changes in buoyancy and wings to achieve forward motion. The systems pitch and roll are controlled using adjustable ballast (the vehicle battery). The vehicle moves through the water in a saw-tooth like pattern and surfaces often to determine its position. Navigation is accomplished using a combination of GPS fixes while on the surface and internal sensors that monitor the vehicle heading, depth and attitude during dives. External sensors are constantly scanning the ocean to determine environmental properties. The glider is 1.8 - 2 m long with a maximum diameter of 30 cm and antenna mast length between 43 cm and 1 m. It weighs 52 kg with a wing span of 1 m. It has a deployment range of 4600 km, deployment length of 10 months and an operating depth range between 50-1000 m. Maximum speed is 25 cm/s."@en;
+        skos:definition        "Un véhicule sous-marin autonome (AUV) basé sur la flottabilité. Le terme reflète Hydroid comme détenteur de la licence de développer et produire le Seaglider M1. La licence était précédemment détenue par Kongsberg Maritime. Le Seaglider a été développé pour la mesure continue et à long terme des paramètres océanographiques. Il utilise de petits changements de flottabilité et des ailes pour atteindre un mouvement vers l'avant. Les systèmes de tangage et de roulis sont contrôlés par lestage réglable (la batterie du véhicule). Le véhicule se déplace dans l'eau selon un motif en dents de scie et fait surface souvent pour déterminer sa position. La navigation est réalisée par une combinaison de fixes GPS en surface et de capteurs internes surveillant le cap, la profondeur et l'attitude du véhicule pendant les plongées. Des capteurs externes scannent constamment l'océan pour déterminer les propriétés environnementales. Le planeur mesure 1,8 - 2 m de long avec un diamètre maximal de 30 cm et une mât d'antenne entre 43 cm et 1 m. Il pèse 52 kg avec une envergure de 1 m. Il a une portée de déploiement de 4600 km, une durée de déploiement de 10 mois et une plage de profondeur d'opération entre 50 et 1000 m. Vitesse maximale : 25 cm/s."@fr ;
         skos:notation          "SDN:B76::B7600026";
         skos:note              "accepted"@en;
         skos:prefLabel         "Hydroid Seaglider M1 glider"@en;
+        skos:prefLabel         "Planeur Hydroid Seaglider M1"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0140/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG01760/> .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600027/>
@@ -611,11 +707,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "SIO Spray";
+        skos:altLabel          "SIO Spray"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/27/>;
         skos:definition        "The Spray underwater glider is an autonomous vehicle developed at the Instrument Development Group of Scripps Institution of Oceanography that profiles vertically by controlling buoyancy and moves horizontally on wings. Spray steers by changing its center of mass through the movement of internal heavy battery packs, communicates to shore using Iridium, and navigates with GPS. Spray carries sensors to measure a number of variables, including pressure, temperature, salinity, optical properties, dissolved oxygen, and velocity. In typical use, Spray cycles from the surface to 1000 m, traveling 6 km horizontally in 6 hours, with a horizontal velocity of about 0.25 m/s and a vertical velocity of roughly 0.1 m/s. GPS and Iridium antennas are in Spray's wings, so when Spray is on the surface, it rolls 90 degrees to navigate and communicate. During communication, Spray sends data to shore, and shore-based pilots can change mission parameters such as waypoints and dive depth. Typical deployment duration is 3-5 months, depending on sensor suite, stratification, dive depth, and profiling speed."@en;
+        skos:definition        "Le planeur sous-marin Spray est un véhicule autonome développé par l'Instrument Development Group du Scripps Institution of Oceanography qui profile verticalement en contrôlant la flottabilité et se déplace horizontalement sur des ailes. Spray se dirige en changeant son centre de masse par le mouvement de packs de batteries lourds internes, communique vers la terre via Iridium et navigue avec GPS. Spray embarque des capteurs pour mesurer un nombre de variables, incluant pression, température, salinité, propriétés optiques, oxygène dissous et vitesse. En usage typique, Spray effectue des cycles de la surface à 1000 m, parcourant 6 km horizontalement en 6 heures, avec une vitesse horizontale d'environ 0,25 m/s et une vitesse verticale d'environ 0,1 m/s. Les antennes GPS et Iridium sont dans les ailes de Spray, donc quand Spray est en surface, il roule à 90 degrés pour naviguer et communiquer. Pendant la communication, Spray envoie des données vers la terre et les pilotes basés à terre peuvent changer les paramètres de mission comme les points de passage et la profondeur de plongée. La durée de déploiement typique est de 3-5 mois, selon la suite de capteurs, la stratification, la profondeur de plongée et la vitesse de profilage."@fr ;
         skos:notation          "SDN:B76::B7600027";
         skos:note              "accepted"@en;
         skos:prefLabel         "Scripps Institution of Oceanography Spray glider"@en;
+        skos:prefLabel         "Planeur Scripps Institution of Oceanography Spray"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0039/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG00134/> .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600028/>
@@ -631,11 +730,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "SIO Spray2";
+        skos:altLabel          "SIO Spray2"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/27/>;
         skos:definition        "The Spray underwater glider is an autonomous vehicle developed at the Instrument Development Group of Scripps Institution of Oceanography that profiles vertically by controlling buoyancy and moves horizontally on wings. Spray steers by changing its center of mass through the movement of internal heavy battery packs, communicates to shore using Iridium, and navigates with GPS. Spray carries sensors to measure a number of variables, including pressure, temperature, salinity, optical properties, dissolved oxygen, and velocity. In typical use, Spray cycles from the surface to 1000 m, traveling 6 km horizontally in 6 hours, with a horizontal velocity of about 0.25 m/s and a vertical velocity of roughly 0.1 m/s. GPS and Iridium antennas are in Spray's wings, so when Spray is on the surface, it rolls 90 degrees to navigate and communicate. During communication, Spray sends data to shore, and shore-based pilots can change mission parameters such as waypoints and dive depth. The Sray2 has a larger payload capacity than the first generation of this model."@en;
+        skos:definition        "Le planeur sous-marin Spray est un véhicule autonome développé par l'Instrument Development Group du Scripps Institution of Oceanography qui profile verticalement en contrôlant la flottabilité et se déplace horizontalement sur des ailes. Spray se dirige en changeant son centre de masse par le mouvement de packs de batteries lourds internes, communique vers la terre via Iridium et navigue avec GPS. Spray embarque des capteurs pour mesurer un nombre de variables, incluant pression, température, salinité, propriétés optiques, oxygène dissous et vitesse. En usage typique, Spray effectue des cycles de la surface à 1000 m, parcourant 6 km horizontalement en 6 heures, avec une vitesse horizontale d'environ 0,25 m/s et une vitesse verticale d'environ 0,1 m/s. Les antennes GPS et Iridium sont dans les ailes de Spray, donc quand Spray est en surface, il roule à 90 degrés pour naviguer et communiquer. Pendant la communication, Spray envoie des données vers la terre et les pilotes basés à terre peuvent changer les paramètres de mission comme les points de passage et la profondeur de plongée. Le Spray2 a une capacité de charge utile plus grande que la première génération de ce modèle."@fr ;
         skos:notation          "SDN:B76::B7600028";
         skos:note              "accepted"@en;
         skos:prefLabel         "Scripps Institution of Oceanography Spray 2 glider"@en;
+        skos:prefLabel         "Planeur Scripps Institution of Oceanography Spray 2"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0039/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG00134/> .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600004/>
@@ -650,11 +752,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Wave Glider SV2";
+        skos:altLabel          "Wave Glider SV2"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/3C/>;
         skos:definition        "An autonomous surface vehicle (USV) based on wave and sun power. It is deployed for long-term, open ocean measurements in the defense, maritime surveillance, environmental assessment and oil and gas industries. It consists of a float (210cm in length) and sub (191cm in length) joined by a tether (4m standard) that converts wave motion into propulsion by leveraging the difference in motion at the ocean surface and below. A solar energy system powers sensors, communications, and enables a thruster propulsion system that provides additional navigational agility and thrust. It weighs 90kg, has 2 modular payload bays (40L total volume, 18kg maximum weight) and has a speed between 0.5-1.6kts. It uses real-time communications (satellite, cell or Wi-Fi). The vehicle is capable of long deployments (years with regular maintenance). It is fitted with an Automatic Identification System (AIS) Receiver and water speed sensor and can be fitted with auxiliary sensors. It can operate individually or in small fleets. The SV3 replaced the SV2 in early 2015."@en;
+        skos:definition        "Un véhicule de surface autonome (USV) basé sur la puissance des vagues et du soleil. Il est déployé pour des mesures à long terme en océan ouvert dans les industries de la défense, de la surveillance maritime, de l'évaluation environnementale et du pétrole et du gaz. Il consiste en un flotteur (210 cm de long) et un sous-marins (191 cm de long) reliés par un câble (4 m standard) qui convertit le mouvement des vagues en propulsion en exploitant la différence de mouvement à la surface de l'océan et en dessous. Un système d'énergie solaire alimente les capteurs, les communications et permet un système de propulsion par propulseur qui offre une agilité et une poussée de navigation supplémentaires. Il pèse 90 kg, a 2 baies de charge utile modulaires (40 L de volume total, 18 kg de poids maximal) et une vitesse entre 0,5 et 1,6 nœuds. Il utilise des communications en temps réel (satellite, cellulaire ou Wi-Fi). Le véhicule est capable de longs déploiements (années avec maintenance régulière). Il est équipé d'un récepteur de système d'identification automatique (AIS) et d'un capteur de vitesse de l'eau, et peut être équipé de capteurs auxiliaires. Il peut opérer individuellement ou en petites flottes. Le SV3 a remplacé le SV2 début 2015."@fr ;
         skos:notation          "SDN:B76::B7600004";
         skos:note              "accepted"@en;
         skos:prefLabel         "Liquid Robotics Wave Glider SV2 glider"@en;
+        skos:prefLabel         "Planeur Liquid Robotics Wave Glider SV2"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0021/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG01078/> .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600003/>
@@ -669,11 +774,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Wave Glider SV3";
+        skos:altLabel          "Wave Glider SV3"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/3C/>;
         skos:definition        "An autonomous surface vehicle (USV) based on wave and sun power. It is deployed for long-term, open ocean measurements in the defense, maritime surveillance, environmental assessment and oil and gas industries. It consists of a float (305cm in length) and sub (215cm in length) joined by a tether (8m standard) that converts wave motion into propulsion by leveraging the difference in motion at the ocean surface and below. A solar energy system powers sensors, communications, and enables a thruster propulsion system that provides additional navigational agility and thrust. It weighs 150kg, has 7 modular payload bays (93L total volume, 45kg maximum weight) and has a maximum speed of 3 kts (1.8 kts average). It uses real-time communications (satellite, cell or Wi-Fi). The vehicle is capable of deployments up to 1 year (without maintenance) and towing additional instrumentation (up to 500kg). It is fitted with an Automatic Identification System (AIS) Receiver, water speed sensor, weather station and a number of optional auxiliary sensors. It can operate individually or in fleets. The SV3 replaced the SV2 in early 2015."@en;
+        skos:definition        "Un véhicule de surface autonome (USV) basé sur la puissance des vagues et du soleil. Il est déployé pour des mesures à long terme en océan ouvert dans les industries de la défense, de la surveillance maritime, de l'évaluation environnementale et du pétrole et du gaz. Il consiste en un flotteur (305 cm de long) et un sous-marins (215 cm de long) reliés par un câble (8 m standard) qui convertit le mouvement des vagues en propulsion en exploitant la différence de mouvement à la surface de l'océan et en dessous. Un système d'énergie solaire alimente les capteurs, les communications et permet un système de propulsion par propulseur qui offre une agilité et une poussée de navigation supplémentaires. Il pèse 150 kg, a 7 baies de charge utile modulaires (93 L de volume total, 45 kg de poids maximal) et une vitesse maximale de 3 nœuds (1,8 nœud en moyenne). Il utilise des communications en temps réel (satellite, cellulaire ou Wi-Fi). Le véhicule est capable de déploiements jusqu'à 1 an (sans maintenance) et de remorquage d'instrumentation supplémentaire (jusqu'à 500 kg). Il est équipé d'un récepteur de système d'identification automatique (AIS), d'un capteur de vitesse de l'eau, d'une station météorologique et d'un nombre de capteurs auxiliaires optionnels. Il peut opérer individuellement ou en flottes. Le SV3 a remplacé le SV2 début 2015."@fr ;
         skos:notation          "SDN:B76::B7600003";
         skos:note              "accepted"@en;
         skos:prefLabel         "Liquid Robotics Wave Glider SV3 glider"@en;
+        skos:prefLabel         "Planeur Liquid Robotics Wave Glider SV3"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0021/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG01078/> .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600017/>
@@ -688,11 +796,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "PAP-1";
+        skos:altLabel          "PAP-1"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/48/>;
         skos:definition        "A fixed-point mooring that formed part of the Porcupine Abyssal Plain Sustained Observatory (PAP-SO). It was initially designed for upper ocean biogeochemical measurements. The design was in use between 2002 and 2006 when it underwent a major re-configuration to a full depth mooring attached to a surface met buoy, to include physical measurements and to transmit data in near-real time. An 'S' tether configuration was also applied to help the mooring better withstand the extremes of the environment it is in."@en;
+        skos:definition        "Un amarrage à point fixe qui faisait partie du Porcupine Abyssal Plain Sustained Observatory (PAP-SO). Il a été initialement conçu pour les mesures biogéochimiques de l'océan supérieur. Le design était en usage entre 2002 et 2006 quand il a subi une reconfiguration majeure en amarrage pleine profondeur attaché à une bouée météo de surface, pour inclure des mesures physiques et transmettre des données en quasi temps réel. Une configuration de câble « S » a aussi été appliquée pour aider l'amarrage à mieux résister aux extrêmes de l'environnement dans lequel il se trouve."@fr ;
         skos:notation          "SDN:B76::B7600017";
         skos:note              "accepted"@en;
         skos:prefLabel         "National Oceanography Centre PAP-1 mooring"@en;
+        skos:prefLabel         "Amarrage PAP-1 du National Oceanography Centre"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0003/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG00009/> .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600019/>
@@ -707,11 +818,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "PAP-2";
+        skos:altLabel          "PAP-2"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/48/>;
         skos:definition        "A fixed-point mooring that formed part of the Porcupine Abyssal Plain Sustained Observatory (PAP-SO). It was designed for upper ocean physical measurements. Data were transmitted in near real-time. The design was in use between 2002 and 2006 when it underwent a major re-configuration."@en;
+        skos:definition        "Un amarrage à point fixe qui faisait partie du Porcupine Abyssal Plain Sustained Observatory (PAP-SO). Il a été conçu pour les mesures physiques de l'océan supérieur. Les données étaient transmises en quasi temps réel. Le design était en usage entre 2002 et 2006 quand il a subi une reconfiguration majeure."@fr ;
         skos:notation          "SDN:B76::B7600019";
         skos:note              "accepted"@en;
         skos:prefLabel         "National Oceanography Centre PAP-2 mooring"@en;
+        skos:prefLabel         "Amarrage PAP-2 du National Oceanography Centre"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0003/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG00009/> .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600041/>
@@ -726,11 +840,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "SEATREC infiniTE float";
+        skos:altLabel          "Flotteur infiniTE de SEATREC"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/46/>;
         skos:definition        "An autonomous profiling float rated to 1000 m (with a 2000 m version available on request) capable of profiling up to 3 times a day. The base of the float contains Seatrec’s thermal energy harvesting system which, through the incorporation of Phase Change Materials (PCMs), utilises the ocean’s thermocline for changing buoyancy and electricity generation. The limitless power source enables the floats to house CTD sensors, hydrophones, and echosounders."@en;
+        skos:definition        "Un flotteur de profilage autonome certifié jusqu'à 1000 m (avec une version 2000 m disponible sur demande) capable de profiler jusqu'à 3 fois par jour. La base du flotteur contient le système de récupération d'énergie thermique de Seatrec qui, grâce à l'incorporation de matériaux à changement de phase (PCM), utilise la thermocline océanique pour le changement de flottabilité et la génération d'électricité. La source d'alimentation illimitée permet aux flotteurs d'accueillir des capteurs CTD, des hydrophones et des écho-sondeurs."@fr ;
         skos:notation          "SDN:B76::B7600041";
         skos:note              "accepted"@en;
         skos:prefLabel         "SEATREC infiniTE autonomous profiling float"@en;
+        skos:prefLabel         "Flotteur de profilage autonome infiniTE de SEATREC"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0366/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG02140/> .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600039/>
@@ -745,11 +862,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "APEX EM float";
+        skos:altLabel          "APEX EM float"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/46/>;
         skos:definition        "An autonomous profiling float with electromagnetic sensors that directly measures water motion through induced electromagnetic currents. The float can be deployed from aircraft using a parachute and can be programmed for surface avoidance during extreme weather events. It has a carbon fibre hull rated to 2000 m and an Iridium Circuit Switch/RUDICS telemetry system as standard. It is also typically fitted with a Sea-Bird SBE 41CP CTD, a WET Labs FLbb (CD) fluorometer, an SBE Float Deep SeaFET pH sensor, and either an Aanderaa 4430 or a RINKO II ARO-FT dissolved oxygen sensor. There are options for custom sensor integration or for Iridium Short Burst Data (SBD) telemetry. Additional features such as ice avoidance can be included dependent on the float configuration."@en;
+        skos:definition        "Un flotteur de profilage autonome avec capteurs électromagnétiques qui mesure directement le mouvement de l'eau à travers des courants électromagnétiques induits. Le flotteur peut être déployé depuis un avion avec un parachute et peut être programmé pour l'évitement de surface pendant les événements météo extrêmes. Il a une coque en fibre de carbone certifiée jusqu'à 2000 m et un système de télémétrie Iridium Circuit Switch/RUDICS en standard. Il est aussi typiquement équipé d'une CTD Sea-Bird SBE 41CP, d'un fluorimètre WET Labs FLbb (CD), d'un capteur pH SBE Float Deep SeaFET, et soit d'un capteur d'oxygène dissous Aanderaa 4430 soit RINKO II ARO-FT. Il y a des options pour l'intégration de capteurs personnalisés ou pour la télémétrie Iridium Short Burst Data (SBD). Des fonctionnalités supplémentaires comme l'évitement de la glace peuvent être incluses selon la configuration du flotteur."@fr ;
         skos:notation          "SDN:B76::B7600039";
         skos:note              "accepted"@en;
         skos:prefLabel         "Teledyne Webb Research APEX Current Profiling autonomous profiling float"@en;
+        skos:prefLabel         "Flotteur de profilage de courant APEX de Teledyne Webb Research"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/B75/current/ORG01077/> , <http://vocab.nerc.ac.uk/collection/L35/current/MAN0020/> .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600038/>
@@ -764,11 +884,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "APEX BGC float";
+        skos:altLabel          "APEX BGC float"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/46/>;
         skos:definition        "An autonomous profiling float with biogeochemical sensor options rated to 2000 m. Widely used within the international Argo program, it consists of an aluminium hull, an APF-11 controller, and an Iridium Circuit Switch/RUDICS telemetry system as standard. Sensors typically include a Sea-Bird SBE 41CP CTD, a WET Labs FLbb(CD) fluorometer, and an Aanderaa 4430 dissolved oxygen sensor. Sensor options include RBR Argo CTD, a RINKO ARO-FT dissolved oxygen sensor, an SBE Float Deep SeaFET pH sensor, a Satlantic OCR 504 radiometer, a WET Labs C Rover transmissometer, and a WET Labs SUNA nitrate sensor. There are also options for custom sensor integration, a carbon fibre hull, or for Iridium Short Burst Data (SBD) telemetry. Additional features such as ice avoidance can be included dependent on the float configuration."@en;
+        skos:definition        "Un flotteur de profilage autonome avec options de capteurs biogéochimiques certifié jusqu'à 2000 m. Largement utilisé dans le programme international Argo, il consiste en une coque en aluminium, un contrôleur APF-11 et un système de télémétrie Iridium Circuit Switch/RUDICS en standard. Les capteurs incluent typiquement une CTD Sea-Bird SBE 41CP, un fluorimètre WET Labs FLbb(CD) et un capteur d'oxygène dissous Aanderaa 4430. Les options de capteurs incluent RBR Argo CTD, un capteur d'oxygène dissous RINKO ARO-FT, un capteur pH SBE Float Deep SeaFET, un radiomètre Satlantic OCR 504, un transmissomètre WET Labs C Rover et un capteur de nitrate WET Labs SUNA. Il y a aussi des options pour l'intégration de capteurs personnalisés, une coque en fibre de carbone ou la télémétrie Iridium Short Burst Data (SBD). Des fonctionnalités supplémentaires comme l'évitement de la glace peuvent être incluses selon la configuration du flotteur."@fr ;
         skos:notation          "SDN:B76::B7600038";
         skos:note              "accepted"@en;
         skos:prefLabel         "Teledyne Webb Research APEX BioGeoChem autonomous profiling float"@en;
+        skos:prefLabel         "Flotteur de profilage BioGeoChem APEX de Teledyne Webb Research"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/B75/current/ORG01077/> , <http://vocab.nerc.ac.uk/collection/L35/current/MAN0020/> .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600040/>
@@ -783,11 +906,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "APEX float";
+        skos:altLabel          "Flotteur APEX"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/46/>;
         skos:definition        "An autonomous profiling float rated to 2000 m. Widely used within the international Argo program, it consists of an aluminium hull, an APF-11 controller, and an Iridium Circuit Switch/RUDICS telemetry system as standard. It is typically fitted with a Sea-Bird SBE 41(CP) CTD with the alternative option of an RBR CTD. There are also options for a carbon fibre hull or for Iridium Short Burst Data (SBD) telemetry. Additional features such as ice avoidance can be included but are dependent on the float configuration."@en;
+        skos:definition        "Un flotteur de profilage autonome certifié jusqu'à 2000 m. Largement utilisé dans le programme international Argo, il consiste en une coque en aluminium, un contrôleur APF-11 et un système de télémétrie Iridium Circuit Switch/RUDICS en standard. Il est typiquement équipé d'une CTD Sea-Bird SBE 41(CP) avec l'option alternative d'une CTD RBR. Il y a aussi des options pour une coque en fibre de carbone ou pour la télémétrie Iridium Short Burst Data (SBD). Des fonctionnalités supplémentaires comme l'évitement de la glace peuvent être incluses mais dépendent de la configuration du flotteur."@fr ;
         skos:notation          "SDN:B76::B7600040";
         skos:note              "accepted"@en;
         skos:prefLabel         "Teledyne Webb Research APEX autonomous profiling float"@en;
+        skos:prefLabel         "Flotteur de profilage autonome APEX de Teledyne Webb Research"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/B75/current/ORG01077/> , <http://vocab.nerc.ac.uk/collection/L35/current/MAN0020/> .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600032/>
@@ -802,11 +928,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Autosub3";
+        skos:altLabel          "Autosub3"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/25/>;
         skos:definition        "An autonomous underwater vehicle (AUV) by the National Oceanography Centre, UK. Autosub3 is powered by approximately 5000 D-cell batteries, and the instrument payload is housed in free-flooding areas at each end of the vehicle. In addition to a multibeam sonar system, Autosub3 can carry a range of instruments to measure the salinity, temperature, oxygen concentrations and currents. It is also equipped with an Acoustic Doppler Current Profiler (ADCP) for navigation. It has a depth-rating of 1600 m, mission range of 400 km and payload capacity of 1 cubic metre or 100 kilograms in water."@en;
+        skos:definition        "Un véhicule sous-marin autonome (AUV) du National Oceanography Centre, UK. Autosub3 est alimenté par environ 5000 batteries D-cell et la charge utile instrumentale est logée dans des zones ouvertes aux extrémités du véhicule. En plus d'un système sonar multifaisceau, Autosub3 peut porter une gamme d'instruments pour mesurer la salinité, la température, les concentrations d'oxygène et les courants. Il est aussi équipé d'un profilomètre de courant Doppler acoustique (ADCP) pour la navigation. Il a une certification de profondeur de 1600 m, une portée de mission de 400 km et une capacité de charge utile d'1 mètre cube ou 100 kilogrammes dans l'eau."@fr ;
         skos:notation          "SDN:B76::B7600032";
         skos:note              "accepted"@en;
         skos:prefLabel         "National Oceanography Centre Autosub3 autonomous underwater vehicle"@en;
+        skos:prefLabel         "Véhicule sous-marin autonome Autosub3 du National Oceanography Centre"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0003/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG00009/> .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600020/>
@@ -822,11 +951,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "3";
         skos:altLabel          "Autosub ALR6000";
+        skos:altLabel          "Autosub ALR6000"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/25/>;
         skos:definition        "An autonomous underwater vehicle (AUV) by the National Oceanography Centre. The ALR has a depth rating of 6000m and mission range of 2000km. It is designed for deployments consisting of multiple months by using efficient propulsion at slow speed (0.4 ms-1). ALR may carry a wide range of sensors and samplers, including CTD, optical and chemical sensors, ADCP, altimeter, heading and attitude sensors. Data is transmitted via Iridium SBD format messages and stored on the vehicles internal data logger."@en;
+        skos:definition        "Un véhicule sous-marin autonome (AUV) du National Oceanography Centre. L'ALR a une certification de profondeur de 6000 m et une portée de mission de 2000 km. Il est conçu pour des déploiements de plusieurs mois en utilisant une propulsion efficace à basse vitesse (0,4 ms-1). ALR peut porter une large gamme de capteurs et échantillonneurs, incluant CTD, capteurs optiques et chimiques, ADCP, altimètre, capteurs de cap et d'attitude. Les données sont transmises via des messages au format Iridium SBD et stockées sur l'enregistreur de données interne du véhicule."@fr ;
         skos:notation          "SDN:B76::B7600020";
         skos:note              "accepted"@en;
         skos:prefLabel         "National Oceanography Centre Autosub Long Range 6000 {ALR6000} autonomous underwater vehicle"@en;
+        skos:prefLabel         "Véhicule sous-marin autonome Autosub Long Range 6000 {ALR6000} du National Oceanography Centre"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0003/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG00009/> .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600021/>
@@ -841,11 +973,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Autosub ALR1500";
+        skos:altLabel          "Autosub ALR1500"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/25/>;
         skos:definition        "An autonomous underwater vehicle (AUV) by the National Oceanography Centre that has increased payload power capacity and operational speed. To achieve this, it uses a single central pressure vessel that increases buoyancy, allowing more batteries to be installed into the vehicle, and shallow depth rating (1500 m), making it optimised for long range missions such as surveying the continental shelf and upper slope or under ice. ALR may carry a wide range of sensors and samplers, including CTD, optical and chemical sensors, ADCP, altimeter, heading and attitude sensors. Data is transmitted via Iridium SBD format messages and stored on the vehicles internal data logger."@en;
+        skos:definition        "Un véhicule sous-marin autonome (AUV) du National Oceanography Centre avec une capacité de puissance de charge utile et une vitesse opérationnelle accrues. Pour y parvenir, il utilise un seul réservoir de pression central qui augmente la flottabilité, permettant d'installer plus de batteries dans le véhicule, et une certification de profondeur peu profonde (1500 m), le rendant optimisé pour les missions à longue portée telles que la levée du plateau continental et de la pente supérieure ou sous la glace. ALR peut porter une large gamme de capteurs et échantillonneurs, incluant CTD, capteurs optiques et chimiques, ADCP, altimètre, capteurs de cap et d'attitude. Les données sont transmises via des messages au format Iridium SBD et stockées sur l'enregistreur de données interne du véhicule."@fr ;
         skos:notation          "SDN:B76::B7600021";
         skos:note              "accepted"@en;
         skos:prefLabel         "National Oceanography Centre Autosub Long Range 1500 {ALR1500} autonomous underwater vehicle"@en;
+        skos:prefLabel         "Véhicule sous-marin autonome Autosub Long Range 1500 {ALR1500} du National Oceanography Centre"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0003/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG00009/> .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600031/>
@@ -860,11 +995,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Autosub6000";
+        skos:altLabel          "Autosub6000"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/25/>;
         skos:definition        "An autonomous underwater vehicle (AUV) by the National Oceanography Centre, UK. It features titanium housing and is designed for deep water deployments including operations under ice. The design of the nose and tail sections, including the navigation and control systems, are inherited from the Autosub3. The Autosub6000 uses pressure-balanced lithium polymer rechargeable batteries, which eliminates the requirement for pressure-resistant battery housings as used on the Autosub3. Up to 12 battery packs can be fitted, with each storing 18 MJ of energy. A wide range of sensors may be carried including ADCP, CTD, optical and chemical sensors, multibeam bathymetry systems, and more. The Autosub6000 has a depth rating of 6000 m, mission range of 1000 km and payload capacity of 0.5 metres cubed."@en;
+        skos:definition        "Un véhicule sous-marin autonome (AUV) du National Oceanography Centre, UK. Il présente un boîtier en titane et est conçu pour des déploiements en eau profonde incluant des opérations sous la glace. Le design des sections avant et arrière, incluant les systèmes de navigation et de contrôle, est hérité de l'Autosub3. L'Autosub6000 utilise des batteries lithium polymère rechargeables à compensation de pression, ce qui élimine l'exigence de boîtiers de batteries résistants à la pression comme sur l'Autosub3. Jusqu'à 12 packs de batteries peuvent être installés, chacun stockant 18 MJ d'énergie. Une large gamme de capteurs peut être portée incluant ADCP, CTD, capteurs optiques et chimiques, systèmes de bathymétrie multifaisceaux et plus. L'Autosub6000 a une certification de profondeur de 6000 m, une portée de mission de 1000 km et une capacité de charge utile de 0,5 mètre cube."@fr ;
         skos:notation          "SDN:B76::B7600031";
         skos:note              "accepted"@en;
         skos:prefLabel         "National Oceanography Centre Autosub6000 autonomous underwater vehicle"@en;
+        skos:prefLabel         "Véhicule sous-marin autonome Autosub6000 du National Oceanography Centre"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0003/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG00009/> .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/B7600042/>
@@ -879,11 +1017,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "VAMPIRE";
+        skos:altLabel          "VAMPIRE"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/L06/current/25/>;
         skos:definition        "An autonomous profiling vehicle developed in collaboration with the University of Rhode Island and Stony Brook University. It collects environmental, acoustic, and visual data and can be deployed down to 1000 meters. Operating autonomously for days at a time, VAMPIRE has the ability to analyse plankton and nekton communities at a very fine vertical scale, using cameras and acoustics, while environmental sensors simultaneously collect measurements of temperature, salinity, oxygen, chlorophyll, turbidity, beam attenuation, and photosynthetically active radiation (PAR)."@en;
+        skos:definition        "Un véhicule de profilage autonome développé en collaboration avec l'Université de Rhode Island et Stony Brook University. Il collecte des données environnementales, acoustiques et visuelles et peut être déployé jusqu'à 1000 mètres. Opérant de façon autonome pendant des jours à la fois, VAMPIRE a la capacité d'analyser les communautés de plancton et de necton à une échelle verticale très fine, en utilisant caméras et acoustique, tandis que des capteurs environnementaux collectent simultanément des mesures de température, de salinité, d'oxygène, de chlorophylle, de turbidité, d'atténuation du faisceau et de rayonnement photosynthétiquement actif (PAR)."@fr ;
         skos:notation          "SDN:B76::B7600042";
         skos:note              "accepted"@en;
         skos:prefLabel         "Arizona State University Bermuda Institute of Ocean Sciences Visual and Acoustic Mesopelagic Profiler for Interdisciplinary Research"@en;
+        skos:prefLabel         "Profileur visuel et acoustique mésopélagique pour la recherche interdisciplinaire du Bermuda Institute of Ocean Sciences de l'Arizona State University"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/L35/current/MAN0370/> , <http://vocab.nerc.ac.uk/collection/L35/current/MAN0369/> , <http://vocab.nerc.ac.uk/collection/L35/current/MAN0371/> , <http://vocab.nerc.ac.uk/collection/B75/current/ORG00588/> .
 
 <http://vocab.nerc.ac.uk/collection/B76/current/>
@@ -900,5 +1041,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "British Oceanographic Data Centre";
         owl:versionInfo         "27";
         skos:altLabel           "BODC Platforms";
+        skos:altLabel           "BODC Platforms"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/B76/current/B7600010/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600015/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600005/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600016/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600008/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600018/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600007/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600044/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600011/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600023/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600006/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600012/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600034/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600009/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600047/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600046/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600025/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600001/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600029/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600033/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600013/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600014/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600024/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600043/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600035/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600037/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600036/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600030/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600002/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600022/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600045/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600026/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600027/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600028/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600004/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600003/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600017/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600019/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600041/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600039/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600038/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600040/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600032/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600020/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600021/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600042/> , <http://vocab.nerc.ac.uk/collection/B76/current/B7600031/>;
-        skos:prefLabel          "BODC Platform Models" .
+        skos:prefLabel          "BODC Platform Models" ;
+        skos:prefLabel          "BODC Platform Models"@fr .

@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "PROF";
+        skos:altLabel          "PROF"@fr ;
         skos:definition        "MEDIN product guideline for profiles"@en;
+        skos:definition        "Directive produit MEDIN pour les profils"@fr ;
         skos:notation          "SDN:C48::MDG029";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Seabed survey profile"@en .
+        skos:prefLabel         "Seabed survey profile"@en ;
+        skos:prefLabel         "Profil de levé du fond marin"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG033/>
         rdf:type               skos:Concept;
@@ -50,10 +53,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "SEIS";
+        skos:altLabel          "SEIS"@fr ;
         skos:definition        "MEDIN product guideline for 3D seismic surfaces"@en;
+        skos:definition        "Directive produit MEDIN pour les surfaces sismiques 3D"@fr ;
         skos:notation          "SDN:C48::MDG033";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Seabed survey 3D seismic surfaces"@en .
+        skos:prefLabel         "Seabed survey 3D seismic surfaces"@en ;
+        skos:prefLabel         "Surfaces sismiques 3D de levé du fond marin"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG023/>
         rdf:type               skos:Concept;
@@ -68,10 +74,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "true";
         owl:versionInfo        "2";
         skos:altLabel          "MBES";
+        skos:altLabel          "MBES"@fr ;
         skos:definition        "MEDIN data guideline for multibeam echosounder (MBES) data"@en;
+        skos:definition        "Directive de données MEDIN pour les données de sondes multifaisceaux (MBES)"@fr ;
         skos:notation          "SDN:C48::MDG023";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Hydrographic multibeam echo"@en .
+        skos:prefLabel         "Hydrographic multibeam echo"@en ;
+        skos:prefLabel         "Écho multifaisceau hydrographique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG040/>
         rdf:type               skos:Concept;
@@ -85,10 +94,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "BATHY";
+        skos:altLabel          "BATHY"@fr ;
         skos:definition        "MEDIN data guideline for Bathymetry data"@en;
+        skos:definition        "Directive de données MEDIN pour les données de bathymétrie"@fr ;
         skos:notation          "SDN:C48::MDG040";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Bathymetry"@en .
+        skos:prefLabel         "Bathymetry"@en ;
+        skos:prefLabel         "bathymétrie"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG002/>
         rdf:type               skos:Concept;
@@ -103,9 +115,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "MEDIN data guideline for sediment sampling by grab or core for benthos"@en;
+        skos:definition        "Directive de données MEDIN pour l'échantillonnage de sédiments par benne ou carotte pour le benthos"@fr ;
         skos:notation          "SDN:C48::MDG002";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Sediment benthos grab core"@en .
+        skos:prefLabel         "Sediment benthos grab core"@en ;
+        skos:prefLabel         "Sédiment benthos benne carotte"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG022/>
         rdf:type               skos:Concept;
@@ -121,9 +135,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "2";
         skos:altLabel          "";
         skos:definition        "MEDIN data guideline for side scan sonar (SSS) data"@en;
+        skos:definition        "Directive de données MEDIN pour les données de sonar latéral (SSS)"@fr ;
         skos:notation          "SDN:C48::MDG022";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Hydrographic sidescan sonar"@en .
+        skos:prefLabel         "Hydrographic sidescan sonar"@en ;
+        skos:prefLabel         "Sonar latéral hydrographique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG024/>
         rdf:type               skos:Concept;
@@ -138,10 +154,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "true";
         owl:versionInfo        "2";
         skos:altLabel          "SBES";
+        skos:altLabel          "SBES"@fr ;
         skos:definition        "MEDIN data guideline for single beam echosounder (SBES) data"@en;
+        skos:definition        "Directive de données MEDIN pour les données de sondes mono-faisceau (SBES)"@fr ;
         skos:notation          "SDN:C48::MDG024";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Hydrographic singlebeam echo"@en .
+        skos:prefLabel         "Hydrographic singlebeam echo"@en ;
+        skos:prefLabel         "Écho monofaisceau hydrographique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG030/>
         rdf:type               skos:Concept;
@@ -155,10 +174,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "ACC";
+        skos:altLabel          "ACC"@fr ;
         skos:definition        "MEDIN product guideline for observed acoustic features"@en;
+        skos:definition        "Directive produit MEDIN pour les caractéristiques acoustiques observées"@fr ;
         skos:notation          "SDN:C48::MDG030";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Seabed survey acoustic feature"@en .
+        skos:prefLabel         "Seabed survey acoustic feature"@en ;
+        skos:prefLabel         "Caractéristique acoustique de levé du fond marin"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG014/>
         rdf:type               skos:Concept;
@@ -174,9 +196,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "";
         skos:definition        "MMO data guideline for leisure and recreation activities"@en;
+        skos:definition        "Directive de données MMO pour les activités de loisirs et de loisirs nautiques"@fr ;
         skos:notation          "SDN:C48::MDG014";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Leisure and recreation"@en .
+        skos:prefLabel         "Leisure and recreation"@en ;
+        skos:prefLabel         "Loisirs et récréation"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG034/>
         rdf:type               skos:Concept;
@@ -191,10 +215,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "true";
         owl:versionInfo        "2";
         skos:altLabel          "SF";
+        skos:altLabel          "SF"@fr ;
         skos:definition        "MEDIN product seabed feature and contact interpretations"@en;
+        skos:definition        "Interprétations de caractéristiques et contacts du fond marin MEDIN"@fr ;
         skos:notation          "SDN:C48::MDG034";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Seabed survey feature interpretations"@en .
+        skos:prefLabel         "Seabed survey feature interpretations"@en ;
+        skos:prefLabel         "Interprétations de caractéristiques de levé du fond marin"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG042/>
         rdf:type               skos:Concept;
@@ -208,10 +235,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "MET";
+        skos:altLabel          "MET"@fr ;
         skos:definition        "MEDIN data guideline for fixed position meteorological measuring instruments"@en;
+        skos:definition        "Directive de données MEDIN pour les instruments météorologiques à position fixe"@fr ;
         skos:notation          "SDN:C48::MDG042";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Fixed position meteorology"@en .
+        skos:prefLabel         "Fixed position meteorology"@en ;
+        skos:prefLabel         "Météorologie à position fixe"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG013/>
         rdf:type               skos:Concept;
@@ -226,9 +256,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "MEDIN data guideline for the recording of underwater noise data"@en;
+        skos:definition        "Directive de données MEDIN pour l'enregistrement de données de bruit sous-marin"@fr ;
         skos:notation          "SDN:C48::MDG013";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Underwater Noise"@en .
+        skos:prefLabel         "Underwater Noise"@en ;
+        skos:prefLabel         "Bruit sous-marin"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG036/>
         rdf:type               skos:Concept;
@@ -242,10 +274,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "SURV_E";
+        skos:altLabel          "SURV_E"@fr ;
         skos:definition        "MEDIN product guideline for survey extents"@en;
+        skos:definition        "Directive produit MEDIN pour les étendues de levé"@fr ;
         skos:notation          "SDN:C48::MDG036";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Seabed survey extents"@en .
+        skos:prefLabel         "Seabed survey extents"@en ;
+        skos:prefLabel         "Étendues de levé du fond marin"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG015/>
         rdf:type               skos:Concept;
@@ -260,10 +295,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "true";
         owl:versionInfo        "2";
         skos:altLabel          "OBS";
+        skos:altLabel          "OBS"@fr ;
         skos:definition        "MEDIN data guideline for ancillary observations"@en;
+        skos:definition        "Directive de données MEDIN pour les observations auxiliaires"@fr ;
         skos:notation          "SDN:C48::MDG015";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Seabed survey ancillary observations"@en .
+        skos:prefLabel         "Seabed survey ancillary observations"@en ;
+        skos:prefLabel         "Observations auxiliaires de levé du fond marin"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG003/>
         rdf:type               skos:Concept;
@@ -279,9 +317,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "2";
         skos:altLabel          "";
         skos:definition        "MEDIN data guideline for the recording of oceanographic vertical profile data"@en;
+        skos:definition        "Directive de données MEDIN pour l'enregistrement de données de profils verticaux océanographiques"@fr ;
         skos:notation          "SDN:C48::MDG003";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Oceanographic vertical profile"@en .
+        skos:prefLabel         "Oceanographic vertical profile"@en ;
+        skos:prefLabel         "Profil vertical océanographique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG037/>
         rdf:type               skos:Concept;
@@ -295,10 +335,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "SURV_L";
+        skos:altLabel          "SURV_L"@fr ;
         skos:definition        "MEDIN product guideline for survey line plans"@en;
+        skos:definition        "Directive produit MEDIN pour les plans de lignes de levé"@fr ;
         skos:notation          "SDN:C48::MDG037";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Seabed survey line plans"@en .
+        skos:prefLabel         "Seabed survey line plans"@en ;
+        skos:prefLabel         "Plans de lignes de levé du fond marin"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG004/>
         rdf:type               skos:Concept;
@@ -314,9 +357,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "2";
         skos:altLabel          "";
         skos:definition        "MEDIN data guideline for recording and archiving of digital images"@en;
+        skos:definition        "Directive de données MEDIN pour l'enregistrement et l'archivage d'images numériques"@fr ;
         skos:notation          "SDN:C48::MDG004";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Image"@en .
+        skos:prefLabel         "Image"@en ;
+        skos:prefLabel         "Image"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG027/>
         rdf:type               skos:Concept;
@@ -330,10 +375,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "SED_CHAR";
+        skos:altLabel          "SED_CHAR"@fr ;
         skos:definition        "MEDIN data guideline for sediment and rock characteristics"@en;
+        skos:definition        "Directive de données MEDIN pour les caractéristiques des sédiments et des roches"@fr ;
         skos:notation          "SDN:C48::MDG027";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Sediment and rock characteristics"@en .
+        skos:prefLabel         "Sediment and rock characteristics"@en ;
+        skos:prefLabel         "Caractéristiques des sédiments et des roches"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG047/>
         rdf:type               skos:Concept;
@@ -347,10 +395,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "TRANSECT";
+        skos:altLabel          "TRANSECT"@fr ;
         skos:definition        "MEDIN data guideline for transect survey data"@en;
+        skos:definition        "Directive de données MEDIN pour les données de transects"@fr ;
         skos:notation          "SDN:C48::MDG047";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Transect survey"@en .
+        skos:prefLabel         "Transect survey"@en ;
+        skos:prefLabel         "Levée par transect"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG049/>
         rdf:type               skos:Concept;
@@ -364,10 +415,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "JCDP";
+        skos:altLabel          "JCDP"@fr ;
         skos:definition        "Joint Cetacean Data Programme (JCDP) data guideline for effort related cetacean survey data"@en;
+        skos:definition        "Joint Cetacean Data Programme (JCDP) — directive de données pour les relevés de cétacés liés à l'effort"@fr ;
         skos:notation          "SDN:C48::MDG049";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Effort related cetacean survey"@en .
+        skos:prefLabel         "Effort related cetacean survey"@en ;
+        skos:prefLabel         "Relevé de cétacés lié à l'effort"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG001/>
         rdf:type               skos:Concept;
@@ -382,9 +436,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "MEDIN data guideline for the recording of offshore litter data"@en;
+        skos:definition        "Directive de données MEDIN pour l'enregistrement de données de déchets en mer"@fr ;
         skos:notation          "SDN:C48::MDG001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Offshore litter"@en .
+        skos:prefLabel         "Offshore litter"@en ;
+        skos:prefLabel         "Déchets en mer"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG012/>
         rdf:type               skos:Concept;
@@ -400,9 +456,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "2";
         skos:altLabel          "";
         skos:definition        "MEDIN data guideline for transfer video survey data"@en;
+        skos:definition        "Directive de données MEDIN pour les données de transects vidéo"@fr ;
         skos:notation          "SDN:C48::MDG012";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Video survey"@en .
+        skos:prefLabel         "Video survey"@en ;
+        skos:prefLabel         "Levée par vidéo"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG017/>
         rdf:type               skos:Concept;
@@ -417,10 +475,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "true";
         owl:versionInfo        "2";
         skos:altLabel          "SURV_C";
+        skos:altLabel          "SURV_C"@fr ;
         skos:definition        "MEDIN data guideline for survey control data"@en;
+        skos:definition        "Directive de données MEDIN pour les données de contrôle de levé"@fr ;
         skos:notation          "SDN:C48::MDG017";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Seabed survey control"@en .
+        skos:prefLabel         "Seabed survey control"@en ;
+        skos:prefLabel         "Contrôle de levé du fond marin"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG039/>
         rdf:type               skos:Concept;
@@ -434,10 +495,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "AD_HOC";
+        skos:altLabel          "AD_HOC"@fr ;
         skos:definition        "MEDIN data guideline for ad-hoc sightings and non-effort or quantitative based visual surveys of marine life"@en;
+        skos:definition        "Directive de données MEDIN pour les observations ponctuelles et les relevés visuels non liés à l'effort ou non quantitatifs de la vie marine"@fr ;
         skos:notation          "SDN:C48::MDG039";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Ad-hoc sightings"@en .
+        skos:prefLabel         "Ad-hoc sightings"@en ;
+        skos:prefLabel         "Observations ponctuelles"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG032/>
         rdf:type               skos:Concept;
@@ -452,10 +516,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "SED";
+        skos:altLabel          "SED"@fr ;
         skos:definition        "MEDIN product guideline for seabed sediment distribution"@en;
+        skos:definition        "Directive produit MEDIN pour la distribution des sédiments du fond marin"@fr ;
         skos:notation          "SDN:C48::MDG032";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Seabed survey sediment distribution"@en .
+        skos:prefLabel         "Seabed survey sediment distribution"@en ;
+        skos:prefLabel         "Distribution des sédiments de levé du fond marin"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG019/>
         rdf:type               skos:Concept;
@@ -469,10 +536,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "MAG";
+        skos:altLabel          "MAG"@fr ;
         skos:definition        "MEDIN data guideline for magnetometer/ magnetic gradiometer data"@en;
+        skos:definition        "Directive de données MEDIN pour les données de magnétomètre/gradiomètre magnétique"@fr ;
         skos:notation          "SDN:C48::MDG019";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Geophysical magnetic"@en .
+        skos:prefLabel         "Geophysical magnetic"@en ;
+        skos:prefLabel         "Géophysique magnétique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG007/>
         rdf:type               skos:Concept;
@@ -487,9 +557,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "MEDIN data guideline for static net, pot and trap data"@en;
+        skos:definition        "Directive de données MEDIN pour les données de filets statiques, nasses et casiers"@fr ;
         skos:notation          "SDN:C48::MDG007";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Static net pot trap"@en .
+        skos:prefLabel         "Static net pot trap"@en ;
+        skos:prefLabel         "Filet statique, nasse et casier"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG011/>
         rdf:type               skos:Concept;
@@ -504,9 +576,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "MEDIN data guideline for the recording of water sample data"@en;
+        skos:definition        "Directive de données MEDIN pour l'enregistrement de données d'échantillons d'eau"@fr ;
         skos:notation          "SDN:C48::MDG011";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Water sample"@en .
+        skos:prefLabel         "Water sample"@en ;
+        skos:prefLabel         "Échantillon d'eau"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG043/>
         rdf:type               skos:Concept;
@@ -520,10 +594,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "SEIS";
+        skos:altLabel          "SEIS"@fr ;
         skos:definition        "MEDIN data guideline for seismic data"@en;
+        skos:definition        "Directive de données MEDIN pour les données sismiques"@fr ;
         skos:notation          "SDN:C48::MDG043";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Seismic"@en .
+        skos:prefLabel         "Seismic"@en ;
+        skos:prefLabel         "Sismique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG044/>
         rdf:type               skos:Concept;
@@ -537,10 +614,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "TIDE";
+        skos:altLabel          "TIDE"@fr ;
         skos:definition        "MEDIN data guideline for tidal elevation data"@en;
+        skos:definition        "Directive de données MEDIN pour les données de niveau des marées"@fr ;
         skos:notation          "SDN:C48::MDG044";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Tidal elevation"@en .
+        skos:prefLabel         "Tidal elevation"@en ;
+        skos:prefLabel         "Niveau des marées"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG031/>
         rdf:type               skos:Concept;
@@ -554,10 +634,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "GEO";
+        skos:altLabel          "GEO"@fr ;
         skos:definition        "MEDIN product guideline for geological features"@en;
+        skos:definition        "Directive produit MEDIN pour les caractéristiques géologiques"@fr ;
         skos:notation          "SDN:C48::MDG031";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Seabed survey geological feature"@en .
+        skos:prefLabel         "Seabed survey geological feature"@en ;
+        skos:prefLabel         "Caractéristique géologique de levé du fond marin"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG009/>
         rdf:type               skos:Concept;
@@ -573,9 +656,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "2";
         skos:altLabel          "";
         skos:definition        "MEDIN data guideline for the recording of moored instrument data"@en;
+        skos:definition        "Directive de données MEDIN pour l'enregistrement de données d'instruments amarrés"@fr ;
         skos:notation          "SDN:C48::MDG009";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Moored instrument"@en .
+        skos:prefLabel         "Moored instrument"@en ;
+        skos:prefLabel         "Instrument amarré"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG041/>
         rdf:type               skos:Concept;
@@ -589,10 +674,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "GEOTECH";
+        skos:altLabel          "GEOTECH"@fr ;
         skos:definition        "MEDIN data guideline for the recording of offshore geotechnical site investigation data"@en;
+        skos:definition        "Directive de données MEDIN pour l'enregistrement de données d'investigation géotechnique en mer"@fr ;
         skos:notation          "SDN:C48::MDG041";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Offshore geotechnical site investigation"@en .
+        skos:prefLabel         "Offshore geotechnical site investigation"@en ;
+        skos:prefLabel         "Investigation géotechnique en mer"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG045/>
         rdf:type               skos:Concept;
@@ -606,10 +694,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "AIS";
+        skos:altLabel          "AIS"@fr ;
         skos:definition        "MMO data guideline for Automatic Identification system (AIS) data"@en;
+        skos:definition        "Directive de données MMO pour les données du système d'identification automatique (AIS)"@fr ;
         skos:notation          "SDN:C48::MDG045";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Automatic Identification system (AIS)"@en .
+        skos:prefLabel         "Automatic Identification system (AIS)"@en ;
+        skos:prefLabel         "Système d'identification automatique (AIS)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG008/>
         rdf:type               skos:Concept;
@@ -625,9 +716,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "3";
         skos:altLabel          "";
         skos:definition        "MEDIN data guideline for species and benthos data by trawl or dredge"@en;
+        skos:definition        "Directive de données MEDIN pour les données d'espèces et de benthos par chalutage ou dragage"@fr ;
         skos:notation          "SDN:C48::MDG008";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Fish and benthos trawl tow"@en .
+        skos:prefLabel         "Fish and benthos trawl tow"@en ;
+        skos:prefLabel         "Poissons et benthos chalutage"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG018/>
         rdf:type               skos:Concept;
@@ -643,9 +736,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "2";
         skos:altLabel          "";
         skos:definition        "MEDIN data guideline for marine gravimeter/ gravity data"@en;
+        skos:definition        "Directive de données MEDIN pour les données de gravimètre/gravité marine"@fr ;
         skos:notation          "SDN:C48::MDG018";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Geophysical gravity"@en .
+        skos:prefLabel         "Geophysical gravity"@en ;
+        skos:prefLabel         "Géophysique gravité"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG020/>
         rdf:type               skos:Concept;
@@ -660,10 +755,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "true";
         owl:versionInfo        "2";
         skos:altLabel          "MCS";
+        skos:altLabel          "MCS"@fr ;
         skos:definition        "MEDIN data guideline for multi channel seismic (2D,3D & 4D) data"@en;
+        skos:definition        "Directive de données MEDIN pour les données de sismique multi-canaux (2D, 3D et 4D)"@fr ;
         skos:notation          "SDN:C48::MDG020";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Geophysical multi channel siesmic"@en .
+        skos:prefLabel         "Geophysical multi channel siesmic"@en ;
+        skos:prefLabel         "Géophysique sismique multi-canaux"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG025/>
         rdf:type               skos:Concept;
@@ -678,10 +776,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "3";
         skos:altLabel          "ADCP";
+        skos:altLabel          "ADCP"@fr ;
         skos:definition        "MEDIN data guideline for Acoustic Doppler Current Profiler (ADCP) data"@en;
+        skos:definition        "Directive de données MEDIN pour les données d'ADCP (Acoustic Doppler Current Profiler)"@fr ;
         skos:notation          "SDN:C48::MDG025";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Acoustic doppler current profile"@en .
+        skos:prefLabel         "Acoustic doppler current profile"@en ;
+        skos:prefLabel         "Profil de courant Doppler acoustique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG005/>
         rdf:type               skos:Concept;
@@ -696,9 +797,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "MEDIN data guideline for shellfish stock assessment data"@en;
+        skos:definition        "Directive de données MEDIN pour les données d'évaluation des stocks de coquillages"@fr ;
         skos:notation          "SDN:C48::MDG005";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Shellfish stock"@en .
+        skos:prefLabel         "Shellfish stock"@en ;
+        skos:prefLabel         "Stock de coquillages"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG028/>
         rdf:type               skos:Concept;
@@ -712,10 +815,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "CONTOUR";
+        skos:altLabel          "CONTOUR"@fr ;
         skos:definition        "MEDIN product guideline for contours"@en;
+        skos:definition        "Directive produit MEDIN pour les courbes de niveau"@fr ;
         skos:notation          "SDN:C48::MDG028";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Seabed survey contour"@en .
+        skos:prefLabel         "Seabed survey contour"@en ;
+        skos:prefLabel         "Courbe de niveau de levé du fond marin"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG035/>
         rdf:type               skos:Concept;
@@ -729,10 +835,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "SLOPE";
+        skos:altLabel          "SLOPE"@fr ;
         skos:definition        "MEDIN product guideline for seabed slope (gradient) and aspect"@en;
+        skos:definition        "Directive produit MEDIN pour la pente (gradient) et l'exposition du fond marin"@fr ;
         skos:notation          "SDN:C48::MDG035";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Seabed survey slope and aspect"@en .
+        skos:prefLabel         "Seabed survey slope and aspect"@en ;
+        skos:prefLabel         "Pente et exposition du fond marin"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG038/>
         rdf:type               skos:Concept;
@@ -747,10 +856,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "VIDEO";
+        skos:altLabel          "VIDEO"@fr ;
         skos:definition        "MEDIN data guideline for video surveys of species and benthos"@en;
+        skos:definition        "Directive de données MEDIN pour les relevés vidéo d'espèces et de benthos"@fr ;
         skos:notation          "SDN:C48::MDG038";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Species and benthos video surveys"@en .
+        skos:prefLabel         "Species and benthos video surveys"@en ;
+        skos:prefLabel         "Relevés vidéo d'espèces et de benthos"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG046/>
         rdf:type               skos:Concept;
@@ -764,10 +876,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "QUADRAT";
+        skos:altLabel          "QUADRAT"@fr ;
         skos:definition        "MEDIN data guideline for quadrat survey data"@en;
+        skos:definition        "Directive de données MEDIN pour les données de quadrats"@fr ;
         skos:notation          "SDN:C48::MDG046";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Quadrat survey"@en .
+        skos:prefLabel         "Quadrat survey"@en ;
+        skos:prefLabel         "Levée par quadrats"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG016/>
         rdf:type               skos:Concept;
@@ -782,10 +897,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "true";
         owl:versionInfo        "2";
         skos:altLabel          "POS";
+        skos:altLabel          "POS"@fr ;
         skos:definition        "MEDIN data guideline for navigation and positioning data"@en;
+        skos:definition        "Directive de données MEDIN pour les données de navigation et de positionnement"@fr ;
         skos:notation          "SDN:C48::MDG016";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Seabed survey navigation and positioning"@en .
+        skos:prefLabel         "Seabed survey navigation and positioning"@en ;
+        skos:prefLabel         "Navigation et positionnement de levé du fond marin"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG010/>
         rdf:type               skos:Concept;
@@ -801,9 +919,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "2";
         skos:altLabel          "";
         skos:definition        "MEDIN data guideline for the recording of oceanographic data while underway"@en;
+        skos:definition        "Directive de données MEDIN pour l'enregistrement de données océanographiques en route"@fr ;
         skos:notation          "SDN:C48::MDG010";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Underway ocean data"@en .
+        skos:prefLabel         "Underway ocean data"@en ;
+        skos:prefLabel         "Données océaniques en route"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG048/>
         rdf:type               skos:Concept;
@@ -817,10 +937,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "TIMED_SEARCH";
+        skos:altLabel          "TIMED_SEARCH"@fr ;
         skos:definition        "MEDIN data guideline for timed search data"@en;
+        skos:definition        "Directive de données MEDIN pour les données de recherche chronométrée"@fr ;
         skos:notation          "SDN:C48::MDG048";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Timed search survey"@en .
+        skos:prefLabel         "Timed search survey"@en ;
+        skos:prefLabel         "Relevé de recherche chronométrée"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG026/>
         rdf:type               skos:Concept;
@@ -835,10 +958,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "true";
         owl:versionInfo        "2";
         skos:altLabel          "TIDE";
+        skos:altLabel          "TIDE"@fr ;
         skos:definition        "MEDIN data guideline for tidal reduction data"@en;
+        skos:definition        "Directive de données MEDIN pour les données de réduction des marées"@fr ;
         skos:notation          "SDN:C48::MDG026";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Tidal reduction"@en .
+        skos:prefLabel         "Tidal reduction"@en ;
+        skos:prefLabel         "Réduction des marées"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG021/>
         rdf:type               skos:Concept;
@@ -853,10 +979,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "true";
         owl:versionInfo        "2";
         skos:altLabel          "SCS";
+        skos:altLabel          "SCS"@fr ;
         skos:definition        "MEDIN data guideline for single channel seismic (sub bottom profiler (SBP)) data"@en;
+        skos:definition        "Directive de données MEDIN pour les données de sismique mono-canal (profileur de sous-sol SBP)"@fr ;
         skos:notation          "SDN:C48::MDG021";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Geophysical single channel siesmic"@en .
+        skos:prefLabel         "Geophysical single channel siesmic"@en ;
+        skos:prefLabel         "Géophysique sismique mono-canal"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/MDG006/>
         rdf:type               skos:Concept;
@@ -871,9 +1000,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "MEDIN data guideline for photo-identification of cetaceans and surface swimming sharks"@en;
+        skos:definition        "Directive de données MEDIN pour l'identification photo de cétacés et de requins nageant en surface"@fr ;
         skos:notation          "SDN:C48::MDG006";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Cetacean sighting"@en .
+        skos:prefLabel         "Cetacean sighting"@en ;
+        skos:prefLabel         "Observation de cétacés"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C48/current/>
         rdf:type                skos:Collection;
@@ -888,5 +1019,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "MEDIN Standards Group";
         owl:versionInfo         "10";
         skos:altLabel           "MEDIN Data Guides";
+        skos:altLabel           "MEDIN Data Guides"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/C48/current/MDG029/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG033/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG023/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG040/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG002/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG022/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG024/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG030/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG014/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG034/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG042/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG013/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG036/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG015/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG003/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG037/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG004/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG027/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG047/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG049/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG001/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG012/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG017/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG039/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG032/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG019/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG007/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG011/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG043/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG044/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG031/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG009/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG041/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG045/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG008/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG018/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG020/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG025/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG005/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG028/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG035/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG038/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG046/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG016/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG010/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG048/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG006/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG021/> , <http://vocab.nerc.ac.uk/collection/C48/current/MDG026/>;
-        skos:prefLabel          "MEDIN Data Guidelines" .
+        skos:prefLabel          "MEDIN Data Guidelines" ;
+        skos:prefLabel          "MEDIN Data Guidelines"@fr .
