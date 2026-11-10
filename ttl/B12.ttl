@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "LFM";
+        skos:altLabel          "LFM (format de sortie logique BODC)"@fr ;
         skos:definition        "A BODC variable attribute commonly known as LFM (Logical Format element). It combines the number of places before (BEF) and after (AFT) the decimal point into a single numerical attribute as follows: LFM = 100*BEF + AFT. Space for a leading sign must be met by BEF."@en;
+        skos:definition        "Attribut de variable BODC communément appelé LFM (Logical Format element). Il combine le nombre de chiffres avant (BEF) et après (AFT) le séparateur décimal dans un attribut numérique unique comme suit : LFM = 100*BEF + AFT. L'espace pour un signe devant doit être prévu par BEF."@fr ;
         skos:notation          "SDN:B12::B1200001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Variable output format"@en .
+        skos:prefLabel         "Variable output format"@en ;
+        skos:prefLabel         "format de sortie de variable"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B12/current/>
         rdf:type                skos:Collection;
@@ -51,5 +54,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "British Oceanographic Data Centre";
         owl:versionInfo         "1";
         skos:altLabel           "BODC measurement numeric attributes";
+        skos:altLabel           "attributs numériques de mesure BODC"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/B12/current/B1200001/>;
-        skos:prefLabel          "BODC measurement numeric attribute types" .
+        skos:prefLabel          "BODC measurement numeric attribute types" ;
+        skos:prefLabel          "types d'attributs numériques de mesure BODC"@fr .

@@ -35,7 +35,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "";
         skos:notation          "SDN:P11::GCAT0001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "EARTH SCIENCE"@en .
+        skos:prefLabel         "EARTH SCIENCE"@en ;
+        skos:prefLabel         "SCIENCES DE LA TERRE"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P11/current/>
         rdf:type                skos:Collection;
@@ -50,5 +51,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Global Change Master Directory";
         owl:versionInfo         "4";
         skos:altLabel           "GCMD categories";
+        skos:altLabel           "catégories GCMD (Global Change Master Directory)"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/P11/current/GCAT0001/>;
-        skos:prefLabel          "Global Change Master Directory Science Keyword categories" .
+        skos:prefLabel          "Global Change Master Directory Science Keyword categories" ;
+        skos:prefLabel          "catégories de mots-clés scientifiques du Global Change Master Directory"@fr .

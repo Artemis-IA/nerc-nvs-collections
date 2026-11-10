@@ -34,9 +34,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "2";
         skos:altLabel          "";
         skos:definition        "The volume below the Earth's surface of interest to the exploration."@en;
+        skos:definition        "Le volume sous la surface de la Terre qui présente un intérêt pour l'exploration."@fr ;
         skos:notation          "SDN:GS1::EarthVol";
         skos:note              "accepted"@en;
-        skos:prefLabel         "earth volume"@en .
+        skos:prefLabel         "earth volume"@en ;
+        skos:prefLabel         "volume terrestre"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GS1/current/>
         rdf:type                skos:Collection;
@@ -51,5 +53,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Geo-Seas";
         owl:versionInfo         "2";
         skos:altLabel           "featureOfInterest";
+        skos:altLabel           "featureOfInterest (objet d'intérêt)"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/GS1/current/EarthVol/>;
-        skos:prefLabel          "Geo-Seas features of interest" .
+        skos:prefLabel          "Geo-Seas features of interest" ;
+        skos:prefLabel          "objets d'intérêt Geo-Seas"@fr .
