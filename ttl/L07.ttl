@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "52n-sos-restful-ts-api";
+        skos:altLabel          "52n-sos-restful-ts-api"@fr ;
         skos:definition        "The data object may be accessed in JSON format through a restful API dedicated to time series (see http://sensorweb.demo.52north.org/sensorwebclient-webapp-stable/api-doc/index.html)."@en;
+        skos:definition        "L'objet de données peut être accessible au format JSON via une API REST dédiée aux séries temporelles (voir http://sensorweb.demo.52north.org/sensorwebclient-webapp-stable/api-doc/index.html)."@fr ;
         skos:notation          "SDN:L07::CDIMTH07";
         skos:note              "accepted"@en;
-        skos:prefLabel         "time series data access restful API"@en .
+        skos:prefLabel         "time series data access restful API"@en ;
+        skos:prefLabel         "API REST d'accès aux données de séries temporelles"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH06/>
         rdf:type               skos:Concept;
@@ -49,10 +52,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "hrsvsRegistration";
+        skos:altLabel          "hrsvsRegistration (enregistrement visualisation haute résolution)"@fr ;
         skos:definition        "The seismic data object may be viewed in high resolution through manual interaction with an on-line system by registered users following successful authentication and authorisation"@en;
+        skos:definition        "L'objet de données sismiques peut être visualisé en haute résolution par interaction manuelle avec un système en ligne par des utilisateurs enregistrés après authentification et autorisation réussies."@fr ;
         skos:notation          "SDN:L07::CDIMTH06";
         skos:note              "accepted"@en;
-        skos:prefLabel         "high resolution viewing of seismic data with registration"@en .
+        skos:prefLabel         "high resolution viewing of seismic data with registration"@en ;
+        skos:prefLabel         "visualisation haute résolution des données sismiques avec enregistrement"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH01/>
         rdf:type               skos:Concept;
@@ -66,10 +72,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "download";
+        skos:altLabel          "téléchargement"@fr ;
         skos:definition        "The data object may be downloaded through manual interaction with an on-line system."@en;
+        skos:definition        "L'objet de données peut être téléchargé par interaction manuelle avec un système en ligne."@fr ;
         skos:notation          "SDN:L07::CDIMTH01";
         skos:note              "accepted"@en;
-        skos:prefLabel         "web data access"@en .
+        skos:prefLabel         "web data access"@en ;
+        skos:prefLabel         "accès aux données web"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH04/>
         rdf:type               skos:Concept;
@@ -83,10 +92,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "offlineAccess";
+        skos:altLabel          "offlineAccess (accès hors ligne)"@fr ;
         skos:definition        "The data object may be obtained through an automated ordering process from the holding data centre."@en;
+        skos:definition        "L'objet de données peut être obtenu via un processus de commande automatisé auprès du centre de données détenteur."@fr ;
         skos:notation          "SDN:L07::CDIMTH04";
         skos:note              "accepted"@en;
-        skos:prefLabel         "delayed online access"@en .
+        skos:prefLabel         "delayed online access"@en ;
+        skos:prefLabel         "accès en ligne différé"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH03/>
         rdf:type               skos:Concept;
@@ -100,10 +112,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "order";
+        skos:altLabel          "commande"@fr ;
         skos:definition        "The data object may be obtained though a manual ordering process from the holding data centre."@en;
+        skos:definition        "L'objet de données peut être obtenu via un processus de commande manuel auprès du centre de données détenteur."@fr ;
         skos:notation          "SDN:L07::CDIMTH03";
         skos:note              "accepted"@en;
-        skos:prefLabel         "data request order"@en .
+        skos:prefLabel         "data request order"@en ;
+        skos:prefLabel         "commande de demande de données"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH02/>
         rdf:type               skos:Concept;
@@ -117,10 +132,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "downloadRegistration";
+        skos:altLabel          "downloadRegistration (enregistrement de téléchargement)"@fr ;
         skos:definition        "The data object may be downloaded through manual interaction with an on-line system by registered users following successful authentication and authorisation."@en;
+        skos:definition        "L'objet de données peut être téléchargé par interaction manuelle avec un système en ligne par des utilisateurs enregistrés après authentification et autorisation réussies."@fr ;
         skos:notation          "SDN:L07::CDIMTH02";
         skos:note              "accepted"@en;
-        skos:prefLabel         "web data access with registration"@en .
+        skos:prefLabel         "web data access with registration"@en ;
+        skos:prefLabel         "accès aux données web avec enregistrement"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH05/>
         rdf:type               skos:Concept;
@@ -134,10 +152,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "URL";
+        skos:altLabel          "URL"@fr ;
         skos:definition        "The data object may be accessed as a URL over the internet."@en;
+        skos:definition        "L'objet de données peut être accessible en tant qu'URL sur internet."@fr ;
         skos:notation          "SDN:L07::CDIMTH05";
         skos:note              "accepted"@en;
-        skos:prefLabel         "universal resource locator"@en .
+        skos:prefLabel         "universal resource locator"@en ;
+        skos:prefLabel         "localisateur uniforme de ressource"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L07/current/>
         rdf:type                skos:Collection;
@@ -153,5 +174,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "SeaDataNet";
         owl:versionInfo         "3";
         skos:altLabel           "SeaDataNet data access";
+        skos:altLabel           "accès aux données SeaDataNet"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH07/> , <http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH06/> , <http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH01/> , <http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH04/> , <http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH03/> , <http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH05/> , <http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH02/>;
-        skos:prefLabel          "SeaDataNet data access mechanisms" .
+        skos:prefLabel          "SeaDataNet data access mechanisms" ;
+        skos:prefLabel          "mécanismes d'accès aux données SeaDataNet"@fr .

@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Member of a governance or committee with no specific named title or role."@en;
+        skos:definition        "Membre d'un organe de gouvernance ou comité sans titre ni rôle spécifique nommé."@fr ;
         skos:notation          "SDN:B05::MEM";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Member"@en .
+        skos:prefLabel         "Member"@en ;
+        skos:prefLabel         "membre"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B05/current/VIC/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Person immediately subordinate to a chairman who assists the Chair and assumes the role in the Chair's absence"@en;
+        skos:definition        "Personne immédiatement subordonnée au président qui assiste le président et assume son rôle en son absence."@fr ;
         skos:notation          "SDN:B05::VIC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Vice Chair"@en .
+        skos:prefLabel         "Vice Chair"@en ;
+        skos:prefLabel         "vice-président"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B05/current/FOR/>
         rdf:type               skos:Concept;
@@ -67,9 +71,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Member of a governance or committee who held the role of chair in the past but no longer does so."@en;
+        skos:definition        "Membre d'un organe de gouvernance ou comité qui a exercé la fonction de président dans le passé mais ne le fait plus."@fr ;
         skos:notation          "SDN:B05::FOR";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Former Chair"@en .
+        skos:prefLabel         "Former Chair"@en ;
+        skos:prefLabel         "ancien président"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B05/current/PER/>
         rdf:type               skos:Concept;
@@ -84,9 +90,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Member of a governance or committee with a specific management and administrative role."@en;
+        skos:definition        "Membre d'un organe de gouvernance ou comité ayant un rôle de gestion et d'administration spécifique."@fr ;
         skos:notation          "SDN:B05::PER";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Permanent Secretary"@en .
+        skos:prefLabel         "Permanent Secretary"@en ;
+        skos:prefLabel         "secrétaire permanent"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B05/current/SCI/>
         rdf:type               skos:Concept;
@@ -101,9 +109,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Member of a governance or committee whose role is to provide scientific or technical advice."@en;
+        skos:definition        "Membre d'un organe de gouvernance ou comité dont le rôle est de fournir des conseils scientifiques ou techniques."@fr ;
         skos:notation          "SDN:B05::SCI";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Scientific Advisor"@en .
+        skos:prefLabel         "Scientific Advisor"@en ;
+        skos:prefLabel         "conseiller scientifique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B05/current/CHA/>
         rdf:type               skos:Concept;
@@ -118,9 +128,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Member of a governance or committee responsible for overseeing roles, assigning work, acting as spokesperson and managing meetings."@en;
+        skos:definition        "Membre d'un organe de gouvernance ou comité responsable de la supervision des rôles, de l'attribution des travaux, de la fonction de porte-parole et de la gestion des réunions."@fr ;
         skos:notation          "SDN:B05::CHA";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Chair"@en .
+        skos:prefLabel         "Chair"@en ;
+        skos:prefLabel         "président"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B05/current/PRO/>
         rdf:type               skos:Concept;
@@ -135,9 +147,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Person responsible for planning and executing a project."@en;
+        skos:definition        "Personne responsable de la planification et de l'exécution d'un projet."@fr ;
         skos:notation          "SDN:B05::PRO";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Project Manager"@en .
+        skos:prefLabel         "Project Manager"@en ;
+        skos:prefLabel         "chef de projet"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B05/current/DIG/>
         rdf:type               skos:Concept;
@@ -152,9 +166,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Person responsible for the management of a specific type of geographical dataset(s)."@en;
+        skos:definition        "Personne responsable de la gestion de la création et/ou de la maintenance d'un type spécifique de jeu(x) de données géographiques."@fr ;
         skos:notation          "SDN:B05::DIG";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Digital Atlas Manager"@en .
+        skos:prefLabel         "Digital Atlas Manager"@en ;
+        skos:prefLabel         "gestionnaire d'atlas numérique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B05/current/CHI/>
         rdf:type               skos:Concept;
@@ -169,9 +185,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Person responsible for managing the creation and/or maintenance of a publication."@en;
+        skos:definition        "Personne responsable de la gestion de la création et/ou de la maintenance d'une publication."@fr ;
         skos:notation          "SDN:B05::CHI";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Chief Editor"@en .
+        skos:prefLabel         "Chief Editor"@en ;
+        skos:prefLabel         "rédacteur en chef"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B05/current/OBS/>
         rdf:type               skos:Concept;
@@ -186,9 +204,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Member of a governance or committee who has no voting rights on issues the governance or committee decide by vote."@en;
+        skos:definition        "Membre d'un organe de gouvernance ou comité qui n'a pas de droit de vote sur les questions que l'organe ou le comité décide par vote."@fr ;
         skos:notation          "SDN:B05::OBS";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Observer"@en .
+        skos:prefLabel         "Observer"@en ;
+        skos:prefLabel         "observateur"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B05/current/SEC/>
         rdf:type               skos:Concept;
@@ -203,9 +223,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Member of a governance or committee with a specific management and administrative role."@en;
+        skos:definition        "Membre d'un organe de gouvernance ou comité ayant un rôle de gestion et d'administration spécifique."@fr ;
         skos:notation          "SDN:B05::SEC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Secretary"@en .
+        skos:prefLabel         "Secretary"@en ;
+        skos:prefLabel         "secrétaire"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B05/current/>
         rdf:type                skos:Collection;
@@ -221,5 +243,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "British Oceanographic Data Centre";
         owl:versionInfo         "3";
         skos:altLabel           "Governance roles";
+        skos:altLabel           "rôles de gouvernance"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/B05/current/MEM/> , <http://vocab.nerc.ac.uk/collection/B05/current/VIC/> , <http://vocab.nerc.ac.uk/collection/B05/current/FOR/> , <http://vocab.nerc.ac.uk/collection/B05/current/PER/> , <http://vocab.nerc.ac.uk/collection/B05/current/SCI/> , <http://vocab.nerc.ac.uk/collection/B05/current/CHA/> , <http://vocab.nerc.ac.uk/collection/B05/current/PRO/> , <http://vocab.nerc.ac.uk/collection/B05/current/DIG/> , <http://vocab.nerc.ac.uk/collection/B05/current/CHI/> , <http://vocab.nerc.ac.uk/collection/B05/current/SEC/> , <http://vocab.nerc.ac.uk/collection/B05/current/OBS/>;
-        skos:prefLabel          "BODC governance roles" .
+        skos:prefLabel          "BODC governance roles" ;
+        skos:prefLabel          "rôles de gouvernance BODC"@fr .

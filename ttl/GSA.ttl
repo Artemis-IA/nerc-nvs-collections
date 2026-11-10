@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "FieldDataSingleFold";
+        skos:altLabel          "FieldDataSingleFold (données terrain simple couverture)"@fr ;
         skos:definition        "Single-fold seismic data ready to be processed. These should adhere to GeoSeas D4.5 deliverable specifications, but should not have undergone any processing algorithm  yet."@en;
+        skos:definition        "Données sismiques simple couverture prêtes à être traitées. Celles-ci doivent respecter les spécifications de livrables GeoSeas D4.5, mais ne doivent pas avoir encore subi d'algorithme de traitement."@fr ;
         skos:notation          "SDN:GSA::FLDS";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Field data: single-fold continuous profile"@en .
+        skos:prefLabel         "Field data: single-fold continuous profile"@en ;
+        skos:prefLabel         "données terrain : profil continu simple couverture"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GSA/current/PRSS/>
         rdf:type               skos:Concept;
@@ -49,10 +52,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "ProcSingleFold";
+        skos:altLabel          "ProcSingleFold (traitées simple couverture)"@fr ;
         skos:definition        "Single-fold seismic data that have undergone processing as gain recovery, filtering, noise reduction, muting, wavelet processing."@en;
+        skos:definition        "Données sismiques simple couverture ayant subi un traitement tel que reprise de gain, filtrage, réduction de bruit, muting, traitement d'ondelette."@fr ;
         skos:notation          "SDN:GSA::PRSS";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Processed: single-fold continuous profile"@en .
+        skos:prefLabel         "Processed: single-fold continuous profile"@en ;
+        skos:prefLabel         "traitées : profil continu simple couverture"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GSA/current/OTHR/>
         rdf:type               skos:Concept;
@@ -66,10 +72,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Other";
+        skos:altLabel          "autre"@fr ;
         skos:definition        "Seismic data that have undergone processing algorithms that do not fall within the other cases. Processing needs to be documented"@en;
+        skos:definition        "Données sismiques ayant subi des algorithmes de traitement ne relevant pas des autres cas. Le traitement doit être documenté."@fr ;
         skos:notation          "SDN:GSA::OTHR";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Other"@en .
+        skos:prefLabel         "Other"@en ;
+        skos:prefLabel         "autre"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GSA/current/STAK/>
         rdf:type               skos:Concept;
@@ -83,10 +92,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Stacked";
+        skos:altLabel          "stackées"@fr ;
         skos:definition        "Processed mutli-fold seismic data that have undergone trace summation within CMP and therefore result in zero offset stacked sections."@en;
+        skos:definition        "Données sismiques multi-couverture traitées ayant subi une sommation de traces au sein du CMP et produisant donc des sections stackées à décalage nul."@fr ;
         skos:notation          "SDN:GSA::STAK";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Stacked"@en .
+        skos:prefLabel         "Stacked"@en ;
+        skos:prefLabel         "stackées"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GSA/current/FLDM/>
         rdf:type               skos:Concept;
@@ -100,10 +112,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "FieldDataMultiFold";
+        skos:altLabel          "FieldDataMultiFold (données terrain multi-couverture)"@fr ;
         skos:definition        "Multi-fold seismic data ready to be processed. These should adhere to D4.5 specifications: mainly that they should already be demultiplexed and converted to SEG-Y format, but should not have undergone any processing algorithm  yet."@en;
+        skos:definition        "Données sismiques multi-couverture prêtes à être traitées. Celles-ci doivent respecter les spécifications D4.5 : principalement qu'elles doivent déjà être démultiplexées et converties au format SEG-Y, mais ne doivent pas avoir encore subi d'algorithme de traitement."@fr ;
         skos:notation          "SDN:GSA::FLDM";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Field data: multi-fold"@en .
+        skos:prefLabel         "Field data: multi-fold"@en ;
+        skos:prefLabel         "données terrain : multi-couverture"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GSA/current/MIGR/>
         rdf:type               skos:Concept;
@@ -117,10 +132,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Migrated";
+        skos:altLabel          "migrées"@fr ;
         skos:definition        "Seismic data that have undergone a migration process to improve spatial resolution."@en;
+        skos:definition        "Données sismiques ayant subi un processus de migration pour améliorer la résolution spatiale."@fr ;
         skos:notation          "SDN:GSA::MIGR";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Migrated"@en .
+        skos:prefLabel         "Migrated"@en ;
+        skos:prefLabel         "migrées"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GSA/current/PRSM/>
         rdf:type               skos:Concept;
@@ -134,10 +152,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "ProcessedMultiFold";
+        skos:altLabel          "ProcessedMultiFold (traitées multi-couverture)"@fr ;
         skos:definition        "Multi-fold seismic data that have undergone processing as gain recovery, filtering, noise reduction, muting, wavelet processing, but should not have undergone stacking algorithm  yet."@en;
+        skos:definition        "Données sismiques multi-couverture ayant subi un traitement tel que reprise de gain, filtrage, réduction de bruit, muting, traitement d'ondelette, mais ne doivent pas avoir encore subi d'algorithme de stacking."@fr ;
         skos:notation          "SDN:GSA::PRSM";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Processed: multi-fold"@en .
+        skos:prefLabel         "Processed: multi-fold"@en ;
+        skos:prefLabel         "traitées : multi-couverture"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GSA/current/>
         rdf:type                skos:Collection;
@@ -152,5 +173,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Geo-Seas";
         owl:versionInfo         "1";
         skos:altLabel           "Seismic Data Products";
+        skos:altLabel           "produits de données sismiques"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/GSA/current/FLDS/> , <http://vocab.nerc.ac.uk/collection/GSA/current/PRSS/> , <http://vocab.nerc.ac.uk/collection/GSA/current/OTHR/> , <http://vocab.nerc.ac.uk/collection/GSA/current/STAK/> , <http://vocab.nerc.ac.uk/collection/GSA/current/PRSM/> , <http://vocab.nerc.ac.uk/collection/GSA/current/MIGR/> , <http://vocab.nerc.ac.uk/collection/GSA/current/FLDM/>;
-        skos:prefLabel          "Geo-Seas Seismic Data Product Types" .
+        skos:prefLabel          "Geo-Seas Seismic Data Product Types" ;
+        skos:prefLabel          "types de produits de données sismiques Geo-Seas"@fr .
