@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Serial sampler stratified oblique tow";
+        skos:altLabel          "échantillonneur sériel à traits obliques stratifiés"@fr ;
         skos:definition        "Multiple nets are deployed on a single frame with opening and closing capability. In the case of a system like MOCNESS, the first net (0) is deployed to the bottom depth, open. Once at the bottom the zero net is closed, at the same time opening the second (net 1) net. This net is hauled to a predetermined depth and then closed while the next net is opened. The procedure continues until the final predetermined depth is reached (normally the surface). For systems like the Multinet, the system can be deployed without a net open and the first net is opened at depth. This deployment strategy can also be done with a single net with multiple a cod-end system. Examples of gears that can be deployed that way include MOCNESS, BIONESS, Multinet, other multiple net opening/closing systems (Wiebe and Benfield 2003, Plates 28-31)."@en;
+        skos:definition        "Plusieurs filets sont déployés sur un même châssis avec capacité d'ouverture et de fermeture. Dans le cas d'un système comme le MOCNESS, le premier filet (0) est déployé jusqu'à la profondeur du fond, ouvert. Une fois au fond, le filet zéro est fermé, en ouvrant en même temps le deuxième filet (filet 1). Ce filet est halé jusqu'à une profondeur prédéterminée puis fermé pendant que le filet suivant est ouvert. La procédure continue jusqu'à atteindre la dernière profondeur prédéterminée (normalement la surface). Pour les systèmes comme le Multinet, le système peut être déployé sans filet ouvert et le premier filet est ouvert à la profondeur. Cette stratégie de déploiement peut aussi être faite avec un filet unique à système multi-codends. Exemples d'engins déployables de cette façon : MOCNESS, BIONESS, Multinet, autres systèmes multi-filets à ouverture/fermeture (Wiebe et Benfield 2003, planches 28-31)."@fr ;
         skos:notation          "SDN:B07::NDT017";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Multiple net/multiple cod-end system stratified oblique tow"@en .
+        skos:prefLabel         "Multiple net/multiple cod-end system stratified oblique tow"@en ;
+        skos:prefLabel         "système multi-filets/multi-codends à trait oblique stratifié"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B07/current/NDT006/>
         rdf:type               skos:Concept;
@@ -49,10 +52,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Neuston tow";
+        skos:altLabel          "trait de neuston"@fr ;
         skos:definition        "Net deployments designed to collect animals or debris floating on the surface or in the upper few centimeters of the water from a moving platform.  The net is towed horizontally at one depth and samples half in and half out of the water. Occasionally neuston nets can be stacked vertically in the water column to sample as deep as 100 cm. For examples, see Wiebe and Benfield 2003, Plates 20 and 21."@en;
+        skos:definition        "Déploiements de filets conçus pour collecter des animaux ou des débris flottant à la surface ou dans les quelques premiers centimètres de l'eau depuis une plateforme mobile. Le filet est halé horizontalement à une profondeur et échantillonne moitié dedans moitié dehors de l'eau. Occasionnellement, les filets de neuston peuvent être empilés verticalement dans la colonne d'eau pour échantillonner jusqu'à 100 cm de profondeur. Pour exemples, voir Wiebe et Benfield 2003, planches 20 et 21."@fr ;
         skos:notation          "SDN:B07::NDT006";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Neuston net tow"@en .
+        skos:prefLabel         "Neuston net tow"@en ;
+        skos:prefLabel         "filet de neuston halé"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B07/current/NDT009/>
         rdf:type               skos:Concept;
@@ -66,10 +72,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Towyo";
+        skos:altLabel          "towyo"@fr ;
         skos:definition        "A single net or net pair is deployed open from a moving platform to a predetermined depth and then repeatedly hauled to the surface and sent back to depth. Examples of gears that can be deployed that way include ring nets, Bongo nets, Tucker trawls, and other non-opening closing nets (Wiebe and Benfield 2003, Plates 2 and 3)."@en;
+        skos:definition        "Un filet unique ou une paire de filets est déployé ouvert depuis une plateforme mobile jusqu'à une profondeur prédéterminée puis halé de façon répétée vers la surface et renvoyé en profondeur. Exemples d'engins déployables de cette façon : filets circulaires, filets Bongo, chaluts Tucker et autres filets sans ouverture/fermeture (Wiebe et Benfield 2003, planches 2 et 3)."@fr ;
         skos:notation          "SDN:B07::NDT009";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Single net or net pair towyo"@en .
+        skos:prefLabel         "Single net or net pair towyo"@en ;
+        skos:prefLabel         "filet unique ou paire de filets towyo"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B07/current/NDT007/>
         rdf:type               skos:Concept;
@@ -83,10 +92,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "V-shape tow";
+        skos:altLabel          "trait en V"@fr ;
         skos:definition        "This deployment type has sometimes been misrepresented as a double oblique.  A true double oblique tow is in the form of a W.  For a single oblique tow, the net fishes from the surface obliquely down to some particular depth and back to the surface along a V-shape path.  There is no opening/closing mechanism.  Most of the time oblique tows are not symmetrical.  The net is typically shot to depth rapidly and hauled to the surface more slowly from a moving platform. Examples of gears that can be deployed that way include ring nets, Bongo nets, Tucker trawls, and other non-opening closing nets (Wiebe and Benfield 2003, Plates 2 and 3)."@en;
+        skos:definition        "Ce type de déploiement a parfois été présenté à tort comme un double oblique. Un vrai trait double oblique prend la forme d'un W. Pour un trait oblique simple, le filet pêche de la surface obliquement jusqu'à une profondeur particulière puis de retour à la surface le long d'un chemin en V. Il n'y a pas de mécanisme d'ouverture/fermeture. La plupart du temps, les traits obliques ne sont pas symétriques. Le filet est typiquement envoyé en profondeur rapidement et halé vers la surface plus lentement depuis une plateforme mobile. Exemples d'engins déployables de cette façon : filets circulaires, filets Bongo, chaluts Tucker et autres filets sans ouverture/fermeture (Wiebe et Benfield 2003, planches 2 et 3)."@fr ;
         skos:notation          "SDN:B07::NDT007";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Single net or net pair oblique tow"@en .
+        skos:prefLabel         "Single net or net pair oblique tow"@en ;
+        skos:prefLabel         "filet unique ou paire de filets à trait oblique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B07/current/NDT020/>
         rdf:type               skos:Concept;
@@ -100,10 +112,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Serial sampler stratified towyo";
+        skos:altLabel          "échantillonneur sériel à towyo stratifié"@fr ;
         skos:definition        "Multiple nets are deployed on a single frame with opening and closing capability. in the case of a system like MOCNESS, the first net (0) is deployed to a predetermined depth, open. Once at that depth, that net is closed, at the same time opening the second (net 1) net.  On the oblique section up, several different depth intervals are sampled by successive nets. Once at the shallowest point of tow (usually the surface), the next net is open and shot open down to depth.  Then this net is closed and again on the way up, several different depth intervals are sampled by successive nets.  For systems like the Multinet, the system can be deployed without a net open and the first net is opened at depth. Sampling depths can be adjusted as the environmental structure requires.  This deployment strategy can also be done with a single net with multiple cod-end system. Examples of gears that can be deployed that way include the MOCNESS, BIONESS, Multinet, other multiple net opening/closing or closing cod-end systems (Wiebe and Benfield 2003, Plates 28-31)."@en;
+        skos:definition        "Plusieurs filets sont déployés sur un même châssis avec capacité d'ouverture et de fermeture. Dans le cas d'un système comme le MOCNESS, le premier filet (0) est déployé jusqu'à une profondeur prédéterminée, ouvert. Une fois à cette profondeur, ce filet est fermé, en ouvrant en même temps le deuxième filet (filet 1). Sur la section oblique montante, plusieurs intervalles de profondeur différents sont échantillonnés par des filets successifs. Une fois au point le plus peu profond du trait (généralement la surface), le filet suivant est ouvert et envoyé ouvert en profondeur. Puis ce filet est fermé et, à nouveau à la montée, plusieurs intervalles de profondeur différents sont échantillonnés par des filets successifs. Pour les systèmes comme le Multinet, le système peut être déployé sans filet ouvert et le premier filet est ouvert à la profondeur. Les profondeurs d'échantillonnage peuvent être ajustées selon la structure environnementale. Cette stratégie de déploiement peut aussi être faite avec un filet unique à système multi-codends. Exemples d'engins déployables de cette façon : MOCNESS, BIONESS, Multinet, autres systèmes multi-filets à ouverture/fermeture ou à codends fermants (Wiebe et Benfield 2003, planches 28-31)."@fr ;
         skos:notation          "SDN:B07::NDT020";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Multiple net/multiple cod-end system stratified oblique horizontal towyo"@en .
+        skos:prefLabel         "Multiple net/multiple cod-end system stratified oblique horizontal towyo"@en ;
+        skos:prefLabel         "système multi-filets/multi-codends à trait oblique horizontal stratifié"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B07/current/NDT022/>
         rdf:type               skos:Concept;
@@ -117,10 +132,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Serial sampler discontinuous horizontal tow";
+        skos:altLabel          "échantillonneur sériel à trait horizontal discontinu"@fr ;
         skos:definition        "Multiple nets are deployed on a single frame with opening and closing capability or this type of deployment also applies to a single net with a multiple cod-end system. The net system is deployed to a predetermined depth with the first net either open or closed.  At depth, the first net is opened (if it was closed) or closed (if it was open) and the next net opened in this case.  The open net is towed horizontally for some distance and then closed.  The next net is NOT open upon the previous net's closing and the system travels some distance at the same depth before another net is opened.  This sequence continues until all nets are fished at the specific required depth intervals.  In this deployment configuration, there are intervals between nets that are NOT sampled. Examples of gears that can be deployed that way include MOCNESS, BIONESS, Multinet, multiple net opening/closing systems; cod-end serial samplers such as LHPR, ARIES (see Wiebe and Benfield 2003, Plates 27B-31C)."@en;
+        skos:definition        "Plusieurs filets sont déployés sur un même châssis avec capacité d'ouverture et de fermeture, ou ce type de déploiement s'applique aussi à un filet unique avec système multi-codends. Le système de filets est déployé jusqu'à une profondeur prédéterminée avec le premier filet ouvert ou fermé. En profondeur, le premier filet est ouvert (s'il était fermé) ou fermé (s'il était ouvert) et le filet suivant ouvert dans ce cas. Le filet ouvert est halé horizontalement sur une certaine distance puis fermé. Le filet suivant N'EST PAS ouvert à la fermeture du filet précédent et le système parcourt une certaine distance à la même profondeur avant qu'un autre filet soit ouvert. Cette séquence continue jusqu'à ce que tous les filets aient pêché aux intervalles de profondeur spécifiques requis. Dans cette configuration de déploiement, il y a des intervalles entre les filets qui NE SONT PAS échantillonnés. Exemples d'engins déployables de cette façon : MOCNESS, BIONESS, Multinet, systèmes multi-filets à ouverture/fermeture ; échantillonneurs sériels à codends tels que LHPR, ARIES (voir Wiebe et Benfield 2003, planches 27B-31C)."@fr ;
         skos:notation          "SDN:B07::NDT022";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Multiple net/multiple cod-end system  discontinuous horizontal tow"@en .
+        skos:prefLabel         "Multiple net/multiple cod-end system  discontinuous horizontal tow"@en ;
+        skos:prefLabel         "système multi-filets/multi-codends à trait horizontal discontinu"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B07/current/NDT018/>
         rdf:type               skos:Concept;
@@ -134,10 +152,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Serial sampler horizontal tow";
+        skos:altLabel          "échantillonneur sériel à trait horizontal"@fr ;
         skos:definition        "Multiple nets are deployed on a single frame with opening and closing capability or this type of deployment also applies to a single net with a multiple cod-end system or a Continuous Plankton Recorder (CPR). In the case of a system like MOCNESS, the first net (0) is deployed to a predetermined depth, open. Once at that depth, that net is closed, at the same time opening the second (net 1) net. Net 1 and all subsequent nets are opened/closed at the depth selected for the horizontal tow.  For systems, like the Multinet, the system can be deployed without a net open and the first net is opened at the selected depth. The CPR is normally towed horizontally just below the sea surface and samples plankton on a single slow-moving band of silk that is then spooled in a storage tank until recovery. Examples of gears that can be deployed that way include MOCNESS, BIONESS, Multinet, multiple net opening/closing systems; cod-end serial samplers such as LHPR, ARIES; CPR. See Wiebe and Benfield 2003, Plates 19, 27-31."@en;
+        skos:definition        "Plusieurs filets sont déployés sur un même châssis avec capacité d'ouverture et de fermeture, ou ce type de déploiement s'applique aussi à un filet unique avec système multi-codends ou un enregistreur continu de plancton (CPR). Dans le cas d'un système comme le MOCNESS, le premier filet (0) est déployé jusqu'à une profondeur prédéterminée, ouvert. Une fois à cette profondeur, ce filet est fermé, en ouvrant en même temps le deuxième filet (filet 1). Le filet 1 et tous les filets suivants sont ouverts/fermés à la profondeur sélectionnée pour le trait horizontal. Pour les systèmes comme le Multinet, le système peut être déployé sans filet ouvert et le premier filet est ouvert à la profondeur sélectionnée. Le CPR est normalement halé horizontalement juste sous la surface de la mer et échantillonne le plancton sur un bandeau de soie unique en mouvement lent qui est ensuite enroulé dans un réservoir de stockage jusqu'à la récupération. Exemples d'engins déployables de cette façon : MOCNESS, BIONESS, Multinet, systèmes multi-filets à ouverture/fermeture ; échantillonneurs sériels à codends tels que LHPR, ARIES ; CPR. Voir Wiebe et Benfield 2003, planches 19, 27-31."@fr ;
         skos:notation          "SDN:B07::NDT018";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Multiple net/multiple cod-end system or CPR  horizontal tow"@en .
+        skos:prefLabel         "Multiple net/multiple cod-end system or CPR  horizontal tow"@en ;
+        skos:prefLabel         "système multi-filets/multi-codends ou CPR à trait horizontal"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B07/current/NDT004/>
         rdf:type               skos:Concept;
@@ -151,10 +172,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Reverse sub-surface vertical tow";
+        skos:altLabel          "trait vertical sous-marin inversé"@fr ;
         skos:definition        "The net goes down closed and mouth first from a stationary platform. When the net is at predetermined depth, one method has a messenger sent down that opens the net. The net continues to drop with the mouth open until a second messenger is sent to close the mouth. The net is then retrieved closed with the sample in the cod end. A Plummet net can be configured in this way. Other methods have been used to open and close nets for this kind of deployment. Examples of gears that can be deployed that way include pop-down nets like the Plummet net, Streamer net, and others (Wiebe and Benfield 2003, Plate 10)."@en;
+        skos:definition        "Le filet descend fermé, ouverture en premier, depuis une plateforme stationnaire. Quand le filet est à la profondeur prédéterminée, une méthode fait descendre un messager qui ouvre le filet. Le filet continue de descendre avec l'ouverture béante jusqu'à ce qu'un deuxième messager soit envoyé pour fermer l'ouverture. Le filet est ensuite récupéré fermé avec l'échantillon dans le codend. Un filet Plummet peut être configuré de cette façon. D'autres méthodes ont été utilisées pour ouvrir et fermer les filets pour ce type de déploiement. Exemples d'engins déployables de cette façon : filets à descente comme le filet Plummet, le filet Streamer et autres (Wiebe et Benfield 2003, planche 10)."@fr ;
         skos:notation          "SDN:B07::NDT004";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Single net reverse vertical sub-surface tow"@en .
+        skos:prefLabel         "Single net reverse vertical sub-surface tow"@en ;
+        skos:prefLabel         "filet unique à trait vertical sous-marin inversé"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B07/current/NDT015/>
         rdf:type               skos:Concept;
@@ -168,10 +192,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Multi-strata horizontal tow";
+        skos:altLabel          "trait horizontal multi-strates"@fr ;
         skos:definition        "Two or more opened nets are on the wire at the same time. The ship is standing or moving ahead slowly. The nets are always open. Wire is paid out slowly and the nets attached while paying wire out. When the proper amount of wire has been paid out, the vessel is brought to towing speed and the nets fish horizontally in stratified layers. At the completion of the tow, the ship is stopped and the nets are recovered (Miller, 1961). Examples of nets that can be deployed that way include the Clarke Bumpus net, Leavitt net, the Miller High Speed Sampler non-opening/closing (Wiebe and Benfield 2003, Plates 6, 8 and 14)."@en;
+        skos:definition        "Deux filets ouverts ou plus sont sur le câble en même temps. Le navire est à l'arrêt ou avance lentement. Les filets sont toujours ouverts. Le câble est filé lentement et les filets attachés pendant que le câble est filé. Quand la quantité appropriée de câble a été filée, le navire est amené à la vitesse de halage et les filets pêchent horizontalement en couches stratifiées. À la fin du trait, le navire est arrêté et les filets récupérés (Miller, 1961). Exemples de filets déployables de cette façon : filet Clarke Bumpus, filet Leavitt, l'échantillonneur haute vitesse Miller sans ouverture/fermeture (Wiebe et Benfield 2003, planches 6, 8 et 14)."@fr ;
         skos:notation          "SDN:B07::NDT015";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Multiple nets stratified horizontal tow"@en .
+        skos:prefLabel         "Multiple nets stratified horizontal tow"@en ;
+        skos:prefLabel         "filets multiples à trait horizontal stratifié"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B07/current/NDT012/>
         rdf:type               skos:Concept;
@@ -185,10 +212,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Horizontal tow";
+        skos:altLabel          "trait horizontal"@fr ;
         skos:definition        "The sample is collected within a defined depth stratum from a moving platform; the depth of the tow is controlled by the weight of the device, the length of the wire, and the towing platform speed. Horizontal net tows are used to collect horizontally integrated samples. It requires either an opening and closing system or the ship must be stopped during deployment and recovery; otherwise it becomes an oblique horizontal tow.  Examples of gears that can be deployed that way include the Clarke-Bumpus net, the Leavitt net or other opening and closing nets or meter nets deployed and recovered with platform stopped."@en;
+        skos:definition        "L'échantillon est collecté dans une strate de profondeur définie depuis une plateforme mobile ; la profondeur du trait est contrôlée par le poids du dispositif, la longueur du câble et la vitesse de la plateforme de halage. Les traits de filets horizontaux servent à collecter des échantillons intégrés horizontalement. Ils nécessitent soit un système d'ouverture et de fermeture, soit l'arrêt du navire pendant le déploiement et la récupération ; sinon cela devient un trait horizontal oblique. Exemples d'engins déployables de cette façon : le filet Clarke-Bumpus, le filet Leavitt ou autres filets à ouverture/fermeture ou filets métriques déployés et récupérés avec la plateforme à l'arrêt."@fr ;
         skos:notation          "SDN:B07::NDT012";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Single net or net pair horizontal tow"@en .
+        skos:prefLabel         "Single net or net pair horizontal tow"@en ;
+        skos:prefLabel         "filet unique ou paire de filets à trait horizontal"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B07/current/NDT002/>
         rdf:type               skos:Concept;
@@ -202,10 +232,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Reverse vertical tow";
+        skos:altLabel          "trait vertical inversé"@fr ;
         skos:definition        "A particular kind of single net vertical tow deployment where the net goes down open, starting at the surface, samples on the way down, and closes at depth either via a choke rope or messenger system. Examples of gears that can be deployed that way include pop-down nets like the free-fall net, and the Heron net (Wiebe and Benfield 2003, Plate 10)."@en;
+        skos:definition        "Un type particulier de déploiement de filet unique vertical où le filet descend ouvert, en partant de la surface, échantillonne à la descente et se ferme en profondeur soit via une corde de serrage soit via un système de messager. Exemples d'engins déployables de cette façon : filets à descente comme le filet à chute libre et le filet Heron (Wiebe et Benfield 2003, planche 10)."@fr ;
         skos:notation          "SDN:B07::NDT002";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Single net reverse vertical tow"@en .
+        skos:prefLabel         "Single net reverse vertical tow"@en ;
+        skos:prefLabel         "filet unique à trait vertical inversé"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B07/current/NDT010/>
         rdf:type               skos:Concept;
@@ -219,10 +252,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "U-shape tow";
+        skos:altLabel          "trait en U"@fr ;
         skos:definition        "The sample is collected between two depths along a U-shape path from a moving platform; the sample is collected while the device is lowered from the surface down to a target depth, towed horizontally for a given time at that depth, and then hauled back to the surface. Examples of gears that can be deployed that way include ring nets, Bongo nets, Tucker trawls, IKMTs or other non-opening or closing nets (Wiebe and Benfield 2003, Plates 2 and 3)."@en;
+        skos:definition        "L'échantillon est collecté entre deux profondeurs le long d'un chemin en U depuis une plateforme mobile ; l'échantillon est collecté pendant que le dispositif est descendu de la surface jusqu'à une profondeur cible, halé horizontalement pendant un temps donné à cette profondeur, puis halé de retour vers la surface. Exemples d'engins déployables de cette façon : filets circulaires, filets Bongo, chaluts Tucker, IKMT ou autres filets sans ouverture ni fermeture (Wiebe et Benfield 2003, planches 2 et 3)."@fr ;
         skos:notation          "SDN:B07::NDT010";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Single net or net pair oblique horizontal tow"@en .
+        skos:prefLabel         "Single net or net pair oblique horizontal tow"@en ;
+        skos:prefLabel         "filet unique ou paire de filets à trait oblique horizontal"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B07/current/NDT003/>
         rdf:type               skos:Concept;
@@ -236,10 +272,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Sub-surface vertical tow";
+        skos:altLabel          "trait vertical sous-marin"@fr ;
         skos:definition        "A closing mechanism or both an opening and closing mechanism are present and used to sample a single depth interval from a stationary platform.  With a single messenger, the net is deployed to a particular depth, hauled to a shallower depth and a messenger is sent down to close the net. A double messenger system avoids contamination on the way down by lowering the net closed, a messenger is dropped to open it and the net is hauled to a second depth and another messenger is sent to close it. Examples of gears that can be deployed that way include opening closing nets equipped with messenger, pressure or timer release (Wiebe and Benfield 2003, Plates 6 and 8)."@en;
+        skos:definition        "Un mécanisme de fermeture ou à la fois un mécanisme d'ouverture et de fermeture sont présents et utilisés pour échantillonner un intervalle de profondeur unique depuis une plateforme stationnaire. Avec un messager unique, le filet est déployé jusqu'à une profondeur particulière, halé jusqu'à une profondeur plus faible et un messager est envoyé pour fermer le filet. Un système à double messager évite la contamination à la descente en descendant le filet fermé, un messager est largué pour l'ouvrir et le filet est halé jusqu'à une deuxième profondeur où un autre messager est envoyé pour le fermer. Exemples d'engins déployables de cette façon : filets à ouverture/fermeture équipés d'une libération par messager, pression ou minuteur (Wiebe et Benfield 2003, planches 6 et 8)."@fr ;
         skos:notation          "SDN:B07::NDT003";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Single net or net pair vertical sub-surface tow"@en .
+        skos:prefLabel         "Single net or net pair vertical sub-surface tow"@en ;
+        skos:prefLabel         "filet unique ou paire de filets à trait vertical sous-marin"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B07/current/NDT013/>
         rdf:type               skos:Concept;
@@ -253,10 +292,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Oblique tow";
+        skos:altLabel          "trait oblique"@fr ;
         skos:definition        "An opening and closing mechanism is present and a single depth interval is sampled by a single net or a net pair. The net is sent down closed, opened by messenger and fished upward at a certain rate.  At a predetermined depth another messenger is sent down to close the nets.  A variation on this is to open the net by messenger and close by flow meter readings.  Examples of gears that can be deployed that way include Clarke-Bumpus nets, Leavitt nets, other opening/closing nets (Wiebe and Benfield 2003, Plates 6 and 8)"@en;
+        skos:definition        "Un mécanisme d'ouverture et de fermeture est présent et un intervalle de profondeur unique est échantillonné par un filet unique ou une paire de filets. Le filet est envoyé fermé, ouvert par messager et pêche vers le haut à un certain taux. À une profondeur prédéterminée, un autre messager est envoyé pour fermer les filets. Une variante consiste à ouvrir le filet par messager et à fermer par relevés de débitmètre. Exemples d'engins déployables de cette façon : filets Clarke-Bumpus, filets Leavitt, autres filets à ouverture/fermeture (Wiebe et Benfield 2003, planches 6 et 8)"@fr ;
         skos:notation          "SDN:B07::NDT013";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Single net stratified oblique tow"@en .
+        skos:prefLabel         "Single net stratified oblique tow"@en ;
+        skos:prefLabel         "filet unique à trait oblique stratifié"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B07/current/NDT014/>
         rdf:type               skos:Concept;
@@ -270,10 +312,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Multiple nets multi-strata oblique tow";
+        skos:altLabel          "filets multiples à trait oblique multi-strates"@fr ;
         skos:definition        "Two or more nets are on the wire at the same time. The nets are sent down closed, opened by messenger sequentially and fish upward at a certain rate. At a predetermined depth another messenger is sent down to close the nets.  A variation on this is to open the nets by messenger and close by flow meter readings.  Examples of nets that can be deployed that way include Clarke-Bumpus net, Leavitt net, other opening/closing nets (Wiebe and Benfield 2003, Plates 6 and 8)."@en;
+        skos:definition        "Deux filets ou plus sont sur le câble en même temps. Les filets sont envoyés fermés, ouverts par messager séquentiellement et pêchent vers le haut à un certain taux. À une profondeur prédéterminée, un autre messager est envoyé pour fermer les filets. Une variante consiste à ouvrir les filets par messager et à fermer par relevés de débitmètre. Exemples de filets déployables de cette façon : filet Clarke-Bumpus, filet Leavitt, autres filets à ouverture/fermeture (Wiebe et Benfield 2003, planches 6 et 8)."@fr ;
         skos:notation          "SDN:B07::NDT014";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Multiple nets stratified oblique tow"@en .
+        skos:prefLabel         "Multiple nets stratified oblique tow"@en ;
+        skos:prefLabel         "filets multiples à trait oblique stratifié"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B07/current/NDT008/>
         rdf:type               skos:Concept;
@@ -287,10 +332,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "W-shape tow";
+        skos:altLabel          "trait en W"@fr ;
         skos:definition        "A single net or net pair is deployed open from a moving platform to a predetermined depth.  It is then returned to the surface (always open).  Without returning the net to the deck, the net starts down again and fishes to the predetermined depth (usually the same depth as the first). If this pattern is repeated more than twice without returning the net to the deck, it becomes a towyo.  This technique is ideal for long integrated tows, i.e. for catching patches of zooplankton. Examples of gears that can be deployed that way include ring nets, Bongo nets, Tucker trawls, and other non-opening closing nets (Wiebe and Benfield 2003, Plates 2 and 3)."@en;
+        skos:definition        "Un filet unique ou une paire de filets est déployé ouvert depuis une plateforme mobile jusqu'à une profondeur prédéterminée. Il est ensuite ramené à la surface (toujours ouvert). Sans ramener le filet sur le pont, le filet redescend et pêche jusqu'à la profondeur prédéterminée (généralement la même profondeur que la première). Si ce schéma est répété plus de deux fois sans ramener le filet sur le pont, cela devient un towyo. Cette technique est idéale pour les longs traits intégrés, c.-à-d. pour capturer les agrégats de zooplancton. Exemples d'engins déployables de cette façon : filets circulaires, filets Bongo, chaluts Tucker et autres filets sans ouverture/fermeture (Wiebe et Benfield 2003, planches 2 et 3)."@fr ;
         skos:notation          "SDN:B07::NDT008";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Single net or net pair double oblique tow"@en .
+        skos:prefLabel         "Single net or net pair double oblique tow"@en ;
+        skos:prefLabel         "filet unique ou paire de filets à double trait oblique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B07/current/NDT019/>
         rdf:type               skos:Concept;
@@ -304,10 +352,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Serial sampler sawtooth tow";
+        skos:altLabel          "échantillonneur sériel à trait oblique en dents de scie"@fr ;
         skos:definition        "Multiple nets are deployed on a single frame with opening and closing capability. In the case of a system like MOCNESS the first net (0) is deployed to a predetermined depth, open. Once at that depth, that net is closed, at the same time opening the second (net 1) net. This net is hauled back to a predetermined shallower depth open and then closed and the next net is opened and sent back to the same depth as the original net and closed and the next net opened, etc. This continues until all the desired sampling is accomplished. (Wiebe, et al., 1992,  Figures 3). For systems like the Multinet, the system can be deployed wihtout a net open and the first net is opened at depth.  This deployment strategy can also be done with a single net with multiple cod-end system. Examples of gears that can be deployed that way include the MOCNESS, the BIONESS, the Multinet, other multiple net or cod-end opening/closing systems (Wiebe and Benfield 2003, Plates 28-31)."@en;
+        skos:definition        "Plusieurs filets sont déployés sur un même châssis avec capacité d'ouverture et de fermeture. Dans le cas d'un système comme le MOCNESS, le premier filet (0) est déployé jusqu'à une profondeur prédéterminée, ouvert. Une fois à cette profondeur, ce filet est fermé, en ouvrant en même temps le deuxième filet (filet 1). Ce filet est halé de retour jusqu'à une profondeur prédéterminée plus faible ouvert puis fermé et le filet suivant est ouvert et renvoyé à la même profondeur que le filet d'origine puis fermé et le filet suivant ouvert, etc. Cela continue jusqu'à ce que tout l'échantillonnage souhaité soit accompli. (Wiebe et al., 1992, figures 3). Pour les systèmes comme le Multinet, le système peut être déployé sans filet ouvert et le premier filet est ouvert à la profondeur. Cette stratégie de déploiement peut aussi être faite avec un filet unique à système multi-codends. Exemples d'engins déployables de cette façon : MOCNESS, BIONESS, Multinet, autres systèmes multi-filets ou à codends à ouverture/fermeture (Wiebe et Benfield 2003, planches 28-31)."@fr ;
         skos:notation          "SDN:B07::NDT019";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Multiple net/multiple cod-end  system oblique horizontal towyo"@en .
+        skos:prefLabel         "Multiple net/multiple cod-end  system oblique horizontal towyo"@en ;
+        skos:prefLabel         "système multi-filets/multi-codends à trait oblique horizontal towyo"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B07/current/NDT023/>
         rdf:type               skos:Concept;
@@ -321,10 +372,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Serial sampler discontinuous stepped oblique tow";
+        skos:altLabel          "échantillonneur sériel à trait oblique discontinu par paliers"@fr ;
         skos:definition        "Multiple nets are deployed on a single frame with opening and closing capability. The net system is deployed to a predetermined depth with the first net either open or closed.  At depth, the first net is opened (if it was closed) or closed (if it was open) and the next net opened in this case.  The open net is towed horizontally for some distance and then closed.  The next net is NOT open upon the previous net's closing.  The net system is raised to another predetermined depth and the next net is open and fishes for some distance/time.  That net is then closed again without opening the next net and raised to a new depth.  The next net is opened at that depth, fishes horizontally for some distance/time. That net is then closed again without opening the next net and raised to a new depth. The next net is opened at that depth, fishes horizontally for some distance/time, and is then closed. This sequence continues until all nets are fished at the specific required depth intervals.  In this deployment configuration, the intervals between depths are NOT sampled. This kind of tow has been done using the \"Macroplankton trawl\" for catching macroplankton and micronekton (Krafft et al. 2010)."@en;
+        skos:definition        "Plusieurs filets sont déployés sur un même châssis avec capacité d'ouverture et de fermeture. Le système de filets est déployé jusqu'à une profondeur prédéterminée avec le premier filet ouvert ou fermé. En profondeur, le premier filet est ouvert (s'il était fermé) ou fermé (s'il était ouvert) et le filet suivant ouvert dans ce cas. Le filet ouvert est halé horizontalement sur une certaine distance puis fermé. Le filet suivant N'EST PAS ouvert à la fermeture du filet précédent. Le système de filets est remonté jusqu'à une autre profondeur prédéterminée et le filet suivant est ouvert et pêche sur une certaine distance/durée. Ce filet est ensuite refermé sans ouvrir le filet suivant et remonté à une nouvelle profondeur. Le filet suivant est ouvert à cette profondeur, pêche horizontalement sur une certaine distance/durée. Ce filet est ensuite refermé sans ouvrir le filet suivant et remonté à une nouvelle profondeur. Le filet suivant est ouvert à cette profondeur, pêche horizontalement sur une certaine distance/durée, puis est fermé. Cette séquence continue jusqu'à ce que tous les filets aient pêché aux intervalles de profondeur spécifiques requis. Dans cette configuration de déploiement, les intervalles entre les profondeurs NE SONT PAS échantillonnés. Ce type de trait a été réalisé avec le « chalut à macroplancton » pour capturer le macroplancton et le micronecton (Krafft et al. 2010)."@fr ;
         skos:notation          "SDN:B07::NDT023";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Multiple net system oblique stepped discontinuous horizontal tow"@en .
+        skos:prefLabel         "Multiple net system oblique stepped discontinuous horizontal tow"@en ;
+        skos:prefLabel         "système multi-filets à trait oblique horizontal discontinu par paliers"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B07/current/NDT024/>
         rdf:type               skos:Concept;
@@ -338,10 +392,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Epibenthic tow";
+        skos:altLabel          "trait épibenthique"@fr ;
         skos:definition        "A net system deployed from a ship, a sledge, a towed body, an autonomous submersible vehicle and towed close to the seabed. Usually horizontal tows, the sample or samples is/are collected while the gear is towed along the bottom of the sea and upward to 100 meters above the bottom. Most gears have opening and closing capability to avoid contamination during deployment or to collect separate discrete samples in a single deployment.  Those towed from sledges originally did not have opening and closing capability, but many were modified later to collect discrete samples. These systems are designed to avoid catching sediment and associated bottom (benthic) fauna. For examples of gears using this type of deployment see Wiebe and Benfield 2003, Plates 6, 8 and 14."@en;
+        skos:definition        "Un système de filets déployé depuis un navire, un traîneau, un corps tracté, un véhicule sous-marin autonome et halé près du fond marin. Généralement des traits horizontaux, l'échantillon ou les échantillons est/sont collecté(s) pendant que l'engin est halé le long du fond de la mer et jusqu'à 100 mètres au-dessus du fond. La plupart des engins ont une capacité d'ouverture et de fermeture pour éviter la contamination pendant le déploiement ou pour collecter des échantillons discrets séparés en un seul déploiement. Ceux tractés par des traîneaux n'avaient à l'origine pas de capacité d'ouverture/fermeture, mais beaucoup ont été modifiés ultérieurement pour collecter des échantillons discrets. Ces systèmes sont conçus pour éviter de capturer les sédiments et la faune benthique associée. Pour des exemples d'engins utilisant ce type de déploiement, voir Wiebe et Benfield 2003, planches 6, 8 et 14."@fr ;
         skos:notation          "SDN:B07::NDT024";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Epibenthic plankton net tow"@en .
+        skos:prefLabel         "Epibenthic plankton net tow"@en ;
+        skos:prefLabel         "filet de plancton épibenthique halé"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B07/current/NDT005/>
         rdf:type               skos:Concept;
@@ -355,10 +412,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Surface tow";
+        skos:altLabel          "trait de surface"@fr ;
         skos:definition        "A particular kind of horizontal tow where the net samples the upper ocean layer close to the surface and not including the air above the water. Once deployed, the gear is towed horizontally at one depth. Examples of gears deployed that way include WP-2, Hensen net, Bongo net, and other non-opening closing nets (Wiebe and Benfield 2003, Plates 1 and 2)."@en;
+        skos:definition        "Un type particulier de trait horizontal où le filet échantillonne la couche océanique supérieure près de la surface sans inclure l'air au-dessus de l'eau. Une fois déployé, l'engin est halé horizontalement à une profondeur. Exemples d'engins déployés de cette façon : WP-2, filet Hensen, filet Bongo et autres filets sans ouverture/fermeture (Wiebe et Benfield 2003, planches 1 et 2)."@fr ;
         skos:notation          "SDN:B07::NDT005";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Single net or net pair surface tow"@en .
+        skos:prefLabel         "Single net or net pair surface tow"@en ;
+        skos:prefLabel         "filet unique ou paire de filets à trait de surface"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B07/current/NDT001/>
         rdf:type               skos:Concept;
@@ -372,10 +432,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Vertical tow";
+        skos:altLabel          "trait vertical"@fr ;
         skos:definition        "The sample is collected between a deeper depth and the surface from a stationary platform; the net is typically lowered to depth and samples on the way up while the gear is being hauled back to the surface. Vertical tows collect vertically integrated samples. No closing mechanism is used. Examples of gears that can be deployed that way include WP-2, Hensen net, Bongo net, and other non-opening closing nets (Wiebe and Benfield  2003, Plates 1 and 2)."@en;
+        skos:definition        "L'échantillon est collecté entre une profondeur plus grande et la surface depuis une plateforme stationnaire ; le filet est typiquement descendu en profondeur et échantillonne à la montée pendant que l'engin est halé de retour vers la surface. Les traits verticaux collectent des échantillons intégrés verticalement. Aucun mécanisme de fermeture n'est utilisé. Exemples d'engins déployables de cette façon : WP-2, filet Hensen, filet Bongo et autres filets sans ouverture/fermeture (Wiebe et Benfield 2003, planches 1 et 2)."@fr ;
         skos:notation          "SDN:B07::NDT001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Single net or net pair vertical tow"@en .
+        skos:prefLabel         "Single net or net pair vertical tow"@en ;
+        skos:prefLabel         "filet unique ou paire de filets à trait vertical"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B07/current/NDT016/>
         rdf:type               skos:Concept;
@@ -389,10 +452,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Serial sampler vertical tow";
+        skos:altLabel          "échantillonneur sériel à trait vertical"@fr ;
         skos:definition        "Multiple nets are deployed on a single frame with opening and closing capabilities.  The ship is stopped.  The nets are sent down closed and opened and closed one at a time as the nets are hauled back to the surface. This is done electronically or with pressure releases.  Examples of gears that can be deployed that way include the Multinet and the Be net."@en;
+        skos:definition        "Plusieurs filets sont déployés sur un même châssis avec capacités d'ouverture et de fermeture. Le navire est à l'arrêt. Les filets sont envoyés fermés et ouverts puis fermés un à un pendant que les filets sont halés de retour vers la surface. Cela se fait électriquement ou avec des libérations par pression. Exemples d'engins déployables de cette façon : le Multinet et le filet Be."@fr ;
         skos:notation          "SDN:B07::NDT016";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Multiple net system vertical stratified tow"@en .
+        skos:prefLabel         "Multiple net system vertical stratified tow"@en ;
+        skos:prefLabel         "système multi-filets à trait vertical stratifié"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B07/current/NDT011/>
         rdf:type               skos:Concept;
@@ -406,10 +472,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Stepped oblique tow";
+        skos:altLabel          "trait oblique par paliers"@fr ;
         skos:definition        "Single net or net pair towed continuously in a stepped horizontal fashion. The sample is collected while the gear is towed from depth to the surface in a succession of horizontal and oblique steps; details related to sampling time at specific depths and the duration of the tow should be included in the cruise metadata. Examples of gears that can be deployed that way include ring nets, Bongo nets, Tucker trawls, IKMTs, or other non-opening closing nets (Wiebe and Benfield 2003, Plates 2 and 3)"@en;
+        skos:definition        "Filet unique ou paire de filets halé en continu de façon horizontale par paliers. L'échantillon est collecté pendant que l'engin est halé de la profondeur vers la surface en une succession de paliers horizontaux et obliques ; les détails relatifs au temps d'échantillonnage à des profondeurs spécifiques et à la durée du trait devraient être inclus dans les métadonnées de campagne. Exemples d'engins déployables de cette façon : filets circulaires, filets Bongo, chaluts Tucker, IKMT ou autres filets sans ouverture/fermeture (Wiebe et Benfield 2003, planches 2 et 3)"@fr ;
         skos:notation          "SDN:B07::NDT011";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Single net or net pair oblique stepped horizontal tow"@en .
+        skos:prefLabel         "Single net or net pair oblique stepped horizontal tow"@en ;
+        skos:prefLabel         "filet unique ou paire de filets à trait oblique horizontal par paliers"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B07/current/NDT021/>
         rdf:type               skos:Concept;
@@ -423,10 +492,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Serial sampler continuous stepped oblique tow";
+        skos:altLabel          "échantillonneur sériel à trait oblique continu par paliers"@fr ;
         skos:definition        "Multiple nets are deployed on a single frame with opening and closing capability. The first net (0) is deployed to a predetermined depth, open. Once at that depth, that net is closed, at the same time opening the second (net 1) net.  This net is towed horizontally for some distance then quickly hauled to some shallower depth (2) where the net is closed and the next net is open. That net is then towed horizontally for some distance then hauled quickly to some shallower depth and closed, the next net open, and so on until all the nets have been fished horizontally over a series of fixed depths. This deployment strategy can also be done with a single net with a multiple cod-end system. Example of gears that can be deployed that way include the MOCNESS, the BIONESS, the Multinet or other multiple net opening/closing systems (Wiebe and Benfield 2003, Plates 28-31)."@en;
+        skos:definition        "Plusieurs filets sont déployés sur un même châssis avec capacité d'ouverture et de fermeture. Le premier filet (0) est déployé jusqu'à une profondeur prédéterminée, ouvert. Une fois à cette profondeur, ce filet est fermé, en ouvrant en même temps le deuxième filet (filet 1). Ce filet est halé horizontalement sur une certaine distance puis rapidement remonté à une profondeur plus faible (2) où le filet est fermé et le filet suivant ouvert. Ce filet est ensuite halé horizontalement sur une certaine distance puis rapidement remonté à une profondeur plus faible et fermé, le filet suivant ouvert, et ainsi de suite jusqu'à ce que tous les filets aient pêché horizontalement sur une série de profondeurs fixes. Cette stratégie de déploiement peut aussi être faite avec un filet unique à système multi-codends. Exemple d'engins déployables de cette façon : MOCNESS, BIONESS, Multinet ou autres systèmes multi-filets à ouverture/fermeture (Wiebe et Benfield 2003, planches 28-31)."@fr ;
         skos:notation          "SDN:B07::NDT021";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Multiple net/multiple cod-end system oblique stepped continuous horizontal tow"@en .
+        skos:prefLabel         "Multiple net/multiple cod-end system oblique stepped continuous horizontal tow"@en ;
+        skos:prefLabel         "système multi-filets/multi-codends à trait oblique horizontal continu par paliers"@fr .
 
 <http://vocab.nerc.ac.uk/collection/B07/current/>
         rdf:type                skos:Collection;
@@ -442,5 +514,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "British Oceanographic Data Centre";
         owl:versionInfo         "1";
         skos:altLabel           "Net deployment vocabulary";
+        skos:altLabel           "vocabulaire de déploiement d'engins d'échantillonnage"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/B07/current/NDT017/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT006/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT009/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT007/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT020/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT022/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT018/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT004/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT015/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT012/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT002/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT010/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT003/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT013/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT014/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT008/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT019/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT023/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT024/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT005/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT001/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT016/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT021/> , <http://vocab.nerc.ac.uk/collection/B07/current/NDT011/>;
-        skos:prefLabel          "Sampling net gear deployment vocabulary" .
+        skos:prefLabel          "Sampling net gear deployment vocabulary" ;
+        skos:prefLabel          "vocabulaire de déploiement des engins d'échantillonnage par filets SeaDataNet"@fr .
