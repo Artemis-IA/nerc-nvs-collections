@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "RaggedSectionFt";
+        skos:altLabel          "RaggedSectionFt"@fr ;
         skos:definition        "A series of unequal-length profile measurements taken vertically from a location moving along a path in time and space."@en;
+        skos:definition        "Une série de mesures de profils de longueurs inégales prises verticalement depuis un lieu se déplaçant le long d'une trajectoire dans le temps et l'espace."@fr ;
         skos:notation          "SDN:N03::RSectF";
         skos:note              "accepted"@en;
-        skos:prefLabel         "RaggedSectionFeature"@en .
+        skos:prefLabel         "RaggedSectionFeature"@en ;
+        skos:prefLabel         "RaggedSectionFeature (section irrégulière)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N03/current/RProfSF/>
         rdf:type               skos:Concept;
@@ -49,10 +52,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "RaggedProfileSeriesFt";
+        skos:altLabel          "RaggedProfileSeriesFt"@fr ;
         skos:definition        "A time series of unequal-length profiles measurements along a fixed vertical line in space."@en;
+        skos:definition        "Une série temporelle de mesures de profils de longueurs inégales le long d'une ligne verticale fixe dans l'espace."@fr ;
         skos:notation          "SDN:N03::RProfSF";
         skos:note              "accepted"@en;
-        skos:prefLabel         "RaggedProfileSeriesFeature"@en .
+        skos:prefLabel         "RaggedProfileSeriesFeature"@en ;
+        skos:prefLabel         "RaggedProfileSeriesFeature (série de profils irréguliers)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N03/current/PointSF/>
         rdf:type               skos:Concept;
@@ -66,10 +72,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "PointSeriesFt";
+        skos:altLabel          "PointSeriesFt"@fr ;
         skos:definition        "A time series of point measurements of some phenomenon at a single location in space."@en;
+        skos:definition        "Une série temporelle de mesures ponctuelles d'un phénomène en un seul lieu de l'espace."@fr ;
         skos:notation          "SDN:N03::PointSF";
         skos:note              "accepted"@en;
-        skos:prefLabel         "PointSeriesFeature"@en .
+        skos:prefLabel         "PointSeriesFeature"@en ;
+        skos:prefLabel         "PointSeriesFeature (série de points)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N03/current/TrajF/>
         rdf:type               skos:Concept;
@@ -83,10 +92,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "TrajectoryFt";
+        skos:altLabel          "TrajectoryFt"@fr ;
         skos:definition        "A measurement of some phenomenon along a path in time and space"@en;
+        skos:definition        "Une mesure d'un phénomène le long d'une trajectoire dans le temps et l'espace"@fr ;
         skos:notation          "SDN:N03::TrajF";
         skos:note              "accepted"@en;
-        skos:prefLabel         "TrajectoryFeature"@en .
+        skos:prefLabel         "TrajectoryFeature"@en ;
+        skos:prefLabel         "TrajectoryFeature (trajectoire)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N03/current/PointF/>
         rdf:type               skos:Concept;
@@ -100,10 +112,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "PointFt";
+        skos:altLabel          "PointFt"@fr ;
         skos:definition        "A single point measurement of some phenomenon at a single location in space and time."@en;
+        skos:definition        "Une mesure ponctuelle unique d'un phénomène en un seul lieu de l'espace et du temps."@fr ;
         skos:notation          "SDN:N03::PointF";
         skos:note              "accepted"@en;
-        skos:prefLabel         "PointFeature"@en .
+        skos:prefLabel         "PointFeature"@en ;
+        skos:prefLabel         "PointFeature (point)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N03/current/ProfSF/>
         rdf:type               skos:Concept;
@@ -117,10 +132,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "ProfileSeriesFt";
+        skos:altLabel          "ProfileSeriesFt"@fr ;
         skos:definition        "A time series of equal-length profiles measured along a fixed vertical line in space."@en;
+        skos:definition        "Une série temporelle de profils de longueur égale mesurés le long d'une ligne verticale fixe dans l'espace."@fr ;
         skos:notation          "SDN:N03::ProfSF";
         skos:note              "accepted"@en;
-        skos:prefLabel         "ProfileSeriesFeature"@en .
+        skos:prefLabel         "ProfileSeriesFeature"@en ;
+        skos:prefLabel         "ProfileSeriesFeature (série de profils)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N03/current/SRadarF/>
         rdf:type               skos:Concept;
@@ -134,10 +152,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "ScanningRadarFt";
+        skos:altLabel          "ScanningRadarFt"@fr ;
         skos:definition        "The measurement of some phenomenon by a scanning radar."@en;
+        skos:definition        "La mesure d'un phénomène par un radar à balayage."@fr ;
         skos:notation          "SDN:N03::SRadarF";
         skos:note              "accepted"@en;
-        skos:prefLabel         "ScanningRadarFeature"@en .
+        skos:prefLabel         "ScanningRadarFeature"@en ;
+        skos:prefLabel         "ScanningRadarFeature (radar à balayage)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N03/current/GridF/>
         rdf:type               skos:Concept;
@@ -151,10 +172,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "GridFt";
+        skos:altLabel          "GridFt"@fr ;
         skos:definition        "A single time-snapshot of a gridded parameter field."@en;
+        skos:definition        "Un instantané unique d'un champ de paramètre maillé."@fr ;
         skos:notation          "SDN:N03::GridF";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GridFeature"@en .
+        skos:prefLabel         "GridFeature"@en ;
+        skos:prefLabel         "GridFeature (grille)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N03/current/GridSF/>
         rdf:type               skos:Concept;
@@ -168,10 +192,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "GridSeriesFt";
+        skos:altLabel          "GridSeriesFt"@fr ;
         skos:definition        "A timeseries of gridded parameter fields."@en;
+        skos:definition        "Une série temporelle de champs de paramètres maillés."@fr ;
         skos:notation          "SDN:N03::GridSF";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GridSeriesFeature"@en .
+        skos:prefLabel         "GridSeriesFeature"@en ;
+        skos:prefLabel         "GridSeriesFeature (série de grilles)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N03/current/SectF/>
         rdf:type               skos:Concept;
@@ -185,10 +212,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "SectionFt";
+        skos:altLabel          "SectionFt"@fr ;
         skos:definition        "A series of equal-length profile measurements taken vertically from a location moving along a path in time and space."@en;
+        skos:definition        "Une série de mesures de profils de longueur égale prises verticalement depuis un lieu se déplaçant le long d'une trajectoire dans le temps et l'espace."@fr ;
         skos:notation          "SDN:N03::SectF";
         skos:note              "accepted"@en;
-        skos:prefLabel         "SectionFeature"@en .
+        skos:prefLabel         "SectionFeature"@en ;
+        skos:prefLabel         "SectionFeature (section)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N03/current/ProfileF/>
         rdf:type               skos:Concept;
@@ -202,10 +232,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "ProfileFt";
+        skos:altLabel          "ProfileFt"@fr ;
         skos:definition        "Multiple measurements of some phenomenon along a directed vertical line in space."@en;
+        skos:definition        "Multiples mesures d'un phénomène le long d'une ligne verticale orientée dans l'espace."@fr ;
         skos:notation          "SDN:N03::ProfileF";
         skos:note              "accepted"@en;
-        skos:prefLabel         "ProfileFeature"@en .
+        skos:prefLabel         "ProfileFeature"@en ;
+        skos:prefLabel         "ProfileFeature (profil)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N03/current/SwathF/>
         rdf:type               skos:Concept;
@@ -219,10 +252,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "SwathFt";
+        skos:altLabel          "SwathFt"@fr ;
         skos:definition        "A single satellite swath describing some measured phenomenon."@en;
+        skos:definition        "Un passage unique de satellite décrivant un phénomène mesuré."@fr ;
         skos:notation          "SDN:N03::SwathF";
         skos:note              "accepted"@en;
-        skos:prefLabel         "SwathFeature"@en .
+        skos:prefLabel         "SwathFeature"@en ;
+        skos:prefLabel         "SwathFeature (fauchée)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N03/current/>
         rdf:type                skos:Collection;
@@ -237,5 +273,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Natural Environment Research Council";
         owl:versionInfo         "1";
         skos:altLabel           "CSML feature types";
+        skos:altLabel           "types de features CSML"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/N03/current/RSectF/> , <http://vocab.nerc.ac.uk/collection/N03/current/RProfSF/> , <http://vocab.nerc.ac.uk/collection/N03/current/PointSF/> , <http://vocab.nerc.ac.uk/collection/N03/current/TrajF/> , <http://vocab.nerc.ac.uk/collection/N03/current/PointF/> , <http://vocab.nerc.ac.uk/collection/N03/current/ProfSF/> , <http://vocab.nerc.ac.uk/collection/N03/current/SRadarF/> , <http://vocab.nerc.ac.uk/collection/N03/current/GridF/> , <http://vocab.nerc.ac.uk/collection/N03/current/GridSF/> , <http://vocab.nerc.ac.uk/collection/N03/current/SwathF/> , <http://vocab.nerc.ac.uk/collection/N03/current/ProfileF/> , <http://vocab.nerc.ac.uk/collection/N03/current/SectF/>;
-        skos:prefLabel          "Climate Science Modelling Language supported feature types" .
+        skos:prefLabel          "Climate Science Modelling Language supported feature types" ;
+        skos:prefLabel          "types de features pris en charge par Climate Science Modelling Language"@fr .

@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Measurements along a trajectory."@en;
+        skos:definition        "Mesures le long d'une trajectoire."@fr ;
         skos:notation          "SDN:EL2::pro11";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Transect"@en .
+        skos:prefLabel         "Transect"@en ;
+        skos:prefLabel         "transect"@fr .
 
 <http://vocab.nerc.ac.uk/collection/EL2/current/pro21/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A period of operation of a platform from port to port which may or may not hold scientific activities."@en;
+        skos:definition        "Période d'exploitation d'une plateforme d'un port à l'autre qui peut ou non comporter des activités scientifiques."@fr ;
         skos:notation          "SDN:EL2::pro21";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Leg"@en .
+        skos:prefLabel         "Leg"@en ;
+        skos:prefLabel         "étape"@fr .
 
 <http://vocab.nerc.ac.uk/collection/EL2/current/pro1/>
         rdf:type               skos:Concept;
@@ -67,9 +71,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Collection of a physical sample from a matrix (water, sediment, air, biological, etc)."@en;
+        skos:definition        "Collecte d'un échantillon physique dans une matrice (eau, sédiment, air, biologique, etc.)."@fr ;
         skos:notation          "SDN:EL2::pro1";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Sample collection"@en .
+        skos:prefLabel         "Sample collection"@en ;
+        skos:prefLabel         "collecte d'échantillon"@fr .
 
 <http://vocab.nerc.ac.uk/collection/EL2/current/pro4/>
         rdf:type               skos:Concept;
@@ -84,9 +90,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "General failure of a device to function normally for a period of time."@en;
+        skos:definition        "Défaillance générale d'un dispositif à fonctionner normalement pendant une période."@fr ;
         skos:notation          "SDN:EL2::pro4";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Malfunction"@en .
+        skos:prefLabel         "Malfunction"@en ;
+        skos:prefLabel         "dysfonctionnement"@fr .
 
 <http://vocab.nerc.ac.uk/collection/EL2/current/pro22/>
         rdf:type               skos:Concept;
@@ -101,9 +109,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The deployment of equipment (e.g. mooring, benthic lander, AUVs, gliders, etc.)."@en;
+        skos:definition        "Le déploiement d'équipement (par ex. mouillage, atterrisseur benthique, AUV, planeurs, etc.)."@fr ;
         skos:notation          "SDN:EL2::pro22";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Deployment"@en .
+        skos:prefLabel         "Deployment"@en ;
+        skos:prefLabel         "déploiement"@fr .
 
 <http://vocab.nerc.ac.uk/collection/EL2/current/pro2/>
         rdf:type               skos:Concept;
@@ -117,10 +127,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Logging";
+        skos:altLabel          "journalisation"@fr ;
         skos:definition        "Capturing data on a storage medium."@en;
+        skos:definition        "Capture de données sur un support de stockage."@fr ;
         skos:notation          "SDN:EL2::pro2";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Recording"@en .
+        skos:prefLabel         "Recording"@en ;
+        skos:prefLabel         "enregistrement"@fr .
 
 <http://vocab.nerc.ac.uk/collection/EL2/current/pro16/>
         rdf:type               skos:Concept;
@@ -134,10 +147,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Embark";
+        skos:altLabel          "embarquement"@fr ;
         skos:definition        "To board and load the vessel."@en;
+        skos:definition        "Embarquer et charger le navire."@fr ;
         skos:notation          "SDN:EL2::pro16";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Mobilisation"@en .
+        skos:prefLabel         "Mobilisation"@en ;
+        skos:prefLabel         "mobilisation"@fr .
 
 <http://vocab.nerc.ac.uk/collection/EL2/current/pro17/>
         rdf:type               skos:Concept;
@@ -151,10 +167,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Disembark";
+        skos:altLabel          "débarquement"@fr ;
         skos:definition        "To leave and unload a vessel."@en;
+        skos:definition        "Quitter et décharger un navire."@fr ;
         skos:notation          "SDN:EL2::pro17";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Demobilisation"@en .
+        skos:prefLabel         "Demobilisation"@en ;
+        skos:prefLabel         "démobilisation"@fr .
 
 <http://vocab.nerc.ac.uk/collection/EL2/current/pro7/>
         rdf:type               skos:Concept;
@@ -169,9 +188,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Bringing a device from a passive state into a working state."@en;
+        skos:definition        "Passer un dispositif de l'état passif à l'état de fonctionnement."@fr ;
         skos:notation          "SDN:EL2::pro7";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Initialisation"@en .
+        skos:prefLabel         "Initialisation"@en ;
+        skos:prefLabel         "initialisation"@fr .
 
 <http://vocab.nerc.ac.uk/collection/EL2/current/pro13/>
         rdf:type               skos:Concept;
@@ -186,9 +207,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Measurements along a vertical line."@en;
+        skos:definition        "Mesures le long d'une ligne verticale."@fr ;
         skos:notation          "SDN:EL2::pro13";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Profile"@en .
+        skos:prefLabel         "Profile"@en ;
+        skos:prefLabel         "profil"@fr .
 
 <http://vocab.nerc.ac.uk/collection/EL2/current/pro18/>
         rdf:type               skos:Concept;
@@ -203,9 +226,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Adjusting the position of a platform that have deviated from its desired location."@en;
+        skos:definition        "Ajuster la position d'une plateforme qui a dévié de son emplacement souhaité."@fr ;
         skos:notation          "SDN:EL2::pro18";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Repositioning"@en .
+        skos:prefLabel         "Repositioning"@en ;
+        skos:prefLabel         "repositionnement"@fr .
 
 <http://vocab.nerc.ac.uk/collection/EL2/current/pro8/>
         rdf:type               skos:Concept;
@@ -220,9 +245,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Visual sighting of a natural phenomenon (e.g. marine mammals, birds or weather observation)."@en;
+        skos:definition        "Observation visuelle d'un phénomène naturel (par ex. mammifères marins, oiseaux ou observation météo)."@fr ;
         skos:notation          "SDN:EL2::pro8";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Observation"@en .
+        skos:prefLabel         "Observation"@en ;
+        skos:prefLabel         "observation"@fr .
 
 <http://vocab.nerc.ac.uk/collection/EL2/current/pro6/>
         rdf:type               skos:Concept;
@@ -237,9 +264,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Comparison of measurement values delivered by a device under test with a calibration standard."@en;
+        skos:definition        "Comparaison des valeurs de mesure délivrées par un dispositif testé avec un étalon d'étalonnage."@fr ;
         skos:notation          "SDN:EL2::pro6";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Calibration"@en .
+        skos:prefLabel         "Calibration"@en ;
+        skos:prefLabel         "étalonnage"@fr .
 
 <http://vocab.nerc.ac.uk/collection/EL2/current/pro23/>
         rdf:type               skos:Concept;
@@ -254,9 +283,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The recovery of equipment."@en;
+        skos:definition        "La récupération d'équipement."@fr ;
         skos:notation          "SDN:EL2::pro23";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Recovery"@en .
+        skos:prefLabel         "Recovery"@en ;
+        skos:prefLabel         "récupération"@fr .
 
 <http://vocab.nerc.ac.uk/collection/EL2/current/pro3/>
         rdf:type               skos:Concept;
@@ -271,9 +302,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Platform at planned position for measurements and/or sample collection."@en;
+        skos:definition        "Plateforme à la position prévue pour les mesures et/ou la collecte d'échantillons."@fr ;
         skos:notation          "SDN:EL2::pro3";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Station"@en .
+        skos:prefLabel         "Station"@en ;
+        skos:prefLabel         "station"@fr .
 
 <http://vocab.nerc.ac.uk/collection/EL2/current/pro20/>
         rdf:type               skos:Concept;
@@ -287,10 +320,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Campaign";
+        skos:altLabel          "campagne"@fr ;
         skos:definition        "Determined period of ship time between two harbours on a specific vessel during which one or more scientific research programmes are performed. The vessel can port the same or additional harbours during this period."@en;
+        skos:definition        "Période déterminée de temps navire entre deux ports sur un navire spécifique pendant laquelle un ou plusieurs programmes de recherche scientifique sont réalisés. Le navire peut faire escale aux mêmes ports ou à des ports supplémentaires pendant cette période."@fr ;
         skos:notation          "SDN:EL2::pro20";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Cruise"@en .
+        skos:prefLabel         "Cruise"@en ;
+        skos:prefLabel         "campagne"@fr .
 
 <http://vocab.nerc.ac.uk/collection/EL2/current/>
         rdf:type                skos:Collection;
@@ -307,5 +343,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "SeaDataNet and MarineXML Vocabulary Content Governance Group";
         owl:versionInfo         "1";
         skos:altLabel           "Platform Event Processes";
+        skos:altLabel           "processus d'événements de plateforme"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/EL2/current/pro11/> , <http://vocab.nerc.ac.uk/collection/EL2/current/pro21/> , <http://vocab.nerc.ac.uk/collection/EL2/current/pro1/> , <http://vocab.nerc.ac.uk/collection/EL2/current/pro4/> , <http://vocab.nerc.ac.uk/collection/EL2/current/pro22/> , <http://vocab.nerc.ac.uk/collection/EL2/current/pro2/> , <http://vocab.nerc.ac.uk/collection/EL2/current/pro16/> , <http://vocab.nerc.ac.uk/collection/EL2/current/pro17/> , <http://vocab.nerc.ac.uk/collection/EL2/current/pro7/> , <http://vocab.nerc.ac.uk/collection/EL2/current/pro13/> , <http://vocab.nerc.ac.uk/collection/EL2/current/pro18/> , <http://vocab.nerc.ac.uk/collection/EL2/current/pro8/> , <http://vocab.nerc.ac.uk/collection/EL2/current/pro6/> , <http://vocab.nerc.ac.uk/collection/EL2/current/pro23/> , <http://vocab.nerc.ac.uk/collection/EL2/current/pro3/> , <http://vocab.nerc.ac.uk/collection/EL2/current/pro20/>;
-        skos:prefLabel          "SeaVoX Sampling and Observation Platform Event Processes" .
+        skos:prefLabel          "SeaVoX Sampling and Observation Platform Event Processes" ;
+        skos:prefLabel          "processus d'événements d'échantillonnage et d'observation de plateforme SeaVoX"@fr .
