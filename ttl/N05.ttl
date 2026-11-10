@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "MEDIN-V2-3-7";
+        skos:altLabel          "MEDIN-V2-3-7"@fr ;
         skos:definition        "{\"metadataStandardName\":\"MEDIN Discovery Metadata Standard\",\"metadataStandardVersion\":\"Version 2.3.7\"}"@en;
+        skos:definition        "{\"metadataStandardName\": \"Norme de métadonnées de découverte MEDIN\", \"metadataStandardVersion\": \"Version 2.3.7\"}"@fr ;
         skos:notation          "SDN:N05::MSTD0004";
         skos:note              "accepted"@en;
-        skos:prefLabel         "MEDIN Discovery Metadata Standard Version 2.3.7"@en .
+        skos:prefLabel         "MEDIN Discovery Metadata Standard Version 2.3.7"@en ;
+        skos:prefLabel         "norme de métadonnées de découverte MEDIN version 2.3.7"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N05/current/MSTD0002/>
         rdf:type               skos:Concept;
@@ -50,10 +53,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "NERC-V1-0";
+        skos:altLabel          "NERC-V1-0"@fr ;
         skos:definition        "{\"metadataStandardName\":\"NERC profile of ISO19115:2003\",\"metadataStandardVersion\":\"Version 1.0\"}"@en;
+        skos:definition        "{\"metadataStandardName\": \"Profil NERC d'ISO19115:2003\", \"metadataStandardVersion\": \"Version 1.0\"}"@fr ;
         skos:notation          "SDN:N05::MSTD0002";
         skos:note              "accepted"@en;
-        skos:prefLabel         "NERC profile of ISO19115:2003 Version 1.0"@en .
+        skos:prefLabel         "NERC profile of ISO19115:2003 Version 1.0"@en ;
+        skos:prefLabel         "profil NERC d'ISO19115:2003 version 1.0"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N05/current/MSTD0003/>
         rdf:type               skos:Concept;
@@ -67,10 +73,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "MEDIN-V2-3-6";
+        skos:altLabel          "MEDIN-V2-3-6"@fr ;
         skos:definition        "{\"metadataStandardName\":\"MEDIN Discovery Metadata Standard\",\"metadataStandardVersion\":\"Version 2.3.6\"}"@en;
+        skos:definition        "{\"metadataStandardName\": \"Norme de métadonnées de découverte MEDIN\", \"metadataStandardVersion\": \"Version 2.3.6\"}"@fr ;
         skos:notation          "SDN:N05::MSTD0003";
         skos:note              "accepted"@en;
-        skos:prefLabel         "MEDIN Discovery Metadata Standard Version 2.3.6"@en .
+        skos:prefLabel         "MEDIN Discovery Metadata Standard Version 2.3.6"@en ;
+        skos:prefLabel         "norme de métadonnées de découverte MEDIN version 2.3.6"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N05/current/MSTD0005/>
         rdf:type               skos:Concept;
@@ -84,10 +93,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "MEDIN-V2-3-8";
+        skos:altLabel          "MEDIN-V2-3-8"@fr ;
         skos:definition        "{\"metadataStandardName\":\"MEDIN Discovery Metadata Standard\",\"metadataStandardVersion\":\"Version 2.3.8\"}"@en;
+        skos:definition        "{\"metadataStandardName\": \"Norme de métadonnées de découverte MEDIN\", \"metadataStandardVersion\": \"Version 2.3.8\"}"@fr ;
         skos:notation          "SDN:N05::MSTD0005";
         skos:note              "accepted"@en;
-        skos:prefLabel         "MEDIN Discovery Metadata Standard Version 2.3.8"@en .
+        skos:prefLabel         "MEDIN Discovery Metadata Standard Version 2.3.8"@en ;
+        skos:prefLabel         "norme de métadonnées de découverte MEDIN version 2.3.8"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N05/current/MSTD0001/>
         rdf:type               skos:Concept;
@@ -102,10 +114,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "MEDIN-V2-3-5";
+        skos:altLabel          "MEDIN-V2-3-5"@fr ;
         skos:definition        "{\"metadataStandardName\":\"MEDIN Discovery Metadata Standard\",\"metadataStandardVersion\":\"Version 2.3.5\"}"@en;
+        skos:definition        "{\"metadataStandardName\": \"Norme de métadonnées de découverte MEDIN\", \"metadataStandardVersion\": \"Version 2.3.5\"}"@fr ;
         skos:notation          "SDN:N05::MSTD0001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "MEDIN Discovery Metadata Standard Version 2.3.5"@en .
+        skos:prefLabel         "MEDIN Discovery Metadata Standard Version 2.3.5"@en ;
+        skos:prefLabel         "norme de métadonnées de découverte MEDIN version 2.3.5"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N05/current/>
         rdf:type                skos:Collection;
@@ -120,5 +135,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Natural Environment Research Council";
         owl:versionInfo         "3";
         skos:altLabel           "NERC DDS input standards";
+        skos:altLabel           "normes d'entrée du service de découverte de données NERC"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/N05/current/MSTD0004/> , <http://vocab.nerc.ac.uk/collection/N05/current/MSTD0002/> , <http://vocab.nerc.ac.uk/collection/N05/current/MSTD0001/> , <http://vocab.nerc.ac.uk/collection/N05/current/MSTD0005/> , <http://vocab.nerc.ac.uk/collection/N05/current/MSTD0003/>;
-        skos:prefLabel          "NERC data discovery service input metadata document standards" .
+        skos:prefLabel          "NERC data discovery service input metadata document standards" ;
+        skos:prefLabel          "normes de documents de métadonnées d'entrée du service de découverte de données NERC"@fr .

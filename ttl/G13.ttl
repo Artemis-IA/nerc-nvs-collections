@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Element along a scan line"@en;
+        skos:definition        "Élément le long d'une ligne de balayage."@fr ;
         skos:notation          "SDN:G13::007";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sample"@en .
+        skos:prefLabel         "sample"@en ;
+        skos:prefLabel         "échantillon"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G13/current/005/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Perpendicular to the direction of motion of the scan point"@en;
+        skos:definition        "Perpendiculaire à la direction de mouvement du point de balayage."@fr ;
         skos:notation          "SDN:G13::005";
         skos:note              "accepted"@en;
-        skos:prefLabel         "crossTrack"@en .
+        skos:prefLabel         "crossTrack"@en ;
+        skos:prefLabel         "crossTrack (travers)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G13/current/002/>
         rdf:type               skos:Concept;
@@ -67,9 +71,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Abscissa (x) axis"@en;
+        skos:definition        "Axe des abscisses (x)."@fr ;
         skos:notation          "SDN:G13::002";
         skos:note              "accepted"@en;
-        skos:prefLabel         "column"@en .
+        skos:prefLabel         "column"@en ;
+        skos:prefLabel         "colonne"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G13/current/003/>
         rdf:type               skos:Concept;
@@ -84,9 +90,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Vertical (z) axis"@en;
+        skos:definition        "Axe vertical (z)."@fr ;
         skos:notation          "SDN:G13::003";
         skos:note              "accepted"@en;
-        skos:prefLabel         "vertical"@en .
+        skos:prefLabel         "vertical"@en ;
+        skos:prefLabel         "vertical"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G13/current/008/>
         rdf:type               skos:Concept;
@@ -101,9 +109,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Duration"@en;
+        skos:definition        "Durée."@fr ;
         skos:notation          "SDN:G13::008";
         skos:note              "accepted"@en;
-        skos:prefLabel         "time"@en .
+        skos:prefLabel         "time"@en ;
+        skos:prefLabel         "temps"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G13/current/006/>
         rdf:type               skos:Concept;
@@ -118,9 +128,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Scan line of a sensor"@en;
+        skos:definition        "Ligne de balayage d'un capteur."@fr ;
         skos:notation          "SDN:G13::006";
         skos:note              "accepted"@en;
-        skos:prefLabel         "line"@en .
+        skos:prefLabel         "line"@en ;
+        skos:prefLabel         "ligne"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G13/current/001/>
         rdf:type               skos:Concept;
@@ -135,9 +147,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Ordinate (y) axis"@en;
+        skos:definition        "Axe des ordonnées (y)."@fr ;
         skos:notation          "SDN:G13::001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "row"@en .
+        skos:prefLabel         "row"@en ;
+        skos:prefLabel         "ligne (rangée)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G13/current/004/>
         rdf:type               skos:Concept;
@@ -152,9 +166,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Along the direction of motion of the scan point"@en;
+        skos:definition        "Le long de la direction de mouvement du point de balayage."@fr ;
         skos:notation          "SDN:G13::004";
         skos:note              "accepted"@en;
-        skos:prefLabel         "track"@en .
+        skos:prefLabel         "track"@en ;
+        skos:prefLabel         "piste"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G13/current/>
         rdf:type                skos:Collection;
@@ -169,5 +185,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "International Organization for Standardization";
         owl:versionInfo         "1";
         skos:altLabel           "MD_DimensionNameTypeCode ";
+        skos:altLabel           "MD_DimensionNameTypeCode (code de nom de dimension)"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/G13/current/007/> , <http://vocab.nerc.ac.uk/collection/G13/current/005/> , <http://vocab.nerc.ac.uk/collection/G13/current/002/> , <http://vocab.nerc.ac.uk/collection/G13/current/003/> , <http://vocab.nerc.ac.uk/collection/G13/current/008/> , <http://vocab.nerc.ac.uk/collection/G13/current/004/> , <http://vocab.nerc.ac.uk/collection/G13/current/001/> , <http://vocab.nerc.ac.uk/collection/G13/current/006/>;
-        skos:prefLabel          "MD_DimensionNameTypeCode " .
+        skos:prefLabel          "MD_DimensionNameTypeCode " ;
+        skos:prefLabel          "MD_DimensionNameTypeCode (code de nom de dimension)"@fr .

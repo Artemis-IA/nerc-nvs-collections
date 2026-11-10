@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A discharge from temporary structure from land into the sea (e.g. oil washed into the sea from a jetty or promenade)"@en;
+        skos:definition        "Un rejet depuis une structure temporaire du continent vers la mer (par ex. pétrole entraîné dans la mer depuis une jetée ou un boulevard maritime)."@fr ;
         skos:notation          "SDN:C41::PEST06";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Temporary Coastal Discharge"@en .
+        skos:prefLabel         "Temporary Coastal Discharge"@en ;
+        skos:prefLabel         "rejet côtier temporaire"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C41/current/PESTUK/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The correct value is not known to, and not computable by, the creator of this information. However, a correct value probably exists."@en;
+        skos:definition        "La valeur correcte n'est pas connue du, et pas calculable par, le créateur de cette information. Cependant, une valeur correcte existe probablement."@fr ;
         skos:notation          "SDN:C41::PESTUK";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Unknown"@en .
+        skos:prefLabel         "Unknown"@en ;
+        skos:prefLabel         "inconnu"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C41/current/PESTNA/>
         rdf:type               skos:Concept;
@@ -68,9 +72,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "2";
         skos:altLabel          "";
         skos:definition        "There is no appropriate value."@en;
+        skos:definition        "Il n'existe pas de valeur appropriée."@fr ;
         skos:notation          "SDN:C41::PESTNA";
         skos:note              "accepted"@en;
-        skos:prefLabel         "inapplicable"@en .
+        skos:prefLabel         "inapplicable"@en ;
+        skos:prefLabel         "non applicable"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C41/current/PEST07/>
         rdf:type               skos:Concept;
@@ -85,9 +91,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A discharge from a fixed structure permanently connected to land into the sea (e.g. a sewage outfall or industrial pipe discharge)"@en;
+        skos:definition        "Un rejet depuis une structure fixe définitivement connectée au continent vers la mer (par ex. un émissaire d'eaux usées ou un rejet de canalisation industrielle)."@fr ;
         skos:notation          "SDN:C41::PEST07";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Fixed Coastal Discharge"@en .
+        skos:prefLabel         "Fixed Coastal Discharge"@en ;
+        skos:prefLabel         "rejet côtier fixe"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C41/current/PEST01/>
         rdf:type               skos:Concept;
@@ -102,9 +110,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Platforms fixed to the seabed and used for the extraction of oil and gas"@en;
+        skos:definition        "Plateformes fixées au fond marin et utilisées pour l'extraction de pétrole et de gaz."@fr ;
         skos:notation          "SDN:C41::PEST01";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Oil and Gas Platforms"@en .
+        skos:prefLabel         "Oil and Gas Platforms"@en ;
+        skos:prefLabel         "plateformes pétrolières et gazières"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C41/current/PEST02/>
         rdf:type               skos:Concept;
@@ -119,9 +129,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A large platform operating on the surface of the water column. Objective definitions for guidelines: >50m length (EU),"@en;
+        skos:definition        "Une grande plateforme opérant à la surface de la colonne d'eau. Définitions objectives pour les directives : longueur >50 m (UE)."@fr ;
         skos:notation          "SDN:C41::PEST02";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Ship"@en .
+        skos:prefLabel         "Ship"@en ;
+        skos:prefLabel         "navire"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C41/current/PEST03/>
         rdf:type               skos:Concept;
@@ -136,9 +148,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A platform operating on the surface of the water column whose primary purpose is the commercial harevsting of fish or shellfish but may be engaged in scientific activities such as fish stock surveys or mooring deployments and recoveries"@en;
+        skos:definition        "Une plateforme opérant à la surface de la colonne d'eau dont l'objectif principal est la pêche commerciale de poissons ou de crustacés, mais qui peut être engagée dans des activités scientifiques telles que des campagnes d'évaluation des stocks de poissons ou des déploiements et récupérations de mouillages."@fr ;
         skos:notation          "SDN:C41::PEST03";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Fishing Vessel"@en .
+        skos:prefLabel         "Fishing Vessel"@en ;
+        skos:prefLabel         "navire de pêche"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C41/current/PEST04/>
         rdf:type               skos:Concept;
@@ -153,9 +167,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A small platform operating on the surface of the water column. Objective definitions for guidelines: <50m length (EU),"@en;
+        skos:definition        "Une petite plateforme opérant à la surface de la colonne d'eau. Définitions objectives pour les directives : longueur <50 m (UE)."@fr ;
         skos:notation          "SDN:C41::PEST04";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Boat"@en .
+        skos:prefLabel         "Boat"@en ;
+        skos:prefLabel         "bateau"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C41/current/PEST05/>
         rdf:type               skos:Concept;
@@ -170,9 +186,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A fixed-wing self-propelled aircraft."@en;
+        skos:definition        "Un aéronef à voilure fixe autopropulsé."@fr ;
         skos:notation          "SDN:C41::PEST05";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Aeroplane"@en .
+        skos:prefLabel         "Aeroplane"@en ;
+        skos:prefLabel         "avion"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C41/current/>
         rdf:type                skos:Collection;
@@ -188,5 +206,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "British Oceanographic Data Centre";
         owl:versionInfo         "2";
         skos:altLabel           "POLREP sources";
+        skos:altLabel           "sources POLREP"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/C41/current/PEST06/> , <http://vocab.nerc.ac.uk/collection/C41/current/PESTUK/> , <http://vocab.nerc.ac.uk/collection/C41/current/PESTNA/> , <http://vocab.nerc.ac.uk/collection/C41/current/PEST07/> , <http://vocab.nerc.ac.uk/collection/C41/current/PEST01/> , <http://vocab.nerc.ac.uk/collection/C41/current/PEST02/> , <http://vocab.nerc.ac.uk/collection/C41/current/PEST03/> , <http://vocab.nerc.ac.uk/collection/C41/current/PEST05/> , <http://vocab.nerc.ac.uk/collection/C41/current/PEST04/>;
-        skos:prefLabel          "BODC marine pollution sources" .
+        skos:prefLabel          "BODC marine pollution sources" ;
+        skos:prefLabel          "sources de pollution marine BODC"@fr .

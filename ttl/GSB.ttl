@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Seismometers";
+        skos:altLabel          "sismomètres"@fr ;
         skos:definition        "Devices placed on the ground or seabed to measure physical movement of that substrate."@en;
+        skos:definition        "Dispositifs placés sur le sol ou le fond marin pour mesurer les mouvements physiques de ce substrat."@fr ;
         skos:notation          "SDN:GSB::368";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Seismometers"@en .
+        skos:prefLabel         "Seismometers"@en ;
+        skos:prefLabel         "sismomètres"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GSB/current/900/>
         rdf:type               skos:Concept;
@@ -49,10 +52,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Streamers";
+        skos:altLabel          "flûtes sismiques"@fr ;
         skos:definition        "Individual marine cables incorporating regularly separated hydrophones, designed for continuous towing through the water. A streamer is neutrally buoyant and depth controllers are attached to depress the streamer to the proper towing depth."@en;
+        skos:definition        "Câbles marins individuels incorporant des hydrophones régulièrement espacés, conçus pour être remorqués en continu dans l'eau. Une flûte sismique est neutre en flottabilité et des contrôleurs de profondeur sont fixés pour l'enfoncer à la profondeur de remorquage appropriée."@fr ;
         skos:notation          "SDN:GSB::900";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Streamers"@en .
+        skos:prefLabel         "Streamers"@en ;
+        skos:prefLabel         "flûtes sismiques"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GSB/current/902/>
         rdf:type               skos:Concept;
@@ -66,10 +72,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "3Cseismometers";
+        skos:altLabel          "sismomètres 3C"@fr ;
         skos:definition        "Devices placed on the ground or seabed to measure physical movement of that substrate. 3C seismometers are built of multiple motion sensors oriented in a tri-axial mode. Allows for recording of compressional and shear waves."@en;
+        skos:definition        "Dispositifs placés sur le sol ou le fond marin pour mesurer le mouvement physique de ce substrat. Les sismomètres 3C sont construits à partir de multiples capteurs de mouvement orientés en mode triaxial. Permet l'enregistrement des ondes de compression et de cisaillement."@fr ;
         skos:notation          "SDN:GSB::902";
         skos:note              "accepted"@en;
-        skos:prefLabel         "3C seismometers"@en .
+        skos:prefLabel         "3C seismometers"@en ;
+        skos:prefLabel         "sismomètres 3C"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GSB/current/369/>
         rdf:type               skos:Concept;
@@ -83,10 +92,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Hydrophones";
+        skos:altLabel          "hydrophones"@fr ;
         skos:definition        "Devices containing transducers that convert underwater sound waves into electrical signals."@en;
+        skos:definition        "Dispositifs contenant des transducteurs qui convertissent les ondes sonores sous-marines en signaux électriques."@fr ;
         skos:notation          "SDN:GSB::369";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Hydrophones"@en .
+        skos:prefLabel         "Hydrophones"@en ;
+        skos:prefLabel         "hydrophones"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GSB/current/903/>
         rdf:type               skos:Concept;
@@ -100,10 +112,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "3CseismometerHydrophones";
+        skos:altLabel          "sismomètres-hydrophones 3C"@fr ;
         skos:definition        "Devices placed on the ground or seabed to measure physical movement of that substrate whilst simultanously measuring underwater acoutic signals. These are built of multiple motion sensors oriented in a tri-axial mode plus a hydrophone."@en;
+        skos:definition        "Dispositifs placés sur le sol ou le fond marin pour mesurer le mouvement physique de ce substrat tout en mesurant simultanément les signaux acoustiques sous-marins. Ils sont construits à partir de multiples capteurs de mouvement orientés en mode triaxial plus un hydrophone."@fr ;
         skos:notation          "SDN:GSB::903";
         skos:note              "accepted"@en;
-        skos:prefLabel         "3C seismometers with hydrophone"@en .
+        skos:prefLabel         "3C seismometers with hydrophone"@en ;
+        skos:prefLabel         "sismomètres 3C avec hydrophone"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GSB/current/901/>
         rdf:type               skos:Concept;
@@ -117,10 +132,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "MultipleStreamer";
+        skos:altLabel          "multifflûte"@fr ;
         skos:definition        "An array of regularly spaced streamers towed behind a vessel listening the same source."@en;
+        skos:definition        "Un réseau de flûtes sismiques régulièrement espacées remorquées derrière un navire écoutant la même source."@fr ;
         skos:notation          "SDN:GSB::901";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Multiple streamers"@en .
+        skos:prefLabel         "Multiple streamers"@en ;
+        skos:prefLabel         "flûtes sismiques multiples"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GSB/current/>
         rdf:type                skos:Collection;
@@ -135,5 +153,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Geo-Seas";
         owl:versionInfo         "1";
         skos:altLabel           "Seismic Receivers";
+        skos:altLabel           "récepteurs sismiques"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/GSB/current/368/> , <http://vocab.nerc.ac.uk/collection/GSB/current/900/> , <http://vocab.nerc.ac.uk/collection/GSB/current/902/> , <http://vocab.nerc.ac.uk/collection/GSB/current/901/> , <http://vocab.nerc.ac.uk/collection/GSB/current/903/> , <http://vocab.nerc.ac.uk/collection/GSB/current/369/>;
-        skos:prefLabel          "Geo-Seas Seismic Receiver Types" .
+        skos:prefLabel          "Geo-Seas Seismic Receiver Types" ;
+        skos:prefLabel          "types de récepteurs sismiques Geo-Seas"@fr .

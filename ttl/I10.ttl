@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Invoke";
+        skos:altLabel          "invoke"@fr ;
         skos:definition        "Service that allows defining both the data inputs and data outputs expected by the spatial service and a workflow or service chain combining multiple services. It also allows defining the external web service interface of the workflow or service chain."@en;
+        skos:definition        "Service permettant de définir à la fois les entrées et les sorties de données attendues par le service spatial et un workflow ou une chaîne de services combinant plusieurs services. Il permet également de définir l'interface de service web externe du workflow ou de la chaîne de services."@fr ;
         skos:notation          "SDN:I10::5";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Invoke  Spatial Data Service"@en .
+        skos:prefLabel         "Invoke  Spatial Data Service"@en ;
+        skos:prefLabel         "service spatial de données invoke"@fr .
 
 <http://vocab.nerc.ac.uk/collection/I10/current/3/>
         rdf:type               skos:Concept;
@@ -50,10 +53,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "Download";
+        skos:altLabel          "téléchargement"@fr ;
         skos:definition        "Service that enables copies of spatial data sets, or parts of such sets, to be downloaded and, where practicable, accessed directly."@en;
+        skos:definition        "Service permettant de télécharger des copies de jeux de données spatiales, ou de parties de ces jeux, et, lorsque cela est possible, d'y accéder directement."@fr ;
         skos:notation          "SDN:I10::3";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Download Service"@en .
+        skos:prefLabel         "Download Service"@en ;
+        skos:prefLabel         "service de téléchargement"@fr .
 
 <http://vocab.nerc.ac.uk/collection/I10/current/1/>
         rdf:type               skos:Concept;
@@ -68,10 +74,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "Discovery";
+        skos:altLabel          "découverte"@fr ;
         skos:definition        "Services making it possible to search for spatial data sets and services on the basis of the content of the corresponding metadata and to display the content of the metadata."@en;
+        skos:definition        "Services permettant de rechercher des jeux de données spatiales et des services sur la base du contenu des métadonnées correspondantes et d'afficher le contenu des métadonnées."@fr ;
         skos:notation          "SDN:I10::1";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Discovery Service"@en .
+        skos:prefLabel         "Discovery Service"@en ;
+        skos:prefLabel         "service de découverte"@fr .
 
 <http://vocab.nerc.ac.uk/collection/I10/current/2/>
         rdf:type               skos:Concept;
@@ -86,10 +95,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "View";
+        skos:altLabel          "consultation"@fr ;
         skos:definition        "Service that makes it possible, as a minimum, to display, navigate, zoom in and out, pan or overlay viewable spatial data sets and to display legend information and any relevant content of metadata."@en;
+        skos:definition        "Service permettant, au minimum, d'afficher, de naviguer, de zoomer et dézoomer, de faire défiler ou de superposer des jeux de données spatiales visualisables et d'afficher les informations de légende et tout contenu pertinent des métadonnées."@fr ;
         skos:notation          "SDN:I10::2";
         skos:note              "accepted"@en;
-        skos:prefLabel         "View Service"@en .
+        skos:prefLabel         "View Service"@en ;
+        skos:prefLabel         "service de consultation"@fr .
 
 <http://vocab.nerc.ac.uk/collection/I10/current/4/>
         rdf:type               skos:Concept;
@@ -104,10 +116,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "Transformation";
+        skos:altLabel          "transformation"@fr ;
         skos:definition        "Service that enables spatial data sets to be transformed with a view to achieving interoperability."@en;
+        skos:definition        "Service permettant de transformer des jeux de données spatiales en vue d'assurer l'interopérabilité."@fr ;
         skos:notation          "SDN:I10::4";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Transformation Service"@en .
+        skos:prefLabel         "Transformation Service"@en ;
+        skos:prefLabel         "service de transformation"@fr .
 
 <http://vocab.nerc.ac.uk/collection/I10/current/>
         rdf:type                skos:Collection;
@@ -122,5 +137,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "European Commission";
         owl:versionInfo         "1";
         skos:altLabel           "INSPIRE services";
+        skos:altLabel           "services INSPIRE"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/I10/current/5/> , <http://vocab.nerc.ac.uk/collection/I10/current/3/> , <http://vocab.nerc.ac.uk/collection/I10/current/4/> , <http://vocab.nerc.ac.uk/collection/I10/current/2/> , <http://vocab.nerc.ac.uk/collection/I10/current/1/>;
-        skos:prefLabel          "INSPIRE service types" .
+        skos:prefLabel          "INSPIRE service types" ;
+        skos:prefLabel          "types de services INSPIRE"@fr .

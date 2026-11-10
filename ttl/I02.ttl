@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Mixed/ice"@en;
+        skos:definition        "Mixte/glace."@fr ;
         skos:notation          "SDN:I02::4";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Mixed/ice"@en .
+        skos:prefLabel         "Mixed/ice"@en ;
+        skos:prefLabel         "mixte/glace"@fr .
 
 <http://vocab.nerc.ac.uk/collection/I02/current/2/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Thunderstorm"@en;
+        skos:definition        "Orage."@fr ;
         skos:notation          "SDN:I02::2";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Thunderstorm"@en .
+        skos:prefLabel         "Thunderstorm"@en ;
+        skos:prefLabel         "orage"@fr .
 
 <http://vocab.nerc.ac.uk/collection/I02/current/255/>
         rdf:type               skos:Concept;
@@ -67,9 +71,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Missing"@en;
+        skos:definition        "Manquant."@fr ;
         skos:notation          "SDN:I02::255";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Missing"@en .
+        skos:prefLabel         "Missing"@en ;
+        skos:prefLabel         "manquant"@fr .
 
 <http://vocab.nerc.ac.uk/collection/I02/current/3/>
         rdf:type               skos:Concept;
@@ -84,9 +90,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Freezing rain"@en;
+        skos:definition        "Pluie verglaçante."@fr ;
         skos:notation          "SDN:I02::3";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Freezing rain"@en .
+        skos:prefLabel         "Freezing rain"@en ;
+        skos:prefLabel         "pluie verglaçante"@fr .
 
 <http://vocab.nerc.ac.uk/collection/I02/current/5/>
         rdf:type               skos:Concept;
@@ -101,9 +109,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Snow"@en;
+        skos:definition        "Neige."@fr ;
         skos:notation          "SDN:I02::5";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Snow"@en .
+        skos:prefLabel         "Snow"@en ;
+        skos:prefLabel         "neige"@fr .
 
 <http://vocab.nerc.ac.uk/collection/I02/current/1/>
         rdf:type               skos:Concept;
@@ -118,9 +128,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Rain"@en;
+        skos:definition        "Pluie."@fr ;
         skos:notation          "SDN:I02::1";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Rain"@en .
+        skos:prefLabel         "Rain"@en ;
+        skos:prefLabel         "pluie"@fr .
 
 <http://vocab.nerc.ac.uk/collection/I02/current/>
         rdf:type                skos:Collection;
@@ -135,5 +147,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "World Meteorological Organisation";
         owl:versionInfo         "1";
         skos:altLabel           "GRIB Table 4.201";
+        skos:altLabel           "table GRIB 4.201"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/I02/current/4/> , <http://vocab.nerc.ac.uk/collection/I02/current/2/> , <http://vocab.nerc.ac.uk/collection/I02/current/255/> , <http://vocab.nerc.ac.uk/collection/I02/current/1/> , <http://vocab.nerc.ac.uk/collection/I02/current/5/> , <http://vocab.nerc.ac.uk/collection/I02/current/3/>;
-        skos:prefLabel          "GRIB Table 4.201 (Precipitation type)" .
+        skos:prefLabel          "GRIB Table 4.201 (Precipitation type)" ;
+        skos:prefLabel          "table GRIB 4.201 (type de précipitation)"@fr .

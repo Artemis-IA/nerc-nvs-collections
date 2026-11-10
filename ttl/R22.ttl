@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "FLOAT_COASTAL";
+        skos:altLabel          "FLOAT_COASTAL (flotteur côtier)"@fr ;
         skos:definition        "Coastal float, i.e. ARVOR_C"@en;
+        skos:definition        "Flotteur côtier, c.-à-d. ARVOR_C."@fr ;
         skos:notation          "SDN:R22::FLOAT_COASTAL";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Coastal float"@en .
+        skos:prefLabel         "Coastal float"@en ;
+        skos:prefLabel         "flotteur côtier"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R22/current/POLAR_OCEAN_PROFILING_SYSTEM/>
         rdf:type               skos:Concept;
@@ -49,10 +52,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "POLAR_OCEAN_PROFILING_SYSTEM";
+        skos:altLabel          "POLAR_OCEAN_PROFILING_SYSTEM (système de profilage océan polaire)"@fr ;
         skos:definition        "Ice platform that provides meteorological data is paired with a subsurface platform, either a PROVOR or NEMO float tethered along a cable that uses buoyancy to go up and down."@en;
+        skos:definition        "Plateforme de glace fournissant des données météorologiques, associée à une plateforme sous-marine, soit un flotteur PROVOR ou NEMO amarré le long d'un câble qui utilise la flottabilité pour monter et descendre."@fr ;
         skos:notation          "SDN:R22::POLAR_OCEAN_PROFILING_SYSTEM";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Ice platform providing meteorological data paired with tethered subsurface platform using buoyancy to go up and down"@en .
+        skos:prefLabel         "Ice platform providing meteorological data paired with tethered subsurface platform using buoyancy to go up and down"@en ;
+        skos:prefLabel         "plateforme de glace fournissant des données météorologiques associée à une plateforme sous-marine amarrée utilisant la flottabilité pour monter et descendre"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R22/current/ICE_TETHERED_PROFILER/>
         rdf:type               skos:Concept;
@@ -66,10 +72,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "ICE_TETHERED_PROFILER";
+        skos:altLabel          "ICE_TETHERED_PROFILER (profileur amarré sur glace)"@fr ;
         skos:definition        "Surface ice-mounted platform that provides meteorological data and subsurface profiler tethered to a cable that uses a motor to go up and down."@en;
+        skos:definition        "Plateforme de surface fixée sur la glace fournissant des données météorologiques et un profileur sous-marin amarré à un câble qui utilise un moteur pour monter et descendre."@fr ;
         skos:notation          "SDN:R22::ICE_TETHERED_PROFILER";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Ice platform providing meteorological data paired with tethered subsurface profiler using motor to go up and down"@en .
+        skos:prefLabel         "Ice platform providing meteorological data paired with tethered subsurface profiler using motor to go up and down"@en ;
+        skos:prefLabel         "plateforme de glace fournissant des données météorologiques associée à un profileur sous-marin amarré utilisant un moteur pour monter et descendre"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R22/current/FLOAT/>
         rdf:type               skos:Concept;
@@ -83,10 +92,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "FLOAT";
+        skos:altLabel          "FLOAT (flotteur)"@fr ;
         skos:definition        "Profiling float"@en;
+        skos:definition        "Flotteur de profilage."@fr ;
         skos:notation          "SDN:R22::FLOAT";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Profiling float"@en .
+        skos:prefLabel         "Profiling float"@en ;
+        skos:prefLabel         "flotteur de profilage"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R22/current/FLOAT_DEEP/>
         rdf:type               skos:Concept;
@@ -100,10 +112,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "FLOAT_DEEP";
+        skos:altLabel          "FLOAT_DEEP (flotteur profond)"@fr ;
         skos:definition        "Profiling float that is capable of profiling deeper than 2000dbar"@en;
+        skos:definition        "Flotteur de profilage capable de profiler à plus de 2000 dbar de profondeur."@fr ;
         skos:notation          "SDN:R22::FLOAT_DEEP";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Profiling deep float"@en .
+        skos:prefLabel         "Profiling deep float"@en ;
+        skos:prefLabel         "flotteur de profilage profond"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R22/current/>
         rdf:type                skos:Collection;
@@ -119,5 +134,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Argo Data Management Team";
         owl:versionInfo         "1";
         skos:altLabel           "PLATFORM_FAMILY";
+        skos:altLabel           "PLATFORM_FAMILY (famille de plateformes)"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/R22/current/FLOAT_COASTAL/> , <http://vocab.nerc.ac.uk/collection/R22/current/POLAR_OCEAN_PROFILING_SYSTEM/> , <http://vocab.nerc.ac.uk/collection/R22/current/ICE_TETHERED_PROFILER/> , <http://vocab.nerc.ac.uk/collection/R22/current/FLOAT_DEEP/> , <http://vocab.nerc.ac.uk/collection/R22/current/FLOAT/>;
-        skos:prefLabel          "Argo platform family" .
+        skos:prefLabel          "Argo platform family" ;
+        skos:prefLabel          "famille de plateformes Argo"@fr .

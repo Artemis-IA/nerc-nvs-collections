@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Vector data are used to represent geographic data"@en;
+        skos:definition        "Les données vectorielles sont utilisées pour représenter les données géographiques."@fr ;
         skos:notation          "SDN:G26::001";
         skos:note              "accepted"@en;
         skos:prefLabel         "vector"@en;
+        skos:prefLabel         "vectoriel"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/L24/current/UKOAP190/> , <http://vocab.nerc.ac.uk/collection/L24/current/SHP/> .
 
 <http://vocab.nerc.ac.uk/collection/G26/current/003/>
@@ -51,9 +53,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Textual or tabular data are used to represent geographic data"@en;
+        skos:definition        "Les données textuelles ou tabulaires sont utilisées pour représenter les données géographiques."@fr ;
         skos:notation          "SDN:G26::003";
         skos:note              "accepted"@en;
         skos:prefLabel         "textTable"@en;
+        skos:prefLabel         "texte/tableau"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/L24/current/CFPOINT/> , <http://vocab.nerc.ac.uk/collection/L24/current/ESFL/> , <http://vocab.nerc.ac.uk/collection/L24/current/MEDATLAS/> , <http://vocab.nerc.ac.uk/collection/L24/current/ODV/> , <http://vocab.nerc.ac.uk/collection/L24/current/BODV/> , <http://vocab.nerc.ac.uk/collection/L24/current/EBL/> , <http://vocab.nerc.ac.uk/collection/L24/current/MODV/> , <http://vocab.nerc.ac.uk/collection/L24/current/SODV/> .
 
 <http://vocab.nerc.ac.uk/collection/G26/current/006/>
@@ -69,9 +73,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Scene from a video recording"@en;
+        skos:definition        "Scène issue d'un enregistrement vidéo."@fr ;
         skos:notation          "SDN:G26::006";
         skos:note              "accepted"@en;
-        skos:prefLabel         "video"@en .
+        skos:prefLabel         "video"@en ;
+        skos:prefLabel         "vidéo"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G26/current/002/>
         rdf:type               skos:Concept;
@@ -86,9 +92,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Grid data are used to represent geographic data"@en;
+        skos:definition        "Les données en grille sont utilisées pour représenter les données géographiques."@fr ;
         skos:notation          "SDN:G26::002";
         skos:note              "accepted"@en;
         skos:prefLabel         "grid"@en;
+        skos:prefLabel         "grille"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/L24/current/GEOTIFF/> , <http://vocab.nerc.ac.uk/collection/L24/current/PNG/> , <http://vocab.nerc.ac.uk/collection/L24/current/XYZ/> , <http://vocab.nerc.ac.uk/collection/L24/current/BAG/> , <http://vocab.nerc.ac.uk/collection/L24/current/TIFF/> , <http://vocab.nerc.ac.uk/collection/L24/current/SEGY/> , <http://vocab.nerc.ac.uk/collection/L24/current/XTF/> , <http://vocab.nerc.ac.uk/collection/L24/current/CF/> .
 
 <http://vocab.nerc.ac.uk/collection/G26/current/004/>
@@ -104,9 +112,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Triangulated irregular network"@en;
+        skos:definition        "Réseau triangulé irrégulier."@fr ;
         skos:notation          "SDN:G26::004";
         skos:note              "accepted"@en;
-        skos:prefLabel         "tin"@en .
+        skos:prefLabel         "tin"@en ;
+        skos:prefLabel         "tin (réseau triangulé irrégulier)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G26/current/005/>
         rdf:type               skos:Concept;
@@ -121,9 +131,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Three-dimensional view formed by the intersecting homologous rays of an overlapping pair of images"@en;
+        skos:definition        "Vue tridimensionnelle formée par les rayons homologues s'intersectant d'une paire d'images se chevauchant."@fr ;
         skos:notation          "SDN:G26::005";
         skos:note              "accepted"@en;
-        skos:prefLabel         "stereoModel"@en .
+        skos:prefLabel         "stereoModel"@en ;
+        skos:prefLabel         "stereoModel (modèle stéréoscopique)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G26/current/>
         rdf:type                skos:Collection;
@@ -138,5 +150,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "International Organization for Standardization";
         owl:versionInfo         "1";
         skos:altLabel           "MD_SpatialRepresentationTypeCode";
+        skos:altLabel           "MD_SpatialRepresentationTypeCode (code de type de représentation spatiale)"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/G26/current/001/> , <http://vocab.nerc.ac.uk/collection/G26/current/003/> , <http://vocab.nerc.ac.uk/collection/G26/current/006/> , <http://vocab.nerc.ac.uk/collection/G26/current/005/> , <http://vocab.nerc.ac.uk/collection/G26/current/004/> , <http://vocab.nerc.ac.uk/collection/G26/current/002/>;
-        skos:prefLabel          "MD_SpatialRepresentationTypeCode" .
+        skos:prefLabel          "MD_SpatialRepresentationTypeCode" ;
+        skos:prefLabel          "MD_SpatialRepresentationTypeCode (code de type de représentation spatiale)"@fr .

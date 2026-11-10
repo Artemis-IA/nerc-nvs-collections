@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Unknown";
+        skos:altLabel          "inconnu"@fr ;
         skos:definition        "The correct value is not known to, or not computable by, the sender of this data. However, the correct value probably exists."@en;
+        skos:definition        "La valeur correcte n'est pas connue du, ou pas calculable par, l'expéditeur de ces données. Cependant, la valeur correcte existe probablement."@fr ;
         skos:notation          "SDN:L12::U";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Unknown"@en .
+        skos:prefLabel         "Unknown"@en ;
+        skos:prefLabel         "inconnu"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L12/current/R/>
         rdf:type               skos:Concept;
@@ -49,10 +52,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Real-time QC";
+        skos:altLabel          "CQ temps réel"@fr ;
         skos:definition        "Automatic validation checks have been applied to the data as they were collected prior to their initial publication"@en;
+        skos:definition        "Des contrôles de validation automatiques ont été appliqués aux données au fur et à mesure de leur collecte avant leur publication initiale."@fr ;
         skos:notation          "SDN:L12::R";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Real-time validation on the data"@en .
+        skos:prefLabel         "Real-time validation on the data"@en ;
+        skos:prefLabel         "validation en temps réel des données"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L12/current/A/>
         rdf:type               skos:Concept;
@@ -66,10 +72,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Real-time + delayed mode QC";
+        skos:altLabel          "CQ temps réel + mode différé"@fr ;
         skos:definition        "Automatic validation checks were applied to the data as they were collected prior to their initial publication.Validation checks, including both algorithms and manual examination, were applied to the data subsequent to their initial publication."@en;
+        skos:definition        "Des contrôles de validation automatiques ont été appliqués aux données au fur et à mesure de leur collecte avant leur publication initiale. Des contrôles de validation, incluant à la fois des algorithmes et un examen manuel, ont été appliqués aux données après leur publication initiale."@fr ;
         skos:notation          "SDN:L12::A";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Real-time plus delayed mode validation on the data"@en .
+        skos:prefLabel         "Real-time plus delayed mode validation on the data"@en ;
+        skos:prefLabel         "validation en temps réel plus en mode différé des données"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L12/current/N/>
         rdf:type               skos:Concept;
@@ -83,10 +92,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Unvalidated";
+        skos:altLabel          "non validé"@fr ;
         skos:definition        "No validation checks have been made on the data."@en;
+        skos:definition        "Aucun contrôle de validation n'a été effectué sur les données."@fr ;
         skos:notation          "SDN:L12::N";
         skos:note              "accepted"@en;
-        skos:prefLabel         "No validation on the data"@en .
+        skos:prefLabel         "No validation on the data"@en ;
+        skos:prefLabel         "pas de validation des données"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L12/current/D/>
         rdf:type               skos:Concept;
@@ -100,10 +112,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Delayed mode QC";
+        skos:altLabel          "CQ mode différé"@fr ;
         skos:definition        "Validation checks, including both algorithms and manual examination, were applied to the data subsequent to their initial publication."@en;
+        skos:definition        "Des contrôles de validation, incluant à la fois des algorithmes et un examen manuel, ont été appliqués aux données après leur publication initiale."@fr ;
         skos:notation          "SDN:L12::D";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Delayed mode validation on the data"@en .
+        skos:prefLabel         "Delayed mode validation on the data"@en ;
+        skos:prefLabel         "validation en mode différé des données"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L12/current/>
         rdf:type                skos:Collection;
@@ -119,5 +134,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "SeaDataNet";
         owl:versionInfo         "2";
         skos:altLabel           "SeaDataNet QC procedures";
+        skos:altLabel           "procédures de CQ SeaDataNet"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/L12/current/U/> , <http://vocab.nerc.ac.uk/collection/L12/current/R/> , <http://vocab.nerc.ac.uk/collection/L12/current/A/> , <http://vocab.nerc.ac.uk/collection/L12/current/D/> , <http://vocab.nerc.ac.uk/collection/L12/current/N/>;
-        skos:prefLabel          "SeaDataNet parameter quality control procedures" .
+        skos:prefLabel          "SeaDataNet parameter quality control procedures" ;
+        skos:prefLabel          "procédures de contrôle qualité des paramètres SeaDataNet"@fr .
