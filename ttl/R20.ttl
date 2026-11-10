@@ -33,10 +33,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "S";
+        skos:altLabel          "S"@fr ;
         skos:definition        "Float is known to be drifting at a shallower depth than originally programmed"@en;
+        skos:definition        "Le flotteur est connu pour dériver à une profondeur plus faible que celle programmée initialement."@fr ;
         skos:notation          "SDN:R20::S";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Drifting at shallower depth than programmed"@en .
+        skos:prefLabel         "Drifting at shallower depth than programmed"@en ;
+        skos:prefLabel         "dérivant à une profondeur plus faible que programmée"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R20/current/N/>
         rdf:type               skos:Concept;
@@ -51,10 +54,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "N";
+        skos:altLabel          "N"@fr ;
         skos:definition        "No, the float did not touch the ground"@en;
+        skos:definition        "Non, le flotteur n'a pas touché le fond."@fr ;
         skos:notation          "SDN:R20::N";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Not grounded"@en .
+        skos:prefLabel         "Not grounded"@en ;
+        skos:prefLabel         "non échoué"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R20/current/B/>
         rdf:type               skos:Concept;
@@ -69,10 +75,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "3";
         skos:altLabel          "B";
+        skos:altLabel          "B"@fr ;
         skos:definition        "Yes, the float touched the ground as determined by an external bathymetry database and the programmed free-drift period was affected. If it is uncertain what mission phase the grounding took place, use 'B'."@en;
+        skos:definition        "Oui, le flotteur a touché le fond selon une base bathymétrique externe et la période de dérive libre programmée a été affectée. S'il est incertain à quelle phase de mission l'échouage a eu lieu, utiliser « B »."@fr ;
         skos:notation          "SDN:R20::B";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Grounded (external bathymetry database check), and free-drift period affected"@en .
+        skos:prefLabel         "Grounded (external bathymetry database check), and free-drift period affected"@en ;
+        skos:prefLabel         "échoué (vérification base bathymétrique externe), période de dérive libre affectée"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R20/current/U/>
         rdf:type               skos:Concept;
@@ -86,10 +95,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "U";
+        skos:altLabel          "U"@fr ;
         skos:definition        "Unknown"@en;
+        skos:definition        "Inconnu."@fr ;
         skos:notation          "SDN:R20::U";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Unknown"@en .
+        skos:prefLabel         "Unknown"@en ;
+        skos:prefLabel         "inconnu"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R20/current/P/>
         rdf:type               skos:Concept;
@@ -103,10 +115,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "P";
+        skos:altLabel          "P (océan Pacifique)"@fr ;
         skos:definition        "Yes, the float touched the ground during a part of the mission that did not affect the free-drift period."@en;
+        skos:definition        "Oui, le flotteur a touché le fond pendant une partie de la mission qui n'a pas affecté la période de dérive libre."@fr ;
         skos:notation          "SDN:R20::P";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Grounded, but free-drift period not affected"@en .
+        skos:prefLabel         "Grounded, but free-drift period not affected"@en ;
+        skos:prefLabel         "échoué, mais période de dérive libre non affectée"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R20/current/C/>
         rdf:type               skos:Concept;
@@ -120,10 +135,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "C";
+        skos:altLabel          "C (pile C)"@fr ;
         skos:definition        "Yes, the float touched the ground as determined by an external bathymetry database during a part of the mission that did not affect the free-drift period."@en;
+        skos:definition        "Oui, le flotteur a touché le fond selon une base bathymétrique externe pendant une partie de la mission qui n'a pas affecté la période de dérive libre."@fr ;
         skos:notation          "SDN:R20::C";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Grounded (external bathymetry database check), but free-drift period not affected"@en .
+        skos:prefLabel         "Grounded (external bathymetry database check), but free-drift period not affected"@en ;
+        skos:prefLabel         "échoué (vérification base bathymétrique externe), mais période de dérive libre non affectée"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R20/current/Y/>
         rdf:type               skos:Concept;
@@ -138,10 +156,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "3";
         skos:altLabel          "Y";
+        skos:altLabel          "Y"@fr ;
         skos:definition        "Yes, the float touched the ground and the programmed free-drift period was affected. If it is uncertain what mission phase the grounding took place, use 'Y'."@en;
+        skos:definition        "Oui, le flotteur a touché le fond et la période de dérive libre programmée a été affectée. S'il est incertain à quelle phase de mission l'échouage a eu lieu, utiliser « Y »."@fr ;
         skos:notation          "SDN:R20::Y";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Grounded, and free-drift period affected"@en .
+        skos:prefLabel         "Grounded, and free-drift period affected"@en ;
+        skos:prefLabel         "échoué, et période de dérive libre affectée"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R20/current/>
         rdf:type                skos:Collection;
@@ -157,5 +178,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Argo Data Management Team";
         owl:versionInfo         "2";
         skos:altLabel           "GROUNDED";
+        skos:altLabel           "GROUNDED (échoué)"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/R20/current/S/> , <http://vocab.nerc.ac.uk/collection/R20/current/N/> , <http://vocab.nerc.ac.uk/collection/R20/current/B/> , <http://vocab.nerc.ac.uk/collection/R20/current/U/> , <http://vocab.nerc.ac.uk/collection/R20/current/P/> , <http://vocab.nerc.ac.uk/collection/R20/current/Y/> , <http://vocab.nerc.ac.uk/collection/R20/current/C/>;
-        skos:prefLabel          "Argo GROUNDED flags" .
+        skos:prefLabel          "Argo GROUNDED flags" ;
+        skos:prefLabel          "drapeaux GROUNDED Argo"@fr .

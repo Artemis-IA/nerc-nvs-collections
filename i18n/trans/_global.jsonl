@@ -3513,3 +3513,65 @@
 {"k": "label", "en": "universal resource locator", "fr": "localisateur uniforme de ressource"}
 {"k": "label", "en": "SeaDataNet data access", "fr": "accès aux données SeaDataNet"}
 {"k": "label", "en": "SeaDataNet data access mechanisms", "fr": "mécanismes d'accès aux données SeaDataNet"}
+{"k": "label", "en": "ExtMetadata", "fr": "ExtMetadata (métadonnées étendues)"}
+{"k": "definition", "en": "Pointer to the MOLES record for the object via the appropriate service.", "fr": "Pointeur vers l'enregistrement MOLES de l'objet via le service approprié."}
+{"k": "label", "en": "extended metadata", "fr": "métadonnées étendues"}
+{"k": "label", "en": "ObjectPage", "fr": "ObjectPage (page de l'objet)"}
+{"k": "definition", "en": "Descriptive home page for the referenced object", "fr": "Page d'accueil descriptive de l'objet référencé."}
+{"k": "label", "en": "object home page", "fr": "page d'accueil de l'objet"}
+{"k": "label", "en": "DataPage", "fr": "DataPage (page de données)"}
+{"k": "definition", "en": "Pointer to a page which will allow downloading of data.", "fr": "Pointeur vers une page permettant le téléchargement des données."}
+{"k": "label", "en": "data home page", "fr": "page d'accueil des données"}
+{"k": "label", "en": "DataURL", "fr": "DataURL"}
+{"k": "definition", "en": "Pointer direct to the dataset instantiation.", "fr": "Pointeur direct vers l'instanciation du jeu de données."}
+{"k": "label", "en": "data uniform resource locator", "fr": "localisateur uniforme de ressource de données"}
+{"k": "label", "en": "CuratorPage", "fr": "CuratorPage (page du gestionnaire)"}
+{"k": "definition", "en": "Home page of data curator.", "fr": "Page d'accueil du gestionnaire de données."}
+{"k": "label", "en": "curator home page", "fr": "page d'accueil du gestionnaire"}
+{"k": "label", "en": "MetadataSource", "fr": "MetadataSource (source de métadonnées)"}
+{"k": "definition", "en": "Pointer to an original metadata record imported into MOLES.", "fr": "Pointeur vers un enregistrement de métadonnées original importé dans MOLES."}
+{"k": "label", "en": "original metadata source", "fr": "source de métadonnées originale"}
+{"k": "label", "en": "NumSim Page", "fr": "page NumSim"}
+{"k": "definition", "en": "Pointer to a NumSim record via an appropriate service.", "fr": "Pointeur vers un enregistrement NumSim via un service approprié."}
+{"k": "label", "en": "NumSim description", "fr": "description NumSim"}
+{"k": "label", "en": "NDG on-line references", "fr": "références en ligne NDG"}
+{"k": "label", "en": "NERC DataGrid on-line reference types", "fr": "types de références en ligne NERC DataGrid"}
+{"k": "label", "en": "S", "fr": "S"}
+{"k": "definition", "en": "Float is known to be drifting at a shallower depth than originally programmed", "fr": "Le flotteur est connu pour dériver à une profondeur plus faible que celle programmée initialement."}
+{"k": "label", "en": "Drifting at shallower depth than programmed", "fr": "dérivant à une profondeur plus faible que programmée"}
+{"k": "label", "en": "N", "fr": "N"}
+{"k": "definition", "en": "No, the float did not touch the ground", "fr": "Non, le flotteur n'a pas touché le fond."}
+{"k": "label", "en": "Not grounded", "fr": "non échoué"}
+{"k": "label", "en": "B", "fr": "B"}
+{"k": "definition", "en": "Yes, the float touched the ground as determined by an external bathymetry database and the programmed free-drift period was affected. If it is uncertain what mission phase the grounding took place, use 'B'.", "fr": "Oui, le flotteur a touché le fond selon une base bathymétrique externe et la période de dérive libre programmée a été affectée. S'il est incertain à quelle phase de mission l'échouage a eu lieu, utiliser « B »."}
+{"k": "label", "en": "Grounded (external bathymetry database check), and free-drift period affected", "fr": "échoué (vérification base bathymétrique externe), période de dérive libre affectée"}
+{"k": "label", "en": "U", "fr": "U"}
+{"k": "definition", "en": "Unknown", "fr": "Inconnu."}
+{"k": "definition", "en": "Yes, the float touched the ground during a part of the mission that did not affect the free-drift period.", "fr": "Oui, le flotteur a touché le fond pendant une partie de la mission qui n'a pas affecté la période de dérive libre."}
+{"k": "label", "en": "Grounded, but free-drift period not affected", "fr": "échoué, mais période de dérive libre non affectée"}
+{"k": "definition", "en": "Yes, the float touched the ground as determined by an external bathymetry database during a part of the mission that did not affect the free-drift period.", "fr": "Oui, le flotteur a touché le fond selon une base bathymétrique externe pendant une partie de la mission qui n'a pas affecté la période de dérive libre."}
+{"k": "label", "en": "Grounded (external bathymetry database check), but free-drift period not affected", "fr": "échoué (vérification base bathymétrique externe), mais période de dérive libre non affectée"}
+{"k": "label", "en": "Y", "fr": "Y"}
+{"k": "definition", "en": "Yes, the float touched the ground and the programmed free-drift period was affected. If it is uncertain what mission phase the grounding took place, use 'Y'.", "fr": "Oui, le flotteur a touché le fond et la période de dérive libre programmée a été affectée. S'il est incertain à quelle phase de mission l'échouage a eu lieu, utiliser « Y »."}
+{"k": "label", "en": "Grounded, and free-drift period affected", "fr": "échoué, et période de dérive libre affectée"}
+{"k": "label", "en": "GROUNDED", "fr": "GROUNDED (échoué)"}
+{"k": "label", "en": "Argo GROUNDED flags", "fr": "drapeaux GROUNDED Argo"}
+{"k": "label", "en": "5", "fr": "5"}
+{"k": "definition", "en": "Value is the average of the min and max pressure measurements sampled during the drift phase (the precision is 1 bar)", "fr": "La valeur est la moyenne des mesures de pression min et max échantillonnées pendant la phase de dérive (précision de 1 bar)."}
+{"k": "label", "en": "Value is the average of the min and max pressure measurements sampled during the drift phase (the precision is 1 bar)", "fr": "La valeur est la moyenne des mesures de pression min et max échantillonnées pendant la phase de dérive (précision de 1 bar)."}
+{"k": "label", "en": "6", "fr": "6"}
+{"k": "definition", "en": "Value is the PARKING_PRESSURE meta-data but the float is programmed to sample measurements during the drift phase (i.e. drift measurement is missing)", "fr": "La valeur est la méta-donnée PARKING_PRESSURE mais le flotteur est programmé pour échantillonner des mesures pendant la phase de dérive (c.-à-d. la mesure de dérive est manquante)."}
+{"k": "label", "en": "Value is the PARKING_PRESSURE meta-data but the float is programmed to sample measurements during the drift phase (i.e. drift measurement is missing)", "fr": "La valeur est la méta-donnée PARKING_PRESSURE mais le flotteur est programmé pour échantillonner des mesures pendant la phase de dérive (c.-à-d. la mesure de dérive est manquante)."}
+{"k": "definition", "en": "Value is the median value, directly provided by the float, of the pressure measurements regularly sampled during the drift phase", "fr": "La valeur est la valeur médiane, fournie directement par le flotteur, des mesures de pression échantillonnées régulièrement pendant la phase de dérive."}
+{"k": "label", "en": "Value is the median value, directly provided by the float, of the pressure measurements regularly sampled during the drift phase", "fr": "La valeur est la valeur médiane, fournie directement par le flotteur, des mesures de pression échantillonnées régulièrement pendant la phase de dérive."}
+{"k": "definition", "en": "Value is the weighted average of pressure measurements regularly sampled during the drift phase and provided by the float", "fr": "La valeur est la moyenne pondérée des mesures de pression échantillonnées régulièrement pendant la phase de dérive et fournies par le flotteur."}
+{"k": "label", "en": "Value is the weighted average of pressure measurements regularly sampled during the drift phase and provided by the float", "fr": "La valeur est la moyenne pondérée des mesures de pression échantillonnées régulièrement pendant la phase de dérive et fournies par le flotteur."}
+{"k": "definition", "en": "Value is the pressure measurement sampled at Park End Time (PET)", "fr": "La valeur est la mesure de pression échantillonnée au temps de fin de stationnement (PET)."}
+{"k": "label", "en": "Value is the pressure measurement sampled at Park End Time (PET)", "fr": "La valeur est la mesure de pression échantillonnée au temps de fin de stationnement (PET)."}
+{"k": "definition", "en": "Value is the mean value, directly provided by the float, of the pressure measurements regularly sampled during the drift phase", "fr": "La valeur est la valeur moyenne, fournie directement par le flotteur, des mesures de pression échantillonnées régulièrement pendant la phase de dérive."}
+{"k": "label", "en": "Value is the mean value, directly provided by the float, of the pressure measurements regularly sampled during the drift phase", "fr": "La valeur est la valeur moyenne, fournie directement par le flotteur, des mesures de pression échantillonnées régulièrement pendant la phase de dérive."}
+{"k": "label", "en": "7", "fr": "7"}
+{"k": "definition", "en": "Value is the PARKING_PRESSURE meta-data for this float which does not achieve any measurement during the drift phase", "fr": "La valeur est la méta-donnée PARKING_PRESSURE pour ce flotteur qui n'effectue aucune mesure pendant la phase de dérive."}
+{"k": "label", "en": "Value is the PARKING_PRESSURE meta-data for this float which does not achieve any measurement during the drift phase", "fr": "La valeur est la méta-donnée PARKING_PRESSURE pour ce flotteur qui n'effectue aucune mesure pendant la phase de dérive."}
+{"k": "label", "en": "REPRESENTATIVE_PARK_PRESSURE_STATUS", "fr": "REPRESENTATIVE_PARK_PRESSURE_STATUS"}
+{"k": "label", "en": "Argo status flag on the Representative Park Pressure (RPP)", "fr": "drapeau de statut Argo sur la pression de stationnement représentative (RPP)"}

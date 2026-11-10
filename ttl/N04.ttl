@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "ExtMetadata";
+        skos:altLabel          "ExtMetadata (métadonnées étendues)"@fr ;
         skos:definition        "Pointer to the MOLES record for the object via the appropriate service."@en;
+        skos:definition        "Pointeur vers l'enregistrement MOLES de l'objet via le service approprié."@fr ;
         skos:notation          "SDN:N04::5";
         skos:note              "accepted"@en;
-        skos:prefLabel         "extended metadata"@en .
+        skos:prefLabel         "extended metadata"@en ;
+        skos:prefLabel         "métadonnées étendues"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N04/current/1/>
         rdf:type               skos:Concept;
@@ -49,10 +52,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "ObjectPage";
+        skos:altLabel          "ObjectPage (page de l'objet)"@fr ;
         skos:definition        "Descriptive home page for the referenced object"@en;
+        skos:definition        "Page d'accueil descriptive de l'objet référencé."@fr ;
         skos:notation          "SDN:N04::1";
         skos:note              "accepted"@en;
-        skos:prefLabel         "object home page"@en .
+        skos:prefLabel         "object home page"@en ;
+        skos:prefLabel         "page d'accueil de l'objet"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N04/current/3/>
         rdf:type               skos:Concept;
@@ -66,10 +72,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "DataPage";
+        skos:altLabel          "DataPage (page de données)"@fr ;
         skos:definition        "Pointer to a page which will allow downloading of data."@en;
+        skos:definition        "Pointeur vers une page permettant le téléchargement des données."@fr ;
         skos:notation          "SDN:N04::3";
         skos:note              "accepted"@en;
-        skos:prefLabel         "data home page"@en .
+        skos:prefLabel         "data home page"@en ;
+        skos:prefLabel         "page d'accueil des données"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N04/current/2/>
         rdf:type               skos:Concept;
@@ -83,10 +92,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "DataURL";
+        skos:altLabel          "DataURL"@fr ;
         skos:definition        "Pointer direct to the dataset instantiation."@en;
+        skos:definition        "Pointeur direct vers l'instanciation du jeu de données."@fr ;
         skos:notation          "SDN:N04::2";
         skos:note              "accepted"@en;
-        skos:prefLabel         "data uniform resource locator"@en .
+        skos:prefLabel         "data uniform resource locator"@en ;
+        skos:prefLabel         "localisateur uniforme de ressource de données"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N04/current/4/>
         rdf:type               skos:Concept;
@@ -100,10 +112,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "CuratorPage";
+        skos:altLabel          "CuratorPage (page du gestionnaire)"@fr ;
         skos:definition        "Home page of data curator."@en;
+        skos:definition        "Page d'accueil du gestionnaire de données."@fr ;
         skos:notation          "SDN:N04::4";
         skos:note              "accepted"@en;
-        skos:prefLabel         "curator home page"@en .
+        skos:prefLabel         "curator home page"@en ;
+        skos:prefLabel         "page d'accueil du gestionnaire"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N04/current/6/>
         rdf:type               skos:Concept;
@@ -117,10 +132,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "MetadataSource";
+        skos:altLabel          "MetadataSource (source de métadonnées)"@fr ;
         skos:definition        "Pointer to an original metadata record imported into MOLES."@en;
+        skos:definition        "Pointeur vers un enregistrement de métadonnées original importé dans MOLES."@fr ;
         skos:notation          "SDN:N04::6";
         skos:note              "accepted"@en;
-        skos:prefLabel         "original metadata source"@en .
+        skos:prefLabel         "original metadata source"@en ;
+        skos:prefLabel         "source de métadonnées originale"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N04/current/7/>
         rdf:type               skos:Concept;
@@ -135,10 +153,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "NumSim Page";
+        skos:altLabel          "page NumSim"@fr ;
         skos:definition        "Pointer to a NumSim record via an appropriate service."@en;
+        skos:definition        "Pointeur vers un enregistrement NumSim via un service approprié."@fr ;
         skos:notation          "SDN:N04::7";
         skos:note              "accepted"@en;
-        skos:prefLabel         "NumSim description"@en .
+        skos:prefLabel         "NumSim description"@en ;
+        skos:prefLabel         "description NumSim"@fr .
 
 <http://vocab.nerc.ac.uk/collection/N04/current/>
         rdf:type                skos:Collection;
@@ -153,5 +174,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Natural Environment Research Council";
         owl:versionInfo         "3";
         skos:altLabel           "NDG on-line references";
+        skos:altLabel           "références en ligne NDG"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/N04/current/5/> , <http://vocab.nerc.ac.uk/collection/N04/current/1/> , <http://vocab.nerc.ac.uk/collection/N04/current/3/> , <http://vocab.nerc.ac.uk/collection/N04/current/2/> , <http://vocab.nerc.ac.uk/collection/N04/current/7/> , <http://vocab.nerc.ac.uk/collection/N04/current/6/> , <http://vocab.nerc.ac.uk/collection/N04/current/4/>;
-        skos:prefLabel          "NERC DataGrid on-line reference types" .
+        skos:prefLabel          "NERC DataGrid on-line reference types" ;
+        skos:prefLabel          "types de références en ligne NERC DataGrid"@fr .
