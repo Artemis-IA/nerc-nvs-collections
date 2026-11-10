@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Project Co-I";
+        skos:altLabel          "Project Co-I"@fr ;
         skos:definition        "The persons responsible for the planning, direction and management of a sub-component of a project.  Termed a work package leader in EU projects."@en;
+        skos:definition        "Les personnes responsables de la planification, de la direction et de la gestion d'une sous-composante d'un projet. Appelé responsable de lot de travail dans les projets UE."@fr ;
         skos:notation          "SDN:C89::CI";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Project co-investigator"@en .
+        skos:prefLabel         "Project co-investigator"@en ;
+        skos:prefLabel         "co-chercheur de projet"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C89/current/PM/>
         rdf:type               skos:Concept;
@@ -50,9 +53,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Project secretariat member with management responsibilities for the project."@en;
+        skos:definition        "Membre du secrétariat de projet avec des responsabilités de gestion pour le projet."@fr ;
         skos:notation          "SDN:C89::PM";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Project manager"@en .
+        skos:prefLabel         "Project manager"@en ;
+        skos:prefLabel         "chef de projet"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C89/current/PD/>
         rdf:type               skos:Concept;
@@ -66,10 +71,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "RA";
+        skos:altLabel          "RA"@fr ;
         skos:definition        "Persons employed as researchers on a project, usually the line management responsibility of the principal investigator or a co-investigator."@en;
+        skos:definition        "Personnes employées comme chercheuses sur un projet, généralement sous la responsabilité hiérarchique du chercheur principal ou d'un co-chercheur."@fr ;
         skos:notation          "SDN:C89::PD";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Project research assistant"@en .
+        skos:prefLabel         "Project research assistant"@en ;
+        skos:prefLabel         "assistant de recherche de projet"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C89/current/MC/>
         rdf:type               skos:Concept;
@@ -84,9 +92,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A cruise participant with particular responsibility for accuracy and completeness of metadata, data quality and the short and long-term security of the data collected during the cruise, but has no IPR interest in those data."@en;
+        skos:definition        "Un participant de la campagne ayant une responsabilité particulière pour l'exactitude et l'exhaustivité des métadonnées, la qualité des données et la sécurité à court et long terme des données collectées pendant la campagne, mais n'ayant aucun intérêt en PI sur ces données."@fr ;
         skos:notation          "SDN:C89::MC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Cruise data manager"@en .
+        skos:prefLabel         "Cruise data manager"@en ;
+        skos:prefLabel         "gestionnaire de données de campagne"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C89/current/TS/>
         rdf:type               skos:Concept;
@@ -101,9 +111,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A participant on the cruise who is responsible for preparation, operation and/or maintenance of shipboard or deployed scientific instrumentation, but has no IPR interest in the data returned by that instrumentation."@en;
+        skos:definition        "Un participant de la campagne responsable de la préparation, de l'exploitation et/ou de la maintenance de l'instrumentation scientifique embarquée ou déployée, mais n'ayant aucun intérêt en PI sur les données retournées par cette instrumentation."@fr ;
         skos:notation          "SDN:C89::TS";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Cruise technician"@en .
+        skos:prefLabel         "Cruise technician"@en ;
+        skos:prefLabel         "technicien de campagne"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C89/current/TC/>
         rdf:type               skos:Concept;
@@ -118,9 +130,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The person to whom post-cruise queries concerning shipboard or deployed scientific instrumentation should be addressed.  This may be a cruise technician, but could also be a shore-based contact from their organisation."@en;
+        skos:definition        "La personne à qui les questions post-campagne concernant l'instrumentation scientifique embarquée ou déployée doivent être adressées. Il peut s'agir d'un technicien de campagne, mais aussi d'un contact basé à terre de leur organisation."@fr ;
         skos:notation          "SDN:C89::TC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Cruise technical contact"@en .
+        skos:prefLabel         "Cruise technical contact"@en ;
+        skos:prefLabel         "contact technique de campagne"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C89/current/DI/>
         rdf:type               skos:Concept;
@@ -134,10 +148,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "DSPI";
+        skos:altLabel          "DSPI"@fr ;
         skos:definition        "The person responsible for a specified subset of the data collected during a research cruise and who holds the IPR for that subset of the data.  This role is not necessarily seagoing.  It could be a cruise participant's line manager or someone who has worked on donated samples."@en;
+        skos:definition        "La personne responsable d'un sous-ensemble spécifié des données collectées pendant une campagne de recherche et qui détient les PI pour ce sous-ensemble de données. Ce rôle n'est pas nécessairement embarqué. Il peut s'agir du responsable hiérarchique d'un participant de la campagne ou de quelqu'un ayant travaillé sur des échantillons donnés."@fr ;
         skos:notation          "SDN:C89::DI";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Cruise dataset principal investigator"@en .
+        skos:prefLabel         "Cruise dataset principal investigator"@en ;
+        skos:prefLabel         "chercheur principal de jeu de données de campagne"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C89/current/PI/>
         rdf:type               skos:Concept;
@@ -151,10 +168,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Project PI";
+        skos:altLabel          "Project PI"@fr ;
         skos:definition        "The person or persons responsible for the overall planning, direction and management of the project.  This role is termed the project co-ordinator in EU projects."@en;
+        skos:definition        "La ou les personnes responsables de la planification, de la direction et de la gestion globales du projet. Ce rôle est appelé coordinateur de projet dans les projets UE."@fr ;
         skos:notation          "SDN:C89::PI";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Project principal investigator"@en .
+        skos:prefLabel         "Project principal investigator"@en ;
+        skos:prefLabel         "chercheur principal du projet"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C89/current/RA/>
         rdf:type               skos:Concept;
@@ -169,9 +189,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A person who is responsible for preparation, operation and/or maintenance of shipboard, laboratory or deployed scientific instrumentation, but has no IPR interest in the data returned by that instrumentation."@en;
+        skos:definition        "Une personne responsable de la préparation, de l'exploitation et/ou de la maintenance d'instrumentation scientifique embarquée, de laboratoire ou déployée, mais n'ayant aucun intérêt en PI sur les données produites par cette instrumentation."@fr ;
         skos:notation          "SDN:C89::RA";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Project technician"@en .
+        skos:prefLabel         "Project technician"@en ;
+        skos:prefLabel         "technicien de projet"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C89/current/DC/>
         rdf:type               skos:Concept;
@@ -185,10 +207,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Dataset contact";
+        skos:altLabel          "contact du jeu de données"@fr ;
         skos:definition        "A person who acts as an intermediary between BODC and a project or organisation for the supply of a dataset. This person would normally be regarded as the first point of contact for any enquiries concerning access rights to the dataset."@en;
+        skos:definition        "Une personne agissant comme intermédiaire entre BODC et un projet ou une organisation pour la fourniture d'un jeu de données. Cette personne serait normalement considérée comme le premier point de contact pour toute question concernant les droits d'accès au jeu de données."@fr ;
         skos:notation          "SDN:C89::DC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Dataset supply contact"@en .
+        skos:prefLabel         "Dataset supply contact"@en ;
+        skos:prefLabel         "contact de fourniture de jeu de données"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C89/current/CO/>
         rdf:type               skos:Concept;
@@ -203,9 +228,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A provider of input to a project on a mutual co-operation basis without formal involvement in the project."@en;
+        skos:definition        "Un fournisseur d'apport à un projet sur une base de coopération mutuelle sans implication formelle dans le projet."@fr ;
         skos:notation          "SDN:C89::CO";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Project collaborator"@en .
+        skos:prefLabel         "Project collaborator"@en ;
+        skos:prefLabel         "collaborateur de projet"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C89/current/PG/>
         rdf:type               skos:Concept;
@@ -219,10 +246,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "PGRA";
+        skos:altLabel          "PGRA"@fr ;
         skos:definition        "Persons researching as part of a project as part of their work towards an academic degree.  This will usually be a PhD student, but could also be a masters student or even an undergraduate contributing through their degree work."@en;
+        skos:definition        "Personnes menant des recherches dans le cadre d'un projet dans le cadre de leur travail vers un diplôme académique. Il s'agit généralement d'un doctorant, mais peut aussi être un étudiant de master ou même un undergraduate contribuant par son travail de diplôme."@fr ;
         skos:notation          "SDN:C89::PG";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Project research student"@en .
+        skos:prefLabel         "Project research student"@en ;
+        skos:prefLabel         "étudiant chercheur de projet"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C89/current/PA/>
         rdf:type               skos:Concept;
@@ -237,9 +267,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Project secretariat members providing administrative support to the project without management responsibility."@en;
+        skos:definition        "Membres du secrétariat de projet fournissant un support administratif au projet sans responsabilité de gestion."@fr ;
         skos:notation          "SDN:C89::PA";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Project administrator"@en .
+        skos:prefLabel         "Project administrator"@en ;
+        skos:prefLabel         "administrateur de projet"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C89/current/DP/>
         rdf:type               skos:Concept;
@@ -253,10 +285,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Dataset PI";
+        skos:altLabel          "Dataset PI"@fr ;
         skos:definition        "The person responsible for a specified subset of the data collected during a project and who holds the IPR for that subset of the data."@en;
+        skos:definition        "La personne responsable d'un sous-ensemble spécifié des données collectées pendant un projet et qui détient la PI pour ce sous-ensemble de données."@fr ;
         skos:notation          "SDN:C89::DP";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Project dataset principal investigator"@en .
+        skos:prefLabel         "Project dataset principal investigator"@en ;
+        skos:prefLabel         "chercheur principal du jeu de données du projet"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C89/current/PS/>
         rdf:type               skos:Concept;
@@ -270,10 +305,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "PSO";
+        skos:altLabel          "PSO"@fr ;
         skos:definition        "The senior manager of the scientific party on a research cruise, which may include management responsibility for scientific instrumentation technicians.  The role is usually held by a single individual, but sometimes the responsibility can be shared."@en;
+        skos:definition        "Le responsable senior du personnel scientifique d'une campagne de recherche, ce qui peut inclure la responsabilité de gestion des techniciens en instrumentation scientifique. Le rôle est généralement occupé par une seule personne, mais la responsabilité peut parfois être partagée."@fr ;
         skos:notation          "SDN:C89::PS";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Cruise principal scientist"@en .
+        skos:prefLabel         "Cruise principal scientist"@en ;
+        skos:prefLabel         "scientifique principal de campagne"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C89/current/MP/>
         rdf:type               skos:Concept;
@@ -288,9 +326,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Person with particular responsibility for accuracy and completeness of metadata, data quality and the short-term data access and security and assuring the long-term stewardship of the data collected during the project, but has no IPR interest in those data."@en;
+        skos:definition        "Personne ayant une responsabilité particulière quant à l'exactitude et à la complétude des métadonnées, à la qualité des données et à l'accès et la sécurité des données à court terme et assurant la gestion à long terme des données collectées pendant le projet, mais n'ayant aucun intérêt en PI sur ces données."@fr ;
         skos:notation          "SDN:C89::MP";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Project data manager"@en .
+        skos:prefLabel         "Project data manager"@en ;
+        skos:prefLabel         "gestionnaire de données du projet"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C89/current/DM/>
         rdf:type               skos:Concept;
@@ -304,10 +344,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Data manager";
+        skos:altLabel          "gestionnaire de données"@fr ;
         skos:definition        "An individual within an organisation with a responsibility for the management, curation and distribution of data"@en;
+        skos:definition        "Un individu au sein d'une organisation ayant une responsabilité pour la gestion, la curation et la distribution des données"@fr ;
         skos:notation          "SDN:C89::DM";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Data manager"@en .
+        skos:prefLabel         "Data manager"@en ;
+        skos:prefLabel         "gestionnaire de données"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C89/current/CP/>
         rdf:type               skos:Concept;
@@ -322,9 +365,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The bulk of the cruise scientific party, usually involved with one or more aspects of data acquisition.  They may have IPR interest in part of the cruise dataset, but not necessarily so."@en;
+        skos:definition        "La majorité du personnel scientifique de la campagne, généralement impliquée dans un ou plusieurs aspects de l'acquisition de données. Ils peuvent avoir un intérêt en PI sur une partie du jeu de données de la campagne, mais pas nécessairement."@fr ;
         skos:notation          "SDN:C89::CP";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Cruise participant"@en .
+        skos:prefLabel         "Cruise participant"@en ;
+        skos:prefLabel         "participant de campagne"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C89/current/>
         rdf:type                skos:Collection;
@@ -340,5 +385,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "British Oceanographic Data Centre";
         owl:versionInfo         "0";
         skos:altLabel           "BODC dataset roles";
+        skos:altLabel           "rôles de jeu de données BODC"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/C89/current/CI/> , <http://vocab.nerc.ac.uk/collection/C89/current/PM/> , <http://vocab.nerc.ac.uk/collection/C89/current/PD/> , <http://vocab.nerc.ac.uk/collection/C89/current/MC/> , <http://vocab.nerc.ac.uk/collection/C89/current/TS/> , <http://vocab.nerc.ac.uk/collection/C89/current/TC/> , <http://vocab.nerc.ac.uk/collection/C89/current/DI/> , <http://vocab.nerc.ac.uk/collection/C89/current/PI/> , <http://vocab.nerc.ac.uk/collection/C89/current/RA/> , <http://vocab.nerc.ac.uk/collection/C89/current/DC/> , <http://vocab.nerc.ac.uk/collection/C89/current/CO/> , <http://vocab.nerc.ac.uk/collection/C89/current/PG/> , <http://vocab.nerc.ac.uk/collection/C89/current/PA/> , <http://vocab.nerc.ac.uk/collection/C89/current/DP/> , <http://vocab.nerc.ac.uk/collection/C89/current/PS/> , <http://vocab.nerc.ac.uk/collection/C89/current/MP/> , <http://vocab.nerc.ac.uk/collection/C89/current/CP/> , <http://vocab.nerc.ac.uk/collection/C89/current/DM/>;
-        skos:prefLabel          "BODC dataset roles" .
+        skos:prefLabel          "BODC dataset roles" ;
+        skos:prefLabel          "rôles de jeu de données BODC"@fr .

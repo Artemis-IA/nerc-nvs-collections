@@ -34,9 +34,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "2";
         skos:altLabel          "";
         skos:definition        "Heterotrophic prokaryote cells with a Medium Nucleic Acid (MNA) content as defined by flow cytometry, based on the intensity of their fluorescence signal induced by a nucleic acid dye."@en;
+        skos:definition        "Cellules de procaryotes hétérotrophes avec un contenu en acide nucléique moyen (MNA) tel que défini par la cytométrie en flux, basé sur l'intensité de leur signal de fluorescence induit par un colorant d'acide nucléique."@fr ;
         skos:notation          "SDN:F02::F0200012";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Heterotrophic prokaryotes - MNA"@en .
+        skos:prefLabel         "Heterotrophic prokaryotes - MNA"@en ;
+        skos:prefLabel         "Procaryotes hétérotrophes - MNA"@fr .
 
 <http://vocab.nerc.ac.uk/collection/F02/current/F0200005/>
         rdf:type               skos:Concept;
@@ -51,10 +53,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "4";
         skos:altLabel          "RedNano";
+        skos:altLabel          "RedNano"@fr ;
         skos:definition        "The RedNano group is a polyphyletic group. This group is defined by eukaryotic phytoplankton cells with a size between 3 µm and 20 µm. Staining is not required to distinguish them by flow cytometry due to the presence of fluorescent photosynthetic pigments. On cytograms and when excited by a blue laser, they differ from RedPico by higher red fluorescence, sideward scatter and forward scatter signatures. Red only fluorescing nanophytoplankton cells are distinguished from phycoerythrin containing cells by their lack of orange fluorescence."@en;
+        skos:definition        "Le groupe RedNano est un groupe polyphylétique. Ce groupe est défini par des cellules de phytoplancton eucaryotes d'une taille entre 3 µm et 20 µm. La coloration n'est pas requise pour les distinguer par cytométrie en flux en raison de la présence de pigments photosynthétiques fluorescents. Sur les cytogrammes et lorsqu'ils sont excités par un laser bleu, ils diffèrent de RedPico par des signatures de fluorescence rouge, de diffusion latérale et de diffusion directe plus élevées. Les cellules de nanophytoplancton ne fluorescent qu'en rouge sont distinguées des cellules contenant de la phycoérythrine par leur absence de fluorescence orange."@fr ;
         skos:notation          "SDN:F02::F0200005";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Red only fluorescing nanophytoplankton"@en .
+        skos:prefLabel         "Red only fluorescing nanophytoplankton"@en ;
+        skos:prefLabel         "Nanophytoplancton ne fluorescent qu'en rouge"@fr .
 
 <http://vocab.nerc.ac.uk/collection/F02/current/F0200014/>
         rdf:type               skos:Concept;
@@ -69,10 +74,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "4";
         skos:altLabel          "OraPico";
+        skos:altLabel          "OraPico"@fr ;
         skos:definition        "The OraPico group consists of prokaryotes and eukaryotes that contain the pigment phycoerythrin and with a size lesser than 3 µm. When excited by a blue laser, their sideward and forward scatter signatures are larger than those of OraPicoProk but with a red fluorescence signature similar to the RedPico. This group belongs mostly to cyanobacteria and cryptophytes."@en;
+        skos:definition        "Le groupe OraPico est composé de procaryotes et d'eucaryotes contenant le pigment phycoérythrine et d'une taille inférieure à 3 µm. Lorsqu'ils sont excités par un laser bleu, leurs signatures de diffusion latérale et directe sont plus grandes que celles d'OraPicoProk mais avec une signature de fluorescence rouge similaire à celle de RedPico. Ce groupe appartient pour l'essentiel aux cyanobactéries et aux cryptophytes."@fr ;
         skos:notation          "SDN:F02::F0200014";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Orange and red fluorescing picophytoplankton"@en .
+        skos:prefLabel         "Orange and red fluorescing picophytoplankton"@en ;
+        skos:prefLabel         "Picophytoplancton fluorescent orange et rouge"@fr .
 
 <http://vocab.nerc.ac.uk/collection/F02/current/F0200013/>
         rdf:type               skos:Concept;
@@ -87,10 +95,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "4";
         skos:altLabel          "RedRedPico";
+        skos:altLabel          "RedRedPico"@fr ;
         skos:definition        "The RedRedPico is a group mainly identified as Synechococcus cells which contains only phycocyanin (PC). This groups can only be resolved using a red laser as excitation source of PC. These PC-rich species are expected to be more abundant in turbid estuaries, as PC is optimized for the orange-red light conditions in these waters, whereas phycoerythrin (PE) pigments present in some other Synechococcus are optimally tuned to the blue-green light in clear waters such as (Stomp et al., 2007). These RedRedPico overlap the RedPicoProk on the orange vs red fluorescence cytograms induced by the blue 488 nm laser beam (Liu et al., 2014)."@en;
+        skos:definition        "Le RedRedPico est un groupe principalement identifié comme des cellules Synechococcus qui ne contiennent que de la phycocyanine (PC). Ce groupe ne peut être résolu qu'en utilisant un laser rouge comme source d'excitation de la PC. Ces espèces riches en PC sont attendues plus abondantes dans les estuaires troubles, car la PC est optimisée pour les conditions de lumière orange-rouge dans ces eaux, alors que les pigments de phycoérythrine (PE) présents dans d'autres Synechococcus sont optimalement accordés à la lumière bleu-vert des eaux claires telles que (Stomp et al., 2007). Ces RedRedPico se superposent à RedPicoProk sur les cytogrammes de fluorescence orange vs rouge induits par le faisceau laser bleu de 488 nm (Liu et al., 2014)."@fr ;
         skos:notation          "SDN:F02::F0200013";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Red and red only fluorescing picophytoplankton"@en .
+        skos:prefLabel         "Red and red only fluorescing picophytoplankton"@en ;
+        skos:prefLabel         "Picophytoplancton fluorescent rouge et rouge uniquement"@fr .
 
 <http://vocab.nerc.ac.uk/collection/F02/current/F0200006/>
         rdf:type               skos:Concept;
@@ -105,10 +116,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "5";
         skos:altLabel          "OraNano";
+        skos:altLabel          "OraNano"@fr ;
         skos:definition        "The OraNano group belongs to the arbitrary size class of nanoplankton (3 -20 µm). They contain phycoerythrin and may contain phycocyanin that can be excited by a red laser beam (615-640 nm). When excited by a blue laser, they bear similar forward scatter as the RedNano with a high orange fluorescence signatures, often observed above OraPico group in orange and red fluorescence cytograms. Staining is not required to distinguish them by flow cytometry due to the presence of fluorescent photosynthetic pigments. If the OraNano cells contain both phycoerythrin and phycocyanin and are excited by a laser beam <575 nm, they will emit a higher red fluorescence signal compared to RedNano (due to the energy transfer to red fluorescence). This groups is represented by some cyanobacteria, red algae or cryptophytes."@en;
+        skos:definition        "Le groupe OraNano appartient à la classe de taille arbitraire du nanoplancton (3-20 µm). Il contient de la phycoérythrine et peut contenir de la phycocyanine qui peut être excitée par un faisceau laser rouge (615-640 nm). Lorsqu'ils sont excités par un laser bleu, ils présentent une diffusion directe similaire à celle de RedNano avec des signatures de fluorescence orange élevées, souvent observées au-dessus du groupe OraPico dans les cytogrammes de fluorescence orange et rouge. La coloration n'est pas requise pour les distinguer par cytométrie en flux en raison de la présence de pigments photosynthétiques fluorescents. Si les cellules OraNano contiennent à la fois de la phycoérythrine et de la phycocyanine et sont excitées par un faisceau laser <575 nm, elles émettront un signal de fluorescence rouge plus élevé par rapport à RedNano (en raison du transfert d'énergie vers la fluorescence rouge). Ce groupe est représenté par certaines cyanobactéries, algues rouges ou cryptophytes."@fr ;
         skos:notation          "SDN:F02::F0200006";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Orange and red fluorescing nanophytoplankton"@en .
+        skos:prefLabel         "Orange and red fluorescing nanophytoplankton"@en ;
+        skos:prefLabel         "Nanophytoplancton fluorescent orange et rouge"@fr .
 
 <http://vocab.nerc.ac.uk/collection/F02/current/F0200007/>
         rdf:type               skos:Concept;
@@ -123,10 +137,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "6";
         skos:altLabel          "HsNano";
+        skos:altLabel          "HsNano"@fr ;
         skos:definition        "The HsNano group consists of eukaryotic cells that have a high sideward scatter signal when excited by a blue laser, compared to the RedNano and OraNano groups, but similar forward scatter and red fluorescence signatures. These cells also display a high depolarization ratio (horizontal/vertical polarized forward light scatter). This optical property is very useful to discriminate Coccolithales that are covered with coccoliths (CaCO3 platelets, Green et al. 1996; von Dassow et al., 2012), as well as some autotrophs and armored dinoflagellates. Staining is not required to distinguish them by flow cytometry due to the presence of fluorescent photosynthetic pigments."@en;
+        skos:definition        "Le groupe HsNano est composé de cellules eucaryotes qui ont un signal de diffusion latérale élevé lorsqu'elles sont excitées par un laser bleu, par rapport aux groupes RedNano et OraNano, mais des signatures de diffusion directe et de fluorescence rouge similaires. Ces cellules affichent également un taux de dépolarisation élevé (diffusion de lumière directe polarisée horizontalement/verticalement). Cette propriété optique est très utile pour discriminer les Coccolithales qui sont recouvertes de coccolithes (plaquettes de CaCO3, Green et al. 1996 ; von Dassow et al., 2012), ainsi que certains autotrophes et dinoflagellés armés. La coloration n'est pas requise pour les distinguer par cytométrie en flux en raison de la présence de pigments photosynthétiques fluorescents."@fr ;
         skos:notation          "SDN:F02::F0200007";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Red fluorescing nanophytoplankton with relatively high sideward light scattering properties"@en .
+        skos:prefLabel         "Red fluorescing nanophytoplankton with relatively high sideward light scattering properties"@en ;
+        skos:prefLabel         "Nanophytoplancton fluorescent rouge avec des propriétés de diffusion latérale de lumière relativement élevées"@fr .
 
 <http://vocab.nerc.ac.uk/collection/F02/current/F0200008/>
         rdf:type               skos:Concept;
@@ -141,10 +158,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "4";
         skos:altLabel          "RedMicro";
+        skos:altLabel          "RedMicro"@fr ;
         skos:definition        "The Redmico group is a polyphyletic group defined by cells > 20 µm in size. Staining is not required to distinguish microphytoplankton by flow cytometry due to the presence of fluorescent photosynthetic pigments. When excited by a blue laser, this group is discriminated thanks to its forward scatter (FSC or FWS) and red fluorescence (FLR) signals, that are the largest observed by flow cytometry in the microbial community. Due to the small volumes usually analyzed by flow cytometry (less than 1 cm3 in most cases), this group is not always properly counted when cells are not abundant enough. When FSC (or FWS) is calibrated by using beads or phytoplankton cultures, it enables microphytoplankton to be distinguished from nanophytoplankton with a size of about 20 µm. Chains or colony forming cells may be too large for flow cytometry analysis depending on instrument characteristics (tubing size, flow cell dimension, pulse shape recording or not)."@en;
+        skos:definition        "Le groupe RedMicro est un groupe polyphylétique défini par des cellules > 20 µm de taille. La coloration n'est pas requise pour distinguer le microphytoplancton par cytométrie en flux en raison de la présence de pigments photosynthétiques fluorescents. Lorsqu'il est excité par un laser bleu, ce groupe est discriminé grâce à ses signaux de diffusion directe (FSC ou FWS) et de fluorescence rouge (FLR), qui sont les plus grands observés par cytométrie en flux dans la communauté microbienne. En raison des petits volumes généralement analysés par cytométrie en flux (moins de 1 cm3 dans la plupart des cas), ce groupe n'est pas toujours correctement compté lorsque les cellules ne sont pas assez abondantes. Lorsque le FSC (ou FWS) est calibré en utilisant des billes ou des cultures de phytoplancton, il permet de distinguer le microphytoplancton du nanophytoplancton avec une taille d'environ 20 µm. Les chaînes ou cellules formant des colonies peuvent être trop grandes pour l'analyse par cytométrie en flux selon les caractéristiques de l'instrument (taille du tuyau, dimension de la cellule de flux, enregistrement de la forme d'impulsion ou non)."@fr ;
         skos:notation          "SDN:F02::F0200008";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Red only fluorescing microphytoplankton"@en .
+        skos:prefLabel         "Red only fluorescing microphytoplankton"@en ;
+        skos:prefLabel         "Microphytoplancton ne fluorescent qu'en rouge"@fr .
 
 <http://vocab.nerc.ac.uk/collection/F02/current/F0200001/>
         rdf:type               skos:Concept;
@@ -159,9 +179,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "A standard is a reference defined by a user, a laboratory, or any acknowledged authority. Properties of standard beads are accurately known by the manufacturers (i.e. size, material, fluorescence properties). These fluorescent microbeads (or microsphere) are used as an absolute reference for quantitative and qualitative comparisons. Standard beads are analyzed routinely in every flow cytometry analyses in order to have confidence in the instrument performance (alignment and fluidics) and as well as in the results."@en;
+        skos:definition        "Un standard est une référence définie par un utilisateur, un laboratoire ou toute autorité reconnue. Les propriétés des billes standard sont précisément connues par les fabricants (c.-à-d. taille, matériau, propriétés de fluorescence). Ces microbilles fluorescentes (ou microsphères) sont utilisées comme référence absolue pour des comparaisons quantitatives et qualitatives. Les billes standard sont analysées systématiquement dans chaque analyse de cytométrie en flux afin d'avoir confiance dans les performances de l'instrument (alignement et fluidique) ainsi que dans les résultats."@fr ;
         skos:notation          "SDN:F02::F0200001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Standard beads"@en .
+        skos:prefLabel         "Standard beads"@en ;
+        skos:prefLabel         "Billes standard"@fr .
 
 <http://vocab.nerc.ac.uk/collection/F02/current/F0200016/>
         rdf:type               skos:Concept;
@@ -176,10 +198,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "3";
         skos:altLabel          "OraMicro";
+        skos:altLabel          "OraMicro"@fr ;
         skos:definition        "The OraMicro group consist of cells greater than 20 µm They display higher forward scatter and orange fluorescence signals than OraNano, and a higher orange fluorescence/red fluorescence ratio compared to the RedMicro group. Staining is not required to distinguish them by flow cytometry. Cells have a high phycoerythrin content and may also contain phycocyanin that can be excited by a red laser. In this case, when cells are excited by a laser beam with a wavelength approximately of 533 nm (green), then they will emit a higher red fluorescence signal compared to chlorophyll a-only containing cells due to the energy transfer to the pigment phycocyanin that will also emit fluorescence in the red fluorescence channel. This group can include cells or groups of cells greater than 20 µm including cryptophytes, colonial cyanobacterial filaments, but also dinoflagellates and some ciliates. Due to the small volumes usually analyzed by flow cytometry (typically less than 1 cm^3), this group is not always properly quantified when cells are not abundant enough. When forward scatter is calibrated using solutions of beads with different diameters or phytoplankton cell-cultures, it is possible to distinguish microphytoplankton from nanophytoplankton cells with a size close to 20 µm. Chains or colonies may be too large for flow cytometry analysis, depending on instrument characteristics (tubing inner diameter, flow cell dimensions, pulse shape recording or not)."@en;
+        skos:definition        "Le groupe OraMicro est composé de cellules supérieures à 20 µm. Elles affichent des signaux de diffusion directe et de fluorescence orange plus élevés que OraNano, et un rapport fluorescence orange/fluorescence rouge plus élevé par rapport au groupe RedMicro. La coloration n'est pas requise pour les distinguer par cytométrie en flux. Les cellules ont une teneur élevée en phycoérythrine et peuvent aussi contenir de la phycocyanine qui peut être excitée par un laser rouge. Dans ce cas, lorsque les cellules sont excitées par un faisceau laser avec une longueur d'onde d'environ 533 nm (vert), elles émettront un signal de fluorescence rouge plus élevé par rapport aux cellules ne contenant que de la chlorophylle a en raison du transfert d'énergie vers le pigment phycocyanine qui émettra aussi de la fluorescence dans le canal de fluorescence rouge. Ce groupe peut inclure des cellules ou groupes de cellules supérieures à 20 µm incluant les cryptophytes, les filaments cyanobactériens coloniaux, mais aussi les dinoflagellés et certains ciliés. En raison des petits volumes généralement analysés par cytométrie en flux (typiquement moins de 1 cm^3), ce groupe n'est pas toujours correctement quantifié lorsque les cellules ne sont pas assez abondantes. Lorsque la diffusion directe est calibrée en utilisant des solutions de billes de différents diamètres ou des cultures de cellules de phytoplancton, il est possible de distinguer le microphytoplancton des cellules de nanophytoplancton avec une taille proche de 20 µm. Les chaînes ou colonies peuvent être trop grandes pour l'analyse par cytométrie en flux, selon les caractéristiques de l'instrument (diamètre intérieur du tuyau, dimensions de la cellule de flux, enregistrement de la forme d'impulsion ou non)."@fr ;
         skos:notation          "SDN:F02::F0200016";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Orange fluorescing microphytoplankton"@en .
+        skos:prefLabel         "Orange fluorescing microphytoplankton"@en ;
+        skos:prefLabel         "Microphytoplancton fluorescent orange"@fr .
 
 <http://vocab.nerc.ac.uk/collection/F02/current/F0200010/>
         rdf:type               skos:Concept;
@@ -194,10 +219,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "4";
         skos:altLabel          "HetHNA";
+        skos:altLabel          "HetHNA"@fr ;
         skos:definition        "Heterotrophic prokaryotes include both Bacteria and Archaea. When they do not contain any photosynthetic pigments and thus do not have any auto-fluorescence property exploitable by flow cytometry, they require staining with a fluorescent dye. In most studies a nucleic acid dye is used. Most of the time, staining of nucleic acids by a green emitting fluorescent dye is used. Blue laser excitation enables heterotrophic prokaryotes to be distinguished in various groups thanks to sideward or forward scatter, and green fluorescence signatures: cells with a higher green fluorescence signal correspond to heterotrophic prokaryotes with a relatively high nucleic acid content (HetHNA). Their scatter signals (forward and sideward) are equal or lower than those of OraPicoProk and RedPicoEuk, and may overlap those of RedPicoProk."@en;
+        skos:definition        "Les procaryotes hétérotrophes incluent à la fois les Bactéries et les Archées. Lorsqu'ils ne contiennent aucun pigment photosynthétique et n'ont donc aucune propriété d'autofluorescence exploitable par cytométrie en flux, ils nécessitent une coloration avec un colorant fluorescent. Dans la plupart des études, un colorant d'acide nucléique est utilisé. La plupart du temps, la coloration des acides nucléiques par un colorant fluorescent émettant dans le vert est utilisée. L'excitation par laser bleu permet de distinguer les procaryotes hétérotrophes en divers groupes grâce aux signatures de diffusion latérale ou directe et de fluorescence verte : les cellules avec un signal de fluorescence verte plus élevé correspondent aux procaryotes hétérotrophes avec une teneur en acide nucléique relativement élevée (HetHNA). Leurs signaux de diffusion (directe et latérale) sont égaux ou inférieurs à ceux d'OraPicoProk et RedPicoEuk, et peuvent chevaucher ceux de RedPicoProk."@fr ;
         skos:notation          "SDN:F02::F0200010";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Heterotrophic prokaryotes with relatively high nucleic acid"@en .
+        skos:prefLabel         "Heterotrophic prokaryotes with relatively high nucleic acid"@en ;
+        skos:prefLabel         "Procaryotes hétérotrophes avec acide nucléique relativement élevé"@fr .
 
 <http://vocab.nerc.ac.uk/collection/F02/current/F0200003/>
         rdf:type               skos:Concept;
@@ -212,10 +240,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "5";
         skos:altLabel          "OraPicoProk";
+        skos:altLabel          "OraPicoProk"@fr ;
         skos:definition        "The OraPicoProk, often identified as Synechococcus cells, are unicellular photosynthetic cyanobacteria with forward scatter and sideward scatter signatures larger than those of most of marine heterotrophic bacteria. Their optical signatures can span over almost two decades of signal sensitivity range (Vaulot et al., 1995). Staining is not required to distinguish them by flow cytometry due to the presence of photosynthetic pigments.  When excited by a blue laser, the OraPicoProk cluster displays higher forward scatter and red fluorescence signatures than RedPicoProk at any given depth. They contain phycoerythrin, and have a distinct orange fluorescence signature which can be excited by any <575 nm wavelength laser.  Depending on the band pass filters, the OraPicoProk cluster is well resolved in red vs green, and/or in red vs orange fluorescence cytograms when containing phycoerythrin. "@en;
+        skos:definition        "Les OraPicoProk, souvent identifiés comme des cellules Synechococcus, sont des cyanobactéries photosynthétiques unicellulaires avec des signatures de diffusion directe et de diffusion latérale plus grandes que celles de la plupart des bactéries hétérotrophes marines. Leurs signatures optiques peuvent s'étendre sur presque deux décennies de la plage de sensibilité du signal (Vaulot et al., 1995). La coloration n'est pas requise pour les distinguer par cytométrie en flux en raison de la présence de pigments photosynthétiques. Lorsqu'ils sont excités par un laser bleu, le groupe OraPicoProk affiche des signatures de diffusion directe et de fluorescence rouge plus élevées que RedPicoProk à toute profondeur donnée. Ils contiennent de la phycoérythrine et ont une signature de fluorescence orange distincte qui peut être excitée par tout laser de longueur d'onde <575 nm. Selon les filtres de bande, le groupe OraPicoProk est bien résolu dans les cytogrammes de fluorescence rouge vs verte, et/ou rouge vs orange lorsqu'il contient de la phycoérythrine."@fr ;
         skos:notation          "SDN:F02::F0200003";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Orange fluorescing prokaryote picophytoplankton"@en .
+        skos:prefLabel         "Orange fluorescing prokaryote picophytoplankton"@en ;
+        skos:prefLabel         "Picophytoplancton procaryote fluorescent orange"@fr .
 
 <http://vocab.nerc.ac.uk/collection/F02/current/F0200009/>
         rdf:type               skos:Concept;
@@ -231,9 +262,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "2";
         skos:altLabel          "";
         skos:definition        "Heterotrophic prokaryotes include both bacteria and Archea. They do not contain any photosynthetic pigments and thus do not have any autofluorescence properties exploitable by flow cytometry. Thus, they require a staining with some fluorescent dye to be resolved by flow cytometry. In most studies a nucleic acid dye is used. Staining of nucleic acids by a dye emitting in the green when excited by a blue laser enables heterotrophic prokaryotes to be distinguished in various groups thanks to sideward scatter (or FWS) and FLG signatures : Cells with a lower FLG correspond to heterotrophic prokaryotes with a Lower Nucleic Acid content (LNA) and cells with a higher FLG correspond to a Higher Nucleic Acid content (HNA). Their scatter signals (FWS, SWS) are lower than those of Synechoccocus and eukaryotic picophytoplankton, and may overlap those of Prochlorococcus."@en;
+        skos:definition        "Les procaryotes hétérotrophes incluent à la fois les bactéries et les Archées. Ils ne contiennent aucun pigment photosynthétique et n'ont donc aucune propriété d'autofluorescence exploitable par cytométrie en flux. Ils nécessitent donc une coloration avec un colorant fluorescent pour être résolus par cytométrie en flux. Dans la plupart des études, un colorant d'acide nucléique est utilisé. La coloration des acides nucléiques par un colorant émettant dans le vert lorsqu'il est excité par un laser bleu permet de distinguer les procaryotes hétérotrophes en divers groupes grâce aux signatures de diffusion latérale (ou FWS) et FLG : les cellules avec un FLG plus faible correspondent aux procaryotes hétérotrophes avec une teneur en acide nucléique faible (LNA) et les cellules avec un FLG plus élevé correspondent à une teneur en acide nucléique élevée (HNA). Leurs signaux de diffusion (FWS, SWS) sont plus faibles que ceux de Synechococcus et du picophytoplancton eucaryote, et peuvent chevaucher ceux de Prochlorococcus."@fr ;
         skos:notation          "SDN:F02::F0200009";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Heterotrophic prokaryotes"@en .
+        skos:prefLabel         "Heterotrophic prokaryotes"@en ;
+        skos:prefLabel         "Procaryotes hétérotrophes"@fr .
 
 <http://vocab.nerc.ac.uk/collection/F02/current/F0200002/>
         rdf:type               skos:Concept;
@@ -248,10 +281,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "5";
         skos:altLabel          "RedPicoProk";
+        skos:altLabel          "RedPicoProk"@fr ;
         skos:definition        "The RedPicoProk are commonly identified as the unicellular photosynthetic cyanobacteria Prochlorococcus. Due to their photosynthetic pigments, staining is not required to detect them by flow cytometry. When excited by a blue laser, their forward scatter and red auto-fluorescence emitted by chlorophylls (divinyl chlorophyll a for the Prochlorophytes) allow their discrimination from the background noise. These are the smallest marine photosynthetic microorganisms known to date (Chisholm et al., 1988). Their detection requires sensitive photodetectors or high powered lasers, optimally at 445 nm wavelength. They do not emit orange fluorescence because they lack the pigment phycoerythrin. However, at the sea surface, their red fluorescence may be too dim to be detected by flow cytometry and, as a consequence, they are often mixed with the background signal (mix between instrumental noise and non-fluorescing particles such as heterotrophic prokaryotes). When well defined (deep water communities, for instance), RedPicoProk do not overlap with the background signal. In deep layers, RedPicoProk often show a bimodal distribution of the red fluorescence, due to the coexistence of two different ecotypes (Campbell and Vaulot, 1993).In samples incubated with a DNA-staining fluorescent dye and excited with a blue laser to perform heterotrophic prokaryote analyses, Prochlorococcus group(s) can be readily distinguished using sideward scatter vs red fluorescence cytogram, or red fluorescence vs SYBR Green (nucleic acid dye) green fluorescence cytogram."@en;
+        skos:definition        "Les RedPicoProk sont communément identifiés comme les cyanobactéries photosynthétiques unicellulaires Prochlorococcus. En raison de leurs pigments photosynthétiques, la coloration n'est pas requise pour les détecter par cytométrie en flux. Lorsqu'ils sont excités par un laser bleu, leur diffusion directe et leur autofluorescence rouge émise par les chlorophylles (chlorophylle a divinyle pour les Prochlorophytes) permettent de les discriminer du bruit de fond. Ce sont les plus petits micro-organismes photosynthétiques marins connus à ce jour (Chisholm et al., 1988). Leur détection nécessite des photodétecteurs sensibles ou des lasers de forte puissance, optimalement à une longueur d'onde de 445 nm. Ils n'émettent pas de fluorescence orange car ils manquent du pigment phycoérythrine. Cependant, à la surface de la mer, leur fluorescence rouge peut être trop faible pour être détectée par cytométrie en flux et, par conséquent, ils sont souvent mélangés au signal de fond (mélange entre le bruit instrumental et les particules non fluorescentes telles que les procaryotes hétérotrophes). Lorsque bien définis (communautés d'eaux profondes, par exemple), les RedPicoProk ne chevauchent pas le signal de fond. Dans les couches profondes, les RedPicoProk montrent souvent une distribution bimodale de la fluorescence rouge, en raison de la coexistence de deux écotypes différents (Campbell et Vaulot, 1993). Dans les échantillons incubés avec un colorant fluorescent marquant l'ADN et excités avec un laser bleu pour effectuer des analyses de procaryotes hétérotrophes, les groupes Prochlorococcus peuvent être facilement distingués en utilisant le cytogramme de diffusion latérale vs fluorescence rouge, ou le cytogramme de fluorescence rouge vs fluorescence verte SYBR Green (colorant d'acide nucléique)."@fr ;
         skos:notation          "SDN:F02::F0200002";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Red only fluorescing prokaryote picophytoplankton"@en .
+        skos:prefLabel         "Red only fluorescing prokaryote picophytoplankton"@en ;
+        skos:prefLabel         "Picophytoplancton procaryote ne fluorescent qu'en rouge"@fr .
 
 <http://vocab.nerc.ac.uk/collection/F02/current/F0200011/>
         rdf:type               skos:Concept;
@@ -266,10 +302,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "4";
         skos:altLabel          "HetLNA";
+        skos:altLabel          "HetLNA"@fr ;
         skos:definition        "Heterotrophic prokaryotes include both Bacteria and Archaea. When they do not contain any photosynthetic pigments and thus do not have any auto-fluorescence property exploitable by flow cytometry, they require staining with a fluorescent dye. In most studies a nucleic acid dye is used. Most of the time, staining of nucleic acids by a green emitting fluorescent dye is used. Blue laser excitation enables heterotrophic prokaryotes to be distinguished in various groups thanks to sideward or forward scatter, and green fluorescence signatures: cells with a lower green fluorescence correspond to heterotrophic prokaryotes with a relatively lower nucleic acid content (HetLNA).  Their scatter signals (sideward and forward) are equal or lower than those of OraPicoProk and RedPico, and may overlap those of RedPicoProk."@en;
+        skos:definition        "Les procaryotes hétérotrophes incluent à la fois les Bactéries et les Archées. Lorsqu'ils ne contiennent aucun pigment photosynthétique et n'ont donc aucune propriété d'autofluorescence exploitable par cytométrie en flux, ils nécessitent une coloration avec un colorant fluorescent. Dans la plupart des études, un colorant d'acide nucléique est utilisé. La plupart du temps, la coloration des acides nucléiques par un colorant fluorescent émettant dans le vert est utilisée. L'excitation par laser bleu permet de distinguer les procaryotes hétérotrophes en divers groupes grâce aux signatures de diffusion latérale ou directe et de fluorescence verte : les cellules avec une fluorescence verte plus faible correspondent aux procaryotes hétérotrophes avec une teneur en acide nucléique relativement plus faible (HetLNA). Leurs signaux de diffusion (latérale et directe) sont égaux ou inférieurs à ceux d'OraPicoProk et RedPico, et peuvent chevaucher ceux de RedPicoProk."@fr ;
         skos:notation          "SDN:F02::F0200011";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Heterotrophic prokaryotes with relatively low nucleic acid"@en .
+        skos:prefLabel         "Heterotrophic prokaryotes with relatively low nucleic acid"@en ;
+        skos:prefLabel         "Procaryotes hétérotrophes avec acide nucléique relativement faible"@fr .
 
 <http://vocab.nerc.ac.uk/collection/F02/current/F0200004/>
         rdf:type               skos:Concept;
@@ -284,10 +323,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "4";
         skos:altLabel          "RedPico";
+        skos:altLabel          "RedPico"@fr ;
         skos:definition        "The RedPico is a polyphyletic group. Based on the literature, this group is defined by eukaryotic phytoplankton cells with a diameter <3 µm (Buitenhuis et al. and references there in, 2012). Staining is not required to distinguish them by flow cytometry due to the presence of fluorescent photosynthetic pigments. The smallest nowadays eukaryotic picophytoplankton known belongs to the genus Ostreococcus. Red only fluorescing eukaryotic picophytoplankton exhibits a well-defined flow cytometry signature when excited with a blue laser, with forward scatter and red fluorescence signals larger than those of RedPicoProk, but smaller than those of the RedNano. The forward scatter signal of beads lesser than 3 µm is widely used by the community as an optical standard to localize this group although beads are not a reliable indicator of cell size as measured by flow cytometry. Successive size filtrations or cultures can be used to estimate scatter and size relationship."@en;
+        skos:definition        "Le RedPico est un groupe polyphylétique. D'après la littérature, ce groupe est défini par des cellules de phytoplancton eucaryotes avec un diamètre <3 µm (Buitenhuis et al. et références therein, 2012). La coloration n'est pas requise pour les distinguer par cytométrie en flux en raison de la présence de pigments photosynthétiques fluorescents. Le plus petit picophytoplancton eucaryote connu aujourd'hui appartient au genre Ostreococcus. Le picophytoplancton eucaryote ne fluorescent qu'en rouge présente une signature de cytométrie en flux bien définie lorsqu'il est excité avec un laser bleu, avec des signaux de diffusion directe et de fluorescence rouge plus grands que ceux de RedPicoProk, mais plus petits que ceux de RedNano. Le signal de diffusion directe des billes inférieures à 3 µm est largement utilisé par la communauté comme étalon optique pour localiser ce groupe bien que les billes ne soient pas un indicateur fiable de la taille cellulaire mesurée par cytométrie en flux. Des filtrations successives par taille ou des cultures peuvent être utilisées pour estimer la relation entre diffusion et taille."@fr ;
         skos:notation          "SDN:F02::F0200004";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Red only fluorescing picophytoplankton"@en .
+        skos:prefLabel         "Red only fluorescing picophytoplankton"@en ;
+        skos:prefLabel         "Picophytoplancton ne fluorescent qu'en rouge"@fr .
 
 <http://vocab.nerc.ac.uk/collection/F02/current/F0200015/>
         rdf:type               skos:Concept;
@@ -302,10 +344,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "4";
         skos:altLabel          "RedRedNano";
+        skos:altLabel          "RedRedNano"@fr ;
         skos:definition        "The RedRedNano group belongs to the nanoplankton size class (3-20 µm) and cells are emitting in the red when excited by a red laser, due to phycocyanin content in the cell (Read et al., 2014), but not in the orange when excited by a blue laser. This group of cells contains phycocyanin with no or little phycoerythrin. Forward scatter and red fluorescence signatures are similar to RedNano. They include cryptophytes or cyanobacteria classes, especially when they form colonies."@en;
+        skos:definition        "Le groupe RedRedNano appartient à la classe de taille du nanoplancton (3-20 µm) et les cellules émettent dans le rouge lorsqu'elles sont excitées par un laser rouge, en raison de la teneur en phycocyanine dans la cellule (Read et al., 2014), mais pas dans l'orange lorsqu'elles sont excitées par un laser bleu. Ce groupe de cellules contient de la phycocyanine avec peu ou pas de phycoérythrine. Les signatures de diffusion directe et de fluorescence rouge sont similaires à celles de RedNano. Ils incluent des classes de cryptophytes ou de cyanobactéries, en particulier lorsqu'elles forment des colonies."@fr ;
         skos:notation          "SDN:F02::F0200015";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Red and red only fluorescing nanophytoplankton"@en .
+        skos:prefLabel         "Red and red only fluorescing nanophytoplankton"@en ;
+        skos:prefLabel         "Nanophytoplancton fluorescent rouge et rouge uniquement"@fr .
 
 <http://vocab.nerc.ac.uk/collection/F02/current/>
         rdf:type                skos:Collection;
@@ -322,5 +367,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Marine Flow Cytometry Vocabulary Governance";
         owl:versionInfo         "8";
         skos:altLabel           "Marine FCM groups";
+        skos:altLabel           "groupes FCM marins"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/F02/current/F0200012/> , <http://vocab.nerc.ac.uk/collection/F02/current/F0200005/> , <http://vocab.nerc.ac.uk/collection/F02/current/F0200014/> , <http://vocab.nerc.ac.uk/collection/F02/current/F0200013/> , <http://vocab.nerc.ac.uk/collection/F02/current/F0200006/> , <http://vocab.nerc.ac.uk/collection/F02/current/F0200007/> , <http://vocab.nerc.ac.uk/collection/F02/current/F0200008/> , <http://vocab.nerc.ac.uk/collection/F02/current/F0200001/> , <http://vocab.nerc.ac.uk/collection/F02/current/F0200016/> , <http://vocab.nerc.ac.uk/collection/F02/current/F0200010/> , <http://vocab.nerc.ac.uk/collection/F02/current/F0200003/> , <http://vocab.nerc.ac.uk/collection/F02/current/F0200009/> , <http://vocab.nerc.ac.uk/collection/F02/current/F0200002/> , <http://vocab.nerc.ac.uk/collection/F02/current/F0200011/> , <http://vocab.nerc.ac.uk/collection/F02/current/F0200004/> , <http://vocab.nerc.ac.uk/collection/F02/current/F0200015/>;
-        skos:prefLabel          "Marine Microbial Flow Cytometry Standardised Group Names" .
+        skos:prefLabel          "Marine Microbial Flow Cytometry Standardised Group Names" ;
+        skos:prefLabel          "Noms de groupes standardisés de cytométrie en flux microbienne marine"@fr .

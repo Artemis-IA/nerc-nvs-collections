@@ -33,10 +33,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "G";
+        skos:altLabel          "G"@fr ;
         skos:definition        "Estimated location accuracy radius from Global Positioning System (GPS) of less than 10m."@en;
+        skos:definition        "Rayon de précision de position estimée du Global Positioning System (GPS) inférieur à 10 m."@fr ;
         skos:notation          "SDN:R05::G";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GPS positioning accuracy (not better than 10 m)"@en .
+        skos:prefLabel         "GPS positioning accuracy (not better than 10 m)"@en ;
+        skos:prefLabel         "précision de positionnement GPS (pas meilleure que 10 m)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R05/current/2/>
         rdf:type               skos:Concept;
@@ -50,10 +53,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "2";
+        skos:altLabel          "2"@fr ;
         skos:definition        "Estimated location accuracy radius from Argos positioning system of less than 500m"@en;
+        skos:definition        "Rayon de précision de position estimée du système de positionnement Argos inférieur à 500 m"@fr ;
         skos:notation          "SDN:R05::2";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Argos location accuracy <500m radius"@en .
+        skos:prefLabel         "Argos location accuracy <500m radius"@en ;
+        skos:prefLabel         "précision de localisation Argos < rayon de 500 m"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R05/current/Z/>
         rdf:type               skos:Concept;
@@ -67,10 +73,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Z";
+        skos:altLabel          "Z"@fr ;
         skos:definition        "The location accuracy radius from Argos positioning system cannot be estimated due to invalid location measurements."@en;
+        skos:definition        "Le rayon de précision de localisation du système de positionnement Argos ne peut être estimé en raison de mesures de localisation invalides."@fr ;
         skos:notation          "SDN:R05::Z";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Argos invalid location"@en .
+        skos:prefLabel         "Argos invalid location"@en ;
+        skos:prefLabel         "localisation Argos invalide"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R05/current/3/>
         rdf:type               skos:Concept;
@@ -84,10 +93,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "3";
+        skos:altLabel          "3"@fr ;
         skos:definition        "Estimated location accuracy radius from Argos positioning system of less than 250m"@en;
+        skos:definition        "Rayon de précision de position estimée du système de positionnement Argos inférieur à 250 m"@fr ;
         skos:notation          "SDN:R05::3";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Argos location accuracy <250m radius"@en .
+        skos:prefLabel         "Argos location accuracy <250m radius"@en ;
+        skos:prefLabel         "précision de localisation Argos < rayon de 250 m"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R05/current/1/>
         rdf:type               skos:Concept;
@@ -101,10 +113,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "1";
+        skos:altLabel          "1"@fr ;
         skos:definition        "Estimated location accuracy radius from Argos positioning system of less than 1500m"@en;
+        skos:definition        "Rayon de précision de position estimée du système de positionnement Argos inférieur à 1500 m"@fr ;
         skos:notation          "SDN:R05::1";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Argos location accuracy <1500m radius"@en .
+        skos:prefLabel         "Argos location accuracy <1500m radius"@en ;
+        skos:prefLabel         "précision de localisation Argos < rayon de 1500 m"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R05/current/H/>
         rdf:type               skos:Concept;
@@ -119,10 +134,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "H";
+        skos:altLabel          "H"@fr ;
         skos:definition        "Estimated location accuracy radius from Global Navigation Satellite System (GNSS) of less than 10m."@en;
+        skos:definition        "Rayon de précision de position estimée du Global Navigation Satellite System (GNSS) inférieur à 10 m."@fr ;
         skos:notation          "SDN:R05::H";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GNSS accuracy (not better than 10 m)"@en .
+        skos:prefLabel         "GNSS accuracy (not better than 10 m)"@en ;
+        skos:prefLabel         "précision GNSS (pas meilleure que 10 m)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R05/current/E/>
         rdf:type               skos:Concept;
@@ -137,10 +155,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "E";
+        skos:altLabel          "E"@fr ;
         skos:definition        "Estimated location accuracy radius from GLObal NAvigation Satellite System (GLONASS) of less than 10m."@en;
+        skos:definition        "Rayon de précision de position estimée du GLObal NAvigation Satellite System (GLONASS) inférieur à 10 m."@fr ;
         skos:notation          "SDN:R05::E";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GLONASS accuracy (not better than 10 m)"@en .
+        skos:prefLabel         "GLONASS accuracy (not better than 10 m)"@en ;
+        skos:prefLabel         "précision GLONASS (pas meilleure que 10 m)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R05/current/R/>
         rdf:type               skos:Concept;
@@ -154,10 +175,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "R";
+        skos:altLabel          "R"@fr ;
         skos:definition        "Estimated location accuracy radius from RAFOS positioning system"@en;
+        skos:definition        "Rayon de précision de position estimée du système de positionnement RAFOS"@fr ;
         skos:notation          "SDN:R05::R";
         skos:note              "accepted"@en;
-        skos:prefLabel         "RAFOS location accuracy"@en .
+        skos:prefLabel         "RAFOS location accuracy"@en ;
+        skos:prefLabel         "précision de localisation RAFOS"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R05/current/U/>
         rdf:type               skos:Concept;
@@ -171,10 +195,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "U";
+        skos:altLabel          "U"@fr ;
         skos:definition        "Estimated location accuracy radius from manual computation as not received by the float."@en;
+        skos:definition        "Rayon de précision de localisation estimée issu d'un calcul manuel car non reçu par le flotteur."@fr ;
         skos:notation          "SDN:R05::U";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Estimated location accuracy"@en .
+        skos:prefLabel         "Estimated location accuracy"@en ;
+        skos:prefLabel         "précision de localisation estimée"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R05/current/B/>
         rdf:type               skos:Concept;
@@ -188,10 +215,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "B";
+        skos:altLabel          "B"@fr ;
         skos:definition        "The location accuracy radius from Argos positioning system cannot be estimated as only one or two messages were received."@en;
+        skos:definition        "Le rayon de précision de localisation du système de positionnement Argos ne peut être estimé car un ou deux messages seulement ont été reçus."@fr ;
         skos:notation          "SDN:R05::B";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Argos no location accuracy estimation (one or two messages received)"@en .
+        skos:prefLabel         "Argos no location accuracy estimation (one or two messages received)"@en ;
+        skos:prefLabel         "pas d'estimation de précision de localisation Argos (un ou deux messages reçus)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R05/current/0/>
         rdf:type               skos:Concept;
@@ -205,10 +235,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "0";
+        skos:altLabel          "0"@fr ;
         skos:definition        "Estimated location accuracy radius from Argos positioning system of over 1500m"@en;
+        skos:definition        "Rayon de précision de position estimée du système de positionnement Argos supérieur à 1500 m"@fr ;
         skos:notation          "SDN:R05::0";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Argos location accuracy >1500m radius"@en .
+        skos:prefLabel         "Argos location accuracy >1500m radius"@en ;
+        skos:prefLabel         "précision de localisation Argos > rayon de 1500 m"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R05/current/I/>
         rdf:type               skos:Concept;
@@ -223,10 +256,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "I";
+        skos:altLabel          "I (océan Indien)"@fr ;
         skos:definition        "Estimated location accuracy radius from Iridium positioning system of less than 5000m."@en;
+        skos:definition        "Rayon de précision de position estimée du système de positionnement Iridium inférieur à 5000 m."@fr ;
         skos:notation          "SDN:R05::I";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Iridium accuracy (not better than 5 km)"@en .
+        skos:prefLabel         "Iridium accuracy (not better than 5 km)"@en ;
+        skos:prefLabel         "précision Iridium (pas meilleure que 5 km)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R05/current/D/>
         rdf:type               skos:Concept;
@@ -241,10 +277,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "D";
+        skos:altLabel          "D (pile D)"@fr ;
         skos:definition        "Estimated location accuracy radius from BeiDou Navigation Satellite System (BDS) of less than 10m."@en;
+        skos:definition        "Rayon de précision de position estimée du BeiDou Navigation Satellite System (BDS) inférieur à 10 m."@fr ;
         skos:notation          "SDN:R05::D";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Beidou accuracy (not better than 10 m)"@en .
+        skos:prefLabel         "Beidou accuracy (not better than 10 m)"@en ;
+        skos:prefLabel         "précision Beidou (pas meilleure que 10 m)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R05/current/A/>
         rdf:type               skos:Concept;
@@ -258,10 +297,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "A";
+        skos:altLabel          "A (océan Atlantique)"@fr ;
         skos:definition        "The location accuracy radius from Argos positioning system cannot be estimated as only three messages were received."@en;
+        skos:definition        "Le rayon de précision de localisation du système de positionnement Argos ne peut être estimé car trois messages seulement ont été reçus."@fr ;
         skos:notation          "SDN:R05::A";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Argos no location accuracy estimation (three messages received)"@en .
+        skos:prefLabel         "Argos no location accuracy estimation (three messages received)"@en ;
+        skos:prefLabel         "pas d'estimation de précision de localisation Argos (trois messages reçus)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R05/current/F/>
         rdf:type               skos:Concept;
@@ -276,10 +318,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "F";
+        skos:altLabel          "F"@fr ;
         skos:definition        "Estimated location accuracy radius from Galileo positioning system of less than 10m."@en;
+        skos:definition        "Rayon de précision de position estimée du système de positionnement Galileo inférieur à 10 m."@fr ;
         skos:notation          "SDN:R05::F";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GALILEO accuracy (not better than 10 m)"@en .
+        skos:prefLabel         "GALILEO accuracy (not better than 10 m)"@en ;
+        skos:prefLabel         "précision GALILEO (pas meilleure que 10 m)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R05/current/>
         rdf:type                skos:Collection;
@@ -295,5 +340,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Argo Data Management Team";
         owl:versionInfo         "1";
         skos:altLabel           "POSITION_ACCURACY";
+        skos:altLabel           "POSITION_ACCURACY"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/R05/current/G/> , <http://vocab.nerc.ac.uk/collection/R05/current/2/> , <http://vocab.nerc.ac.uk/collection/R05/current/Z/> , <http://vocab.nerc.ac.uk/collection/R05/current/3/> , <http://vocab.nerc.ac.uk/collection/R05/current/1/> , <http://vocab.nerc.ac.uk/collection/R05/current/H/> , <http://vocab.nerc.ac.uk/collection/R05/current/E/> , <http://vocab.nerc.ac.uk/collection/R05/current/R/> , <http://vocab.nerc.ac.uk/collection/R05/current/U/> , <http://vocab.nerc.ac.uk/collection/R05/current/B/> , <http://vocab.nerc.ac.uk/collection/R05/current/0/> , <http://vocab.nerc.ac.uk/collection/R05/current/I/> , <http://vocab.nerc.ac.uk/collection/R05/current/D/> , <http://vocab.nerc.ac.uk/collection/R05/current/F/> , <http://vocab.nerc.ac.uk/collection/R05/current/A/>;
-        skos:prefLabel          "Argo position accuracy" .
+        skos:prefLabel          "Argo position accuracy" ;
+        skos:prefLabel          "précision de position Argo"@fr .

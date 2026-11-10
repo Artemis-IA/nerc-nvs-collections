@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The referencing entity applies to a transfer aggregate which was originally identified as a production series (DS_ProductionSeries)"@en;
+        skos:definition        "L'entité de référence s'applique à un agrégat de transfert qui était à l'origine identifié comme une série de production (DS_ProductionSeries)"@fr ;
         skos:notation          "SDN:G29::015";
         skos:note              "accepted"@en;
-        skos:prefLabel         "productionSeries"@en .
+        skos:prefLabel         "productionSeries"@en ;
+        skos:prefLabel         "série de production"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G29/current/008/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Information applies to a feature type"@en;
+        skos:definition        "L'information s'applique à un type d'entité géographique."@fr ;
         skos:notation          "SDN:G29::008";
         skos:note              "accepted"@en;
-        skos:prefLabel         "featureType"@en .
+        skos:prefLabel         "featureType"@en ;
+        skos:prefLabel         "featureType (type d'entité géographique)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G29/current/018/>
         rdf:type               skos:Concept;
@@ -67,9 +71,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The referencing entity applies to a transfer aggregate which was originally identified as a sensor series (DS_SensorSeries)"@en;
+        skos:definition        "L'entité de référence s'applique à un agrégat de transfert qui était à l'origine identifié comme une série de capteurs (DS_SensorSeries)"@fr ;
         skos:notation          "SDN:G29::018";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sensorSeries"@en .
+        skos:prefLabel         "sensorSeries"@en ;
+        skos:prefLabel         "série de capteurs"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G29/current/021/>
         rdf:type               skos:Concept;
@@ -84,9 +90,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Information applies to a computer program or routine"@en;
+        skos:definition        "L'information s'applique à un programme ou une routine informatique"@fr ;
         skos:notation          "SDN:G29::021";
         skos:note              "accepted"@en;
-        skos:prefLabel         "software"@en .
+        skos:prefLabel         "software"@en ;
+        skos:prefLabel         "logiciel"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G29/current/016/>
         rdf:type               skos:Concept;
@@ -101,9 +109,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Information applies to a property type"@en;
+        skos:definition        "L'information s'applique à un type de propriété."@fr ;
         skos:notation          "SDN:G29::016";
         skos:note              "accepted"@en;
-        skos:prefLabel         "propertyType"@en .
+        skos:prefLabel         "propertyType"@en ;
+        skos:prefLabel         "propertyType (type de propriété)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G29/current/011/>
         rdf:type               skos:Concept;
@@ -118,9 +128,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Information applies to a copy or imitation of an existing or hypothetical object"@en;
+        skos:definition        "L'information s'applique à une copie ou imitation d'un objet existant ou hypothétique"@fr ;
         skos:notation          "SDN:G29::011";
         skos:note              "accepted"@en;
-        skos:prefLabel         "model"@en .
+        skos:prefLabel         "model"@en ;
+        skos:prefLabel         "modèle"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G29/current/001/>
         rdf:type               skos:Concept;
@@ -135,9 +147,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Information applies to the attribute class"@en;
+        skos:definition        "L'information s'applique à la classe d'attribut."@fr ;
         skos:notation          "SDN:G29::001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "attribute"@en .
+        skos:prefLabel         "attribute"@en ;
+        skos:prefLabel         "attribute (attribut)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G29/current/012/>
         rdf:type               skos:Concept;
@@ -152,9 +166,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Information applies to non-geographic data"@en;
+        skos:definition        "L'information s'applique à des données non géographiques."@fr ;
         skos:notation          "SDN:G29::012";
         skos:note              "accepted"@en;
-        skos:prefLabel         "nonGeographicDataset"@en .
+        skos:prefLabel         "nonGeographicDataset"@en ;
+        skos:prefLabel         "nonGeographicDataset (jeu de données non géographique)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G29/current/023/>
         rdf:type               skos:Concept;
@@ -169,9 +185,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Information applies to a tile, a spatial subset of geographic data"@en;
+        skos:definition        "L'information s'applique à une tuile, un sous-ensemble spatial de données géographiques."@fr ;
         skos:notation          "SDN:G29::023";
         skos:note              "accepted"@en;
-        skos:prefLabel         "tile"@en .
+        skos:prefLabel         "tile"@en ;
+        skos:prefLabel         "tile (tuile)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G29/current/022/>
         rdf:type               skos:Concept;
@@ -186,9 +204,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The referencing entity applies to a transfer aggregate which was originally identified as a stereo mate (DS_StereoMate)"@en;
+        skos:definition        "L'entité de référence s'applique à un agrégat de transfert qui était à l'origine identifié comme un appariement stéréoscopique (DS_StereoMate)"@fr ;
         skos:notation          "SDN:G29::022";
         skos:note              "accepted"@en;
-        skos:prefLabel         "stereomate"@en .
+        skos:prefLabel         "stereomate"@en ;
+        skos:prefLabel         "appairage stéréoscopique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G29/current/004/>
         rdf:type               skos:Concept;
@@ -203,9 +223,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Information applies to the collection session"@en;
+        skos:definition        "L'information s'applique à la session de collecte"@fr ;
         skos:notation          "SDN:G29::004";
         skos:note              "accepted"@en;
-        skos:prefLabel         "collectionSession"@en .
+        skos:prefLabel         "collectionSession"@en ;
+        skos:prefLabel         "session de collecte"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G29/current/002/>
         rdf:type               skos:Concept;
@@ -220,9 +242,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Information applies to the characteristic of a feature"@en;
+        skos:definition        "L'information s'applique à la caractéristique d'une entité géographique."@fr ;
         skos:notation          "SDN:G29::002";
         skos:note              "accepted"@en;
-        skos:prefLabel         "attributeType"@en .
+        skos:prefLabel         "attributeType"@en ;
+        skos:prefLabel         "attributeType (type d'attribut)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G29/current/010/>
         rdf:type               skos:Concept;
@@ -237,9 +261,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The referencing entity applies to a transfer aggregate which was originally identified as an initiative (DS_Initiative)"@en;
+        skos:definition        "L'entité de référence s'applique à un agrégat de transfert qui était à l'origine identifié comme une initiative (DS_Initiative)"@fr ;
         skos:notation          "SDN:G29::010";
         skos:note              "accepted"@en;
-        skos:prefLabel         "initiative"@en .
+        skos:prefLabel         "initiative"@en ;
+        skos:prefLabel         "initiative"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G29/current/013/>
         rdf:type               skos:Concept;
@@ -254,9 +280,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The referencing entity applies to a transfer aggregate which has an existence outside of the transfer context, but which does not pertains to a specific aggregate type."@en;
+        skos:definition        "L'entité de référence s'applique à un agrégat de transfert qui a une existence en dehors du contexte de transfert, mais qui ne relève pas d'un type d'agrégat spécifique."@fr ;
         skos:notation          "SDN:G29::013";
         skos:note              "accepted"@en;
-        skos:prefLabel         "otherAggregate"@en .
+        skos:prefLabel         "otherAggregate"@en ;
+        skos:prefLabel         "autre agrégat"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G29/current/020/>
         rdf:type               skos:Concept;
@@ -271,9 +299,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Information applies to a capability which a service provider entity makes available to a service user entity through a set of interfaces that define a behaviour, such as a use case"@en;
+        skos:definition        "L'information s'applique à une capacité qu'une entité fournisseur de service rend disponible à une entité utilisateur de service via un ensemble d'interfaces définissant un comportement, tel qu'un cas d'usage"@fr ;
         skos:notation          "SDN:G29::020";
         skos:note              "accepted"@en;
-        skos:prefLabel         "service"@en .
+        skos:prefLabel         "service"@en ;
+        skos:prefLabel         "service"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G29/current/009/>
         rdf:type               skos:Concept;
@@ -288,9 +318,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Information applies to a field session"@en;
+        skos:definition        "L'information s'applique à une session de terrain"@fr ;
         skos:notation          "SDN:G29::009";
         skos:note              "accepted"@en;
-        skos:prefLabel         "fieldSession"@en .
+        skos:prefLabel         "fieldSession"@en ;
+        skos:prefLabel         "session de terrain"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G29/current/024/>
         rdf:type               skos:Concept;
@@ -305,9 +337,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The referencing entity applies to a transfer aggregate which has no existence outside of the transfer context"@en;
+        skos:definition        "L'entité de référence s'applique à un agrégat de transfert qui n'a pas d'existence en dehors du contexte de transfert"@fr ;
         skos:notation          "SDN:G29::024";
         skos:note              "accepted"@en;
-        skos:prefLabel         "transferAggregate"@en .
+        skos:prefLabel         "transferAggregate"@en ;
+        skos:prefLabel         "agrégat de transfert"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G29/current/019/>
         rdf:type               skos:Concept;
@@ -322,9 +356,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Information applies to the series"@en;
+        skos:definition        "L'information s'applique à la série."@fr ;
         skos:notation          "SDN:G29::019";
         skos:note              "accepted"@en;
-        skos:prefLabel         "series"@en .
+        skos:prefLabel         "series"@en ;
+        skos:prefLabel         "série"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G29/current/003/>
         rdf:type               skos:Concept;
@@ -339,9 +375,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Information applies to the collection hardware class"@en;
+        skos:definition        "L'information s'applique à la classe de matériel de collecte"@fr ;
         skos:notation          "SDN:G29::003";
         skos:note              "accepted"@en;
-        skos:prefLabel         "collectionHardware"@en .
+        skos:prefLabel         "collectionHardware"@en ;
+        skos:prefLabel         "matériel de collecte"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G29/current/014/>
         rdf:type               skos:Concept;
@@ -356,9 +394,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The referencing entity applies to a transfer aggregate which was originally identified as a platform series (DS_PlatformSeries)"@en;
+        skos:definition        "L'entité de référence s'applique à un agrégat de transfert qui était à l'origine identifié comme une série de plateformes (DS_PlatformSeries)"@fr ;
         skos:notation          "SDN:G29::014";
         skos:note              "accepted"@en;
-        skos:prefLabel         "platformSeries"@en .
+        skos:prefLabel         "platformSeries"@en ;
+        skos:prefLabel         "série de plateformes"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G29/current/007/>
         rdf:type               skos:Concept;
@@ -373,9 +413,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Information applies to a feature"@en;
+        skos:definition        "L'information s'applique à une entité géographique."@fr ;
         skos:notation          "SDN:G29::007";
         skos:note              "accepted"@en;
-        skos:prefLabel         "feature"@en .
+        skos:prefLabel         "feature"@en ;
+        skos:prefLabel         "feature (entité géographique)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G29/current/006/>
         rdf:type               skos:Concept;
@@ -390,9 +432,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Information applies to a dimension group"@en;
+        skos:definition        "L'information s'applique à un groupe de dimensions"@fr ;
         skos:notation          "SDN:G29::006";
         skos:note              "accepted"@en;
-        skos:prefLabel         "dimensionGroup"@en .
+        skos:prefLabel         "dimensionGroup"@en ;
+        skos:prefLabel         "groupe de dimensions"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G29/current/017/>
         rdf:type               skos:Concept;
@@ -407,9 +451,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The referencing entity applies to a transfer aggregate which was originally identified as a sensor (DS_Sensor)"@en;
+        skos:definition        "L'entité de référence s'applique à un agrégat de transfert qui était à l'origine identifié comme un capteur (DS_Sensor)"@fr ;
         skos:notation          "SDN:G29::017";
         skos:note              "accepted"@en;
-        skos:prefLabel         "sensor"@en .
+        skos:prefLabel         "sensor"@en ;
+        skos:prefLabel         "capteur"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G29/current/005/>
         rdf:type               skos:Concept;
@@ -424,9 +470,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Information applies to the dataset"@en;
+        skos:definition        "L'information s'applique au jeu de données."@fr ;
         skos:notation          "SDN:G29::005";
         skos:note              "accepted"@en;
-        skos:prefLabel         "dataset"@en .
+        skos:prefLabel         "dataset"@en ;
+        skos:prefLabel         "dataset (jeu de données)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G29/current/>
         rdf:type                skos:Collection;
@@ -441,5 +489,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "International Organization for Standardization";
         owl:versionInfo         "1";
         skos:altLabel           "MX_ScopeCode";
+        skos:altLabel           "MX_ScopeCode"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/G29/current/015/> , <http://vocab.nerc.ac.uk/collection/G29/current/008/> , <http://vocab.nerc.ac.uk/collection/G29/current/018/> , <http://vocab.nerc.ac.uk/collection/G29/current/021/> , <http://vocab.nerc.ac.uk/collection/G29/current/016/> , <http://vocab.nerc.ac.uk/collection/G29/current/011/> , <http://vocab.nerc.ac.uk/collection/G29/current/001/> , <http://vocab.nerc.ac.uk/collection/G29/current/012/> , <http://vocab.nerc.ac.uk/collection/G29/current/023/> , <http://vocab.nerc.ac.uk/collection/G29/current/022/> , <http://vocab.nerc.ac.uk/collection/G29/current/004/> , <http://vocab.nerc.ac.uk/collection/G29/current/002/> , <http://vocab.nerc.ac.uk/collection/G29/current/010/> , <http://vocab.nerc.ac.uk/collection/G29/current/013/> , <http://vocab.nerc.ac.uk/collection/G29/current/020/> , <http://vocab.nerc.ac.uk/collection/G29/current/009/> , <http://vocab.nerc.ac.uk/collection/G29/current/024/> , <http://vocab.nerc.ac.uk/collection/G29/current/019/> , <http://vocab.nerc.ac.uk/collection/G29/current/003/> , <http://vocab.nerc.ac.uk/collection/G29/current/014/> , <http://vocab.nerc.ac.uk/collection/G29/current/007/> , <http://vocab.nerc.ac.uk/collection/G29/current/005/> , <http://vocab.nerc.ac.uk/collection/G29/current/017/> , <http://vocab.nerc.ac.uk/collection/G29/current/006/>;
-        skos:prefLabel          "MX_ScopeCode" .
+        skos:prefLabel          "MX_ScopeCode" ;
+        skos:prefLabel          "MX_ScopeCode"@fr .

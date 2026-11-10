@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "NSMIXUP";
+        skos:altLabel          "NSMIXUP"@fr ;
         skos:definition        "Near-surface sampling scheme for which the 'mixed' sampling method was used, and measurements obtained from an unpumped CTD stream. The near-surface sampling profile has N_PROF>1. It is composed of measurements focusing on the top 5 dbar of the water column, which may extend deeper so as to overlap with the primary sampling profile for the purpose of cross-calibration. These measurements are taken at pressure levels different from the primary sampling profile, or obtained by a sampling method different from that of the primary sampling profile. The 'mixed' sampling method refers to profiles composed of data points obtained by both the 'averaged' and 'discrete' sampling methods. Primary sampling profiles measuring above 5 dbar should not be labelled with this sampling scheme."@en;
+        skos:definition        "Schéma d'échantillonnage de subsurface pour lequel la méthode d'échantillonnage 'mixte' a été utilisée, et mesures obtenues à partir d'un flux CTD non pompé. Le profil d'échantillonnage de subsurface a N_PROF>1. Il est composé de mesures ciblant les 5 premiers dbar de la colonne d'eau, qui peuvent s'étendre plus profond afin de chevaucher le profil d'échantillonnage primaire à des fins d'étalonnage croisé. Ces mesures sont prises à des niveaux de pression différents du profil d'échantillonnage primaire, ou obtenues par une méthode d'échantillonnage différente de celle du profil d'échantillonnage primaire. La méthode d'échantillonnage 'mixte' fait référence aux profils composés de points de données obtenus par les méthodes d'échantillonnage 'moyennée' et 'discrète'. Les profils d'échantillonnage primaire mesurant au-dessus de 5 dbar ne doivent pas être étiquetés avec ce schéma d'échantillonnage."@fr ;
         skos:notation          "SDN:R16::NSMIXUP";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Near-surface sampling: mixed, unpumped"@en .
+        skos:prefLabel         "Near-surface sampling: mixed, unpumped"@en ;
+        skos:prefLabel         "échantillonnage de subsurface: mixte, non pompé"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R16/current/SECDIS/>
         rdf:type               skos:Concept;
@@ -49,10 +52,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "SECDIS";
+        skos:altLabel          "SECDIS"@fr ;
         skos:definition        "Secondary sampling scheme for which the 'discrete' sampling method was used. The secondary sampling profile has N_PROF>1, and is composed of measurements that are taken at pressure levels different from the primary sampling profile, or obtained by a sampling method different from that of the primary sampling profile. The 'discrete' sampling method refers to profiles where each data point was obtained from a single measurement (polling) from a sensor. Measurements can be taken by the Primary CTD or by auxiliary sensors."@en;
+        skos:definition        "Schéma d'échantillonnage secondaire pour lequel la méthode d'échantillonnage 'discrète' a été utilisée. Le profil d'échantillonnage secondaire a N_PROF>1, et est composé de mesures prises à des niveaux de pression différents du profil d'échantillonnage primaire, ou obtenues par une méthode d'échantillonnage différente de celle du profil d'échantillonnage primaire. La méthode d'échantillonnage 'discrète' fait référence aux profils où chaque point de données a été obtenu à partir d'une mesure unique (interrogation) d'un capteur. Les mesures peuvent être prises par le CTD primaire ou par des capteurs auxiliaires."@fr ;
         skos:notation          "SDN:R16::SECDIS";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Secondary sampling: discrete"@en .
+        skos:prefLabel         "Secondary sampling: discrete"@en ;
+        skos:prefLabel         "échantillonnage secondaire: discret"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R16/current/NSAVGP/>
         rdf:type               skos:Concept;
@@ -66,10 +72,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "NSAVGP";
+        skos:altLabel          "NSAVGP"@fr ;
         skos:definition        "Near-surface sampling scheme for which the 'averaged' sampling method was used, and measurements obtained from a pumped CTD stream. The near-surface sampling profile has N_PROF>1. It is composed of measurements focusing on the top 5 dbar of the water column, which may extend deeper so as to overlap with the primary sampling profile for the purpose of cross-calibration. These measurements are taken at pressure levels different from the primary sampling profile, or obtained by a sampling method different from that of the primary sampling profile. The 'averaged' sampling method refers to profiles where each data point was obtained from binned averages of multiple data measurements (pollings) from a sensor. Primary sampling profiles measuring above 5 dbar should not be labelled with this sampling scheme."@en;
+        skos:definition        "Schéma d'échantillonnage de subsurface pour lequel la méthode d'échantillonnage 'moyennée' a été utilisée, et mesures obtenues à partir d'un flux CTD pompé. Le profil d'échantillonnage de subsurface a N_PROF>1. Il est composé de mesures ciblant les 5 premiers dbar de la colonne d'eau, qui peuvent s'étendre plus profond afin de chevaucher le profil d'échantillonnage primaire à des fins d'étalonnage croisé. Ces mesures sont prises à des niveaux de pression différents du profil d'échantillonnage primaire, ou obtenues par une méthode d'échantillonnage différente de celle du profil d'échantillonnage primaire. La méthode d'échantillonnage 'moyennée' fait référence aux profils composés de points de données obtenus à partir de moyennes regroupées de multiples mesures de données (interrogations) d'un capteur. Les profils d'échantillonnage primaire mesurant au-dessus de 5 dbar ne doivent pas être étiquetés avec ce schéma d'échantillonnage."@fr ;
         skos:notation          "SDN:R16::NSAVGP";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Near-surface sampling: averaged, pumped"@en .
+        skos:prefLabel         "Near-surface sampling: averaged, pumped"@en ;
+        skos:prefLabel         "échantillonnage de subsurface: moyenné, pompé"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R16/current/NSMIXP/>
         rdf:type               skos:Concept;
@@ -83,10 +92,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "NSMIXP";
+        skos:altLabel          "NSMIXP"@fr ;
         skos:definition        "Near-surface sampling scheme for which the 'mixed' sampling method was used, and measurements obtained from a pumped CTD stream. The near-surface sampling profile has N_PROF>1. It is composed of measurements focusing on the top 5 dbar of the water column, which may extend deeper so as to overlap with the primary sampling profile for the purpose of cross-calibration. These measurements are taken at pressure levels different from the primary sampling profile, or obtained by a sampling method different from that of the primary sampling profile. The 'mixed' sampling method refers to profiles composed of data points obtained by both the 'averaged' and 'discrete' sampling methods. Primary sampling profiles measuring above 5 dbar should not be labelled with this sampling scheme."@en;
+        skos:definition        "Schéma d'échantillonnage de subsurface pour lequel la méthode d'échantillonnage 'mixte' a été utilisée, et mesures obtenues à partir d'un flux CTD pompé. Le profil d'échantillonnage de subsurface a N_PROF>1. Il est composé de mesures ciblant les 5 premiers dbar de la colonne d'eau, qui peuvent s'étendre plus profond afin de chevaucher le profil d'échantillonnage primaire à des fins d'étalonnage croisé. Ces mesures sont prises à des niveaux de pression différents du profil d'échantillonnage primaire, ou obtenues par une méthode d'échantillonnage différente de celle du profil d'échantillonnage primaire. La méthode d'échantillonnage 'mixte' fait référence aux profils composés de points de données obtenus par les méthodes d'échantillonnage 'moyennée' et 'discrète'. Les profils d'échantillonnage primaire mesurant au-dessus de 5 dbar ne doivent pas être étiquetés avec ce schéma d'échantillonnage."@fr ;
         skos:notation          "SDN:R16::NSMIXP";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Near-surface sampling: mixed, pumped"@en .
+        skos:prefLabel         "Near-surface sampling: mixed, pumped"@en ;
+        skos:prefLabel         "échantillonnage de subsurface: mixte, pompé"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R16/current/BOAVE/>
         rdf:type               skos:Concept;
@@ -100,10 +112,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "BOAVE";
+        skos:altLabel          "BOAVE"@fr ;
         skos:definition        "Bounce sampling scheme for which the 'averaged' sampling method was used. The bounce sampling scheme is composed of profiles with N_PROF>1 collected on multiple rises and falls during a single cycle. The profiles are temporally offset from each other and/or the primary sampling profile. The 'averaged' sampling method refers to profiles where each data point was obtained from binned averages of multiple data measurements (pollings) from a sensor. Bounce sampling scheme profiles can be sampled with the Primary CTD or with auxiliary sensors."@en;
+        skos:definition        "Schéma d'échantillonnage rebond pour lequel la méthode d'échantillonnage 'moyennée' a été utilisée. Le schéma d'échantillonnage rebond est composé de profils avec N_PROF>1 collectés lors de multiples montées et descentes pendant un seul cycle. Les profils sont décalés temporellement les uns des autres et/ou par rapport au profil d'échantillonnage primaire. La méthode d'échantillonnage 'moyennée' fait référence aux profils composés de points de données obtenus à partir de moyennes regroupées de multiples mesures de données (interrogations) d'un capteur. Les profils du schéma d'échantillonnage rebond peuvent être échantillonnés avec le CTD primaire ou avec des capteurs auxiliaires."@fr ;
         skos:notation          "SDN:R16::BOAVE";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Bounce sampling: averaged"@en .
+        skos:prefLabel         "Bounce sampling: averaged"@en ;
+        skos:prefLabel         "échantillonnage rebond: moyenné"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R16/current/BODIS/>
         rdf:type               skos:Concept;
@@ -117,10 +132,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "BODIS";
+        skos:altLabel          "BODIS"@fr ;
         skos:definition        "Bounce sampling scheme for which the 'discrete' sampling method was used. The bounce sampling scheme is composed of profiles with N_PROF>1 collected on multiple rises and falls during a single cycle. The profiles are temporally offset from each other and/or the primary sampling profile. The 'discrete' sampling method refers to profiles where each data point was obtained from a single measurement (polling) from a sensor. Bounce sampling scheme profiles can be sampled with the Primary CTD or with auxiliary sensors."@en;
+        skos:definition        "Schéma d'échantillonnage rebond pour lequel la méthode d'échantillonnage 'discrète' a été utilisée. Le schéma d'échantillonnage rebond est composé de profils avec N_PROF>1 collectés lors de multiples montées et descentes pendant un seul cycle. Les profils sont décalés temporellement les uns des autres et/ou par rapport au profil d'échantillonnage primaire. La méthode d'échantillonnage 'discrète' fait référence aux profils composés de points de données obtenus à partir d'une mesure unique (interrogation) d'un capteur. Les profils du schéma d'échantillonnage rebond peuvent être échantillonnés avec le CTD primaire ou avec des capteurs auxiliaires."@fr ;
         skos:notation          "SDN:R16::BODIS";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Bounce sampling: discrete"@en .
+        skos:prefLabel         "Bounce sampling: discrete"@en ;
+        skos:prefLabel         "échantillonnage rebond: discret"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R16/current/NSAVGUP/>
         rdf:type               skos:Concept;
@@ -134,10 +152,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "NSAVGUP";
+        skos:altLabel          "NSAVGUP"@fr ;
         skos:definition        "Near-surface sampling scheme for which the 'averaged' sampling method was used, and measurements obtained from an unpumped CTD stream. The near-surface sampling profile has N_PROF>1. It is composed of measurements focusing on the top 5 dbar of the water column, which may extend deeper so as to overlap with the primary sampling profile for the purpose of cross-calibration. These measurements are taken at pressure levels different from the primary sampling profile, or obtained by a sampling method different from that of the primary sampling profile. The 'averaged' sampling method refers to profiles where each data point was obtained from binned averages of multiple data measurements (pollings) from a sensor. Primary sampling profiles measuring above 5 dbar should not be labelled with this sampling scheme."@en;
+        skos:definition        "Schéma d'échantillonnage de subsurface pour lequel la méthode d'échantillonnage 'moyennée' a été utilisée, et mesures obtenues à partir d'un flux CTD non pompé. Le profil d'échantillonnage de subsurface a N_PROF>1. Il est composé de mesures ciblant les 5 premiers dbar de la colonne d'eau, qui peuvent s'étendre plus profond afin de chevaucher le profil d'échantillonnage primaire à des fins d'étalonnage croisé. Ces mesures sont prises à des niveaux de pression différents du profil d'échantillonnage primaire, ou obtenues par une méthode d'échantillonnage différente de celle du profil d'échantillonnage primaire. La méthode d'échantillonnage 'moyennée' fait référence aux profils composés de points de données obtenus à partir de moyennes regroupées de multiples mesures de données (interrogations) d'un capteur. Les profils d'échantillonnage primaire mesurant au-dessus de 5 dbar ne doivent pas être étiquetés avec ce schéma d'échantillonnage."@fr ;
         skos:notation          "SDN:R16::NSAVGUP";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Near-surface sampling: averaged, unpumped"@en .
+        skos:prefLabel         "Near-surface sampling: averaged, unpumped"@en ;
+        skos:prefLabel         "échantillonnage de subsurface: moyenné, non pompé"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R16/current/NSDISUP/>
         rdf:type               skos:Concept;
@@ -151,10 +172,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "NSDISUP";
+        skos:altLabel          "NSDISUP"@fr ;
         skos:definition        "Near-surface sampling scheme for which the 'discrete' sampling method was used, and measurements obtained from an unpumped CTD stream. The near-surface sampling profile has N_PROF>1. It is composed of measurements focusing on the top 5 dbar of the water column, which may extend deeper so as to overlap with the primary sampling profile for the purpose of cross-calibration. These measurements are taken at pressure levels different from the primary sampling profile, or obtained by a sampling method different from that of the primary sampling profile. The 'discrete' sampling method refers to profiles where each data point was obtained from a single measurement (polling) from a sensor. Primary sampling profiles measuring above 5 dbar should not be labelled with this sampling scheme."@en;
+        skos:definition        "Schéma d'échantillonnage de subsurface pour lequel la méthode d'échantillonnage 'discrète' a été utilisée, et mesures obtenues à partir d'un flux CTD non pompé. Le profil d'échantillonnage de subsurface a N_PROF>1. Il est composé de mesures ciblant les 5 premiers dbar de la colonne d'eau, qui peuvent s'étendre plus profond afin de chevaucher le profil d'échantillonnage primaire à des fins d'étalonnage croisé. Ces mesures sont prises à des niveaux de pression différents du profil d'échantillonnage primaire, ou obtenues par une méthode d'échantillonnage différente de celle du profil d'échantillonnage primaire. La méthode d'échantillonnage 'discrète' fait référence aux profils composés de points de données obtenus à partir d'une mesure unique (interrogation) d'un capteur. Les profils d'échantillonnage primaire mesurant au-dessus de 5 dbar ne doivent pas être étiquetés avec ce schéma d'échantillonnage."@fr ;
         skos:notation          "SDN:R16::NSDISUP";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Near-surface sampling: discrete, unpumped"@en .
+        skos:prefLabel         "Near-surface sampling: discrete, unpumped"@en ;
+        skos:prefLabel         "échantillonnage de subsurface: discret, non pompé"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R16/current/SECAVG/>
         rdf:type               skos:Concept;
@@ -168,10 +192,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "SECAVG";
+        skos:altLabel          "SECAVG"@fr ;
         skos:definition        "Secondary sampling scheme for which the 'averaged' sampling method was used. The secondary sampling profile has N_PROF>1, and is composed of measurements that are taken at pressure levels different from the primary sampling profile, or obtained by a sampling method different from that of the primary sampling profile. The 'averaged' sampling method refers to profiles where each data point was obtained from binned averages of multiple data measurements (pollings) from a sensor. Measurements can be taken by the Primary CTD or by auxiliary sensors."@en;
+        skos:definition        "Schéma d'échantillonnage secondaire pour lequel la méthode d'échantillonnage 'moyennée' a été utilisée. Le profil d'échantillonnage secondaire a N_PROF>1, et est composé de mesures prises à des niveaux de pression différents du profil d'échantillonnage primaire, ou obtenues par une méthode d'échantillonnage différente de celle du profil d'échantillonnage primaire. La méthode d'échantillonnage 'moyennée' fait référence aux profils où chaque point de données a été obtenu à partir de moyennes regroupées de multiples mesures de données (interrogations) d'un capteur. Les mesures peuvent être prises par le CTD primaire ou par des capteurs auxiliaires."@fr ;
         skos:notation          "SDN:R16::SECAVG";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Secondary sampling: averaged"@en .
+        skos:prefLabel         "Secondary sampling: averaged"@en ;
+        skos:prefLabel         "échantillonnage secondaire: moyenné"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R16/current/NSDISP/>
         rdf:type               skos:Concept;
@@ -185,10 +212,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "NSDISP";
+        skos:altLabel          "NSDISP"@fr ;
         skos:definition        "Near-surface sampling scheme for which the 'discrete' sampling method was used, and measurements obtained from a pumped CTD stream. The near-surface sampling profile has N_PROF>1. It is composed of measurements focusing on the top 5 dbar of the water column, which may extend deeper so as to overlap with the primary sampling profile for the purpose of cross-calibration. These measurements are taken at pressure levels different from the primary sampling profile, or obtained by a sampling method different from that of the primary sampling profile. The 'discrete' sampling method refers to profiles where each data point was obtained from a single measurement (polling) from a sensor. Primary sampling profiles measuring above 5 dbar should not be labelled with this sampling scheme."@en;
+        skos:definition        "Schéma d'échantillonnage de subsurface pour lequel la méthode d'échantillonnage 'discrète' a été utilisée, et mesures obtenues à partir d'un flux CTD pompé. Le profil d'échantillonnage de subsurface a N_PROF>1. Il est composé de mesures ciblant les 5 premiers dbar de la colonne d'eau, qui peuvent s'étendre plus profond afin de chevaucher le profil d'échantillonnage primaire à des fins d'étalonnage croisé. Ces mesures sont prises à des niveaux de pression différents du profil d'échantillonnage primaire, ou obtenues par une méthode d'échantillonnage différente de celle du profil d'échantillonnage primaire. La méthode d'échantillonnage 'discrète' fait référence aux profils composés de points de données obtenus à partir d'une mesure unique (interrogation) d'un capteur. Les profils d'échantillonnage primaire mesurant au-dessus de 5 dbar ne doivent pas être étiquetés avec ce schéma d'échantillonnage."@fr ;
         skos:notation          "SDN:R16::NSDISP";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Near-surface sampling: discrete, pumped"@en .
+        skos:prefLabel         "Near-surface sampling: discrete, pumped"@en ;
+        skos:prefLabel         "échantillonnage de subsurface: discret, pompé"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R16/current/PRAVG/>
         rdf:type               skos:Concept;
@@ -202,10 +232,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "PRAVG";
+        skos:altLabel          "PRAVG"@fr ;
         skos:definition        "Primary sampling scheme for which the 'averaged' sampling method was used. The primary sampling profile has N_PROF=1, and is composed of primary CTD measurements. The 'averaged' sampling method refers to profiles where each data point was obtained from binned averages of multiple data measurements (pollings) from a sensor. This sampling scheme can also be applied to measurements from auxiliary sensors obtained by the 'averaged' sampling method and taken at the same pressure levels as the Primary CTD profile. For auxiliary sensor measurements it is not required that all pressure levels contain data."@en;
+        skos:definition        "Schéma d'échantillonnage primaire pour lequel la méthode d'échantillonnage 'moyennée' a été utilisée. Le profil d'échantillonnage primaire a N_PROF=1, et est composé de mesures du CTD primaire. La méthode d'échantillonnage 'moyennée' fait référence aux profils composés de points de données obtenus à partir de moyennes regroupées de multiples mesures de données (interrogations) d'un capteur. Ce schéma d'échantillonnage peut aussi être appliqué aux mesures de capteurs auxiliaires obtenues par la méthode d'échantillonnage 'moyennée' et prises aux mêmes niveaux de pression que le profil CTD primaire. Pour les mesures de capteurs auxiliaires, il n'est pas requis que tous les niveaux de pression contiennent des données."@fr ;
         skos:notation          "SDN:R16::PRAVG";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Primary sampling: averaged"@en .
+        skos:prefLabel         "Primary sampling: averaged"@en ;
+        skos:prefLabel         "échantillonnage primaire: moyenné"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R16/current/PRDIS/>
         rdf:type               skos:Concept;
@@ -219,10 +252,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "PRDIS";
+        skos:altLabel          "PRDIS"@fr ;
         skos:definition        "Primary sampling scheme for which the 'discrete' sampling method was used. The primary sampling profile has N_PROF=1, and is composed of primary CTD measurements. The 'discrete' sampling method refers to profiles where each data point was obtained from a single measurement (polling) from a sensor. This sampling scheme can also be applied to measurements from auxiliary sensors obtained by the 'discrete' sampling method and taken at the same pressure levels as the Primary CTD profile. For auxiliary sensor measurements it is not required that all pressure levels contain data."@en;
+        skos:definition        "Schéma d'échantillonnage primaire pour lequel la méthode d'échantillonnage 'discrète' a été utilisée. Le profil d'échantillonnage primaire a N_PROF=1, et est composé de mesures du CTD primaire. La méthode d'échantillonnage 'discrète' fait référence aux profils composés de points de données obtenus à partir d'une mesure unique (interrogation) d'un capteur. Ce schéma d'échantillonnage peut aussi être appliqué aux mesures de capteurs auxiliaires obtenues par la méthode d'échantillonnage 'discrète' et prises aux mêmes niveaux de pression que le profil CTD primaire. Pour les mesures de capteurs auxiliaires, il n'est pas requis que tous les niveaux de pression contiennent des données."@fr ;
         skos:notation          "SDN:R16::PRDIS";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Primary sampling: discrete"@en .
+        skos:prefLabel         "Primary sampling: discrete"@en ;
+        skos:prefLabel         "échantillonnage primaire: discret"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R16/current/SECMIX/>
         rdf:type               skos:Concept;
@@ -236,10 +272,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "SECMIX";
+        skos:altLabel          "SECMIX"@fr ;
         skos:definition        "Secondary sampling scheme for which the 'mixed' sampling method was used. The secondary sampling profile has N_PROF>1, and is composed of measurements that are taken at pressure levels different from the primary sampling profile, or obtained by a sampling method different from that of the primary sampling profile. The 'mixed' sampling method refers to profiles composed of data points obtained by both the 'averaged' and 'discrete' sampling methods. Measurements can be taken by the Primary CTD or by auxiliary sensors."@en;
+        skos:definition        "Schéma d'échantillonnage secondaire pour lequel la méthode d'échantillonnage 'mixte' a été utilisée. Le profil d'échantillonnage secondaire a N_PROF>1, et est composé de mesures prises à des niveaux de pression différents du profil d'échantillonnage primaire, ou obtenues par une méthode d'échantillonnage différente de celle du profil d'échantillonnage primaire. La méthode d'échantillonnage 'mixte' fait référence aux profils où chaque point de données a été obtenu par les méthodes d'échantillonnage 'moyennée' et 'discrète'. Les mesures peuvent être prises par le CTD primaire ou par des capteurs auxiliaires."@fr ;
         skos:notation          "SDN:R16::SECMIX";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Secondary sampling: mixed"@en .
+        skos:prefLabel         "Secondary sampling: mixed"@en ;
+        skos:prefLabel         "échantillonnage secondaire: mixte"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R16/current/PRMIX/>
         rdf:type               skos:Concept;
@@ -253,10 +292,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "PRMIX";
+        skos:altLabel          "PRMIX"@fr ;
         skos:definition        "Primary sampling scheme for which the 'mixed' sampling method was used. The primary sampling profile has N_PROF=1, and is composed of primary CTD measurements. The 'mixed' sampling method refers to profiles composed of data points obtained by both the 'averaged' and 'discrete' sampling methods. This sampling scheme can also be applied to measurements from auxiliary sensors obtained by the 'mixed' sampling method and taken at the same pressure levels as the Primary CTD profile. For auxiliary sensor measurements it is not required that all pressure levels contain data."@en;
+        skos:definition        "Schéma d'échantillonnage primaire pour lequel la méthode d'échantillonnage 'mixte' a été utilisée. Le profil d'échantillonnage primaire a N_PROF=1, et est composé de mesures du CTD primaire. La méthode d'échantillonnage 'mixte' fait référence aux profils composés de points de données obtenus par les méthodes d'échantillonnage 'moyennée' et 'discrète'. Ce schéma d'échantillonnage peut aussi être appliqué aux mesures de capteurs auxiliaires obtenues par la méthode d'échantillonnage 'mixte' et prises aux mêmes niveaux de pression que le profil CTD primaire. Pour les mesures de capteurs auxiliaires, il n'est pas requis que tous les niveaux de pression contiennent des données."@fr ;
         skos:notation          "SDN:R16::PRMIX";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Primary sampling: mixed"@en .
+        skos:prefLabel         "Primary sampling: mixed"@en ;
+        skos:prefLabel         "échantillonnage primaire: mixte"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R16/current/BOMIX/>
         rdf:type               skos:Concept;
@@ -270,10 +312,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "BOMIX";
+        skos:altLabel          "BOMIX"@fr ;
         skos:definition        "Bounce sampling scheme for which the 'mixed' sampling method was used. The bounce sampling scheme is composed of profiles with N_PROF>1 collected on multiple rises and falls during a single cycle. The profiles are temporally offset from each other and/or the primary sampling profile. The 'mixed' sampling method refers to profiles composed of data points obtained by both the 'averaged' and 'discrete' sampling methods. Bounce sampling scheme profiles can be sampled with the Primary CTD or with auxiliary sensors."@en;
+        skos:definition        "Schéma d'échantillonnage rebond pour lequel la méthode d'échantillonnage 'mixte' a été utilisée. Le schéma d'échantillonnage rebond est composé de profils avec N_PROF>1 collectés lors de multiples montées et descentes pendant un seul cycle. Les profils sont décalés temporellement les uns des autres et/ou par rapport au profil d'échantillonnage primaire. La méthode d'échantillonnage 'mixte' fait référence aux profils composés de points de données obtenus par les méthodes d'échantillonnage 'moyennée' et 'discrète'. Les profils du schéma d'échantillonnage rebond peuvent être échantillonnés avec le CTD primaire ou avec des capteurs auxiliaires."@fr ;
         skos:notation          "SDN:R16::BOMIX";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Bounce sampling: mixed"@en .
+        skos:prefLabel         "Bounce sampling: mixed"@en ;
+        skos:prefLabel         "échantillonnage rebond: mixte"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R16/current/>
         rdf:type                skos:Collection;
@@ -289,5 +334,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Argo Data Management Team";
         owl:versionInfo         "1";
         skos:altLabel           "VERTICAL_SAMPLING_SCHEME";
+        skos:altLabel           "VERTICAL_SAMPLING_SCHEME"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/R16/current/NSMIXUP/> , <http://vocab.nerc.ac.uk/collection/R16/current/SECDIS/> , <http://vocab.nerc.ac.uk/collection/R16/current/NSAVGP/> , <http://vocab.nerc.ac.uk/collection/R16/current/NSMIXP/> , <http://vocab.nerc.ac.uk/collection/R16/current/BOAVE/> , <http://vocab.nerc.ac.uk/collection/R16/current/BODIS/> , <http://vocab.nerc.ac.uk/collection/R16/current/NSAVGUP/> , <http://vocab.nerc.ac.uk/collection/R16/current/NSDISUP/> , <http://vocab.nerc.ac.uk/collection/R16/current/SECAVG/> , <http://vocab.nerc.ac.uk/collection/R16/current/NSDISP/> , <http://vocab.nerc.ac.uk/collection/R16/current/PRAVG/> , <http://vocab.nerc.ac.uk/collection/R16/current/PRDIS/> , <http://vocab.nerc.ac.uk/collection/R16/current/SECMIX/> , <http://vocab.nerc.ac.uk/collection/R16/current/BOMIX/> , <http://vocab.nerc.ac.uk/collection/R16/current/PRMIX/>;
-        skos:prefLabel          "Argo vertical sampling schemes" .
+        skos:prefLabel          "Argo vertical sampling schemes" ;
+        skos:prefLabel          "schémas d'échantillonnage vertical Argo"@fr .
