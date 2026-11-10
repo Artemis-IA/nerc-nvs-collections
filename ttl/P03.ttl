@@ -32,11 +32,14 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Inapplicable";
+        skos:altLabel          "Non applicable"@fr ;
         skos:definition        "There is no appropriate value."@en;
+        skos:definition        "Il n'existe pas de valeur appropriée."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/INAP/>;
         skos:notation          "SDN:P03::INAZ";
         skos:note              "accepted"@en;
-        skos:prefLabel         "inapplicable"@en .
+        skos:prefLabel         "inapplicable"@en ;
+        skos:prefLabel         "non applicable"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/D010/>
         rdf:type               skos:Concept;
@@ -51,10 +54,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "This APG contains all parameters pertaining to the measurement of:   Eulerian currents  Lagrangian currents (except drifter position)  Vertical currents  River flow velocity  Wave height  Wave period  Wave direction  Wave energy spectra  Sea level relative to a terrestrial datum  Water column height at a fixed location"@en;
+        skos:definition        "Cet APG contient tous les paramètres relatifs à la mesure : courants eulériens, courants lagrangiens (sauf position de dériveur), courants verticaux, vitesse d'écoulement fluvial, hauteur de vague, période de vague, direction de vague, spectres d'énergie des vagues, niveau de la mer relatif à un référentiel terrestre, hauteur de colonne d'eau à un emplacement fixe"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P03/current/D030/> , <http://vocab.nerc.ac.uk/collection/P03/current/D034/> , <http://vocab.nerc.ac.uk/collection/P03/current/D032/>;
         skos:notation          "SDN:P03::D010";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Currents, sea level and waves"@en .
+        skos:prefLabel         "Currents, sea level and waves"@en ;
+        skos:prefLabel         "Courants, niveau de la mer et vagues"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/G020/>
         rdf:type               skos:Concept;
@@ -69,9 +74,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "This APG covers geochemical and age data collected from fully lithified sediments (i.e. sedimentary rocks), water-deposited minerals (e.g. tufa and speleothems) and hard biological deposits (e.g. coral reefs). The group includes both geochemical and stratigraphic geochronological parameters"@en;
+        skos:definition        "Ce groupe APG couvre les données géochimiques et d'âge collectées à partir de sédiments entièrement lithifiés (c.-à-d. roches sédimentaires), de minéraux déposés par l'eau (par ex. tufs et spéléothèmes) et de dépôts biologiques durs (par ex. récifs coralliens). Le groupe inclut à la fois les paramètres géochimiques et les paramètres de géochronologie stratigraphique"@fr ;
         skos:notation          "SDN:P03::G020";
         skos:note              "deprecated"@en;
         skos:prefLabel         "Sedimentary rock geochemistry and geochronology"@en;
+        skos:prefLabel         "Sédimentologie et géochronologie des roches sédimentaires"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P03/current/G035/> , <http://vocab.nerc.ac.uk/collection/P03/current/G030/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/B040/>
@@ -88,10 +95,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "This group contains state variables for animals, other than fish, that live on the sea floor or in the sediment.  Most parameters pertain to the abundance, expressed as numbers or biomass per unit area of sea floor, of species, genera or less rigorous groupings of animals. However any other properties of these entities that are  not rates or fluxes  could be included."@en;
+        skos:definition        "Ce groupe contient des variables d'état pour les animaux, autres que les poissons, qui vivent sur le fond marin ou dans le sédiment. La plupart des paramètres concernent l'abondance, exprimée en nombres ou biomasse par unité de surface du fond marin, d'espèces, de genres ou de regroupements moins rigoureux d'animaux. Cependant, toute autre propriété de ces entités qui n'est pas un taux ou un flux pourrait être incluse."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/STGC/>;
         skos:notation          "SDN:P03::B040";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Zoobenthos"@en .
+        skos:prefLabel         "Zoobenthos"@en ;
+        skos:prefLabel         "zoobenthos"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/G010/>
         rdf:type               skos:Concept;
@@ -107,9 +116,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "This group includes parameters pertaining to the physical properties of sediment. 'Sediment' can include both bottom and suspended particulate material if the property is equally applicable whether or not the sediment is in suspension.  This category will inevitably end up as a 'catch all' for sediment parameters that cannot be mapped to other APGs, and consequently its composition should be periodically reviewed. The BODC Parameter Dictionary currently (May 2003) includes the following types of parameter in this grouping:   Sediment cohesive strength (e.g. erosion stress and shear velocity).  Mineralogy (including organic matter content).  Dating and accumulation rate.  Porosity and water content  Grain size and density.  Magnetic susceptibility and resistivity."@en;
+        skos:definition        "Ce groupe inclut des paramètres relatifs aux propriétés physiques des sédiments. 'Sédiment' peut inclure à la fois le matériau particulaire de fond et en suspension si la propriété est également applicable que le sédiment soit en suspension ou non. Cette catégorie finira inévitablement comme 'fourre-tout' pour les paramètres de sédiment qui ne peuvent être rattachés à d'autres APG, et par conséquent sa composition doit être périodiquement revue. Le dictionnaire de paramètres BODC inclut actuellement (mai 2003) les types de paramètres suivants dans ce regroupement : résistance cohésive des sédiments (par ex. contrainte d'érosion et vitesse de cisaillement) ; minéralogie (incluant la teneur en matière organique) ; datation et taux d'accumulation ; porosité et teneur en eau ; taille de grain et densité ; susceptibilité et résistivité magnétiques."@fr ;
         skos:notation          "SDN:P03::G010";
         skos:note              "deprecated"@en;
-        skos:prefLabel         "Sediment properties"@en .
+        skos:prefLabel         "Sediment properties"@en ;
+        skos:prefLabel         "Propriétés des sédiments"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/G025/>
         rdf:type               skos:Concept;
@@ -124,9 +135,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "This APG includes all geochemical and parameters for igneous rocks, metamorphic rocks and high-temperature mineral deposits. Age parameters include parameters relating to both geochemical and stratigraphic techniques."@en;
+        skos:definition        "Cet APG inclut tous les paramètres géochimiques pour les roches ignées, les roches métamorphiques et les gisements minéraux de haute température. Les paramètres d'âge incluent les paramètres relatifs aux techniques géochimiques et stratigraphiques."@fr ;
         skos:notation          "SDN:P03::G025";
         skos:note              "deprecated"@en;
         skos:prefLabel         "Igneous and metamorphic rock geochemistry and geochronology"@en;
+        skos:prefLabel         "Géochimie et géochronologie des roches ignées et métamorphiques"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P03/current/G035/> , <http://vocab.nerc.ac.uk/collection/P03/current/G030/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/H014/>
@@ -143,10 +156,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS12/>;
         skos:definition        "Datasets related to the process or industry of extracting salt from saltwater."@en;
+        skos:definition        "Jeux de données relatifs au processus ou à l'industrie d'extraction du sel de l'eau salée."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/HA2/current/HA20044/>;
         skos:notation          "SDN:P03::H014";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Salt extraction"@en .
+        skos:prefLabel         "Salt extraction"@en ;
+        skos:prefLabel         "Extraction de sel"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/H006/>
         rdf:type               skos:Concept;
@@ -162,10 +177,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS12/>;
         skos:definition        "Datasets related to the process or industry of farming aquatic animal and plants."@en;
+        skos:definition        "Jeux de données relatifs au processus ou à l'industrie d'élevage d'animaux et de plantes aquatiques."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/HA2/current/HA20003/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20002/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20001/>;
         skos:notation          "SDN:P03::H006";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Aquaculture"@en .
+        skos:prefLabel         "Aquaculture"@en ;
+        skos:prefLabel         "aquaculture"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/H009/>
         rdf:type               skos:Concept;
@@ -181,10 +198,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS12/>;
         skos:definition        "Datasets related to the process of managing cultural and historical artifacts."@en;
+        skos:definition        "Jeux de données relatifs au processus de gestion des artefacts culturels et historiques."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/MARC/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20015/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20014/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20017/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20016/>;
         skos:notation          "SDN:P03::H009";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Cultural Heritage"@en .
+        skos:prefLabel         "Cultural Heritage"@en ;
+        skos:prefLabel         "patrimoine culturel"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/H015/>
         rdf:type               skos:Concept;
@@ -200,10 +219,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS12/>;
         skos:definition        "Datasets related to the process or industry of tourism including activities and facilities or installations."@en;
+        skos:definition        "Jeux de données relatifs au processus ou à l'industrie du tourisme incluant activités, installations ou équipements."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/MLES/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20045/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20047/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20046/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20048/>;
         skos:notation          "SDN:P03::H015";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Tourism"@en .
+        skos:prefLabel         "Tourism"@en ;
+        skos:prefLabel         "Tourisme"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/G065/>
         rdf:type               skos:Concept;
@@ -219,10 +240,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS04/>;
         skos:definition        "Parameters pertaining to the chemistry of hot groundwaters that circulate within the Earth's crust that can emerge at the Earth's surface as hot springs, geothermal fields, geysers, or hydrothermal vents."@en;
+        skos:definition        "Paramètres relatifs à la chimie des eaux souterraines chaudes qui circulent dans la croûte terrestre et peuvent émerger à la surface terrestre sous forme de sources chaudes, champs géothermiques, geysers ou évents hydrothermaux."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/HLHF/> , <http://vocab.nerc.ac.uk/collection/P02/current/SPHF/> , <http://vocab.nerc.ac.uk/collection/P02/current/MTHF/> , <http://vocab.nerc.ac.uk/collection/P02/current/MDHF/> , <http://vocab.nerc.ac.uk/collection/P02/current/SIHF/> , <http://vocab.nerc.ac.uk/collection/P02/current/CCHF/> , <http://vocab.nerc.ac.uk/collection/P02/current/NUHF/>;
         skos:notation          "SDN:P03::G065";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Hydrothermal fluid chemistry"@en .
+        skos:prefLabel         "Hydrothermal fluid chemistry"@en ;
+        skos:prefLabel         "Chimie des fluides hydrothermaux"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/H013/>
         rdf:type               skos:Concept;
@@ -238,10 +261,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P02/current/IACT/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS12/>;
         skos:definition        "Datasets related to the process or industry of deploying and maintaining pipelines."@en;
+        skos:definition        "Jeux de données relatifs au processus ou à l'industrie de déploiement et de maintenance des pipelines."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/HA2/current/HA20037/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20036/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20038/>;
         skos:notation          "SDN:P03::H013";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Pipelines"@en .
+        skos:prefLabel         "Pipelines"@en ;
+        skos:prefLabel         "Canalisations"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/H012/>
         rdf:type               skos:Concept;
@@ -257,10 +282,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P02/current/IACT/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS12/>;
         skos:definition        "Datasets related to the process or industry of locating and extracting coal or other minerals."@en;
+        skos:definition        "Jeux de données relatifs au processus ou à l'industrie de localisation et d'extraction du charbon ou d'autres minéraux."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/HA2/current/HA20034/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20035/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20033/>;
         skos:notation          "SDN:P03::H012";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Mining"@en .
+        skos:prefLabel         "Mining"@en ;
+        skos:prefLabel         "Exploitation minière"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/H010/>
         rdf:type               skos:Concept;
@@ -276,10 +303,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS12/> , <http://vocab.nerc.ac.uk/collection/P02/current/IACT/>;
         skos:definition        "Datasets related to the process or industry of electrical power generation."@en;
+        skos:definition        "Jeux de données relatifs au processus ou à l'industrie de production d'électricité."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/HA2/current/HA20018/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20055/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20023/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20022/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20021/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20020/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20019/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20024/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20054/>;
         skos:notation          "SDN:P03::H010";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Energy"@en .
+        skos:prefLabel         "Energy"@en ;
+        skos:prefLabel         "Énergie"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/H008/>
         rdf:type               skos:Concept;
@@ -295,10 +324,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P02/current/IACT/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS12/>;
         skos:definition        "Datasets related to the process or industry of deploying and maintaining communication and power cables."@en;
+        skos:definition        "Jeux de données relatifs au processus ou à l'industrie de déploiement et de maintenance des câbles de communication et d'alimentation."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/HA2/current/HA20013/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20012/>;
         skos:notation          "SDN:P03::H008";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Cables"@en .
+        skos:prefLabel         "Cables"@en ;
+        skos:prefLabel         "Câbles"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/H011/>
         rdf:type               skos:Concept;
@@ -314,10 +345,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P02/current/IACT/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS12/>;
         skos:definition        "Datasets related to the process or industry of locating and extracting hydrocarbon compounds from underground sources."@en;
+        skos:definition        "Jeux de données relatifs au processus ou à l'industrie de localisation et d'extraction de composés hydrocarbonés de sources souterraines."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/HA2/current/HA20032/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20031/>;
         skos:notation          "SDN:P03::H011";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Hydrocarbon extraction"@en .
+        skos:prefLabel         "Hydrocarbon extraction"@en ;
+        skos:prefLabel         "Extraction d'hydrocarbures"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/H016/>
         rdf:type               skos:Concept;
@@ -333,10 +366,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS12/>;
         skos:definition        "Datasets related to the process or industry of transport including activities and facilities or installations."@en;
+        skos:definition        "Jeux de données relatifs au processus ou à l'industrie de transport incluant activités, installations ou équipements."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/TRAN/> , <http://vocab.nerc.ac.uk/collection/P02/current/HZNV/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20053/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20052/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20049/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20050/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20051/>;
         skos:notation          "SDN:P03::H016";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Transport"@en .
+        skos:prefLabel         "Transport"@en ;
+        skos:prefLabel         "transport"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/GTHM/>
         rdf:type               skos:Concept;
@@ -353,10 +388,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS04/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD002/>;
         skos:definition        "Parameters pertaining to the distribution of the degree of hotness in geologic units (including bodies of unconsolidated sediment), heat transfer in the Earth and the thermal properties of rocks, minerals and sediments."@en;
+        skos:definition        "Paramètres relatifs à la distribution du degré de chaleur dans les unités géologiques (incluant les masses de sédiments non consolidés), le transfert de chaleur dans la Terre et les propriétés thermiques des roches, minéraux et sédiments."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/STMP/> , <http://vocab.nerc.ac.uk/collection/P02/current/STCO/> , <http://vocab.nerc.ac.uk/collection/P02/current/RTCO/> , <http://vocab.nerc.ac.uk/collection/P02/current/HFLW/>;
         skos:notation          "SDN:P03::GTHM";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Geothermal measurements"@en .
+        skos:prefLabel         "Geothermal measurements"@en ;
+        skos:prefLabel         "Mesures géothermiques"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/GMAR/>
         rdf:type               skos:Concept;
@@ -372,10 +409,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS04/>;
         skos:definition        "Parameters describing the morphology, evolution and associated transport phenomena of both seafloor and coastal landforms and features. Seafloor features may include bedforms, seamounts and ridges. Coastal features may include beaches and dunes."@en;
+        skos:definition        "Paramètres décrivant la morphologie, l'évolution et les phénomènes de transport associés des formes du terrain sous-marines et côtières. Les caractéristiques sous-marines peuvent inclure les formes de fond, les monts sous-marins et les dorsales. Les caractéristiques côtières peuvent inclure les plages et les dunes."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/COGE/> , <http://vocab.nerc.ac.uk/collection/OD1/current/SHORE/> , <http://vocab.nerc.ac.uk/collection/P02/current/SBGE/>;
         skos:notation          "SDN:P03::GMAR";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Marine geomorphology"@en .
+        skos:prefLabel         "Marine geomorphology"@en ;
+        skos:prefLabel         "Géomorphologie marine"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/B060/>
         rdf:type               skos:Concept;
@@ -391,10 +430,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS01/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD002/>;
         skos:definition        "Parameters pertaining to all types of diseases, infections, poisonings and physical damage in any type of biota."@en;
+        skos:definition        "Paramètres relatifs à tous types de maladies, infections, intoxications et dommages physiques dans tout type de biote."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/GP005/> , <http://vocab.nerc.ac.uk/collection/P02/current/GP067/> , <http://vocab.nerc.ac.uk/collection/P02/current/GP012/> , <http://vocab.nerc.ac.uk/collection/P02/current/GP010/> , <http://vocab.nerc.ac.uk/collection/P02/current/GP013/> , <http://vocab.nerc.ac.uk/collection/OD1/current/PATHOGEN/>;
         skos:notation          "SDN:P03::B060";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Disease, damage and mortality"@en .
+        skos:prefLabel         "Disease, damage and mortality"@en ;
+        skos:prefLabel         "Maladie, dommage et mortalité"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/G012/>
         rdf:type               skos:Concept;
@@ -412,10 +453,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS04/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD001/>;
         skos:definition        "Parameters associated with determination of sub-floor structure based on the propogation of acoustic energy and acoustic imaging of the sea floor."@en;
+        skos:definition        "Paramètres associés à la détermination de la structure sous le fond marin basée sur la propagation de l'énergie acoustique et l'imagerie acoustique du fond marin."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/SRFL/> , <http://vocab.nerc.ac.uk/collection/P02/current/SRFR/> , <http://vocab.nerc.ac.uk/collection/P02/current/SR2D/> , <http://vocab.nerc.ac.uk/collection/P02/current/SR3D/> , <http://vocab.nerc.ac.uk/collection/P02/current/XMGS/> , <http://vocab.nerc.ac.uk/collection/P02/current/PASR/> , <http://vocab.nerc.ac.uk/collection/P02/current/SDAC/> , <http://vocab.nerc.ac.uk/collection/P02/current/SSCN/> , <http://vocab.nerc.ac.uk/collection/P02/current/ACSR/>;
         skos:notation          "SDN:P03::G012";
         skos:note              "accepted"@en;
         skos:prefLabel         "Sonar and seismics"@en;
+        skos:prefLabel         "Sonar et sismique"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P23/current/MD007/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/UWPH/>
@@ -430,12 +473,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "UW_Photo";
+        skos:altLabel          "UW_Photo"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS04/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS01/>;
         skos:definition        "Still or video digital images taken below the surface of the water column"@en;
+        skos:definition        "Images numériques fixes ou vidéo prises sous la surface de la colonne d'eau"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/WCPH/> , <http://vocab.nerc.ac.uk/collection/P02/current/SBPH/>;
         skos:notation          "SDN:P03::UWPH";
         skos:note              "accepted"@en;
         skos:prefLabel         "Underwater photography"@en;
+        skos:prefLabel         "Photographie sous-marine"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P23/current/MD001/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD002/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD007/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/D032/>
@@ -452,10 +498,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P03/current/D010/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS03/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD005/>;
         skos:definition        "This APG contains all parameters pertaining to the measurement of:   Sea level relative to a terrestrial datum  Water column height at a fixed location"@en;
+        skos:definition        "Cet APG contient tous les paramètres relatifs à la mesure : niveau de la mer relatif à un référentiel terrestre, hauteur de colonne d'eau à un emplacement fixe"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/PREX/> , <http://vocab.nerc.ac.uk/collection/P02/current/ASLV/> , <http://vocab.nerc.ac.uk/collection/P02/current/RBSC/> , <http://vocab.nerc.ac.uk/collection/OD1/current/SEALVL/> , <http://vocab.nerc.ac.uk/collection/OD1/current/TIDES/>;
         skos:notation          "SDN:P03::D032";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Sea level"@en .
+        skos:prefLabel         "Sea level"@en ;
+        skos:prefLabel         "Niveau de la mer"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/D020/>
         rdf:type               skos:Concept;
@@ -471,10 +519,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS03/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD005/>;
         skos:definition        "This is a 'safety net' category to cover physical oceanographic parameters that cannot be mapped to other Agreed Parameter Groups. It should be regarded as a transitional grouping: if a significant number of related parameters map to this group then the creation of an additional group should be discussed and agreed.  The following parameters within the BODC Parameter Dictionary currently (May 2003) fall into this category.   Parameters derived from temperature and salinity, such as density anomaly and Brunt-Vaisala frequency.  The volume to mass (litres to kilograms) conversion parameter.  Parameters measured by in-situ turbulence probes (e.g. FLY probe), such as temperature dissipation rate, turbulent kinetic energy dissipation and diffusivity.   The BODC parameters 'PRES' (sea pressure in decibars) and 'ADEP' (depth in metres) are also included in this group. This is because there is an ambiguity problem with these parameters assigned to both measurements of tidal height by water level recorders (obviously Currents, Sea Level and Waves APG) and to the 'z' spatial co-ordinate for CTD and radiosonde data (obviously Administration and Dimensions APG). This problem will be addressed in a planned future restructuring of the BODC database by setting up and applying two separate codes.  Pressure channels in current meter records pose additional problems as the data may either be used as a measure of tidal height or to monitor the depth of the instrument, looking primarily for knockdown. Current thinking is to assign the 'tidal height' pressure code in this case as the pressure record rarely provides an accurate estimate of the instrument's 'z' co-ordinate."@en;
+        skos:definition        "Ceci est une catégorie 'filet de sécurité' pour couvrir les paramètres d'océanographie physique qui ne peuvent être rattachés à d'autres groupes de paramètres convenus. Elle doit être considérée comme un regroupement transitoire : si un nombre significatif de paramètres liés se rattachent à ce groupe, la création d'un groupe supplémentaire doit être discutée et convenue. Les paramètres suivants du dictionnaire de paramètres BODC appartiennent actuellement (mai 2003) à cette catégorie : paramètres dérivés de la température et de la salinité, comme l'anomalie de densité et la fréquence de Brunt-Vaisala ; le paramètre de conversion volume-masse (litres en kilogrammes) ; les paramètres mesurés par des sondes de turbulence in-situ (par ex. sonde FLY), comme le taux de dissipation de température, la dissipation d'énergie cinétique turbulente et la diffusivité. Les paramètres BODC 'PRES' (pression de mer en décibars) et 'ADEP' (profondeur en mètres) sont aussi inclus dans ce groupe. Ceci parce qu'il y a un problème d'ambiguïté avec ces paramètres assignés à la fois aux mesures de hauteur de marée par enregistreurs de niveau d'eau (évidemment APG Courants, niveau de la mer et vagues) et à la coordonnée spatiale 'z' pour les données CTD et radiosonde (évidemment APG Administration et dimensions). Ce problème sera traité dans une restructuration future planifiée de la base de données BODC en configurant et appliquant deux codes séparés. Les canaux de pression dans les enregistrements de courantomètres posent des problèmes supplémentaires car les données peuvent être utilisées soit comme mesure de hauteur de marée soit pour surveiller la profondeur de l'instrument, en cherchant principalement le knockdown. La réflexion actuelle est d'assigner le code de pression 'hauteur de marée' dans ce cas car l'enregistrement de pression fournit rarement une estimation précise de la coordonnée 'z' de l'instrument."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/HFLX/> , <http://vocab.nerc.ac.uk/collection/P02/current/SIGT/> , <http://vocab.nerc.ac.uk/collection/P02/current/MXLM/> , <http://vocab.nerc.ac.uk/collection/P02/current/WCTR/> , <http://vocab.nerc.ac.uk/collection/OD1/current/TRANST/> , <http://vocab.nerc.ac.uk/collection/P02/current/LRWL/>;
         skos:notation          "SDN:P03::D020";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Other physical oceanographic measurements"@en .
+        skos:prefLabel         "Other physical oceanographic measurements"@en ;
+        skos:prefLabel         "autres mesures océanographiques physiques"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/G060/>
         rdf:type               skos:Concept;
@@ -490,10 +540,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS04/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS08/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD001/>;
         skos:definition        "Parameters pertaining to the removal and deposition of unlithified sediments."@en;
+        skos:definition        "Paramètres relatifs à l'enlèvement et au dépôt de sédiments non lithifiés."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/RACC/> , <http://vocab.nerc.ac.uk/collection/P02/current/BEST/> , <http://vocab.nerc.ac.uk/collection/P02/current/RALT/>;
         skos:notation          "SDN:P03::G060";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Sedimentation and erosion processes"@en .
+        skos:prefLabel         "Sedimentation and erosion processes"@en ;
+        skos:prefLabel         "Processus de sédimentation et d'érosion"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/B025/>
         rdf:type               skos:Concept;
@@ -509,10 +561,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS01/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD002/>;
         skos:definition        "This group incorporates all state variables pertaining to microzooplankton, defined as heterotrophic organisms smaller than 200 microns in length. The term covers organisms sometimes referred to as picozooplankton or nanozooplankton.  Most parameters express the abundance, either as cell counts or biomass, of various types of microzooplankton, but may include other properties such as cell volume. Rates (including grazing parameters) and fluxes are not included here (see Rates and Fluxes APGs)."@en;
+        skos:definition        "Ce groupe incorpore toutes les variables d'état relatives au microzooplancton, défini comme les organismes hétérotrophes de moins de 200 microns de longueur. Le terme couvre les organismes parfois appelés picozooplancton ou nanozooplancton. La plupart des paramètres expriment l'abondance, soit en comptages cellulaires soit en biomasse, de divers types de microzooplancton, mais peut inclure d'autres propriétés comme le volume cellulaire. Les taux (incluant les paramètres de broutage) et les flux ne sont pas inclus ici (voir APG Taux et flux)."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/MATC/> , <http://vocab.nerc.ac.uk/collection/P02/current/MZBC/> , <http://vocab.nerc.ac.uk/collection/P02/current/MZBN/> , <http://vocab.nerc.ac.uk/collection/P02/current/MATX/> , <http://vocab.nerc.ac.uk/collection/P02/current/MZCT/> , <http://vocab.nerc.ac.uk/collection/P02/current/A999/> , <http://vocab.nerc.ac.uk/collection/P02/current/V999/>;
         skos:notation          "SDN:P03::B025";
         skos:note              "accepted"@en;
         skos:prefLabel         "Microzooplankton"@en;
+        skos:prefLabel         "Microzooplancton"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P02/current/CYEU/> , <http://vocab.nerc.ac.uk/collection/P02/current/PYTT/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/GSED/>
@@ -527,12 +581,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Sedimentology";
+        skos:altLabel          "Sédimentologie"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P23/current/MD001/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS04/>;
         skos:definition        "Parameters pertaining to the sedimentological characterisation (e.g. structure, formation) of rocks (including speleothems) and unlithified sediment"@en;
+        skos:definition        "Paramètres relatifs à la caractérisation sédimentologique (par ex. structure, formation) des roches (incluant les spéléothèmes) et des sédiments non lithifiés"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/DPEV/> , <http://vocab.nerc.ac.uk/collection/P02/current/SSTR/>;
         skos:notation          "SDN:P03::GSED";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Rock and sediment sedimentology"@en .
+        skos:prefLabel         "Rock and sediment sedimentology"@en ;
+        skos:prefLabel         "Sédimentologie des roches et des sédiments"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/M015/>
         rdf:type               skos:Concept;
@@ -549,11 +606,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P23/current/MD009/>;
         skos:definition        "This group incorporates all parameters pertaining to frozen precipitation, lying snow and ice, permafrost, icebergs, glaciers and ice caps."@en;
+        skos:definition        "Ce groupe incorpore tous les paramètres relatifs aux précipitations gelées, à la neige et la glace au sol, au pergélisol, aux icebergs, aux glaciers et aux calottes glaciaires."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current/> , <http://vocab.nerc.ac.uk/scheme/NETOC_PARAM/current/>;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/CRYS/> , <http://vocab.nerc.ac.uk/collection/P02/current/ICEM/> , <http://vocab.nerc.ac.uk/collection/P02/current/IPHY/> , <http://vocab.nerc.ac.uk/collection/P02/current/ICHM/> , <http://vocab.nerc.ac.uk/collection/P02/current/RBSC/> , <http://vocab.nerc.ac.uk/collection/P02/current/IAGE/> , <http://vocab.nerc.ac.uk/collection/P02/current/MTIC/> , <http://vocab.nerc.ac.uk/collection/OD1/current/SEAICE/>;
         skos:notation          "SDN:P03::M015";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Cryosphere"@en .
+        skos:prefLabel         "Cryosphere"@en ;
+        skos:prefLabel         "cryosphère"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/C020/>
         rdf:type               skos:Concept;
@@ -570,10 +629,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P23/current/MD006/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS02/>;
         skos:definition        "Parameters concerning all compounds of carbon covalently bonded to and one or members of the halogen group (fluorine, chlorine, bromine or iodine) but with no other functional groups.  It includes naturally generated compounds (usually short-chain haloalkanes and haloalkenes), man-made freons and contaminants such as organochlorine pesticides."@en;
+        skos:definition        "Paramètres concernant tous les composés du carbone liés covalemment à un ou plusieurs membres du groupe des halogènes (fluor, chlore, brome ou iode) mais sans autre groupe fonctionnel. Cela inclut les composés générés naturellement (généralement des haloalcanes et haloalcènes à chaîne courte), les fréons artificiels et les contaminants comme les pesticides organochlorés."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/FR11/> , <http://vocab.nerc.ac.uk/collection/P02/current/HLDE/> , <http://vocab.nerc.ac.uk/collection/P02/current/DCMX/>;
         skos:notation          "SDN:P03::C020";
         skos:note              "accepted"@en;
         skos:prefLabel         "Halocarbons (including freons)"@en;
+        skos:prefLabel         "Halocarbures (incluant les fréons)"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P02/current/ICHM/> , <http://vocab.nerc.ac.uk/collection/P02/current/PEBI/> , <http://vocab.nerc.ac.uk/collection/P02/current/PEWB/> , <http://vocab.nerc.ac.uk/collection/P02/current/PESD/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/G050/>
@@ -590,10 +651,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P23/current/MD006/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS04/>;
         skos:definition        "Parameters pertaining to the chemistry of the interstitial pore waters in unlithified sediments."@en;
+        skos:definition        "Paramètres relatifs à la chimie des eaux interstitielles des pores dans les sédiments non lithifiés."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/NTPW/> , <http://vocab.nerc.ac.uk/collection/P02/current/CCPW/> , <http://vocab.nerc.ac.uk/collection/P02/current/SIPW/> , <http://vocab.nerc.ac.uk/collection/P02/current/MDPW/> , <http://vocab.nerc.ac.uk/collection/P02/current/DGPW/> , <http://vocab.nerc.ac.uk/collection/P02/current/REFF/> , <http://vocab.nerc.ac.uk/collection/P02/current/OMPW/> , <http://vocab.nerc.ac.uk/collection/P02/current/OCPW/> , <http://vocab.nerc.ac.uk/collection/P02/current/MTPW/>;
         skos:notation          "SDN:P03::G050";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Sediment pore water chemistry"@en .
+        skos:prefLabel         "Sediment pore water chemistry"@en ;
+        skos:prefLabel         "Chimie des eaux interstitielles des sédiments"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/C050/>
         rdf:type               skos:Concept;
@@ -609,10 +672,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P23/current/MD006/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS02/>;
         skos:definition        "This is a 'safety net' category to cover organic chemical parameters that cannot be mapped to other Agreed Parameter Groups. It should be regarded as a transitional grouping: if a significant number of related parameters map to this group then the creation of an additional group should be discussed and agreed.  The following parameters within the BODC Parameter Dictionary currently (May 2003) fall into this category.   Alkenones, alkanols and alkenoate concentrations.  Organometallic compound and ligand, such as dimethyl arsenic and Fe-organic ligand, concentrations.  Organosulphur compound, such as dimethyl sulphoxide and DMSP, concentrations. Note that dimethyl sulphide has been categorised as a dissolved gas.  Biomarker compound, such as DNA, RNA and ATP, concentrations.  Carbohydrate concentrations.  Protein concentrations.  Amine concentrations."@en;
+        skos:definition        "Ceci est une catégorie 'filet de sécurité' pour couvrir les paramètres de chimie organique qui ne peuvent être rattachés à d'autres groupes de paramètres convenus. Elle doit être considérée comme un regroupement transitoire : si un nombre significatif de paramètres liés se rattachent à ce groupe, la création d'un groupe supplémentaire doit être discutée et convenue. Les paramètres suivants du dictionnaire de paramètres BODC appartiennent actuellement (mai 2003) à cette catégorie : concentrations d'alcénones, alcanols et alcénoates ; concentrations de composés organométalliques et de ligands, comme l'arsenic diméthyle et le ligand organique Fe ; concentrations de composés organosoufrés, comme le sulfoxyde de diméthyle et le DMSP. Notez que le sulfure de diméthyle a été classé comme gaz dissous ; concentrations de composés biomarqueurs, comme l'ADN, l'ARN et l'ATP ; concentrations de glucides ; concentrations de protéines ; concentrations d'amines."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/OD1/current/BIOINFO/> , <http://vocab.nerc.ac.uk/collection/P02/current/HMSB/> , <http://vocab.nerc.ac.uk/collection/P02/current/SDNA/> , <http://vocab.nerc.ac.uk/collection/P02/current/AAWC/> , <http://vocab.nerc.ac.uk/collection/P02/current/SPRO/> , <http://vocab.nerc.ac.uk/collection/P02/current/TADN/> , <http://vocab.nerc.ac.uk/collection/P02/current/SACT/> , <http://vocab.nerc.ac.uk/collection/P02/current/CAKN/> , <http://vocab.nerc.ac.uk/collection/P02/current/CASD/> , <http://vocab.nerc.ac.uk/collection/P02/current/ATPX/> , <http://vocab.nerc.ac.uk/collection/P02/current/OMPW/> , <http://vocab.nerc.ac.uk/collection/P02/current/ZNLG/> , <http://vocab.nerc.ac.uk/collection/P02/current/DMST/> , <http://vocab.nerc.ac.uk/collection/P02/current/OMBI/> , <http://vocab.nerc.ac.uk/collection/P02/current/WPRO/> , <http://vocab.nerc.ac.uk/collection/P02/current/TOCH/> , <http://vocab.nerc.ac.uk/collection/P02/current/OMWC/> , <http://vocab.nerc.ac.uk/collection/P02/current/AASD/> , <http://vocab.nerc.ac.uk/collection/P02/current/WDNA/>;
         skos:notation          "SDN:P03::C050";
         skos:note              "accepted"@en;
         skos:prefLabel         "Other organic chemical measurements"@en;
+        skos:prefLabel         "Autres mesures de chimie organique"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P02/current/ICHM/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/G005/>
@@ -631,10 +696,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS04/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD001/>;
         skos:definition        "Parameters related to the strength and characteristics of the Earth's magnetic and gravity fields and the spatial variation in water body depth."@en;
+        skos:definition        "Paramètres relatifs à la force et aux caractéristiques des champs magnétiques et gravitationnels de la Terre et à la variation spatiale de la profondeur des masses d'eau."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/GRAV/> , <http://vocab.nerc.ac.uk/collection/P02/current/MMAN/> , <http://vocab.nerc.ac.uk/collection/P02/current/XMGS/>;
         skos:notation          "SDN:P03::G005";
         skos:note              "accepted"@en;
         skos:prefLabel         "Gravity, magnetics and bathymetry"@en;
+        skos:prefLabel         "Gravité, magnétisme et bathymétrie"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P02/current/MBAN/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD007/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/GPYS/>
@@ -649,12 +716,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Geophys";
+        skos:altLabel          "Géophysique"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS04/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD001/>;
         skos:definition        "In-situ measurements of physical phenomena designed to elucidate the composition and structure of underlying geological units"@en;
+        skos:definition        "Mesures in-situ de phénomènes physiques conçues pour élucider la composition et la structure des unités géologiques sous-jacentes"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/RSIS/> , <http://vocab.nerc.ac.uk/collection/P02/current/GERA/> , <http://vocab.nerc.ac.uk/collection/P02/current/SRFL/> , <http://vocab.nerc.ac.uk/collection/P02/current/GRAV/> , <http://vocab.nerc.ac.uk/collection/P02/current/SR2D/> , <http://vocab.nerc.ac.uk/collection/P02/current/MMAN/> , <http://vocab.nerc.ac.uk/collection/P02/current/SR3D/> , <http://vocab.nerc.ac.uk/collection/P02/current/PASR/> , <http://vocab.nerc.ac.uk/collection/P02/current/SDAC/> , <http://vocab.nerc.ac.uk/collection/P02/current/ACSR/> , <http://vocab.nerc.ac.uk/collection/P02/current/STMP/>;
         skos:notation          "SDN:P03::GPYS";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Field geophysics"@en .
+        skos:prefLabel         "Field geophysics"@en ;
+        skos:prefLabel         "Géophysique de terrain"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/D034/>
         rdf:type               skos:Concept;
@@ -671,10 +741,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P03/current/D010/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS03/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD005/>;
         skos:definition        "This APG contains all parameters pertaining to the measurement of:   Wave height  Wave period  Wave direction  Wave energy spectra"@en;
+        skos:definition        "Cet APG contient tous les paramètres relatifs à la mesure : hauteur de vague, période de vague, direction de vague, spectres d'énergie des vagues"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/WVST/> , <http://vocab.nerc.ac.uk/collection/P02/current/HEAV/> , <http://vocab.nerc.ac.uk/collection/P02/current/WVSP/> , <http://vocab.nerc.ac.uk/collection/P02/current/RBSC/> , <http://vocab.nerc.ac.uk/collection/P02/current/GWDR/> , <http://vocab.nerc.ac.uk/collection/P02/current/KRTS/>;
         skos:notation          "SDN:P03::D034";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Waves"@en .
+        skos:prefLabel         "Waves"@en ;
+        skos:prefLabel         "Vagues"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/C017/>
         rdf:type               skos:Concept;
@@ -690,9 +762,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P23/current/MD006/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS02/>;
         skos:definition        "This group incorporates the parameters relating to the fatty acid content of sediment or suspended particulate material. Contents are expressed either as 'concentrations' (SPM fatty acid per unit volume of water) or 'contents' (quantity of fatty acid per unit mass of sediment or SPM).  Fatty acids are considered as the naturally occurring continuous chain, saturated and unsaturated aliphatic acids. In their ester form these are the constituents of the fats, waxes and oils of plants and animals. Simpler carboxylic acids with an alkyl or alkenyl group, sometimes loosely termed 'fatty acids' are not included."@en;
+        skos:definition        "Ce groupe incorpore les paramètres relatifs au contenu en acides gras des sédiments ou des particules en suspension. Les contenus sont exprimés soit en 'concentrations' (acide gras MSP par unité de volume d'eau) soit en 'teneurs' (quantité d'acide gras par unité de masse de sédiment ou de MSP). Les acides gras sont considérés comme les acides aliphatiques saturés et insaturés à chaîne continue naturellement présents. Sous forme d'esters, ce sont les constituants des graisses, cires et huiles des plantes et des animaux. Les acides carboxyliques plus simples avec un groupe alkyle ou alcényle, parfois vaguement appelés 'acides gras', ne sont pas inclus."@fr ;
         skos:notation          "SDN:P03::C017";
         skos:note              "accepted"@en;
         skos:prefLabel         "Fatty acids"@en;
+        skos:prefLabel         "Acides gras"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P02/current/ICHM/> , <http://vocab.nerc.ac.uk/collection/P02/current/F001/> , <http://vocab.nerc.ac.uk/collection/P02/current/LIBI/> , <http://vocab.nerc.ac.uk/collection/P02/current/CD10/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/C010/>
@@ -710,10 +784,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P23/current/MD006/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS02/>;
         skos:definition        "This group incorporates the state variables that describe the concentration of dissolved inorganic carbon and the status of the equilibrium between this and the atmospheric carbon dioxide concentration.  These are:   Carbon dioxide partial pressure/fugacity.  Total alkalinity.  pH  Dissolved inorganic carbon (TCO 2 )   The group also includes parameters that are essential for the interpretation of the data, such as the temperature at which a parameter was collected or to which it has been recalculated."@en;
+        skos:definition        "Ce groupe incorpore les variables d'état qui décrivent la concentration de carbone inorganique dissous et l'état de l'équilibre entre celle-ci et la concentration de dioxyde de carbone atmosphérique. Ce sont : pression partielle/fugacité du dioxyde de carbone ; alcalinité totale ; pH ; carbone inorganique dissous (TCO2). Le groupe inclut aussi des paramètres essentiels pour l'interprétation des données, comme la température à laquelle un paramètre a été collecté ou à laquelle il a été recalculé."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/TCO2/> , <http://vocab.nerc.ac.uk/collection/P02/current/ALKY/> , <http://vocab.nerc.ac.uk/collection/P02/current/PCO2/> , <http://vocab.nerc.ac.uk/collection/P02/current/CCPW/> , <http://vocab.nerc.ac.uk/collection/P02/current/PHLT/>;
         skos:notation          "SDN:P03::C010";
         skos:note              "accepted"@en;
         skos:prefLabel         "Carbonate system"@en;
+        skos:prefLabel         "système carbonaté"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P02/current/ACO2/> , <http://vocab.nerc.ac.uk/collection/P02/current/ICHM/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/C055/>
@@ -730,10 +806,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P23/current/MD006/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS02/>;
         skos:definition        "This group is designed to bring together parameters pertaining to concentrations of extremely toxic organic chemicals in air, water, SPM, sediment or biological material. It has been set up as an alternative miscellaneous APG to 'Other Organic Chemical Measurements' to assist searches for environmentally significant substances.  The inclusion of a parameter in this grouping has to be subjective to some extent. The following types of substance have been included for the current (May 2003) version of the BODC Parameter Dictionary.   Polychlorobiphenols (PCBs)  Pesticides  Herbicides  Anti-fouling agents"@en;
+        skos:definition        "Ce groupe est conçu pour rassembler les paramètres relatifs aux concentrations de produits chimiques organiques extrêmement toxiques dans l'air, l'eau, la MSP, les sédiments ou le matériau biologique. Il a été mis en place comme APG divers de substitution à 'Autres mesures de chimie organique' pour faciliter les recherches de substances significatives pour l'environnement. L'inclusion d'un paramètre dans ce regroupement doit être subjective dans une certaine mesure. Les types de substances suivants ont été inclus pour la version actuelle (mai 2003) du dictionnaire de paramètres BODC : polychlorobiphényles (PCB) ; pesticides ; herbicides ; agents anti-biofouling."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/OD1/current/BIOTOX/> , <http://vocab.nerc.ac.uk/collection/OD1/current/CONT/> , <http://vocab.nerc.ac.uk/collection/P02/current/SCOC/> , <http://vocab.nerc.ac.uk/collection/P02/current/PCHW/> , <http://vocab.nerc.ac.uk/collection/P02/current/PESD/> , <http://vocab.nerc.ac.uk/collection/P02/current/BCPB/> , <http://vocab.nerc.ac.uk/collection/P02/current/SPCB/> , <http://vocab.nerc.ac.uk/collection/P02/current/PPCB/> , <http://vocab.nerc.ac.uk/collection/P02/current/PHSE/> , <http://vocab.nerc.ac.uk/collection/P02/current/SCAH/> , <http://vocab.nerc.ac.uk/collection/P02/current/PCAH/> , <http://vocab.nerc.ac.uk/collection/P02/current/WCOC/> , <http://vocab.nerc.ac.uk/collection/P02/current/OMPW/> , <http://vocab.nerc.ac.uk/collection/P02/current/BCOC/> , <http://vocab.nerc.ac.uk/collection/P02/current/OMWC/> , <http://vocab.nerc.ac.uk/collection/P02/current/PHBI/> , <http://vocab.nerc.ac.uk/collection/P02/current/PPWC/> , <http://vocab.nerc.ac.uk/collection/P02/current/PEBI/> , <http://vocab.nerc.ac.uk/collection/P02/current/PEWB/> , <http://vocab.nerc.ac.uk/collection/P02/current/OMBI/> , <http://vocab.nerc.ac.uk/collection/P02/current/PCOC/> , <http://vocab.nerc.ac.uk/collection/P02/current/BCAH/> , <http://vocab.nerc.ac.uk/collection/P02/current/PHWB/>;
         skos:notation          "SDN:P03::C055";
         skos:note              "accepted"@en;
         skos:prefLabel         "PCBs and organic micropollutants"@en;
+        skos:prefLabel         "PCB et micropolluants organiques"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P02/current/ICHM/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD008/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/D005/>
@@ -751,10 +829,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS03/>;
         skos:definition        "This group contains parameter codes relating to the propagation of sound through seawater, such as signal amplitude, noise, signal return, travel time and sound velocity."@en;
+        skos:definition        "Ce groupe contient les codes de paramètres relatifs à la propagation du son dans l'eau de mer, comme l'amplitude du signal, le bruit, le retour de signal, le temps de parcours et la vitesse du son."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/SVEL/> , <http://vocab.nerc.ac.uk/collection/P02/current/ASAM/> , <http://vocab.nerc.ac.uk/collection/P02/current/NOYS/>;
         skos:notation          "SDN:P03::D005";
         skos:note              "accepted"@en;
         skos:prefLabel         "Acoustics"@en;
+        skos:prefLabel         "Acoustique"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P23/current/MD005/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD008/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/G045/>
@@ -771,10 +851,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS04/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS08/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD001/>;
         skos:definition        "Parameters pertaining to the petrological characterisation and component minerals of rocks (including speleotherms) and unlithified sediment."@en;
+        skos:definition        "Paramètres relatifs à la caractérisation pétrologique et aux minéraux constituants des roches (incluant les spéléothèmes) et des sédiments non lithifiés."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/LITH/> , <http://vocab.nerc.ac.uk/collection/P02/current/MINC/> , <http://vocab.nerc.ac.uk/collection/P02/current/CLAY/>;
         skos:notation          "SDN:P03::G045";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Rock and sediment lithology and mineralogy"@en .
+        skos:prefLabel         "Rock and sediment lithology and mineralogy"@en ;
+        skos:prefLabel         "Lithologie et minéralogie des roches et des sédiments"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/C030/>
         rdf:type               skos:Concept;
@@ -791,10 +873,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P23/current/MD006/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS02/>;
         skos:definition        "This group contains parameter codes relating to the abundance of both radioactive and stable isotopes. All types of substrate are included - water, SPM, sediment and biological material."@en;
+        skos:definition        "Ce groupe contient les codes de paramètres relatifs à l'abondance des isotopes radioactifs et stables. Tous les types de substrat sont inclus - eau, MSP, sédiment et matériau biologique."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/ARAD/> , <http://vocab.nerc.ac.uk/collection/P02/current/SRAD/> , <http://vocab.nerc.ac.uk/collection/P02/current/BRAD/> , <http://vocab.nerc.ac.uk/collection/P02/current/WRAD/> , <http://vocab.nerc.ac.uk/collection/P02/current/SIPW/> , <http://vocab.nerc.ac.uk/collection/P02/current/ISAT/> , <http://vocab.nerc.ac.uk/collection/P02/current/IRBO/> , <http://vocab.nerc.ac.uk/collection/P02/current/SSTB/> , <http://vocab.nerc.ac.uk/collection/P02/current/WSTB/>;
         skos:notation          "SDN:P03::C030";
         skos:note              "accepted"@en;
         skos:prefLabel         "Isotopes"@en;
+        skos:prefLabel         "isotopes"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P02/current/ICHM/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/B035/>
@@ -812,11 +896,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS01/>;
         skos:definition        "This group incorporates plant pigment concentration parameters and uncalibrated readings from instruments that make in-situ pigment measurements, such as fluorometer voltages.  The grouping includes measurements on pigments in the particulate phase of the water column (expressed as pigment mass per unit volume/mass of water), pigments in sediment (expressed as pigment mass per unit mass or volume of sediment) and zooplankton gut pigment contents (expressed as pigment mass per individual)."@en;
+        skos:definition        "Ce groupe incorpore les paramètres de concentration de pigments végétaux et les lectures non calibrées d'instruments faisant des mesures de pigments in-situ, comme les tensions de fluorimètre. Le regroupement inclut les mesures de pigments dans la phase particulaire de la colonne d'eau (exprimées en masse de pigment par unité de volume/masse d'eau), les pigments dans les sédiments (exprimés en masse de pigment par unité de masse ou volume de sédiment) et les teneurs en pigments intestinaux du zooplancton (exprimées en masse de pigment par individu)."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current/> , <http://vocab.nerc.ac.uk/scheme/NETOC_PARAM/current/>;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/STGC/> , <http://vocab.nerc.ac.uk/collection/P02/current/PHSD/> , <http://vocab.nerc.ac.uk/collection/P02/current/OPWC/> , <http://vocab.nerc.ac.uk/collection/P02/current/CPCN/> , <http://vocab.nerc.ac.uk/collection/P02/current/PHWC/> , <http://vocab.nerc.ac.uk/collection/P02/current/PHYC/> , <http://vocab.nerc.ac.uk/collection/P02/current/CPSD/> , <http://vocab.nerc.ac.uk/collection/P02/current/CPWC/> , <http://vocab.nerc.ac.uk/collection/P02/current/AXFX/> , <http://vocab.nerc.ac.uk/collection/P02/current/CARO/> , <http://vocab.nerc.ac.uk/collection/P02/current/GPIG/> , <http://vocab.nerc.ac.uk/collection/P02/current/FVLT/> , <http://vocab.nerc.ac.uk/collection/P02/current/CARS/>;
         skos:notation          "SDN:P03::B035";
         skos:note              "accepted"@en;
         skos:prefLabel         "Pigments"@en;
+        skos:prefLabel         "Pigments"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P02/current/CMFL/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD002/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/C035/>
@@ -832,12 +918,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "Metal(loid)_cct";
+        skos:altLabel          "Metal(loid)_cct"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P23/current/MD006/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS02/>;
         skos:definition        "Parameters pertaining to metal and trace metalloid (i.e. excluding Si) concentrations in any material."@en;
+        skos:definition        "Paramètres relatifs aux concentrations de métaux et de métalloïdes traces (c.-à-d. excluant Si) dans tout matériau."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/OD1/current/CONT/> , <http://vocab.nerc.ac.uk/collection/P02/current/RMIN/> , <http://vocab.nerc.ac.uk/collection/P02/current/MTSD/> , <http://vocab.nerc.ac.uk/collection/P02/current/MTPW/> , <http://vocab.nerc.ac.uk/collection/P02/current/BCMT/> , <http://vocab.nerc.ac.uk/collection/P02/current/MTWC/> , <http://vocab.nerc.ac.uk/collection/P02/current/MTIC/> , <http://vocab.nerc.ac.uk/collection/P02/current/MDWD/> , <http://vocab.nerc.ac.uk/collection/P02/current/OMPW/> , <http://vocab.nerc.ac.uk/collection/P02/current/ZNLG/> , <http://vocab.nerc.ac.uk/collection/P02/current/OMWC/> , <http://vocab.nerc.ac.uk/collection/P02/current/MDPW/> , <http://vocab.nerc.ac.uk/collection/P02/current/MTWP/> , <http://vocab.nerc.ac.uk/collection/P02/current/MTWD/> , <http://vocab.nerc.ac.uk/collection/P02/current/MTAT/> , <http://vocab.nerc.ac.uk/collection/P02/current/MTWT/> , <http://vocab.nerc.ac.uk/collection/P02/current/OMBI/> , <http://vocab.nerc.ac.uk/collection/P02/current/MDBO/> , <http://vocab.nerc.ac.uk/collection/P02/current/MDWP/>;
         skos:notation          "SDN:P03::C035";
         skos:note              "accepted"@en;
         skos:prefLabel         "Metal and metalloid concentrations"@en;
+        skos:prefLabel         "Concentrations de métaux et métalloïdes"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P02/current/ICHM/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/B030/>
@@ -855,11 +944,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS01/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD002/>;
         skos:definition        "Parameters related to autotrophic organisms smaller than 200 microns that are free-floating in water bodies, live in sediment or on the seabed."@en;
+        skos:definition        "Paramètres relatifs aux organismes autotrophes de moins de 200 microns qui flottent librement dans les masses d'eau, vivent dans les sédiments ou sur le fond marin."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current/> , <http://vocab.nerc.ac.uk/scheme/NETOC_PARAM/current/>;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/D001/> , <http://vocab.nerc.ac.uk/collection/P02/current/BEPP/> , <http://vocab.nerc.ac.uk/collection/OD1/current/PHYTO/> , <http://vocab.nerc.ac.uk/collection/P02/current/D000/> , <http://vocab.nerc.ac.uk/collection/P02/current/PNTX/> , <http://vocab.nerc.ac.uk/collection/P02/current/CNTX/> , <http://vocab.nerc.ac.uk/collection/P02/current/CATX/> , <http://vocab.nerc.ac.uk/collection/P02/current/AATX/> , <http://vocab.nerc.ac.uk/collection/P02/current/PATX/> , <http://vocab.nerc.ac.uk/collection/P02/current/VATX/>;
         skos:notation          "SDN:P03::B030";
         skos:note              "accepted"@en;
         skos:prefLabel         "Phytoplankton and microphytobenthos"@en;
+        skos:prefLabel         "Phytoplancton et microphytobenthos"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P02/current/PPRD/> , <http://vocab.nerc.ac.uk/collection/P02/current/CYEU/> , <http://vocab.nerc.ac.uk/collection/P02/current/PYTT/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/H003/>
@@ -876,10 +967,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P23/current/MD001/>;
         skos:definition        "Measurements and parameterisations from which the climatic conditions in the recent or geological past may be determined or described."@en;
+        skos:definition        "Mesures et paramétrisations à partir desquelles les conditions climatiques du passé récent ou géologique peuvent être déterminées ou décrites."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/PCLM/>;
         skos:notation          "SDN:P03::H003";
         skos:note              "accepted"@en;
         skos:prefLabel         "Palaeoclimate"@en;
+        skos:prefLabel         "Paléoclimat"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P02/current/ICHM/> , <http://vocab.nerc.ac.uk/collection/P02/current/IAGE/> , <http://vocab.nerc.ac.uk/collection/P02/current/SIPW/> , <http://vocab.nerc.ac.uk/collection/P02/current/SAGE/> , <http://vocab.nerc.ac.uk/collection/P02/current/IRSP/> , <http://vocab.nerc.ac.uk/collection/P02/current/SSTB/> , <http://vocab.nerc.ac.uk/collection/P02/current/SPAG/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS08/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS10/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS04/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS09/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD009/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/G030/>
@@ -897,10 +990,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS04/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD001/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS08/>;
         skos:definition        "Parameters pertaining to the absolute and stratigraphic age of rocks (including speleotherms) and unlithified sediment."@en;
+        skos:definition        "Paramètres relatifs à l'âge absolu et stratigraphique des roches (incluant les spéléothèmes) et des sédiments non lithifiés."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/SAGE/> , <http://vocab.nerc.ac.uk/collection/P02/current/RAGE/> , <http://vocab.nerc.ac.uk/collection/P02/current/SPAG/>;
         skos:notation          "SDN:P03::G030";
         skos:note              "accepted"@en;
         skos:prefLabel         "Geochronology and stratigraphy"@en;
+        skos:prefLabel         "Géochronologie et stratigraphie"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P03/current/G025/> , <http://vocab.nerc.ac.uk/collection/P03/current/G020/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/G035/>
@@ -917,10 +1012,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS04/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD001/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS08/>;
         skos:definition        "Parameters pertaining to the chemistry (including isotopic composition) of rocks (including speleotherms) and unlithified sediment."@en;
+        skos:definition        "Paramètres relatifs à la chimie (incluant la composition isotopique) des roches (incluant les spéléothèmes) et des sédiments non lithifiés."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/SRAD/> , <http://vocab.nerc.ac.uk/collection/P02/current/SCOC/> , <http://vocab.nerc.ac.uk/collection/P02/current/SDNA/> , <http://vocab.nerc.ac.uk/collection/P02/current/SALK/> , <http://vocab.nerc.ac.uk/collection/P02/current/SPRO/> , <http://vocab.nerc.ac.uk/collection/P02/current/RMIN/> , <http://vocab.nerc.ac.uk/collection/P02/current/MTSD/> , <http://vocab.nerc.ac.uk/collection/P02/current/CD10/> , <http://vocab.nerc.ac.uk/collection/P02/current/PESD/> , <http://vocab.nerc.ac.uk/collection/P02/current/TADN/> , <http://vocab.nerc.ac.uk/collection/P02/current/PHSD/> , <http://vocab.nerc.ac.uk/collection/P02/current/SPCB/> , <http://vocab.nerc.ac.uk/collection/P02/current/PHSE/> , <http://vocab.nerc.ac.uk/collection/P02/current/CASD/> , <http://vocab.nerc.ac.uk/collection/P02/current/MINC/> , <http://vocab.nerc.ac.uk/collection/P02/current/SCAH/> , <http://vocab.nerc.ac.uk/collection/P02/current/CPCN/> , <http://vocab.nerc.ac.uk/collection/P02/current/CBSD/> , <http://vocab.nerc.ac.uk/collection/P02/current/OMPW/> , <http://vocab.nerc.ac.uk/collection/P02/current/HAAC/> , <http://vocab.nerc.ac.uk/collection/P02/current/NTSD/> , <http://vocab.nerc.ac.uk/collection/P02/current/CPSD/> , <http://vocab.nerc.ac.uk/collection/P02/current/AASD/> , <http://vocab.nerc.ac.uk/collection/P02/current/CARS/> , <http://vocab.nerc.ac.uk/collection/P02/current/STOM/> , <http://vocab.nerc.ac.uk/collection/P02/current/TRIS/> , <http://vocab.nerc.ac.uk/collection/P02/current/SHTA/> , <http://vocab.nerc.ac.uk/collection/P02/current/RPOT/> , <http://vocab.nerc.ac.uk/collection/P02/current/IRSP/> , <http://vocab.nerc.ac.uk/collection/P02/current/SSTB/>;
         skos:notation          "SDN:P03::G035";
         skos:note              "accepted"@en;
         skos:prefLabel         "Rock and sediment chemistry"@en;
+        skos:prefLabel         "Chimie des roches et des sédiments"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P03/current/G025/> , <http://vocab.nerc.ac.uk/collection/P03/current/G020/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/C045/>
@@ -937,10 +1034,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P23/current/MD006/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS02/>;
         skos:definition        "This is a 'safety net' category to cover inorganic chemical parameters that cannot be mapped to other Agreed Parameter Groups. It should be regarded as a transitional grouping: if a significant number of related parameters map to this group then the creation of an additional group should be discussed and agreed.  The following parameters within the BODC Parameter Dictionary currently (May 2003) fall into this category.   Non-metal concentrations in the water column, suspended particulate material and sediment.  Element distribution coefficients between dissolved and particulate phases.  Thermodynamic data such as ligand binding strengths.  Redox potentials.  Uncalibrated analytical instrument output, such as XRF counts for element-specific peaks."@en;
+        skos:definition        "Ceci est une catégorie 'filet de sécurité' pour couvrir les paramètres de chimie inorganique qui ne peuvent être rattachés à d'autres groupes de paramètres convenus. Elle doit être considérée comme un regroupement transitoire : si un nombre significatif de paramètres liés se rattachent à ce groupe, la création d'un groupe supplémentaire doit être discutée et convenue. Les paramètres suivants du dictionnaire de paramètres BODC appartiennent actuellement (mai 2003) à cette catégorie : concentrations de non-métaux dans la colonne d'eau, les particules en suspension et les sédiments ; coefficients de distribution élémentaires entre les phases dissoute et particulaire ; données thermodynamiques comme les forces de liaison des ligands ; potentiels redox ; sorties d'instruments analytiques non calibrées, comme les comptages XRF pour les pics spécifiques aux éléments."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/WBRX/> , <http://vocab.nerc.ac.uk/collection/P02/current/SIAT/> , <http://vocab.nerc.ac.uk/collection/P02/current/RMIN/> , <http://vocab.nerc.ac.uk/collection/P02/current/HLWC/> , <http://vocab.nerc.ac.uk/collection/P02/current/IPRX/> , <http://vocab.nerc.ac.uk/collection/P02/current/SXCN/> , <http://vocab.nerc.ac.uk/collection/P02/current/ZNLG/> , <http://vocab.nerc.ac.uk/collection/P02/current/SPHT/> , <http://vocab.nerc.ac.uk/collection/P02/current/CLXX/> , <http://vocab.nerc.ac.uk/collection/P02/current/RPOT/> , <http://vocab.nerc.ac.uk/collection/P02/current/HLAT/> , <http://vocab.nerc.ac.uk/collection/P02/current/SUAT/> , <http://vocab.nerc.ac.uk/collection/P02/current/SIXX/> , <http://vocab.nerc.ac.uk/collection/P02/current/SPWC/> , <http://vocab.nerc.ac.uk/collection/P02/current/DSCO/> , <http://vocab.nerc.ac.uk/collection/P02/current/TRIS/> , <http://vocab.nerc.ac.uk/collection/P02/current/OPCN/>;
         skos:notation          "SDN:P03::C045";
         skos:note              "accepted"@en;
         skos:prefLabel         "Other inorganic chemical measurements"@en;
+        skos:prefLabel         "Autres mesures de chimie inorganique"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P02/current/ICHM/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/D015/>
@@ -957,11 +1056,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS03/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD005/>;
         skos:definition        "This APG contains parameters pertaining to the optical properties of seawater. Assigning parameters to this group encounters two areas of difficulty.  Optical techniques, such as transmissometers and nephelometers, are used to quantify SPM concentration. The 'usual' parameter for transmissometer measurements is optical attenuance (or its natural log), which is clearly an optical property. Consequently, attenuance, percentage transmission and their precursor voltages have been included in this APG. However, the usual calibrated parameter from a nephelometer is turbidity, which is clearly more closely related to the suspended load of the water column. Consequently, nephelometer parameters, including raw voltages, have been included in the Suspended Particulate Matter APG.  Light intensity, such as downwelling irradiance, may be measured by sensors placed either above or below the surface of the water. It might be argued that the latter belonged in the Meteorology APG. However, some irradiance records include measurements both above and below the sea surface to quantify light loss across the air-sea interface. Consequently, both surface and subsurface irradiance have been placed in the Optical Properties APG."@en;
+        skos:definition        "Cet APG contient les paramètres relatifs aux propriétés optiques de l'eau de mer. L'assignation des paramètres à ce groupe rencontre deux zones de difficulté. Des techniques optiques, comme les transmissomètres et les néphélomètres, sont utilisées pour quantifier la concentration de MSP. Le paramètre 'habituel' pour les mesures de transmissomètre est l'atténuation optique (ou son logarithme naturel), qui est clairement une propriété optique. Par conséquent, l'atténuation, la transmission en pourcentage et leurs tensions précurseurs ont été inclus dans cet APG. Cependant, le paramètre calibré habituel d'un néphélomètre est la turbidité, qui est clairement plus étroitement liée à la charge en suspension de la colonne d'eau. Par conséquent, les paramètres de néphélomètre, y compris les tensions brutes, ont été inclus dans l'APG Matières particulaires en suspension. L'intensité lumineuse, comme l'irradiance descendante, peut être mesurée par des capteurs placés au-dessus ou au-dessous de la surface de l'eau. On pourrait argumenter que ce dernier appartient à l'APG Météorologie. Cependant, certains enregistrements d'irradiance incluent des mesures au-dessus et au-dessous de la surface de la mer pour quantifier la perte de lumière à travers l'interface air-mer. Par conséquent, les irradiances de surface et de sous-surface ont été placées dans l'APG Propriétés optiques."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current/> , <http://vocab.nerc.ac.uk/scheme/NETOC_PARAM/current/>;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/OD1/current/COLOUR/> , <http://vocab.nerc.ac.uk/collection/OD1/current/TURBID/> , <http://vocab.nerc.ac.uk/collection/OD1/current/RADFLX/> , <http://vocab.nerc.ac.uk/collection/P02/current/LVLT/> , <http://vocab.nerc.ac.uk/collection/P02/current/TVLT/> , <http://vocab.nerc.ac.uk/collection/P02/current/SECC/> , <http://vocab.nerc.ac.uk/collection/P02/current/EXCO/> , <http://vocab.nerc.ac.uk/collection/P02/current/VSRW/> , <http://vocab.nerc.ac.uk/collection/P02/current/OPBS/> , <http://vocab.nerc.ac.uk/collection/P02/current/VSRA/> , <http://vocab.nerc.ac.uk/collection/P02/current/R410/> , <http://vocab.nerc.ac.uk/collection/P02/current/PPAB/> , <http://vocab.nerc.ac.uk/collection/P02/current/BLUM/> , <http://vocab.nerc.ac.uk/collection/P02/current/ATTN/>;
         skos:notation          "SDN:P03::D015";
         skos:note              "accepted"@en;
         skos:prefLabel         "Optical properties"@en;
+        skos:prefLabel         "Propriétés optiques"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P02/current/WQBI/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/T001/>
@@ -978,11 +1079,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "This APG contains parameters related to the characterisation of the land surface. These are usually, but not exclusively, determined by remote sensing techniques. Data types falling within the scope of the group are:   Land surface temperature  Land vegetation  Vertical currents  Terrestrial water content  Terrestrial mapping and the geo-location of features such as coastlines"@en;
+        skos:definition        "Cet APG contient les paramètres relatifs à la caractérisation de la surface terrestre. Ils sont généralement, mais pas exclusivement, déterminés par des techniques de télédétection. Les types de données relevant de ce groupe sont : température de surface terrestre ; végétation terrestre ; courants verticaux ; teneur en eau terrestre ; cartographie terrestre et géolocalisation de caractéristiques comme les littoraux"@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current/> , <http://vocab.nerc.ac.uk/scheme/NETOC_PARAM/current/>;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/GWAM/> , <http://vocab.nerc.ac.uk/collection/P02/current/COAS/> , <http://vocab.nerc.ac.uk/collection/P02/current/LSST/> , <http://vocab.nerc.ac.uk/collection/P02/current/LWET/> , <http://vocab.nerc.ac.uk/collection/P02/current/LVEG/> , <http://vocab.nerc.ac.uk/collection/P02/current/GWCH/> , <http://vocab.nerc.ac.uk/collection/P02/current/COGE/>;
         skos:notation          "SDN:P03::T001";
         skos:note              "accepted"@en;
         skos:prefLabel         "Terrestrial"@en;
+        skos:prefLabel         "terrestre"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P02/current/MBAN/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD001/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/M005/>
@@ -1000,10 +1103,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P23/current/MD003/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS05/>;
         skos:definition        "Parameters quantifying and characterising the solid, liquid and gaseous materials that make up the Earth's atmosphere"@en;
+        skos:definition        "Paramètres quantifiant et caractérisant les matériaux solides, liquides et gazeux qui composent l'atmosphère terrestre"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/OD1/current/RAIN/> , <http://vocab.nerc.ac.uk/collection/OD1/current/AERO/> , <http://vocab.nerc.ac.uk/collection/P02/current/SIAT/> , <http://vocab.nerc.ac.uk/collection/P02/current/PHAT/> , <http://vocab.nerc.ac.uk/collection/P02/current/GP050/> , <http://vocab.nerc.ac.uk/collection/P02/current/ISAT/> , <http://vocab.nerc.ac.uk/collection/P02/current/RGAS/> , <http://vocab.nerc.ac.uk/collection/P02/current/RWCH/> , <http://vocab.nerc.ac.uk/collection/P02/current/ATDP/> , <http://vocab.nerc.ac.uk/collection/P02/current/CXAA/> , <http://vocab.nerc.ac.uk/collection/P02/current/GP048/> , <http://vocab.nerc.ac.uk/collection/P02/current/FDMS/> , <http://vocab.nerc.ac.uk/collection/P02/current/OZON/> , <http://vocab.nerc.ac.uk/collection/P02/current/SUAT/> , <http://vocab.nerc.ac.uk/collection/P02/current/MTAT/> , <http://vocab.nerc.ac.uk/collection/P02/current/OCAA/> , <http://vocab.nerc.ac.uk/collection/P02/current/AAMN/> , <http://vocab.nerc.ac.uk/collection/P02/current/OHAT/> , <http://vocab.nerc.ac.uk/collection/P02/current/ACO2/> , <http://vocab.nerc.ac.uk/collection/P02/current/AEYN/> , <http://vocab.nerc.ac.uk/collection/P02/current/AORG/> , <http://vocab.nerc.ac.uk/collection/P02/current/HLAT/> , <http://vocab.nerc.ac.uk/collection/P02/current/AALK/> , <http://vocab.nerc.ac.uk/collection/P02/current/ATPC/>;
         skos:notation          "SDN:P03::M005";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Atmospheric chemistry"@en .
+        skos:prefLabel         "Atmospheric chemistry"@en ;
+        skos:prefLabel         "chimie atmosphérique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/M010/>
         rdf:type               skos:Concept;
@@ -1020,11 +1125,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P23/current/MD003/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS05/>;
         skos:definition        "Physical phenomena and properties of the atmosphere including air temperature, air pressure, humidity, precipitation, wind velocity and radiation."@en;
+        skos:definition        "Phénomènes et propriétés physiques de l'atmosphère incluant température de l'air, pression de l'air, humidité, précipitations, vitesse du vent et rayonnement."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current/> , <http://vocab.nerc.ac.uk/scheme/NETOC_PARAM/current/>;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/OD1/current/HUMI/> , <http://vocab.nerc.ac.uk/collection/OD1/current/RAIN/> , <http://vocab.nerc.ac.uk/collection/OD1/current/AIRTEMP/> , <http://vocab.nerc.ac.uk/collection/OD1/current/AIRPRES/> , <http://vocab.nerc.ac.uk/collection/OD1/current/WIND/> , <http://vocab.nerc.ac.uk/collection/OD1/current/DENS/> , <http://vocab.nerc.ac.uk/collection/OD1/current/RADFLX/> , <http://vocab.nerc.ac.uk/collection/P02/current/UVRD/> , <http://vocab.nerc.ac.uk/collection/P02/current/OMET/> , <http://vocab.nerc.ac.uk/collection/P02/current/RBSC/> , <http://vocab.nerc.ac.uk/collection/P02/current/ATVS/> , <http://vocab.nerc.ac.uk/collection/P02/current/WSTR/> , <http://vocab.nerc.ac.uk/collection/P02/current/CLTY/> , <http://vocab.nerc.ac.uk/collection/P02/current/CHEX/> , <http://vocab.nerc.ac.uk/collection/P02/current/CPRP/> , <http://vocab.nerc.ac.uk/collection/P02/current/EWSB/> , <http://vocab.nerc.ac.uk/collection/P02/current/CHUM/> , <http://vocab.nerc.ac.uk/collection/P02/current/CSLR/> , <http://vocab.nerc.ac.uk/collection/P02/current/CAPH/> , <http://vocab.nerc.ac.uk/collection/P02/current/LWRD/> , <http://vocab.nerc.ac.uk/collection/P02/current/VSRA/> , <http://vocab.nerc.ac.uk/collection/P02/current/CDTA/>;
         skos:notation          "SDN:P03::M010";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Meteorology"@en .
+        skos:prefLabel         "Meteorology"@en ;
+        skos:prefLabel         "Météorologie"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/O010/>
         rdf:type               skos:Concept;
@@ -1040,10 +1147,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P23/current/MD006/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS06/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD002/>;
         skos:definition        "This group contains parameter codes that relate to the rate of change of quantity of any chemical species or biological entity. Rates mey be the result of biological (e.g. production), chemical (e.g. photochemical degradation) or biogeochemical (e.g. particulate phase metal uptake rate) processes. The current (May 2003) BODC Parameter Dictionary includes the following types of rate:   Primary production ( 14 C uptake rate)  Photosynthesis kinetics (P:I experiments)  New/regenerated ( 15 N) production  Calcification  Nitrification  Nutrient uptake rates  Bacterial production, including thymidine/leucine uptake  Metal uptake rates  Egg production rates  Bacterial and phytoplankton grazing rates  Food clearance rates  Chemical photoproduction and degradation rates  DOC production/uptake  DMS/DMSP/DMSO dynamics  Excretion and faecal pellet production rates  Oxygen/DIC production/respiration  Hydrolysis rates  Growth efficiency/rates  Sulphate reduction rates   Some experimental condition parameters, such as incubation temperatures and durations, are also included.  Note that this APG has been given 'priority' status to enable modellers to easily ascertain the extent of rate variable availability. Rate parameters are included in this APG in preference to any other APG that might seem appropriate."@en;
+        skos:definition        "Ce groupe contient les codes de paramètres relatifs au taux de changement de quantité de toute espèce chimique ou entité biologique. Les taux peuvent résulter de processus biologiques (par ex. production), chimiques (par ex. dégradation photochimique) ou biogéochimiques (par ex. taux d'absorption de métal en phase particulaire). Le dictionnaire de paramètres BODC actuel (mai 2003) inclut les types de taux suivants : production primaire (taux d'absorption de 14C) ; cinétique de photosynthèse (expériences P:I) ; production nouvelle/régénérée (15N) ; calcification ; nitrification ; taux d'absorption de nutriments ; production bactérienne, incluant absorption de thymidine/leucine ; taux d'absorption de métaux ; taux de production d'œufs ; taux de broutage bactérien et phytoplanctonique ; taux d'épuration alimentaire ; taux de photoproduction et dégradation chimique ; production/absorption de DOC ; dynamique DMS/DMSP/DMSO ; taux d'excrétion et de production de pellets fécaux ; production/respiration d'oxygène/DIC ; taux d'hydrolyse ; efficacité/taux de croissance ; taux de réduction des sulfates. Certains paramètres de condition expérimentale, comme les températures et durées d'incubation, sont aussi inclus. Notez que cet APG a reçu un statut 'priorité' pour permettre aux modélisateurs de facilement évaluer l'étendue de la disponibilité des variables de taux. Les paramètres de taux sont inclus dans cet APG de préférence à tout autre APG qui pourrait sembler approprié."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/WHTA/> , <http://vocab.nerc.ac.uk/collection/OD1/current/FLUO/> , <http://vocab.nerc.ac.uk/collection/P02/current/BEPP/> , <http://vocab.nerc.ac.uk/collection/P02/current/CMFL/> , <http://vocab.nerc.ac.uk/collection/P02/current/AMUP/> , <http://vocab.nerc.ac.uk/collection/P02/current/AMOX/> , <http://vocab.nerc.ac.uk/collection/P02/current/TNRP/> , <http://vocab.nerc.ac.uk/collection/P02/current/PHUP/> , <http://vocab.nerc.ac.uk/collection/P02/current/EXCR/> , <http://vocab.nerc.ac.uk/collection/P02/current/UPTH/> , <http://vocab.nerc.ac.uk/collection/P02/current/TBGZ/> , <http://vocab.nerc.ac.uk/collection/P02/current/IS4R/> , <http://vocab.nerc.ac.uk/collection/P02/current/GOXP/> , <http://vocab.nerc.ac.uk/collection/P02/current/GRZO/> , <http://vocab.nerc.ac.uk/collection/P02/current/FPRT/> , <http://vocab.nerc.ac.uk/collection/P02/current/CDRU/> , <http://vocab.nerc.ac.uk/collection/P02/current/FCRT/> , <http://vocab.nerc.ac.uk/collection/P02/current/MSEP/> , <http://vocab.nerc.ac.uk/collection/P02/current/PPRD/> , <http://vocab.nerc.ac.uk/collection/P02/current/NTUP/> , <http://vocab.nerc.ac.uk/collection/P02/current/CSDE/> , <http://vocab.nerc.ac.uk/collection/P02/current/GREF/> , <http://vocab.nerc.ac.uk/collection/P02/current/DOCU/> , <http://vocab.nerc.ac.uk/collection/P02/current/PHYG/> , <http://vocab.nerc.ac.uk/collection/P02/current/MZCT/> , <http://vocab.nerc.ac.uk/collection/P02/current/SHTA/>;
         skos:notation          "SDN:P03::O010";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Rate measurements (including production, excretion and grazing)"@en .
+        skos:prefLabel         "Rate measurements (including production, excretion and grazing)"@en ;
+        skos:prefLabel         "Mesures de taux (incluant production, excrétion et broutage)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/C015/>
         rdf:type               skos:Concept;
@@ -1059,11 +1168,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P23/current/MD006/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS02/>;
         skos:definition        "This group incorporates dissolved gas concentrations and/or saturations, excluding:   Gases that are incorporated into the water column through chemical reaction and quantified as the products of the reaction, such as ammonia and carbon dioxide.  Gases that belong to other chemical-type APGs. For example, methane parameters are placed in the Hydrocarbons APG and not Dissolved Gases.   Gases are defined as substances with a boiling point below 50 &deg;C at atmospheric pressure (terrestrial conditions extreme limit).  The group also includes:   Parameters collected by instruments making in-situ measurements of dissolved gas concentration, such as oxygen membrane current and temperature.  Parameters required for data standardisation, such as oxygen fixation temperature.  Parameters required for the interpretation of gas concentration parameters, such as the temperature and pressure at which the concentration has been calculated if these differ from the in-situ conditions for the sample.   This APG should represents dissolved gases that do not fit in any other category and consequently its contents should be periodically reviewed to see if further classes need to be specified."@en;
+        skos:definition        "Ce groupe incorpore les concentrations et/ou saturations de gaz dissous, excluant : les gaz incorporés dans la colonne d'eau par réaction chimique et quantifiés comme produits de la réaction, comme l'ammoniac et le dioxyde de carbone ; les gaz qui appartiennent à d'autres APG de type chimique. Par exemple, les paramètres de méthane sont placés dans l'APG Hydrocarbures et non dans Gaz dissous. Les gaz sont définis comme des substances avec un point d'ébullition inférieur à 50 °C à pression atmosphérique (limite extrême conditions terrestres). Le groupe inclut aussi : les paramètres collectés par des instruments faisant des mesures in-situ de concentration de gaz dissous, comme le courant de membrane d'oxygène et la température ; les paramètres requis pour la standardisation des données, comme la température de fixation de l'oxygène ; les paramètres requis pour l'interprétation des paramètres de concentration de gaz, comme la température et la pression auxquelles la concentration a été calculée si elles diffèrent des conditions in-situ de l'échantillon. Cet APG devrait représenter les gaz dissous qui ne rentrent dans aucune autre catégorie et par conséquent son contenu doit être périodiquement revu pour voir si des classes supplémentaires doivent être spécifiées."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current/> , <http://vocab.nerc.ac.uk/scheme/NETOC_PARAM/current/>;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/OD1/current/DOXY/> , <http://vocab.nerc.ac.uk/collection/OD1/current/N2O/> , <http://vocab.nerc.ac.uk/collection/P02/current/SCOX/> , <http://vocab.nerc.ac.uk/collection/P02/current/OGPW/> , <http://vocab.nerc.ac.uk/collection/P02/current/DOXY/> , <http://vocab.nerc.ac.uk/collection/P02/current/RGAS/> , <http://vocab.nerc.ac.uk/collection/P02/current/DGPW/> , <http://vocab.nerc.ac.uk/collection/P02/current/HEXC/> , <http://vocab.nerc.ac.uk/collection/P02/current/OXYC/>;
         skos:notation          "SDN:P03::C015";
         skos:note              "accepted"@en;
         skos:prefLabel         "Dissolved gases"@en;
+        skos:prefLabel         "gaz dissous"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P02/current/DMST/> , <http://vocab.nerc.ac.uk/collection/P02/current/SPWC/> , <http://vocab.nerc.ac.uk/collection/P02/current/DALK/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/H007/>
@@ -1080,10 +1191,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS12/>;
         skos:definition        "Datasets related to the process of managing aquatic and coastal environments."@en;
+        skos:definition        "Jeux de données relatifs au processus de gestion des environnements aquatiques et côtiers."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/HA2/current/HA20006/> , <http://vocab.nerc.ac.uk/collection/P02/current/ADUN/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20004/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20005/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20011/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20007/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20009/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20008/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20010/>;
         skos:notation          "SDN:P03::H007";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Area Management/Designation"@en .
+        skos:prefLabel         "Area Management/Designation"@en ;
+        skos:prefLabel         "Gestion/Désignation de zones"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/B050/>
         rdf:type               skos:Concept;
@@ -1100,11 +1213,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS10/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD002/>;
         skos:definition        "Grouping of parameters that characterise, spatially define, label or classify places where organisms are found."@en;
+        skos:definition        "Regroupement de paramètres qui caractérisent, définissent spatialement, étiquettent ou classent les lieux où les organismes sont trouvés."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current/> , <http://vocab.nerc.ac.uk/scheme/NETOC_PARAM/current/>;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/OD1/current/MANG/> , <http://vocab.nerc.ac.uk/collection/P02/current/HBEX/> , <http://vocab.nerc.ac.uk/collection/P02/current/HBCH/> , <http://vocab.nerc.ac.uk/collection/P02/current/ADUN/>;
         skos:notation          "SDN:P03::B050";
         skos:note              "accepted"@en;
         skos:prefLabel         "Habitat"@en;
+        skos:prefLabel         "Habitat"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P08/current/DS11/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS08/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS01/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD007/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD004/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/H005/>
@@ -1122,10 +1237,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P23/current/MD008/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS12/>;
         skos:definition        "Parameters quantifying the level of any type of human activity, generally in the context of environmental considerations"@en;
+        skos:definition        "Paramètres quantifiant le niveau de tout type d'activité humaine, généralement dans le contexte de considérations environnementales"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/IACT/> , <http://vocab.nerc.ac.uk/collection/P02/current/TRAN/> , <http://vocab.nerc.ac.uk/collection/P02/current/MLES/> , <http://vocab.nerc.ac.uk/collection/P02/current/MARC/> , <http://vocab.nerc.ac.uk/collection/P02/current/ADUN/>;
         skos:notation          "SDN:P03::H005";
         skos:note              "deprecated"@en;
         skos:prefLabel         "Human activity"@en;
+        skos:prefLabel         "Activité humaine"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P08/current/DS10/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD010/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/B007/>
@@ -1142,10 +1259,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS02/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS01/>;
         skos:definition        "This group contains all parameters relating to the composition of organisms or their constituent parts. It may include any analytical measurements on biological material, but is specifically designed for heavy metal and organic contaminant biota pollution monitoring data."@en;
+        skos:definition        "Ce groupe contient tous les paramètres relatifs à la composition des organismes ou de leurs parties constituantes. Il peut inclure toute mesure analytique sur matériau biologique, mais est spécifiquement conçu pour les données de surveillance de la pollution des biotes par métaux lourds et contaminants organiques."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/GP013/> , <http://vocab.nerc.ac.uk/collection/P02/current/INVD/> , <http://vocab.nerc.ac.uk/collection/OD1/current/BIOTOX/> , <http://vocab.nerc.ac.uk/collection/P02/current/BCPB/> , <http://vocab.nerc.ac.uk/collection/P02/current/BCMT/> , <http://vocab.nerc.ac.uk/collection/P02/current/PTOX/> , <http://vocab.nerc.ac.uk/collection/P02/current/BCOS/> , <http://vocab.nerc.ac.uk/collection/P02/current/BABI/> , <http://vocab.nerc.ac.uk/collection/P02/current/LIBI/> , <http://vocab.nerc.ac.uk/collection/P02/current/BCOC/> , <http://vocab.nerc.ac.uk/collection/P02/current/PHBI/> , <http://vocab.nerc.ac.uk/collection/P02/current/IRBO/> , <http://vocab.nerc.ac.uk/collection/P02/current/PEBI/> , <http://vocab.nerc.ac.uk/collection/P02/current/OMBI/> , <http://vocab.nerc.ac.uk/collection/P02/current/BRAD/> , <http://vocab.nerc.ac.uk/collection/P02/current/MDBO/> , <http://vocab.nerc.ac.uk/collection/P02/current/BCAH/>;
         skos:notation          "SDN:P03::B007";
         skos:note              "accepted"@en;
         skos:prefLabel         "Biota composition"@en;
+        skos:prefLabel         "Composition des biotes"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P23/current/MD002/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD008/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD006/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/B005/>
@@ -1163,10 +1282,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS01/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD002/>;
         skos:definition        "This group incorporates all state variables pertaining to bacteria (Kingdom Monera)and viruses. Note that Monera includes both Phylum Bacteria and Phylum Cyanophycota (cyanobacteria but sometimes called blue-green algae).  Most parameters in this group express the abundance, either as cell counts or biomass, of various types of bacteria or viruses. However, the group also includes parameters that describe any other property of these entities that are  not rates or fluxes  . Examples include cell size, cell volume and the proportion of the population associated with the particulate phase."@en;
+        skos:definition        "Ce groupe incorpore toutes les variables d'état relatives aux bactéries (Règne Monera) et aux virus. Notez que Monera inclut à la fois le Phylum Bacteria et le Phylum Cyanophycota (cyanobactéries parfois appelées algues bleu-vert). La plupart des paramètres de ce groupe expriment l'abondance, soit en comptages cellulaires soit en biomasse, de divers types de bactéries ou de virus. Cependant, le groupe inclut aussi des paramètres qui décrivent toute autre propriété de ces entités qui n'est pas un taux ou un flux. Des exemples incluent la taille cellulaire, le volume cellulaire et la proportion de la population associée à la phase particulaire."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/BATC/> , <http://vocab.nerc.ac.uk/collection/P02/current/BDWC/> , <http://vocab.nerc.ac.uk/collection/P02/current/BATX/> , <http://vocab.nerc.ac.uk/collection/P02/current/UPTH/> , <http://vocab.nerc.ac.uk/collection/P02/current/BABI/> , <http://vocab.nerc.ac.uk/collection/P02/current/TBGZ/> , <http://vocab.nerc.ac.uk/collection/P02/current/BAUC/> , <http://vocab.nerc.ac.uk/collection/P02/current/WDNA/> , <http://vocab.nerc.ac.uk/collection/P02/current/BNTC/> , <http://vocab.nerc.ac.uk/collection/P02/current/GREF/> , <http://vocab.nerc.ac.uk/collection/P02/current/BPBP/> , <http://vocab.nerc.ac.uk/collection/P02/current/BNTX/> , <http://vocab.nerc.ac.uk/collection/P02/current/VIRU/> , <http://vocab.nerc.ac.uk/collection/P02/current/BNUC/> , <http://vocab.nerc.ac.uk/collection/P02/current/CBCC/> , <http://vocab.nerc.ac.uk/collection/P02/current/BATT/>;
         skos:notation          "SDN:P03::B005";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Bacteria and viruses"@en .
+        skos:prefLabel         "Bacteria and viruses"@en ;
+        skos:prefLabel         "Bactéries et virus"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/H004/>
         rdf:type               skos:Concept;
@@ -1182,10 +1303,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS12/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS11/>;
         skos:definition        "Parameters related to any aspect of the taking of water-living fauna from the wild"@en;
+        skos:definition        "Paramètres relatifs à tout aspect de la capture de faune aquatique sauvage"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/FADS/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20026/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20030/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20028/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20029/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20027/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20025/> , <http://vocab.nerc.ac.uk/collection/P02/current/FEFF/> , <http://vocab.nerc.ac.uk/collection/P02/current/ADUN/> , <http://vocab.nerc.ac.uk/collection/P02/current/GP080/> , <http://vocab.nerc.ac.uk/collection/P02/current/SATM/> , <http://vocab.nerc.ac.uk/collection/P02/current/FCST/> , <http://vocab.nerc.ac.uk/collection/P02/current/SREP/> , <http://vocab.nerc.ac.uk/collection/P02/current/GP087/> , <http://vocab.nerc.ac.uk/collection/P02/current/SABB/> , <http://vocab.nerc.ac.uk/collection/P02/current/FREP/> , <http://vocab.nerc.ac.uk/collection/P02/current/FIBM/>;
         skos:notation          "SDN:P03::H004";
         skos:note              "accepted"@en;
         skos:prefLabel         "Fisheries"@en;
+        skos:prefLabel         "Caractérisation des pêcheries"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P23/current/MD002/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD004/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/B027/>
@@ -1202,10 +1325,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS01/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD002/>;
         skos:definition        "This is a 'safety net' category to cover biological parameters that cannot be mapped to other Agreed Parameter Groups. It should be regarded as a transitional grouping: if a significant number of related parameters map to this group then the creation of an additional group should be discussed and agreed.  The following parameters within the BODC Parameter Dictionary currently (May 2003) fall into this category.   Specimen length (mean and standard deviation)  Exuvia  Growth coefficient and standard error  Algal fragment abundance  Total plankton abundance  Pollen abundance  Fungal spore abundance  Transparent exopolymer particle abundance  Genetic parameters such as RuBisCO hybridisation"@en;
+        skos:definition        "Ceci est une catégorie 'filet de sécurité' pour couvrir les paramètres biologiques qui ne peuvent être rattachés à d'autres groupes de paramètres convenus. Elle doit être considérée comme un regroupement transitoire : si un nombre significatif de paramètres liés se rattachent à ce groupe, la création d'un groupe supplémentaire doit être discutée et convenue. Les paramètres suivants du dictionnaire de paramètres BODC appartiennent actuellement (mai 2003) à cette catégorie : longueur de spécimen (moyenne et écart-type) ; exuvies ; coefficient de croissance et erreur standard ; abondance de fragments d'algues ; abondance totale de plancton ; abondance de pollen ; abondance de spores fongiques ; abondance de particules de polymère extracellulaire transparent ; paramètres génétiques comme l'hybridation RuBisCO"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/FCMW/> , <http://vocab.nerc.ac.uk/collection/P02/current/BPRP/> , <http://vocab.nerc.ac.uk/collection/P02/current/DVLP/> , <http://vocab.nerc.ac.uk/collection/P02/current/FPFX/> , <http://vocab.nerc.ac.uk/collection/P02/current/EXCR/> , <http://vocab.nerc.ac.uk/collection/P02/current/BLEN/> , <http://vocab.nerc.ac.uk/collection/P02/current/SATM/> , <http://vocab.nerc.ac.uk/collection/P02/current/EXUV/> , <http://vocab.nerc.ac.uk/collection/P02/current/BLUM/> , <http://vocab.nerc.ac.uk/collection/P02/current/RBHY/> , <http://vocab.nerc.ac.uk/collection/P02/current/PCFX/> , <http://vocab.nerc.ac.uk/collection/P02/current/SREP/> , <http://vocab.nerc.ac.uk/collection/P02/current/WDNA/> , <http://vocab.nerc.ac.uk/collection/P02/current/PNFX/> , <http://vocab.nerc.ac.uk/collection/P02/current/FREP/>;
         skos:notation          "SDN:P03::B027";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Other biological measurements"@en .
+        skos:prefLabel         "Other biological measurements"@en ;
+        skos:prefLabel         "Autres mesures biologiques"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/B020/>
         rdf:type               skos:Concept;
@@ -1222,10 +1347,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS01/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS11/>;
         skos:definition        "This group incorporates all state variables pertaining to fish, such as abundance, biomass and fisheries data."@en;
+        skos:definition        "Ce groupe incorpore toutes les variables d'état relatives aux poissons, comme l'abondance, la biomasse et les données halieutiques."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/STGC/> , <http://vocab.nerc.ac.uk/collection/P02/current/ADUN/> , <http://vocab.nerc.ac.uk/collection/P02/current/FBAF/> , <http://vocab.nerc.ac.uk/collection/P02/current/FNTM/> , <http://vocab.nerc.ac.uk/collection/P02/current/FBAB/> , <http://vocab.nerc.ac.uk/collection/P02/current/FCNT/> , <http://vocab.nerc.ac.uk/collection/P02/current/FIBM/> , <http://vocab.nerc.ac.uk/collection/P02/current/GP085/> , <http://vocab.nerc.ac.uk/collection/P02/current/FATX/> , <http://vocab.nerc.ac.uk/collection/P02/current/GP005/> , <http://vocab.nerc.ac.uk/collection/P02/current/FATM/> , <http://vocab.nerc.ac.uk/collection/P02/current/FREP/> , <http://vocab.nerc.ac.uk/collection/P02/current/FNTX/>;
         skos:notation          "SDN:P03::B020";
         skos:note              "accepted"@en;
         skos:prefLabel         "Fish"@en;
+        skos:prefLabel         "Poissons"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P23/current/MD002/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD004/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/C005/>
@@ -1242,11 +1369,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P23/current/MD006/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS02/>;
         skos:definition        "This group contains the state variable parameters pertaining to carbon, nitrogen and phosphorus that do not obviously belong in other groupings. Consequently, this grouping should be considered as an 'others' category and its contents should be periodically reviewed with a view to the creation of additional groupings should this be deemed necessary.  In the case of carbon, parameters are split between this grouping and the Carbonate System APG. The latter are clearly defined and this group contains anything that is left. Current (May 2003) carbon parameters in this grouping from the BODC Parameter Dictionary include:   Measurements of the calcite concentration in the water column expressed in terms of carbon concentration per unit volume/mass of water.  Particulate organic (or total) carbon concentration.  Dissolved organic carbon concentration.  Total, organic and/or inorganic carbon content (mass carbon per unit mass of substrate) of sediment or suspended particulate material.   For nitrogen, the parameters are split between this APG and Nutrients. Again, the latter is more clearly defined, leaving the rest for this grouping. Current (May 2003) nitrogen parameters in this grouping from the BODC Parameter Dictionary include:   Particulate nitrogen (\"PON\") concentration.  Dissolved total nitrogen.  Nitrogen content of sediment.   For phosphorus, the parameters are again split between this APG and Nutrients, which is the more clearly defined. Current (May 2003) phosphorus parameters in this grouping from the BODC Parameter Dictionary include:   Particulate total and organic phosphorus concentration.  Dissolved total phosphorus.  Phosphorus content of sediment or SPM."@en;
+        skos:definition        "Ce groupe contient les paramètres de variables d'état relatifs au carbone, à l'azote et au phosphore qui n'appartiennent pas évidemment à d'autres regroupements. Par conséquent, ce regroupement doit être considéré comme une catégorie 'autres' et son contenu doit être périodiquement revu en vue de la création de regroupements supplémentaires si cela est jugé nécessaire. Dans le cas du carbone, les paramètres sont répartis entre ce regroupement et l'APG Système carboné. Ce dernier est clairement défini et ce groupe contient tout ce qui reste. Les paramètres de carbone actuels (mai 2003) de ce regroupement du dictionnaire de paramètres BODC incluent : mesures de la concentration de calcite dans la colonne d'eau exprimées en concentration de carbone par unité de volume/masse d'eau ; concentration de carbone organique (ou total) particulaire ; concentration de carbone organique dissous ; teneur en carbone total, organique et/ou inorganique (masse de carbone par unité de masse de substrat) des sédiments ou des particules en suspension. Pour l'azote, les paramètres sont répartis entre cet APG et les Nutriments. De nouveau, ce dernier est plus clairement défini, laissant le reste pour ce regroupement. Les paramètres d'azote actuels (mai 2003) de ce regroupement du dictionnaire de paramètres BODC incluent : concentration d'azote particulaire ('PON') ; azote total dissous ; teneur en azote des sédiments. Pour le phosphore, les paramètres sont de nouveau répartis entre cet APG et les Nutriments, qui est plus clairement défini. Les paramètres de phosphore actuels (mai 2003) de ce regroupement du dictionnaire de paramètres BODC incluent : concentration de phosphore total et organique particulaire ; phosphore total dissous ; teneur en phosphore des sédiments ou de la MSP."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current/> , <http://vocab.nerc.ac.uk/scheme/NETOC_PARAM/current/>;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/OD1/current/DOM/> , <http://vocab.nerc.ac.uk/collection/P02/current/AMOX/> , <http://vocab.nerc.ac.uk/collection/P02/current/TDNT/> , <http://vocab.nerc.ac.uk/collection/P02/current/TDPX/> , <http://vocab.nerc.ac.uk/collection/P02/current/CBSP/> , <http://vocab.nerc.ac.uk/collection/P02/current/NTSP/> , <http://vocab.nerc.ac.uk/collection/P02/current/PXSP/> , <http://vocab.nerc.ac.uk/collection/P02/current/OCPW/> , <http://vocab.nerc.ac.uk/collection/P02/current/PXSD/> , <http://vocab.nerc.ac.uk/collection/P02/current/CORG/> , <http://vocab.nerc.ac.uk/collection/P02/current/CBSD/> , <http://vocab.nerc.ac.uk/collection/P02/current/PHAT/> , <http://vocab.nerc.ac.uk/collection/P02/current/NTSD/> , <http://vocab.nerc.ac.uk/collection/P02/current/UREA/> , <http://vocab.nerc.ac.uk/collection/P02/current/COCC/> , <http://vocab.nerc.ac.uk/collection/P02/current/TPHS/> , <http://vocab.nerc.ac.uk/collection/P02/current/NTOT/> , <http://vocab.nerc.ac.uk/collection/P02/current/DOCC/> , <http://vocab.nerc.ac.uk/collection/P02/current/AMON/> , <http://vocab.nerc.ac.uk/collection/P02/current/CING/> , <http://vocab.nerc.ac.uk/collection/P02/current/TCO2/> , <http://vocab.nerc.ac.uk/collection/P02/current/NTRA/> , <http://vocab.nerc.ac.uk/collection/P02/current/PHOS/> , <http://vocab.nerc.ac.uk/collection/P02/current/NTRI/> , <http://vocab.nerc.ac.uk/collection/P02/current/TDIN/>;
         skos:notation          "SDN:P03::C005";
         skos:note              "accepted"@en;
         skos:prefLabel         "Carbon, nitrogen and phosphorus"@en;
+        skos:prefLabel         "Carbone, azote et phosphore"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P02/current/ICHM/> , <http://vocab.nerc.ac.uk/collection/P02/current/RMIN/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/G015/>
@@ -1265,11 +1394,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS04/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD001/>;
         skos:definition        "Parameters pertaining to material in suspension within water bodies."@en;
+        skos:definition        "Paramètres relatifs au matériau en suspension dans les masses d'eau."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current/> , <http://vocab.nerc.ac.uk/scheme/NETOC_PARAM/current/>;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/OD1/current/TURBID/> , <http://vocab.nerc.ac.uk/collection/P02/current/CBSP/> , <http://vocab.nerc.ac.uk/collection/P02/current/NTSP/> , <http://vocab.nerc.ac.uk/collection/P02/current/PPCB/> , <http://vocab.nerc.ac.uk/collection/P02/current/SPGS/> , <http://vocab.nerc.ac.uk/collection/P02/current/PXSP/> , <http://vocab.nerc.ac.uk/collection/P02/current/TD00/> , <http://vocab.nerc.ac.uk/collection/P02/current/PCAH/> , <http://vocab.nerc.ac.uk/collection/P02/current/SXCN/> , <http://vocab.nerc.ac.uk/collection/P02/current/MDSV/> , <http://vocab.nerc.ac.uk/collection/P02/current/DENS/> , <http://vocab.nerc.ac.uk/collection/P02/current/MTWP/> , <http://vocab.nerc.ac.uk/collection/P02/current/EXUV/> , <http://vocab.nerc.ac.uk/collection/P02/current/TSED/> , <http://vocab.nerc.ac.uk/collection/P02/current/PCOC/> , <http://vocab.nerc.ac.uk/collection/P02/current/OPCN/> , <http://vocab.nerc.ac.uk/collection/P02/current/ABAG/> , <http://vocab.nerc.ac.uk/collection/P02/current/MDWP/> , <http://vocab.nerc.ac.uk/collection/P02/current/TVLT/>;
         skos:notation          "SDN:P03::G015";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Suspended particulate material"@en .
+        skos:prefLabel         "Suspended particulate material"@en ;
+        skos:prefLabel         "Matières particulaires en suspension"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/D030/>
         rdf:type               skos:Concept;
@@ -1286,10 +1417,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P03/current/D010/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS03/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD005/>;
         skos:definition        "This APG contains all parameters pertaining to the measurement of:   Eulerian currents  Lagrangian currents (except drifter position)  Vertical currents  River flow velocity"@en;
+        skos:definition        "Cet APG contient tous les paramètres relatifs à la mesure : courants eulériens, courants lagrangiens (sauf position de dériveur), courants verticaux, vitesse d'écoulement fluvial"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/EPSV/> , <http://vocab.nerc.ac.uk/collection/P02/current/RFVL/> , <http://vocab.nerc.ac.uk/collection/P02/current/RBSC/> , <http://vocab.nerc.ac.uk/collection/P02/current/RVDS/> , <http://vocab.nerc.ac.uk/collection/P02/current/LRZA/> , <http://vocab.nerc.ac.uk/collection/P02/current/EPSI/> , <http://vocab.nerc.ac.uk/collection/P02/current/LERR/>;
         skos:notation          "SDN:P03::D030";
         skos:note              "accepted"@en;
         skos:prefLabel         "Currents"@en;
+        skos:prefLabel         "Courants"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P02/current/LGCR/> , <http://vocab.nerc.ac.uk/collection/P02/current/VDFC/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/D025/>
@@ -1306,11 +1439,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS03/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD005/>;
         skos:definition        "This APG includes the parameters associated with the in-situ measurement of water column temperature (including potential temperature) and salinity (including conductivity).  Parameters derived from either temperature or salinity (but not temperature AND salinity), such as temperature gradient or temperature variance, are also included."@en;
+        skos:definition        "Cet APG inclut les paramètres associés à la mesure in-situ de la température (incluant la température potentielle) et de la salinité (incluant la conductivité) de la colonne d'eau. Les paramètres dérivés soit de la température soit de la salinité (mais pas de température ET salinité), comme le gradient de température ou la variance de température, sont aussi inclus."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current/> , <http://vocab.nerc.ac.uk/scheme/NETOC_PARAM/current/>;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/PSAL/> , <http://vocab.nerc.ac.uk/collection/P02/current/PTDZ/> , <http://vocab.nerc.ac.uk/collection/P02/current/TEMP/> , <http://vocab.nerc.ac.uk/collection/P02/current/PSST/> , <http://vocab.nerc.ac.uk/collection/P02/current/CNDC/> , <http://vocab.nerc.ac.uk/collection/P02/current/TCNT/> , <http://vocab.nerc.ac.uk/collection/OD1/current/SEATEMP/> , <http://vocab.nerc.ac.uk/collection/OD1/current/SAL/>;
         skos:notation          "SDN:P03::D025";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Water column temperature and salinity"@en .
+        skos:prefLabel         "Water column temperature and salinity"@en ;
+        skos:prefLabel         "Température et salinité de la colonne d'eau"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/B055/>
         rdf:type               skos:Concept;
@@ -1327,10 +1462,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS01/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD002/>;
         skos:definition        "Parameters pertaining to plants in the taxonomic groups Rhodophycota, Chromphycota and Chlorophycota (seaweeds/macroalgae) and Charophyta plus Anthophyta (seagrass)"@en;
+        skos:definition        "Paramètres relatifs aux plantes des groupes taxonomiques Rhodophycota, Chromophycota et Chlorophycota (algues brunes/macroalgues) et Charophyta plus Anthophyta (herbiers marins)"@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/GP012/> , <http://vocab.nerc.ac.uk/collection/P02/current/ACNT/> , <http://vocab.nerc.ac.uk/collection/P02/current/PU02/> , <http://vocab.nerc.ac.uk/collection/P02/current/ADUN/> , <http://vocab.nerc.ac.uk/collection/P02/current/BEPP/>;
         skos:notation          "SDN:P03::B055";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Macroalgae and seagrass"@en .
+        skos:prefLabel         "Macroalgae and seagrass"@en ;
+        skos:prefLabel         "Macroalgues et herbiers marins"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/G055/>
         rdf:type               skos:Concept;
@@ -1347,10 +1484,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS04/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS01/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS08/>;
         skos:definition        "Parameters pertaining to flora, fauna and their fossil remains in rocks and unlithified sediment. Includes zoobenthos, phytobenthos and palaeontology."@en;
+        skos:definition        "Paramètres relatifs à la flore, la faune et leurs restes fossiles dans les roches et les sédiments non lithifiés. Inclut le zoobenthos, le phytobenthos et la paléontologie."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/GP013/> , <http://vocab.nerc.ac.uk/collection/P02/current/ADUN/> , <http://vocab.nerc.ac.uk/collection/P02/current/FBAF/> , <http://vocab.nerc.ac.uk/collection/P02/current/INLZ/> , <http://vocab.nerc.ac.uk/collection/P02/current/FBAB/> , <http://vocab.nerc.ac.uk/collection/P02/current/IALZ/> , <http://vocab.nerc.ac.uk/collection/P02/current/MFWW/> , <http://vocab.nerc.ac.uk/collection/P02/current/ZOOB/> , <http://vocab.nerc.ac.uk/collection/P02/current/ZWTX/> , <http://vocab.nerc.ac.uk/collection/P02/current/FABD/> , <http://vocab.nerc.ac.uk/collection/P02/current/MFAB/> , <http://vocab.nerc.ac.uk/collection/P02/current/ZBTX/> , <http://vocab.nerc.ac.uk/collection/P02/current/IWDX/> , <http://vocab.nerc.ac.uk/collection/P02/current/SHTA/> , <http://vocab.nerc.ac.uk/collection/P02/current/ZADX/> , <http://vocab.nerc.ac.uk/collection/P02/current/IWAB/> , <http://vocab.nerc.ac.uk/collection/P02/current/MFAZ/> , <http://vocab.nerc.ac.uk/collection/P02/current/ZFIT/> , <http://vocab.nerc.ac.uk/collection/P02/current/GHDX/> , <http://vocab.nerc.ac.uk/collection/P02/current/SPOL/> , <http://vocab.nerc.ac.uk/collection/P02/current/MFLZ/>;
         skos:notation          "SDN:P03::G055";
         skos:note              "accepted"@en;
         skos:prefLabel         "Rock and sediment biota"@en;
+        skos:prefLabel         "Biotes des roches et des sédiments"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P02/current/BLEN/> , <http://vocab.nerc.ac.uk/collection/P02/current/DVLP/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD001/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/Z005/>
@@ -1368,10 +1507,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P23/current/MD011/>;
         skos:definition        "This APG is primarily intended for parameters that specify the dimensions:   x, y (e.g. latitude, longitude)  z (e.g. height above sea level/sea floor, depth/pressure)  t (e.g. date/time, elapsed time)   However, there are other parameters, such as general purpose quality control flags, sequence numbers, platform orientation (heading)/velocity, sampling duration/quantity (e.g. volume filtered) that have been included in the BODC dictionary mapping. It is inevitable that a grouping such as this will become the final resting place for parameters that do not fit into any other existing APG. The mappings to this group therefore require periodical review.  Note the potential for problems with confusion between pressure/depth as a z co-ordinate, as a sea level parameter (variation with time), or as a seafloor topography (bathymetry) measurement. Each of these should be assigned a different parameter if sensible grouping is to be possible. BODC currently has problems in this area that have been temporarily resolved by mapping ambiguous pressure/depth parameters into the Other Physical Oceanographic Measurements APG until the problems can be resolved as part of a planned future database restructure."@en;
+        skos:definition        "Cet APG est principalement destiné aux paramètres qui spécifient les dimensions : x, y (par ex. latitude, longitude) ; z (par ex. hauteur au-dessus du niveau de la mer/du fond marin, profondeur/pression) ; t (par ex. date/heure, temps écoulé). Cependant, il y a d'autres paramètres, comme les drapeaux de contrôle qualité génériques, les numéros de séquence, l'orientation (cap)/vitesse de la plateforme, la durée/quantité d'échantillonnage (par ex. volume filtré) qui ont été inclus dans le mapping du dictionnaire BODC. Il est inévitable qu'un regroupement comme celui-ci devienne le lieu de repos final pour les paramètres qui ne rentrent dans aucun autre APG existant. Les mappings vers ce groupe nécessitent donc une révision périodique. Notez le potentiel de problèmes de confusion entre pression/profondeur comme coordonnée z, comme paramètre de niveau de la mer (variation dans le temps), ou comme mesure de topographie du fond marin (bathymétrie). Chacun de ceux-ci devrait se voir assigner un paramètre différent si un regroupement sensé doit être possible. BODC a actuellement des problèmes dans ce domaine qui ont été temporairement résolus en mappant les paramètres ambigus pression/profondeur dans l'APG Autres mesures d'océanographie physique jusqu'à ce que les problèmes puissent être résolus dans le cadre d'une restructuration future planifiée de la base de données."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/SAMP/> , <http://vocab.nerc.ac.uk/collection/P02/current/EXSV/> , <http://vocab.nerc.ac.uk/collection/P02/current/ENGP/> , <http://vocab.nerc.ac.uk/collection/P02/current/XKEY/> , <http://vocab.nerc.ac.uk/collection/P02/current/MPMN/> , <http://vocab.nerc.ac.uk/collection/P02/current/ACFL/> , <http://vocab.nerc.ac.uk/collection/P02/current/ZZZZ/> , <http://vocab.nerc.ac.uk/collection/P02/current/ACYC/> , <http://vocab.nerc.ac.uk/collection/P02/current/AHGT/> , <http://vocab.nerc.ac.uk/collection/P02/current/AYMD/> , <http://vocab.nerc.ac.uk/collection/P02/current/TMES/> , <http://vocab.nerc.ac.uk/collection/P02/current/APDA/> , <http://vocab.nerc.ac.uk/collection/P02/current/ALAT/> , <http://vocab.nerc.ac.uk/collection/P02/current/HEAD/> , <http://vocab.nerc.ac.uk/collection/P02/current/APZA/> , <http://vocab.nerc.ac.uk/collection/OD1/current/PRESS/>;
         skos:notation          "SDN:P03::Z005";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Administration and dimensions"@en .
+        skos:prefLabel         "Administration and dimensions"@en ;
+        skos:prefLabel         "administration et dimensions"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/B045/>
         rdf:type               skos:Concept;
@@ -1388,10 +1529,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS01/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD002/>;
         skos:definition        "This group incorporates all state variables pertaining to zooplankton, which are defined for the purposes of this grouping as any heterotrophic organisms in the water column that are not mammals, reptiles or fish.  Most parameters in this group express the abundance, either as cell counts or biomass, of various types of zooplankton. However, the group also includes parameters that describe any other property of these entities that are  not rates or fluxes , such as the concentrations of faecal pellets or eggs in the water column or sediment."@en;
+        skos:definition        "Ce groupe incorpore toutes les variables d'état relatives au zooplancton, défini pour les besoins de ce regroupement comme tout organisme hétérotrophe dans la colonne d'eau qui n'est ni mammifère, reptile ou poisson. La plupart des paramètres de ce groupe expriment l'abondance, soit en comptages cellulaires soit en biomasse, de divers types de zooplancton. Cependant, le groupe inclut aussi des paramètres qui décrivent toute autre propriété de ces entités qui n'est pas un taux ou un flux, comme les concentrations de pellets fécaux ou d'œufs dans la colonne d'eau ou les sédiments."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/STGC/> , <http://vocab.nerc.ac.uk/collection/P02/current/DVLP/> , <http://vocab.nerc.ac.uk/collection/P02/current/ZCTN/> , <http://vocab.nerc.ac.uk/collection/P02/current/GP079/> , <http://vocab.nerc.ac.uk/collection/P02/current/BLEN/> , <http://vocab.nerc.ac.uk/collection/P02/current/ZNTP/> , <http://vocab.nerc.ac.uk/collection/P02/current/GRZO/> , <http://vocab.nerc.ac.uk/collection/P02/current/FPRT/> , <http://vocab.nerc.ac.uk/collection/P02/current/ZCMP/> , <http://vocab.nerc.ac.uk/collection/P02/current/ZNTN/> , <http://vocab.nerc.ac.uk/collection/P02/current/MEPH/> , <http://vocab.nerc.ac.uk/collection/P02/current/GPIG/> , <http://vocab.nerc.ac.uk/collection/P02/current/MSIC/> , <http://vocab.nerc.ac.uk/collection/P02/current/FCRT/> , <http://vocab.nerc.ac.uk/collection/P02/current/MSBD/> , <http://vocab.nerc.ac.uk/collection/P02/current/MSEP/> , <http://vocab.nerc.ac.uk/collection/P02/current/ZV00/> , <http://vocab.nerc.ac.uk/collection/P02/current/MSBO/> , <http://vocab.nerc.ac.uk/collection/P02/current/ZATP/> , <http://vocab.nerc.ac.uk/collection/P02/current/ZNTC/> , <http://vocab.nerc.ac.uk/collection/P02/current/ZCTC/> , <http://vocab.nerc.ac.uk/collection/P02/current/ZATX/> , <http://vocab.nerc.ac.uk/collection/P02/current/ZNTX/> , <http://vocab.nerc.ac.uk/collection/P02/current/IATC/> , <http://vocab.nerc.ac.uk/collection/P02/current/IATX/>;
         skos:notation          "SDN:P03::B045";
         skos:note              "accepted"@en;
         skos:prefLabel         "Zooplankton"@en;
+        skos:prefLabel         "zooplancton"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P02/current/CYEU/> , <http://vocab.nerc.ac.uk/collection/P02/current/PYTT/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/B070/>
@@ -1407,13 +1550,16 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "BiotaAbundBiomassDivers";
+        skos:altLabel          "BiotaAbundBiomassDivers"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS01/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD002/>;
         skos:definition        "All parameters of any dimensionality (per unit volume, area or simply counts) quantifying the numbers, mass or diversity (species variation) of biota in water bodies, sediment or the atmosphere."@en;
+        skos:definition        "Tous les paramètres de toute dimensionnalité (par unité de volume, de surface ou simplement comptages) quantifiant les nombres, la masse ou la diversité (variation d'espèces) des biotes dans les masses d'eau, les sédiments ou l'atmosphère."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current/> , <http://vocab.nerc.ac.uk/scheme/NETOC_PARAM/current/>;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/OD1/current/BIOINFO/> , <http://vocab.nerc.ac.uk/collection/OD1/current/INVER/> , <http://vocab.nerc.ac.uk/collection/P02/current/GP013/> , <http://vocab.nerc.ac.uk/collection/P02/current/INVD/> , <http://vocab.nerc.ac.uk/collection/P02/current/D001/> , <http://vocab.nerc.ac.uk/collection/P02/current/BDRV/> , <http://vocab.nerc.ac.uk/collection/P02/current/MATC/> , <http://vocab.nerc.ac.uk/collection/P02/current/BATC/> , <http://vocab.nerc.ac.uk/collection/P02/current/FBAF/> , <http://vocab.nerc.ac.uk/collection/P02/current/ZCTN/> , <http://vocab.nerc.ac.uk/collection/P02/current/INLZ/> , <http://vocab.nerc.ac.uk/collection/P02/current/PYTT/> , <http://vocab.nerc.ac.uk/collection/P02/current/D000/> , <http://vocab.nerc.ac.uk/collection/P02/current/GP079/> , <http://vocab.nerc.ac.uk/collection/P02/current/BDWC/> , <http://vocab.nerc.ac.uk/collection/P02/current/PU02/> , <http://vocab.nerc.ac.uk/collection/P02/current/FBAB/> , <http://vocab.nerc.ac.uk/collection/P02/current/IALZ/> , <http://vocab.nerc.ac.uk/collection/P02/current/FIBM/> , <http://vocab.nerc.ac.uk/collection/P02/current/FNTX/> , <http://vocab.nerc.ac.uk/collection/P02/current/SABB/> , <http://vocab.nerc.ac.uk/collection/P02/current/BATX/> , <http://vocab.nerc.ac.uk/collection/P02/current/BAUC/> , <http://vocab.nerc.ac.uk/collection/P02/current/PNTX/> , <http://vocab.nerc.ac.uk/collection/P02/current/ZNTP/> , <http://vocab.nerc.ac.uk/collection/P02/current/MFWW/> , <http://vocab.nerc.ac.uk/collection/P02/current/ZNTN/> , <http://vocab.nerc.ac.uk/collection/P02/current/ZWTX/> , <http://vocab.nerc.ac.uk/collection/P02/current/FABD/> , <http://vocab.nerc.ac.uk/collection/P02/current/MSIC/> , <http://vocab.nerc.ac.uk/collection/P02/current/MSBD/> , <http://vocab.nerc.ac.uk/collection/P02/current/MFAB/> , <http://vocab.nerc.ac.uk/collection/P02/current/PATX/> , <http://vocab.nerc.ac.uk/collection/P02/current/GP068/> , <http://vocab.nerc.ac.uk/collection/P02/current/ZBTX/> , <http://vocab.nerc.ac.uk/collection/P02/current/IWDX/> , <http://vocab.nerc.ac.uk/collection/P02/current/ZADX/> , <http://vocab.nerc.ac.uk/collection/P02/current/IWAB/> , <http://vocab.nerc.ac.uk/collection/P02/current/MSBO/> , <http://vocab.nerc.ac.uk/collection/P02/current/MFAZ/> , <http://vocab.nerc.ac.uk/collection/P02/current/BNUC/> , <http://vocab.nerc.ac.uk/collection/P02/current/BRDD/> , <http://vocab.nerc.ac.uk/collection/P02/current/ZATP/> , <http://vocab.nerc.ac.uk/collection/P02/current/FATX/> , <http://vocab.nerc.ac.uk/collection/P02/current/MFLZ/> , <http://vocab.nerc.ac.uk/collection/P02/current/MATX/> , <http://vocab.nerc.ac.uk/collection/P02/current/IATX/> , <http://vocab.nerc.ac.uk/collection/P02/current/VIRU/> , <http://vocab.nerc.ac.uk/collection/P02/current/IATC/> , <http://vocab.nerc.ac.uk/collection/P02/current/BNTX/> , <http://vocab.nerc.ac.uk/collection/P02/current/ZNTX/> , <http://vocab.nerc.ac.uk/collection/P02/current/MZBN/> , <http://vocab.nerc.ac.uk/collection/P02/current/BPBP/> , <http://vocab.nerc.ac.uk/collection/P02/current/ZNTC/> , <http://vocab.nerc.ac.uk/collection/P02/current/CNTX/> , <http://vocab.nerc.ac.uk/collection/P02/current/CATX/> , <http://vocab.nerc.ac.uk/collection/P02/current/ZCTC/> , <http://vocab.nerc.ac.uk/collection/P02/current/MZBC/> , <http://vocab.nerc.ac.uk/collection/P02/current/BNTC/> , <http://vocab.nerc.ac.uk/collection/P02/current/ZATX/> , <http://vocab.nerc.ac.uk/collection/P02/current/CYEU/>;
         skos:notation          "SDN:P03::B070";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Biota abundance, biomass and diversity"@en .
+        skos:prefLabel         "Biota abundance, biomass and diversity"@en ;
+        skos:prefLabel         "Abondance, biomasse et diversité des biotes"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/H001/>
         rdf:type               skos:Concept;
@@ -1430,10 +1576,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P23/current/MD008/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS10/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS12/>;
         skos:definition        "Parameters describing the abundance, nature and impact of material added to the environment by the activities of man."@en;
+        skos:definition        "Paramètres décrivant l'abondance, la nature et l'impact du matériau ajouté à l'environnement par les activités de l'homme."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/SPCN/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20041/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20042/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20040/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20039/> , <http://vocab.nerc.ac.uk/collection/HA2/current/HA20043/> , <http://vocab.nerc.ac.uk/collection/P02/current/PESP/> , <http://vocab.nerc.ac.uk/collection/P02/current/GP013/> , <http://vocab.nerc.ac.uk/collection/OD1/current/BIOTOX/> , <http://vocab.nerc.ac.uk/collection/OD1/current/CONT/> , <http://vocab.nerc.ac.uk/collection/P02/current/UMLW/> , <http://vocab.nerc.ac.uk/collection/P02/current/BLIT/> , <http://vocab.nerc.ac.uk/collection/P02/current/UMLS/> , <http://vocab.nerc.ac.uk/collection/P02/current/SLIT/> , <http://vocab.nerc.ac.uk/collection/P02/current/SCOC/> , <http://vocab.nerc.ac.uk/collection/P02/current/GP001/> , <http://vocab.nerc.ac.uk/collection/P02/current/RMIN/> , <http://vocab.nerc.ac.uk/collection/P02/current/PCHW/> , <http://vocab.nerc.ac.uk/collection/P02/current/PESD/> , <http://vocab.nerc.ac.uk/collection/P02/current/BCPB/> , <http://vocab.nerc.ac.uk/collection/P02/current/BCMT/> , <http://vocab.nerc.ac.uk/collection/P02/current/CFTM/> , <http://vocab.nerc.ac.uk/collection/P02/current/SPCB/> , <http://vocab.nerc.ac.uk/collection/P02/current/PPCB/> , <http://vocab.nerc.ac.uk/collection/P02/current/PHSE/> , <http://vocab.nerc.ac.uk/collection/P02/current/SCAH/> , <http://vocab.nerc.ac.uk/collection/P02/current/IDIS/> , <http://vocab.nerc.ac.uk/collection/P02/current/PCAH/> , <http://vocab.nerc.ac.uk/collection/P02/current/WCOC/> , <http://vocab.nerc.ac.uk/collection/P02/current/LITT/> , <http://vocab.nerc.ac.uk/collection/P02/current/BABI/> , <http://vocab.nerc.ac.uk/collection/P02/current/OMPW/> , <http://vocab.nerc.ac.uk/collection/P02/current/GP050/> , <http://vocab.nerc.ac.uk/collection/P02/current/BCOC/> , <http://vocab.nerc.ac.uk/collection/P02/current/OMWC/> , <http://vocab.nerc.ac.uk/collection/P02/current/PHBI/> , <http://vocab.nerc.ac.uk/collection/P02/current/PPWC/> , <http://vocab.nerc.ac.uk/collection/P02/current/PHWB/> , <http://vocab.nerc.ac.uk/collection/P02/current/BCAH/> , <http://vocab.nerc.ac.uk/collection/P02/current/MDBO/> , <http://vocab.nerc.ac.uk/collection/P02/current/PCOC/> , <http://vocab.nerc.ac.uk/collection/P02/current/OMBI/> , <http://vocab.nerc.ac.uk/collection/P02/current/PEWB/> , <http://vocab.nerc.ac.uk/collection/P02/current/QDMD/> , <http://vocab.nerc.ac.uk/collection/P02/current/PEBI/> , <http://vocab.nerc.ac.uk/collection/P02/current/RVDS/> , <http://vocab.nerc.ac.uk/collection/P02/current/GP048/> , <http://vocab.nerc.ac.uk/collection/P02/current/ATEM/> , <http://vocab.nerc.ac.uk/collection/P02/current/OCAA/>;
         skos:notation          "SDN:P03::H001";
         skos:note              "accepted"@en;
         skos:prefLabel         "Pollution"@en;
+        skos:prefLabel         "Pollution"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P02/current/MTWP/> , <http://vocab.nerc.ac.uk/collection/P02/current/MTWD/> , <http://vocab.nerc.ac.uk/collection/P02/current/MTWT/> , <http://vocab.nerc.ac.uk/collection/P02/current/GP012/> , <http://vocab.nerc.ac.uk/collection/P02/current/GP010/> , <http://vocab.nerc.ac.uk/collection/P02/current/WQBI/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/C003/>
@@ -1450,10 +1598,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P23/current/MD006/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS02/>;
         skos:definition        "This group contains parameters pertaining to amino acid concentrations.  Amino acids are defined as carboxylic acids with an amino group at the alpha position.  The grouping covers concentrations of these compounds in the water column (mass of amino acid per unit mass/volume of water) or their content in sediment or suspended particulate matter.  The grouping does not include amino acid fluxes or rate variables, such as bacterial production by leucine uptake."@en;
+        skos:definition        "Ce groupe contient les paramètres relatifs aux concentrations d'acides aminés. Les acides aminés sont définis comme les acides carboxyliques avec un groupe amino en position alpha. Le regroupement couvre les concentrations de ces composés dans la colonne d'eau (masse d'acide aminé par unité de masse/volume d'eau) ou leur teneur dans les sédiments ou les matières particulaires en suspension. Le regroupement n'inclut pas les flux d'acides aminés ni les variables de taux, comme la production bactérienne par absorption de leucine."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/DAAW/> , <http://vocab.nerc.ac.uk/collection/P02/current/TFAA/> , <http://vocab.nerc.ac.uk/collection/P02/current/HAAC/> , <http://vocab.nerc.ac.uk/collection/P02/current/AAFX/>;
         skos:notation          "SDN:P03::C003";
         skos:note              "accepted"@en;
         skos:prefLabel         "Amino acids"@en;
+        skos:prefLabel         "Acides aminés"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P02/current/ICHM/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/H002/>
@@ -1468,12 +1618,15 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Cons+Struct";
+        skos:altLabel          "Cons+Struct"@fr ;
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS10/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS12/>;
         skos:definition        "Parameters describing the nature and impact of coastal and offshore man-made objects and the process of creating them."@en;
+        skos:definition        "Paramètres décrivant la nature et l'impact des objets artificiels côtiers et en mer et le processus de leur création."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/GTCH/> , <http://vocab.nerc.ac.uk/collection/P02/current/MMST/> , <http://vocab.nerc.ac.uk/collection/P02/current/HZNV/> , <http://vocab.nerc.ac.uk/collection/P02/current/ADUN/>;
         skos:notation          "SDN:P03::H002";
         skos:note              "accepted"@en;
         skos:prefLabel         "Construction and structures"@en;
+        skos:prefLabel         "Construction et structures"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P02/current/MARC/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD010/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD012/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/G040/>
@@ -1491,10 +1644,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS04/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD001/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS08/>;
         skos:definition        "Parameters pertaining to the physical properties of rocks (including speleotherms) and unlithified sediment."@en;
+        skos:definition        "Paramètres relatifs aux propriétés physiques des roches (incluant les spéléothèmes) et des sédiments non lithifiés."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/RTCO/> , <http://vocab.nerc.ac.uk/collection/P02/current/STCO/> , <http://vocab.nerc.ac.uk/collection/P02/current/MNGS/> , <http://vocab.nerc.ac.uk/collection/P02/current/GTCH/> , <http://vocab.nerc.ac.uk/collection/P02/current/WCWT/> , <http://vocab.nerc.ac.uk/collection/P02/current/XMGS/> , <http://vocab.nerc.ac.uk/collection/P02/current/ROGS/> , <http://vocab.nerc.ac.uk/collection/P02/current/RPER/> , <http://vocab.nerc.ac.uk/collection/P02/current/DBDX/>;
         skos:notation          "SDN:P03::G040";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Rock and sediment physical properties"@en .
+        skos:prefLabel         "Rock and sediment physical properties"@en ;
+        skos:prefLabel         "Propriétés physiques des roches et des sédiments"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/C040/>
         rdf:type               skos:Concept;
@@ -1511,11 +1666,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P23/current/MD006/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS02/>;
         skos:definition        "This group contains parameter codes describing the concentrations of the substances that provide the essential basic elements - nitrogen, phosphorus and silicon - to the phytoplankton. The species covered are:   Nitrogen - nitrate, nitrite, ammonium and urea.  Phosphorus - orthophosphate  Silicon - hydrosilicic acid, commonly termed 'silicate'.   The grouping also covers uncalibrated analytical or in-situ instrument outputs, such as monochromatic optical absorbances at the appropriate wavelengths for nutrient determination."@en;
+        skos:definition        "Ce groupe contient les codes de paramètres décrivant les concentrations des substances qui fournissent les éléments de base essentiels - azote, phosphore et silicium - au phytoplancton. Les espèces couvertes sont : azote - nitrate, nitrite, ammonium et urée ; phosphore - orthophosphate ; silicium - acide hydrosilicique, communément appelé 'silicate'. Le regroupement couvre aussi les sorties analytiques ou d'instruments in-situ non calibrées, comme les absorbances optiques monochromatiques aux longueurs d'onde appropriées pour la détermination des nutriments."@fr ;
         skos:inScheme          <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current/> , <http://vocab.nerc.ac.uk/scheme/NETOC_PARAM/current/>;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/AMUP/> , <http://vocab.nerc.ac.uk/collection/P02/current/AMOX/> , <http://vocab.nerc.ac.uk/collection/P02/current/NTPW/> , <http://vocab.nerc.ac.uk/collection/P02/current/PHUP/> , <http://vocab.nerc.ac.uk/collection/P02/current/UREA/> , <http://vocab.nerc.ac.uk/collection/P02/current/NUTV/> , <http://vocab.nerc.ac.uk/collection/P02/current/SAMO/> , <http://vocab.nerc.ac.uk/collection/P02/current/NTUP/> , <http://vocab.nerc.ac.uk/collection/P02/current/SLCA/> , <http://vocab.nerc.ac.uk/collection/P02/current/NTRA/> , <http://vocab.nerc.ac.uk/collection/P02/current/PHOS/> , <http://vocab.nerc.ac.uk/collection/P02/current/NTRI/> , <http://vocab.nerc.ac.uk/collection/P02/current/TDIN/> , <http://vocab.nerc.ac.uk/collection/P02/current/AMON/>;
         skos:notation          "SDN:P03::C040";
         skos:note              "accepted"@en;
         skos:prefLabel         "Nutrients"@en;
+        skos:prefLabel         "nutriments"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P02/current/ICHM/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD008/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/O005/>
@@ -1532,10 +1689,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS06/>;
         skos:definition        "This group contains parameter codes that relate to the rate of transfer of material across real or virtual interfaces. The current (May 2003) BODC Parameter Dictionary includes two types of flux:   Vertical fluxes of mass, chemical species and biological entities through the water column (sediment trap fluxes).  Fluxes of chemical species between the water column and the underlying sediment, including sediment oxygen demand.   However, other categories, such as the estuary discharge fluxes, are envisaged in the future.  Note that this APG has been given 'priority' status to enable modellers to easily ascertain the extent of rate variable availability. Flux parameters are included in this APG in preference to any other APG that might seem appropriate."@en;
+        skos:definition        "Ce groupe contient les codes de paramètres relatifs au taux de transfert de matériau à travers des interfaces réelles ou virtuelles. Le dictionnaire de paramètres BODC actuel (mai 2003) inclut deux types de flux : les flux verticaux de masse, d'espèces chimiques et d'entités biologiques à travers la colonne d'eau (flux de pièges à sédiments) ; les flux d'espèces chimiques entre la colonne d'eau et les sédiments sous-jacents, incluant la demande en oxygène des sédiments. Cependant, d'autres catégories, comme les flux de décharge estuarienne, sont envisagées à l'avenir. Notez que cet APG a reçu un statut 'priorité' pour permettre aux modélisateurs de facilement évaluer l'étendue de la disponibilité des variables de taux. Les paramètres de flux sont inclus dans cet APG de préférence à tout autre APG qui pourrait sembler approprié."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/OD1/current/SEDFLUX/> , <http://vocab.nerc.ac.uk/collection/P02/current/AAFX/> , <http://vocab.nerc.ac.uk/collection/P02/current/CFTM/> , <http://vocab.nerc.ac.uk/collection/P02/current/SICO/> , <http://vocab.nerc.ac.uk/collection/P02/current/FPFX/> , <http://vocab.nerc.ac.uk/collection/P02/current/SCDO/> , <http://vocab.nerc.ac.uk/collection/P02/current/PNFX/> , <http://vocab.nerc.ac.uk/collection/P02/current/MSFX/> , <http://vocab.nerc.ac.uk/collection/P02/current/A01X/> , <http://vocab.nerc.ac.uk/collection/P02/current/LIFX/> , <http://vocab.nerc.ac.uk/collection/P02/current/PCFX/> , <http://vocab.nerc.ac.uk/collection/P02/current/AXFX/> , <http://vocab.nerc.ac.uk/collection/P02/current/CBFX/> , <http://vocab.nerc.ac.uk/collection/P02/current/SAMO/> , <http://vocab.nerc.ac.uk/collection/P02/current/MLFX/> , <http://vocab.nerc.ac.uk/collection/P02/current/ATDP/> , <http://vocab.nerc.ac.uk/collection/P02/current/RVDS/> , <http://vocab.nerc.ac.uk/collection/P02/current/HFLX/> , <http://vocab.nerc.ac.uk/collection/P02/current/ATEM/> , <http://vocab.nerc.ac.uk/collection/P02/current/FDMS/> , <http://vocab.nerc.ac.uk/collection/P02/current/OPFX/> , <http://vocab.nerc.ac.uk/collection/P02/current/TCFX/>;
         skos:notation          "SDN:P03::O005";
         skos:note              "accepted"@en;
         skos:prefLabel         "Fluxes"@en;
+        skos:prefLabel         "Flux"@fr ;
         skos:related           <http://vocab.nerc.ac.uk/collection/P23/current/MD005/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD006/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD003/> .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/C025/>
@@ -1552,10 +1711,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P23/current/MD006/> , <http://vocab.nerc.ac.uk/collection/P08/current/DS02/>;
         skos:definition        "This group contains parameter codes describing the concentrations of the compounds of carbon and hydrogen. All compounds conforming to this definition are placed in this APG, including aromatic compounds, even polycyclic aromatic hydrocarbons traditionally categorised as 'pollutants'. This is to circumvent problems deciding which hydrocarbons are pollutants and which are not."@en;
+        skos:definition        "Ce groupe contient les codes de paramètres décrivant les concentrations des composés de carbone et d'hydrogène. Tous les composés conformes à cette définition sont placés dans cet APG, incluant les composés aromatiques, même les hydrocarbures aromatiques polycycliques traditionnellement classés comme 'polluants'. Ceci pour contourner les problèmes de décision sur quels hydrocarbures sont des polluants et lesquels ne le sont pas."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/OD1/current/CONT/> , <http://vocab.nerc.ac.uk/collection/P02/current/SALK/> , <http://vocab.nerc.ac.uk/collection/P02/current/PCHW/> , <http://vocab.nerc.ac.uk/collection/P02/current/SCAH/> , <http://vocab.nerc.ac.uk/collection/P02/current/OHAT/> , <http://vocab.nerc.ac.uk/collection/P02/current/AEYN/> , <http://vocab.nerc.ac.uk/collection/P02/current/AALK/> , <http://vocab.nerc.ac.uk/collection/P02/current/OHWC/> , <http://vocab.nerc.ac.uk/collection/P02/current/BCAH/> , <http://vocab.nerc.ac.uk/collection/P02/current/AQYN/> , <http://vocab.nerc.ac.uk/collection/P02/current/DALK/> , <http://vocab.nerc.ac.uk/collection/P02/current/PCAH/>;
         skos:notation          "SDN:P03::C025";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Hydrocarbons"@en .
+        skos:prefLabel         "Hydrocarbons"@en ;
+        skos:prefLabel         "hydrocarbures"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/B015/>
         rdf:type               skos:Concept;
@@ -1573,10 +1734,12 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:altLabel          "";
         skos:broader           <http://vocab.nerc.ac.uk/collection/P08/current/DS01/> , <http://vocab.nerc.ac.uk/collection/P23/current/MD002/>;
         skos:definition        "This group incorporates all variables pertaining to birds, mammals and reptiles, including abundance, biomass, biological function and state of health."@en;
+        skos:definition        "Ce groupe incorpore toutes les variables relatives aux oiseaux, mammifères et reptiles, incluant l'abondance, la biomasse, la fonction biologique et l'état de santé."@fr ;
         skos:narrower          <http://vocab.nerc.ac.uk/collection/P02/current/STGC/> , <http://vocab.nerc.ac.uk/collection/P02/current/ADUN/> , <http://vocab.nerc.ac.uk/collection/P02/current/BRDA/> , <http://vocab.nerc.ac.uk/collection/P02/current/GP018/> , <http://vocab.nerc.ac.uk/collection/P02/current/CEMP/> , <http://vocab.nerc.ac.uk/collection/P02/current/SEMP/> , <http://vocab.nerc.ac.uk/collection/P02/current/GP088/> , <http://vocab.nerc.ac.uk/collection/P02/current/GP069/> , <http://vocab.nerc.ac.uk/collection/P02/current/CEMO/> , <http://vocab.nerc.ac.uk/collection/P02/current/SEMO/> , <http://vocab.nerc.ac.uk/collection/P02/current/CEBH/> , <http://vocab.nerc.ac.uk/collection/P02/current/GP025/> , <http://vocab.nerc.ac.uk/collection/P02/current/CETA/> , <http://vocab.nerc.ac.uk/collection/P02/current/BRDD/> , <http://vocab.nerc.ac.uk/collection/P02/current/GP068/> , <http://vocab.nerc.ac.uk/collection/P02/current/FOCA/> , <http://vocab.nerc.ac.uk/collection/P02/current/GP004/> , <http://vocab.nerc.ac.uk/collection/P02/current/GP067/> , <http://vocab.nerc.ac.uk/collection/P02/current/SEBH/>;
         skos:notation          "SDN:P03::B015";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Birds, mammals and reptiles"@en .
+        skos:prefLabel         "Birds, mammals and reptiles"@en ;
+        skos:prefLabel         "Oiseaux, mammifères et reptiles"@fr .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/>
         rdf:type                skos:Collection;
@@ -1593,5 +1756,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "SeaDataNet";
         owl:versionInfo         "26";
         skos:altLabel           "SeaDataNet APG";
+        skos:altLabel           "SeaDataNet APG"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/P03/current/INAZ/> , <http://vocab.nerc.ac.uk/collection/P03/current/D010/> , <http://vocab.nerc.ac.uk/collection/P03/current/G020/> , <http://vocab.nerc.ac.uk/collection/P03/current/B040/> , <http://vocab.nerc.ac.uk/collection/P03/current/G010/> , <http://vocab.nerc.ac.uk/collection/P03/current/G025/> , <http://vocab.nerc.ac.uk/collection/P03/current/H014/> , <http://vocab.nerc.ac.uk/collection/P03/current/H006/> , <http://vocab.nerc.ac.uk/collection/P03/current/H009/> , <http://vocab.nerc.ac.uk/collection/P03/current/H015/> , <http://vocab.nerc.ac.uk/collection/P03/current/G065/> , <http://vocab.nerc.ac.uk/collection/P03/current/H013/> , <http://vocab.nerc.ac.uk/collection/P03/current/H012/> , <http://vocab.nerc.ac.uk/collection/P03/current/H010/> , <http://vocab.nerc.ac.uk/collection/P03/current/H008/> , <http://vocab.nerc.ac.uk/collection/P03/current/H011/> , <http://vocab.nerc.ac.uk/collection/P03/current/H016/> , <http://vocab.nerc.ac.uk/collection/P03/current/GTHM/> , <http://vocab.nerc.ac.uk/collection/P03/current/GMAR/> , <http://vocab.nerc.ac.uk/collection/P03/current/B060/> , <http://vocab.nerc.ac.uk/collection/P03/current/G012/> , <http://vocab.nerc.ac.uk/collection/P03/current/UWPH/> , <http://vocab.nerc.ac.uk/collection/P03/current/D032/> , <http://vocab.nerc.ac.uk/collection/P03/current/D020/> , <http://vocab.nerc.ac.uk/collection/P03/current/G060/> , <http://vocab.nerc.ac.uk/collection/P03/current/B025/> , <http://vocab.nerc.ac.uk/collection/P03/current/GSED/> , <http://vocab.nerc.ac.uk/collection/P03/current/M015/> , <http://vocab.nerc.ac.uk/collection/P03/current/C020/> , <http://vocab.nerc.ac.uk/collection/P03/current/G050/> , <http://vocab.nerc.ac.uk/collection/P03/current/C050/> , <http://vocab.nerc.ac.uk/collection/P03/current/G005/> , <http://vocab.nerc.ac.uk/collection/P03/current/GPYS/> , <http://vocab.nerc.ac.uk/collection/P03/current/D034/> , <http://vocab.nerc.ac.uk/collection/P03/current/C017/> , <http://vocab.nerc.ac.uk/collection/P03/current/C010/> , <http://vocab.nerc.ac.uk/collection/P03/current/C055/> , <http://vocab.nerc.ac.uk/collection/P03/current/D005/> , <http://vocab.nerc.ac.uk/collection/P03/current/G045/> , <http://vocab.nerc.ac.uk/collection/P03/current/C030/> , <http://vocab.nerc.ac.uk/collection/P03/current/B035/> , <http://vocab.nerc.ac.uk/collection/P03/current/C035/> , <http://vocab.nerc.ac.uk/collection/P03/current/B030/> , <http://vocab.nerc.ac.uk/collection/P03/current/H003/> , <http://vocab.nerc.ac.uk/collection/P03/current/G030/> , <http://vocab.nerc.ac.uk/collection/P03/current/G035/> , <http://vocab.nerc.ac.uk/collection/P03/current/C045/> , <http://vocab.nerc.ac.uk/collection/P03/current/D015/> , <http://vocab.nerc.ac.uk/collection/P03/current/T001/> , <http://vocab.nerc.ac.uk/collection/P03/current/M005/> , <http://vocab.nerc.ac.uk/collection/P03/current/M010/> , <http://vocab.nerc.ac.uk/collection/P03/current/O010/> , <http://vocab.nerc.ac.uk/collection/P03/current/C015/> , <http://vocab.nerc.ac.uk/collection/P03/current/H007/> , <http://vocab.nerc.ac.uk/collection/P03/current/B050/> , <http://vocab.nerc.ac.uk/collection/P03/current/H005/> , <http://vocab.nerc.ac.uk/collection/P03/current/B007/> , <http://vocab.nerc.ac.uk/collection/P03/current/B005/> , <http://vocab.nerc.ac.uk/collection/P03/current/H004/> , <http://vocab.nerc.ac.uk/collection/P03/current/B027/> , <http://vocab.nerc.ac.uk/collection/P03/current/B020/> , <http://vocab.nerc.ac.uk/collection/P03/current/C005/> , <http://vocab.nerc.ac.uk/collection/P03/current/G015/> , <http://vocab.nerc.ac.uk/collection/P03/current/D030/> , <http://vocab.nerc.ac.uk/collection/P03/current/D025/> , <http://vocab.nerc.ac.uk/collection/P03/current/B055/> , <http://vocab.nerc.ac.uk/collection/P03/current/G055/> , <http://vocab.nerc.ac.uk/collection/P03/current/Z005/> , <http://vocab.nerc.ac.uk/collection/P03/current/B045/> , <http://vocab.nerc.ac.uk/collection/P03/current/B070/> , <http://vocab.nerc.ac.uk/collection/P03/current/H001/> , <http://vocab.nerc.ac.uk/collection/P03/current/C003/> , <http://vocab.nerc.ac.uk/collection/P03/current/H002/> , <http://vocab.nerc.ac.uk/collection/P03/current/G040/> , <http://vocab.nerc.ac.uk/collection/P03/current/C040/> , <http://vocab.nerc.ac.uk/collection/P03/current/O005/> , <http://vocab.nerc.ac.uk/collection/P03/current/C025/> , <http://vocab.nerc.ac.uk/collection/P03/current/B015/>;
-        skos:prefLabel          "SeaDataNet Agreed Parameter Groups" .
+        skos:prefLabel          "SeaDataNet Agreed Parameter Groups" ;
+        skos:prefLabel          "Groupes de paramètres convenus SeaDataNet"@fr .
