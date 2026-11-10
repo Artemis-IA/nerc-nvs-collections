@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The smallest quantity of an input parameter that can be detected by a system or device."@en;
+        skos:definition        "La plus petite quantité d'un paramètre d'entrée qui peut être détectée par un système ou un dispositif."@fr ;
         skos:notation          "SDN:W04::CAPB0011";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Detection limit"@en .
+        skos:prefLabel         "Detection limit"@en ;
+        skos:prefLabel         "limite de détection"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0006/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The maximum and minimum values of a parameter that can be measured by a system or device."@en;
+        skos:definition        "Les valeurs maximale et minimale d'un paramètre qui peuvent être mesurées par un système ou un dispositif."@fr ;
         skos:notation          "SDN:W04::CAPB0006";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Measurement range"@en .
+        skos:prefLabel         "Measurement range"@en ;
+        skos:prefLabel         "plage de mesure"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0014/>
         rdf:type               skos:Concept;
@@ -66,10 +70,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "OPTemp";
+        skos:altLabel          "OPTemp"@fr ;
         skos:definition        "The temperature at which a system or device will operate effectively."@en;
+        skos:definition        "La température à laquelle un système ou un dispositif fonctionnera efficacement."@fr ;
         skos:notation          "SDN:W04::CAPB0014";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Operating temperature range"@en .
+        skos:prefLabel         "Operating temperature range"@en ;
+        skos:prefLabel         "plage de température de fonctionnement"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0004/>
         rdf:type               skos:Concept;
@@ -84,9 +91,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The time taken for a device or system after receiving an input signal to change its output signal from its previous state to a final settled value."@en;
+        skos:definition        "Le temps mis par un dispositif ou système après réception d'un signal d'entrée pour faire passer son signal de sortie de son état précédent à une valeur finale stabilisée."@fr ;
         skos:notation          "SDN:W04::CAPB0004";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Latency"@en .
+        skos:prefLabel         "Latency"@en ;
+        skos:prefLabel         "latence"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0002/>
         rdf:type               skos:Concept;
@@ -101,9 +110,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Dimensionless measure describing how oscillations in a system decay after a disturbance. Many systems exhibit oscillatory behavior when they are disturbed from their position of static equilibrium."@en;
+        skos:definition        "Mesure sans dimension décrivant comment les oscillations dans un système s'amortissent après une perturbation. De nombreux systèmes présentent un comportement oscillatoire lorsqu'ils sont perturbés de leur position d'équilibre statique."@fr ;
         skos:notation          "SDN:W04::CAPB0002";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Damping ratio"@en .
+        skos:prefLabel         "Damping ratio"@en ;
+        skos:prefLabel         "taux d'amortissement"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0012/>
         rdf:type               skos:Concept;
@@ -118,9 +129,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The depth below seawater to which a system or device will operate effectively."@en;
+        skos:definition        "La profondeur sous l'eau de mer jusqu'à laquelle un système ou un dispositif fonctionnera efficacement."@fr ;
         skos:notation          "SDN:W04::CAPB0012";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Operating depth"@en .
+        skos:prefLabel         "Operating depth"@en ;
+        skos:prefLabel         "profondeur de fonctionnement"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0005/>
         rdf:type               skos:Concept;
@@ -135,9 +148,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The degree of reproducibility of a measurement."@en;
+        skos:definition        "Le degré de reproductibilité d'une mesure."@fr ;
         skos:notation          "SDN:W04::CAPB0005";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Precision"@en .
+        skos:prefLabel         "Precision"@en ;
+        skos:prefLabel         "précision"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0003/>
         rdf:type               skos:Concept;
@@ -153,9 +168,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The number of cycles or events of a waveform."@en;
+        skos:definition        "Le nombre de cycles ou d'événements d'une forme d'onde."@fr ;
         skos:notation          "SDN:W04::CAPB0003";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Frequency"@en .
+        skos:prefLabel         "Frequency"@en ;
+        skos:prefLabel         "fréquence"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0013/>
         rdf:type               skos:Concept;
@@ -170,9 +187,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The depth below seawater to which the integrity of a system or device is not compromised."@en;
+        skos:definition        "La profondeur sous l'eau de mer jusqu'à laquelle l'intégrité d'un système ou d'un dispositif n'est pas compromise."@fr ;
         skos:notation          "SDN:W04::CAPB0013";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Survival depth"@en .
+        skos:prefLabel         "Survival depth"@en ;
+        skos:prefLabel         "profondeur de survie"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0008/>
         rdf:type               skos:Concept;
@@ -187,9 +206,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The time taken for a device or system after receiving an input signal to change its output signal from its previous state."@en;
+        skos:definition        "Le temps mis par un dispositif ou système après réception d'un signal d'entrée pour faire passer son signal de sortie de son état précédent."@fr ;
         skos:notation          "SDN:W04::CAPB0008";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Response time"@en .
+        skos:prefLabel         "Response time"@en ;
+        skos:prefLabel         "temps de réponse"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0010/>
         rdf:type               skos:Concept;
@@ -204,9 +225,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The ability to measure a group of parameters or only one parameter in the presence of other interfering parameters."@en;
+        skos:definition        "La capacité à mesurer un groupe de paramètres ou un seul paramètre en présence d'autres paramètres interférents."@fr ;
         skos:notation          "SDN:W04::CAPB0010";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Selectivity"@en .
+        skos:prefLabel         "Selectivity"@en ;
+        skos:prefLabel         "sélectivité"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0001/>
         rdf:type               skos:Concept;
@@ -222,9 +245,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The maximum difference that exists between an actual value and an indicated value output from a sensor. The actual value is usually measured by a reference standard."@en;
+        skos:definition        "La différence maximale existant entre une valeur réelle et une valeur indiquée produite par un capteur. La valeur réelle est généralement mesurée par un étalon de référence."@fr ;
         skos:notation          "SDN:W04::CAPB0001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Accuracy"@en .
+        skos:prefLabel         "Accuracy"@en ;
+        skos:prefLabel         "exactitude"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0007/>
         rdf:type               skos:Concept;
@@ -239,9 +264,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The smallest detectable incremental change of an input parameter that can be detected in the output signal of a system or device."@en;
+        skos:definition        "Le plus petit changement incrémental détectable d'un paramètre d'entrée qui peut être détecté dans le signal de sortie d'un système ou d'un dispositif."@fr ;
         skos:notation          "SDN:W04::CAPB0007";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Resolution"@en .
+        skos:prefLabel         "Resolution"@en ;
+        skos:prefLabel         "résolution"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0009/>
         rdf:type               skos:Concept;
@@ -256,9 +283,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The change in output per unit change in the parameter being measured by a system or device."@en;
+        skos:definition        "Le changement de sortie par unité de changement du paramètre mesuré par un système ou d'un dispositif."@fr ;
         skos:notation          "SDN:W04::CAPB0009";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Sensitivity"@en .
+        skos:prefLabel         "Sensitivity"@en ;
+        skos:prefLabel         "sensibilité"@fr .
 
 <http://vocab.nerc.ac.uk/collection/W04/current/>
         rdf:type                skos:Collection;
@@ -273,5 +302,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Sensor Web Enablement Marine Profiles";
         owl:versionInfo         "2";
         skos:altLabel           "SensorML Capabilities";
+        skos:altLabel           "capacités SensorML"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0011/> , <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0006/> , <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0014/> , <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0004/> , <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0002/> , <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0012/> , <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0005/> , <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0003/> , <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0013/> , <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0008/> , <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0010/> , <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0009/> , <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0007/> , <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0001/>;
-        skos:prefLabel          "SensorML Capability Section Terms" .
+        skos:prefLabel          "SensorML Capability Section Terms" ;
+        skos:prefLabel          "termes de section des capacités SensorML"@fr .

@@ -33,10 +33,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "part_full";
+        skos:altLabel          "part_full (échantillon partiel)"@fr ;
         skos:definition        "The bottle seals were observed to be incorrectly seated and the bottle was only part full of water on recovery."@en;
+        skos:definition        "Les joints des flacons ont été observés mal positionnés et le flacon n'était qu'en partie rempli d'eau lors de sa remontée."@fr ;
         skos:notation          "SDN:C22::6";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Partial sample loss"@en .
+        skos:prefLabel         "Partial sample loss"@en ;
+        skos:prefLabel         "perte partielle d'échantillon"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C22/current/1/>
         rdf:type               skos:Concept;
@@ -51,10 +54,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "burst";
+        skos:altLabel          "burst (rupture)"@fr ;
         skos:definition        "The filter in an in-situ sampling pump physically ruptured during sample resulting in an unquantifiable loss of sampled material."@en;
+        skos:definition        "Le filtre d'une pompe d'échantillonnage in situ s'est physiquement rompu pendant l'échantillonnage, entraînant une perte non quantifiable de matière échantillonnée."@fr ;
         skos:notation          "SDN:C22::1";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Filter burst"@en .
+        skos:prefLabel         "Filter burst"@en ;
+        skos:prefLabel         "rupture de filtre"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C22/current/5/>
         rdf:type               skos:Concept;
@@ -69,10 +75,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "leak";
+        skos:altLabel          "leak (fuite)"@fr ;
         skos:definition        "Water was reported to be escaping from the bottle as the rosette was being recovered."@en;
+        skos:definition        "De l'eau a été rapportée comme s'échappant du flacon lors de la remontée de la rosette."@fr ;
         skos:notation          "SDN:C22::5";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Bottle leak"@en .
+        skos:prefLabel         "Bottle leak"@en ;
+        skos:prefLabel         "fuite de flacon"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C22/current/3/>
         rdf:type               skos:Concept;
@@ -87,10 +96,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "misfire";
+        skos:altLabel          "misfire (raté de tir)"@fr ;
         skos:definition        "The feedback indicator on the deck unit reported that the bottle closure command had failed. General Oceanics deck units used on NERC vessels in the 80s and 90s were renowned for reporting misfires when the bottle had been closed. This flag is also suitable for when a trigger command is mistakenly sent to a bottle that has previously been fired."@en;
+        skos:definition        "L'indicateur de retour sur l'unité de pont a rapporté que la commande de fermeture du flacon avait échoué. Les unités de pont General Oceanics utilisées sur les navires NERC dans les années 80 et 90 étaient réputées pour rapporter des ratés de tir lorsque le flacon avait été fermé. Ce drapeau convient également lorsqu'une commande de déclenchement est envoyée par erreur à un flacon déjà tiré."@fr ;
         skos:notation          "SDN:C22::3";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Bottle misfire"@en .
+        skos:prefLabel         "Bottle misfire"@en ;
+        skos:prefLabel         "raté de tir de flacon"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C22/current/7/>
         rdf:type               skos:Concept;
@@ -105,10 +117,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "3";
         skos:altLabel          "no_sample";
+        skos:altLabel          "no_sample (pas d'échantillon)"@fr ;
         skos:definition        "Either the bottle was found to contain no sample on recovery or there was no bottle fitted to the rosette position fired (but SBE35 record may exist)."@en;
+        skos:definition        "Soit le flacon a été trouvé vide lors de la remontée, soit aucun flacon n'était fixé à la position de rosette tirée (un enregistrement SBE35 peut néanmoins exister)."@fr ;
         skos:notation          "SDN:C22::7";
         skos:note              "accepted"@en;
-        skos:prefLabel         "No sample"@en .
+        skos:prefLabel         "No sample"@en ;
+        skos:prefLabel         "pas d'échantillon"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C22/current/0/>
         rdf:type               skos:Concept;
@@ -123,10 +138,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "OK";
+        skos:altLabel          "OK"@fr ;
         skos:definition        "The sampling event occurred without any incident being reported to BODC."@en;
+        skos:definition        "L'événement d'échantillonnage s'est déroulé sans incident rapporté à BODC."@fr ;
         skos:notation          "SDN:C22::0";
         skos:note              "accepted"@en;
-        skos:prefLabel         "No problem reported"@en .
+        skos:prefLabel         "No problem reported"@en ;
+        skos:prefLabel         "aucun problème rapporté"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C22/current/4/>
         rdf:type               skos:Concept;
@@ -141,10 +159,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "firing_order_error";
+        skos:altLabel          "firing_order_error (erreur d'ordre de tir)"@fr ;
         skos:definition        "During the sampling deployment the bottle was fired in an order other than incrementing rosette position. Indicative of the potential for errors in the assignment of bottle firing depth, especially with General Oceanics rosettes."@en;
+        skos:definition        "Lors du déploiement d'échantillonnage, le flacon a été tiré dans un ordre différent de la position croissante de la rosette. Indique le potentiel d'erreurs dans l'attribution de la profondeur de tir des flacons, en particulier avec les rosettes General Oceanics."@fr ;
         skos:notation          "SDN:C22::4";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Bottles fired in incorrect order"@en .
+        skos:prefLabel         "Bottles fired in incorrect order"@en ;
+        skos:prefLabel         "flacons tirés dans un ordre incorrect"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C22/current/2/>
         rdf:type               skos:Concept;
@@ -159,10 +180,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "leakage_contamination";
+        skos:altLabel          "leakage_contamination (contamination par fuite)"@fr ;
         skos:definition        "Analytical evidence (e.g. surface water salinity measured on a sample collected at depth) indicates that the water sample has been contaminated by water from depths other than the depths of sampling."@en;
+        skos:definition        "Des preuves analytiques (par ex. salinité d'eau de surface mesurée sur un échantillon collecté en profondeur) indiquent que l'échantillon d'eau a été contaminé par de l'eau provenant de profondeurs autres que celles d'échantillonnage."@fr ;
         skos:notation          "SDN:C22::2";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Leakage contamination"@en .
+        skos:prefLabel         "Leakage contamination"@en ;
+        skos:prefLabel         "contamination par fuite"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C22/current/8/>
         rdf:type               skos:Concept;
@@ -177,10 +201,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "4";
         skos:altLabel          "suspect_depth";
+        skos:altLabel          "suspect_depth (profondeur douteuse)"@fr ;
         skos:definition        "There is reason to doubt the accuracy of the sampling depth associated with the sample."@en;
+        skos:definition        "Il y a lieu de douter de l'exactitude de la profondeur d'échantillonnage associée à l'échantillon."@fr ;
         skos:notation          "SDN:C22::8";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Questionable depth"@en .
+        skos:prefLabel         "Questionable depth"@en ;
+        skos:prefLabel         "profondeur douteuse"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C22/current/9/>
         rdf:type               skos:Concept;
@@ -194,10 +221,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "vent_open";
+        skos:altLabel          "vent_open (évent ouvert)"@fr ;
         skos:definition        "The bottle air vent had not been closed prior to deployment giving rise to a risk of sample contamination through leakage."@en;
+        skos:definition        "L'évent d'air du flacon n'avait pas été fermé avant le déploiement, entraînant un risque de contamination de l'échantillon par fuite."@fr ;
         skos:notation          "SDN:C22::9";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Vent left open"@en .
+        skos:prefLabel         "Vent left open"@en ;
+        skos:prefLabel         "évent laissé ouvert"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C22/current/>
         rdf:type                skos:Collection;
@@ -213,5 +243,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "British Oceanographic Data Centre";
         owl:versionInfo         "5";
         skos:altLabel           "BODC water flags";
+        skos:altLabel           "drapeaux d'eau BODC"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/C22/current/6/> , <http://vocab.nerc.ac.uk/collection/C22/current/1/> , <http://vocab.nerc.ac.uk/collection/C22/current/5/> , <http://vocab.nerc.ac.uk/collection/C22/current/3/> , <http://vocab.nerc.ac.uk/collection/C22/current/7/> , <http://vocab.nerc.ac.uk/collection/C22/current/0/> , <http://vocab.nerc.ac.uk/collection/C22/current/4/> , <http://vocab.nerc.ac.uk/collection/C22/current/2/> , <http://vocab.nerc.ac.uk/collection/C22/current/9/> , <http://vocab.nerc.ac.uk/collection/C22/current/8/>;
-        skos:prefLabel          "BODC water sample qualification flags" .
+        skos:prefLabel          "BODC water sample qualification flags" ;
+        skos:prefLabel          "drapeaux de qualification d'échantillon d'eau BODC"@fr .

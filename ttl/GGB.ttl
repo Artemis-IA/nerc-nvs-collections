@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Singlebeam - depth value collected by a single beam echo-sounder."@en;
+        skos:definition        "Mono-faisceau — valeur de profondeur collectée par un écho-sondeur mono-faisceau."@fr ;
         skos:notation          "SDN:GGB::GGB10";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_2019_source_data_type_10"@en .
+        skos:prefLabel         "GEBCO_2019_source_data_type_10"@en ;
+        skos:prefLabel         "GEBCO_2019_source_data_type_10 (mono-faisceau)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGB/current/GGB21/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "LiDAR - depth derived from a bathymetric LiDAR sensor."@en;
+        skos:definition        "LiDAR — profondeur dérivée d'un capteur LiDAR bathymétrique."@fr ;
         skos:notation          "SDN:GGB::GGB21";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_2019_source_data_type_21"@en .
+        skos:prefLabel         "GEBCO_2019_source_data_type_21"@en ;
+        skos:prefLabel         "GEBCO_2019_source_data_type_21 (LiDAR)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGB/current/GGB13/>
         rdf:type               skos:Concept;
@@ -67,9 +71,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Isolated sounding - depth value that is not part of a regular survey or trackline."@en;
+        skos:definition        "Sonage isolé — valeur de profondeur ne faisant pas partie d'un levé ou d'une route régulière."@fr ;
         skos:notation          "SDN:GGB::GGB13";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_2019_source_data_type_13"@en .
+        skos:prefLabel         "GEBCO_2019_source_data_type_13"@en ;
+        skos:prefLabel         "GEBCO_2019_source_data_type_13 (sonage isolé)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGB/current/GGB19/>
         rdf:type               skos:Concept;
@@ -84,9 +90,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Unknown source - depth value from an unknown source."@en;
+        skos:definition        "Source inconnue — valeur de profondeur d'une source inconnue."@fr ;
         skos:notation          "SDN:GGB::GGB19";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_2019_source_data_type_19"@en .
+        skos:prefLabel         "GEBCO_2019_source_data_type_19"@en ;
+        skos:prefLabel         "GEBCO_2019_source_data_type_19 (source inconnue)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGB/current/GGB22/>
         rdf:type               skos:Concept;
@@ -101,9 +109,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Bathymetric sounding - depth value at this location is constrained by bathymetric sounding(s) from the SRTM15_plus data set (https://topex.ucsd.edu/WWW_html/srtm30_plus.html)."@en;
+        skos:definition        "Sonage bathymétrique — la valeur de profondeur à cet emplacement est contrainte par des sonages bathymétriques du jeu de données SRTM15_plus (https://topex.ucsd.edu/WWW_html/srtm30_plus.html)."@fr ;
         skos:notation          "SDN:GGB::GGB22";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_2019_source_data_type_22"@en .
+        skos:prefLabel         "GEBCO_2019_source_data_type_22"@en ;
+        skos:prefLabel         "GEBCO_2019_source_data_type_22 (sonage bathymétrique)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGB/current/GGB14/>
         rdf:type               skos:Concept;
@@ -118,9 +128,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "ENC sounding - depth value extracted from an Electronic Navigation Chart (ENC)."@en;
+        skos:definition        "Sonage ENC — valeur de profondeur extraite d'une carte marine électronique (ENC)."@fr ;
         skos:notation          "SDN:GGB::GGB14";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_2019_source_data_type_14"@en .
+        skos:prefLabel         "GEBCO_2019_source_data_type_14"@en ;
+        skos:prefLabel         "GEBCO_2019_source_data_type_14 (sonage ENC)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGB/current/GGB11/>
         rdf:type               skos:Concept;
@@ -135,9 +147,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Multibeam - depth value collected by a multibeam echo-sounder."@en;
+        skos:definition        "Multi-faisceaux — valeur de profondeur collectée par un écho-sondeur multi-faisceaux."@fr ;
         skos:notation          "SDN:GGB::GGB11";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_2019_source_data_type_11"@en .
+        skos:prefLabel         "GEBCO_2019_source_data_type_11"@en ;
+        skos:prefLabel         "GEBCO_2019_source_data_type_11 (multi-faisceaux)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGB/current/GGB23/>
         rdf:type               skos:Concept;
@@ -152,9 +166,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Pre-generated grid - depth value is based on the GEBCO_08 Grid. This data set is a global grid at 30 arc-seconds. It was largely generated from a data base of ship-track soundings with interpolation between soundings guided by satellite-derived gravity data."@en;
+        skos:definition        "Grille pré-générée — la valeur de profondeur est basée sur la grille GEBCO_08. Ce jeu de données est une grille globale à 30 secondes d'arc. Elle a été générée en grande partie à partir d'une base de données de sonages de routes de navires avec interpolation entre les sonages guidée par des données de gravité dérivées de satellites."@fr ;
         skos:notation          "SDN:GGB::GGB23";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_2019_source_data_type_23"@en .
+        skos:prefLabel         "GEBCO_2019_source_data_type_23"@en ;
+        skos:prefLabel         "GEBCO_2019_source_data_type_23 (grille pré-générée GEBCO_08)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGB/current/GGB0/>
         rdf:type               skos:Concept;
@@ -169,9 +185,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Predicted based on satellite-derived gravity data - depth value is an interpolated value guided by satellite-derived gravity data (from the SRTM15_plus data set, https://topex.ucsd.edu/WWW_html/srtm30_plus.html)."@en;
+        skos:definition        "Prédite à partir de données de gravité dérivées de satellites — la valeur de profondeur est une valeur interpolée guidée par des données de gravité dérivées de satellites (du jeu de données SRTM15_plus, https://topex.ucsd.edu/WWW_html/srtm30_plus.html)."@fr ;
         skos:notation          "SDN:GGB::GGB0";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_2019_source_data_type_0"@en .
+        skos:prefLabel         "GEBCO_2019_source_data_type_0"@en ;
+        skos:prefLabel         "GEBCO_2019_source_data_type_0 (prédite gravité satellite)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGB/current/GGB20/>
         rdf:type               skos:Concept;
@@ -186,9 +204,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Steering points - depth value used to constrain the grid in areas of poor data coverage."@en;
+        skos:definition        "Points de pilotage — valeur de profondeur utilisée pour contraindre la grille dans les zones de faible couverture de données."@fr ;
         skos:notation          "SDN:GGB::GGB20";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_2019_source_data_type_20"@en .
+        skos:prefLabel         "GEBCO_2019_source_data_type_20"@en ;
+        skos:prefLabel         "GEBCO_2019_source_data_type_20 (points de pilotage)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGB/current/GGB16/>
         rdf:type               skos:Concept;
@@ -203,9 +223,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Digital bathymetric contours from charts - depth value taken from a bathymetric contour data set."@en;
+        skos:definition        "Courbes bathymétriques numériques issues de cartes — valeur de profondeur extraite d'un jeu de données de courbes bathymétriques."@fr ;
         skos:notation          "SDN:GGB::GGB16";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_2019_source_data_type_16"@en .
+        skos:prefLabel         "GEBCO_2019_source_data_type_16"@en ;
+        skos:prefLabel         "GEBCO_2019_source_data_type_16 (courbes bathymétriques cartes)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGB/current/GGB-8888/>
         rdf:type               skos:Concept;
@@ -220,9 +242,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Land elevation."@en;
+        skos:definition        "Altitude terrestre."@fr ;
         skos:notation          "SDN:GGB::GGB-8888";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_2019_source_data_type_-8888"@en .
+        skos:prefLabel         "GEBCO_2019_source_data_type_-8888"@en ;
+        skos:prefLabel         "GEBCO_2019_source_data_type_-8888 (altitude terrestre)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGB/current/GGB17/>
         rdf:type               skos:Concept;
@@ -237,9 +261,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Digital bathymetric contours from ENCs - depth value taken from bathymetric contours from an Electronic Navigation Chart (ENC)."@en;
+        skos:definition        "Courbes bathymétriques numériques issues d'ENC — valeur de profondeur extraite de courbes bathymétriques d'une carte marine électronique (ENC)."@fr ;
         skos:notation          "SDN:GGB::GGB17";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_2019_source_data_type_17"@en .
+        skos:prefLabel         "GEBCO_2019_source_data_type_17"@en ;
+        skos:prefLabel         "GEBCO_2019_source_data_type_17 (courbes bathymétriques ENC)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGB/current/GGB15/>
         rdf:type               skos:Concept;
@@ -254,9 +280,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Interpolated based on a computer algorithm - depth value is an interpolated value based on a computer algorithm."@en;
+        skos:definition        "Interpolée à partir d'un algorithme informatique — la valeur de profondeur est une valeur interpolée basée sur un algorithme informatique."@fr ;
         skos:notation          "SDN:GGB::GGB15";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_2019_source_data_type_15"@en .
+        skos:prefLabel         "GEBCO_2019_source_data_type_15"@en ;
+        skos:prefLabel         "GEBCO_2019_source_data_type_15 (interpolation algorithme)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGB/current/GGB18/>
         rdf:type               skos:Concept;
@@ -271,9 +299,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Pre-generated grid - depth value is taken from a pre-generated grid that is based on mixed source data types, e.g. single beam, multibeam, interpolation etc."@en;
+        skos:definition        "Grille pré-générée — la valeur de profondeur est extraite d'une grille pré-générée basée sur des types de sources de données mixtes, par ex. mono-faisceau, multi-faisceaux, interpolation, etc."@fr ;
         skos:notation          "SDN:GGB::GGB18";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GEBCO_2019_source_data_type_18"@en .
+        skos:prefLabel         "GEBCO_2019_source_data_type_18"@en ;
+        skos:prefLabel         "GEBCO_2019_source_data_type_18 (grille pré-générée mixte)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/GGB/current/>
         rdf:type                skos:Collection;
@@ -289,5 +319,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "British Oceanographic Data Centre";
         owl:versionInfo         "2";
         skos:altLabel           "GEBCO_2019 sources";
+        skos:altLabel           "sources GEBCO_2019"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/GGB/current/GGB10/> , <http://vocab.nerc.ac.uk/collection/GGB/current/GGB21/> , <http://vocab.nerc.ac.uk/collection/GGB/current/GGB13/> , <http://vocab.nerc.ac.uk/collection/GGB/current/GGB19/> , <http://vocab.nerc.ac.uk/collection/GGB/current/GGB22/> , <http://vocab.nerc.ac.uk/collection/GGB/current/GGB14/> , <http://vocab.nerc.ac.uk/collection/GGB/current/GGB11/> , <http://vocab.nerc.ac.uk/collection/GGB/current/GGB23/> , <http://vocab.nerc.ac.uk/collection/GGB/current/GGB0/> , <http://vocab.nerc.ac.uk/collection/GGB/current/GGB20/> , <http://vocab.nerc.ac.uk/collection/GGB/current/GGB16/> , <http://vocab.nerc.ac.uk/collection/GGB/current/GGB-8888/> , <http://vocab.nerc.ac.uk/collection/GGB/current/GGB17/> , <http://vocab.nerc.ac.uk/collection/GGB/current/GGB18/> , <http://vocab.nerc.ac.uk/collection/GGB/current/GGB15/>;
-        skos:prefLabel          "GEBCO_2019 Grid source data types" .
+        skos:prefLabel          "GEBCO_2019 Grid source data types" ;
+        skos:prefLabel          "types de données sources de la grille GEBCO_2019"@fr .

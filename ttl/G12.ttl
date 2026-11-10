@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Permissible value for a codelist or enumeration"@en;
+        skos:definition        "Valeur permise pour une liste de codes ou une énumération."@fr ;
         skos:notation          "SDN:G12::004";
         skos:note              "accepted"@en;
-        skos:prefLabel         "codelistElement"@en .
+        skos:prefLabel         "codelistElement"@en ;
+        skos:prefLabel         "élément de liste de codes"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G12/current/003/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Data type whose instances form a list of named literal values, not extendable"@en;
+        skos:definition        "Type de données dont les instances forment une liste de valeurs littérales nommées, non extensible."@fr ;
         skos:notation          "SDN:G12::003";
         skos:note              "accepted"@en;
-        skos:prefLabel         "enumeration"@en .
+        skos:prefLabel         "enumeration"@en ;
+        skos:prefLabel         "énumération"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G12/current/001/>
         rdf:type               skos:Concept;
@@ -67,9 +71,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Descriptor of a set of objects that share the same attributes, operations, methods, relationships, and behavior"@en;
+        skos:definition        "Descripteur d'un ensemble d'objets partageant les mêmes attributs, opérations, méthodes, relations et comportements."@fr ;
         skos:notation          "SDN:G12::001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "class"@en .
+        skos:prefLabel         "class"@en ;
+        skos:prefLabel         "classe"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G12/current/015/>
         rdf:type               skos:Concept;
@@ -84,9 +90,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Semantic relationship between two classes that involves connections among their instances"@en;
+        skos:definition        "Relation sémantique entre deux classes impliquant des connexions entre leurs instances."@fr ;
         skos:notation          "SDN:G12::015";
         skos:note              "accepted"@en;
-        skos:prefLabel         "association"@en .
+        skos:prefLabel         "association"@en ;
+        skos:prefLabel         "association"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G12/current/010/>
         rdf:type               skos:Concept;
@@ -101,9 +109,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Class describing a selection of one of the specified types"@en;
+        skos:definition        "Classe décrivant une sélection de l'un des types spécifiés."@fr ;
         skos:notation          "SDN:G12::010";
         skos:note              "accepted"@en;
-        skos:prefLabel         "unionClass"@en .
+        skos:prefLabel         "unionClass"@en ;
+        skos:prefLabel         "classe union"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G12/current/006/>
         rdf:type               skos:Concept;
@@ -118,9 +128,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Class that is composed of classes it is connected to by an aggregate relationship"@en;
+        skos:definition        "Classe composée de classes auxquelles elle est reliée par une relation d'agrégation."@fr ;
         skos:notation          "SDN:G12::006";
         skos:note              "accepted"@en;
-        skos:prefLabel         "aggregateClass"@en .
+        skos:prefLabel         "aggregateClass"@en ;
+        skos:prefLabel         "classe agrégée"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G12/current/005/>
         rdf:type               skos:Concept;
@@ -135,9 +147,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Class that cannot be directly instantiated"@en;
+        skos:definition        "Classe qui ne peut pas être instanciée directement."@fr ;
         skos:notation          "SDN:G12::005";
         skos:note              "accepted"@en;
-        skos:prefLabel         "abstractClass"@en .
+        skos:prefLabel         "abstractClass"@en ;
+        skos:prefLabel         "classe abstraite"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G12/current/012/>
         rdf:type               skos:Concept;
@@ -152,9 +166,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Class used for specification of a domain of instances (objects), together with the operations applicable to the objects. A type may have attributes and associations"@en;
+        skos:definition        "Classe utilisée pour la spécification d'un domaine d'instances (objets), ainsi que des opérations applicables aux objets. Un type peut avoir des attributs et des associations."@fr ;
         skos:notation          "SDN:G12::012";
         skos:note              "accepted"@en;
-        skos:prefLabel         "typeClass"@en .
+        skos:prefLabel         "typeClass"@en ;
+        skos:prefLabel         "classe de type"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G12/current/013/>
         rdf:type               skos:Concept;
@@ -169,9 +185,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Free text field"@en;
+        skos:definition        "Champ texte libre."@fr ;
         skos:notation          "SDN:G12::013";
         skos:note              "accepted"@en;
-        skos:prefLabel         "characterString"@en .
+        skos:prefLabel         "characterString"@en ;
+        skos:prefLabel         "chaîne de caractères"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G12/current/007/>
         rdf:type               skos:Concept;
@@ -186,9 +204,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Subclass that may be substituted for its superclass"@en;
+        skos:definition        "Sous-classe qui peut se substituer à sa superclasse."@fr ;
         skos:notation          "SDN:G12::007";
         skos:note              "accepted"@en;
-        skos:prefLabel         "specifiedClass"@en .
+        skos:prefLabel         "specifiedClass"@en ;
+        skos:prefLabel         "classe spécifiée"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G12/current/002/>
         rdf:type               skos:Concept;
@@ -203,9 +223,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Flexible enumeration useful for expressing a long list of values, can be extended"@en;
+        skos:definition        "Énumération souple utile pour exprimer une longue liste de valeurs, extensible."@fr ;
         skos:notation          "SDN:G12::002";
         skos:note              "accepted"@en;
-        skos:prefLabel         "codelist"@en .
+        skos:prefLabel         "codelist"@en ;
+        skos:prefLabel         "liste de codes"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G12/current/014/>
         rdf:type               skos:Concept;
@@ -220,9 +242,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Numerical field"@en;
+        skos:definition        "Champ numérique."@fr ;
         skos:notation          "SDN:G12::014";
         skos:note              "accepted"@en;
-        skos:prefLabel         "integer"@en .
+        skos:prefLabel         "integer"@en ;
+        skos:prefLabel         "entier"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G12/current/008/>
         rdf:type               skos:Concept;
@@ -237,9 +261,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Class with few or no operations whose primary purpose is to hold the abstract state of another class for transmittal, storage, encoding or persistent storage"@en;
+        skos:definition        "Classe avec peu ou pas d'opérations dont le but principal est de contenir l'état abstrait d'une autre classe pour transmission, stockage, encodage ou stockage persistant."@fr ;
         skos:notation          "SDN:G12::008";
         skos:note              "accepted"@en;
-        skos:prefLabel         "datatypeClass"@en .
+        skos:prefLabel         "datatypeClass"@en ;
+        skos:prefLabel         "classe de type de données"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G12/current/011/>
         rdf:type               skos:Concept;
@@ -254,9 +280,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Class whose instances are classes"@en;
+        skos:definition        "Classe dont les instances sont des classes."@fr ;
         skos:notation          "SDN:G12::011";
         skos:note              "accepted"@en;
-        skos:prefLabel         "metaClass"@en .
+        skos:prefLabel         "metaClass"@en ;
+        skos:prefLabel         "métaclasse"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G12/current/009/>
         rdf:type               skos:Concept;
@@ -271,9 +299,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Named set of operations that characterize the behavior of an element"@en;
+        skos:definition        "Ensemble nommé d'opérations qui caractérisent le comportement d'un élément."@fr ;
         skos:notation          "SDN:G12::009";
         skos:note              "accepted"@en;
-        skos:prefLabel         "interfaceClass"@en .
+        skos:prefLabel         "interfaceClass"@en ;
+        skos:prefLabel         "classe d'interface"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G12/current/>
         rdf:type                skos:Collection;
@@ -288,5 +318,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "International Organization for Standardization";
         owl:versionInfo         "1";
         skos:altLabel           "MD_DatatypeCode";
+        skos:altLabel           "MD_DatatypeCode"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/G12/current/004/> , <http://vocab.nerc.ac.uk/collection/G12/current/003/> , <http://vocab.nerc.ac.uk/collection/G12/current/001/> , <http://vocab.nerc.ac.uk/collection/G12/current/015/> , <http://vocab.nerc.ac.uk/collection/G12/current/010/> , <http://vocab.nerc.ac.uk/collection/G12/current/006/> , <http://vocab.nerc.ac.uk/collection/G12/current/005/> , <http://vocab.nerc.ac.uk/collection/G12/current/012/> , <http://vocab.nerc.ac.uk/collection/G12/current/013/> , <http://vocab.nerc.ac.uk/collection/G12/current/007/> , <http://vocab.nerc.ac.uk/collection/G12/current/002/> , <http://vocab.nerc.ac.uk/collection/G12/current/014/> , <http://vocab.nerc.ac.uk/collection/G12/current/009/> , <http://vocab.nerc.ac.uk/collection/G12/current/011/> , <http://vocab.nerc.ac.uk/collection/G12/current/008/>;
-        skos:prefLabel          "MD_DatatypeCode" .
+        skos:prefLabel          "MD_DatatypeCode" ;
+        skos:prefLabel          "MD_DatatypeCode"@fr .

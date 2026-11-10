@@ -35,7 +35,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "http://cchdo.ucsd.edu/WHP_Exchange_Description.pdf"@en;
         skos:notation          "SDN:L27::WOCESAMPLE_QC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "World Ocean Circulation Experiment WHP quality flags for the bottle itself"@en .
+        skos:prefLabel         "World Ocean Circulation Experiment WHP quality flags for the bottle itself"@en ;
+        skos:prefLabel         "drapeaux de qualité WHP de la World Ocean Circulation Experiment pour le flacon lui-même"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L27/current/WODSTATION_QC/>
         rdf:type               skos:Concept;
@@ -52,7 +53,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "ftp://ftp.nodc.noaa.gov/pub/WOD05/DOC/wod05_tutorial.pdf"@en;
         skos:notation          "SDN:L27::WODSTATION_QC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "World Ocean Database entire station quality flags"@en .
+        skos:prefLabel         "World Ocean Database entire station quality flags"@en ;
+        skos:prefLabel         "drapeaux de qualité de station entière de la World Ocean Database"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L27/current/ESEAS_QC/>
         rdf:type               skos:Concept;
@@ -69,7 +71,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "http://wwww.eseas.org/eseas-ri/deliverables/d1.2/ESEAS_QC_29032005.doc"@en;
         skos:notation          "SDN:L27::ESEAS_QC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "European Sea Level Service quality flags"@en .
+        skos:prefLabel         "European Sea Level Service quality flags"@en ;
+        skos:prefLabel         "drapeaux de qualité du service européen du niveau de la mer"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L27/current/IODE_QC/>
         rdf:type               skos:Concept;
@@ -84,9 +87,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "IODE Manuals and Guides 54 Volume 3 Recommendation for a Quality Flag Scheme for the Exchange of Oceanographic and Marine Meteorological Data"@en;
+        skos:definition        "IODE Manuels et Guides 54 Volume 3 Recommandation pour un système de drapeaux de qualité pour l'échange de données océanographiques et de météorologie marine"@fr ;
         skos:notation          "SDN:L27::IODE_QC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "IODE quality flags"@en .
+        skos:prefLabel         "IODE quality flags"@en ;
+        skos:prefLabel         "drapeaux de qualité IODE"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L27/current/PANGAEA_QC/>
         rdf:type               skos:Concept;
@@ -103,7 +108,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "http://wiki.pangaea.de/wiki/Quality_flag"@en;
         skos:notation          "SDN:L27::PANGAEA_QC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "PANGAEA parameter value qualifier flags"@en .
+        skos:prefLabel         "PANGAEA parameter value qualifier flags"@en ;
+        skos:prefLabel         "drapeaux de qualificatif de valeur de paramètre PANGAEA"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L27/current/ARGO_QC/>
         rdf:type               skos:Concept;
@@ -118,9 +124,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Argo data management users' manual version 2.1"@en;
+        skos:definition        "Manuel utilisateur de gestion des données Argo version 2.1"@fr ;
         skos:notation          "SDN:L27::ARGO_QC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "ARGO quality flags"@en .
+        skos:prefLabel         "ARGO quality flags"@en ;
+        skos:prefLabel         "drapeaux de qualité ARGO"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L27/current/WOCEBOTTLE_QC/>
         rdf:type               skos:Concept;
@@ -137,7 +145,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "http://cchdo.ucsd.edu/WHP_Exchange_Description.pdf"@en;
         skos:notation          "SDN:L27::WOCEBOTTLE_QC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "World Ocean Circulation Experiment WHP bottle parameter data quality flags"@en .
+        skos:prefLabel         "World Ocean Circulation Experiment WHP bottle parameter data quality flags"@en ;
+        skos:prefLabel         "drapeaux de qualité des données de paramètre de flacon WHP de la World Ocean Circulation Experiment"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L27/current/GTSPP_QC/>
         rdf:type               skos:Concept;
@@ -154,7 +163,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "http:/www.meds-sdmm.dfo-mpo.gc.ca/meds/Databases/OCEAN/GTSPPcodes_e.htm"@en;
         skos:notation          "SDN:L27::GTSPP_QC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "GTSPP quality flags"@en .
+        skos:prefLabel         "GTSPP quality flags"@en ;
+        skos:prefLabel         "drapeaux de qualité GTSPP"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L27/current/QARTOD_QC/>
         rdf:type               skos:Concept;
@@ -171,7 +181,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "http://nautilus.baruch.sc.edu/twiki/pub/Main/WebHome/QARTOD2006_v9.pdf"@en;
         skos:notation          "SDN:L27::QARTOD_QC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "QARTOD provisional quality flags"@en .
+        skos:prefLabel         "QARTOD provisional quality flags"@en ;
+        skos:prefLabel         "drapeaux de qualité provisoires QARTOD"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L27/current/BODC_QC/>
         rdf:type               skos:Concept;
@@ -186,9 +197,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "BODC parameter value qualifier flags (C15 vocabulary)"@en;
+        skos:definition        "drapeaux de qualificatif de valeur de paramètre BODC (vocabulaire C15)"@fr ;
         skos:notation          "SDN:L27::BODC_QC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "British Oceanographic Data Centre parameter value qualifier flags"@en .
+        skos:prefLabel         "British Oceanographic Data Centre parameter value qualifier flags"@en ;
+        skos:prefLabel         "drapeaux de qualificatif de valeur de paramètre du British Oceanographic Data Centre"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L27/current/SEADATANET_QC/>
         rdf:type               skos:Concept;
@@ -204,9 +217,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "2";
         skos:altLabel          "";
         skos:definition        "SeaDataNet measurand qualifier flags version 3"@en;
+        skos:definition        "drapeaux de qualificatif de grandeur mesurée SeaDataNet version 3"@fr ;
         skos:notation          "SDN:L27::SEADATANET_QC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "SeaDataNet measurand qualifier flags version 3"@en .
+        skos:prefLabel         "SeaDataNet measurand qualifier flags version 3"@en ;
+        skos:prefLabel         "drapeaux de qualificatif de grandeur mesurée SeaDataNet version 3"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L27/current/ODV_QC/>
         rdf:type               skos:Concept;
@@ -221,9 +236,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "ODV Users Guide"@en;
+        skos:definition        "Guide utilisateur ODV"@fr ;
         skos:notation          "SDN:L27::ODV_QC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Ocean Data View generic quality flags"@en .
+        skos:prefLabel         "Ocean Data View generic quality flags"@en ;
+        skos:prefLabel         "drapeaux de qualité génériques d'Ocean Data View"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L27/current/WOD_QC/>
         rdf:type               skos:Concept;
@@ -240,7 +257,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "ftp://ftp.nodc.noaa.gov/pub/WOD05/DOC/wod05_tutorial.pdf"@en;
         skos:notation          "SDN:L27::WOD_QC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "World Ocean Database individual observed level quality flags"@en .
+        skos:prefLabel         "World Ocean Database individual observed level quality flags"@en ;
+        skos:prefLabel         "drapeaux de qualité de niveau observé individuel de la World Ocean Database"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L27/current/OCEANSITES_QC/>
         rdf:type               skos:Concept;
@@ -256,9 +274,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "2";
         skos:altLabel          "";
         skos:definition        "OceanSites reference table 2"@en;
+        skos:definition        "tableau de référence OceanSites 2"@fr ;
         skos:notation          "SDN:L27::OCEANSITES_QC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "OceanSites reference table 2"@en .
+        skos:prefLabel         "OceanSites reference table 2"@en ;
+        skos:prefLabel         "tableau de référence OceanSites 2"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L27/current/WOCECTD_QC/>
         rdf:type               skos:Concept;
@@ -275,7 +295,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "http://cchdo.ucsd.edu/WHP_Exchange_Description.pdf"@en;
         skos:notation          "SDN:L27::WOCECTD_QC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "World Ocean Circulation Experiment WHP CTD data quality flags"@en .
+        skos:prefLabel         "World Ocean Circulation Experiment WHP CTD data quality flags"@en ;
+        skos:prefLabel         "drapeaux de qualité des données CTD WHP de la World Ocean Circulation Experiment"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L27/current/SMHI_QC/>
         rdf:type               skos:Concept;
@@ -291,9 +312,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "2";
         skos:altLabel          "";
         skos:definition        "Swedish Meteorological and Hydrographic Institute quality flags. For details see https://www.smhi.se/oceanografi/oce_info_data/shark_web/downloads/SMHI_QC.pdf."@en;
+        skos:definition        "Drapeaux de qualité de l'Institut météorologique et hydrologique suédois. Pour plus de détails voir https://www.smhi.se/oceanografi/oce_info_data/shark_web/downloads/SMHI_QC.pdf."@fr ;
         skos:notation          "SDN:L27::SMHI_QC";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Swedish Meteorological and Hydrographic Institute quality flags"@en .
+        skos:prefLabel         "Swedish Meteorological and Hydrographic Institute quality flags"@en ;
+        skos:prefLabel         "drapeaux de qualité de l'Institut météorologique et hydrologique suédois"@fr .
 
 <http://vocab.nerc.ac.uk/collection/L27/current/>
         rdf:type                skos:Collection;
@@ -309,5 +332,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "SeaDataNet and MarineXML Vocabulary Content Governance Group";
         owl:versionInfo         "3";
         skos:altLabel           "SeaVoX Flag Conventions";
+        skos:altLabel           "conventions de drapeaux SeaVoX"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/L27/current/WOCESAMPLE_QC/> , <http://vocab.nerc.ac.uk/collection/L27/current/WODSTATION_QC/> , <http://vocab.nerc.ac.uk/collection/L27/current/ESEAS_QC/> , <http://vocab.nerc.ac.uk/collection/L27/current/IODE_QC/> , <http://vocab.nerc.ac.uk/collection/L27/current/PANGAEA_QC/> , <http://vocab.nerc.ac.uk/collection/L27/current/ARGO_QC/> , <http://vocab.nerc.ac.uk/collection/L27/current/WOCEBOTTLE_QC/> , <http://vocab.nerc.ac.uk/collection/L27/current/GTSPP_QC/> , <http://vocab.nerc.ac.uk/collection/L27/current/QARTOD_QC/> , <http://vocab.nerc.ac.uk/collection/L27/current/BODC_QC/> , <http://vocab.nerc.ac.uk/collection/L27/current/SEADATANET_QC/> , <http://vocab.nerc.ac.uk/collection/L27/current/ODV_QC/> , <http://vocab.nerc.ac.uk/collection/L27/current/WOD_QC/> , <http://vocab.nerc.ac.uk/collection/L27/current/OCEANSITES_QC/> , <http://vocab.nerc.ac.uk/collection/L27/current/SMHI_QC/> , <http://vocab.nerc.ac.uk/collection/L27/current/WOCECTD_QC/>;
-        skos:prefLabel          "SeaVoX data quality control flagging conventions" .
+        skos:prefLabel          "SeaVoX data quality control flagging conventions" ;
+        skos:prefLabel          "conventions de marquage de contrôle qualité des données SeaVoX"@fr .
