@@ -35,7 +35,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "";
         skos:notation          "SDN:I13::natureAndBiodiversity";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Nature and biodiversity"@en .
+        skos:prefLabel         "Nature and biodiversity"@en ;
+        skos:prefLabel         "nature et biodiversité"@fr .
 
 <http://vocab.nerc.ac.uk/collection/I13/current/sustainableDevelopment/>
         rdf:type               skos:Concept;
@@ -52,7 +53,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "";
         skos:notation          "SDN:I13::sustainableDevelopment";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Sustainable development"@en .
+        skos:prefLabel         "Sustainable development"@en ;
+        skos:prefLabel         "développement durable"@fr .
 
 <http://vocab.nerc.ac.uk/collection/I13/current/healthProtection/>
         rdf:type               skos:Concept;
@@ -69,7 +71,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "";
         skos:notation          "SDN:I13::healthProtection";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Health protection"@en .
+        skos:prefLabel         "Health protection"@en ;
+        skos:prefLabel         "protection de la santé"@fr .
 
 <http://vocab.nerc.ac.uk/collection/I13/current/air/>
         rdf:type               skos:Concept;
@@ -86,7 +89,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "";
         skos:notation          "SDN:I13::air";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Air"@en .
+        skos:prefLabel         "Air"@en ;
+        skos:prefLabel         "air"@fr .
 
 <http://vocab.nerc.ac.uk/collection/I13/current/noise/>
         rdf:type               skos:Concept;
@@ -103,7 +107,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "";
         skos:notation          "SDN:I13::noise";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Noise"@en .
+        skos:prefLabel         "Noise"@en ;
+        skos:prefLabel         "Bruit acoustique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/I13/current/water/>
         rdf:type               skos:Concept;
@@ -120,7 +125,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "";
         skos:notation          "SDN:I13::water";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Water"@en .
+        skos:prefLabel         "Water"@en ;
+        skos:prefLabel         "eau"@fr .
 
 <http://vocab.nerc.ac.uk/collection/I13/current/waste/>
         rdf:type               skos:Concept;
@@ -137,7 +143,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "";
         skos:notation          "SDN:I13::waste";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Waste"@en .
+        skos:prefLabel         "Waste"@en ;
+        skos:prefLabel         "déchets"@fr .
 
 <http://vocab.nerc.ac.uk/collection/I13/current/landUse/>
         rdf:type               skos:Concept;
@@ -154,7 +161,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "";
         skos:notation          "SDN:I13::landUse";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Land use"@en .
+        skos:prefLabel         "Land use"@en ;
+        skos:prefLabel         "utilisation des sols"@fr .
 
 <http://vocab.nerc.ac.uk/collection/I13/current/naturalResources/>
         rdf:type               skos:Concept;
@@ -171,7 +179,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "";
         skos:notation          "SDN:I13::naturalResources";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Natural resources"@en .
+        skos:prefLabel         "Natural resources"@en ;
+        skos:prefLabel         "ressources naturelles"@fr .
 
 <http://vocab.nerc.ac.uk/collection/I13/current/soil/>
         rdf:type               skos:Concept;
@@ -188,7 +197,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "";
         skos:notation          "SDN:I13::soil";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Soil"@en .
+        skos:prefLabel         "Soil"@en ;
+        skos:prefLabel         "sol"@fr .
 
 <http://vocab.nerc.ac.uk/collection/I13/current/climateChange/>
         rdf:type               skos:Concept;
@@ -205,7 +215,8 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:definition        "";
         skos:notation          "SDN:I13::climateChange";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Climate change"@en .
+        skos:prefLabel         "Climate change"@en ;
+        skos:prefLabel         "changement climatique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/I13/current/>
         rdf:type                skos:Collection;
@@ -220,5 +231,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "European Commission";
         owl:versionInfo         "1";
         skos:altLabel           "INSPIRE Environmental Domain";
+        skos:altLabel           "domaine environnemental INSPIRE"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/I13/current/natureAndBiodiversity/> , <http://vocab.nerc.ac.uk/collection/I13/current/sustainableDevelopment/> , <http://vocab.nerc.ac.uk/collection/I13/current/healthProtection/> , <http://vocab.nerc.ac.uk/collection/I13/current/air/> , <http://vocab.nerc.ac.uk/collection/I13/current/noise/> , <http://vocab.nerc.ac.uk/collection/I13/current/water/> , <http://vocab.nerc.ac.uk/collection/I13/current/waste/> , <http://vocab.nerc.ac.uk/collection/I13/current/landUse/> , <http://vocab.nerc.ac.uk/collection/I13/current/climateChange/> , <http://vocab.nerc.ac.uk/collection/I13/current/soil/> , <http://vocab.nerc.ac.uk/collection/I13/current/naturalResources/>;
-        skos:prefLabel          "INSPIRE Management and Reporting Environmental Domain Area" .
+        skos:prefLabel          "INSPIRE Management and Reporting Environmental Domain Area" ;
+        skos:prefLabel          "domaine environnemental de gestion et de reporting INSPIRE"@fr .

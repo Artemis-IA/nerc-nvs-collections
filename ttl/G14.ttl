@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Zero-dimensional geometric primitive, representing a position but not having an extent"@en;
+        skos:definition        "Primitive géométrique de dimension nulle, représentant une position sans étendue."@fr ;
         skos:notation          "SDN:G14::004";
         skos:note              "accepted"@en;
-        skos:prefLabel         "point"@en .
+        skos:prefLabel         "point"@en ;
+        skos:prefLabel         "point"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G14/current/005/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Bounded, connected 3-dimensional geometric primitive, representing the continuous image of a region of space"@en;
+        skos:definition        "Primitive géométrique bornée, connexe et tridimensionnelle, représentant l'image continue d'une région de l'espace."@fr ;
         skos:notation          "SDN:G14::005";
         skos:note              "accepted"@en;
-        skos:prefLabel         "solid"@en .
+        skos:prefLabel         "solid"@en ;
+        skos:prefLabel         "solide"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G14/current/003/>
         rdf:type               skos:Concept;
@@ -67,9 +71,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Bounded, 1-dimensional geometric primitive, representing the continuous image of a line"@en;
+        skos:definition        "Primitive géométrique bornée et unidimensionnelle, représentant l'image continue d'une ligne."@fr ;
         skos:notation          "SDN:G14::003";
         skos:note              "accepted"@en;
-        skos:prefLabel         "curve"@en .
+        skos:prefLabel         "curve"@en ;
+        skos:prefLabel         "courbe"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G14/current/001/>
         rdf:type               skos:Concept;
@@ -84,9 +90,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Set of geometric primitives such that their boundaries can be represented as a union of other primitives"@en;
+        skos:definition        "Ensemble de primitives géométriques dont les frontières peuvent être représentées comme une union d'autres primitives."@fr ;
         skos:notation          "SDN:G14::001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "complex"@en .
+        skos:prefLabel         "complex"@en ;
+        skos:prefLabel         "complexe"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G14/current/002/>
         rdf:type               skos:Concept;
@@ -101,9 +109,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Connected set of curves, solids or surfaces"@en;
+        skos:definition        "Ensemble connexe de courbes, de solides ou de surfaces."@fr ;
         skos:notation          "SDN:G14::002";
         skos:note              "accepted"@en;
-        skos:prefLabel         "composite"@en .
+        skos:prefLabel         "composite"@en ;
+        skos:prefLabel         "composite"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G14/current/006/>
         rdf:type               skos:Concept;
@@ -118,9 +128,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Bounded, connected 2-dimensional geometric primitive, representing the continuous image of a region of a plane"@en;
+        skos:definition        "Primitive géométrique bornée et connexe bidimensionnelle, représentant l'image continue d'une région du plan."@fr ;
         skos:notation          "SDN:G14::006";
         skos:note              "accepted"@en;
-        skos:prefLabel         "surface"@en .
+        skos:prefLabel         "surface"@en ;
+        skos:prefLabel         "surface"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G14/current/>
         rdf:type                skos:Collection;
@@ -135,5 +147,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "International Organization for Standardization";
         owl:versionInfo         "1";
         skos:altLabel           "MD_GeometricObjectTypeCode";
+        skos:altLabel           "MD_GeometricObjectTypeCode (code de type d'objet géométrique)"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/G14/current/004/> , <http://vocab.nerc.ac.uk/collection/G14/current/005/> , <http://vocab.nerc.ac.uk/collection/G14/current/003/> , <http://vocab.nerc.ac.uk/collection/G14/current/006/> , <http://vocab.nerc.ac.uk/collection/G14/current/002/> , <http://vocab.nerc.ac.uk/collection/G14/current/001/>;
-        skos:prefLabel          "MD_GeometricObjectTypeCode" .
+        skos:prefLabel          "MD_GeometricObjectTypeCode" ;
+        skos:prefLabel          "MD_GeometricObjectTypeCode (code de type d'objet géométrique)"@fr .

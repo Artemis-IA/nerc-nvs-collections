@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Next corner counterclockwise from the lower right"@en;
+        skos:definition        "Coin suivant en sens antihoraire à partir du coin inférieur droit."@fr ;
         skos:notation          "SDN:G21::004";
         skos:note              "accepted"@en;
-        skos:prefLabel         "upperRight"@en .
+        skos:prefLabel         "upperRight"@en ;
+        skos:prefLabel         "upperRight (coin supérieur droit)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G21/current/002/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "The corner in the pixel closest to the origin of the SRS; if two are at the same distance from the origin, the one with the smallest x-value"@en;
+        skos:definition        "Le coin du pixel le plus proche de l'origine du SRS ; si deux sont à égale distance de l'origine, celui avec la plus petite valeur x."@fr ;
         skos:notation          "SDN:G21::002";
         skos:note              "accepted"@en;
-        skos:prefLabel         "lowerLeft"@en .
+        skos:prefLabel         "lowerLeft"@en ;
+        skos:prefLabel         "lowerLeft (coin inférieur gauche)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G21/current/005/>
         rdf:type               skos:Concept;
@@ -67,9 +71,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Next corner counterclockwise from the upper right"@en;
+        skos:definition        "Coin suivant en sens antihoraire à partir du coin supérieur droit."@fr ;
         skos:notation          "SDN:G21::005";
         skos:note              "accepted"@en;
-        skos:prefLabel         "upperLeft"@en .
+        skos:prefLabel         "upperLeft"@en ;
+        skos:prefLabel         "upperLeft (coin supérieur gauche)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G21/current/003/>
         rdf:type               skos:Concept;
@@ -84,9 +90,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Next corner counterclockwise from the lower left"@en;
+        skos:definition        "Coin suivant en sens antihoraire à partir du coin inférieur gauche."@fr ;
         skos:notation          "SDN:G21::003";
         skos:note              "accepted"@en;
-        skos:prefLabel         "lowerRight"@en .
+        skos:prefLabel         "lowerRight"@en ;
+        skos:prefLabel         "lowerRight (coin inférieur droit)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G21/current/001/>
         rdf:type               skos:Concept;
@@ -101,9 +109,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Point halfway between the lower left and the upper right of the pixel"@en;
+        skos:definition        "Point à mi-chemin entre le coin inférieur gauche et le coin supérieur droit du pixel."@fr ;
         skos:notation          "SDN:G21::001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "center"@en .
+        skos:prefLabel         "center"@en ;
+        skos:prefLabel         "center (centre)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G21/current/>
         rdf:type                skos:Collection;
@@ -118,5 +128,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "International Organization for Standardization";
         owl:versionInfo         "1";
         skos:altLabel           "MD_PixelOrientationCode";
+        skos:altLabel           "MD_PixelOrientationCode (code d'orientation des pixels)"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/G21/current/004/> , <http://vocab.nerc.ac.uk/collection/G21/current/002/> , <http://vocab.nerc.ac.uk/collection/G21/current/001/> , <http://vocab.nerc.ac.uk/collection/G21/current/003/> , <http://vocab.nerc.ac.uk/collection/G21/current/005/>;
-        skos:prefLabel          "MD_PixelOrientationCode" .
+        skos:prefLabel          "MD_PixelOrientationCode" ;
+        skos:prefLabel          "MD_PixelOrientationCode (code d'orientation des pixels)"@fr .

@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Reference to a master dataset of which this one is a part"@en;
+        skos:definition        "Référence à un jeu de données maître dont celui-ci fait partie."@fr ;
         skos:notation          "SDN:G06::002";
         skos:note              "accepted"@en;
-        skos:prefLabel         "largerWorkCitation"@en .
+        skos:prefLabel         "largerWorkCitation"@en ;
+        skos:prefLabel         "largerWorkCitation (référence à l'œuvre englobante)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G06/current/005/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Part of a set of imagery that when used together, provides three-dimensional images"@en;
+        skos:definition        "Partie d'un ensemble d'images qui, utilisé conjointement, fournit des images tridimensionnelles."@fr ;
         skos:notation          "SDN:G06::005";
         skos:note              "accepted"@en;
-        skos:prefLabel         "stereoMate"@en .
+        skos:prefLabel         "stereoMate"@en ;
+        skos:prefLabel         "stereoMate (image stéréoscopique)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G06/current/003/>
         rdf:type               skos:Concept;
@@ -67,9 +71,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Part of the same structured set of data held in a computer"@en;
+        skos:definition        "Partie du même ensemble structuré de données conservé dans un ordinateur."@fr ;
         skos:notation          "SDN:G06::003";
         skos:note              "accepted"@en;
-        skos:prefLabel         "partOfSeamlessDataset"@en .
+        skos:prefLabel         "partOfSeamlessDataset"@en ;
+        skos:prefLabel         "partOfSeamlessDataset (fait partie d'un jeu de données continu)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G06/current/004/>
         rdf:type               skos:Concept;
@@ -84,9 +90,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Mapping and charting information from which the dataset content originates"@en;
+        skos:definition        "Informations de cartographie et de levé topographique dont provient le contenu du jeu de données."@fr ;
         skos:notation          "SDN:G06::004";
         skos:note              "accepted"@en;
-        skos:prefLabel         "source"@en .
+        skos:prefLabel         "source"@en ;
+        skos:prefLabel         "source"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G06/current/001/>
         rdf:type               skos:Concept;
@@ -101,9 +109,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Reference from one dataset to another"@en;
+        skos:definition        "Référence d'un jeu de données à un autre."@fr ;
         skos:notation          "SDN:G06::001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "crossReference"@en .
+        skos:prefLabel         "crossReference"@en ;
+        skos:prefLabel         "crossReference (référence croisée)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G06/current/>
         rdf:type                skos:Collection;
@@ -118,5 +128,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "International Organization for Standardization";
         owl:versionInfo         "1";
         skos:altLabel           "DS_AssociationTypeCode";
+        skos:altLabel           "DS_AssociationTypeCode (code de type d'association de jeu de données)"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/G06/current/002/> , <http://vocab.nerc.ac.uk/collection/G06/current/005/> , <http://vocab.nerc.ac.uk/collection/G06/current/001/> , <http://vocab.nerc.ac.uk/collection/G06/current/004/> , <http://vocab.nerc.ac.uk/collection/G06/current/003/>;
-        skos:prefLabel          "DS_AssociationTypeCode" .
+        skos:prefLabel          "DS_AssociationTypeCode" ;
+        skos:prefLabel          "DS_AssociationTypeCode (code de type d'association de jeu de données)"@fr .

@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "ELECTROCHEM";
+        skos:altLabel          "ELECTROCHEM"@fr ;
         skos:definition        "US company ELECTROCHEM, founded in 1979. https://electrochemsolutions.com/overview/."@en;
+        skos:definition        "Société américaine ELECTROCHEM, fondée en 1979. https://electrochemsolutions.com/overview/."@fr ;
         skos:notation          "SDN:R33::BM00001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "ELECTROCHEM"@en .
+        skos:prefLabel         "ELECTROCHEM"@en ;
+        skos:prefLabel         "ELECTROCHEM"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R33/current/BM00003/>
         rdf:type               skos:Concept;
@@ -49,10 +52,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "SAFT";
+        skos:altLabel          "SAFT"@fr ;
         skos:definition        "French company SAFT, founded in 1918. https://saft.com/en/about-saft/saft-in-brief."@en;
+        skos:definition        "Société française SAFT, fondée en 1918. https://saft.com/en/about-saft/saft-in-brief."@fr ;
         skos:notation          "SDN:R33::BM00003";
         skos:note              "accepted"@en;
-        skos:prefLabel         "SAFT"@en .
+        skos:prefLabel         "SAFT"@en ;
+        skos:prefLabel         "SAFT"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R33/current/BM00002/>
         rdf:type               skos:Concept;
@@ -66,10 +72,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "TADIRAN";
+        skos:altLabel          "TADIRAN"@fr ;
         skos:definition        "US company TADIRAN, founded in 1962. https://tadiranbat.com/."@en;
+        skos:definition        "Société américaine TADIRAN, fondée en 1962. https://tadiranbat.com/."@fr ;
         skos:notation          "SDN:R33::BM00002";
         skos:note              "accepted"@en;
-        skos:prefLabel         "TADIRAN"@en .
+        skos:prefLabel         "TADIRAN"@en ;
+        skos:prefLabel         "TADIRAN"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R33/current/>
         rdf:type                skos:Collection;
@@ -85,5 +94,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Argo Data Management Team";
         owl:versionInfo         "1";
         skos:altLabel           "BATTERY_MAKER";
+        skos:altLabel           "BATTERY_MAKER (fabricant de batteries)"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/R33/current/BM00001/> , <http://vocab.nerc.ac.uk/collection/R33/current/BM00002/> , <http://vocab.nerc.ac.uk/collection/R33/current/BM00003/>;
-        skos:prefLabel          "Argo battery maker" .
+        skos:prefLabel          "Argo battery maker" ;
+        skos:prefLabel          "fabricant de batteries Argo"@fr .

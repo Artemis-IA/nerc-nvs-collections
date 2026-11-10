@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "C";
+        skos:altLabel          "C (pile C)"@fr ;
         skos:definition        "C cell battery."@en;
+        skos:definition        "Batterie pile C."@fr ;
         skos:notation          "SDN:R35::BS00003";
         skos:note              "accepted"@en;
-        skos:prefLabel         "C"@en .
+        skos:prefLabel         "C"@en ;
+        skos:prefLabel         "C (pile C)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R35/current/BS00002/>
         rdf:type               skos:Concept;
@@ -49,10 +52,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "D";
+        skos:altLabel          "D (pile D)"@fr ;
         skos:definition        "D cell battery."@en;
+        skos:definition        "Batterie pile D."@fr ;
         skos:notation          "SDN:R35::BS00002";
         skos:note              "accepted"@en;
-        skos:prefLabel         "D"@en .
+        skos:prefLabel         "D"@en ;
+        skos:prefLabel         "D (pile D)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R35/current/BS00001/>
         rdf:type               skos:Concept;
@@ -66,10 +72,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "DD";
+        skos:altLabel          "DD (pile DD)"@fr ;
         skos:definition        "DD cell battery (larger capacity than D cell battery)."@en;
+        skos:definition        "Batterie pile DD (capacité supérieure à la pile D)."@fr ;
         skos:notation          "SDN:R35::BS00001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "DD"@en .
+        skos:prefLabel         "DD"@en ;
+        skos:prefLabel         "DD (pile DD)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R35/current/>
         rdf:type                skos:Collection;
@@ -85,5 +94,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Argo Data Management Team";
         owl:versionInfo         "1";
         skos:altLabel           "BATTERY_SIZE";
+        skos:altLabel           "BATTERY_SIZE (taille de batterie)"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/R35/current/BS00003/> , <http://vocab.nerc.ac.uk/collection/R35/current/BS00001/> , <http://vocab.nerc.ac.uk/collection/R35/current/BS00002/>;
-        skos:prefLabel          "Argo battery size" .
+        skos:prefLabel          "Argo battery size" ;
+        skos:prefLabel          "taille de batterie Argo"@fr .

@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "series";
+        skos:altLabel          "série"@fr ;
         skos:definition        "A discrete fixed package of data served by BODC"@en;
+        skos:definition        "Un paquet de données discret et fixe servi par BODC."@fr ;
         skos:notation          "SDN:C96::SERIES";
         skos:note              "accepted"@en;
-        skos:prefLabel         "BODC data series"@en .
+        skos:prefLabel         "BODC data series"@en ;
+        skos:prefLabel         "séries de données BODC"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C96/current/STATION/>
         rdf:type               skos:Concept;
@@ -49,10 +52,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "station";
+        skos:altLabel          "station"@fr ;
         skos:definition        "A spatial coverage occupied for a period of time or visited on several occasions for the making of measurements and/or the collection of samples."@en;
+        skos:definition        "Une emprise spatiale occupée pendant une période ou visitée à plusieurs occasions pour effectuer des mesures et/ou collecter des échantillons."@fr ;
         skos:notation          "SDN:C96::STATION";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Fixed station"@en .
+        skos:prefLabel         "Fixed station"@en ;
+        skos:prefLabel         "station fixe"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C96/current/EVENT/>
         rdf:type               skos:Concept;
@@ -66,10 +72,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "event";
+        skos:altLabel          "événement"@fr ;
         skos:definition        "A discrete action during a cruise or other data collection activity that results in data generating measurements or the collection of samples."@en;
+        skos:definition        "Une action discrète au cours d'une campagne ou d'une autre activité de collecte de données qui donne lieu à des mesures générant des données ou à la collecte d'échantillons."@fr ;
         skos:notation          "SDN:C96::EVENT";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Event"@en .
+        skos:prefLabel         "Event"@en ;
+        skos:prefLabel         "événement"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C96/current/CRUISE/>
         rdf:type               skos:Concept;
@@ -83,10 +92,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "cruise";
+        skos:altLabel          "campagne"@fr ;
         skos:definition        "The deployment of a platform between two fixed points on a mission to collect data"@en;
+        skos:definition        "Le déploiement d'une plateforme entre deux points fixes dans le cadre d'une mission de collecte de données."@fr ;
         skos:notation          "SDN:C96::CRUISE";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Cruise"@en .
+        skos:prefLabel         "Cruise"@en ;
+        skos:prefLabel         "campagne"@fr .
 
 <http://vocab.nerc.ac.uk/collection/C96/current/>
         rdf:type                skos:Collection;
@@ -102,5 +114,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "British Oceanographic Data Centre";
         owl:versionInfo         "1";
         skos:altLabel           "BODC spatial objects";
+        skos:altLabel           "objets spatiaux BODC"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/C96/current/SERIES/> , <http://vocab.nerc.ac.uk/collection/C96/current/STATION/> , <http://vocab.nerc.ac.uk/collection/C96/current/CRUISE/> , <http://vocab.nerc.ac.uk/collection/C96/current/EVENT/>;
-        skos:prefLabel          "BODC data model spatial objects" .
+        skos:prefLabel          "BODC data model spatial objects" ;
+        skos:prefLabel          "objets spatiaux du modèle de données BODC"@fr .

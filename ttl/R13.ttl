@@ -33,10 +33,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "I";
+        skos:altLabel          "I (océan Indien)"@fr ;
         skos:definition        "Below 30 degrees south, the Indian/Atlantic oceans boundary is at 20 degrees east, whereas the Indian/Pacific oceans boundary is at 145 degrees east. The Red Sea is part of the Indian ocean area."@en;
+        skos:definition        "Au sud de 30°S, la limite entre les océans Indien et Atlantique est à 20°E, tandis que la limite entre les océans Indien et Pacifique est à 145°E. La mer Rouge fait partie de la zone de l'océan Indien."@fr ;
         skos:notation          "SDN:R13::I";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Indian ocean area"@en .
+        skos:prefLabel         "Indian ocean area"@en ;
+        skos:prefLabel         "zone océan Indien"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R13/current/A/>
         rdf:type               skos:Concept;
@@ -51,10 +54,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "A";
+        skos:altLabel          "A (océan Atlantique)"@fr ;
         skos:definition        "Below 30 degrees south, the Atlantic/Pacific oceans boundary is at 70 degrees west, whereas the Atlantic/Indian oceans boundary is at 20 degrees east. The Caribbean Sea, the Mexico Gulf, the Mediterranean Sea, the Black Sea, the Baltic Sea, the Labrador Sea, the Baffin Bay and the Nordic seas (Greenland, Norwegian, Barents and Kara seas) are part of the Atlantic ocean area."@en;
+        skos:definition        "Au sud de 30°S, la limite entre les océans Atlantique et Pacifique est à 70°O, tandis que la limite entre les océans Atlantique et Indien est à 20°E. La mer des Caraïbes, le golfe du Mexique, la mer Méditerranée, la mer Noire, la mer Baltique, la mer du Labrador, la baie de Baffin et les mers nordiques (mers du Groenland, de Norvège, de Barents et de Kara) font partie de la zone de l'océan Atlantique."@fr ;
         skos:notation          "SDN:R13::A";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Atlantic ocean area"@en .
+        skos:prefLabel         "Atlantic ocean area"@en ;
+        skos:prefLabel         "zone océan Atlantique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R13/current/P/>
         rdf:type               skos:Concept;
@@ -69,10 +75,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "2";
         skos:altLabel          "P";
+        skos:altLabel          "P (océan Pacifique)"@fr ;
         skos:definition        "Below 30 degrees south, the Pacific/Indian oceans boundary is at 145 degrees east, whereas the Pacific/Atlantic oceans boundary is at 70 degrees west. The South China Sea, the Indonesian seas, the Laptev, Beaufort, East Siberian and Chukchi seas are part of the Pacific ocean area."@en;
+        skos:definition        "Au sud de 30°S, la limite entre les océans Pacifique et Indien est à 145°E, tandis que la limite entre les océans Pacifique et Atlantique est à 70°O. La mer de Chine méridionale, les mers indonésiennes, les mers de Laptev, de Beaufort, de Sibérie orientale et des Tchouktches font partie de la zone de l'océan Pacifique."@fr ;
         skos:notation          "SDN:R13::P";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Pacific ocean area"@en .
+        skos:prefLabel         "Pacific ocean area"@en ;
+        skos:prefLabel         "zone océan Pacifique"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R13/current/>
         rdf:type                skos:Collection;
@@ -88,5 +97,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Argo Data Management Team";
         owl:versionInfo         "2";
         skos:altLabel           "OCEAN_CODE";
+        skos:altLabel           "OCEAN_CODE (code de zone océanique)"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/R13/current/I/> , <http://vocab.nerc.ac.uk/collection/R13/current/P/> , <http://vocab.nerc.ac.uk/collection/R13/current/A/>;
-        skos:prefLabel          "Argo ocean area codes and boundary definitions" .
+        skos:prefLabel          "Argo ocean area codes and boundary definitions" ;
+        skos:prefLabel          "codes de zone océanique et définitions des limites Argo"@fr .

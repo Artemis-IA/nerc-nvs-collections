@@ -33,9 +33,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Not for general disclosure"@en;
+        skos:definition        "Non destiné à la divulgation générale."@fr ;
         skos:notation          "SDN:G10::002";
         skos:note              "accepted"@en;
-        skos:prefLabel         "restricted"@en .
+        skos:prefLabel         "restricted"@en ;
+        skos:prefLabel         "restreint"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G10/current/003/>
         rdf:type               skos:Concept;
@@ -50,9 +52,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Available for someone who can be entrusted with information"@en;
+        skos:definition        "Disponible pour une personne à qui l'on peut confier des informations."@fr ;
         skos:notation          "SDN:G10::003";
         skos:note              "accepted"@en;
-        skos:prefLabel         "confidential"@en .
+        skos:prefLabel         "confidential"@en ;
+        skos:prefLabel         "confidentiel"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G10/current/001/>
         rdf:type               skos:Concept;
@@ -67,9 +71,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Available for general disclosure"@en;
+        skos:definition        "Disponible pour divulgation générale."@fr ;
         skos:notation          "SDN:G10::001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "unclassified"@en .
+        skos:prefLabel         "unclassified"@en ;
+        skos:prefLabel         "non classifié"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G10/current/005/>
         rdf:type               skos:Concept;
@@ -84,9 +90,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Of the highest secrecy"@en;
+        skos:definition        "Du plus haut niveau de secret."@fr ;
         skos:notation          "SDN:G10::005";
         skos:note              "accepted"@en;
-        skos:prefLabel         "topSecret"@en .
+        skos:prefLabel         "topSecret"@en ;
+        skos:prefLabel         "secret absolu (topSecret)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G10/current/004/>
         rdf:type               skos:Concept;
@@ -101,9 +109,11 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:versionInfo        "1";
         skos:altLabel          "";
         skos:definition        "Kept or meant to be kept private, unknown, or hidden from all but a select group of people"@en;
+        skos:definition        "Gardé ou destiné à être gardé privé, inconnu ou caché à tous sauf à un groupe restreint de personnes."@fr ;
         skos:notation          "SDN:G10::004";
         skos:note              "accepted"@en;
-        skos:prefLabel         "secret"@en .
+        skos:prefLabel         "secret"@en ;
+        skos:prefLabel         "secret"@fr .
 
 <http://vocab.nerc.ac.uk/collection/G10/current/>
         rdf:type                skos:Collection;
@@ -118,5 +128,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "International Organization for Standardization";
         owl:versionInfo         "1";
         skos:altLabel           "MD_ClassificationCode";
+        skos:altLabel           "MD_ClassificationCode (code de classification)"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/G10/current/002/> , <http://vocab.nerc.ac.uk/collection/G10/current/003/> , <http://vocab.nerc.ac.uk/collection/G10/current/004/> , <http://vocab.nerc.ac.uk/collection/G10/current/005/> , <http://vocab.nerc.ac.uk/collection/G10/current/001/>;
-        skos:prefLabel          "MD_ClassificationCode" .
+        skos:prefLabel          "MD_ClassificationCode" ;
+        skos:prefLabel          "MD_ClassificationCode (code de classification)"@fr .

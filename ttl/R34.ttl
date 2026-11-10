@@ -32,10 +32,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Hybrid";
+        skos:altLabel          "hybride"@fr ;
         skos:definition        "Hybrid (alkaline and lithium) batteries."@en;
+        skos:definition        "Batteries hybrides (alcalines et lithium)."@fr ;
         skos:notation          "SDN:R34::BT00003";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Hyb"@en .
+        skos:prefLabel         "Hyb"@en ;
+        skos:prefLabel         "Hyb (hybride)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R34/current/BT00002/>
         rdf:type               skos:Concept;
@@ -49,10 +52,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Lithium";
+        skos:altLabel          "lithium"@fr ;
         skos:definition        "Lithium battery."@en;
+        skos:definition        "Batterie lithium."@fr ;
         skos:notation          "SDN:R34::BT00002";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Li"@en .
+        skos:prefLabel         "Li"@en ;
+        skos:prefLabel         "Li (lithium)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R34/current/BT00001/>
         rdf:type               skos:Concept;
@@ -66,10 +72,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         owl:deprecated         "false";
         owl:versionInfo        "1";
         skos:altLabel          "Alkaline";
+        skos:altLabel          "alcaline"@fr ;
         skos:definition        "Alkaline battery."@en;
+        skos:definition        "Batterie alcaline."@fr ;
         skos:notation          "SDN:R34::BT00001";
         skos:note              "accepted"@en;
-        skos:prefLabel         "Alk"@en .
+        skos:prefLabel         "Alk"@en ;
+        skos:prefLabel         "Alk (alcaline)"@fr .
 
 <http://vocab.nerc.ac.uk/collection/R34/current/>
         rdf:type                skos:Collection;
@@ -85,5 +94,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Argo Data Management Team";
         owl:versionInfo         "1";
         skos:altLabel           "BATTERY_TYPE";
+        skos:altLabel           "BATTERY_TYPE (type de batterie)"@fr ;
         skos:member             <http://vocab.nerc.ac.uk/collection/R34/current/BT00003/> , <http://vocab.nerc.ac.uk/collection/R34/current/BT00001/> , <http://vocab.nerc.ac.uk/collection/R34/current/BT00002/>;
-        skos:prefLabel          "Argo battery type" .
+        skos:prefLabel          "Argo battery type" ;
+        skos:prefLabel          "type de batterie Argo"@fr .
