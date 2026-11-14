@@ -359,6 +359,85 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:note              "accepted"@en;
         skos:prefLabel         "Internal temperature of the conductivity cell"@en .
 
+<http://vocab.nerc.ac.uk/collection/R03/current/VK_PH/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R03::VK_PH";
+        dc:date                "2025-11-25 10:14:01.0";
+        dc:identifier          "SDN:R03::VK_PH";
+        pav:authoredOn         "2025-11-25 10:14:01.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R03/current/VK_PH/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R03/current/VK_PH/2/> , <http://vocab.nerc.ac.uk/collection/R03/current/VK_PH/1/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "VK_PH";
+        skos:definition        "Counter electrode signal from pH sensor. Local_Attributes:{long_name:Counter electrode voltage of pH sensor; standard_name:-; units:volt; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:notation          "SDN:R03::VK_PH";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Counter electrode voltage of pH sensor"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UVLT/> .
+
+<http://vocab.nerc.ac.uk/collection/R03/current/TEMP_VOLTAGE_DOXY/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R03::TEMP_VOLTAGE_DOXY";
+        dc:date                "2025-11-25 10:14:02.0";
+        dc:identifier          "SDN:R03::TEMP_VOLTAGE_DOXY";
+        pav:authoredOn         "2025-11-25 10:14:02.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_VOLTAGE_DOXY/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_VOLTAGE_DOXY/3/> , <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_VOLTAGE_DOXY/1/> , <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_VOLTAGE_DOXY/2/>;
+        pav:version            "4";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/TCNTOPTT/>;
+        owl:versionInfo        "4";
+        skos:altLabel          "TEMP_VOLTAGE_DOXY";
+        skos:definition        "Raw temperature signal (voltage) from the thermistor of dissolved oxygen sensor, reported by the SBE63 sensor. Local_Attributes:{long_name:Thermistor voltage reported by oxygen sensor; standard_name:-; units:volt; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:notation          "SDN:R03::TEMP_VOLTAGE_DOXY";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Thermistor voltage reported by oxygen sensor"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UVLT/> .
+
+<http://vocab.nerc.ac.uk/collection/R03/current/VOLTAGE_DOXY/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R03::VOLTAGE_DOXY";
+        dc:date                "2025-11-25 10:14:01.0";
+        dc:identifier          "SDN:R03::VOLTAGE_DOXY";
+        pav:authoredOn         "2025-11-25 10:14:01.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R03/current/VOLTAGE_DOXY/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R03/current/VOLTAGE_DOXY/1/> , <http://vocab.nerc.ac.uk/collection/R03/current/VOLTAGE_DOXY/2/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/OXYOCPVL/>;
+        owl:versionInfo        "3";
+        skos:altLabel          "VOLTAGE_DOXY";
+        skos:definition        "Raw output signal from dissolved oxygen sensor. Local_Attributes:{long_name:Voltage reported by oxygen sensor; standard_name:-; units:volt; valid_min:0.f; valid_max:100.f; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:notation          "SDN:R03::VOLTAGE_DOXY";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Voltage reported by oxygen sensor"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UVLT/> .
+
+<http://vocab.nerc.ac.uk/collection/R03/current/VRS_PH/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R03::VRS_PH";
+        dc:date                "2025-11-25 10:14:01.0";
+        dc:identifier          "SDN:R03::VRS_PH";
+        pav:authoredOn         "2025-11-25 10:14:01.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R03/current/VRS_PH/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R03/current/VRS_PH/1/> , <http://vocab.nerc.ac.uk/collection/R03/current/VRS_PH/2/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/PVLTGC01/>;
+        owl:versionInfo        "3";
+        skos:altLabel          "VRS_PH";
+        skos:definition        "Raw output signal from pH sensor, equating to the potential between the transistor source and the reference electrode. Local_Attributes:{long_name:Voltage difference between reference and source from pH sensor; standard_name:-; units:volt; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
+        skos:notation          "SDN:R03::VRS_PH";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "Voltage difference between reference and source from pH sensor"@en;
+        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UVLT/> .
+
 <http://vocab.nerc.ac.uk/collection/R03/current/PH_IN_SITU_FREE/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R03::PH_IN_SITU_FREE";
@@ -438,85 +517,6 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:note              "accepted"@en;
         skos:prefLabel         "Downwelling photosynthetic available radiation"@en;
         skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UMES/> .
-
-<http://vocab.nerc.ac.uk/collection/R03/current/TEMP_VOLTAGE_DOXY/>
-        rdf:type               skos:Concept;
-        dce:identifier         "SDN:R03::TEMP_VOLTAGE_DOXY";
-        dc:date                "2025-11-25 10:14:02.0";
-        dc:identifier          "SDN:R03::TEMP_VOLTAGE_DOXY";
-        pav:authoredOn         "2025-11-25 10:14:02.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_VOLTAGE_DOXY/4/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_VOLTAGE_DOXY/3/> , <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_VOLTAGE_DOXY/1/> , <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_VOLTAGE_DOXY/2/>;
-        pav:version            "4";
-        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
-        owl:deprecated         "false";
-        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/TCNTOPTT/>;
-        owl:versionInfo        "4";
-        skos:altLabel          "TEMP_VOLTAGE_DOXY";
-        skos:definition        "Raw temperature signal (voltage) from the thermistor of dissolved oxygen sensor, reported by the SBE63 sensor. Local_Attributes:{long_name:Thermistor voltage reported by oxygen sensor; standard_name:-; units:volt; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
-        skos:notation          "SDN:R03::TEMP_VOLTAGE_DOXY";
-        skos:note              "accepted"@en;
-        skos:prefLabel         "Thermistor voltage reported by oxygen sensor"@en;
-        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UVLT/> .
-
-<http://vocab.nerc.ac.uk/collection/R03/current/VRS_PH/>
-        rdf:type               skos:Concept;
-        dce:identifier         "SDN:R03::VRS_PH";
-        dc:date                "2025-11-25 10:14:01.0";
-        dc:identifier          "SDN:R03::VRS_PH";
-        pav:authoredOn         "2025-11-25 10:14:01.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R03/current/VRS_PH/3/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R03/current/VRS_PH/1/> , <http://vocab.nerc.ac.uk/collection/R03/current/VRS_PH/2/>;
-        pav:version            "3";
-        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
-        owl:deprecated         "false";
-        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/PVLTGC01/>;
-        owl:versionInfo        "3";
-        skos:altLabel          "VRS_PH";
-        skos:definition        "Raw output signal from pH sensor, equating to the potential between the transistor source and the reference electrode. Local_Attributes:{long_name:Voltage difference between reference and source from pH sensor; standard_name:-; units:volt; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
-        skos:notation          "SDN:R03::VRS_PH";
-        skos:note              "accepted"@en;
-        skos:prefLabel         "Voltage difference between reference and source from pH sensor"@en;
-        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UVLT/> .
-
-<http://vocab.nerc.ac.uk/collection/R03/current/VK_PH/>
-        rdf:type               skos:Concept;
-        dce:identifier         "SDN:R03::VK_PH";
-        dc:date                "2025-11-25 10:14:01.0";
-        dc:identifier          "SDN:R03::VK_PH";
-        pav:authoredOn         "2025-11-25 10:14:01.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R03/current/VK_PH/3/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R03/current/VK_PH/2/> , <http://vocab.nerc.ac.uk/collection/R03/current/VK_PH/1/>;
-        pav:version            "3";
-        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
-        owl:deprecated         "false";
-        owl:versionInfo        "3";
-        skos:altLabel          "VK_PH";
-        skos:definition        "Counter electrode signal from pH sensor. Local_Attributes:{long_name:Counter electrode voltage of pH sensor; standard_name:-; units:volt; valid_min:-; valid_max:-; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
-        skos:notation          "SDN:R03::VK_PH";
-        skos:note              "accepted"@en;
-        skos:prefLabel         "Counter electrode voltage of pH sensor"@en;
-        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UVLT/> .
-
-<http://vocab.nerc.ac.uk/collection/R03/current/VOLTAGE_DOXY/>
-        rdf:type               skos:Concept;
-        dce:identifier         "SDN:R03::VOLTAGE_DOXY";
-        dc:date                "2025-11-25 10:14:01.0";
-        dc:identifier          "SDN:R03::VOLTAGE_DOXY";
-        pav:authoredOn         "2025-11-25 10:14:01.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R03/current/VOLTAGE_DOXY/3/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R03/current/VOLTAGE_DOXY/1/> , <http://vocab.nerc.ac.uk/collection/R03/current/VOLTAGE_DOXY/2/>;
-        pav:version            "3";
-        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
-        owl:deprecated         "false";
-        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/OXYOCPVL/>;
-        owl:versionInfo        "3";
-        skos:altLabel          "VOLTAGE_DOXY";
-        skos:definition        "Raw output signal from dissolved oxygen sensor. Local_Attributes:{long_name:Voltage reported by oxygen sensor; standard_name:-; units:volt; valid_min:0.f; valid_max:100.f; fill_value:99999.f}. Properties:{category:ib; data_type:float}"@en;
-        skos:notation          "SDN:R03::VOLTAGE_DOXY";
-        skos:note              "accepted"@en;
-        skos:prefLabel         "Voltage reported by oxygen sensor"@en;
-        skos:related           <http://vocab.nerc.ac.uk/collection/P06/current/UVLT/> .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/IK_PH/>
         rdf:type               skos:Concept;
@@ -2074,5 +2074,5 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         grg:RE_RegisterOwner    "Argo Data Management Team";
         owl:versionInfo         "17";
         skos:altLabel           "PARAMETER";
-        skos:member             <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_DURAFET/> , <http://vocab.nerc.ac.uk/collection/R03/current/DOWN_IRRADIANCE665/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_IRRADIANCE665/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_OCR/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_ISUS/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_STM/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_SFET/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_OPTODE/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_CTD/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_IRRADIANCE670/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_MCOMS/> , <http://vocab.nerc.ac.uk/collection/R03/current/DOWN_IRRADIANCE670/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_SUNA/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_ECO/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_CROVER/> , <http://vocab.nerc.ac.uk/collection/R03/current/CHLA_FLUORESCENCE/> , <http://vocab.nerc.ac.uk/collection/R03/current/BDOWN_IRRADIANCE665/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_CYC/> , <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_CNDC/> , <http://vocab.nerc.ac.uk/collection/R03/current/PH_IN_SITU_FREE/> , <http://vocab.nerc.ac.uk/collection/R03/current/PH_IN_SITU_TOTAL/> , <http://vocab.nerc.ac.uk/collection/R03/current/PH_IN_SITU_SEAWATER/> , <http://vocab.nerc.ac.uk/collection/R03/current/DOWNWELLING_PAR/> , <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_VOLTAGE_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/VRS_PH/> , <http://vocab.nerc.ac.uk/collection/R03/current/VK_PH/> , <http://vocab.nerc.ac.uk/collection/R03/current/VOLTAGE_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/IK_PH/> , <http://vocab.nerc.ac.uk/collection/R03/current/IB_PH/> , <http://vocab.nerc.ac.uk/collection/R03/current/PHASE_DELAY_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/PPOX_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/PRES/> , <http://vocab.nerc.ac.uk/collection/R03/current/CNDC/> , <http://vocab.nerc.ac.uk/collection/R03/current/MTIME/> , <http://vocab.nerc.ac.uk/collection/R03/current/CP660/> , <http://vocab.nerc.ac.uk/collection/R03/current/CP/> , <http://vocab.nerc.ac.uk/collection/R03/current/UP_RADIANCE555/> , <http://vocab.nerc.ac.uk/collection/R03/current/UP_RADIANCE/> , <http://vocab.nerc.ac.uk/collection/R03/current/UP_RADIANCE443/> , <http://vocab.nerc.ac.uk/collection/R03/current/UP_RADIANCE412/> , <http://vocab.nerc.ac.uk/collection/R03/current/UP_RADIANCE490/> , <http://vocab.nerc.ac.uk/collection/R03/current/CDOM/> , <http://vocab.nerc.ac.uk/collection/R03/current/DOWN_IRRADIANCE/> , <http://vocab.nerc.ac.uk/collection/R03/current/DOWN_IRRADIANCE412/> , <http://vocab.nerc.ac.uk/collection/R03/current/DOWN_IRRADIANCE490/> , <http://vocab.nerc.ac.uk/collection/R03/current/DOWN_IRRADIANCE443/> , <http://vocab.nerc.ac.uk/collection/R03/current/DOWN_IRRADIANCE380/> , <http://vocab.nerc.ac.uk/collection/R03/current/DOWN_IRRADIANCE555/> , <http://vocab.nerc.ac.uk/collection/R03/current/FREQUENCY_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/BBP700/> , <http://vocab.nerc.ac.uk/collection/R03/current/BBP/> , <http://vocab.nerc.ac.uk/collection/R03/current/BBP532/> , <http://vocab.nerc.ac.uk/collection/R03/current/BBP470/> , <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_SPECTROPHOTOMETER_NITRATE/> , <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_PH/> , <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_NITRATE/> , <http://vocab.nerc.ac.uk/collection/R03/current/HUMIDITY_NITRATE/> , <http://vocab.nerc.ac.uk/collection/R03/current/C1PHASE_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/TPHASE_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/TILT/> , <http://vocab.nerc.ac.uk/collection/R03/current/C2PHASE_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/RPHASE_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/BPHASE_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/DPHASE_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/MOLAR_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/MOLAR_NITRATE/> , <http://vocab.nerc.ac.uk/collection/R03/current/BETA_BACKSCATTERING700/> , <http://vocab.nerc.ac.uk/collection/R03/current/BETA_BACKSCATTERING470/> , <http://vocab.nerc.ac.uk/collection/R03/current/SIDE_SCATTERING_TURBIDITY/> , <http://vocab.nerc.ac.uk/collection/R03/current/PSAL/> , <http://vocab.nerc.ac.uk/collection/R03/current/TRANSMITTANCE_PARTICLE_BEAM_ATTENUATION/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_UPWELLING_RADIANCE412/> , <http://vocab.nerc.ac.uk/collection/R03/current/COUNT_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_IRRADIANCE490/> , <http://vocab.nerc.ac.uk/collection/R03/current/TRANSMITTANCE_PARTICLE_BEAM_ATTENUATION660/> , <http://vocab.nerc.ac.uk/collection/R03/current/UV_INTENSITY_DARK_NITRATE/> , <http://vocab.nerc.ac.uk/collection/R03/current/LED_FLASHING_COUNT_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/UV_INTENSITY_NITRATE/> , <http://vocab.nerc.ac.uk/collection/R03/current/FLUORESCENCE_CDOM/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_UPWELLING_RADIANCE555/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_IRRADIANCE380/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_IRRADIANCE412/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_IRRADIANCE/> , <http://vocab.nerc.ac.uk/collection/R03/current/BETA_BACKSCATTERING/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_UPWELLING_RADIANCE/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_UPWELLING_RADIANCE443/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_IRRADIANCE443/> , <http://vocab.nerc.ac.uk/collection/R03/current/UV_INTENSITY_DARK_SEAWATER_NITRATE/> , <http://vocab.nerc.ac.uk/collection/R03/current/FLUORESCENCE_CHLA/> , <http://vocab.nerc.ac.uk/collection/R03/current/FIT_ERROR_NITRATE/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_PAR/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_IRRADIANCE555/> , <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_COUNT_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_UPWELLING_RADIANCE490/> , <http://vocab.nerc.ac.uk/collection/R03/current/BETA_BACKSCATTERING532/> , <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_CPU_CHLA/> , <http://vocab.nerc.ac.uk/collection/R03/current/DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/NITRATE/> , <http://vocab.nerc.ac.uk/collection/R03/current/BISULFIDE/> , <http://vocab.nerc.ac.uk/collection/R03/current/MLPL_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/TURBIDITY/> , <http://vocab.nerc.ac.uk/collection/R03/current/TEMP/> , <http://vocab.nerc.ac.uk/collection/R03/current/CHLA/>;
+        skos:member             <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_DURAFET/> , <http://vocab.nerc.ac.uk/collection/R03/current/DOWN_IRRADIANCE665/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_IRRADIANCE665/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_OCR/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_ISUS/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_STM/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_SFET/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_OPTODE/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_CTD/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_IRRADIANCE670/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_MCOMS/> , <http://vocab.nerc.ac.uk/collection/R03/current/DOWN_IRRADIANCE670/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_SUNA/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_ECO/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_CROVER/> , <http://vocab.nerc.ac.uk/collection/R03/current/CHLA_FLUORESCENCE/> , <http://vocab.nerc.ac.uk/collection/R03/current/BDOWN_IRRADIANCE665/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE_CYC/> , <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_CNDC/> , <http://vocab.nerc.ac.uk/collection/R03/current/VK_PH/> , <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_VOLTAGE_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/VOLTAGE_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/VRS_PH/> , <http://vocab.nerc.ac.uk/collection/R03/current/PH_IN_SITU_FREE/> , <http://vocab.nerc.ac.uk/collection/R03/current/PH_IN_SITU_TOTAL/> , <http://vocab.nerc.ac.uk/collection/R03/current/PH_IN_SITU_SEAWATER/> , <http://vocab.nerc.ac.uk/collection/R03/current/DOWNWELLING_PAR/> , <http://vocab.nerc.ac.uk/collection/R03/current/IK_PH/> , <http://vocab.nerc.ac.uk/collection/R03/current/IB_PH/> , <http://vocab.nerc.ac.uk/collection/R03/current/PHASE_DELAY_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/PPOX_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/PRES/> , <http://vocab.nerc.ac.uk/collection/R03/current/CNDC/> , <http://vocab.nerc.ac.uk/collection/R03/current/MTIME/> , <http://vocab.nerc.ac.uk/collection/R03/current/CP660/> , <http://vocab.nerc.ac.uk/collection/R03/current/CP/> , <http://vocab.nerc.ac.uk/collection/R03/current/UP_RADIANCE555/> , <http://vocab.nerc.ac.uk/collection/R03/current/UP_RADIANCE/> , <http://vocab.nerc.ac.uk/collection/R03/current/UP_RADIANCE443/> , <http://vocab.nerc.ac.uk/collection/R03/current/UP_RADIANCE412/> , <http://vocab.nerc.ac.uk/collection/R03/current/UP_RADIANCE490/> , <http://vocab.nerc.ac.uk/collection/R03/current/CDOM/> , <http://vocab.nerc.ac.uk/collection/R03/current/DOWN_IRRADIANCE/> , <http://vocab.nerc.ac.uk/collection/R03/current/DOWN_IRRADIANCE412/> , <http://vocab.nerc.ac.uk/collection/R03/current/DOWN_IRRADIANCE490/> , <http://vocab.nerc.ac.uk/collection/R03/current/DOWN_IRRADIANCE443/> , <http://vocab.nerc.ac.uk/collection/R03/current/DOWN_IRRADIANCE380/> , <http://vocab.nerc.ac.uk/collection/R03/current/DOWN_IRRADIANCE555/> , <http://vocab.nerc.ac.uk/collection/R03/current/FREQUENCY_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/BBP700/> , <http://vocab.nerc.ac.uk/collection/R03/current/BBP/> , <http://vocab.nerc.ac.uk/collection/R03/current/BBP532/> , <http://vocab.nerc.ac.uk/collection/R03/current/BBP470/> , <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_SPECTROPHOTOMETER_NITRATE/> , <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_PH/> , <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_NITRATE/> , <http://vocab.nerc.ac.uk/collection/R03/current/HUMIDITY_NITRATE/> , <http://vocab.nerc.ac.uk/collection/R03/current/C1PHASE_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/TPHASE_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/TILT/> , <http://vocab.nerc.ac.uk/collection/R03/current/C2PHASE_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/RPHASE_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/BPHASE_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/DPHASE_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/MOLAR_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/MOLAR_NITRATE/> , <http://vocab.nerc.ac.uk/collection/R03/current/BETA_BACKSCATTERING700/> , <http://vocab.nerc.ac.uk/collection/R03/current/BETA_BACKSCATTERING470/> , <http://vocab.nerc.ac.uk/collection/R03/current/SIDE_SCATTERING_TURBIDITY/> , <http://vocab.nerc.ac.uk/collection/R03/current/PSAL/> , <http://vocab.nerc.ac.uk/collection/R03/current/TRANSMITTANCE_PARTICLE_BEAM_ATTENUATION/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_UPWELLING_RADIANCE412/> , <http://vocab.nerc.ac.uk/collection/R03/current/COUNT_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_IRRADIANCE490/> , <http://vocab.nerc.ac.uk/collection/R03/current/TRANSMITTANCE_PARTICLE_BEAM_ATTENUATION660/> , <http://vocab.nerc.ac.uk/collection/R03/current/UV_INTENSITY_DARK_NITRATE/> , <http://vocab.nerc.ac.uk/collection/R03/current/LED_FLASHING_COUNT_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/UV_INTENSITY_NITRATE/> , <http://vocab.nerc.ac.uk/collection/R03/current/FLUORESCENCE_CDOM/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_UPWELLING_RADIANCE555/> , <http://vocab.nerc.ac.uk/collection/R03/current/NB_SAMPLE/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_IRRADIANCE380/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_IRRADIANCE412/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_IRRADIANCE/> , <http://vocab.nerc.ac.uk/collection/R03/current/BETA_BACKSCATTERING/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_UPWELLING_RADIANCE/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_UPWELLING_RADIANCE443/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_IRRADIANCE443/> , <http://vocab.nerc.ac.uk/collection/R03/current/UV_INTENSITY_DARK_SEAWATER_NITRATE/> , <http://vocab.nerc.ac.uk/collection/R03/current/FLUORESCENCE_CHLA/> , <http://vocab.nerc.ac.uk/collection/R03/current/FIT_ERROR_NITRATE/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_PAR/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_DOWNWELLING_IRRADIANCE555/> , <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_COUNT_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/RAW_UPWELLING_RADIANCE490/> , <http://vocab.nerc.ac.uk/collection/R03/current/BETA_BACKSCATTERING532/> , <http://vocab.nerc.ac.uk/collection/R03/current/TEMP_CPU_CHLA/> , <http://vocab.nerc.ac.uk/collection/R03/current/DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/NITRATE/> , <http://vocab.nerc.ac.uk/collection/R03/current/BISULFIDE/> , <http://vocab.nerc.ac.uk/collection/R03/current/MLPL_DOXY/> , <http://vocab.nerc.ac.uk/collection/R03/current/TURBIDITY/> , <http://vocab.nerc.ac.uk/collection/R03/current/TEMP/> , <http://vocab.nerc.ac.uk/collection/R03/current/CHLA/>;
         skos:prefLabel          "Argo parameter codes" .
