@@ -14,7 +14,7 @@
     dcterms:conformsTo <https://w3id.org/env/puv>,
         <https://w3id.org/iadopt/ont> ;
     dcterms:creator "British Oceanographic Data Centre" ;
-    dcterms:date "2026-11-07 02:00:01.0" ;
+    dcterms:date "2026-11-17 02:00:00.0" ;
     dcterms:description "Terms built using the BODC parameter semantic model designed to describe individual measured phenomena. May be used to mark up sets of data such as a NetCDF array or spreadsheet column. Units must be specified when using a P01 code. The P06 unit that is linked to individual P01 in the NVS is the one used in BODC's systems but external users can use any appropriate units." ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:publisher "Natural Environment Research Council" ;
@@ -23,7 +23,7 @@
     grg:RE_RegisterOwner "British Oceanographic Data Centre" ;
     rdfs:comment "Governance for vocabularies used within the data centre" ;
     rdfs:seeAlso <https://github.com/nvs-vocabs/P01> ;
-    owl:versionInfo "1388" ;
+    owl:versionInfo "1389" ;
     skos:altLabel "BODC PUV" ;
     skos:member <http://vocab.nerc.ac.uk/collection/P01/current/1IPSWF45/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/2IPSWF45/>,
@@ -24777,6 +24777,8 @@
         <http://vocab.nerc.ac.uk/collection/P01/current/IDCNICXT/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/IDCPRIP5/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/IDGLPH01/>,
+        <http://vocab.nerc.ac.uk/collection/P01/current/IDGPHC01/>,
+        <http://vocab.nerc.ac.uk/collection/P01/current/IDGPHR01/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/IDIA27XX/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/IDNOAROR/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/IDNOOPCS/>,
@@ -642423,6 +642425,48 @@
     skos:prefLabel "Identifier of glider phase by classification to a term from the Everyone's Gliding Observatories (EGO) format reference list (https://doi.org/10.13155/34980)"@en ;
     skos:related <http://vocab.nerc.ac.uk/collection/P06/current/XXXX/>,
         <http://vocab.nerc.ac.uk/collection/S05/current/S050238/> .
+
+<http://vocab.nerc.ac.uk/collection/P01/current/IDGPHC01/> rdf:type skos:Concept ;
+    dc:identifier "SDN:P01::IDGPHC01" ;
+    dcterms:date "2026-11-16 12:38:09.0" ;
+    dcterms:identifier "SDN:P01::IDGPHC01" ;
+    pav:authoredOn "2026-11-16 12:38:09.0" ;
+    pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/P01/current/IDGPHC01/1/> ;
+    pav:version "1" ;
+    void:inDataset <http://vocab.nerc.ac.uk/.well-known/void> ;
+    owl:deprecated "false" ;
+    owl:versionInfo "1" ;
+    skos:altLabel "ID_cmd_glider_phase_OG" ;
+    skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/TMES/>,
+        <http://vocab.nerc.ac.uk/collection/S06/current/S0600156/>,
+        <http://vocab.nerc.ac.uk/collection/S29/current/PE001599/> ;
+    skos:definition "Derived from the glider's engineering state, commanded glider phase reflects the commanded glider behaviour. Accepted values range from 0 - 5, with the definitions available at: https://github.com/OceanGlidersCommunity/OG-format-user-manual/blob/main/vocabularyCollection/phase_translation_tables.md."@en ;
+    skos:notation "SDN:P01::IDGPHC01" ;
+    skos:note "accepted"@en ;
+    skos:prefLabel "Identifier of glider phase (commanded) by classification to a term from the OceanGliders Community format reference list"@en ;
+    skos:related <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/>,
+        <http://vocab.nerc.ac.uk/collection/S05/current/S050300/> .
+
+<http://vocab.nerc.ac.uk/collection/P01/current/IDGPHR01/> rdf:type skos:Concept ;
+    dc:identifier "SDN:P01::IDGPHR01" ;
+    dcterms:date "2026-11-16 12:38:09.0" ;
+    dcterms:identifier "SDN:P01::IDGPHR01" ;
+    pav:authoredOn "2026-11-16 12:38:09.0" ;
+    pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/P01/current/IDGPHR01/1/> ;
+    pav:version "1" ;
+    void:inDataset <http://vocab.nerc.ac.uk/.well-known/void> ;
+    owl:deprecated "false" ;
+    owl:versionInfo "1" ;
+    skos:altLabel "ID_rlsd_glider_phase_OG" ;
+    skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/TMES/>,
+        <http://vocab.nerc.ac.uk/collection/S06/current/S0600156/>,
+        <http://vocab.nerc.ac.uk/collection/S29/current/PE001600/> ;
+    skos:definition "The observed glider phase derived from measured science variables, as opposed to the glider's commanded phase. Accepted values range from 0 - 5, with the definitions available at: https://github.com/OceanGlidersCommunity/OG-format-user-manual/blob/main/vocabularyCollection/phase_translation_tables.md."@en ;
+    skos:notation "SDN:P01::IDGPHR01" ;
+    skos:note "accepted"@en ;
+    skos:prefLabel "Identifier of glider phase (realised) by classification to a term from the OceanGliders Community format reference list"@en ;
+    skos:related <http://vocab.nerc.ac.uk/collection/P06/current/UUUU/>,
+        <http://vocab.nerc.ac.uk/collection/S05/current/S050300/> .
 
 <http://vocab.nerc.ac.uk/collection/P01/current/IDIA27XX/> rdf:type skos:Concept ;
     dc:identifier "SDN:P01::IDIA27XX" ;
