@@ -241,6 +241,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         pav:version            "3";
         void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
         owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/SQPLPR01/>;
         owl:versionInfo        "3";
         skos:altLabel          "PROFILE_NUMBER";
         skos:definition        "Uniquely identifies each ascending and descending profile of a glider dataset. PROFILE_NUMBER increments by 1 each time the glider starts an ascending (PHASE or PHASE_SCI=1) or descending (PHASE or PHASE_SCI=2) profile. PROFILE_NUMBER is 1 at the start of the first ascending or descending profile in the dataset. When the glider is not in one of these states, PROFILE_NUMBER is the _FillValue."@en;
@@ -720,6 +721,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         pav:version            "3";
         void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
         owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/IDGPHC01/>;
         owl:versionInfo        "3";
         skos:altLabel          "PHASE";
         skos:definition        "Derived from the glider's engineering state, commanded glider phase reflects the commanded glider behaviour. Accepted values range from 0 - 5, with the definitions available at: https://github.com/OceanGlidersCommunity/OG-format-user-manual/blob/main/vocabularyCollection/phase_translation_tables.md."@en;
@@ -775,6 +777,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         pav:version            "1";
         void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
         owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/IDGPHR01/>;
         owl:versionInfo        "1";
         skos:altLabel          "PHASE_SCI";
         skos:definition        "The observed glider phase derived from measured science variables as opposed to the glider's commanded phase derived from the glider's engineering state. Accepted values range from 0 - 5, with the definitions available at: https://github.com/OceanGlidersCommunity/OG-format-user-manual/blob/main/vocabularyCollection/phase_translation_tables.md."@en;
@@ -870,6 +873,7 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         pav:version            "1";
         void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
         owl:deprecated         "false";
+        owl:sameAs             <http://vocab.nerc.ac.uk/collection/P01/current/FVLTPHCN/>;
         owl:versionInfo        "1";
         skos:altLabel          "FLUOPHYCOCYANIN";
         skos:definition        "Phycocyanin signal from fluorescence sensor."@en;
