@@ -218,6 +218,24 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_SfetMinTransmittedVrsPh_volts"@en .
 
+<http://vocab.nerc.ac.uk/collection/R18/current/CB00071/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R18::CB00071";
+        dc:date                "2026-11-18 10:23:09.0";
+        dc:identifier          "SDN:R18::CB00071";
+        pav:authoredOn         "2026-11-18 10:23:09.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00071/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00071/2/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00071/3/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00071/1/>;
+        pav:version            "4";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "4";
+        skos:altLabel          "BGC Config 71";
+        skos:definition        "Start pressure to define the depth zone #<N> of the <short_sensor_name> sensor while sampling during the <cycle_phase_name> phase of the cycle. Template_Values:{short_sensor_name:[Crover, Ctd, Cyc, Eco, Flbb, Flntu, Ocr, Optode, Sfet, Stm, Suna];cycle_phase_name:[AscentPhase, BuoyancyReductionPhase, DescentToParkPhase, DescentToProfPhase, ParkDriftPhase, ProfDriftPhase, SurfaceDriftPhase];N:[1..25];unit:[bar, dbar, cbar, mbar, inHg]}."@en;
+        skos:notation          "SDN:R18::CB00071";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "CONFIG_<short_sensor_name><cycle_phase_name>DepthZone<N>StartPres_dbar"@en .
+
 <http://vocab.nerc.ac.uk/collection/R18/current/CB00033/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R18::CB00033";
@@ -632,6 +650,24 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_PumpActionTimeBuoyancyAcquisitionForInAirMeasCycle_csec"@en .
 
+<http://vocab.nerc.ac.uk/collection/R18/current/CB00069/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R18::CB00069";
+        dc:date                "2026-11-18 10:23:10.0";
+        dc:identifier          "SDN:R18::CB00069";
+        pav:authoredOn         "2026-11-18 10:23:10.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00069/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00069/1/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00069/3/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00069/2/>;
+        pav:version            "4";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "4";
+        skos:altLabel          "BGC Config 69";
+        skos:definition        "Data of the <short_sensor_name> can be reported as they have been sampled or synchronized with one CTD parameter (PRES or TEMP or PSAL). The synchronization is done with the timely closest sample of the CTD (see float manual for details). Template_Values:{short_sensor_name:[Crover, Ctd, Cyc, Eco, Flbb, Flntu, Ocr, Optode, Stm, Suna, Sfet];N:[1..25];unit:[NUMBER]}."@en;
+        skos:notation          "SDN:R18::CB00069";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "CONFIG_<short_sensor_name>DepthZone<N>DataSynchronizationMode_NUMBER"@en .
+
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00061/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R18::CC00061";
@@ -886,17 +922,17 @@ PREFIX void:   <http://rdfs.org/ns/void#>
 <http://vocab.nerc.ac.uk/collection/R18/current/CB00094/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R18::CB00094";
-        dc:date                "2025-12-11 09:34:59.0";
+        dc:date                "2026-11-18 10:23:09.0";
         dc:identifier          "SDN:R18::CB00094";
-        pav:authoredOn         "2025-12-11 09:34:59.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00094/3/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00094/2/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00094/1/>;
-        pav:version            "3";
+        pav:authoredOn         "2026-11-18 10:23:09.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00094/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00094/2/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00094/3/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00094/1/>;
+        pav:version            "4";
         void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
         owl:deprecated         "false";
-        owl:versionInfo        "3";
+        owl:versionInfo        "4";
         skos:altLabel          "BGC Config 94";
-        skos:definition        "Sample rate for the ascent depth zone #<N> of the <short_sensor_name> sensor used in continuous profiling mode. Template_Values:{short_sensor_name:[Ctd, Sfet];N:[1..5];unit:[hertz]}."@en;
+        skos:definition        "Sample rate for the ascent depth zone #<N> of the <short_sensor_name> sensor used in continuous profiling mode. Template_Values:{short_sensor_name:[Ctd, Sfet];N:[1..25];unit:[hertz]}."@en;
         skos:notation          "SDN:R18::CB00094";
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_<short_sensor_name>CpAscentPhaseDepthZone<N>SampleRate_hertz"@en .
@@ -937,23 +973,23 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_<short_sensor_name>IgnoreSamplesWhenPumpActive_LOGICAL"@en .
 
-<http://vocab.nerc.ac.uk/collection/R18/current/CB00078/>
+<http://vocab.nerc.ac.uk/collection/R18/current/CB00008/>
         rdf:type               skos:Concept;
-        dce:identifier         "SDN:R18::CB00078";
-        dc:date                "2025-12-11 09:34:55.0";
-        dc:identifier          "SDN:R18::CB00078";
-        pav:authoredOn         "2025-12-11 09:34:55.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00078/3/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00078/1/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00078/2/>;
-        pav:version            "3";
+        dce:identifier         "SDN:R18::CB00008";
+        dc:date                "2026-11-18 10:23:10.0";
+        dc:identifier          "SDN:R18::CB00008";
+        pav:authoredOn         "2026-11-18 10:23:10.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00008/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00008/1/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00008/3/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00008/2/>;
+        pav:version            "4";
         void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
         owl:deprecated         "false";
-        owl:versionInfo        "3";
-        skos:altLabel          "BGC Config 78";
-        skos:definition        "Data processing rate for the subsampling #<SubS> of the data sampled in the depth zone #<N> of the <short_sensor_name> sensor while sampling during the <cycle_phase_name> phase of the cycle. Template_Values:{short_sensor_name:[Crover, Ctd, Cyc, Eco, Flbb, Flntu, Ocr, Optode, Sfet, Stm, Suna];cycle_phase_name:[AscentPhase, BuoyancyReductionPhase, DescentToParkPhase, DescentToProfPhase, ParkDriftPhase, ProfDriftPhase, SurfaceDriftPhase];N:[1..5];SubS:[1..9999];unit:[NUMBER]}."@en;
-        skos:notation          "SDN:R18::CB00078";
+        owl:versionInfo        "4";
+        skos:altLabel          "BGC Config 8";
+        skos:definition        "Power acquisition mode of the <short_sensor_name> in the depth zone #<N> (0 : none, 2 : pulsed, 3 : continuous). Template_Values:{short_sensor_name:[Crover, Ctd, Eco, Flbb, Flntu, Ocr, Optode, Sfet, Suna];N:[1..25];unit:[NUMBER]}."@en;
+        skos:notation          "SDN:R18::CB00008";
         skos:note              "accepted"@en;
-        skos:prefLabel         "CONFIG_<short_sensor_name><cycle_phase_name>DepthZone<N>SubSampling<SubS>DataProcessingRate_NUMBER"@en .
+        skos:prefLabel         "CONFIG_<short_sensor_name>DepthZone<N>PowerAcquisitionMode_NUMBER"@en .
 
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00070/>
         rdf:type               skos:Concept;
@@ -1027,23 +1063,23 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_PressureTargetToleranceForStabilisation_dbar"@en .
 
-<http://vocab.nerc.ac.uk/collection/R18/current/CB00001/>
+<http://vocab.nerc.ac.uk/collection/R18/current/CB00075/>
         rdf:type               skos:Concept;
-        dce:identifier         "SDN:R18::CB00001";
-        dc:date                "2025-12-11 09:34:58.0";
-        dc:identifier          "SDN:R18::CB00001";
-        pav:authoredOn         "2025-12-11 09:34:58.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00001/3/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00001/1/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00001/2/>;
-        pav:version            "3";
+        dce:identifier         "SDN:R18::CB00075";
+        dc:date                "2026-11-18 10:23:09.0";
+        dc:identifier          "SDN:R18::CB00075";
+        pav:authoredOn         "2026-11-18 10:23:09.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00075/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00075/2/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00075/1/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00075/3/>;
+        pav:version            "4";
         void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
         owl:deprecated         "false";
-        owl:versionInfo        "3";
-        skos:altLabel          "BGC Config 1";
-        skos:definition        "Threshold between depth zone #<N> and depth zone #<N+1> for <short_sensor_name>. Template_Values:{short_sensor_name:[Crover, Ctd, Eco, Flbb, Flntu, Ocr, Optode, Sfet, Suna];N:[1..4];unit:[bar, dbar, cbar, mbar, inHg]}."@en;
-        skos:notation          "SDN:R18::CB00001";
+        owl:versionInfo        "4";
+        skos:altLabel          "BGC Config 75";
+        skos:definition        "Number of additional raw data sampled in the depth zone #<N> of the <short_sensor_name> sensor while sampling during the <cycle_phase_name> phase of the cycle. Template_Values:{short_sensor_name:[Crover, Ctd, Cyc, Eco, Flbb, Flntu, Ocr, Optode, Sfet, Stm, Suna];cycle_phase_name:[AscentPhase, BuoyancyReductionPhase, DescentToParkPhase, DescentToProfPhase, ParkDriftPhase, ProfDriftPhase, SurfaceDriftPhase];N:[1..25];unit:[NUMBER]}."@en;
+        skos:notation          "SDN:R18::CB00075";
         skos:note              "accepted"@en;
-        skos:prefLabel         "CONFIG_<short_sensor_name>DepthZone<N>DepthZone<N+1>PressureThreshold_dbar"@en .
+        skos:prefLabel         "CONFIG_<short_sensor_name><cycle_phase_name>DepthZone<N>RawDataAcquisition_NUMBER"@en .
 
 <http://vocab.nerc.ac.uk/collection/R18/current/CB00048b/>
         rdf:type               skos:Concept;
@@ -1207,6 +1243,24 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_SurfaceTime_HH"@en .
 
+<http://vocab.nerc.ac.uk/collection/R18/current/CB00004/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R18::CB00004";
+        dc:date                "2026-11-18 10:23:09.0";
+        dc:identifier          "SDN:R18::CB00004";
+        pav:authoredOn         "2026-11-18 10:23:09.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00004/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00004/3/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00004/1/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00004/2/>;
+        pav:version            "4";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "4";
+        skos:altLabel          "BGC Config 4";
+        skos:definition        "Sampling period of the <short_sensor_name> during <cycle_phase_name> in the depth zone #<N>. Template_Values:{short_sensor_name:[Crover, Ctd, Eco, Flbb, Flntu, Ocr, Optode, Sfet, Suna];cycle_phase_name:[AscentPhase, BuoyancyReductionPhase, DescentToParkPhase, DescentToProfPhase, ParkDriftPhase, ProfDriftPhase, SurfaceDriftPhase];N:[1..25];unit:[minutes, seconds, dsec, bar, dbar, cbar, mbar, inHg]}."@en;
+        skos:notation          "SDN:R18::CB00004";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "CONFIG_<short_sensor_name><cycle_phase_name>DepthZone<N>SamplingPeriod_seconds"@en .
+
 <http://vocab.nerc.ac.uk/collection/R18/current/CB00005/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R18::CB00005";
@@ -1242,24 +1296,6 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:R18::CB00017";
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_CtdMinTransmittedSalinity_mpsu"@en .
-
-<http://vocab.nerc.ac.uk/collection/R18/current/CB00074/>
-        rdf:type               skos:Concept;
-        dce:identifier         "SDN:R18::CB00074";
-        dc:date                "2025-12-11 09:34:57.0";
-        dc:identifier          "SDN:R18::CB00074";
-        pav:authoredOn         "2025-12-11 09:34:57.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00074/3/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00074/2/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00074/1/>;
-        pav:version            "3";
-        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
-        owl:deprecated         "false";
-        owl:versionInfo        "3";
-        skos:altLabel          "BGC Config 74";
-        skos:definition        "Power acquisition mode for the depth zone #<N> of the <short_sensor_name> sensor while sampling during the <cycle_phase_name> phase of the cycle. Template_Values:{short_sensor_name:[Crover, Ctd, Cyc, Eco, Flbb, Flntu, Ocr, Optode, Sfet, Stm, Suna];cycle_phase_name:[AscentPhase, BuoyancyReductionPhase, DescentToParkPhase, DescentToProfPhase, ParkDriftPhase, ProfDriftPhase, SurfaceDriftPhase];N:[1..5];unit:[NUMBER]}."@en;
-        skos:notation          "SDN:R18::CB00074";
-        skos:note              "accepted"@en;
-        skos:prefLabel         "CONFIG_<short_sensor_name><cycle_phase_name>DepthZone<N>PowerAcquisitionMode_NUMBER"@en .
 
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00094/>
         rdf:type               skos:Concept;
@@ -1405,6 +1441,24 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_EmergencyModeWaterLeakDetection_LOGICAL"@en .
 
+<http://vocab.nerc.ac.uk/collection/R18/current/CB00077/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R18::CB00077";
+        dc:date                "2026-11-18 10:23:09.0";
+        dc:identifier          "SDN:R18::CB00077";
+        pav:authoredOn         "2026-11-18 10:23:09.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00077/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00077/3/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00077/2/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00077/1/>;
+        pav:version            "4";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "4";
+        skos:altLabel          "BGC Config 77";
+        skos:definition        "Data processing mode for the subsampling #<SubS> of the data sampled in the depth zone #<N> of the <short_sensor_name> sensor while sampling during the <cycle_phase_name> phase of the cycle. Template_Values:{short_sensor_name:[Crover, Ctd, Cyc, Eco, Flbb, Flntu, Ocr, Optode, Sfet, Stm, Suna];cycle_phase_name:[AscentPhase, BuoyancyReductionPhase, DescentToParkPhase, DescentToProfPhase, ParkDriftPhase, ProfDriftPhase, SurfaceDriftPhase];N:[1..25];SubS:[1..9999];unit:[NUMBER]}."@en;
+        skos:notation          "SDN:R18::CB00077";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "CONFIG_<short_sensor_name><cycle_phase_name>DepthZone<N>SubSampling<SubS>DataProcessingMode_NUMBER"@en .
+
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00218/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R18::CC00218";
@@ -1476,6 +1530,24 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:R18::CC00187";
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_RafosSampling_minutes"@en .
+
+<http://vocab.nerc.ac.uk/collection/R18/current/CB00089/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R18::CB00089";
+        dc:date                "2026-11-18 10:23:09.0";
+        dc:identifier          "SDN:R18::CB00089";
+        pav:authoredOn         "2026-11-18 10:23:09.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00089/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00089/2/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00089/1/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00089/3/>;
+        pav:version            "4";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "4";
+        skos:altLabel          "BGC Config 89";
+        skos:definition        "Number of samples for the depth zone #<N> of the <short_sensor_name> sensor while sampling during the <cycle_phase_name> phase of the cycle. Template_Values:{short_sensor_name:[Crover, Ctd, Cyc, Eco, Flbb, Flntu, Ocr, Optode, Sfet, Stm, Suna];cycle_phase_name:[AscentPhase, BuoyancyReductionPhase, DescentToParkPhase, DescentToProfPhase, ParkDriftPhase, ProfDriftPhase, SurfaceDriftPhase];N:[1..25];unit:[NUMBER]}."@en;
+        skos:notation          "SDN:R18::CB00089";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "CONFIG_<short_sensor_name><cycle_phase_name>DepthZone<N>NumberOfSamples_NUMBER"@en .
 
 <http://vocab.nerc.ac.uk/collection/R18/current/CB00087/>
         rdf:type               skos:Concept;
@@ -1567,42 +1639,6 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_IceDetectionMaxDaysNoTransmission_NUMBER"@en .
 
-<http://vocab.nerc.ac.uk/collection/R18/current/CB00089/>
-        rdf:type               skos:Concept;
-        dce:identifier         "SDN:R18::CB00089";
-        dc:date                "2025-12-11 09:34:53.0";
-        dc:identifier          "SDN:R18::CB00089";
-        pav:authoredOn         "2025-12-11 09:34:53.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00089/3/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00089/2/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00089/1/>;
-        pav:version            "3";
-        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
-        owl:deprecated         "false";
-        owl:versionInfo        "3";
-        skos:altLabel          "BGC Config 89";
-        skos:definition        "Number of samples for the depth zone #<N> of the <short_sensor_name> sensor while sampling during the <cycle_phase_name> phase of the cycle. Template_Values:{short_sensor_name:[Crover, Ctd, Cyc, Eco, Flbb, Flntu, Ocr, Optode, Sfet, Stm, Suna];cycle_phase_name:[AscentPhase, BuoyancyReductionPhase, DescentToParkPhase, DescentToProfPhase, ParkDriftPhase, ProfDriftPhase, SurfaceDriftPhase];N:[1..5];unit:[NUMBER]}."@en;
-        skos:notation          "SDN:R18::CB00089";
-        skos:note              "accepted"@en;
-        skos:prefLabel         "CONFIG_<short_sensor_name><cycle_phase_name>DepthZone<N>NumberOfSamples_NUMBER"@en .
-
-<http://vocab.nerc.ac.uk/collection/R18/current/CB00071/>
-        rdf:type               skos:Concept;
-        dce:identifier         "SDN:R18::CB00071";
-        dc:date                "2025-12-11 09:34:54.0";
-        dc:identifier          "SDN:R18::CB00071";
-        pav:authoredOn         "2025-12-11 09:34:54.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00071/3/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00071/2/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00071/1/>;
-        pav:version            "3";
-        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
-        owl:deprecated         "false";
-        owl:versionInfo        "3";
-        skos:altLabel          "BGC Config 71";
-        skos:definition        "Start pressure to define the depth zone #<N> of the <short_sensor_name> sensor while sampling during the <cycle_phase_name> phase of the cycle. Template_Values:{short_sensor_name:[Crover, Ctd, Cyc, Eco, Flbb, Flntu, Ocr, Optode, Sfet, Stm, Suna];cycle_phase_name:[AscentPhase, BuoyancyReductionPhase, DescentToParkPhase, DescentToProfPhase, ParkDriftPhase, ProfDriftPhase, SurfaceDriftPhase];N:[1..5];unit:[bar, dbar, cbar, mbar, inHg]}."@en;
-        skos:notation          "SDN:R18::CB00071";
-        skos:note              "accepted"@en;
-        skos:prefLabel         "CONFIG_<short_sensor_name><cycle_phase_name>DepthZone<N>StartPres_dbar"@en .
-
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00043/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R18::CC00043";
@@ -1656,6 +1692,24 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:R18::CB00007";
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_<short_sensor_name>AscentSamplingPeriod_seconds"@en .
+
+<http://vocab.nerc.ac.uk/collection/R18/current/CB00091/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R18::CB00091";
+        dc:date                "2026-11-18 10:23:10.0";
+        dc:identifier          "SDN:R18::CB00091";
+        pav:authoredOn         "2026-11-18 10:23:10.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00091/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00091/1/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00091/3/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00091/2/>;
+        pav:version            "4";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "4";
+        skos:altLabel          "BGC Config 91";
+        skos:definition        "Start pressure to define the ascent depth zone #<N> of the <short_sensor_name> sensor used in continuous profiling mode. Template_Values:{short_sensor_name:[Ctd, Sfet];N:[1..25];unit:[bar, dbar, cbar, mbar, inHg]}."@en;
+        skos:notation          "SDN:R18::CB00091";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "CONFIG_<short_sensor_name>CpAscentPhaseDepthZone<N>StartPres_dbar"@en .
 
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00040/>
         rdf:type               skos:Concept;
@@ -1783,24 +1837,6 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:note              "deprecated"@en;
         skos:prefLabel         "CONFIG_PressureActivationMode_LOGICAL"@en .
 
-<http://vocab.nerc.ac.uk/collection/R18/current/CB00075/>
-        rdf:type               skos:Concept;
-        dce:identifier         "SDN:R18::CB00075";
-        dc:date                "2025-12-11 09:34:52.0";
-        dc:identifier          "SDN:R18::CB00075";
-        pav:authoredOn         "2025-12-11 09:34:52.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00075/3/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00075/2/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00075/1/>;
-        pav:version            "3";
-        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
-        owl:deprecated         "false";
-        owl:versionInfo        "3";
-        skos:altLabel          "BGC Config 75";
-        skos:definition        "Number of additional raw data sampled in the depth zone #<N> of the <short_sensor_name> sensor while sampling during the <cycle_phase_name> phase of the cycle. Template_Values:{short_sensor_name:[Crover, Ctd, Cyc, Eco, Flbb, Flntu, Ocr, Optode, Sfet, Stm, Suna];cycle_phase_name:[AscentPhase, BuoyancyReductionPhase, DescentToParkPhase, DescentToProfPhase, ParkDriftPhase, ProfDriftPhase, SurfaceDriftPhase];N:[1..5];unit:[NUMBER]}."@en;
-        skos:notation          "SDN:R18::CB00075";
-        skos:note              "accepted"@en;
-        skos:prefLabel         "CONFIG_<short_sensor_name><cycle_phase_name>DepthZone<N>RawDataAcquisition_NUMBER"@en .
-
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00014/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R18::CC00014";
@@ -1818,6 +1854,24 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:R18::CC00014";
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_BitMaskMonthsIceEvasionActive_NUMBER"@en .
+
+<http://vocab.nerc.ac.uk/collection/R18/current/CB00095/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R18::CB00095";
+        dc:date                "2026-11-18 10:23:09.0";
+        dc:identifier          "SDN:R18::CB00095";
+        pav:authoredOn         "2026-11-18 10:23:09.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00095/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00095/3/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00095/1/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00095/2/>;
+        pav:version            "4";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "4";
+        skos:altLabel          "BGC Config 95";
+        skos:definition        "Sampling period for the ascent depth zone #<N> of the <short_sensor_name> sensor used in continuous profiling mode. Template_Values:{short_sensor_name:[Ctd, Sfet];N:[1..25];unit:[ minutes, seconds, dsec]}."@en;
+        skos:notation          "SDN:R18::CB00095";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "CONFIG_<short_sensor_name>CpAscentPhaseDepthZone<N>SamplingPeriod_seconds"@en .
 
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00223/>
         rdf:type               skos:Concept;
@@ -1839,17 +1893,17 @@ PREFIX void:   <http://rdfs.org/ns/void#>
 <http://vocab.nerc.ac.uk/collection/R18/current/CB00073/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R18::CB00073";
-        dc:date                "2025-12-11 09:34:57.0";
+        dc:date                "2026-11-18 10:23:09.0";
         dc:identifier          "SDN:R18::CB00073";
-        pav:authoredOn         "2025-12-11 09:34:57.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00073/3/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00073/1/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00073/2/>;
-        pav:version            "3";
+        pav:authoredOn         "2026-11-18 10:23:09.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00073/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00073/3/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00073/1/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00073/2/>;
+        pav:version            "4";
         void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
         owl:deprecated         "false";
-        owl:versionInfo        "3";
+        owl:versionInfo        "4";
         skos:altLabel          "BGC Config 73";
-        skos:definition        "Sampling period for the depth zone #<N> of the <short_sensor_name> sensor while sampling during the <cycle_phase_name> phase of the cycle. Template_Values:{short_sensor_name:[Crover, Ctd, Cyc, Eco, Flbb, Flntu, Ocr, Optode, Sfet, Stm, Suna];cycle_phase_name:[AscentPhase, BuoyancyReductionPhase, DescentToParkPhase, DescentToProfPhase, ParkDriftPhase, ProfDriftPhase, SurfaceDriftPhase];N:[1..5];unit:[minutes, seconds, dsec, bar, dbar, cbar, mbar, inHg]}."@en;
+        skos:definition        "Sampling period for the depth zone #<N> of the <short_sensor_name> sensor while sampling during the <cycle_phase_name> phase of the cycle. Template_Values:{short_sensor_name:[Crover, Ctd, Cyc, Eco, Flbb, Flntu, Ocr, Optode, Sfet, Stm, Suna];cycle_phase_name:[AscentPhase, BuoyancyReductionPhase, DescentToParkPhase, DescentToProfPhase, ParkDriftPhase, ProfDriftPhase, SurfaceDriftPhase];N:[1..25];unit:[minutes, seconds, dsec, bar, dbar, cbar, mbar, inHg]}."@en;
         skos:notation          "SDN:R18::CB00073";
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_<short_sensor_name><cycle_phase_name>DepthZone<N>SamplingPeriod_dbar"@en .
@@ -1889,24 +1943,6 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:R18::CC00093";
         skos:note              "deprecated"@en;
         skos:prefLabel         "CONFIG_IceDetectionEndTelemetryDay_NUMBER"@en .
-
-<http://vocab.nerc.ac.uk/collection/R18/current/CB00077/>
-        rdf:type               skos:Concept;
-        dce:identifier         "SDN:R18::CB00077";
-        dc:date                "2025-12-11 09:34:55.0";
-        dc:identifier          "SDN:R18::CB00077";
-        pav:authoredOn         "2025-12-11 09:34:55.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00077/3/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00077/2/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00077/1/>;
-        pav:version            "3";
-        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
-        owl:deprecated         "false";
-        owl:versionInfo        "3";
-        skos:altLabel          "BGC Config 77";
-        skos:definition        "Data processing mode for the subsampling #<SubS> of the data sampled in the depth zone #<N> of the <short_sensor_name> sensor while sampling during the <cycle_phase_name> phase of the cycle. Template_Values:{short_sensor_name:[Crover, Ctd, Cyc, Eco, Flbb, Flntu, Ocr, Optode, Sfet, Stm, Suna];cycle_phase_name:[AscentPhase, BuoyancyReductionPhase, DescentToParkPhase, DescentToProfPhase, ParkDriftPhase, ProfDriftPhase, SurfaceDriftPhase];N:[1..5];SubS:[1..9999];unit:[NUMBER]}."@en;
-        skos:notation          "SDN:R18::CB00077";
-        skos:note              "accepted"@en;
-        skos:prefLabel         "CONFIG_<short_sensor_name><cycle_phase_name>DepthZone<N>SubSampling<SubS>DataProcessingMode_NUMBER"@en .
 
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00192/>
         rdf:type               skos:Concept;
@@ -2555,24 +2591,6 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:note              "deprecated"@en;
         skos:prefLabel         "CONFIG_TimeDelaybetweenRecoveryMessage_minutes"@en .
 
-<http://vocab.nerc.ac.uk/collection/R18/current/CB00069/>
-        rdf:type               skos:Concept;
-        dce:identifier         "SDN:R18::CB00069";
-        dc:date                "2025-12-11 09:34:57.0";
-        dc:identifier          "SDN:R18::CB00069";
-        pav:authoredOn         "2025-12-11 09:34:57.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00069/3/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00069/2/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00069/1/>;
-        pav:version            "3";
-        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
-        owl:deprecated         "false";
-        owl:versionInfo        "3";
-        skos:altLabel          "BGC Config 69";
-        skos:definition        "Data of the <short_sensor_name> can be reported as they have been sampled or synchronized with one CTD parameter (PRES or TEMP or PSAL). The synchronization is done with the timely closest sample of the CTD (see float manual for details). Template_Values:{short_sensor_name:[Crover, Ctd, Cyc, Eco, Flbb, Flntu, Ocr, Optode, Stm, Suna, Sfet];N:[1..5];unit:[NUMBER]}."@en;
-        skos:notation          "SDN:R18::CB00069";
-        skos:note              "accepted"@en;
-        skos:prefLabel         "CONFIG_<short_sensor_name>DepthZone<N>DataSynchronizationMode_NUMBER"@en .
-
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00080/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R18::CC00080";
@@ -2824,6 +2842,24 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_TelemetryRetransmission_COUNT"@en .
 
+<http://vocab.nerc.ac.uk/collection/R18/current/CB00093/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R18::CB00093";
+        dc:date                "2026-11-18 10:23:09.0";
+        dc:identifier          "SDN:R18::CB00093";
+        pav:authoredOn         "2026-11-18 10:23:09.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00093/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00093/1/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00093/3/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00093/2/>;
+        pav:version            "4";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "4";
+        skos:altLabel          "BGC Config 93";
+        skos:definition        "SlicesThickness of the ascent depth zone #<N> of the <short_sensor_name> sensor used in continuous profiling mode. Template_Values:{short_sensor_name:[Ctd, Sfet];N:[1..25];unit:[bar, dbar, cbar, mbar, inHg]}."@en;
+        skos:notation          "SDN:R18::CB00093";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "CONFIG_<short_sensor_name>CpAscentPhaseDepthZone<N>SlicesThickness_dbar"@en .
+
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00155/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R18::CC00155";
@@ -2985,24 +3021,6 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:R18::CC00020";
         skos:note              "deprecated"@en;
         skos:prefLabel         "CONFIG_ClockAscentEndTimeProfile2_HHMM"@en .
-
-<http://vocab.nerc.ac.uk/collection/R18/current/CB00004/>
-        rdf:type               skos:Concept;
-        dce:identifier         "SDN:R18::CB00004";
-        dc:date                "2025-12-11 09:34:58.0";
-        dc:identifier          "SDN:R18::CB00004";
-        pav:authoredOn         "2025-12-11 09:34:58.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00004/3/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00004/2/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00004/1/>;
-        pav:version            "3";
-        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
-        owl:deprecated         "false";
-        owl:versionInfo        "3";
-        skos:altLabel          "BGC Config 4";
-        skos:definition        "Sampling period of the <short_sensor_name> during <cycle_phase_name> in the depth zone #<N>. Template_Values:{short_sensor_name:[Crover, Ctd, Eco, Flbb, Flntu, Ocr, Optode, Sfet, Suna];cycle_phase_name:[AscentPhase, BuoyancyReductionPhase, DescentToParkPhase, DescentToProfPhase, ParkDriftPhase, ProfDriftPhase, SurfaceDriftPhase];N:[1..5];unit:[minutes, seconds, dsec, bar, dbar, cbar, mbar, inHg]}."@en;
-        skos:notation          "SDN:R18::CB00004";
-        skos:note              "accepted"@en;
-        skos:prefLabel         "CONFIG_<short_sensor_name><cycle_phase_name>DepthZone<N>SamplingPeriod_seconds"@en .
 
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00099/>
         rdf:type               skos:Concept;
@@ -3184,24 +3202,6 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_OptodeMinTransmittedBPhase_angularDeg"@en .
 
-<http://vocab.nerc.ac.uk/collection/R18/current/CB00008/>
-        rdf:type               skos:Concept;
-        dce:identifier         "SDN:R18::CB00008";
-        dc:date                "2025-12-11 09:34:53.0";
-        dc:identifier          "SDN:R18::CB00008";
-        pav:authoredOn         "2025-12-11 09:34:53.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00008/3/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00008/1/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00008/2/>;
-        pav:version            "3";
-        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
-        owl:deprecated         "false";
-        owl:versionInfo        "3";
-        skos:altLabel          "BGC Config 8";
-        skos:definition        "Power acquisition mode of the <short_sensor_name> in the depth zone #<N> (0 : none, 2 : pulsed, 3 : continuous). Template_Values:{short_sensor_name:[Crover, Ctd, Eco, Flbb, Flntu, Ocr, Optode, Sfet, Suna];N:[1..5];unit:[NUMBER]}."@en;
-        skos:notation          "SDN:R18::CB00008";
-        skos:note              "accepted"@en;
-        skos:prefLabel         "CONFIG_<short_sensor_name>DepthZone<N>PowerAcquisitionMode_NUMBER"@en .
-
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00185/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R18::CC00185";
@@ -3219,24 +3219,6 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:R18::CC00185";
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_PumpActionTimeBuoyancyAcquisition_csec"@en .
-
-<http://vocab.nerc.ac.uk/collection/R18/current/CB00076/>
-        rdf:type               skos:Concept;
-        dce:identifier         "SDN:R18::CB00076";
-        dc:date                "2025-12-11 09:34:55.0";
-        dc:identifier          "SDN:R18::CB00076";
-        pav:authoredOn         "2025-12-11 09:34:55.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00076/3/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00076/2/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00076/1/>;
-        pav:version            "3";
-        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
-        owl:deprecated         "false";
-        owl:versionInfo        "3";
-        skos:altLabel          "BGC Config 76";
-        skos:definition        "Number of subsamplings of the data sampled in the depth zone #<N> of the <short_sensor_name> sensor while sampling during the <cycle_phase_name> phase of the cycle. Template_Values:{short_sensor_name:[Crover, Ctd, Cyc, Eco, Flbb, Flntu, Ocr, Optode, Sfet, Stm, Suna];cycle_phase_name:[AscentPhase, BuoyancyReductionPhase, DescentToParkPhase, DescentToProfPhase, ParkDriftPhase, ProfDriftPhase, SurfaceDriftPhase];N:[1..5];unit:[NUMBER]}."@en;
-        skos:notation          "SDN:R18::CB00076";
-        skos:note              "accepted"@en;
-        skos:prefLabel         "CONFIG_<short_sensor_name><cycle_phase_name>DepthZone<N>NumberOfSubSampling_NUMBER"@en .
 
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00072/>
         rdf:type               skos:Concept;
@@ -3436,6 +3418,24 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_CTDPumpStopPressure_dbar"@en .
 
+<http://vocab.nerc.ac.uk/collection/R18/current/CB00074/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R18::CB00074";
+        dc:date                "2026-11-18 10:23:09.0";
+        dc:identifier          "SDN:R18::CB00074";
+        pav:authoredOn         "2026-11-18 10:23:09.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00074/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00074/1/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00074/2/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00074/3/>;
+        pav:version            "4";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "4";
+        skos:altLabel          "BGC Config 74";
+        skos:definition        "Power acquisition mode for the depth zone #<N> of the <short_sensor_name> sensor while sampling during the <cycle_phase_name> phase of the cycle. Template_Values:{short_sensor_name:[Crover, Ctd, Cyc, Eco, Flbb, Flntu, Ocr, Optode, Sfet, Stm, Suna];cycle_phase_name:[AscentPhase, BuoyancyReductionPhase, DescentToParkPhase, DescentToProfPhase, ParkDriftPhase, ProfDriftPhase, SurfaceDriftPhase];N:[1..25];unit:[NUMBER]}."@en;
+        skos:notation          "SDN:R18::CB00074";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "CONFIG_<short_sensor_name><cycle_phase_name>DepthZone<N>PowerAcquisitionMode_NUMBER"@en .
+
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00156/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R18::CC00156";
@@ -3544,6 +3544,24 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_ProfileDepthInterval_dbar"@en .
 
+<http://vocab.nerc.ac.uk/collection/R18/current/CB00076/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R18::CB00076";
+        dc:date                "2026-11-18 10:23:09.0";
+        dc:identifier          "SDN:R18::CB00076";
+        pav:authoredOn         "2026-11-18 10:23:09.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00076/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00076/1/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00076/3/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00076/2/>;
+        pav:version            "4";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "4";
+        skos:altLabel          "BGC Config 76";
+        skos:definition        "Number of subsamplings of the data sampled in the depth zone #<N> of the <short_sensor_name> sensor while sampling during the <cycle_phase_name> phase of the cycle. Template_Values:{short_sensor_name:[Crover, Ctd, Cyc, Eco, Flbb, Flntu, Ocr, Optode, Sfet, Stm, Suna];cycle_phase_name:[AscentPhase, BuoyancyReductionPhase, DescentToParkPhase, DescentToProfPhase, ParkDriftPhase, ProfDriftPhase, SurfaceDriftPhase];N:[1..25];unit:[NUMBER]}."@en;
+        skos:notation          "SDN:R18::CB00076";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "CONFIG_<short_sensor_name><cycle_phase_name>DepthZone<N>NumberOfSubSampling_NUMBER"@en .
+
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00115/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R18::CC00115";
@@ -3597,24 +3615,6 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:R18::CB00006";
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_<short_sensor_name>DriftAtProfilePresSamplingPeriod_minutes"@en .
-
-<http://vocab.nerc.ac.uk/collection/R18/current/CB00091/>
-        rdf:type               skos:Concept;
-        dce:identifier         "SDN:R18::CB00091";
-        dc:date                "2025-12-11 09:34:53.0";
-        dc:identifier          "SDN:R18::CB00091";
-        pav:authoredOn         "2025-12-11 09:34:53.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00091/3/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00091/2/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00091/1/>;
-        pav:version            "3";
-        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
-        owl:deprecated         "false";
-        owl:versionInfo        "3";
-        skos:altLabel          "BGC Config 91";
-        skos:definition        "Start pressure to define the ascent depth zone #<N> of the <short_sensor_name> sensor used in continuous profiling mode. Template_Values:{short_sensor_name:[Ctd, Sfet];N:[1..5];unit:[bar, dbar, cbar, mbar, inHg]}."@en;
-        skos:notation          "SDN:R18::CB00091";
-        skos:note              "accepted"@en;
-        skos:prefLabel         "CONFIG_<short_sensor_name>CpAscentPhaseDepthZone<N>StartPres_dbar"@en .
 
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00168/>
         rdf:type               skos:Concept;
@@ -3742,6 +3742,24 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_CroverMaxTransmittedBeamAttenuation_m^-1"@en .
 
+<http://vocab.nerc.ac.uk/collection/R18/current/CB00078/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R18::CB00078";
+        dc:date                "2026-11-18 10:23:09.0";
+        dc:identifier          "SDN:R18::CB00078";
+        pav:authoredOn         "2026-11-18 10:23:09.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00078/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00078/3/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00078/1/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00078/2/>;
+        pav:version            "4";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "4";
+        skos:altLabel          "BGC Config 78";
+        skos:definition        "Data processing rate for the subsampling #<SubS> of the data sampled in the depth zone #<N> of the <short_sensor_name> sensor while sampling during the <cycle_phase_name> phase of the cycle. Template_Values:{short_sensor_name:[Crover, Ctd, Cyc, Eco, Flbb, Flntu, Ocr, Optode, Sfet, Stm, Suna];cycle_phase_name:[AscentPhase, BuoyancyReductionPhase, DescentToParkPhase, DescentToProfPhase, ParkDriftPhase, ProfDriftPhase, SurfaceDriftPhase];N:[1..25];SubS:[1..9999];unit:[NUMBER]}."@en;
+        skos:notation          "SDN:R18::CB00078";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "CONFIG_<short_sensor_name><cycle_phase_name>DepthZone<N>SubSampling<SubS>DataProcessingRate_NUMBER"@en .
+
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00127/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R18::CC00127";
@@ -3759,24 +3777,6 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:R18::CC00127";
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_ParkSamplesPerAverage_COUNT"@en .
-
-<http://vocab.nerc.ac.uk/collection/R18/current/CB00093/>
-        rdf:type               skos:Concept;
-        dce:identifier         "SDN:R18::CB00093";
-        dc:date                "2025-12-11 09:34:57.0";
-        dc:identifier          "SDN:R18::CB00093";
-        pav:authoredOn         "2025-12-11 09:34:57.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00093/3/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00093/1/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00093/2/>;
-        pav:version            "3";
-        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
-        owl:deprecated         "false";
-        owl:versionInfo        "3";
-        skos:altLabel          "BGC Config 93";
-        skos:definition        "SlicesThickness of the ascent depth zone #<N> of the <short_sensor_name> sensor used in continuous profiling mode. Template_Values:{short_sensor_name:[Ctd, Sfet];N:[1..5];unit:[bar, dbar, cbar, mbar, inHg]}."@en;
-        skos:notation          "SDN:R18::CB00093";
-        skos:note              "accepted"@en;
-        skos:prefLabel         "CONFIG_<short_sensor_name>CpAscentPhaseDepthZone<N>SlicesThickness_dbar"@en .
 
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00054/>
         rdf:type               skos:Concept;
@@ -3886,24 +3886,6 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_SunaMinTransmittedNitrateConcentration_umol/L"@en .
 
-<http://vocab.nerc.ac.uk/collection/R18/current/CB00095/>
-        rdf:type               skos:Concept;
-        dce:identifier         "SDN:R18::CB00095";
-        dc:date                "2025-12-11 09:34:55.0";
-        dc:identifier          "SDN:R18::CB00095";
-        pav:authoredOn         "2025-12-11 09:34:55.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00095/3/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00095/1/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00095/2/>;
-        pav:version            "3";
-        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
-        owl:deprecated         "false";
-        owl:versionInfo        "3";
-        skos:altLabel          "BGC Config 95";
-        skos:definition        "Sampling period for the ascent depth zone #<N> of the <short_sensor_name> sensor used in continuous profiling mode. Template_Values:{short_sensor_name:[Ctd, Sfet];N:[1..5];unit:[ minutes, seconds, dsec]}."@en;
-        skos:notation          "SDN:R18::CB00095";
-        skos:note              "accepted"@en;
-        skos:prefLabel         "CONFIG_<short_sensor_name>CpAscentPhaseDepthZone<N>SamplingPeriod_seconds"@en .
-
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00029/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R18::CC00029";
@@ -3997,17 +3979,17 @@ PREFIX void:   <http://rdfs.org/ns/void#>
 <http://vocab.nerc.ac.uk/collection/R18/current/CB00072/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R18::CB00072";
-        dc:date                "2025-12-11 09:34:59.0";
+        dc:date                "2026-11-18 10:23:09.0";
         dc:identifier          "SDN:R18::CB00072";
-        pav:authoredOn         "2025-12-11 09:34:59.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00072/3/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00072/2/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00072/1/>;
-        pav:version            "3";
+        pav:authoredOn         "2026-11-18 10:23:09.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00072/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00072/3/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00072/2/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00072/1/>;
+        pav:version            "4";
         void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
         owl:deprecated         "false";
-        owl:versionInfo        "3";
+        owl:versionInfo        "4";
         skos:altLabel          "BGC Config 72";
-        skos:definition        "Stop pressure to define the depth zone #<N> of the <short_sensor_name> sensor while sampling during the <cycle_phase_name> phase of the cycle. Template_Values:{short_sensor_name:[Crover, Ctd, Cyc, Eco, Flbb, Flntu, Ocr, Optode, Sfet, Stm, Suna];cycle_phase_name:[AscentPhase, BuoyancyReductionPhase, DescentToParkPhase, DescentToProfPhase, ParkDriftPhase, ProfDriftPhase, SurfaceDriftPhase];N:[1..5];unit:[bar, dbar, cbar, mbar, inHg]}."@en;
+        skos:definition        "Stop pressure to define the depth zone #<N> of the <short_sensor_name> sensor while sampling during the <cycle_phase_name> phase of the cycle. Template_Values:{short_sensor_name:[Crover, Ctd, Cyc, Eco, Flbb, Flntu, Ocr, Optode, Sfet, Stm, Suna];cycle_phase_name:[AscentPhase, BuoyancyReductionPhase, DescentToParkPhase, DescentToProfPhase, ParkDriftPhase, ProfDriftPhase, SurfaceDriftPhase];N:[1..25];unit:[bar, dbar, cbar, mbar, inHg]}."@en;
         skos:notation          "SDN:R18::CB00072";
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_<short_sensor_name><cycle_phase_name>DepthZone<N>StopPres_dbar"@en .
@@ -4482,17 +4464,17 @@ PREFIX void:   <http://rdfs.org/ns/void#>
 <http://vocab.nerc.ac.uk/collection/R18/current/CB00002/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R18::CB00002";
-        dc:date                "2025-12-11 09:34:58.0";
+        dc:date                "2026-11-18 10:23:10.0";
         dc:identifier          "SDN:R18::CB00002";
-        pav:authoredOn         "2025-12-11 09:34:58.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00002/3/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00002/2/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00002/1/>;
-        pav:version            "3";
+        pav:authoredOn         "2026-11-18 10:23:10.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00002/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00002/2/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00002/1/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00002/3/>;
+        pav:version            "4";
         void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
         owl:deprecated         "false";
-        owl:versionInfo        "3";
+        owl:versionInfo        "4";
         skos:altLabel          "BGC Config 2";
-        skos:definition        "Slices thickness for <short_sensor_name> in the depth zone #<N>. Template_Values:{short_sensor_name:[Crover, Ctd, Eco, Flbb, Flntu, Ocr, Optode, Sfet, Suna];N:[1..5];unit:[bar, dbar, cbar, mbar, inHg]}."@en;
+        skos:definition        "Slices thickness for <short_sensor_name> in the depth zone #<N>. Template_Values:{short_sensor_name:[Crover, Ctd, Eco, Flbb, Flntu, Ocr, Optode, Sfet, Suna];N:[1..25];unit:[bar, dbar, cbar, mbar, inHg]}."@en;
         skos:notation          "SDN:R18::CB00002";
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_<short_sensor_name>DepthZone<N>SlicesThickness_dbar"@en .
@@ -4838,6 +4820,24 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:R18::CB00067";
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_SetClockSensorCard_LOGICAL"@en .
+
+<http://vocab.nerc.ac.uk/collection/R18/current/CB00001/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R18::CB00001";
+        dc:date                "2026-11-18 10:23:10.0";
+        dc:identifier          "SDN:R18::CB00001";
+        pav:authoredOn         "2026-11-18 10:23:10.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00001/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00001/1/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00001/2/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00001/3/>;
+        pav:version            "4";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "4";
+        skos:altLabel          "BGC Config 1";
+        skos:definition        "Threshold between depth zone #<N> and depth zone #<N+1> for <short_sensor_name>. Template_Values:{short_sensor_name:[Crover, Ctd, Eco, Flbb, Flntu, Ocr, Optode, Sfet, Suna];N:[1..25];unit:[bar, dbar, cbar, mbar, inHg]}."@en;
+        skos:notation          "SDN:R18::CB00001";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "CONFIG_<short_sensor_name>DepthZone<N>DepthZone<N+1>PressureThreshold_dbar"@en .
 
 <http://vocab.nerc.ac.uk/collection/R18/current/CB00034/>
         rdf:type               skos:Concept;
@@ -5346,17 +5346,17 @@ PREFIX void:   <http://rdfs.org/ns/void#>
 <http://vocab.nerc.ac.uk/collection/R18/current/CB00092/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R18::CB00092";
-        dc:date                "2025-12-11 09:34:57.0";
+        dc:date                "2026-11-18 10:23:10.0";
         dc:identifier          "SDN:R18::CB00092";
-        pav:authoredOn         "2025-12-11 09:34:57.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00092/3/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00092/1/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00092/2/>;
-        pav:version            "3";
+        pav:authoredOn         "2026-11-18 10:23:10.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00092/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00092/1/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00092/3/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00092/2/>;
+        pav:version            "4";
         void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
         owl:deprecated         "false";
-        owl:versionInfo        "3";
+        owl:versionInfo        "4";
         skos:altLabel          "BGC Config 92";
-        skos:definition        "Stop pressure to define the ascent depth zone #<N> of the <short_sensor_name> sensor used in continuous profiling mode. Template_Values:{short_sensor_name:[Ctd, Sfet];N:[1..5];unit:[bar, dbar, cbar, mbar, inHg]}."@en;
+        skos:definition        "Stop pressure to define the ascent depth zone #<N> of the <short_sensor_name> sensor used in continuous profiling mode. Template_Values:{short_sensor_name:[Ctd, Sfet];N:[1..25];unit:[bar, dbar, cbar, mbar, inHg]}."@en;
         skos:notation          "SDN:R18::CB00092";
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_<short_sensor_name>CpAscentPhaseDepthZone<N>StopPres_dbar"@en .
@@ -5433,24 +5433,6 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_DescentToProfTimeOut_hours"@en .
 
-<http://vocab.nerc.ac.uk/collection/R18/current/CB00009/>
-        rdf:type               skos:Concept;
-        dce:identifier         "SDN:R18::CB00009";
-        dc:date                "2025-12-11 09:34:59.0";
-        dc:identifier          "SDN:R18::CB00009";
-        pav:authoredOn         "2025-12-11 09:34:59.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00009/3/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00009/2/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00009/1/>;
-        pav:version            "3";
-        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
-        owl:deprecated         "false";
-        owl:versionInfo        "3";
-        skos:altLabel          "BGC Config 9";
-        skos:definition        "Data processing output of the <short_sensor_name> in the depth zone #<N> (0 : raw, 1 : average, 7 : average/median/standard deviation). Template_Values:{short_sensor_name:[Crover, Ctd, Cyc, Eco, Flbb, Flntu, Ocr, Optode, Sfet, Stm, Suna];N:[1..5];unit:[NUMBER]}."@en;
-        skos:notation          "SDN:R18::CB00009";
-        skos:note              "accepted"@en;
-        skos:prefLabel         "CONFIG_<short_sensor_name>DepthZone<N>DataProcessingMode_NUMBER"@en .
-
 <http://vocab.nerc.ac.uk/collection/R18/current/CB00051/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R18::CB00051";
@@ -5468,6 +5450,24 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:R18::CB00051";
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_Ocr<param>Wavelength<I>_nm"@en .
+
+<http://vocab.nerc.ac.uk/collection/R18/current/CB00009/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R18::CB00009";
+        dc:date                "2026-11-18 10:23:10.0";
+        dc:identifier          "SDN:R18::CB00009";
+        pav:authoredOn         "2026-11-18 10:23:10.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CB00009/4/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CB00009/3/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00009/2/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00009/1/>;
+        pav:version            "4";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "4";
+        skos:altLabel          "BGC Config 9";
+        skos:definition        "Data processing output of the <short_sensor_name> in the depth zone #<N> (0 : raw, 1 : average, 7 : average/median/standard deviation). Template_Values:{short_sensor_name:[Crover, Ctd, Cyc, Eco, Flbb, Flntu, Ocr, Optode, Sfet, Stm, Suna];N:[1..25];unit:[NUMBER]}."@en;
+        skos:notation          "SDN:R18::CB00009";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "CONFIG_<short_sensor_name>DepthZone<N>DataProcessingMode_NUMBER"@en .
 
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00058/>
         rdf:type               skos:Concept;
@@ -5961,13 +5961,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         rdfs:seeAlso            <https://github.com/OneArgo/ArgoVocabs>;
         dc:alternative          "CONFIG_PARAMETER_NAME";
         dc:creator              "Argo Data Management Team";
-        dc:date                 "2026-05-16 03:00:01.0";
+        dc:date                 "2026-11-19 02:00:01.0";
         dc:description          "List of float configuration settings selected by the float Principal Investigator (PI). Configuration parameters selected for a float are stored in the float 'meta.nc' file, under CONFIG_PARAMETER_NAME and LAUNCH_CONFIG_PARAMETER_NAME, which are populated by R18 prefLabel. Detailed information (incl. Template_Values explanation) is in the user manual (https://dx.doi.org/10.13155/29825), in the Reference Table 18 section.";
         dc:publisher            "Natural Environment Research Council";
         dc:title                "Argo configuration parameter names";
         grg:RE_RegisterManager  "British Oceanographic Data Centre";
         grg:RE_RegisterOwner    "Argo Data Management Team";
-        owl:versionInfo         "12";
+        owl:versionInfo         "13";
         skos:altLabel           "CONFIG_PARAMETER_NAME";
-        skos:member             <http://vocab.nerc.ac.uk/collection/R18/current/CC00068/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00041/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00081/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00133/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00037/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00180/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00050/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00154/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00062/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00064/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00098/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00033/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00083/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00199/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00166/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00126/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00021/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00028/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00207/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00178/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00012/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00027/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00219/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00019/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00101/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00191/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00049/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB10008/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00024/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00045/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00174/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00036/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00057/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00186/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00061/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00082/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00097/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00224/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00110/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00203/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB10004/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00150/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00138/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00054/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00117/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00006/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00146/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00129/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00094/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00018/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00066/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00078/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00070/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00122/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00158/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00162/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00001/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00048b/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00023/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00073/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00099/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00013/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00211/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00085/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00047/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00195/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00005/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00017/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00074/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00094/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00041/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00077/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00029/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00215/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00059/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00183/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00052/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00218/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00105/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00025/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00187/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00087/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00031/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00056/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00090/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00076/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00089/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00071/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00043/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00109/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00007/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00040/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00002/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00007/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00243/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00170/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00019/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00142/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00075/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00014/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00223/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00073/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00044/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00093/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00077/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00192/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00026/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00085/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00194/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00061/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00226/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00038/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00048/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00028/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00214/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00143/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00196/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00112/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00003/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00092/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00145/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00032/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00012/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00198/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00065/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00124/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00009/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00051/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00015/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00177/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00167/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00096/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00010/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00182/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00209/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00063/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00027/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00003/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00149/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00016/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00210/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00069/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00080/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00022/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00101/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00148/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00190/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00039/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00067/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00153/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00082/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00222/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00053/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00107/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00034/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00206/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00155/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00089/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00084/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00119/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00046/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00104/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00052/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00137/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00020/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00004/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00099/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00011/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00035/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00064/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00121/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00088/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00075/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00205/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00132/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00023/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00008/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00185/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00076/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00072/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00217/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00144/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00039/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00071/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00035/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00125/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00197/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00220/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00103/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00030/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00156/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00083/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00047/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00189/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00056/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00171/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00115/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00042/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00006/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00091/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00168/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00095/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00059/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00058/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00173/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00060/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00040/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00127/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00093/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00054/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00018/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00060/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00175/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00201/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00042/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00095/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00029/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00139/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00181/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00066/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00011/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00072/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00044/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00213/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00140/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00025/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00097/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00031/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00013/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00113/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00193/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00078/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00212/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00179/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00046/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00161/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00225/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00152/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00081/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00037/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00015/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00043/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00130/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00048/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00096/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00163/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00030/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00111/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00002/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00017/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00164/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00049/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00091/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00216/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00055/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00079/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00165/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00032/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00123/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00008/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00050/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00014/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00114/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00001/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00176/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00200/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00134/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00067/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00034/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00208/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00135/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00116/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00026/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00202/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00136/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00065/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00169/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00036/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00079/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00151/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00100/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00021/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00005/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00147/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00074/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00100/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00080/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00120/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00038/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00087/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00020/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00221/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00033/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00102/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00159/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00086/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00092/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00084/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00118/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00160/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00045/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00009/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00051/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00058/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00053/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00098/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00024/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00004/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00086/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00010/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00106/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00172/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00063/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00055/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00188/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00141/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00062/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00204/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00088/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00131/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00090/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00016/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00070/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00022/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00108/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00184/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00128/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00069/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00157/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00057/>;
+        skos:member             <http://vocab.nerc.ac.uk/collection/R18/current/CC00068/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00041/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00081/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00133/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00037/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00180/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00050/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00154/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00062/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00064/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00098/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00071/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00033/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00083/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00199/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00166/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00126/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00021/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00028/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00207/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00178/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00012/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00027/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00219/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00019/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00101/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00191/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00049/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB10008/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00024/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00045/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00174/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00036/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00057/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00186/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00069/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00061/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00082/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00097/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00224/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00110/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00203/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB10004/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00150/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00138/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00054/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00117/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00006/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00146/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00129/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00094/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00018/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00066/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00008/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00070/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00122/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00158/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00162/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00075/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00048b/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00023/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00073/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00099/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00013/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00211/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00085/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00047/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00195/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00004/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00005/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00017/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00094/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00041/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00077/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00029/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00215/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00059/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00183/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00052/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00077/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00218/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00105/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00025/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00187/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00089/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00087/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00031/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00056/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00090/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00076/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00043/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00109/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00007/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00091/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00040/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00002/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00007/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00243/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00170/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00019/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00142/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00014/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00095/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00223/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00073/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00044/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00093/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00192/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00026/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00085/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00194/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00061/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00226/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00038/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00048/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00028/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00214/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00143/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00196/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00112/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00003/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00092/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00145/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00032/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00012/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00198/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00065/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00124/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00009/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00051/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00015/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00177/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00167/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00096/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00010/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00182/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00209/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00063/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00027/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00003/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00149/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00016/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00210/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00080/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00022/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00101/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00148/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00190/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00039/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00067/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00153/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00082/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00222/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00053/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00107/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00034/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00206/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00093/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00155/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00089/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00084/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00119/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00046/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00104/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00052/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00137/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00020/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00099/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00011/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00035/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00064/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00121/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00088/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00075/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00205/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00132/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00023/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00185/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00072/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00217/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00144/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00039/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00071/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00035/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00125/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00197/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00220/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00103/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00030/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00074/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00156/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00083/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00047/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00189/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00056/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00171/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00076/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00115/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00042/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00006/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00168/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00095/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00059/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00058/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00173/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00060/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00040/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00078/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00127/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00054/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00018/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00060/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00175/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00201/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00042/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00029/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00139/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00181/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00066/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00011/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00072/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00044/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00213/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00140/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00025/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00097/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00031/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00013/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00113/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00193/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00078/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00212/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00179/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00046/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00161/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00225/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00152/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00081/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00037/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00015/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00043/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00130/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00048/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00096/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00163/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00030/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00111/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00002/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00017/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00164/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00049/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00091/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00216/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00055/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00079/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00165/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00032/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00123/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00008/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00050/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00014/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00114/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00001/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00176/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00200/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00134/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00067/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00001/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00034/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00208/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00135/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00116/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00026/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00202/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00136/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00065/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00169/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00036/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00079/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00151/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00100/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00021/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00005/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00147/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00074/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00100/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00080/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00120/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00038/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00087/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00020/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00221/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00033/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00102/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00159/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00086/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00092/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00084/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00118/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00160/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00045/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00051/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00009/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00058/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00053/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00098/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00024/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00004/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00086/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00010/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00106/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00172/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00063/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00055/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00188/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00141/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00062/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00204/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00088/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00131/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00090/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00016/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00070/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00022/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00108/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00184/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00128/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00069/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00157/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00057/>;
         skos:prefLabel          "Argo configuration parameter names" .

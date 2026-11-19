@@ -14,7 +14,7 @@
     dcterms:conformsTo <https://w3id.org/env/puv>,
         <https://w3id.org/iadopt/ont> ;
     dcterms:creator "British Oceanographic Data Centre" ;
-    dcterms:date "2026-11-17 02:00:00.0" ;
+    dcterms:date "2026-11-19 02:00:01.0" ;
     dcterms:description "Terms built using the BODC parameter semantic model designed to describe individual measured phenomena. May be used to mark up sets of data such as a NetCDF array or spreadsheet column. Units must be specified when using a P01 code. The P06 unit that is linked to individual P01 in the NVS is the one used in BODC's systems but external users can use any appropriate units." ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:publisher "Natural Environment Research Council" ;
@@ -23,7 +23,7 @@
     grg:RE_RegisterOwner "British Oceanographic Data Centre" ;
     rdfs:comment "Governance for vocabularies used within the data centre" ;
     rdfs:seeAlso <https://github.com/nvs-vocabs/P01> ;
-    owl:versionInfo "1389" ;
+    owl:versionInfo "1390" ;
     skos:altLabel "BODC PUV" ;
     skos:member <http://vocab.nerc.ac.uk/collection/P01/current/1IPSWF45/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/2IPSWF45/>,
@@ -12381,6 +12381,7 @@
         <http://vocab.nerc.ac.uk/collection/P01/current/CPHPW005/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/CPHPW105/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/CPHTIAB6/>,
+        <http://vocab.nerc.ac.uk/collection/P01/current/CPLBXX01/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/CPNMS004/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/CPNMS005/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/CPNMS006/>,
@@ -39414,6 +39415,7 @@
         <http://vocab.nerc.ac.uk/collection/P01/current/SPHXFLXX/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/SPHXFMXX/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/SPIDXX01/>,
+        <http://vocab.nerc.ac.uk/collection/P01/current/SPLBXX01/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/SPLGXX01/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/SPLTTHCK/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/SPLTVISC/>,
@@ -349460,6 +349462,27 @@
     skos:related <http://vocab.nerc.ac.uk/collection/P06/current/UUKG/>,
         <http://vocab.nerc.ac.uk/collection/S02/current/S055/> ;
     iop:hasMatrix <http://vocab.nerc.ac.uk/collection/S21/current/S21S022/> .
+
+<http://vocab.nerc.ac.uk/collection/P01/current/CPLBXX01/> rdf:type skos:Concept ;
+    dc:identifier "SDN:P01::CPLBXX01" ;
+    dcterms:date "2026-11-18 16:35:55.0" ;
+    dcterms:identifier "SDN:P01::CPLBXX01" ;
+    pav:authoredOn "2026-11-18 16:35:55.0" ;
+    pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/P01/current/CPLBXX01/1/> ;
+    pav:version "1" ;
+    void:inDataset <http://vocab.nerc.ac.uk/.well-known/void> ;
+    owl:deprecated "false" ;
+    owl:versionInfo "1" ;
+    skos:altLabel "CPL" ;
+    skos:broader <http://vocab.nerc.ac.uk/collection/S06/current/S0600015/>,
+        <http://vocab.nerc.ac.uk/collection/S25/current/BE010981/>,
+        <http://vocab.nerc.ac.uk/collection/S26/current/MAT00906/> ;
+    skos:definition "The length taken along the curved surface of the ventral (lower) portion of the shell covering the abomen of some animals like turtles, tortoises, or terrapins identified elsewhere in the data schema."@en ;
+    skos:notation "SDN:P01::CPLBXX01" ;
+    skos:note "accepted"@en ;
+    skos:prefLabel "Length of biological entity specified elsewhere [Subcomponent: plastron] {curved plastron length} by curvilinear measurement"@en ;
+    skos:related <http://vocab.nerc.ac.uk/collection/S02/current/S029/>,
+        <http://vocab.nerc.ac.uk/collection/S04/current/S041205/> .
 
 <http://vocab.nerc.ac.uk/collection/P01/current/CPNMS004/> rdf:type skos:Concept ;
     dc:identifier "SDN:P01::CPNMS004" ;
@@ -985860,6 +985883,27 @@
     skos:note "accepted"@en ;
     skos:prefLabel "Identifier of single particle"@en ;
     skos:related <http://vocab.nerc.ac.uk/collection/P06/current/XXXX/> .
+
+<http://vocab.nerc.ac.uk/collection/P01/current/SPLBXX01/> rdf:type skos:Concept ;
+    dc:identifier "SDN:P01::SPLBXX01" ;
+    dcterms:date "2026-11-18 16:35:55.0" ;
+    dcterms:identifier "SDN:P01::SPLBXX01" ;
+    pav:authoredOn "2026-11-18 16:35:55.0" ;
+    pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/P01/current/SPLBXX01/1/> ;
+    pav:version "1" ;
+    void:inDataset <http://vocab.nerc.ac.uk/.well-known/void> ;
+    owl:deprecated "false" ;
+    owl:versionInfo "1" ;
+    skos:altLabel "SPL" ;
+    skos:broader <http://vocab.nerc.ac.uk/collection/S06/current/S0600015/>,
+        <http://vocab.nerc.ac.uk/collection/S25/current/BE010981/>,
+        <http://vocab.nerc.ac.uk/collection/S26/current/MAT00906/> ;
+    skos:definition "The length taken in a straight line between two points of the ventral (lower) portion of the shell covering the abomen of some animals like turtles, tortoises, or terrapins identified elsewhere in the data schema."@en ;
+    skos:notation "SDN:P01::SPLBXX01" ;
+    skos:note "accepted"@en ;
+    skos:prefLabel "Length of biological entity specified elsewhere [Subcomponent: plastron] {straight plastron length} by linear measurement"@en ;
+    skos:related <http://vocab.nerc.ac.uk/collection/S02/current/S029/>,
+        <http://vocab.nerc.ac.uk/collection/S04/current/S041204/> .
 
 <http://vocab.nerc.ac.uk/collection/P01/current/SPLGXX01/> rdf:type skos:Concept ;
     dc:identifier "SDN:P01::SPLGXX01" ;
