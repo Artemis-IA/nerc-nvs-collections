@@ -182,6 +182,24 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_<short_sensor_name>BetaAngle_angularDeg"@en .
 
+<http://vocab.nerc.ac.uk/collection/R18/current/CC00093/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R18::CC00093";
+        dc:date                "2026-11-19 13:02:26.0";
+        dc:identifier          "SDN:R18::CC00093";
+        pav:authoredOn         "2026-11-19 13:02:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CC00093/5/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CC00093/4/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00093/1/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00093/3/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00093/2/>;
+        pav:version            "5";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "5";
+        skos:altLabel          "Core Config 93";
+        skos:definition        "Never used on the GDAC. Last day of the year during which telemetry is attempted during the Surface phase. When the float surfaces on a day that is not specified, it does not attempt telemetry and immediately begins the Park Descent phase for the next profiling cycle. TelemetryDays are specified with a start day and an end day. The start day is the first day of the transmit season for the year. The end day is the last day of the transmit season for the year. A setting of 0 0 disables TelemetryDays, and the float attempts telemetry during each Surface Phase. Template_Values:{unit:[NUMBER]}."@en;
+        skos:notation          "SDN:R18::CC00093";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "CONFIG_IceDetectionEndTelemetryDay_NUMBER"@en .
+
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00064/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R18::CC00064";
@@ -361,6 +379,23 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:R18::CC00028";
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_ConnectionTimeOut_seconds"@en .
+
+<http://vocab.nerc.ac.uk/collection/R18/current/CC000246/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R18::CC000246";
+        dc:date                "2026-11-19 13:01:11.0";
+        dc:identifier          "SDN:R18::CC000246";
+        pav:authoredOn         "2026-11-19 13:01:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CC000246/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Core Config 246";
+        skos:definition        "Ice Guard manufacturer name (1 = University of Washington, 2 = TWR, 3 = MRV, 4 = NKE). Template_Values:{unit:[NUMBER]}."@en;
+        skos:notation          "SDN:R18::CC000246";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "CONFIG_IceGuardManufacturer_NUMBER"@en .
 
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00207/>
         rdf:type               skos:Concept;
@@ -1117,24 +1152,6 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:note              "deprecated"@en;
         skos:prefLabel         "CONFIG_ClockPresetStartCycle_LOGICAL"@en .
 
-<http://vocab.nerc.ac.uk/collection/R18/current/CC00073/>
-        rdf:type               skos:Concept;
-        dce:identifier         "SDN:R18::CC00073";
-        dc:date                "2025-12-12 11:41:04.0";
-        dc:identifier          "SDN:R18::CC00073";
-        pav:authoredOn         "2025-12-12 11:41:04.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CC00073/2/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CC00073/1/>;
-        pav:version            "2";
-        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
-        owl:deprecated         "false";
-        owl:versionInfo        "2";
-        skos:altLabel          "Core Config 73";
-        skos:definition        "Number of consecutive ISA detections before float surface inhibition. If fewer consecutive ice detections are made, then the float will immediately seek the surface if mixed layer temp is warm. Template_Values:{unit:[NUMBER]}."@en;
-        skos:notation          "SDN:R18::CC00073";
-        skos:note              "accepted"@en;
-        skos:prefLabel         "CONFIG_IceDetectionConsecutiveDetectionBeforeFloatSurfaceInhibition_Number"@en .
-
 <http://vocab.nerc.ac.uk/collection/R18/current/CB00099/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R18::CB00099";
@@ -1336,17 +1353,17 @@ PREFIX void:   <http://rdfs.org/ns/void#>
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00077/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R18::CC00077";
-        dc:date                "2025-12-12 11:41:11.0";
+        dc:date                "2026-11-19 13:01:11.0";
         dc:identifier          "SDN:R18::CC00077";
-        pav:authoredOn         "2025-12-12 11:41:11.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CC00077/2/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CC00077/1/>;
-        pav:version            "2";
+        pav:authoredOn         "2026-11-19 13:01:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CC00077/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CC00077/2/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00077/1/>;
+        pav:version            "3";
         void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
         owl:deprecated         "false";
-        owl:versionInfo        "2";
+        owl:versionInfo        "3";
         skos:altLabel          "Core Config 77";
-        skos:definition        "Maximum sampling pressure used by ice cover detection algorithm (i.e., start pressure threshold for ice detection algorithm). Template_Values:{unit:[bar, dbar, cbar, mbar, inHg]}."@en;
+        skos:definition        "Maximum sampling pressure used by ice cover detection algorithm (i.e., deepest pressure threshold for ice detection algorithm). Template_Values:{unit:[bar, dbar, cbar, mbar, inHg]}."@en;
         skos:notation          "SDN:R18::CC00077";
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_IceDetectionMixedLayerPMax_dbar"@en .
@@ -1494,6 +1511,23 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:R18::CC00105";
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_MaxAttemptsGPSAcquisitionBeforeResetGPS_COUNT"@en .
+
+<http://vocab.nerc.ac.uk/collection/R18/current/CC000252/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R18::CC000252";
+        dc:date                "2026-11-19 13:01:11.0";
+        dc:identifier          "SDN:R18::CC000252";
+        pav:authoredOn         "2026-11-19 13:01:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CC000252/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Core Config 252";
+        skos:definition        "Amount of time allowed for the float to descend from its current depth by the number of decibars specified by CONFIG_IceDetectionIceDescentPressure. Should the float not reach this depth in this period, it will begin the Ice Ascent cycle. CONFIG_IceDetectionIceDescentTimeout is also used to manage the float's descent rate. The float will attempt to descend by CONFIG_IceDetectionIceDescentPressure just before CONFIG_IceDetectionIceDescentTimeout, which should be set to prevent the float from having to pull in an excess amount of oil to descend by CONFIG_IceDetectionIceDescentPressure too quickly and have to pump that extra oil back out, but not too long where the descent would not be completed. Template_Values:{unit:[minutes, seconds]}."@en;
+        skos:notation          "SDN:R18::CC000252";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "CONFIG_IceDetectionIceDescentTimeout_minutes"@en .
 
 <http://vocab.nerc.ac.uk/collection/R18/current/CB00025/>
         rdf:type               skos:Concept;
@@ -1926,24 +1960,6 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_DescentToParkTimeOut_hours"@en .
 
-<http://vocab.nerc.ac.uk/collection/R18/current/CC00093/>
-        rdf:type               skos:Concept;
-        dce:identifier         "SDN:R18::CC00093";
-        dc:date                "2026-03-09 09:11:25.0";
-        dc:identifier          "SDN:R18::CC00093";
-        pav:authoredOn         "2026-03-09 09:11:25.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CC00093/4/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CC00093/1/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00093/3/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00093/2/>;
-        pav:version            "4";
-        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
-        owl:deprecated         "true";
-        owl:versionInfo        "4";
-        skos:altLabel          "Core Config 93";
-        skos:definition        "Never used on the GDAC. Last day of the year during which telemetry is attempted during the Surface phase. When the float surfaces on a day that is not specified, it does not attempt telemetry and immediately begins the Park Descent phase for the next profiling cycle. TelemetryDays are specified with a start day and an end day. The start day is the first day of the transmit season for the year. The end day is the last day of the transmit season for the year. A setting of 0 0 disables TelemetryDays, and the float attempts telemetry during each Surface Phase. Template_Values:{unit:[NUMBER]}."@en;
-        skos:notation          "SDN:R18::CC00093";
-        skos:note              "deprecated"@en;
-        skos:prefLabel         "CONFIG_IceDetectionEndTelemetryDay_NUMBER"@en .
-
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00192/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R18::CC00192";
@@ -2068,6 +2084,23 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:R18::CC00038";
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_DelayBeforeMissionStart_minutes"@en .
+
+<http://vocab.nerc.ac.uk/collection/R18/current/CC000250/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R18::CC000250";
+        dc:date                "2026-11-19 13:01:11.0";
+        dc:identifier          "SDN:R18::CC000250";
+        pav:authoredOn         "2026-11-19 13:01:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CC000250/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Core Config 250";
+        skos:definition        "Number of counts to remove from the current buoyancy position so as to incrementally decrease the buoyancy of the float to descend by CONFIG_IceDetectionIceDescentPressure. Template_Values:{unit:[COUNT]}."@en;
+        skos:notation          "SDN:R18::CC000250";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "CONFIG_IceDetectionIceDescentNudge_COUNT"@en .
 
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00048/>
         rdf:type               skos:Concept;
@@ -2194,24 +2227,6 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:R18::CB00003";
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_<short_sensor_name>DescentToParkPresSamplingPeriod_seconds"@en .
-
-<http://vocab.nerc.ac.uk/collection/R18/current/CC00092/>
-        rdf:type               skos:Concept;
-        dce:identifier         "SDN:R18::CC00092";
-        dc:date                "2026-03-09 09:11:25.0";
-        dc:identifier          "SDN:R18::CC00092";
-        pav:authoredOn         "2026-03-09 09:11:25.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CC00092/4/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CC00092/1/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00092/3/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00092/2/>;
-        pav:version            "4";
-        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
-        owl:deprecated         "true";
-        owl:versionInfo        "4";
-        skos:altLabel          "Core Config 92";
-        skos:definition        "Never used on the GDAC. First day of the year during which telemetry is attempted during the Surface phase. When the float surfaces on a day that is not specified, it does not attempt telemetry and immediately begins the Park Descent phase for the next profiling cycle. TelemetryDays are specified with a start day and an end day. The start day is the first day of the transmit season for the year. The end day is the last day of the transmit season for the year. A setting of 0 0 disables TelemetryDays, and the float attempts telemetry during each Surface Phase. Template_Values:{unit:[NUMBER]}."@en;
-        skos:notation          "SDN:R18::CC00092";
-        skos:note              "deprecated"@en;
-        skos:prefLabel         "CONFIG_IceDetectionFirstTelemetryDay_NUMBER"@en .
 
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00145/>
         rdf:type               skos:Concept;
@@ -2681,6 +2696,23 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_RudicsAndIridiumSessionWhenNoGPS_LOGICAL"@en .
 
+<http://vocab.nerc.ac.uk/collection/R18/current/CC000245/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R18::CC000245";
+        dc:date                "2026-11-19 13:01:11.0";
+        dc:identifier          "SDN:R18::CC000245";
+        pav:authoredOn         "2026-11-19 13:01:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CC000245/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Core Config 245";
+        skos:definition        "Ice Guard type attached to the float (only if present). Several types are available (1 = Pole/rod, 2 = Double loop - Eggbeater, 3 = Single loop, 4 = Cage). Template_Values:{unit:[NUMBER]}."@en;
+        skos:notation          "SDN:R18::CC000245";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "CONFIG_IceGuardType_NUMBER"@en .
+
 <http://vocab.nerc.ac.uk/collection/R18/current/CB00039/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R18::CB00039";
@@ -2806,6 +2838,23 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_MaxDelayBeforeCycleStart_minutes"@en .
 
+<http://vocab.nerc.ac.uk/collection/R18/current/CC000247/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R18::CC000247";
+        dc:date                "2026-11-19 13:01:11.0";
+        dc:identifier          "SDN:R18::CC000247";
+        pav:authoredOn         "2026-11-19 13:01:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CC000247/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Core Config 247";
+        skos:definition        "Difference from the float calculated freezing point of water below which ascent is terminated because of the likelihood of the presence of ice above. The value of this configuration parameter will be greater than zero. The float will add this value to the calculated freezing point of water to create the threshold. This parameter is used by the Arctic SOLO. Template_Values:{unit:[degC, mdegC]}."@en;
+        skos:notation          "SDN:R18::CC000247";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "CONFIG_IceDetectionDelta_degC"@en .
+
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00034/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R18::CC00034";
@@ -2913,6 +2962,23 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:R18::CC00084";
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_IceDetectionPumpActionMaxTimeAscent_csec"@en .
+
+<http://vocab.nerc.ac.uk/collection/R18/current/CC000249/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R18::CC000249";
+        dc:date                "2026-11-19 13:01:11.0";
+        dc:identifier          "SDN:R18::CC000249";
+        pav:authoredOn         "2026-11-19 13:01:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CC000249/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Core Config 249";
+        skos:definition        "Amount of time allowed for the float to ascend from its current depth and reach the surface. Should the float not reach the surface in this period, it will begin the Surface Phase and retry telemetry. It is recommended that CONFIG_IceDetectionIceAscentTimeout be set to greater than CONFIG_IceDetectionIceDescentTimeout to allow the float to complete the ascent to the surface if there is no longer any ice. Template_Values:{unit:[minutes]}."@en;
+        skos:notation          "SDN:R18::CC000249";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "CONFIG_IceDetectionIceAscentTimeout_minutes"@en .
 
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00119/>
         rdf:type               skos:Concept;
@@ -3457,17 +3523,17 @@ PREFIX void:   <http://rdfs.org/ns/void#>
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00083/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R18::CC00083";
-        dc:date                "2026-03-05 17:07:34.0";
+        dc:date                "2026-11-19 13:01:11.0";
         dc:identifier          "SDN:R18::CC00083";
-        pav:authoredOn         "2026-03-05 17:07:34.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CC00083/4/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CC00083/3/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00083/1/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00083/2/>;
-        pav:version            "4";
+        pav:authoredOn         "2026-11-19 13:01:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CC00083/5/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CC00083/3/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00083/4/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00083/1/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00083/2/>;
+        pav:version            "5";
         void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
         owl:deprecated         "false";
-        owl:versionInfo        "4";
+        owl:versionInfo        "5";
         skos:altLabel          "Core Config 83";
-        skos:definition        "Sampling interval used by the float to collect T and S between CONFIG_IceDetectionMixedLayerPMax_dbar and CONFIG_IceDetectionMixedLayerPMin_dbar for the TEMP comparison, within the Ice Detection algorithm. Units can be dbar (e.g. PROVOR CTS5) or minutes (e.g. ARVOR). Template_Values:{unit:[bar, dbar, cbar, mbar, inHg, minutes]}."@en;
+        skos:definition        "Sampling interval used by the float to collect T and S between CONFIG_IceDetectionMixedLayerPMax_dbar and CONFIG_IceDetectionMixedLayerPMin_dbar for the TEMP comparison, within the Ice Detection algorithm. Units can be dbar (e.g. PROVOR CTS5) or minutes (e.g. ARVOR) or seconds (e.g. SOLO). Template_Values:{unit:[bar, dbar, cbar, mbar, inHg, minutes, seconds]}."@en;
         skos:notation          "SDN:R18::CC00083";
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_IceDetectionPressureInterval_dbar"@en .
@@ -3543,6 +3609,24 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:R18::CC00171";
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_ProfileDepthInterval_dbar"@en .
+
+<http://vocab.nerc.ac.uk/collection/R18/current/CC00092/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R18::CC00092";
+        dc:date                "2026-11-19 13:02:26.0";
+        dc:identifier          "SDN:R18::CC00092";
+        pav:authoredOn         "2026-11-19 13:02:26.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CC00092/5/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CC00092/1/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00092/2/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00092/3/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00092/4/>;
+        pav:version            "5";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "5";
+        skos:altLabel          "Core Config 92";
+        skos:definition        "Never used on the GDAC. First day of the year during which telemetry is attempted during the Surface phase. When the float surfaces on a day that is not specified, it does not attempt telemetry and immediately begins the Park Descent phase for the next profiling cycle. TelemetryDays are specified with a start day and an end day. The start day is the first day of the transmit season for the year. The end day is the last day of the transmit season for the year. A setting of 0 0 disables TelemetryDays, and the float attempts telemetry during each Surface Phase. Template_Values:{unit:[NUMBER]}."@en;
+        skos:notation          "SDN:R18::CC00092";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "CONFIG_IceDetectionFirstTelemetryDay_NUMBER"@en .
 
 <http://vocab.nerc.ac.uk/collection/R18/current/CB00076/>
         rdf:type               skos:Concept;
@@ -3886,6 +3970,24 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_SunaMinTransmittedNitrateConcentration_umol/L"@en .
 
+<http://vocab.nerc.ac.uk/collection/R18/current/CC00013/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R18::CC00013";
+        dc:date                "2026-11-19 13:01:11.0";
+        dc:identifier          "SDN:R18::CC00013";
+        pav:authoredOn         "2026-11-19 13:01:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CC00013/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CC00013/1/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00013/2/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "Core Config 13";
+        skos:definition        "Indicates for which months the ice detection algorithm is active (months in reverse order). Each month is one bit in a 12-bit binary string representing January (000000000001) to December (100000000000). The parameter in the metadata file is the integer number of the binary string. For example, for the Southern Hemisphere a common setting is to have the ice detection algorithm active for all months except February (111111111101) the number for the configuration parameter in the metafile would be bin2dec(111111111101)=4093; The complementary northern hemisphere setting would be all months active except for August (111101111111) the number for the configuration parameter in the metafile would be bin2dec(111101111111)=3967. Template_Values:{unit:[NUMBER]}."@en;
+        skos:notation          "SDN:R18::CC00013";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "CONFIG_BitMaskMonthsIceDetectionActive_NUMBER"@en .
+
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00029/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R18::CC00029";
@@ -4102,24 +4204,6 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_OcrMinTransmittedPar_COUNT"@en .
 
-<http://vocab.nerc.ac.uk/collection/R18/current/CC00013/>
-        rdf:type               skos:Concept;
-        dce:identifier         "SDN:R18::CC00013";
-        dc:date                "2025-12-12 11:41:10.0";
-        dc:identifier          "SDN:R18::CC00013";
-        pav:authoredOn         "2025-12-12 11:41:10.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CC00013/2/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CC00013/1/>;
-        pav:version            "2";
-        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
-        owl:deprecated         "false";
-        owl:versionInfo        "2";
-        skos:altLabel          "Core Config 13";
-        skos:definition        "Indicates for which months the ice detection algorithm is active - months in reverse order. The bit mask is input as a 3 digit hexadecimal value in the mission file sent to the float. This parameter in the metadata file however is the decimal number of that hexadecimal value. For example for the Southern Hemisphere the default position is to have the ice detection algorithm active for all months except February: the hexadecimal value in the mission file is 'FFD' (or 1111 1111 1101 in binary representation), and the associated decimal value for the configuration parameter in the metafile would be 4093. The northern hemisphere default would be all months active except for August: the hexadecimal value is 'F7F' (or 1111 0111 1111 in binary representation) and the associated decimal value for the configuration parameter in the metafile would be 3967. Template_Values:{unit:[NUMBER]}."@en;
-        skos:notation          "SDN:R18::CC00013";
-        skos:note              "accepted"@en;
-        skos:prefLabel         "CONFIG_BitMaskMonthsIceDetectionActive_NUMBER"@en .
-
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00113/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R18::CC00113";
@@ -4159,17 +4243,17 @@ PREFIX void:   <http://rdfs.org/ns/void#>
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00078/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R18::CC00078";
-        dc:date                "2025-12-12 11:41:11.0";
+        dc:date                "2026-11-19 13:01:11.0";
         dc:identifier          "SDN:R18::CC00078";
-        pav:authoredOn         "2025-12-12 11:41:11.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CC00078/2/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CC00078/1/>;
-        pav:version            "2";
+        pav:authoredOn         "2026-11-19 13:01:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CC00078/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CC00078/1/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00078/2/>;
+        pav:version            "3";
         void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
         owl:deprecated         "false";
-        owl:versionInfo        "2";
+        owl:versionInfo        "3";
         skos:altLabel          "Core Config 78";
-        skos:definition        "Minimum sampling pressure used by ice cover detection algorithm (i.e., end pressure threshold for ice detection algorithm). Template_Values:{unit:[bar, dbar, cbar, mbar, inHg]}."@en;
+        skos:definition        "Minimum sampling pressure used by ice cover detection algorithm (i.e., shallowest pressure threshold for ice detection algorithm). Template_Values:{unit:[bar, dbar, cbar, mbar, inHg]}."@en;
         skos:notation          "SDN:R18::CC00078";
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_IceDetectionMixedLayerPMin_dbar"@en .
@@ -4191,6 +4275,23 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:R18::CC00212";
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_TransmissionEndCycle_LOGICAL"@en .
+
+<http://vocab.nerc.ac.uk/collection/R18/current/CC000248/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R18::CC000248";
+        dc:date                "2026-11-19 13:01:11.0";
+        dc:identifier          "SDN:R18::CC000248";
+        pav:authoredOn         "2026-11-19 13:01:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CC000248/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Core Config 248";
+        skos:definition        "The delta buoyancy position in counts that will cause the float to descend by CONFIG_IceDetectionIceDescentPressure. The float moves the current buoyancy position by the amount specified. This configuration parameter is dynamically updated during each Ice Descent cycle in accordance with CONFIG_IceDetectionIceDescentNudge. Template_Values:{unit:[COUNT]}."@en;
+        skos:notation          "SDN:R18::CC000248";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "CONFIG_IceDetectionIceDescent_COUNT"@en .
 
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00179/>
         rdf:type               skos:Concept;
@@ -5163,6 +5264,23 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_InternalCycle<D>LastGregYear_YYYY"@en .
 
+<http://vocab.nerc.ac.uk/collection/R18/current/CC000244/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R18::CC000244";
+        dc:date                "2026-11-19 13:01:11.0";
+        dc:identifier          "SDN:R18::CC000244";
+        pav:authoredOn         "2026-11-19 13:01:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CC000244/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Core Config 244";
+        skos:definition        "Ice Guard height, e.g. record of the height offset measured from the top of the ice guard to the pressure sensor on the float (measure from the base of the pressure sensor for consistency). Template_Values:{unit:[cm]}."@en;
+        skos:notation          "SDN:R18::CC000244";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "CONFIG_IceGuardHeightOffsetFromPressureSensor_cm"@en .
+
 <http://vocab.nerc.ac.uk/collection/R18/current/CB00080/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R18::CB00080";
@@ -5451,6 +5569,23 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_Ocr<param>Wavelength<I>_nm"@en .
 
+<http://vocab.nerc.ac.uk/collection/R18/current/CC000251/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R18::CC000251";
+        dc:date                "2026-11-19 13:01:11.0";
+        dc:identifier          "SDN:R18::CC000251";
+        pav:authoredOn         "2026-11-19 13:01:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CC000251/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Core Config 251";
+        skos:definition        "Pressure associated with CONFIG_IceDetectionMaxCycles. The float descends from its current depth by the number of decibars specified, limited by the maximum descent depth which is 2000 dbar. For example, if CONFIG_IceDetectionIceDescentPressure is set to 100 dbar and the float starts descending from 1950 dbar, it would not descend to 2050 dbar. It would target 2000 dbar to avoid going below the maximum pressure. Template_Values:{unit:[dbar]}."@en;
+        skos:notation          "SDN:R18::CC000251";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "CONFIG_IceDetectionIceDescentPressure_dbar"@en .
+
 <http://vocab.nerc.ac.uk/collection/R18/current/CB00009/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R18::CB00009";
@@ -5541,6 +5676,24 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_OptodeMaxTransmittedBPhase_angularDeg"@en .
 
+<http://vocab.nerc.ac.uk/collection/R18/current/CC00073/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R18::CC00073";
+        dc:date                "2026-11-19 13:01:11.0";
+        dc:identifier          "SDN:R18::CC00073";
+        pav:authoredOn         "2026-11-19 13:01:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CC00073/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CC00073/2/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00073/1/>;
+        pav:version            "3";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "3";
+        skos:altLabel          "Core Config 73";
+        skos:definition        "Number of consecutive ISA detections before float surface inhibition. If fewer consecutive ice detections are made, then the float will immediately seek the surface if mixed layer temp is warm. Template_Values:{unit:[NUMBER]}."@en;
+        skos:notation          "SDN:R18::CC00073";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "CONFIG_IceDetectionConsecutiveDetectionBeforeFloatSurfaceInhibition_NUMBER"@en .
+
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00004/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R18::CC00004";
@@ -5630,6 +5783,23 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         skos:notation          "SDN:R18::CC00172";
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_ProfileEvasionBrakingFactor_NUMBER"@en .
+
+<http://vocab.nerc.ac.uk/collection/R18/current/CC000253/>
+        rdf:type               skos:Concept;
+        dce:identifier         "SDN:R18::CC000253";
+        dc:date                "2026-11-19 13:01:11.0";
+        dc:identifier          "SDN:R18::CC000253";
+        pav:authoredOn         "2026-11-19 13:01:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CC000253/1/>;
+        pav:version            "1";
+        void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
+        owl:deprecated         "false";
+        owl:versionInfo        "1";
+        skos:altLabel          "Core Config 253";
+        skos:definition        "The maximum interval in seconds between float samples of pressure to determine if the float has descended by the number of decibars specified by CONFIG_IceDetectionIceDescentPressure. The float may wake up at a different interval based on the current descent rate. Template_Values:{unit:[minutes, seconds]}."@en;
+        skos:notation          "SDN:R18::CC000253";
+        skos:note              "accepted"@en;
+        skos:prefLabel         "CONFIG_IceDetectionIceDescentTimerInterval_seconds"@en .
 
 <http://vocab.nerc.ac.uk/collection/R18/current/CB00063/>
         rdf:type               skos:Concept;
@@ -5904,17 +6074,17 @@ PREFIX void:   <http://rdfs.org/ns/void#>
 <http://vocab.nerc.ac.uk/collection/R18/current/CC00069/>
         rdf:type               skos:Concept;
         dce:identifier         "SDN:R18::CC00069";
-        dc:date                "2025-12-12 11:41:03.0";
+        dc:date                "2026-11-19 13:01:11.0";
         dc:identifier          "SDN:R18::CC00069";
-        pav:authoredOn         "2025-12-12 11:41:03.0";
-        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CC00069/2/>;
-        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CC00069/1/>;
-        pav:version            "2";
+        pav:authoredOn         "2026-11-19 13:01:11.0";
+        pav:hasCurrentVersion  <http://vocab.nerc.ac.uk/collection/R18/current/CC00069/3/>;
+        pav:hasVersion         <http://vocab.nerc.ac.uk/collection/R18/current/CC00069/2/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00069/1/>;
+        pav:version            "3";
         void:inDataset         <http://vocab.nerc.ac.uk/.well-known/void>;
         owl:deprecated         "false";
-        owl:versionInfo        "2";
+        owl:versionInfo        "3";
         skos:altLabel          "Core Config 69";
-        skos:definition        "Temperature threshold under which profiles are aborted (suspicion of ice formation conditions). Template_Values:{unit:[degC, mdegC]}."@en;
+        skos:definition        "Temperature threshold below which profiles are aborted because of the likelihood of the presence of ice above. Template_Values:{unit:[degC, mdegC]}."@en;
         skos:notation          "SDN:R18::CC00069";
         skos:note              "accepted"@en;
         skos:prefLabel         "CONFIG_IceDetection_degC"@en .
@@ -5961,13 +6131,13 @@ PREFIX void:   <http://rdfs.org/ns/void#>
         rdfs:seeAlso            <https://github.com/OneArgo/ArgoVocabs>;
         dc:alternative          "CONFIG_PARAMETER_NAME";
         dc:creator              "Argo Data Management Team";
-        dc:date                 "2026-11-19 02:00:01.0";
+        dc:date                 "2026-11-20 02:00:01.0";
         dc:description          "List of float configuration settings selected by the float Principal Investigator (PI). Configuration parameters selected for a float are stored in the float 'meta.nc' file, under CONFIG_PARAMETER_NAME and LAUNCH_CONFIG_PARAMETER_NAME, which are populated by R18 prefLabel. Detailed information (incl. Template_Values explanation) is in the user manual (https://dx.doi.org/10.13155/29825), in the Reference Table 18 section.";
         dc:publisher            "Natural Environment Research Council";
         dc:title                "Argo configuration parameter names";
         grg:RE_RegisterManager  "British Oceanographic Data Centre";
         grg:RE_RegisterOwner    "Argo Data Management Team";
-        owl:versionInfo         "13";
+        owl:versionInfo         "14";
         skos:altLabel           "CONFIG_PARAMETER_NAME";
-        skos:member             <http://vocab.nerc.ac.uk/collection/R18/current/CC00068/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00041/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00081/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00133/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00037/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00180/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00050/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00154/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00062/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00064/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00098/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00071/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00033/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00083/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00199/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00166/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00126/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00021/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00028/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00207/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00178/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00012/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00027/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00219/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00019/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00101/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00191/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00049/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB10008/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00024/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00045/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00174/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00036/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00057/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00186/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00069/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00061/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00082/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00097/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00224/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00110/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00203/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB10004/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00150/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00138/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00054/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00117/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00006/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00146/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00129/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00094/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00018/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00066/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00008/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00070/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00122/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00158/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00162/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00075/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00048b/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00023/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00073/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00099/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00013/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00211/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00085/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00047/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00195/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00004/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00005/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00017/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00094/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00041/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00077/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00029/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00215/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00059/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00183/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00052/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00077/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00218/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00105/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00025/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00187/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00089/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00087/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00031/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00056/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00090/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00076/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00043/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00109/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00007/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00091/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00040/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00002/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00007/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00243/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00170/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00019/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00142/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00014/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00095/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00223/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00073/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00044/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00093/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00192/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00026/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00085/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00194/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00061/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00226/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00038/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00048/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00028/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00214/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00143/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00196/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00112/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00003/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00092/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00145/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00032/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00012/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00198/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00065/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00124/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00009/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00051/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00015/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00177/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00167/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00096/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00010/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00182/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00209/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00063/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00027/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00003/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00149/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00016/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00210/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00080/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00022/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00101/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00148/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00190/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00039/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00067/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00153/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00082/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00222/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00053/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00107/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00034/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00206/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00093/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00155/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00089/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00084/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00119/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00046/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00104/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00052/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00137/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00020/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00099/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00011/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00035/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00064/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00121/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00088/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00075/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00205/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00132/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00023/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00185/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00072/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00217/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00144/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00039/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00071/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00035/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00125/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00197/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00220/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00103/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00030/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00074/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00156/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00083/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00047/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00189/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00056/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00171/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00076/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00115/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00042/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00006/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00168/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00095/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00059/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00058/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00173/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00060/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00040/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00078/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00127/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00054/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00018/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00060/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00175/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00201/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00042/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00029/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00139/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00181/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00066/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00011/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00072/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00044/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00213/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00140/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00025/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00097/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00031/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00013/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00113/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00193/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00078/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00212/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00179/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00046/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00161/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00225/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00152/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00081/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00037/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00015/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00043/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00130/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00048/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00096/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00163/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00030/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00111/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00002/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00017/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00164/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00049/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00091/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00216/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00055/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00079/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00165/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00032/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00123/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00008/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00050/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00014/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00114/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00001/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00176/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00200/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00134/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00067/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00001/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00034/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00208/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00135/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00116/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00026/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00202/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00136/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00065/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00169/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00036/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00079/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00151/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00100/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00021/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00005/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00147/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00074/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00100/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00080/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00120/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00038/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00087/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00020/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00221/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00033/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00102/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00159/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00086/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00092/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00084/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00118/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00160/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00045/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00051/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00009/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00058/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00053/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00098/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00024/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00004/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00086/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00010/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00106/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00172/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00063/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00055/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00188/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00141/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00062/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00204/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00088/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00131/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00090/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00016/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00070/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00022/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00108/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00184/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00128/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00069/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00157/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00057/>;
+        skos:member             <http://vocab.nerc.ac.uk/collection/R18/current/CC00068/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00041/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00081/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00133/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00037/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00180/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00050/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00154/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00062/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00093/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00064/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00098/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00071/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00033/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00083/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00199/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00166/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00126/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00021/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00028/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC000246/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00207/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00178/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00012/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00027/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00219/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00019/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00101/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00191/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00049/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB10008/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00024/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00045/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00174/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00036/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00057/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00186/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00069/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00061/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00082/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00097/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00224/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00110/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00203/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB10004/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00150/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00138/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00054/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00117/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00006/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00146/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00129/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00094/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00018/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00066/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00008/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00070/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00122/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00158/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00162/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00075/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00048b/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00023/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00099/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00013/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00211/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00085/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00047/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00195/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00004/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00005/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00017/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00094/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00041/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00077/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00029/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00215/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00059/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00183/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00052/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00077/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00218/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00105/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC000252/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00025/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00187/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00089/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00087/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00031/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00056/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00090/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00076/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00043/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00109/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00007/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00091/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00040/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00002/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00007/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00243/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00170/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00019/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00142/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00014/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00095/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00223/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00073/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00044/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00192/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00026/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00085/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00194/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00061/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00226/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00038/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC000250/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00048/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00028/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00214/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00143/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00196/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00112/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00003/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00145/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00032/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00012/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00198/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00065/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00124/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00009/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00051/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00015/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00177/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00167/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00096/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00010/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00182/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00209/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00063/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00027/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00003/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00149/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00016/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00210/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00080/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00022/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00101/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00148/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00190/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC000245/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00039/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00067/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00153/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00082/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00222/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00053/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00107/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC000247/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00034/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00206/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00093/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00155/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00089/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00084/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC000249/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00119/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00046/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00104/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00052/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00137/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00020/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00099/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00011/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00035/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00064/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00121/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00088/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00075/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00205/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00132/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00023/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00185/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00072/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00217/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00144/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00039/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00071/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00035/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00125/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00197/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00220/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00103/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00030/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00074/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00156/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00083/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00047/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00189/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00056/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00171/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00092/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00076/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00115/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00042/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00006/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00168/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00095/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00059/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00058/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00173/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00060/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00040/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00078/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00127/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00054/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00018/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00060/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00175/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00201/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00042/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00013/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00029/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00139/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00181/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00066/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00011/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00072/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00044/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00213/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00140/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00025/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00097/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00031/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00113/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00193/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00078/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00212/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC000248/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00179/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00046/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00161/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00225/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00152/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00081/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00037/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00015/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00043/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00130/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00048/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00096/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00163/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00030/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00111/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00002/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00017/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00164/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00049/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00091/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00216/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00055/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00079/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00165/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00032/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00123/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00008/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00050/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00014/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00114/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00001/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00176/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00200/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00134/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00067/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00001/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00034/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00208/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00135/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00116/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00026/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00202/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00136/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00065/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00169/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00036/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00079/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00151/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00100/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00021/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00005/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00147/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00074/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00100/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC000244/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00080/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00120/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00038/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00087/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00020/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00221/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00033/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00102/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00159/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00086/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00092/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00084/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00118/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00160/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00045/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00051/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC000251/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00009/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00058/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00053/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00098/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00024/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00073/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00004/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00086/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00010/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00106/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00172/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC000253/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00063/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00055/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00188/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00141/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00062/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00204/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00088/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00131/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00090/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00016/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00070/> , <http://vocab.nerc.ac.uk/collection/R18/current/CB00022/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00108/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00184/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00128/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00069/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00157/> , <http://vocab.nerc.ac.uk/collection/R18/current/CC00057/>;
         skos:prefLabel          "Argo configuration parameter names" .
