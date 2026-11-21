@@ -14,7 +14,7 @@
     dcterms:conformsTo <https://w3id.org/env/puv>,
         <https://w3id.org/iadopt/ont> ;
     dcterms:creator "British Oceanographic Data Centre" ;
-    dcterms:date "2026-11-19 02:00:01.0" ;
+    dcterms:date "2026-11-21 02:00:01.0" ;
     dcterms:description "Terms built using the BODC parameter semantic model designed to describe individual measured phenomena. May be used to mark up sets of data such as a NetCDF array or spreadsheet column. Units must be specified when using a P01 code. The P06 unit that is linked to individual P01 in the NVS is the one used in BODC's systems but external users can use any appropriate units." ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:publisher "Natural Environment Research Council" ;
@@ -23,7 +23,7 @@
     grg:RE_RegisterOwner "British Oceanographic Data Centre" ;
     rdfs:comment "Governance for vocabularies used within the data centre" ;
     rdfs:seeAlso <https://github.com/nvs-vocabs/P01> ;
-    owl:versionInfo "1390" ;
+    owl:versionInfo "1391" ;
     skos:altLabel "BODC PUV" ;
     skos:member <http://vocab.nerc.ac.uk/collection/P01/current/1IPSWF45/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/2IPSWF45/>,
@@ -5886,6 +5886,7 @@
         <http://vocab.nerc.ac.uk/collection/P01/current/BTORVAS0/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/BTRATIO1/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/BTRIFLU0/>,
+        <http://vocab.nerc.ac.uk/collection/P01/current/BTRIFLU1/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/BTRIMET6/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/BTTERBI6/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/BTVOLTCM/>,
@@ -17104,6 +17105,7 @@
         <http://vocab.nerc.ac.uk/collection/P01/current/FORODIB3/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/FORODIB5/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/FORODIB7/>,
+        <http://vocab.nerc.ac.uk/collection/P01/current/FOROHEX1/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/FOROHEX7/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/FORONON5/>,
         <http://vocab.nerc.ac.uk/collection/P01/current/FOSPHAT7/>,
@@ -187240,6 +187242,30 @@
     skos:notation "SDN:P01::BTRIFLU0" ;
     skos:note "accepted"@en ;
     skos:prefLabel "Concentration of 2,2,2-trifluoroacetic acid {CAS 76-05-1} per unit dry weight of sediment <2000um by wet sieving and liquid chromatography-high resolution mass spectrometry"@en ;
+    skos:related <http://vocab.nerc.ac.uk/collection/P06/current/UUKG/>,
+        <http://vocab.nerc.ac.uk/collection/S02/current/S041/>,
+        <http://vocab.nerc.ac.uk/collection/S03/current/S03220/>,
+        <http://vocab.nerc.ac.uk/collection/S04/current/S041212/> .
+
+<http://vocab.nerc.ac.uk/collection/P01/current/BTRIFLU1/> rdf:type skos:Concept ;
+    dc:identifier "SDN:P01::BTRIFLU1" ;
+    dcterms:date "2026-11-20 12:04:35.0" ;
+    dcterms:identifier "SDN:P01::BTRIFLU1" ;
+    pav:authoredOn "2026-11-20 12:04:35.0" ;
+    pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/P01/current/BTRIFLU1/1/> ;
+    pav:version "1" ;
+    void:inDataset <http://vocab.nerc.ac.uk/.well-known/void> ;
+    owl:deprecated "false" ;
+    owl:versionInfo "1" ;
+    skos:altLabel "Conc_CAS40143-77-9_drysed<2000um_ws_lchrms" ;
+    skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/SCOC/>,
+        <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
+        <http://vocab.nerc.ac.uk/collection/S26/current/MAT00080/>,
+        <http://vocab.nerc.ac.uk/collection/S27/current/CS004602/> ;
+    skos:definition "The quantity or mass of the specified analyte contained in a subsample of wet sediment that passes through a 2000 micron sieve and analysed by the specified method. The measurement is then reported on a dry weight basis."@en ;
+    skos:notation "SDN:P01::BTRIFLU1" ;
+    skos:note "accepted"@en ;
+    skos:prefLabel "Concentration of bis(1,1,2,2,3,3,4,4,5,5,6,6,6-tridecafluorohexyl)phosphinic acid {6:6 PFPi CAS 40143-77-9} per unit dry weight of sediment <2000um by wet sieving and liquid chromatography-high resolution mass spectrometry"@en ;
     skos:related <http://vocab.nerc.ac.uk/collection/P06/current/UUKG/>,
         <http://vocab.nerc.ac.uk/collection/S02/current/S041/>,
         <http://vocab.nerc.ac.uk/collection/S03/current/S03220/>,
@@ -462903,6 +462929,30 @@
     skos:prefLabel "Concentration of 1,2,3,4,6,7,8,9-octachlorodibenzofuran {octaCDF CAS 39001-02-0} per unit wet weight of biota {Neogobius melanostomus (ITIS: 172072: WoRMS 126916) [Subcomponent: muscle tissue]}"@en ;
     skos:related <http://vocab.nerc.ac.uk/collection/P06/current/UUKG/>,
         <http://vocab.nerc.ac.uk/collection/S02/current/S055/> .
+
+<http://vocab.nerc.ac.uk/collection/P01/current/FOROHEX1/> rdf:type skos:Concept ;
+    dc:identifier "SDN:P01::FOROHEX1" ;
+    dcterms:date "2026-11-20 12:04:35.0" ;
+    dcterms:identifier "SDN:P01::FOROHEX1" ;
+    pav:authoredOn "2026-11-20 12:04:35.0" ;
+    pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/P01/current/FOROHEX1/1/> ;
+    pav:version "1" ;
+    void:inDataset <http://vocab.nerc.ac.uk/.well-known/void> ;
+    owl:deprecated "false" ;
+    owl:versionInfo "1" ;
+    skos:altLabel "Conc_PFHxS_br_drysed<2000um_ws_lchrms" ;
+    skos:broader <http://vocab.nerc.ac.uk/collection/P02/current/SCOC/>,
+        <http://vocab.nerc.ac.uk/collection/S06/current/S0600045/>,
+        <http://vocab.nerc.ac.uk/collection/S26/current/MAT00080/>,
+        <http://vocab.nerc.ac.uk/collection/S27/current/CS004637/> ;
+    skos:definition "The quantity or mass of the specified analyte contained in a subsample of wet sediment that passes through a 2000 micron sieve and analysed by the specified method. The measurement is then reported on a dry weight basis."@en ;
+    skos:notation "SDN:P01::FOROHEX1" ;
+    skos:note "accepted"@en ;
+    skos:prefLabel "Concentration of perfluorohexanesulfonic acid (branched) {PFHxS_branched} per unit dry weight of sediment <2000um by wet sieving and liquid chromatography-high resolution mass spectrometry"@en ;
+    skos:related <http://vocab.nerc.ac.uk/collection/P06/current/UUKG/>,
+        <http://vocab.nerc.ac.uk/collection/S02/current/S041/>,
+        <http://vocab.nerc.ac.uk/collection/S03/current/S03220/>,
+        <http://vocab.nerc.ac.uk/collection/S04/current/S041212/> .
 
 <http://vocab.nerc.ac.uk/collection/P01/current/FOROHEX7/> rdf:type skos:Concept ;
     dc:identifier "SDN:P01::FOROHEX7" ;
